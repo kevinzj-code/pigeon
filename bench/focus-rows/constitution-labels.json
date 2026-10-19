@@ -1,0 +1,619 @@
+{
+ "labels": [
+  {
+   "id": "c006",
+   "sentence": 1,
+   "quote": "chosen every second Year by the People"
+  },
+  {
+   "id": "c007",
+   "sentence": 2,
+   "quote": "attained to the Age of twenty five Years"
+  },
+  {
+   "id": "c008",
+   "sentence": 4,
+   "quote": "within every subsequent Term of ten Years"
+  },
+  {
+   "id": "c009",
+   "sentence": 6,
+   "quote": "the Executive Authority thereof shall issue Writs of Election"
+  },
+  {
+   "id": "c010",
+   "sentence": 7,
+   "quote": "shall have the sole Power of Impeachment"
+  },
+  {
+   "id": "c011",
+   "sentence": 5,
+   "quote": "until such enumeration shall be made, the State of New Hampshire shall be entitled to chuse three"
+  },
+  {
+   "id": "c012",
+   "sentence": 1,
+   "quote": "chosen by the Legislature thereof, for six Years"
+  },
+  {
+   "id": "c013",
+   "sentence": 4,
+   "quote": "attained to the Age of thirty Years, and been nine Years a Citizen"
+  },
+  {
+   "id": "c014",
+   "sentence": 5,
+   "quote": "The Vice President of the United States shall be President of the Senate, but shall have no Vote, unless they be equally divided"
+  },
+  {
+   "id": "c015",
+   "sentence": 9,
+   "quote": "the Chief Justice shall preside: And no Person shall be convicted without the Concurrence of two thirds"
+  },
+  {
+   "id": "c016",
+   "sentence": 10,
+   "quote": "shall not extend further than to removal from Office, and disqualification"
+  },
+  {
+   "id": "c017",
+   "sentence": 3,
+   "quote": "so that one third may be chosen every second Year",
+   "note": "Sentence 2 states the division into classes; the reason (one third chosen every second year) is only in 3.",
+   "also": [
+    2
+   ]
+  },
+  {
+   "id": "c018",
+   "sentence": 1,
+   "quote": "shall be prescribed in each State by the Legislature thereof"
+  },
+  {
+   "id": "c019",
+   "sentence": 2,
+   "quote": "shall assemble at least once in every Year"
+  },
+  {
+   "id": "c020",
+   "sentence": 1,
+   "quote": "except as to the Places of chusing Senators"
+  },
+  {
+   "id": "c021",
+   "sentence": 1,
+   "quote": "a Majority of each shall constitute a Quorum to do Business"
+  },
+  {
+   "id": "c022",
+   "sentence": 2,
+   "quote": "with the Concurrence of two thirds, expel a Member"
+  },
+  {
+   "id": "c023",
+   "sentence": 3,
+   "quote": "at the Desire of one fifth of those Present"
+  },
+  {
+   "id": "c024",
+   "sentence": 4,
+   "quote": "without the Consent of the other, adjourn for more than three days"
+  },
+  {
+   "id": "c025",
+   "sentence": 2,
+   "quote": "privileged from Arrest during their Attendance at the Session"
+  },
+  {
+   "id": "c026",
+   "sentence": 2,
+   "quote": "they shall not be questioned in any other Place"
+  },
+  {
+   "id": "c027",
+   "sentence": 3,
+   "quote": "the Emoluments whereof shall have been encreased during such time"
+  },
+  {
+   "id": "c028",
+   "sentence": 1,
+   "quote": "paid out of the Treasury of the United States"
+  },
+  {
+   "id": "c029",
+   "sentence": 1,
+   "quote": "shall originate in the House of Representatives"
+  },
+  {
+   "id": "c030",
+   "sentence": 2,
+   "quote": "he shall return it, with his Objections to that House in which it shall have originated, who shall enter the Objections at large on their Journal, and proceed to reconsider it",
+   "note": "Sentence 2 says the originating House records the objections and reconsiders; the two-thirds override that follows is in 3.",
+   "also": [
+    3
+   ]
+  },
+  {
+   "id": "c031",
+   "sentence": 5,
+   "quote": "the Same shall be a Law, in like Manner as if he had signed it"
+  },
+  {
+   "id": "c032",
+   "sentence": 6,
+   "quote": "Every Order, Resolution, or Vote to which the Concurrence of the Senate and House of Representatives may be necessary"
+  },
+  {
+   "id": "c040",
+   "sentence": 2,
+   "quote": "unless when in Cases of Rebellion or Invasion the public Safety may require it"
+  },
+  {
+   "id": "c041",
+   "sentence": 3,
+   "quote": "No Bill of Attainder or ex post facto Law shall be passed"
+  },
+  {
+   "id": "c042",
+   "sentence": 5,
+   "quote": "No Tax or Duty shall be laid on Articles exported from any State"
+  },
+  {
+   "id": "c043",
+   "sentence": 7,
+   "quote": "but in Consequence of Appropriations made by Law"
+  },
+  {
+   "id": "c044",
+   "sentence": 8,
+   "quote": "without the Consent of the Congress, accept of any present, Emolument, Office, or Title"
+  },
+  {
+   "id": "c045",
+   "sentence": 1,
+   "quote": "prior to the Year one thousand eight hundred and eight"
+  },
+  {
+   "id": "c046",
+   "sentence": 1,
+   "quote": "coin Money"
+  },
+  {
+   "id": "c047",
+   "sentence": 1,
+   "quote": "No State shall enter into any Treaty, Alliance, or Confederation",
+   "note": "Sentence 3 also bars an Agreement or Compact with a foreign Power without the Consent of Congress; 1 is the flat bar on a treaty.",
+   "also": [
+    3
+   ]
+  },
+  {
+   "id": "c048",
+   "sentence": 3,
+   "quote": "keep Troops, or Ships of War in time of Peace"
+  },
+  {
+   "id": "c049",
+   "sentence": 3,
+   "quote": "engage in War, unless actually invaded, or in such imminent Danger as will not admit of delay"
+  },
+  {
+   "id": "c050",
+   "sentence": 2,
+   "quote": "shall be for the Use of the Treasury of the United States"
+  },
+  {
+   "id": "c051",
+   "sentence": 2,
+   "quote": "He shall hold his Office during the Term of four Years"
+  },
+  {
+   "id": "c052",
+   "sentence": 2,
+   "quote": "a Number of Electors, equal to the whole Number of Senators and Representatives"
+  },
+  {
+   "id": "c053",
+   "sentence": 11,
+   "quote": "No Person except a natural born Citizen"
+  },
+  {
+   "id": "c054",
+   "sentence": 14,
+   "quote": "I do solemnly swear (or affirm) that I will faithfully execute the Office of President"
+  },
+  {
+   "id": "c055",
+   "sentence": 13,
+   "quote": "shall neither be encreased nor diminished during the Period for which he shall have been elected"
+  },
+  {
+   "id": "c056",
+   "sentence": 12,
+   "quote": "the Same shall devolve on the Vice President"
+  },
+  {
+   "id": "c057",
+   "sentence": 6,
+   "quote": "if no Person have a Majority, then from the five highest on the List the said House shall in like Manner chuse the President"
+  },
+  {
+   "id": "c058",
+   "sentence": 1,
+   "quote": "The President shall be Commander in Chief of the Army and Navy"
+  },
+  {
+   "id": "c059",
+   "sentence": 2,
+   "quote": "provided two thirds of the Senators present concur"
+  },
+  {
+   "id": "c060",
+   "sentence": 1,
+   "quote": "except in Cases of Impeachment"
+  },
+  {
+   "id": "c061",
+   "sentence": 2,
+   "quote": "shall appoint Ambassadors, other public Ministers and Consuls, Judges of the supreme Court"
+  },
+  {
+   "id": "c062",
+   "sentence": 3,
+   "quote": "which shall expire at the End of their next Session"
+  },
+  {
+   "id": "c068",
+   "sentence": 2,
+   "quote": "shall hold their Offices during good Behaviour"
+  },
+  {
+   "id": "c069",
+   "sentence": 1,
+   "quote": "such inferior Courts as the Congress may from time to time ordain and establish"
+  },
+  {
+   "id": "c070",
+   "sentence": 2,
+   "quote": "which shall not be diminished during their Continuance in Office"
+  },
+  {
+   "id": "c071",
+   "sentence": 2,
+   "quote": "the supreme Court shall have original Jurisdiction"
+  },
+  {
+   "id": "c072",
+   "sentence": 4,
+   "quote": "shall be held in the State where the said Crimes shall have been committed"
+  },
+  {
+   "id": "c073",
+   "sentence": 4,
+   "quote": "The Trial of all Crimes, except in Cases of Impeachment, shall be by Jury"
+  },
+  {
+   "id": "c074",
+   "sentence": 1,
+   "quote": "to Controversies between two or more States"
+  },
+  {
+   "id": "c075",
+   "sentence": 1,
+   "quote": "shall consist only in levying War against them, or in adhering to their Enemies"
+  },
+  {
+   "id": "c076",
+   "sentence": 2,
+   "quote": "the Testimony of two Witnesses to the same overt Act, or on Confession in open Court"
+  },
+  {
+   "id": "c077",
+   "sentence": 3,
+   "quote": "no Attainder of Treason shall work Corruption of Blood"
+  },
+  {
+   "id": "c078",
+   "sentence": 1,
+   "quote": "Full Faith and Credit shall be given in each State"
+  },
+  {
+   "id": "c079",
+   "sentence": 2,
+   "quote": "the Congress may by general Laws prescribe the Manner"
+  },
+  {
+   "id": "c080",
+   "sentence": 2,
+   "quote": "be delivered up, to be removed to the State having Jurisdiction of the Crime"
+  },
+  {
+   "id": "c081",
+   "sentence": 1,
+   "quote": "shall be entitled to all Privileges and Immunities of Citizens in the several States"
+  },
+  {
+   "id": "c082",
+   "sentence": 3,
+   "quote": "shall be delivered up on Claim of the Party to whom such Service or Labour may be due"
+  },
+  {
+   "id": "c083",
+   "sentence": 1,
+   "quote": "no new State shall be formed or erected within the Jurisdiction of any other State"
+  },
+  {
+   "id": "c084",
+   "sentence": 1,
+   "quote": "New States may be admitted by the Congress into this Union"
+  },
+  {
+   "id": "c085",
+   "sentence": 2,
+   "quote": "make all needful Rules and Regulations respecting the Territory"
+  },
+  {
+   "id": "c092",
+   "sentence": 2,
+   "quote": "shall be the supreme Law of the Land"
+  },
+  {
+   "id": "c093",
+   "sentence": 3,
+   "quote": "no religious Test shall ever be required"
+  },
+  {
+   "id": "c094",
+   "sentence": 3,
+   "quote": "shall be bound by Oath or Affirmation, to support this Constitution"
+  },
+  {
+   "id": "c095",
+   "sentence": 1,
+   "quote": "shall be as valid against the United States under this Constitution, as under the Confederation"
+  },
+  {
+   "id": "c127",
+   "sentence": 1,
+   "quote": "they shall name in their ballots the person voted for as President, and in distinct ballots the person voted for as Vice-President"
+  },
+  {
+   "id": "c128",
+   "sentence": 1,
+   "quote": "the House of Representatives shall choose immediately, by ballot, the President"
+  },
+  {
+   "id": "c129",
+   "sentence": 3,
+   "quote": "the Senate shall choose the Vice-President"
+  },
+  {
+   "id": "c130",
+   "sentence": 4,
+   "quote": "no person constitutionally ineligible to the office of President shall be eligible to that of Vice-President"
+  },
+  {
+   "id": "c131",
+   "sentence": 2,
+   "quote": "a quorum for this purpose shall consist of a member or members from two-thirds of the states"
+  },
+  {
+   "id": "c132",
+   "sentence": 1,
+   "quote": "Neither slavery nor involuntary servitude"
+  },
+  {
+   "id": "c133",
+   "sentence": 2,
+   "quote": "Congress shall have power to enforce this article by appropriate legislation"
+  },
+  {
+   "id": "c134",
+   "sentence": 1,
+   "quote": "All persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens"
+  },
+  {
+   "id": "c135",
+   "sentence": 2,
+   "quote": "nor deny to any person within its jurisdiction the equal protection of the laws"
+  },
+  {
+   "id": "c136",
+   "sentence": 5,
+   "quote": "shall have engaged in insurrection or rebellion against the same",
+   "note": "The bar is in 5; sentence 6 (Congress may lift it by two-thirds) answers the \"again\" part.",
+   "also": [
+    6
+   ]
+  },
+  {
+   "id": "c137",
+   "sentence": 7,
+   "quote": "The validity of the public debt of the United States, authorized by law"
+  },
+  {
+   "id": "c138",
+   "sentence": 3,
+   "quote": "counting the whole number of persons in each State, excluding Indians not taxed",
+   "note": "Sentence 4 adds the other change (representation reduced where male citizens' vote is denied); 3 is the headline change.",
+   "also": [
+    4
+   ]
+  },
+  {
+   "id": "c139",
+   "sentence": 2,
+   "quote": "nor shall any State deprive any person of life, liberty, or property, without due process of law"
+  },
+  {
+   "id": "c140",
+   "sentence": 1,
+   "quote": "on account of race, color, or previous condition of servitude"
+  },
+  {
+   "id": "c141",
+   "sentence": 2,
+   "quote": "The Congress shall have power to enforce this article"
+  },
+  {
+   "id": "c144",
+   "sentence": 1,
+   "quote": "elected by the people thereof"
+  },
+  {
+   "id": "c145",
+   "sentence": 3,
+   "quote": "the executive authority of such State shall issue writs of election to fill such vacancies"
+  },
+  {
+   "id": "c146",
+   "sentence": 4,
+   "quote": "shall not be so construed as to affect the election or term of any Senator chosen before"
+  },
+  {
+   "id": "c147",
+   "sentence": 1,
+   "quote": "the manufacture, sale, or transportation of intoxicating liquors"
+  },
+  {
+   "id": "c148",
+   "sentence": 2,
+   "quote": "The Congress and the several States shall have concurrent power to enforce this article"
+  },
+  {
+   "id": "c149",
+   "sentence": 3,
+   "quote": "within seven years from the date of the submission hereof"
+  },
+  {
+   "id": "c150",
+   "sentence": 1,
+   "quote": "on account of sex"
+  },
+  {
+   "id": "c151",
+   "sentence": 2,
+   "quote": "Congress shall have power to enforce this article"
+  },
+  {
+   "id": "c152",
+   "sentence": 1,
+   "quote": "The terms of the President and Vice President shall end at noon on the 20th day of January"
+  },
+  {
+   "id": "c153",
+   "sentence": 2,
+   "quote": "such meeting shall begin at noon on the 3d day of January"
+  },
+  {
+   "id": "c154",
+   "sentence": 3,
+   "quote": "the Vice President elect shall become President"
+  },
+  {
+   "id": "c155",
+   "sentence": 4,
+   "quote": "the Vice President elect shall act as President until a President shall have qualified"
+  },
+  {
+   "id": "c156",
+   "sentence": 6,
+   "quote": "shall take effect on the 15th day of October"
+  },
+  {
+   "id": "c157",
+   "sentence": 1,
+   "quote": "The eighteenth article of amendment to the Constitution of the United States is hereby repealed",
+   "note": "The passage never names itself the Twenty-first; 1 says this article repealed the Eighteenth. 0 is defensible.",
+   "also": [
+    0
+   ]
+  },
+  {
+   "id": "c158",
+   "sentence": 2,
+   "quote": "in violation of the laws thereof, is hereby prohibited"
+  },
+  {
+   "id": "c159",
+   "sentence": 3,
+   "quote": "by conventions in the several States"
+  },
+  {
+   "id": "c160",
+   "sentence": 1,
+   "quote": "No person shall be elected to the office of the President more than twice"
+  },
+  {
+   "id": "c161",
+   "sentence": 2,
+   "quote": "this Article shall not apply to any person holding the office of President when this Article was proposed"
+  },
+  {
+   "id": "c162",
+   "sentence": 3,
+   "quote": "within seven years from the date of its submission to the States"
+  },
+  {
+   "id": "c163",
+   "sentence": 1,
+   "quote": "A number of electors of President and Vice President equal to the whole number of Senators and Representatives"
+  },
+  {
+   "id": "c164",
+   "sentence": 1,
+   "quote": "they shall meet in the District and perform such duties as provided by the twelfth article of amendment"
+  },
+  {
+   "id": "c165",
+   "sentence": 1,
+   "quote": "shall appoint in such manner as the Congress may direct"
+  },
+  {
+   "id": "c166",
+   "sentence": 1,
+   "quote": "by reason of failure to pay any poll tax or other tax"
+  },
+  {
+   "id": "c167",
+   "sentence": 1,
+   "quote": "in any primary or other election for President or Vice President"
+  },
+  {
+   "id": "c168",
+   "sentence": 1,
+   "quote": "the Vice President shall become President"
+  },
+  {
+   "id": "c169",
+   "sentence": 2,
+   "quote": "the President shall nominate a Vice President who shall take office upon confirmation by a majority vote of both Houses"
+  },
+  {
+   "id": "c170",
+   "sentence": 3,
+   "quote": "such powers and duties shall be discharged by the Vice President as Acting President"
+  },
+  {
+   "id": "c171",
+   "sentence": 4,
+   "quote": "the Vice President shall immediately assume the powers and duties of the office as Acting President"
+  },
+  {
+   "id": "c172",
+   "sentence": 7,
+   "quote": "determines by two-thirds vote of both Houses"
+  },
+  {
+   "id": "c173",
+   "sentence": 1,
+   "quote": "who are eighteen years of age or older"
+  },
+  {
+   "id": "c174",
+   "sentence": 2,
+   "quote": "The Congress shall have power to enforce this article"
+  }
+ ],
+ "reviewed": "Pigeon dev 2026-10-13: the 7 arguable choices read; 6 accept the alternative named in their note (also), c155 is clear"
+}

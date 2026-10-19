@@ -1,0 +1,3424 @@
+[
+ {
+  "text": "the angle of his gaze shifted just enough to make the room feel wider.",
+  "from": [
+   "convertAngle",
+   "convertArea",
+   "convertBase",
+   "convertDataSize",
+   "convertFuelEconomy"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "my area was getting so cramped under that huge tent.",
+  "from": [
+   "convertAngle",
+   "convertArea",
+   "convertBase",
+   "convertDataSize",
+   "convertFuelEconomy"
+  ],
+  "wrongly": "none",
+  "confidence": 0.997
+ },
+ {
+  "text": "the base of the building looked solid and unshakeable from the ground up.",
+  "from": [
+   "convertAngle",
+   "convertArea",
+   "convertBase",
+   "convertDataSize",
+   "convertFuelEconomy"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "the data size of that spreadsheet was growing faster than my patience.",
+  "from": [
+   "convertAngle",
+   "convertArea",
+   "convertBase",
+   "convertDataSize",
+   "convertFuelEconomy"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.332
+ },
+ {
+  "text": "he converted his fuel economy by swapping the car for a bike.",
+  "from": [
+   "convertAngle",
+   "convertArea",
+   "convertBase",
+   "convertDataSize",
+   "convertFuelEconomy"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "the angle between their arms showed the tension in the room.",
+  "from": [
+   "convertAngle",
+   "convertArea",
+   "convertBase",
+   "convertDataSize",
+   "convertFuelEconomy"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "the area where we sat was just a tiny slice of the whole table.",
+  "from": [
+   "convertAngle",
+   "convertArea",
+   "convertBase",
+   "convertDataSize",
+   "convertFuelEconomy"
+  ],
+  "wrongly": "none",
+  "confidence": 0.914
+ },
+ {
+  "text": "the base of the problem was something we all agreed needed fixing.",
+  "from": [
+   "convertAngle",
+   "convertArea",
+   "convertBase",
+   "convertDataSize",
+   "convertFuelEconomy"
+  ],
+  "wrongly": "none",
+  "confidence": 0.997
+ },
+ {
+  "text": "the data size of the photo he sent was barely a thumbnail.",
+  "from": [
+   "convertAngle",
+   "convertArea",
+   "convertBase",
+   "convertDataSize",
+   "convertFuelEconomy"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.45
+ },
+ {
+  "text": "they converted the fuel economy of their dream to something much more practical.",
+  "from": [
+   "convertAngle",
+   "convertArea",
+   "convertBase",
+   "convertDataSize",
+   "convertFuelEconomy"
+  ],
+  "wrongly": "none",
+  "confidence": 0.838
+ },
+ {
+  "text": "i finally got that 26-mile training run done and it felt like a marathon",
+  "from": [
+   "convertLength",
+   "convertMass",
+   "convertRomanNumeral",
+   "convertSpeed",
+   "convertTemperature"
+  ],
+  "wrongly": "none",
+  "confidence": 0.924
+ },
+ {
+  "text": "my shoes are a bit worn down but still good for a few more hundred feet",
+  "from": [
+   "convertLength",
+   "convertMass",
+   "convertRomanNumeral",
+   "convertSpeed",
+   "convertTemperature"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.606
+ },
+ {
+  "text": "i heard the old guy in the park was born in mcmlxxxiv and he looked so wise",
+  "from": [
+   "convertLength",
+   "convertMass",
+   "convertRomanNumeral",
+   "convertSpeed",
+   "convertTemperature"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.611
+ },
+ {
+  "text": "they said the speed of light is crazy fast but i guess it just keeps going",
+  "from": [
+   "convertLength",
+   "convertMass",
+   "convertRomanNumeral",
+   "convertSpeed",
+   "convertTemperature"
+  ],
+  "wrongly": "none",
+  "confidence": 0.944
+ },
+ {
+  "text": "the water on the beach is always cooler than i expect in summer heat",
+  "from": [
+   "convertLength",
+   "convertMass",
+   "convertRomanNumeral",
+   "convertSpeed",
+   "convertTemperature"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "i think i'm finally starting to understand the weight of my own decisions",
+  "from": [
+   "convertLength",
+   "convertMass",
+   "convertRomanNumeral",
+   "convertSpeed",
+   "convertTemperature"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "there was a lot of miles between those two points and it took forever to get there",
+  "from": [
+   "convertLength",
+   "convertMass",
+   "convertRomanNumeral",
+   "convertSpeed",
+   "convertTemperature"
+  ],
+  "wrongly": "none",
+  "confidence": 0.98
+ },
+ {
+  "text": "i wish i could just convert my bad mood into something positive but that doesn't work",
+  "from": [
+   "convertLength",
+   "convertMass",
+   "convertRomanNumeral",
+   "convertSpeed",
+   "convertTemperature"
+  ],
+  "wrongly": "none",
+  "confidence": 0.996
+ },
+ {
+  "text": "the volume in my stomach felt like a thousand gallons of tea",
+  "from": [
+   "convertTime",
+   "convertVolume",
+   "numberToWords",
+   "buildQueryString",
+   "columnMath"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "i spelled out a million words about my dream home last night",
+  "from": [
+   "convertTime",
+   "convertVolume",
+   "numberToWords",
+   "buildQueryString",
+   "columnMath"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.506
+ },
+ {
+  "text": "she asked me to build a bridge but i just wanted to make a query",
+  "from": [
+   "convertTime",
+   "convertVolume",
+   "numberToWords",
+   "buildQueryString",
+   "columnMath"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.799
+ },
+ {
+  "text": "the column of pain in my leg was the average i could bear",
+  "from": [
+   "convertTime",
+   "convertVolume",
+   "numberToWords",
+   "buildQueryString",
+   "columnMath"
+  ],
+  "wrongly": "none",
+  "confidence": 0.929
+ },
+ {
+  "text": "what if the average temperature drops before we even start the show",
+  "from": [
+   "convertTime",
+   "convertVolume",
+   "numberToWords",
+   "buildQueryString",
+   "columnMath"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.706
+ },
+ {
+  "text": "she kept those rows filtered down to just the essentials",
+  "from": [
+   "diffJson",
+   "filterRows",
+   "flattenJson",
+   "formatJson",
+   "getPath"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.623
+ },
+ {
+  "text": "i tried to pretty print it but it was already so ugly",
+  "from": [
+   "diffJson",
+   "filterRows",
+   "flattenJson",
+   "formatJson",
+   "getPath"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.618
+ },
+ {
+  "text": "that was the weird diff that messed up our whole pipeline",
+  "from": [
+   "diffJson",
+   "filterRows",
+   "flattenJson",
+   "formatJson",
+   "getPath"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.434
+ },
+ {
+  "text": "filtering out all the noise was the only way to hear him",
+  "from": [
+   "diffJson",
+   "filterRows",
+   "flattenJson",
+   "formatJson",
+   "getPath"
+  ],
+  "wrongly": "none",
+  "confidence": 0.888
+ },
+ {
+  "text": "flattening the data structure gave us a weird new perspective",
+  "from": [
+   "diffJson",
+   "filterRows",
+   "flattenJson",
+   "formatJson",
+   "getPath"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.512
+ },
+ {
+  "text": "the path to the error log was a lot deeper than i thought",
+  "from": [
+   "diffJson",
+   "filterRows",
+   "flattenJson",
+   "formatJson",
+   "getPath"
+  ],
+  "wrongly": "none",
+  "confidence": 0.992
+ },
+ {
+  "text": "my group of friends finally got together this week",
+  "from": [
+   "groupBy",
+   "parseCsv",
+   "parseKeyValue",
+   "parseMarkdownTable",
+   "parseQueryString"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "i parsed the receipt so i knew the exact total",
+  "from": [
+   "groupBy",
+   "parseCsv",
+   "parseKeyValue",
+   "parseMarkdownTable",
+   "parseQueryString"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.761
+ },
+ {
+  "text": "they handed me a key to open the back door",
+  "from": [
+   "groupBy",
+   "parseCsv",
+   "parseKeyValue",
+   "parseMarkdownTable",
+   "parseQueryString"
+  ],
+  "wrongly": "none",
+  "confidence": 0.997
+ },
+ {
+  "text": "the markdown table in her report was a mess to read",
+  "from": [
+   "groupBy",
+   "parseCsv",
+   "parseKeyValue",
+   "parseMarkdownTable",
+   "parseQueryString"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.502
+ },
+ {
+  "text": "i found a link that had too many query parameters",
+  "from": [
+   "groupBy",
+   "parseCsv",
+   "parseKeyValue",
+   "parseMarkdownTable",
+   "parseQueryString"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.569
+ },
+ {
+  "text": "my columns got mixed up so i just kept what i needed",
+  "from": [
+   "pivotRows",
+   "selectColumns",
+   "setPath",
+   "sortObjectKeys",
+   "sortRows"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.497
+ },
+ {
+  "text": "the path to my old feelings was dotted with mistakes",
+  "from": [
+   "pivotRows",
+   "selectColumns",
+   "setPath",
+   "sortObjectKeys",
+   "sortRows"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "sorting through my memories was actually alphabetical",
+  "from": [
+   "pivotRows",
+   "selectColumns",
+   "setPath",
+   "sortObjectKeys",
+   "sortRows"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.476
+ },
+ {
+  "text": "it was hard to pivot my focus when everything moved",
+  "from": [
+   "pivotRows",
+   "selectColumns",
+   "setPath",
+   "sortObjectKeys",
+   "sortRows"
+  ],
+  "wrongly": "none",
+  "confidence": 0.988
+ },
+ {
+  "text": "i kept the important names and let the rest go",
+  "from": [
+   "pivotRows",
+   "selectColumns",
+   "setPath",
+   "sortObjectKeys",
+   "sortRows"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.742
+ },
+ {
+  "text": "set my expectations lower after that long delay",
+  "from": [
+   "pivotRows",
+   "selectColumns",
+   "setPath",
+   "sortObjectKeys",
+   "sortRows"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "sort the chaos in my head so i can breathe",
+  "from": [
+   "pivotRows",
+   "selectColumns",
+   "setPath",
+   "sortObjectKeys",
+   "sortRows"
+  ],
+  "wrongly": "none",
+  "confidence": 0.975
+ },
+ {
+  "text": "i wish i could just reorder my priorities properly",
+  "from": [
+   "pivotRows",
+   "selectColumns",
+   "setPath",
+   "sortObjectKeys",
+   "sortRows"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "it's hard to read the timeline when the table is so dense and all those pipes are everywhere",
+  "from": [
+   "toCsv",
+   "toMarkdownTable",
+   "transposeTable",
+   "unflattenJson",
+   "addBusinessDays"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.53
+ },
+ {
+  "text": "the config file looked so much flatter when i first opened it, but then it just collapsed under its own weight",
+  "from": [
+   "toCsv",
+   "toMarkdownTable",
+   "transposeTable",
+   "unflattenJson",
+   "addBusinessDays"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.612
+ },
+ {
+  "text": "it's been five working days since i last saw the sun without checking my calendar for a meeting",
+  "from": [
+   "toCsv",
+   "toMarkdownTable",
+   "transposeTable",
+   "unflattenJson",
+   "addBusinessDays"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.595
+ },
+ {
+  "text": "it was just six weeks ago when we finally finished the project",
+  "from": [
+   "addDuration",
+   "ageFromDate",
+   "businessDaysBetween",
+   "convertTimezone",
+   "countdownTo"
+  ],
+  "wrongly": "none",
+  "confidence": 0.989
+ },
+ {
+  "text": "he said the time in new york was already threepm when we arrived",
+  "from": [
+   "addDuration",
+   "ageFromDate",
+   "businessDaysBetween",
+   "convertTimezone",
+   "countdownTo"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.677
+ },
+ {
+  "text": "it feels like it has been weeks since we counted down to christmas",
+  "from": [
+   "addDuration",
+   "ageFromDate",
+   "businessDaysBetween",
+   "convertTimezone",
+   "countdownTo"
+  ],
+  "wrongly": "none",
+  "confidence": 0.895
+ },
+ {
+  "text": "the meeting started on monday and ended friday which was perfect timing",
+  "from": [
+   "addDuration",
+   "ageFromDate",
+   "businessDaysBetween",
+   "convertTimezone",
+   "countdownTo"
+  ],
+  "wrongly": "none",
+  "confidence": 0.957
+ },
+ {
+  "text": "it was a busy month so i was glad we only had three days off",
+  "from": [
+   "addDuration",
+   "ageFromDate",
+   "businessDaysBetween",
+   "convertTimezone",
+   "countdownTo"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "the dates between the start of the semester and finals are just ticking by faster than i can drink my coffee",
+  "from": [
+   "currentTime",
+   "dateRangeList",
+   "dayOfWeek",
+   "dayOfYear",
+   "daysBetween"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.357
+ },
+ {
+  "text": "i told my boss i'd finish the report before the end of the month, but it feels like we're still in the middle of the day",
+  "from": [
+   "currentTime",
+   "dateRangeList",
+   "dayOfWeek",
+   "dayOfYear",
+   "daysBetween"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.474
+ },
+ {
+  "text": "the gap between that big sale and the next discount is feeling like an eternity even though the calendar says otherwise",
+  "from": [
+   "currentTime",
+   "dateRangeList",
+   "dayOfWeek",
+   "dayOfYear",
+   "daysBetween"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.478
+ },
+ {
+  "text": "the calendar said february 2026 had twenty-eight days.",
+  "from": [
+   "daysInMonth",
+   "durationToText",
+   "expandRecurrence",
+   "formatDate",
+   "isLeapYear"
+  ],
+  "wrongly": "none",
+  "confidence": 0.821
+ },
+ {
+  "text": "she kept her appointment every fortnight from then on.",
+  "from": [
+   "daysInMonth",
+   "durationToText",
+   "expandRecurrence",
+   "formatDate",
+   "isLeapYear"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "she said she couldn't wait for the weekend because it was all just a long stretch of work.",
+  "from": [
+   "isWeekend",
+   "isoToUnix",
+   "isoWeek",
+   "listTimezoneOffsets",
+   "mergeIntervals"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "the calendar said the meeting was on a working day, but i treated it like a weekend meeting.",
+  "from": [
+   "isWeekend",
+   "isoToUnix",
+   "isoWeek",
+   "listTimezoneOffsets",
+   "mergeIntervals"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.657
+ },
+ {
+  "text": "it feels weird to ask someone to show you their timezone offsets when you're already late.",
+  "from": [
+   "isWeekend",
+   "isoToUnix",
+   "isoWeek",
+   "listTimezoneOffsets",
+   "mergeIntervals"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.48
+ },
+ {
+  "text": "that calendar event was just a week away so i had to wake up early",
+  "from": [
+   "nextWeekday",
+   "parseDate",
+   "parseDuration",
+   "parseRelativeDate",
+   "timeAgo"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.513
+ },
+ {
+  "text": "the party was two days ago and it was chaos",
+  "from": [
+   "nextWeekday",
+   "parseDate",
+   "parseDuration",
+   "parseRelativeDate",
+   "timeAgo"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "he sent a note yesterday that he was off work for two days",
+  "from": [
+   "nextWeekday",
+   "parseDate",
+   "parseDuration",
+   "parseRelativeDate",
+   "timeAgo"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "the deadline is exactly next friday so i need to start drafting now",
+  "from": [
+   "nextWeekday",
+   "parseDate",
+   "parseDuration",
+   "parseRelativeDate",
+   "timeAgo"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.518
+ },
+ {
+  "text": "it was a long week so i was hoping next tuesday would bring relief",
+  "from": [
+   "nextWeekday",
+   "parseDate",
+   "parseDuration",
+   "parseRelativeDate",
+   "timeAgo"
+  ],
+  "wrongly": "none",
+  "confidence": 0.863
+ },
+ {
+  "text": "she booked the flight for next week and i hope it works out",
+  "from": [
+   "nextWeekday",
+   "parseDate",
+   "parseDuration",
+   "parseRelativeDate",
+   "timeAgo"
+  ],
+  "wrongly": "none",
+  "confidence": 0.997
+ },
+ {
+  "text": "that presentation was last tuesday and i still have the slides on my phone",
+  "from": [
+   "nextWeekday",
+   "parseDate",
+   "parseDuration",
+   "parseRelativeDate",
+   "timeAgo"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.469
+ },
+ {
+  "text": "my subscription is way ahead of the renting curve, we finally broke even after three months",
+  "from": [
+   "unixToIso",
+   "breakEvenComparison",
+   "expectedValue",
+   "prosConsScore",
+   "weightedDecisionMatrix"
+  ],
+  "wrongly": "none",
+  "confidence": 0.808
+ },
+ {
+  "text": "the expected value of that lottery ticket felt like a mathematical nightmare when he asked",
+  "from": [
+   "unixToIso",
+   "breakEvenComparison",
+   "expectedValue",
+   "prosConsScore",
+   "weightedDecisionMatrix"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.749
+ },
+ {
+  "text": "the pros and cons score was just a way to weigh up the messy reality of a bad decision",
+  "from": [
+   "unixToIso",
+   "breakEvenComparison",
+   "expectedValue",
+   "prosConsScore",
+   "weightedDecisionMatrix"
+  ],
+  "wrongly": "none",
+  "confidence": 0.997
+ },
+ {
+  "text": "the contrast on that old projector screen was terrible back in the high school auditorium",
+  "from": [
+   "aspectRatio",
+   "complementaryColor",
+   "contrastRatio",
+   "convertColor",
+   "darkenColor"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "the way that red and blue blended together in the bruised sky reminded me of what mixing colors did in a painting back then",
+  "from": [
+   "generatePalette",
+   "lightenColor",
+   "mixColors",
+   "nearestNamedColor",
+   "pxToRem"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "i tried to lighten the dark spot on my shirt until it looked like pure white and failed miserably",
+  "from": [
+   "generatePalette",
+   "lightenColor",
+   "mixColors",
+   "nearestNamedColor",
+   "pxToRem"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.574
+ },
+ {
+  "text": "it was strange how that specific shade of green was called forest even though i had no idea what it meant until now",
+  "from": [
+   "generatePalette",
+   "lightenColor",
+   "mixColors",
+   "nearestNamedColor",
+   "pxToRem"
+  ],
+  "wrongly": "none",
+  "confidence": 0.884
+ },
+ {
+  "text": "the palette he built from that grey seemed to shift colors depending on how the sun hit the wall at different times of day",
+  "from": [
+   "generatePalette",
+   "lightenColor",
+   "mixColors",
+   "nearestNamedColor",
+   "pxToRem"
+  ],
+  "wrongly": "none",
+  "confidence": 0.996
+ },
+ {
+  "text": "i tried to find the closest name to a muddy brown but couldn't remember what to call that color until someone described it as earthy",
+  "from": [
+   "generatePalette",
+   "lightenColor",
+   "mixColors",
+   "nearestNamedColor",
+   "pxToRem"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.597
+ },
+ {
+  "text": "the way light shifts on the canvas makes everything seem different depending on the angle and the time of day",
+  "from": [
+   "generatePalette",
+   "lightenColor",
+   "mixColors",
+   "nearestNamedColor",
+   "pxToRem"
+  ],
+  "wrongly": "none",
+  "confidence": 0.973
+ },
+ {
+  "text": "my code just feels a bit too big when i zoom out on the browser",
+  "from": [
+   "remToPx",
+   "scaleDimensions",
+   "compareSemver",
+   "cronToText",
+   "escapeRegex"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.546
+ },
+ {
+  "text": "the font sizes in that project were all just a little too big",
+  "from": [
+   "remToPx",
+   "scaleDimensions",
+   "compareSemver",
+   "cronToText",
+   "escapeRegex"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.684
+ },
+ {
+  "text": "i was trying to figure out which version we were using but it was old news",
+  "from": [
+   "remToPx",
+   "scaleDimensions",
+   "compareSemver",
+   "cronToText",
+   "escapeRegex"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.642
+ },
+ {
+  "text": "the schedule was running on a fixed loop that never really stopped",
+  "from": [
+   "remToPx",
+   "scaleDimensions",
+   "compareSemver",
+   "cronToText",
+   "escapeRegex"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.745
+ },
+ {
+  "text": "i had to escape some of those special characters before the search could find anything",
+  "from": [
+   "remToPx",
+   "scaleDimensions",
+   "compareSemver",
+   "cronToText",
+   "escapeRegex"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.754
+ },
+ {
+  "text": "the version history looks like a long list of updates that i did not need",
+  "from": [
+   "remToPx",
+   "scaleDimensions",
+   "compareSemver",
+   "cronToText",
+   "escapeRegex"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.716
+ },
+ {
+  "text": "the mime type looked up was just a random guess",
+  "from": [
+   "httpStatusLookup",
+   "jwtDecode",
+   "mimeTypeLookup",
+   "parseSemver",
+   "testRegex"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.506
+ },
+ {
+  "text": "i think it's raining outside",
+  "from": [
+   "unicodeLookup",
+   "base64Decode",
+   "base64Encode",
+   "binaryDecode",
+   "binaryEncode"
+  ],
+  "wrongly": "none",
+  "confidence": 0.996
+ },
+ {
+  "text": "my name is basely",
+  "from": [
+   "unicodeLookup",
+   "base64Decode",
+   "base64Encode",
+   "binaryDecode",
+   "binaryEncode"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.558
+ },
+ {
+  "text": "do you know what i mean?",
+  "from": [
+   "unicodeLookup",
+   "base64Decode",
+   "base64Encode",
+   "binaryDecode",
+   "binaryEncode"
+  ],
+  "wrongly": "none",
+  "confidence": 0.957
+ },
+ {
+  "text": "i can't find the right character for this word",
+  "from": [
+   "unicodeLookup",
+   "base64Decode",
+   "base64Encode",
+   "binaryDecode",
+   "binaryEncode"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.536
+ },
+ {
+  "text": "i was just wondering if i was right",
+  "from": [
+   "unicodeLookup",
+   "base64Decode",
+   "base64Encode",
+   "binaryDecode",
+   "binaryEncode"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.682
+ },
+ {
+  "text": "how about the little endian thing",
+  "from": [
+   "unicodeLookup",
+   "base64Decode",
+   "base64Encode",
+   "binaryDecode",
+   "binaryEncode"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.5
+ },
+ {
+  "text": "can you imagine how cool that looks",
+  "from": [
+   "unicodeLookup",
+   "base64Decode",
+   "base64Encode",
+   "binaryDecode",
+   "binaryEncode"
+  ],
+  "wrongly": "none",
+  "confidence": 0.81
+ },
+ {
+  "text": "i found a code point somewhere that looked suspicious",
+  "from": [
+   "unicodeLookup",
+   "base64Decode",
+   "base64Encode",
+   "binaryDecode",
+   "binaryEncode"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.416
+ },
+ {
+  "text": "the message was too long to send",
+  "from": [
+   "unicodeLookup",
+   "base64Decode",
+   "base64Encode",
+   "binaryDecode",
+   "binaryEncode"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.698
+ },
+ {
+  "text": "he shifted the gears in his head back by three steps",
+  "from": [
+   "caesarShift",
+   "compressText",
+   "decompressText",
+   "generatePassphrase",
+   "generateRandomString"
+  ],
+  "wrongly": "none",
+  "confidence": 0.986
+ },
+ {
+  "text": "i compressed my worries into a tiny file",
+  "from": [
+   "caesarShift",
+   "compressText",
+   "decompressText",
+   "generatePassphrase",
+   "generateRandomString"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.607
+ },
+ {
+  "text": "she generated a new hope from the chaos",
+  "from": [
+   "caesarShift",
+   "compressText",
+   "decompressText",
+   "generatePassphrase",
+   "generateRandomString"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "random strings of fate keep getting thrown at him",
+  "from": [
+   "caesarShift",
+   "compressText",
+   "decompressText",
+   "generatePassphrase",
+   "generateRandomString"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.697
+ },
+ {
+  "text": "decompress the memories buried in that box",
+  "from": [
+   "caesarShift",
+   "compressText",
+   "decompressText",
+   "generatePassphrase",
+   "generateRandomString"
+  ],
+  "wrongly": "none",
+  "confidence": 0.896
+ },
+ {
+  "text": "did you ever hear that phrase about a pigeon flying in circles",
+  "from": [
+   "generateUuid",
+   "hashText",
+   "hexDecode",
+   "hexEncode",
+   "morseDecode"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "the code was screaming at me when i tried to fix it",
+  "from": [
+   "morseEncode",
+   "rot13",
+   "urlDecode",
+   "urlEncode",
+   "comparePrices"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.42
+ },
+ {
+  "text": "we just had to rot the situation to see the truth",
+  "from": [
+   "morseEncode",
+   "rot13",
+   "urlDecode",
+   "urlEncode",
+   "comparePrices"
+  ],
+  "wrongly": "none",
+  "confidence": 0.972
+ },
+ {
+  "text": "it was a clear case of comparing apples and oranges",
+  "from": [
+   "morseEncode",
+   "rot13",
+   "urlDecode",
+   "urlEncode",
+   "comparePrices"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "the value of silence was just higher than i thought",
+  "from": [
+   "morseEncode",
+   "rot13",
+   "urlDecode",
+   "urlEncode",
+   "comparePrices"
+  ],
+  "wrongly": "none",
+  "confidence": 0.995
+ },
+ {
+  "text": "that 2 cups of flour I measured out was way too light for that cake",
+  "from": [
+   "convertCookingMeasure",
+   "fuelCostForTrip",
+   "scaleRecipe",
+   "shippingTotal",
+   "splitBill"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.705
+ },
+ {
+  "text": "i tried to scale back the recipe but ended up with too much butter",
+  "from": [
+   "convertCookingMeasure",
+   "fuelCostForTrip",
+   "scaleRecipe",
+   "shippingTotal",
+   "splitBill"
+  ],
+  "wrongly": "none",
+  "confidence": 0.97
+ },
+ {
+  "text": "the conversion table for millilitres to grams for flour is always my worst nightmare",
+  "from": [
+   "convertCookingMeasure",
+   "fuelCostForTrip",
+   "scaleRecipe",
+   "shippingTotal",
+   "splitBill"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.785
+ },
+ {
+  "text": "they say you can't stack your luck when the odds are already stacked against you",
+  "from": [
+   "stackDiscounts",
+   "unitPrice",
+   "fileExtensionInfo",
+   "fileSizeHuman",
+   "textFileStats"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.791
+ },
+ {
+  "text": "the unit price of my patience was higher than i expected for that huge file",
+  "from": [
+   "stackDiscounts",
+   "unitPrice",
+   "fileExtensionInfo",
+   "fileSizeHuman",
+   "textFileStats"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.785
+ },
+ {
+  "text": "the text file stats don't matter much when the story has already ended",
+  "from": [
+   "stackDiscounts",
+   "unitPrice",
+   "fileExtensionInfo",
+   "fileSizeHuman",
+   "textFileStats"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.683
+ },
+ {
+  "text": "the monthly payment on my mortgage felt like a mountain I could never climb",
+  "from": [
+   "amortizeLoan",
+   "applyDiscount",
+   "applyTax",
+   "compoundInterest",
+   "convertCurrencyFixed"
+  ],
+  "wrongly": "none",
+  "confidence": 0.966
+ },
+ {
+  "text": "i finally managed to pay off that car loan before the paint started peeling",
+  "from": [
+   "amortizeLoan",
+   "applyDiscount",
+   "applyTax",
+   "compoundInterest",
+   "convertCurrencyFixed"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "taxes hit me hard when i tried to budget for my vacation next year",
+  "from": [
+   "amortizeLoan",
+   "applyDiscount",
+   "applyTax",
+   "compoundInterest",
+   "convertCurrencyFixed"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.495
+ },
+ {
+  "text": "compound interest on my investments feels like a snowball rolling down a hill",
+  "from": [
+   "amortizeLoan",
+   "applyDiscount",
+   "applyTax",
+   "compoundInterest",
+   "convertCurrencyFixed"
+  ],
+  "wrongly": "none",
+  "confidence": 0.851
+ },
+ {
+  "text": "he told me the exchange rate shifted again while he was buying his coffee",
+  "from": [
+   "amortizeLoan",
+   "applyDiscount",
+   "applyTax",
+   "compoundInterest",
+   "convertCurrencyFixed"
+  ],
+  "wrongly": "none",
+  "confidence": 0.997
+ },
+ {
+  "text": "don't let the discount slide by, you never know when something goes on sale",
+  "from": [
+   "amortizeLoan",
+   "applyDiscount",
+   "applyTax",
+   "compoundInterest",
+   "convertCurrencyFixed"
+  ],
+  "wrongly": "none",
+  "confidence": 0.864
+ },
+ {
+  "text": "the amortization schedule looked like a maze where i kept getting lost",
+  "from": [
+   "amortizeLoan",
+   "applyDiscount",
+   "applyTax",
+   "compoundInterest",
+   "convertCurrencyFixed"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.521
+ },
+ {
+  "text": "it's hard to keep up with all the inflation when your savings don't seem to grow",
+  "from": [
+   "amortizeLoan",
+   "applyDiscount",
+   "applyTax",
+   "compoundInterest",
+   "convertCurrencyFixed"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.501
+ },
+ {
+  "text": "it took me a year to build up that margin in my garden before the flowers even opened",
+  "from": [
+   "hourlyToSalary",
+   "markupMargin",
+   "salaryToHourly",
+   "savingsGoal",
+   "simpleInterest"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "my savings goal is finally coming true after months of small deposits and no fancy tricks",
+  "from": [
+   "hourlyToSalary",
+   "markupMargin",
+   "salaryToHourly",
+   "savingsGoal",
+   "simpleInterest"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.786
+ },
+ {
+  "text": "it is funny how a little markup can make the whole product feel much more expensive",
+  "from": [
+   "hourlyToSalary",
+   "markupMargin",
+   "salaryToHourly",
+   "savingsGoal",
+   "simpleInterest"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.455
+ },
+ {
+  "text": "the salary to hourly calculation just proved that working overtime doesn't always add up",
+  "from": [
+   "hourlyToSalary",
+   "markupMargin",
+   "salaryToHourly",
+   "savingsGoal",
+   "simpleInterest"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.633
+ },
+ {
+  "text": "i tried to explain the simple interest rule to my dad but he just nodded along",
+  "from": [
+   "hourlyToSalary",
+   "markupMargin",
+   "salaryToHourly",
+   "savingsGoal",
+   "simpleInterest"
+  ],
+  "wrongly": "none",
+  "confidence": 0.993
+ },
+ {
+  "text": "the word dormitory feels like a dirty room rearranged by some magic hands",
+  "from": [
+   "checkAnagram",
+   "checkPalindrome",
+   "magicEightBall",
+   "scrabbleScore",
+   "solveAnagram"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.502
+ },
+ {
+  "text": "i used to think silent was a good word until i heard it in a song",
+  "from": [
+   "checkAnagram",
+   "checkPalindrome",
+   "magicEightBall",
+   "scrabbleScore",
+   "solveAnagram"
+  ],
+  "wrongly": "none",
+  "confidence": 0.995
+ },
+ {
+  "text": "i can't get listen out of my head, it's haunting me like a ghost",
+  "from": [
+   "checkAnagram",
+   "checkPalindrome",
+   "magicEightBall",
+   "scrabbleScore",
+   "solveAnagram"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.765
+ },
+ {
+  "text": "the calendar grid showed me the weeks i missed",
+  "from": [
+   "wordleFilter",
+   "wordsFromLetters",
+   "flipCoin",
+   "generateCalendarGrid",
+   "generateChecklist"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.416
+ },
+ {
+  "text": "i crossed off every item on that old paper list",
+  "from": [
+   "wordleFilter",
+   "wordsFromLetters",
+   "flipCoin",
+   "generateCalendarGrid",
+   "generateChecklist"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.468
+ },
+ {
+  "text": "that calendar grid looked like a perfect map for the trip",
+  "from": [
+   "wordleFilter",
+   "wordsFromLetters",
+   "flipCoin",
+   "generateCalendarGrid",
+   "generateChecklist"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.481
+ },
+ {
+  "text": "he filled out that boring form with some random nonsense to keep the screen from going blank",
+  "from": [
+   "generateSchedule",
+   "loremIpsum",
+   "randomNumber",
+   "rollDice",
+   "areaOf"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.726
+ },
+ {
+  "text": "she just kept rolling the dice in her head trying to figure out if she'd win or lose",
+  "from": [
+   "generateSchedule",
+   "loremIpsum",
+   "randomNumber",
+   "rollDice",
+   "areaOf"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.64
+ },
+ {
+  "text": "i calculated the area of the empty space in the corner where the broken chair had been sitting",
+  "from": [
+   "generateSchedule",
+   "loremIpsum",
+   "randomNumber",
+   "rollDice",
+   "areaOf"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.545
+ },
+ {
+  "text": "we hawed a great circle of gossip that spun all around us.",
+  "from": [
+   "distanceBetweenPoints",
+   "haversineDistance",
+   "perimeterOf",
+   "pythagorean",
+   "volumeOf"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "the perimeter of our argument was way too small to contain our anger.",
+  "from": [
+   "distanceBetweenPoints",
+   "haversineDistance",
+   "perimeterOf",
+   "pythagorean",
+   "volumeOf"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "pythagorean scales of judgment are the only thing that balances this room.",
+  "from": [
+   "distanceBetweenPoints",
+   "haversineDistance",
+   "perimeterOf",
+   "pythagorean",
+   "volumeOf"
+  ],
+  "wrongly": "none",
+  "confidence": 0.991
+ },
+ {
+  "text": "the volume of my shouting just got absorbed by the walls.",
+  "from": [
+   "distanceBetweenPoints",
+   "haversineDistance",
+   "perimeterOf",
+   "pythagorean",
+   "volumeOf"
+  ],
+  "wrongly": "none",
+  "confidence": 0.995
+ },
+ {
+  "text": "my distance from the truth is shrinking like a point in space.",
+  "from": [
+   "distanceBetweenPoints",
+   "haversineDistance",
+   "perimeterOf",
+   "pythagorean",
+   "volumeOf"
+  ],
+  "wrongly": "none",
+  "confidence": 0.987
+ },
+ {
+  "text": "we hawed the perimeter of our circle of trust and it kept expanding.",
+  "from": [
+   "distanceBetweenPoints",
+   "haversineDistance",
+   "perimeterOf",
+   "pythagorean",
+   "volumeOf"
+  ],
+  "wrongly": "none",
+  "confidence": 0.996
+ },
+ {
+  "text": "the volume of his laugh filled the room like a giant sphere.",
+  "from": [
+   "distanceBetweenPoints",
+   "haversineDistance",
+   "perimeterOf",
+   "pythagorean",
+   "volumeOf"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "the distance between reality and my dreams is exactly how far apart they were last night.",
+  "from": [
+   "distanceBetweenPoints",
+   "haversineDistance",
+   "perimeterOf",
+   "pythagorean",
+   "volumeOf"
+  ],
+  "wrongly": "none",
+  "confidence": 0.988
+ },
+ {
+  "text": "the bmi of my dog is actually a joke now that he's gained ten kilos",
+  "from": [
+   "bmiCalculate",
+   "heartRateZones",
+   "paceCalculate",
+   "sleepCycleTimes",
+   "splitTimes"
+  ],
+  "wrongly": "none",
+  "confidence": 0.922
+ },
+ {
+  "text": "the split times for the first lap felt like running on hot coals",
+  "from": [
+   "bmiCalculate",
+   "heartRateZones",
+   "paceCalculate",
+   "sleepCycleTimes",
+   "splitTimes"
+  ],
+  "wrongly": "none",
+  "confidence": 0.986
+ },
+ {
+  "text": "bmi and weight are just numbers but they say so much about how i feel about myself",
+  "from": [
+   "bmiCalculate",
+   "heartRateZones",
+   "paceCalculate",
+   "sleepCycleTimes",
+   "splitTimes"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.466
+ },
+ {
+  "text": "she finally got my gpa right even though the numbers were all over the place",
+  "from": [
+   "checkArithmeticSteps",
+   "flashcardShuffle",
+   "gpaCalculate",
+   "gradeNeeded",
+   "gradeQuiz"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.704
+ },
+ {
+  "text": "marked every answer on the quiz sheet while i drank my coffee",
+  "from": [
+   "checkArithmeticSteps",
+   "flashcardShuffle",
+   "gpaCalculate",
+   "gradeNeeded",
+   "gradeQuiz"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.436
+ },
+ {
+  "text": "the arithmetic steps were a mess until the teacher pointed out the error",
+  "from": [
+   "checkArithmeticSteps",
+   "flashcardShuffle",
+   "gpaCalculate",
+   "gradeNeeded",
+   "gradeQuiz"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.451
+ },
+ {
+  "text": "the quiz grader gave me back a score that felt like a letdown",
+  "from": [
+   "checkArithmeticSteps",
+   "flashcardShuffle",
+   "gpaCalculate",
+   "gradeNeeded",
+   "gradeQuiz"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.506
+ },
+ {
+  "text": "i finally read sixty pages straight and my head is still buzzing",
+  "from": [
+   "readingScheduleFromPages",
+   "spacedRepetitionSchedule",
+   "chunkList",
+   "countItems",
+   "dedupeList"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.36
+ },
+ {
+  "text": "he split the grocery list into little chunks so i didn't miss anything",
+  "from": [
+   "readingScheduleFromPages",
+   "spacedRepetitionSchedule",
+   "chunkList",
+   "countItems",
+   "dedupeList"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.502
+ },
+ {
+  "text": "counting the votes on that poll was like tallying the raindrops on a window",
+  "from": [
+   "readingScheduleFromPages",
+   "spacedRepetitionSchedule",
+   "chunkList",
+   "countItems",
+   "dedupeList"
+  ],
+  "wrongly": "none",
+  "confidence": 0.993
+ },
+ {
+  "text": "i tried to dedupe those names but the first few kept popping up again",
+  "from": [
+   "readingScheduleFromPages",
+   "spacedRepetitionSchedule",
+   "chunkList",
+   "countItems",
+   "dedupeList"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.503
+ },
+ {
+  "text": "the difference between my expectations and the reality was just too sharp to ignore.",
+  "from": [
+   "differenceLists",
+   "flattenList",
+   "intersectLists",
+   "pairUp",
+   "pickRandom"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "i tried to flatten out all those confusing layers of bureaucracy we went through last week.",
+  "from": [
+   "differenceLists",
+   "flattenList",
+   "intersectLists",
+   "pairUp",
+   "pickRandom"
+  ],
+  "wrongly": "none",
+  "confidence": 0.992
+ },
+ {
+  "text": "we used the pair-up method for that awkward dinner last night, hoping to make things work.",
+  "from": [
+   "differenceLists",
+   "flattenList",
+   "intersectLists",
+   "pairUp",
+   "pickRandom"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "picking one specific detail at random helped us find the missing key in the lock.",
+  "from": [
+   "differenceLists",
+   "flattenList",
+   "intersectLists",
+   "pairUp",
+   "pickRandom"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "the difference between what i wanted and what i got was a little too obvious.",
+  "from": [
+   "differenceLists",
+   "flattenList",
+   "intersectLists",
+   "pairUp",
+   "pickRandom"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "we pair-up our ideas every time we brainstorm, even though it feels a bit forced.",
+  "from": [
+   "differenceLists",
+   "flattenList",
+   "intersectLists",
+   "pairUp",
+   "pickRandom"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.349
+ },
+ {
+  "text": "i never really had the chance to pick the perfect ending before the deadline.",
+  "from": [
+   "differenceLists",
+   "flattenList",
+   "intersectLists",
+   "pairUp",
+   "pickRandom"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.524
+ },
+ {
+  "text": "it's weird how the same shuffle happens with different seeds in a game",
+  "from": [
+   "rangeList",
+   "shuffleList",
+   "sortList",
+   "unionLists",
+   "zipLists"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.472
+ },
+ {
+  "text": "he said the list was sorted perfectly even though he typed it in reverse order",
+  "from": [
+   "rangeList",
+   "shuffleList",
+   "sortList",
+   "unionLists",
+   "zipLists"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.654
+ },
+ {
+  "text": "the zip feature on that old spreadsheet made it hard to track who was who",
+  "from": [
+   "rangeList",
+   "shuffleList",
+   "sortList",
+   "unionLists",
+   "zipLists"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.347
+ },
+ {
+  "text": "it felt like my thoughts were just a range from panic to calm without any stops in between",
+  "from": [
+   "rangeList",
+   "shuffleList",
+   "sortList",
+   "unionLists",
+   "zipLists"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.434
+ },
+ {
+  "text": "he tried to shuffle his playlist and ended up playing the same song in a different order",
+  "from": [
+   "rangeList",
+   "shuffleList",
+   "sortList",
+   "unionLists",
+   "zipLists"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.758
+ },
+ {
+  "text": "we need to zip our shoes together or we'll lose our footing before the trip even starts",
+  "from": [
+   "rangeList",
+   "shuffleList",
+   "sortList",
+   "unionLists",
+   "zipLists"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.411
+ },
+ {
+  "text": "that range of prices was just a nightmare to figure out until we finally sorted them",
+  "from": [
+   "rangeList",
+   "shuffleList",
+   "sortList",
+   "unionLists",
+   "zipLists"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.785
+ },
+ {
+  "text": "they allocated my time according to how heavy my duties felt",
+  "from": [
+   "allocateProportionally",
+   "evaluateExpression",
+   "factorial",
+   "fibonacci",
+   "formatCurrency"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.659
+ },
+ {
+  "text": "the expression \"divide and conquer\" sounded way too mathematical to be true",
+  "from": [
+   "allocateProportionally",
+   "evaluateExpression",
+   "factorial",
+   "fibonacci",
+   "formatCurrency"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "factors of my patience were starting to pile up on my shelf",
+  "from": [
+   "allocateProportionally",
+   "evaluateExpression",
+   "factorial",
+   "fibonacci",
+   "formatCurrency"
+  ],
+  "wrongly": "none",
+  "confidence": 0.989
+ },
+ {
+  "text": "he divided the cake and said my portion was proportional to my hunger",
+  "from": [
+   "allocateProportionally",
+   "evaluateExpression",
+   "factorial",
+   "fibonacci",
+   "formatCurrency"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.504
+ },
+ {
+  "text": "the weight of this new responsibility feels like it's scaling exponentially",
+  "from": [
+   "allocateProportionally",
+   "evaluateExpression",
+   "factorial",
+   "fibonacci",
+   "formatCurrency"
+  ],
+  "wrongly": "none",
+  "confidence": 0.982
+ },
+ {
+  "text": "he was trying to simplify his life but it ended up being a mess like a fraction with too many decimals",
+  "from": [
+   "formatNumber",
+   "fractionSimplify",
+   "gcd",
+   "isPrime",
+   "lcm"
+  ],
+  "wrongly": "none",
+  "confidence": 0.843
+ },
+ {
+  "text": "the lowest common multiple of our arguments and our laughter seemed to be a very high price",
+  "from": [
+   "formatNumber",
+   "fractionSimplify",
+   "gcd",
+   "isPrime",
+   "lcm"
+  ],
+  "wrongly": "none",
+  "confidence": 0.995
+ },
+ {
+  "text": "it felt like we were running from a number that was always one step ahead of us",
+  "from": [
+   "formatNumber",
+   "fractionSimplify",
+   "gcd",
+   "isPrime",
+   "lcm"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.494
+ },
+ {
+  "text": "i tried to make sense of the chaos but it was like trying to find a prime number in a pile of zeros",
+  "from": [
+   "formatNumber",
+   "fractionSimplify",
+   "gcd",
+   "isPrime",
+   "lcm"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.69
+ },
+ {
+  "text": "i spent half of my paycheck on groceries this week",
+  "from": [
+   "parseNumber",
+   "percentChange",
+   "percentOf",
+   "percentageDistribution",
+   "primeFactors"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.457
+ },
+ {
+  "text": "the math says 1.2k is a lot for my budget",
+  "from": [
+   "parseNumber",
+   "percentChange",
+   "percentOf",
+   "percentageDistribution",
+   "primeFactors"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.752
+ },
+ {
+  "text": "my rent just hit a new high since the last raise",
+  "from": [
+   "parseNumber",
+   "percentChange",
+   "percentOf",
+   "percentageDistribution",
+   "primeFactors"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "did you know three quarters of a million is actually a lot of money",
+  "from": [
+   "parseNumber",
+   "percentChange",
+   "percentOf",
+   "percentageDistribution",
+   "primeFactors"
+  ],
+  "wrongly": "none",
+  "confidence": 0.964
+ },
+ {
+  "text": "my salary went down so i am wondering where i went wrong",
+  "from": [
+   "parseNumber",
+   "percentChange",
+   "percentOf",
+   "percentageDistribution",
+   "primeFactors"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.327
+ },
+ {
+  "text": "i want to save twenty percent more than usual this month",
+  "from": [
+   "parseNumber",
+   "percentChange",
+   "percentOf",
+   "percentageDistribution",
+   "primeFactors"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.459
+ },
+ {
+  "text": "it was a crazy day where my expenses added up to a lot",
+  "from": [
+   "parseNumber",
+   "percentChange",
+   "percentOf",
+   "percentageDistribution",
+   "primeFactors"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.51
+ },
+ {
+  "text": "i think the percentage increase in coffee prices is unfair to my wallet",
+  "from": [
+   "parseNumber",
+   "percentChange",
+   "percentOf",
+   "percentageDistribution",
+   "primeFactors"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "the price of this shirt is multiplied by my anxiety when i see the tags.",
+  "from": [
+   "product",
+   "ratioSolve",
+   "roundTo",
+   "solveQuadratic",
+   "splitEvenly"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.696
+ },
+ {
+  "text": "her ratio of success to failure is pretty good, mostly because she only counts the wins.",
+  "from": [
+   "product",
+   "ratioSolve",
+   "roundTo",
+   "solveQuadratic",
+   "splitEvenly"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.794
+ },
+ {
+  "text": "the ratio of caffeine to dreams in my brain is just not going to hold up today.",
+  "from": [
+   "product",
+   "ratioSolve",
+   "roundTo",
+   "solveQuadratic",
+   "splitEvenly"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.414
+ },
+ {
+  "text": "that ratio of good ideas to bad ones in my last meeting was terrible, like a recipe gone wrong.",
+  "from": [
+   "product",
+   "ratioSolve",
+   "roundTo",
+   "solveQuadratic",
+   "splitEvenly"
+  ],
+  "wrongly": "none",
+  "confidence": 0.98
+ },
+ {
+  "text": "she multiplied the noise level by her patience and ended up crying in the parking lot.",
+  "from": [
+   "product",
+   "ratioSolve",
+   "roundTo",
+   "solveQuadratic",
+   "splitEvenly"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "the ratio of sugar in that drink to the amount of courage i had to drink it was insane.",
+  "from": [
+   "product",
+   "ratioSolve",
+   "roundTo",
+   "solveQuadratic",
+   "splitEvenly"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "our ratio of patience to this broken elevator is closer to zero than i'd like to admit.",
+  "from": [
+   "product",
+   "ratioSolve",
+   "roundTo",
+   "solveQuadratic",
+   "splitEvenly"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "that headache feels like a sum of all my bad decisions",
+  "from": [
+   "sum",
+   "toOrdinal",
+   "whatPercent",
+   "budgetSplit",
+   "findCommonMeetingHours"
+  ],
+  "wrongly": "none",
+  "confidence": 0.892
+ },
+ {
+  "text": "i finally added up the cost of my coffee run",
+  "from": [
+   "sum",
+   "toOrdinal",
+   "whatPercent",
+   "budgetSplit",
+   "findCommonMeetingHours"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.585
+ },
+ {
+  "text": "the rain came down like a bucket of numbers",
+  "from": [
+   "sum",
+   "toOrdinal",
+   "whatPercent",
+   "budgetSplit",
+   "findCommonMeetingHours"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.654
+ },
+ {
+  "text": "she got that 47 out of 60 and sounded so confident",
+  "from": [
+   "sum",
+   "toOrdinal",
+   "whatPercent",
+   "budgetSplit",
+   "findCommonMeetingHours"
+  ],
+  "wrongly": "none",
+  "confidence": 0.982
+ },
+ {
+  "text": "the clock ticked away while i waited for common ground",
+  "from": [
+   "sum",
+   "toOrdinal",
+   "whatPercent",
+   "budgetSplit",
+   "findCommonMeetingHours"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "did you know forty-two is just a regular number waiting to be found",
+  "from": [
+   "sum",
+   "toOrdinal",
+   "whatPercent",
+   "budgetSplit",
+   "findCommonMeetingHours"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.29
+ },
+ {
+  "text": "he spent hours calculating the difference between being first and third",
+  "from": [
+   "sum",
+   "toOrdinal",
+   "whatPercent",
+   "budgetSplit",
+   "findCommonMeetingHours"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.299
+ },
+ {
+  "text": "i told them we need to find a time that works for everyone",
+  "from": [
+   "sum",
+   "toOrdinal",
+   "whatPercent",
+   "budgetSplit",
+   "findCommonMeetingHours"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.524
+ },
+ {
+  "text": "i tried to block out my morning for the kids and it felt like a proper time block from sunrise to brunch",
+  "from": [
+   "habitCompletionRate",
+   "prioritizeTasks",
+   "rotateAssignments",
+   "streakCount",
+   "timeBlockSchedule"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.656
+ },
+ {
+  "text": "the way you rotate assignments is just a game, but sometimes i wish it were a little less formal than that",
+  "from": [
+   "habitCompletionRate",
+   "prioritizeTasks",
+   "rotateAssignments",
+   "streakCount",
+   "timeBlockSchedule"
+  ],
+  "wrongly": "none",
+  "confidence": 0.974
+ },
+ {
+  "text": "i was lucky to catch a streak yesterday and it felt like a rare moment of clarity in the chaos",
+  "from": [
+   "habitCompletionRate",
+   "prioritizeTasks",
+   "rotateAssignments",
+   "streakCount",
+   "timeBlockSchedule"
+  ],
+  "wrongly": "none",
+  "confidence": 0.992
+ },
+ {
+  "text": "lhr feels like a huge maze the moment you step onto its tarmac",
+  "from": [
+   "airportCodeLookup",
+   "countryLookup",
+   "currencyLookup",
+   "languageCodeLookup",
+   "periodicTableLookup"
+  ],
+  "wrongly": "none",
+  "confidence": 0.914
+ },
+ {
+  "text": "japan uses yen so i guess that means i spent a lot of yen on that trip",
+  "from": [
+   "airportCodeLookup",
+   "countryLookup",
+   "currencyLookup",
+   "languageCodeLookup",
+   "periodicTableLookup"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.366
+ },
+ {
+  "text": "gbp is weird because it has pounds but no dollars or euros or anything",
+  "from": [
+   "airportCodeLookup",
+   "countryLookup",
+   "currencyLookup",
+   "languageCodeLookup",
+   "periodicTableLookup"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.758
+ },
+ {
+  "text": "carbon's atomic weight is heavy enough to make my head spin after a few drinks",
+  "from": [
+   "airportCodeLookup",
+   "countryLookup",
+   "currencyLookup",
+   "languageCodeLookup",
+   "periodicTableLookup"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.756
+ },
+ {
+  "text": "the element magnesium makes my legs feel light whenever i drink that shake",
+  "from": [
+   "airportCodeLookup",
+   "countryLookup",
+   "currencyLookup",
+   "languageCodeLookup",
+   "periodicTableLookup"
+  ],
+  "wrongly": "none",
+  "confidence": 0.921
+ },
+ {
+  "text": "gold is such a solid element that it never feels like it will ever be mined away",
+  "from": [
+   "airportCodeLookup",
+   "countryLookup",
+   "currencyLookup",
+   "languageCodeLookup",
+   "periodicTableLookup"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "the capital of california was once a topic of discussion at the dinner table.",
+  "from": [
+   "phoneRegionLookup",
+   "timezoneLookup",
+   "usStateLookup",
+   "webAnswer",
+   "webSearch"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "it's funny how the time zones make it seem like the day never ends in tokyo.",
+  "from": [
+   "phoneRegionLookup",
+   "timezoneLookup",
+   "usStateLookup",
+   "webAnswer",
+   "webSearch"
+  ],
+  "wrongly": "none",
+  "confidence": 0.987
+ },
+ {
+  "text": "reading the web page about ada lovelace was a lot harder than expected.",
+  "from": [
+   "phoneRegionLookup",
+   "timezoneLookup",
+   "usStateLookup",
+   "webAnswer",
+   "webSearch"
+  ],
+  "wrongly": "none",
+  "confidence": 0.899
+ },
+ {
+  "text": "my grandfather was a big fan of the antikythera mechanism when we were kids.",
+  "from": [
+   "phoneRegionLookup",
+   "timezoneLookup",
+   "usStateLookup",
+   "webAnswer",
+   "webSearch"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "the web answer about the governor of maryland was surprisingly long and complicated.",
+  "from": [
+   "phoneRegionLookup",
+   "timezoneLookup",
+   "usStateLookup",
+   "webAnswer",
+   "webSearch"
+  ],
+  "wrongly": "none",
+  "confidence": 0.937
+ },
+ {
+  "text": "we just discussed the capital of california at the dinner table.",
+  "from": [
+   "phoneRegionLookup",
+   "timezoneLookup",
+   "usStateLookup",
+   "webAnswer",
+   "webSearch"
+  ],
+  "wrongly": "none",
+  "confidence": 0.997
+ },
+ {
+  "text": "i tried to run a cumulative sum of my savings but the bank said it wasn't a thing",
+  "from": [
+   "correlation",
+   "cumulativeSum",
+   "describeNumbers",
+   "findOutliers",
+   "histogramBins"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.702
+ },
+ {
+  "text": "he told me there was a correlation between the rain and how well my car drove",
+  "from": [
+   "correlation",
+   "cumulativeSum",
+   "describeNumbers",
+   "findOutliers",
+   "histogramBins"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.744
+ },
+ {
+  "text": "that histogram bins idea for my salad ingredients sounded like a recipe from another world",
+  "from": [
+   "correlation",
+   "cumulativeSum",
+   "describeNumbers",
+   "findOutliers",
+   "histogramBins"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.72
+ },
+ {
+  "text": "the cumulative total of our arguments is way higher than i thought at first",
+  "from": [
+   "correlation",
+   "cumulativeSum",
+   "describeNumbers",
+   "findOutliers",
+   "histogramBins"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "her description of the numbers felt more like a weather report than an analysis",
+  "from": [
+   "correlation",
+   "cumulativeSum",
+   "describeNumbers",
+   "findOutliers",
+   "histogramBins"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.705
+ },
+ {
+  "text": "i need to describe numbers faster than i can describe my current mood",
+  "from": [
+   "correlation",
+   "cumulativeSum",
+   "describeNumbers",
+   "findOutliers",
+   "histogramBins"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.495
+ },
+ {
+  "text": "don't make me do a running total of my debts again, i'm already overwhelmed",
+  "from": [
+   "correlation",
+   "cumulativeSum",
+   "describeNumbers",
+   "findOutliers",
+   "histogramBins"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.341
+ },
+ {
+  "text": "the mean of my happiness seems to have dropped since i stopped working on my garden",
+  "from": [
+   "correlation",
+   "cumulativeSum",
+   "describeNumbers",
+   "findOutliers",
+   "histogramBins"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.625
+ },
+ {
+  "text": "the median of my excuses was always longer than the actual explanation",
+  "from": [
+   "correlation",
+   "cumulativeSum",
+   "describeNumbers",
+   "findOutliers",
+   "histogramBins"
+  ],
+  "wrongly": "none",
+  "confidence": 0.865
+ },
+ {
+  "text": "the trend line for his life was just flatlining anyway",
+  "from": [
+   "linearRegression",
+   "movingAverage",
+   "percentile",
+   "quartiles",
+   "rankValues"
+  ],
+  "wrongly": "none",
+  "confidence": 1
+ },
+ {
+  "text": "we hit that 90th percentile of bad decisions back in high school",
+  "from": [
+   "linearRegression",
+   "movingAverage",
+   "percentile",
+   "quartiles",
+   "rankValues"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.44
+ },
+ {
+  "text": "the quartiles of my patience are wider than the interquartile range of this coffee cup",
+  "from": [
+   "linearRegression",
+   "movingAverage",
+   "percentile",
+   "quartiles",
+   "rankValues"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.52
+ },
+ {
+  "text": "i finally ranked my friends by how much they drink, not how much they care",
+  "from": [
+   "linearRegression",
+   "movingAverage",
+   "percentile",
+   "quartiles",
+   "rankValues"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.526
+ },
+ {
+  "text": "there was no trend line for this project, just chaos from start to finish",
+  "from": [
+   "linearRegression",
+   "movingAverage",
+   "percentile",
+   "quartiles",
+   "rankValues"
+  ],
+  "wrongly": "none",
+  "confidence": 0.996
+ },
+ {
+  "text": "that transcript got cleaned so fast i thought it was a new show",
+  "from": [
+   "weightedAverage",
+   "zScores",
+   "averageWordLength",
+   "cleanTranscript",
+   "convertCase"
+  ],
+  "wrongly": "none",
+  "confidence": 0.861
+ },
+ {
+  "text": "he made a joke about the weighted average of his life choices during the meeting",
+  "from": [
+   "weightedAverage",
+   "zScores",
+   "averageWordLength",
+   "cleanTranscript",
+   "convertCase"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "cleaning up the transcript meant dropping so many stutters it sounded like a whisper",
+  "from": [
+   "weightedAverage",
+   "zScores",
+   "averageWordLength",
+   "cleanTranscript",
+   "convertCase"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.478
+ },
+ {
+  "text": "the z-score for that last sprint was so high it felt like flying",
+  "from": [
+   "weightedAverage",
+   "zScores",
+   "averageWordLength",
+   "cleanTranscript",
+   "convertCase"
+  ],
+  "wrongly": "none",
+  "confidence": 0.807
+ },
+ {
+  "text": "they kept asking for the weighted average of the budget even though it was already settled",
+  "from": [
+   "weightedAverage",
+   "zScores",
+   "averageWordLength",
+   "cleanTranscript",
+   "convertCase"
+  ],
+  "wrongly": "none",
+  "confidence": 0.935
+ },
+ {
+  "text": "my z-scores were all over the place this morning so i just laughed it off",
+  "from": [
+   "weightedAverage",
+   "zScores",
+   "averageWordLength",
+   "cleanTranscript",
+   "convertCase"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.614
+ },
+ {
+  "text": "the weighted average of our group project grades was surprisingly high",
+  "from": [
+   "weightedAverage",
+   "zScores",
+   "averageWordLength",
+   "cleanTranscript",
+   "convertCase"
+  ],
+  "wrongly": "none",
+  "confidence": 0.982
+ },
+ {
+  "text": "he made a comment about the weighted average of their team's performance today",
+  "from": [
+   "weightedAverage",
+   "zScores",
+   "averageWordLength",
+   "cleanTranscript",
+   "convertCase"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.758
+ },
+ {
+  "text": "sometimes i forget to count the lines when i just stare at a blank page",
+  "from": [
+   "countCharacters",
+   "countLines",
+   "countOccurrences",
+   "countSentences",
+   "countWords"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.419
+ },
+ {
+  "text": "i never counted the sentences in the paragraph i wrote before bed",
+  "from": [
+   "countCharacters",
+   "countLines",
+   "countOccurrences",
+   "countSentences",
+   "countWords"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.606
+ },
+ {
+  "text": "my word count for the morning coffee notes was surprisingly high",
+  "from": [
+   "countCharacters",
+   "countLines",
+   "countOccurrences",
+   "countSentences",
+   "countWords"
+  ],
+  "wrongly": "none",
+  "confidence": 0.867
+ },
+ {
+  "text": "i counted the times my cat blinked and it was more than i expected",
+  "from": [
+   "countCharacters",
+   "countLines",
+   "countOccurrences",
+   "countSentences",
+   "countWords"
+  ],
+  "wrongly": "none",
+  "confidence": 0.893
+ },
+ {
+  "text": "my friend wrote a story where he kept counting lines but never finished it",
+  "from": [
+   "countCharacters",
+   "countLines",
+   "countOccurrences",
+   "countSentences",
+   "countWords"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.571
+ },
+ {
+  "text": "i feel like i should detect a language that no one speaks anymore",
+  "from": [
+   "detectLanguage",
+   "detectRepetition",
+   "diffText",
+   "escapeHtml",
+   "extractCodeBlocks"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.619
+ },
+ {
+  "text": "my mind is repeating the same loop until i can't tell where to break it",
+  "from": [
+   "detectLanguage",
+   "detectRepetition",
+   "diffText",
+   "escapeHtml",
+   "extractCodeBlocks"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.581
+ },
+ {
+  "text": "it's funny how the diff between two paragraphs can change the whole story",
+  "from": [
+   "detectLanguage",
+   "detectRepetition",
+   "diffText",
+   "escapeHtml",
+   "extractCodeBlocks"
+  ],
+  "wrongly": "none",
+  "confidence": 0.811
+ },
+ {
+  "text": "checked the server logs again but those ip addresses were already handled",
+  "from": [
+   "extractCurrencyAmounts",
+   "extractDates",
+   "extractEmails",
+   "extractHashtags",
+   "extractIpAddresses"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.683
+ },
+ {
+  "text": "i lost track of the steps when i was making the cake and ended up burning it",
+  "from": [
+   "extractListItems",
+   "extractMentions",
+   "extractNgrams",
+   "extractNumbers",
+   "extractPhoneNumbers"
+  ],
+  "wrongly": "none",
+  "confidence": 0.917
+ },
+ {
+  "text": "the numbers in that receipt were way too high for my budget last month",
+  "from": [
+   "extractListItems",
+   "extractMentions",
+   "extractNgrams",
+   "extractNumbers",
+   "extractPhoneNumbers"
+  ],
+  "wrongly": "none",
+  "confidence": 0.982
+ },
+ {
+  "text": "he said he had no phone number left to call so i guess he just walked away",
+  "from": [
+   "extractListItems",
+   "extractMentions",
+   "extractNgrams",
+   "extractNumbers",
+   "extractPhoneNumbers"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "the mention list from the party was mostly just my coworkers and random friends",
+  "from": [
+   "extractListItems",
+   "extractMentions",
+   "extractNgrams",
+   "extractNumbers",
+   "extractPhoneNumbers"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.489
+ },
+ {
+  "text": "my watch keeps losing time so i checked the clock on the wall.",
+  "from": [
+   "extractTimes",
+   "extractUrls",
+   "findLongestWord",
+   "findNearDuplicates",
+   "flagPii"
+  ],
+  "wrongly": "none",
+  "confidence": 0.927
+ },
+ {
+  "text": "she flagged pii on that form but she said it was just a formality.",
+  "from": [
+   "extractTimes",
+   "extractUrls",
+   "findLongestWord",
+   "findNearDuplicates",
+   "flagPii"
+  ],
+  "wrongly": "none",
+  "confidence": 0.873
+ },
+ {
+  "text": "i timed my run to the store and it took exactly ten minutes.",
+  "from": [
+   "extractTimes",
+   "extractUrls",
+   "findLongestWord",
+   "findNearDuplicates",
+   "flagPii"
+  ],
+  "wrongly": "none",
+  "confidence": 0.847
+ },
+ {
+  "text": "the url in the chat got cut off and i cant remember where it led.",
+  "from": [
+   "extractTimes",
+   "extractUrls",
+   "findLongestWord",
+   "findNearDuplicates",
+   "flagPii"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.17
+ },
+ {
+  "text": "i heard the lexicon sentiment was all downhill for that new album",
+  "from": [
+   "flagProfanity",
+   "joinLines",
+   "keywordsTfidf",
+   "lexiconSentiment",
+   "maskSensitive"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "masking the sensitive data in the contract was the only way to get it signed",
+  "from": [
+   "flagProfanity",
+   "joinLines",
+   "keywordsTfidf",
+   "lexiconSentiment",
+   "maskSensitive"
+  ],
+  "wrongly": "none",
+  "confidence": 0.994
+ },
+ {
+  "text": "i checked the lexicon sentiment on the letter and it was more bitter than expected",
+  "from": [
+   "flagProfanity",
+   "joinLines",
+   "keywordsTfidf",
+   "lexiconSentiment",
+   "maskSensitive"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.702
+ },
+ {
+  "text": "masking the sensitive info before sending it was a step too late but necessary",
+  "from": [
+   "flagProfanity",
+   "joinLines",
+   "keywordsTfidf",
+   "lexiconSentiment",
+   "maskSensitive"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.711
+ },
+ {
+  "text": "the lexicon sentiment analysis showed that the tone had shifted somewhere in the middle",
+  "from": [
+   "flagProfanity",
+   "joinLines",
+   "keywordsTfidf",
+   "lexiconSentiment",
+   "maskSensitive"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.641
+ },
+ {
+  "text": "the flag profanity detector was more than just a tool, it was a warning sign",
+  "from": [
+   "flagProfanity",
+   "joinLines",
+   "keywordsTfidf",
+   "lexiconSentiment",
+   "maskSensitive"
+  ],
+  "wrongly": "none",
+  "confidence": 0.989
+ },
+ {
+  "text": "he said the page looked like it was counting every single beat like a nervous clock",
+  "from": [
+   "normalizeWhitespace",
+   "numberLines",
+   "padText",
+   "readingLevel",
+   "readingTime"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.706
+ },
+ {
+  "text": "she complained that the story was easier to read than the manual on fixing the toaster",
+  "from": [
+   "normalizeWhitespace",
+   "numberLines",
+   "padText",
+   "readingLevel",
+   "readingTime"
+  ],
+  "wrongly": "none",
+  "confidence": 0.9
+ },
+ {
+  "text": "the text felt like it was trying to fix its own grammar just so nobody would have to",
+  "from": [
+   "normalizeWhitespace",
+   "numberLines",
+   "padText",
+   "readingLevel",
+   "readingTime"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.778
+ },
+ {
+  "text": "he kept the first time i saw that old shirt and left the rest behind",
+  "from": [
+   "removeDuplicateLines",
+   "removeEmoji",
+   "removeStopWords",
+   "replaceText",
+   "reverseText"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.458
+ },
+ {
+  "text": "the filler words in my speech were so annoying i just stopped using them",
+  "from": [
+   "removeDuplicateLines",
+   "removeEmoji",
+   "removeStopWords",
+   "replaceText",
+   "reverseText"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.525
+ },
+ {
+  "text": "the jaccard index between my morning coffee and the rain outside came out to zero.",
+  "from": [
+   "similarityJaccard",
+   "similarityLevenshtein",
+   "slugify",
+   "sortLines",
+   "splitLines"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.496
+ },
+ {
+  "text": "sorted the photos from the trip and the sunflower still stood out in alphabetical order.",
+  "from": [
+   "similarityJaccard",
+   "similarityLevenshtein",
+   "slugify",
+   "sortLines",
+   "splitLines"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.403
+ },
+ {
+  "text": "i can't find my stem anywhere today",
+  "from": [
+   "stemWords",
+   "stripHtml",
+   "stripMarkdown",
+   "syllableCount",
+   "toAscii"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.472
+ },
+ {
+  "text": "she counted the syllables while she was waiting for the bus",
+  "from": [
+   "stemWords",
+   "stripHtml",
+   "stripMarkdown",
+   "syllableCount",
+   "toAscii"
+  ],
+  "wrongly": "none",
+  "confidence": 0.982
+ },
+ {
+  "text": "he found a great stem for the new word he invented",
+  "from": [
+   "stemWords",
+   "stripHtml",
+   "stripMarkdown",
+   "syllableCount",
+   "toAscii"
+  ],
+  "wrongly": "none",
+  "confidence": 0.893
+ },
+ {
+  "text": "the accent on that word was a real pain in the neck",
+  "from": [
+   "stemWords",
+   "stripHtml",
+   "stripMarkdown",
+   "syllableCount",
+   "toAscii"
+  ],
+  "wrongly": "none",
+  "confidence": 0.999
+ },
+ {
+  "text": "i finally got to break down the complex theory into bite-sized sentences for the study group.",
+  "from": [
+   "tokenizeSentences",
+   "tokenizeWords",
+   "trimLines",
+   "truncateText",
+   "wordFrequency"
+  ],
+  "wrongly": "none",
+  "confidence": 0.971
+ },
+ {
+  "text": "she kept splitting her thoughts into fragments instead of putting them all together in one coherent word.",
+  "from": [
+   "tokenizeSentences",
+   "tokenizeWords",
+   "trimLines",
+   "truncateText",
+   "wordFrequency"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.632
+ },
+ {
+  "text": "she said the password strength was too low because the pattern was so obvious",
+  "from": [
+   "wrapText",
+   "formatPhoneNumber",
+   "passwordStrength",
+   "validateDate",
+   "validateEmail"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.538
+ },
+ {
+  "text": "we tried to validate the date for the meeting but it just looked wrong on the calendar",
+  "from": [
+   "wrapText",
+   "formatPhoneNumber",
+   "passwordStrength",
+   "validateDate",
+   "validateEmail"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.644
+ },
+ {
+  "text": "can you wrap your head around why that date doesn't exist anymore?",
+  "from": [
+   "wrapText",
+   "formatPhoneNumber",
+   "passwordStrength",
+   "validateDate",
+   "validateEmail"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.796
+ },
+ {
+  "text": "the password strength checker just wrapped my brain in knots after that",
+  "from": [
+   "wrapText",
+   "formatPhoneNumber",
+   "passwordStrength",
+   "validateDate",
+   "validateEmail"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.732
+ },
+ {
+  "text": "my shorthand was finally understood at last",
+  "from": [
+   "validateHexColor",
+   "validateIban",
+   "validateIpAddress",
+   "validateIsbn",
+   "validateJson"
+  ],
+  "wrongly": "none",
+  "confidence": 0.998
+ },
+ {
+  "text": "the url i linked in the post was well formed but somehow i couldn't remember the exact host.",
+  "from": [
+   "validateJsonSchema",
+   "validateLuhn",
+   "validatePhoneNumber",
+   "validateUrl",
+   "validateUuid"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.736
+ },
+ {
+  "text": "i only counted about forty five words in the draft.",
+  "from": [
+   "checkTitleCase",
+   "countWordTargets",
+   "extractHeadings",
+   "findLongSentences",
+   "findRepeatedWords"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.746
+ },
+ {
+  "text": "i keep repeating myself in these notes.",
+  "from": [
+   "checkTitleCase",
+   "countWordTargets",
+   "extractHeadings",
+   "findLongSentences",
+   "findRepeatedWords"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.544
+ },
+ {
+  "text": "the title case on the report was a joke.",
+  "from": [
+   "checkTitleCase",
+   "countWordTargets",
+   "extractHeadings",
+   "findLongSentences",
+   "findRepeatedWords"
+  ],
+  "wrongly": "none",
+  "confidence": 0.985
+ },
+ {
+  "text": "counting the words is like counting stars.",
+  "from": [
+   "checkTitleCase",
+   "countWordTargets",
+   "extractHeadings",
+   "findLongSentences",
+   "findRepeatedWords"
+  ],
+  "wrongly": "none",
+  "confidence": 0.912
+ },
+ {
+  "text": "headings jumped out like a bunch of frogs.",
+  "from": [
+   "checkTitleCase",
+   "countWordTargets",
+   "extractHeadings",
+   "findLongSentences",
+   "findRepeatedWords"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.718
+ },
+ {
+  "text": "repeating words is like talking to yourself.",
+  "from": [
+   "checkTitleCase",
+   "countWordTargets",
+   "extractHeadings",
+   "findLongSentences",
+   "findRepeatedWords"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.583
+ },
+ {
+  "text": "i was hoping that one of these days my reference would format itself on its own without me having to lift a finger",
+  "from": [
+   "formatCitation",
+   "generateTableOfContents",
+   "markdownToHtml",
+   "outlineToMarkdown",
+   "paragraphStats"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.8
+ },
+ {
+  "text": "the table of contents i wanted to build was more like a chaotic mess that kept growing even faster than i could organize it",
+  "from": [
+   "formatCitation",
+   "generateTableOfContents",
+   "markdownToHtml",
+   "outlineToMarkdown",
+   "paragraphStats"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.418
+ },
+ {
+  "text": "she kept repeating her singularize the cities thing as if it were a mantra",
+  "from": [
+   "pluralize",
+   "singularize",
+   "spellCheck"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.772
+ },
+ {
+  "text": "the spell check on that report was a real disaster and i barely made it out alive",
+  "from": [
+   "pluralize",
+   "singularize",
+   "spellCheck"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.637
+ },
+ {
+  "text": "he tried to spell check this sentence but he got tripped up on the wrong words",
+  "from": [
+   "pluralize",
+   "singularize",
+   "spellCheck"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.567
+ },
+ {
+  "text": "don't ask me to pluralize my problems because i can't afford another round",
+  "from": [
+   "pluralize",
+   "singularize",
+   "spellCheck"
+  ],
+  "wrongly": "unavailable",
+  "confidence": 0.419
+ },
+ {
+  "text": "the way she singularized the cities made me feel like i was back in my childhood",
+  "from": [
+   "pluralize",
+   "singularize",
+   "spellCheck"
+  ],
+  "wrongly": "none",
+  "confidence": 0.901
+ }
+]

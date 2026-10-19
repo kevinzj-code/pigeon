@@ -1,0 +1,6776 @@
+{
+ "rows": [
+  {
+   "skill": "averageWordLength",
+   "message": "average word length for: Rain fell softly on the old tin roof",
+   "input": {
+    "text": "Rain fell softly on the old tin roof"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "I'm a speech therapist checking a reading sample. What's the mean length of the words in \"The cat napped in a warm patch of sun\"?",
+   "input": {
+    "text": "The cat napped in a warm patch of sun"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "letters per word, on average, in: Quarterly revenue exceeded expectations considerably",
+   "input": {
+    "text": "Quarterly revenue exceeded expectations considerably"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "typical word size in this headline please — Local Bakery Wins National Award",
+   "input": {
+    "text": "Local Bakery Wins National Award"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "Is my writing too wordy? Work out the avg word length of: Notwithstanding the aforementioned circumstances, implementation proceeds.",
+   "input": {
+    "text": "Notwithstanding the aforementioned circumstances, implementation proceeds."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "average letters per word → we went to the shops and got some milk",
+   "input": {
+    "text": "we went to the shops and got some milk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "Retired English teacher here. I'd like the average length of each word in this line from my poem: Silver leaves drift over quiet water",
+   "input": {
+    "text": "Silver leaves drift over quiet water"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "avg word length pls: gg ez no re",
+   "input": {
+    "text": "gg ez no re"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "For a readability check on our product label, calculate the average word length of 'Store in a cool dry place away from sunlight'.",
+   "input": {
+    "text": "Store in a cool dry place away from sunlight"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "word length average? Thank you for your patience while we fix the issue",
+   "input": {
+    "text": "Thank you for your patience while we fix the issue"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "Could you work out how long, on average, each word is in: Patients should fast for twelve hours before the test",
+   "input": {
+    "text": "Patients should fast for twelve hours before the test"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "compute average word length — Hydrochlorothiazide reduces fluid retention",
+   "input": {
+    "text": "Hydrochlorothiazide reduces fluid retention"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "My daughter thinks long words make essays better. Find the mean word length in: Photosynthesis transforms sunlight into chemical energy.",
+   "input": {
+    "text": "Photosynthesis transforms sunlight into chemical energy."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "what's the average number of characters per word in 'Keep calm and carry on'",
+   "input": {
+    "text": "Keep calm and carry on"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "Average word length of the tagline 'Fresh bread baked every morning' for my shop window",
+   "input": {
+    "text": "Fresh bread baked every morning"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "measure the average word size: I came, I saw, I conquered",
+   "input": {
+    "text": "I came, I saw, I conquered"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "Average length of words, this tweet: just landed in lisbon and the sun is out",
+   "input": {
+    "text": "just landed in lisbon and the sun is out"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "calculate mean word length of the following text: Our quarterly figures show steady growth across all regions",
+   "input": {
+    "text": "Our quarterly figures show steady growth across all regions"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "what's the average word length in my essay below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "work out the mean word size for the paragraph I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "Can you tell me the average length of the words in my cover letter?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "avg word length of the abstract attached",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "I'm a teacher grading compositions — give me the average word length for this student's piece",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "averageWordLength",
+   "message": "typical word length in the following passage?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "clean up this caption transcript: [00:00:01 --> 00:00:04] so um welcome back to the\n\n[00:00:04 --> 00:00:07] channel today we are baking bread",
+   "input": {
+    "text": "[00:00:01 --> 00:00:04] so um welcome back to the\n\n[00:00:04 --> 00:00:07] channel today we are baking bread"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "My lecture recording came out like this, can you make it readable?\n1\n00:00:00,000 --> 00:00:03,200\nGood morning everyone and\n\n2\n00:00:03,200 --> 00:00:06,000\nwelcome to week three.",
+   "input": {
+    "text": "1\n00:00:00,000 --> 00:00:03,200\nGood morning everyone and\n\n2\n00:00:03,200 --> 00:00:06,000\nwelcome to week three."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "remove the timestamps and cue numbers from this transcript: 12\n00:01:10,500 --> 00:01:13,000\nwe need to to check the\n\n13\n00:01:13,000 --> 00:01:15,400\nbudget before Friday",
+   "input": {
+    "text": "12\n00:01:10,500 --> 00:01:13,000\nwe need to to check the\n\n13\n00:01:13,000 --> 00:01:15,400\nbudget before Friday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "Please clean this podcast transcript but keep the filler words, I want it verbatim: [0:00:00 --> 0:00:04] HOST: you know I kind of think the\n\n[0:00:04 --> 0:00:08] HOST: market will recover",
+   "input": {
+    "text": "[0:00:00 --> 0:00:04] HOST: you know I kind of think the\n\n[0:00:04 --> 0:00:08] HOST: market will recover",
+    "removeFillers": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "zoom auto-captions are a mess, fix: SPEAKER 1: so the the plan is\nSPEAKER 1: to launch in May\nSPEAKER 2: sounds good",
+   "input": {
+    "text": "SPEAKER 1: so the the plan is\nSPEAKER 1: to launch in May\nSPEAKER 2: sounds good"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "Turn these YouTube captions into a clean transcript, leave stutters in: [00:00:02 --> 00:00:05] I I really think this\n\n[00:00:05 --> 00:00:08] recipe is the best one",
+   "input": {
+    "text": "[00:00:02 --> 00:00:05] I I really think this\n\n[00:00:05 --> 00:00:08] recipe is the best one",
+    "removeStutters": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "clean transcript: 00:00:00 --> 00:00:03 hello and um thanks for joining\n00:00:03 --> 00:00:06 the quarterly call",
+   "input": {
+    "text": "00:00:00 --> 00:00:03 hello and um thanks for joining\n00:00:03 --> 00:00:06 the quarterly call"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "I'm a journalist with an interview transcript full of timecodes — strip them and join the broken sentences: [00:12:01 --> 00:12:04] MAYOR: The new bridge will\n\n[00:12:04 --> 00:12:07] MAYOR: open next spring.",
+   "input": {
+    "text": "[00:12:01 --> 00:12:04] MAYOR: The new bridge will\n\n[00:12:04 --> 00:12:07] MAYOR: open next spring."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "[0:00:10 --> 0:00:13] Okay so so first item\n\n[0:00:13 --> 0:00:16] is the holiday rota\n^ make that readable please, it's a meeting transcript",
+   "input": {
+    "text": "[0:00:10 --> 0:00:13] Okay so so first item\n\n[0:00:13 --> 0:00:16] is the holiday rota"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "Get rid of the timings and speaker labels in this subtitle transcript: 5\n00:00:20,000 --> 00:00:22,500\nNARRATOR: The river winds\n\n6\n00:00:22,500 --> 00:00:25,000\nNARRATOR: through the valley.",
+   "input": {
+    "text": "5\n00:00:20,000 --> 00:00:22,500\nNARRATOR: The river winds\n\n6\n00:00:22,500 --> 00:00:25,000\nNARRATOR: through the valley."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "can u clean this webinar transcript, keep the ums and ahs: [00:00:00 --> 00:00:04] um so today we cover\n\n[00:00:04 --> 00:00:08] uh the basics of tax returns",
+   "input": {
+    "text": "[00:00:00 --> 00:00:04] um so today we cover\n\n[00:00:04 --> 00:00:08] uh the basics of tax returns",
+    "removeFillers": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "Make a clean read of this auto transcript from my church sermon: [00:05:00 --> 00:05:04] and the the message today is\n\n[00:05:04 --> 00:05:08] about kindness to strangers",
+   "input": {
+    "text": "[00:05:00 --> 00:05:04] and the the message today is\n\n[00:05:04 --> 00:05:08] about kindness to strangers"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "tidy transcript → 00:00:01,000 --> 00:00:02,500\nRight, let's go\n\n00:00:02,500 --> 00:00:04,000\nto the next slide",
+   "input": {
+    "text": "00:00:01,000 --> 00:00:02,500\nRight, let's go\n\n00:00:02,500 --> 00:00:04,000\nto the next slide"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "For my thesis I transcribed an interview with otter and it's full of stamps. Clean the transcript, but don't touch fillers or stutters: [00:03:10 --> 00:03:14] PARTICIPANT: I I mean you know it was\n\n[00:03:14 --> 00:03:18] PARTICIPANT: hard at first",
+   "input": {
+    "text": "[00:03:10 --> 00:03:14] PARTICIPANT: I I mean you know it was\n\n[00:03:14 --> 00:03:18] PARTICIPANT: hard at first",
+    "removeFillers": false,
+    "removeStutters": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "Strip cue numbers and rejoin lines: 1\n00:00:00,000 --> 00:00:02,000\nThe recipe calls for\n\n2\n00:00:02,000 --> 00:00:04,000\ntwo cups of flour",
+   "input": {
+    "text": "1\n00:00:00,000 --> 00:00:02,000\nThe recipe calls for\n\n2\n00:00:02,000 --> 00:00:04,000\ntwo cups of flour"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "clean up this lecture transcript so I can paste it into my notes: [00:00:30 --> 00:00:34] Mitochondria are the\n\n[00:00:34 --> 00:00:38] powerhouse of the cell",
+   "input": {
+    "text": "[00:00:30 --> 00:00:34] Mitochondria are the\n\n[00:00:34 --> 00:00:38] powerhouse of the cell"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "Remove the repeated speaker names from this court recording transcript: JUDGE: Please be seated.\nJUDGE: We will now hear\nJUDGE: the first witness.",
+   "input": {
+    "text": "JUDGE: Please be seated.\nJUDGE: We will now hear\nJUDGE: the first witness."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "de-timestamp this transcript: 3\n00:00:09,000 --> 00:00:11,000\nThanks for watching\n\n4\n00:00:11,000 --> 00:00:13,000\nsee you next time",
+   "input": {
+    "text": "3\n00:00:09,000 --> 00:00:11,000\nThanks for watching\n\n4\n00:00:11,000 --> 00:00:13,000\nsee you next time"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "clean up the transcript from my zoom call, I'll paste it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "my youtube auto-captions are full of timestamps, can you tidy them?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "Strip the timecodes and speaker labels out of the interview transcript below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "make this caption file readable",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "I have a podcast transcript with stutters everywhere — please clean it up",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cleanTranscript",
+   "message": "turn the attached subtitles into plain paragraphs",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertCase",
+   "message": "change the case of my essay title to title case: war and peace in the modern age",
+   "input": {
+    "text": "war and peace in the modern age",
+    "style": "title"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "upper case → fire exit keep clear",
+   "input": {
+    "text": "fire exit keep clear",
+    "style": "upper"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "Could you convert Total Order Value to snake_case for my python variable?",
+   "input": {
+    "text": "Total Order Value",
+    "style": "snake"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "convert Best Summer Recipes 2026 to kebab case for a url slug",
+   "input": {
+    "text": "Best Summer Recipes 2026",
+    "style": "kebab"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "I'm writing a JavaScript function, give me the camelCase version of \"get user profile\"",
+   "input": {
+    "text": "get user profile",
+    "style": "camel"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "lowercase it all: PLEASE DO NOT DISTURB",
+   "input": {
+    "text": "PLEASE DO NOT DISTURB",
+    "style": "lower"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "Make \"shopping cart item\" a PascalCase class name",
+   "input": {
+    "text": "shopping cart item",
+    "style": "pascal"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "CONSTANT_CASE for max retry count",
+   "input": {
+    "text": "max retry count",
+    "style": "constant"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "My caps lock was stuck. Convert this to sentence case: I WILL BE LATE TO THE MEETING TODAY",
+   "input": {
+    "text": "I WILL BE LATE TO THE MEETING TODAY",
+    "style": "sentence"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "convert to upper case for the sign on the shop door: back in ten minutes",
+   "input": {
+    "text": "back in ten minutes",
+    "style": "upper"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "Convert my book title to title case: the quiet hours of morning",
+   "input": {
+    "text": "the quiet hours of morning",
+    "style": "title"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "convert to snake case — customerEmailAddress",
+   "input": {
+    "text": "customerEmailAddress",
+    "style": "snake"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "camel case: is logged in",
+   "input": {
+    "text": "is logged in",
+    "style": "camel"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "Can you put \"Hello From The Other Side\" into lower case for me?",
+   "input": {
+    "text": "Hello From The Other Side",
+    "style": "lower"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "Headline for the school newsletter, needs title case: sports day moved to friday",
+   "input": {
+    "text": "sports day moved to friday",
+    "style": "title"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "convert Primary Button Large to kebab case for a css class",
+   "input": {
+    "text": "Primary Button Large",
+    "style": "kebab"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "sentence case pls: tHE mEETING iS cANCELLED",
+   "input": {
+    "text": "tHE mEETING iS cANCELLED",
+    "style": "sentence"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "For our env file I need database connection url in screaming snake case",
+   "input": {
+    "text": "database connection url",
+    "style": "constant"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCase",
+   "message": "convert the case of my heading below to title case",
+   "input": {
+    "style": "title"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertCase",
+   "message": "my variable name needs converting to camelCase, here it comes",
+   "input": {
+    "style": "camel"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertCase",
+   "message": "put the following paragraph in lower case",
+   "input": {
+    "style": "lower"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertCase",
+   "message": "convert the text I'm about to paste to upper case",
+   "input": {
+    "style": "upper"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertCase",
+   "message": "change these column names to snake_case",
+   "input": {
+    "style": "snake"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertCase",
+   "message": "turn this into PascalCase",
+   "input": {
+    "style": "pascal"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "character count for my bio: Nurse, runner, amateur baker. Opinions my own.",
+   "input": {
+    "text": "Nurse, runner, amateur baker. Opinions my own."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "how many characters including spaces in \"Grand opening this Saturday at 10am\"",
+   "input": {
+    "text": "Grand opening this Saturday at 10am"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "Our SMS provider charges per 160 characters. Count the characters in: Your appointment is confirmed for Tuesday at 3pm. Reply STOP to opt out.",
+   "input": {
+    "text": "Your appointment is confirmed for Tuesday at 3pm. Reply STOP to opt out."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "count characters → p4ssw0rd-Rotation-2026",
+   "input": {
+    "text": "p4ssw0rd-Rotation-2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "I'm filling in a form with a 50 character limit. How many characters is \"14 Willow Crescent, Little Haddon\"?",
+   "input": {
+    "text": "14 Willow Crescent, Little Haddon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "number of characters without spaces: the quick red van",
+   "input": {
+    "text": "the quick red van"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "Count the letters and digits in this product code: SKU-88213-BLU-XL",
+   "input": {
+    "text": "SKU-88213-BLU-XL"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "Is my meta description too long? Character count please: Handmade ceramic mugs, fired in small batches in our Cornish studio.",
+   "input": {
+    "text": "Handmade ceramic mugs, fired in small batches in our Cornish studio."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "can you count the characters in my tweet draft: big news!!! the shop is moving to the high street next month",
+   "input": {
+    "text": "big news!!! the shop is moving to the high street next month"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "Characters in this headline? Council Approves New Cycle Lanes",
+   "input": {
+    "text": "Council Approves New Cycle Lanes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "count the characters in the word antidisestablishmentarianism",
+   "input": {
+    "text": "antidisestablishmentarianism"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "For the engraving on a trophy, count every character, spaces too: Under 12s Champions 2026",
+   "input": {
+    "text": "Under 12s Champions 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "tally the characters: Meet at gate B4, flight leaves 14:20",
+   "input": {
+    "text": "Meet at gate B4, flight leaves 14:20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "Quick one — character length of my username idea \"NightOwlGamer_77\"",
+   "input": {
+    "text": "NightOwlGamer_77"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "Please count the characters in this, spaces in and out: Thank you for shopping local",
+   "input": {
+    "text": "Thank you for shopping local"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "characters in this line?? lol cant believe its friday already",
+   "input": {
+    "text": "lol cant believe its friday already"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "Count characters for the push notification text: Your order has shipped and arrives tomorrow",
+   "input": {
+    "text": "Your order has shipped and arrives tomorrow"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "What's the character count of this LinkedIn headline: Accountant helping small firms grow",
+   "input": {
+    "text": "Accountant helping small firms grow"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "count the characters in my essay intro below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "how many characters is the caption I'm about to send",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "Character count for the following paragraph, please.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "need the number of characters in this cover note",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "check how many characters my ad copy uses",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countCharacters",
+   "message": "can u count the characters in what i paste next",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countLines",
+   "message": "count the lines in this poem?\nThe fog comes\non little cat feet.\n\nIt sits looking\nover harbor and city",
+   "input": {
+    "text": "The fog comes\non little cat feet.\n\nIt sits looking\nover harbor and city"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "count the lines:\nmilk\neggs\nbread\nbutter",
+   "input": {
+    "text": "milk\neggs\nbread\nbutter"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "Line count please, blank ones separately: Dear Sam,\n\nThanks for the parcel.\n\nBest,\nJo",
+   "input": {
+    "text": "Dear Sam,\n\nThanks for the parcel.\n\nBest,\nJo"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "I'm a developer checking a config snippet. Count the lines it has:\nhost=localhost\nport=5432\n\nuser=admin",
+   "input": {
+    "text": "host=localhost\nport=5432\n\nuser=admin"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "count lines in my shopping list: apples\npears\nplums",
+   "input": {
+    "text": "apples\npears\nplums"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "Count the lines in these lyrics I wrote?\nMorning light\nOn the kitchen floor\nCoffee cups\nAnd an open door",
+   "input": {
+    "text": "Morning light\nOn the kitchen floor\nCoffee cups\nAnd an open door"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "count the non-empty lines here: step one\n\nstep two\n\n\nstep three",
+   "input": {
+    "text": "step one\n\nstep two\n\n\nstep three"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "Could you count the lines in this address block?\nFlat 2\n18 Mill Lane\nYork\nYO1 7HX",
+   "input": {
+    "text": "Flat 2\n18 Mill Lane\nYork\nYO1 7HX"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "lines count → alpha\nbeta\ngamma\ndelta\nepsilon",
+   "input": {
+    "text": "alpha\nbeta\ngamma\ndelta\nepsilon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "My teacher wants a 14 line sonnet. How many lines is mine?\nShall I compare thee\nto a rainy day\nthou art more grey\nand far more wet",
+   "input": {
+    "text": "Shall I compare thee\nto a rainy day\nthou art more grey\nand far more wet"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "count lines, including empty: TODO\n\n- call plumber\n- pay rent\n",
+   "input": {
+    "text": "TODO\n\n- call plumber\n- pay rent\n"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "Count the lines in this log excerpt: ERROR disk full\nWARN retrying\nINFO done",
+   "input": {
+    "text": "ERROR disk full\nWARN retrying\nINFO done"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "Please count the lines of this recipe method:\nPreheat oven\nMix flour and sugar\nAdd eggs\nBake for 20 minutes",
+   "input": {
+    "text": "Preheat oven\nMix flour and sugar\nAdd eggs\nBake for 20 minutes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "line count for the guest list: Ana\nBen\nCara\n\nDev\nEli",
+   "input": {
+    "text": "Ana\nBen\nCara\n\nDev\nEli"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "how many lines does this stanza have\nRoses bloom\nin June\nand fade\nby autumn",
+   "input": {
+    "text": "Roses bloom\nin June\nand fade\nby autumn"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "Count how many lines, and how many are blank:\na\n\nb\n\nc",
+   "input": {
+    "text": "a\n\nb\n\nc"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "quick, count the lines: north\nsouth\neast\nwest",
+   "input": {
+    "text": "north\nsouth\neast\nwest"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "For my CSV sanity check, count the lines in this:\nname,age\nAna,31\nBen,45\nCara,29",
+   "input": {
+    "text": "name,age\nAna,31\nBen,45\nCara,29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countLines",
+   "message": "count every line in the document I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countLines",
+   "message": "count the lines in my poem below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countLines",
+   "message": "Line count for this script, blank lines separate please",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countLines",
+   "message": "tell me how many lines the following block has",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countLines",
+   "message": "count lines in the log I'll send",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countLines",
+   "message": "how many lines does my address label have",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "how many times does \"very\" appear in: It was very cold and very windy, very much a winter day",
+   "input": {
+    "needle": "very",
+    "text": "It was very cold and very windy, very much a winter day"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "count the occurrences of refund in this: I asked for a refund twice and the refund never arrived, so where is my refund",
+   "input": {
+    "needle": "refund",
+    "text": "I asked for a refund twice and the refund never arrived, so where is my refund"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "My son says \"like\" too much. Count \"like\" in his essay: I like dogs, like, a lot, and I like cats too",
+   "input": {
+    "needle": "like",
+    "text": "I like dogs, like, a lot, and I like cats too"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "Count how many times the word \"Apple\" shows up here, matching case: Apple sells apple juice? No, Apple sells phones.",
+   "input": {
+    "needle": "Apple",
+    "text": "Apple sells apple juice? No, Apple sells phones.",
+    "caseSensitive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "how many times does timeout appear in this log — timeout at 10:01, retry, timeout at 10:02, ok",
+   "input": {
+    "needle": "timeout",
+    "text": "timeout at 10:01, retry, timeout at 10:02, ok"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "Teacher here: how often does the phrase \"we will\" come up in this speech? we will fight, we will win, and we will never give up",
+   "input": {
+    "needle": "we will",
+    "text": "we will fight, we will win, and we will never give up"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "count how many times na appears in banana bandana",
+   "input": {
+    "needle": "na",
+    "text": "banana bandana"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "count how many times Tuesday appears: Bins go out Tuesday. Recycling is Tuesday too.",
+   "input": {
+    "needle": "Tuesday",
+    "text": "Bins go out Tuesday. Recycling is Tuesday too."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "Count whole-word matches of \"cat\" only: the cat sat on a catalogue near the cat flap",
+   "input": {
+    "needle": "cat",
+    "text": "the cat sat on a catalogue near the cat flap",
+    "wholeWord": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "occurrences of \"sorry\"? sorry for the delay, sorry again, and sorry if this is late",
+   "input": {
+    "needle": "sorry",
+    "text": "sorry for the delay, sorry again, and sorry if this is late"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "In this customer review, how many times does \"great\" appear? Great food, great staff, and a great view over the river",
+   "input": {
+    "needle": "great",
+    "text": "Great food, great staff, and a great view over the river"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "Count the times \"WARN\" appears in my log line: WARN cpu high; INFO ok; WARN memory high; WARN disk",
+   "input": {
+    "needle": "WARN",
+    "text": "WARN cpu high; INFO ok; WARN memory high; WARN disk",
+    "caseSensitive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "how many \"the\"s are in the end of the road is the start of the trail",
+   "input": {
+    "needle": "the",
+    "text": "the end of the road is the start of the trail"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "Tally up how often \"okay\" is said: okay so okay we start now okay",
+   "input": {
+    "needle": "okay",
+    "text": "okay so okay we start now okay"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "pls count how many times goal appears in \"goal! another goal! what a goal that was\"",
+   "input": {
+    "needle": "goal",
+    "text": "goal! another goal! what a goal that was"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "Count the times the word \"Rose\" appears, case sensitive, in: Rose picked a rose for Rose",
+   "input": {
+    "needle": "Rose",
+    "text": "Rose picked a rose for Rose",
+    "caseSensitive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "Count the instances of \"error\" in the following: error: file missing. error: permission denied. warning: slow.",
+   "input": {
+    "needle": "error",
+    "text": "error: file missing. error: permission denied. warning: slow."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "How many times does \"basically\" appear in my draft? basically the plan is basically fine, basically",
+   "input": {
+    "needle": "basically",
+    "text": "basically the plan is basically fine, basically"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "in the email below, count how many times invoice is written",
+   "input": {
+    "needle": "invoice"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "count occurrences of the word deadline in my notes",
+   "input": {
+    "needle": "deadline"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "Count how often \"Paris\" shows up in the article I'm pasting",
+   "input": {
+    "needle": "Paris"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "how many times is \"um\" said in this transcript?",
+   "input": {
+    "needle": "um"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "count how many times TODO appears in the code I send",
+   "input": {
+    "needle": "TODO"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countOccurrences",
+   "message": "count how many times the word budget appears in this report",
+   "input": {
+    "needle": "budget"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countSentences",
+   "message": "how many sentences are in this: I woke up late. The bus had gone. So I walked.",
+   "input": {
+    "text": "I woke up late. The bus had gone. So I walked."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "Count the sentences in my paragraph please: Our shop opens at nine. We close at five on weekdays. On Sundays we rest!",
+   "input": {
+    "text": "Our shop opens at nine. We close at five on weekdays. On Sundays we rest!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "sentence count → Wow. That was fast. Did it work? Yes.",
+   "input": {
+    "text": "Wow. That was fast. Did it work? Yes."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "My English tutor says my sentences run on. How many sentences is this and how long are they on average? I went to the park and I saw a dog and it was big and brown. Then I went home.",
+   "input": {
+    "text": "I went to the park and I saw a dog and it was big and brown. Then I went home."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "number of sentences in \"Take two tablets daily. Do not exceed the dose. Keep away from children.\"",
+   "input": {
+    "text": "Take two tablets daily. Do not exceed the dose. Keep away from children."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "how many sentences does this review contain? Loved it! The staff were kind. Parking was a pain though.",
+   "input": {
+    "text": "Loved it! The staff were kind. Parking was a pain though."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "Count sentences: Dr. Patel will see you now. Please bring your notes.",
+   "input": {
+    "text": "Dr. Patel will see you now. Please bring your notes."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "Could you count how many sentences are in this email? Hi Tom. The invoice is attached. Let me know if anything is wrong. Thanks.",
+   "input": {
+    "text": "Hi Tom. The invoice is attached. Let me know if anything is wrong. Thanks."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "sentences in this blurb?? New season, new menu. Come and try it.",
+   "input": {
+    "text": "New season, new menu. Come and try it."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "Please give me the sentence count and average sentence length for: The river rose overnight. Roads were closed by dawn. Schools stayed shut.",
+   "input": {
+    "text": "The river rose overnight. Roads were closed by dawn. Schools stayed shut."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "how many full sentences: Game over? Not yet! Press start to continue.",
+   "input": {
+    "text": "Game over? Not yet! Press start to continue."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "For a readability check, count the sentences in: Wash your hands. Dry them well. Then apply the cream.",
+   "input": {
+    "text": "Wash your hands. Dry them well. Then apply the cream."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "tell me the number of sentences — It rained. It poured. It stopped.",
+   "input": {
+    "text": "It rained. It poured. It stopped."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "I'm a teacher marking a story; how many sentences did the pupil write? The dragon flew. It was hungry. It ate a cloud. The end.",
+   "input": {
+    "text": "The dragon flew. It was hungry. It ate a cloud. The end."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "count the sentences in this abstract: We study sleep in teenagers. Results show later bedtimes. Further work is needed.",
+   "input": {
+    "text": "We study sleep in teenagers. Results show later bedtimes. Further work is needed."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "How many sentences is my cover letter opening? I am applying for the nurse role. I have six years of ward experience.",
+   "input": {
+    "text": "I am applying for the nurse role. I have six years of ward experience."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "sentence tally pls: Ok. Fine. Whatever you say.",
+   "input": {
+    "text": "Ok. Fine. Whatever you say."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "Work out how many sentences there are: Mix the batter. Let it rest for an hour. Fry in hot butter. Serve warm.",
+   "input": {
+    "text": "Mix the batter. Let it rest for an hour. Fry in hot butter. Serve warm."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countSentences",
+   "message": "count the sentences in the paragraph below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countSentences",
+   "message": "how many sentences is my essay, I'll paste it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countSentences",
+   "message": "please count every sentence in my chapter",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countSentences",
+   "message": "how many sentences are in the following text and what's the average length",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countSentences",
+   "message": "tell me how many sentences my blog post has",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countSentences",
+   "message": "count sentences in what I send next",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWords",
+   "message": "count the words please: Thanks for the party, it was lovely.",
+   "input": {
+    "text": "Thanks for the party, it was lovely."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "word count of this quote please: Ask not what your country can do for you",
+   "input": {
+    "text": "Ask not what your country can do for you"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "My essay limit is 150 words. Count the words in this: Droughts reduce yields and raise prices.",
+   "input": {
+    "text": "Droughts reduce yields and raise prices."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "count the words → buy milk, call mum, fix bike",
+   "input": {
+    "text": "buy milk, call mum, fix bike"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "Could you count the words in my speech opening? Ladies and gentlemen, thank you for being here tonight.",
+   "input": {
+    "text": "Ladies and gentlemen, thank you for being here tonight."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "number of words, please count: The meeting is moved to Thursday.",
+   "input": {
+    "text": "The meeting is moved to Thursday."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "I'm a copywriter, need a word count for this tagline: Fresh coffee, friendly faces, every single day",
+   "input": {
+    "text": "Fresh coffee, friendly faces, every single day"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "words in this?? gonna be late, traffic is mad",
+   "input": {
+    "text": "gonna be late, traffic is mad"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "How many words is my abstract? Count them: Exercise lowered resting heart rate.",
+   "input": {
+    "text": "Exercise lowered resting heart rate."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "word count and paragraphs for: First point here.\n\nSecond point there.",
+   "input": {
+    "text": "First point here.\n\nSecond point there."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "count the words in this review: Loved the room and the view.",
+   "input": {
+    "text": "Loved the room and the view."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "For the newsletter I need the word count of: Our summer fair raised 400 pounds for the library roof.",
+   "input": {
+    "text": "Our summer fair raised 400 pounds for the library roof."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "How long is this text in words? Please remember to bring your swimming kit on Friday.",
+   "input": {
+    "text": "Please remember to bring your swimming kit on Friday."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "word count pls shipping delayed due to weather, sorry all",
+   "input": {
+    "text": "shipping delayed due to weather, sorry all"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "Count the words in the following note: Feed the cat twice a day and water the tomatoes.",
+   "input": {
+    "text": "Feed the cat twice a day and water the tomatoes."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "My grant application says max 50 words. Count the words: We will run free coding clubs for girls.",
+   "input": {
+    "text": "We will run free coding clubs for girls."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "total word count of this quote? Be yourself; everyone else is taken.",
+   "input": {
+    "text": "Be yourself; everyone else is taken."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "Get me a word count on: Patient reports mild headache, no fever, slept well.",
+   "input": {
+    "text": "Patient reports mild headache, no fever, slept well."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWords",
+   "message": "how many words is the essay below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWords",
+   "message": "word count for my personal statement, pasting it now",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWords",
+   "message": "count the words in this chapter",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWords",
+   "message": "Can you give me a word count of the following?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWords",
+   "message": "how many words did i write here",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWords",
+   "message": "count the words in the article I attached, total please",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "which language is this? Je voudrais un café au lait, s'il vous plaît",
+   "input": {
+    "text": "Je voudrais un café au lait, s'il vous plaît"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "My grandmother left a note in her recipe book and I can't tell what language it is: Ein Löffel Zucker und zwei Eier",
+   "input": {
+    "text": "Ein Löffel Zucker und zwei Eier"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "what language is \"Dove si trova la stazione dei treni?\"",
+   "input": {
+    "text": "Dove si trova la stazione dei treni?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "detect language → Obrigado pela ajuda de ontem",
+   "input": {
+    "text": "Obrigado pela ajuda de ontem"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "A customer emailed us this, what language did they write in? Hola, mi pedido no ha llegado todavía",
+   "input": {
+    "text": "Hola, mi pedido no ha llegado todavía"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "Can you identify the language of this sign I saw on holiday: Verboden toegang voor onbevoegden",
+   "input": {
+    "text": "Verboden toegang voor onbevoegden"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "language of this text pls: Jag älskar att läsa böcker på kvällen",
+   "input": {
+    "text": "Jag älskar att läsa böcker på kvällen"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "I'm a nurse and a patient handed me this note. Which language is it in? Boli mnie głowa od wczoraj",
+   "input": {
+    "text": "Boli mnie głowa od wczoraj"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "Which language was this review written in? Das Essen war ausgezeichnet und der Service freundlich",
+   "input": {
+    "text": "Das Essen war ausgezeichnet und der Service freundlich"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "guess the language: Bom dia, tudo bem com você?",
+   "input": {
+    "text": "Bom dia, tudo bem com você?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "What language is this song title in: La vie en rose",
+   "input": {
+    "text": "La vie en rose"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "Please detect what language this comment uses: Questo prodotto è fantastico, lo consiglio a tutti",
+   "input": {
+    "text": "Questo prodotto è fantastico, lo consiglio a tutti"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "what lang is this?? Ik ben morgen niet op kantoor",
+   "input": {
+    "text": "Ik ben morgen niet op kantoor"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "Our support inbox got this message — tell me the language: Bonjour, je n'arrive pas à me connecter à mon compte",
+   "input": {
+    "text": "Bonjour, je n'arrive pas à me connecter à mon compte"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "Identify the language: Kan du hjälpa mig med min beställning?",
+   "input": {
+    "text": "Kan du hjälpa mig med min beställning?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "Teacher here, a new pupil wrote this in their notebook. Which language? Me gusta mucho jugar al fútbol con mis amigos",
+   "input": {
+    "text": "Me gusta mucho jugar al fútbol con mis amigos"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "which language does this tweet use: Heute ist so ein schöner Tag im Park",
+   "input": {
+    "text": "Heute ist so ein schöner Tag im Park"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "Is this Spanish or Portuguese? Detect the language: Eu não sei onde fica a praia",
+   "input": {
+    "text": "Eu não sei onde fica a praia"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "what language is the paragraph below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "what language is the letter I'm pasting written in",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "Identify the language of the email I received, I'll paste it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "which language is the text on this label",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "tell me which language my pen pal used, pasting her message now",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectLanguage",
+   "message": "what language is my neighbour's note written in?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "find repeated phrases in my speech: we must act now, we must act now, because tomorrow is too late",
+   "input": {
+    "text": "we must act now, we must act now, because tomorrow is too late"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "Is my essay repetitive? Check for phrases I repeat: In my opinion the town needs a park. In my opinion the park should be big.",
+   "input": {
+    "text": "In my opinion the town needs a park. In my opinion the park should be big."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "spot repeated phrases → at the end of the day it works, and at the end of the day that matters",
+   "input": {
+    "text": "at the end of the day it works, and at the end of the day that matters"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "check this ad copy for repeated phrases: fresh and local, fresh and local, always fresh and local",
+   "input": {
+    "text": "fresh and local, fresh and local, always fresh and local"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "any phrases repeated here? thank you so much for coming and thank you so much for the gifts",
+   "input": {
+    "text": "thank you so much for coming and thank you so much for the gifts"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "Find repeated phrases of at least four words: the best is yet to come, I promise the best is yet to come",
+   "input": {
+    "text": "the best is yet to come, I promise the best is yet to come",
+    "minWords": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "I'm editing a novel chapter. Which phrases does the author repeat? She looked out the window. He looked out the window too.",
+   "input": {
+    "text": "She looked out the window. He looked out the window too."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "show me phrases repeated at least three times: go go go team, go go go team, go go go team",
+   "input": {
+    "text": "go go go team, go go go team, go go go team",
+    "minTimes": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "is my cover letter repetitive? I am passionate about design. I am passionate about people.",
+   "input": {
+    "text": "I am passionate about design. I am passionate about people."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "Which phrases are repeated in this customer feedback? too slow to load, the app is too slow to load on my phone",
+   "input": {
+    "text": "too slow to load, the app is too slow to load on my phone"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "look for repeated phrases in: as soon as possible please, reply as soon as possible",
+   "input": {
+    "text": "as soon as possible please, reply as soon as possible"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "find any repeated two-word phrases: big data needs big data tools",
+   "input": {
+    "text": "big data needs big data tools",
+    "minWords": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "Does my blog intro repeat phrases? Welcome to my blog about cooking. My blog about cooking is new.",
+   "input": {
+    "text": "Welcome to my blog about cooking. My blog about cooking is new."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "Detect the repeated phrases in this policy text: staff must wash hands, visitors must wash hands, everyone must wash hands",
+   "input": {
+    "text": "staff must wash hands, visitors must wash hands, everyone must wash hands"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "pls find repeated phrases of 3 words or more: keep it simple and keep it simple again",
+   "input": {
+    "text": "keep it simple and keep it simple again",
+    "minWords": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "Check my wedding toast for repeated phrases: here is to love, here is to laughter, here is to love",
+   "input": {
+    "text": "here is to love, here is to laughter, here is to love"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "are there repeated phrases in this paragraph? The results show growth. The results show stability too.",
+   "input": {
+    "text": "The results show growth. The results show stability too."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "which phrases repeat in this story opening: once upon a time there was a king, once upon a time there was a queen",
+   "input": {
+    "text": "once upon a time there was a king, once upon a time there was a queen"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "my essay feels samey — which phrases do I repeat in it?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "is the speech I'm pasting repetitive?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "Check this chapter for phrases that repeat",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "look for repetition in the following text, phrases of five words",
+   "input": {
+    "minWords": 5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "which phrases does my report repeat, I'll send it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "detectRepetition",
+   "message": "check the draft I paste for repeated phrases",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "diffText",
+   "message": "compare the old and new versions. Old: \"Meet at 3pm in room 4\" New: \"Meet at 4pm in room 2\"",
+   "input": {
+    "before": "Meet at 3pm in room 4",
+    "after": "Meet at 4pm in room 2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "compare the old draft with the new draft word by word. Old: We sell fresh bread daily | New: We bake fresh bread every morning",
+   "input": {
+    "before": "We sell fresh bread daily",
+    "after": "We bake fresh bread every morning",
+    "by": "word"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "diff my old shopping list against the new one — old:\nmilk\neggs\nflour\nnew:\nmilk\nbutter\nflour",
+   "input": {
+    "before": "milk\neggs\nflour",
+    "after": "milk\nbutter\nflour"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "I'm a paralegal comparing clause versions. Original: \"The tenant shall pay rent monthly\". Revised: \"The tenant shall pay rent quarterly in advance\". What was added or removed?",
+   "input": {
+    "before": "The tenant shall pay rent monthly",
+    "after": "The tenant shall pay rent quarterly in advance"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "diff these two versions line by line:\nold:\nhost=alpha\nport=80\nnew:\nhost=beta\nport=80",
+   "input": {
+    "before": "host=alpha\nport=80",
+    "after": "host=beta\nport=80",
+    "by": "line"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "what did my editor change? mine: \"The results was surprising\" theirs: \"The results were surprising\"",
+   "input": {
+    "before": "The results was surprising",
+    "after": "The results were surprising"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "Compare old vs new menu. Old: soup, salad, pie New: soup, salad, tart",
+   "input": {
+    "before": "soup, salad, pie",
+    "after": "soup, salad, tart"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "diff the old text against the new text by word please — old: \"Fast delivery on all orders\" new: \"Free fast delivery on most orders\"",
+   "input": {
+    "before": "Fast delivery on all orders",
+    "after": "Free fast delivery on most orders",
+    "by": "word"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "Teacher checking a resubmission. Compare the old version \"Romeo loves Juliet\" with the new version \"Romeo truly loves Juliet\"",
+   "input": {
+    "before": "Romeo loves Juliet",
+    "after": "Romeo truly loves Juliet"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "Can you diff these two lines: \"version 1.2 released\" and \"version 1.3 released\"",
+   "input": {
+    "before": "version 1.2 released",
+    "after": "version 1.3 released"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "spot the difference between the old text \"Open Monday to Friday\" and the new text \"Open Monday to Saturday\"",
+   "input": {
+    "before": "Open Monday to Friday",
+    "after": "Open Monday to Saturday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "compare the old guest list with the new one, old:\nAna\nBen\nCara\nnew:\nAna\nCara\nDev",
+   "input": {
+    "before": "Ana\nBen\nCara",
+    "after": "Ana\nCara\nDev"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "What was deleted? Compare the old text \"Call me tomorrow after lunch please\" with the new text \"Call me tomorrow please\"",
+   "input": {
+    "before": "Call me tomorrow after lunch please",
+    "after": "Call me tomorrow please"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "show me what differs word for word between \"the quick brown fox\" and \"the slow brown fox\"",
+   "input": {
+    "before": "the quick brown fox",
+    "after": "the slow brown fox",
+    "by": "word"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "diff → before: price 10 pounds / after: price 12 pounds",
+   "input": {
+    "before": "price 10 pounds",
+    "after": "price 12 pounds"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "Compare the original policy line \"Visitors must sign in\" with the updated one \"All visitors must sign in and out\"",
+   "input": {
+    "before": "Visitors must sign in",
+    "after": "All visitors must sign in and out"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "My recipe changed. Diff the old steps against the new ones. Old:\nmix\nbake 20 min\ncool\nNew:\nmix\nrest\nbake 25 min\ncool",
+   "input": {
+    "before": "mix\nbake 20 min\ncool",
+    "after": "mix\nrest\nbake 25 min\ncool"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "diff the old greeting \"Dear Sir\" against the new one \"Dear Madam\"",
+   "input": {
+    "before": "Dear Sir",
+    "after": "Dear Madam"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "diffText",
+   "message": "compare the two versions of my essay I'm about to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "diffText",
+   "message": "what changed between the old contract and the new one?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "diffText",
+   "message": "I have an old and a new config file, show the word level changes",
+   "input": {
+    "by": "word"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "diffText",
+   "message": "Here is my original paragraph: \"We open at nine every day.\" I'll send the edited version next, show me what changed",
+   "input": {
+    "before": "We open at nine every day."
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "diffText",
+   "message": "show the line by line differences between my two drafts",
+   "input": {
+    "by": "line"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "diffText",
+   "message": "compare the before and after text below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "escape the html in: <script>alert(1)</script>",
+   "input": {
+    "text": "<script>alert(1)</script>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "make this safe to put in a web page: Tom & Jerry <3",
+   "input": {
+    "text": "Tom & Jerry <3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "I'm writing a blog post about html tags and need this shown literally: <div class=\"box\">hi</div>",
+   "input": {
+    "text": "<div class=\"box\">hi</div>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "html escape → 5 < 7 && 9 > 3",
+   "input": {
+    "text": "5 < 7 && 9 > 3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "unescape these entities please: &lt;h1&gt;Welcome&lt;/h1&gt;",
+   "input": {
+    "text": "&lt;h1&gt;Welcome&lt;/h1&gt;",
+    "direction": "unescape"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "turn the entities back into characters: Fish &amp; Chips &quot;Special&quot;",
+   "input": {
+    "text": "Fish &amp; Chips &quot;Special&quot;",
+    "direction": "unescape"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "Could you HTML-escape the ampersands and brackets in R&D <team> update",
+   "input": {
+    "text": "R&D <team> update"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "escape for html: if (a < b) return \"yes\";",
+   "input": {
+    "text": "if (a < b) return \"yes\";"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "decode the html entities in &lt;br&gt; means line break",
+   "input": {
+    "text": "&lt;br&gt; means line break",
+    "direction": "unescape"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "convert special characters to html entities: Price < £5 & free P&P",
+   "input": {
+    "text": "Price < £5 & free P&P"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "My shop description breaks the page. Escape it for HTML: Bags & Belts <new season>",
+   "input": {
+    "text": "Bags & Belts <new season>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "html-unescape: &quot;Hello&quot; &amp; goodbye",
+   "input": {
+    "text": "&quot;Hello&quot; &amp; goodbye",
+    "direction": "unescape"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "Please escape this so the browser shows the tags instead of running them: <img src=x onerror=alert(1)>",
+   "input": {
+    "text": "<img src=x onerror=alert(1)>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "escape html entities in this comment: I <3 this & that",
+   "input": {
+    "text": "I <3 this & that"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "reverse the html escaping on &lt;p&gt;Hi there&lt;/p&gt;",
+   "input": {
+    "text": "&lt;p&gt;Hi there&lt;/p&gt;",
+    "direction": "unescape"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "need this html-escaped for a code sample: <a href=\"/home\">Home</a>",
+   "input": {
+    "text": "<a href=\"/home\">Home</a>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "escape html: AT&T <support>",
+   "input": {
+    "text": "AT&T <support>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "Turn &-entities back into normal text: Rock &amp; Roll &gt; Jazz",
+   "input": {
+    "text": "Rock &amp; Roll &gt; Jazz",
+    "direction": "unescape"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "escape the html snippet below so it displays as text",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "unescape the html entities in what I paste next",
+   "input": {
+    "direction": "unescape"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "escape the following markup before it goes in my template",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "html-escape this user comment before I publish it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "unescape the html entities in this email body",
+   "input": {
+    "direction": "unescape"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "escape the angle brackets in my code example",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "pull the code blocks out of this markdown: Install:\n\n```sh\npip install flask\n```",
+   "input": {
+    "markdown": "Install:\n\n```sh\npip install flask\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "extract the code snippets from my notes:\n# Notes\n\n```python\nprint(\"hi\")\n```\n\nand\n\n```js\nconsole.log(1)\n```",
+   "input": {
+    "markdown": "# Notes\n\n```python\nprint(\"hi\")\n```\n\nand\n\n```js\nconsole.log(1)\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "only the python code blocks please: ```python\nx = 1\n```\n\n```bash\nls\n```",
+   "input": {
+    "markdown": "```python\nx = 1\n```\n\n```bash\nls\n```",
+    "language": "python"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "I'm a developer cleaning up docs. Get the fenced code from this:\nRun:\n\n```\nmake build\n```",
+   "input": {
+    "markdown": "Run:\n\n```\nmake build\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "code blocks from this readme section → ## Usage\n\n```ts\nimport x from \"y\";\n```",
+   "input": {
+    "markdown": "## Usage\n\n```ts\nimport x from \"y\";\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "extract just the sql blocks: Query:\n\n```sql\nSELECT * FROM users;\n```\n\n```json\n{\"a\":1}\n```",
+   "input": {
+    "markdown": "Query:\n\n```sql\nSELECT * FROM users;\n```\n\n```json\n{\"a\":1}\n```",
+    "language": "sql"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "Can you lift the code snippets out of this markdown tutorial?\nStep 1\n\n```bash\nnpm install\n```\n\nStep 2\n\n```bash\nnpm start\n```",
+   "input": {
+    "markdown": "Step 1\n\n```bash\nnpm install\n```\n\nStep 2\n\n```bash\nnpm start\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "grab the fenced code: ```go\nfmt.Println(\"hi\")\n```",
+   "input": {
+    "markdown": "```go\nfmt.Println(\"hi\")\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "Please extract every code block from this markdown answer: Try this:\n\n```css\n.box { color: red; }\n```",
+   "input": {
+    "markdown": "Try this:\n\n```css\n.box { color: red; }\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "I only want the yaml code blocks out of this:\n```yaml\nname: ci\n```\n\n```sh\necho done\n```",
+   "input": {
+    "markdown": "```yaml\nname: ci\n```\n\n```sh\necho done\n```",
+    "language": "yaml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "get code blocks → Example\n\n```rust\nfn main() {}\n```",
+   "input": {
+    "markdown": "Example\n\n```rust\nfn main() {}\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "Student here, my lecture notes are in markdown. Extract the code: ## Loops\n\n```java\nfor (int i = 0; i < 3; i++) {}\n```",
+   "input": {
+    "markdown": "## Loops\n\n```java\nfor (int i = 0; i < 3; i++) {}\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "pull out the fenced snippets from: Config\n\n```toml\n[server]\nport = 8080\n```",
+   "input": {
+    "markdown": "Config\n\n```toml\n[server]\nport = 8080\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "extract the code blocks tagged html from ```html\n<p>hi</p>\n```\n\n```css\np { margin: 0; }\n```",
+   "input": {
+    "markdown": "```html\n<p>hi</p>\n```\n\n```css\np { margin: 0; }\n```",
+    "language": "html"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "what code blocks are in this markdown? Text first.\n\n```\nplain block\n```",
+   "input": {
+    "markdown": "Text first.\n\n```\nplain block\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "Get me the code from this gist markdown: ```ruby\nputs \"hello\"\n```",
+   "input": {
+    "markdown": "```ruby\nputs \"hello\"\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "extract all fenced code blocks: ```php\necho 1;\n```\n\nmore\n\n```php\necho 2;\n```",
+   "input": {
+    "markdown": "```php\necho 1;\n```\n\nmore\n\n```php\necho 2;\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "code snippets only please from this markdown doc: Setup\n\n```bash\nbrew install jq\n```",
+   "input": {
+    "markdown": "Setup\n\n```bash\nbrew install jq\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "extract the code blocks from the markdown I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "pull just the bash snippets out of my readme",
+   "input": {
+    "language": "bash"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "get the fenced code from this markdown file",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "I want only the javascript blocks from the doc below",
+   "input": {
+    "language": "javascript"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "lift the code snippets out of my markdown notes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCodeBlocks",
+   "message": "extract every code block in this tutorial",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "pull the money amounts out of this: Rent is £950 and the deposit is £1,100",
+   "input": {
+    "text": "Rent is £950 and the deposit is £1,100"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "extract the prices mentioned in \"Coffee $3.50, muffin $2.25, tip $1\"",
+   "input": {
+    "text": "Coffee $3.50, muffin $2.25, tip $1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "My receipt text is messy — extract the amounts with their currency: Total EUR 45.80 incl. VAT 7.60",
+   "input": {
+    "text": "Total EUR 45.80 incl. VAT 7.60"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "get every currency amount → flights €230, hotel €410, taxi €35",
+   "input": {
+    "text": "flights €230, hotel €410, taxi €35"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "I'm an accountant reconciling an email. Which amounts of money does it mention? We paid $12,400 in March and $9,750 in April",
+   "input": {
+    "text": "We paid $12,400 in March and $9,750 in April"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "list the money in this message: Can you send me ¥5000 for the tickets and ¥1200 for food?",
+   "input": {
+    "text": "Can you send me ¥5000 for the tickets and ¥1200 for food?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "Extract the prices from my menu line: Fish and chips £8.95, mushy peas £1.50",
+   "input": {
+    "text": "Fish and chips £8.95, mushy peas £1.50"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "money amounts please: Budget: USD 2,000 for ads, USD 500 for print",
+   "input": {
+    "text": "Budget: USD 2,000 for ads, USD 500 for print"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "Find the amounts and currencies in this contract clause: The fee is CHF 3,500 payable on signing plus CHF 250 monthly",
+   "input": {
+    "text": "The fee is CHF 3,500 payable on signing plus CHF 250 monthly"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "how much money is mentioned here, list each amount: I owe Sam £20 and Priya £15.50",
+   "input": {
+    "text": "I owe Sam £20 and Priya £15.50"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "pull out currency amounts → Ticket: $45. Parking: $12. Snacks: $8.75.",
+   "input": {
+    "text": "Ticket: $45. Parking: $12. Snacks: $8.75."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "Could you extract the euro amounts from: Rent €800, utilities €120, internet €30",
+   "input": {
+    "text": "Rent €800, utilities €120, internet €30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "what amounts of money appear in this text? The car cost £14,995 and insurance was £620 a year",
+   "input": {
+    "text": "The car cost £14,995 and insurance was £620 a year"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "grab the prices: Sale! Was $59.99 now $39.99",
+   "input": {
+    "text": "Sale! Was $59.99 now $39.99"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "For my expense report, extract the money amounts from this: Taxi 18.40 GBP, lunch 11.20 GBP, train 64.00 GBP",
+   "input": {
+    "text": "Taxi 18.40 GBP, lunch 11.20 GBP, train 64.00 GBP"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "Which currency amounts are in this invoice note? Labour A$300, parts A$145.60",
+   "input": {
+    "text": "Labour A$300, parts A$145.60"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "extract amounts of money: Grandma gave me £50 and Dad gave me £25",
+   "input": {
+    "text": "Grandma gave me £50 and Dad gave me £25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "money mentioned in this tweet? just spent $120 on a keyboard and $30 on keycaps lol",
+   "input": {
+    "text": "just spent $120 on a keyboard and $30 on keycaps lol"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "extract the money amounts from the invoice I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "pull every price out of this receipt",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "which amounts of money does the email below mention?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "list the currency amounts in my bank statement text",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "get the prices from the quote I'll send",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractCurrencyAmounts",
+   "message": "find the money figures with currencies in this report",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractDates",
+   "message": "pull out the dates from this email: Interviews run 14 October to 18 October, offers by 1 November.",
+   "input": {
+    "text": "Interviews run 14 October to 18 October, offers by 1 November."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "find the dates mentioned in \"Term starts 2026-09-07 and half term is 2026-10-26\"",
+   "input": {
+    "text": "Term starts 2026-09-07 and half term is 2026-10-26"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "I'm a teacher planning trips. Extract the dates from: Museum visit 12/11/2026, zoo trip 03/12/2026",
+   "input": {
+    "text": "Museum visit 12/11/2026, zoo trip 03/12/2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "list the dates → Invoice dated 5 Jan 2026, due 4 Feb 2026",
+   "input": {
+    "text": "Invoice dated 5 Jan 2026, due 4 Feb 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "Please extract the dates, reading them month first (American style): Ships 04/05/2026, arrives 04/09/2026",
+   "input": {
+    "text": "Ships 04/05/2026, arrives 04/09/2026",
+    "dayFirst": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "get the dates out of my notes: dentist March 3 2026, MOT March 20 2026",
+   "input": {
+    "text": "dentist March 3 2026, MOT March 20 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "Extract the dates from this contract clause: Begins 1 April 2026, ends 31 March 2027.",
+   "input": {
+    "text": "Begins 1 April 2026, ends 31 March 2027."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "extract dates: Flights on 2026-12-20 and 2026-12-28",
+   "input": {
+    "text": "Flights on 2026-12-20 and 2026-12-28"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "Nurse here — pull the appointment dates from this letter: Your scan is on 9 November 2026 and the follow-up on 23 November 2026.",
+   "input": {
+    "text": "Your scan is on 9 November 2026 and the follow-up on 23 November 2026."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "find all the dates written in this paragraph: The shop opened on 15 June 2019 and moved on 2 August 2024.",
+   "input": {
+    "text": "The shop opened on 15 June 2019 and moved on 2 August 2024."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "any dates in this message? pull them out: see you on Sat 7 Nov, back on 9 Nov 2026",
+   "input": {
+    "text": "see you on Sat 7 Nov, back on 9 Nov 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "Extract the dates from this log: 2026-08-30 backup ok; 2026-08-31 backup failed",
+   "input": {
+    "text": "2026-08-30 backup ok; 2026-08-31 backup failed"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "What dates does this announcement mention? Registration closes 30/09/2026 and the race is 18/10/2026.",
+   "input": {
+    "text": "Registration closes 30/09/2026 and the race is 18/10/2026."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "grab the dates, US format please: Due 11/02/2026, grace until 11/15/2026",
+   "input": {
+    "text": "Due 11/02/2026, grace until 11/15/2026",
+    "dayFirst": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "I keep losing deadlines in emails. Find the dates in this one: Draft due 3 December 2026, final due 17 December 2026",
+   "input": {
+    "text": "Draft due 3 December 2026, final due 17 December 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "pull dates out → born 1990-05-14, married 2018-07-21",
+   "input": {
+    "text": "born 1990-05-14, married 2018-07-21"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "extract every date in this itinerary text: Rome on 2 May 2026, Venice on 8 May 2026",
+   "input": {
+    "text": "Rome on 2 May 2026, Venice on 8 May 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "Which dates are in this text, day first: Payments on 01/03/2026 and 01/06/2026",
+   "input": {
+    "text": "Payments on 01/03/2026 and 01/06/2026",
+    "dayFirst": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractDates",
+   "message": "extract the dates from the email thread below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractDates",
+   "message": "pull every date out of this meeting minutes doc",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractDates",
+   "message": "what dates does my lease mention? I'll paste it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractDates",
+   "message": "get the dates from the following schedule, month first please",
+   "input": {
+    "dayFirst": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractDates",
+   "message": "list the deadlines' dates in this project brief",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractDates",
+   "message": "find the dates written in my diary entry",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "pull the email addresses out of: Reach me at tom.baker@mail.com or office@bakerco.uk",
+   "input": {
+    "text": "Reach me at tom.baker@mail.com or office@bakerco.uk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "what emails are in this signature? Dr A. Shah | a.shah@clinic.nhs.uk | 0161 496 0000",
+   "input": {
+    "text": "Dr A. Shah | a.shah@clinic.nhs.uk | 0161 496 0000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "I'm a teacher collecting parent contacts. Get the emails from: Mia's mum: kate.r@gmail.com, Leo's dad: dan_p@outlook.com",
+   "input": {
+    "text": "Mia's mum: kate.r@gmail.com, Leo's dad: dan_p@outlook.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "extract emails → cc: ops@acme.io; bcc: legal@acme.io",
+   "input": {
+    "text": "cc: ops@acme.io; bcc: legal@acme.io"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "list the email addresses mentioned here: Questions to help@shop.com, returns to returns@shop.com",
+   "input": {
+    "text": "Questions to help@shop.com, returns to returns@shop.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "Get the emails from this, keep duplicates: jo@x.org wrote to sam@y.org, then jo@x.org again",
+   "input": {
+    "text": "jo@x.org wrote to sam@y.org, then jo@x.org again",
+    "unique": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "Could you find the email addresses in this forwarded message? From: lisa.m@firm.co.uk To: board@firm.co.uk",
+   "input": {
+    "text": "From: lisa.m@firm.co.uk To: board@firm.co.uk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "email addresses only please: Contact sales@bikes.de for wholesale",
+   "input": {
+    "text": "Contact sales@bikes.de for wholesale"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "which emails does this page list? Press: press@museum.org — Events: events@museum.org",
+   "input": {
+    "text": "Press: press@museum.org — Events: events@museum.org"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "Extract every email address from this csv line: Ana,ana@demo.com,Ben,ben@demo.com",
+   "input": {
+    "text": "Ana,ana@demo.com,Ben,ben@demo.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "pull out the addresses (email) from my notes: plumber - fixit@pipes.co, electrician - spark@volt.co",
+   "input": {
+    "text": "plumber - fixit@pipes.co, electrician - spark@volt.co"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "find the email address in this flyer text: Book now: yoga.with.amy@icloud.com",
+   "input": {
+    "text": "Book now: yoga.with.amy@icloud.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "Grab all emails, duplicates included: a@b.com, c@d.com, a@b.com",
+   "input": {
+    "text": "a@b.com, c@d.com, a@b.com",
+    "unique": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "get emails from: reply to noreply@bank.com? no, use support@bank.com",
+   "input": {
+    "text": "reply to noreply@bank.com? no, use support@bank.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "I run a small bakery — extract the email addresses from this order list: cake for jen@home.net, bread for mo@farm.org",
+   "input": {
+    "text": "cake for jen@home.net, bread for mo@farm.org"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "What email addresses appear in the following? Send CVs to jobs@startup.ai by Friday",
+   "input": {
+    "text": "Send CVs to jobs@startup.ai by Friday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "emails in this thread pls: hey @ ken@games.gg and lee@games.gg",
+   "input": {
+    "text": "hey @ ken@games.gg and lee@games.gg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "Extract the unique email addresses from: x@q.com y@q.com x@q.com",
+   "input": {
+    "text": "x@q.com y@q.com x@q.com",
+    "unique": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "extract the email addresses from the contact list below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "pull every email out of this mailing export",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "which emails are in the document I'm pasting?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "get the email addresses from my inbox dump, keep duplicates",
+   "input": {
+    "unique": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "find the emails mentioned in this webpage text",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractEmails",
+   "message": "list the email addresses in this spreadsheet column",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "pull the hashtags from this caption: Sunday roast done right #foodie #sundayvibes",
+   "input": {
+    "text": "Sunday roast done right #foodie #sundayvibes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "which hashtags did I use? New shoes!! #ootd #fashion #ootd",
+   "input": {
+    "text": "New shoes!! #ootd #fashion #ootd"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "extract hashtags → Big match tonight #COYS #PremierLeague",
+   "input": {
+    "text": "Big match tonight #COYS #PremierLeague"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "I manage social media for a café. List the tags in this post: Pumpkin spice is back #autumn #latte #cafe",
+   "input": {
+    "text": "Pumpkin spice is back #autumn #latte #cafe"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "get the hashtags, lowercase them: Launch day #StartUp #SaaS #Founders",
+   "input": {
+    "text": "Launch day #StartUp #SaaS #Founders",
+    "lowercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "hashtags in this tweet? cant sleep again #insomnia #3am",
+   "input": {
+    "text": "cant sleep again #insomnia #3am"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "Could you list every hashtag, keeping repeats? #run #run #marathon training day",
+   "input": {
+    "text": "#run #run #marathon training day",
+    "unique": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "Pull out the #tags from my Instagram caption: Golden hour at the beach #sunset #cornwall #travel",
+   "input": {
+    "text": "Golden hour at the beach #sunset #cornwall #travel"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "find the hashtags in: Vote today #Election2026 #YourVoice",
+   "input": {
+    "text": "Vote today #Election2026 #YourVoice"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "extract the hashtags used: Bake sale Saturday #schoolfundraiser #cakes",
+   "input": {
+    "text": "Bake sale Saturday #schoolfundraiser #cakes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "what tags are in this post: Level 50 finally #gaming #rpg #grind",
+   "input": {
+    "text": "Level 50 finally #gaming #rpg #grind"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "Grab the hashtags in lowercase please: #MondayMotivation #GymLife",
+   "input": {
+    "text": "#MondayMotivation #GymLife",
+    "lowercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "list hashtags from this linkedin post: Proud of the team #leadership #hiring #growth",
+   "input": {
+    "text": "Proud of the team #leadership #hiring #growth"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "pull hashtags → rainy london #londonlife #rain",
+   "input": {
+    "text": "rainy london #londonlife #rain"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "Extract the hashtags this campaign post uses: Shop small this weekend #ShopLocal #SmallBusiness",
+   "input": {
+    "text": "Shop small this weekend #ShopLocal #SmallBusiness"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "get all the hashtags from this post, duplicates too: #cats #cats #catsofinstagram",
+   "input": {
+    "text": "#cats #cats #catsofinstagram",
+    "unique": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "Extract the hashtags from my TikTok caption: easy pasta hack #recipe #fyp #pasta",
+   "input": {
+    "text": "easy pasta hack #recipe #fyp #pasta"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "hashtags please: Graduation day!! #classof2026 #proud",
+   "input": {
+    "text": "Graduation day!! #classof2026 #proud"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "extract the hashtags from the post I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "which hashtags are in my caption below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "pull every #tag out of these tweets",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "list the hashtags in this instagram post, lowercase",
+   "input": {
+    "lowercase": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "get the hashtags from the campaign brief",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHashtags",
+   "message": "find the tags people used in these comments",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "pull the IP addresses from this log: Failed login from 203.0.113.45 at 02:14",
+   "input": {
+    "text": "Failed login from 203.0.113.45 at 02:14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "which IPs appear here? GET / 200 10.0.0.5; GET /admin 403 10.0.0.9",
+   "input": {
+    "text": "GET / 200 10.0.0.5; GET /admin 403 10.0.0.9"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "extract ip addresses → peer 192.0.2.1 connected, peer 192.0.2.7 dropped",
+   "input": {
+    "text": "peer 192.0.2.1 connected, peer 192.0.2.7 dropped"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "I'm a sysadmin chasing a brute force attack. List the IP addresses in: sshd: invalid user from 198.51.100.23; again from 198.51.100.23",
+   "input": {
+    "text": "sshd: invalid user from 198.51.100.23; again from 198.51.100.23"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "get only the ipv6 addresses: v4 172.16.0.1 and v6 2001:db8::1 and fe80::1",
+   "input": {
+    "text": "v4 172.16.0.1 and v6 2001:db8::1 and fe80::1",
+    "version": "v6"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "find every ip in this firewall log, keep repeats: DROP 8.8.4.4; DROP 8.8.4.4; ALLOW 1.1.1.1",
+   "input": {
+    "text": "DROP 8.8.4.4; DROP 8.8.4.4; ALLOW 1.1.1.1",
+    "unique": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "Could you extract the IP addresses from this nginx line? 66.249.66.1 - - \"GET /robots.txt\" 200",
+   "input": {
+    "text": "66.249.66.1 - - \"GET /robots.txt\" 200"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "ipv4 addresses only please: hosts 10.1.1.1, 10.1.1.2 and ::1",
+   "input": {
+    "text": "hosts 10.1.1.1, 10.1.1.2 and ::1",
+    "version": "v4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "what IP addresses are in this email header? Received: from mail.example.com (93.184.216.34)",
+   "input": {
+    "text": "Received: from mail.example.com (93.184.216.34)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "list ips: router 192.168.0.1, printer 192.168.0.50",
+   "input": {
+    "text": "router 192.168.0.1, printer 192.168.0.50"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "Pull the IPs out of this server log excerpt: [warn] client 45.33.32.156 timed out",
+   "input": {
+    "text": "[warn] client 45.33.32.156 timed out"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "extract IPv6 addresses from: link 2001:db8:85a3::8a2e:370:7334 up",
+   "input": {
+    "text": "link 2001:db8:85a3::8a2e:370:7334 up",
+    "version": "v6"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "which IP addresses hit our site? 185.199.108.153 /index; 185.199.109.153 /about",
+   "input": {
+    "text": "185.199.108.153 /index; 185.199.109.153 /about"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "Get the IP addresses from this access log: 127.0.0.1 local; 203.0.113.9 external",
+   "input": {
+    "text": "127.0.0.1 local; 203.0.113.9 external"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "find ip addresses in this paste: dns servers: 9.9.9.9 and 149.112.112.112",
+   "input": {
+    "text": "dns servers: 9.9.9.9 and 149.112.112.112"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "grab the ip addresses, both versions: eth0 10.0.0.2 / fe80::a00:27ff:fe4e:66a1",
+   "input": {
+    "text": "eth0 10.0.0.2 / fe80::a00:27ff:fe4e:66a1",
+    "version": "both"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "IP addresses in this alert? ALERT port scan from 192.0.2.200",
+   "input": {
+    "text": "ALERT port scan from 192.0.2.200"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "Extract any IPs mentioned: gateway 172.31.0.1 replied, 172.31.0.254 did not",
+   "input": {
+    "text": "gateway 172.31.0.1 replied, 172.31.0.254 did not"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "extract the IP addresses from the log I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "which IPs show up in this auth log?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "I'm a sysadmin: pull the v6 ip addresses out of the firewall log I paste",
+   "input": {
+    "version": "v6"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "list the ip addresses in this firewall export",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "get the IPs from these server logs, duplicates kept",
+   "input": {
+    "unique": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "find the ip addresses in my router dump",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "pull the list items out of this note: To pack:\n- passport\n- charger\n- sunscreen",
+   "input": {
+    "text": "To pack:\n- passport\n- charger\n- sunscreen"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "get the bullet points from: Agenda\n* budget\n* hiring\n* AOB",
+   "input": {
+    "text": "Agenda\n* budget\n* hiring\n* AOB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "extract the numbered steps from this recipe: 1. Boil water\n2. Add pasta\n3. Drain",
+   "input": {
+    "text": "1. Boil water\n2. Add pasta\n3. Drain",
+    "type": "numbered"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "I'm a project manager. List the items from these meeting notes: Actions:\n- Ana to email client\n- Ben to fix login bug",
+   "input": {
+    "text": "Actions:\n- Ana to email client\n- Ben to fix login bug"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "only the bulleted items please: Intro\n- red\n- blue\n1. first\n2. second",
+   "input": {
+    "text": "Intro\n- red\n- blue\n1. first\n2. second",
+    "type": "bulleted"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "list items → - eggs\n- flour\n- sugar",
+   "input": {
+    "text": "- eggs\n- flour\n- sugar"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "Pull out the numbered list from this doc: Steps\n1) unplug\n2) wait 10 seconds\n3) plug back in",
+   "input": {
+    "text": "Steps\n1) unplug\n2) wait 10 seconds\n3) plug back in",
+    "type": "numbered"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "Could you extract the list items from my lecture notes? Causes of WW1:\n- alliances\n- militarism\n- nationalism",
+   "input": {
+    "text": "Causes of WW1:\n- alliances\n- militarism\n- nationalism"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "what are the list items in this: Packing\n- tent\n- stove\n- torch",
+   "input": {
+    "text": "Packing\n- tent\n- stove\n- torch"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "Extract the items from the bulleted list in this email: Hi all, please bring:\n- a pen\n- your ID\nThanks",
+   "input": {
+    "text": "Hi all, please bring:\n- a pen\n- your ID\nThanks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "get the numbered list items: Top tips\n1. Sleep\n2. Hydrate\n3. Stretch",
+   "input": {
+    "text": "Top tips\n1. Sleep\n2. Hydrate\n3. Stretch",
+    "type": "numbered"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "Teacher here, pull the list items out of this worksheet: Spellings:\n- because\n- believe\n- separate",
+   "input": {
+    "text": "Spellings:\n- because\n- believe\n- separate"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "list the bullet items only: Pros\n- cheap\n- fast\nCons\n- noisy",
+   "input": {
+    "text": "Pros\n- cheap\n- fast\nCons\n- noisy",
+    "type": "bulleted"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "extract the to-do list items from: TODO\n- [ ] call bank\n- [ ] renew passport",
+   "input": {
+    "text": "TODO\n- [ ] call bank\n- [ ] renew passport"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "grab the bulleted list items from this readme: Features\n- offline mode\n- dark theme\n- export to csv",
+   "input": {
+    "text": "Features\n- offline mode\n- dark theme\n- export to csv"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "What items are listed here? Ingredients:\n- 2 eggs\n- 100g butter",
+   "input": {
+    "text": "Ingredients:\n- 2 eggs\n- 100g butter"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "pull the numbered points from: 1. Introduction\n2. Methods\n3. Results",
+   "input": {
+    "text": "1. Introduction\n2. Methods\n3. Results",
+    "type": "numbered"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "Extract every list item, bullets or numbers: - apples\n1. pears\n2. plums",
+   "input": {
+    "text": "- apples\n1. pears\n2. plums",
+    "type": "any"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "pull the list items out of the document below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "my instructions have a numbered list — pull those items out for me",
+   "input": {
+    "type": "numbered"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "get the bullet points from these meeting notes",
+   "input": {
+    "type": "bulleted"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "list the items in the checklist I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "pull out each bullet and numbered item from the doc I'm about to send",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractListItems",
+   "message": "what are the bullet items in my outline?",
+   "input": {
+    "type": "bulleted"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "pull the @mentions out of this tweet: huge thanks to @lena_codes and @devmike for the review",
+   "input": {
+    "text": "huge thanks to @lena_codes and @devmike for the review"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "which handles got tagged here? shoutout @bakerybella and @fresh_flour_co",
+   "input": {
+    "text": "shoutout @bakerybella and @fresh_flour_co"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "extract mentions → @sam can you loop in @priya?",
+   "input": {
+    "text": "@sam can you loop in @priya?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "I run a community page. Who was @-mentioned in this comment? agree with @tomh, @tomh is right, cc @mod_team",
+   "input": {
+    "text": "agree with @tomh, @tomh is right, cc @mod_team"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "extract the @mentions, keep duplicates: @ana @ben @ana great game",
+   "input": {
+    "text": "@ana @ben @ana great game",
+    "unique": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "who is mentioned in this slack message? pull the handles: @channel standup moved, @jo please update the doc",
+   "input": {
+    "text": "@channel standup moved, @jo please update the doc"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "Could you extract the tagged usernames from this post? Photo by @wildlens, edited by @pixelpete",
+   "input": {
+    "text": "Photo by @wildlens, edited by @pixelpete"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "who is tagged in: congrats @coach_kim and @team_u12 on the win",
+   "input": {
+    "text": "congrats @coach_kim and @team_u12 on the win"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "Pull out every @mention, not the email: ping @raj or mail raj@corp.com",
+   "input": {
+    "text": "ping @raj or mail raj@corp.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "mentions in this thread pls: @gamerguy99 @noobslayer gg",
+   "input": {
+    "text": "@gamerguy99 @noobslayer gg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "extract the @mentions from this caption: Dress by @studio.mira, shoes @stepsmith",
+   "input": {
+    "text": "Dress by @studio.mira, shoes @stepsmith"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "Which accounts are mentioned in this reply? Thanks @CityCouncil and @BusCo for fixing the route",
+   "input": {
+    "text": "Thanks @CityCouncil and @BusCo for fixing the route"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "find the @mentions → meeting notes: @lee owns QA, @kai owns release",
+   "input": {
+    "text": "meeting notes: @lee owns QA, @kai owns release"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "list all tagged handles including repeats: @mum @dad @mum happy anniversary",
+   "input": {
+    "text": "@mum @dad @mum happy anniversary",
+    "unique": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "get the @handles from this linkedin comment: Well deserved @Sarah Okafor and @Dan Reid!",
+   "input": {
+    "text": "Well deserved @Sarah Okafor and @Dan Reid!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "Extract who was @-mentioned in our group chat: @ella bring snacks, @finn bring drinks",
+   "input": {
+    "text": "@ella bring snacks, @finn bring drinks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "what @mentions does this have? New episode with @historyhannah out now",
+   "input": {
+    "text": "New episode with @historyhannah out now"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "pull mentions: cc @design @eng @pm",
+   "input": {
+    "text": "cc @design @eng @pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "extract the @mentions from the thread I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "who got tagged in these comments?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "list the @handles in my twitter export, duplicates kept",
+   "input": {
+    "unique": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "pull every @mention out of this chat log",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "get the mentions from the post below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractMentions",
+   "message": "which accounts are @-mentioned in this press release",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "bigrams of: machine learning is fun",
+   "input": {
+    "text": "machine learning is fun"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "break this into 3 word n-grams: to be or not to be",
+   "input": {
+    "text": "to be or not to be",
+    "n": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "give me the three-word trigrams in \"the cat sat on the mat\"",
+   "input": {
+    "text": "the cat sat on the mat",
+    "n": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "split hello into letter pairs, character ngrams of 2",
+   "input": {
+    "text": "hello",
+    "n": 2,
+    "unit": "characters"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "I'm a linguistics student. List the bigrams (2 word ngrams) in: she sells sea shells",
+   "input": {
+    "text": "she sells sea shells",
+    "n": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "4-word ngrams please: a stitch in time saves nine",
+   "input": {
+    "text": "a stitch in time saves nine",
+    "n": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "ngrams → open the pod bay doors",
+   "input": {
+    "text": "open the pod bay doors"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "Extract the bigrams from this search query: cheap flights to rome",
+   "input": {
+    "text": "cheap flights to rome"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "split into overlapping runs of three characters: banana",
+   "input": {
+    "text": "banana",
+    "n": 3,
+    "unit": "characters"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "what are the 2-word sequences in \"red sky at night\"",
+   "input": {
+    "text": "red sky at night",
+    "n": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "get word trigrams (three words each) for my SEO keyword research: best running shoes for flat feet",
+   "input": {
+    "text": "best running shoes for flat feet",
+    "n": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "single-word ngrams, size 1, of: quick brown fox",
+   "input": {
+    "text": "quick brown fox",
+    "n": 1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "Please produce character trigrams, 3 letters each, of pigeon",
+   "input": {
+    "text": "pigeon",
+    "n": 3,
+    "unit": "characters"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "list the bigrams in this tweet: coffee first then emails",
+   "input": {
+    "text": "coffee first then emails"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "ngrams of five words from: it was the best of times it was the worst of times",
+   "input": {
+    "text": "it was the best of times it was the worst of times",
+    "n": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "show me the overlapping word pairs in keep calm and carry on",
+   "input": {
+    "text": "keep calm and carry on"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "character ngrams of 2 for abba",
+   "input": {
+    "text": "abba",
+    "n": 2,
+    "unit": "characters"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "Could you give the 3-word ngrams of this product title? stainless steel water bottle 1 litre",
+   "input": {
+    "text": "stainless steel water bottle 1 litre",
+    "n": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "get the bigrams from the paragraph below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "break my essay into 3 word n-grams",
+   "input": {
+    "n": 3
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "list the three-word ngrams in this corpus I'm pasting",
+   "input": {
+    "n": 3
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "split the word I send next into runs of letters, character ngrams",
+   "input": {
+    "unit": "characters"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "extract the ngrams from these search logs",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "give me 4-word ngrams for the text below",
+   "input": {
+    "n": 4
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "pull the numbers out of: We had 42 guests, 7 tables and 3 cakes",
+   "input": {
+    "text": "We had 42 guests, 7 tables and 3 cakes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "extract the figures from this sales note: Q3 revenue 1,250,000 up 12.5 percent",
+   "input": {
+    "text": "Q3 revenue 1,250,000 up 12.5 percent"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "what numbers are in \"Flight 815 departs gate 23 at 16\"",
+   "input": {
+    "text": "Flight 815 departs gate 23 at 16"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "extract the numbers only please → temps ranged from -4 to 11 degrees",
+   "input": {
+    "text": "temps ranged from -4 to 11 degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "I'm a nurse logging vitals. Get the numbers from: BP 128 over 82, pulse 74, temp 37.2",
+   "input": {
+    "text": "BP 128 over 82, pulse 74, temp 37.2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "list every number in this sentence: The recipe needs 2 eggs, 250 grams of flour and 0.5 litres of milk",
+   "input": {
+    "text": "The recipe needs 2 eggs, 250 grams of flour and 0.5 litres of milk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "get the digits out of this order line: order 5531, qty 12, weight 3.75",
+   "input": {
+    "text": "order 5531, qty 12, weight 3.75"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "Could you extract the numbers from this match report? United won 3-1 in front of 48,000 fans",
+   "input": {
+    "text": "United won 3-1 in front of 48,000 fans"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "extract numbers: scores were 88, 91, 76 and 64",
+   "input": {
+    "text": "scores were 88, 91, 76 and 64"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "pull out the numeric values from this stock update: closed at 152.30, volume 2,400,000, down 1.8",
+   "input": {
+    "text": "closed at 152.30, volume 2,400,000, down 1.8"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "Pull the numbers out of this: room 204, floor 2, 15 minutes walk",
+   "input": {
+    "text": "room 204, floor 2, 15 minutes walk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "extract the figures from my running log: ran 5.2 km in 27 minutes, avg pace 5.19",
+   "input": {
+    "text": "ran 5.2 km in 27 minutes, avg pace 5.19"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "extract all the figures (including decimals): rates 3.25, 4.10 and 4.75",
+   "input": {
+    "text": "rates 3.25, 4.10 and 4.75"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "pull the numbers out of this text pls: lvl 60 char, 9,999 gold, 12 potions",
+   "input": {
+    "text": "lvl 60 char, 9,999 gold, 12 potions"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "For my spreadsheet, extract the figures from: January 1,820 visitors, February 2,105 visitors",
+   "input": {
+    "text": "January 1,820 visitors, February 2,105 visitors"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "find the numbers in this line → balance -250.40 after 3 payments",
+   "input": {
+    "text": "balance -250.40 after 3 payments"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "Extract the numbers from this lab note: sample A 0.42, sample B 0.57, n=30",
+   "input": {
+    "text": "sample A 0.42, sample B 0.57, n=30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "pull the figures out of this tweet: 10 years, 3 cities, 1 dream",
+   "input": {
+    "text": "10 years, 3 cities, 1 dream"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "extract the numbers from the report below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "pull every figure out of this spreadsheet text",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "pull the figures out of the paragraph I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "extract the numbers mentioned in my notes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "extract all numbers from this log, decimals too",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractNumbers",
+   "message": "extract figures from the following message",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "pull the phone numbers out of this email footer: Office 020 7946 0321 | Mobile 07700 900456",
+   "input": {
+    "text": "Office 020 7946 0321 | Mobile 07700 900456"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "what phone numbers are in: Call +1 415 555 0132 or +1 415 555 0199",
+   "input": {
+    "text": "Call +1 415 555 0132 or +1 415 555 0199"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "extract phone numbers → reception 0161 496 0123, out of hours 0161 496 0999",
+   "input": {
+    "text": "reception 0161 496 0123, out of hours 0161 496 0999"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "I'm a receptionist updating contacts. Get the phone numbers from: Dr Lee: 0113 496 0555. Pharmacy: 0113 496 0777.",
+   "input": {
+    "text": "Dr Lee: 0113 496 0555. Pharmacy: 0113 496 0777."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "find the phone number in this signature: Jane Doe, Sales Lead, tel. +44 20 7946 0000",
+   "input": {
+    "text": "Jane Doe, Sales Lead, tel. +44 20 7946 0000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "list the phone numbers mentioned: Book on 0800 123 4567 or text 07700 900321",
+   "input": {
+    "text": "Book on 0800 123 4567 or text 07700 900321"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "Could you extract the phone numbers from this flyer? Pizza Palace — call 0121 496 0880 for delivery",
+   "input": {
+    "text": "Pizza Palace — call 0121 496 0880 for delivery"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "phone numbers in here? ring me on 07700 900789 after six",
+   "input": {
+    "text": "ring me on 07700 900789 after six"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "Pull out every phone number from this contact page: Sales +61 2 9876 5432, Support +61 2 9876 5400",
+   "input": {
+    "text": "Sales +61 2 9876 5432, Support +61 2 9876 5400"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "get the phone numbers you could dial from: Emergency line 0300 123 9999, general 0300 123 0000",
+   "input": {
+    "text": "Emergency line 0300 123 9999, general 0300 123 0000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "extract the phone numbers from this business card text: M: +353 87 123 4567 T: +353 1 234 5678",
+   "input": {
+    "text": "M: +353 87 123 4567 T: +353 1 234 5678"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "what's the phone number in this message → plumber says call 07700 900111 tomorrow",
+   "input": {
+    "text": "plumber says call 07700 900111 tomorrow"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "find phone numbers in this paragraph: For bookings phone 01632 960123; for complaints 01632 960456.",
+   "input": {
+    "text": "For bookings phone 01632 960123; for complaints 01632 960456."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "list the phone numbers: Mum 07700 900222, Dad 07700 900333",
+   "input": {
+    "text": "Mum 07700 900222, Dad 07700 900333"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "Pull the phone numbers out of this US listing: Call (212) 555-0147 or (212) 555-0188",
+   "input": {
+    "text": "Call (212) 555-0147 or (212) 555-0188"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "extract every phone number from this school letter: Absence line 01632 960789, office 01632 960700",
+   "input": {
+    "text": "Absence line 01632 960789, office 01632 960700"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "any phone numbers in this footer? pull them: Helpline: 0808 157 0000",
+   "input": {
+    "text": "Helpline: 0808 157 0000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "Get the phone numbers out of my notes: garage 0117 496 0321; vet 0117 496 0654",
+   "input": {
+    "text": "garage 0117 496 0321; vet 0117 496 0654"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "extract the phone numbers from the email signature below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "pull every phone number out of this contact list",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "which phone numbers are in the page I'm pasting?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "the brochure I'm pasting lists some contact lines — extract those phone numbers",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "get the phone numbers from my client notes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractPhoneNumbers",
+   "message": "list any phone numbers in the following footer",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "pull the times out of this schedule: doors 7pm, support act 7:45pm, headliner 9:15pm",
+   "input": {
+    "text": "doors 7pm, support act 7:45pm, headliner 9:15pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "what times are mentioned in \"pickup at 8:20am and dropoff at 3:30pm\"",
+   "input": {
+    "text": "pickup at 8:20am and dropoff at 3:30pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "extract the clock times → shift runs 06:00 to 14:00",
+   "input": {
+    "text": "shift runs 06:00 to 14:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "I'm a nurse, get the medication times from: paracetamol at 8am, 2pm and 8pm",
+   "input": {
+    "text": "paracetamol at 8am, 2pm and 8pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "list the times in 24-hour format: call at 4.30pm, follow up at 11am",
+   "input": {
+    "text": "call at 4.30pm, follow up at 11am"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "Could you extract the times from this itinerary? Train leaves 07:42, arrives 10:15, ferry at 11:30",
+   "input": {
+    "text": "Train leaves 07:42, arrives 10:15, ferry at 11:30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "times in this message? meet 6ish, actually 6:30pm",
+   "input": {
+    "text": "meet 6ish, actually 6:30pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "get the times from my class timetable: Maths 9:00, English 10:30, PE 13:45",
+   "input": {
+    "text": "Maths 9:00, English 10:30, PE 13:45"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "Extract each time mentioned in this email: Interview at 2:15pm, please arrive by 2pm",
+   "input": {
+    "text": "Interview at 2:15pm, please arrive by 2pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "what clock times does this contain → alarm 5:45am, gym 6:15am",
+   "input": {
+    "text": "alarm 5:45am, gym 6:15am"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "convert the times in this to 24 hour form: lunch at 12:30pm and tea at 4pm",
+   "input": {
+    "text": "lunch at 12:30pm and tea at 4pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "pull out the times: kick-off 3pm, half time 3:45pm, full time 4:50pm",
+   "input": {
+    "text": "kick-off 3pm, half time 3:45pm, full time 4:50pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "Find the times in this restaurant booking: table for 4 at 7:30pm, kitchen closes 10pm",
+   "input": {
+    "text": "table for 4 at 7:30pm, kitchen closes 10pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "extract the times from this bus notice: last bus 23:10, first bus 05:50",
+   "input": {
+    "text": "last bus 23:10, first bus 05:50"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "extract times → webinar 1pm GMT, Q&A 1:45pm",
+   "input": {
+    "text": "webinar 1pm GMT, Q&A 1:45pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "Which times are in this text? The shop opens at 9.00 and closes at 17.30",
+   "input": {
+    "text": "The shop opens at 9.00 and closes at 17.30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "pull the clock times, please, from: raid starts 8pm sharp, loot split at 10:30pm",
+   "input": {
+    "text": "raid starts 8pm sharp, loot split at 10:30pm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "Extract the times written in this note: feed baby 2am, 5am and 8am",
+   "input": {
+    "text": "feed baby 2am, 5am and 8am"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "extract the times from the schedule below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "pull every clock time out of this email thread",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "what times are mentioned in the timetable I'm pasting?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "get the times from my meeting notes in 24-hour form",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "extract the times in this shift rota",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractTimes",
+   "message": "convert every clock time in the following text to 24-hour",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "pull the links out of this message: slides at https://docs.example.com/deck and notes at https://notes.example.com/q3",
+   "input": {
+    "text": "slides at https://docs.example.com/deck and notes at https://notes.example.com/q3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "what urls are in \"Order at www.pizzapalace.co.uk or https://pizzapalace.co.uk/menu\"",
+   "input": {
+    "text": "Order at www.pizzapalace.co.uk or https://pizzapalace.co.uk/menu"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "extract the web addresses → see http://intranet.local/wiki and https://status.example.org",
+   "input": {
+    "text": "see http://intranet.local/wiki and https://status.example.org"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "I'm a teacher sharing reading. Extract the links from my email: Read https://www.bbc.co.uk/news/science and https://kids.nationalgeographic.com",
+   "input": {
+    "text": "Read https://www.bbc.co.uk/news/science and https://kids.nationalgeographic.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "list the urls, keep duplicates: https://a.io/x then https://a.io/x again then https://b.io",
+   "input": {
+    "text": "https://a.io/x then https://a.io/x again then https://b.io",
+    "unique": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "Could you get the links out of this chat? lol watch https://youtu.be/abc123 and https://twitch.tv/somestreamer",
+   "input": {
+    "text": "lol watch https://youtu.be/abc123 and https://twitch.tv/somestreamer"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "extract the urls from this tweet: new post up https://myblog.dev/posts/hello-world",
+   "input": {
+    "text": "new post up https://myblog.dev/posts/hello-world"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "Get every web link mentioned in this doc: Spec: https://example.com/spec.pdf, repo: https://github.com/acme/tool",
+   "input": {
+    "text": "Spec: https://example.com/spec.pdf, repo: https://github.com/acme/tool"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "links in here? tickets via https://tix.example.com/event/42?ref=mail",
+   "input": {
+    "text": "tickets via https://tix.example.com/event/42?ref=mail"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "pull out the urls from these meeting notes: Board at https://trello.com/b/xyz, recording https://zoom.us/rec/123",
+   "input": {
+    "text": "Board at https://trello.com/b/xyz, recording https://zoom.us/rec/123"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "list every link in my bookmarks text: https://news.ycombinator.com https://lobste.rs https://news.ycombinator.com",
+   "input": {
+    "text": "https://news.ycombinator.com https://lobste.rs https://news.ycombinator.com",
+    "unique": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "Extract the website addresses from this flyer: Visit www.villagefete.org.uk for the programme",
+   "input": {
+    "text": "Visit www.villagefete.org.uk for the programme"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "which urls appear in this log line? GET https://api.example.com/v2/users failed, retry https://api.example.com/v2/users",
+   "input": {
+    "text": "GET https://api.example.com/v2/users failed, retry https://api.example.com/v2/users",
+    "unique": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "get the links from this newsletter paragraph: Sign up at https://club.example.com/join and follow www.instagram.com/ourclub",
+   "input": {
+    "text": "Sign up at https://club.example.com/join and follow www.instagram.com/ourclub"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "extract urls → docs: https://nodejs.org/api/fs.html",
+   "input": {
+    "text": "docs: https://nodejs.org/api/fs.html"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "Find the links in this support reply: Reset here: https://account.example.com/reset. Help: https://help.example.com",
+   "input": {
+    "text": "Reset here: https://account.example.com/reset. Help: https://help.example.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "pull the web links from my reading list: https://arxiv.org/abs/1706.03762 and https://distill.pub",
+   "input": {
+    "text": "https://arxiv.org/abs/1706.03762 and https://distill.pub"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "Can you list the URLs in this markdown? [home](https://site.example) and [blog](https://site.example/blog)",
+   "input": {
+    "text": "[home](https://site.example) and [blog](https://site.example/blog)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "extract the links from the email I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "pull every url out of this web page text",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "list the web addresses in the document below, duplicates too",
+   "input": {
+    "unique": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "extract the urls from my bookmark export",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "get the links from these chat messages",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractUrls",
+   "message": "find the website addresses in this brochure",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "longest word in: Unbelievably, the committee approved it",
+   "input": {
+    "text": "Unbelievably, the committee approved it"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "which word is the longest in \"Pharmacists recommend hydration\"",
+   "input": {
+    "text": "Pharmacists recommend hydration"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "My kid wants to know the biggest word in this sentence: Dinosaurs were enormous prehistoric reptiles",
+   "input": {
+    "text": "Dinosaurs were enormous prehistoric reptiles"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "find the 3 longest words → extraordinary claims require extraordinary evidence always",
+   "input": {
+    "text": "extraordinary claims require extraordinary evidence always",
+    "top": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "what's the longest word here? we went to the seaside yesterday",
+   "input": {
+    "text": "we went to the seaside yesterday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "Scrabble night! Find the longest word in this list of letters I made: quiz jazz quixotic zebra",
+   "input": {
+    "text": "quiz jazz quixotic zebra"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "top 5 longest words in: Internationalization and localization complicate software development considerably",
+   "input": {
+    "text": "Internationalization and localization complicate software development considerably",
+    "top": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "Longest word in my essay sentence? Industrialisation transformed Victorian Britain",
+   "input": {
+    "text": "Industrialisation transformed Victorian Britain"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "get the longest word → cat dog elephant ant",
+   "input": {
+    "text": "cat dog elephant ant"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "I'm a speech therapist. Which is the longest word in \"The butterfly landed on the sunflower\"?",
+   "input": {
+    "text": "The butterfly landed on the sunflower"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "find the two longest words: Mountains rivers and magnificent waterfalls",
+   "input": {
+    "text": "Mountains rivers and magnificent waterfalls",
+    "top": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "longest word pls: gg wp everyone legendary match",
+   "input": {
+    "text": "gg wp everyone legendary match"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "Could you tell me the longest word in this product name? Ultralight waterproof hiking jacket",
+   "input": {
+    "text": "Ultralight waterproof hiking jacket"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "what's the biggest word in this headline: Government announces infrastructure spending",
+   "input": {
+    "text": "Government announces infrastructure spending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "find the longest word in this line from the poem: Whose woods these are I think I know",
+   "input": {
+    "text": "Whose woods these are I think I know"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "Show the longest 4 words from: Accountants reconcile quarterly statements meticulously every period",
+   "input": {
+    "text": "Accountants reconcile quarterly statements meticulously every period",
+    "top": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "longest word? Thermodynamics is hard",
+   "input": {
+    "text": "Thermodynamics is hard"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "Which word in my tagline is longest: Handcrafted sourdough, delivered daily",
+   "input": {
+    "text": "Handcrafted sourdough, delivered daily"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "my paragraph is coming next — tell me its longest word",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "what are the 3 longest words in my essay",
+   "input": {
+    "top": 3
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "which word is longest in the text I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "which word in the chapter I attached has the most characters, the longest one",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "give me the 10 longest words in the following article",
+   "input": {
+    "top": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongestWord",
+   "message": "show me the biggest word in my poem",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "my address book has Main Street, Main St. and High Street — are any of those near duplicates?",
+   "input": {
+    "items": [
+     "Main Street",
+     "Main St.",
+     "High Street"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "which of these are nearly the same? colour; color; flavour",
+   "input": {
+    "items": [
+     "colour",
+     "color",
+     "flavour"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "I'm cleaning a customer list. Spot the near duplicates: John Smith, Jon Smith, Jane Doe, john smith",
+   "input": {
+    "items": [
+     "John Smith",
+     "Jon Smith",
+     "Jane Doe",
+     "john smith"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "near-duplicate check → Acme Ltd | ACME Limited | Apex Ltd",
+   "input": {
+    "items": [
+     "Acme Ltd",
+     "ACME Limited",
+     "Apex Ltd"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "find similar entries in my product list: Blue T-shirt M, Blue T shirt M, Red Hoodie L",
+   "input": {
+    "items": [
+     "Blue T-shirt M",
+     "Blue T shirt M",
+     "Red Hoodie L"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "Any near duplicates among these, similarity at least 0.9? organise, organize, organism",
+   "input": {
+    "threshold": 0.9,
+    "items": [
+     "organise",
+     "organize",
+     "organism"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "find the nearly identical lines: Meeting at 10am / Meeting at 10 am / Lunch at noon",
+   "input": {
+    "items": [
+     "Meeting at 10am",
+     "Meeting at 10 am",
+     "Lunch at noon"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "Are any of these book titles near duplicates? The Hobbit; The Hobbit.; Dune",
+   "input": {
+    "items": [
+     "The Hobbit",
+     "The Hobbit.",
+     "Dune"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "spot near-duplicate school names: St Mary's Primary, St. Marys Primary, Oak Hill Academy",
+   "input": {
+    "items": [
+     "St Mary's Primary",
+     "St. Marys Primary",
+     "Oak Hill Academy"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "which entries are almost the same, using a 0.7 similarity threshold: apple, aple, grape",
+   "input": {
+    "threshold": 0.7,
+    "items": [
+     "apple",
+     "aple",
+     "grape"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "find near dupes in these tags: javascript, java script, JavaScript, python",
+   "input": {
+    "items": [
+     "javascript",
+     "java script",
+     "JavaScript",
+     "python"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "My recipe list has repeats with typos. Find near duplicates: Chicken Curry, Chiken Curry, Beef Stew",
+   "input": {
+    "items": [
+     "Chicken Curry",
+     "Chiken Curry",
+     "Beef Stew"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "check for near duplicates: info@shop.com, Info@Shop.com, sales@shop.com",
+   "input": {
+    "items": [
+     "info@shop.com",
+     "Info@Shop.com",
+     "sales@shop.com"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "Find entries that nearly match in this inventory: USB-C cable 1m; USB C cable 1 m; HDMI cable 2m",
+   "input": {
+    "items": [
+     "USB-C cable 1m",
+     "USB C cable 1 m",
+     "HDMI cable 2m"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "which survey answers are near duplicates? Too expensive, too expensive!, Great value",
+   "input": {
+    "items": [
+     "Too expensive",
+     "too expensive!",
+     "Great value"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "near duplicates please → Dr. Patel, Dr Patel, Dr Jones",
+   "input": {
+    "items": [
+     "Dr. Patel",
+     "Dr Patel",
+     "Dr Jones"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "Find the near-duplicate street names, threshold 0.95: Station Road, Station Rd, Mill Lane",
+   "input": {
+    "threshold": 0.95,
+    "items": [
+     "Station Road",
+     "Station Rd",
+     "Mill Lane"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "spot near duplicate team names in this list: Red Dragons, Red Dragon, Blue Sharks",
+   "input": {
+    "items": [
+     "Red Dragons",
+     "Red Dragon",
+     "Blue Sharks"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "I'll paste a list of supplier names; flag the near duplicates",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "which entries in my contacts export are almost the same?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "spot near-duplicate rows in this mailing list",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "check my product names below for near duplicates, 0.9 similarity",
+   "input": {
+    "threshold": 0.9
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "are any of the company names in my sheet near duplicates",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findNearDuplicates",
+   "message": "find nearly matching entries in the following list",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagPii",
+   "message": "scan this for personal data: Email me at kim.lee@example.com about the refund",
+   "input": {
+    "text": "Email me at kim.lee@example.com about the refund"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "does this support ticket contain any PII? Customer called from 07700 900123 about card 4111 1111 1111 1111",
+   "input": {
+    "text": "Customer called from 07700 900123 about card 4111 1111 1111 1111"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "I'm about to share a log publicly. Flag anything sensitive: user=bo@example.org ip=203.0.113.5 status=ok",
+   "input": {
+    "text": "user=bo@example.org ip=203.0.113.5 status=ok"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "check for personal info → Deliver to 4 Elm Road, SW1A 1AA, phone 020 7946 0958",
+   "input": {
+    "text": "Deliver to 4 Elm Road, SW1A 1AA, phone 020 7946 0958"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "only check for email addresses: Ping sam@example.net or call 01632 960123",
+   "input": {
+    "text": "Ping sam@example.net or call 01632 960123",
+    "kinds": [
+     "email"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "is there sensitive data in this note? Reminder: pay the plumber tomorrow",
+   "input": {
+    "text": "Reminder: pay the plumber tomorrow"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "Nurse here — before I paste this into a shared doc, flag any personal data: Patient contact 07700 900987, email p.jones@example.com",
+   "input": {
+    "text": "Patient contact 07700 900987, email p.jones@example.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "flag the PII in this csv row: Ana,ana@example.com,07700 900555",
+   "input": {
+    "text": "Ana,ana@example.com,07700 900555"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "Could you check this message for card numbers only? Use 4111 1111 1111 1111 or email me at x@example.com",
+   "input": {
+    "text": "Use 4111 1111 1111 1111 or email me at x@example.com",
+    "kinds": [
+     "card"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "any personal data here? Server 10.0.0.12 restarted at noon",
+   "input": {
+    "text": "Server 10.0.0.12 restarted at noon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "Scan this form message for personal data: hi it is Tom, reach me on tom@example.co.uk, postcode M1 1AE",
+   "input": {
+    "text": "hi it is Tom, reach me on tom@example.co.uk, postcode M1 1AE"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "flag pii, phone numbers only: call 020 7946 0000 or mail info@example.com",
+   "input": {
+    "text": "call 020 7946 0000 or mail info@example.com",
+    "kinds": [
+     "phone"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "flag personal info in this chat transcript: sure, my number is 07700 900444",
+   "input": {
+    "text": "sure, my number is 07700 900444"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "PII check please: Invoice for client@example.org, ref 5531",
+   "input": {
+    "text": "Invoice for client@example.org, ref 5531"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "Is there any personal data in this email before I forward it? Card ending 4111 1111 1111 1111 was declined",
+   "input": {
+    "text": "Card ending 4111 1111 1111 1111 was declined"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "report what personal data appears in: Ship to EC1A 1BB, contact ops@example.com",
+   "input": {
+    "text": "Ship to EC1A 1BB, contact ops@example.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "scan for emails and phone numbers only: jo@example.com, 07700 900666, 192.168.0.4",
+   "input": {
+    "text": "jo@example.com, 07700 900666, 192.168.0.4",
+    "kinds": [
+     "email",
+     "phone"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "does this screenshot text leak any personal data? Logged in as dev@example.io from 198.51.100.7",
+   "input": {
+    "text": "Logged in as dev@example.io from 198.51.100.7"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagPii",
+   "message": "before I publish the document below, scan it for personal data",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagPii",
+   "message": "scan this customer export for PII before I upload it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagPii",
+   "message": "I'm pasting a server log — does it leak any personal data?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagPii",
+   "message": "does the email I'm forwarding contain any personal info?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagPii",
+   "message": "scan my spreadsheet text for pii, emails only",
+   "input": {
+    "kinds": [
+     "email"
+    ]
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagPii",
+   "message": "is there any private data in my support ticket?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "any swear words in this? This bloody printer jammed again",
+   "input": {
+    "text": "This bloody printer jammed again"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "flag profanity in this comment: what a load of crap, honestly",
+   "input": {
+    "text": "what a load of crap, honestly"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "I moderate a kids' forum. Check this post for swearing: that level was so damn hard",
+   "input": {
+    "text": "that level was so damn hard"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "profanity check → have a lovely day everyone",
+   "input": {
+    "text": "have a lovely day everyone"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "Is this review clean enough to publish? Flag any profanity: Food was bloody brilliant, staff were great",
+   "input": {
+    "text": "Food was bloody brilliant, staff were great"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "check my tweet for swearing before I post: monday can go to hell honestly",
+   "input": {
+    "text": "monday can go to hell honestly"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "Teacher here — does this essay contain any rude words? The war was a damn tragedy for everyone",
+   "input": {
+    "text": "The war was a damn tragedy for everyone"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "does this chat message contain swear words? you absolute idiot, that was my kill",
+   "input": {
+    "text": "you absolute idiot, that was my kill"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "flag swear words: shut up and play the bloody game",
+   "input": {
+    "text": "shut up and play the bloody game"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "does this song lyric I wrote have profanity? heart on fire, burning through the night",
+   "input": {
+    "text": "heart on fire, burning through the night"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "Could you check this customer email for profanity? Your crap service ruined my weekend",
+   "input": {
+    "text": "Your crap service ruined my weekend"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "swearing check please: oh damn, I forgot the milk",
+   "input": {
+    "text": "oh damn, I forgot the milk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "is there profanity in this caption? best damn burger in town",
+   "input": {
+    "text": "best damn burger in town"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "Check this message for rude words before I send it to my boss: the bloody server is down again",
+   "input": {
+    "text": "the bloody server is down again"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "flag any bad words → what the hell happened here",
+   "input": {
+    "text": "what the hell happened here"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "check for swearing in this game chat log: gg, damn close one, rematch?",
+   "input": {
+    "text": "gg, damn close one, rematch?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "does this sign text contain profanity? No parking, no exceptions",
+   "input": {
+    "text": "No parking, no exceptions"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "Please flag the profanity in: This crap app keeps crashing",
+   "input": {
+    "text": "This crap app keeps crashing"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "the comments are below, flag any that swear",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "flag any profanity in the review I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "does my speech contain any rude words?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "flag the swear words in this chat log I paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "is the post I'm about to share free of swear words?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flagProfanity",
+   "message": "check my kid's story for profanity",
+   "input": {},
+   "mode": "pointed"
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "averageWordLength",
+    "findLongestWord"
+   ],
+   "rows": [
+    {
+     "skill": "averageWordLength",
+     "message": "average word length in this slogan: Bright ideas grow here",
+     "input": {
+      "text": "Bright ideas grow here"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "findLongestWord",
+     "message": "longest word in this slogan: Bright ideas grow here",
+     "input": {
+      "text": "Bright ideas grow here"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "averageWordLength",
+    "findLongestWord"
+   ],
+   "rows": [
+    {
+     "skill": "averageWordLength",
+     "message": "what's the average length of the words in my headline 'Local heroes rebuild park'",
+     "input": {
+      "text": "Local heroes rebuild park"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "findLongestWord",
+     "message": "what's the longest of the words in my headline 'Local heroes rebuild park'",
+     "input": {
+      "text": "Local heroes rebuild park"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countLines"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "count the characters in this note:\nbuy bread\ncall vet",
+     "input": {
+      "text": "buy bread\ncall vet"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countLines",
+     "message": "count the lines in this note:\nbuy bread\ncall vet",
+     "input": {
+      "text": "buy bread\ncall vet"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countLines"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "count how many characters are in the poem I'm pasting",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "countLines",
+     "message": "count how many lines are in the poem I'm pasting",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countOccurrences"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "count the characters in: hip hip hooray",
+     "input": {
+      "text": "hip hip hooray"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countOccurrences",
+     "message": "count how many times hip appears in: hip hip hooray",
+     "input": {
+      "needle": "hip",
+      "text": "hip hip hooray"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countOccurrences"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "how many characters are in this chant: la la land",
+     "input": {
+      "text": "la la land"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countOccurrences",
+     "message": "tally how many times la appears in this chant: la la land",
+     "input": {
+      "needle": "la",
+      "text": "la la land"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "count the characters in this review: Great stay. Lovely staff.",
+     "input": {
+      "text": "Great stay. Lovely staff."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countSentences",
+     "message": "count the sentences in this review: Great stay. Lovely staff.",
+     "input": {
+      "text": "Great stay. Lovely staff."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "character count for my abstract below",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "countSentences",
+     "message": "sentence count for my abstract below",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countOccurrences"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the lines in this log:\nERROR a\nOK b\nERROR c",
+     "input": {
+      "text": "ERROR a\nOK b\nERROR c"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countOccurrences",
+     "message": "count how many times ERROR appears in this log:\nERROR a\nOK b\nERROR c",
+     "input": {
+      "needle": "ERROR",
+      "text": "ERROR a\nOK b\nERROR c"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countOccurrences"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count how many lines are in the chat transcript I'm sending",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "countOccurrences",
+     "message": "count how many times lol is in the chat transcript I'm sending",
+     "input": {
+      "needle": "lol"
+     },
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the lines: Hi there.\nHow are you? I am fine.",
+     "input": {
+      "text": "Hi there.\nHow are you? I am fine."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countSentences",
+     "message": "count the sentences: Hi there.\nHow are you? I am fine.",
+     "input": {
+      "text": "Hi there.\nHow are you? I am fine."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count how many lines my cover letter has",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "countSentences",
+     "message": "count how many sentences my cover letter has",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "textFileStats"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "just count the lines for this text:\nalpha\nbeta",
+     "input": {
+      "text": "alpha\nbeta"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "textFileStats",
+     "message": "lines, words, bytes and line endings for this text:\nalpha\nbeta",
+     "input": {
+      "text": "alpha\nbeta"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "textFileStats"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the lines in this file content: x\ny\nz",
+     "input": {
+      "text": "x\ny\nz"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "textFileStats",
+     "message": "give file stats (lines, words, bytes) for this file content: x\ny\nz",
+     "input": {
+      "text": "x\ny\nz"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "textFileStats"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the lines in the config file I'll paste",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "textFileStats",
+     "message": "file stats incl. bytes and line endings for the config file I'll paste",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countOccurrences",
+     "message": "count how many times and appears in: I ran and ran. And then I slept.",
+     "input": {
+      "needle": "and",
+      "text": "I ran and ran. And then I slept."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countSentences",
+     "message": "count how many sentences appear in: I ran and ran. And then I slept.",
+     "input": {
+      "text": "I ran and ran. And then I slept."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countOccurrences",
+     "message": "count how many times please shows up in my email below",
+     "input": {
+      "needle": "please"
+     },
+     "mode": "pointed"
+    },
+    {
+     "skill": "countSentences",
+     "message": "count how many sentences show up in my email below",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "countWords"
+   ],
+   "rows": [
+    {
+     "skill": "countSentences",
+     "message": "count the sentences in this: Stop. Look. Listen carefully.",
+     "input": {
+      "text": "Stop. Look. Listen carefully."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countWords",
+     "message": "count the words in this: Stop. Look. Listen carefully.",
+     "input": {
+      "text": "Stop. Look. Listen carefully."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "countWords"
+   ],
+   "rows": [
+    {
+     "skill": "countSentences",
+     "message": "count up the sentences in my history essay",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "countWords",
+     "message": "count up the words in my history essay",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "findLongestWord"
+   ],
+   "rows": [
+    {
+     "skill": "countWords",
+     "message": "how many words are in: Wonderful weather today",
+     "input": {
+      "text": "Wonderful weather today"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "findLongestWord",
+     "message": "which of the words is longest in: Wonderful weather today",
+     "input": {
+      "text": "Wonderful weather today"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "findLongestWord"
+   ],
+   "rows": [
+    {
+     "skill": "countWords",
+     "message": "count the words of my title 'Exploring Ancient Rome'",
+     "input": {
+      "text": "Exploring Ancient Rome"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "findLongestWord",
+     "message": "find the longest word of my title 'Exploring Ancient Rome'",
+     "input": {
+      "text": "Exploring Ancient Rome"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "findLongestWord"
+   ],
+   "rows": [
+    {
+     "skill": "countWords",
+     "message": "count the words in the speech I'm pasting",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "findLongestWord",
+     "message": "which word is the longest in the speech I'm pasting",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "detectLanguage",
+    "detectRepetition"
+   ],
+   "rows": [
+    {
+     "skill": "detectLanguage",
+     "message": "what language is this: Hola amigo, hola amigo, qué tal",
+     "input": {
+      "text": "Hola amigo, hola amigo, qué tal"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "detectRepetition",
+     "message": "find repeated phrases in this: Hola amigo, hola amigo, qué tal",
+     "input": {
+      "text": "Hola amigo, hola amigo, qué tal"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "detectLanguage",
+    "detectRepetition"
+   ],
+   "rows": [
+    {
+     "skill": "detectLanguage",
+     "message": "identify the language my essay below is in",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "detectRepetition",
+     "message": "identify the repeated phrases my essay below has",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractDates"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "extract the amounts from: Paid £40 on 3 March 2026 and £25 on 9 March 2026",
+     "input": {
+      "text": "Paid £40 on 3 March 2026 and £25 on 9 March 2026"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractDates",
+     "message": "extract the dates from: Paid £40 on 3 March 2026 and £25 on 9 March 2026",
+     "input": {
+      "text": "Paid £40 on 3 March 2026 and £25 on 9 March 2026"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractDates"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "find the money amounts in the bank statement I'll paste",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractDates",
+     "message": "find the dates in the bank statement I'll paste",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractNumbers"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "extract the money amounts from: 3 tickets at $45 each, $135 total",
+     "input": {
+      "text": "3 tickets at $45 each, $135 total"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractNumbers",
+     "message": "extract all the numbers from: 3 tickets at $45 each, $135 total",
+     "input": {
+      "text": "3 tickets at $45 each, $135 total"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractNumbers"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "pull the prices with currency from this line: 2 coffees €3.20, 1 cake €4.50",
+     "input": {
+      "text": "2 coffees €3.20, 1 cake €4.50"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractNumbers",
+     "message": "pull the plain figures from this line: 2 coffees €3.20, 1 cake €4.50",
+     "input": {
+      "text": "2 coffees €3.20, 1 cake €4.50"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractNumbers"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "extract the currency amounts from the invoice below",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractNumbers",
+     "message": "extract the figures from the invoice below",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractTimes"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "extract the amounts: dinner at 7:30pm costs £35, brunch at 11am £18",
+     "input": {
+      "text": "dinner at 7:30pm costs £35, brunch at 11am £18"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractTimes",
+     "message": "extract the times: dinner at 7:30pm costs £35, brunch at 11am £18",
+     "input": {
+      "text": "dinner at 7:30pm costs £35, brunch at 11am £18"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractTimes"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "pull the prices out of the event schedule I paste",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractTimes",
+     "message": "pull the times out of the event schedule I paste",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractEmails"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "extract the dates from: Email jo@club.org by 12 June 2026, or sam@club.org by 20 June 2026",
+     "input": {
+      "text": "Email jo@club.org by 12 June 2026, or sam@club.org by 20 June 2026"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractEmails",
+     "message": "extract the emails from: Email jo@club.org by 12 June 2026, or sam@club.org by 20 June 2026",
+     "input": {
+      "text": "Email jo@club.org by 12 June 2026, or sam@club.org by 20 June 2026"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractEmails"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "pull the dates from the email thread I'm pasting",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractEmails",
+     "message": "pull the email addresses from the email thread I'm pasting",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractMentions"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "extract the dates from this post: @ana see you 4 July 2026, @ben on 6 July 2026",
+     "input": {
+      "text": "@ana see you 4 July 2026, @ben on 6 July 2026"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractMentions",
+     "message": "extract the mentions from this post: @ana see you 4 July 2026, @ben on 6 July 2026",
+     "input": {
+      "text": "@ana see you 4 July 2026, @ben on 6 July 2026"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractMentions"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "which dates are in this tweet: @lee and @kim launch on 2026-11-01",
+     "input": {
+      "text": "@lee and @kim launch on 2026-11-01"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractMentions",
+     "message": "which @handles are in this tweet: @lee and @kim launch on 2026-11-01",
+     "input": {
+      "text": "@lee and @kim launch on 2026-11-01"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractMentions"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "get the dates from the thread below",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractMentions",
+     "message": "get the @mentions from the thread below",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractTimes"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "extract the dates: Match on 14 Nov 2026 at 3pm, replay 21 Nov 2026 at 7:45pm",
+     "input": {
+      "text": "Match on 14 Nov 2026 at 3pm, replay 21 Nov 2026 at 7:45pm"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractTimes",
+     "message": "extract the times: Match on 14 Nov 2026 at 3pm, replay 21 Nov 2026 at 7:45pm",
+     "input": {
+      "text": "Match on 14 Nov 2026 at 3pm, replay 21 Nov 2026 at 7:45pm"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractTimes"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "pull the dates from my rota",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractTimes",
+     "message": "pull the clock times from my rota",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractUrls"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "extract the dates from: Register at https://race.example.com before 30 Sep 2026",
+     "input": {
+      "text": "Register at https://race.example.com before 30 Sep 2026"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractUrls",
+     "message": "extract the urls from: Register at https://race.example.com before 30 Sep 2026",
+     "input": {
+      "text": "Register at https://race.example.com before 30 Sep 2026"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractUrls"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "find the dates in the newsletter I'm pasting",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractUrls",
+     "message": "find the links in the newsletter I'm pasting",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractEmails",
+    "extractUrls"
+   ],
+   "rows": [
+    {
+     "skill": "extractEmails",
+     "message": "extract the email addresses from: contact help@site.io or visit https://site.io/help",
+     "input": {
+      "text": "contact help@site.io or visit https://site.io/help"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractUrls",
+     "message": "extract the urls from: contact help@site.io or visit https://site.io/help",
+     "input": {
+      "text": "contact help@site.io or visit https://site.io/help"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractEmails",
+    "extractUrls"
+   ],
+   "rows": [
+    {
+     "skill": "extractEmails",
+     "message": "get the emails from my signature below",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractUrls",
+     "message": "get the web links from my signature below",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractMentions",
+    "extractTimes"
+   ],
+   "rows": [
+    {
+     "skill": "extractMentions",
+     "message": "extract the mentions: @dan standup at 9:15, @eve demo at 2pm",
+     "input": {
+      "text": "@dan standup at 9:15, @eve demo at 2pm"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractTimes",
+     "message": "extract the times: @dan standup at 9:15, @eve demo at 2pm",
+     "input": {
+      "text": "@dan standup at 9:15, @eve demo at 2pm"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractMentions",
+    "extractTimes"
+   ],
+   "rows": [
+    {
+     "skill": "extractMentions",
+     "message": "pull the @handles from this slack post: @ops deploy at 18:00 tonight",
+     "input": {
+      "text": "@ops deploy at 18:00 tonight"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractTimes",
+     "message": "pull the clock times from this slack post: @ops deploy at 18:00 tonight",
+     "input": {
+      "text": "@ops deploy at 18:00 tonight"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractMentions",
+    "extractTimes"
+   ],
+   "rows": [
+    {
+     "skill": "extractMentions",
+     "message": "list the @mentions in our team chat log",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractTimes",
+     "message": "list the times in our team chat log",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractNumbers",
+    "sum"
+   ],
+   "rows": [
+    {
+     "skill": "extractNumbers",
+     "message": "pull the numbers out of: 12, 30 and 45",
+     "input": {
+      "text": "12, 30 and 45"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sum",
+     "message": "add up the numbers: 12, 30 and 45",
+     "input": {
+      "values": [
+       12,
+       30,
+       45
+      ]
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractNumbers",
+    "sum"
+   ],
+   "rows": [
+    {
+     "skill": "extractNumbers",
+     "message": "extract the figures from my receipt: 4.25, 2.75, 7.95",
+     "input": {
+      "text": "4.25, 2.75, 7.95"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sum",
+     "message": "total the figures from my receipt: 4.25, 2.75, 7.95",
+     "input": {
+      "values": [
+       4.25,
+       2.75,
+       7.95
+      ]
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractNumbers",
+    "sum"
+   ],
+   "rows": [
+    {
+     "skill": "extractNumbers",
+     "message": "extract the numbers from 150, 275 and 90 units sold",
+     "input": {
+      "text": "150, 275 and 90 units sold"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sum",
+     "message": "add up 150, 275 and 90 units sold",
+     "input": {
+      "values": [
+       150,
+       275,
+       90
+      ]
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractTimes",
+    "listTimezoneOffsets"
+   ],
+   "rows": [
+    {
+     "skill": "extractTimes",
+     "message": "extract the times from this: London 9am, Tokyo 5pm",
+     "input": {
+      "text": "London 9am, Tokyo 5pm"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "listTimezoneOffsets",
+     "message": "current times in London and Tokyo",
+     "input": {
+      "zones": [
+       "Europe/London",
+       "Asia/Tokyo"
+      ]
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractTimes",
+    "listTimezoneOffsets"
+   ],
+   "rows": [
+    {
+     "skill": "extractTimes",
+     "message": "list the times written in this note: Paris 10:00, Sydney 19:00",
+     "input": {
+      "text": "Paris 10:00, Sydney 19:00"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "listTimezoneOffsets",
+     "message": "list the times right now in Paris and Sydney",
+     "input": {
+      "zones": [
+       "Europe/Paris",
+       "Australia/Sydney"
+      ]
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractTimes",
+    "listTimezoneOffsets"
+   ],
+   "rows": [
+    {
+     "skill": "extractTimes",
+     "message": "get the clock times from this: New York 8am and Berlin 2pm",
+     "input": {
+      "text": "New York 8am and Berlin 2pm"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "listTimezoneOffsets",
+     "message": "get the clock times now for New York and Berlin",
+     "input": {
+      "zones": [
+       "America/New_York",
+       "Europe/Berlin"
+      ]
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractUrls",
+    "validateUrl"
+   ],
+   "rows": [
+    {
+     "skill": "extractUrls",
+     "message": "extract the url from: docs at https://example.org/guide",
+     "input": {
+      "text": "docs at https://example.org/guide"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateUrl",
+     "message": "is https://example.org/guide a well formed url",
+     "input": {
+      "url": "https://example.org/guide"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractUrls",
+    "validateUrl"
+   ],
+   "rows": [
+    {
+     "skill": "extractUrls",
+     "message": "pull the links out of: see http://shop.test/item?id=5",
+     "input": {
+      "text": "see http://shop.test/item?id=5"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateUrl",
+     "message": "check if this link is well formed: http://shop.test/item?id=5",
+     "input": {
+      "url": "http://shop.test/item?id=5"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractUrls",
+    "validateUrl"
+   ],
+   "rows": [
+    {
+     "skill": "extractUrls",
+     "message": "list the web addresses in: menu at www.bakery.co.uk/menu",
+     "input": {
+      "text": "menu at www.bakery.co.uk/menu"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateUrl",
+     "message": "validate the web address www.bakery.co.uk/menu",
+     "input": {
+      "url": "www.bakery.co.uk/menu"
+     },
+     "mode": "full"
+    }
+   ]
+  }
+ ]
+}

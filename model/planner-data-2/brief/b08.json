@@ -1,0 +1,1845 @@
+{
+ "batch": "b08",
+ "categories": [
+  "lists",
+  "reference",
+  "decisions"
+ ],
+ "skills": [
+  {
+   "name": "chunkList",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "chunkList \u2014 Split a list into consecutive groups of a fixed size \u2014 deal items into groups of four.\n  needs: items: array, size: integer\n  e.g. \"split these into groups of 3\" \u2192 {\"items\":[1,2,3,4,5,6,7],\"size\":3}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items",
+     "size"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 1,
+      "prompt": "Which list should I split?"
+     },
+     "size": {
+      "type": "integer",
+      "label": "group size",
+      "minimum": 1,
+      "prompt": "How many per group?"
+     }
+    }
+   },
+   "examples": [
+    "split these into groups of 3",
+    "break this list into pairs",
+    "group 10 items 4 at a time",
+    "chunk a list into ones",
+    "chunk size larger than the list",
+    "deal these names into groups of two",
+    "break this list into batches of 3"
+   ]
+  },
+  {
+   "name": "countItems",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "countItems \u2014 Count how many times each item appears in a list, ranked most common first.\n  needs: items: array\n  optional: ignoreCase: boolean\n  e.g. \"count how many of each are in this list\" \u2192 {\"items\":[\"red\",\"blue\",\"red\",\"green\",\"red\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 1,
+      "prompt": "Which list should I tally?"
+     },
+     "ignoreCase": {
+      "type": "boolean",
+      "label": "ignore case",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "count how many of each are in this list",
+    "tally these votes",
+    "how many of each number",
+    "count the names ignoring case",
+    "tally a list where everything is different"
+   ]
+  },
+  {
+   "name": "dedupeList",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "dedupeList \u2014 Remove repeated items from a list, keeping the first of each and the original order.\n  needs: items: array\n  optional: ignoreCase: boolean\n  e.g. \"remove the duplicates from this list\" \u2192 {\"items\":[\"apple\",\"banana\",\"apple\",\"cherry\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 1,
+      "prompt": "Which list should I deduplicate?"
+     },
+     "ignoreCase": {
+      "type": "boolean",
+      "label": "ignore case",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "remove the duplicates from this list",
+    "dedupe these numbers",
+    "unique names ignoring case",
+    "dedupe a list with nothing repeated",
+    "remove duplicate email addresses",
+    "take the repeated entries out of this list",
+    "drop the repeats and keep each item once"
+   ]
+  },
+  {
+   "name": "differenceLists",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "differenceLists \u2014 Find what is in one list but not the other, in both directions.\n  needs: first: array, second: array\n  optional: ignoreCase: boolean\n  e.g. \"what is in the first list but not the second\" \u2192 {\"first\":[\"a\",\"b\",\"c\"],\"second\":[\"b\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "first",
+     "second"
+    ],
+    "properties": {
+     "first": {
+      "type": "array",
+      "label": "first list",
+      "minItems": 1,
+      "prompt": "What is the first list?"
+     },
+     "second": {
+      "type": "array",
+      "label": "second list",
+      "minItems": 1,
+      "prompt": "And the second list?"
+     },
+     "ignoreCase": {
+      "type": "boolean",
+      "label": "ignore case",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "what is in the first list but not the second",
+    "compare these two lists of numbers",
+    "are these two lists the same",
+    "which entries are only in one of these",
+    "difference between two name lists ignoring case"
+   ]
+  },
+  {
+   "name": "flattenList",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "flattenList \u2014 Flatten a list of nested lists into a single flat list.\n  needs: items: array\n  optional: depth: integer\n  e.g. \"flatten this nested list\" \u2192 {\"items\":[1,[2,3],[4,[5]]]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 1,
+      "prompt": "Which nested list should I flatten?"
+     },
+     "depth": {
+      "type": "integer",
+      "label": "levels to flatten",
+      "minimum": 1,
+      "maximum": 20,
+      "description": "how many levels to flatten \u2014 all of them by default"
+     }
+    }
+   },
+   "examples": [
+    "flatten this nested list",
+    "flatten a list of lists",
+    "flatten only one level deep",
+    "flatten an already flat list",
+    "flatten deeply nested groups"
+   ]
+  },
+  {
+   "name": "intersectLists",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "intersectLists \u2014 Keep only the items appearing on both lists.\n  needs: first: array, second: array\n  optional: ignoreCase: boolean\n  e.g. \"what is in both of these lists\" \u2192 {\"first\":[\"apple\",\"banana\",\"cherry\"],\"second\":[\"banana\",\"cherry\",\"date\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "first",
+     "second"
+    ],
+    "properties": {
+     "first": {
+      "type": "array",
+      "label": "first list",
+      "minItems": 1,
+      "prompt": "What is the first list?"
+     },
+     "second": {
+      "type": "array",
+      "label": "second list",
+      "minItems": 1,
+      "prompt": "And the second list?"
+     },
+     "ignoreCase": {
+      "type": "boolean",
+      "label": "ignore case",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "what is in both of these lists",
+    "which numbers appear in both",
+    "do these two lists overlap at all",
+    "names in both lists ignoring case",
+    "common items where the first list repeats one",
+    "which items show up in both list a and list b",
+    "what do these two lists have in common"
+   ]
+  },
+  {
+   "name": "pairUp",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "pairUp \u2014 Draw people into random pairs or teams from a seed.\n  needs: items: array, seed: integer\n  optional: groupSize: integer\n  e.g. \"pair these four people up, seed 7\" \u2192 {\"items\":[\"Ana\",\"Bo\",\"Cy\",\"Di\"],\"seed\":7}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items",
+     "seed"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 2,
+      "prompt": "Who or what should I pair up?"
+     },
+     "seed": {
+      "type": "integer",
+      "label": "repeatable seed",
+      "minimum": 0,
+      "prompt": "Which seed? Any whole number \u2014 the same seed always draws the same pairs."
+     },
+     "groupSize": {
+      "type": "integer",
+      "label": "group size",
+      "minimum": 2,
+      "default": 2
+     }
+    }
+   },
+   "examples": [
+    "pair these four people up, seed 7",
+    "draw pairs from five names, seed 1",
+    "split six into teams of three, seed 42",
+    "pair two people",
+    "secret santa draw for three, seed 9"
+   ]
+  },
+  {
+   "name": "pickRandom",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "pickRandom \u2014 Pick one or more items at random from a list, from a seed so the pick can be repeated.\n  needs: items: array, seed: integer\n  optional: count: integer, allowRepeats: boolean\n  e.g. \"pick one of these at random with seed 7\" \u2192 {\"items\":[\"tea\",\"coffee\",\"water\"],\"seed\":7}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items",
+     "seed"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 1,
+      "prompt": "Which list should I pick from?"
+     },
+     "seed": {
+      "type": "integer",
+      "label": "repeatable seed",
+      "minimum": 0,
+      "prompt": "Which seed? Any whole number \u2014 the same seed always picks the same thing."
+     },
+     "count": {
+      "type": "integer",
+      "label": "how many",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 1
+     },
+     "allowRepeats": {
+      "type": "boolean",
+      "label": "allow repeats",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "pick one of these at random with seed 7",
+    "choose a name from the list, seed 1",
+    "pick 2 winners with seed 42",
+    "pick 3 allowing repeats, seed 5",
+    "pick from a one item list"
+   ]
+  },
+  {
+   "name": "rangeList",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "rangeList \u2014 Count from one number to another in steps, listing every number on the way.\n  needs: from: number, to: number\n  optional: step: number\n  e.g. \"list the numbers 1 to 5\" \u2192 {\"from\":1,\"to\":5}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "from",
+     "to"
+    ],
+    "properties": {
+     "from": {
+      "type": "number",
+      "label": "from",
+      "prompt": "Start from which number?"
+     },
+     "to": {
+      "type": "number",
+      "label": "to",
+      "prompt": "Count up to which number?"
+     },
+     "step": {
+      "type": "number",
+      "label": "step",
+      "default": 1
+     }
+    }
+   },
+   "examples": [
+    "list the numbers 1 to 5",
+    "count from 0 to 100 in tens",
+    "count down from 10 to 1",
+    "list 0 to 1 in quarters",
+    "a range where start and end are the same",
+    "list the multiples of five between 5 and 40",
+    "count from 10 down to 0 in twos"
+   ]
+  },
+  {
+   "name": "shuffleList",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "shuffleList \u2014 Jumble any list into a random order from a seed.\n  needs: items: array, seed: integer\n  e.g. \"shuffle these with seed 7\" \u2192 {\"items\":[1,2,3,4,5],\"seed\":7}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items",
+     "seed"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 2,
+      "prompt": "Which list should I shuffle?"
+     },
+     "seed": {
+      "type": "integer",
+      "label": "repeatable seed",
+      "minimum": 0,
+      "prompt": "Which seed? Any whole number \u2014 the same seed always gives the same order."
+     }
+    }
+   },
+   "examples": [
+    "shuffle these with seed 7",
+    "randomise this list, seed 1",
+    "shuffle the running order with seed 42",
+    "shuffle two items with seed 3",
+    "shuffle six numbers seed 2026",
+    "jumble up this playlist, seed 9",
+    "mix these into a random order with seed 2"
+   ]
+  },
+  {
+   "name": "sortList",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "sortList \u2014 Put a list of items in order \u2014 alphabetically, numerically, or in natural order where numbers inside names count.\n  needs: items: array\n  optional: by: string, direction: string\n  e.g. \"sort this list alphabetically\" \u2192 {\"items\":[\"cherry\",\"apple\",\"banana\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 1,
+      "prompt": "Which list should I sort?"
+     },
+     "by": {
+      "type": "string",
+      "label": "sort by",
+      "enum": [
+       "alphabetical",
+       "numeric",
+       "natural"
+      ],
+      "default": "alphabetical"
+     },
+     "direction": {
+      "type": "string",
+      "label": "order",
+      "enum": [
+       "ascending",
+       "descending"
+      ],
+      "default": "ascending"
+     }
+    }
+   },
+   "examples": [
+    "sort this list alphabetically",
+    "sort these numbers largest first",
+    "sort file names in natural order",
+    "order these names z to a",
+    "sort a mixed-case list"
+   ]
+  },
+  {
+   "name": "unionLists",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "unionLists \u2014 Merge two lists into one, dropping repeats.\n  needs: first: array, second: array\n  optional: ignoreCase: boolean\n  e.g. \"combine these two lists\" \u2192 {\"first\":[\"a\",\"b\"],\"second\":[\"b\",\"c\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "first",
+     "second"
+    ],
+    "properties": {
+     "first": {
+      "type": "array",
+      "label": "first list",
+      "minItems": 1,
+      "prompt": "What is the first list?"
+     },
+     "second": {
+      "type": "array",
+      "label": "second list",
+      "minItems": 1,
+      "prompt": "And the second list?"
+     },
+     "ignoreCase": {
+      "type": "boolean",
+      "label": "ignore case",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "combine these two lists",
+    "merge two lists of numbers",
+    "union of two identical lists",
+    "join these lists dropping repeats",
+    "combine two name lists ignoring case"
+   ]
+  },
+  {
+   "name": "zipLists",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "zipLists \u2014 Combine two or more lists position by position \u2014 pair each name with its score.\n  needs: lists: array\n  optional: names: array, strict: boolean\n  e.g. \"zip these two lists together\" \u2192 {\"lists\":[[1,2,3],[\"a\",\"b\",\"c\"]]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "lists"
+    ],
+    "properties": {
+     "lists": {
+      "type": "array",
+      "label": "lists",
+      "minItems": 2,
+      "prompt": "Which lists should I combine?"
+     },
+     "names": {
+      "type": "array",
+      "label": "field names",
+      "items": {
+       "type": "string"
+      },
+      "description": "a name for each list, to build objects instead of rows"
+     },
+     "strict": {
+      "type": "boolean",
+      "label": "equal lengths only",
+      "default": false,
+      "description": "refuse when the lists are different lengths"
+     }
+    }
+   },
+   "examples": [
+    "zip these two lists together",
+    "combine names and ages into records",
+    "zip three lists",
+    "zip lists of different lengths",
+    "zip two single-item lists",
+    "match each name up with the corresponding score",
+    "line these two lists up side by side"
+   ]
+  },
+  {
+   "name": "airportCodeLookup",
+   "category": "reference",
+   "needsNetwork": false,
+   "card": "airportCodeLookup \u2014 Look up an airport by its IATA code, or find the airports serving a city.\n  needs: query: string\n  e.g. \"what airport is LHR\" \u2192 {\"query\":\"LHR\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "airport code or city",
+      "minLength": 1,
+      "prompt": "Which airport code or city?"
+     }
+    }
+   },
+   "examples": [
+    "what airport is LHR",
+    "which airport code is JFK",
+    "airports in Tokyo",
+    "what is SIN airport",
+    "which airports serve London"
+   ]
+  },
+  {
+   "name": "countryLookup",
+   "category": "reference",
+   "needsNetwork": false,
+   "card": "countryLookup \u2014 Look up a country's capital city, ISO codes, currency and international dialling code.\n  needs: query: string\n  e.g. \"what is the capital of Switzerland\" \u2192 {\"query\":\"Switzerland\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "country",
+      "minLength": 2,
+      "prompt": "Which country?"
+     }
+    }
+   },
+   "examples": [
+    "what is the capital of Switzerland",
+    "what currency does japan use",
+    "dialling code for brazil",
+    "country code for the netherlands",
+    "tell me about NZ"
+   ]
+  },
+  {
+   "name": "currencyLookup",
+   "category": "reference",
+   "needsNetwork": false,
+   "card": "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "code"
+    ],
+    "properties": {
+     "code": {
+      "type": "string",
+      "label": "currency code",
+      "minLength": 2,
+      "prompt": "Which currency code? (like GBP)"
+     }
+    }
+   },
+   "examples": [
+    "what is JPY",
+    "what does GBP stand for",
+    "currency symbol for INR",
+    "how many decimals does KWD have",
+    "what is the ZAR currency",
+    "what does the currency code NOK mean",
+    "which currency is CHF"
+   ]
+  },
+  {
+   "name": "languageCodeLookup",
+   "category": "reference",
+   "needsNetwork": false,
+   "card": "languageCodeLookup \u2014 Look up what a two-letter language code stands for, or find the code for a language \u2014 ISO 639-1.\n  needs: query: string\n  e.g. \"what language is code ta\" \u2192 {\"query\":\"ta\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "language or code",
+      "minLength": 1,
+      "prompt": "Which language or code should I look up?"
+     }
+    }
+   },
+   "examples": [
+    "what language is code ta",
+    "what is the code for Portuguese",
+    "which language is de",
+    "iso code for Swahili",
+    "what does zh mean",
+    "which language has the iso code sv",
+    "which iso code is finnish"
+   ]
+  },
+  {
+   "name": "periodicTableLookup",
+   "category": "reference",
+   "needsNetwork": false,
+   "card": "periodicTableLookup \u2014 Look up a chemical element \u2014 magnesium, Mg, or atomic number 12 \u2014 for its symbol, mass and group.\n  needs: query: string\n  e.g. \"look up the element Au\" \u2192 {\"query\":\"Au\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "element",
+      "minLength": 1,
+      "prompt": "Which element should I look up?"
+     }
+    }
+   },
+   "examples": [
+    "look up the element Au",
+    "what is the atomic weight of carbon",
+    "which element is number 26",
+    "tell me about technetium",
+    "element 118",
+    "tell me about the element calcium",
+    "what is atomic number 26"
+   ]
+  },
+  {
+   "name": "phoneRegionLookup",
+   "category": "reference",
+   "needsNetwork": false,
+   "card": "phoneRegionLookup \u2014 Find which country an international dialling code belongs to, or the code for a country.\n  needs: query: string\n  e.g. \"what country is +44\" \u2192 {\"query\":\"+44\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "dialling code or country",
+      "minLength": 1,
+      "prompt": "Which dialling code or country?"
+     }
+    }
+   },
+   "examples": [
+    "what country is +44",
+    "which country uses dialling code 81",
+    "what is the dialling code for India",
+    "who does +1 belong to",
+    "calling code for Brazil"
+   ]
+  },
+  {
+   "name": "timezoneLookup",
+   "category": "reference",
+   "needsNetwork": false,
+   "card": "timezoneLookup \u2014 Find the current time and UTC offset in a time zone.\n  needs: zone: string\n  optional: at: string\n  e.g. \"what time is it in Asia/Tokyo\" \u2192 {\"zone\":\"Asia/Tokyo\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "zone"
+    ],
+    "properties": {
+     "zone": {
+      "type": "string",
+      "label": "time zone",
+      "minLength": 1,
+      "prompt": "Which time zone or city?"
+     },
+     "at": {
+      "type": "string",
+      "label": "timestamp",
+      "description": "an ISO timestamp to ask about instead of now"
+     }
+    }
+   },
+   "examples": [
+    "what time is it in Asia/Tokyo",
+    "current time in London",
+    "what is the utc offset in New York",
+    "time in Tokyo",
+    "what is the offset for Asia/Kolkata"
+   ]
+  },
+  {
+   "name": "usStateLookup",
+   "category": "reference",
+   "needsNetwork": false,
+   "card": "usStateLookup \u2014 Look up a US state by name or postal abbreviation.\n  needs: query: string\n  e.g. \"what is the capital of California\" \u2192 {\"query\":\"California\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "state",
+      "minLength": 1,
+      "prompt": "Which state should I look up?"
+     }
+    }
+   },
+   "examples": [
+    "what is the capital of California",
+    "look up TX",
+    "state info for new york",
+    "what about DC",
+    "capital of Hawaii"
+   ]
+  },
+  {
+   "name": "webAnswer",
+   "category": "reference",
+   "needsNetwork": true,
+   "card": "webAnswer \u2014 Look up a short factual answer on the web, with the page it came from.\n  needs: question: string\n  e.g. \"who is the governor of Maryland\" \u2192 {\"question\":\"governor of Maryland\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "question"
+    ],
+    "properties": {
+     "question": {
+      "type": "string",
+      "label": "question",
+      "minLength": 2,
+      "prompt": "What should I look up?"
+     }
+    }
+   },
+   "examples": [
+    "who is the governor of Maryland",
+    "look up Ada Lovelace",
+    "what is the James Webb Space Telescope",
+    "search the web for the capital of Mongolia",
+    "tell me about Hedy Lamarr",
+    "what was the Antikythera mechanism"
+   ]
+  },
+  {
+   "name": "webSearch",
+   "category": "reference",
+   "needsNetwork": true,
+   "card": "webSearch \u2014 Search the web and get back the matching pages, with links.\n  needs: query: string\n  e.g. \"search the web for the Antikythera mechanism\" \u2192 {\"query\":\"Antikythera mechanism\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "search",
+      "minLength": 2,
+      "prompt": "What should I search for?"
+     }
+    }
+   },
+   "examples": [
+    "search the web for the Antikythera mechanism",
+    "find pages about Voyager 1",
+    "web search governor of Maryland",
+    "look on the web for Ada Lovelace",
+    "find links about Hedy Lamarr",
+    "search online for the James Webb Space Telescope"
+   ]
+  },
+  {
+   "name": "breakEvenComparison",
+   "category": "decisions",
+   "needsNetwork": false,
+   "card": "breakEvenComparison \u2014 Find the point at which one option starts to pay off against another.\n  needs: fixedA: number, perUnitA: number, fixedB: number, perUnitB: number\n  optional: nameA: string, nameB: string\n  e.g. \"when does the subscription beat paying per use\" \u2192 {\"fixedA\":100,\"perUnitA\":5,\"fixedB\":0,\"perUnitB\":10}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "fixedA",
+     "perUnitA",
+     "fixedB",
+     "perUnitB"
+    ],
+    "properties": {
+     "fixedA": {
+      "type": "number",
+      "label": "first option up front",
+      "minimum": 0,
+      "prompt": "What does the first option cost up front?"
+     },
+     "perUnitA": {
+      "type": "number",
+      "label": "first option per unit",
+      "minimum": 0,
+      "prompt": "And per unit?"
+     },
+     "fixedB": {
+      "type": "number",
+      "label": "second option up front",
+      "minimum": 0,
+      "prompt": "What does the second option cost up front?"
+     },
+     "perUnitB": {
+      "type": "number",
+      "label": "second option per unit",
+      "minimum": 0,
+      "prompt": "And per unit?"
+     },
+     "nameA": {
+      "type": "string",
+      "label": "first option name",
+      "default": "A"
+     },
+     "nameB": {
+      "type": "string",
+      "label": "second option name",
+      "default": "B"
+     }
+    }
+   },
+   "examples": [
+    "when does the subscription beat paying per use",
+    "break even between buying and renting",
+    "compare two pricing plans",
+    "is there a break even point here",
+    "break even on a cheaper machine with pricier supplies"
+   ]
+  },
+  {
+   "name": "expectedValue",
+   "category": "decisions",
+   "needsNetwork": false,
+   "card": "expectedValue \u2014 Work out the expected value of a set of outcomes and their probabilities.\n  needs: outcomes: array\n  e.g. \"expected value of a coin flip for 100 or minus 50\" \u2192 {\"outcomes\":[{\"value\":100,\"probability\":0.5},{\"value\":-50,\"probability\":0.5}]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "outcomes"
+    ],
+    "properties": {
+     "outcomes": {
+      "type": "array",
+      "label": "outcomes",
+      "minItems": 1,
+      "maxItems": 50,
+      "prompt": "What are the outcomes and their probabilities?"
+     }
+    }
+   },
+   "examples": [
+    "expected value of a coin flip for 100 or minus 50",
+    "what is the expected value of this lottery",
+    "expected value across three outcomes",
+    "expected payout with percentages",
+    "expected value of a certain outcome"
+   ]
+  },
+  {
+   "name": "prosConsScore",
+   "category": "decisions",
+   "needsNetwork": false,
+   "card": "prosConsScore \u2014 Add up weighted pros and cons and show the balance.\n  needs: pros: array, cons: array\n  e.g. \"weigh up these pros and cons\" \u2192 {\"pros\":[{\"text\":\"cheaper\",\"weight\":3},{\"text\":\"closer to work\",\"weight\":2}],\"cons\":[{\"text\":\"smaller\",\"weight\":2},{\"text\":\"no garden\",\"weight\":1}]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "pros",
+     "cons"
+    ],
+    "properties": {
+     "pros": {
+      "type": "array",
+      "label": "pros",
+      "minItems": 1,
+      "maxItems": 50,
+      "prompt": "What are the points in favour?"
+     },
+     "cons": {
+      "type": "array",
+      "label": "cons",
+      "minItems": 1,
+      "maxItems": 50,
+      "prompt": "And the points against?"
+     }
+    }
+   },
+   "examples": [
+    "weigh up these pros and cons",
+    "score my pros and cons list",
+    "is this decision balanced",
+    "weigh a decision that leans against",
+    "add up these weighted arguments"
+   ]
+  },
+  {
+   "name": "weightedDecisionMatrix",
+   "category": "decisions",
+   "needsNetwork": false,
+   "card": "weightedDecisionMatrix \u2014 Score options against weighted criteria and rank them, from scores you provide.\n  needs: options: array, criteria: array, weights: array, scores: array\n  e.g. \"help me choose between two flats on price and commute\" \u2192 {\"options\":[\"Flat A\",\"Flat B\"],\"criteria\":[\"price\",\"commute\"],\"weights\":[3,2],\"scores\":[[8,4],[5,9]]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "options",
+     "criteria",
+     "weights",
+     "scores"
+    ],
+    "properties": {
+     "options": {
+      "type": "array",
+      "label": "options",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 2,
+      "prompt": "Which options are you deciding between?"
+     },
+     "criteria": {
+      "type": "array",
+      "label": "criteria",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1,
+      "prompt": "What criteria matter?"
+     },
+     "weights": {
+      "type": "array",
+      "label": "weights",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "How much does each criterion weigh?"
+     },
+     "scores": {
+      "type": "array",
+      "label": "scores",
+      "minItems": 2,
+      "prompt": "Score each option against each criterion \u2014 one row of numbers per option."
+     }
+    }
+   },
+   "examples": [
+    "help me choose between two flats on price and commute",
+    "rank three job offers",
+    "decide between two laptops",
+    "a decision where one option clearly wins",
+    "compare two suppliers on one criterion"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "airportCodeLookup",
+    "countryLookup"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "airportCodeLookup \u2014 Look up an airport by its IATA code, or find the airports serving a city.\n  needs: query: string\n  e.g. \"what airport is LHR\" \u2192 {\"query\":\"LHR\"}",
+    "countryLookup \u2014 Look up a country's capital city, ISO codes, currency and international dialling code.\n  needs: query: string\n  e.g. \"what is the capital of Switzerland\" \u2192 {\"query\":\"Switzerland\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "airport code or city",
+       "minLength": 1,
+       "prompt": "Which airport code or city?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "country",
+       "minLength": 2,
+       "prompt": "Which country?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "languageCodeLookup"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "airportCodeLookup \u2014 Look up an airport by its IATA code, or find the airports serving a city.\n  needs: query: string\n  e.g. \"what airport is LHR\" \u2192 {\"query\":\"LHR\"}",
+    "languageCodeLookup \u2014 Look up what a two-letter language code stands for, or find the code for a language \u2014 ISO 639-1.\n  needs: query: string\n  e.g. \"what language is code ta\" \u2192 {\"query\":\"ta\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "airport code or city",
+       "minLength": 1,
+       "prompt": "Which airport code or city?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "language or code",
+       "minLength": 1,
+       "prompt": "Which language or code should I look up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)",
+    "cards"
+   ],
+   "cards": [
+    "airportCodeLookup \u2014 Look up an airport by its IATA code, or find the airports serving a city.\n  needs: query: string\n  e.g. \"what airport is LHR\" \u2192 {\"query\":\"LHR\"}",
+    "phoneRegionLookup \u2014 Find which country an international dialling code belongs to, or the code for a country.\n  needs: query: string\n  e.g. \"what country is +44\" \u2192 {\"query\":\"+44\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "airport code or city",
+       "minLength": 1,
+       "prompt": "Which airport code or city?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "dialling code or country",
+       "minLength": 1,
+       "prompt": "Which dialling code or country?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "currencyLookup"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countryLookup \u2014 Look up a country's capital city, ISO codes, currency and international dialling code.\n  needs: query: string\n  e.g. \"what is the capital of Switzerland\" \u2192 {\"query\":\"Switzerland\"}",
+    "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "country",
+       "minLength": 2,
+       "prompt": "Which country?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "string",
+       "label": "currency code",
+       "minLength": 2,
+       "prompt": "Which currency code? (like GBP)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "languageCodeLookup"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countryLookup \u2014 Look up a country's capital city, ISO codes, currency and international dialling code.\n  needs: query: string\n  e.g. \"what is the capital of Switzerland\" \u2192 {\"query\":\"Switzerland\"}",
+    "languageCodeLookup \u2014 Look up what a two-letter language code stands for, or find the code for a language \u2014 ISO 639-1.\n  needs: query: string\n  e.g. \"what language is code ta\" \u2192 {\"query\":\"ta\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "country",
+       "minLength": 2,
+       "prompt": "Which country?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "language or code",
+       "minLength": 1,
+       "prompt": "Which language or code should I look up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "phoneRegionLookup"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countryLookup \u2014 Look up a country's capital city, ISO codes, currency and international dialling code.\n  needs: query: string\n  e.g. \"what is the capital of Switzerland\" \u2192 {\"query\":\"Switzerland\"}",
+    "phoneRegionLookup \u2014 Find which country an international dialling code belongs to, or the code for a country.\n  needs: query: string\n  e.g. \"what country is +44\" \u2192 {\"query\":\"+44\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "country",
+       "minLength": 2,
+       "prompt": "Which country?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "dialling code or country",
+       "minLength": 1,
+       "prompt": "Which dialling code or country?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "formatCurrency"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}",
+    "formatCurrency \u2014 Write an amount of money the way a currency is normally written, with its symbol and decimal places.\n  needs: amount: number, currency: string\n  optional: style: string\n  e.g. \"write 1234.5 as pounds\" \u2192 {\"amount\":1234.5,\"currency\":\"GBP\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "string",
+       "label": "currency code",
+       "minLength": 2,
+       "prompt": "Which currency code? (like GBP)"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "currency"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "label": "amount",
+       "carry": true,
+       "prompt": "How much?"
+      },
+      "currency": {
+       "type": "string",
+       "label": "currency",
+       "minLength": 3,
+       "maxLength": 3,
+       "prompt": "Which currency? (a three-letter code like GBP)"
+      },
+      "style": {
+       "type": "string",
+       "label": "style",
+       "enum": [
+        "symbol",
+        "code",
+        "name"
+       ],
+       "default": "symbol"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "languageCodeLookup"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)",
+    "cards"
+   ],
+   "cards": [
+    "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}",
+    "languageCodeLookup \u2014 Look up what a two-letter language code stands for, or find the code for a language \u2014 ISO 639-1.\n  needs: query: string\n  e.g. \"what language is code ta\" \u2192 {\"query\":\"ta\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "string",
+       "label": "currency code",
+       "minLength": 2,
+       "prompt": "Which currency code? (like GBP)"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "language or code",
+       "minLength": 1,
+       "prompt": "Which language or code should I look up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "unicodeLookup"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}",
+    "unicodeLookup \u2014 Look up a character by symbol, code point or name, with its encodings.\n  needs: query: string\n  e.g. \"look up the character A\" \u2192 {\"query\":\"A\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "string",
+       "label": "currency code",
+       "minLength": 2,
+       "prompt": "Which currency code? (like GBP)"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "character or code",
+       "minLength": 1,
+       "prompt": "Which character, code point or name should I look up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "usStateLookup"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}",
+    "usStateLookup \u2014 Look up a US state by name or postal abbreviation.\n  needs: query: string\n  e.g. \"what is the capital of California\" \u2192 {\"query\":\"California\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "string",
+       "label": "currency code",
+       "minLength": 2,
+       "prompt": "Which currency code? (like GBP)"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "state",
+       "minLength": 1,
+       "prompt": "Which state should I look up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dedupeList",
+    "shuffleList"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "dedupeList \u2014 Remove repeated items from a list, keeping the first of each and the original order.\n  needs: items: array\n  optional: ignoreCase: boolean\n  e.g. \"remove the duplicates from this list\" \u2192 {\"items\":[\"apple\",\"banana\",\"apple\",\"cherry\"]}",
+    "shuffleList \u2014 Jumble any list into a random order from a seed.\n  needs: items: array, seed: integer\n  e.g. \"shuffle these with seed 7\" \u2192 {\"items\":[1,2,3,4,5],\"seed\":7}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "items"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 1,
+       "prompt": "Which list should I deduplicate?"
+      },
+      "ignoreCase": {
+       "type": "boolean",
+       "label": "ignore case",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "items",
+      "seed"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 2,
+       "prompt": "Which list should I shuffle?"
+      },
+      "seed": {
+       "type": "integer",
+       "label": "repeatable seed",
+       "minimum": 0,
+       "prompt": "Which seed? Any whole number \u2014 the same seed always gives the same order."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dedupeList",
+    "sortList"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "dedupeList \u2014 Remove repeated items from a list, keeping the first of each and the original order.\n  needs: items: array\n  optional: ignoreCase: boolean\n  e.g. \"remove the duplicates from this list\" \u2192 {\"items\":[\"apple\",\"banana\",\"apple\",\"cherry\"]}",
+    "sortList \u2014 Put a list of items in order \u2014 alphabetically, numerically, or in natural order where numbers inside names count.\n  needs: items: array\n  optional: by: string, direction: string\n  e.g. \"sort this list alphabetically\" \u2192 {\"items\":[\"cherry\",\"apple\",\"banana\"]}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "items"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 1,
+       "prompt": "Which list should I deduplicate?"
+      },
+      "ignoreCase": {
+       "type": "boolean",
+       "label": "ignore case",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "items"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 1,
+       "prompt": "Which list should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "natural"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "languageCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "languageCodeLookup \u2014 Look up what a two-letter language code stands for, or find the code for a language \u2014 ISO 639-1.\n  needs: query: string\n  e.g. \"what language is code ta\" \u2192 {\"query\":\"ta\"}",
+    "phoneRegionLookup \u2014 Find which country an international dialling code belongs to, or the code for a country.\n  needs: query: string\n  e.g. \"what country is +44\" \u2192 {\"query\":\"+44\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "language or code",
+       "minLength": 1,
+       "prompt": "Which language or code should I look up?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "dialling code or country",
+       "minLength": 1,
+       "prompt": "Which dialling code or country?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pairUp",
+    "shuffleList"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "pairUp \u2014 Draw people into random pairs or teams from a seed.\n  needs: items: array, seed: integer\n  optional: groupSize: integer\n  e.g. \"pair these four people up, seed 7\" \u2192 {\"items\":[\"Ana\",\"Bo\",\"Cy\",\"Di\"],\"seed\":7}",
+    "shuffleList \u2014 Jumble any list into a random order from a seed.\n  needs: items: array, seed: integer\n  e.g. \"shuffle these with seed 7\" \u2192 {\"items\":[1,2,3,4,5],\"seed\":7}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "items",
+      "seed"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 2,
+       "prompt": "Who or what should I pair up?"
+      },
+      "seed": {
+       "type": "integer",
+       "label": "repeatable seed",
+       "minimum": 0,
+       "prompt": "Which seed? Any whole number \u2014 the same seed always draws the same pairs."
+      },
+      "groupSize": {
+       "type": "integer",
+       "label": "group size",
+       "minimum": 2,
+       "default": 2
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "items",
+      "seed"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 2,
+       "prompt": "Which list should I shuffle?"
+      },
+      "seed": {
+       "type": "integer",
+       "label": "repeatable seed",
+       "minimum": 0,
+       "prompt": "Which seed? Any whole number \u2014 the same seed always gives the same order."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pickRandom",
+    "randomNumber"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "pickRandom \u2014 Pick one or more items at random from a list, from a seed so the pick can be repeated.\n  needs: items: array, seed: integer\n  optional: count: integer, allowRepeats: boolean\n  e.g. \"pick one of these at random with seed 7\" \u2192 {\"items\":[\"tea\",\"coffee\",\"water\"],\"seed\":7}",
+    "randomNumber \u2014 Pick a random number in a range, from a seed so the same draw can be repeated.\n  needs: min: number, max: number, seed: integer\n  optional: count: integer, whole: boolean, unique: boolean\n  e.g. \"pick a number between 1 and 100 with seed 7\" \u2192 {\"min\":1,\"max\":100,\"seed\":7}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "items",
+      "seed"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 1,
+       "prompt": "Which list should I pick from?"
+      },
+      "seed": {
+       "type": "integer",
+       "label": "repeatable seed",
+       "minimum": 0,
+       "prompt": "Which seed? Any whole number \u2014 the same seed always picks the same thing."
+      },
+      "count": {
+       "type": "integer",
+       "label": "how many",
+       "minimum": 1,
+       "maximum": 1000,
+       "default": 1
+      },
+      "allowRepeats": {
+       "type": "boolean",
+       "label": "allow repeats",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "min",
+      "max",
+      "seed"
+     ],
+     "properties": {
+      "min": {
+       "type": "number",
+       "label": "lowest",
+       "prompt": "What is the lowest it can be?"
+      },
+      "max": {
+       "type": "number",
+       "label": "highest",
+       "prompt": "What is the highest it can be?"
+      },
+      "seed": {
+       "type": "integer",
+       "label": "repeatable seed",
+       "minimum": 0,
+       "prompt": "Which seed? Any whole number \u2014 the same seed always gives the same numbers."
+      },
+      "count": {
+       "type": "integer",
+       "label": "how many",
+       "minimum": 1,
+       "maximum": 1000,
+       "default": 1
+      },
+      "whole": {
+       "type": "boolean",
+       "label": "whole numbers only",
+       "default": true
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "no repeats",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "sortList",
+    "sortRows"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "sortList \u2014 Put a list of items in order \u2014 alphabetically, numerically, or in natural order where numbers inside names count.\n  needs: items: array\n  optional: by: string, direction: string\n  e.g. \"sort this list alphabetically\" \u2192 {\"items\":[\"cherry\",\"apple\",\"banana\"]}",
+    "sortRows \u2014 Reorder the rows of a table by a column, changing nothing else.\n  needs: table: object, column: string\n  optional: direction: string, then: string\n  e.g. \"sort by amount, biggest first\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80},{\"name\":\"Cy\",\"amount\":200}]},\"column\":\"amount\",\"direction\":\"descending\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "items"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 1,
+       "prompt": "Which list should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "natural"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "table",
+      "column"
+     ],
+     "properties": {
+      "table": {
+       "type": "object",
+       "label": "table",
+       "prompt": "Which table should I sort?"
+      },
+      "column": {
+       "type": "string",
+       "label": "sort by column",
+       "prompt": "Which column should I sort by?"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "then": {
+       "type": "string",
+       "label": "then by column",
+       "description": "a second column, used to break ties"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

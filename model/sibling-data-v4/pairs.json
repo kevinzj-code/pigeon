@@ -1,0 +1,545 @@
+{
+  "_about": "Contrastive sibling pairs for the round-4 sibling-discrimination adapter. Each pair names two skills the adapter keeps confusing, with messages that unambiguously want one side. Every message is new — none paraphrases a bench question; the generator checks that under the category set's four collision rules. Both directions are written, because the failure is symmetric: parse for produce is as common as produce for parse.",
+  "pairs": [
+    {
+      "a": "parseMarkdownTable",
+      "b": "toMarkdownTable",
+      "a_messages": [
+        "read the rows out of this markdown table so i can work with them",
+        "this is a markdown table, give me its rows as data",
+        "turn the pipes-and-dashes table below into records",
+        "pull the cells out of this md table",
+        "i pasted a markdown table, parse it into columns"
+      ],
+      "b_messages": [
+        "lay these records out as a markdown table",
+        "format my rows with pipes and dashes for a readme",
+        "make a markdown table out of this data",
+        "i want these columns rendered as an md table",
+        "write this out as a table i can paste into github"
+      ]
+    },
+    {
+      "a": "flattenJson",
+      "b": "unflattenJson",
+      "a_messages": [
+        "squash this nested json into dotted keys",
+        "give me one flat level with paths like user.address.city",
+        "flatten the nesting out of this object",
+        "turn the nested structure into dot-separated keys",
+        "collapse this json so every key is a full path"
+      ],
+      "b_messages": [
+        "rebuild the nesting from these dotted keys",
+        "expand user.address.city style keys back into objects",
+        "unflatten this map of paths into proper json",
+        "these keys have dots in them, nest them again",
+        "turn the flat paths back into a tree"
+      ]
+    },
+    {
+      "a": "addBusinessDays",
+      "b": "businessDaysBetween",
+      "a_messages": [
+        "what date is five working days after 2026-10-05",
+        "add 3 business days to 2026-11-09",
+        "if i post it on 2026-09-14, when does it land ten working days later",
+        "move 2026-12-01 forward by 4 working days",
+        "which date is two business days on from 2026-08-31"
+      ],
+      "b_messages": [
+        "how many working days are there from 2026-10-05 to 2026-10-30",
+        "count the business days between 2026-09-01 and 2026-09-30",
+        "weekdays only, how many days separate 2026-11-02 and 2026-11-20",
+        "number of working days from 2026-06-01 until 2026-06-19",
+        "how many mon-to-fri days fall between these two dates, 2026-03-02 and 2026-03-27"
+      ]
+    },
+    {
+      "a": "zipLists",
+      "b": "pairUp",
+      "a_messages": [
+        "match the first list to the second, item by item",
+        "combine names and scores position for position",
+        "zip these two columns into rows",
+        "line up list one against list two",
+        "join these lists element by element"
+      ],
+      "b_messages": [
+        "pair everyone off for the tournament, seed 3",
+        "put these people into twos at random",
+        "make random pairs from this group",
+        "who goes with whom, pair them up with seed 8",
+        "split the class into random couples"
+      ]
+    },
+    {
+      "a": "dayOfWeek",
+      "b": "isWeekend",
+      "a_messages": [
+        "what day of the week was 2026-03-14",
+        "which weekday does 2026-12-25 land on",
+        "tell me the weekday for 2026-07-04",
+        "was 2026-01-01 a thursday",
+        "day name for 2026-09-21 please"
+      ],
+      "b_messages": [
+        "does 2026-07-04 fall on the weekend",
+        "is 2026-12-26 a saturday or sunday",
+        "will the shop be shut, is 2026-05-03 a weekend day",
+        "check whether 2026-10-10 is a weekend",
+        "weekend or weekday, 2026-02-14"
+      ]
+    },
+    {
+      "a": "compressText",
+      "b": "truncateText",
+      "a_messages": [
+        "pack this text into a shorter string i can unpack later",
+        "squeeze this block down without losing anything",
+        "compress this so it takes fewer characters to store",
+        "shrink this text losslessly",
+        "make a compact encoded version of this paragraph"
+      ],
+      "b_messages": [
+        "cut this down to 80 characters with an ellipsis",
+        "shorten this to fit a tweet, chop the end off",
+        "trim this to the first 120 characters",
+        "clip this text at 50 characters on a word boundary",
+        "just the opening 200 characters of this"
+      ]
+    },
+    {
+      "a": "stackDiscounts",
+      "b": "applyDiscount",
+      "a_messages": [
+        "20 percent off, then a further 10 percent off that, on 250",
+        "two discounts one after the other on a 90 item, 15 then 5",
+        "apply 30 percent and then another 25 percent to 400",
+        "what does 100 come to after a 10 percent cut and a second 10 percent cut",
+        "chain a 50 percent sale with a 20 percent voucher on 80"
+      ],
+      "b_messages": [
+        "take 15 percent off 60",
+        "what is 200 with a 25 percent discount",
+        "knock 12 off a 48 price",
+        "a single 30 percent reduction on 150",
+        "how much do i save with 20 percent off 75"
+      ]
+    },
+    {
+      "a": "simpleInterest",
+      "b": "compoundInterest",
+      "a_messages": [
+        "flat interest on 500 at 4 percent for 3 years, no compounding",
+        "simple interest only, 1200 at 6 percent over two years",
+        "what does 800 earn at 5 percent a year if the interest never compounds",
+        "non-compounding interest, 2000 at 3 percent for 18 months",
+        "straight-line interest on 300 at 8 percent for a year"
+      ],
+      "b_messages": [
+        "1000 at 5 percent compounded yearly for 10 years",
+        "grow 500 at 7 percent with monthly compounding for 3 years",
+        "compound interest on 2500 at 4 percent over 6 years",
+        "what does 100 become at 10 percent a year, interest on interest, after 5 years",
+        "annual compounding, 900 at 3 percent for 4 years"
+      ]
+    },
+    {
+      "a": "factorial",
+      "b": "product",
+      "a_messages": [
+        "what is 9 factorial",
+        "multiply every whole number from 1 up to 7",
+        "7 bang, the factorial",
+        "the product of all integers from 1 through 10",
+        "how many ways can 6 things be ordered, 6 factorial"
+      ],
+      "b_messages": [
+        "multiply 4 by 9 by 2",
+        "what do 3, 5 and 8 come to when multiplied",
+        "the product of 12 and 15",
+        "multiply these numbers together: 2.5, 4, 3",
+        "7 times 8 times 3"
+      ]
+    },
+    {
+      "a": "zScores",
+      "b": "quartiles",
+      "a_messages": [
+        "standardise these values to z-scores: 10 12 15 18 20",
+        "how many standard deviations from the mean is each of 4 8 15 16 23",
+        "give me z-scores for 50 60 70 80 90",
+        "normalise this set around its mean and spread",
+        "convert 3 7 7 10 18 to standard scores"
+      ],
+      "b_messages": [
+        "what are the quartiles of 4 8 15 16 23 42",
+        "give me q1 q2 and q3 for these numbers: 1 2 3 4 5 6 7 8",
+        "interquartile range of 10 12 15 18 20 25 30",
+        "split 5 9 12 4 20 33 into quartiles",
+        "the 25th 50th and 75th percentile of this set"
+      ]
+    },
+    {
+      "a": "convertCase",
+      "b": "checkTitleCase",
+      "a_messages": [
+        "make this upper case: quiet please",
+        "capitalise this headline the way a book title would be",
+        "rewrite this in snake_case",
+        "change the capitalisation to sentence case",
+        "put this in camelCase for me"
+      ],
+      "b_messages": [
+        "is this heading correctly in title case",
+        "does this title follow title-case rules",
+        "check the capitalisation of this headline",
+        "are the right words capitalised in this title",
+        "tell me if this is proper title case"
+      ]
+    },
+    {
+      "a": "generateTableOfContents",
+      "b": "extractHeadings",
+      "a_messages": [
+        "build a table of contents for this markdown doc",
+        "make a linked contents list from these headings",
+        "generate a toc with anchors for this readme",
+        "i want a clickable contents section for this document",
+        "produce a table of contents at the top of this md file"
+      ],
+      "b_messages": [
+        "list the headings in this markdown",
+        "pull out every heading from this document",
+        "what are the section titles in this md",
+        "give me just the headings, with their levels",
+        "extract the h1 and h2 lines from this text"
+      ]
+    },
+    {
+      "a": "whatPercent",
+      "b": "percentOf",
+      "a_messages": [
+        "36 out of 48, what percentage is that",
+        "what share of 240 is 36, as a percentage",
+        "as a percentage, how much of 60 is 15",
+        "i scored 42 out of 50, what percent is that",
+        "what proportion of 200 is 50"
+      ],
+      "b_messages": [
+        "what is 15 percent of 80",
+        "20 percent of 240",
+        "take 12 percent of 500",
+        "how much is 7.5 percent of 1200",
+        "give me 40 percent of 90"
+      ]
+    },
+    {
+      "a": "averageWordLength",
+      "b": "countWords",
+      "a_messages": [
+        "how long is the average word in this sentence",
+        "mean word length for this paragraph",
+        "what is the typical word size here",
+        "average number of letters per word in this text",
+        "how many characters does a word average in this passage"
+      ],
+      "b_messages": [
+        "how many words are in this paragraph",
+        "word count for this text",
+        "count the words in this sentence",
+        "how many words did i write here",
+        "total words in this passage"
+      ]
+    },
+    {
+      "a": "padText",
+      "b": "wrapText",
+      "a_messages": [
+        "right-justify this in 10 columns",
+        "pad this out to 20 characters with spaces on the left",
+        "centre this word in a 30 character field",
+        "left-pad these numbers to width 6",
+        "make this exactly 12 characters wide, spaces on the right"
+      ],
+      "b_messages": [
+        "wrap this paragraph at 40 characters",
+        "rewrap this text so no line is longer than 60",
+        "break this into lines of at most 30 characters",
+        "hard-wrap this at 72 columns",
+        "reflow this text to 50 characters per line"
+      ]
+    },
+    {
+      "a": "convertLength",
+      "b": "convertArea",
+      "a_messages": [
+        "how far is 8 miles in kilometres",
+        "convert 6 feet to centimetres",
+        "5 kilometres in miles",
+        "what is 100 yards in metres",
+        "turn 12 inches into millimetres"
+      ],
+      "b_messages": [
+        "how many square feet is 85 square metres",
+        "convert 2 acres to hectares",
+        "what is 1 hectare in square metres",
+        "square miles to square kilometres, 10 of them",
+        "turn 500 square feet into square metres"
+      ]
+    },
+    {
+      "a": "convertTime",
+      "b": "durationToText",
+      "a_messages": [
+        "how many hours is 210 minutes",
+        "convert 3 hours to seconds",
+        "90 minutes in hours",
+        "how many days is 72 hours",
+        "turn 2 weeks into hours"
+      ],
+      "b_messages": [
+        "say 9000 seconds the way a person would, hours and minutes",
+        "express 5400 seconds in words",
+        "say 100000 seconds readably, like 1d 3h",
+        "how long is 3661 seconds in plain terms",
+        "put 86400 seconds into human-readable form"
+      ]
+    },
+    {
+      "a": "aspectRatio",
+      "b": "fractionSimplify",
+      "a_messages": [
+        "what aspect ratio is 1920 by 1080",
+        "reduce 3840 by 2160 to a screen ratio",
+        "is 1200 by 800 a 3:2 image",
+        "what shape ratio is a 2560 by 1440 monitor",
+        "give me the aspect ratio for 1280 wide by 720 tall"
+      ],
+      "b_messages": [
+        "simplify the fraction 6/8",
+        "bring 18/24 down to its simplest fraction",
+        "what is 9/12 in its simplest form",
+        "simplify -4/8",
+        "simplify the fraction 250/1000"
+      ]
+    },
+    {
+      "a": "scrabbleScore",
+      "b": "countOccurrences",
+      "a_messages": [
+        "how many points is quiz worth in scrabble",
+        "scrabble score for the word pigeon",
+        "what would jazz score on the board",
+        "tile values added up for zebra",
+        "letter points in scrabble for oxygen"
+      ],
+      "b_messages": [
+        "how many times does the word the appear in this text",
+        "count the occurrences of cat in this paragraph",
+        "how often does hello show up here",
+        "number of times error appears in this log",
+        "count how many times i wrote very"
+      ]
+    },
+    {
+      "a": "toOrdinal",
+      "b": "parseNumber",
+      "a_messages": [
+        "write 21 as an ordinal",
+        "add the st nd rd th ending to 42",
+        "what is 3 as an ordinal word",
+        "102 with its ordinal suffix",
+        "turn 11 into eleventh"
+      ],
+      "b_messages": [
+        "what number does 2.5k stand for",
+        "what number is three quarters of a million",
+        "parse $3,400 into a number",
+        "turn 1.2m into digits",
+        "convert twelve hundred to a number"
+      ]
+    },
+    {
+      "a": "findLongestWord",
+      "b": "countWords",
+      "a_messages": [
+        "which is the longest word in this sentence",
+        "which word in this text has the most letters",
+        "what is the lengthiest word here",
+        "pick out the word with the most letters",
+        "longest word in this paragraph"
+      ],
+      "b_messages": [
+        "how many words is this",
+        "count the words please",
+        "word count of this paragraph",
+        "how many words have i got here",
+        "total number of words in this text"
+      ]
+    },
+    {
+      "a": "periodicTableLookup",
+      "b": "webAnswer",
+      "a_messages": [
+        "tell me about the element magnesium",
+        "what is atomic number 26",
+        "look up the element with symbol Au",
+        "facts about calcium from the periodic table",
+        "which element is Ne"
+      ],
+      "b_messages": [
+        "who is the mayor of lisbon right now",
+        "look up who won the last world cup",
+        "what is the population of iceland today",
+        "search the web for who runs unesco",
+        "find out who the current ceo of that airline is"
+      ]
+    },
+    {
+      "a": "pxToRem",
+      "b": "remToPx",
+      "a_messages": [
+        "what is 24px in rem",
+        "convert 18 pixels to rem units",
+        "how many rem is 32px at the default base",
+        "turn 12px into rem",
+        "pixels to rem for 40px"
+      ],
+      "b_messages": [
+        "what is 1.5rem in pixels",
+        "convert 2rem to px",
+        "how many pixels is 0.75rem",
+        "turn 3rem into px at 16 base",
+        "rem to pixels for 1.25rem"
+      ]
+    },
+    {
+      "a": "base64Decode",
+      "b": "base64Encode",
+      "a_messages": [
+        "decode this base64: UGlnZW9u",
+        "what does aGVsbG8gd29ybGQ= say",
+        "turn this base64 string back into text",
+        "un-encode SGk= for me",
+        "read this base64 blob as plain text"
+      ],
+      "b_messages": [
+        "base64 encode hello world",
+        "turn pigeon into base64",
+        "encode this string as base64",
+        "give me the base64 of this text",
+        "make a base64 version of my message"
+      ]
+    },
+    {
+      "a": "compareSemver",
+      "b": "parseSemver",
+      "a_messages": [
+        "which is newer, 2.11.5 or 2.9.0",
+        "is 1.0.0 later than 1.0.0-beta",
+        "compare 3.0.0-rc.1 with 3.0.0",
+        "does 10.0.0 come after 9.9.9",
+        "which version wins, 1.2.3 or 1.10.0"
+      ],
+      "b_messages": [
+        "break version 2.11.5 into its parts",
+        "parse v1.0.0-beta.2",
+        "what are the major minor and patch of 0.1.0",
+        "what are the fields of 5.0.2-alpha.1",
+        "read this semver string into fields"
+      ]
+    },
+    {
+      "a": "buildQueryString",
+      "b": "parseQueryString",
+      "a_messages": [
+        "make a query string from page=2 and sort=name",
+        "build the url parameters for these values",
+        "assemble a query string with a space in the value",
+        "turn these key value pairs into url query form",
+        "construct the bit after the question mark from this data"
+      ],
+      "b_messages": [
+        "parse this query string into its parameters",
+        "break down the params in this url",
+        "what are the keys and values in ?a=1&b=2",
+        "read the query part of this link as data",
+        "decode the parameters from this url"
+      ]
+    },
+    {
+      "a": "isoToUnix",
+      "b": "unixToIso",
+      "a_messages": [
+        "unix timestamp for 2026-01-01",
+        "epoch seconds for 2027-01-01T00:00:00Z",
+        "turn 2026-06-15 into a unix time",
+        "what is 2026-12-25 as seconds since 1970",
+        "convert this iso date to a timestamp"
+      ],
+      "b_messages": [
+        "what date is 1700000000",
+        "what calendar date is the timestamp 1735689600",
+        "convert this unix timestamp to iso",
+        "epoch 1600000000 as a date and time",
+        "read 1650000000 as a calendar date"
+      ]
+    },
+    {
+      "a": "morseDecode",
+      "b": "morseEncode",
+      "a_messages": [
+        "what does -.-. --.- say in letters",
+        "decode this morse: ... --- ...",
+        "read these dots and dashes as text",
+        "translate .--. .. --. from morse",
+        "turn this morse code back into words"
+      ],
+      "b_messages": [
+        "write hello in morse code",
+        "encode sos as dots and dashes",
+        "turn pigeon into morse",
+        "give me the morse for help",
+        "convert this sentence to morse code"
+      ]
+    },
+    {
+      "a": "groupBy",
+      "b": "sortRows",
+      "a_messages": [
+        "total the amounts for each region in this table",
+        "sum sales per department from these rows",
+        "count how many rows fall under each status",
+        "average the score for every team",
+        "group these rows by month and add up the totals"
+      ],
+      "b_messages": [
+        "order these rows by amount, biggest first",
+        "sort the table by name alphabetically",
+        "arrange these rows by date, oldest first",
+        "arrange these rows from most expensive to cheapest",
+        "sort by region and then by quarter"
+      ]
+    },
+    {
+      "a": "listTimezoneOffsets",
+      "b": "timezoneLookup",
+      "a_messages": [
+        "what time is it right now in paris, delhi and chicago",
+        "show the current time in london, tokyo and new york",
+        "list the clock times in these three zones",
+        "give me the local time across sydney, berlin and lima",
+        "current times in several cities at once"
+      ],
+      "b_messages": [
+        "how many hours from utc is wellington",
+        "which timezone is denver in",
+        "how far ahead of utc is tokyo",
+        "timezone for cape town",
+        "what offset does sao paulo use"
+      ]
+    }
+  ]
+}

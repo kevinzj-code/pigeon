@@ -1,0 +1,1972 @@
+{
+ "batch": "b04",
+ "categories": [
+  "data",
+  "generation"
+ ],
+ "skills": [
+  {
+   "name": "buildQueryString",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "buildQueryString \u2014 Assemble a ?key=value query string from named parameters.\n  needs: params: object\n  optional: baseUrl: string, sort: boolean\n  e.g. \"build a query string from these parameters\" \u2192 {\"params\":{\"name\":\"Ana\",\"age\":34}}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "params"
+    ],
+    "properties": {
+     "params": {
+      "type": "object",
+      "label": "parameters",
+      "prompt": "Which parameters should I build the query from?"
+     },
+     "baseUrl": {
+      "type": "string",
+      "label": "base url",
+      "description": "a URL to hang the query off"
+     },
+     "sort": {
+      "type": "boolean",
+      "label": "sort alphabetically",
+      "default": false,
+      "description": "put the parameters in alphabetical order"
+     }
+    }
+   },
+   "examples": [
+    "build a query string from these parameters",
+    "make a query string with a space in the value",
+    "build a query with a repeated parameter",
+    "add a search query to this url",
+    "build a query string in alphabetical order"
+   ]
+  },
+  {
+   "name": "columnMath",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "columnMath \u2014 Total, average, or find the smallest or largest value down one column of a table.\n  needs: table: object, column: string, operation: string\n  e.g. \"add up the amount column\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]},\"column\":\"amount\",\"operation\":\"sum\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "column",
+     "operation"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table?"
+     },
+     "column": {
+      "type": "string",
+      "label": "column",
+      "prompt": "Which column?"
+     },
+     "operation": {
+      "type": "string",
+      "label": "operation",
+      "enum": [
+       "sum",
+       "average",
+       "min",
+       "max",
+       "count"
+      ],
+      "prompt": "Sum, average, min, max or count?"
+     }
+    }
+   },
+   "examples": [
+    "add up the amount column",
+    "what is the average q1",
+    "highest value in the score column",
+    "sum a column with a blank cell in it",
+    "how many rows have a value in name"
+   ]
+  },
+  {
+   "name": "diffJson",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "diffJson \u2014 Compare two JSON documents and list the paths added, removed and changed.\n  needs: left: string, right: string\n  e.g. \"diff these two json documents\" \u2192 {\"left\":\"{\\\"name\\\":\\\"Ana\\\",\\\"age\\\":34}\",\"right\":\"{\\\"name\\\":\\\"Bea\\\",\\\"age\\\":34,\\\"city\\\":\\\"Leeds\\\"}\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "left",
+     "right"
+    ],
+    "properties": {
+     "left": {
+      "type": "string",
+      "label": "original json",
+      "minLength": 1,
+      "prompt": "Which JSON should I compare from?"
+     },
+     "right": {
+      "type": "string",
+      "label": "new json",
+      "minLength": 1,
+      "prompt": "Which JSON should I compare to?"
+     }
+    }
+   },
+   "examples": [
+    "diff these two json documents",
+    "compare two identical json objects",
+    "what was removed between these two versions",
+    "diff a nested config change",
+    "compare two lists of tags"
+   ]
+  },
+  {
+   "name": "filterRows",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "filterRows \u2014 Drop the rows of a table that fail a condition.\n  needs: table: object, column: string, operator: string, value: undefined\n  e.g. \"keep only rows where amount is over 100\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]},\"column\":\"amount\",\"operator\":\">\",\"value\":100}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "column",
+     "operator",
+     "value"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I filter?"
+     },
+     "column": {
+      "type": "string",
+      "label": "column",
+      "prompt": "Which column should I filter on?"
+     },
+     "operator": {
+      "type": "string",
+      "label": "comparison",
+      "enum": [
+       "=",
+       "!=",
+       ">",
+       ">=",
+       "<",
+       "<=",
+       "contains",
+       "starts with"
+      ],
+      "prompt": "Which comparison? (=, !=, >, >=, <, <=, contains, starts with)"
+     },
+     "value": {
+      "label": "compare to",
+      "prompt": "What should I compare it to?"
+     }
+    }
+   },
+   "examples": [
+    "keep only rows where amount is over 100",
+    "show me just the North region rows",
+    "filter to names containing \"an\"",
+    "drop everything at or below zero",
+    "filter where nothing matches"
+   ]
+  },
+  {
+   "name": "flattenJson",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "flattenJson \u2014 Squash nested JSON down to one level, every key a dot path.\n  needs: json: string\n  optional: separator: string, arrayIndices: boolean\n  e.g. \"flatten this json\" \u2192 {\"json\":\"{\\\"a\\\":{\\\"b\\\":1,\\\"c\\\":2}}\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "json"
+    ],
+    "properties": {
+     "json": {
+      "type": "string",
+      "label": "json",
+      "minLength": 1,
+      "prompt": "Which JSON should I flatten?"
+     },
+     "separator": {
+      "type": "string",
+      "label": "separator",
+      "default": ".",
+      "minLength": 1
+     },
+     "arrayIndices": {
+      "type": "boolean",
+      "label": "expand arrays",
+      "default": true,
+      "description": "expand array items into indexed paths"
+     }
+    }
+   },
+   "examples": [
+    "flatten this json",
+    "flatten a nested config",
+    "flatten json with an array",
+    "flatten deeply nested json",
+    "flatten already flat json"
+   ]
+  },
+  {
+   "name": "formatJson",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "formatJson \u2014 Tidy JSON into readable indented form, or squash it onto one line.\n  needs: text: string\n  optional: style: string, indent: integer, sortKeys: boolean\n  e.g. \"pretty print this json\" \u2192 {\"text\":\"{\\\"a\\\":1,\\\"b\\\":2}\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "json",
+      "minLength": 1,
+      "prompt": "Which JSON should I format?"
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "pretty",
+       "minified"
+      ],
+      "default": "pretty"
+     },
+     "indent": {
+      "type": "integer",
+      "label": "indent spaces",
+      "minimum": 0,
+      "maximum": 8,
+      "default": 2
+     },
+     "sortKeys": {
+      "type": "boolean",
+      "label": "sort keys",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "pretty print this json",
+    "minify this json",
+    "format with 4 space indent",
+    "tidy the json and sort the keys",
+    "pretty print a json array",
+    "tidy this json so a person can read it"
+   ]
+  },
+  {
+   "name": "getPath",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "getPath \u2014 Read one value out of a JSON document at a dotted path \u2014 pull settings.theme out of it.\n  needs: json: string, path: string\n  optional: separator: string\n  e.g. \"get user.name from this json\" \u2192 {\"json\":\"{\\\"user\\\":{\\\"name\\\":\\\"Ana\\\",\\\"age\\\":34}}\",\"path\":\"user.name\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "json",
+     "path"
+    ],
+    "properties": {
+     "json": {
+      "type": "string",
+      "label": "json",
+      "minLength": 1,
+      "prompt": "Which JSON should I look inside?"
+     },
+     "path": {
+      "type": "string",
+      "label": "path",
+      "minLength": 1,
+      "prompt": "Which path should I read?"
+     },
+     "separator": {
+      "type": "string",
+      "label": "separator",
+      "default": ".",
+      "minLength": 1
+     }
+    }
+   },
+   "examples": [
+    "get user.name from this json",
+    "read the second item sku",
+    "what is at a.b.c in this document",
+    "get the value at totals.2",
+    "look up config.ports in this json",
+    "read the value stored at settings.theme in this json",
+    "what is the value at order.total in this json"
+   ]
+  },
+  {
+   "name": "groupBy",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "groupBy \u2014 Total or average rows per category, grouped by a shared value.\n  needs: table: object, column: string\n  optional: aggregate: string, operation: string\n  e.g. \"group these rows by region and sum the amounts\" \u2192 {\"table\":{\"headers\":[\"region\",\"amount\"],\"rows\":[{\"region\":\"north\",\"amount\":120},{\"region\":\"south\",\"amount\":80},{\"region\":\"north\",\"amount\":200}]},\"column\":\"region\",\"aggregate\":\"amount\",\"operation\":\"sum\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "column"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I group?"
+     },
+     "column": {
+      "type": "string",
+      "label": "group by column",
+      "prompt": "Which column should I group by?"
+     },
+     "aggregate": {
+      "type": "string",
+      "label": "value column",
+      "description": "the column to aggregate \u2014 required for anything other than count"
+     },
+     "operation": {
+      "type": "string",
+      "label": "operation",
+      "enum": [
+       "count",
+       "sum",
+       "mean",
+       "min",
+       "max"
+      ],
+      "default": "count"
+     }
+    }
+   },
+   "examples": [
+    "group these rows by region and sum the amounts",
+    "count the rows in each category",
+    "average the score per team",
+    "find the highest price in each shop",
+    "group by status when every row is the same",
+    "sum the points for each team in this table",
+    "how many rows fall under each status"
+   ]
+  },
+  {
+   "name": "parseCsv",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "parseCsv \u2014 Read CSV text into rows and columns, detecting the header line.\n  needs: text: string\n  optional: delimiter: string, hasHeader: boolean\n  e.g. \"parse this csv: name,amount\nAna,120\nBo,80\" \u2192 {\"text\":\"name,amount\\nAna,120\\nBo,80\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "csv",
+      "minLength": 1,
+      "prompt": "Which CSV text should I read?"
+     },
+     "delimiter": {
+      "type": "string",
+      "label": "delimiter",
+      "enum": [
+       ",",
+       ";",
+       "\t",
+       "|"
+      ],
+      "default": ","
+     },
+     "hasHeader": {
+      "type": "boolean",
+      "label": "has header row",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "parse this csv: name,amount\nAna,120\nBo,80",
+    "read a csv with a quoted comma",
+    "parse semicolon separated data",
+    "parse csv without a header row",
+    "read three columns of sales data"
+   ]
+  },
+  {
+   "name": "parseKeyValue",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "parseKeyValue \u2014 Read key/value or INI-style settings text into structured data.\n  needs: text: string\n  optional: separator: string\n  e.g. \"parse these key value pairs\" \u2192 {\"text\":\"a=1\\nb=2\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which settings text should I read?"
+     },
+     "separator": {
+      "type": "string",
+      "label": "separator",
+      "description": "the character between key and value \u2014 = and : are both recognised by default"
+     }
+    }
+   },
+   "examples": [
+    "parse these key value pairs",
+    "read this config text",
+    "parse an ini file with sections",
+    "parse settings that have comments",
+    "parse a value containing an equals sign",
+    "read my .env lines as key and value pairs",
+    "read these settings lines as data"
+   ]
+  },
+  {
+   "name": "parseMarkdownTable",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "parseMarkdownTable \u2014 Read an existing markdown table back into rows of data.\n  needs: text: string\n  e.g. \"parse this markdown table\" \u2192 {\"text\":\"| name | age |\\n| --- | --- |\\n| Ana | 34 |\\n| Bo | 28 |\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "markdown table",
+      "minLength": 1,
+      "prompt": "Which Markdown table should I parse?"
+     }
+    }
+   },
+   "examples": [
+    "parse this markdown table",
+    "turn this markdown table into rows",
+    "read a table with alignment markers",
+    "parse a markdown table with no data rows",
+    "parse a table containing an escaped pipe"
+   ]
+  },
+  {
+   "name": "parseQueryString",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "parseQueryString \u2014 Break a link\u2019s ?key=value pairs apart and say what each holds.\n  needs: query: string\n  e.g. \"parse this query string\" \u2192 {\"query\":\"?name=Ana&age=34\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "query string",
+      "minLength": 1,
+      "prompt": "Which query string or URL?"
+     }
+    }
+   },
+   "examples": [
+    "parse this query string",
+    "break down the parameters in this url",
+    "parse a query with encoded values",
+    "parse a repeated parameter",
+    "parse a parameter with no value"
+   ]
+  },
+  {
+   "name": "pivotRows",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "pivotRows \u2014 Cross-tabulate one column against another into a grid of cells.\n  needs: table: object, rowColumn: string, columnColumn: string\n  optional: valueColumn: string, operation: string\n  e.g. \"pivot amount by region and quarter\" \u2192 {\"table\":{\"headers\":[\"region\",\"quarter\",\"amount\"],\"rows\":[{\"region\":\"north\",\"quarter\":\"Q1\",\"amount\":10},{\"region\":\"north\",\"quarter\":\"Q2\",\"amount\":20},{\"region\":\"south\",\"quarter\":\"Q1\",\"amount\":30}]},\"rowColumn\":\"region\",\"columnColumn\":\"quarter\",\"valueColumn\":\"amount\",\"operation\":\"sum\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "rowColumn",
+     "columnColumn"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I pivot?"
+     },
+     "rowColumn": {
+      "type": "string",
+      "label": "rows from column",
+      "prompt": "Which column should become the rows?"
+     },
+     "columnColumn": {
+      "type": "string",
+      "label": "columns from column",
+      "prompt": "Which column should become the columns?"
+     },
+     "valueColumn": {
+      "type": "string",
+      "label": "value column",
+      "description": "the column to aggregate - required for anything other than count"
+     },
+     "operation": {
+      "type": "string",
+      "label": "operation",
+      "enum": [
+       "sum",
+       "count",
+       "mean",
+       "min",
+       "max"
+      ],
+      "default": "sum"
+     }
+    }
+   },
+   "examples": [
+    "pivot amount by region and quarter",
+    "count rows by day and type",
+    "average sales by store and month",
+    "pivot a single measurement",
+    "highest points by team and round"
+   ]
+  },
+  {
+   "name": "selectColumns",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "selectColumns \u2014 Pick which columns of a table to keep, renaming them if you like.\n  needs: table: object, columns: array\n  optional: rename: array\n  e.g. \"keep only the name and amount columns\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\",\"note\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120,\"note\":\"x\"}]},\"columns\":[\"name\",\"amount\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "columns"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table?"
+     },
+     "columns": {
+      "type": "array",
+      "label": "columns to keep",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1,
+      "prompt": "Which columns should I keep?"
+     },
+     "rename": {
+      "type": "array",
+      "label": "new names",
+      "items": {
+       "type": "string"
+      },
+      "description": "a new name for each kept column, in the same order"
+     }
+    }
+   },
+   "examples": [
+    "keep only the name and amount columns",
+    "pick the region column and rename it to area",
+    "reorder the columns",
+    "keep every column",
+    "select two columns and rename both",
+    "drop every column except name and email"
+   ]
+  },
+  {
+   "name": "setPath",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "setPath \u2014 Change or add a value in a JSON document at a dotted path \u2014 update config.timeout to 30.\n  needs: json: string, path: string, value: string\n  optional: separator: string\n  e.g. \"set user.name to Bea in this json\" \u2192 {\"json\":\"{\\\"user\\\":{\\\"name\\\":\\\"Ana\\\"}}\",\"path\":\"user.name\",\"value\":\"Bea\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "json",
+     "path",
+     "value"
+    ],
+    "properties": {
+     "json": {
+      "type": "string",
+      "label": "json",
+      "minLength": 1,
+      "prompt": "Which JSON should I change?"
+     },
+     "path": {
+      "type": "string",
+      "label": "path",
+      "minLength": 1,
+      "prompt": "Which path should I set?"
+     },
+     "value": {
+      "type": "string",
+      "label": "new value",
+      "prompt": "What should I set it to?",
+      "description": "read as JSON when it parses as JSON, otherwise as plain text"
+     },
+     "separator": {
+      "type": "string",
+      "label": "separator",
+      "default": ".",
+      "minLength": 1
+     }
+    }
+   },
+   "examples": [
+    "set user.name to Bea in this json",
+    "change the port to 9000",
+    "add an email field to this json",
+    "set the first tag to urgent",
+    "set enabled to true",
+    "set the timeout under config to 30 in this json",
+    "update the theme to dark inside this document"
+   ]
+  },
+  {
+   "name": "sortObjectKeys",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "sortObjectKeys \u2014 Sort the keys of a JSON object alphabetically, all the way down.\n  needs: json: string\n  optional: direction: string, indent: integer\n  e.g. \"sort the keys in this json\" \u2192 {\"json\":\"{\\\"b\\\":2,\\\"a\\\":1}\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "json"
+    ],
+    "properties": {
+     "json": {
+      "type": "string",
+      "label": "json",
+      "minLength": 1,
+      "prompt": "Which JSON should I sort?"
+     },
+     "direction": {
+      "type": "string",
+      "label": "order",
+      "enum": [
+       "ascending",
+       "descending"
+      ],
+      "default": "ascending"
+     },
+     "indent": {
+      "type": "integer",
+      "label": "indent spaces",
+      "minimum": 0,
+      "maximum": 8,
+      "default": 2
+     }
+    }
+   },
+   "examples": [
+    "sort the keys in this json",
+    "alphabetise this config",
+    "sort nested keys too",
+    "sort keys in reverse",
+    "sort json whose keys are already in order",
+    "alphabetise the keys in this json object"
+   ]
+  },
+  {
+   "name": "sortRows",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "sortRows \u2014 Reorder the rows of a table by a column, changing nothing else.\n  needs: table: object, column: string\n  optional: direction: string, then: string\n  e.g. \"sort by amount, biggest first\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80},{\"name\":\"Cy\",\"amount\":200}]},\"column\":\"amount\",\"direction\":\"descending\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "column"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I sort?"
+     },
+     "column": {
+      "type": "string",
+      "label": "sort by column",
+      "prompt": "Which column should I sort by?"
+     },
+     "direction": {
+      "type": "string",
+      "label": "order",
+      "enum": [
+       "ascending",
+       "descending"
+      ],
+      "default": "ascending"
+     },
+     "then": {
+      "type": "string",
+      "label": "then by column",
+      "description": "a second column, used to break ties"
+     }
+    }
+   },
+   "examples": [
+    "sort by amount, biggest first",
+    "sort these names alphabetically",
+    "order by region then by q1",
+    "sort numbers smallest first",
+    "sort a single row table"
+   ]
+  },
+  {
+   "name": "toCsv",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "toCsv \u2014 Turn rows and columns back into CSV text, quoting anything that needs it.\n  needs: table: object\n  optional: delimiter: string, includeHeader: boolean\n  e.g. \"turn this table back into csv\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]}}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I write out?"
+     },
+     "delimiter": {
+      "type": "string",
+      "label": "delimiter",
+      "enum": [
+       ",",
+       ";",
+       "\t",
+       "|"
+      ],
+      "default": ","
+     },
+     "includeHeader": {
+      "type": "boolean",
+      "label": "include header row",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "turn this table back into csv",
+    "write this out as csv, quoting the comma",
+    "export as semicolon separated",
+    "csv without the header row",
+    "write a cell containing a quote mark"
+   ]
+  },
+  {
+   "name": "toMarkdownTable",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "toMarkdownTable \u2014 Draw rows and columns out as a markdown table, pipes and all.\n  needs: table: object\n  optional: align: string\n  e.g. \"make a markdown table from this data\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]}}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I format?"
+     },
+     "align": {
+      "type": "string",
+      "label": "alignment",
+      "enum": [
+       "left",
+       "right",
+       "centre"
+      ],
+      "default": "left"
+     }
+    }
+   },
+   "examples": [
+    "make a markdown table from this data",
+    "format as a right-aligned markdown table",
+    "turn one row into markdown",
+    "markdown table with a pipe in a cell",
+    "markdown table with an empty cell"
+   ]
+  },
+  {
+   "name": "transposeTable",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "transposeTable \u2014 Pivot a table on its side, so rows become columns.\n  needs: table: object\n  e.g. \"transpose this table\" \u2192 {\"table\":{\"headers\":[\"name\",\"q1\",\"q2\"],\"rows\":[{\"name\":\"Ana\",\"q1\":1,\"q2\":2},{\"name\":\"Bo\",\"q1\":3,\"q2\":4}]}}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I transpose?"
+     }
+    }
+   },
+   "examples": [
+    "transpose this table",
+    "swap the rows and columns",
+    "flip this table on its side",
+    "transpose a table with three records",
+    "turn columns into rows",
+    "flip this table so its columns become its rows"
+   ]
+  },
+  {
+   "name": "unflattenJson",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "unflattenJson \u2014 Rebuild deep nested JSON from keys that are already flat dot paths.\n  needs: json: string\n  optional: separator: string\n  e.g. \"unflatten this json\" \u2192 {\"json\":\"{\\\"a.b\\\":1,\\\"a.c\\\":2}\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "json"
+    ],
+    "properties": {
+     "json": {
+      "type": "string",
+      "label": "json",
+      "minLength": 1,
+      "prompt": "Which flat JSON should I rebuild?"
+     },
+     "separator": {
+      "type": "string",
+      "label": "separator",
+      "default": ".",
+      "minLength": 1
+     }
+    }
+   },
+   "examples": [
+    "unflatten this json",
+    "rebuild nested config from dotted keys",
+    "turn indexed paths back into an array",
+    "unflatten a deep path",
+    "unflatten keys that are already flat"
+   ]
+  },
+  {
+   "name": "flipCoin",
+   "category": "generation",
+   "needsNetwork": false,
+   "card": "flipCoin \u2014 Flip a coin for heads or tails, one flip or several, from a seed so it can be repeated.\n  needs: seed: integer\n  optional: count: integer\n  e.g. \"flip a coin with seed 1\" \u2192 {\"seed\":1}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "seed"
+    ],
+    "properties": {
+     "seed": {
+      "type": "integer",
+      "label": "repeatable seed",
+      "minimum": 0,
+      "prompt": "Which seed should I flip from? Any whole number \u2014 the same seed always gives the same flip."
+     },
+     "count": {
+      "type": "integer",
+      "label": "flips",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 1
+     }
+    }
+   },
+   "examples": [
+    "flip a coin with seed 1",
+    "flip a coin seed 7",
+    "flip 5 coins with seed 42",
+    "flip 10 coins seed 2026",
+    "coin toss with seed 100",
+    "heads or tails with seed 3",
+    "toss a coin for me, seed 12"
+   ]
+  },
+  {
+   "name": "generateCalendarGrid",
+   "category": "generation",
+   "needsNetwork": false,
+   "card": "generateCalendarGrid \u2014 Draw a month out as a printable calendar grid of weeks.\n  needs: year: integer, month: integer\n  optional: startOn: string\n  e.g. \"show me a calendar grid for September 2026\" \u2192 {\"year\":2026,\"month\":9}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "year",
+     "month"
+    ],
+    "properties": {
+     "year": {
+      "type": "integer",
+      "label": "year",
+      "minimum": 1,
+      "maximum": 9999,
+      "prompt": "Which year?"
+     },
+     "month": {
+      "type": "integer",
+      "label": "month",
+      "minimum": 1,
+      "maximum": 12,
+      "prompt": "Which month, as a number from 1 to 12?"
+     },
+     "startOn": {
+      "type": "string",
+      "label": "week starts on",
+      "enum": [
+       "Monday",
+       "Sunday"
+      ],
+      "default": "Monday"
+     }
+    }
+   },
+   "examples": [
+    "show me a calendar grid for September 2026",
+    "calendar for February 2026",
+    "month grid for February 2024",
+    "calendar starting on Sunday for September 2026",
+    "grid for January 2026",
+    "show february 2027 as a grid of weeks",
+    "lay out march 2027 week by week"
+   ]
+  },
+  {
+   "name": "generateChecklist",
+   "category": "generation",
+   "needsNetwork": false,
+   "card": "generateChecklist \u2014 Turn your own list into tick boxes \u2014 a markdown checklist.\n  needs: items: array\n  optional: title: string, numbered: boolean\n  e.g. \"make a checklist from these items\" \u2192 {\"items\":[\"passport\",\"charger\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "items",
+      "minItems": 1,
+      "maxItems": 200,
+      "items": {
+       "type": "string"
+      },
+      "prompt": "Which items should go on the checklist?"
+     },
+     "title": {
+      "type": "string",
+      "label": "heading",
+      "description": "a heading above the list"
+     },
+     "numbered": {
+      "type": "boolean",
+      "label": "numbered",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "make a checklist from these items",
+    "checklist with a heading",
+    "make a numbered checklist",
+    "turn one task into a checklist",
+    "checklist ignoring blank entries"
+   ]
+  },
+  {
+   "name": "generateSchedule",
+   "category": "generation",
+   "needsNetwork": false,
+   "card": "generateSchedule \u2014 Divide a stretch of time into even slots, with optional breaks between them.\n  needs: start: string, end: string\n  optional: slots: integer, slotMinutes: integer, breakMinutes: integer\n  e.g. \"split 9am to noon into three slots\" \u2192 {\"start\":\"09:00\",\"end\":\"12:00\",\"slots\":3}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "start",
+     "end"
+    ],
+    "properties": {
+     "start": {
+      "type": "string",
+      "label": "start time",
+      "prompt": "What time does it start?"
+     },
+     "end": {
+      "type": "string",
+      "label": "end time",
+      "prompt": "What time does it end?"
+     },
+     "slots": {
+      "type": "integer",
+      "label": "number of slots",
+      "minimum": 1,
+      "maximum": 100,
+      "description": "how many slots to divide the time into"
+     },
+     "slotMinutes": {
+      "type": "integer",
+      "label": "slot length (minutes)",
+      "minimum": 1,
+      "maximum": 1440,
+      "description": "how long each slot should be"
+     },
+     "breakMinutes": {
+      "type": "integer",
+      "label": "break (minutes)",
+      "minimum": 0,
+      "maximum": 240,
+      "default": 0
+     }
+    }
+   },
+   "examples": [
+    "split 9am to noon into three slots",
+    "ninety minute sessions from 9 to 5",
+    "three slots with fifteen minute breaks",
+    "twenty minute slots for an hour",
+    "one slot from 10 to half past"
+   ]
+  },
+  {
+   "name": "loremIpsum",
+   "category": "generation",
+   "needsNetwork": false,
+   "card": "loremIpsum \u2014 Generate meaningless placeholder filler to fill out a layout.\n  optional: paragraphs: integer, sentencesPerParagraph: integer, seed: integer, startWithLorem: boolean\n  e.g. \"generate some placeholder text\" \u2192 {}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "paragraphs": {
+      "type": "integer",
+      "label": "paragraphs",
+      "minimum": 1,
+      "maximum": 20,
+      "default": 1
+     },
+     "sentencesPerParagraph": {
+      "type": "integer",
+      "label": "sentences per paragraph",
+      "minimum": 1,
+      "maximum": 20,
+      "default": 4
+     },
+     "seed": {
+      "type": "integer",
+      "label": "repeatable seed",
+      "minimum": 0,
+      "maximum": 2147483647,
+      "default": 1
+     },
+     "startWithLorem": {
+      "type": "boolean",
+      "label": "start with lorem ipsum",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "generate some placeholder text",
+    "lorem ipsum with two paragraphs",
+    "filler text with a different seed",
+    "three short sentences of lorem",
+    "placeholder text without the lorem opening"
+   ]
+  },
+  {
+   "name": "randomNumber",
+   "category": "generation",
+   "needsNetwork": false,
+   "card": "randomNumber \u2014 Pick a random number in a range, from a seed so the same draw can be repeated.\n  needs: min: number, max: number, seed: integer\n  optional: count: integer, whole: boolean, unique: boolean\n  e.g. \"pick a number between 1 and 100 with seed 7\" \u2192 {\"min\":1,\"max\":100,\"seed\":7}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "min",
+     "max",
+     "seed"
+    ],
+    "properties": {
+     "min": {
+      "type": "number",
+      "label": "lowest",
+      "prompt": "What is the lowest it can be?"
+     },
+     "max": {
+      "type": "number",
+      "label": "highest",
+      "prompt": "What is the highest it can be?"
+     },
+     "seed": {
+      "type": "integer",
+      "label": "repeatable seed",
+      "minimum": 0,
+      "prompt": "Which seed? Any whole number \u2014 the same seed always gives the same numbers."
+     },
+     "count": {
+      "type": "integer",
+      "label": "how many",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 1
+     },
+     "whole": {
+      "type": "boolean",
+      "label": "whole numbers only",
+      "default": true
+     },
+     "unique": {
+      "type": "boolean",
+      "label": "no repeats",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "pick a number between 1 and 100 with seed 7",
+    "random number 1 to 6 seed 1",
+    "give me 5 numbers between 1 and 50, seed 42",
+    "six unique lottery numbers 1 to 49 seed 2026",
+    "a random decimal between 0 and 1, seed 3"
+   ]
+  },
+  {
+   "name": "rollDice",
+   "category": "generation",
+   "needsNetwork": false,
+   "card": "rollDice \u2014 Roll dice in standard notation like 2d6+3, from a seed so the same roll can be repeated.\n  needs: notation: string, seed: integer\n  e.g. \"roll 2d6 with seed 7\" \u2192 {\"notation\":\"2d6\",\"seed\":7}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "notation",
+     "seed"
+    ],
+    "properties": {
+     "notation": {
+      "type": "string",
+      "label": "dice",
+      "pattern": "^\\d{0,3}[dD]\\d{1,4}([+-]\\d{1,4})?$",
+      "prompt": "What should I roll? (like 2d6 or 1d20+3)",
+      "description": "dice notation like 2d6+3"
+     },
+     "seed": {
+      "type": "integer",
+      "label": "repeatable seed",
+      "minimum": 0,
+      "prompt": "Which seed should I roll from? Any whole number \u2014 the same seed always gives the same roll."
+     }
+    }
+   },
+   "examples": [
+    "roll 2d6 with seed 7",
+    "roll a d20 with seed 1",
+    "roll 3d8+2 seed 42",
+    "roll 4d4 with seed 100",
+    "roll 1d100 seed 2026"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "buildQueryString",
+    "parseQueryString"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "buildQueryString \u2014 Assemble a ?key=value query string from named parameters.\n  needs: params: object\n  optional: baseUrl: string, sort: boolean\n  e.g. \"build a query string from these parameters\" \u2192 {\"params\":{\"name\":\"Ana\",\"age\":34}}",
+    "parseQueryString \u2014 Break a link\u2019s ?key=value pairs apart and say what each holds.\n  needs: query: string\n  e.g. \"parse this query string\" \u2192 {\"query\":\"?name=Ana&age=34\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "params"
+     ],
+     "properties": {
+      "params": {
+       "type": "object",
+       "label": "parameters",
+       "prompt": "Which parameters should I build the query from?"
+      },
+      "baseUrl": {
+       "type": "string",
+       "label": "base url",
+       "description": "a URL to hang the query off"
+      },
+      "sort": {
+       "type": "boolean",
+       "label": "sort alphabetically",
+       "default": false,
+       "description": "put the parameters in alphabetical order"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "query string",
+       "minLength": 1,
+       "prompt": "Which query string or URL?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "diffJson",
+    "diffText"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "diffJson \u2014 Compare two JSON documents and list the paths added, removed and changed.\n  needs: left: string, right: string\n  e.g. \"diff these two json documents\" \u2192 {\"left\":\"{\\\"name\\\":\\\"Ana\\\",\\\"age\\\":34}\",\"right\":\"{\\\"name\\\":\\\"Bea\\\",\\\"age\\\":34,\\\"city\\\":\\\"Leeds\\\"}\"}",
+    "diffText \u2014 Compare two versions of a text and show what was added and removed, by line or by word.\n  needs: before: string, after: string\n  optional: by: string\n  e.g. \"show me the line by line changes\" \u2192 {\"before\":\"apple\\nbanana\\ncherry\",\"after\":\"apple\\nblueberry\\ncherry\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "left",
+      "right"
+     ],
+     "properties": {
+      "left": {
+       "type": "string",
+       "label": "original json",
+       "minLength": 1,
+       "prompt": "Which JSON should I compare from?"
+      },
+      "right": {
+       "type": "string",
+       "label": "new json",
+       "minLength": 1,
+       "prompt": "Which JSON should I compare to?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "before",
+      "after"
+     ],
+     "properties": {
+      "before": {
+       "type": "string",
+       "label": "original text",
+       "prompt": "What is the original text?"
+      },
+      "after": {
+       "type": "string",
+       "label": "new text",
+       "prompt": "What is the new text?"
+      },
+      "by": {
+       "type": "string",
+       "label": "compare by",
+       "enum": [
+        "line",
+        "word"
+       ],
+       "default": "line"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "filterRows",
+    "sortRows"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "filterRows \u2014 Drop the rows of a table that fail a condition.\n  needs: table: object, column: string, operator: string, value: undefined\n  e.g. \"keep only rows where amount is over 100\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]},\"column\":\"amount\",\"operator\":\">\",\"value\":100}",
+    "sortRows \u2014 Reorder the rows of a table by a column, changing nothing else.\n  needs: table: object, column: string\n  optional: direction: string, then: string\n  e.g. \"sort by amount, biggest first\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80},{\"name\":\"Cy\",\"amount\":200}]},\"column\":\"amount\",\"direction\":\"descending\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "table",
+      "column",
+      "operator",
+      "value"
+     ],
+     "properties": {
+      "table": {
+       "type": "object",
+       "label": "table",
+       "prompt": "Which table should I filter?"
+      },
+      "column": {
+       "type": "string",
+       "label": "column",
+       "prompt": "Which column should I filter on?"
+      },
+      "operator": {
+       "type": "string",
+       "label": "comparison",
+       "enum": [
+        "=",
+        "!=",
+        ">",
+        ">=",
+        "<",
+        "<=",
+        "contains",
+        "starts with"
+       ],
+       "prompt": "Which comparison? (=, !=, >, >=, <, <=, contains, starts with)"
+      },
+      "value": {
+       "label": "compare to",
+       "prompt": "What should I compare it to?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "table",
+      "column"
+     ],
+     "properties": {
+      "table": {
+       "type": "object",
+       "label": "table",
+       "prompt": "Which table should I sort?"
+      },
+      "column": {
+       "type": "string",
+       "label": "sort by column",
+       "prompt": "Which column should I sort by?"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "then": {
+       "type": "string",
+       "label": "then by column",
+       "description": "a second column, used to break ties"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "flattenJson",
+    "unflattenJson"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "flattenJson \u2014 Squash nested JSON down to one level, every key a dot path.\n  needs: json: string\n  optional: separator: string, arrayIndices: boolean\n  e.g. \"flatten this json\" \u2192 {\"json\":\"{\\\"a\\\":{\\\"b\\\":1,\\\"c\\\":2}}\"}",
+    "unflattenJson \u2014 Rebuild deep nested JSON from keys that are already flat dot paths.\n  needs: json: string\n  optional: separator: string\n  e.g. \"unflatten this json\" \u2192 {\"json\":\"{\\\"a.b\\\":1,\\\"a.c\\\":2}\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "json"
+     ],
+     "properties": {
+      "json": {
+       "type": "string",
+       "label": "json",
+       "minLength": 1,
+       "prompt": "Which JSON should I flatten?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "default": ".",
+       "minLength": 1
+      },
+      "arrayIndices": {
+       "type": "boolean",
+       "label": "expand arrays",
+       "default": true,
+       "description": "expand array items into indexed paths"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "json"
+     ],
+     "properties": {
+      "json": {
+       "type": "string",
+       "label": "json",
+       "minLength": 1,
+       "prompt": "Which flat JSON should I rebuild?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "default": ".",
+       "minLength": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateSchedule",
+    "timeBlockSchedule"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "generateSchedule \u2014 Divide a stretch of time into even slots, with optional breaks between them.\n  needs: start: string, end: string\n  optional: slots: integer, slotMinutes: integer, breakMinutes: integer\n  e.g. \"split 9am to noon into three slots\" \u2192 {\"start\":\"09:00\",\"end\":\"12:00\",\"slots\":3}",
+    "timeBlockSchedule \u2014 Lay tasks out as time blocks through the day, with breaks between them.\n  needs: tasks: array, start: string\n  optional: breakMinutes: integer\n  e.g. \"block out my morning\" \u2192 {\"tasks\":[{\"task\":\"writing\",\"minutes\":90},{\"task\":\"email\",\"minutes\":30},{\"task\":\"review\",\"minutes\":60}],\"start\":\"09:00\",\"breakMinutes\":15}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "start",
+      "end"
+     ],
+     "properties": {
+      "start": {
+       "type": "string",
+       "label": "start time",
+       "prompt": "What time does it start?"
+      },
+      "end": {
+       "type": "string",
+       "label": "end time",
+       "prompt": "What time does it end?"
+      },
+      "slots": {
+       "type": "integer",
+       "label": "number of slots",
+       "minimum": 1,
+       "maximum": 100,
+       "description": "how many slots to divide the time into"
+      },
+      "slotMinutes": {
+       "type": "integer",
+       "label": "slot length (minutes)",
+       "minimum": 1,
+       "maximum": 1440,
+       "description": "how long each slot should be"
+      },
+      "breakMinutes": {
+       "type": "integer",
+       "label": "break (minutes)",
+       "minimum": 0,
+       "maximum": 240,
+       "default": 0
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "tasks",
+      "start"
+     ],
+     "properties": {
+      "tasks": {
+       "type": "array",
+       "label": "tasks",
+       "minItems": 1,
+       "maxItems": 50,
+       "prompt": "Which tasks, and how long does each take?"
+      },
+      "start": {
+       "type": "string",
+       "label": "start time",
+       "prompt": "What time do you start?"
+      },
+      "breakMinutes": {
+       "type": "integer",
+       "label": "break (minutes)",
+       "minimum": 0,
+       "maximum": 240,
+       "default": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "getPath",
+    "setPath"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "getPath \u2014 Read one value out of a JSON document at a dotted path \u2014 pull settings.theme out of it.\n  needs: json: string, path: string\n  optional: separator: string\n  e.g. \"get user.name from this json\" \u2192 {\"json\":\"{\\\"user\\\":{\\\"name\\\":\\\"Ana\\\",\\\"age\\\":34}}\",\"path\":\"user.name\"}",
+    "setPath \u2014 Change or add a value in a JSON document at a dotted path \u2014 update config.timeout to 30.\n  needs: json: string, path: string, value: string\n  optional: separator: string\n  e.g. \"set user.name to Bea in this json\" \u2192 {\"json\":\"{\\\"user\\\":{\\\"name\\\":\\\"Ana\\\"}}\",\"path\":\"user.name\",\"value\":\"Bea\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "json",
+      "path"
+     ],
+     "properties": {
+      "json": {
+       "type": "string",
+       "label": "json",
+       "minLength": 1,
+       "prompt": "Which JSON should I look inside?"
+      },
+      "path": {
+       "type": "string",
+       "label": "path",
+       "minLength": 1,
+       "prompt": "Which path should I read?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "default": ".",
+       "minLength": 1
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "json",
+      "path",
+      "value"
+     ],
+     "properties": {
+      "json": {
+       "type": "string",
+       "label": "json",
+       "minLength": 1,
+       "prompt": "Which JSON should I change?"
+      },
+      "path": {
+       "type": "string",
+       "label": "path",
+       "minLength": 1,
+       "prompt": "Which path should I set?"
+      },
+      "value": {
+       "type": "string",
+       "label": "new value",
+       "prompt": "What should I set it to?",
+       "description": "read as JSON when it parses as JSON, otherwise as plain text"
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "default": ".",
+       "minLength": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseCsv",
+    "parseMarkdownTable"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "parseCsv \u2014 Read CSV text into rows and columns, detecting the header line.\n  needs: text: string\n  optional: delimiter: string, hasHeader: boolean\n  e.g. \"parse this csv: name,amount\nAna,120\nBo,80\" \u2192 {\"text\":\"name,amount\\nAna,120\\nBo,80\"}",
+    "parseMarkdownTable \u2014 Read an existing markdown table back into rows of data.\n  needs: text: string\n  e.g. \"parse this markdown table\" \u2192 {\"text\":\"| name | age |\\n| --- | --- |\\n| Ana | 34 |\\n| Bo | 28 |\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "csv",
+       "minLength": 1,
+       "prompt": "Which CSV text should I read?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "delimiter",
+       "enum": [
+        ",",
+        ";",
+        "\t",
+        "|"
+       ],
+       "default": ","
+      },
+      "hasHeader": {
+       "type": "boolean",
+       "label": "has header row",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "markdown table",
+       "minLength": 1,
+       "prompt": "Which Markdown table should I parse?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseKeyValue",
+    "parseMarkdownTable"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "parseKeyValue \u2014 Read key/value or INI-style settings text into structured data.\n  needs: text: string\n  optional: separator: string\n  e.g. \"parse these key value pairs\" \u2192 {\"text\":\"a=1\\nb=2\"}",
+    "parseMarkdownTable \u2014 Read an existing markdown table back into rows of data.\n  needs: text: string\n  e.g. \"parse this markdown table\" \u2192 {\"text\":\"| name | age |\\n| --- | --- |\\n| Ana | 34 |\\n| Bo | 28 |\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which settings text should I read?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "description": "the character between key and value \u2014 = and : are both recognised by default"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "markdown table",
+       "minLength": 1,
+       "prompt": "Which Markdown table should I parse?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseKeyValue",
+    "validateJson"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "parseKeyValue \u2014 Read key/value or INI-style settings text into structured data.\n  needs: text: string\n  optional: separator: string\n  e.g. \"parse these key value pairs\" \u2192 {\"text\":\"a=1\\nb=2\"}",
+    "validateJson \u2014 Check whether some JSON parses, and say exactly where the error is if it does not.\n  needs: text: string\n  e.g. \"is this json valid: {\"a\":1}\" \u2192 {\"text\":\"{\\\"a\\\":1}\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which settings text should I read?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "description": "the character between key and value \u2014 = and : are both recognised by default"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "json",
+       "minLength": 1,
+       "prompt": "Which JSON should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseMarkdownTable",
+    "toMarkdownTable"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)",
+    "cards"
+   ],
+   "cards": [
+    "parseMarkdownTable \u2014 Read an existing markdown table back into rows of data.\n  needs: text: string\n  e.g. \"parse this markdown table\" \u2192 {\"text\":\"| name | age |\\n| --- | --- |\\n| Ana | 34 |\\n| Bo | 28 |\"}",
+    "toMarkdownTable \u2014 Draw rows and columns out as a markdown table, pipes and all.\n  needs: table: object\n  optional: align: string\n  e.g. \"make a markdown table from this data\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]}}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "markdown table",
+       "minLength": 1,
+       "prompt": "Which Markdown table should I parse?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "table"
+     ],
+     "properties": {
+      "table": {
+       "type": "object",
+       "label": "table",
+       "prompt": "Which table should I format?"
+      },
+      "align": {
+       "type": "string",
+       "label": "alignment",
+       "enum": [
+        "left",
+        "right",
+        "centre"
+       ],
+       "default": "left"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseMarkdownTable",
+    "transposeTable"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "parseMarkdownTable \u2014 Read an existing markdown table back into rows of data.\n  needs: text: string\n  e.g. \"parse this markdown table\" \u2192 {\"text\":\"| name | age |\\n| --- | --- |\\n| Ana | 34 |\\n| Bo | 28 |\"}",
+    "transposeTable \u2014 Pivot a table on its side, so rows become columns.\n  needs: table: object\n  e.g. \"transpose this table\" \u2192 {\"table\":{\"headers\":[\"name\",\"q1\",\"q2\"],\"rows\":[{\"name\":\"Ana\",\"q1\":1,\"q2\":2},{\"name\":\"Bo\",\"q1\":3,\"q2\":4}]}}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "markdown table",
+       "minLength": 1,
+       "prompt": "Which Markdown table should I parse?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "table"
+     ],
+     "properties": {
+      "table": {
+       "type": "object",
+       "label": "table",
+       "prompt": "Which table should I transpose?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseQueryString",
+    "urlEncode"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "parseQueryString \u2014 Break a link\u2019s ?key=value pairs apart and say what each holds.\n  needs: query: string\n  e.g. \"parse this query string\" \u2192 {\"query\":\"?name=Ana&age=34\"}",
+    "urlEncode \u2014 Percent-escape text so it survives inside a web address.\n  needs: text: string\n  optional: scope: string\n  e.g. \"url encode \"hello world\"\" \u2192 {\"text\":\"hello world\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "query string",
+       "minLength": 1,
+       "prompt": "Which query string or URL?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I encode?"
+      },
+      "scope": {
+       "type": "string",
+       "label": "whole url or part",
+       "enum": [
+        "component",
+        "full"
+       ],
+       "default": "component"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "toMarkdownTable",
+    "transposeTable"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "toMarkdownTable \u2014 Draw rows and columns out as a markdown table, pipes and all.\n  needs: table: object\n  optional: align: string\n  e.g. \"make a markdown table from this data\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]}}",
+    "transposeTable \u2014 Pivot a table on its side, so rows become columns.\n  needs: table: object\n  e.g. \"transpose this table\" \u2192 {\"table\":{\"headers\":[\"name\",\"q1\",\"q2\"],\"rows\":[{\"name\":\"Ana\",\"q1\":1,\"q2\":2},{\"name\":\"Bo\",\"q1\":3,\"q2\":4}]}}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "table"
+     ],
+     "properties": {
+      "table": {
+       "type": "object",
+       "label": "table",
+       "prompt": "Which table should I format?"
+      },
+      "align": {
+       "type": "string",
+       "label": "alignment",
+       "enum": [
+        "left",
+        "right",
+        "centre"
+       ],
+       "default": "left"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "table"
+     ],
+     "properties": {
+      "table": {
+       "type": "object",
+       "label": "table",
+       "prompt": "Which table should I transpose?"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

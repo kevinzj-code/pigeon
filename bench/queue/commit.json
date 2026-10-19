@@ -1,0 +1,13 @@
+{
+  "id": "commit",
+  "hypothesis": "rule 2 'a correct and common answer' invites declines; the commit prompt was never measured with runway-auto, second look and the audit",
+  "flags": [],
+  "prompt": "commit",
+  "needs": [
+    "planner",
+    "category"
+  ],
+  "rule": "correct >= control.correct + 4 and leaks <= control.leaks",
+  "reads": null,
+  "added": "2026-09-08"
+}

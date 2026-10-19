@@ -1,0 +1,6 @@
+{
+ "reviewer": "Pigeon dev, for Kevin, 2026-10-12: all 616 pairs read",
+ "strike": [
+  { "batch": "l04", "skill": "applyTax", "no": "my 96 quid bill already includes 20% vat, which still stings", "why": "every figure the YES needs is in the NO; typed into Pigeon it can fairly be read as asking how much of the 96 is VAT" }
+ ]
+}

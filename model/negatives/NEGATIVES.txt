@@ -1,0 +1,6 @@
+targeted negatives for the category adapter — a skill's vocabulary used as ordinary English
+teacher http://127.0.0.1:8110, 2 per skill over 308 skills
+512 kept
+dropped: 33 were real requests, 1 too alike, 0 too close to a holdout, 16 duplicates
+holdouts enforced: the 100 no-skill bench messages AND the 308 real questions
+built 2026-09-10 by scripts/negativesdata.mjs

@@ -1,0 +1,2028 @@
+{
+ "batch": "b07",
+ "categories": [
+  "conversion",
+  "finance",
+  "health"
+ ],
+ "skills": [
+  {
+   "name": "convertAngle",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertAngle \u2014 Convert an angle \u2014 degrees, radians, gradians, turns, arcminutes, arcseconds.\n  needs: amount: number, from: string, to: string\n  e.g. \"convert 180 degrees to radians\" \u2192 {\"amount\":180,\"from\":\"degrees\",\"to\":\"radians\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "angle"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "convert 180 degrees to radians",
+    "how many degrees is 1 radian",
+    "90 degrees in gradians",
+    "one full turn in degrees",
+    "convert 30 degrees to arcminutes"
+   ]
+  },
+  {
+   "name": "convertArea",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertArea \u2014 Convert an area \u2014 square metres, square feet, hectares, acres, square miles.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many square feet is 85 square metres\" \u2192 {\"amount\":85,\"from\":\"m2\",\"to\":\"ft2\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "area"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "how many square feet is 85 square metres",
+    "convert 2 acres to hectares",
+    "1 hectare in square metres",
+    "how big is 500 sq ft in square metres",
+    "convert 3 square miles to square kilometres"
+   ]
+  },
+  {
+   "name": "convertBase",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertBase \u2014 Write a number in another base \u2014 200 in base 7, 255 as hex, or 1011 back from binary. Any radix from 2 to 36.\n  needs: value: string, fromBase: integer, toBase: integer\n  e.g. \"convert 255 to hexadecimal\" \u2192 {\"value\":\"255\",\"fromBase\":10,\"toBase\":16}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value",
+     "fromBase",
+     "toBase"
+    ],
+    "properties": {
+     "value": {
+      "type": "string",
+      "label": "number",
+      "minLength": 1,
+      "prompt": "Which number should I convert?"
+     },
+     "fromBase": {
+      "type": "integer",
+      "label": "from base",
+      "minimum": 2,
+      "maximum": 36,
+      "prompt": "What base is it in? (2 for binary, 16 for hex)"
+     },
+     "toBase": {
+      "type": "integer",
+      "label": "to base",
+      "minimum": 2,
+      "maximum": 36,
+      "prompt": "Which base should I convert to?"
+     }
+    }
+   },
+   "examples": [
+    "convert 255 to hexadecimal",
+    "what is binary 11111111 in decimal",
+    "convert hex 1A4 to decimal",
+    "write 100 in binary",
+    "convert 777 octal to hex"
+   ]
+  },
+  {
+   "name": "convertDataSize",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertDataSize \u2014 Convert a file or storage size \u2014 bytes, kB, MB, GB, TB, and the binary KiB, MiB, GiB.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many GiB is 500 GB\" \u2192 {\"amount\":500,\"from\":\"GB\",\"to\":\"GiB\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "data size"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "how many GiB is 500 GB",
+    "convert 1.5 GB to MB",
+    "4096 bytes in KiB",
+    "how big is 2 TB in GB",
+    "8 megabytes in bits"
+   ]
+  },
+  {
+   "name": "convertFuelEconomy",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertFuelEconomy \u2014 Convert fuel economy between litres per 100km, miles per gallon and kilometres per litre.\n  needs: amount: number, from: string, to: string\n  e.g. \"convert 30 mpg to litres per 100km\" \u2192 {\"amount\":30,\"from\":\"mpg\",\"to\":\"l/100km\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "label": "fuel economy",
+      "carry": true,
+      "minimum": 0.01,
+      "prompt": "What is the fuel economy figure?"
+     },
+     "from": {
+      "type": "string",
+      "label": "from unit",
+      "prompt": "Which unit is it in?"
+     },
+     "to": {
+      "type": "string",
+      "label": "to unit",
+      "prompt": "Which unit should I convert it to?"
+     }
+    }
+   },
+   "examples": [
+    "convert 30 mpg to litres per 100km",
+    "what is 7.5 l/100km in mpg",
+    "convert 40 imperial mpg to l per 100km",
+    "8 km per litre in l/100km",
+    "how many uk mpg is 5 litres per 100km"
+   ]
+  },
+  {
+   "name": "convertLength",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertLength \u2014 Convert a distance or length \u2014 millimetres, centimetres, metres, kilometres, inches, feet, yards, miles.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many km is 26.2 miles\" \u2192 {\"amount\":26.2,\"from\":\"miles\",\"to\":\"km\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "length"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "how many km is 26.2 miles",
+    "convert 6 feet to cm",
+    "what is 100 metres in yards",
+    "12 inches in mm",
+    "how far is 5 km in miles"
+   ]
+  },
+  {
+   "name": "convertMass",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertMass \u2014 Convert a weight or mass \u2014 grams, kilograms, tonnes, ounces, pounds, stone.\n  needs: amount: number, from: string, to: string\n  e.g. \"what is 70 kg in stone\" \u2192 {\"amount\":70,\"from\":\"kg\",\"to\":\"stone\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "weight"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "what is 70 kg in stone",
+    "convert 500 grams to ounces",
+    "how many kg is 165 pounds",
+    "2 tonnes in kg",
+    "8 oz of flour in grams"
+   ]
+  },
+  {
+   "name": "convertRomanNumeral",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertRomanNumeral \u2014 Convert a number to Roman numerals, or read Roman numerals back as a number.\n  needs: value: string\n  e.g. \"what is 2026 in roman numerals\" \u2192 {\"value\":\"2026\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value"
+    ],
+    "properties": {
+     "value": {
+      "type": "string",
+      "label": "number or numeral",
+      "minLength": 1,
+      "prompt": "Which number or numeral? (e.g. 2026 or MMXXVI)"
+     }
+    }
+   },
+   "examples": [
+    "what is 2026 in roman numerals",
+    "read MCMLXXXIV",
+    "roman numeral for 4",
+    "what number is XLII",
+    "write 3999 as roman numerals"
+   ]
+  },
+  {
+   "name": "convertSpeed",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertSpeed \u2014 Convert a speed \u2014 miles per hour, kilometres per hour, metres per second, knots.\n  needs: amount: number, from: string, to: string\n  e.g. \"100 km/h in mph\" \u2192 {\"amount\":100,\"from\":\"km/h\",\"to\":\"mph\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "speed"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "100 km/h in mph",
+    "convert 70 mph to kph",
+    "how fast is 20 knots in km/h",
+    "9.58 seconds over 100m \u2014 what is 10.44 m/s in mph",
+    "convert 5 m/s to km/h"
+   ]
+  },
+  {
+   "name": "convertTemperature",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertTemperature \u2014 Convert a temperature between Celsius, Fahrenheit and Kelvin.\n  needs: amount: number, from: string, to: string\n  e.g. \"convert 180 celsius to fahrenheit\" \u2192 {\"amount\":180,\"from\":\"celsius\",\"to\":\"fahrenheit\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "temperature"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "convert 180 celsius to fahrenheit",
+    "what is 98.6 F in celsius",
+    "gas mark oven 200C in fahrenheit",
+    "0 kelvin in celsius",
+    "how cold is -40 fahrenheit in celsius"
+   ]
+  },
+  {
+   "name": "convertTime",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertTime \u2014 Convert a length of time between units \u2014 how long 210 minutes runs to in hours.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many hours is 5400 seconds\" \u2192 {\"amount\":5400,\"from\":\"s\",\"to\":\"h\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "duration"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "how many hours is 5400 seconds",
+    "convert 3 days to hours",
+    "90 minutes in seconds",
+    "how many weeks is 100 days",
+    "2.5 hours in minutes",
+    "a 210 minute film is how many hours",
+    "how long is 3 hours in minutes"
+   ]
+  },
+  {
+   "name": "convertVolume",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertVolume \u2014 Convert a volume \u2014 millilitres, litres, teaspoons, tablespoons, cups, pints, quarts, gallons.\n  needs: amount: number, from: string, to: string\n  e.g. \"2 cups in ml\" \u2192 {\"amount\":2,\"from\":\"cups\",\"to\":\"ml\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "volume"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "2 cups in ml",
+    "how many tablespoons in 100 ml",
+    "convert 1 gallon to litres",
+    "a pint in ml",
+    "3 teaspoons in tablespoons"
+   ]
+  },
+  {
+   "name": "numberToWords",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "numberToWords \u2014 Spell a number out in English words, the way it is said aloud or written on a cheque.\n  needs: value: number\n  optional: style: string, currency: string\n  e.g. \"write 1234 in words\" \u2192 {\"value\":1234}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value"
+    ],
+    "properties": {
+     "value": {
+      "type": "number",
+      "label": "number",
+      "carry": true,
+      "prompt": "Which number should I write out?"
+     },
+     "style": {
+      "type": "string",
+      "label": "plain or money",
+      "enum": [
+       "plain",
+       "currency"
+      ],
+      "default": "plain"
+     },
+     "currency": {
+      "type": "string",
+      "label": "currency name",
+      "default": "pounds"
+     }
+    }
+   },
+   "examples": [
+    "write 1234 in words",
+    "spell out 42",
+    "write 1000000 in words",
+    "write 105.50 as words for a cheque",
+    "spell out negative 17"
+   ]
+  },
+  {
+   "name": "amortizeLoan",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "amortizeLoan \u2014 Work out the monthly payment and total interest on a loan.\n  needs: principal: number, annualRate: number, months: integer\n  e.g. \"monthly payment on a 200000 mortgage at 5 percent over 30 years\" \u2192 {\"principal\":200000,\"annualRate\":5,\"months\":360}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "principal",
+     "annualRate",
+     "months"
+    ],
+    "properties": {
+     "principal": {
+      "type": "number",
+      "label": "loan amount",
+      "carry": true,
+      "minimum": 0.01,
+      "prompt": "How much is borrowed?"
+     },
+     "annualRate": {
+      "type": "number",
+      "label": "annual rate %",
+      "minimum": 0,
+      "maximum": 100,
+      "prompt": "What is the annual interest rate, as a percentage?"
+     },
+     "months": {
+      "type": "integer",
+      "label": "term (months)",
+      "minimum": 1,
+      "maximum": 1200,
+      "prompt": "Over how many months?"
+     }
+    }
+   },
+   "examples": [
+    "monthly payment on a 200000 mortgage at 5 percent over 30 years",
+    "repayments on a 15000 car loan at 7.5% over 5 years",
+    "amortise 100000 at 3.25 percent over 20 years",
+    "interest free loan of 1200 over 12 months",
+    "monthly cost of borrowing 5000 at 10% for 24 months"
+   ]
+  },
+  {
+   "name": "applyDiscount",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "applyDiscount \u2014 Take a single percentage or amount off one price and show what you save.\n  needs: price: number\n  optional: percent: number, amount: number\n  e.g. \"25% off a 80 jacket\" \u2192 {\"price\":80,\"percent\":25}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "price"
+    ],
+    "properties": {
+     "price": {
+      "type": "number",
+      "label": "price",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "What is the original price?"
+     },
+     "percent": {
+      "type": "number",
+      "label": "discount %",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "a percentage off"
+     },
+     "amount": {
+      "type": "number",
+      "label": "amount off",
+      "minimum": 0,
+      "description": "a fixed amount off"
+     }
+    }
+   },
+   "examples": [
+    "25% off a 80 jacket",
+    "take a tenner off 45.50",
+    "what is 15 percent off 19.99",
+    "half price on 120",
+    "a 30 discount on a 25 item",
+    "reduce a 60 price by 15 percent",
+    "knock 20 percent off 149"
+   ]
+  },
+  {
+   "name": "applyTax",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "applyTax \u2014 Add tax to a price, or work backwards from a price that already includes it, at a rate you supply.\n  needs: amount: number, rate: number\n  optional: amountIncludesTax: boolean\n  e.g. \"add 20% vat to 250\" \u2192 {\"amount\":250,\"rate\":20}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "rate"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "label": "amount",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "What is the amount?"
+     },
+     "rate": {
+      "type": "number",
+      "label": "tax rate %",
+      "minimum": 0,
+      "maximum": 100,
+      "prompt": "What tax rate, as a percentage?"
+     },
+     "amountIncludesTax": {
+      "type": "boolean",
+      "label": "already includes tax",
+      "default": false,
+      "description": "the amount given is the gross, work backwards"
+     }
+    }
+   },
+   "examples": [
+    "add 20% vat to 250",
+    "what is the vat included in 300 at 20%",
+    "add 8.875% sales tax to 49.99",
+    "how much of my 1200 invoice is 5% tax",
+    "add zero rated tax to 80"
+   ]
+  },
+  {
+   "name": "compoundInterest",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "compoundInterest \u2014 Grow a sum year on year, with each year\u2019s interest earning interest too.\n  needs: principal: number, rate: number, years: number\n  optional: frequency: string, contribution: number\n  e.g. \"what does 1000 grow to at 5% for 10 years\" \u2192 {\"principal\":1000,\"rate\":5,\"years\":10}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "principal",
+     "rate",
+     "years"
+    ],
+    "properties": {
+     "principal": {
+      "type": "number",
+      "label": "starting amount",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "How much is the starting amount?"
+     },
+     "rate": {
+      "type": "number",
+      "label": "annual rate %",
+      "minimum": 0,
+      "prompt": "What annual interest rate, as a percentage?"
+     },
+     "years": {
+      "type": "number",
+      "label": "years",
+      "exclusiveMinimum": 0,
+      "prompt": "Over how many years?"
+     },
+     "frequency": {
+      "type": "string",
+      "label": "compounding",
+      "enum": [
+       "annually",
+       "semi-annually",
+       "quarterly",
+       "monthly",
+       "weekly",
+       "daily"
+      ],
+      "default": "annually"
+     },
+     "contribution": {
+      "type": "number",
+      "label": "added each period",
+      "minimum": 0,
+      "default": 0,
+      "description": "added each compounding period"
+     }
+    }
+   },
+   "examples": [
+    "what does 1000 grow to at 5% for 10 years",
+    "compound 5000 at 4% monthly for 5 years",
+    "save 200 a month at 6% for 20 years",
+    "compound 2500 quarterly at 3% for 3 years",
+    "growth at zero interest"
+   ]
+  },
+  {
+   "name": "convertCurrencyFixed",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "convertCurrencyFixed \u2014 Convert an amount between currencies at an exchange rate you supply.\n  needs: amount: number, from: string, to: string, rate: number\n  e.g. \"convert 100 EUR to USD at 1.0842\" \u2192 {\"amount\":100,\"from\":\"EUR\",\"to\":\"USD\",\"rate\":1.0842}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to",
+     "rate"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "label": "amount",
+      "carry": true,
+      "prompt": "How much should I convert?"
+     },
+     "from": {
+      "type": "string",
+      "label": "from currency",
+      "minLength": 3,
+      "maxLength": 3,
+      "prompt": "Which currency is it in? (a three-letter code)"
+     },
+     "to": {
+      "type": "string",
+      "label": "to currency",
+      "minLength": 3,
+      "maxLength": 3,
+      "prompt": "Which currency should I convert to?"
+     },
+     "rate": {
+      "type": "number",
+      "label": "rate per 1 unit",
+      "exclusiveMinimum": 0,
+      "prompt": "What exchange rate should I use? (how many of the target currency per 1 of the source)"
+     }
+    }
+   },
+   "examples": [
+    "convert 100 EUR to USD at 1.0842",
+    "50 gbp in euros at a rate of 1.18",
+    "how much is 250 dollars in yen at 150.53",
+    "1200 SEK to GBP at 0.0753",
+    "convert 75 CHF into KWD at 0.2547"
+   ]
+  },
+  {
+   "name": "hourlyToSalary",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "hourlyToSalary \u2014 Turn an hourly wage into the yearly salary it adds up to.\n  needs: hourly: number\n  optional: hoursPerWeek: number, weeksPerYear: number\n  e.g. \"what is 25 an hour as a salary\" \u2192 {\"hourly\":25}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "hourly"
+    ],
+    "properties": {
+     "hourly": {
+      "type": "number",
+      "label": "hourly rate",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "What is the hourly rate?"
+     },
+     "hoursPerWeek": {
+      "type": "number",
+      "label": "hours per week",
+      "exclusiveMinimum": 0,
+      "maximum": 168,
+      "default": 37.5
+     },
+     "weeksPerYear": {
+      "type": "number",
+      "label": "weeks per year",
+      "exclusiveMinimum": 0,
+      "maximum": 53,
+      "default": 52
+     }
+    }
+   },
+   "examples": [
+    "what is 25 an hour as a salary",
+    "annual salary for 18.50 an hour at 40 hours",
+    "15 an hour over 48 working weeks",
+    "salary for 60 an hour at 20 hours a week",
+    "what does 12.21 an hour come to a year"
+   ]
+  },
+  {
+   "name": "markupMargin",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "markupMargin \u2014 Convert between markup and margin, and work out a selling price from a cost.\n  needs: cost: number\n  optional: markup: number, margin: number, price: number\n  e.g. \"sell at 50% markup on a cost of 20\" \u2192 {\"cost\":20,\"markup\":50}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "cost"
+    ],
+    "properties": {
+     "cost": {
+      "type": "number",
+      "label": "cost",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "What does it cost you?"
+     },
+     "markup": {
+      "type": "number",
+      "label": "markup %",
+      "minimum": 0,
+      "description": "percentage added to the cost"
+     },
+     "margin": {
+      "type": "number",
+      "label": "margin %",
+      "minimum": 0,
+      "maximum": 99.99,
+      "description": "percentage of the selling price that is profit"
+     },
+     "price": {
+      "type": "number",
+      "label": "selling price",
+      "exclusiveMinimum": 0,
+      "description": "the selling price, if you already know it"
+     }
+    }
+   },
+   "examples": [
+    "sell at 50% markup on a cost of 20",
+    "what price gives a 40% margin on cost 60",
+    "my cost is 12 and I sell at 20 \u2014 what is the margin",
+    "double the cost of 15",
+    "price for a 25% margin on 75 cost"
+   ]
+  },
+  {
+   "name": "salaryToHourly",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "salaryToHourly \u2014 Divide an annual salary down to what a single hour is worth.\n  needs: annual: number\n  optional: hoursPerWeek: number, weeksPerYear: number\n  e.g. \"what is 48750 a year per hour\" \u2192 {\"annual\":48750}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "annual"
+    ],
+    "properties": {
+     "annual": {
+      "type": "number",
+      "label": "annual salary",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "What is the annual salary?"
+     },
+     "hoursPerWeek": {
+      "type": "number",
+      "label": "hours per week",
+      "exclusiveMinimum": 0,
+      "maximum": 168,
+      "default": 37.5
+     },
+     "weeksPerYear": {
+      "type": "number",
+      "label": "weeks per year",
+      "exclusiveMinimum": 0,
+      "maximum": 53,
+      "default": 52
+     }
+    }
+   },
+   "examples": [
+    "what is 48750 a year per hour",
+    "hourly rate for a 60000 salary at 40 hours",
+    "35000 a year as an hourly rate",
+    "hourly for 100000 over 48 weeks",
+    "what does 26000 work out to hourly at 30 hours"
+   ]
+  },
+  {
+   "name": "savingsGoal",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "savingsGoal \u2014 Work out how long a savings goal takes, or how much to put aside each month.\n  needs: target: number, annualRate: number\n  optional: monthly: number, months: integer\n  e.g. \"how long to save 10000 at 250 a month with no interest\" \u2192 {\"target\":10000,\"monthly\":250,\"annualRate\":0}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "target",
+     "annualRate"
+    ],
+    "properties": {
+     "target": {
+      "type": "number",
+      "label": "savings goal",
+      "carry": true,
+      "minimum": 0.01,
+      "prompt": "How much do you want to save?"
+     },
+     "annualRate": {
+      "type": "number",
+      "label": "annual rate %",
+      "minimum": 0,
+      "maximum": 100,
+      "prompt": "What annual interest rate does the account pay? Use 0 if it pays none."
+     },
+     "monthly": {
+      "type": "number",
+      "label": "monthly deposit",
+      "minimum": 0.01,
+      "description": "how much goes in each month"
+     },
+     "months": {
+      "type": "integer",
+      "label": "months",
+      "minimum": 1,
+      "maximum": 1200,
+      "description": "how many months you have"
+     }
+    }
+   },
+   "examples": [
+    "how long to save 10000 at 250 a month with no interest",
+    "how many months to save 10000 at 250 a month at 3 percent",
+    "saving 100 a month at 2 percent for a 5000 goal",
+    "how much a month to save 10000 in 24 months at 3 percent",
+    "what monthly amount saves 6000 in 3 years at 2.5 percent"
+   ]
+  },
+  {
+   "name": "simpleInterest",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "simpleInterest \u2014 Charge flat interest on the original amount only, never on the interest.\n  needs: principal: number, rate: number, years: number\n  e.g. \"simple interest on 1000 at 5% for 3 years\" \u2192 {\"principal\":1000,\"rate\":5,\"years\":3}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "principal",
+     "rate",
+     "years"
+    ],
+    "properties": {
+     "principal": {
+      "type": "number",
+      "label": "starting amount",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "How much is the principal?"
+     },
+     "rate": {
+      "type": "number",
+      "label": "annual rate %",
+      "minimum": 0,
+      "prompt": "What annual interest rate, as a percentage?"
+     },
+     "years": {
+      "type": "number",
+      "label": "years",
+      "exclusiveMinimum": 0,
+      "prompt": "Over how many years?"
+     }
+    }
+   },
+   "examples": [
+    "simple interest on 1000 at 5% for 3 years",
+    "how much interest on 2500 at 4.5% over 2 years",
+    "interest on 500 at 10% for half a year",
+    "simple interest at zero percent",
+    "interest on 10000 at 3.25% for 10 years",
+    "non-compounding interest on 500 at 4% for 2 years",
+    "flat interest on 1200 at 6 percent over 18 months"
+   ]
+  },
+  {
+   "name": "bmiCalculate",
+   "category": "health",
+   "needsNetwork": false,
+   "card": "bmiCalculate \u2014 Work out body mass index from a height and weight \u2014 the formula only.\n  needs: weightKg: number, heightCm: number\n  e.g. \"bmi for 70kg and 175cm\" \u2192 {\"weightKg\":70,\"heightCm\":175}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "weightKg",
+     "heightCm"
+    ],
+    "properties": {
+     "weightKg": {
+      "type": "number",
+      "label": "weight (kg)",
+      "exclusiveMinimum": 0,
+      "maximum": 700,
+      "prompt": "What is the weight in kilograms?"
+     },
+     "heightCm": {
+      "type": "number",
+      "label": "height (cm)",
+      "exclusiveMinimum": 0,
+      "maximum": 300,
+      "prompt": "What is the height in centimetres?"
+     }
+    }
+   },
+   "examples": [
+    "bmi for 70kg and 175cm",
+    "work out bmi for 90kg at 180cm",
+    "bmi calculation for 55kg and 160cm",
+    "bmi for 50kg at 175cm",
+    "calculate bmi for 110kg and 170cm"
+   ]
+  },
+  {
+   "name": "heartRateZones",
+   "category": "health",
+   "needsNetwork": false,
+   "card": "heartRateZones \u2014 Split a maximum heart rate you supply into the standard five training zones.\n  needs: maxHeartRate: integer\n  optional: restingHeartRate: integer\n  e.g. \"heart rate zones for a max of 190\" \u2192 {\"maxHeartRate\":190}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "maxHeartRate"
+    ],
+    "properties": {
+     "maxHeartRate": {
+      "type": "integer",
+      "label": "max heart rate (bpm)",
+      "minimum": 60,
+      "maximum": 250,
+      "prompt": "What is the maximum heart rate, in beats per minute? (a measured figure \u2014 I will not estimate one from age)"
+     },
+     "restingHeartRate": {
+      "type": "integer",
+      "label": "resting heart rate (bpm)",
+      "minimum": 20,
+      "maximum": 150,
+      "description": "if given, zones are worked out by heart rate reserve instead"
+     }
+    }
+   },
+   "examples": [
+    "heart rate zones for a max of 190",
+    "training zones from a measured max of 180",
+    "zones using heart rate reserve with resting 50",
+    "zones for a max of 200",
+    "zones for a max of 165"
+   ]
+  },
+  {
+   "name": "paceCalculate",
+   "category": "health",
+   "needsNetwork": false,
+   "card": "paceCalculate \u2014 Convert between running pace, speed and finish time over a distance.\n  needs: distanceKm: number\n  optional: paceSecondsPerKm: number, timeSeconds: number\n  e.g. \"finish time for a 10k at 5:30 per km\" \u2192 {\"distanceKm\":10,\"paceSecondsPerKm\":330}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "distanceKm"
+    ],
+    "properties": {
+     "distanceKm": {
+      "type": "number",
+      "label": "distance (km)",
+      "exclusiveMinimum": 0,
+      "prompt": "How far, in kilometres?"
+     },
+     "paceSecondsPerKm": {
+      "type": "number",
+      "label": "pace (seconds per km)",
+      "exclusiveMinimum": 0,
+      "description": "seconds per kilometre"
+     },
+     "timeSeconds": {
+      "type": "number",
+      "label": "finish time (seconds)",
+      "exclusiveMinimum": 0,
+      "description": "total finish time in seconds"
+     }
+    }
+   },
+   "examples": [
+    "finish time for a 10k at 5:30 per km",
+    "what pace is a 3 hour marathon",
+    "pace for a 5k in 25 minutes",
+    "half marathon at 6 minutes per km",
+    "finish time for a parkrun at 4:45 per km"
+   ]
+  },
+  {
+   "name": "sleepCycleTimes",
+   "category": "health",
+   "needsNetwork": false,
+   "card": "sleepCycleTimes \u2014 Work out wake or bedtimes a whole number of sleep cycles apart.\n  needs: time: string\n  optional: direction: string, cycleMinutes: integer, fallAsleepMinutes: integer\n  e.g. \"when should I go to bed to wake at 7am\" \u2192 {\"time\":\"07:00\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "time"
+    ],
+    "properties": {
+     "time": {
+      "type": "string",
+      "label": "time",
+      "pattern": "^\\d{1,2}:\\d{2}$",
+      "prompt": "What time? (24-hour, like 07:00)"
+     },
+     "direction": {
+      "type": "string",
+      "label": "time given is",
+      "enum": [
+       "wake",
+       "sleep"
+      ],
+      "default": "wake",
+      "description": "wake = the time given is when you want to get up"
+     },
+     "cycleMinutes": {
+      "type": "integer",
+      "label": "cycle length (minutes)",
+      "minimum": 30,
+      "maximum": 180,
+      "default": 90
+     },
+     "fallAsleepMinutes": {
+      "type": "integer",
+      "label": "minutes to fall asleep",
+      "minimum": 0,
+      "maximum": 120,
+      "default": 14
+     }
+    }
+   },
+   "examples": [
+    "when should I go to bed to wake at 7am",
+    "bedtimes to wake at 06:30",
+    "if I go to sleep now at 23:00 when should I wake",
+    "wake times with a 100 minute cycle",
+    "bedtimes for a 08:00 alarm with no wind-down"
+   ]
+  },
+  {
+   "name": "splitTimes",
+   "category": "health",
+   "needsNetwork": false,
+   "card": "splitTimes \u2014 Work out the pace and split times needed to finish a distance in a target time.\n  needs: distance: number, time: string\n  optional: unit: string\n  e.g. \"split times for a 10k in 50 minutes\" \u2192 {\"distance\":10,\"time\":\"50:00\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "distance",
+     "time"
+    ],
+    "properties": {
+     "distance": {
+      "type": "number",
+      "label": "distance",
+      "minimum": 0.1,
+      "maximum": 1000,
+      "prompt": "How far?"
+     },
+     "time": {
+      "type": "string",
+      "label": "target time",
+      "prompt": "What is the target time? Write it as 50:00 or 1:45:00."
+     },
+     "unit": {
+      "type": "string",
+      "label": "distance unit",
+      "enum": [
+       "km",
+       "miles"
+      ],
+      "default": "km"
+     }
+    }
+   },
+   "examples": [
+    "split times for a 10k in 50 minutes",
+    "what pace do I need for a 5k in 22:30",
+    "pace for 3 miles in 24 minutes",
+    "splits for 4km in 20 minutes",
+    "pace for 2km in 9 minutes"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "applyDiscount",
+    "stackDiscounts"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "applyDiscount \u2014 Take a single percentage or amount off one price and show what you save.\n  needs: price: number\n  optional: percent: number, amount: number\n  e.g. \"25% off a 80 jacket\" \u2192 {\"price\":80,\"percent\":25}",
+    "stackDiscounts \u2014 Take one discount off after another \u2014 an extra 15% off an already reduced price \u2014 and show the real saving.\n  needs: price: number, discounts: array\n  e.g. \"stack 20% and 10% off 100\" \u2192 {\"price\":100,\"discounts\":[20,10]}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "price"
+     ],
+     "properties": {
+      "price": {
+       "type": "number",
+       "label": "price",
+       "carry": true,
+       "minimum": 0,
+       "prompt": "What is the original price?"
+      },
+      "percent": {
+       "type": "number",
+       "label": "discount %",
+       "minimum": 0,
+       "maximum": 100,
+       "description": "a percentage off"
+      },
+      "amount": {
+       "type": "number",
+       "label": "amount off",
+       "minimum": 0,
+       "description": "a fixed amount off"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "price",
+      "discounts"
+     ],
+     "properties": {
+      "price": {
+       "type": "number",
+       "label": "price",
+       "carry": true,
+       "minimum": 0,
+       "prompt": "What is the starting price?"
+      },
+      "discounts": {
+       "type": "array",
+       "label": "discounts %",
+       "minItems": 1,
+       "maxItems": 10,
+       "items": {
+        "type": "number"
+       },
+       "prompt": "Which discount percentages apply?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "compoundInterest",
+    "simpleInterest"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "compoundInterest \u2014 Grow a sum year on year, with each year\u2019s interest earning interest too.\n  needs: principal: number, rate: number, years: number\n  optional: frequency: string, contribution: number\n  e.g. \"what does 1000 grow to at 5% for 10 years\" \u2192 {\"principal\":1000,\"rate\":5,\"years\":10}",
+    "simpleInterest \u2014 Charge flat interest on the original amount only, never on the interest.\n  needs: principal: number, rate: number, years: number\n  e.g. \"simple interest on 1000 at 5% for 3 years\" \u2192 {\"principal\":1000,\"rate\":5,\"years\":3}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "principal",
+      "rate",
+      "years"
+     ],
+     "properties": {
+      "principal": {
+       "type": "number",
+       "label": "starting amount",
+       "carry": true,
+       "exclusiveMinimum": 0,
+       "prompt": "How much is the starting amount?"
+      },
+      "rate": {
+       "type": "number",
+       "label": "annual rate %",
+       "minimum": 0,
+       "prompt": "What annual interest rate, as a percentage?"
+      },
+      "years": {
+       "type": "number",
+       "label": "years",
+       "exclusiveMinimum": 0,
+       "prompt": "Over how many years?"
+      },
+      "frequency": {
+       "type": "string",
+       "label": "compounding",
+       "enum": [
+        "annually",
+        "semi-annually",
+        "quarterly",
+        "monthly",
+        "weekly",
+        "daily"
+       ],
+       "default": "annually"
+      },
+      "contribution": {
+       "type": "number",
+       "label": "added each period",
+       "minimum": 0,
+       "default": 0,
+       "description": "added each compounding period"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "principal",
+      "rate",
+      "years"
+     ],
+     "properties": {
+      "principal": {
+       "type": "number",
+       "label": "starting amount",
+       "carry": true,
+       "exclusiveMinimum": 0,
+       "prompt": "How much is the principal?"
+      },
+      "rate": {
+       "type": "number",
+       "label": "annual rate %",
+       "minimum": 0,
+       "prompt": "What annual interest rate, as a percentage?"
+      },
+      "years": {
+       "type": "number",
+       "label": "years",
+       "exclusiveMinimum": 0,
+       "prompt": "Over how many years?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertArea",
+    "convertLength"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "convertArea \u2014 Convert an area \u2014 square metres, square feet, hectares, acres, square miles.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many square feet is 85 square metres\" \u2192 {\"amount\":85,\"from\":\"m2\",\"to\":\"ft2\"}",
+    "convertLength \u2014 Convert a distance or length \u2014 millimetres, centimetres, metres, kilometres, inches, feet, yards, miles.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many km is 26.2 miles\" \u2192 {\"amount\":26.2,\"from\":\"miles\",\"to\":\"km\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "area"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "length"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertArea",
+    "convertSpeed"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "convertArea \u2014 Convert an area \u2014 square metres, square feet, hectares, acres, square miles.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many square feet is 85 square metres\" \u2192 {\"amount\":85,\"from\":\"m2\",\"to\":\"ft2\"}",
+    "convertSpeed \u2014 Convert a speed \u2014 miles per hour, kilometres per hour, metres per second, knots.\n  needs: amount: number, from: string, to: string\n  e.g. \"100 km/h in mph\" \u2192 {\"amount\":100,\"from\":\"km/h\",\"to\":\"mph\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "area"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "speed"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertBase",
+    "convertRomanNumeral"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "convertBase \u2014 Write a number in another base \u2014 200 in base 7, 255 as hex, or 1011 back from binary. Any radix from 2 to 36.\n  needs: value: string, fromBase: integer, toBase: integer\n  e.g. \"convert 255 to hexadecimal\" \u2192 {\"value\":\"255\",\"fromBase\":10,\"toBase\":16}",
+    "convertRomanNumeral \u2014 Convert a number to Roman numerals, or read Roman numerals back as a number.\n  needs: value: string\n  e.g. \"what is 2026 in roman numerals\" \u2192 {\"value\":\"2026\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "value",
+      "fromBase",
+      "toBase"
+     ],
+     "properties": {
+      "value": {
+       "type": "string",
+       "label": "number",
+       "minLength": 1,
+       "prompt": "Which number should I convert?"
+      },
+      "fromBase": {
+       "type": "integer",
+       "label": "from base",
+       "minimum": 2,
+       "maximum": 36,
+       "prompt": "What base is it in? (2 for binary, 16 for hex)"
+      },
+      "toBase": {
+       "type": "integer",
+       "label": "to base",
+       "minimum": 2,
+       "maximum": 36,
+       "prompt": "Which base should I convert to?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "value"
+     ],
+     "properties": {
+      "value": {
+       "type": "string",
+       "label": "number or numeral",
+       "minLength": 1,
+       "prompt": "Which number or numeral? (e.g. 2026 or MMXXVI)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertCurrencyFixed",
+    "currencyLookup"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "convertCurrencyFixed \u2014 Convert an amount between currencies at an exchange rate you supply.\n  needs: amount: number, from: string, to: string, rate: number\n  e.g. \"convert 100 EUR to USD at 1.0842\" \u2192 {\"amount\":100,\"from\":\"EUR\",\"to\":\"USD\",\"rate\":1.0842}",
+    "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to",
+      "rate"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "label": "amount",
+       "carry": true,
+       "prompt": "How much should I convert?"
+      },
+      "from": {
+       "type": "string",
+       "label": "from currency",
+       "minLength": 3,
+       "maxLength": 3,
+       "prompt": "Which currency is it in? (a three-letter code)"
+      },
+      "to": {
+       "type": "string",
+       "label": "to currency",
+       "minLength": 3,
+       "maxLength": 3,
+       "prompt": "Which currency should I convert to?"
+      },
+      "rate": {
+       "type": "number",
+       "label": "rate per 1 unit",
+       "exclusiveMinimum": 0,
+       "prompt": "What exchange rate should I use? (how many of the target currency per 1 of the source)"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "string",
+       "label": "currency code",
+       "minLength": 2,
+       "prompt": "Which currency code? (like GBP)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertFuelEconomy",
+    "convertLength"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "convertFuelEconomy \u2014 Convert fuel economy between litres per 100km, miles per gallon and kilometres per litre.\n  needs: amount: number, from: string, to: string\n  e.g. \"convert 30 mpg to litres per 100km\" \u2192 {\"amount\":30,\"from\":\"mpg\",\"to\":\"l/100km\"}",
+    "convertLength \u2014 Convert a distance or length \u2014 millimetres, centimetres, metres, kilometres, inches, feet, yards, miles.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many km is 26.2 miles\" \u2192 {\"amount\":26.2,\"from\":\"miles\",\"to\":\"km\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "label": "fuel economy",
+       "carry": true,
+       "minimum": 0.01,
+       "prompt": "What is the fuel economy figure?"
+      },
+      "from": {
+       "type": "string",
+       "label": "from unit",
+       "prompt": "Which unit is it in?"
+      },
+      "to": {
+       "type": "string",
+       "label": "to unit",
+       "prompt": "Which unit should I convert it to?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "length"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertFuelEconomy",
+    "convertSpeed"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "convertFuelEconomy \u2014 Convert fuel economy between litres per 100km, miles per gallon and kilometres per litre.\n  needs: amount: number, from: string, to: string\n  e.g. \"convert 30 mpg to litres per 100km\" \u2192 {\"amount\":30,\"from\":\"mpg\",\"to\":\"l/100km\"}",
+    "convertSpeed \u2014 Convert a speed \u2014 miles per hour, kilometres per hour, metres per second, knots.\n  needs: amount: number, from: string, to: string\n  e.g. \"100 km/h in mph\" \u2192 {\"amount\":100,\"from\":\"km/h\",\"to\":\"mph\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "label": "fuel economy",
+       "carry": true,
+       "minimum": 0.01,
+       "prompt": "What is the fuel economy figure?"
+      },
+      "from": {
+       "type": "string",
+       "label": "from unit",
+       "prompt": "Which unit is it in?"
+      },
+      "to": {
+       "type": "string",
+       "label": "to unit",
+       "prompt": "Which unit should I convert it to?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "speed"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertFuelEconomy",
+    "convertTemperature"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "convertFuelEconomy \u2014 Convert fuel economy between litres per 100km, miles per gallon and kilometres per litre.\n  needs: amount: number, from: string, to: string\n  e.g. \"convert 30 mpg to litres per 100km\" \u2192 {\"amount\":30,\"from\":\"mpg\",\"to\":\"l/100km\"}",
+    "convertTemperature \u2014 Convert a temperature between Celsius, Fahrenheit and Kelvin.\n  needs: amount: number, from: string, to: string\n  e.g. \"convert 180 celsius to fahrenheit\" \u2192 {\"amount\":180,\"from\":\"celsius\",\"to\":\"fahrenheit\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "label": "fuel economy",
+       "carry": true,
+       "minimum": 0.01,
+       "prompt": "What is the fuel economy figure?"
+      },
+      "from": {
+       "type": "string",
+       "label": "from unit",
+       "prompt": "Which unit is it in?"
+      },
+      "to": {
+       "type": "string",
+       "label": "to unit",
+       "prompt": "Which unit should I convert it to?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "temperature"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertLength",
+    "convertSpeed"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "convertLength \u2014 Convert a distance or length \u2014 millimetres, centimetres, metres, kilometres, inches, feet, yards, miles.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many km is 26.2 miles\" \u2192 {\"amount\":26.2,\"from\":\"miles\",\"to\":\"km\"}",
+    "convertSpeed \u2014 Convert a speed \u2014 miles per hour, kilometres per hour, metres per second, knots.\n  needs: amount: number, from: string, to: string\n  e.g. \"100 km/h in mph\" \u2192 {\"amount\":100,\"from\":\"km/h\",\"to\":\"mph\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "length"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "speed"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertTemperature",
+    "convertTime"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "convertTemperature \u2014 Convert a temperature between Celsius, Fahrenheit and Kelvin.\n  needs: amount: number, from: string, to: string\n  e.g. \"convert 180 celsius to fahrenheit\" \u2192 {\"amount\":180,\"from\":\"celsius\",\"to\":\"fahrenheit\"}",
+    "convertTime \u2014 Convert a length of time between units \u2014 how long 210 minutes runs to in hours.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many hours is 5400 seconds\" \u2192 {\"amount\":5400,\"from\":\"s\",\"to\":\"h\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "temperature"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "duration"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertTime",
+    "durationToText"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "convertTime \u2014 Convert a length of time between units \u2014 how long 210 minutes runs to in hours.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many hours is 5400 seconds\" \u2192 {\"amount\":5400,\"from\":\"s\",\"to\":\"h\"}",
+    "durationToText \u2014 Turn a raw number of seconds into readable words like \"1h 30m\".\n  needs: seconds: number\n  optional: style: string, maxUnits: integer\n  e.g. \"what is 5400 seconds as a duration\" \u2192 {\"seconds\":5400}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "duration"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "seconds"
+     ],
+     "properties": {
+      "seconds": {
+       "type": "number",
+       "label": "seconds",
+       "carry": true,
+       "minimum": 0,
+       "prompt": "How many seconds?"
+      },
+      "style": {
+       "type": "string",
+       "label": "style",
+       "enum": [
+        "short",
+        "long"
+       ],
+       "default": "short"
+      },
+      "maxUnits": {
+       "type": "integer",
+       "label": "most units shown",
+       "minimum": 1,
+       "maximum": 5,
+       "default": 2
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

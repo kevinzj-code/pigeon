@@ -1,0 +1,1211 @@
+{
+ "task": "enum picks",
+ "rules": [
+  "enum"
+ ],
+ "per_skill": 10,
+ "skills": [
+  {
+   "name": "numberToWords",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "numberToWords \u2014 Spell a number out in English words, the way it is said aloud or written on a cheque.\n  needs: value: number\n  optional: style: string, currency: string\n  e.g. \"write 1234 in words\" \u2192 {\"value\":1234}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value"
+    ],
+    "properties": {
+     "value": {
+      "type": "number",
+      "label": "number",
+      "carry": true,
+      "prompt": "Which number should I write out?"
+     },
+     "style": {
+      "type": "string",
+      "label": "plain or money",
+      "enum": [
+       "plain",
+       "currency"
+      ],
+      "default": "plain"
+     },
+     "currency": {
+      "type": "string",
+      "label": "currency name",
+      "default": "pounds"
+     }
+    }
+   },
+   "examples": [
+    "write 1234 in words",
+    "spell out 42",
+    "write 1000000 in words",
+    "write 105.50 as words for a cheque",
+    "spell out negative 17"
+   ]
+  },
+  {
+   "name": "columnMath",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "columnMath \u2014 Total, average, or find the smallest or largest value down one column of a table.\n  needs: table: object, column: string, operation: string\n  e.g. \"add up the amount column\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]},\"column\":\"amount\",\"operation\":\"sum\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "column",
+     "operation"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table?"
+     },
+     "column": {
+      "type": "string",
+      "label": "column",
+      "prompt": "Which column?"
+     },
+     "operation": {
+      "type": "string",
+      "label": "operation",
+      "enum": [
+       "sum",
+       "average",
+       "min",
+       "max",
+       "count"
+      ],
+      "prompt": "Sum, average, min, max or count?"
+     }
+    }
+   },
+   "examples": [
+    "add up the amount column",
+    "what is the average q1",
+    "highest value in the score column",
+    "sum a column with a blank cell in it",
+    "how many rows have a value in name"
+   ]
+  },
+  {
+   "name": "filterRows",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "filterRows \u2014 Drop the rows of a table that fail a condition.\n  needs: table: object, column: string, operator: string, value: undefined\n  e.g. \"keep only rows where amount is over 100\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]},\"column\":\"amount\",\"operator\":\">\",\"value\":100}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "column",
+     "operator",
+     "value"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I filter?"
+     },
+     "column": {
+      "type": "string",
+      "label": "column",
+      "prompt": "Which column should I filter on?"
+     },
+     "operator": {
+      "type": "string",
+      "label": "comparison",
+      "enum": [
+       "=",
+       "!=",
+       ">",
+       ">=",
+       "<",
+       "<=",
+       "contains",
+       "starts with"
+      ],
+      "prompt": "Which comparison? (=, !=, >, >=, <, <=, contains, starts with)"
+     },
+     "value": {
+      "label": "compare to",
+      "prompt": "What should I compare it to?"
+     }
+    }
+   },
+   "examples": [
+    "keep only rows where amount is over 100",
+    "show me just the North region rows",
+    "filter to names containing \"an\"",
+    "drop everything at or below zero",
+    "filter where nothing matches"
+   ]
+  },
+  {
+   "name": "formatJson",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "formatJson \u2014 Tidy JSON into readable indented form, or squash it onto one line.\n  needs: text: string\n  optional: style: string, indent: integer, sortKeys: boolean\n  e.g. \"pretty print this json\" \u2192 {\"text\":\"{\\\"a\\\":1,\\\"b\\\":2}\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "json",
+      "minLength": 1,
+      "prompt": "Which JSON should I format?"
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "pretty",
+       "minified"
+      ],
+      "default": "pretty"
+     },
+     "indent": {
+      "type": "integer",
+      "label": "indent spaces",
+      "minimum": 0,
+      "maximum": 8,
+      "default": 2
+     },
+     "sortKeys": {
+      "type": "boolean",
+      "label": "sort keys",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "pretty print this json",
+    "minify this json",
+    "format with 4 space indent",
+    "tidy the json and sort the keys",
+    "pretty print a json array",
+    "tidy this json so a person can read it"
+   ]
+  },
+  {
+   "name": "groupBy",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "groupBy \u2014 Total or average rows per category, grouped by a shared value.\n  needs: table: object, column: string\n  optional: aggregate: string, operation: string\n  e.g. \"group these rows by region and sum the amounts\" \u2192 {\"table\":{\"headers\":[\"region\",\"amount\"],\"rows\":[{\"region\":\"north\",\"amount\":120},{\"region\":\"south\",\"amount\":80},{\"region\":\"north\",\"amount\":200}]},\"column\":\"region\",\"aggregate\":\"amount\",\"operation\":\"sum\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "column"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I group?"
+     },
+     "column": {
+      "type": "string",
+      "label": "group by column",
+      "prompt": "Which column should I group by?"
+     },
+     "aggregate": {
+      "type": "string",
+      "label": "value column",
+      "description": "the column to aggregate \u2014 required for anything other than count"
+     },
+     "operation": {
+      "type": "string",
+      "label": "operation",
+      "enum": [
+       "count",
+       "sum",
+       "mean",
+       "min",
+       "max"
+      ],
+      "default": "count"
+     }
+    }
+   },
+   "examples": [
+    "group these rows by region and sum the amounts",
+    "count the rows in each category",
+    "average the score per team",
+    "find the highest price in each shop",
+    "group by status when every row is the same",
+    "sum the points for each team in this table",
+    "how many rows fall under each status"
+   ]
+  },
+  {
+   "name": "parseCsv",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "parseCsv \u2014 Read CSV text into rows and columns, detecting the header line.\n  needs: text: string\n  optional: delimiter: string, hasHeader: boolean\n  e.g. \"parse this csv: name,amount\nAna,120\nBo,80\" \u2192 {\"text\":\"name,amount\\nAna,120\\nBo,80\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "csv",
+      "minLength": 1,
+      "prompt": "Which CSV text should I read?"
+     },
+     "delimiter": {
+      "type": "string",
+      "label": "delimiter",
+      "enum": [
+       ",",
+       ";",
+       "\t",
+       "|"
+      ],
+      "default": ","
+     },
+     "hasHeader": {
+      "type": "boolean",
+      "label": "has header row",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "parse this csv: name,amount\nAna,120\nBo,80",
+    "read a csv with a quoted comma",
+    "parse semicolon separated data",
+    "parse csv without a header row",
+    "read three columns of sales data"
+   ]
+  },
+  {
+   "name": "pivotRows",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "pivotRows \u2014 Cross-tabulate one column against another into a grid of cells.\n  needs: table: object, rowColumn: string, columnColumn: string\n  optional: valueColumn: string, operation: string\n  e.g. \"pivot amount by region and quarter\" \u2192 {\"table\":{\"headers\":[\"region\",\"quarter\",\"amount\"],\"rows\":[{\"region\":\"north\",\"quarter\":\"Q1\",\"amount\":10},{\"region\":\"north\",\"quarter\":\"Q2\",\"amount\":20},{\"region\":\"south\",\"quarter\":\"Q1\",\"amount\":30}]},\"rowColumn\":\"region\",\"columnColumn\":\"quarter\",\"valueColumn\":\"amount\",\"operation\":\"sum\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "rowColumn",
+     "columnColumn"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I pivot?"
+     },
+     "rowColumn": {
+      "type": "string",
+      "label": "rows from column",
+      "prompt": "Which column should become the rows?"
+     },
+     "columnColumn": {
+      "type": "string",
+      "label": "columns from column",
+      "prompt": "Which column should become the columns?"
+     },
+     "valueColumn": {
+      "type": "string",
+      "label": "value column",
+      "description": "the column to aggregate - required for anything other than count"
+     },
+     "operation": {
+      "type": "string",
+      "label": "operation",
+      "enum": [
+       "sum",
+       "count",
+       "mean",
+       "min",
+       "max"
+      ],
+      "default": "sum"
+     }
+    }
+   },
+   "examples": [
+    "pivot amount by region and quarter",
+    "count rows by day and type",
+    "average sales by store and month",
+    "pivot a single measurement",
+    "highest points by team and round"
+   ]
+  },
+  {
+   "name": "sortObjectKeys",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "sortObjectKeys \u2014 Sort the keys of a JSON object alphabetically, all the way down.\n  needs: json: string\n  optional: direction: string, indent: integer\n  e.g. \"sort the keys in this json\" \u2192 {\"json\":\"{\\\"b\\\":2,\\\"a\\\":1}\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "json"
+    ],
+    "properties": {
+     "json": {
+      "type": "string",
+      "label": "json",
+      "minLength": 1,
+      "prompt": "Which JSON should I sort?"
+     },
+     "direction": {
+      "type": "string",
+      "label": "order",
+      "enum": [
+       "ascending",
+       "descending"
+      ],
+      "default": "ascending"
+     },
+     "indent": {
+      "type": "integer",
+      "label": "indent spaces",
+      "minimum": 0,
+      "maximum": 8,
+      "default": 2
+     }
+    }
+   },
+   "examples": [
+    "sort the keys in this json",
+    "alphabetise this config",
+    "sort nested keys too",
+    "sort keys in reverse",
+    "sort json whose keys are already in order",
+    "alphabetise the keys in this json object"
+   ]
+  },
+  {
+   "name": "sortRows",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "sortRows \u2014 Reorder the rows of a table by a column, changing nothing else.\n  needs: table: object, column: string\n  optional: direction: string, then: string\n  e.g. \"sort by amount, biggest first\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80},{\"name\":\"Cy\",\"amount\":200}]},\"column\":\"amount\",\"direction\":\"descending\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table",
+     "column"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I sort?"
+     },
+     "column": {
+      "type": "string",
+      "label": "sort by column",
+      "prompt": "Which column should I sort by?"
+     },
+     "direction": {
+      "type": "string",
+      "label": "order",
+      "enum": [
+       "ascending",
+       "descending"
+      ],
+      "default": "ascending"
+     },
+     "then": {
+      "type": "string",
+      "label": "then by column",
+      "description": "a second column, used to break ties"
+     }
+    }
+   },
+   "examples": [
+    "sort by amount, biggest first",
+    "sort these names alphabetically",
+    "order by region then by q1",
+    "sort numbers smallest first",
+    "sort a single row table"
+   ]
+  },
+  {
+   "name": "toCsv",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "toCsv \u2014 Turn rows and columns back into CSV text, quoting anything that needs it.\n  needs: table: object\n  optional: delimiter: string, includeHeader: boolean\n  e.g. \"turn this table back into csv\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]}}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I write out?"
+     },
+     "delimiter": {
+      "type": "string",
+      "label": "delimiter",
+      "enum": [
+       ",",
+       ";",
+       "\t",
+       "|"
+      ],
+      "default": ","
+     },
+     "includeHeader": {
+      "type": "boolean",
+      "label": "include header row",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "turn this table back into csv",
+    "write this out as csv, quoting the comma",
+    "export as semicolon separated",
+    "csv without the header row",
+    "write a cell containing a quote mark"
+   ]
+  },
+  {
+   "name": "toMarkdownTable",
+   "category": "data",
+   "needsNetwork": false,
+   "card": "toMarkdownTable \u2014 Draw rows and columns out as a markdown table, pipes and all.\n  needs: table: object\n  optional: align: string\n  e.g. \"make a markdown table from this data\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]}}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "table"
+    ],
+    "properties": {
+     "table": {
+      "type": "object",
+      "label": "table",
+      "prompt": "Which table should I format?"
+     },
+     "align": {
+      "type": "string",
+      "label": "alignment",
+      "enum": [
+       "left",
+       "right",
+       "centre"
+      ],
+      "default": "left"
+     }
+    }
+   },
+   "examples": [
+    "make a markdown table from this data",
+    "format as a right-aligned markdown table",
+    "turn one row into markdown",
+    "markdown table with a pipe in a cell",
+    "markdown table with an empty cell"
+   ]
+  },
+  {
+   "name": "addDuration",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "addDuration \u2014 Move a date forward or back by days, weeks, months or years.\n  needs: from: string, amount: integer, unit: string\n  e.g. \"what date is 90 days after 2026-07-12\" \u2192 {\"from\":\"2026-07-12\",\"amount\":90,\"unit\":\"days\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "from",
+     "amount",
+     "unit"
+    ],
+    "properties": {
+     "from": {
+      "type": "string",
+      "label": "start date",
+      "prompt": "Which date should I start from?",
+      "description": "a date"
+     },
+     "amount": {
+      "type": "integer",
+      "label": "how many",
+      "prompt": "How many should I add? (use a negative number to go back)"
+     },
+     "unit": {
+      "type": "string",
+      "label": "unit",
+      "enum": [
+       "days",
+       "weeks",
+       "months",
+       "years"
+      ],
+      "prompt": "Days, weeks, months or years?"
+     }
+    }
+   },
+   "examples": [
+    "what date is 90 days after 2026-07-12",
+    "six weeks from 1 March 2026",
+    "three months after 31 January 2026",
+    "18 years from 2008-02-29",
+    "10 days before 2026-01-05"
+   ]
+  },
+  {
+   "name": "dateRangeList",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "dateRangeList \u2014 List every date between two dates, optionally stepping by weeks or months.\n  needs: from: string, to: string\n  optional: step: integer, unit: string, weekdaysOnly: boolean\n  e.g. \"list the dates from 2026-09-01 to 2026-09-05\" \u2192 {\"from\":\"2026-09-01\",\"to\":\"2026-09-05\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "from",
+     "to"
+    ],
+    "properties": {
+     "from": {
+      "type": "string",
+      "label": "start date",
+      "prompt": "Start from which date?",
+      "description": "a date"
+     },
+     "to": {
+      "type": "string",
+      "label": "end date",
+      "prompt": "Up to which date?",
+      "description": "a date"
+     },
+     "step": {
+      "type": "integer",
+      "label": "step",
+      "minimum": 1,
+      "default": 1
+     },
+     "unit": {
+      "type": "string",
+      "label": "step unit",
+      "enum": [
+       "days",
+       "weeks",
+       "months"
+      ],
+      "default": "days"
+     },
+     "weekdaysOnly": {
+      "type": "boolean",
+      "label": "weekdays only",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "list the dates from 2026-09-01 to 2026-09-05",
+    "every monday from 2026-09-07 to 2026-09-28",
+    "the first of each month from january to april 2026",
+    "weekdays only between 2026-09-04 and 2026-09-09",
+    "every other day from 2026-09-01 to 2026-09-07"
+   ]
+  },
+  {
+   "name": "durationToText",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "durationToText \u2014 Turn a raw number of seconds into readable words like \"1h 30m\".\n  needs: seconds: number\n  optional: style: string, maxUnits: integer\n  e.g. \"what is 5400 seconds as a duration\" \u2192 {\"seconds\":5400}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "seconds"
+    ],
+    "properties": {
+     "seconds": {
+      "type": "number",
+      "label": "seconds",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "How many seconds?"
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "short",
+       "long"
+      ],
+      "default": "short"
+     },
+     "maxUnits": {
+      "type": "integer",
+      "label": "most units shown",
+      "minimum": 1,
+      "maximum": 5,
+      "default": 2
+     }
+    }
+   },
+   "examples": [
+    "what is 5400 seconds as a duration",
+    "how long is 90 seconds in words",
+    "express 100000 seconds readably",
+    "show 3661 seconds with three units",
+    "what is 45 seconds"
+   ]
+  },
+  {
+   "name": "expandRecurrence",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "expandRecurrence \u2014 List the dates a repeating schedule falls on \u2014 the first Thursday monthly, every fortnight, every 90 days.\n  needs: start: string\n  optional: every: string, interval: integer, count: integer, until: string\n  e.g. \"every fortnight from 2026-09-07, eight times\" \u2192 {\"start\":\"2026-09-07\",\"every\":\"week\",\"interval\":2,\"count\":8}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "start"
+    ],
+    "properties": {
+     "start": {
+      "type": "string",
+      "label": "start date",
+      "minLength": 4,
+      "prompt": "What date does it start on?"
+     },
+     "every": {
+      "type": "string",
+      "label": "repeat unit",
+      "enum": [
+       "day",
+       "week",
+       "month",
+       "year"
+      ],
+      "default": "week"
+     },
+     "interval": {
+      "type": "integer",
+      "label": "repeat interval",
+      "minimum": 1,
+      "maximum": 365,
+      "default": 1
+     },
+     "count": {
+      "type": "integer",
+      "label": "how many dates",
+      "minimum": 1,
+      "maximum": 60,
+      "description": "defaults to 10 without an end date"
+     },
+     "until": {
+      "type": "string",
+      "label": "end date"
+     }
+    }
+   },
+   "examples": [
+    "every fortnight from 2026-09-07, eight times",
+    "the 1st of every month for six months from 2026-10-01",
+    "every 90 days from 2026-01-15, five times",
+    "weekly standups from 2026-09-07 until 2026-10-12",
+    "the 31st monthly from 2026-01-31 for six",
+    "my birthday every year from 2026-03-09, four times"
+   ]
+  },
+  {
+   "name": "nextWeekday",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "nextWeekday \u2014 Find the date of the next Monday, Tuesday and so on \u2014 or the most recent one.\n  needs: weekday: string\n  optional: direction: string, from: string\n  e.g. \"when is next tuesday\" \u2192 {\"weekday\":\"Tuesday\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "weekday"
+    ],
+    "properties": {
+     "weekday": {
+      "type": "string",
+      "label": "weekday",
+      "enum": [
+       "Sunday",
+       "Monday",
+       "Tuesday",
+       "Wednesday",
+       "Thursday",
+       "Friday",
+       "Saturday"
+      ],
+      "prompt": "Which day of the week?"
+     },
+     "direction": {
+      "type": "string",
+      "label": "next or previous",
+      "enum": [
+       "next",
+       "previous"
+      ],
+      "default": "next"
+     },
+     "from": {
+      "type": "string",
+      "label": "from date",
+      "description": "a date \u2014 defaults to today"
+     }
+    }
+   },
+   "examples": [
+    "when is next tuesday",
+    "what date is the next friday",
+    "when was last monday",
+    "the sunday after 2026-12-25",
+    "next saturday from 2026-11-14"
+   ]
+  },
+  {
+   "name": "unixToIso",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "unixToIso \u2014 Turn a Unix timestamp into a readable date and time.\n  needs: unix: number\n  optional: unit: string\n  e.g. \"what date is unix timestamp 1788255000\" \u2192 {\"unix\":1788255000}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "unix"
+    ],
+    "properties": {
+     "unix": {
+      "type": "number",
+      "label": "timestamp",
+      "prompt": "Which timestamp?"
+     },
+     "unit": {
+      "type": "string",
+      "label": "timestamp unit",
+      "enum": [
+       "seconds",
+       "milliseconds",
+       "auto"
+      ],
+      "default": "auto"
+     }
+    }
+   },
+   "examples": [
+    "what date is unix timestamp 1788255000",
+    "convert 0 from unix time",
+    "what is 1788255000000 as a date",
+    "timestamp 1000000000 as a date",
+    "read 1798185600 as a date"
+   ]
+  },
+  {
+   "name": "generatePalette",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "generatePalette \u2014 Build a colour palette around a base colour \u2014 analogous, triadic, complementary or tints and shades.\n  needs: color: string\n  optional: scheme: string, count: integer\n  e.g. \"build an analogous palette from #2C6E8C\" \u2192 {\"color\":\"#2C6E8C\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "color"
+    ],
+    "properties": {
+     "color": {
+      "type": "string",
+      "label": "base colour",
+      "minLength": 3,
+      "prompt": "Which colour should the palette be built around?"
+     },
+     "scheme": {
+      "type": "string",
+      "label": "scheme",
+      "enum": [
+       "analogous",
+       "triadic",
+       "complementary",
+       "split-complementary",
+       "tetradic",
+       "tints",
+       "shades"
+      ],
+      "default": "analogous"
+     },
+     "count": {
+      "type": "integer",
+      "label": "colours (tints/shades)",
+      "minimum": 2,
+      "maximum": 10,
+      "default": 5,
+      "description": "only used for tints and shades"
+     }
+    }
+   },
+   "examples": [
+    "build an analogous palette from #2C6E8C",
+    "triadic palette for this blue",
+    "complementary pair for #FF5733",
+    "five tints of this colour",
+    "four shades of this colour"
+   ]
+  },
+  {
+   "name": "generateRandomString",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "generateRandomString \u2014 Generate a random string of a given length from a character set you choose.\n  optional: length: integer, charset: string\n  e.g. \"generate a random string\" \u2192 {}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "length": {
+      "type": "integer",
+      "label": "length",
+      "minimum": 1,
+      "maximum": 512,
+      "default": 16
+     },
+     "charset": {
+      "type": "string",
+      "label": "character set",
+      "enum": [
+       "alphanumeric",
+       "letters",
+       "digits",
+       "hex",
+       "unambiguous",
+       "symbols"
+      ],
+      "default": "alphanumeric"
+     }
+    }
+   },
+   "examples": [
+    "generate a random string",
+    "make a 32 character random string",
+    "generate a random code people can read out",
+    "random hex string of 12",
+    "a strong random password with symbols"
+   ]
+  },
+  {
+   "name": "hashText",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "hashText \u2014 Work out the SHA hash of a piece of text.\n  needs: text: string\n  optional: algorithm: string\n  e.g. \"sha256 of hello\" \u2192 {\"text\":\"hello\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I hash?"
+     },
+     "algorithm": {
+      "type": "string",
+      "label": "algorithm",
+      "enum": [
+       "SHA-256",
+       "SHA-1",
+       "SHA-384",
+       "SHA-512"
+      ],
+      "default": "SHA-256"
+     }
+    }
+   },
+   "examples": [
+    "sha256 of hello",
+    "hash this string",
+    "sha1 of abc",
+    "sha512 of an empty-ish string",
+    "checksum this identifier"
+   ]
+  },
+  {
+   "name": "hexEncode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "hexEncode \u2014 Write text out as hexadecimal byte values.\n  needs: text: string\n  optional: separator: string, uppercase: boolean\n  e.g. \"hex encode Pigeon\" \u2192 {\"text\":\"Pigeon\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I encode?"
+     },
+     "separator": {
+      "type": "string",
+      "label": "byte separator",
+      "enum": [
+       "",
+       " ",
+       ":",
+       "-"
+      ],
+      "default": ""
+     },
+     "uppercase": {
+      "type": "boolean",
+      "label": "uppercase",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "hex encode Pigeon",
+    "convert hello to hex",
+    "hex encode with spaces between bytes",
+    "uppercase hex for this text",
+    "hex encode an accented character"
+   ]
+  },
+  {
+   "name": "urlEncode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "urlEncode \u2014 Percent-escape text so it survives inside a web address.\n  needs: text: string\n  optional: scope: string\n  e.g. \"url encode \"hello world\"\" \u2192 {\"text\":\"hello world\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I encode?"
+     },
+     "scope": {
+      "type": "string",
+      "label": "whole url or part",
+      "enum": [
+       "component",
+       "full"
+      ],
+      "default": "component"
+     }
+    }
+   },
+   "examples": [
+    "url encode \"hello world\"",
+    "encode this for a query string",
+    "percent encode an accented word",
+    "encode a whole url leaving the slashes",
+    "encode text that needs no encoding",
+    "make this text safe for a url query: caf\u00e9 au lait",
+    "percent encode this for a web address: a&b=c"
+   ]
+  },
+  {
+   "name": "splitBill",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "splitBill \u2014 Add a tip to a bill and split it between people, to the exact penny.\n  needs: bill: number\n  optional: tipPercent: number, people: integer, currency: string\n  e.g. \"split a 84.50 bill four ways with 15% tip\" \u2192 {\"bill\":84.5,\"tipPercent\":15,\"people\":4}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "bill"
+    ],
+    "properties": {
+     "bill": {
+      "type": "number",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "How much was the bill?",
+      "label": "bill"
+     },
+     "tipPercent": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 0,
+      "label": "tip %"
+     },
+     "people": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 1,
+      "label": "people"
+     },
+     "currency": {
+      "type": "string",
+      "enum": [
+       "\u00a3",
+       "$",
+       "\u20ac",
+       "\u20b9",
+       "\u00a5"
+      ],
+      "label": "currency"
+     }
+    }
+   },
+   "examples": [
+    "split a 84.50 bill four ways with 15% tip",
+    "what is 20% tip on 60",
+    "split 100 between 3 of us",
+    "dinner was 45.60, 12.5 percent tip, two people",
+    "bill of 200 split 8 ways with 10% service"
+   ]
+  },
+  {
+   "name": "fileSizeHuman",
+   "category": "files",
+   "needsNetwork": false,
+   "card": "fileSizeHuman \u2014 Turn a number of bytes into a readable file size like 1.4 MB.\n  needs: bytes: number\n  optional: base: string, decimals: integer\n  e.g. \"how big is 1500000 bytes\" \u2192 {\"bytes\":1500000}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "bytes"
+    ],
+    "properties": {
+     "bytes": {
+      "type": "number",
+      "label": "bytes",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "How many bytes?"
+     },
+     "base": {
+      "type": "string",
+      "label": "decimal or binary",
+      "enum": [
+       "decimal",
+       "binary"
+      ],
+      "default": "decimal"
+     },
+     "decimals": {
+      "type": "integer",
+      "label": "decimal places",
+      "minimum": 0,
+      "maximum": 4,
+      "default": 1
+     }
+    }
+   },
+   "examples": [
+    "how big is 1500000 bytes",
+    "make 1073741824 bytes readable in binary units",
+    "what is 512 bytes as a file size",
+    "human readable size of 2500000000 bytes",
+    "how big is an empty file"
+   ]
+  },
+  {
+   "name": "compoundInterest",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "compoundInterest \u2014 Grow a sum year on year, with each year\u2019s interest earning interest too.\n  needs: principal: number, rate: number, years: number\n  optional: frequency: string, contribution: number\n  e.g. \"what does 1000 grow to at 5% for 10 years\" \u2192 {\"principal\":1000,\"rate\":5,\"years\":10}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "principal",
+     "rate",
+     "years"
+    ],
+    "properties": {
+     "principal": {
+      "type": "number",
+      "label": "starting amount",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "How much is the starting amount?"
+     },
+     "rate": {
+      "type": "number",
+      "label": "annual rate %",
+      "minimum": 0,
+      "prompt": "What annual interest rate, as a percentage?"
+     },
+     "years": {
+      "type": "number",
+      "label": "years",
+      "exclusiveMinimum": 0,
+      "prompt": "Over how many years?"
+     },
+     "frequency": {
+      "type": "string",
+      "label": "compounding",
+      "enum": [
+       "annually",
+       "semi-annually",
+       "quarterly",
+       "monthly",
+       "weekly",
+       "daily"
+      ],
+      "default": "annually"
+     },
+     "contribution": {
+      "type": "number",
+      "label": "added each period",
+      "minimum": 0,
+      "default": 0,
+      "description": "added each compounding period"
+     }
+    }
+   },
+   "examples": [
+    "what does 1000 grow to at 5% for 10 years",
+    "compound 5000 at 4% monthly for 5 years",
+    "save 200 a month at 6% for 20 years",
+    "compound 2500 quarterly at 3% for 3 years",
+    "growth at zero interest"
+   ]
+  },
+  {
+   "name": "generateCalendarGrid",
+   "category": "generation",
+   "needsNetwork": false,
+   "card": "generateCalendarGrid \u2014 Draw a month out as a printable calendar grid of weeks.\n  needs: year: integer, month: integer\n  optional: startOn: string\n  e.g. \"show me a calendar grid for September 2026\" \u2192 {\"year\":2026,\"month\":9}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "year",
+     "month"
+    ],
+    "properties": {
+     "year": {
+      "type": "integer",
+      "label": "year",
+      "minimum": 1,
+      "maximum": 9999,
+      "prompt": "Which year?"
+     },
+     "month": {
+      "type": "integer",
+      "label": "month",
+      "minimum": 1,
+      "maximum": 12,
+      "prompt": "Which month, as a number from 1 to 12?"
+     },
+     "startOn": {
+      "type": "string",
+      "label": "week starts on",
+      "enum": [
+       "Monday",
+       "Sunday"
+      ],
+      "default": "Monday"
+     }
+    }
+   },
+   "examples": [
+    "show me a calendar grid for September 2026",
+    "calendar for February 2026",
+    "month grid for February 2024",
+    "calendar starting on Sunday for September 2026",
+    "grid for January 2026",
+    "show february 2027 as a grid of weeks",
+    "lay out march 2027 week by week"
+   ]
+  }
+ ]
+}

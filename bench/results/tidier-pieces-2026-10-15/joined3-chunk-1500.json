@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-16T04:30:38.524Z",
+  "engine": "http://127.0.0.1:8153",
+  "base": null,
+  "chunk": 1500,
+  "join": 3,
+  "rows": 39,
+  "pieces": 120,
+  "wallMs": 411664,
+  "failed": 0,
+  "byLevel": {
+    "light": {
+      "n": 13,
+      "exact": 0,
+      "bF1": 11.221143816216935,
+      "pF1": 8.876373626373626,
+      "fabricated": 0,
+      "figuresLost": 0,
+      "truncated": 0,
+      "vetoed": 0,
+      "escaped": 0
+    },
+    "medium": {
+      "n": 13,
+      "exact": 0,
+      "bF1": 10.755397564701877,
+      "pF1": 8.940476190476192,
+      "fabricated": 1,
+      "figuresLost": 0,
+      "truncated": 0,
+      "vetoed": 0,
+      "escaped": 0,
+      "changedSilently": 0
+    },
+    "heavy": {
+      "n": 13,
+      "exact": 0,
+      "bF1": 10.130385596694808,
+      "pF1": 7.119230769230769,
+      "fabricated": 0,
+      "figuresLost": 0,
+      "truncated": 0,
+      "vetoed": 0,
+      "escaped": 0
+    }
+  },
+  "totals": {
+    "fabricated": 1,
+    "vetoed": 0,
+    "escaped": 0,
+    "n": 39
+  },
+  "escapes": []
+}

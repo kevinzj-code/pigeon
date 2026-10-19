@@ -1,0 +1,18 @@
+[package]
+name = "pigeon-ffi"
+version = "0.1.0"
+description = "libpigeon: the Pigeon engine behind a C interface (INTERFACE.md §2), for hosts that are not the Pigeon app."
+authors = ["Kevin Jackson"]
+edition = "2021"
+rust-version = "1.77.2"
+license = "Apache-2.0"
+
+[lib]
+# `-lpigeon`: libpigeon.dylib and libpigeon.a. The rlib is for this crate's
+# own tests.
+name = "pigeon"
+crate-type = ["cdylib", "staticlib", "rlib"]
+
+[dependencies]
+pigeon-engine = { path = "../pigeon-engine" }
+serde_json = "1"

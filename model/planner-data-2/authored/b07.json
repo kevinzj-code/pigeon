@@ -1,0 +1,7156 @@
+{
+ "rows": [
+  {
+   "skill": "convertAngle",
+   "message": "my CNC software wants the cut angle in radians — it's 22.5 degrees",
+   "input": {
+    "amount": 22.5,
+    "from": "degrees",
+    "to": "radians"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "what's 0.75 radians in degrees?",
+   "input": {
+    "amount": 0.75,
+    "from": "radians",
+    "to": "degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "Surveyor here. Need 100 gradians expressed in degrees please.",
+   "input": {
+    "amount": 100,
+    "from": "gradians",
+    "to": "degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "how many arcseconds in 0.5 degrees",
+   "input": {
+    "amount": 0.5,
+    "from": "degrees",
+    "to": "arcseconds"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "telescope mount reads 3600 arcseconds, what's that in degrees",
+   "input": {
+    "amount": 3600,
+    "from": "arcseconds",
+    "to": "degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "change 2.5 turns into degrees",
+   "input": {
+    "amount": 2.5,
+    "from": "turns",
+    "to": "degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "a quarter turn — how many radians is that?",
+   "input": {
+    "amount": 0.25,
+    "from": "turns",
+    "to": "radians"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "quick one: 270 degrees in radians pls",
+   "input": {
+    "amount": 270,
+    "from": "degrees",
+    "to": "radians"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "Physics homework: express 1.2 rad in degrees, rounding is fine.",
+   "input": {
+    "amount": 1.2,
+    "from": "rad",
+    "to": "degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "angle of 15 arcminutes in degrees?",
+   "input": {
+    "amount": 15,
+    "from": "arcminutes",
+    "to": "degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "my protractor says 35 degrees, what is it in gradians",
+   "input": {
+    "amount": 35,
+    "from": "degrees",
+    "to": "gradians"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "What fraction of a full revolution is 60 degrees? Give it in turns.",
+   "input": {
+    "amount": 60,
+    "from": "degrees",
+    "to": "turns"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "Roof pitch is 40 degrees; my calculator only does radians, so convert it.",
+   "input": {
+    "amount": 40,
+    "from": "degrees",
+    "to": "radians"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "3.14159 radians — degrees?",
+   "input": {
+    "amount": 3.14159,
+    "from": "radians",
+    "to": "degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "change 450 gradians to radians",
+   "input": {
+    "amount": 450,
+    "from": "gradians",
+    "to": "radians"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "artillery manual uses mils: convert 1600 mils into degrees",
+   "input": {
+    "amount": 1600,
+    "from": "mils",
+    "to": "degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "how many arcminutes are there in 2 degrees",
+   "input": {
+    "amount": 2,
+    "from": "degrees",
+    "to": "arcminutes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "Express 7200 arcseconds as arcminutes.",
+   "input": {
+    "amount": 7200,
+    "from": "arcseconds",
+    "to": "arcminutes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "skater landed a 540 — degrees, obviously. how many full turns is that?",
+   "input": {
+    "amount": 540,
+    "from": "degrees",
+    "to": "turns"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "Could you convert an angle of 1.0472 radians into degrees for me?",
+   "input": {
+    "amount": 1.0472,
+    "from": "radians",
+    "to": "degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "robot arm joint limit is 2.09 rad, what's that in degrees",
+   "input": {
+    "amount": 2.09,
+    "from": "rad",
+    "to": "degrees"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "my lathe readout gives the taper angle in degrees but the formula needs radians — convert it",
+   "input": {
+    "from": "degrees",
+    "to": "radians"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "I've got a bearing in gradians that I need in degrees, can you convert it",
+   "input": {
+    "from": "gradians",
+    "to": "degrees"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertAngle",
+   "message": "the sun's elevation was 12.5 degrees — give it to me in radians",
+   "input": {
+    "amount": 12.5,
+    "from": "degrees",
+    "to": "radians"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "our flat is 68 square metres, what's that in square feet for the US listing?",
+   "input": {
+    "amount": 68,
+    "from": "m2",
+    "to": "ft2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "farm for sale: 120 acres. how many hectares is that",
+   "input": {
+    "amount": 120,
+    "from": "acre",
+    "to": "ha"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "a 2.4 hectare paddock — how big is that in acres?",
+   "input": {
+    "amount": 2.4,
+    "from": "ha",
+    "to": "acre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "Patio of 300 square feet, convert to m2 please",
+   "input": {
+    "amount": 300,
+    "from": "ft2",
+    "to": "m2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "How many square metres is a 0.25 acre plot?",
+   "input": {
+    "amount": 0.25,
+    "from": "acre",
+    "to": "m2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "landlord says the office is 1,850 sq ft — square metres?",
+   "input": {
+    "amount": 1850,
+    "from": "ft2",
+    "to": "m2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "the lake is 15 square kilometres; tell me that in square miles",
+   "input": {
+    "amount": 15,
+    "from": "km2",
+    "to": "mi2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "Teacher here: a football pitch is about 7140 square metres; what is that in acres?",
+   "input": {
+    "amount": 7140,
+    "from": "m2",
+    "to": "acre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "how many square yards of carpet is 40 square metres",
+   "input": {
+    "amount": 40,
+    "from": "m2",
+    "to": "yd2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "a 12 square inch tile in square centimetres?",
+   "input": {
+    "amount": 12,
+    "from": "in2",
+    "to": "cm2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "what's 640 acres in square miles",
+   "input": {
+    "amount": 640,
+    "from": "acre",
+    "to": "mi2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "The national park covers 3,200 square miles. Hectares?",
+   "input": {
+    "amount": 3200,
+    "from": "mi2",
+    "to": "ha"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "convert 5000 m2 to ha",
+   "input": {
+    "amount": 5000,
+    "from": "m2",
+    "to": "ha"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "I'm painting 45 sq m of wall and the tin coverage is in square feet. convert pls",
+   "input": {
+    "amount": 45,
+    "from": "m2",
+    "to": "ft2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "garden is half an acre, how many square feet is it",
+   "input": {
+    "amount": 0.5,
+    "from": "acre",
+    "to": "ft2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "an A4 sheet is roughly 624 square cm — in square inches?",
+   "input": {
+    "amount": 624,
+    "from": "cm2",
+    "to": "in2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "Express 2.5 square miles in acres",
+   "input": {
+    "amount": 2.5,
+    "from": "mi2",
+    "to": "acre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "what is 950 square feet in square metres, roughly",
+   "input": {
+    "amount": 950,
+    "from": "ft2",
+    "to": "m2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "vineyard of 18 hectares — how many square kilometres?",
+   "input": {
+    "amount": 18,
+    "from": "ha",
+    "to": "km2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "Converting 1000 square yards to square metres for a tender document.",
+   "input": {
+    "amount": 1000,
+    "from": "yd2",
+    "to": "m2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "how many acres would 10 hectares be",
+   "input": {
+    "amount": 10,
+    "from": "ha",
+    "to": "acre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertArea",
+   "message": "convert the floor area on this plan from square feet to square metres",
+   "input": {
+    "from": "ft2",
+    "to": "m2"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertArea",
+   "message": "what's my allotment in acres? the council measured it in square metres",
+   "input": {
+    "from": "m2",
+    "to": "acre"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertArea",
+   "message": "solar array needs 75 square metres of roof, what's that in sq ft",
+   "input": {
+    "amount": 75,
+    "from": "m2",
+    "to": "ft2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "what is 173 in binary?",
+   "input": {
+    "value": "173",
+    "fromBase": 10,
+    "toBase": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "binary 101101 — what's that in decimal?",
+   "input": {
+    "value": "101101",
+    "fromBase": 2,
+    "toBase": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "convert hex FF00 to decimal for a colour value",
+   "input": {
+    "value": "FF00",
+    "fromBase": 16,
+    "toBase": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "unix permission 755 is octal — what is it in decimal?",
+   "input": {
+    "value": "755",
+    "fromBase": 8,
+    "toBase": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "convert 1000 from base 10 to base 3 for my maths club",
+   "input": {
+    "value": "1000",
+    "fromBase": 10,
+    "toBase": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "express 3E8 in base 8 — it's currently base 16",
+   "input": {
+    "value": "3E8",
+    "fromBase": 16,
+    "toBase": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "base 36 to base 10: what's ZZ",
+   "input": {
+    "value": "ZZ",
+    "fromBase": 36,
+    "toBase": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "pls convert 42 to base 5",
+   "input": {
+    "value": "42",
+    "fromBase": 10,
+    "toBase": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "11110000 in binary — give me the hex",
+   "input": {
+    "value": "11110000",
+    "fromBase": 2,
+    "toBase": 16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "What does 4095 look like in hex?",
+   "input": {
+    "value": "4095",
+    "fromBase": 10,
+    "toBase": 16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "convert 1212 from base 3 into base ten",
+   "input": {
+    "value": "1212",
+    "fromBase": 3,
+    "toBase": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "My kid's homework: change 64 from base 10 to base 4.",
+   "input": {
+    "value": "64",
+    "fromBase": 10,
+    "toBase": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "game save stores 7A3F in hex — convert it to decimal",
+   "input": {
+    "value": "7A3F",
+    "fromBase": 16,
+    "toBase": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "can you do 999 base 10 to base 36?",
+   "input": {
+    "value": "999",
+    "fromBase": 10,
+    "toBase": 36
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "change the number 2B from hex to binary",
+   "input": {
+    "value": "2B",
+    "fromBase": 16,
+    "toBase": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "base 12 number 3A9, what is it in base 10",
+   "input": {
+    "value": "3A9",
+    "fromBase": 12,
+    "toBase": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "I need 52 in base 7, starting from base 10",
+   "input": {
+    "value": "52",
+    "fromBase": 10,
+    "toBase": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "100000000 in base 2 — what's that in base 8?",
+   "input": {
+    "value": "100000000",
+    "fromBase": 2,
+    "toBase": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "what's 31337 written in hexadecimal, for a leet joke",
+   "input": {
+    "value": "31337",
+    "fromBase": 10,
+    "toBase": 16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "how is octal 777 written in binary",
+   "input": {
+    "value": "777",
+    "fromBase": 8,
+    "toBase": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertBase",
+   "message": "there's a hex code in the log I pasted earlier — turn it into an ordinary decimal number",
+   "input": {
+    "fromBase": 16,
+    "toBase": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertBase",
+   "message": "turn the binary below into a decimal number",
+   "input": {
+    "fromBase": 2,
+    "toBase": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertBase",
+   "message": "I've got a base 8 value I need in base 2, can you convert it?",
+   "input": {
+    "fromBase": 8,
+    "toBase": 2
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertBase",
+   "message": "subnet mask byte 248 in binary please",
+   "input": {
+    "value": "248",
+    "fromBase": 10,
+    "toBase": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "my phone says the video is 2.3 GB — how many MB is that?",
+   "input": {
+    "amount": 2.3,
+    "from": "GB",
+    "to": "MB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "a 256 GB SSD shows less in Windows — what is 256 GB in GiB",
+   "input": {
+    "amount": 256,
+    "from": "GB",
+    "to": "GiB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "750 MB expressed in GB please",
+   "input": {
+    "amount": 750,
+    "from": "MB",
+    "to": "GB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "convert a 12000 byte file size to KiB",
+   "input": {
+    "amount": 12000,
+    "from": "B",
+    "to": "KiB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "upload cap is 25 MB; how many bytes exactly",
+   "input": {
+    "amount": 25,
+    "from": "MB",
+    "to": "B"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "4 TB backup drive in GiB?",
+   "input": {
+    "amount": 4,
+    "from": "TB",
+    "to": "GiB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "sysadmin q: 16 GiB of RAM is how many GB",
+   "input": {
+    "amount": 16,
+    "from": "GiB",
+    "to": "GB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "how many bits are in 64 kB",
+   "input": {
+    "amount": 64,
+    "from": "kB",
+    "to": "b"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "photo library is 180,000 MB. TB?",
+   "input": {
+    "amount": 180000,
+    "from": "MB",
+    "to": "TB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "convert 512 MiB to MB for the spec sheet",
+   "input": {
+    "amount": 512,
+    "from": "MiB",
+    "to": "MB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "Teacher here — show my class how many kilobytes are in 3 megabytes",
+   "input": {
+    "amount": 3,
+    "from": "MB",
+    "to": "kB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "Download size is 45 GB; what's that in GiB so I can compare with my drive",
+   "input": {
+    "amount": 45,
+    "from": "GB",
+    "to": "GiB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "how much is 2048 KiB in MiB",
+   "input": {
+    "amount": 2048,
+    "from": "KiB",
+    "to": "MiB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "half a terabyte in gigabytes?",
+   "input": {
+    "amount": 0.5,
+    "from": "TB",
+    "to": "GB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "firmware image is 8388608 bytes — MiB?",
+   "input": {
+    "amount": 8388608,
+    "from": "B",
+    "to": "MiB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "Our cloud bill lists 3.2 TiB of storage. What's that in TB?",
+   "input": {
+    "amount": 3.2,
+    "from": "TiB",
+    "to": "TB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "file size of 1,000,000 bytes — how many kB?",
+   "input": {
+    "amount": 1000000,
+    "from": "B",
+    "to": "kB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "email limit is 10 MB — what is 10 MB in MiB?",
+   "input": {
+    "amount": 10,
+    "from": "MB",
+    "to": "MiB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "how many GB is a 700 MB CD",
+   "input": {
+    "amount": 700,
+    "from": "MB",
+    "to": "GB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "Convert 96 bits into bytes.",
+   "input": {
+    "amount": 96,
+    "from": "b",
+    "to": "B"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "how big is this folder in GB? Finder shows it in MB",
+   "input": {
+    "from": "MB",
+    "to": "GB"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "convert my storage quota from GiB to GB",
+   "input": {
+    "from": "GiB",
+    "to": "GB"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "USB stick says 64 GB but my laptop reports GiB — convert the 64 GB",
+   "input": {
+    "amount": 64,
+    "from": "GB",
+    "to": "GiB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertDataSize",
+   "message": "raw sensor dump: 0.75 GB, how many MB",
+   "input": {
+    "amount": 0.75,
+    "from": "GB",
+    "to": "MB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "my hatchback does 52 mpg (UK) — what's that in l/100km?",
+   "input": {
+    "amount": 52,
+    "from": "mpg-uk",
+    "to": "l/100km"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "rental car brochure says 6.2 L/100km, how many US mpg is that",
+   "input": {
+    "amount": 6.2,
+    "from": "l/100km",
+    "to": "mpg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "convert 18 km/l to mpg",
+   "input": {
+    "amount": 18,
+    "from": "km/l",
+    "to": "mpg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "Truck gets 14 miles per gallon; my European friends want litres per 100 km",
+   "input": {
+    "amount": 14,
+    "from": "mpg",
+    "to": "l/100km"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "Our diesel averages 4.8 l/100km; my British uncle wants that as UK mpg",
+   "input": {
+    "amount": 4.8,
+    "from": "l/100km",
+    "to": "mpg-uk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "what's 25 mpg in km per litre",
+   "input": {
+    "amount": 25,
+    "from": "mpg",
+    "to": "km/l"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "car magazine lists fuel economy as 21 km/l — l/100km please",
+   "input": {
+    "amount": 21,
+    "from": "km/l",
+    "to": "l/100km"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "my old Land Rover manages 22 imperial mpg. in km/l?",
+   "input": {
+    "amount": 22,
+    "from": "mpg-uk",
+    "to": "km/l"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "compare for me: 9.1 l/100km is what in miles per gallon (US)",
+   "input": {
+    "amount": 9.1,
+    "from": "l/100km",
+    "to": "mpg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "35 US mpg to UK mpg",
+   "input": {
+    "amount": 35,
+    "from": "mpg",
+    "to": "mpg-uk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "fuel economy of 12 km/l, convert to litres per 100 km",
+   "input": {
+    "amount": 12,
+    "from": "km/l",
+    "to": "l/100km"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "We're buying a van rated 8.5 L/100km. What would that be in imperial mpg?",
+   "input": {
+    "amount": 8.5,
+    "from": "l/100km",
+    "to": "mpg-uk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "dad's car does 45 mpg in the UK, in US mpg that's?",
+   "input": {
+    "amount": 45,
+    "from": "mpg-uk",
+    "to": "mpg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "the hybrid's sticker claims 3.9 l/100km; convert that to km/l",
+   "input": {
+    "amount": 3.9,
+    "from": "l/100km",
+    "to": "km/l"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "turn 60 mpg into litres/100km",
+   "input": {
+    "amount": 60,
+    "from": "mpg",
+    "to": "l/100km"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "For my fleet report: 11.3 litres per 100 kilometres expressed as US mpg.",
+   "input": {
+    "amount": 11.3,
+    "from": "l/100km",
+    "to": "mpg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "motorbike does 70 mpg imperial, what's that in l/100km",
+   "input": {
+    "amount": 70,
+    "from": "mpg-uk",
+    "to": "l/100km"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "convert 15.5 km/l into UK mpg",
+   "input": {
+    "amount": 15.5,
+    "from": "km/l",
+    "to": "mpg-uk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "the RV only gets 10 mpg, how many litres per hundred km is that",
+   "input": {
+    "amount": 10,
+    "from": "mpg",
+    "to": "l/100km"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "Is 6 l/100km good? Tell me in mpg",
+   "input": {
+    "amount": 6,
+    "from": "l/100km",
+    "to": "mpg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "my dashboard shows fuel economy in l/100km — convert it to mpg for me",
+   "input": {
+    "from": "l/100km",
+    "to": "mpg"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "convert the car's mpg figure into km/l",
+   "input": {
+    "from": "mpg",
+    "to": "km/l"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "Saw 40.4 mpg on a UK review but I think in litres per 100km",
+   "input": {
+    "amount": 40.4,
+    "from": "mpg-uk",
+    "to": "l/100km"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "message": "quick: 7 L/100km → km/l",
+   "input": {
+    "amount": 7,
+    "from": "l/100km",
+    "to": "km/l"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "she's 162 cm tall, what's that in feet",
+   "input": {
+    "amount": 162,
+    "from": "cm",
+    "to": "ft"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "the trail is 13.1 miles, how many kilometres",
+   "input": {
+    "amount": 13.1,
+    "from": "mi",
+    "to": "km"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "How long is a 50 metre pool in feet?",
+   "input": {
+    "amount": 50,
+    "from": "m",
+    "to": "ft"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "TV diagonal 55 inches in cm",
+   "input": {
+    "amount": 55,
+    "from": "in",
+    "to": "cm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "convert 400 yards to metres for the golf scorecard",
+   "input": {
+    "amount": 400,
+    "from": "yd",
+    "to": "m"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "drill bit is 8 mm — inches?",
+   "input": {
+    "amount": 8,
+    "from": "mm",
+    "to": "in"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "it's 2,500 km from here to there, in miles?",
+   "input": {
+    "amount": 2500,
+    "from": "km",
+    "to": "mi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "Ceiling height is 2.4 m; my American contractor wants feet.",
+   "input": {
+    "amount": 2.4,
+    "from": "m",
+    "to": "ft"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "how many inches are in 3 feet",
+   "input": {
+    "amount": 3,
+    "from": "ft",
+    "to": "in"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "cable run of 75 ft in metres",
+   "input": {
+    "amount": 75,
+    "from": "ft",
+    "to": "m"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "Everest is 8849 metres, how many feet is that",
+   "input": {
+    "amount": 8849,
+    "from": "m",
+    "to": "ft"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "what's a 10 mile run in km",
+   "input": {
+    "amount": 10,
+    "from": "mi",
+    "to": "km"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "convert 0.5 inches to millimetres",
+   "input": {
+    "amount": 0.5,
+    "from": "in",
+    "to": "mm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "Fabric is sold by the yard — I need 3 metres, how many yards is that?",
+   "input": {
+    "amount": 3,
+    "from": "m",
+    "to": "yd"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "map says 4.2 km to the pub, what's that in miles?",
+   "input": {
+    "amount": 4.2,
+    "from": "km",
+    "to": "mi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "how far is 800 m in miles",
+   "input": {
+    "amount": 800,
+    "from": "m",
+    "to": "mi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "a 6 inch sub is how many centimetres",
+   "input": {
+    "amount": 6,
+    "from": "in",
+    "to": "cm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "the bookshelf is 180 cm high; inches please",
+   "input": {
+    "amount": 180,
+    "from": "cm",
+    "to": "in"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "Convert 1 mile to yards.",
+   "input": {
+    "amount": 1,
+    "from": "mi",
+    "to": "yd"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "Nurse here: baby is 52 cm long — in inches for the dad?",
+   "input": {
+    "amount": 52,
+    "from": "cm",
+    "to": "in"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "how many feet is a 100 m sprint",
+   "input": {
+    "amount": 100,
+    "from": "m",
+    "to": "ft"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertLength",
+   "message": "I need my height in feet, but the form I have gives it in centimetres",
+   "input": {
+    "from": "cm",
+    "to": "ft"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertLength",
+   "message": "the race distance is in miles, can you put it in km",
+   "input": {
+    "from": "mi",
+    "to": "km"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertLength",
+   "message": "garden fence is 32 feet long, how many metres",
+   "input": {
+    "amount": 32,
+    "from": "ft",
+    "to": "m"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "I weigh 12.5 stone — kg?",
+   "input": {
+    "amount": 12.5,
+    "from": "st",
+    "to": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "suitcase limit is 23 kg, how many lbs is that",
+   "input": {
+    "amount": 23,
+    "from": "kg",
+    "to": "lb"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "Recipe says 250 g of butter; convert that to ounces for my scale",
+   "input": {
+    "amount": 250,
+    "from": "g",
+    "to": "oz"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "baby weighed 7.5 pounds at birth, grams please",
+   "input": {
+    "amount": 7.5,
+    "from": "lb",
+    "to": "g"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "convert 3.5 tonnes to pounds",
+   "input": {
+    "amount": 3.5,
+    "from": "t",
+    "to": "lb"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "how many ounces in a 1.2 kg bag of rice",
+   "input": {
+    "amount": 1.2,
+    "from": "kg",
+    "to": "oz"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "Deadlift PR is 405 lb, what's that in kilos",
+   "input": {
+    "amount": 405,
+    "from": "lb",
+    "to": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "gold: 31.1 grams to ounces",
+   "input": {
+    "amount": 31.1,
+    "from": "g",
+    "to": "oz"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "my dog is 30 kg, in stone?",
+   "input": {
+    "amount": 30,
+    "from": "kg",
+    "to": "st"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "Shipping 850 grams — pounds?",
+   "input": {
+    "amount": 850,
+    "from": "g",
+    "to": "lb"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "Pharmacist question: 500 mg in grams",
+   "input": {
+    "amount": 500,
+    "from": "mg",
+    "to": "g"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "how heavy is 16 oz in kg",
+   "input": {
+    "amount": 16,
+    "from": "oz",
+    "to": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "boat displacement 4,200 kg — tonnes?",
+   "input": {
+    "amount": 4200,
+    "from": "kg",
+    "to": "t"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "Convert 180 pounds to stone for my UK doctor.",
+   "input": {
+    "amount": 180,
+    "from": "lb",
+    "to": "st"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "how many kg is a 14 lb turkey",
+   "input": {
+    "amount": 14,
+    "from": "lb",
+    "to": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "a 2 kg bag of sugar in pounds?",
+   "input": {
+    "amount": 2,
+    "from": "kg",
+    "to": "lb"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "weigh-in was 9 st — kg please",
+   "input": {
+    "amount": 9,
+    "from": "st",
+    "to": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "Converting a US recipe: 0.75 lb of mince in grams",
+   "input": {
+    "amount": 0.75,
+    "from": "lb",
+    "to": "g"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "what does 60 tonnes come to in kg",
+   "input": {
+    "amount": 60,
+    "from": "t",
+    "to": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "boxer fights at 147 pounds; kilos?",
+   "input": {
+    "amount": 147,
+    "from": "lb",
+    "to": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "parcel is 3,000 g, convert to kilograms",
+   "input": {
+    "amount": 3000,
+    "from": "g",
+    "to": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertMass",
+   "message": "convert my weight from pounds to kg",
+   "input": {
+    "from": "lb",
+    "to": "kg"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertMass",
+   "message": "luggage scale reads in kg but the airline lists pounds — convert the reading",
+   "input": {
+    "from": "kg",
+    "to": "lb"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertMass",
+   "message": "10 ounces of cheese, how many grams",
+   "input": {
+    "amount": 10,
+    "from": "oz",
+    "to": "g"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "the film credits end with MCMXCVII — what year is that?",
+   "input": {
+    "value": "MCMXCVII"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "Super Bowl LVIII — which number is LVIII",
+   "input": {
+    "value": "LVIII"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "tattoo idea: our wedding year 2019 in Roman numerals",
+   "input": {
+    "value": "2019"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "the Roman numeral IX on my clock face — what number is it?",
+   "input": {
+    "value": "IX"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "88 as a Roman numeral, please — it's for a jersey design",
+   "input": {
+    "value": "88"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "the book uses Roman numeral chapters; which number is XXIV",
+   "input": {
+    "value": "XXIV"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "convert 1666 to Roman",
+   "input": {
+    "value": "1666"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "My grandad's headstone says MCMXLIV. Year?",
+   "input": {
+    "value": "MCMXLIV"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "Need 500 as a roman numeral for a quiz",
+   "input": {
+    "value": "500"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "Louis XIV — what number is XIV?",
+   "input": {
+    "value": "XIV"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "Roman numeral version of 2001 please",
+   "input": {
+    "value": "2001"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "decode the Roman numeral CDXLIV",
+   "input": {
+    "value": "CDXLIV"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "Translate DCCCLXXXVIII into ordinary digits.",
+   "input": {
+    "value": "DCCCLXXXVIII"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "watchmaker's client wants 12 on the dial in roman numerals",
+   "input": {
+    "value": "12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "what's 1492 as roman numerals",
+   "input": {
+    "value": "1492"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "Copyright line says MMVIII in Roman numerals. Convert it to a normal number.",
+   "input": {
+    "value": "MMVIII"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "for the cornerstone engraving, write 1925 in Roman numerals",
+   "input": {
+    "value": "1925"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "XC in roman numerals — number?",
+   "input": {
+    "value": "XC"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "Can you turn 76 into Roman numerals for my essay title?",
+   "input": {
+    "value": "76"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "Sundial reads VII; what's that in normal numbers",
+   "input": {
+    "value": "VII"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "what does the roman numeral on this cornerstone say in normal numbers?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "turn my house number into roman numerals for the sign",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "decode the roman numerals at the end of this movie's credits",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "message": "how is 49 written in roman numerals",
+   "input": {
+    "value": "49"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "speed limit is 50 km/h here — what is that in mph",
+   "input": {
+    "amount": 50,
+    "from": "km/h",
+    "to": "mph"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "my bike computer says 32 kph, mph?",
+   "input": {
+    "amount": 32,
+    "from": "km/h",
+    "to": "mph"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "wind gusts of 45 knots in mph",
+   "input": {
+    "amount": 45,
+    "from": "kn",
+    "to": "mph"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "a cheetah hits 29 m/s — how many km/h is that",
+   "input": {
+    "amount": 29,
+    "from": "m/s",
+    "to": "km/h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "the ferry cruises at 18 knots, km/h please",
+   "input": {
+    "amount": 18,
+    "from": "kn",
+    "to": "km/h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "what's 120 mph in metres per second",
+   "input": {
+    "amount": 120,
+    "from": "mph",
+    "to": "m/s"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "Pitch clocked at 95 mph. In km/h?",
+   "input": {
+    "amount": 95,
+    "from": "mph",
+    "to": "km/h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "US speed limit is 65 mph, how fast is that in kph",
+   "input": {
+    "amount": 65,
+    "from": "mph",
+    "to": "km/h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "convert 340 m/s to mph — speed of sound question for my physics class",
+   "input": {
+    "amount": 340,
+    "from": "m/s",
+    "to": "mph"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "treadmill set at 10 km/h, mph?",
+   "input": {
+    "amount": 10,
+    "from": "km/h",
+    "to": "mph"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "glider's airspeed is 60 knots — m/s?",
+   "input": {
+    "amount": 60,
+    "from": "kn",
+    "to": "m/s"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "walking pace is about 1.4 m/s, how many km/h",
+   "input": {
+    "amount": 1.4,
+    "from": "m/s",
+    "to": "km/h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "train tops out at 300 km/h. miles per hour?",
+   "input": {
+    "amount": 300,
+    "from": "km/h",
+    "to": "mph"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "Hurricane winds of 150 mph in knots",
+   "input": {
+    "amount": 150,
+    "from": "mph",
+    "to": "kn"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "a 25 km/h e-scooter cap — in mph that's?",
+   "input": {
+    "amount": 25,
+    "from": "km/h",
+    "to": "mph"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "tell me 80 kph in mph",
+   "input": {
+    "amount": 80,
+    "from": "km/h",
+    "to": "mph"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "Speedboat does 40 mph; knots?",
+   "input": {
+    "amount": 40,
+    "from": "mph",
+    "to": "kn"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "drone max speed 20 m/s — mph?",
+   "input": {
+    "amount": 20,
+    "from": "m/s",
+    "to": "mph"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "convert 15 ft/s to m/s",
+   "input": {
+    "amount": 15,
+    "from": "ft/s",
+    "to": "m/s"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "On the autobahn I hit 200 km/h, what's that in mph?",
+   "input": {
+    "amount": 200,
+    "from": "km/h",
+    "to": "mph"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "radar gun reads 72 km/h, metres per second?",
+   "input": {
+    "amount": 72,
+    "from": "km/h",
+    "to": "m/s"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "convert the wind speed in this forecast from knots to km/h",
+   "input": {
+    "from": "kn",
+    "to": "km/h"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "my car's speedo is in mph — convert what it says to km/h",
+   "input": {
+    "from": "mph",
+    "to": "km/h"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertSpeed",
+   "message": "jet stream at 250 km/h, knots?",
+   "input": {
+    "amount": 250,
+    "from": "km/h",
+    "to": "kn"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "it's 31 °C in Lisbon today, what's that in fahrenheit",
+   "input": {
+    "amount": 31,
+    "from": "celsius",
+    "to": "fahrenheit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "fever of 102 F — celsius?",
+   "input": {
+    "amount": 102,
+    "from": "fahrenheit",
+    "to": "celsius"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "American recipe says bake at 350 fahrenheit; my oven's in celsius",
+   "input": {
+    "amount": 350,
+    "from": "fahrenheit",
+    "to": "celsius"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "Liquid nitrogen boils at 77 K. Celsius please.",
+   "input": {
+    "amount": 77,
+    "from": "kelvin",
+    "to": "celsius"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "what's -18 C in F (freezer temp)",
+   "input": {
+    "amount": -18,
+    "from": "celsius",
+    "to": "fahrenheit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "pool water is 26 degrees celsius, in fahrenheit?",
+   "input": {
+    "amount": 26,
+    "from": "celsius",
+    "to": "fahrenheit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "paper burns at 451 fahrenheit, they say; what's that in celsius",
+   "input": {
+    "amount": 451,
+    "from": "fahrenheit",
+    "to": "celsius"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "room is 68 F, what is that in C",
+   "input": {
+    "amount": 68,
+    "from": "fahrenheit",
+    "to": "celsius"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "chemistry lab: 298 kelvin to celsius",
+   "input": {
+    "amount": 298,
+    "from": "kelvin",
+    "to": "celsius"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "surface of the sun is 5778 K — fahrenheit?",
+   "input": {
+    "amount": 5778,
+    "from": "kelvin",
+    "to": "fahrenheit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "my thermometer reads 37.8 celsius, convert to F for the doctor",
+   "input": {
+    "amount": 37.8,
+    "from": "celsius",
+    "to": "fahrenheit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "how hot is 40 degrees C in fahrenheit",
+   "input": {
+    "amount": 40,
+    "from": "celsius",
+    "to": "fahrenheit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "Hey, 25 celsius into kelvin?",
+   "input": {
+    "amount": 25,
+    "from": "celsius",
+    "to": "kelvin"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "the weather app says 14 fahrenheit, how cold is that in celsius",
+   "input": {
+    "amount": 14,
+    "from": "fahrenheit",
+    "to": "celsius"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "Brewing tip says mash at 152 F. celsius?",
+   "input": {
+    "amount": 152,
+    "from": "fahrenheit",
+    "to": "celsius"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "convert 100 C to K",
+   "input": {
+    "amount": 100,
+    "from": "celsius",
+    "to": "kelvin"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "sous vide at 57 celsius, what's that in fahrenheit",
+   "input": {
+    "amount": 57,
+    "from": "celsius",
+    "to": "fahrenheit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "minus 10 celsius in fahrenheit please",
+   "input": {
+    "amount": -10,
+    "from": "celsius",
+    "to": "fahrenheit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "Nurse here: patient temp 95.5°F. Celsius equivalent?",
+   "input": {
+    "amount": 95.5,
+    "from": "fahrenheit",
+    "to": "celsius"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "what's 0 F in celsius",
+   "input": {
+    "amount": 0,
+    "from": "fahrenheit",
+    "to": "celsius"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "Body temperature of 36.6 C in Fahrenheit",
+   "input": {
+    "amount": 36.6,
+    "from": "celsius",
+    "to": "fahrenheit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "convert today's high from fahrenheit to celsius",
+   "input": {
+    "from": "fahrenheit",
+    "to": "celsius"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "the manual gives the max operating temperature in celsius, I need it in fahrenheit",
+   "input": {
+    "from": "celsius",
+    "to": "fahrenheit"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertTemperature",
+   "message": "Kiln fires to 1,200 °C — fahrenheit?",
+   "input": {
+    "amount": 1200,
+    "from": "celsius",
+    "to": "fahrenheit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "my shift is 12 hours — how many minutes",
+   "input": {
+    "amount": 12,
+    "from": "h",
+    "to": "min"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "flight time listed as 760 minutes — convert to hours",
+   "input": {
+    "amount": 760,
+    "from": "min",
+    "to": "h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "convert one week to seconds",
+   "input": {
+    "amount": 1,
+    "from": "wk",
+    "to": "s"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "baby is 20 weeks old — days?",
+   "input": {
+    "amount": 20,
+    "from": "wk",
+    "to": "d"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "Convert 1.5 years into days.",
+   "input": {
+    "amount": 1.5,
+    "from": "yr",
+    "to": "d"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "podcast runs 4,500 seconds; minutes please",
+   "input": {
+    "amount": 4500,
+    "from": "s",
+    "to": "min"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "Project deadline is 45 days away. How many weeks?",
+   "input": {
+    "amount": 45,
+    "from": "d",
+    "to": "wk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "how many hours in 2 weeks",
+   "input": {
+    "amount": 2,
+    "from": "wk",
+    "to": "h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "250 ms in seconds",
+   "input": {
+    "amount": 250,
+    "from": "ms",
+    "to": "s"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "turn 36 hours into days",
+   "input": {
+    "amount": 36,
+    "from": "h",
+    "to": "d"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "I studied 1,200 minutes this month — hours?",
+   "input": {
+    "amount": 1200,
+    "from": "min",
+    "to": "h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "the timer shows 7200 s, how many minutes",
+   "input": {
+    "amount": 7200,
+    "from": "s",
+    "to": "min"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "How many days is 1000 hours?",
+   "input": {
+    "amount": 1000,
+    "from": "h",
+    "to": "d"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "a drip running 480 minutes is how many hours",
+   "input": {
+    "amount": 480,
+    "from": "min",
+    "to": "h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "quick: 0.75 hours in minutes",
+   "input": {
+    "amount": 0.75,
+    "from": "h",
+    "to": "min"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "how many minutes in 3.5 days",
+   "input": {
+    "amount": 3.5,
+    "from": "d",
+    "to": "min"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "convert 52 weeks to days",
+   "input": {
+    "amount": 52,
+    "from": "wk",
+    "to": "d"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "game save says 10,000 seconds played, hours?",
+   "input": {
+    "amount": 10000,
+    "from": "s",
+    "to": "h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "Lease is 5 years. How many weeks is that?",
+   "input": {
+    "amount": 5,
+    "from": "yr",
+    "to": "wk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "convert 2.5 seconds into milliseconds",
+   "input": {
+    "amount": 2.5,
+    "from": "s",
+    "to": "ms"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "my commute is 35 minutes each way; what's that in hours",
+   "input": {
+    "amount": 35,
+    "from": "min",
+    "to": "h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTime",
+   "message": "convert this recording's length from seconds to minutes",
+   "input": {
+    "from": "s",
+    "to": "min"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertTime",
+   "message": "convert the total on my timesheet from minutes to hours",
+   "input": {
+    "from": "min",
+    "to": "h"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertTime",
+   "message": "a fortnight-long trip is 14 days — hours?",
+   "input": {
+    "amount": 14,
+    "from": "d",
+    "to": "h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "water bottle holds 750 ml, how many cups",
+   "input": {
+    "amount": 750,
+    "from": "ml",
+    "to": "cup"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "recipe needs half a cup of milk — ml?",
+   "input": {
+    "amount": 0.5,
+    "from": "cup",
+    "to": "ml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "fish tank is 40 gallons, litres?",
+   "input": {
+    "amount": 40,
+    "from": "gal",
+    "to": "l"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "recipe wants 5 tablespoons of soy sauce but I only have a teaspoon — how many teaspoons?",
+   "input": {
+    "amount": 5,
+    "from": "tbsp",
+    "to": "tsp"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "how many fl oz is a 330 ml can",
+   "input": {
+    "amount": 330,
+    "from": "ml",
+    "to": "floz"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "convert 2 litres to pints",
+   "input": {
+    "amount": 2,
+    "from": "l",
+    "to": "pt"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "convert one imperial pint of beer into millilitres",
+   "input": {
+    "amount": 1,
+    "from": "pt-uk",
+    "to": "ml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "Need 250 ml of stock but only have measuring cups — how many cups?",
+   "input": {
+    "amount": 250,
+    "from": "ml",
+    "to": "cup"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "pool holds 50,000 litres — gallons?",
+   "input": {
+    "amount": 50000,
+    "from": "l",
+    "to": "gal"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "Nurse: 15 ml dose in teaspoons",
+   "input": {
+    "amount": 15,
+    "from": "ml",
+    "to": "tsp"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "how many quarts in 3 litres",
+   "input": {
+    "amount": 3,
+    "from": "l",
+    "to": "qt"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "Convert 4 quarts to cups.",
+   "input": {
+    "amount": 4,
+    "from": "qt",
+    "to": "cup"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "the jug holds 1.5 litres, how many fluid ounces",
+   "input": {
+    "amount": 1.5,
+    "from": "l",
+    "to": "floz"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "baking: 2 tsp vanilla in ml",
+   "input": {
+    "amount": 2,
+    "from": "tsp",
+    "to": "ml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "my car's tank is 55 litres; in UK gallons?",
+   "input": {
+    "amount": 55,
+    "from": "l",
+    "to": "gal-uk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "how much is 12 fl oz in ml",
+   "input": {
+    "amount": 12,
+    "from": "floz",
+    "to": "ml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "convert 6 cups of water into litres",
+   "input": {
+    "amount": 6,
+    "from": "cup",
+    "to": "l"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "Coffee urn holds 3 gallons → litres",
+   "input": {
+    "amount": 3,
+    "from": "gal",
+    "to": "l"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "4 tablespoons of oil in ml",
+   "input": {
+    "amount": 4,
+    "from": "tbsp",
+    "to": "ml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "how many teaspoons in 30 ml",
+   "input": {
+    "amount": 30,
+    "from": "ml",
+    "to": "tsp"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "What is 500 ml in pints?",
+   "input": {
+    "amount": 500,
+    "from": "ml",
+    "to": "pt"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "convert the milk measurement in this recipe from cups to ml",
+   "input": {
+    "from": "cup",
+    "to": "ml"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "my kettle's capacity is listed in litres; I want it in cups",
+   "input": {
+    "from": "l",
+    "to": "cup"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertVolume",
+   "message": "a 2 pint carton of milk — litres?",
+   "input": {
+    "amount": 2,
+    "from": "pt",
+    "to": "l"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "how do you say 7,850 in words",
+   "input": {
+    "value": 7850
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "cheque for 2,450.75 pounds — words please",
+   "input": {
+    "value": 2450.75,
+    "style": "currency",
+    "currency": "pounds"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "spell 19 out for my son's homework",
+   "input": {
+    "value": 19
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "write out 3.14 in words",
+   "input": {
+    "value": 3.14
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "How is 1,000,001 written in English words?",
+   "input": {
+    "value": 1000001
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "Need 360 spelled out for a contract clause",
+   "input": {
+    "value": 360
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "write 250 dollars in words for a check",
+   "input": {
+    "value": 250,
+    "style": "currency",
+    "currency": "dollars"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "the number 86 in words",
+   "input": {
+    "value": 86
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "spell out 12500 in words for the invoice",
+   "input": {
+    "value": 12500
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "what's 999 written out longhand",
+   "input": {
+    "value": 999
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "Teacher here: write 4,321 as words for the board",
+   "input": {
+    "value": 4321
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "write 0.5 in words",
+   "input": {
+    "value": 0.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "spell out minus 40 in words",
+   "input": {
+    "value": -40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "write 2,000,000,000 in words",
+   "input": {
+    "value": 2000000000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "cheque for 87.25 euros, words please",
+   "input": {
+    "value": 87.25,
+    "style": "currency",
+    "currency": "euros"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "how would I write 1,350 on a wedding card, in words",
+   "input": {
+    "value": 1350
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "spell out 11 for my tattoo",
+   "input": {
+    "value": 11
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "What's 73 in words?",
+   "input": {
+    "value": 73
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "write the number 6,048 out in words please",
+   "input": {
+    "value": 6048
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "writing a cheque for 1,200 pounds — what goes on the words line",
+   "input": {
+    "value": 1200,
+    "style": "currency",
+    "currency": "pounds"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "spell out 15,999 in English",
+   "input": {
+    "value": 15999
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "write the amount on this invoice out in words",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "spell out the total for my cheque",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "numberToWords",
+   "message": "number 100 — words?",
+   "input": {
+    "value": 100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "monthly repayment on a £12,000 car loan at 6.9% over 48 months",
+   "input": {
+    "principal": 12000,
+    "annualRate": 6.9,
+    "months": 48
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "what would I pay each month borrowing 350,000 at 4.25% for 25 years",
+   "input": {
+    "principal": 350000,
+    "annualRate": 4.25,
+    "months": 300
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "monthly repayment on 28000 of student debt at 5.5 percent over 10 years",
+   "input": {
+    "principal": 28000,
+    "annualRate": 5.5,
+    "months": 120
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "amortize $8,500 at 11% APR across 3 years",
+   "input": {
+    "principal": 8500,
+    "annualRate": 11,
+    "months": 36
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "Landlord here. Refinancing 210000 at 3.9% over 20 years — what's the payment and total interest?",
+   "input": {
+    "principal": 210000,
+    "annualRate": 3.9,
+    "months": 240
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "loan calc: 5000, 0% interest, 10 months",
+   "input": {
+    "principal": 5000,
+    "annualRate": 0,
+    "months": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "how much interest will I pay in total on 18,000 borrowed at 7.2% over five years",
+   "input": {
+    "principal": 18000,
+    "annualRate": 7.2,
+    "months": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "boat loan of 45000 at 8.5 percent over 7 years — monthly cost?",
+   "input": {
+    "principal": 45000,
+    "annualRate": 8.5,
+    "months": 84
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "my mortgage: 425000, rate 6.1%, term 30 years. payment?",
+   "input": {
+    "principal": 425000,
+    "annualRate": 6.1,
+    "months": 360
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "personal loan 3,000 at 19.9% for 2 years, what are the repayments",
+   "input": {
+    "principal": 3000,
+    "annualRate": 19.9,
+    "months": 24
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "work out repayments if I borrow 750,000 at 5% over 15 years",
+   "input": {
+    "principal": 750000,
+    "annualRate": 5,
+    "months": 180
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "Tractor finance — 62000 at 4.75% for six years. Monthly instalment?",
+   "input": {
+    "principal": 62000,
+    "annualRate": 4.75,
+    "months": 72
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "if i borrow 1500 at 12% for 6 months how much a month",
+   "input": {
+    "principal": 1500,
+    "annualRate": 12,
+    "months": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "Business loan of 100,000 at 9 percent for 8 years: total interest?",
+   "input": {
+    "principal": 100000,
+    "annualRate": 9,
+    "months": 96
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "What does a 275000 home loan cost monthly at 2.99% over 300 months?",
+   "input": {
+    "principal": 275000,
+    "annualRate": 2.99,
+    "months": 300
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "furniture on credit: 2,400 over 18 months at 14.9% — monthly payment?",
+   "input": {
+    "principal": 2400,
+    "annualRate": 14.9,
+    "months": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "fixed-rate loan of 9,999 at 3.4% over 30 months — payments?",
+   "input": {
+    "principal": 9999,
+    "annualRate": 3.4,
+    "months": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "Nurse here, looking at a 20000 car loan at 6% for 54 months — monthly payment please",
+   "input": {
+    "principal": 20000,
+    "annualRate": 6,
+    "months": 54
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "monthly loan payment: principal 600000, annual rate 4.5, 30 year term",
+   "input": {
+    "principal": 600000,
+    "annualRate": 4.5,
+    "months": 360
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "Kitchen remodel loan: 35,000 at 7.99% across ten years",
+   "input": {
+    "principal": 35000,
+    "annualRate": 7.99,
+    "months": 120
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "what's the monthly payment on my car loan at 5.9% over 60 months?",
+   "input": {
+    "annualRate": 5.9,
+    "months": 60
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "I'm borrowing 15,000 over 3 years — what will the monthly payments be?",
+   "input": {
+    "principal": 15000,
+    "months": 36
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "monthly payments on 40000 borrowed at 10.5% for 48 months",
+   "input": {
+    "principal": 40000,
+    "annualRate": 10.5,
+    "months": 48
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "amortizeLoan",
+   "message": "short loan: 800 at 29% over 12 months, monthly amount?",
+   "input": {
+    "principal": 800,
+    "annualRate": 29,
+    "months": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "sofa is £899 and the sale gives 30% off — what's the new price?",
+   "input": {
+    "price": 899,
+    "percent": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "discount of 20 quid off a 75 pair of trainers — what do I pay",
+   "input": {
+    "price": 75,
+    "amount": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "Black Friday: 40% off a $1,299 laptop",
+   "input": {
+    "price": 1299,
+    "percent": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "what do I pay for a 59.99 game with £15 off",
+   "input": {
+    "price": 59.99,
+    "amount": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "student discount of 10% off a 24.50 meal",
+   "input": {
+    "price": 24.5,
+    "percent": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "how much do I save if a 350 coat is 35% off",
+   "input": {
+    "price": 350,
+    "percent": 35
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "coupon knocks 5 off my 32.40 order",
+   "input": {
+    "price": 32.4,
+    "amount": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "Shop owner: a 180 dress with 25 percent off — sale price?",
+   "input": {
+    "price": 180,
+    "percent": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "the 1,250 bike has 200 off — new price?",
+   "input": {
+    "price": 1250,
+    "amount": 200
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "staff discount 12% on 64",
+   "input": {
+    "price": 64,
+    "percent": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "60% off a 45 candle, final price?",
+   "input": {
+    "price": 45,
+    "percent": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "Hotel offers 18 percent off the 420 room rate",
+   "input": {
+    "price": 420,
+    "percent": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "price after 7.5% off 200",
+   "input": {
+    "price": 200,
+    "percent": 7.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "If the TV is 649 and they knock 100 off, what's left?",
+   "input": {
+    "price": 649,
+    "amount": 100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "early-bird 15% discount on a 299 conference ticket",
+   "input": {
+    "price": 299,
+    "percent": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "Is 50 off a 79 jacket a good deal? what's the price after",
+   "input": {
+    "price": 79,
+    "amount": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "sale: shoes were 120, now 45% off",
+   "input": {
+    "price": 120,
+    "percent": 45
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "loyalty card takes 8% off groceries of 86.30",
+   "input": {
+    "price": 86.3,
+    "percent": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "use a 25 discount voucher on a 140 basket — new price?",
+   "input": {
+    "price": 140,
+    "amount": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "Mattress is 1,100 with a 22% discount — how much will I save?",
+   "input": {
+    "price": 1100,
+    "percent": 22
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "this jacket with 20% off — what does it come to?",
+   "input": {
+    "percent": 20
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "apply 10 percent off to 39.95",
+   "input": {
+    "price": 39.95,
+    "percent": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "the dealer will take 1,500 off a 23,000 car — what's the price now",
+   "input": {
+    "price": 23000,
+    "amount": 1500
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyDiscount",
+   "message": "what's 65% off 210 come to",
+   "input": {
+    "price": 210,
+    "percent": 65
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "add 13% HST to a 450 invoice",
+   "input": {
+    "amount": 450,
+    "rate": 13
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "price is 79.99 before 7% sales tax; total?",
+   "input": {
+    "amount": 79.99,
+    "rate": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "my receipt says 115 including 15% GST — how much was tax",
+   "input": {
+    "amount": 115,
+    "rate": 15,
+    "amountIncludesTax": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "what's 250 plus 10% GST",
+   "input": {
+    "amount": 250,
+    "rate": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "Freelancer: invoice 2,000 + 21% VAT",
+   "input": {
+    "amount": 2000,
+    "rate": 21
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "back out 20% VAT from a 96 gross price",
+   "input": {
+    "amount": 96,
+    "rate": 20,
+    "amountIncludesTax": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "add 6.25% tax onto 18.40",
+   "input": {
+    "amount": 18.4,
+    "rate": 6.25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "the 540 quote already includes 8% tax — what's the net",
+   "input": {
+    "amount": 540,
+    "rate": 8,
+    "amountIncludesTax": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "how much tax is 9.5% on 1,280",
+   "input": {
+    "amount": 1280,
+    "rate": 9.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "add 4% sales tax to a 32 meal, total please",
+   "input": {
+    "amount": 32,
+    "rate": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "Shop owner: put 23% VAT on 49",
+   "input": {
+    "amount": 49,
+    "rate": 23
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "total cost of a 1,099 phone with 7.25 percent tax",
+   "input": {
+    "amount": 1099,
+    "rate": 7.25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "my 210 total has 5% tax baked in — what was the pre-tax amount",
+   "input": {
+    "amount": 210,
+    "rate": 5,
+    "amountIncludesTax": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "add 18% GST to a consulting fee of 3,600",
+   "input": {
+    "amount": 3600,
+    "rate": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "with 12.5% tax, what does 64 become",
+   "input": {
+    "amount": 64,
+    "rate": 12.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "gross figure is 1,440 — how much of it is VAT at 20%",
+   "input": {
+    "amount": 1440,
+    "rate": 20,
+    "amountIncludesTax": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "Add 10 percent tax to 75",
+   "input": {
+    "amount": 75,
+    "rate": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "what's the pre-tax price of a 59 item if 18% tax is included",
+   "input": {
+    "amount": 59,
+    "rate": 18,
+    "amountIncludesTax": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "hotel: 189 a night plus 14% occupancy tax",
+   "input": {
+    "amount": 189,
+    "rate": 14
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "net price 820, tax rate 19 percent — gross?",
+   "input": {
+    "amount": 820,
+    "rate": 19
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "this quote is before tax — put 17.5% VAT on top of it",
+   "input": {
+    "rate": 17.5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "applyTax",
+   "message": "how much is the 7% sales tax on my bill?",
+   "input": {
+    "rate": 7
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "applyTax",
+   "message": "Bookkeeper: gross 2,760 incl. 15% tax; split out the tax",
+   "input": {
+    "amount": 2760,
+    "rate": 15,
+    "amountIncludesTax": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "applyTax",
+   "message": "put 5.5 percent tax on 300",
+   "input": {
+    "amount": 300,
+    "rate": 5.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "If I invest 8,000 at 6% compounded annually, what do I have after 15 years?",
+   "input": {
+    "principal": 8000,
+    "rate": 6,
+    "years": 15,
+    "frequency": "annually"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "grandkid's fund: 2,500 at 4.5% compounding monthly for 18 years",
+   "input": {
+    "principal": 2500,
+    "rate": 4.5,
+    "years": 18,
+    "frequency": "monthly"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "what's 10000 worth after 7 years at 3.2% compound interest",
+   "input": {
+    "principal": 10000,
+    "rate": 3.2,
+    "years": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "compound growth: 50000, 8 percent, 25 years",
+   "input": {
+    "principal": 50000,
+    "rate": 8,
+    "years": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "ISA with 1,200 earning 5% with interest on interest for 4 years — final balance?",
+   "input": {
+    "principal": 1200,
+    "rate": 5,
+    "years": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "how much will 600 become at 2% a year compounding daily over 3 years",
+   "input": {
+    "principal": 600,
+    "rate": 2,
+    "years": 3,
+    "frequency": "daily"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "retirement pot of 150,000 compounding at 7% for 20 years",
+   "input": {
+    "principal": 150000,
+    "rate": 7,
+    "years": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "Starting from 1000, I put 300 in each month at 5% compounded monthly for 10 years",
+   "input": {
+    "principal": 1000,
+    "rate": 5,
+    "years": 10,
+    "frequency": "monthly",
+    "contribution": 300
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "my mate asks: 2000 at 12% compounded quarterly for 5 years?",
+   "input": {
+    "principal": 2000,
+    "rate": 12,
+    "years": 5,
+    "frequency": "quarterly"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "future value of 7,500 at 3.75% for 12 years, compounded",
+   "input": {
+    "principal": 7500,
+    "rate": 3.75,
+    "years": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "what will 100 grow into at 10% compound over 30 years",
+   "input": {
+    "principal": 100,
+    "rate": 10,
+    "years": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "CD of 20,000 at 4.1% compounded semi-annually, 6 years",
+   "input": {
+    "principal": 20000,
+    "rate": 4.1,
+    "years": 6,
+    "frequency": "semi-annually"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "starting with 5000, adding 100 every month, 6% compounded monthly, 15 years — final balance?",
+   "input": {
+    "principal": 5000,
+    "rate": 6,
+    "years": 15,
+    "frequency": "monthly",
+    "contribution": 100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "growth of 25000 over 8 years at 5.5% with compounding",
+   "input": {
+    "principal": 25000,
+    "rate": 5.5,
+    "years": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "my parents put 1,000 away at 3% compounded yearly when I was born — what's it worth at 21 years?",
+   "input": {
+    "principal": 1000,
+    "rate": 3,
+    "years": 21,
+    "frequency": "annually"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "compound 40000 at 2.25% weekly for 2 years",
+   "input": {
+    "principal": 40000,
+    "rate": 2.25,
+    "years": 2,
+    "frequency": "weekly"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "10% compounded annually on 3,333 for 9 years",
+   "input": {
+    "principal": 3333,
+    "rate": 10,
+    "years": 9,
+    "frequency": "annually"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "how big does 12000 get in 10 years at 4% compound interest",
+   "input": {
+    "principal": 12000,
+    "rate": 4,
+    "years": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "savings bond of 500 at 6.5% compounding for 13 years",
+   "input": {
+    "principal": 500,
+    "rate": 6.5,
+    "years": 13
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "If I leave 90,000 to compound at 5% for 11 years what's the total?",
+   "input": {
+    "principal": 90000,
+    "rate": 5,
+    "years": 11
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "how much will my savings grow at 4% compounded monthly over 10 years?",
+   "input": {
+    "rate": 4,
+    "years": 10,
+    "frequency": "monthly"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "what does my lump sum turn into at 6% compound for 20 years",
+   "input": {
+    "rate": 6,
+    "years": 20
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "accountant here: 18,500 compounding quarterly at 3.6% over 7 years",
+   "input": {
+    "principal": 18500,
+    "rate": 3.6,
+    "years": 7,
+    "frequency": "quarterly"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "compound interest on 650 at 9% for 4 years",
+   "input": {
+    "principal": 650,
+    "rate": 9,
+    "years": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "I've got 500 euros and the rate is 0.86 to the pound — how many GBP?",
+   "input": {
+    "amount": 500,
+    "from": "EUR",
+    "to": "GBP",
+    "rate": 0.86
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "convert 1,200 USD to CAD at 1.36",
+   "input": {
+    "amount": 1200,
+    "from": "USD",
+    "to": "CAD",
+    "rate": 1.36
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "my bank quoted 155.2 yen per dollar; what's 80 USD in JPY",
+   "input": {
+    "amount": 80,
+    "from": "USD",
+    "to": "JPY",
+    "rate": 155.2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "Exchange 300 GBP to EUR using 1.17",
+   "input": {
+    "amount": 300,
+    "from": "GBP",
+    "to": "EUR",
+    "rate": 1.17
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "how many Thai baht for 250 AUD at a rate of 23.4",
+   "input": {
+    "amount": 250,
+    "from": "AUD",
+    "to": "THB",
+    "rate": 23.4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "Invoice of 4,800 SEK — in EUR at 0.088?",
+   "input": {
+    "amount": 4800,
+    "from": "SEK",
+    "to": "EUR",
+    "rate": 0.088
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "rate is 83.1 rupees per dollar, convert 600 dollars to INR",
+   "input": {
+    "amount": 600,
+    "from": "USD",
+    "to": "INR",
+    "rate": 83.1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "Traveller here: 150 CHF into USD at 1.12",
+   "input": {
+    "amount": 150,
+    "from": "CHF",
+    "to": "USD",
+    "rate": 1.12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "convert 2000 MXN to USD, 1 MXN = 0.058 USD",
+   "input": {
+    "amount": 2000,
+    "from": "MXN",
+    "to": "USD",
+    "rate": 0.058
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "What's 45 NZD in GBP at 0.47?",
+   "input": {
+    "amount": 45,
+    "from": "NZD",
+    "to": "GBP",
+    "rate": 0.47
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "using 1.53 AUD per GBP, convert 900 pounds to Australian dollars",
+   "input": {
+    "amount": 900,
+    "from": "GBP",
+    "to": "AUD",
+    "rate": 1.53
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "convert ¥10,000 to USD at 0.0067",
+   "input": {
+    "amount": 10000,
+    "from": "JPY",
+    "to": "USD",
+    "rate": 0.0067
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "Supplier wants 3,250 EUR; at 1.09 how many USD is that",
+   "input": {
+    "amount": 3250,
+    "from": "EUR",
+    "to": "USD",
+    "rate": 1.09
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "change 700 HKD to SGD at 0.17",
+   "input": {
+    "amount": 700,
+    "from": "HKD",
+    "to": "SGD",
+    "rate": 0.17
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "125 dollars into euros, exchange rate 0.92",
+   "input": {
+    "amount": 125,
+    "from": "USD",
+    "to": "EUR",
+    "rate": 0.92
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "turn 18,000 ZAR into GBP at 0.043",
+   "input": {
+    "amount": 18000,
+    "from": "ZAR",
+    "to": "GBP",
+    "rate": 0.043
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "convert 60 GBP to PLN using a rate of 5.02",
+   "input": {
+    "amount": 60,
+    "from": "GBP",
+    "to": "PLN",
+    "rate": 5.02
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "at 7.24 yuan to the dollar, what's 1,000 USD in CNY",
+   "input": {
+    "amount": 1000,
+    "from": "USD",
+    "to": "CNY",
+    "rate": 7.24
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "Freelance payment of 2,750 CAD, rate 0.67 to EUR — euros?",
+   "input": {
+    "amount": 2750,
+    "from": "CAD",
+    "to": "EUR",
+    "rate": 0.67
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "How much is 95 EUR in DKK if the rate is 7.46",
+   "input": {
+    "amount": 95,
+    "from": "EUR",
+    "to": "DKK",
+    "rate": 7.46
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "convert my holiday money from GBP to EUR at 1.16",
+   "input": {
+    "from": "GBP",
+    "to": "EUR",
+    "rate": 1.16
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "exchange 3,000 Korean won (KRW) into JPY at a rate of 0.11",
+   "input": {
+    "amount": 3000,
+    "from": "KRW",
+    "to": "JPY",
+    "rate": 0.11
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "Need 420 USD in BRL, rate 5.1",
+   "input": {
+    "amount": 420,
+    "from": "USD",
+    "to": "BRL",
+    "rate": 5.1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "message": "exchange 1,500 NOK for EUR, the rate's 0.086",
+   "input": {
+    "amount": 1500,
+    "from": "NOK",
+    "to": "EUR",
+    "rate": 0.086
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "I'm offered 22.75 an hour — what's that per year?",
+   "input": {
+    "hourly": 22.75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "barista job pays 14 per hour at 30 hours a week, yearly total?",
+   "input": {
+    "hourly": 14,
+    "hoursPerWeek": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "Nurse on 38 an hour, 36 hours a week — annual pay?",
+   "input": {
+    "hourly": 38,
+    "hoursPerWeek": 36
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "contractor rate 95/hr, 40 hrs/week, 46 weeks a year → annual",
+   "input": {
+    "hourly": 95,
+    "hoursPerWeek": 40,
+    "weeksPerYear": 46
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "how much is 17.50 an hour over a year",
+   "input": {
+    "hourly": 17.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "what's 31 an hour annualised",
+   "input": {
+    "hourly": 31
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "part-timer on 12.80 an hour for 16 hours a week — yearly wage?",
+   "input": {
+    "hourly": 12.8,
+    "hoursPerWeek": 16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "Convert an hourly wage of 45 to a yearly salary.",
+   "input": {
+    "hourly": 45
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "If I earn 20 per hour and work 50 weeks a year, salary?",
+   "input": {
+    "hourly": 20,
+    "weeksPerYear": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "teacher's aide earns 16.25/hour, 32.5 hours weekly — per year?",
+   "input": {
+    "hourly": 16.25,
+    "hoursPerWeek": 32.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "28 an hour times a full year is how much",
+   "input": {
+    "hourly": 28
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "freelancer: 120 an hour, 25 hours a week, 44 weeks — yearly gross",
+   "input": {
+    "hourly": 120,
+    "hoursPerWeek": 25,
+    "weeksPerYear": 44
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "minimum wage of 11.44 an hour as an annual salary",
+   "input": {
+    "hourly": 11.44
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "what does 19 an hour full-time come to annually",
+   "input": {
+    "hourly": 19
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "Paid 52 per hour at 37 hours/week. Annual?",
+   "input": {
+    "hourly": 52,
+    "hoursPerWeek": 37
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "uni job paying 10.90 an hour, 12 hours a week, 30 weeks a year — what's that per year",
+   "input": {
+    "hourly": 10.9,
+    "hoursPerWeek": 12,
+    "weeksPerYear": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "hourly 65 → yearly?",
+   "input": {
+    "hourly": 65
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "I'm a welder earning 33.40 an hour; what's my salary equivalent",
+   "input": {
+    "hourly": 33.4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "$24/hr how much a year",
+   "input": {
+    "hourly": 24
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "dog walker charging 18 an hour for 20 hours a week, yearly earnings?",
+   "input": {
+    "hourly": 18,
+    "hoursPerWeek": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "what would my hourly rate be as a yearly salary at 40 hours a week?",
+   "input": {
+    "hoursPerWeek": 40
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "How much per year is 42.5 an hour?",
+   "input": {
+    "hourly": 42.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "electrician, 39 per hour, 45 hours a week, 48 weeks worked — annual income?",
+   "input": {
+    "hourly": 39,
+    "hoursPerWeek": 45,
+    "weeksPerYear": 48
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hourlyToSalary",
+   "message": "15.60 an hour — annual equivalent at 37.5 hours a week",
+   "input": {
+    "hourly": 15.6,
+    "hoursPerWeek": 37.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "I buy mugs at 4.25 and sell them for 9 — what's my margin?",
+   "input": {
+    "cost": 4.25,
+    "price": 9
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "cost is 35, I want a 60% markup — selling price?",
+   "input": {
+    "cost": 35,
+    "markup": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "what should I charge for something costing 120 to make a 30% margin",
+   "input": {
+    "cost": 120,
+    "margin": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "bakery: a cake costs 8 to make and sells for 22. markup and margin?",
+   "input": {
+    "cost": 8,
+    "price": 22
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "Add a 25 percent markup to a cost of 16",
+   "input": {
+    "cost": 16,
+    "markup": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "Wholesale 45, retail 70 — profit margin?",
+   "input": {
+    "cost": 45,
+    "price": 70
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "target margin 55% on a 12 cost item — price?",
+   "input": {
+    "cost": 12,
+    "margin": 55
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "if my cost is 300 and I mark up 15%, what do I sell for",
+   "input": {
+    "cost": 300,
+    "markup": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "Bike shop: frames cost 650, sold at 999. what's the markup?",
+   "input": {
+    "cost": 650,
+    "price": 999
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "selling price for a 20% margin on something that costs 80",
+   "input": {
+    "cost": 80,
+    "margin": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "Etsy seller: materials cost 6.75, I want 70% markup",
+   "input": {
+    "cost": 6.75,
+    "markup": 70
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "cost 2.45, sell 5.99 — margin %",
+   "input": {
+    "cost": 2.45,
+    "price": 5.99
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "markup of 100% on 18 cost — price and margin?",
+   "input": {
+    "cost": 18,
+    "markup": 100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "my unit cost is 140; at a 35 percent margin what's the price",
+   "input": {
+    "cost": 140,
+    "margin": 35
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "What's the margin if I buy at 25 and sell at 40?",
+   "input": {
+    "cost": 25,
+    "price": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "Restaurant food cost is 7, menu price 24 — markup?",
+   "input": {
+    "cost": 7,
+    "price": 24
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "I want a 45% margin, product costs 33",
+   "input": {
+    "cost": 33,
+    "margin": 45
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "cost price 500, markup 40 percent",
+   "input": {
+    "cost": 500,
+    "markup": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "convert my markup to margin: cost 10, I add 50%",
+   "input": {
+    "cost": 10,
+    "markup": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "items cost me 3 each; selling at 7.95 what margin is that",
+   "input": {
+    "cost": 3,
+    "price": 7.95
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "what margin am I making if the selling price is 49?",
+   "input": {
+    "price": 49
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "cost 1,200, I sell at 1,750 — margin and markup",
+   "input": {
+    "cost": 1200,
+    "price": 1750
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "Need a 65% markup on items costing 28",
+   "input": {
+    "cost": 28,
+    "markup": 65
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markupMargin",
+   "message": "how much to sell at for a 25 percent margin, cost is 90",
+   "input": {
+    "cost": 90,
+    "margin": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "job ad says 52,000 a year — what's that per hour?",
+   "input": {
+    "annual": 52000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "on 38,500 a year and doing 40 hours a week, what am I paid per hour",
+   "input": {
+    "annual": 38500,
+    "hoursPerWeek": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "convert 72,000 annual pay to an hourly figure",
+   "input": {
+    "annual": 72000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "teacher salary 41,000 and I work about 50 hours a week — real hourly rate?",
+   "input": {
+    "annual": 41000,
+    "hoursPerWeek": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "what's 120,000 per annum in hourly terms",
+   "input": {
+    "annual": 120000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "Offered 29,500 a year for 30 hours a week. Hourly?",
+   "input": {
+    "annual": 29500,
+    "hoursPerWeek": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "$95,000 salary, 46 weeks worked — hourly rate?",
+   "input": {
+    "annual": 95000,
+    "weeksPerYear": 46
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "how much an hour is 64,200 a year",
+   "input": {
+    "annual": 64200
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "nurse on 34,000 a year, 37.5 hrs — per hour?",
+   "input": {
+    "annual": 34000,
+    "hoursPerWeek": 37.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "CEO on 250,000 a year working 60 hours a week, hourly?",
+   "input": {
+    "annual": 250000,
+    "hoursPerWeek": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "break down 45,000 yearly into an hourly wage",
+   "input": {
+    "annual": 45000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "annual 23,400 at 20 hours a week — what per hour",
+   "input": {
+    "annual": 23400,
+    "hoursPerWeek": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "I make 88,000 a year, what's my hourly",
+   "input": {
+    "annual": 88000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "salary of 31,750, 48 weeks a year, 35 hours a week: hourly?",
+   "input": {
+    "annual": 31750,
+    "hoursPerWeek": 35,
+    "weeksPerYear": 48
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "per-hour value of a 57,000 salary",
+   "input": {
+    "annual": 57000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "Comparing a contract gig with a 47,500 salary — what's the salary per hour?",
+   "input": {
+    "annual": 47500
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "what hourly rate matches 66,000 a year",
+   "input": {
+    "annual": 66000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "grad scheme pays 27,000. hourly please",
+   "input": {
+    "annual": 27000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "how much do I earn an hour on 39,000 a year at 42 hours a week",
+   "input": {
+    "annual": 39000,
+    "hoursPerWeek": 42
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "annual pay 150000, 50 weeks, hourly?",
+   "input": {
+    "annual": 150000,
+    "weeksPerYear": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "work out my hourly rate from my annual salary, I do 37.5 hours a week",
+   "input": {
+    "hoursPerWeek": 37.5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "100,000 a year divided down to an hour",
+   "input": {
+    "annual": 100000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "what's 19,800 a year per hour for a part-timer on 25 hours",
+   "input": {
+    "annual": 19800,
+    "hoursPerWeek": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "salaryToHourly",
+   "message": "pharmacist salary 61,300 — hourly equivalent?",
+   "input": {
+    "annual": 61300
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "I want 15,000 for a house deposit; I can save 400 a month at 4% — how many months?",
+   "input": {
+    "target": 15000,
+    "annualRate": 4,
+    "monthly": 400
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "savings goal of 8,000 in 3 years at 2% interest — how much a month?",
+   "input": {
+    "target": 8000,
+    "annualRate": 2,
+    "months": 36
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "saving for a 2,500 holiday, 150 a month, account pays 0% — how long?",
+   "input": {
+    "target": 2500,
+    "annualRate": 0,
+    "monthly": 150
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "wedding fund goal 20000 in 30 months, rate 3.5% — monthly saving?",
+   "input": {
+    "target": 20000,
+    "annualRate": 3.5,
+    "months": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "Goal: 1,000 emergency fund. 50 a month at 1.5 percent. Months?",
+   "input": {
+    "target": 1000,
+    "annualRate": 1.5,
+    "monthly": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "monthly savings needed for 50,000 over 5 years at 5% interest",
+   "input": {
+    "target": 50000,
+    "annualRate": 5,
+    "months": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "Kid saving 10 a month for a 300 console at zero interest — how long",
+   "input": {
+    "target": 300,
+    "annualRate": 0,
+    "monthly": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "how many months to hit 12,000 saving 600 a month at 4.5%",
+   "input": {
+    "target": 12000,
+    "annualRate": 4.5,
+    "monthly": 600
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "target 6,000 in 18 months, savings rate 3% — monthly amount?",
+   "input": {
+    "target": 6000,
+    "annualRate": 3,
+    "months": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "I can save 225 a month at 2.75%; how long until I have 9,000?",
+   "input": {
+    "target": 9000,
+    "annualRate": 2.75,
+    "monthly": 225
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "car fund: need 14,500 in 48 months; account pays 4.25%. how much a month?",
+   "input": {
+    "target": 14500,
+    "annualRate": 4.25,
+    "months": 48
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "Retiree here. Want 3,000 for a cruise, putting by 120 monthly at 1% interest. How long?",
+   "input": {
+    "target": 3000,
+    "annualRate": 1,
+    "monthly": 120
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "Need to save 40,000 for uni over 10 years at 5 percent — per month?",
+   "input": {
+    "target": 40000,
+    "annualRate": 5,
+    "months": 120
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "how long to reach 7,500 at 300 a month, 3.8% interest",
+   "input": {
+    "target": 7500,
+    "annualRate": 3.8,
+    "monthly": 300
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "savings target 2,000, 24 months, 0% rate — how much per month",
+   "input": {
+    "target": 2000,
+    "annualRate": 0,
+    "months": 24
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "Monthly deposit for a 25,000 goal in 6 years at 4.6%?",
+   "input": {
+    "target": 25000,
+    "annualRate": 4.6,
+    "months": 72
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "how many months of saving 80 a month at 2.2% gets me 1,500",
+   "input": {
+    "target": 1500,
+    "annualRate": 2.2,
+    "monthly": 80
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "I want 5,000 in one year at 3% interest, what monthly amount?",
+   "input": {
+    "target": 5000,
+    "annualRate": 3,
+    "months": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "putting 1,000 a month into a 5.1% account, how long to get to 60,000",
+   "input": {
+    "target": 60000,
+    "annualRate": 5.1,
+    "monthly": 1000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "need 900 for a new phone in 9 months, jar pays 0%, monthly amount?",
+   "input": {
+    "target": 900,
+    "annualRate": 0,
+    "months": 9
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "how long will it take to reach my savings goal at 500 a month with 3% interest?",
+   "input": {
+    "annualRate": 3,
+    "monthly": 500
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "save 18,000 for a car within 40 months at 3.3% — monthly deposit?",
+   "input": {
+    "target": 18000,
+    "annualRate": 3.3,
+    "months": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "goal 4,200; I add 350 monthly; rate 2.5%; months?",
+   "input": {
+    "target": 4200,
+    "annualRate": 2.5,
+    "monthly": 350
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "savingsGoal",
+   "message": "a 11,000 home-repair fund in 28 months at 3.9% — monthly saving?",
+   "input": {
+    "target": 11000,
+    "annualRate": 3.9,
+    "months": 28
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "simple interest owed on a 4,000 loan at 7% for 5 years",
+   "input": {
+    "principal": 4000,
+    "rate": 7,
+    "years": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "my friend lent me 800 at a flat 3% a year for 2 years — how much interest?",
+   "input": {
+    "principal": 800,
+    "rate": 3,
+    "years": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "interest only on the original 15,000, 4.2% for 6 years",
+   "input": {
+    "principal": 15000,
+    "rate": 4.2,
+    "years": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "Bond pays 5.5% simple on 10,000 over 8 years — total interest?",
+   "input": {
+    "principal": 10000,
+    "rate": 5.5,
+    "years": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "simple interest: P=2,500, r=6%, t=4 years",
+   "input": {
+    "principal": 2500,
+    "rate": 6,
+    "years": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "calculate flat-rate interest on 650 at 12% for 3 years",
+   "input": {
+    "principal": 650,
+    "rate": 12,
+    "years": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "Teacher here: simple interest on 300 at 8 percent for 5 years, for a worksheet",
+   "input": {
+    "principal": 300,
+    "rate": 8,
+    "years": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "how much simple interest does 20000 earn at 2.5% in 7 years",
+   "input": {
+    "principal": 20000,
+    "rate": 2.5,
+    "years": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "car dealer's flat rate of 4.9% on 12,500 over 4 years — interest?",
+   "input": {
+    "principal": 12500,
+    "rate": 4.9,
+    "years": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "Nurse savings: 1,800 at 3.1% simple, 2 years",
+   "input": {
+    "principal": 1800,
+    "rate": 3.1,
+    "years": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "not compounded: 5,000 at 9% for 0.5 years",
+   "input": {
+    "principal": 5000,
+    "rate": 9,
+    "years": 0.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "simple interest on 75,000 at 3.75% over 10 years",
+   "input": {
+    "principal": 75000,
+    "rate": 3.75,
+    "years": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "a 1,400 IOU at 6% simple interest for 2 years — what's owed in interest",
+   "input": {
+    "principal": 1400,
+    "rate": 6,
+    "years": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "flat interest, no compounding: 9,000 at 4% for 6 years",
+   "input": {
+    "principal": 9000,
+    "rate": 4,
+    "years": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "What's the simple interest on 250 borrowed at 15% for 2 years?",
+   "input": {
+    "principal": 250,
+    "rate": 15,
+    "years": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "farm loan 60,000 at 6.5% simple, 5 years",
+   "input": {
+    "principal": 60000,
+    "rate": 6.5,
+    "years": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "simple int. 3,200 / 2.8% / 9 years",
+   "input": {
+    "principal": 3200,
+    "rate": 2.8,
+    "years": 9
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "Total simple interest on 45,000 at 5.25% for 15 years please",
+   "input": {
+    "principal": 45000,
+    "rate": 5.25,
+    "years": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "Grandma lent 2,000 at a flat 1% a year for 10 years — interest?",
+   "input": {
+    "principal": 2000,
+    "rate": 1,
+    "years": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "Maths test: 700 invested at 7.5% simple for 3 years — interest earned?",
+   "input": {
+    "principal": 700,
+    "rate": 7.5,
+    "years": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "how much simple interest will my loan cost at 6% over 4 years?",
+   "input": {
+    "rate": 6,
+    "years": 4
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "simple interest earned on 5,500 at 4.4% for 1 year",
+   "input": {
+    "principal": 5500,
+    "rate": 4.4,
+    "years": 1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "uncompounded interest on 13,000 at 3% for 12 years",
+   "input": {
+    "principal": 13000,
+    "rate": 3,
+    "years": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "simpleInterest",
+   "message": "Exam question: principal 1,600, rate 4.5%, time 5 years, simple interest = ?",
+   "input": {
+    "principal": 1600,
+    "rate": 4.5,
+    "years": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "I'm 182 cm and weigh 84 kg — what's my BMI?",
+   "input": {
+    "weightKg": 84,
+    "heightCm": 182
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "body mass index: 63.5 kg, 158 cm",
+   "input": {
+    "weightKg": 63.5,
+    "heightCm": 158
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "Nurse here: patient is 97 kg, height 171 cm, BMI please",
+   "input": {
+    "weightKg": 97,
+    "heightCm": 171
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "my son is 140 cm and 38 kg, what's his bmi",
+   "input": {
+    "weightKg": 38,
+    "heightCm": 140
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "What BMI do you get with a weight of 72 kg and a height of 168 cm?",
+   "input": {
+    "weightKg": 72,
+    "heightCm": 168
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "bmi? 59kg 165cm",
+   "input": {
+    "weightKg": 59,
+    "heightCm": 165
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "Height 190cm, weight 102kg. Body mass index?",
+   "input": {
+    "weightKg": 102,
+    "heightCm": 190
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "Coach wants my BMI for the team file — 77 kilos, 179 centimetres",
+   "input": {
+    "weightKg": 77,
+    "heightCm": 179
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "can you work out the body mass index for someone 155 cm tall weighing 48 kg",
+   "input": {
+    "weightKg": 48,
+    "heightCm": 155
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "I've dropped to 88 kg; at 176 cm, what's my bmi now",
+   "input": {
+    "weightKg": 88,
+    "heightCm": 176
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "BMI for a 120 kg, 185 cm rugby prop",
+   "input": {
+    "weightKg": 120,
+    "heightCm": 185
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "weight 66.2 kg height 172.5 cm → bmi",
+   "input": {
+    "weightKg": 66.2,
+    "heightCm": 172.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "Personal trainer: client is 81 kg and 163 cm. BMI?",
+   "input": {
+    "weightKg": 81,
+    "heightCm": 163
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "what would my BMI be at 70 kg if I'm 160 cm",
+   "input": {
+    "weightKg": 70,
+    "heightCm": 160
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "calc body mass index 54 kg / 162 cm",
+   "input": {
+    "weightKg": 54,
+    "heightCm": 162
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "Just curious: 68 kg and 170 cm, what's the BMI",
+   "input": {
+    "weightKg": 68,
+    "heightCm": 170
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "work out the BMI for my husband: he weighs 95 kg and is 183 cm tall",
+   "input": {
+    "weightKg": 95,
+    "heightCm": 183
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "BMI check for the form: 61 kg, 167 cm",
+   "input": {
+    "weightKg": 61,
+    "heightCm": 167
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "what's the bmi of a 45 kg person at 150 cm",
+   "input": {
+    "weightKg": 45,
+    "heightCm": 150
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "Gym intake: height 174 cm, weight 79 kg — compute BMI",
+   "input": {
+    "weightKg": 79,
+    "heightCm": 174
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "work out my BMI, I'm 168 cm",
+   "input": {
+    "heightCm": 168
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "what's my body mass index? I weigh 73 kg",
+   "input": {
+    "weightKg": 73
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "bmi for 105.5 kg at 188 cm",
+   "input": {
+    "weightKg": 105.5,
+    "heightCm": 188
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "bmiCalculate",
+   "message": "Retired and watching my weight: 86 kg, 169 cm. What's my BMI?",
+   "input": {
+    "weightKg": 86,
+    "heightCm": 169
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "my max HR from a lab test is 186 — give me my five training zones",
+   "input": {
+    "maxHeartRate": 186
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "zones for max 172 bpm, resting 58",
+   "input": {
+    "maxHeartRate": 172,
+    "restingHeartRate": 58
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "Garmin recorded a max heart rate of 194. Training zones?",
+   "input": {
+    "maxHeartRate": 194
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "Coach here: athlete max 201, resting 44, heart rate reserve zones please",
+   "input": {
+    "maxHeartRate": 201,
+    "restingHeartRate": 44
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "what are my HR zones if my maximum is 178",
+   "input": {
+    "maxHeartRate": 178
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "Split 168 bpm max into the 5 zones",
+   "input": {
+    "maxHeartRate": 168
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "I cycle and my max is 183 bpm — split it into training bands",
+   "input": {
+    "maxHeartRate": 183
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "measured max 162, resting 61 — what are my zones?",
+   "input": {
+    "maxHeartRate": 162,
+    "restingHeartRate": 61
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "heart-rate training bands for a max of 205",
+   "input": {
+    "maxHeartRate": 205
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "Max HR 176. What's my zone 2 range?",
+   "input": {
+    "maxHeartRate": 176
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "five zones from my treadmill test max of 189",
+   "input": {
+    "maxHeartRate": 189
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "using Karvonen with max 191 and resting 52, what are the zones",
+   "input": {
+    "maxHeartRate": 191,
+    "restingHeartRate": 52
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "Rowing coach wants zones off a 197 max",
+   "input": {
+    "maxHeartRate": 197
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "zone 1 to zone 5 for maximum heart rate 170 bpm",
+   "input": {
+    "maxHeartRate": 170
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "my measured peak heart rate was 181; show the training zones",
+   "input": {
+    "maxHeartRate": 181
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "Runner, max 188, resting 47. Zones by reserve.",
+   "input": {
+    "maxHeartRate": 188,
+    "restingHeartRate": 47
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "what heart rate should each zone be with a 174 max",
+   "input": {
+    "maxHeartRate": 174
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "my maximum heart rate tested at 199 bpm — break it into the five training bands",
+   "input": {
+    "maxHeartRate": 199
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "training intensity zones from a max of 160 and a resting pulse of 65",
+   "input": {
+    "maxHeartRate": 160,
+    "restingHeartRate": 65
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "Spin instructor here — my max is 184, list the zones",
+   "input": {
+    "maxHeartRate": 184
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "I know my max HR from a lab test — split it into the five training zones",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "my resting pulse is 55; split my max into Karvonen training bands",
+   "input": {
+    "restingHeartRate": 55
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "hr zones for 192 max",
+   "input": {
+    "maxHeartRate": 192
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "heartRateZones",
+   "message": "Give me the 5 cardio zones for a maximum heart rate of 179.",
+   "input": {
+    "maxHeartRate": 179
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "I ran 8 km in 44 minutes — what was my pace?",
+   "input": {
+    "distanceKm": 8,
+    "timeSeconds": 2640
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "at 5:00 per km, how long does a 21.1 km half take?",
+   "input": {
+    "distanceKm": 21.1,
+    "paceSecondsPerKm": 300
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "6 km loop in 33 minutes, pace per km please",
+   "input": {
+    "distanceKm": 6,
+    "timeSeconds": 1980
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "running pace 5:20 per km over 15 km — what's my finish time?",
+   "input": {
+    "distanceKm": 15,
+    "paceSecondsPerKm": 320
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Treadmill: 3 km took 17:30. Speed and pace?",
+   "input": {
+    "distanceKm": 3,
+    "timeSeconds": 1050
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "if I hold 4:30 per km for 42.195 km, what's my marathon time",
+   "input": {
+    "distanceKm": 42.195,
+    "paceSecondsPerKm": 270
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "pace calc: 12 km, 4,320 seconds",
+   "input": {
+    "distanceKm": 12,
+    "timeSeconds": 4320
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Strava shows 7.5 km in 45 minutes — pace?",
+   "input": {
+    "distanceKm": 7.5,
+    "timeSeconds": 2700
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "running pace of 345 seconds per km — finish time for 5 km?",
+   "input": {
+    "distanceKm": 5,
+    "paceSecondsPerKm": 345
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "coach set 4:10 per km for a 10 km tempo run — finish time?",
+   "input": {
+    "distanceKm": 10,
+    "paceSecondsPerKm": 250
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "ran 1.6 km in 480 seconds, what's that per km",
+   "input": {
+    "distanceKm": 1.6,
+    "timeSeconds": 480
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "30 km long run at 6:30 a km — total time?",
+   "input": {
+    "distanceKm": 30,
+    "paceSecondsPerKm": 390
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "My race was 21.0975 km in 1:45:00. Pace and speed?",
+   "input": {
+    "distanceKm": 21.0975,
+    "timeSeconds": 6300
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "pace for 4 km done in 1,260 seconds",
+   "input": {
+    "distanceKm": 4,
+    "timeSeconds": 1260
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "If I do 400 seconds per km over 18 km, when do I finish?",
+   "input": {
+    "distanceKm": 18,
+    "paceSecondsPerKm": 400
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "running club: 9 km run in 3,150 seconds — what pace and speed?",
+   "input": {
+    "distanceKm": 9,
+    "timeSeconds": 3150
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "trail of 13.5 km took 90 minutes; average pace?",
+   "input": {
+    "distanceKm": 13.5,
+    "timeSeconds": 5400
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "at 285 seconds per kilometre what's my 8 km time",
+   "input": {
+    "distanceKm": 8,
+    "paceSecondsPerKm": 285
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Walking 2.5 km in 1,800 seconds — what's my pace per km",
+   "input": {
+    "distanceKm": 2.5,
+    "timeSeconds": 1800
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "ultra: 50 km in 6 hours, average pace?",
+   "input": {
+    "distanceKm": 50,
+    "timeSeconds": 21600
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "I'm running at 5:30 per km — how long will the race take me?",
+   "input": {
+    "paceSecondsPerKm": 330
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "pace per km if I cover 3.2 km in 960 seconds",
+   "input": {
+    "distanceKm": 3.2,
+    "timeSeconds": 960
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Projected time for 25 km at 310 sec per km?",
+   "input": {
+    "distanceKm": 25,
+    "paceSecondsPerKm": 310
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "speed and pace: 11 km in 3,520 seconds",
+   "input": {
+    "distanceKm": 11,
+    "timeSeconds": 3520
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "alarm's set for 6:15 — when should I go to sleep?",
+   "input": {
+    "time": "06:15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "I'm heading to bed at 22:30, what times should I wake up?",
+   "input": {
+    "time": "22:30",
+    "direction": "sleep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "need to be up at 5:45 for a flight. bedtime options?",
+   "input": {
+    "time": "05:45"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "if I fall asleep at midnight when are good wake times",
+   "input": {
+    "time": "00:00",
+    "direction": "sleep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "Nurse on early shift, wake at 04:30 — when do I sleep?",
+   "input": {
+    "time": "04:30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "going to bed at 23:15 tonight; best times to set my alarm?",
+   "input": {
+    "time": "23:15",
+    "direction": "sleep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "wake-up at 7:30 with 80 minute cycles — bedtimes?",
+   "input": {
+    "time": "07:30",
+    "cycleMinutes": 80
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "I take about 20 minutes to drop off and want to wake at 06:00. When to go to bed?",
+   "input": {
+    "time": "06:00",
+    "fallAsleepMinutes": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "Student here — sleeping at 1:00 after studying, when should I wake?",
+   "input": {
+    "time": "01:00",
+    "direction": "sleep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "bedtime to wake at 8:15 at the end of a sleep cycle?",
+   "input": {
+    "time": "08:15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "going to sleep at 21:45 — wake-up times that fit whole sleep cycles?",
+   "input": {
+    "time": "21:45",
+    "direction": "sleep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "Up at 09:00 on Saturday, what bedtime lines up with sleep cycles",
+   "input": {
+    "time": "09:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "falling asleep at 22:00, cycle length 100 minutes, when do I wake",
+   "input": {
+    "time": "22:00",
+    "direction": "sleep",
+    "cycleMinutes": 100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "I want to wake at 6:40 and I fall asleep instantly (0 minutes). bedtimes?",
+   "input": {
+    "time": "06:40",
+    "fallAsleepMinutes": 0
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "new dad here, need to wake at 05:00 — when to hit the hay?",
+   "input": {
+    "time": "05:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "hitting the pillow at 00:30, what times will I wake between cycles",
+   "input": {
+    "time": "00:30",
+    "direction": "sleep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "school run means a 7:10 wake-up. what time should I sleep",
+   "input": {
+    "time": "07:10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "sleep at 23:45, give me wake-up times",
+   "input": {
+    "time": "23:45",
+    "direction": "sleep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "for a 06:20 alarm, when should I try to be asleep?",
+   "input": {
+    "time": "06:20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "if I go to bed at 20:30 when should the alarm go",
+   "input": {
+    "time": "20:30",
+    "direction": "sleep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "bedtimes for waking at 10:00, 75 minute cycles, 10 minutes to fall asleep",
+   "input": {
+    "time": "10:00",
+    "cycleMinutes": 75,
+    "fallAsleepMinutes": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "Night-shift worker: going to sleep at 08:00, good times to wake?",
+   "input": {
+    "time": "08:00",
+    "direction": "sleep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "what time should I sleep to wake up when my alarm goes off",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "wake at 6:50, when do I go to bed (90 minute cycles)",
+   "input": {
+    "time": "06:50",
+    "cycleMinutes": 90
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "split times per km to run 21.1 km in 1:55:00",
+   "input": {
+    "distance": 21.1,
+    "time": "1:55:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "target 45 minutes for 10 km, give me the km splits",
+   "input": {
+    "distance": 10,
+    "time": "45:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Marathon goal 3:30:00 over 42.2 km — split times",
+   "input": {
+    "distance": 42.2,
+    "time": "3:30:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "splits for 8 miles in 1:04:00",
+   "input": {
+    "distance": 8,
+    "time": "1:04:00",
+    "unit": "miles"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "pace needed to break 20 minutes for 5 km",
+   "input": {
+    "distance": 5,
+    "time": "20:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "target time 1:15:00 for 15 km — what pace and splits do I need?",
+   "input": {
+    "distance": 15,
+    "time": "1:15:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "track session: 3 km in 12 minutes — splits per km",
+   "input": {
+    "distance": 3,
+    "time": "12:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Half marathon target 13.1 miles in 2:00:00, mile splits please",
+   "input": {
+    "distance": 13.1,
+    "time": "2:00:00",
+    "unit": "miles"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "I'm aiming for 26.2 miles in 4:15:00, what are my mile splits",
+   "input": {
+    "distance": 26.2,
+    "time": "4:15:00",
+    "unit": "miles"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "10 miles in 1:20:00 — splits?",
+   "input": {
+    "distance": 10,
+    "time": "1:20:00",
+    "unit": "miles"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Parkrun goal: 5 km in 27:30 — give me the split times per km",
+   "input": {
+    "distance": 5,
+    "time": "27:30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "give me split times to run 7 km in 35 minutes",
+   "input": {
+    "distance": 7,
+    "time": "35:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "need to do 6 miles in 54 minutes, what pace",
+   "input": {
+    "distance": 6,
+    "time": "54:00",
+    "unit": "miles"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "coach wants 12 km run in a target time of 1:00:00 — split times per km?",
+   "input": {
+    "distance": 12,
+    "time": "1:00:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "first 50 km ultra, I want 5:30:00 — splits?",
+   "input": {
+    "distance": 50,
+    "time": "5:30:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Splits for a 4 mile run in 32:00",
+   "input": {
+    "distance": 4,
+    "time": "32:00",
+    "unit": "miles"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "what pace for 1 mile in 6:30",
+   "input": {
+    "distance": 1,
+    "time": "6:30",
+    "unit": "miles"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "16 km in 1:28:00, show me the splits",
+   "input": {
+    "distance": 16,
+    "time": "1:28:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "for a sub-40 10 km, what splits",
+   "input": {
+    "distance": 10,
+    "time": "40:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "plan my 20 km race at 1:50:00 — per km times",
+   "input": {
+    "distance": 20,
+    "time": "1:50:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "I've got a target time for my 10 km, what splits do I need?",
+   "input": {
+    "distance": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "jogging 3 miles in 21 minutes, mile-by-mile times?",
+   "input": {
+    "distance": 3,
+    "time": "21:00",
+    "unit": "miles"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Charity 5 miles in 50 minutes, splits please",
+   "input": {
+    "distance": 5,
+    "time": "50:00",
+    "unit": "miles"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitTimes",
+   "message": "pace and split times to finish 9 km in 47:15",
+   "input": {
+    "distance": 9,
+    "time": "47:15"
+   },
+   "mode": "full"
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "applyDiscount",
+    "stackDiscounts"
+   ],
+   "rows": [
+    {
+     "skill": "applyDiscount",
+     "message": "take 20% off a 150 coat",
+     "input": {
+      "price": 150,
+      "percent": 20
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "stackDiscounts",
+     "message": "take 20% and then another 10% off a 150 coat",
+     "input": {
+      "price": 150,
+      "discounts": [
+       20,
+       10
+      ]
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "applyDiscount",
+    "stackDiscounts"
+   ],
+   "rows": [
+    {
+     "skill": "applyDiscount",
+     "message": "the 96 boots are 25% off, what do I pay",
+     "input": {
+      "price": 96,
+      "percent": 25
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "stackDiscounts",
+     "message": "the 96 boots are 25% off plus an extra 15% off, what do I pay",
+     "input": {
+      "price": 96,
+      "discounts": [
+       25,
+       15
+      ]
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "applyDiscount",
+    "stackDiscounts"
+   ],
+   "rows": [
+    {
+     "skill": "applyDiscount",
+     "message": "30 percent off a 240 bike",
+     "input": {
+      "price": 240,
+      "percent": 30
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "stackDiscounts",
+     "message": "30 percent off a 240 bike, then 5 percent more off at the till",
+     "input": {
+      "price": 240,
+      "discounts": [
+       30,
+       5
+      ]
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "compoundInterest",
+    "simpleInterest"
+   ],
+   "rows": [
+    {
+     "skill": "compoundInterest",
+     "message": "interest on 3,000 at 4% for 6 years, compounded annually",
+     "input": {
+      "principal": 3000,
+      "rate": 4,
+      "years": 6,
+      "frequency": "annually"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "simpleInterest",
+     "message": "interest on 3,000 at 4% for 6 years, simple, not compounded",
+     "input": {
+      "principal": 3000,
+      "rate": 4,
+      "years": 6
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "compoundInterest",
+    "simpleInterest"
+   ],
+   "rows": [
+    {
+     "skill": "compoundInterest",
+     "message": "what does 5,000 earn at 3.5% over 10 years with interest on the interest",
+     "input": {
+      "principal": 5000,
+      "rate": 3.5,
+      "years": 10
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "simpleInterest",
+     "message": "what does 5,000 earn at 3.5% over 10 years with flat interest on the original only",
+     "input": {
+      "principal": 5000,
+      "rate": 3.5,
+      "years": 10
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "compoundInterest",
+    "simpleInterest"
+   ],
+   "rows": [
+    {
+     "skill": "compoundInterest",
+     "message": "compound interest owed on a 2,200 debt at 6% after 3 years",
+     "input": {
+      "principal": 2200,
+      "rate": 6,
+      "years": 3
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "simpleInterest",
+     "message": "simple interest owed on a 2,200 debt at 6% after 3 years",
+     "input": {
+      "principal": 2200,
+      "rate": 6,
+      "years": 3
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertArea",
+    "convertLength"
+   ],
+   "rows": [
+    {
+     "skill": "convertArea",
+     "message": "the room is 30 square metres, in square feet?",
+     "input": {
+      "amount": 30,
+      "from": "m2",
+      "to": "ft2"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertLength",
+     "message": "the room is 30 metres long, in feet?",
+     "input": {
+      "amount": 30,
+      "from": "m",
+      "to": "ft"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertArea",
+    "convertLength"
+   ],
+   "rows": [
+    {
+     "skill": "convertArea",
+     "message": "the island is 12 square miles, in square km?",
+     "input": {
+      "amount": 12,
+      "from": "mi2",
+      "to": "km2"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertLength",
+     "message": "the island is 12 miles long, in km?",
+     "input": {
+      "amount": 12,
+      "from": "mi",
+      "to": "km"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertArea",
+    "convertSpeed"
+   ],
+   "rows": [
+    {
+     "skill": "convertArea",
+     "message": "convert 50 square metres to square feet",
+     "input": {
+      "amount": 50,
+      "from": "m2",
+      "to": "ft2"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertSpeed",
+     "message": "convert 50 metres per second to feet per second",
+     "input": {
+      "amount": 50,
+      "from": "m/s",
+      "to": "ft/s"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertArea",
+    "convertSpeed"
+   ],
+   "rows": [
+    {
+     "skill": "convertArea",
+     "message": "a 100 square kilometre forest — how many square miles is it",
+     "input": {
+      "amount": 100,
+      "from": "km2",
+      "to": "mi2"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertSpeed",
+     "message": "a 100 kilometre per hour wind — how many miles per hour is it",
+     "input": {
+      "amount": 100,
+      "from": "km/h",
+      "to": "mph"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertBase",
+    "convertRomanNumeral"
+   ],
+   "rows": [
+    {
+     "skill": "convertBase",
+     "message": "write 49 from base 10 in base 7",
+     "input": {
+      "value": "49",
+      "fromBase": 10,
+      "toBase": 7
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertRomanNumeral",
+     "message": "write 49 from base 10 in roman numerals",
+     "input": {
+      "value": "49"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertBase",
+    "convertRomanNumeral"
+   ],
+   "rows": [
+    {
+     "skill": "convertBase",
+     "message": "read 1101 as a base 2 number and give it in base 10",
+     "input": {
+      "value": "1101",
+      "fromBase": 2,
+      "toBase": 10
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertRomanNumeral",
+     "message": "read MCMI as a roman numeral and give it in base 10",
+     "input": {
+      "value": "MCMI"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertBase",
+    "convertRomanNumeral"
+   ],
+   "rows": [
+    {
+     "skill": "convertBase",
+     "message": "convert 2024 (a base 10 number) to base 8",
+     "input": {
+      "value": "2024",
+      "fromBase": 10,
+      "toBase": 8
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertRomanNumeral",
+     "message": "convert 2024 (a base 10 number) to roman numerals",
+     "input": {
+      "value": "2024"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertCurrencyFixed",
+    "currencyLookup"
+   ],
+   "rows": [
+    {
+     "skill": "convertCurrencyFixed",
+     "message": "Krone question: 500 DKK into EUR at 0.134?",
+     "input": {
+      "amount": 500,
+      "from": "DKK",
+      "to": "EUR",
+      "rate": 0.134
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "currencyLookup",
+     "message": "Krone question: what is DKK?",
+     "input": {
+      "code": "DKK"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertCurrencyFixed",
+    "currencyLookup"
+   ],
+   "rows": [
+    {
+     "skill": "convertCurrencyFixed",
+     "message": "Trip prep: 40 GBP to ZAR at 23, what do I get",
+     "input": {
+      "amount": 40,
+      "from": "GBP",
+      "to": "ZAR",
+      "rate": 23
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "currencyLookup",
+     "message": "Trip prep: ZAR, what is it",
+     "input": {
+      "code": "ZAR"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertCurrencyFixed",
+    "currencyLookup"
+   ],
+   "rows": [
+    {
+     "skill": "convertCurrencyFixed",
+     "message": "Forint question: 20000 HUF to EUR at 0.0025?",
+     "input": {
+      "amount": 20000,
+      "from": "HUF",
+      "to": "EUR",
+      "rate": 0.0025
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "currencyLookup",
+     "message": "Forint question: what is HUF?",
+     "input": {
+      "code": "HUF"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertFuelEconomy",
+    "convertLength"
+   ],
+   "rows": [
+    {
+     "skill": "convertFuelEconomy",
+     "message": "convert 40 miles per gallon to km per litre for my car",
+     "input": {
+      "amount": 40,
+      "from": "mpg",
+      "to": "km/l"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertLength",
+     "message": "convert 40 miles to km for my car trip",
+     "input": {
+      "amount": 40,
+      "from": "mi",
+      "to": "km"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertFuelEconomy",
+    "convertLength"
+   ],
+   "rows": [
+    {
+     "skill": "convertFuelEconomy",
+     "message": "my hybrid did 12 km per litre, what's that in miles per gallon",
+     "input": {
+      "amount": 12,
+      "from": "km/l",
+      "to": "mpg"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertLength",
+     "message": "my hike did 12 km, what's that in miles",
+     "input": {
+      "amount": 12,
+      "from": "km",
+      "to": "mi"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertFuelEconomy",
+    "convertSpeed"
+   ],
+   "rows": [
+    {
+     "skill": "convertFuelEconomy",
+     "message": "the old van does 55 mpg on a run — what's that in km/l",
+     "input": {
+      "amount": 55,
+      "from": "mpg",
+      "to": "km/l"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertSpeed",
+     "message": "the old van does 55 mph on a run — what's that in km/h",
+     "input": {
+      "amount": 55,
+      "from": "mph",
+      "to": "km/h"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertFuelEconomy",
+    "convertSpeed"
+   ],
+   "rows": [
+    {
+     "skill": "convertFuelEconomy",
+     "message": "convert 30 miles per gallon to kilometres per litre",
+     "input": {
+      "amount": 30,
+      "from": "mpg",
+      "to": "km/l"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertSpeed",
+     "message": "convert 30 miles per hour to kilometres per hour",
+     "input": {
+      "amount": 30,
+      "from": "mph",
+      "to": "km/h"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertFuelEconomy",
+    "convertTemperature"
+   ],
+   "rows": [
+    {
+     "skill": "convertFuelEconomy",
+     "message": "the van's manual lists 9 l/100km — convert that to US mpg",
+     "input": {
+      "amount": 9,
+      "from": "l/100km",
+      "to": "mpg"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertTemperature",
+     "message": "the van's manual lists 9 °C — convert that to fahrenheit",
+     "input": {
+      "amount": 9,
+      "from": "celsius",
+      "to": "fahrenheit"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertFuelEconomy",
+    "convertTemperature"
+   ],
+   "rows": [
+    {
+     "skill": "convertFuelEconomy",
+     "message": "my German friend says 6.5 l/100km — what's that in mpg",
+     "input": {
+      "amount": 6.5,
+      "from": "l/100km",
+      "to": "mpg"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertTemperature",
+     "message": "my German friend says 6.5 celsius — what's that in fahrenheit",
+     "input": {
+      "amount": 6.5,
+      "from": "celsius",
+      "to": "fahrenheit"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertLength",
+    "convertSpeed"
+   ],
+   "rows": [
+    {
+     "skill": "convertLength",
+     "message": "how many kilometres is 60 miles",
+     "input": {
+      "amount": 60,
+      "from": "mi",
+      "to": "km"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertSpeed",
+     "message": "how many kilometres per hour is 60 miles per hour",
+     "input": {
+      "amount": 60,
+      "from": "mph",
+      "to": "km/h"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertLength",
+    "convertSpeed"
+   ],
+   "rows": [
+    {
+     "skill": "convertLength",
+     "message": "convert 15 metres to feet",
+     "input": {
+      "amount": 15,
+      "from": "m",
+      "to": "ft"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertSpeed",
+     "message": "convert 15 metres per second to feet per second",
+     "input": {
+      "amount": 15,
+      "from": "m/s",
+      "to": "ft/s"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertTemperature",
+    "convertTime"
+   ],
+   "rows": [
+    {
+     "skill": "convertTemperature",
+     "message": "for the recipe, convert 200 degrees celsius to fahrenheit",
+     "input": {
+      "amount": 200,
+      "from": "celsius",
+      "to": "fahrenheit"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertTime",
+     "message": "for the recipe, convert 200 minutes to hours",
+     "input": {
+      "amount": 200,
+      "from": "min",
+      "to": "h"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertTemperature",
+    "convertTime"
+   ],
+   "rows": [
+    {
+     "skill": "convertTemperature",
+     "message": "on the lab sheet: change 300 kelvin into celsius",
+     "input": {
+      "amount": 300,
+      "from": "kelvin",
+      "to": "celsius"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertTime",
+     "message": "on the lab sheet: change 300 seconds into minutes",
+     "input": {
+      "amount": 300,
+      "from": "s",
+      "to": "min"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertTime",
+    "durationToText"
+   ],
+   "rows": [
+    {
+     "skill": "convertTime",
+     "message": "show 5,000 seconds as minutes",
+     "input": {
+      "amount": 5000,
+      "from": "s",
+      "to": "min"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "durationToText",
+     "message": "show 5,000 seconds as readable hours and minutes",
+     "input": {
+      "seconds": 5000
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertTime",
+    "durationToText"
+   ],
+   "rows": [
+    {
+     "skill": "convertTime",
+     "message": "86400 seconds in days?",
+     "input": {
+      "amount": 86400,
+      "from": "s",
+      "to": "d"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "durationToText",
+     "message": "86400 seconds in plain words?",
+     "input": {
+      "seconds": 86400
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertTime",
+    "durationToText"
+   ],
+   "rows": [
+    {
+     "skill": "convertTime",
+     "message": "my render took 12345 seconds — how many hours is that?",
+     "input": {
+      "amount": 12345,
+      "from": "s",
+      "to": "h"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "durationToText",
+     "message": "my render took 12345 seconds — how long is that in words?",
+     "input": {
+      "seconds": 12345
+     },
+     "mode": "full"
+    }
+   ]
+  }
+ ]
+}

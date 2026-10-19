@@ -1,0 +1,13 @@
+{
+  "id": "lean-shots",
+  "hypothesis": "the web shot and the chain shot earn nothing on 300 of 308 turns; ~350 fewer prompt tokens a call",
+  "flags": [],
+  "prompt": "lean-shots",
+  "needs": [
+    "planner",
+    "category"
+  ],
+  "rule": "avgMs <= control.avgMs * 0.85 and correct >= control.correct - 4 and leaks <= control.leaks",
+  "reads": null,
+  "added": "2026-09-08"
+}

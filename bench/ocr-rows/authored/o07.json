@@ -1,0 +1,605 @@
+{
+  "batch": "o07",
+  "texts": [
+    {
+      "kind": "receipt",
+      "text": "BANKSIA VALE FRESH MARKET\nShop 4, 22 Grevillea Rd, Banksia Vale NSW 2768\nPh (02) 5550 1184\nFull cream milk 2L $3.60\nSourdough loaf $6.50\nBananas 1.24kg @ $3.90/kg $4.84\nYeast spread 380g $7.20\nFree range eggs 12pk $8.40\nTOTAL $30.54\nEFTPOS $30.54\n11/10/2026 08:17 Lane 3"
+    },
+    {
+      "kind": "receipt",
+      "text": "The Wattle Bean Café\nTable 12 Covers 3\nFlat white x2 $10.00\nLong black $4.50\nSmashed avo on toast $19.50\nBacon & egg roll $12.00\nLamington $5.50\nSubtotal $51.50\nSunday surcharge 10% $5.15\nTotal $56.65\nIncludes GST $5.15\nOrder #4471 13/09/2026 10:22am"
+    },
+    {
+      "kind": "receipt",
+      "text": "Coolabah Rise Hardware\nUnit 2, 9 Ironbark Ct, Coolabah Rise QLD 4511\nGalv. bugle screws 8g x 50mm 1kg $24.95\nHose fitting 12mm x2 $7.90\nSugar soap 1L $8.45\nDrop sheet 3.6 x 2.7m $11.70\nSubtotal $53.00\nTrade discount 5% -$2.65\nTOTAL $50.35\nGST incl. $4.58\nVISA ****3302 Auth 551907"
+    },
+    {
+      "kind": "receipt",
+      "text": "Merrigal Park Service Centre\nPump 6 Unleaded 91\n42.18 L @ 189.9c/L\nFuel $80.10\nIced coffee 600ml $4.95\nTOTAL $85.05\nGST incl. $7.73\nRewards points earned 85\n03/10/2026 06:48 Txn 0091127"
+    },
+    {
+      "kind": "receipt",
+      "text": "Tallowood Chemist\nShop 11, Tallowood Plaza, Tallowood VIC 3977\nAntihistamine 10 tabs $9.95\nSunscreen SPF 50+ 200ml $14.99\nThroat lozenges 16 $6.50\nScript #882041 PBS $31.60\nTotal $63.04\nRounding $0.01\nCash $70.00\nChange $6.95\n21.08.26 4:12pm Op 07"
+    },
+    {
+      "kind": "receipt",
+      "text": "KOORINGAL HOT BREAD\n4 x Sausage roll @ $4.80 $19.20\nMeat pie (steak & pepper) $6.90\nVanilla slice x2 $9.00\nFinger buns x6 $10.50\nIced coffee 500ml $5.20\nTOTAL $50.80\nEFTPOS $50.80\nFri 18/09/2026 12:41"
+    },
+    {
+      "kind": "receipt",
+      "text": "Ironbark Creek Cellars\nPale ale 24 x 375ml $62.99\nShiraz 2023 750ml x2 @ $18.50 $37.00\nSauv blanc 750ml $14.99\nIce 5kg $4.50\nSubtotal $119.48\nMember discount 10% on wine -$5.20\nTotal $114.28\nGST incl. $10.39\nMastercard ****6620 27/09/2026 17:52"
+    },
+    {
+      "kind": "receipt",
+      "text": "Willara Newsagency\nPh (03) 5550 2716\nThe Courier, Sat edition $3.50\nBirthday card $6.95\nGift wrap 3m $4.00\nBus pass top-up $20.00\nScratchie x2 @ $5 $10.00\nTotal $44.45\nPaid card $44.45\n06/10/26 8:05am Op 3"
+    },
+    {
+      "kind": "receipt",
+      "text": "Golden Lotus Takeaway\nPh (07) 5550 3390 Order No. 218\nHoney chicken L $16.80\nMongolian beef $17.50\nSpecial fried rice L $12.00\nSpring rolls x4 $6.00\nDim sims x6 $7.20\nDelivery $5.00\nTOTAL $64.50\nPaid online, ready 6:45pm"
+    },
+    {
+      "kind": "receipt",
+      "text": "Bellbird Nursery & Garden\nLemon tree Eureka 300mm $49.95\nPotting mix 25L x2 @ $12.95 $25.90\nSeaweed tonic 1L $16.50\nGardening gloves M $9.95\nSubtotal $102.30\nClub voucher #V-2291 -$10.00\nTOTAL $92.30\nGST incl. $8.39\nVisa contactless 12/10/2026 2:18pm"
+    },
+    {
+      "kind": "receipt",
+      "text": "Flake & Co. Fish Bar\nOrder #73 Fri 6:12pm\nFlake fillet battered x2 @ $9.50 $19.00\nChips large $7.50\nPotato scallops x4 $4.80\nCalamari rings 6 $6.60\nLemon & tartare $1.00\nCan of soft drink x2 $6.00\nTOTAL $44.90\nCash $50.00\nChange $5.10"
+    },
+    {
+      "kind": "receipt",
+      "text": "Banksia Vale Veterinary Hospital\nPatient: Biscuit (canine) Client No. 30418\nConsultation $85.00\nC5 vaccination $72.50\nHeartworm injection 12 mth $118.00\nFlea & tick chew 3 pk $59.95\nTotal incl. GST $335.45\nGST component $30.50\nNext vaccination due 09/10/2027"
+    },
+    {
+      "kind": "receipt",
+      "text": "Kurrawong Post & Parcel\nParcel 2kg to 6152 (WA) $21.45\nExpress envelope Medium $14.70\nStamps 10 x $1.70 $17.00\nPacking tape 48mm $4.50\nTOTAL $57.65\nTracking 7731 2048 5590 1\nCounter 2 09/10/2026 11:36"
+    },
+    {
+      "kind": "receipt",
+      "text": "Snip & Style Merrigal Park\nStylist: Marisol Peña\nWomen's cut & blow-dry $78.00\nHalf head foils $145.00\nToner $35.00\nTreatment mask $25.00\nSubtotal $283.00\nGift card #GC-5531 -$100.00\nBalance paid EFTPOS $183.00\nNext appt Sat 14 Nov 9:30am"
+    },
+    {
+      "kind": "receipt",
+      "text": "Coolabah Tyre & Auto\nRego XQZ-418 Odometer 84,215 km\n205/55R16 tyres x2 @ $139.00 $278.00\nWheel alignment $79.00\nBalance & fit 2 wheels $40.00\nTyre disposal x2 @ $5.50 $11.00\nTOTAL $408.00\nGST incl. $37.09\nInvoice No. 10662 01/10/2026"
+    },
+    {
+      "kind": "notice",
+      "text": "KURRAWONG SHIRE COUNCIL\nRoad closure: Wattle St between Banksia Ave and Gum Tree Ln\nClosed 7:00pm Fri 16 Oct to 5:00am Mon 19 Oct 2026 for resurfacing.\nLocal access only. Buses 412 and 415 will detour via Hill Rd.\nEnquiries (02) 5550 4100 or roads@kurrawong.example"
+    },
+    {
+      "kind": "notice",
+      "text": "BELLBIRD AQUATIC CENTRE\nWater temperature today: 27.5°C\nLap lanes 1–4 reserved for squad training 5:30am–7:30am weekdays.\nNo running. No glass. No diving in water less than 1.8 m deep.\nLifeguard on duty until 8pm. In an emergency call 000."
+    },
+    {
+      "kind": "notice",
+      "text": "NOTICE TO RESIDENTS, 14 Kingfisher Pde\nThe lifts in Building B will be serviced on Wednesday 21/10/2026 between 9am and 1pm.\nPlease use the stairs or the lift in Building A during this time.\nBins are collected Tuesday nights: red lid weekly, yellow lid fortnightly.\nStrata manager: Deepa Raman, 0491 570 132"
+    },
+    {
+      "kind": "notice",
+      "text": "Back in 15 min!\nGone to the bank. If urgent, call Trev on 0491 570 118.\nParcels can be left with Shop 6 (Willara Dry Cleaners).\nOpen again 2:30pm. Sorry for any inconvenience."
+    },
+    {
+      "kind": "notice",
+      "text": "TOTAL FIRE BAN\nKurrawong district, Saturday 07/11/2026\nForecast 41°C, winds NW 45 km/h gusting to 70 km/h\nNo fires in the open. No welding or angle grinding outdoors without a permit.\nFire danger rating: EXTREME\nCheck the brigade board on Ridge Rd or call (02) 5550 7300."
+    },
+    {
+      "kind": "notice",
+      "text": "LOST CAT – \"Mango\"\nGinger tabby, 4 years, microchipped (No. 956000012345678)\nLast seen Sun 11 Oct near Peppercorn Pl and the oval.\nVery friendly but shy of dogs. Wears a green collar with a bell.\n$200 reward for safe return. Call Hannah 0491 570 146."
+    },
+    {
+      "kind": "notice",
+      "text": "2P 8:30am–6pm Mon–Fri\n8:30am–12:30pm Sat\nPermit holders excepted, Area 7\nTow-away zone 4pm–6:30pm weekdays\nFines apply: $116 per offence"
+    },
+    {
+      "kind": "notice",
+      "text": "Tallowood Library\nFrom Monday 2 November the library will open at 9.30am instead of 10am on weekdays.\nSaturday hours stay the same: 9am to 1pm.\nThe returns chute is out of order. Please hand items to the front desk.\nFree JP service every Thursday 10am–12pm. No appointment needed."
+    },
+    {
+      "kind": "notice",
+      "text": "MERRIGAL PARK CRICKET CLUB\nNets are closed until further notice due to storm damage.\nU12 and U14 training moves to the school oval, Tue & Thu 4:45pm.\nRegistration fees for 2026/27: juniors $165, seniors $240.\nPay by 31 Oct to avoid a $20 late fee. Questions: registrar@mpcc.example"
+    },
+    {
+      "kind": "notice",
+      "text": "Level 2 water restrictions apply from 1 December 2026\nSprinklers: odd-numbered houses Wed & Sat, even-numbered houses Thu & Sun, before 8am or after 6pm only.\nHand-held hoses with a trigger nozzle may be used at any time.\nDam level 54.3% and falling. Penalties up to $220.\nCoolabah Regional Water (07) 5550 1920"
+    },
+    {
+      "kind": "notice",
+      "text": "Ironbark Reserve Playground\nSuitable for children aged 2 to 12 years.\nAdult supervision required at all times.\nNo dogs within 10 metres of play equipment.\nReport damage to Council, quoting asset ID PG-0447, on (03) 5550 8820."
+    },
+    {
+      "kind": "notice",
+      "text": "St Brigid's Hall booking notice\nThe hall is booked every Friday 6pm–10pm by the Willara Bridge Club until 18/12/2026.\nThe cleaning roster is on the kitchen door. Please turn off the urn and both split systems before you leave.\nKeys go back in the box at No. 3 Acacia Cl. Bond $150."
+    },
+    {
+      "kind": "notice",
+      "text": "CLOSED FOR RENOVATIONS\nKooringal Fruit Market will be closed from Monday 26 October to Sunday 8 November.\nWe reopen Monday 9 November at 7am with a bigger deli and a new coffee bar.\nThank you for 18 years of support!\nFind us on Instagram @kooringalfruit"
+    },
+    {
+      "kind": "notice",
+      "text": "Banksia Vale Public School\nKiss and drop zone operates 8:15–9:00am and 2:45–3:15pm.\nMaximum stop 2 minutes. Stay with your vehicle.\nSchool zone speed limit 40 km/h on school days.\nOffice (02) 5550 6612 | Absences SMS 0491 570 151"
+    },
+    {
+      "kind": "notice",
+      "text": "FIT HUB 24/7 – Tallowood\nMembers must swipe in individually. Tailgating will result in a $50 fine and suspension.\nStaffed hours: Mon–Fri 6am–10am and 4pm–8pm.\nAir con is set to 22°C. Please wipe down equipment after use.\nMembership enquiries: 0491 570 109"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Fence on our shared boundary\nHi Graham,\nJust following up on our chat over the weekend. The quote from Ridgeline Fencing came in at $4,860 for 27 metres of steel paling fence, so our half would be $2,430 each. They can start on 3 November if we confirm by Friday. Let me know if you're happy to go ahead and I'll send you the invoice details.\nCheers,\nLeanne (No. 44)"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr Nguyen,\nYour rates notice for 2026/27 (Assessment No. 118 402 7) shows a total of $2,184.60, payable in four instalments of $546.15.\nThe first instalment is due on 30 September 2026. If you have registered for a pensioner concession, a rebate of $250.00 will appear on your second notice.\nYours sincerely,\nRates Officer, Kurrawong Shire Council"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Parents and Carers,\nYear 6 camp at Lake Yarrandi runs from 10 to 12 November and costs $385 per student, which covers transport, meals and activities. A deposit of $100 is due by 24 October, with the balance of $285 due by 6 November. Please return the medical form even if your child has no conditions.\nKind regards,\nMs Rosalind Achebe, Year 6 Coordinator"
+    },
+    {
+      "kind": "letter",
+      "text": "To: Property Manager, Bellbird Realty\nRe: 7/31 Magpie Street, Merrigal Park\nI am writing to report that the hot water system has failed twice this week and the water now runs at about 30°C. The plumber who attended on 6 October (job ref. HW-20931) said the thermostat needs replacing. Could you please arrange the repair within the 14 days set out in our lease?\nRegards,\nTomás Herrera"
+    },
+    {
+      "kind": "letter",
+      "text": "Hi Coach Daniela,\nSorry, Lachie will miss Saturday's game against Kooringal because it's his grandma's 80th up the coast. He'll be back for training on Tuesday at 5pm. I've paid the $45 for the end-of-season trophy night and the receipt number is 77215.\nThanks,\nMel"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Willara Lions Club,\nOn behalf of everyone at the Willara Community Kitchen, thank you for your donation of $3,500 raised at the spring fair. It will pay for roughly 1,400 hot meals over the coming winter. Our volunteers served 312 people last month alone, so your support could not have come at a better time.\nWith gratitude,\nFather Joseph Okonkwo"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your booking at Ironbark Creek Cabins\nHi Sophie,\nThanks for booking Cabin 4 for 2 nights, Friday 20 to Sunday 22 November. The rate is $189 per night, so the total is $378, and we've taken a deposit of $100. The remaining $278 is due on arrival. Check-in is from 2pm and check-out is by 10am.\nSee you soon,\nBec & Andy"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Kirsty,\nYour parcel arrived in Leeds on 2 October, only 11 days after you posted it! The postage on the label said A$74.20, which must be about £36, so please let me send you something back. The tea towel with the koalas is now hanging in the kitchen.\nLove always,\nAuntie Margaret"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Special levy – roof repairs\nDear Owners,\nAt the general meeting on 9 September, owners voted 11 to 3 to approve a special levy of $96,000 for roof and gutter repairs. Across 24 lots this is $4,000 per lot, payable in two halves of $2,000 on 1 December 2026 and 1 March 2027.\nRegards,\nKingfisher Strata Management"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Dr Halvorsen,\nThank you for seeing Mrs Yuki Tanaka, aged 67, who has had right knee pain for 8 months. An X-ray on 15/09/2026 showed moderate medial joint narrowing. She takes paracetamol 1 g up to 3 times daily with partial relief. I would value your opinion on management.\nKind regards,\nDr Amara Fitzgerald, Tallowood Family Practice"
+    },
+    {
+      "kind": "letter",
+      "text": "Hi Jarrah,\nWelcome to the team at The Wattle Bean! Your first shift is Saturday 17 October, 6:30am to 2:30pm, with a 30-minute unpaid break. Your rate is $31.45 an hour plus the weekend penalty. Please bring your TFN declaration and wear black shoes.\nSee you then,\nPriya"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Borrower,\nOur records show that the following item is now 21 days overdue: \"A Short History of the Southern Rail Line\" (barcode 3002 1188 4471). A replacement charge of $34.95 will be added to your account if it is not returned by 31/10/2026.\nCard No. 2 9140 0072 5518\nTallowood Library"
+    },
+    {
+      "kind": "letter",
+      "text": "Hi Dmitri,\nWe'd like to go ahead with quote Q-4418 for the new kitchen tap and the leaking shower mixer. The total of $1,265 (incl. GST) is fine. Tuesday 27 October from 8am works for us; the side gate code is 4471#.\nThanks,\nAnjali and Ross Whitfield"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Families,\nFrom 4 January 2027 our daily fee will rise from $142 to $148, an increase of 4.2%. After the Child Care Subsidy, most families will pay between $3 and $5 more per day. Our hours stay the same, 6:45am to 6:15pm.\nWarm regards,\nGumnut Early Learning Centre, Coolabah Rise"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Sunday ride, 25 Oct\nHi all,\nMeet at the Merrigal Park rotunda at 6:30am sharp for the 64 km loop through Ironbark Creek and back via the river trail. Expected pace is 26–28 km/h with a coffee stop at about the 40 km mark. The forecast is 19°C with a light southerly.\nRide safe,\nNico"
+    },
+    {
+      "kind": "menu",
+      "text": "THE WATTLE BEAN – BREAKFAST\nSmashed avo, feta & dukkah on sourdough $19.50\nBig brekkie: eggs, bacon, snags, mushrooms, hash brown $24.00\nBircher muesli with poached pear $14.50\nCorn fritters, salsa & lime crème fraîche $21.00\nAdd halloumi $5.00 | Add bacon $5.50\nGluten-free bread available +$2.00"
+    },
+    {
+      "kind": "menu",
+      "text": "FLAKE & CO. FISH BAR\nFlake (battered or grilled) $9.50\nBarramundi fillet $13.90\nHake & chips $12.50\nPotato scallop $1.20 each\nDim sim (steamed or fried) $1.30 each\nChips small $4.50 | medium $6.00 | large $7.50\nCalamari rings 6 for $6.60\nFamily pack: 4 flake, 2 large chips, 4 scallops $59.90"
+    },
+    {
+      "kind": "menu",
+      "text": "The Ironbark Hotel Bistro – Lunch & Dinner\nChicken parmigiana with chips & salad $28.00\n250g rump, pepper or mushroom gravy $34.00\nBeer-battered barramundi $31.00\nLamb shank, mash & greens $32.00\nKids' nuggets & chips $14.00\nTuesday: $20 parma night | Thursday: $25 steak night\nKitchen 12–2:30pm & 5:30–8:30pm"
+    },
+    {
+      "kind": "menu",
+      "text": "Bangkok Corner Thai Kitchen\nEntrées\nCurry puffs (4) $9.50\nChicken satay (4) $12.00\nMains\nPad thai – chicken, beef or tofu $19.90 / prawn $23.90\nGreen curry with jasmine rice $21.50\nMassaman beef $23.00\nSpice level 1–5, just ask. BYO wine only, corkage $3 pp."
+    },
+    {
+      "kind": "menu",
+      "text": "Gelato Bella Coolabah\n1 scoop $6.00 | 2 scoops $8.50 | 3 scoops $10.50\nWaffle cone +$1.50\nFlavours today: pistachio, salted caramel, mango, crème brûlée, lamington, macadamia & honey\nAffogato $9.00\nThickshake (any flavour) $9.50\nOpen till 10pm Fri & Sat"
+    },
+    {
+      "kind": "menu",
+      "text": "KOORINGAL HOT BREAD\nMeat pie $6.90\nChunky beef & red wine pie $7.40\nSausage roll $4.80\nSpinach & ricotta roll $5.20\nVanilla slice $4.50\nFinger bun $1.75\nMeal deal: pie, sausage roll & can $13.50\nHot pies until 2pm daily"
+    },
+    {
+      "kind": "menu",
+      "text": "Banksia Vale PS Canteen – Term 4 price list\nHam & cheese toastie $4.50\nChicken & lettuce wrap $5.80\nSpaghetti bolognese (Wed only) $6.00\nFruit cup $2.20\nFrozen yoghurt tube $1.50\nWater 600ml $2.00\nOrder online by 9:15am or send a paper bag order.\nCanteen closed Fri 13 Nov (staff development day)."
+    },
+    {
+      "kind": "menu",
+      "text": "Spice Route Indian Restaurant\nButter chicken $22.90\nLamb rogan josh $24.90\nDal makhani (v) $17.90\nGarlic naan $4.50 | Plain naan $3.90\nBasmati rice $4.00\nMango lassi $6.50\nBanquet for 2: 2 curries, rice, 2 naan & papadums $59.00\n10% off pick-up orders over $50 · Ph (03) 5550 9147"
+    },
+    {
+      "kind": "menu",
+      "text": "COFFEE\nEspresso $4.00\nFlat white / latte / cappuccino $5.00 regular, $6.00 large\nLong black $4.50\nMocha $5.80\nChai latte $5.50\nOat, almond or soy +70c\nDecaf available. Café hours 6am–2pm."
+    },
+    {
+      "kind": "menu",
+      "text": "Rizzo's Woodfired Pizza\nMargherita $18\nPepperoni & chilli honey $24\nProsciutto, rocket & parmesan $26\nGarlic & rosemary (v) $14\nSmall 10\" $3 less | Gluten-free base +$4\nTuesday 2-for-1 pick-up\nPh 0491 570 127 · Order numbers called at the counter"
+    },
+    {
+      "kind": "menu",
+      "text": "Sakura Sushi Train\nPlate colours: green $3.80 | red $4.80 | blue $5.80 | black $7.20\nSalmon nigiri (2 pcs) green\nTeriyaki chicken roll red\nSoft-shell crab roll blue\nWagyu tataki black\nMiso soup $3.50 | Edamame $5.00\nTakeaway boxes available, 15% off after 8pm"
+    },
+    {
+      "kind": "menu",
+      "text": "Tallowood Bowls Club – Christmas Lunch, Sunday 13 December 2026\nEntrée: prawn cocktail or pumpkin soup\nMain: roast turkey & ham with cranberry, or barramundi with lemon butter\nDessert: pavlova with passionfruit or plum pudding with custard\n$69 per adult, $32 per child under 12\nBookings close 1 December. Ph (03) 5550 4402"
+    },
+    {
+      "kind": "menu",
+      "text": "Patty Wagon Burgers\nClassic beef burger $14.50\nThe Aussie (beetroot, egg, pineapple, bacon) $18.50\nCrispy chicken burger $15.50\nMushroom & halloumi (v) $16.00\nMake it a meal (chips + drink) +$6.50\nSweet potato fries $7.00\nThickshakes $8.50"
+    },
+    {
+      "kind": "menu",
+      "text": "La Piñata Cantina\nTacos (3): pork al pastor, chicken tinga or jackfruit $18.00\nBurrito bowl $19.50\nNachos to share $21.00\nJalapeño poppers (6) $12.00\nChurros with chocolate sauce $10.00\nHorchata $6.00 | Margarita $16.00\nHappy hour 4–6pm: $10 margaritas"
+    },
+    {
+      "kind": "menu",
+      "text": "Pho Saigon Kooringal\nPho bo (beef noodle soup) small $16.50 / large $18.50\nBun cha (grilled pork vermicelli) $19.00\nBanh mi – pork, chicken or tofu $11.00\nRice paper rolls (2) $8.00\nVietnamese iced coffee $6.50\nCash or card, min. $10 on card\nClosed Mon · Tue–Sun 10:30am–8:30pm"
+    },
+    {
+      "kind": "timetable",
+      "text": "Route 412 Kurrawong to Merrigal Park Station\nWeekdays\nKurrawong Shops 06:10 06:40 07:05 07:30 08:00\nWattle St 06:16 06:46 07:11 07:36 08:06\nBanksia Vale PS 06:22 06:52 07:17 07:42 08:12\nMerrigal Park Stn 06:35 07:05 07:30 07:55 08:25"
+    },
+    {
+      "kind": "timetable",
+      "text": "Southern Line – Saturday departures from Merrigal Park\nPlatform 2 to City: 7:14am, 7:44am, 8:14am, then every 30 minutes until 11:44pm\nPlatform 1 to Coolabah Rise: 7:02am, 7:32am, 8:02am, then every 30 minutes until 11:32pm\nTrackwork 24–25 Oct: buses replace trains between Merrigal Park and Tallowood.\nAllow an extra 25 min."
+    },
+    {
+      "kind": "timetable",
+      "text": "Bellbird Aquatic Centre – Lane timetable (Term 4)\nMon/Wed/Fri 5:30–7:30am Squad (lanes 1–4)\nMon–Fri 9:00–11:00am Aqua aerobics (lanes 7–8)\nTue/Thu 4:00–6:30pm Learn to swim (program pool)\nSat 7:00–9:00am Masters (lanes 1–3)\nSun 8:00am–6:00pm All lanes public\nWater temp 27–28°C"
+    },
+    {
+      "kind": "timetable",
+      "text": "Banksia Vale Public School – 2027 term dates\nTerm 1: Thu 28 Jan – Thu 1 Apr\nTerm 2: Mon 19 Apr – Fri 25 Jun\nTerm 3: Mon 12 Jul – Fri 17 Sep\nTerm 4: Tue 5 Oct – Fri 17 Dec\nPupil-free days: Wed 27 Jan and Mon 4 Oct"
+    },
+    {
+      "kind": "timetable",
+      "text": "Kurrawong Shire – Bin collection, Zone C (Tuesdays)\nRed lid (general waste): every Tuesday\nYellow lid (recycling): 3 Nov, 17 Nov, 1 Dec, 15 Dec, 29 Dec\nGreen lid (garden): 10 Nov, 24 Nov, 8 Dec, 22 Dec\nPut bins out by 6am. No change over Christmas week.\nHard waste bookings (02) 5550 4130"
+    },
+    {
+      "kind": "timetable",
+      "text": "Willara Community Bus – Shopping run\nTuesdays and Fridays\nPick-up: Acacia Lodge 9:00am, Peppercorn Pl 9:10am, Ridge Rd shops 9:20am\nArrive Merrigal Park Plaza 9:40am\nReturn departs Plaza 12:30pm\nFare $2.50 each way, concession $1.25\nBook 24 hrs ahead on (03) 5550 3381"
+    },
+    {
+      "kind": "timetable",
+      "text": "FIT HUB Tallowood – Group classes\nMon 6:00am HIIT · 9:30am Pilates · 6:30pm Spin\nTue 6:00am Boxfit · 7:00pm Yoga\nWed 6:00am Spin · 9:30am Seniors strength · 6:30pm HIIT\nThu 6:00am Boxfit · 7:00pm Yin yoga\nFri 6:00am Spin · 5:30pm Circuit\nSat 7:00am Bootcamp (oval, weather permitting)\nClasses run 45 min unless marked. Book via the app, max. 20 per class."
+    },
+    {
+      "kind": "timetable",
+      "text": "Merrigal Park Magpies U14 – Fixtures\nRd 1 Sat 17 Oct v Kooringal Kookaburras, home, 8:30am\nRd 2 Sat 24 Oct v Coolabah Rise, away (Ridge Oval), 10:00am\nRd 3 Sat 31 Oct v Tallowood Tigers, home, 8:30am\nRd 4 Sat 7 Nov BYE\nRd 5 Sat 14 Nov v Ironbark Creek, away, 9:15am\nArrive 30 min before start. Canteen roster on the club page."
+    },
+    {
+      "kind": "timetable",
+      "text": "Tallowood Family Practice – Opening hours\nMonday to Friday 8:00am–6:00pm\nSaturday 8:30am–12:30pm\nSunday & public holidays closed\nBlood collection 8:00–11:00am weekdays\nAfter-hours GP home visits: (03) 5550 1199\nBulk billing for under 16s and concession card holders"
+    },
+    {
+      "kind": "timetable",
+      "text": "Coolabah Rise Station – Weekday departures to Central\n05:42 all stations\n06:15 express, stops Merrigal Park, Tallowood\n06:38 all stations\n07:04 express\n07:21 all stations\n07:47 express, platform 3\nJourney to Central approx. 52 min (express 38 min)"
+    },
+    {
+      "kind": "timetable",
+      "text": "Kingfisher Bay tide times – week of 19 October 2026\nMon 19: high 04:12 (1.6 m), low 10:31 (0.4 m)\nTue 20: high 04:58 (1.7 m), low 11:20 (0.3 m)\nWed 21: high 05:45 (1.8 m), low 12:08 (0.3 m)\nThu 22: high 06:31 (1.8 m), low 12:57 (0.4 m)\nFri 23: high 07:19 (1.7 m), low 13:47 (0.5 m)\nSunrise 6:02am, sunset 7:31pm (AEDT)"
+    },
+    {
+      "kind": "timetable",
+      "text": "Tallowood Library – What's on, Term 4\nRhyme Time (0–2 yrs) Mon & Wed 10:00am\nStorytime (3–5 yrs) Thu 10:30am\nLego Club (ages 6–12) Fri 3:45pm\nTech help for seniors Tue 2:00–3:30pm\nBook club, last Sat of the month 11:00am\nBookings essential for Lego Club: 25 spots"
+    },
+    {
+      "kind": "timetable",
+      "text": "Kooringal Holiday Program – January 2027\nMon 11 Jan: Water fun day (bring togs & towel) $68\nTue 12 Jan: Movie & pizza $62\nWed 13 Jan: Excursion to the wildlife park $85\nThu 14 Jan: Science lab with Dr Fizz $65\nFri 15 Jan: Cricket clinic $58\nHours 7:30am–6:00pm. CCS approved, provider No. 190-004412"
+    },
+    {
+      "kind": "timetable",
+      "text": "Merrigal Park Show shuttle bus – Saturday 31 October\nStation → Showground every 15 min, 09:00–17:00\nShowground → Station every 15 min, 11:00–19:30\nThe last bus leaves the Showground at 19:30 sharp.\nFree with a show ticket; otherwise $3.00\nAccessible bus on request: 0491 570 113"
+    },
+    {
+      "kind": "timetable",
+      "text": "Medication schedule for Doris Kettering\n8:00am Metformin 500 mg, Perindopril 5 mg\n12:30pm Paracetamol 1 g if needed\n6:00pm Metformin 500 mg, Atorvastatin 20 mg\n9:30pm Melatonin 2 mg\nMax. paracetamol 4 g in 24 hrs. Review 20/11/2026.\nPrepared by Tallowood Chemist, Ph (03) 5550 2280"
+    },
+    {
+      "kind": "recipe",
+      "text": "Lamingtons (makes 16)\nSponge: 4 eggs, 3/4 cup caster sugar, 1 cup self-raising flour, 2 tbsp cornflour, 1 tbsp melted butter\nIcing: 3 cups icing sugar, 1/3 cup cocoa, 15 g butter, 1/2 cup boiling water\n2 cups desiccated coconut\nBake the sponge at 180°C for 20–25 min in a 20 x 30 cm tin. Cool overnight, cut into 16 squares, dip in icing, then roll in coconut."
+    },
+    {
+      "kind": "recipe",
+      "text": "Anzac biscuits (makes about 24)\n1 cup rolled oats\n1 cup plain flour\n1 cup brown sugar\n3/4 cup desiccated coconut\n125 g butter\n2 tbsp golden syrup\n1/2 tsp bicarb soda dissolved in 2 tbsp boiling water\nOven 160°C fan-forced. Roll into balls, flatten slightly and bake for 12–15 minutes until golden."
+    },
+    {
+      "kind": "recipe",
+      "text": "Grandma Joan's pavlova\n6 egg whites at room temperature\n1 1/2 cups caster sugar\n2 tsp cornflour\n1 tsp white vinegar\n1 tsp vanilla\n300 ml thickened cream, whipped\nPulp of 4 passionfruit, 250 g strawberries\nBeat the whites to soft peaks, add the sugar a spoonful at a time, then fold in the cornflour, vinegar and vanilla. Bake at 120°C for 1 1/2 hours, then cool in the oven with the door ajar."
+    },
+    {
+      "kind": "recipe",
+      "text": "Campfire damper (serves 6)\n3 cups self-raising flour\n1 tsp salt\n90 g butter, chilled and cubed\n1 1/4 cups milk\nRub the butter into the flour and salt, then stir in the milk to form a soft dough. Shape into a round, score a cross on top and bake at 200°C for 25–30 min, or in a camp oven over coals. Serve with golden syrup."
+    },
+    {
+      "kind": "recipe",
+      "text": "Roast pumpkin soup – serves 4\n1.2 kg butternut pumpkin, peeled and cubed\n1 brown onion, chopped\n2 garlic cloves\n1 L chicken or vegetable stock\n1/2 cup cream, plus extra to serve\nRoast the pumpkin at 200°C for 30 min. Soften the onion and garlic, add the pumpkin and stock, simmer for 15 min and blend until smooth. Season and stir through the cream.\nPrep 15 min · Cook 50 min · approx. 285 kcal per serve"
+    },
+    {
+      "kind": "recipe",
+      "text": "Barbecued barramundi with lemon myrtle\n4 barramundi fillets (about 180 g each)\n2 tbsp olive oil\n1 tsp ground lemon myrtle\nZest and juice of 1 lemon\nSea salt and cracked pepper\nBrush the fillets with oil, sprinkle with lemon myrtle and zest, and season. Cook skin side down on a hot plate for 4 minutes, turn and cook 2–3 minutes more until the flesh flakes. Serve with lemon wedges and a green salad."
+    },
+    {
+      "kind": "recipe",
+      "text": "Banana bread (1 loaf, 10 slices)\n3 overripe bananas, mashed (about 1 1/3 cups)\n125 g butter, melted\n3/4 cup brown sugar\n2 eggs\n1 3/4 cups self-raising flour\n1 tsp cinnamon\nLine a 22 x 10 cm loaf tin. Mix the wet ingredients, then fold in the flour and cinnamon. Bake at 170°C for 55–60 min or until a skewer comes out clean."
+    },
+    {
+      "kind": "recipe",
+      "text": "Prawn cocktail (serves 6)\n1 kg cooked king prawns, peeled with tails on\n2 cups shredded iceberg lettuce\n1 avocado, diced\nSauce: 1/2 cup whole-egg mayonnaise, 2 tbsp tomato sauce, 1 tsp Worcestershire sauce, a squeeze of lemon, a pinch of cayenne\nDivide the lettuce and avocado between 6 glasses, top with prawns and spoon over the sauce. Keep chilled below 5°C until serving."
+    },
+    {
+      "kind": "recipe",
+      "text": "Pumpkin scones (makes 12)\n1 tbsp butter\n1/4 cup sugar\n1 egg\n1 cup cold mashed pumpkin\n2 1/2 cups self-raising flour\n1/2 cup milk, approx.\nCream the butter and sugar, beat in the egg, then the pumpkin. Fold in the flour with enough milk to make a soft dough. Cut 5 cm rounds and bake at 220°C for 15 min."
+    },
+    {
+      "kind": "recipe",
+      "text": "Corn & jalapeño fritters (makes 10)\n2 cups corn kernels (fresh or frozen)\n1 jalapeño, finely chopped\n3 spring onions, sliced\n3/4 cup plain flour\n1 tsp baking powder\n2 eggs and 1/3 cup milk\n100 g feta, crumbled\nFry 1/4 cup of batter at a time in a little oil, 2–3 min each side. Serve with crème fraîche and lime."
+    },
+    {
+      "kind": "recipe",
+      "text": "Slow cooker lamb shanks (serves 4)\n4 lamb shanks (about 1.6 kg total)\n2 tbsp plain flour, seasoned\n1 onion, 2 carrots and 2 celery sticks, diced\n400 g tin crushed tomatoes\n1 cup beef stock and 1/2 cup red wine\n2 sprigs rosemary\nDust the shanks in flour and brown them in batches. Put everything in the slow cooker and cook on LOW for 8 hours or HIGH for 4 1/2 hours, until the meat falls from the bone."
+    },
+    {
+      "kind": "recipe",
+      "text": "Chocolate crackles (makes 24)\n4 cups puffed rice cereal\n1 1/2 cups icing sugar\n1 cup desiccated coconut\n3 tbsp cocoa powder\n250 g white vegetable shortening, melted and cooled\nMix the dry ingredients, stir in the shortening and spoon into 24 patty cases. Refrigerate for at least 1 hour until set. Keep them in the fridge in hot weather (above 25°C)."
+    },
+    {
+      "kind": "recipe",
+      "text": "Mango & passionfruit smoothie (2 glasses)\n1 large mango, flesh only (about 250 g)\n2 passionfruit\n1 cup milk or coconut water\n1/2 cup Greek yoghurt\n4 ice cubes\n1 tsp honey (optional)\nBlend everything except the passionfruit until smooth. Pour into two 300 ml glasses and stir the passionfruit pulp through. Approx. 190 kcal and 8 g protein per glass."
+    },
+    {
+      "kind": "recipe",
+      "text": "Cheese & spinach scrolls (makes 12)\n2 cups self-raising flour\n30 g butter\n3/4 cup milk\n1 cup grated tasty cheese\n1 cup baby spinach, chopped\n1/4 cup grated parmesan\nMake a soft dough and roll it out to a 30 x 25 cm rectangle, then scatter with the spinach and cheeses. Roll up from the long side, cut into 12 and bake at 200°C for 18–20 min."
+    },
+    {
+      "kind": "recipe",
+      "text": "Nan's pikelets (makes about 20)\nFrom the kitchen of Beryl Atkins, 1974\n1 cup self-raising flour\n2 tbsp caster sugar\n1 egg\n3/4 cup milk\n20 g butter, melted, plus extra for the pan\nWhisk everything to a smooth batter and rest it for 10 min. Drop tablespoons onto a buttered pan over medium heat and turn when bubbles appear, about 1 minute each side. Serve with jam and cream."
+    },
+    {
+      "kind": "label",
+      "text": "Ironbark Creek Raw Honey\nYellow box & stringybark blend\nNet 500 g\nPacked by B. & D. Sorensen, 82 Old Coach Rd, Ironbark Creek NSW 2774\nBest before 14/03/2029\nBatch No. 26-117\nMay crystallise in cool weather; warm gently below 40°C.\nNot suitable for infants under 12 months."
+    },
+    {
+      "kind": "label",
+      "text": "TAKE ONE (1) CAPSULE THREE TIMES A DAY\nAmoxicillin 500 mg capsules\nQty: 15 Rpt: 0\nPatient: Liam O'Donoghue\nDr K. Venkataraman 14/10/2026\nComplete the full course. Store below 25°C.\nTallowood Chemist, Ph (03) 5550 2280 Rx 448190"
+    },
+    {
+      "kind": "label",
+      "text": "Kooringal Roasters\nHouse Blend – Medium roast\nOrigin: 60% Brazil, 25% Colombia, 15% Ethiopia\nTasting notes: milk chocolate, toffee, red apple\nNet weight 1 kg\nRoasted 06/10/2026 · Best within 6 weeks\nWhole bean. Store in a cool, dry place."
+    },
+    {
+      "kind": "label",
+      "text": "Made in Australia\n70% merino wool, 30% nylon\nCold machine wash 30°C gentle cycle\nDo not tumble dry\nDry flat in shade\nCool iron if needed\nSize 12 / M\nStyle No. KR-2207 Colour: Eucalypt"
+    },
+    {
+      "kind": "label",
+      "text": "Bellbird Bakehouse Toasted Muesli 240 g\nNUTRITION INFORMATION\nServings per package: 8\nServing size: 30 g\nPer serving / Per 100 g\nEnergy 486 kJ / 1620 kJ\nProtein 3.6 g / 12.0 g\nFat, total 4.5 g / 15.0 g\nCarbohydrate 18.9 g / 63.0 g\nSodium 45 mg / 150 mg\nIngredients: rolled oats (62%), honey, sunflower seeds, almonds (6%)"
+    },
+    {
+      "kind": "label",
+      "text": "Ironbark Creek Estate 2023 Shiraz\nHand-picked from our 40-year-old vines and matured for 18 months in French oak.\n750 ml · 14.5% alc/vol\nContains approx. 8.6 standard drinks\nContains sulphites\nIt is safest not to drink while pregnant.\nProduct of Australia · Lot 23-SH4"
+    },
+    {
+      "kind": "label",
+      "text": "Bellbird Pet Co. Adult Dog Food – Chicken & Rice\nNet 3 kg\nFeeding guide (per day): 5 kg dog 90 g, 10 kg dog 150 g, 20 kg dog 250 g, 30 kg dog 340 g\nCrude protein min. 24%, crude fat min. 12%, fibre max. 4%\nBest before 11/2027 Lot 2209C\nMade in Australia from local and imported ingredients."
+    },
+    {
+      "kind": "label",
+      "text": "Coolabah Organics Citrus Food\nN:P:K 8:4:6 + trace elements\nApply 1 cup (approx. 150 g) per square metre of canopy, spread under the drip line.\nWater in well. Apply in spring and late summer.\nKeep out of reach of children. Wash hands after use.\nNet 2.5 kg · Batch 0926-11"
+    },
+    {
+      "kind": "label",
+      "text": "PARCEL POST\nTo: Ms Hiroko Lindqvist\nUnit 5, 18 Banksia Avenue\nBanksia Vale NSW 2768\nFrom: Kooringal Roasters, PO Box 331, Kooringal VIC 3612\nWeight 1.15 kg · Dimensions 22 x 16 x 10 cm\nConsignment No. 33QX 0417 7752 01"
+    },
+    {
+      "kind": "label",
+      "text": "Model KX-450 Electric Kettle\n220–240 V ~ 50 Hz 2200 W\nCapacity 1.7 L\nSerial No. 2610-008842\nDo not immerse the base in water. Unplug before cleaning.\nApproval No. EA-260419\nMade in China · Imported by Willara Home Pty Ltd, Willara VIC 3920"
+    },
+    {
+      "kind": "label",
+      "text": "SunSafe Sports SPF 50+\nVery high protection · 4 hours water resistant\nBroad spectrum UVA/UVB\nApply liberally 20 minutes before sun exposure and reapply every 2 hours, and after swimming, towelling or sweating.\nActive ingredients: zinc oxide 18%, octocrylene 5%\n200 mL · Exp. 08/2028 · AUST L 412093"
+    },
+    {
+      "kind": "label",
+      "text": "Kurrawong Valley Free Range Eggs\n12 large eggs · Min. 700 g\nStocking density 1,500 hens per hectare\nFarm ID KVF-29 · Packed 09/10/2026\nBest before 07/11/2026\nKeep refrigerated below 5°C\nReturn this carton to the farm gate stall for a 20c refund."
+    },
+    {
+      "kind": "label",
+      "text": "Merrigal Park Ladies Auxiliary\nFig & Ginger Jam\nIngredients: figs (55%), sugar, lemon juice, ginger (2%), pectin\nNet 285 g\nMade 21/02/2026 · Use within 12 months\nRefrigerate after opening and use within 6 weeks.\n$7.50 – all proceeds to the Kurrawong Rural Fire Brigade"
+    },
+    {
+      "kind": "label",
+      "text": "Wattle St Butchery\nFree range chicken thigh fillets\n$15.99/kg\nPack 1.124 kg\nPrice $17.97\nPacked 12/10/2026 Use by 16/10/2026\nKeep refrigerated 0–4°C\nItem No. 6602418"
+    },
+    {
+      "kind": "label",
+      "text": "WARNING: CHOKING HAZARD – Small parts. Not for children under 3 years.\nBushland Animals Puzzle, 100 pieces\nFinished size 48 x 34 cm · Ages 6+\nDesigned in Willara by Little Wren Toys, 7 Peppercorn Pl, Willara VIC 3920\nProduct code LWT-100-BA · Batch 08/26\nKeep this information for future reference."
+    },
+    {
+      "kind": "flyer",
+      "text": "GARAGE SALE\nSaturday 24 October, 7am–1pm\n42 Kookaburra Cres, Coolabah Rise\nFurniture, kids' bikes, tools, kitchenware, books & vinyl records\nQueen bed frame $80, outdoor setting $150, 3-seater couch $120\nNo early birds please! Cash or PayID only."
+    },
+    {
+      "kind": "flyer",
+      "text": "Jase's Mowing & Garden Care\nLawns from $45 (standard suburban block up to 600 m²)\nHedging, edging, green waste removal\nPensioner discount 10%\nFully insured · ABN 51 824 753 556\nCall or text Jason 0491 570 155\nFree quotes · servicing Willara, Tallowood & Kooringal"
+    },
+    {
+      "kind": "flyer",
+      "text": "KOORINGAL SPRING FAIR\nSunday 15 November 2026, 10am–4pm\nKooringal Reserve, cnr Banksia Ave & Hill Rd\nLive music · Rides · Animal farm · Food trucks · Market stalls\nEntry $5 adults, kids under 12 free\nDog show 1:30pm, raffle drawn 3:30pm\nStallholder enquiries: fair@kooringal.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "Maths & English tutoring, Years 3–12\nQualified teacher, 15 years' experience, WWCC current\n$65 per hour, or $300 for 5 sessions\nOnline or at Tallowood Library\nNAPLAN & HSC preparation\nContact Ms Inés Carvalho, 0491 570 139 or ines.tutor@mail.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "New! Mat Pilates at Willara Hall\nMondays 6:15pm & Thursdays 9:30am\nStarting 2 November 2026\n$22 casual or $180 for a 10-class pass\nBeginners welcome. Bring a mat and a water bottle.\nBook with Freya: 0491 570 121"
+    },
+    {
+      "kind": "flyer",
+      "text": "OPEN FOR INSPECTION\n23 Lyrebird Way, Bellbird\n4 bed · 2 bath · 2 car · 712 m² block\nSaturday 17 October 11:00–11:30am\nAuction on site Saturday 7 November at 10am unless sold prior\nPrice guide $1,150,000 – $1,250,000\nAgent: Cameron Oyelaran, 0491 570 104"
+    },
+    {
+      "kind": "flyer",
+      "text": "DOG WALKING & PET SITTING\nHi! I'm Ruby, 16, and I live on Wren St.\n30-min walk $15 · 1-hour walk $25\nFeeding visits while you're away $20 per visit\nAvailable weekdays after 3:30pm and all weekend\nMum's number for references: 0491 570 143"
+    },
+    {
+      "kind": "flyer",
+      "text": "TRIVIA NIGHT for the Year 12 formal\nFriday 20 November, 7pm for a 7:30pm start\nIronbark Hotel function room\nTables of 8, $25 per person or $200 per table\nRaffle, silent auction & heads or tails\nBYO nibbles. Drinks at the bar.\nBook: y12formal@tallowoodhs.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "Sparky Steve's Electrical\nLic. No. 284519C\nPowerpoints, lighting, switchboard upgrades, smoke alarms\nCeiling fans supplied & installed from $289\nSame-day call-outs, no call-out fee before 5pm\nSeniors 15% off labour\nPh 0491 570 117 · steve@sparkysteve.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "Come and sing!\nThe Merrigal Park Community Choir is looking for new voices, especially tenors and basses.\nRehearsals Wednesdays 7:30–9:30pm at the Memorial Hall, 12 Gum Tree Ln.\nNo auditions. Term fee $90, or $45 for students.\nChristmas concert Sunday 13 December at 3pm.\nContact our director, Renée Dubois: 0491 570 149"
+    },
+    {
+      "kind": "flyer",
+      "text": "GRAND OPENING\nLa Piñata Cantina, Shop 3/88 Ridge Rd, Merrigal Park\nFriday 30 October from 5pm\nFree churros for the first 50 guests\n$10 margaritas & $5 tacos all night\nMariachi from 7pm\nBookings 0491 570 131 · @lapinatacantina"
+    },
+    {
+      "kind": "flyer",
+      "text": "LEARN TO SWIM – Summer intensive\nBellbird Aquatic Centre, 4–15 January 2027\nDaily 30-min lessons, Mon–Fri over 2 weeks (10 lessons)\n$195 per child, siblings $175\nLevels: Starfish (3–5 yrs), Turtles, Dolphins, Sharks\nEnrol by 12 December at the front desk or call (02) 5550 2960"
+    },
+    {
+      "kind": "flyer",
+      "text": "FREE SKIN CHECKS\nKurrawong Community Health, 9 Wattle St\nSaturday 21 November, 9am–3pm\nNo referral needed. Over 18s only.\nAustralia has one of the highest skin cancer rates in the world. About 2 in 3 Australians will be diagnosed by the age of 70.\nBookings preferred: (02) 5550 3315"
+    },
+    {
+      "kind": "flyer",
+      "text": "SCOUTS CAR WASH\nSunday 1 November, 9am–2pm\nWillara Scout Hall car park, 5 Acacia Cl\nCar $15 · SUV/4WD $20 · Interior vacuum +$10\nAll money goes to the 1st Willara Scouts' jamboree fund ($6,500 to go!)\nCard & cash accepted"
+    },
+    {
+      "kind": "flyer",
+      "text": "Piano lessons with Céline\nAMEB-accredited teacher, all ages and levels\n30 min $40 · 45 min $55 · 60 min $70\nFirst lesson half price!\nStudio in Tallowood, 5 min from the station\nTerm 1 2027 enrolments now open\nEmail celine.piano@mail.example or call 0491 570 152"
+    },
+    {
+      "kind": "form",
+      "text": "PENALTY NOTICE\nNotice No. 4007 128 553\nIssued 13/10/2026 at 14:22\nLocation: outside 18 Wattle St, Kurrawong\nVehicle: Toyota, white, rego BXT 44Q\nOffence: Stop in no stopping zone\nPenalty $136.00\nPay by 10/11/2026\nOfficer No. 2291"
+    },
+    {
+      "kind": "form",
+      "text": "KOORINGAL PLAYERS present The Importance of Being Earnest\nKooringal Arts Centre, Theatre 2\nSat 7 Nov 2026, 7:30pm (doors 7:00pm)\nRow F, Seat 14\nAdult $38.00 + booking fee $2.50\nTotal $40.50\nTicket No. KP-0019827"
+    },
+    {
+      "kind": "form",
+      "text": "Tallowood Bowls Club – Membership application\nName: Edwina Prescott\nDate of birth: 04/07/1958\nAddress: 9/2 Heron Ct, Tallowood VIC 3977\nPhone: (03) 5550 6074\nMembership type: Social ($45) / Bowling ($210): Bowling\nSigned: E. Prescott Date: 10/10/2026\nOffice use: received $210.00, receipt No. 3318"
+    },
+    {
+      "kind": "form",
+      "text": "DELIVERY DOCKET No. 008812\nRidgeline Landscape Supplies\nDeliver to: 61 Corella Dr, Coolabah Rise\nGarden soil 4 m³ @ $68.00 $272.00\nPine bark mulch 2 m³ @ $59.00 $118.00\nDelivery fee $65.00\nTotal $455.00 (incl. GST)\nDriver: Wiremu T. Received by: S. Novak\nDelivered 09/10/2026 10:05"
+    },
+    {
+      "kind": "form",
+      "text": "Southern Coachlines – Passenger ticket\nPassenger: Mr Ahmad Rahimi\nFrom: Merrigal Park Stn, Coach Bay 3\nTo: Yarrandi\nDate: 19/12/2026 Departs 08:45 Arrives 13:20\nSeat 22A Booking ref. SC7Q4M\nFare: Adult $64.80\nLuggage: 2 bags, max. 20 kg each"
+    },
+    {
+      "kind": "form",
+      "text": "New patient registration – Tallowood Family Practice\nSurname: Delacroix Given name: Amélie\nDOB: 23 March 1991 Sex: F\nPrivate health fund: Willara Mutual, member No. 70043815\nAllergies: penicillin (rash)\nEmergency contact: Luc Delacroix (husband), 0491 570 108\nPreferred doctor: Dr Fitzgerald\nSigned 08/10/2026"
+    },
+    {
+      "kind": "form",
+      "text": "Kurrawong Rural Fire Brigade Raffle\nTicket No. 0472\n1st prize: 6-burner barbecue valued at $1,299\n2nd: $250 fuel voucher · 3rd: Meat tray\nTickets $2 each or 3 for $5\nDrawn Sat 12 December 2026 at the brigade shed. Winners notified by phone.\nName: K. Moffat Ph: 0491 570 119\nPermit No. GL-26/0331"
+    },
+    {
+      "kind": "form",
+      "text": "Weekly timesheet – The Wattle Bean Café\nEmployee: Jarrah Collins Week ending: Sun 25/10/2026\nWed 21/10 7:00–1:30 (30 min break) 6.0 hrs\nFri 23/10 6:30–2:30 (30 min break) 7.5 hrs\nSat 24/10 6:30–2:30 (30 min break) 7.5 hrs\nSun 25/10 7:00–12:00 5.0 hrs\nTotal hours 26.0\nApproved: P. Sharma"
+    },
+    {
+      "kind": "form",
+      "text": "Permission note – Year 4 excursion\nDestination: Kurrawong Wildlife Park\nDate: Thursday 12 November 2026, 9:00am–2:30pm\nCost: $28.50 (pay via the school app by 5 November)\nStudent: Oscar Lindgren Class: 4K\nParent/carer: Fatima Lindgren Ph 0491 570 136\nSigned: F. Lindgren 14/10/2026"
+    },
+    {
+      "kind": "form",
+      "text": "Trailer hire agreement No. 2207\nCoolabah Hire, 14 Industrial Dr\nHirer: Marco Benedetti\nItem: 7x4 box trailer with cage, Unit T-09\nOut: 18/10/2026 08:10 Due back: 18/10/2026 17:00\nRate $55 per day + $15 damage waiver\nBond $100 (refundable)\nTotal charged $170.00"
+    },
+    {
+      "kind": "form",
+      "text": "Spice Route – Dinner booking\nName: Okafor, party of 6\nThurs 22 October, 7:15pm\nTable 9 (courtyard, heaters on)\nDeposit $60 paid by card, ref. 55-1830\nNotes: 1 coeliac, 1 nut allergy, birthday cake brought in (cakeage $3 pp)\nTaken by: Leo"
+    },
+    {
+      "kind": "form",
+      "text": "CUSTOMS DECLARATION CN22\nSender: Rosa Pellegrino, 3 Finch Pl, Kooringal VIC 3612\nContents: Gift\n1 x Merino scarf, 0.18 kg, AU$89.00\n2 x Children's books, 0.62 kg, AU$40.00\nTotal weight 0.80 kg Total value AU$129.00\nDestination: Italy (approx. €78)\nSigned R. Pellegrino 13/10/2026"
+    },
+    {
+      "kind": "form",
+      "text": "Resident parking permit application – Area 7\nApplicant: Siobhán Gallagher\nAddress: 26 Magpie St, Merrigal Park NSW 2771\nVehicle: Mazda 3, grey, rego DLP 07K\nPermit type: First resident permit $0 / Second permit $72 / Visitor permit $36\nSelected: Second permit + visitor permit, total $108.00\nProof of address: electricity bill dated 02/09/2026"
+    },
+    {
+      "kind": "form",
+      "text": "Willara Dry Cleaners Ticket No. 8834\nCustomer: Mr P. Achterberg Ph 0491 570 124\n2 x Shirts @ $5.50 $11.00\n1 x Suit (2 pc) $26.00\n1 x Wool coat $22.00\nTotal $59.00 Paid\nReady Thursday 15/10/2026 after 4pm"
+    },
+    {
+      "kind": "form",
+      "text": "Kooringal Netball Association – 2027 player registration\nPlayer: Ava Mendoza-Rhee DOB 11/02/2015\nTeam: Kooringal Comets U12\nRegistration $145.00\nUniform (dress + socks) $68.00\nSibling discount -$20.00\nAmount due $193.00\nSport voucher No. SV-2210-4471 -$100.00\nBalance $93.00 paid by card"
+    },
+    {
+      "kind": "page",
+      "text": "Chapter 4\nThe Railway Comes to Merrigal Park\nWhen the line from the city finally reached Merrigal Park in March 1912, the township had just 340 residents, a general store and two hotels. Within a decade the population had grown to more than 1,800, and the paddocks east of the station were divided into quarter-acre blocks that sold for £45 each.\nThe original timber station burned down in 1937 and was replaced by the brick building that still stands on Platform 1.\n52"
+    },
+    {
+      "kind": "page",
+      "text": "Staying safe in hot weather\nOn days above 35°C, drink 2 to 3 litres of water even if you do not feel thirsty, and avoid alcohol and hot or sugary drinks.\nCheck on elderly neighbours and people living alone at least twice a day.\nNever leave children or pets in a parked car. On a 30°C day the temperature inside a car can reach 60°C within 15 minutes.\nIf someone becomes confused or stops sweating, call 000 immediately."
+    },
+    {
+      "kind": "page",
+      "text": "Growing tomatoes in a temperate climate\nSow seed indoors in late August, about 6 mm deep, and keep the punnets at 20–25°C until they germinate, usually in 7 to 10 days. Plant out after the last frost, spacing plants 50–60 cm apart in full sun.\nFeed every 2 weeks with a liquid fertiliser high in potassium once the first flowers appear. Water deeply at the base 2 or 3 times a week rather than a little every day, which encourages shallow roots.\np. 117"
+    },
+    {
+      "kind": "page",
+      "text": "\"You're late,\" said Mrs Abernethy, without looking up from the till. \"The 7:42 has been gone a quarter of an hour.\"\nCallum dropped his bag by the door of the newsagency and checked the clock above the lotto counter. It said 7:58, which meant it was really 7:51; the clock had been seven minutes fast since the summer of 1998, and nobody in Willara had ever thought to fix it.\n\"Then I'll walk,\" he said.\n64"
+    },
+    {
+      "kind": "page",
+      "text": "What goes in your yellow bin?\nYes: glass bottles and jars, plastic containers numbered 1 to 5, paper and cardboard, steel and aluminium cans, empty aerosol cans.\nNo: soft plastics, nappies, food scraps, clothing, garden waste or batteries.\nRinse containers and leave the lids off. Flatten boxes so more fits in.\nEach household recycled 312 kg on average last year, up 8% on 2025.\nQuestions? Visit the Kurrawong Shire website or call (02) 5550 4100."
+    },
+    {
+      "kind": "page",
+      "text": "Superb Fairy-wren (Malurus cyaneus)\nLength 14 cm; weight about 10 g. The breeding male has a bright blue crown and ear patches with a black throat, while females and young birds are brown with a reddish-orange patch around the bill and eye.\nGroups of 2 to 8 birds defend a territory of 1 to 4 hectares all year. Females lay 3 or 4 eggs and may raise up to 3 broods in a season.\nCommon in gardens with dense, low shrubs across south-eastern Australia."
+    },
+    {
+      "kind": "page",
+      "text": "Setting the timer\n1. Press MODE until the clock icon flashes. The display color changes to amber.\n2. Use + and – to set the hours, then press OK.\n3. Repeat for the minutes. The timer can be set from 1 minute to 23 hours 59 minutes.\n4. Press START. The display counts down and the unit beeps 3 times when finished.\nNote: if no button is pressed for 10 seconds, the unit returns to standby.\nModel AF-3200 air fryer user guide, page 9"
+    },
+    {
+      "kind": "page",
+      "text": "From the Principal\nWhat a fantastic Book Week parade we had on Friday! More than 420 students and 60 staff dressed up, and our P&C raised $1,875 from the cake stall.\nA reminder that Term 4 swimming starts on 26 October for Years 2 to 4. The cost is $96 for 8 lessons, payable through the school app.\nFinally, congratulations to our debating team, who finished 2nd out of 18 schools in the regional final.\nMrs Gabrielle Toussaint, Principal"
+    },
+    {
+      "kind": "page",
+      "text": "Kurrawong Heritage Walk\nAllow about 90 minutes for the full 3.2 km loop, which starts at the Visitor Centre on Main St.\nStop 1: The Courthouse (1884). Built of local bluestone at a cost of £2,600, it heard its last case in 1971.\nStop 2: Kurrawong Bakery, baking on this site since 1903.\nStop 3: The Federation Hotel. Look for the original iron lace on the first-floor verandah.\nThe walk is mostly flat and suitable for prams and wheelchairs."
+    },
+    {
+      "kind": "page",
+      "text": "Caring for your new puppy\nPuppies need 4 meals a day until 12 weeks of age, then 3 meals a day until 6 months.\nVaccinations are given at 6–8 weeks, 10–12 weeks and 14–16 weeks. Do not walk your puppy in public places until 2 weeks after the final vaccination.\nStart heartworm prevention by 12 weeks. Worm every 2 weeks until 12 weeks old, then monthly until 6 months.\nBanksia Vale Veterinary Hospital · (02) 5550 8817"
+    },
+    {
+      "kind": "page",
+      "text": "Exercise 6B\n1. A shirt costs $48. In a sale it is reduced by 25%. What is the sale price?\n2. Mia earns $22.50 per hour and works 18 hours a week. How much does she earn in 4 weeks?\n3. A recipe needs 1 1/2 cups of flour for 12 muffins. How much flour is needed for 30 muffins?\n4. The temperature fell from 14°C at 6pm to −3°C at 5am. By how many degrees did it fall?\nAnswers on page 312"
+    },
+    {
+      "kind": "page",
+      "text": "Ironbark Falls Track\nGrade 3 · 6.4 km return · 2–3 hrs\nFrom the car park, the track follows the creek for 1.8 km before climbing 140 m to the lookout. The falls are best after heavy rain, when the water drops 32 m into the gorge.\nCarry at least 2 L of water per person. The track closes on days of Extreme or Catastrophic fire danger.\nNo dogs. Toilets and picnic tables at the car park."
+    },
+    {
+      "kind": "page",
+      "text": "My father opened the shop on Ridge Road in 1965 with a loan of £800 from his brother and a second-hand meat slicer. Back then a pound of sausages cost two shillings and the shop shut at noon on Saturdays. When decimal currency came in February 1966, he spent a whole weekend rewriting every price ticket in dollars and cents.\nI started behind the counter at 14, weighing out mince in brown paper.\n83"
+    },
+    {
+      "kind": "page",
+      "text": "Understanding your electricity bill\nYour bill shows a daily supply charge (currently 112.4c per day) and a usage charge for each kilowatt hour (kWh) you use.\nPeak 3pm–9pm: 38.5c/kWh. Off-peak: 24.2c/kWh.\nIf you used 540 kWh over a 90-day quarter, all at off-peak, you would pay $130.68 for usage plus $101.16 in supply charges, a total of $231.84 before any concessions."
+    },
+    {
+      "kind": "page",
+      "text": "Welcome to the Willara Tennis Club\nFounded in 1952, the club has 6 synthetic grass courts, 4 of them floodlit, and more than 230 members.\nJunior coaching with head coach José Ferreira runs on weekday afternoons during school terms. Adults can join social tennis on Wednesday mornings and Saturday afternoons.\nAnnual fees: adult $260, junior $120, family $520.\nCourt hire for non-members is $18 per hour, or $24 under lights."
+    }
+  ]
+}

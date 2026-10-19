@@ -1,0 +1,170 @@
+{"text":"convert 12 stone to kilograms","category":"conversion","skill":"convertMass"}
+{"text":"how much is 6 tablespoons in millilitres","category":"conversion","skill":"convertVolume"}
+{"text":"a 210 minute film runs for how long","category":"conversion","skill":"convertTime"}
+{"text":"3000 sq ft in square metres","category":"conversion","skill":"convertArea"}
+{"text":"my car does 45 mpg, whats that in litres per 100","category":"conversion","skill":"convertFuelEconomy"}
+{"text":"how many m/s is 90 kph","category":"conversion","skill":"convertSpeed"}
+{"text":"keep rows where status is open","category":"data","skill":"filterRows"}
+{"text":"total the revenue column","category":"data","skill":"columnMath"}
+{"text":"write these rows back out as csv","category":"data","skill":"toCsv"}
+{"text":"keep just the name and email columns","category":"data","skill":"selectColumns"}
+{"text":"whats changed between these two configs","category":"data","skill":"diffJson"}
+{"text":"pull settings.theme out of this document","category":"data","skill":"getPath"}
+{"text":"turn this .env content into an object","category":"data","skill":"parseKeyValue"}
+{"text":"what params are in this link","category":"data","skill":"parseQueryString"}
+{"text":"update config.timeout to 30 in this json","category":"data","skill":"setPath"}
+{"text":"turn the columns of this table into rows","category":"data","skill":"transposeTable"}
+{"text":"whats the gap between 2026-01-01 and 2026-06-30","category":"dates","skill":"daysBetween"}
+{"text":"push 2026-03-01 forward by 45 days","category":"dates","skill":"addDuration"}
+{"text":"is 2026-07-04 a saturday","category":"dates","skill":"dayOfWeek"}
+{"text":"read 4 march 2027 as an iso date","category":"dates","skill":"parseDate"}
+{"text":"working days from 2026-02-02 to 2026-02-27","category":"dates","skill":"businessDaysBetween"}
+{"text":"what is the date and time right now","category":"dates","skill":"currentTime"}
+{"text":"rewrite 2026-11-14 as DD/MM/YYYY","category":"dates","skill":"formatDate"}
+{"text":"how many seconds is 2h 15m","category":"dates","skill":"parseDuration"}
+{"text":"every date from 2026-03-01 up to 2026-03-07","category":"dates","skill":"dateRangeList"}
+{"text":"how long is april 2027","category":"dates","skill":"daysInMonth"}
+{"text":"is new years day 2027 a saturday or sunday","category":"dates","skill":"isWeekend"}
+{"text":"which week number does 2026-06-15 fall in","category":"dates","skill":"isoWeek"}
+{"text":"collapse these date ranges into as few as possible","category":"dates","skill":"mergeIntervals"}
+{"text":"at what point does the annual plan pay off","category":"decisions","skill":"breakEvenComparison"}
+{"text":"help me weigh this up, 3 for and 2 against","category":"decisions","skill":"prosConsScore"}
+{"text":"simplify 2560 by 1440 to a ratio","category":"design","skill":"aspectRatio"}
+{"text":"will white text pass on #767676","category":"design","skill":"contrastRatio"}
+{"text":"shade #FFAA00 down 30 percent","category":"design","skill":"darkenColor"}
+{"text":"tint #223344 up by 15 percent","category":"design","skill":"lightenColor"}
+{"text":"what fraction of a rem is 12px","category":"design","skill":"pxToRem"}
+{"text":"put 30 2 * * 1 into plain english","category":"developer","skill":"cronToText"}
+{"text":"what is a 429 telling me","category":"developer","skill":"httpStatusLookup"}
+{"text":"content type to serve a .svg with","category":"developer","skill":"mimeTypeLookup"}
+{"text":"run this pattern over my sample and show hits","category":"developer","skill":"testRegex"}
+{"text":"what does caf%C3%A9 decode to","category":"encoding","skill":"urlDecode"}
+{"text":"b64 this string for me","category":"encoding","skill":"base64Encode"}
+{"text":"show me the bits for the letter Z","category":"encoding","skill":"binaryEncode"}
+{"text":"squash this text down","category":"encoding","skill":"compressText"}
+{"text":"four random words as a password","category":"encoding","skill":"generatePassphrase"}
+{"text":"need a fresh guid","category":"encoding","skill":"generateUuid"}
+{"text":"these hex bytes say what","category":"encoding","skill":"hexDecode"}
+{"text":"what is -.-. --.- in letters","category":"encoding","skill":"morseDecode"}
+{"text":"apply the 13 letter rotation to this","category":"encoding","skill":"rot13"}
+{"text":"triple this recipe: 1 cup rice, 2 eggs","category":"everyday","skill":"scaleRecipe"}
+{"text":"what does that work out to per litre","category":"everyday","skill":"unitPrice"}
+{"text":"cost to drive 150 km if I use 9 litres per 100 and fuel is 1.80","category":"everyday","skill":"fuelCostForTrip"}
+{"text":"extra 15 off an already 30 off item","category":"everyday","skill":"stackDiscounts"}
+{"text":"whats a .webp file","category":"files","skill":"fileExtensionInfo"}
+{"text":"change 400 usd to gbp at 0.79","category":"finance","skill":"convertCurrencyFixed"}
+{"text":"monthly repayment on 12000 over 4 years at 6%","category":"finance","skill":"amortizeLoan"}
+{"text":"22 an hour, whats that yearly","category":"finance","skill":"hourlyToSalary"}
+{"text":"52000 a year works out at what per hour","category":"finance","skill":"salaryToHourly"}
+{"text":"non-compounding interest on 800 at 6% for 18 months","category":"finance","skill":"simpleInterest"}
+{"text":"does level read the same both ways","category":"games","skill":"checkPalindrome"}
+{"text":"tile value of the word zebra","category":"games","skill":"scrabbleScore"}
+{"text":"which words fit from these seven tiles","category":"games","skill":"wordsFromLetters"}
+{"text":"heads or tails, seed 5","category":"generation","skill":"flipCoin"}
+{"text":"print me a month view of december 2026","category":"generation","skill":"generateCalendarGrid"}
+{"text":"carve 2pm to 5pm into four sessions","category":"generation","skill":"generateSchedule"}
+{"text":"how far from (1,2) to (7,10)","category":"geometry","skill":"distanceBetweenPoints"}
+{"text":"how much fencing round a 12 by 9 plot","category":"geometry","skill":"perimeterOf"}
+{"text":"litres in a cylinder 30cm across and 50 tall","category":"geometry","skill":"volumeOf"}
+{"text":"my measured max is 172, split it into zones","category":"health","skill":"heartRateZones"}
+{"text":"what time should I turn in for a 5:45 alarm","category":"health","skill":"sleepCycleTimes"}
+{"text":"did I get any of these lines wrong","category":"learning","skill":"checkArithmeticSteps"}
+{"text":"grade point average from these modules","category":"learning","skill":"gpaCalculate"}
+{"text":"plan out 420 pages before the end of the month","category":"learning","skill":"readingScheduleFromPages"}
+{"text":"put these items in natural order","category":"lists","skill":"sortList"}
+{"text":"give me every number from 5 to 40 in fives","category":"lists","skill":"rangeList"}
+{"text":"what is missing from the second list","category":"lists","skill":"differenceLists"}
+{"text":"which entries appear on both lists","category":"lists","skill":"intersectLists"}
+{"text":"draw a winner from these entrants, seed 9","category":"lists","skill":"pickRandom"}
+{"text":"merge both lists without repeats","category":"lists","skill":"unionLists"}
+{"text":"work out 12% of 6500","category":"math","skill":"percentOf"}
+{"text":"what proportion is 18 of 24, in percent","category":"math","skill":"whatPercent"}
+{"text":"divide 475 between 6 of us","category":"math","skill":"splitEvenly"}
+{"text":"multiply 7 by 9 by 3 together","category":"math","skill":"product"}
+{"text":"write 9876543 with commas in it","category":"math","skill":"formatNumber"}
+{"text":"what share of the total is each of 12 30 58","category":"math","skill":"percentageDistribution"}
+{"text":"multiply 1 through 8 together","category":"math","skill":"factorial"}
+{"text":"lowest terms for 45/60","category":"math","skill":"fractionSimplify"}
+{"text":"does 221 have any divisors","category":"math","skill":"isPrime"}
+{"text":"which primes multiply to make 990","category":"math","skill":"primeFactors"}
+{"text":"add the right suffix to 42","category":"math","skill":"toOrdinal"}
+{"text":"overlap in working hours for these offices","category":"organising","skill":"findCommonMeetingHours"}
+{"text":"sort my jobs by what matters most","category":"organising","skill":"prioritizeTasks"}
+{"text":"longest run of consecutive days in this log","category":"organising","skill":"streakCount"}
+{"text":"what does SEK mean","category":"reference","skill":"currencyLookup"}
+{"text":"what does the code sv stand for","category":"reference","skill":"languageCodeLookup"}
+{"text":"where does +351 dial to","category":"reference","skill":"phoneRegionLookup"}
+{"text":"which state has the abbreviation OR","category":"reference","skill":"usStateLookup"}
+{"text":"average these marks where the exam counts triple","category":"statistics","skill":"weightedAverage"}
+{"text":"add these up as I go","category":"statistics","skill":"cumulativeSum"}
+{"text":"bucket these values into six ranges","category":"statistics","skill":"histogramBins"}
+{"text":"smooth this over a 5 point window","category":"statistics","skill":"movingAverage"}
+{"text":"give me the iqr of this sample","category":"statistics","skill":"quartiles"}
+{"text":"standardise this set","category":"statistics","skill":"zScores"}
+{"text":"which words repeat most in that paragraph","category":"text","skill":"wordFrequency"}
+{"text":"change my heading to title case","category":"text","skill":"convertCase"}
+{"text":"grab the email addresses from this signature","category":"text","skill":"extractEmails"}
+{"text":"what numbers appear in this invoice line","category":"text","skill":"extractNumbers"}
+{"text":"how many sentences in that paragraph","category":"text","skill":"countSentences"}
+{"text":"how often does the word error appear in the log","category":"text","skill":"countOccurrences"}
+{"text":"split that paragraph into separate sentences","category":"text","skill":"tokenizeSentences"}
+{"text":"what reading age is this passage written at","category":"text","skill":"readingLevel"}
+{"text":"tidy up the spacing in this pasted text","category":"text","skill":"normalizeWhitespace"}
+{"text":"get rid of repeated lines in this list","category":"text","skill":"removeDuplicateLines"}
+{"text":"shorten this to fit 100 characters","category":"text","skill":"truncateText"}
+{"text":"split that comma list onto separate lines","category":"text","skill":"splitLines"}
+{"text":"typical word size in this paragraph","category":"text","skill":"averageWordLength"}
+{"text":"am I saying the same phrase twice","category":"text","skill":"detectRepetition"}
+{"text":"lift the fenced snippets out of this doc","category":"text","skill":"extractCodeBlocks"}
+{"text":"which dates are mentioned in this note","category":"text","skill":"extractDates"}
+{"text":"pull out any ip addresses from these lines","category":"text","skill":"extractIpAddresses"}
+{"text":"which handles are tagged here","category":"text","skill":"extractMentions"}
+{"text":"any numbers to call in this signature","category":"text","skill":"extractPhoneNumbers"}
+{"text":"biggest word in this passage","category":"text","skill":"findLongestWord"}
+{"text":"scan this for anything personal","category":"text","skill":"flagPii"}
+{"text":"what stands out in this document","category":"text","skill":"keywordsTfidf"}
+{"text":"hide the private bits in this text","category":"text","skill":"maskSensitive"}
+{"text":"right justify this in 10 columns","category":"text","skill":"padText"}
+{"text":"write this backwards","category":"text","skill":"reverseText"}
+{"text":"how many edits between these two spellings","category":"text","skill":"similarityLevenshtein"}
+{"text":"just the readable text from this markup","category":"text","skill":"stripHtml"}
+{"text":"how many beats in the word incredible","category":"text","skill":"syllableCount"}
+{"text":"break these lines at 40 wide","category":"text","skill":"wrapText"}
+{"text":"is https://example.com/x a proper link","category":"validation","skill":"validateUrl"}
+{"text":"does 31 september exist","category":"validation","skill":"validateDate"}
+{"text":"how good is hunter2 as a password","category":"validation","skill":"passwordStrength"}
+{"text":"does this account number check out","category":"validation","skill":"validateIban"}
+{"text":"does this book number check digit work","category":"validation","skill":"validateIsbn"}
+{"text":"does this card number pass the checksum","category":"validation","skill":"validateLuhn"}
+{"text":"is this string a proper uuid","category":"validation","skill":"validateUuid"}
+{"text":"give me the outline of this markdown doc","category":"writing","skill":"extractHeadings"}
+{"text":"am I close to my 1500 word target","category":"writing","skill":"countWordTargets"}
+{"text":"which sentences run on too long","category":"writing","skill":"findLongSentences"}
+{"text":"index the headings in this doc","category":"writing","skill":"generateTableOfContents"}
+{"text":"turn my indented notes into markdown","category":"writing","skill":"outlineToMarkdown"}
+{"text":"singular form of criteria","category":"writing","skill":"singularize"}
+{"text":"summarise this email for me","category":"none","skill":null}
+{"text":"explain how a diesel engine works","category":"none","skill":null}
+{"text":"translate good morning into portuguese","category":"none","skill":null}
+{"text":"help me word this apology to my landlord","category":"none","skill":null}
+{"text":"what do you think of this opening paragraph","category":"none","skill":null}
+{"text":"i keep procrastinating and i do not know why","category":"none","skill":null}
+{"text":"tell me about the fall of constantinople","category":"none","skill":null}
+{"text":"my code throws a null pointer, any ideas","category":"none","skill":null}
+{"text":"suggest a name for a bakery","category":"none","skill":null}
+{"text":"convert me into a morning person","category":"none","skill":null}
+{"text":"what a day it has been","category":"none","skill":null}
+{"text":"draft a thank you note to my team","category":"none","skill":null}
+{"text":"my streak of bad luck finally ended","category":"none","skill":null}
+{"text":"i need to compress my schedule this week","category":"none","skill":null}
+{"text":"she has a real gift for languages","category":"none","skill":null}
+{"text":"shuffle along, nothing to see here","category":"none","skill":null}
+{"text":"that regex course was a waste of money","category":"none","skill":null}
+{"text":"she got a first in her degree","category":"none","skill":null}
+{"text":"the whole project is an anagram of chaos","category":"none","skill":null}
+{"text":"the morse code scene in that film was inaccurate","category":"none","skill":null}
+{"text":"is a table of contents even necessary these days","category":"none","skill":null}
+{"text":"the timezone difference is killing our team","category":"none","skill":null}
+{"text":"my password manager keeps logging me out","category":"none","skill":null}
+{"text":"chemistry was never my strong subject","category":"none","skill":null}
+{"text":"i should really schedule more downtime","category":"none","skill":null}

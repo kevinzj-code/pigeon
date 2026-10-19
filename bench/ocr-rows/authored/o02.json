@@ -1,0 +1,605 @@
+{
+ "batch": "o02",
+ "texts": [
+  {
+   "kind": "receipt",
+   "text": "MARISOL FRESH MARKET\n1180 W Garfield Ave, Unit B\n(312) 555-0164\nOrganic whole milk 1/2 gal $4.29\nJalapeño cheddar 8 oz $5.49\nPlantains 3 @ $0.69 $2.07\nCilantro bunch $0.99\nSUBTOTAL $12.84\nTAX 2.25% $0.29\nTOTAL $13.13\nDEBIT ****3306 09/14/2026 6:42 PM"
+  },
+  {
+   "kind": "receipt",
+   "text": "Ninth Street Roasters\nOrder #4471 Register 2 Cashier: Theo\nCortado 12 oz 4.25\nOat milk 0.75\nEverything bagel w/ cream cheese 5.10\nAlmond croissant 4.60\nSubtotal 14.70\nTax 9.5% 1.40\nTip 20% 2.94\nTotal 19.04\nThanks, come back soon! 10/02/26 7:18 AM"
+  },
+  {
+   "kind": "receipt",
+   "text": "KOWALSKI & SONS HARDWARE\n4417 N Ravenna Ave\n(773) 555-0129\nBrass hinges 3 1/2 in, pair x2 @ $7.98 $15.96\nDeck screws #8 x 2 1/2 in, 1 lb $9.49\nWood glue 8 fl oz $4.79\nKey cut x3 @ $2.50 $7.50\nSUBTOTAL $37.74\nSALES TAX 10.25% $3.87\nTOTAL $41.61\nVISA ****5521 AUTH 318206\n11/03/2026 12:47 PM"
+  },
+  {
+   "kind": "receipt",
+   "text": "Checker Line Cab Co.\nMedallion 7K42 Driver No. 30918\nPickup 5th Ave & E 61st Pl 11:52 PM\nDrop-off 214 Bergen Pl 12:19 AM\nDistance 6.8 mi Time 27 min\nMetered fare $31.40\nNight surcharge $1.00\nCongestion fee $2.50\nTip $7.00\nTotal $41.90\nCard ****0447 Lost property? Call 555-0172"
+  },
+  {
+   "kind": "receipt",
+   "text": "LASALLE TOWER PARKING\nLevel P3 Space 118\nEntered 10/06/2026 07:58\nExited 10/06/2026 18:12\nDuration 10 hr 14 min\nEarly bird rate (in by 9:00) $24.00\nCity parking tax 22% $5.28\nAmount paid $29.28\nMastercard ****7730\nTicket 00562193\nLost ticket fee $65.00"
+  },
+  {
+   "kind": "receipt",
+   "text": "Golden Hanger Cleaners\n2290 Clement Ct (415) 555-0118\nTicket No. 8841\nMen's shirt laundered x5 @ $3.25 $16.25\nWool trousers $9.50\nSilk blouse $11.00\nWinter coat $24.00\nSubtotal $60.75\nTax 8.625% $5.24\nTotal $65.99\nPaid in full. Ready Thu 10/15 after 4 PM"
+  },
+  {
+   "kind": "receipt",
+   "text": "CORNERSTONE PHARMACY #212\nIbuprofen 200 mg 100 ct $8.99\nSaline nasal spray 1.5 oz $4.49\nRx #6620417 copay $10.00\nReading glasses +1.50 $12.99\nSubtotal $36.47\nTax 6.25% on $26.47 $1.65\nTotal $38.12\nCash $50.00\nChange $11.88\n06/22/2026 14:05 Reg 3"
+  },
+  {
+   "kind": "receipt",
+   "text": "Eastside Starlite Diner\nServer: Rosa Table 14 Guests 3\n2 Western omelet @ 11.95 23.90\n1 Short stack pancakes 8.50\n3 Coffee @ 2.75 8.25\n1 Side home fries 4.25\nSubtotal 44.90\nTax 8.875% 3.98\nTotal 48.88\nGratuity not included\nCheck #5512 09/27/2026 9:06 AM"
+  },
+  {
+   "kind": "receipt",
+   "text": "Bellavista Pizzeria\nDelivery to 87 Halden St Apt 4R\n1 Large pie, half pepperoni $22.00\n1 Garlic knots (6) $5.50\n1 Caesar salad $9.75\n2 Can soda @ $1.75 $3.50\nDelivery fee $3.99\nSubtotal $44.74\nTax 8.875% $3.97\nTotal $48.71\nOrder #B-20918 placed 8:41 PM, out 9:03 PM"
+  },
+  {
+   "kind": "receipt",
+   "text": "Paper Lantern Books\n3315 W Division Pl\nAtlas of Forgotten Rivers (hardcover) $35.00\nSKU 40-118273\nMember discount 10% -$3.50\nPaperback novel $16.99\nGreeting card $5.95\nSubtotal $54.44\nTax 10.25% $5.58\nTotal $60.02\nMember No. 22-4815 03/09/2026 4:30 PM"
+  },
+  {
+   "kind": "receipt",
+   "text": "Harborview Museum of Art Store\nPostcard set (12) $14.00\nEnamel pin \"Blue Heron\" $9.00\nCanvas tote bag $28.00\nExhibition catalogue $45.00\nMember 15% -$14.40\nSubtotal $81.60\nTax 4.5% $3.67\nTotal $85.27\nAMEX ****1009 Txn 774102 05/30/2026"
+  },
+  {
+   "kind": "receipt",
+   "text": "Spoke & Chain Cycle Works\nWork order #3307\nTune-up, standard $85.00\nBrake pads (pair) x2 @ $18.00 $36.00\nInner tube 700x28c $8.50\nLabor, tube install $10.00\nSubtotal $139.50\nTax 7% $9.77\nTotal $149.27\nPicked up 08/19/2026 5:55 PM"
+  },
+  {
+   "kind": "receipt",
+   "text": "Lucky Lotus Nails & Spa\nGel manicure $38.00\nPedicure deluxe $55.00\nNail art, 4 nails @ $5.00 $20.00\nSubtotal $113.00\nTip 20% $22.60\nTotal $135.60\nPaid Visa ****6112 Tech: Mai\n07/11/2026 3:20 PM"
+  },
+  {
+   "kind": "receipt",
+   "text": "LA GÜERITA TACOS Truck #17\n3 Al pastor tacos @ $3.50 $10.50\nCarne asada burrito $12.00\nElote $5.00\nHorchata 24 oz $4.50\nSubtotal $32.00\nTax 10% $3.20\nTotal $35.20\nOrder 0093 06/05/26 1:14 PM\n¡Gracias! Find us at Tanner Square Mon–Fri"
+  },
+  {
+   "kind": "receipt",
+   "text": "VOLTMART ELECTRONICS Store 0381\nUSB-C cable 6 ft $14.99\nWireless earbuds EB-40 $79.99\nProtection plan 2 yr $12.00\nPhone case $24.99\nSubtotal $131.97\nTax 8.25% $10.89\nTotal $142.86\nReturns within 30 days with receipt\nReg 04 Trans 6218 Assoc 1129 12/26/2026 10:41 AM"
+  },
+  {
+   "kind": "notice",
+   "text": "NOTICE TO RESIDENTS\nThe north elevator at 1420 Lakeview Terrace will be out of service for scheduled maintenance from Monday, October 19 at 8:00 AM until Wednesday, October 21 at 5:00 PM.\nPlease use the south elevator or the stairwell. Residents who need help with deliveries may call the management office at (312) 555-0141.\nWe apologize for the inconvenience. Building Management"
+  },
+  {
+   "kind": "notice",
+   "text": "NO PARKING\n8 AM TO 11 AM\nTUESDAY\nAPRIL 1 TO NOV 30\nSTREET CLEANING\nTOW-AWAY ZONE $75 FINE\nDept. of Sanitation District 6"
+  },
+  {
+   "kind": "notice",
+   "text": "SERVICE CHANGE\nOrange Line trains will not stop at Kessler Ave in either direction\nWeekends Oct 10 to Nov 1, 10 PM Fri to 5 AM Mon\nFree shuttle buses run every 8 to 12 minutes between Harmon Ave and Fulton Sq stations.\nAllow an extra 15 to 20 minutes. Questions? Call 555-0190 or ask station staff."
+  },
+  {
+   "kind": "notice",
+   "text": "CALDER PARK NATATORIUM\nPool hours effective 9/8/2026\nLap swim Mon–Fri 6:00–8:30 AM and 7:00–9:00 PM\nFamily swim Sat & Sun 1:00–4:00 PM\nWater temperature 82°F\nMaximum occupancy 140\nNo running, no glass, no diving in the shallow end\nShower before entering the pool"
+  },
+  {
+   "kind": "notice",
+   "text": "LAUNDRY ROOM RULES\nOpen daily 7 AM to 10 PM\nWashers $2.75 per load, dryers $1.50 per 30 min\nRemove your clothes within 15 minutes of the cycle ending\nClean the lint trap after every use\nNo dyeing, no shoes, no pet bedding\nMachine out of order? Report it to the super, ext. 104"
+  },
+  {
+   "kind": "notice",
+   "text": "WATER SHUT-OFF\nThursday 10/22 from 9:30 AM to approx. 2:00 PM\nRisers B and D only (apartments 2B to 14B and 2D to 14D)\nContractor: Pellman Plumbing, permit #PL-2026-04471\nPlease fill pots or bottles in advance and keep faucets closed until service is restored.\nThank you for your patience. The Management, ext. 110"
+  },
+  {
+   "kind": "notice",
+   "text": "AFTER HOURS WORK PERMIT\n755 Wexford Blvd\nVariance No. AHV-2026-11834\nWork permitted Monday to Friday 6:00 PM to 10:00 PM through 12/18/2026\nType of work: crane removal and concrete pour, floors 18 to 22\nNoise complaints: call 311 and give the variance number"
+  },
+  {
+   "kind": "notice",
+   "text": "MAXIMUM OCCUPANCY 48 PERSONS\nFire Code Section 27-4\nPlease wipe down equipment after each use. Spray bottles and towels are at the front desk.\nWeights must be returned to the rack. Limit 30 minutes per cardio machine when others are waiting.\nGym hours 5:00 AM to 11:00 PM daily"
+  },
+  {
+   "kind": "notice",
+   "text": "DOG RUN CLOSED\nRidley Park Dog Run is closed for resurfacing from 11/2 to 11/16/2026.\nThe nearest open dog run is at Marlow Square, approx. 0.6 mi east on Ashby St.\nDogs must be leashed in all other areas of the park. Fine up to $100.\nQuestions: Parks Department (718) 555-0137"
+  },
+  {
+   "kind": "notice",
+   "text": "HOLIDAY HOURS\nKessler Branch Library\nWed 11/25 open 9 AM to 5 PM\nThu 11/26 and Fri 11/27 CLOSED\nSat 11/28 open 10 AM to 4 PM\nBook drops stay open. No fines will be charged on days we are closed.\nBorrow e-books 24/7 with your library card"
+  },
+  {
+   "kind": "notice",
+   "text": "LEASING OFFICE CLOSED\nThe leasing office will be closed Thursday, November 26 and Friday, November 27 for Thanksgiving.\nDecember rent is due on the 1st. Payments received after the 5th will incur a $50.00 late fee.\nChecks and money orders may be left in the drop box at the lobby desk. For emergencies call (312) 555-0188."
+  },
+  {
+   "kind": "notice",
+   "text": "CERTIFICATE OF INSPECTION\nDevice No. 1P-48213\nCapacity 2,500 lbs / 16 persons\nLast inspected 03/14/2026\nNext inspection due 03/2027\nInspector: R. Adeyemi #7719\nDept. of Buildings, Elevator Division"
+  },
+  {
+   "kind": "notice",
+   "text": "FIRE DRILL\nWednesday, October 28 at 10:15 AM\nAll tenants on floors 12 to 30 must leave by Stair A. Do not use the elevators.\nAssemble at the plaza on W 52nd Pl and wait for your floor warden to take attendance.\nThe drill will last approx. 20 minutes. Alarms will sound at 115 dB."
+  },
+  {
+   "kind": "notice",
+   "text": "PACKAGE ROOM\nMon–Fri 7 AM–9 PM\nSat 9 AM–5 PM\nClosed Sunday\nPackages are held for 7 days, then returned to sender.\nPerishables must be collected within 24 hours.\nQuestions: concierge@wexfordtowers.net or ext. 100"
+  },
+  {
+   "kind": "notice",
+   "text": "CARD MINIMUM $10.00\nWe accept cash, Visa and Mastercard\nA 3% surcharge applies to credit cards\nNo checks. No bills over $50.\nATM inside, fee $2.50\nSorry for any inconvenience! The Management"
+  },
+  {
+   "kind": "letter",
+   "text": "Dear Ms. Alvarez,\nThis letter is to inform you that, upon renewal of your lease for Apartment 6C at 3021 N Talbot Ave on January 1, 2027, the monthly rent will increase from $1,850.00 to $1,942.50, an increase of 5%.\nPlease sign and return the enclosed renewal by November 30, 2026. If you have any questions, call our office at (773) 555-0153 between 9 AM and 5 PM.\nSincerely,\nDarnell Hughes\nProperty Manager, Brightwater Residential LLC"
+  },
+  {
+   "kind": "letter",
+   "text": "Subject: Quote for kitchen backsplash, 48 Oriole Ct\nHi Priya,\nThanks for having me over on Tuesday. For the 32 sq ft backsplash I'm quoting $14.50/sq ft for labor ($464.00) plus tile and grout at $612.75, for a total of $1,076.75.\nI can start Monday 11/9 and finish by Wednesday 11/11. A 25% deposit ($269.19) holds the date.\nBest,\nMarco Delgado\nDelgado Tile & Stone, (630) 555-0108"
+  },
+  {
+   "kind": "letter",
+   "text": "Dear Families of Room 214,\nOur field trip to the Lakeshore Science Center is on Friday, October 23. Buses leave Garfield Elementary at 8:45 AM and return by 2:30 PM.\nThe cost is $12 per student. Please send cash or a check payable to GES PTA with the signed permission slip by Oct 16.\nStudents should bring a bag lunch and wear closed-toe shoes. We still need 4 parent chaperones!\nThank you,\nMs. Okonkwo, 3rd Grade"
+  },
+  {
+   "kind": "letter",
+   "text": "SUMMONS FOR JURY SERVICE\nYou are hereby summoned to appear for jury service at the Calder County Courthouse, 100 W Monroe Plaza, Room 1702, on Monday, December 7, 2026 at 8:30 AM.\nJuror ID: 0048-22917\nIf you cannot serve on this date, you may request one postponement online or by calling (312) 555-0199 at least 5 business days in advance.\nJurors are paid $17.20 per day plus round-trip mileage at $0.70 per mile. Failure to appear may result in a fine of up to $1,000."
+  },
+  {
+   "kind": "letter",
+   "text": "Subject: Your October statement is ready\nHello Jamal,\nYour statement for account 4410-882-317 is now available. Amount due: $142.68, payable by 11/12/2026.\nThis month you used 612 kWh, 9% less than in October last year.\nTo enroll in AutoPay, sign in at myaccount.lakelandpower.com or call 1-800-555-0136.\nLakeland Power & Light Customer Care"
+  },
+  {
+   "kind": "letter",
+   "text": "Dear Mr. Ferreira,\nWe are pleased to offer you a summer internship with the Urban Planning group at Holloway & Briggs Architects, beginning June 8, 2027 and ending August 13, 2027.\nThe position pays $24.00 per hour for 37.5 hours per week and includes a monthly transit pass worth $105.\nPlease confirm your acceptance by replying to recruiting@hollowaybriggs.com no later than December 1.\nWarm regards,\nNadia Sorensen, HR Coordinator"
+  },
+  {
+   "kind": "letter",
+   "text": "Hi Elena,\nThis is a reminder of your appointment with Dr. Kim at Midtown Smiles Dental, 405 Lexham Ave, Suite 1100, on Thursday 10/29 at 3:45 PM.\nPlease arrive 10 minutes early and bring your insurance card. Cancellations require 24 hours' notice or a $40 fee applies.\nReply C to confirm or call (212) 555-0123."
+  },
+  {
+   "kind": "letter",
+   "text": "Re: Claim No. HO-2026-338104\nDear Mr. and Mrs. Whitfield,\nWe have completed our review of the water damage reported at 1212 Pinecrest Ave on August 3, 2026.\nThe approved repair estimate is $8,640.00. After your deductible of $1,000.00, the amount payable is $7,640.00, which will be issued by check within 10 business days.\nIf you disagree with this assessment, you may request an appraisal within 60 days of the date of this letter.\nSincerely,\nGloria Tran, Claims Adjuster\nKeystone Mutual Insurance"
+  },
+  {
+   "kind": "letter",
+   "text": "Dear neighbors,\nWe're having a small get-together on Saturday the 17th from 7 to 11 PM to celebrate our daughter's 30th birthday. We'll keep the music down after 10.\nIf it gets too loud, please text me at 917-555-0185 and we'll turn it down right away. Or better yet, come up for cake!\nThanks for your patience,\nLinh and Ben, Apt 4F"
+  },
+  {
+   "kind": "letter",
+   "text": "Dear Ms. Achebe,\nCongratulations! Your piece \"Overpass at Dusk, No. 3\" has been selected for the 14th Annual Northside Juried Exhibition at Foundry Hall Gallery, November 6 to December 20, 2026.\nPlease deliver the framed work to 2240 W Corliss Pl between 10 AM and 6 PM on October 30 or 31. The commission on sales is 30%.\nThe opening reception is Friday, November 6, 6:00 to 9:00 PM.\nBest wishes,\nOwen Petrakis, Curator"
+  },
+  {
+   "kind": "letter",
+   "text": "Subject: Registration confirmed #CNF-55210\nDear Dr. Ramírez,\nThank you for registering for the Midwest Transit Data Summit, March 18–20, 2027, at the Marquette Grand Hotel.\nFull registration $495.00\nWorkshop: Open Data APIs $85.00\nEarly bird discount -$75.00\nTotal charged $505.00 to card ending 2284.\nA room block is held at $219/night until Feb 15."
+  },
+  {
+   "kind": "letter",
+   "text": "Hi Sam,\nThank you so much for putting me up during my week in the city! I've sent you a little parcel by Royal Mail, tracking no. RN441820976GB, which should arrive in 7 to 10 days.\nThe postage alone was £38.50, so please don't tell me you already own that cookbook.\nThe flight home was 7 hours 40 minutes and I slept through all of it. Do come and visit us in Bristol next spring, the spare room is yours.\nLove,\nHarriet"
+  },
+  {
+   "kind": "letter",
+   "text": "To the Department of Finance, Adjudications Unit:\nI am writing to contest Notice of Violation No. 8471162093, issued on 09/03/2026 at 2:14 PM on Rowan St between 3rd and 4th Ave for parking at an expired meter.\nAt the time of the citation I had paid for 2 hours through the ParkSmart app (receipt attached, transaction PS-339120, valid 1:05 PM to 3:05 PM).\nI respectfully request that the $65 fine be dismissed.\nSincerely,\nAndre Whitaker\n55 Larkin Ave, Apt 2"
+  },
+  {
+   "kind": "letter",
+   "text": "Dear Mr. Castellano,\nOn behalf of everyone at Westbrook Community Music School, thank you for your generous gift of $250.00, received on September 21, 2026.\nYour support funds 5 weeks of after-school violin lessons for a student in our scholarship program.\nNo goods or services were provided in exchange for this contribution. Please keep this letter for your tax records. Tax ID 36-4418207.\nWith gratitude,\nRenée Fournier, Executive Director"
+  },
+  {
+   "kind": "letter",
+   "text": "Subject: Your move on 11/14, Job #MV-40817\nHi Kendra,\nYour crew of 3 movers and a 26 ft truck are booked for Saturday, November 14, arriving between 8:00 and 8:30 AM at 3400 S Halvorsen Dr, Apt 912.\nEstimated time is 5 hours at $165/hour ($825.00), plus a $95.00 truck fee, for an estimated total of $920.00.\nPlease reserve the freight elevator with your building and have a certificate of insurance (COI) sent to coi@brawnbrosmoving.com.\nThanks,\nLuis, Brawn Brothers Moving"
+  },
+  {
+   "kind": "menu",
+   "text": "KOSTAS COFFEE SHOP\nBreakfast served all day\n2 eggs any style, home fries, toast 7.95\nAdd bacon or sausage 3.25\nGreek omelet, feta & spinach 12.50\nChallah French toast 10.95\nCorned beef hash & 2 eggs 14.25\nBottomless coffee 2.75\nFresh squeezed OJ sm 3.95 lg 5.50"
+  },
+  {
+   "kind": "menu",
+   "text": "TAQUERÍA EL MOLCAJETE\nTacos (corn tortilla) $3.25 each\nAl pastor, carnitas, lengua, suadero\nQuesabirria with consomé (3) $14.00\nBurrito regular $11.50 / super $13.75\nTorta cubana $12.95\nAgua fresca 32 oz $5.00\nPiña or tamarindo soda $2.75\nCards accepted, $1 fee under $15"
+  },
+  {
+   "kind": "menu",
+   "text": "GOLDEN PHOENIX DIM SUM\nS $4.95 M $6.25 L $7.95 Special $9.50\nHar gow, shrimp dumplings (4) M\nSiu mai, pork & shrimp (4) M\nCheung fun with beef L\nChicken feet in black bean sauce S\nSticky rice in lotus leaf L\nRoast duck, half Special\nEgg tarts (3) S\nTea charge $2.00 per person"
+  },
+  {
+   "kind": "menu",
+   "text": "IRON TRESTLE STEAKHOUSE\nPrime New York strip 16 oz 64\nFilet mignon 8 oz 58 / 12 oz 74\nBone-in ribeye 22 oz, dry-aged 28 days 89\nSides to share 14\nCreamed spinach, potatoes au gratin, charred broccolini\nSauces 4: béarnaise, au poivre, chimichurri\nA 20% service charge applies to parties of 6 or more"
+  },
+  {
+   "kind": "menu",
+   "text": "HALAL KING CART #44\nCorner of Beacon Ave & Hollis St\nChicken over rice $9\nLamb gyro over rice $10\nCombo platter $11\nFalafel sandwich $7\nWhite sauce or hot sauce free\nSoda $1.50 Water $1\nOpen daily 10 AM–4 AM"
+  },
+  {
+   "kind": "menu",
+   "text": "DOUGHSTRAND BAKERY\nCroissant 4.25\nPain au chocolat 4.75\nKouign-amann 5.50\nCardamom bun 5.25\nSourdough loaf 900 g 11.00\nBaguette 4.50\nBagels, half dozen 10.00, dozen 18.00\nOpen daily from 7 AM until sold out"
+  },
+  {
+   "kind": "menu",
+   "text": "SUNDAY BRUNCH 10:30 AM–3 PM\nShakshuka with grilled pita $17\nChicken & waffles, hot honey $21\nSmoked salmon Benedict $19\nAvocado toast on rye, 2 poached eggs $16\nBottomless mimosas, 90 min $28 (with entrée)\nCold brew $5.50 Fresh OJ $6\nPlease allow 15 to 20 min for tables on busy weekends"
+  },
+  {
+   "kind": "menu",
+   "text": "TONY & SAL'S PIZZA BY THE SLICE\nCheese slice $3.50\nPepperoni slice $4.25\nSicilian square $4.50\nWhite slice, ricotta & garlic $4.75\nGrandma slice $4.75\nWhole 18-inch pie from $26.00\nLunch special: 2 slices + soda $9.00 (11 AM–3 PM)"
+  },
+  {
+   "kind": "menu",
+   "text": "BLUE HOUR COFFEE\n8 oz / 12 oz / 16 oz\nDrip 2.75 / 3.25 / 3.75\nLatte 4.50 / 5.25 / 5.95\nMocha 5.00 / 5.75 / 6.50\nMatcha latte 5.25 / 6.00 / 6.75\nChai latte 4.75 / 5.50 / 6.25\nOat, almond or soy milk +0.85\nExtra shot +1.25"
+  },
+  {
+   "kind": "menu",
+   "text": "TANA BLUE ETHIOPIAN KITCHEN\nVeggie combo (5 items) $19.95\nDoro wat, chicken & boiled egg $18.50\nKitfo, served rare, mild or spicy $21.00\nYebeg tibs, lamb with rosemary $22.50\nShiro wat $14.95\nExtra injera $2.00\nCoffee ceremony for 2 to 4 people $16.00"
+  },
+  {
+   "kind": "menu",
+   "text": "BERNSTEIN'S DELICATESSEN\nPastrami on rye, 1/2 lb $19.95\nCorned beef on rye $18.95\nReuben, grilled $21.50\nTurkey club, triple decker $17.50\nMatzo ball soup cup $6.50 bowl $9.75\nPotato knish $5.25\nBlack & white cookie $3.75\nAll sandwiches served with pickles & slaw"
+  },
+  {
+   "kind": "menu",
+   "text": "HAPPY HOUR Mon–Fri 4–7 PM\n$5 draft lagers 16 oz\n$7 house wine, red or white\n$8 well cocktails\n$10 classic margarita\nHalf-price wings (10) $8\nLoaded fries $6\nOysters $1.50 each, min. 6\nNot valid on holidays"
+  },
+  {
+   "kind": "menu",
+   "text": "BISTRO CLÉMENTINE\nPrix fixe $48\nEntrée: soupe à l'oignon or salade niçoise\nPlat: steak frites, coq au vin or truite amandine\nDessert: crème brûlée or tarte Tatin\nWine pairing +$32\nGlass of Côtes du Rhône $14\nTuesday to Sunday, 5:30–10 PM"
+  },
+  {
+   "kind": "menu",
+   "text": "KUMO RAMEN BAR\nTonkotsu: chashu, ajitama, scallion $17\nShoyu chicken: menma, nori $16\nSpicy miso: ground pork, corn, butter $18\nVegan tantanmen: sesame, bok choy $16\nExtra noodles (kaedama) $3 Egg $2.50 Chashu $4\nGyoza (6) $9\nNo substitutions, sorry!"
+  },
+  {
+   "kind": "menu",
+   "text": "Mabel's Scoop Shop\n1 scoop $5.25 2 scoops $7.50 3 scoops $9.25\nWaffle cone +$1.50\nPint to go $12.00\nToday's flavors: brown butter pecan, mango chili, honey lavender, triple chocolate, salted caramel crunch, strawberry buttermilk\nSundae of the week: banana split $11.95\nDairy-free flavors marked with *"
+  },
+  {
+   "kind": "timetable",
+   "text": "LAKESHORE DISTRICT LINE Weekday Inbound\nTrain 2104 2108 2112 2116\nGlenwood 5:52 6:22 6:52 7:22\nAsh Park 6:01 6:31 7:01 7:31\nRiverbend 6:09 6:39 7:09 7:39\nNorthfield Jct 6:15 6:45 7:15 7:45\nUnion Terminal arr. 6:38 7:08 7:38 8:08\nAll times AM. One-way fare Zone C $5.75\nEffective 9/14/2026"
+  },
+  {
+   "kind": "timetable",
+   "text": "Route 62 Crosstown, Southbound\nWeekdays every 10 min 6 AM–7 PM, every 20 min 7 PM–12:30 AM\nSaturday every 15 min\nSunday & holidays every 20 min\nFirst bus from 125th St & Larrabee Ave 5:12 AM\nLast bus 12:41 AM\nFare $2.90, transfers free within 2 hours"
+  },
+  {
+   "kind": "timetable",
+   "text": "HARBOR FERRY Pier 11 to Sandover Landing\nDeparts Pier 11: 7:00, 7:45, 8:30, 9:30, 11:00 AM\nthen hourly until 6:00 PM, last boat 8:15 PM\nDeparts Sandover: 7:25, 8:10, 9:00, 10:00, 11:30 AM\nthen hourly until 6:30 PM, last boat 8:45 PM\nCrossing time 22 minutes\nAdult $4.50 Senior $2.25 Bikes $1.00"
+  },
+  {
+   "kind": "timetable",
+   "text": "AIRPORT EXPRESS SHUTTLE\nDowntown Transit Center → Terminal 1 → Terminal 3\nDeparts every 30 min, 4:30 AM–11:30 PM\nTravel time approx. 35 min (45 min at peak)\nLast departure from Terminal 3: 12:15 AM\nOne-way $12, round trip $22\nLimit 2 bags + 1 carry-on"
+  },
+  {
+   "kind": "timetable",
+   "text": "RIVERWALK FITNESS Group Classes\nMon 6:15 AM Spin (45 min) Studio B\nMon 12:10 PM Core Express (30 min) Studio A\nTue 7:00 PM Vinyasa Yoga (60 min) Studio A\nWed 6:15 AM HIIT Bootcamp (45 min) Turf\nThu 5:30 PM Zumba (55 min) Studio A\nSat 9:00 AM Barre (50 min) Studio B\nBook up to 7 days ahead. No-show fee $10."
+  },
+  {
+   "kind": "timetable",
+   "text": "DAILY TOURS\nHighlights tour 11:00 & 2:00, 60 min, meets in the Great Hall\nModern Wing 12:30, 45 min\nSculpture Garden 3:30, weather permitting\nASL-interpreted tour 1st Saturday of each month, 10:30\nTours are free with admission. Groups of 10+ book 3 weeks ahead: tours@kesslermuseum.org"
+  },
+  {
+   "kind": "timetable",
+   "text": "Kessler Branch Library Fall Programs\nBaby Lapsit (0–18 months) Tue 10:15 AM\nToddler Time (18 mo–3 yrs) Wed 10:15 AM\nPreschool Story Time (ages 3–5) Thu 11:00 AM\nBilingual Story Time / Cuentos Sat 11:30 AM\nLego Club (ages 6–12) Mon 4:00 PM\nSept 8 to Dec 12, no programs Nov 26–28\nRoom 2A, 2nd floor"
+  },
+  {
+   "kind": "timetable",
+   "text": "DAY 1 THURSDAY, MARCH 18\n8:00 Registration & breakfast, Foyer\n9:00 Welcome, Ballroom A\n9:20 Keynote: Counting Riders, Dr. A. Ramírez\n10:30 Break\n10:45 Panel: Fare Capping in Practice\n12:15 Lunch (provided)\n1:30 Workshop sessions 1A–1D\n3:15 Lightning talks (8 × 7 min)\n5:00 Reception, 14th floor terrace"
+  },
+  {
+   "kind": "timetable",
+   "text": "WATER TAXI Weekends May 23 to Sept 7\nStop First Last\nNavy Dock 10:00 21:40\nMercer St Bridge 10:12 21:52\nBoatyard 10:21 22:01\nLantern Quay 10:34 22:14\nBoats every 20 minutes\nSingle ride $7, all-day pass $14"
+  },
+  {
+   "kind": "timetable",
+   "text": "OWL SERVICE Route N9\nOperates nightly 1:00 AM–5:00 AM\nDeparts Central Station at :05 and :35\n1:05 1:35 2:05 2:35 3:05 3:35 4:05 4:35\nCentral Station to Elm Park approx. 38 min\nBetween 10 PM and 5 AM you may ask to be let off between stops"
+  },
+  {
+   "kind": "timetable",
+   "text": "Train 351 Lakeshore Arrow\nUnion Terminal dep 7:20 AM\nHarlan dep 8:04 AM\nPortage Falls dep 9:11 AM\nKelso Jct dep 10:38 AM\nWeller arr 12:05 PM\nCafé car open 7:30 AM–11:30 AM\nReserved coach from $34, business class from $61"
+  },
+  {
+   "kind": "timetable",
+   "text": "Ward 32 Collection Schedule 2026\nTrash: every Tuesday, out by 6 AM\nRecycling (blue cart): alternate Fridays, starting Jan 9\nYard waste: Mondays, Apr 6 to Nov 30\nBulk items: by appointment, call 311 or 555-0114\nHoliday weeks: pickup moves 1 day later\nCarts must be 3 ft apart with lids closed"
+  },
+  {
+   "kind": "timetable",
+   "text": "Northpoint Community Health Center\nMon 8:00 AM–6:00 PM\nTue 8:00 AM–8:00 PM\nWed 8:00 AM–6:00 PM\nThu 10:00 AM–8:00 PM\nFri 8:00 AM–5:00 PM\nSat 9:00 AM–1:00 PM (walk-in only)\nClosed Sunday\nAfter-hours nurse line (773) 555-0167"
+  },
+  {
+   "kind": "timetable",
+   "text": "Bus 27 AM Route, Hawthorne Middle School\nStop 1 Fairview Ave & Linden St 7:02\nStop 2 Fairview Ave & Oak Pl 7:06\nStop 3 Harrow Rd & 41st St 7:11\nStop 4 Harrow Rd & 47th St 7:15\nStop 5 Delmont Park (east gate) 7:21\nArrive school 7:34\nDriver: Mr. Ortiz, dispatch 555-0158\nBe at the stop 5 minutes early"
+  },
+  {
+   "kind": "timetable",
+   "text": "GAME DAY SERVICE Sunday 10/18\nExtra Blue Line trains every 6 min from 10:00 AM\nStadium station opens 9:30 AM\nKickoff 12:00 PM\nAfter the game, trains leave Stadium every 4 min until 4:30 PM\nLast regular train 12:47 AM\nBuy a $5.00 round-trip fare before the game to skip the lines"
+  },
+  {
+   "kind": "recipe",
+   "text": "Grandma Rosa's Sunday Gravy\nServes 8, about 3 1/2 hours\n2 lb pork neck bones\n1 lb Italian sausage\n3 cans (28 oz) crushed tomatoes\n6 cloves garlic, sliced\n1/4 cup olive oil\n1 tsp red pepper flakes\nBrown the meat in the oil, add the garlic for 1 minute, then the tomatoes. Simmer covered on low for 3 hours, stirring every 20 minutes."
+  },
+  {
+   "kind": "recipe",
+   "text": "Skillet Cornbread\nOven 425°F (220°C), 10-inch cast iron\n1 1/2 cups cornmeal\n1/2 cup all-purpose flour\n1 tbsp sugar\n2 tsp baking powder, 1/2 tsp baking soda, 1 tsp salt\n1 1/2 cups buttermilk\n2 large eggs\n4 tbsp butter, melted\nHeat the skillet in the oven for 10 min. Mix dry, then wet, and pour into the hot buttered skillet. Bake 20 to 22 min until golden."
+  },
+  {
+   "kind": "recipe",
+   "text": "Zucchini Muffins (makes 12)\nOven 375°F (190°C), lined muffin tin\n2 cups grated zucchini, squeezed dry\n1 3/4 cups all-purpose flour\n2/3 cup light brown sugar\n1/2 cup vegetable oil\n2 eggs\n1 1/2 tsp cinnamon, 1 tsp baking soda, 1/2 tsp salt\n1/2 cup chopped walnuts\nFill each cup 3/4 full and bake 22 to 25 minutes, until a toothpick comes out clean."
+  },
+  {
+   "kind": "recipe",
+   "text": "Pernil al Horno\nServes 10 to 12\n1 bone-in pork shoulder, 7 to 8 lb\n10 garlic cloves, 2 tbsp oregano, 1 tbsp salt\n1/4 cup olive oil, juice of 2 limes\nMarinate overnight, at least 12 hours.\nRoast at 300°F for 5 to 6 hours, until it reads 190°F inside.\nUncover and raise to 425°F for the last 30 min to crisp the skin."
+  },
+  {
+   "kind": "recipe",
+   "text": "Chocolate Egg Cream\n2 tbsp chocolate syrup\n1/4 cup cold whole milk\n3/4 cup cold seltzer\nPour the syrup into a 12 oz glass and add the milk. Add the seltzer fast while stirring with a long spoon until a 1-inch foam head forms.\nServe at once. Approx. 150 calories."
+  },
+  {
+   "kind": "recipe",
+   "text": "Black Bean Soup\nMakes about 6 cups\n2 cans (15 oz) black beans, drained\n1 onion, diced\n1 green bell pepper, diced\n3 cloves garlic, 2 tsp cumin\n4 cups vegetable stock\n1 bay leaf\nSimmer 25 min, remove the bay leaf, blend half and return it to the pot. Finish with the juice of 1 lime and serve with crema and cilantro."
+  },
+  {
+   "kind": "recipe",
+   "text": "Block Party Lemonade (makes 1 gallon)\n1 1/2 cups fresh lemon juice (8 to 10 lemons)\n1 1/4 cups sugar\n1 1/4 cups hot water\n11 cups cold water\nDissolve the sugar in the hot water and let it cool, then stir in the lemon juice and cold water.\nServe over ice. Keeps 3 days in the refrigerator."
+  },
+  {
+   "kind": "recipe",
+   "text": "Babcia's Potato & Cheese Pierogi (about 48)\nDough: 4 cups flour, 1 cup sour cream, 1 egg, 1/2 cup warm water, 1 tsp salt\nFilling: 2 lb russet potatoes, 8 oz farmer's cheese, 1 onion fried in 2 tbsp butter\nRoll the dough 1/8 inch thick, cut 3-inch rounds and fill each with 1 heaping tsp.\nBoil in batches and cook 3 to 4 min after they float."
+  },
+  {
+   "kind": "recipe",
+   "text": "Baked Mac & Cheese\nServes 6 · 375°F (190°C) · 30 min\n1 lb elbow macaroni\n4 tbsp butter, 1/4 cup flour\n3 cups whole milk\n12 oz sharp cheddar, grated\n4 oz Gruyère, grated\n1/2 tsp mustard powder, pinch of nutmeg\n1 cup panko mixed with 2 tbsp melted butter\nCook pasta 2 min less than the package says. Make the sauce, stir in the pasta, top with panko and bake until bubbling."
+  },
+  {
+   "kind": "recipe",
+   "text": "Kimchi Fried Rice (2 servings)\n2 cups day-old cooked rice\n3/4 cup chopped kimchi + 2 tbsp of its juice\n1 tbsp gochujang\n4 oz ham, diced\n1 tbsp sesame oil\n2 eggs, fried\nStir-fry the kimchi and ham for 2 min, add the rice and gochujang and cook 5 to 6 min until crisp. Top each bowl with an egg."
+  },
+  {
+   "kind": "recipe",
+   "text": "Old Fashioned\n2 oz rye whiskey\n1 sugar cube or 1/4 oz demerara syrup\n2 dashes aromatic bitters\n1 dash orange bitters\nStir with ice for 30 seconds and strain over one large cube.\nExpress an orange peel over the glass. Approx. 32% ABV."
+  },
+  {
+   "kind": "recipe",
+   "text": "Firehouse Chili, Station 14\nServes 12\n3 lb ground beef (80/20)\n2 onions, 1 red bell pepper, diced\n2 cans (28 oz) diced tomatoes\n2 cans (15.5 oz) kidney beans\n1/4 cup chili powder, 1 tbsp cumin, 2 tsp smoked paprika\n1 bottle (12 oz) lager\nBrown the beef, add the vegetables for 8 min, then everything else. Simmer 2 hours, stirring every 15 min."
+  },
+  {
+   "kind": "recipe",
+   "text": "Diner Cheesecake\n9-inch springform, 325°F\nCrust: 1 1/2 cups graham cracker crumbs, 6 tbsp melted butter\nFilling: 4 packages (8 oz each) cream cheese, 1 1/4 cups sugar, 4 eggs, 1 cup sour cream, 2 tsp vanilla\nBake 70 min in a water bath, then leave in the turned-off oven for 1 hour.\nChill at least 6 hours, ideally overnight."
+  },
+  {
+   "kind": "recipe",
+   "text": "Jollof Rice\nServes 6\n3 cups long-grain parboiled rice\nBlend 1 can (14 oz) tomatoes, 2 red bell peppers, 1 scotch bonnet and 1 onion\n1/3 cup vegetable oil\n2 tbsp tomato paste\n2 1/2 cups chicken stock\n2 bay leaves, 1 tsp thyme, 1 tsp curry powder\nFry the blend 20 min until reduced by half. Add stock, seasoning and rice, cover with foil and a lid, and cook 30 min on low."
+  },
+  {
+   "kind": "recipe",
+   "text": "Hot Cocoa Mix (makes 12 servings)\n1 cup powdered sugar\n3/4 cup unsweetened cocoa\n1 1/2 cups dry milk powder\n1/2 tsp salt\n2 oz dark chocolate (70%), finely chopped\nTo serve, stir 3 heaping tbsp into 8 oz hot milk, about 160°F.\nStore airtight for up to 3 months."
+  },
+  {
+   "kind": "label",
+   "text": "NIGHTSHIFT ROASTING CO.\nSingle origin: Huila, Colombia\nWashed process, 1,600–1,900 masl\nNotes: panela, red apple, cocoa\nRoast: medium\nRoasted 10/05/2026, best by 01/05/2027\nNet wt. 12 oz (340 g)\nLot #HU-2241"
+  },
+  {
+   "kind": "label",
+   "text": "CORNERSTONE PHARMACY #212 (773) 555-0102\nRx# 6620418 Dr. S. Mehta\nALVAREZ, LUCIA\nAMOXICILLIN 500 MG CAPSULE\nTake 1 capsule by mouth 3 times daily for 10 days\nQty: 30 Refills: 0\nFilled 06/22/2026 Discard after 07/22/2026\nFinish all medication unless otherwise directed"
+  },
+  {
+   "kind": "label",
+   "text": "THIRD RAIL HOT SAUCE\nHabanero & roasted pineapple\nIngredients: habanero peppers, pineapple, distilled vinegar, carrots, garlic, sea salt, lime juice\nHeat level 8/10\n5 fl oz (148 mL)\nRefrigerate after opening\nSmall batch No. 0317"
+  },
+  {
+   "kind": "label",
+   "text": "OLIO DEL BORGO\nExtra virgin olive oil\nProduct of Italy\nHarvest 2025/26, cold extracted below 27°C\nAcidity ≤ 0.3%\n750 ml\nBest before 31.12.2027\nImported by Calder Fine Foods, 900 S Mercer St, Suite 4"
+  },
+  {
+   "kind": "label",
+   "text": "PRIORITY 2-DAY\nSHIP TO:\nDANIELA REYES\n2817 W HOLLISTER AVE APT 3C\nCALDER IL 60647\nWeight 3 lb 6 oz\nTracking 9405 5112 0662 4871 0391 22\nShip date 10/08/2026\nFROM: Willow & Pine Goods, 44 Mill Rd, Fernmoor NC 27203"
+  },
+  {
+   "kind": "label",
+   "text": "100% merino wool\nMachine wash cold, gentle cycle, 30°C\nDo not bleach\nLay flat to dry\nCool iron if needed\nDo not tumble dry\nRN 118842 Made in Peru\nSize M / 38–40"
+  },
+  {
+   "kind": "label",
+   "text": "ROOFTOP GARDEN SOY CANDLE\nScent: fig leaf & cedar\nNet wt. 8 oz (227 g)\nBurn time approx. 45 hours\nTrim wick to 1/4 in before each use. Burn no longer than 4 hours at a time.\nNever leave a burning candle unattended. Keep away from children and pets.\nHand-poured at 1520 Tanner St, Studio 6"
+  },
+  {
+   "kind": "label",
+   "text": "HOMESTYLE PUP Salmon & Sweet Potato Recipe\nGuaranteed analysis: crude protein min 26%, crude fat min 14%, crude fiber max 4.5%, moisture max 10%\nDaily feeding guide: 10 lb dog 3/4 cup; 30 lb dog 1 3/4 cups; 60 lb dog 3 cups\nCalorie content 3,610 kcal/kg, 395 kcal/cup\nNet wt. 12 lb (5.44 kg)"
+  },
+  {
+   "kind": "label",
+   "text": "Vitamin D3 2,000 IU\n180 softgels\nSuggested use: take 1 softgel daily with a meal\nEach softgel contains vitamin D3 50 mcg (250% DV)\nKeep out of reach of children. Store below 77°F.\nExp. 08/2028 Lot 4471-B"
+  },
+  {
+   "kind": "label",
+   "text": "HOLLOW CREEK CELLARS\n2023 Cabernet Franc\nDelmar Valley\nAlc. 13.2% by vol.\n750 mL\nContains sulfites\nEstate grown and bottled by Hollow Creek Cellars, Delmar\nBottle No. 1,184 of 2,400"
+  },
+  {
+   "kind": "label",
+   "text": "MRS. WEI'S PORK & CHIVE DUMPLINGS\n30 pieces, net wt. 21 oz (595 g)\nKeep frozen at 0°F (-18°C)\nTo boil: add frozen dumplings to boiling water and cook 6 to 7 minutes until they float.\nTo pan-fry: 2 tbsp oil for 3 min, add 1/3 cup water, cover for 6 min.\nPer 6 pieces: 280 calories, 11 g fat, 620 mg sodium"
+  },
+  {
+   "kind": "label",
+   "text": "CLEAR SPRING Free & Gentle\n64 loads\n100 fl oz (2.96 L)\nUse cap line 1 for medium loads, line 3 for large or heavily soiled loads\nHE compatible\nCAUTION: Eye irritant. Keep out of reach of children.\nIf in eyes, rinse with water for 15 minutes. Call 1-800-555-0147"
+  },
+  {
+   "kind": "label",
+   "text": "ROOFTOP APIARY RAW HONEY\nFrom hives on 8 rooftops in the Mill District\nHarvest: July 2026\nNet wt. 1 lb (454 g)\nDo not feed honey to infants under 1 year of age.\nMay crystallize. Warm the jar in water below 104°F.\nJar 0213 of 600"
+  },
+  {
+   "kind": "label",
+   "text": "AA ALKALINE 1.5V\n24-pack\nExpires 03-2036\nInsert correctly, matching the + and - marks\nDo not recharge, heat above 212°F (100°C) or dispose of in fire\nMade in Thailand\nItem 40-2217"
+  },
+  {
+   "kind": "label",
+   "text": "HALVORSEN FOOD HALL\nSmoked turkey breast, sliced\nNet wt. 0.68 lb\nPrice/lb $11.99\nTotal price $8.15\nPacked 10/09/26 Sell by 10/14/26\nKeep refrigerated at or below 40°F"
+  },
+  {
+   "kind": "flyer",
+   "text": "WILLOW STREET BLOCK PARTY!\nSaturday, August 22, 12–8 PM\nWillow St between Ashby & Corliss, closed to traffic\nLive music at 2 & 5 PM, bouncy castle, water balloon toss\nPotluck: bring a dish for 8 to 10 people\nRSVP by 8/15 to willowblock@neighbormail.com or text 312-555-0115"
+  },
+  {
+   "kind": "flyer",
+   "text": "Free Yoga in the Park\nEvery Sunday 9:00–10:00 AM, June 7 to Sept 27\nHollis Park, north lawn near the fountain\nAll levels welcome. Bring a mat and water.\nDonations support the Hollis Park Conservancy (suggested $5)\nRain cancels; check @hollisparkyoga by 8 AM"
+  },
+  {
+   "kind": "flyer",
+   "text": "FOR RENT\n2 BR / 1 BA, 3rd floor walk-up\n$2,150/month, heat & hot water included\n850 sq ft, hardwood floors, laundry in basement\n5 min walk to 18th St station\nAvailable Nov 1, 12-month lease\nNo broker fee! Cats OK, sorry no dogs\nCall Miriam 773-555-0133 after 6 PM"
+  },
+  {
+   "kind": "flyer",
+   "text": "LOST DOG\nAnswers to \"Pepper\"\nFemale schnauzer mix, 18 lb, gray with white chest\nLast seen 10/03 around 7:30 PM near Larrabee Ave & 31st St\nRed collar, microchipped\n$500 REWARD, no questions asked\nPlease call or text 646-555-0179 any time"
+  },
+  {
+   "kind": "flyer",
+   "text": "OPEN MIC NIGHT\nEvery Wednesday at The Brass Lantern, 1902 N Talbot Ave\nSign-up 7:30 PM, first act 8:00 PM\n10 minutes per act, 2 songs or 1 set\nPoets, comics and musicians all welcome\nNo cover, 2-drink minimum ($6 drafts)\n21+ with valid ID"
+  },
+  {
+   "kind": "flyer",
+   "text": "Tanner Square Farmers Market\nWednesdays & Saturdays 7 AM–1 PM\nMay 2 to November 21\n40+ local farms and makers\nWe accept SNAP/EBT and match up to $25 per visit\nFree parking in the lot at 1300 Tanner St\nNo dogs except service animals"
+  },
+  {
+   "kind": "flyer",
+   "text": "COMMUNITY BOARD 9 PUBLIC HEARING\nProposed 14-story residential building at 2450 Wexford Blvd, Case No. ZC-2026-0418\nTuesday, November 10, 2026, 6:30 PM\nHolloway Middle School auditorium, 330 E 104th Pl\nSign up to speak by 6:15 PM, 2 minutes per speaker\nSpanish and Mandarin interpretation available\nInfo: cb9office@caldermail.org"
+  },
+  {
+   "kind": "flyer",
+   "text": "TURKEY TROT 5K\nThanksgiving morning, Thursday Nov 26\nStart 8:30 AM at Lakefront Pavilion, Dock Rd\nRegistration $35 adults, $15 kids under 12, $40 on race day\nAll finishers get a long-sleeve tee (sizes XS–XXL)\nProceeds benefit the Southside Food Pantry\nRegister at trot5k.org by Nov 20. Code GOBBLE10 saves 10%"
+  },
+  {
+   "kind": "flyer",
+   "text": "MATH & SAT TUTORING\nGrades 6–12, algebra through AP Calculus BC\nCertified teacher, 12 years' experience\n$60/hour, or 10 sessions for $540\nIn person near Delmont Park or online by video\nStudents' SAT scores rose an average of 140 points last year\nEmail j.okeke.tutor@mailbox.net or call 312-555-0102"
+  },
+  {
+   "kind": "flyer",
+   "text": "MOVING SALE, EVERYTHING MUST GO\nSat 10/17 & Sun 10/18, 9 AM–3 PM\n2219 N Corliss Ave, rear coach house\nMid-century dresser $180, sofa (2 yrs old) $350, bike $75\nRecords $3 each or 10 for $25\nKitchenware, books, plants, kids' toys\nCash or app payments only\nNo early birds please!"
+  },
+  {
+   "kind": "flyer",
+   "text": "CALDER YOUTH SYMPHONY\nWinter Concert\nDvořák Symphony No. 9 \"From the New World\" and Tchaikovsky The Nutcracker Suite\nSaturday, December 12, 2026 at 7:30 PM\nLindqvist Hall, 600 S Mercer St\nTickets $25 / $15 students & seniors / under 10 free\nBox office (312) 555-0124"
+  },
+  {
+   "kind": "flyer",
+   "text": "BLOOD DRIVE\nMonday, October 26, 10 AM–4 PM\n200 W Halvorsen Plaza, 2nd floor conference center\nEvery donation can help save up to 3 lives\nDonors must be 17+ (16 with parent consent) and weigh at least 110 lb\nEat a full meal and drink 16 oz of water beforehand\nSign up at bloodsignup.org, sponsor code HALV200"
+  },
+  {
+   "kind": "flyer",
+   "text": "WINTER COAT & FOOD DRIVE\nDrop-off bins in the lobby Nov 2 to Dec 11\nMost needed: canned protein, peanut butter, rice (2 lb bags), kids' coats sizes 4 to 14, gloves\nNo glass jars, please\nLast year 312 neighbors donated 2,140 lb of food!\nOrganized by the Tenants' Association of 1400 Wexford Blvd"
+  },
+  {
+   "kind": "flyer",
+   "text": "FIRST FRIDAY ART WALK\nFriday, November 6, 5–9 PM\n22 galleries and studios along Corliss Ave from 14th to 22nd St\nFree trolley loops every 15 minutes\nPick up a map at Foundry Hall Gallery, 2240 W Corliss Pl\nLive glassblowing at 6:30 & 8:00 PM\n#FirstFridayCorliss"
+  },
+  {
+   "kind": "flyer",
+   "text": "LEARN TO CODE IN 16 WEEKS\nFull-stack web development, evenings & Saturdays\nNext cohort starts January 11, 2027\nTuition $9,800 or 4 monthly payments of $2,450\nFree info session: Thursday 11/19 at 6:30 PM, 455 Tanner St, 8th floor\n87% of 2025 graduates employed within 6 months*\n*Based on 112 of 129 graduates reporting"
+  },
+  {
+   "kind": "form",
+   "text": "THE VELVET ROOM presents\nMARISA KANE with special guest The Lowtides\nSAT OCT 31 2026 Doors 7:00 PM Show 8:00 PM\nGEN ADM FLOOR\nPrice $38.00 + Fee $7.85 = $45.85\nOrder #VR-118204\nNo re-entry. All ages, under 16 with an adult.\n0004417390"
+  },
+  {
+   "kind": "form",
+   "text": "REDUCED FARE PROGRAM APPLICATION\nSection 1: Applicant\nName: Marguerite Ellison\nDate of birth: 04/17/1955 Age: 71\nAddress: 816 W Ashby St, Apt 2F\nPhone: (773) 555-0196\nSection 2: Eligibility\n[X] Senior 65+ [ ] Disability\nProof provided: State ID No. E415-2208-6633\nFee $0.00. Card mailed within 10 business days"
+  },
+  {
+   "kind": "form",
+   "text": "CALDER PUBLIC LIBRARY Card Application\nLast name: Nakamura First name: Kenji\nAddress: 3304 S Halvorsen Dr, Unit 1207\nZIP: 60616 Phone: 312-555-0147\nEmail: kenji.nakamura@postbox.net\nCard type: Adult (18+)\nCard no. 2 1180 01449 2273\nIssued 09/09/2026 Expires 09/09/2029\nStaff initials: TR Branch: Kessler"
+  },
+  {
+   "kind": "form",
+   "text": "PARKING VIOLATION NOTICE\nCitation No. 8471162094\nDate 10/07/2026 Time 08:46\nLocation 1500 blk N Talbot Ave, west side\nPlate KTR 4419 State IL Make HOND Color GRY\nViolation 0964150B Street cleaning\nFine $60.00, increases to $120.00 if unpaid after 30 days\nOfficer badge #2271\nPay online, by mail, or contest within 21 days"
+  },
+  {
+   "kind": "form",
+   "text": "KESSLER MUSEUM OF NATURAL HISTORY\nGeneral Admission\n2 Adult @ $24.00 $48.00\n1 Child (3–11) $16.00\n1 Special exhibition: Deep Time $8.00\nTotal $72.00\nValid 10/12/2026 only, entry 11:30 AM\nScan barcode at the north entrance"
+  },
+  {
+   "kind": "form",
+   "text": "LAKESHORE ARROW Train 351\nUnion Terminal → Weller\nDep 10/24/2026 7:20 AM Arr 12:05 PM\nPassenger: DESAI/ANIKA\nCoach, Car 5, Seat 14C\nFare: Value $34.00\nReservation No. 7F2K9Q\nShow this ticket with valid photo ID"
+  },
+  {
+   "kind": "form",
+   "text": "ST. BRIGID'S PARISH FALL FESTIVAL RAFFLE\nNo. 004218\nDrawing Sunday, October 25, 2026 at 4:00 PM\n1st prize $2,500 cash, 2nd prize 55-inch TV, 3rd prize $250 gift card\nTickets $10 each or 3 for $25\nName: Teresa Gallo Phone: 773-555-0161\nNeed not be present to win"
+  },
+  {
+   "kind": "form",
+   "text": "VEHICLE REGISTRATION RENEWAL NOTICE\nPlate: 9GHT 552 Expires: 12/31/2026\nVIN (last 6): 284117\nRegistration fee $151.00\nCounty wheel tax $25.00\nTotal due by 12/31/2026: $176.00\nLate fee after 1/31/2027: $20.00\nEmissions test required: YES, by 12/15/2026\nPIN for online renewal: 4471-2093"
+  },
+  {
+   "kind": "form",
+   "text": "DOG LICENSE APPLICATION 2026–2027\nOwner: Rafael Domínguez\nAddress: 1618 W Rowan St, Apt 1\nDog's name: Biscuit Breed: Beagle Sex: M\nColor: tricolor Age: 4 yrs Weight: 26 lb\nSpayed/neutered: Yes (fee $10.00; unaltered $50.00)\nRabies certificate No. R-2026-11893, vaccinated 03/02/2026\nLicense tag No. 40712"
+  },
+  {
+   "kind": "form",
+   "text": "MAINTENANCE REQUEST #7721\nUnit 14B, 1400 Wexford Blvd\nSubmitted 10/05/2026 9:12 PM by tenant J. Park\nIssue: Kitchen sink leaking under cabinet, slow drip about 1 cup per hour\nPermission to enter: Yes\nPets: 1 cat (keep door closed)\nAssigned to: Dmitri (porter) Priority: 2\nCompleted 10/06/2026 11:40 AM, replaced P-trap washer, 25 min"
+  },
+  {
+   "kind": "form",
+   "text": "DELIVERY RECEIPT\nOrder No. 55-90214\nDeliver to: Grace Liu, 2603 N Ashby St, 3rd fl\nSofa, 3-seat, slate gray (2 boxes)\nOttoman (1 box)\nTotal pieces: 3\nDelivery window Fri 10/16, 12:00–4:00 PM\nAssembly included\nReceived in good condition: G. Liu 1:47 PM"
+  },
+  {
+   "kind": "form",
+   "text": "THE HALVORSEN HOTEL Registration Card\nGuest: Mr. Tomás Ibarra\nArrival 11/03/2026 Departure 11/06/2026 Nights 3\nRoom 1418 King, city view\nRate $289.00 per night + 17.4% tax\nEstimated total $1,017.86\nDeposit $100.00 held on card\nCheck-out time 12:00 noon\nGuest signature on file"
+  },
+  {
+   "kind": "form",
+   "text": "COAT CHECK No. 117\nHarlowe Supper Club\nItems: 1 coat, 1 umbrella\n$4.00 per item, $8.00 paid\nNot responsible for items left after 2:00 AM or for valuables in pockets\nPresent this half to collect"
+  },
+  {
+   "kind": "form",
+   "text": "CALDER COMETS vs. PORTAGE PIKES\nSunday, July 19, 2026 1:10 PM\nGates open 11:40 AM\nSection 214 Row K Seat 9\nUpper reserved, 3rd base side\nPrice $42.00 incl. fees\nRain check: good for a rescheduled game\nGame 47 of 81 home games"
+  },
+  {
+   "kind": "form",
+   "text": "MEMBERSHIP AGREEMENT RIVERWALK FITNESS\nMember: Carla Benedetti Member ID: RW-30882\nPlan: All-access monthly\nEnrollment fee $49.00 (waived with promo code FALL26)\nMonthly dues $64.99, billed on the 1st\nFirst payment prorated 10/14 to 10/31: 18 days, $37.74\nMinimum term 6 months. Cancellation requires 30 days' written notice.\nSigned 10/14/2026"
+  },
+  {
+   "kind": "page",
+   "text": "Stop 6: The Ashby Building (1911)\nCompleted in 1911 for a wholesale grocery firm, the eleven-story Ashby Building was among the first in the city to use a reinforced concrete frame. Its terra-cotta facade, with 1,240 cream-colored panels, was cleaned and restored in 2009 at a cost of $3.2 million.\nLook up at the 10th floor to find carved grapevines and wheat sheaves, a nod to the original tenant. The ground-floor arcade now holds a bakery and a bike shop.\nFrom here, walk two blocks north to Stop 7, about 4 minutes."
+  },
+  {
+   "kind": "page",
+   "text": "Chapter 4\nBy the summer of 1886 the river wards held nearly 40,000 people, most of them packed into frame cottages built in a hurry and close together. Fire was a constant fear; the volunteer companies of the Fourth Ward answered 212 alarms that year alone.\nThe council's answer, an ordinance requiring brick party walls on all new construction, passed 17 to 9 in October 1887. Builders protested that it would raise the cost of a cottage from about $600 to $950.\n58"
+  },
+  {
+   "kind": "page",
+   "text": "What goes in the blue cart?\nYes: paper, flattened cardboard, cartons, metal cans, and plastic bottles and containers marked #1, #2 or #5. Rinse items and leave the caps on.\nNo: plastic bags, foam cups or trays, garden hoses, batteries or anything greasy. Plastic bags tangle the sorting machines and can shut a line down for 30 minutes or more.\nNot sure? Use the Sort It tool at recycle.calder.org or call 311."
+  },
+  {
+   "kind": "page",
+   "text": "The 6:40 express was late again, and Nell stood on the platform counting the pigeons on the girder above her, the way she had every morning since March. Twenty-three today. Yesterday it had been nineteen.\n\"You keep track of them,\" said the man beside her. It wasn't a question. He wore a gray overcoat too heavy for October and held a paper cup of coffee he hadn't touched.\n\"Somebody has to,\" Nell said, and the train came in.\n112"
+  },
+  {
+   "kind": "page",
+   "text": "Welcome to the Kessler Museum of Natural History\nThe museum is open daily from 9:30 AM to 5:00 PM, and until 9:00 PM on Thursdays. Last entry is 45 minutes before closing.\nThe Hall of Minerals on Level 2 holds more than 3,000 specimens, including a 340-pound amethyst geode. The Deep Time exhibition (separate ticket, $8) runs through March 28, 2027.\nStrollers are welcome. Elevators are at the east and west ends of each floor."
+  },
+  {
+   "kind": "page",
+   "text": "Know Your Rights: Heat Season\nFrom October 1 through May 31, landlords must keep indoor temperatures at least 68°F between 6 AM and 10 PM when it is below 55°F outside, and at least 62°F overnight whatever the outdoor temperature.\nHot water at a minimum of 120°F must be provided all year round.\nIf you have no heat, tell your landlord in writing first, then report it to the housing hotline at 555-0193. Keep a log of dates, times and indoor temperatures."
+  },
+  {
+   "kind": "page",
+   "text": "Flu shots: what to expect\nThe vaccine takes about 2 weeks to build protection, so the best time to get it is September or October. Adults 65 and older may be offered a high-dose version.\nMild side effects, such as a sore arm or a low fever under 100.4°F, usually pass in 1 to 2 days.\nWalk-in flu clinics run Saturdays 9 AM to 1 PM through November 21. Most insurance plans cover the shot at no cost; without insurance it is $35."
+  },
+  {
+   "kind": "page",
+   "text": "Introduction\nMy grandmother cooked for eleven people every Sunday in a kitchen barely 6 feet wide, on the third floor of a building on Rowan Street that still stands. She never measured anything. When I finally stood beside her with a notebook in 1998, she was 84, and I wrote down \"a handful\" so many times that I started weighing her handfuls instead.\nThis book is the result: 72 recipes, each tested at least 3 times in my own small kitchen, with cups, grams and the occasional handful."
+  },
+  {
+   "kind": "page",
+   "text": "Delmont Park\nDesigned in 1894 and covering 218 acres, Delmont Park is the city's second-largest green space. The lagoon, about 0.8 miles around, is stocked with bluegill and largemouth bass; catch-and-release fishing is allowed with a state license.\nThe conservatory, rebuilt after a hailstorm in 2014, keeps its palm house at a steady 75°F all year. Admission is free, though a $10 donation is suggested.\nRestrooms are open from 7 AM to 9 PM, April through October."
+  },
+  {
+   "kind": "page",
+   "text": "How to vote early\nEarly voting runs from Monday, October 19 through Sunday, November 1, 2026, at any of the city's 51 early voting sites. Hours are 9 AM to 7 PM on weekdays and 9 AM to 5 PM on weekends.\nBring a government-issued photo ID if you are registering at the same time. You may also request a mail ballot until October 29.\nOn Election Day, Tuesday, November 3, polls are open 6 AM to 7 PM and you must vote at your assigned precinct."
+  },
+  {
+   "kind": "page",
+   "text": "Riding the Metro with a bike\nBikes are allowed on all trains except during rush hours, 7:00 to 9:00 AM and 4:00 to 6:00 PM on weekdays. A maximum of 2 bikes is permitted per car, and you must use the first or last door.\nEvery city bus has a front rack that holds 3 bikes. Load from the curb side and tell the driver before you unload.\nFolding bikes, when folded, are welcome at all times at no charge."
+  },
+  {
+   "kind": "page",
+   "text": "Eating in Tanner Square\nThe blocks around Tanner Square have the densest cluster of Ukrainian, Polish and Mexican bakeries in the city, many open by 6 AM. Expect to pay $3 to $4 for a pastry and about $12 for a full breakfast.\nFor dinner, the stretch of 18th Street between Corliss and Mercer has more than 30 restaurants within a 10-minute walk. Reservations are rarely needed on weeknights, but on Saturdays arrive before 7 PM or expect a wait of 45 minutes or more."
+  },
+  {
+   "kind": "page",
+   "text": "Uncle Ray drove a cab for thirty-one years and claimed he had never once been lost. \"Confused,\" he would say, \"maybe twice. Lost, never.\" He kept a ledger in the glove box with every fare since 1979, in pencil, in a hand so small you needed a magnifying glass.\nWhen he died, my mother gave me the ledger. The last entry reads: Fri 6/12, Union Terminal to 4400 S Mercer, $23.50, tip $5, nice lady, talked about her grandson the pilot.\n— 37 —"
+  },
+  {
+   "kind": "page",
+   "text": "Your 2026 Water Quality Report\nIn 2025 the city's treatment plants delivered an average of 642 million gallons per day to about 2.7 million residents. Our laboratory ran more than 410,000 tests, and the water met or surpassed every federal and state standard.\nLead can enter drinking water from older service lines. If your home was built before 1986, run the cold tap for 3 to 5 minutes when water has sat for 6 hours or more.\nFree test kits: call 555-0109."
+  },
+  {
+   "kind": "page",
+   "text": "Lesson 12: Reading a Bus Map\nEach route on the map has its own color and number. Thick lines show buses that come at least every 10 minutes all day; thin lines show buses that come less often.\nA small circle marks a stop. A circle with a white center means you can transfer to a train there.\nTry it: Find Route 62 on the map on page 87. How many train stations does it pass between 125th Street and Delmont Park? (Answer on page 212.)"
+  }
+ ]
+}

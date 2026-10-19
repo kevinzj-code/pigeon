@@ -1,0 +1,1594 @@
+{
+ "batch": "b02",
+ "categories": [
+  "dates"
+ ],
+ "skills": [
+  {
+   "name": "addBusinessDays",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "addBusinessDays \u2014 Move a date forward or back by a number of working days \u2014 three working days on from a Monday \u2014 skipping weekends and holidays.\n  needs: date: string, days: integer\n  optional: holidays: array\n  e.g. \"what date is 5 working days from 1 September 2026\" \u2192 {\"date\":\"2026-09-01\",\"days\":5}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date",
+     "days"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "start date",
+      "prompt": "Which date should I start from?"
+     },
+     "days": {
+      "type": "integer",
+      "label": "working days",
+      "minimum": -2000,
+      "maximum": 2000,
+      "prompt": "How many working days?"
+     },
+     "holidays": {
+      "type": "array",
+      "label": "holidays",
+      "items": {
+       "type": "string"
+      },
+      "description": "dates to skip as well as weekends, in YYYY-MM-DD form"
+     }
+    }
+   },
+   "examples": [
+    "what date is 5 working days from 1 September 2026",
+    "add 10 business days to 2026-09-01",
+    "one working day after 2026-09-01",
+    "three working days before 2026-09-01",
+    "five working days from 2026-09-01 with a holiday on the third"
+   ]
+  },
+  {
+   "name": "addDuration",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "addDuration \u2014 Move a date forward or back by days, weeks, months or years.\n  needs: from: string, amount: integer, unit: string\n  e.g. \"what date is 90 days after 2026-07-12\" \u2192 {\"from\":\"2026-07-12\",\"amount\":90,\"unit\":\"days\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "from",
+     "amount",
+     "unit"
+    ],
+    "properties": {
+     "from": {
+      "type": "string",
+      "label": "start date",
+      "prompt": "Which date should I start from?",
+      "description": "a date"
+     },
+     "amount": {
+      "type": "integer",
+      "label": "how many",
+      "prompt": "How many should I add? (use a negative number to go back)"
+     },
+     "unit": {
+      "type": "string",
+      "label": "unit",
+      "enum": [
+       "days",
+       "weeks",
+       "months",
+       "years"
+      ],
+      "prompt": "Days, weeks, months or years?"
+     }
+    }
+   },
+   "examples": [
+    "what date is 90 days after 2026-07-12",
+    "six weeks from 1 March 2026",
+    "three months after 31 January 2026",
+    "18 years from 2008-02-29",
+    "10 days before 2026-01-05"
+   ]
+  },
+  {
+   "name": "ageFromDate",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "ageFromDate \u2014 Count how old somebody is from their birthday.\n  needs: birthDate: string\n  optional: onDate: string\n  e.g. \"how old is someone born 1990-05-20\" \u2192 {\"birthDate\":\"1990-05-20\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "birthDate"
+    ],
+    "properties": {
+     "birthDate": {
+      "type": "string",
+      "label": "date of birth",
+      "prompt": "What is the date of birth?",
+      "description": "a date"
+     },
+     "onDate": {
+      "type": "string",
+      "label": "age on date",
+      "description": "a date \u2014 defaults to today"
+     }
+    }
+   },
+   "examples": [
+    "how old is someone born 1990-05-20",
+    "age of someone born 2000-01-01 on 2026-01-01",
+    "how old will a baby born 2026-06-15 be on 2026-12-25",
+    "age on a leap-day birthday, born 2004-02-29 on 2026-03-01",
+    "someone born yesterday"
+   ]
+  },
+  {
+   "name": "businessDaysBetween",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "businessDaysBetween \u2014 Count how many working days (Mon\u2013Fri) fall between two dates you give. Does not know public holidays.\n  needs: from: string, to: string\n  optional: includeStart: boolean\n  e.g. \"working days between 1 September and 30 September 2026\" \u2192 {\"from\":\"2026-09-01\",\"to\":\"2026-09-30\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "from",
+     "to"
+    ],
+    "properties": {
+     "from": {
+      "type": "string",
+      "label": "start date",
+      "prompt": "Which date should I count from?",
+      "description": "a date"
+     },
+     "to": {
+      "type": "string",
+      "label": "end date",
+      "prompt": "Which date should I count to?",
+      "description": "a date"
+     },
+     "includeStart": {
+      "type": "boolean",
+      "label": "count start day",
+      "default": false,
+      "description": "count the start day itself"
+     }
+    }
+   },
+   "examples": [
+    "working days between 1 September and 30 September 2026",
+    "how many business days from monday 2026-06-01 to friday 2026-06-05",
+    "business days in a full year 2026",
+    "working days from 2026-09-04 to 2026-09-07 over a weekend",
+    "ten working days from 2026-03-02 counting the first day"
+   ]
+  },
+  {
+   "name": "convertTimezone",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "convertTimezone \u2014 Convert a time from one time zone to another, using IANA zone names.\n  needs: time: string, from: string, to: string\n  optional: date: string\n  e.g. \"3pm London in New York on 2026-09-01\" \u2192 {\"time\":\"15:00\",\"from\":\"Europe/London\",\"to\":\"America/New_York\",\"date\":\"2026-09-01\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "time",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "time": {
+      "type": "string",
+      "label": "time",
+      "prompt": "What time should I convert? (like 14:30)",
+      "pattern": "^\\d{1,2}([:.]\\d{2})?\\s*(am|pm|AM|PM)?$",
+      "description": "a time like 14:30 or 2:30pm"
+     },
+     "from": {
+      "type": "string",
+      "label": "from time zone",
+      "prompt": "Which time zone is that in?",
+      "description": "an IANA zone like Europe/London"
+     },
+     "to": {
+      "type": "string",
+      "label": "to time zone",
+      "prompt": "Which time zone should I convert to?",
+      "description": "an IANA zone like America/New_York"
+     },
+     "date": {
+      "type": "string",
+      "label": "date",
+      "description": "a date \u2014 defaults to today, and matters because of daylight saving"
+     }
+    }
+   },
+   "examples": [
+    "3pm London in New York on 2026-09-01",
+    "what is 9am Tokyo in London on 2026-01-15",
+    "11pm Sydney in Los Angeles 2026-06-10",
+    "2:30pm in Berlin is what in Mumbai on 2026-03-20",
+    "midnight UTC in Auckland on 2026-12-25"
+   ]
+  },
+  {
+   "name": "countdownTo",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "countdownTo \u2014 Count how long until a date, or how long since one, from today. Takes the one date.\n  needs: to: string\n  e.g. \"how many days till my sister's wedding on nov 14\" \u2192 {\"to\":\"2026-11-14\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "to"
+    ],
+    "properties": {
+     "to": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date should I count to?",
+      "description": "a date"
+     }
+    }
+   },
+   "examples": [
+    "how many days till my sister's wedding on nov 14",
+    "days until christmas",
+    "how long until tomorrow",
+    "how long ago was 1 January 2026",
+    "days till today"
+   ]
+  },
+  {
+   "name": "currentTime",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "currentTime \u2014 Today's date and the current time, in your own time zone.\n  optional: zone: string\n  e.g. \"what is the date today\" \u2192 {}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "zone": {
+      "type": "string",
+      "label": "time zone",
+      "description": "an IANA zone to report instead \u2014 defaults to the device time zone"
+     }
+    }
+   },
+   "examples": [
+    "what is the date today",
+    "what time is it",
+    "what time is it in tokyo",
+    "what day is it today",
+    "what week of the year are we in"
+   ]
+  },
+  {
+   "name": "dateRangeList",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "dateRangeList \u2014 List every date between two dates, optionally stepping by weeks or months.\n  needs: from: string, to: string\n  optional: step: integer, unit: string, weekdaysOnly: boolean\n  e.g. \"list the dates from 2026-09-01 to 2026-09-05\" \u2192 {\"from\":\"2026-09-01\",\"to\":\"2026-09-05\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "from",
+     "to"
+    ],
+    "properties": {
+     "from": {
+      "type": "string",
+      "label": "start date",
+      "prompt": "Start from which date?",
+      "description": "a date"
+     },
+     "to": {
+      "type": "string",
+      "label": "end date",
+      "prompt": "Up to which date?",
+      "description": "a date"
+     },
+     "step": {
+      "type": "integer",
+      "label": "step",
+      "minimum": 1,
+      "default": 1
+     },
+     "unit": {
+      "type": "string",
+      "label": "step unit",
+      "enum": [
+       "days",
+       "weeks",
+       "months"
+      ],
+      "default": "days"
+     },
+     "weekdaysOnly": {
+      "type": "boolean",
+      "label": "weekdays only",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "list the dates from 2026-09-01 to 2026-09-05",
+    "every monday from 2026-09-07 to 2026-09-28",
+    "the first of each month from january to april 2026",
+    "weekdays only between 2026-09-04 and 2026-09-09",
+    "every other day from 2026-09-01 to 2026-09-07"
+   ]
+  },
+  {
+   "name": "dayOfWeek",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "dayOfWeek \u2014 Name the weekday a date lands on \u2014 a Monday, a Saturday.\n  needs: date: string\n  e.g. \"what day of the week is 14 November 2026\" \u2192 {\"date\":\"2026-11-14\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date?",
+      "description": "a date"
+     }
+    }
+   },
+   "examples": [
+    "what day of the week is 14 November 2026",
+    "is christmas 2026 a weekday",
+    "what day was 1 January 2000",
+    "day of week for 29 Feb 2024",
+    "what day is 2026-06-01",
+    "which weekday is 2026-10-31, and is it a sunday",
+    "does 25 december 2026 fall on a weekend day"
+   ]
+  },
+  {
+   "name": "dayOfYear",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "dayOfYear \u2014 Which numbered day of the year a date is, and how much of the year is left.\n  needs: date: string\n  e.g. \"what day of the year is 2026-11-14\" \u2192 {\"date\":\"2026-11-14\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date?",
+      "description": "a date"
+     }
+    }
+   },
+   "examples": [
+    "what day of the year is 2026-11-14",
+    "which day of the year is christmas 2026",
+    "day of year for 2024-03-01 in a leap year",
+    "what number day is 2026-01-01",
+    "day of the year for 2026-06-30"
+   ]
+  },
+  {
+   "name": "daysBetween",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "daysBetween \u2014 Count the days from one given date to another. Takes both dates.\n  needs: from: string, to: string\n  optional: inclusive: boolean\n  e.g. \"how many days between 12 July 2026 and 25 December 2026\" \u2192 {\"from\":\"2026-07-12\",\"to\":\"2026-12-25\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "from",
+     "to"
+    ],
+    "properties": {
+     "from": {
+      "type": "string",
+      "label": "start date",
+      "prompt": "Which date should I count from?",
+      "description": "a date"
+     },
+     "to": {
+      "type": "string",
+      "label": "end date",
+      "prompt": "Which date should I count to?",
+      "description": "a date"
+     },
+     "inclusive": {
+      "type": "boolean",
+      "label": "count both end days",
+      "default": false,
+      "description": "count both end days"
+     }
+    }
+   },
+   "examples": [
+    "how many days between 12 July 2026 and 25 December 2026",
+    "days from 2026-01-01 to 2026-03-01",
+    "how long is my trip if I fly out 3 April and back 17 April, counting both days",
+    "days between 1 March 2024 and 1 March 2025 (leap year)",
+    "how far back was 2026-08-01 from 2026-09-01"
+   ]
+  },
+  {
+   "name": "daysInMonth",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "daysInMonth \u2014 Say how many days long a given month is.\n  needs: month: integer, year: integer\n  e.g. \"how many days in february 2026\" \u2192 {\"month\":2,\"year\":2026}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "month",
+     "year"
+    ],
+    "properties": {
+     "month": {
+      "type": "integer",
+      "label": "month (1\u201312)",
+      "minimum": 1,
+      "maximum": 12,
+      "prompt": "Which month, as a number 1\u201312?"
+     },
+     "year": {
+      "type": "integer",
+      "label": "year",
+      "minimum": 1,
+      "maximum": 9999,
+      "prompt": "Which year?"
+     }
+    }
+   },
+   "examples": [
+    "how many days in february 2026",
+    "days in february 2028",
+    "how long is september 2026",
+    "days in december 2026",
+    "how many days in january 2027"
+   ]
+  },
+  {
+   "name": "durationToText",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "durationToText \u2014 Turn a raw number of seconds into readable words like \"1h 30m\".\n  needs: seconds: number\n  optional: style: string, maxUnits: integer\n  e.g. \"what is 5400 seconds as a duration\" \u2192 {\"seconds\":5400}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "seconds"
+    ],
+    "properties": {
+     "seconds": {
+      "type": "number",
+      "label": "seconds",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "How many seconds?"
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "short",
+       "long"
+      ],
+      "default": "short"
+     },
+     "maxUnits": {
+      "type": "integer",
+      "label": "most units shown",
+      "minimum": 1,
+      "maximum": 5,
+      "default": 2
+     }
+    }
+   },
+   "examples": [
+    "what is 5400 seconds as a duration",
+    "how long is 90 seconds in words",
+    "express 100000 seconds readably",
+    "show 3661 seconds with three units",
+    "what is 45 seconds"
+   ]
+  },
+  {
+   "name": "expandRecurrence",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "expandRecurrence \u2014 List the dates a repeating schedule falls on \u2014 the first Thursday monthly, every fortnight, every 90 days.\n  needs: start: string\n  optional: every: string, interval: integer, count: integer, until: string\n  e.g. \"every fortnight from 2026-09-07, eight times\" \u2192 {\"start\":\"2026-09-07\",\"every\":\"week\",\"interval\":2,\"count\":8}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "start"
+    ],
+    "properties": {
+     "start": {
+      "type": "string",
+      "label": "start date",
+      "minLength": 4,
+      "prompt": "What date does it start on?"
+     },
+     "every": {
+      "type": "string",
+      "label": "repeat unit",
+      "enum": [
+       "day",
+       "week",
+       "month",
+       "year"
+      ],
+      "default": "week"
+     },
+     "interval": {
+      "type": "integer",
+      "label": "repeat interval",
+      "minimum": 1,
+      "maximum": 365,
+      "default": 1
+     },
+     "count": {
+      "type": "integer",
+      "label": "how many dates",
+      "minimum": 1,
+      "maximum": 60,
+      "description": "defaults to 10 without an end date"
+     },
+     "until": {
+      "type": "string",
+      "label": "end date"
+     }
+    }
+   },
+   "examples": [
+    "every fortnight from 2026-09-07, eight times",
+    "the 1st of every month for six months from 2026-10-01",
+    "every 90 days from 2026-01-15, five times",
+    "weekly standups from 2026-09-07 until 2026-10-12",
+    "the 31st monthly from 2026-01-31 for six",
+    "my birthday every year from 2026-03-09, four times"
+   ]
+  },
+  {
+   "name": "formatDate",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "formatDate \u2014 Rewrite a date in a layout you choose, like DD/MM/YYYY or \"D MMMM YYYY\".\n  needs: date: string, format: string\n  e.g. \"format 2026-11-14 as DD/MM/YYYY\" \u2192 {\"date\":\"2026-11-14\",\"format\":\"DD/MM/YYYY\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date",
+     "format"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date should I reformat?",
+      "description": "a date"
+     },
+     "format": {
+      "type": "string",
+      "label": "format",
+      "minLength": 1,
+      "prompt": "What layout? (YYYY, MM, DD, MMMM for the month name, DDDD for the weekday)"
+     }
+    }
+   },
+   "examples": [
+    "format 2026-11-14 as DD/MM/YYYY",
+    "write that date as D MMMM YYYY",
+    "show christmas as DDDD, D MMM",
+    "format as MM-DD-YY for an american form",
+    "reformat 14 nov 2026 as YYYY/MM/DD"
+   ]
+  },
+  {
+   "name": "isLeapYear",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "isLeapYear \u2014 Say whether a year is a leap year, and how many days it has.\n  needs: year: integer\n  e.g. \"is 2026 a leap year\" \u2192 {\"year\":2026}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "year"
+    ],
+    "properties": {
+     "year": {
+      "type": "integer",
+      "label": "year",
+      "minimum": 1,
+      "maximum": 9999,
+      "prompt": "Which year?"
+     }
+    }
+   },
+   "examples": [
+    "is 2026 a leap year",
+    "is 2028 a leap year",
+    "was 1900 a leap year",
+    "was 2000 a leap year",
+    "is 2024 a leap year"
+   ]
+  },
+  {
+   "name": "isWeekend",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "isWeekend \u2014 Say whether a date is a weekend or a working day.\n  needs: date: string\n  e.g. \"is 2026-11-14 a weekend\" \u2192 {\"date\":\"2026-11-14\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date?",
+      "description": "a date"
+     }
+    }
+   },
+   "examples": [
+    "is 2026-11-14 a weekend",
+    "is christmas 2026 on a weekend",
+    "does 2026-07-04 fall on a weekend",
+    "is 2026-06-01 a working day",
+    "is 2026-03-15 a sunday"
+   ]
+  },
+  {
+   "name": "isoToUnix",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "isoToUnix \u2014 Convert a calendar date and clock time to a Unix epoch number.\n  needs: date: string\n  optional: time: string\n  e.g. \"unix timestamp for 2026-09-01\" \u2192 {\"date\":\"2026-09-01\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date?",
+      "description": "a date"
+     },
+     "time": {
+      "type": "string",
+      "label": "utc time",
+      "pattern": "^\\d{1,2}:\\d{2}(:\\d{2})?$",
+      "description": "a 24-hour time \u2014 defaults to midnight"
+     }
+    }
+   },
+   "examples": [
+    "unix timestamp for 2026-09-01",
+    "what is 2026-09-01 09:30 as a timestamp",
+    "epoch seconds for 1970-01-01",
+    "timestamp for christmas 2026 at 08:00",
+    "convert 2001-09-09 01:46:40 to unix"
+   ]
+  },
+  {
+   "name": "isoWeek",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "isoWeek \u2014 Number the week of the year a date sits in, and when that week begins.\n  needs: date: string\n  e.g. \"what iso week is 2026-11-14\" \u2192 {\"date\":\"2026-11-14\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date?",
+      "description": "a date"
+     }
+    }
+   },
+   "examples": [
+    "what iso week is 2026-11-14",
+    "which week of the year is christmas 2026",
+    "iso week for 2000-01-01",
+    "what week is 2026-01-05",
+    "week number for 2026-06-01"
+   ]
+  },
+  {
+   "name": "listTimezoneOffsets",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "listTimezoneOffsets \u2014 Show the local time and UTC offset in several time zones at once.\n  needs: zones: array\n  optional: at: string\n  e.g. \"show the time in London Tokyo and New York\" \u2192 {\"zones\":[\"Europe/London\",\"Asia/Tokyo\",\"America/New_York\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "zones"
+    ],
+    "properties": {
+     "zones": {
+      "type": "array",
+      "label": "time zones",
+      "minItems": 1,
+      "maxItems": 25,
+      "items": {
+       "type": "string"
+      },
+      "prompt": "Which time zones should I list?"
+     },
+     "at": {
+      "type": "string",
+      "label": "timestamp",
+      "description": "an ISO timestamp to ask about instead of now"
+     }
+    }
+   },
+   "examples": [
+    "show the time in London Tokyo and New York",
+    "list utc offsets for these zones",
+    "what time is it in Sydney and Los Angeles",
+    "offsets for one zone",
+    "compare time zones by city name"
+   ]
+  },
+  {
+   "name": "mergeIntervals",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "mergeIntervals \u2014 Merge overlapping or touching ranges into the fewest that cover the same ground.\n  needs: intervals: array\n  optional: touchingCounts: boolean\n  e.g. \"merge these overlapping ranges\" \u2192 {\"intervals\":[[1,3],[2,6],[8,10],[15,18]]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "intervals"
+    ],
+    "properties": {
+     "intervals": {
+      "type": "array",
+      "label": "ranges",
+      "minItems": 1,
+      "maxItems": 1000,
+      "prompt": "Which ranges should I merge?"
+     },
+     "touchingCounts": {
+      "type": "boolean",
+      "label": "join touching ranges",
+      "default": true,
+      "description": "treat ranges that end exactly where the next begins as joined"
+     }
+    }
+   },
+   "examples": [
+    "merge these overlapping ranges",
+    "combine ranges that touch",
+    "merge a range fully inside another",
+    "merge ranges given out of order",
+    "merge these date ranges"
+   ]
+  },
+  {
+   "name": "nextWeekday",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "nextWeekday \u2014 Find the date of the next Monday, Tuesday and so on \u2014 or the most recent one.\n  needs: weekday: string\n  optional: direction: string, from: string\n  e.g. \"when is next tuesday\" \u2192 {\"weekday\":\"Tuesday\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "weekday"
+    ],
+    "properties": {
+     "weekday": {
+      "type": "string",
+      "label": "weekday",
+      "enum": [
+       "Sunday",
+       "Monday",
+       "Tuesday",
+       "Wednesday",
+       "Thursday",
+       "Friday",
+       "Saturday"
+      ],
+      "prompt": "Which day of the week?"
+     },
+     "direction": {
+      "type": "string",
+      "label": "next or previous",
+      "enum": [
+       "next",
+       "previous"
+      ],
+      "default": "next"
+     },
+     "from": {
+      "type": "string",
+      "label": "from date",
+      "description": "a date \u2014 defaults to today"
+     }
+    }
+   },
+   "examples": [
+    "when is next tuesday",
+    "what date is the next friday",
+    "when was last monday",
+    "the sunday after 2026-12-25",
+    "next saturday from 2026-11-14"
+   ]
+  },
+  {
+   "name": "parseDate",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "parseDate \u2014 Read a messy date \u2014 \"14 nov\", \"3/4/2026\", \"next Tuesday\" is a different skill \u2014 and return it as an ISO date.\n  needs: text: string\n  e.g. \"what is 14 nov as a date\" \u2192 {\"text\":\"14 nov\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "date",
+      "minLength": 1,
+      "prompt": "Which date should I read?"
+     }
+    }
+   },
+   "examples": [
+    "what is 14 nov as a date",
+    "parse \"December 25 2026\"",
+    "what date is 2026-07-12",
+    "read 03/04/2026 as a date",
+    "what is today as an iso date"
+   ]
+  },
+  {
+   "name": "parseDuration",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "parseDuration \u2014 Read \"2h 15m\" or \"2 days 4 hours\" and give the total in seconds.\n  needs: text: string\n  e.g. \"how many seconds is 1h 30m\" \u2192 {\"text\":\"1h 30m\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "duration",
+      "minLength": 1,
+      "prompt": "How long? (like \"1h 30m\")"
+     }
+    }
+   },
+   "examples": [
+    "how many seconds is 1h 30m",
+    "convert 2 days 4 hours to seconds",
+    "how long is 45 minutes in seconds",
+    "parse 1w2d",
+    "what is 90s in seconds"
+   ]
+  },
+  {
+   "name": "parseRelativeDate",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "parseRelativeDate \u2014 Turn a relative date like \"next Tuesday\", \"in 3 weeks\" or \"a month ago\" into a real date.\n  needs: phrase: string\n  e.g. \"what date is next tuesday\" \u2192 {\"phrase\":\"next tuesday\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "phrase"
+    ],
+    "properties": {
+     "phrase": {
+      "type": "string",
+      "label": "relative date",
+      "minLength": 2,
+      "prompt": "Which relative date? (like \"next Tuesday\" or \"in 3 weeks\")"
+     }
+    }
+   },
+   "examples": [
+    "what date is next tuesday",
+    "what is the date in 3 weeks",
+    "what date was a month ago",
+    "what is the day after tomorrow",
+    "what date is in 10 days"
+   ]
+  },
+  {
+   "name": "timeAgo",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "timeAgo \u2014 Say how long ago a date was, or how far off it is, in plain words like \"3 days ago\".\n  needs: date: string\n  e.g. \"how long ago was 2026-08-29\" \u2192 {\"date\":\"2026-08-29\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date?",
+      "description": "a date"
+     }
+    }
+   },
+   "examples": [
+    "how long ago was 2026-08-29",
+    "how far off is christmas",
+    "when was 2025-09-01 in plain words",
+    "how long ago was yesterday",
+    "how long until 2026-09-15"
+   ]
+  },
+  {
+   "name": "unixToIso",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "unixToIso \u2014 Turn a Unix timestamp into a readable date and time.\n  needs: unix: number\n  optional: unit: string\n  e.g. \"what date is unix timestamp 1788255000\" \u2192 {\"unix\":1788255000}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "unix"
+    ],
+    "properties": {
+     "unix": {
+      "type": "number",
+      "label": "timestamp",
+      "prompt": "Which timestamp?"
+     },
+     "unit": {
+      "type": "string",
+      "label": "timestamp unit",
+      "enum": [
+       "seconds",
+       "milliseconds",
+       "auto"
+      ],
+      "default": "auto"
+     }
+    }
+   },
+   "examples": [
+    "what date is unix timestamp 1788255000",
+    "convert 0 from unix time",
+    "what is 1788255000000 as a date",
+    "timestamp 1000000000 as a date",
+    "read 1798185600 as a date"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "addDuration",
+    "daysBetween"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "addDuration \u2014 Move a date forward or back by days, weeks, months or years.\n  needs: from: string, amount: integer, unit: string\n  e.g. \"what date is 90 days after 2026-07-12\" \u2192 {\"from\":\"2026-07-12\",\"amount\":90,\"unit\":\"days\"}",
+    "daysBetween \u2014 Count the days from one given date to another. Takes both dates.\n  needs: from: string, to: string\n  optional: inclusive: boolean\n  e.g. \"how many days between 12 July 2026 and 25 December 2026\" \u2192 {\"from\":\"2026-07-12\",\"to\":\"2026-12-25\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "from",
+      "amount",
+      "unit"
+     ],
+     "properties": {
+      "from": {
+       "type": "string",
+       "label": "start date",
+       "prompt": "Which date should I start from?",
+       "description": "a date"
+      },
+      "amount": {
+       "type": "integer",
+       "label": "how many",
+       "prompt": "How many should I add? (use a negative number to go back)"
+      },
+      "unit": {
+       "type": "string",
+       "label": "unit",
+       "enum": [
+        "days",
+        "weeks",
+        "months",
+        "years"
+       ],
+       "prompt": "Days, weeks, months or years?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "from",
+      "to"
+     ],
+     "properties": {
+      "from": {
+       "type": "string",
+       "label": "start date",
+       "prompt": "Which date should I count from?",
+       "description": "a date"
+      },
+      "to": {
+       "type": "string",
+       "label": "end date",
+       "prompt": "Which date should I count to?",
+       "description": "a date"
+      },
+      "inclusive": {
+       "type": "boolean",
+       "label": "count both end days",
+       "default": false,
+       "description": "count both end days"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "businessDaysBetween",
+    "daysBetween"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "businessDaysBetween \u2014 Count how many working days (Mon\u2013Fri) fall between two dates you give. Does not know public holidays.\n  needs: from: string, to: string\n  optional: includeStart: boolean\n  e.g. \"working days between 1 September and 30 September 2026\" \u2192 {\"from\":\"2026-09-01\",\"to\":\"2026-09-30\"}",
+    "daysBetween \u2014 Count the days from one given date to another. Takes both dates.\n  needs: from: string, to: string\n  optional: inclusive: boolean\n  e.g. \"how many days between 12 July 2026 and 25 December 2026\" \u2192 {\"from\":\"2026-07-12\",\"to\":\"2026-12-25\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "from",
+      "to"
+     ],
+     "properties": {
+      "from": {
+       "type": "string",
+       "label": "start date",
+       "prompt": "Which date should I count from?",
+       "description": "a date"
+      },
+      "to": {
+       "type": "string",
+       "label": "end date",
+       "prompt": "Which date should I count to?",
+       "description": "a date"
+      },
+      "includeStart": {
+       "type": "boolean",
+       "label": "count start day",
+       "default": false,
+       "description": "count the start day itself"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "from",
+      "to"
+     ],
+     "properties": {
+      "from": {
+       "type": "string",
+       "label": "start date",
+       "prompt": "Which date should I count from?",
+       "description": "a date"
+      },
+      "to": {
+       "type": "string",
+       "label": "end date",
+       "prompt": "Which date should I count to?",
+       "description": "a date"
+      },
+      "inclusive": {
+       "type": "boolean",
+       "label": "count both end days",
+       "default": false,
+       "description": "count both end days"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfWeek",
+    "nextWeekday"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "dayOfWeek \u2014 Name the weekday a date lands on \u2014 a Monday, a Saturday.\n  needs: date: string\n  e.g. \"what day of the week is 14 November 2026\" \u2192 {\"date\":\"2026-11-14\"}",
+    "nextWeekday \u2014 Find the date of the next Monday, Tuesday and so on \u2014 or the most recent one.\n  needs: weekday: string\n  optional: direction: string, from: string\n  e.g. \"when is next tuesday\" \u2192 {\"weekday\":\"Tuesday\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "date"
+     ],
+     "properties": {
+      "date": {
+       "type": "string",
+       "label": "date",
+       "prompt": "Which date?",
+       "description": "a date"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "weekday"
+     ],
+     "properties": {
+      "weekday": {
+       "type": "string",
+       "label": "weekday",
+       "enum": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+       ],
+       "prompt": "Which day of the week?"
+      },
+      "direction": {
+       "type": "string",
+       "label": "next or previous",
+       "enum": [
+        "next",
+        "previous"
+       ],
+       "default": "next"
+      },
+      "from": {
+       "type": "string",
+       "label": "from date",
+       "description": "a date \u2014 defaults to today"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfYear",
+    "isWeekend"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "dayOfYear \u2014 Which numbered day of the year a date is, and how much of the year is left.\n  needs: date: string\n  e.g. \"what day of the year is 2026-11-14\" \u2192 {\"date\":\"2026-11-14\"}",
+    "isWeekend \u2014 Say whether a date is a weekend or a working day.\n  needs: date: string\n  e.g. \"is 2026-11-14 a weekend\" \u2192 {\"date\":\"2026-11-14\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "date"
+     ],
+     "properties": {
+      "date": {
+       "type": "string",
+       "label": "date",
+       "prompt": "Which date?",
+       "description": "a date"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "date"
+     ],
+     "properties": {
+      "date": {
+       "type": "string",
+       "label": "date",
+       "prompt": "Which date?",
+       "description": "a date"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysBetween",
+    "daysInMonth"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)",
+    "cards"
+   ],
+   "cards": [
+    "daysBetween \u2014 Count the days from one given date to another. Takes both dates.\n  needs: from: string, to: string\n  optional: inclusive: boolean\n  e.g. \"how many days between 12 July 2026 and 25 December 2026\" \u2192 {\"from\":\"2026-07-12\",\"to\":\"2026-12-25\"}",
+    "daysInMonth \u2014 Say how many days long a given month is.\n  needs: month: integer, year: integer\n  e.g. \"how many days in february 2026\" \u2192 {\"month\":2,\"year\":2026}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "from",
+      "to"
+     ],
+     "properties": {
+      "from": {
+       "type": "string",
+       "label": "start date",
+       "prompt": "Which date should I count from?",
+       "description": "a date"
+      },
+      "to": {
+       "type": "string",
+       "label": "end date",
+       "prompt": "Which date should I count to?",
+       "description": "a date"
+      },
+      "inclusive": {
+       "type": "boolean",
+       "label": "count both end days",
+       "default": false,
+       "description": "count both end days"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "month",
+      "year"
+     ],
+     "properties": {
+      "month": {
+       "type": "integer",
+       "label": "month (1\u201312)",
+       "minimum": 1,
+       "maximum": 12,
+       "prompt": "Which month, as a number 1\u201312?"
+      },
+      "year": {
+       "type": "integer",
+       "label": "year",
+       "minimum": 1,
+       "maximum": 9999,
+       "prompt": "Which year?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysInMonth",
+    "generateCalendarGrid"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "daysInMonth \u2014 Say how many days long a given month is.\n  needs: month: integer, year: integer\n  e.g. \"how many days in february 2026\" \u2192 {\"month\":2,\"year\":2026}",
+    "generateCalendarGrid \u2014 Draw a month out as a printable calendar grid of weeks.\n  needs: year: integer, month: integer\n  optional: startOn: string\n  e.g. \"show me a calendar grid for September 2026\" \u2192 {\"year\":2026,\"month\":9}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "month",
+      "year"
+     ],
+     "properties": {
+      "month": {
+       "type": "integer",
+       "label": "month (1\u201312)",
+       "minimum": 1,
+       "maximum": 12,
+       "prompt": "Which month, as a number 1\u201312?"
+      },
+      "year": {
+       "type": "integer",
+       "label": "year",
+       "minimum": 1,
+       "maximum": 9999,
+       "prompt": "Which year?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "year",
+      "month"
+     ],
+     "properties": {
+      "year": {
+       "type": "integer",
+       "label": "year",
+       "minimum": 1,
+       "maximum": 9999,
+       "prompt": "Which year?"
+      },
+      "month": {
+       "type": "integer",
+       "label": "month",
+       "minimum": 1,
+       "maximum": 12,
+       "prompt": "Which month, as a number from 1 to 12?"
+      },
+      "startOn": {
+       "type": "string",
+       "label": "week starts on",
+       "enum": [
+        "Monday",
+        "Sunday"
+       ],
+       "default": "Monday"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "expandRecurrence",
+    "parseRelativeDate"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "expandRecurrence \u2014 List the dates a repeating schedule falls on \u2014 the first Thursday monthly, every fortnight, every 90 days.\n  needs: start: string\n  optional: every: string, interval: integer, count: integer, until: string\n  e.g. \"every fortnight from 2026-09-07, eight times\" \u2192 {\"start\":\"2026-09-07\",\"every\":\"week\",\"interval\":2,\"count\":8}",
+    "parseRelativeDate \u2014 Turn a relative date like \"next Tuesday\", \"in 3 weeks\" or \"a month ago\" into a real date.\n  needs: phrase: string\n  e.g. \"what date is next tuesday\" \u2192 {\"phrase\":\"next tuesday\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "start"
+     ],
+     "properties": {
+      "start": {
+       "type": "string",
+       "label": "start date",
+       "minLength": 4,
+       "prompt": "What date does it start on?"
+      },
+      "every": {
+       "type": "string",
+       "label": "repeat unit",
+       "enum": [
+        "day",
+        "week",
+        "month",
+        "year"
+       ],
+       "default": "week"
+      },
+      "interval": {
+       "type": "integer",
+       "label": "repeat interval",
+       "minimum": 1,
+       "maximum": 365,
+       "default": 1
+      },
+      "count": {
+       "type": "integer",
+       "label": "how many dates",
+       "minimum": 1,
+       "maximum": 60,
+       "description": "defaults to 10 without an end date"
+      },
+      "until": {
+       "type": "string",
+       "label": "end date"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "phrase"
+     ],
+     "properties": {
+      "phrase": {
+       "type": "string",
+       "label": "relative date",
+       "minLength": 2,
+       "prompt": "Which relative date? (like \"next Tuesday\" or \"in 3 weeks\")"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "isoToUnix",
+    "unixToIso"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "isoToUnix \u2014 Convert a calendar date and clock time to a Unix epoch number.\n  needs: date: string\n  optional: time: string\n  e.g. \"unix timestamp for 2026-09-01\" \u2192 {\"date\":\"2026-09-01\"}",
+    "unixToIso \u2014 Turn a Unix timestamp into a readable date and time.\n  needs: unix: number\n  optional: unit: string\n  e.g. \"what date is unix timestamp 1788255000\" \u2192 {\"unix\":1788255000}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "date"
+     ],
+     "properties": {
+      "date": {
+       "type": "string",
+       "label": "date",
+       "prompt": "Which date?",
+       "description": "a date"
+      },
+      "time": {
+       "type": "string",
+       "label": "utc time",
+       "pattern": "^\\d{1,2}:\\d{2}(:\\d{2})?$",
+       "description": "a 24-hour time \u2014 defaults to midnight"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "unix"
+     ],
+     "properties": {
+      "unix": {
+       "type": "number",
+       "label": "timestamp",
+       "prompt": "Which timestamp?"
+      },
+      "unit": {
+       "type": "string",
+       "label": "timestamp unit",
+       "enum": [
+        "seconds",
+        "milliseconds",
+        "auto"
+       ],
+       "default": "auto"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "listTimezoneOffsets",
+    "timezoneLookup"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)",
+    "cards"
+   ],
+   "cards": [
+    "listTimezoneOffsets \u2014 Show the local time and UTC offset in several time zones at once.\n  needs: zones: array\n  optional: at: string\n  e.g. \"show the time in London Tokyo and New York\" \u2192 {\"zones\":[\"Europe/London\",\"Asia/Tokyo\",\"America/New_York\"]}",
+    "timezoneLookup \u2014 Find the current time and UTC offset in a time zone.\n  needs: zone: string\n  optional: at: string\n  e.g. \"what time is it in Asia/Tokyo\" \u2192 {\"zone\":\"Asia/Tokyo\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "zones"
+     ],
+     "properties": {
+      "zones": {
+       "type": "array",
+       "label": "time zones",
+       "minItems": 1,
+       "maxItems": 25,
+       "items": {
+        "type": "string"
+       },
+       "prompt": "Which time zones should I list?"
+      },
+      "at": {
+       "type": "string",
+       "label": "timestamp",
+       "description": "an ISO timestamp to ask about instead of now"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "zone"
+     ],
+     "properties": {
+      "zone": {
+       "type": "string",
+       "label": "time zone",
+       "minLength": 1,
+       "prompt": "Which time zone or city?"
+      },
+      "at": {
+       "type": "string",
+       "label": "timestamp",
+       "description": "an ISO timestamp to ask about instead of now"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseDate",
+    "parseRelativeDate"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "parseDate \u2014 Read a messy date \u2014 \"14 nov\", \"3/4/2026\", \"next Tuesday\" is a different skill \u2014 and return it as an ISO date.\n  needs: text: string\n  e.g. \"what is 14 nov as a date\" \u2192 {\"text\":\"14 nov\"}",
+    "parseRelativeDate \u2014 Turn a relative date like \"next Tuesday\", \"in 3 weeks\" or \"a month ago\" into a real date.\n  needs: phrase: string\n  e.g. \"what date is next tuesday\" \u2192 {\"phrase\":\"next tuesday\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "date",
+       "minLength": 1,
+       "prompt": "Which date should I read?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "phrase"
+     ],
+     "properties": {
+      "phrase": {
+       "type": "string",
+       "label": "relative date",
+       "minLength": 2,
+       "prompt": "Which relative date? (like \"next Tuesday\" or \"in 3 weeks\")"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

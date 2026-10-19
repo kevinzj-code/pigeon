@@ -1,0 +1,3944 @@
+[
+  {
+    "message": "3 miles in metres",
+    "want": "convertLength",
+    "draft": "convertLength",
+    "chosen": "convertLength",
+    "lexicalTop": "convertArea",
+    "alternatives": [
+      "averageWordLength",
+      "convertArea",
+      "convertSpeed"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "220 fahrenheit as celsius",
+    "want": "convertTemperature",
+    "draft": "convertTemperature",
+    "chosen": "convertTemperature",
+    "lexicalTop": "convertTemperature",
+    "alternatives": [
+      "convertAngle",
+      "convertTime",
+      "convertFuelEconomy"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "750 MB in GiB",
+    "want": "convertDataSize",
+    "draft": "convertDataSize",
+    "chosen": "convertDataSize",
+    "lexicalTop": "convertDataSize",
+    "alternatives": [
+      "fileSizeHuman",
+      "convertMass",
+      "convertTime"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many radians is 45 deg",
+    "want": "convertAngle",
+    "draft": "convertAngle",
+    "chosen": "convertAngle",
+    "lexicalTop": "convertAngle",
+    "alternatives": [
+      "convertTemperature",
+      "convertTime",
+      "convertFuelEconomy"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "write 200 in base 7",
+    "want": "convertBase",
+    "draft": "convertBase",
+    "chosen": "convertBase",
+    "lexicalTop": "convertBase",
+    "alternatives": [
+      "convertTime",
+      "numberToWords",
+      "convertLength"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "turn CDXLIV into arabic digits",
+    "want": "convertRomanNumeral",
+    "draft": "convertRomanNumeral",
+    "chosen": "convertRomanNumeral",
+    "lexicalTop": "binaryDecode",
+    "alternatives": [
+      "binaryDecode",
+      "convertBase",
+      "convertTime"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how do you write 305 on a cheque",
+    "want": "numberToWords",
+    "draft": "numberToWords",
+    "chosen": "numberToWords",
+    "lexicalTop": "numberToWords",
+    "alternatives": [
+      "averageWordLength",
+      "countWords",
+      "countWordTargets"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "read this csv into columns",
+    "want": "parseCsv",
+    "draft": "parseCsv",
+    "chosen": "parseCsv",
+    "lexicalTop": "parseCsv",
+    "alternatives": [
+      "toCsv",
+      "parseKeyValue",
+      "parseMarkdownTable"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "order the table by price descending",
+    "want": "sortRows",
+    "draft": "sortRows",
+    "chosen": "sortRows",
+    "lexicalTop": "sortRows",
+    "alternatives": [
+      "sortObjectKeys",
+      "sortLines",
+      "sortList"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "render those rows as a markdown table",
+    "want": "toMarkdownTable",
+    "draft": "parseMarkdownTable",
+    "chosen": "parseMarkdownTable",
+    "lexicalTop": null,
+    "alternatives": [
+      "toMarkdownTable",
+      "transposeTable",
+      "generateTableOfContents"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "tidy this json so it is readable",
+    "want": "formatJson",
+    "draft": "formatJson",
+    "chosen": "formatJson",
+    "lexicalTop": "formatJson",
+    "alternatives": [
+      "flattenJson",
+      "unflattenJson",
+      "diffJson"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "assemble a query string for page=2 and sort=asc",
+    "want": "buildQueryString",
+    "draft": "buildQueryString",
+    "chosen": "buildQueryString",
+    "lexicalTop": "parseQueryString",
+    "alternatives": [
+      "parseQueryString",
+      "generateRandomString",
+      "formatJson"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "turn this nested object into dot paths",
+    "want": "flattenJson",
+    "draft": "unflattenJson",
+    "chosen": "unflattenJson",
+    "lexicalTop": "flattenJson",
+    "alternatives": [
+      "flattenJson",
+      "diffJson",
+      "formatJson"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "totals per department from these rows",
+    "want": "groupBy",
+    "draft": "sortRows",
+    "chosen": "sortRows",
+    "lexicalTop": "getPath",
+    "alternatives": [
+      "sortObjectKeys",
+      "sortLines",
+      "sortList"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "read this md table as data",
+    "want": "parseMarkdownTable",
+    "draft": "parseMarkdownTable",
+    "chosen": "parseMarkdownTable",
+    "lexicalTop": "toMarkdownTable",
+    "alternatives": [
+      "toMarkdownTable",
+      "transposeTable",
+      "generateTableOfContents"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "cross-tab sales by month and product",
+    "want": "pivotRows",
+    "draft": "pivotRows",
+    "chosen": "pivotRows",
+    "lexicalTop": "pivotRows",
+    "alternatives": [
+      "groupBy",
+      "sortRows",
+      "filterRows"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "put these json keys in order",
+    "want": "sortObjectKeys",
+    "draft": null,
+    "chosen": "sortObjectKeys",
+    "lexicalTop": null,
+    "alternatives": [
+      "sortObjectKeys",
+      "formatJson",
+      "getPath"
+    ],
+    "secondLook": true,
+    "replanned": false
+  },
+  {
+    "message": "expand these dotted keys back into objects",
+    "want": "unflattenJson",
+    "draft": "unflattenJson",
+    "chosen": "unflattenJson",
+    "lexicalTop": "sortObjectKeys",
+    "alternatives": [
+      "flattenJson",
+      "diffJson",
+      "formatJson"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many days between 12 july 2026 and christmas",
+    "want": "daysBetween",
+    "draft": "daysBetween",
+    "chosen": "daysBetween",
+    "lexicalTop": "daysBetween",
+    "alternatives": [
+      "businessDaysBetween",
+      "distanceBetweenPoints",
+      "dayOfYear"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how long until 25 december",
+    "want": "countdownTo",
+    "draft": "countdownTo",
+    "chosen": "countdownTo",
+    "lexicalTop": "countdownTo",
+    "alternatives": [
+      "timeAgo",
+      "dayOfYear",
+      "currentTime"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "when is the next thursday",
+    "want": "nextWeekday",
+    "draft": "nextWeekday",
+    "chosen": "nextWeekday",
+    "lexicalTop": "nextWeekday",
+    "alternatives": [
+      "parseRelativeDate",
+      "dayOfWeek",
+      "dayOfYear"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "born 1985-03-12, how old are they now",
+    "want": "ageFromDate",
+    "draft": "ageFromDate",
+    "chosen": "ageFromDate",
+    "lexicalTop": "ageFromDate",
+    "alternatives": [
+      "parseDate",
+      "parseRelativeDate",
+      "dateRangeList"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "9am in berlin is what time in tokyo on 2026-05-05",
+    "want": "convertTimezone",
+    "draft": "convertTimezone",
+    "chosen": "convertTimezone",
+    "lexicalTop": "convertTimezone",
+    "alternatives": [
+      "listTimezoneOffsets",
+      "timezoneLookup",
+      "currentTime"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what date is in a fortnight",
+    "want": "parseRelativeDate",
+    "draft": "parseRelativeDate",
+    "chosen": "parseRelativeDate",
+    "lexicalTop": "expandRecurrence",
+    "alternatives": [
+      "parseDate",
+      "dateRangeList",
+      "ageFromDate"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how much time has passed since 2026-08-20",
+    "want": "timeAgo",
+    "draft": "timeAgo",
+    "chosen": "timeAgo",
+    "lexicalTop": "timeAgo",
+    "alternatives": [
+      "currentTime",
+      "convertTime",
+      "extractTimes"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "express 7500 seconds as hours and minutes",
+    "want": "durationToText",
+    "draft": "durationToText",
+    "chosen": "durationToText",
+    "lexicalTop": "convertTime",
+    "alternatives": [
+      "parseDuration",
+      "addDuration",
+      "convertTime"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "three working days on from 2026-11-02",
+    "want": "addBusinessDays",
+    "draft": "addBusinessDays",
+    "chosen": "addBusinessDays",
+    "lexicalTop": "addBusinessDays",
+    "alternatives": [
+      "businessDaysBetween",
+      "addDuration",
+      "daysInMonth"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which numbered day of 2026 is 1 august",
+    "want": "dayOfYear",
+    "draft": "dayOfYear",
+    "chosen": "dayOfYear",
+    "lexicalTop": "dayOfYear",
+    "alternatives": [
+      "isLeapYear",
+      "daysBetween",
+      "dayOfWeek"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "does 2100 have a leap day",
+    "want": "isLeapYear",
+    "draft": "isLeapYear",
+    "chosen": "isLeapYear",
+    "lexicalTop": "isLeapYear",
+    "alternatives": [
+      "dayOfYear",
+      "daysBetween",
+      "daysInMonth"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "epoch value for 2027-01-01 midnight",
+    "want": "isoToUnix",
+    "draft": "isoToUnix",
+    "chosen": "isoToUnix",
+    "lexicalTop": "isoToUnix",
+    "alternatives": [
+      "unixToIso",
+      "dateRangeList",
+      "daysBetween"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "turn 1700000000 into a readable date",
+    "want": "unixToIso",
+    "draft": "unixToIso",
+    "chosen": "unixToIso",
+    "lexicalTop": "unixToIso",
+    "alternatives": [
+      "isoToUnix",
+      "parseDate",
+      "durationToText"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "score these three options against my criteria",
+    "want": "weightedDecisionMatrix",
+    "draft": null,
+    "chosen": "weightedDecisionMatrix",
+    "lexicalTop": null,
+    "alternatives": [
+      "weightedDecisionMatrix",
+      "prosConsScore",
+      "breakEvenComparison"
+    ],
+    "secondLook": true,
+    "replanned": false
+  },
+  {
+    "message": "average payout if I win 500 a fifth of the time",
+    "want": "expectedValue",
+    "draft": null,
+    "chosen": "expectedValue",
+    "lexicalTop": null,
+    "alternatives": [
+      "expectedValue",
+      "weightedDecisionMatrix",
+      "breakEvenComparison"
+    ],
+    "secondLook": true,
+    "replanned": false
+  },
+  {
+    "message": "resize 1600x900 to fit 400 wide",
+    "want": "scaleDimensions",
+    "draft": "scaleDimensions",
+    "chosen": "scaleDimensions",
+    "lexicalTop": "scaleDimensions",
+    "alternatives": [
+      "scaleRecipe",
+      "aspectRatio",
+      "mixColors"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "colour on the other side of the wheel from #3366FF",
+    "want": "complementaryColor",
+    "draft": "complementaryColor",
+    "chosen": "complementaryColor",
+    "lexicalTop": "complementaryColor",
+    "alternatives": [
+      "darkenColor",
+      "lightenColor",
+      "nearestNamedColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "give me hsl for #1E90FF",
+    "want": "convertColor",
+    "draft": "convertColor",
+    "chosen": "convertColor",
+    "lexicalTop": "convertColor",
+    "alternatives": [
+      "mixColors",
+      "lightenColor",
+      "darkenColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "give me tints and shades of #556B2F",
+    "want": "generatePalette",
+    "draft": "generatePalette",
+    "chosen": "generatePalette",
+    "lexicalTop": "nearestNamedColor",
+    "alternatives": [
+      "nearestNamedColor",
+      "complementaryColor",
+      "darkenColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "halfway colour between #FF0000 and #FFFF00",
+    "want": "mixColors",
+    "draft": "mixColors",
+    "chosen": "mixColors",
+    "lexicalTop": "similarityLevenshtein",
+    "alternatives": [
+      "convertColor",
+      "lightenColor",
+      "complementaryColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "2.25rem in px please",
+    "want": "remToPx",
+    "draft": "remToPx",
+    "chosen": "remToPx",
+    "lexicalTop": "remToPx",
+    "alternatives": [
+      "pxToRem",
+      "convertColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which version wins, 3.0.0-rc.1 or 3.0.0",
+    "want": "compareSemver",
+    "draft": "compareSemver",
+    "chosen": "compareSemver",
+    "lexicalTop": "parseSemver",
+    "alternatives": [
+      "parseSemver"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "make c++ safe to drop into a pattern",
+    "want": "escapeRegex",
+    "draft": "httpStatusLookup",
+    "chosen": "httpStatusLookup",
+    "lexicalTop": "escapeRegex",
+    "alternatives": [
+      "escapeRegex",
+      "unicodeLookup",
+      "cronToText"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "show me the payload of this bearer token",
+    "want": "jwtDecode",
+    "draft": "jwtDecode",
+    "chosen": "jwtDecode",
+    "lexicalTop": "jwtDecode",
+    "alternatives": [
+      "base64Decode",
+      "binaryDecode",
+      "hexDecode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "split 4.2.1+build9 into parts",
+    "want": "parseSemver",
+    "draft": "parseSemver",
+    "chosen": "parseSemver",
+    "lexicalTop": "splitEvenly",
+    "alternatives": [
+      "compareSemver",
+      "splitEvenly",
+      "testRegex"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "code point for the pound sign",
+    "want": "unicodeLookup",
+    "draft": "unicodeLookup",
+    "chosen": "unicodeLookup",
+    "lexicalTop": "formatCurrency",
+    "alternatives": [
+      "formatCurrency",
+      "httpStatusLookup",
+      "mimeTypeLookup"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "make this text safe for a query string",
+    "want": "urlEncode",
+    "draft": "urlEncode",
+    "chosen": "urlEncode",
+    "lexicalTop": "parseQueryString",
+    "alternatives": [
+      "base64Encode",
+      "hexEncode",
+      "binaryEncode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "un-base64 this blob",
+    "want": "base64Decode",
+    "draft": "base64Decode",
+    "chosen": "base64Decode",
+    "lexicalTop": "base64Decode",
+    "alternatives": [
+      "base64Encode",
+      "hexDecode",
+      "morseDecode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "these 1s and 0s spell what",
+    "want": "binaryDecode",
+    "draft": null,
+    "chosen": "binaryDecode",
+    "lexicalTop": null,
+    "alternatives": [
+      "spellCheck",
+      "binaryDecode",
+      "hexDecode"
+    ],
+    "secondLook": true,
+    "replanned": false
+  },
+  {
+    "message": "move every letter on by 5",
+    "want": "caesarShift",
+    "draft": "caesarShift",
+    "chosen": "caesarShift",
+    "lexicalTop": "wordsFromLetters",
+    "alternatives": [
+      "wordsFromLetters",
+      "hexEncode",
+      "binaryEncode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "unpack this compressed blob",
+    "want": "decompressText",
+    "draft": "decompressText",
+    "chosen": "decompressText",
+    "lexicalTop": "decompressText",
+    "alternatives": [
+      "compressText",
+      "hexDecode",
+      "binaryDecode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "random 12 char token please",
+    "want": "generateRandomString",
+    "draft": "generateRandomString",
+    "chosen": "generateRandomString",
+    "lexicalTop": "generateRandomString",
+    "alternatives": [
+      "buildQueryString",
+      "parseQueryString",
+      "pickRandom"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "sha512 digest of this phrase",
+    "want": "hashText",
+    "draft": "hashText",
+    "chosen": "hashText",
+    "lexicalTop": "hashText",
+    "alternatives": [
+      "generateUuid",
+      "hexEncode",
+      "binaryEncode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "give me the hex bytes for this word",
+    "want": "hexEncode",
+    "draft": "hexEncode",
+    "chosen": "hexEncode",
+    "lexicalTop": "hexEncode",
+    "alternatives": [
+      "urlEncode",
+      "base64Encode",
+      "binaryEncode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "put my name into dots and dashes",
+    "want": "morseEncode",
+    "draft": "morseEncode",
+    "chosen": "morseEncode",
+    "lexicalTop": "morseDecode",
+    "alternatives": [
+      "morseDecode",
+      "urlEncode",
+      "hexEncode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "dinner 132.40, 18% tip, 5 people",
+    "want": "splitBill",
+    "draft": "splitBill",
+    "chosen": "splitBill",
+    "lexicalTop": "splitBill",
+    "alternatives": [
+      "budgetSplit",
+      "splitEvenly",
+      "splitLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many grams is a cup of caster sugar",
+    "want": "convertCookingMeasure",
+    "draft": "convertCookingMeasure",
+    "chosen": "convertCookingMeasure",
+    "lexicalTop": "convertCookingMeasure",
+    "alternatives": [
+      "scaleRecipe"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which pack size is better value",
+    "want": "comparePrices",
+    "draft": "comparePrices",
+    "chosen": "comparePrices",
+    "lexicalTop": "comparePrices",
+    "alternatives": [
+      "unitPrice",
+      "stackDiscounts"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how big is 3400000 bytes in readable units",
+    "want": "fileSizeHuman",
+    "draft": "fileSizeHuman",
+    "chosen": "fileSizeHuman",
+    "lexicalTop": "fileSizeHuman",
+    "alternatives": [
+      "textFileStats",
+      "fileExtensionInfo",
+      "convertDataSize"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many words and bytes in this",
+    "want": "textFileStats",
+    "draft": "textFileStats",
+    "chosen": "textFileStats",
+    "lexicalTop": "textFileStats",
+    "alternatives": [
+      "fileExtensionInfo",
+      "fileSizeHuman",
+      "paragraphStats"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "reduce 249 by 30%",
+    "want": "applyDiscount",
+    "draft": "applyDiscount",
+    "chosen": "applyDiscount",
+    "lexicalTop": "fractionSimplify",
+    "alternatives": [
+      "stackDiscounts",
+      "fractionSimplify",
+      "convertCurrencyFixed"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "add 20 percent vat onto 480",
+    "want": "applyTax",
+    "draft": "applyTax",
+    "chosen": "applyTax",
+    "lexicalTop": "applyTax",
+    "alternatives": [
+      "applyDiscount",
+      "compoundInterest",
+      "hourlyToSalary"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what does 2500 become after 8 years at 3.5",
+    "want": "compoundInterest",
+    "draft": "compoundInterest",
+    "chosen": "compoundInterest",
+    "lexicalTop": "simpleInterest",
+    "alternatives": [
+      "simpleInterest",
+      "savingsGoal",
+      "hourlyToSalary"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "costs me 8, sells for 14, whats the margin",
+    "want": "markupMargin",
+    "draft": "markupMargin",
+    "chosen": "markupMargin",
+    "lexicalTop": "markupMargin",
+    "alternatives": [
+      "applyDiscount",
+      "applyTax",
+      "convertCurrencyFixed"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how long till I have 3000 putting 120 aside monthly",
+    "want": "savingsGoal",
+    "draft": "savingsGoal",
+    "chosen": "savingsGoal",
+    "lexicalTop": "savingsGoal",
+    "alternatives": [
+      "compoundInterest",
+      "simpleInterest",
+      "amortizeLoan"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "do these two phrases use the same letters",
+    "want": "checkAnagram",
+    "draft": "checkAnagram",
+    "chosen": "checkAnagram",
+    "lexicalTop": "checkAnagram",
+    "alternatives": [
+      "solveAnagram",
+      "checkPalindrome",
+      "wordsFromLetters"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "rearrange the letters of tarps",
+    "want": "solveAnagram",
+    "draft": "wordsFromLetters",
+    "chosen": "wordsFromLetters",
+    "lexicalTop": "wordsFromLetters",
+    "alternatives": [
+      "averageWordLength",
+      "countWords",
+      "countWordTargets"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "throw a couple of dice for me, seed 9",
+    "want": "rollDice",
+    "draft": "rollDice",
+    "chosen": "rollDice",
+    "lexicalTop": "rollDice",
+    "alternatives": [
+      "randomNumber",
+      "flipCoin"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "pick a number from 1 to 20, seed 9",
+    "want": "randomNumber",
+    "draft": "randomNumber",
+    "chosen": "randomNumber",
+    "lexicalTop": "randomNumber",
+    "alternatives": [
+      "describeNumbers",
+      "extractNumbers",
+      "extractPhoneNumbers"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "turn my packing list into tick boxes",
+    "want": "generateChecklist",
+    "draft": "loremIpsum",
+    "chosen": "generateChecklist",
+    "lexicalTop": "volumeOf",
+    "alternatives": [
+      "volumeOf",
+      "generateChecklist",
+      "generateCalendarGrid"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "need three paragraphs of dummy copy",
+    "want": "loremIpsum",
+    "draft": "loremIpsum",
+    "chosen": "loremIpsum",
+    "lexicalTop": "paragraphStats",
+    "alternatives": [
+      "paragraphStats",
+      "generateChecklist",
+      "generateCalendarGrid"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how much carpet for a 4.5 by 3.2 m room",
+    "want": "areaOf",
+    "draft": "areaOf",
+    "chosen": "areaOf",
+    "lexicalTop": "allocateProportionally",
+    "alternatives": [
+      "convertArea",
+      "allocateProportionally",
+      "perimeterOf"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "great circle miles between these coordinates",
+    "want": "haversineDistance",
+    "draft": "haversineDistance",
+    "chosen": "haversineDistance",
+    "lexicalTop": "haversineDistance",
+    "alternatives": [
+      "distanceBetweenPoints",
+      "perimeterOf",
+      "areaOf"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "ladder length if the wall is 8 and the base is 6",
+    "want": "pythagorean",
+    "draft": "pythagorean",
+    "chosen": "pythagorean",
+    "lexicalTop": "pythagorean",
+    "alternatives": [
+      "perimeterOf",
+      "areaOf",
+      "volumeOf"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "body mass index at 1.8m and 82 kilos",
+    "want": "bmiCalculate",
+    "draft": "bmiCalculate",
+    "chosen": "bmiCalculate",
+    "lexicalTop": "bmiCalculate",
+    "alternatives": [
+      "paceCalculate",
+      "splitTimes",
+      "sleepCycleTimes"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how long would a half marathon take at 6 min km",
+    "want": "paceCalculate",
+    "draft": "paceCalculate",
+    "chosen": "paceCalculate",
+    "lexicalTop": "paceCalculate",
+    "alternatives": [
+      "splitTimes",
+      "bmiCalculate"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "kilometre splits to break 45 minutes over 10k",
+    "want": "splitTimes",
+    "draft": "splitTimes",
+    "chosen": "splitTimes",
+    "lexicalTop": "splitTimes",
+    "alternatives": [
+      "sleepCycleTimes",
+      "budgetSplit",
+      "convertTime"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "score this test paper against the correct responses",
+    "want": "gradeQuiz",
+    "draft": null,
+    "chosen": "gradeQuiz",
+    "lexicalTop": null,
+    "alternatives": [
+      "testRegex",
+      "gradeQuiz",
+      "gradeNeeded"
+    ],
+    "secondLook": true,
+    "replanned": false
+  },
+  {
+    "message": "I am on 65 with 40% left, what do I need for a 70",
+    "want": "gradeNeeded",
+    "draft": null,
+    "chosen": "gradeNeeded",
+    "lexicalTop": null,
+    "alternatives": [
+      "dayOfYear",
+      "gradeNeeded",
+      "checkArithmeticSteps"
+    ],
+    "secondLook": true,
+    "replanned": true
+  },
+  {
+    "message": "set revision dates starting today",
+    "want": "spacedRepetitionSchedule",
+    "draft": "spacedRepetitionSchedule",
+    "chosen": "spacedRepetitionSchedule",
+    "lexicalTop": "spacedRepetitionSchedule",
+    "alternatives": [
+      "readingScheduleFromPages",
+      "detectRepetition",
+      "generateSchedule"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "strip the repeats out of this list",
+    "want": "dedupeList",
+    "draft": "dedupeList",
+    "chosen": "dedupeList",
+    "lexicalTop": "dedupeList",
+    "alternatives": [
+      "unionLists",
+      "intersectLists",
+      "countItems"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "tally how many of each appear",
+    "want": "countItems",
+    "draft": "countItems",
+    "chosen": "countItems",
+    "lexicalTop": "countItems",
+    "alternatives": [
+      "extractListItems",
+      "dedupeList",
+      "intersectLists"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "deal these 12 names into groups of four",
+    "want": "chunkList",
+    "draft": "chunkList",
+    "chosen": "chunkList",
+    "lexicalTop": "chunkList",
+    "alternatives": [
+      "pairUp",
+      "countItems",
+      "sortList"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "squash this nested array flat",
+    "want": "flattenList",
+    "draft": "flattenList",
+    "chosen": "flattenList",
+    "lexicalTop": "flattenList",
+    "alternatives": [
+      "flattenJson",
+      "rangeList",
+      "zipLists"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "draw partners for these six, seed 3",
+    "want": "pairUp",
+    "draft": "pairUp",
+    "chosen": "pairUp",
+    "lexicalTop": "pairUp",
+    "alternatives": [
+      "chunkList",
+      "shuffleList",
+      "pickRandom"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "jumble this playlist up, seed 4",
+    "want": "shuffleList",
+    "draft": "shuffleList",
+    "chosen": "shuffleList",
+    "lexicalTop": "shuffleList",
+    "alternatives": [
+      "flashcardShuffle",
+      "pairUp",
+      "pickRandom"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "pair each name with its score",
+    "want": "zipLists",
+    "draft": "zipLists",
+    "chosen": "zipLists",
+    "lexicalTop": "zipLists",
+    "alternatives": [
+      "unionLists",
+      "intersectLists",
+      "flattenList"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "whats 340 divided by 8 plus 12",
+    "want": "evaluateExpression",
+    "draft": "evaluateExpression",
+    "chosen": "evaluateExpression",
+    "lexicalTop": "solveQuadratic",
+    "alternatives": [
+      "solveQuadratic",
+      "sum",
+      "percentOf"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "price went 25 to 31, whats the increase",
+    "want": "percentChange",
+    "draft": "percentChange",
+    "chosen": "percentChange",
+    "lexicalTop": "percentChange",
+    "alternatives": [
+      "whatPercent",
+      "percentOf",
+      "evaluateExpression"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "round 88.4567 to 3 dp",
+    "want": "roundTo",
+    "draft": "roundTo",
+    "chosen": "roundTo",
+    "lexicalTop": "roundTo",
+    "alternatives": [
+      "formatNumber",
+      "formatCurrency",
+      "sum"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "total these figures for me: 45 62 18 9",
+    "want": "sum",
+    "draft": "sum",
+    "chosen": "sum",
+    "lexicalTop": "sum",
+    "alternatives": [
+      "evaluateExpression",
+      "percentageDistribution",
+      "product"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "read 4.5k as a plain number",
+    "want": "parseNumber",
+    "draft": "parseNumber",
+    "chosen": "parseNumber",
+    "lexicalTop": "parseNumber",
+    "alternatives": [
+      "formatNumber",
+      "describeNumbers",
+      "extractNumbers"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "write 45.5 as pounds sterling",
+    "want": "formatCurrency",
+    "draft": "formatCurrency",
+    "chosen": "formatCurrency",
+    "lexicalTop": "formatCurrency",
+    "alternatives": [
+      "convertCurrencyFixed",
+      "currencyLookup",
+      "extractCurrencyAmounts"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "give me fibonacci up to the 12th",
+    "want": "fibonacci",
+    "draft": "fibonacci",
+    "chosen": "fibonacci",
+    "lexicalTop": "fibonacci",
+    "alternatives": [
+      "sum",
+      "product"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "highest number dividing 84 and 126",
+    "want": "gcd",
+    "draft": "gcd",
+    "chosen": "gcd",
+    "lexicalTop": "gcd",
+    "alternatives": [
+      "whatPercent",
+      "isPrime",
+      "evaluateExpression"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "smallest number both 8 and 14 go into",
+    "want": "lcm",
+    "draft": "lcm",
+    "chosen": "gcd",
+    "lexicalTop": "sortRows",
+    "alternatives": [
+      "sortRows",
+      "gcd",
+      "evaluateExpression"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "if 5 maps to 8, what maps to 40",
+    "want": "ratioSolve",
+    "draft": "ratioSolve",
+    "chosen": "ratioSolve",
+    "lexicalTop": "unflattenJson",
+    "alternatives": [
+      "aspectRatio",
+      "contrastRatio",
+      "unflattenJson"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "divide my 2800 salary into budget categories",
+    "want": "budgetSplit",
+    "draft": "budgetSplit",
+    "chosen": "budgetSplit",
+    "lexicalTop": "budgetSplit",
+    "alternatives": [
+      "splitBill",
+      "splitEvenly",
+      "splitLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what percentage of days did I manage it",
+    "want": "habitCompletionRate",
+    "draft": null,
+    "chosen": "percentageDistribution",
+    "lexicalTop": null,
+    "alternatives": [
+      "percentageDistribution",
+      "habitCompletionRate",
+      "streakCount"
+    ],
+    "secondLook": true,
+    "replanned": true
+  },
+  {
+    "message": "fair rota for four flatmates and three chores",
+    "want": "rotateAssignments",
+    "draft": "rotateAssignments",
+    "chosen": "rotateAssignments",
+    "lexicalTop": "rotateAssignments",
+    "alternatives": [
+      "prioritizeTasks",
+      "timeBlockSchedule"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "lay my tasks out from 9am with 10 min gaps",
+    "want": "timeBlockSchedule",
+    "draft": "timeBlockSchedule",
+    "chosen": "timeBlockSchedule",
+    "lexicalTop": "timeBlockSchedule",
+    "alternatives": [
+      "convertTime",
+      "currentTime",
+      "extractCodeBlocks"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what is the capital of Portugal",
+    "want": "countryLookup",
+    "draft": "countryLookup",
+    "chosen": "countryLookup",
+    "lexicalTop": "generateUuid",
+    "alternatives": [
+      "generateUuid",
+      "phoneRegionLookup",
+      "currencyLookup"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which airport is CDG",
+    "want": "airportCodeLookup",
+    "draft": "airportCodeLookup",
+    "chosen": "airportCodeLookup",
+    "lexicalTop": "airportCodeLookup",
+    "alternatives": [
+      "languageCodeLookup",
+      "extractCodeBlocks",
+      "timezoneLookup"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "tell me about magnesium",
+    "want": "periodicTableLookup",
+    "draft": "periodicTableLookup",
+    "chosen": "periodicTableLookup",
+    "lexicalTop": "periodicTableLookup",
+    "alternatives": [
+      "generateTableOfContents",
+      "parseMarkdownTable",
+      "toMarkdownTable"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "offset from utc in Auckland",
+    "want": "timezoneLookup",
+    "draft": "timezoneLookup",
+    "chosen": "timezoneLookup",
+    "lexicalTop": "listTimezoneOffsets",
+    "alternatives": [
+      "convertTimezone",
+      "listTimezoneOffsets",
+      "airportCodeLookup"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "mean and spread of 12 19 22 8 31",
+    "want": "describeNumbers",
+    "draft": "describeNumbers",
+    "chosen": "describeNumbers",
+    "lexicalTop": "describeNumbers",
+    "alternatives": [
+      "extractNumbers",
+      "extractPhoneNumbers",
+      "formatNumber"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "do these two columns move together",
+    "want": "correlation",
+    "draft": "correlation",
+    "chosen": "correlation",
+    "lexicalTop": "correlation",
+    "alternatives": [
+      "movingAverage",
+      "percentile",
+      "quartiles"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "anything way off in this set",
+    "want": "findOutliers",
+    "draft": "rankValues",
+    "chosen": "rankValues",
+    "lexicalTop": "rankValues",
+    "alternatives": [
+      "expectedValue",
+      "parseKeyValue",
+      "zScores"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "best fit line for this scatter",
+    "want": "linearRegression",
+    "draft": "linearRegression",
+    "chosen": "linearRegression",
+    "lexicalTop": "linearRegression",
+    "alternatives": [
+      "movingAverage",
+      "quartiles",
+      "percentile"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "p95 of these latencies",
+    "want": "percentile",
+    "draft": "percentile",
+    "chosen": "percentile",
+    "lexicalTop": "percentile",
+    "alternatives": [
+      "describeNumbers",
+      "findOutliers",
+      "zScores"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "order these from best to worst",
+    "want": "rankValues",
+    "draft": "rankValues",
+    "chosen": "rankValues",
+    "lexicalTop": "rankValues",
+    "alternatives": [
+      "expectedValue",
+      "parseKeyValue",
+      "zScores"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many words in this sentence right here",
+    "want": "countWords",
+    "draft": "countWords",
+    "chosen": "countWords",
+    "lexicalTop": "findLongestWord",
+    "alternatives": [
+      "averageWordLength",
+      "wordFrequency",
+      "tokenizeWords"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "make \"Annual Report 2026\" a url slug",
+    "want": "slugify",
+    "draft": "slugify",
+    "chosen": "slugify",
+    "lexicalTop": "slugify",
+    "alternatives": [
+      "stripHtml",
+      "toAscii",
+      "extractMentions"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "swap every instance of teh for the",
+    "want": "replaceText",
+    "draft": "replaceText",
+    "chosen": "replaceText",
+    "lexicalTop": "transposeTable",
+    "alternatives": [
+      "transposeTable",
+      "countOccurrences",
+      "normalizeWhitespace"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "list the links in that message",
+    "want": "extractUrls",
+    "draft": "extractUrls",
+    "chosen": "extractUrls",
+    "lexicalTop": "extractTimes",
+    "alternatives": [
+      "extractTimes",
+      "stripMarkdown",
+      "extractEmails"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many characters is this tweet",
+    "want": "countCharacters",
+    "draft": "countCharacters",
+    "chosen": "countCharacters",
+    "lexicalTop": "countCharacters",
+    "alternatives": [
+      "countWords",
+      "countLines",
+      "averageWordLength"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many lines does this file have",
+    "want": "countLines",
+    "draft": "countLines",
+    "chosen": "countLines",
+    "lexicalTop": "countLines",
+    "alternatives": [
+      "numberLines",
+      "sortLines",
+      "trimLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "break this sentence into individual words",
+    "want": "tokenizeWords",
+    "draft": "tokenizeWords",
+    "chosen": "tokenizeWords",
+    "lexicalTop": "tokenizeWords",
+    "alternatives": [
+      "tokenizeSentences",
+      "findLongestWord",
+      "countWords"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "strip the filler words out of this query",
+    "want": "removeStopWords",
+    "draft": "removeStopWords",
+    "chosen": "removeStopWords",
+    "lexicalTop": "removeStopWords",
+    "alternatives": [
+      "wordFrequency",
+      "removeDuplicateLines",
+      "removeEmoji"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how long would this take someone to read",
+    "want": "readingTime",
+    "draft": "readingTime",
+    "chosen": "readingTime",
+    "lexicalTop": "readingTime",
+    "alternatives": [
+      "readingLevel",
+      "extractTimes",
+      "convertTime"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "strip the indentation off every line",
+    "want": "trimLines",
+    "draft": "trimLines",
+    "chosen": "trimLines",
+    "lexicalTop": "stripHtml",
+    "alternatives": [
+      "splitLines",
+      "countLines",
+      "numberLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "put these lines in alphabetical order",
+    "want": "sortLines",
+    "draft": "sortLines",
+    "chosen": "sortLines",
+    "lexicalTop": "sortLines",
+    "alternatives": [
+      "countLines",
+      "numberLines",
+      "removeDuplicateLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "join these lines into one comma separated line",
+    "want": "joinLines",
+    "draft": "joinLines",
+    "chosen": "joinLines",
+    "lexicalTop": "joinLines",
+    "alternatives": [
+      "splitLines",
+      "countLines",
+      "trimLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "guess the language of this snippet",
+    "want": "detectLanguage",
+    "draft": "detectLanguage",
+    "chosen": "detectLanguage",
+    "lexicalTop": "detectLanguage",
+    "alternatives": [
+      "detectRepetition",
+      "languageCodeLookup",
+      "wordFrequency"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "list every price mentioned here",
+    "want": "extractCurrencyAmounts",
+    "draft": "extractCurrencyAmounts",
+    "chosen": "extractCurrencyAmounts",
+    "lexicalTop": "extractCurrencyAmounts",
+    "alternatives": [
+      "convertCurrencyFixed",
+      "currencyLookup",
+      "formatCurrency"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "list the tags used in this tweet",
+    "want": "extractHashtags",
+    "draft": "extractHashtags",
+    "chosen": "extractHashtags",
+    "lexicalTop": "diffJson",
+    "alternatives": [
+      "diffJson",
+      "extractMentions",
+      "extractEmails"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "grab the bullets from this",
+    "want": "extractListItems",
+    "draft": "extractListItems",
+    "chosen": "extractListItems",
+    "lexicalTop": "stripMarkdown",
+    "alternatives": [
+      "countItems",
+      "stripMarkdown",
+      "extractNumbers"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "split this into two word runs",
+    "want": "extractNgrams",
+    "draft": "extractNgrams",
+    "chosen": "extractNgrams",
+    "lexicalTop": "extractNgrams",
+    "alternatives": [
+      "extractNumbers",
+      "splitLines",
+      "countCharacters"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what times are mentioned",
+    "want": "extractTimes",
+    "draft": "extractTimes",
+    "chosen": "extractTimes",
+    "lexicalTop": "extractMentions",
+    "alternatives": [
+      "readingTime",
+      "convertTime",
+      "currentTime"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which of these entries are basically the same",
+    "want": "findNearDuplicates",
+    "draft": "findNearDuplicates",
+    "chosen": "findNearDuplicates",
+    "lexicalTop": "findNearDuplicates",
+    "alternatives": [
+      "removeDuplicateLines",
+      "similarityLevenshtein",
+      "similarityJaccard"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "anything rude in this message",
+    "want": "flagProfanity",
+    "draft": "flagProfanity",
+    "chosen": "flagProfanity",
+    "lexicalTop": "extractTimes",
+    "alternatives": [
+      "flagPii",
+      "extractTimes",
+      "detectRepetition"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "does this read as happy or unhappy",
+    "want": "lexiconSentiment",
+    "draft": "readingLevel",
+    "chosen": "readingLevel",
+    "lexicalTop": "readingTime",
+    "alternatives": [
+      "readingTime",
+      "readingScheduleFromPages",
+      "wrapText"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "stick numbers on each line",
+    "want": "numberLines",
+    "draft": "numberLines",
+    "chosen": "numberLines",
+    "lexicalTop": "countItems",
+    "alternatives": [
+      "countLines",
+      "trimLines",
+      "sortLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "strip the smileys out",
+    "want": "removeEmoji",
+    "draft": "removeEmoji",
+    "chosen": "removeEmoji",
+    "lexicalTop": "stripHtml",
+    "alternatives": [
+      "removeStopWords",
+      "removeDuplicateLines",
+      "stripHtml"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how much vocabulary do these share",
+    "want": "similarityJaccard",
+    "draft": "similarityJaccard",
+    "chosen": "similarityJaccard",
+    "lexicalTop": "percentageDistribution",
+    "alternatives": [
+      "similarityLevenshtein",
+      "percentageDistribution",
+      "countSentences"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "cut these words back to their roots",
+    "want": "stemWords",
+    "draft": "stemWords",
+    "chosen": "stemWords",
+    "lexicalTop": "truncateText",
+    "alternatives": [
+      "countWords",
+      "tokenizeWords",
+      "averageWordLength"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "drop the formatting marks from this",
+    "want": "stripMarkdown",
+    "draft": "stripMarkdown",
+    "chosen": "stripMarkdown",
+    "lexicalTop": "stripMarkdown",
+    "alternatives": [
+      "stripHtml",
+      "markdownToHtml",
+      "outlineToMarkdown"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "flatten the accents in this name",
+    "want": "toAscii",
+    "draft": "toAscii",
+    "chosen": "toAscii",
+    "lexicalTop": "flattenList",
+    "alternatives": [
+      "flattenList",
+      "stripMarkdown",
+      "padText"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "is this address written correctly: jo@example",
+    "want": "validateEmail",
+    "draft": "validateEmail",
+    "chosen": "validateEmail",
+    "lexicalTop": "validateEmail",
+    "alternatives": [
+      "extractEmails",
+      "validateUrl",
+      "validateHexColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "this config is being rejected, what is malformed",
+    "want": "validateJson",
+    "draft": "validateJson",
+    "chosen": "validateJson",
+    "lexicalTop": "parseKeyValue",
+    "alternatives": [
+      "validateJsonSchema",
+      "diffJson",
+      "flattenJson"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "tidy this number into international format",
+    "want": "formatPhoneNumber",
+    "draft": "formatPhoneNumber",
+    "chosen": "formatPhoneNumber",
+    "lexicalTop": "formatPhoneNumber",
+    "alternatives": [
+      "validatePhoneNumber",
+      "describeNumbers",
+      "extractNumbers"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "is #GG0011 a real colour code",
+    "want": "validateHexColor",
+    "draft": "validateHexColor",
+    "chosen": "validateHexColor",
+    "lexicalTop": "validateIban",
+    "alternatives": [
+      "complementaryColor",
+      "convertColor",
+      "darkenColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "is 10.0.0.256 usable",
+    "want": "validateIpAddress",
+    "draft": "validateIpAddress",
+    "chosen": "validateIpAddress",
+    "lexicalTop": "validateIpAddress",
+    "alternatives": [
+      "validateUuid",
+      "validateUrl",
+      "validateIban"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "does this payload conform to my schema",
+    "want": "validateJsonSchema",
+    "draft": null,
+    "chosen": "validateJsonSchema",
+    "lexicalTop": null,
+    "alternatives": [
+      "validateJsonSchema",
+      "formatPhoneNumber",
+      "passwordStrength"
+    ],
+    "secondLook": true,
+    "replanned": false
+  },
+  {
+    "message": "is +44 7700 900 the right shape",
+    "want": "validatePhoneNumber",
+    "draft": "validatePhoneNumber",
+    "chosen": "validatePhoneNumber",
+    "lexicalTop": "validatePhoneNumber",
+    "alternatives": [
+      "formatPhoneNumber",
+      "describeNumbers",
+      "extractNumbers"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how long is each paragraph in my draft",
+    "want": "paragraphStats",
+    "draft": "paragraphStats",
+    "chosen": "paragraphStats",
+    "lexicalTop": "paragraphStats",
+    "alternatives": [
+      "textFileStats",
+      "findLongSentences",
+      "spellCheck"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "capitalise this headline properly",
+    "want": "checkTitleCase",
+    "draft": "checkTitleCase",
+    "chosen": "checkTitleCase",
+    "lexicalTop": "sortLines",
+    "alternatives": [
+      "convertCase",
+      "sortLines",
+      "pluralize"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "render this md as html",
+    "want": "markdownToHtml",
+    "draft": "markdownToHtml",
+    "chosen": "markdownToHtml",
+    "lexicalTop": "fileExtensionInfo",
+    "alternatives": [
+      "outlineToMarkdown",
+      "escapeHtml",
+      "parseMarkdownTable"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "plural of cactus",
+    "want": "pluralize",
+    "draft": "pluralize",
+    "chosen": "pluralize",
+    "lexicalTop": "pluralize",
+    "alternatives": [
+      "singularize",
+      "checkTitleCase",
+      "findRepeatedWords"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "narrow my guesses: _o_se, has an r, no t",
+    "want": "wordleFilter",
+    "draft": "wordleFilter",
+    "chosen": "wordleFilter",
+    "lexicalTop": "wordleFilter",
+    "alternatives": [
+      "filterRows",
+      "wordsFromLetters",
+      "solveAnagram"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "tell me about the Antikythera mechanism",
+    "want": "webAnswer",
+    "draft": "webAnswer",
+    "chosen": "webAnswer",
+    "lexicalTop": "webAnswer",
+    "alternatives": [
+      "webSearch",
+      "usStateLookup",
+      "periodicTableLookup"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "convert 12 stone to kilograms",
+    "want": "convertMass",
+    "draft": "convertMass",
+    "chosen": "convertMass",
+    "lexicalTop": "convertMass",
+    "alternatives": [
+      "convertSpeed",
+      "convertDataSize",
+      "convertArea"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how much is 6 tablespoons in millilitres",
+    "want": "convertVolume",
+    "draft": "convertVolume",
+    "chosen": "convertVolume",
+    "lexicalTop": "convertVolume",
+    "alternatives": [
+      "volumeOf",
+      "convertFuelEconomy",
+      "convertTime"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "a 210 minute film runs for how long",
+    "want": "convertTime",
+    "draft": "streakCount",
+    "chosen": "convertTime",
+    "lexicalTop": "convertTime",
+    "alternatives": [
+      "convertTime",
+      "habitCompletionRate",
+      "findCommonMeetingHours"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "3000 sq ft in square metres",
+    "want": "convertArea",
+    "draft": "convertArea",
+    "chosen": "convertArea",
+    "lexicalTop": "convertArea",
+    "alternatives": [
+      "areaOf",
+      "convertLength",
+      "convertSpeed"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "my car does 45 mpg, whats that in litres per 100",
+    "want": "convertFuelEconomy",
+    "draft": "convertFuelEconomy",
+    "chosen": "convertFuelEconomy",
+    "lexicalTop": "convertFuelEconomy",
+    "alternatives": [
+      "fuelCostForTrip",
+      "convertSpeed",
+      "convertVolume"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many m/s is 90 kph",
+    "want": "convertSpeed",
+    "draft": "convertSpeed",
+    "chosen": "convertSpeed",
+    "lexicalTop": "convertSpeed",
+    "alternatives": [
+      "convertFuelEconomy",
+      "convertLength",
+      "convertArea"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "keep rows where status is open",
+    "want": "filterRows",
+    "draft": "filterRows",
+    "chosen": "filterRows",
+    "lexicalTop": "groupBy",
+    "alternatives": [
+      "wordleFilter",
+      "groupBy",
+      "selectColumns"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "total the revenue column",
+    "want": "columnMath",
+    "draft": "columnMath",
+    "chosen": "columnMath",
+    "lexicalTop": "columnMath",
+    "alternatives": [
+      "selectColumns",
+      "sortRows",
+      "transposeTable"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "write these rows back out as csv",
+    "want": "toCsv",
+    "draft": "toCsv",
+    "chosen": "toCsv",
+    "lexicalTop": "toCsv",
+    "alternatives": [
+      "parseCsv",
+      "transposeTable",
+      "parseMarkdownTable"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "pull settings.theme out of this document",
+    "want": "getPath",
+    "draft": "getPath",
+    "chosen": "getPath",
+    "lexicalTop": "getPath",
+    "alternatives": [
+      "setPath",
+      "parseKeyValue",
+      "diffJson"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "turn this .env content into an object",
+    "want": "parseKeyValue",
+    "draft": "parseKeyValue",
+    "chosen": "parseKeyValue",
+    "lexicalTop": "generateTableOfContents",
+    "alternatives": [
+      "expectedValue",
+      "rankValues",
+      "generateTableOfContents"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what params are in this link",
+    "want": "parseQueryString",
+    "draft": "extractUrls",
+    "chosen": "extractUrls",
+    "lexicalTop": "extractUrls",
+    "alternatives": [
+      "stripMarkdown",
+      "extractEmails",
+      "extractTimes"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "update config.timeout to 30 in this json",
+    "want": "setPath",
+    "draft": "setPath",
+    "chosen": "setPath",
+    "lexicalTop": "setPath",
+    "alternatives": [
+      "getPath",
+      "diffJson",
+      "unflattenJson"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "turn the columns of this table into rows",
+    "want": "transposeTable",
+    "draft": null,
+    "chosen": "transposeTable",
+    "lexicalTop": null,
+    "alternatives": [
+      "transposeTable",
+      "toMarkdownTable",
+      "parseMarkdownTable"
+    ],
+    "secondLook": true,
+    "replanned": false
+  },
+  {
+    "message": "whats the gap between 2026-01-01 and 2026-06-30",
+    "want": "daysBetween",
+    "draft": "daysBetween",
+    "chosen": "daysBetween",
+    "lexicalTop": "daysBetween",
+    "alternatives": [
+      "businessDaysBetween",
+      "distanceBetweenPoints",
+      "dayOfYear"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "push 2026-03-01 forward by 45 days",
+    "want": "addDuration",
+    "draft": "addDuration",
+    "chosen": "addDuration",
+    "lexicalTop": "daysBetween",
+    "alternatives": [
+      "durationToText",
+      "parseDuration",
+      "daysBetween"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "is 2026-07-04 a saturday",
+    "want": "dayOfWeek",
+    "draft": "isWeekend",
+    "chosen": "isWeekend",
+    "lexicalTop": "nextWeekday",
+    "alternatives": [
+      "nextWeekday",
+      "dayOfWeek",
+      "businessDaysBetween"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "read 4 march 2027 as an iso date",
+    "want": "parseDate",
+    "draft": "parseDate",
+    "chosen": "parseDate",
+    "lexicalTop": "unixToIso",
+    "alternatives": [
+      "formatDate",
+      "parseRelativeDate",
+      "dateRangeList"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "working days from 2026-02-02 to 2026-02-27",
+    "want": "businessDaysBetween",
+    "draft": "businessDaysBetween",
+    "chosen": "businessDaysBetween",
+    "lexicalTop": "businessDaysBetween",
+    "alternatives": [
+      "addBusinessDays",
+      "daysBetween",
+      "distanceBetweenPoints"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what is the date and time right now",
+    "want": "currentTime",
+    "draft": "currentTime",
+    "chosen": "currentTime",
+    "lexicalTop": "currentTime",
+    "alternatives": [
+      "timeAgo",
+      "convertTime",
+      "extractTimes"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "rewrite 2026-11-14 as DD/MM/YYYY",
+    "want": "formatDate",
+    "draft": "formatDate",
+    "chosen": "formatDate",
+    "lexicalTop": "formatDate",
+    "alternatives": [
+      "parseDate",
+      "parseRelativeDate",
+      "ageFromDate"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "turn 2h 15m into seconds",
+    "want": "parseDuration",
+    "draft": "durationToText",
+    "chosen": "durationToText",
+    "lexicalTop": "durationToText",
+    "alternatives": [
+      "parseDuration",
+      "addDuration",
+      "unixToIso"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "every date from 2026-03-01 up to 2026-03-07",
+    "want": "dateRangeList",
+    "draft": "dateRangeList",
+    "chosen": "dateRangeList",
+    "lexicalTop": "dateRangeList",
+    "alternatives": [
+      "parseDate",
+      "parseRelativeDate",
+      "ageFromDate"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how long is april 2027",
+    "want": "daysInMonth",
+    "draft": "daysInMonth",
+    "chosen": "daysInMonth",
+    "lexicalTop": "daysBetween",
+    "alternatives": [
+      "daysBetween",
+      "businessDaysBetween",
+      "dayOfWeek"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "is new years day 2027 a saturday or sunday",
+    "want": "isWeekend",
+    "draft": "isWeekend",
+    "chosen": "isWeekend",
+    "lexicalTop": "dayOfYear",
+    "alternatives": [
+      "dayOfYear",
+      "dayOfWeek",
+      "businessDaysBetween"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which week number does 2026-06-15 fall in",
+    "want": "isoWeek",
+    "draft": "isoWeek",
+    "chosen": "isoWeek",
+    "lexicalTop": "isoWeek",
+    "alternatives": [
+      "dayOfWeek",
+      "dayOfYear",
+      "isWeekend"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "collapse these date ranges into as few as possible",
+    "want": "mergeIntervals",
+    "draft": "mergeIntervals",
+    "chosen": "mergeIntervals",
+    "lexicalTop": "mergeIntervals",
+    "alternatives": [
+      "daysInMonth",
+      "parseDate",
+      "parseRelativeDate"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "at what point does the annual plan pay off",
+    "want": "breakEvenComparison",
+    "draft": "breakEvenComparison",
+    "chosen": "breakEvenComparison",
+    "lexicalTop": "breakEvenComparison",
+    "alternatives": [
+      "weightedDecisionMatrix"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "simplify 2560 by 1440 to a ratio",
+    "want": "aspectRatio",
+    "draft": "ratioSolve",
+    "chosen": "fractionSimplify",
+    "lexicalTop": "fractionSimplify",
+    "alternatives": [
+      "aspectRatio",
+      "contrastRatio",
+      "fractionSimplify"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "will white text pass on #767676",
+    "want": "contrastRatio",
+    "draft": "contrastRatio",
+    "chosen": "contrastRatio",
+    "lexicalTop": "gradeNeeded",
+    "alternatives": [
+      "aspectRatio",
+      "ratioSolve",
+      "gradeNeeded"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "shade #FFAA00 down 30 percent",
+    "want": "darkenColor",
+    "draft": "darkenColor",
+    "chosen": "darkenColor",
+    "lexicalTop": "nearestNamedColor",
+    "alternatives": [
+      "lightenColor",
+      "complementaryColor",
+      "nearestNamedColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "tint #223344 up by 15 percent",
+    "want": "lightenColor",
+    "draft": "lightenColor",
+    "chosen": "lightenColor",
+    "lexicalTop": "percentOf",
+    "alternatives": [
+      "darkenColor",
+      "complementaryColor",
+      "nearestNamedColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what fraction of a rem is 12px",
+    "want": "pxToRem",
+    "draft": "pxToRem",
+    "chosen": "pxToRem",
+    "lexicalTop": "fractionSimplify",
+    "alternatives": [
+      "fractionSimplify",
+      "remToPx",
+      "convertColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "put 30 2 * * 1 into plain english",
+    "want": "cronToText",
+    "draft": "cronToText",
+    "chosen": "cronToText",
+    "lexicalTop": "pluralize",
+    "alternatives": [
+      "pluralize",
+      "httpStatusLookup",
+      "testRegex"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what is a 429 telling me",
+    "want": "httpStatusLookup",
+    "draft": "httpStatusLookup",
+    "chosen": "httpStatusLookup",
+    "lexicalTop": "httpStatusLookup",
+    "alternatives": [
+      "unicodeLookup",
+      "cronToText",
+      "mimeTypeLookup"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "content type to serve a .svg with",
+    "want": "mimeTypeLookup",
+    "draft": "mimeTypeLookup",
+    "chosen": "mimeTypeLookup",
+    "lexicalTop": "generateTableOfContents",
+    "alternatives": [
+      "generateTableOfContents",
+      "unicodeLookup",
+      "httpStatusLookup"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "run this pattern over my sample and show hits",
+    "want": "testRegex",
+    "draft": "extractCodeBlocks",
+    "chosen": "extractCodeBlocks",
+    "lexicalTop": "zScores",
+    "alternatives": [
+      "airportCodeLookup",
+      "languageCodeLookup",
+      "timeBlockSchedule"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what does caf%C3%A9 decode to",
+    "want": "urlDecode",
+    "draft": "urlDecode",
+    "chosen": "urlDecode",
+    "lexicalTop": "urlDecode",
+    "alternatives": [
+      "morseDecode",
+      "base64Decode",
+      "hexDecode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "b64 this string for me",
+    "want": "base64Encode",
+    "draft": "base64Encode",
+    "chosen": "base64Encode",
+    "lexicalTop": "generateRandomString",
+    "alternatives": [
+      "base64Decode",
+      "urlEncode",
+      "hexEncode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "show me the bits for the letter Z",
+    "want": "binaryEncode",
+    "draft": "binaryEncode",
+    "chosen": "binaryEncode",
+    "lexicalTop": "binaryDecode",
+    "alternatives": [
+      "binaryDecode",
+      "urlEncode",
+      "hexEncode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "squash this text down",
+    "want": "compressText",
+    "draft": "truncateText",
+    "chosen": "truncateText",
+    "lexicalTop": "compressText",
+    "alternatives": [
+      "compressText",
+      "countCharacters",
+      "wrapText"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "four random words as a password",
+    "want": "generatePassphrase",
+    "draft": "generatePassphrase",
+    "chosen": "generatePassphrase",
+    "lexicalTop": "generateRandomString",
+    "alternatives": [
+      "generateRandomString",
+      "generateUuid",
+      "morseDecode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "need a fresh guid",
+    "want": "generateUuid",
+    "draft": "generateUuid",
+    "chosen": "generateUuid",
+    "lexicalTop": "generateUuid",
+    "alternatives": [
+      "validateUuid",
+      "generateRandomString",
+      "generatePassphrase"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "these hex bytes say what",
+    "want": "hexDecode",
+    "draft": "hexEncode",
+    "chosen": "hexEncode",
+    "lexicalTop": "hexEncode",
+    "alternatives": [
+      "urlEncode",
+      "base64Encode",
+      "binaryEncode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what is -.-. --.- in letters",
+    "want": "morseDecode",
+    "draft": "morseDecode",
+    "chosen": "morseDecode",
+    "lexicalTop": "wordsFromLetters",
+    "alternatives": [
+      "morseEncode",
+      "urlDecode",
+      "binaryDecode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "apply the 13 letter rotation to this",
+    "want": "rot13",
+    "draft": "rot13",
+    "chosen": "rot13",
+    "lexicalTop": "rot13",
+    "alternatives": [
+      "urlEncode",
+      "compressText"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "triple this recipe: 1 cup rice, 2 eggs",
+    "want": "scaleRecipe",
+    "draft": "scaleRecipe",
+    "chosen": "scaleRecipe",
+    "lexicalTop": "scaleRecipe",
+    "alternatives": [
+      "scaleDimensions",
+      "convertCookingMeasure"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what does that work out to per litre",
+    "want": "unitPrice",
+    "draft": "unitPrice",
+    "chosen": "unitPrice",
+    "lexicalTop": "unitPrice",
+    "alternatives": [
+      "comparePrices",
+      "fuelCostForTrip",
+      "stackDiscounts"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "cost to drive 150 km if I use 9 litres per 100 and fuel is 1.80",
+    "want": "fuelCostForTrip",
+    "draft": "fuelCostForTrip",
+    "chosen": "fuelCostForTrip",
+    "lexicalTop": "fuelCostForTrip",
+    "alternatives": [
+      "convertFuelEconomy",
+      "unitPrice"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "extra 15 off an already 30 off item",
+    "want": "stackDiscounts",
+    "draft": "applyDiscount",
+    "chosen": "applyDiscount",
+    "lexicalTop": "stackDiscounts",
+    "alternatives": [
+      "stackDiscounts",
+      "convertCurrencyFixed",
+      "applyTax"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "whats a .webp file",
+    "want": "fileExtensionInfo",
+    "draft": "fileExtensionInfo",
+    "chosen": "fileExtensionInfo",
+    "lexicalTop": "textFileStats",
+    "alternatives": [
+      "textFileStats",
+      "fileSizeHuman"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "change 400 usd to gbp at 0.79",
+    "want": "convertCurrencyFixed",
+    "draft": "convertCurrencyFixed",
+    "chosen": "convertCurrencyFixed",
+    "lexicalTop": "currencyLookup",
+    "alternatives": [
+      "currencyLookup",
+      "extractCurrencyAmounts",
+      "formatCurrency"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "monthly repayment on 12000 over 4 years at 6%",
+    "want": "amortizeLoan",
+    "draft": "amortizeLoan",
+    "chosen": "amortizeLoan",
+    "lexicalTop": "amortizeLoan",
+    "alternatives": [
+      "simpleInterest",
+      "compoundInterest",
+      "savingsGoal"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "22 an hour, whats that yearly",
+    "want": "hourlyToSalary",
+    "draft": "hourlyToSalary",
+    "chosen": "hourlyToSalary",
+    "lexicalTop": "convertTime",
+    "alternatives": [
+      "salaryToHourly",
+      "convertTime",
+      "compoundInterest"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "52000 a year works out at what per hour",
+    "want": "salaryToHourly",
+    "draft": "salaryToHourly",
+    "chosen": "salaryToHourly",
+    "lexicalTop": "salaryToHourly",
+    "alternatives": [
+      "hourlyToSalary",
+      "compoundInterest",
+      "simpleInterest"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "non-compounding interest on 800 at 6% for 18 months",
+    "want": "simpleInterest",
+    "draft": "compoundInterest",
+    "chosen": "compoundInterest",
+    "lexicalTop": "simpleInterest",
+    "alternatives": [
+      "simpleInterest",
+      "savingsGoal",
+      "hourlyToSalary"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "does level read the same both ways",
+    "want": "checkPalindrome",
+    "draft": "checkPalindrome",
+    "chosen": "checkPalindrome",
+    "lexicalTop": "readingLevel",
+    "alternatives": [
+      "readingLevel",
+      "checkAnagram",
+      "wordsFromLetters"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "tile value of the word zebra",
+    "want": "scrabbleScore",
+    "draft": "countOccurrences",
+    "chosen": "syllableCount",
+    "lexicalTop": "countOccurrences",
+    "alternatives": [
+      "countWords",
+      "wordFrequency",
+      "syllableCount"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which words fit from these seven tiles",
+    "want": "wordsFromLetters",
+    "draft": "wordsFromLetters",
+    "chosen": "wordsFromLetters",
+    "lexicalTop": "wordsFromLetters",
+    "alternatives": [
+      "averageWordLength",
+      "countWords",
+      "countWordTargets"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "heads or tails, seed 5",
+    "want": "flipCoin",
+    "draft": "flipCoin",
+    "chosen": "flipCoin",
+    "lexicalTop": "flipCoin",
+    "alternatives": [
+      "randomNumber",
+      "rollDice",
+      "generateChecklist"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "print me a month view of december 2026",
+    "want": "generateCalendarGrid",
+    "draft": "daysInMonth",
+    "chosen": "daysInMonth",
+    "lexicalTop": "daysInMonth",
+    "alternatives": [
+      "businessDaysBetween",
+      "dayOfWeek",
+      "daysBetween"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "carve 2pm to 5pm into four sessions",
+    "want": "generateSchedule",
+    "draft": "generateSchedule",
+    "chosen": "generateSchedule",
+    "lexicalTop": "generateSchedule",
+    "alternatives": [
+      "readingScheduleFromPages",
+      "spacedRepetitionSchedule",
+      "timeBlockSchedule"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how far from (1,2) to (7,10)",
+    "want": "distanceBetweenPoints",
+    "draft": "distanceBetweenPoints",
+    "chosen": "distanceBetweenPoints",
+    "lexicalTop": "convertLength",
+    "alternatives": [
+      "haversineDistance",
+      "businessDaysBetween",
+      "daysBetween"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how much fencing round a 12 by 9 plot",
+    "want": "perimeterOf",
+    "draft": "perimeterOf",
+    "chosen": "perimeterOf",
+    "lexicalTop": "perimeterOf",
+    "alternatives": [
+      "areaOf",
+      "pythagorean",
+      "volumeOf"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "litres in a cylinder 30cm across and 50 tall",
+    "want": "volumeOf",
+    "draft": "volumeOf",
+    "chosen": "volumeOf",
+    "lexicalTop": "scaleDimensions",
+    "alternatives": [
+      "convertVolume",
+      "scaleDimensions",
+      "areaOf"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "my measured max is 172, split it into zones",
+    "want": "heartRateZones",
+    "draft": "heartRateZones",
+    "chosen": "heartRateZones",
+    "lexicalTop": "heartRateZones",
+    "alternatives": [
+      "habitCompletionRate",
+      "splitTimes"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what time should I turn in for a 5:45 alarm",
+    "want": "sleepCycleTimes",
+    "draft": "sleepCycleTimes",
+    "chosen": "sleepCycleTimes",
+    "lexicalTop": "isoToUnix",
+    "alternatives": [
+      "splitTimes",
+      "convertTime",
+      "currentTime"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "plan out 420 pages before the end of the month",
+    "want": "readingScheduleFromPages",
+    "draft": "readingScheduleFromPages",
+    "chosen": "readingScheduleFromPages",
+    "lexicalTop": "readingScheduleFromPages",
+    "alternatives": [
+      "spacedRepetitionSchedule",
+      "generateSchedule",
+      "readingLevel"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "put these items in natural order",
+    "want": "sortList",
+    "draft": "sortList",
+    "chosen": "sortList",
+    "lexicalTop": "sortList",
+    "alternatives": [
+      "sortLines",
+      "sortObjectKeys",
+      "sortRows"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "give me every number from 5 to 40 in fives",
+    "want": "rangeList",
+    "draft": "numberLines",
+    "chosen": "numberLines",
+    "lexicalTop": "numberLines",
+    "alternatives": [
+      "countLines",
+      "trimLines",
+      "sortLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what is missing from the second list",
+    "want": "differenceLists",
+    "draft": "differenceLists",
+    "chosen": "differenceLists",
+    "lexicalTop": "differenceLists",
+    "alternatives": [
+      "unionLists",
+      "rangeList",
+      "intersectLists"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which entries appear on both lists",
+    "want": "intersectLists",
+    "draft": "intersectLists",
+    "chosen": "intersectLists",
+    "lexicalTop": "intersectLists",
+    "alternatives": [
+      "dedupeList",
+      "countItems",
+      "unionLists"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "draw a winner from these entrants, seed 9",
+    "want": "pickRandom",
+    "draft": "pickRandom",
+    "chosen": "pickRandom",
+    "lexicalTop": "pickRandom",
+    "alternatives": [
+      "generateRandomString",
+      "randomNumber",
+      "shuffleList"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "merge both lists without repeats",
+    "want": "unionLists",
+    "draft": "intersectLists",
+    "chosen": "unionLists",
+    "lexicalTop": "intersectLists",
+    "alternatives": [
+      "dedupeList",
+      "countItems",
+      "unionLists"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "work out 12% of 6500",
+    "want": "percentOf",
+    "draft": "percentOf",
+    "chosen": "percentOf",
+    "lexicalTop": "factorial",
+    "alternatives": [
+      "whatPercent",
+      "percentChange",
+      "factorial"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what proportion is 18 of 24, in percent",
+    "want": "whatPercent",
+    "draft": "whatPercent",
+    "chosen": "whatPercent",
+    "lexicalTop": "whatPercent",
+    "alternatives": [
+      "percentOf",
+      "percentChange",
+      "percentageDistribution"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "divide 475 between 6 of us",
+    "want": "splitEvenly",
+    "draft": "splitEvenly",
+    "chosen": "splitEvenly",
+    "lexicalTop": "splitBill",
+    "alternatives": [
+      "budgetSplit",
+      "splitBill",
+      "splitLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "multiply 7 by 9 by 3 together",
+    "want": "product",
+    "draft": null,
+    "chosen": "product",
+    "lexicalTop": null,
+    "alternatives": [
+      "product",
+      "factorial",
+      "evaluateExpression"
+    ],
+    "secondLook": true,
+    "replanned": true
+  },
+  {
+    "message": "write 9876543 with commas in it",
+    "want": "formatNumber",
+    "draft": "formatNumber",
+    "chosen": "formatNumber",
+    "lexicalTop": "toCsv",
+    "alternatives": [
+      "parseNumber",
+      "describeNumbers",
+      "extractNumbers"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "multiply 1 through 8 together",
+    "want": "factorial",
+    "draft": "factorial",
+    "chosen": "factorial",
+    "lexicalTop": "product",
+    "alternatives": [
+      "product",
+      "splitEvenly",
+      "sum"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "lowest terms for 45/60",
+    "want": "fractionSimplify",
+    "draft": "fractionSimplify",
+    "chosen": "fractionSimplify",
+    "lexicalTop": "fractionSimplify",
+    "alternatives": [
+      "ratioSolve",
+      "percentChange",
+      "lcm"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "does 221 have any divisors",
+    "want": "isPrime",
+    "draft": "isPrime",
+    "chosen": "isPrime",
+    "lexicalTop": "isPrime",
+    "alternatives": [
+      "primeFactors",
+      "gcd",
+      "factorial"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which primes multiply to make 990",
+    "want": "primeFactors",
+    "draft": "primeFactors",
+    "chosen": "primeFactors",
+    "lexicalTop": "primeFactors",
+    "alternatives": [
+      "isPrime",
+      "gcd",
+      "factorial"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "add the right suffix to 42",
+    "want": "toOrdinal",
+    "draft": "toOrdinal",
+    "chosen": "toOrdinal",
+    "lexicalTop": "toOrdinal",
+    "alternatives": [
+      "ratioSolve",
+      "parseNumber",
+      "sum"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "sort my jobs by what matters most",
+    "want": "prioritizeTasks",
+    "draft": null,
+    "chosen": "prioritizeTasks",
+    "lexicalTop": null,
+    "alternatives": [
+      "sortLines",
+      "prioritizeTasks",
+      "rotateAssignments"
+    ],
+    "secondLook": true,
+    "replanned": false
+  },
+  {
+    "message": "what does SEK mean",
+    "want": "currencyLookup",
+    "draft": "currencyLookup",
+    "chosen": "currencyLookup",
+    "lexicalTop": "convertCurrencyFixed",
+    "alternatives": [
+      "convertCurrencyFixed",
+      "extractCurrencyAmounts",
+      "formatCurrency"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "where does +351 dial to",
+    "want": "phoneRegionLookup",
+    "draft": "phoneRegionLookup",
+    "chosen": "phoneRegionLookup",
+    "lexicalTop": "airportCodeLookup",
+    "alternatives": [
+      "extractPhoneNumbers",
+      "formatPhoneNumber",
+      "validatePhoneNumber"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which state has the abbreviation OR",
+    "want": "usStateLookup",
+    "draft": "usStateLookup",
+    "chosen": "usStateLookup",
+    "lexicalTop": "usStateLookup",
+    "alternatives": [
+      "countryLookup",
+      "periodicTableLookup",
+      "currencyLookup"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "average these marks where the exam counts triple",
+    "want": "weightedAverage",
+    "draft": "weightedAverage",
+    "chosen": "weightedAverage",
+    "lexicalTop": "countSentences",
+    "alternatives": [
+      "movingAverage",
+      "averageWordLength",
+      "weightedDecisionMatrix"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "bucket these values into six ranges",
+    "want": "histogramBins",
+    "draft": "histogramBins",
+    "chosen": "histogramBins",
+    "lexicalTop": "histogramBins",
+    "alternatives": [
+      "zScores",
+      "findOutliers",
+      "cumulativeSum"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "smooth this over a 5 point window",
+    "want": "movingAverage",
+    "draft": "movingAverage",
+    "chosen": "movingAverage",
+    "lexicalTop": "movingAverage",
+    "alternatives": [
+      "weightedAverage",
+      "averageWordLength",
+      "linearRegression"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "give me the iqr of this sample",
+    "want": "quartiles",
+    "draft": "quartiles",
+    "chosen": "quartiles",
+    "lexicalTop": "zScores",
+    "alternatives": [
+      "zScores",
+      "linearRegression",
+      "percentile"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "standardise this set",
+    "want": "zScores",
+    "draft": "zScores",
+    "chosen": "zScores",
+    "lexicalTop": "zScores",
+    "alternatives": [
+      "prosConsScore",
+      "scrabbleScore",
+      "rankValues"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which words repeat most in that paragraph",
+    "want": "wordFrequency",
+    "draft": "wordFrequency",
+    "chosen": "wordFrequency",
+    "lexicalTop": "countWords",
+    "alternatives": [
+      "countWords",
+      "removeStopWords",
+      "findLongestWord"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "change my heading to title case",
+    "want": "convertCase",
+    "draft": "checkTitleCase",
+    "chosen": "checkTitleCase",
+    "lexicalTop": "convertCase",
+    "alternatives": [
+      "convertCase",
+      "pluralize",
+      "singularize"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "grab the email addresses from this signature",
+    "want": "extractEmails",
+    "draft": "extractEmails",
+    "chosen": "extractEmails",
+    "lexicalTop": "extractEmails",
+    "alternatives": [
+      "validateEmail",
+      "extractIpAddresses",
+      "extractDates"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what numbers appear in this invoice line",
+    "want": "extractNumbers",
+    "draft": "extractNumbers",
+    "chosen": "extractNumbers",
+    "lexicalTop": "extractCurrencyAmounts",
+    "alternatives": [
+      "extractPhoneNumbers",
+      "numberLines",
+      "describeNumbers"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many sentences in that paragraph",
+    "want": "countSentences",
+    "draft": "countSentences",
+    "chosen": "countSentences",
+    "lexicalTop": "tokenizeSentences",
+    "alternatives": [
+      "tokenizeSentences",
+      "findLongSentences",
+      "averageWordLength"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how often does the word error appear in the log",
+    "want": "countOccurrences",
+    "draft": "countOccurrences",
+    "chosen": "countOccurrences",
+    "lexicalTop": "countOccurrences",
+    "alternatives": [
+      "countWords",
+      "wordFrequency",
+      "syllableCount"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "split that paragraph into separate sentences",
+    "want": "tokenizeSentences",
+    "draft": "tokenizeSentences",
+    "chosen": "tokenizeSentences",
+    "lexicalTop": "tokenizeSentences",
+    "alternatives": [
+      "countSentences",
+      "tokenizeWords",
+      "findLongSentences"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what reading age is this passage written at",
+    "want": "readingLevel",
+    "draft": "readingLevel",
+    "chosen": "readingLevel",
+    "lexicalTop": "parseDuration",
+    "alternatives": [
+      "readingTime",
+      "readingScheduleFromPages",
+      "parseDuration"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "tidy up the spacing in this pasted text",
+    "want": "normalizeWhitespace",
+    "draft": "normalizeWhitespace",
+    "chosen": "normalizeWhitespace",
+    "lexicalTop": "normalizeWhitespace",
+    "alternatives": [
+      "countLines",
+      "trimLines",
+      "numberLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "get rid of repeated lines in this list",
+    "want": "removeDuplicateLines",
+    "draft": "removeDuplicateLines",
+    "chosen": "removeDuplicateLines",
+    "lexicalTop": "removeDuplicateLines",
+    "alternatives": [
+      "findNearDuplicates",
+      "countLines",
+      "removeStopWords"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "shorten this to fit 100 characters",
+    "want": "truncateText",
+    "draft": "truncateText",
+    "chosen": "truncateText",
+    "lexicalTop": "truncateText",
+    "alternatives": [
+      "countCharacters",
+      "wrapText",
+      "reverseText"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "split that comma list onto separate lines",
+    "want": "splitLines",
+    "draft": "splitLines",
+    "chosen": "splitLines",
+    "lexicalTop": "splitLines",
+    "alternatives": [
+      "joinLines",
+      "trimLines",
+      "countLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "typical word size in this paragraph",
+    "want": "averageWordLength",
+    "draft": "averageWordLength",
+    "chosen": "averageWordLength",
+    "lexicalTop": "averageWordLength",
+    "alternatives": [
+      "countWords",
+      "findLongestWord",
+      "wordFrequency"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "am I saying the same phrase twice",
+    "want": "detectRepetition",
+    "draft": "detectRepetition",
+    "chosen": "detectRepetition",
+    "lexicalTop": "checkPalindrome",
+    "alternatives": [
+      "detectLanguage",
+      "spacedRepetitionSchedule",
+      "checkPalindrome"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "lift the fenced snippets out of this doc",
+    "want": "extractCodeBlocks",
+    "draft": "extractCodeBlocks",
+    "chosen": "extractCodeBlocks",
+    "lexicalTop": "extractCodeBlocks",
+    "alternatives": [
+      "airportCodeLookup",
+      "languageCodeLookup",
+      "timeBlockSchedule"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which dates are mentioned in this note",
+    "want": "extractDates",
+    "draft": "extractDates",
+    "chosen": "extractDates",
+    "lexicalTop": "extractMentions",
+    "alternatives": [
+      "ageFromDate",
+      "dateRangeList",
+      "formatDate"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "pull out any ip addresses from these lines",
+    "want": "extractIpAddresses",
+    "draft": "extractIpAddresses",
+    "chosen": "extractIpAddresses",
+    "lexicalTop": "extractIpAddresses",
+    "alternatives": [
+      "extractEmails",
+      "extractDates",
+      "extractMentions"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which handles are tagged here",
+    "want": "extractMentions",
+    "draft": "extractMentions",
+    "chosen": "extractMentions",
+    "lexicalTop": "extractMentions",
+    "alternatives": [
+      "extractHashtags",
+      "extractEmails",
+      "extractDates"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "any numbers to call in this signature",
+    "want": "extractPhoneNumbers",
+    "draft": "extractPhoneNumbers",
+    "chosen": "extractPhoneNumbers",
+    "lexicalTop": "extractPhoneNumbers",
+    "alternatives": [
+      "extractNumbers",
+      "numberLines",
+      "describeNumbers"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "biggest word in this passage",
+    "want": "findLongestWord",
+    "draft": "findLongestWord",
+    "chosen": "findLongestWord",
+    "lexicalTop": "findLongestWord",
+    "alternatives": [
+      "tokenizeWords",
+      "wordFrequency",
+      "averageWordLength"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "scan this for anything personal",
+    "want": "flagPii",
+    "draft": "flagPii",
+    "chosen": "flagPii",
+    "lexicalTop": "flagPii",
+    "alternatives": [
+      "flagProfanity",
+      "extractDates",
+      "extractPhoneNumbers"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what stands out in this document",
+    "want": "keywordsTfidf",
+    "draft": "keywordsTfidf",
+    "chosen": "keywordsTfidf",
+    "lexicalTop": "currencyLookup",
+    "alternatives": [
+      "currencyLookup",
+      "extractListItems",
+      "wordFrequency"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "hide the private bits in this text",
+    "want": "maskSensitive",
+    "draft": "binaryDecode",
+    "chosen": "binaryDecode",
+    "lexicalTop": "binaryDecode",
+    "alternatives": [
+      "binaryEncode",
+      "hexDecode",
+      "morseDecode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "right justify this in 10 columns",
+    "want": "padText",
+    "draft": "padText",
+    "chosen": "padText",
+    "lexicalTop": "padText",
+    "alternatives": [
+      "countCharacters",
+      "wrapText",
+      "toAscii"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "write this backwards",
+    "want": "reverseText",
+    "draft": "reverseText",
+    "chosen": "reverseText",
+    "lexicalTop": "reverseText",
+    "alternatives": [
+      "syllableCount",
+      "countCharacters",
+      "countLines"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many edits between these two spellings",
+    "want": "similarityLevenshtein",
+    "draft": "similarityLevenshtein",
+    "chosen": "similarityLevenshtein",
+    "lexicalTop": "similarityLevenshtein",
+    "alternatives": [
+      "similarityJaccard",
+      "findNearDuplicates",
+      "countCharacters"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "just the readable text from this markup",
+    "want": "stripHtml",
+    "draft": "extractHeadings",
+    "chosen": "extractHeadings",
+    "lexicalTop": "contrastRatio",
+    "alternatives": [
+      "contrastRatio",
+      "outlineToMarkdown",
+      "generateTableOfContents"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "how many beats in the word incredible",
+    "want": "syllableCount",
+    "draft": "syllableCount",
+    "chosen": "syllableCount",
+    "lexicalTop": "syllableCount",
+    "alternatives": [
+      "reverseText",
+      "countLines",
+      "countOccurrences"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "break these lines at 40 wide",
+    "want": "wrapText",
+    "draft": "wrapText",
+    "chosen": "wrapText",
+    "lexicalTop": "splitLines",
+    "alternatives": [
+      "splitLines",
+      "countCharacters",
+      "truncateText"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "is https://example.com/x a proper link",
+    "want": "validateUrl",
+    "draft": "validateUrl",
+    "chosen": "validateUrl",
+    "lexicalTop": "extractUrls",
+    "alternatives": [
+      "extractUrls",
+      "validateEmail",
+      "validateHexColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "does 31 september exist",
+    "want": "validateDate",
+    "draft": "validateDate",
+    "chosen": "validateDate",
+    "lexicalTop": "businessDaysBetween",
+    "alternatives": [
+      "ageFromDate",
+      "dateRangeList",
+      "extractDates"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "does this account number check out",
+    "want": "validateIban",
+    "draft": "validateIban",
+    "chosen": "validateIban",
+    "lexicalTop": "validateIban",
+    "alternatives": [
+      "validateUuid",
+      "validateIpAddress",
+      "validateJson"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "does this book number check digit work",
+    "want": "validateIsbn",
+    "draft": "validateIsbn",
+    "chosen": "validateIsbn",
+    "lexicalTop": "validateIsbn",
+    "alternatives": [
+      "validateJson",
+      "validateUuid",
+      "validatePhoneNumber"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "does this card number pass the checksum",
+    "want": "validateLuhn",
+    "draft": "validateLuhn",
+    "chosen": "validateLuhn",
+    "lexicalTop": "validateLuhn",
+    "alternatives": [
+      "validatePhoneNumber",
+      "validateJson",
+      "validateEmail"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "is this string a proper uuid",
+    "want": "validateUuid",
+    "draft": "validateUuid",
+    "chosen": "validateUuid",
+    "lexicalTop": "generateUuid",
+    "alternatives": [
+      "generateUuid",
+      "validateIpAddress",
+      "validateIban"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "give me the outline of this markdown doc",
+    "want": "extractHeadings",
+    "draft": "outlineToMarkdown",
+    "chosen": "outlineToMarkdown",
+    "lexicalTop": "outlineToMarkdown",
+    "alternatives": [
+      "markdownToHtml",
+      "parseMarkdownTable",
+      "stripMarkdown"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "am I close to my 1500 word target",
+    "want": "countWordTargets",
+    "draft": "countWordTargets",
+    "chosen": "countWordTargets",
+    "lexicalTop": "countWordTargets",
+    "alternatives": [
+      "findRepeatedWords",
+      "averageWordLength",
+      "countWords"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "which sentences run on too long",
+    "want": "findLongSentences",
+    "draft": "findLongSentences",
+    "chosen": "findLongSentences",
+    "lexicalTop": "findLongSentences",
+    "alternatives": [
+      "countSentences",
+      "tokenizeSentences",
+      "paragraphStats"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "index the headings in this doc",
+    "want": "generateTableOfContents",
+    "draft": "extractHeadings",
+    "chosen": "extractHeadings",
+    "lexicalTop": "generateTableOfContents",
+    "alternatives": [
+      "generateTableOfContents",
+      "outlineToMarkdown",
+      "markdownToHtml"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "turn my indented notes into markdown",
+    "want": "outlineToMarkdown",
+    "draft": "outlineToMarkdown",
+    "chosen": "outlineToMarkdown",
+    "lexicalTop": "outlineToMarkdown",
+    "alternatives": [
+      "markdownToHtml",
+      "parseMarkdownTable",
+      "stripMarkdown"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "singular form of criteria",
+    "want": "singularize",
+    "draft": "singularize",
+    "chosen": "singularize",
+    "lexicalTop": "singularize",
+    "alternatives": [
+      "pluralize",
+      "checkTitleCase",
+      "findRepeatedWords"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what shade of blue is #4682B4 nearest to",
+    "want": "nearestNamedColor",
+    "draft": "nearestNamedColor",
+    "chosen": "nearestNamedColor",
+    "lexicalTop": "nearestNamedColor",
+    "alternatives": [
+      "complementaryColor",
+      "darkenColor",
+      "lightenColor"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "where does 2x squared minus 7x plus 3 cross zero",
+    "want": "solveQuadratic",
+    "draft": "solveQuadratic",
+    "chosen": "solveQuadratic",
+    "lexicalTop": "solveQuadratic",
+    "alternatives": [
+      "ratioSolve",
+      "evaluateExpression"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "find me some pages on the Voyager probes",
+    "want": "webSearch",
+    "draft": "webSearch",
+    "chosen": "webSearch",
+    "lexicalTop": "webSearch",
+    "alternatives": [
+      "webAnswer"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "translate good morning into portuguese",
+    "want": null,
+    "draft": "languageCodeLookup",
+    "chosen": "languageCodeLookup",
+    "lexicalTop": "languageCodeLookup",
+    "alternatives": [
+      "airportCodeLookup",
+      "detectLanguage",
+      "extractCodeBlocks"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "what is the difference between affect and effect",
+    "want": null,
+    "draft": "differenceLists",
+    "chosen": "differenceLists",
+    "lexicalTop": "differenceLists",
+    "alternatives": [
+      "unionLists",
+      "rangeList",
+      "intersectLists"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "the sentiment in the room was tense",
+    "want": null,
+    "draft": "lexiconSentiment",
+    "chosen": "lexiconSentiment",
+    "lexicalTop": "lexiconSentiment",
+    "alternatives": [
+      "extractTimes",
+      "removeEmoji",
+      "extractNumbers"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "the whole project is an anagram of chaos",
+    "want": null,
+    "draft": "solveAnagram",
+    "chosen": "solveAnagram",
+    "lexicalTop": "solveAnagram",
+    "alternatives": [
+      "checkAnagram",
+      "wordsFromLetters",
+      "scrabbleScore"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "is a table of contents even necessary these days",
+    "want": null,
+    "draft": "breakEvenComparison",
+    "chosen": "breakEvenComparison",
+    "lexicalTop": null,
+    "alternatives": [
+      "generateTableOfContents",
+      "weightedDecisionMatrix"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "the timezone difference is killing our team",
+    "want": null,
+    "draft": "timezoneLookup",
+    "chosen": "timezoneLookup",
+    "lexicalTop": "differenceLists",
+    "alternatives": [
+      "convertTimezone",
+      "listTimezoneOffsets",
+      "differenceLists"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "my average day starts with coffee and regret",
+    "want": null,
+    "draft": "averageWordLength",
+    "chosen": "averageWordLength",
+    "lexicalTop": "comparePrices",
+    "alternatives": [
+      "countWords",
+      "findLongestWord",
+      "wordFrequency"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "keep the streak alive, whatever it takes",
+    "want": null,
+    "draft": "streakCount",
+    "chosen": "streakCount",
+    "lexicalTop": "streakCount",
+    "alternatives": [
+      "habitCompletionRate",
+      "findCommonMeetingHours",
+      "timeBlockSchedule"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "it was a coin toss who would get the job",
+    "want": null,
+    "draft": "flipCoin",
+    "chosen": "flipCoin",
+    "lexicalTop": "flipCoin",
+    "alternatives": [
+      "randomNumber",
+      "rollDice",
+      "generateChecklist"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "the dice were loaded from the start",
+    "want": null,
+    "draft": "rollDice",
+    "chosen": "rollDice",
+    "lexicalTop": "numberLines",
+    "alternatives": [
+      "numberLines",
+      "randomNumber",
+      "flipCoin"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "lorem ipsum is what my brain feels like today",
+    "want": null,
+    "draft": "loremIpsum",
+    "chosen": "loremIpsum",
+    "lexicalTop": "loremIpsum",
+    "alternatives": [
+      "generateChecklist",
+      "generateCalendarGrid",
+      "generateSchedule"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "the table by the window is always taken",
+    "want": null,
+    "draft": "prioritizeTasks",
+    "chosen": "prioritizeTasks",
+    "lexicalTop": "countLines",
+    "alternatives": [
+      "countLines",
+      "timeBlockSchedule",
+      "rotateAssignments"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "that speech was a word salad",
+    "want": null,
+    "draft": "countWords",
+    "chosen": "countWords",
+    "lexicalTop": null,
+    "alternatives": [
+      "averageWordLength",
+      "wordFrequency",
+      "tokenizeWords"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "he made a hash of the presentation",
+    "want": null,
+    "draft": "hashText",
+    "chosen": "hashText",
+    "lexicalTop": "hashText",
+    "alternatives": [
+      "generateUuid",
+      "hexEncode",
+      "binaryEncode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "the business days drag when the boss is around",
+    "want": null,
+    "draft": "businessDaysBetween",
+    "chosen": "businessDaysBetween",
+    "lexicalTop": "businessDaysBetween",
+    "alternatives": [
+      "addBusinessDays",
+      "daysBetween",
+      "distanceBetweenPoints"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "binary thinking is what got us into this",
+    "want": null,
+    "draft": "binaryDecode",
+    "chosen": "binaryDecode",
+    "lexicalTop": "binaryDecode",
+    "alternatives": [
+      "binaryEncode",
+      "hexDecode",
+      "morseDecode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "my morse code is rusty",
+    "want": null,
+    "draft": "morseDecode",
+    "chosen": "morseDecode",
+    "lexicalTop": "morseEncode",
+    "alternatives": [
+      "morseEncode",
+      "urlDecode",
+      "binaryDecode"
+    ],
+    "secondLook": false
+  },
+  {
+    "message": "the url is broken and nobody cares",
+    "want": null,
+    "draft": "validateUrl",
+    "chosen": "validateUrl",
+    "lexicalTop": "checkPalindrome",
+    "alternatives": [
+      "checkPalindrome",
+      "validateEmail",
+      "validateHexColor"
+    ],
+    "secondLook": false
+  }
+]

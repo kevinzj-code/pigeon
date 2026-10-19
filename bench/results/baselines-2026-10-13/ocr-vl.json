@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-13T15:38:56.862Z",
+ "engine": "http://127.0.0.1:8272",
+ "set": "bench/ocr-rows/heldout-clean.json",
+ "cases": 400,
+ "byLevel": {
+  "light": {
+   "cases": 120,
+   "exact": 75,
+   "used": 109,
+   "wordErrorsBefore": 194,
+   "wordErrorsAfter": 53,
+   "wordsChanged": 39
+  },
+  "medium": {
+   "cases": 120,
+   "exact": 57,
+   "used": 106,
+   "wordErrorsBefore": 545,
+   "wordErrorsAfter": 130,
+   "wordsChanged": 57
+  },
+  "heavy": {
+   "cases": 120,
+   "exact": 43,
+   "used": 106,
+   "wordErrorsBefore": 861,
+   "wordErrorsAfter": 153,
+   "wordsChanged": 66
+  },
+  "none": {
+   "cases": 40,
+   "exact": 34,
+   "used": 36,
+   "wordErrorsBefore": 0,
+   "wordErrorsAfter": 14,
+   "wordsChanged": 13
+  }
+ },
+ "refused": {
+  "ran out of room before it finished": 38,
+  "introduced the number N": 5
+ },
+ "numbersIntroduced": 5
+}

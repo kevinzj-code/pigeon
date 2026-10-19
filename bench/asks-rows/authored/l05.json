@@ -1,0 +1,395 @@
+{
+ "batch": "l05",
+ "pairs": [
+  {
+   "skill": "spacedRepetitionSchedule",
+   "no": "completely spaced on the review meeting this morning",
+   "yes": "spaced repetition review dates starting 3 march"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "no": "repetition is the only way anything sticks in my head, sadly",
+   "yes": "spaced repetition schedule from 10 october, doubling the gap each time"
+  },
+  {
+   "skill": "chunkList",
+   "no": "the kids always split into the same groups of three at playtime",
+   "yes": "split ann, ben, cal, dee, eve, fay into groups of three"
+  },
+  {
+   "skill": "chunkList",
+   "no": "we broke the hike into chunks and it felt much shorter",
+   "yes": "break 1 2 3 4 5 6 7 8 into chunks of 2"
+  },
+  {
+   "skill": "countItems",
+   "no": "honestly lost count of how many times he said literally",
+   "yes": "count how many times each word appears: red blue red green blue red"
+  },
+  {
+   "skill": "countItems",
+   "no": "the tally at the pub quiz was a disaster, nobody kept score",
+   "yes": "tally these quiz answers: a b a c a b b"
+  },
+  {
+   "skill": "dedupeList",
+   "no": "half my wardrobe is duplicates of the same black jumper",
+   "yes": "remove the duplicates from: jumper, scarf, jumper, hat, scarf"
+  },
+  {
+   "skill": "dedupeList",
+   "no": "my playlist is full of repeats and i love it",
+   "yes": "strip the repeats out of this playlist: halo, yellow, halo, creep, yellow"
+  },
+  {
+   "skill": "differenceLists",
+   "no": "the difference between the two lists of candidates was night and day",
+   "yes": "difference between these two lists: 1 2 3 4 and 2 4 6"
+  },
+  {
+   "skill": "differenceLists",
+   "no": "my packing list and my partner's never match, it's a running joke",
+   "yes": "what's on my packing list but not hers: tent, stove, map / tent, map, torch"
+  },
+  {
+   "skill": "flattenList",
+   "no": "the hills flatten out after the second mile, thankfully",
+   "yes": "flatten [[1, 2], [3, [4, 5]]] into one list"
+  },
+  {
+   "skill": "flattenList",
+   "no": "my notes are lists nested inside lists and i still lose everything",
+   "yes": "flatten these nested lists into one: [[a, b], [c], [d, [e]]]"
+  },
+  {
+   "skill": "intersectLists",
+   "no": "our music tastes overlap about as much as cats and dogs",
+   "yes": "where do our music lists overlap: muse, blur, oasis and oasis, pulp, blur"
+  },
+  {
+   "skill": "intersectLists",
+   "no": "there's a lot of common ground between both teams this season",
+   "yes": "items common to both lists: 3 5 7 9 and 5 9 11"
+  },
+  {
+   "skill": "pairUp",
+   "no": "the twins always pair up in class and drive the teacher mad",
+   "yes": "pair up jo, sam, lee and kit at random, seed 3"
+  },
+  {
+   "skill": "pairUp",
+   "no": "the teams for five-a-side always end up lopsided",
+   "yes": "draw random teams of two from ana, ben, cal, dee, seed 9"
+  },
+  {
+   "skill": "pickRandom",
+   "no": "she picked a restaurant completely at random and it was brilliant",
+   "yes": "pick a restaurant at random from nandos, wagamama, zizzi, seed 5"
+  },
+  {
+   "skill": "pickRandom",
+   "no": "the raffle winners at work are always the same three people",
+   "yes": "pick 3 raffle winners with seed 11: ana, ben, cal, dee, eve, fay"
+  },
+  {
+   "skill": "rangeList",
+   "no": "the kids count down from ten before every bedtime, every single night",
+   "yes": "count down from 20 to 0 in twos"
+  },
+  {
+   "skill": "rangeList",
+   "no": "prices in that shop range from cheap to eye-watering",
+   "yes": "range from 5 to 50 in steps of 5, list them all"
+  },
+  {
+   "skill": "shuffleList",
+   "no": "my mum will shuffle the seating plan ten times before the wedding",
+   "yes": "shuffle the seating plan with seed 4: amy, raj, li, tom, eve"
+  },
+  {
+   "skill": "shuffleList",
+   "no": "the order of the songs at the gig felt totally random",
+   "yes": "randomise the order of these songs, seed 8: halo, yellow, creep, wonderwall"
+  },
+  {
+   "skill": "sortList",
+   "no": "never managed to sort my garage, it is a lost cause",
+   "yes": "sort my garage tools alphabetically: spanner, drill, hammer, saw"
+  },
+  {
+   "skill": "sortList",
+   "no": "the files on my desktop are in no particular order and that suits me",
+   "yes": "put these files in natural order: img10, img2, img1, img21"
+  },
+  {
+   "skill": "unionLists",
+   "no": "the two families merged into one big chaotic household",
+   "yes": "merge these two guest lists into one, no repeats: ann, bo, cy and bo, di"
+  },
+  {
+   "skill": "unionLists",
+   "no": "the union called a strike for next tuesday",
+   "yes": "union of 1 2 3 and 3 4 5"
+  },
+  {
+   "skill": "zipLists",
+   "no": "my jacket zip broke halfway up the hill",
+   "yes": "zip these lists together: amy, bo, cy and 12, 15, 9"
+  },
+  {
+   "skill": "zipLists",
+   "no": "the names and the faces never match up in my head",
+   "yes": "match up these names with these scores by position: amy, bo, cy / 12, 15, 9"
+  },
+  {
+   "skill": "allocateProportionally",
+   "no": "everyone got their fair share of the blame, in proportion to the mess",
+   "yes": "share 900 out in proportion to 2, 3 and 4"
+  },
+  {
+   "skill": "allocateProportionally",
+   "no": "the inheritance was split by some ratio nobody understood",
+   "yes": "split 6000 in the ratio 3:2:1"
+  },
+  {
+   "skill": "evaluateExpression",
+   "no": "her expression when she saw the bill was priceless",
+   "yes": "evaluate the expression (14 + 6) * 3 / 4"
+  },
+  {
+   "skill": "evaluateExpression",
+   "no": "nothing to the power of anything is still nothing, like my pay rise",
+   "yes": "what's 3 to the power of 5 minus (12 / 4)"
+  },
+  {
+   "skill": "factorial",
+   "no": "the factorial chapter was the point i gave up on maths",
+   "yes": "what is 7 factorial"
+  },
+  {
+   "skill": "factorial",
+   "no": "seeing 5! in a textbook still makes me think the 5 is excited",
+   "yes": "what does 9! come to"
+  },
+  {
+   "skill": "fibonacci",
+   "no": "the spiral on that sunflower follows fibonacci, which is oddly beautiful",
+   "yes": "first 12 fibonacci numbers"
+  },
+  {
+   "skill": "fibonacci",
+   "no": "my rabbits are breeding like a fibonacci sequence at this point",
+   "yes": "what is the 25th number in the fibonacci sequence"
+  },
+  {
+   "skill": "formatCurrency",
+   "no": "everything in that shop is priced in euros and it still feels expensive",
+   "yes": "write 2499.9 as euros"
+  },
+  {
+   "skill": "formatCurrency",
+   "no": "dollar signs flashed in his eyes when he heard the offer",
+   "yes": "show 15000 with the proper dollar sign and cents"
+  },
+  {
+   "skill": "formatNumber",
+   "no": "her follower count hit 1.2k and she hasn't stopped talking about it",
+   "yes": "write 1240 in compact form like 1.2k"
+  },
+  {
+   "skill": "formatNumber",
+   "no": "the spreadsheet has numbers with no commas and it hurts my eyes",
+   "yes": "put thousands commas in these numbers: 48213907, 1500000"
+  },
+  {
+   "skill": "fractionSimplify",
+   "no": "only a fraction of the guests actually turned up",
+   "yes": "simplify the fraction 18/24"
+  },
+  {
+   "skill": "fractionSimplify",
+   "no": "we had to reduce the guest list by a third",
+   "yes": "reduce the fraction 35/84 as far as it goes"
+  },
+  {
+   "skill": "gcd",
+   "no": "the only common factor between my exes is that they all loved golf",
+   "yes": "highest common factor of 36 and 60"
+  },
+  {
+   "skill": "gcd",
+   "no": "nothing divides a family like a group chat",
+   "yes": "biggest number that divides 84 and 126 exactly"
+  },
+  {
+   "skill": "isPrime",
+   "no": "that flat is in a prime spot right by the station",
+   "yes": "is 4891 prime or not"
+  },
+  {
+   "skill": "isPrime",
+   "no": "he's well past his prime but still plays sunday league",
+   "yes": "check whether 1009 is a prime number"
+  },
+  {
+   "skill": "lcm",
+   "no": "the film went for the lowest common denominator and it worked",
+   "yes": "lowest common multiple of 8, 12 and 15"
+  },
+  {
+   "skill": "lcm",
+   "no": "my two buses never turn up at the same time, it's uncanny",
+   "yes": "buses every 10 and 25 minutes, when do they next leave together"
+  },
+  {
+   "skill": "parseNumber",
+   "no": "the house sold for half a mil, which is wild for that street",
+   "yes": "turn 'half a mil' into a plain number"
+  },
+  {
+   "skill": "parseNumber",
+   "no": "his salary is somewhere north of 80k now",
+   "yes": "what is 80k as a plain number"
+  },
+  {
+   "skill": "percentageDistribution",
+   "no": "rent eats the biggest share of my spending every single month",
+   "yes": "show each share of my spending as a percent: rent 900, food 300, travel 150"
+  },
+  {
+   "skill": "percentageDistribution",
+   "no": "the votes split almost evenly three ways, which nobody expected",
+   "yes": "how the votes split as percentages: 412, 389, 377"
+  },
+  {
+   "skill": "percentChange",
+   "no": "the price of coffee has gone up so much it's a joke now",
+   "yes": "percentage rise in the price of coffee from 2.80 to 3.40"
+  },
+  {
+   "skill": "percentChange",
+   "no": "the change in my weight since i stopped cycling is shocking",
+   "yes": "percentage change in my weight from 82 to 76"
+  },
+  {
+   "skill": "percentOf",
+   "no": "she tipped 20 percent even though the service was awful",
+   "yes": "20 percent tip on a bill of 64.80"
+  },
+  {
+   "skill": "percentOf",
+   "no": "giving 110 percent at the gym today and already regretting it",
+   "yes": "what is 110 percent of 450"
+  },
+  {
+   "skill": "primeFactors",
+   "no": "i break every problem down into its parts, it is how i cope",
+   "yes": "break 756 down into its prime factors"
+  },
+  {
+   "skill": "primeFactors",
+   "no": "cost was the prime factor in leaving london",
+   "yes": "prime factors of 1386"
+  },
+  {
+   "skill": "product",
+   "no": "the new product launch was a total mess",
+   "yes": "product of 4, 7.5 and 12"
+  },
+  {
+   "skill": "product",
+   "no": "the room is three by four metres, which is barely enough",
+   "yes": "multiply three by four by 2.4"
+  },
+  {
+   "skill": "ratioSolve",
+   "no": "the ratio of work to pay at that place is ridiculous",
+   "yes": "solve the ratio 4:9 = 12:x"
+  },
+  {
+   "skill": "ratioSolve",
+   "no": "everything in proportion, my grandmother used to say",
+   "yes": "solve the proportion 5/8 = x/40"
+  },
+  {
+   "skill": "roundTo",
+   "no": "we round off every holiday with a curry, it is tradition",
+   "yes": "round off 7.4581 to two decimals"
+  },
+  {
+   "skill": "roundTo",
+   "no": "the scales said nearly a round 90 this morning",
+   "yes": "round my weigh-in of 89.627 to one decimal"
+  },
+  {
+   "skill": "solveQuadratic",
+   "no": "the quadratic formula is the one thing from school i still remember",
+   "yes": "solve x^2 + 3x - 10 = 0 with the quadratic formula"
+  },
+  {
+   "skill": "solveQuadratic",
+   "no": "that quadratic equation on the exam haunted me for weeks",
+   "yes": "roots of the quadratic equation 3x^2 - 12x + 9 = 0"
+  },
+  {
+   "skill": "splitEvenly",
+   "no": "we always split the bill evenly and someone always moans",
+   "yes": "split a bill of 97.40 evenly between 6"
+  },
+  {
+   "skill": "splitEvenly",
+   "no": "the house chores are never divided equally between us",
+   "yes": "divide 85.10 equally between the 4 of us"
+  },
+  {
+   "skill": "sum",
+   "no": "add it all up and it was still the best holiday ever",
+   "yes": "add up 312, 87.50, 45 and 160"
+  },
+  {
+   "skill": "sum",
+   "no": "the total of my savings is embarrassing right now",
+   "yes": "total of my savings 150, 220, 75, 310"
+  },
+  {
+   "skill": "toOrdinal",
+   "no": "came 23rd in the park run and still thrilled about it",
+   "yes": "23 with its ordinal suffix"
+  },
+  {
+   "skill": "toOrdinal",
+   "no": "the ordinal numbers in french still trip me up",
+   "yes": "give me the ordinal for 73"
+  },
+  {
+   "skill": "whatPercent",
+   "no": "got 38 out of 50 on the test and mum was still disappointed",
+   "yes": "38 out of 50, what percent is that"
+  },
+  {
+   "skill": "whatPercent",
+   "no": "only a small proportion of the class turned up today",
+   "yes": "what proportion of 28 is 7, as a percentage"
+  },
+  {
+   "skill": "budgetSplit",
+   "no": "the 50/30/20 rule never survives the first week of the month",
+   "yes": "budget my 2800 take-home a month with the 50/30/20 rule"
+  },
+  {
+   "skill": "budgetSplit",
+   "no": "my budget is split between rent, takeaways and regret",
+   "yes": "budget 1900 as 60 percent needs, 25 wants, 15 savings"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "no": "meeting times with the sydney office are always a nightmare",
+   "yes": "find meeting times that suit both london and sydney working hours"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "no": "my brother in new york is never awake when i'm free",
+   "yes": "when can someone in manchester and someone in new york both meet in work hours"
+  }
+ ]
+}

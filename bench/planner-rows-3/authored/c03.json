@@ -1,0 +1,5582 @@
+{
+ "rows": [
+  {
+   "skill": "columnMath",
+   "message": "Quick one: add up the miles column. day,miles / Mon,3.2 / Wed,5 / Sat,8.4",
+   "input": {
+    "table": {
+     "headers": [
+      "day",
+      "miles"
+     ],
+     "rows": [
+      {
+       "day": "Mon",
+       "miles": 3.2
+      },
+      {
+       "day": "Wed",
+       "miles": 5
+      },
+      {
+       "day": "Sat",
+       "miles": 8.4
+      }
+     ]
+    },
+    "column": "miles",
+    "operation": "sum"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "add up"
+    }
+   ]
+  },
+  {
+   "skill": "columnMath",
+   "message": "what's the total in the score column? team,score / Owls,14 / Hawks,22 / Kites,9",
+   "input": {
+    "table": {
+     "headers": [
+      "team",
+      "score"
+     ],
+     "rows": [
+      {
+       "team": "Owls",
+       "score": 14
+      },
+      {
+       "team": "Hawks",
+       "score": 22
+      },
+      {
+       "team": "Kites",
+       "score": 9
+      }
+     ]
+    },
+    "column": "score",
+    "operation": "sum"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "total"
+    }
+   ]
+  },
+  {
+   "skill": "columnMath",
+   "message": "Nurse here, I need the average of the pulse column: patient,pulse / A,72 / B,88 / C,64",
+   "input": {
+    "table": {
+     "headers": [
+      "patient",
+      "pulse"
+     ],
+     "rows": [
+      {
+       "patient": "A",
+       "pulse": 72
+      },
+      {
+       "patient": "B",
+       "pulse": 88
+      },
+      {
+       "patient": "C",
+       "pulse": 64
+      }
+     ]
+    },
+    "column": "pulse",
+    "operation": "average"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "average"
+    }
+   ]
+  },
+  {
+   "skill": "columnMath",
+   "message": "find the lowest number in the score column: player,score / Jin,41 / Ola,37 / Raf,55",
+   "input": {
+    "table": {
+     "headers": [
+      "player",
+      "score"
+     ],
+     "rows": [
+      {
+       "player": "Jin",
+       "score": 41
+      },
+      {
+       "player": "Ola",
+       "score": 37
+      },
+      {
+       "player": "Raf",
+       "score": 55
+      }
+     ]
+    },
+    "column": "score",
+    "operation": "min"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "lowest"
+    }
+   ]
+  },
+  {
+   "skill": "columnMath",
+   "message": "biggest value in the visits column: site,visits / home,1204 / blog,388 / shop,950",
+   "input": {
+    "table": {
+     "headers": [
+      "site",
+      "visits"
+     ],
+     "rows": [
+      {
+       "site": "home",
+       "visits": 1204
+      },
+      {
+       "site": "blog",
+       "visits": 388
+      },
+      {
+       "site": "shop",
+       "visits": 950
+      }
+     ]
+    },
+    "column": "visits",
+    "operation": "max"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "biggest"
+    }
+   ]
+  },
+  {
+   "skill": "columnMath",
+   "message": "maximum of the temp column please. city,temp / Rome,29 / Oslo,17 / Cairo,35",
+   "input": {
+    "table": {
+     "headers": [
+      "city",
+      "temp"
+     ],
+     "rows": [
+      {
+       "city": "Rome",
+       "temp": 29
+      },
+      {
+       "city": "Oslo",
+       "temp": 17
+      },
+      {
+       "city": "Cairo",
+       "temp": 35
+      }
+     ]
+    },
+    "column": "temp",
+    "operation": "max"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "maximum"
+    }
+   ]
+  },
+  {
+   "skill": "columnMath",
+   "message": "count the values in the email column, name,email / Al,al@x.io / Bea,bea@y.com / Cal,cal@z.net",
+   "input": {
+    "table": {
+     "headers": [
+      "name",
+      "email"
+     ],
+     "rows": [
+      {
+       "name": "Al",
+       "email": "al@x.io"
+      },
+      {
+       "name": "Bea",
+       "email": "bea@y.com"
+      },
+      {
+       "name": "Cal",
+       "email": "cal@z.net"
+      }
+     ]
+    },
+    "column": "email",
+    "operation": "count"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "count"
+    }
+   ]
+  },
+  {
+   "skill": "columnMath",
+   "message": "take the mean down the price column of the table I pasted earlier",
+   "input": {
+    "column": "price",
+    "operation": "average"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "mean"
+    }
+   ]
+  },
+  {
+   "skill": "columnMath",
+   "message": "smallest figure in the weight column of my spreadsheet?",
+   "input": {
+    "column": "weight",
+    "operation": "min"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "smallest"
+    }
+   ]
+  },
+  {
+   "skill": "columnMath",
+   "message": "Teacher: sum the marks column for me.\nstudent,marks\nAva,18\nBen,15\nCal,20",
+   "input": {
+    "table": {
+     "headers": [
+      "student",
+      "marks"
+     ],
+     "rows": [
+      {
+       "student": "Ava",
+       "marks": 18
+      },
+      {
+       "student": "Ben",
+       "marks": 15
+      },
+      {
+       "student": "Cal",
+       "marks": 20
+      }
+     ]
+    },
+    "column": "marks",
+    "operation": "sum"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "sum"
+    }
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "message": "keep rows where qty is over 10: sku,qty / A1,4 / B2,12 / C3,30",
+   "input": {
+    "table": {
+     "headers": [
+      "sku",
+      "qty"
+     ],
+     "rows": [
+      {
+       "sku": "A1",
+       "qty": 4
+      },
+      {
+       "sku": "B2",
+       "qty": 12
+      },
+      {
+       "sku": "C3",
+       "qty": 30
+      }
+     ]
+    },
+    "column": "qty",
+    "operator": ">",
+    "value": 10
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operator",
+     "rule": "enum",
+     "from": "over"
+    }
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "message": "only the rows with a score of at least 50 please. name,score / Ali,48 / Bo,77 / Cy,50",
+   "input": {
+    "table": {
+     "headers": [
+      "name",
+      "score"
+     ],
+     "rows": [
+      {
+       "name": "Ali",
+       "score": 48
+      },
+      {
+       "name": "Bo",
+       "score": 77
+      },
+      {
+       "name": "Cy",
+       "score": 50
+      }
+     ]
+    },
+    "column": "score",
+    "operator": ">=",
+    "value": 50
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operator",
+     "rule": "enum",
+     "from": "at least"
+    }
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "message": "filter to cities where city contains ton\ncity,pop / Boston,650 / Austin,960 / Kingston,120",
+   "input": {
+    "table": {
+     "headers": [
+      "city",
+      "pop"
+     ],
+     "rows": [
+      {
+       "city": "Boston",
+       "pop": 650
+      },
+      {
+       "city": "Austin",
+       "pop": 960
+      },
+      {
+       "city": "Kingston",
+       "pop": 120
+      }
+     ]
+    },
+    "column": "city",
+    "operator": "contains",
+    "value": "ton"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operator",
+     "rule": "enum",
+     "from": "contains"
+    }
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "message": "keep just the rows whose name starts with J\nname,dept\nJo,IT\nMax,HR\nJules,Ops",
+   "input": {
+    "table": {
+     "headers": [
+      "name",
+      "dept"
+     ],
+     "rows": [
+      {
+       "name": "Jo",
+       "dept": "IT"
+      },
+      {
+       "name": "Max",
+       "dept": "HR"
+      },
+      {
+       "name": "Jules",
+       "dept": "Ops"
+      }
+     ]
+    },
+    "column": "name",
+    "operator": "starts with",
+    "value": "J"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operator",
+     "rule": "enum",
+     "from": "starts with"
+    }
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "message": "keep only rows where status is not done: task,status / tidy,done / file,open / call,waiting",
+   "input": {
+    "table": {
+     "headers": [
+      "task",
+      "status"
+     ],
+     "rows": [
+      {
+       "task": "tidy",
+       "status": "done"
+      },
+      {
+       "task": "file",
+       "status": "open"
+      },
+      {
+       "task": "call",
+       "status": "waiting"
+      }
+     ]
+    },
+    "column": "status",
+    "operator": "!=",
+    "value": "done"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operator",
+     "rule": "enum",
+     "from": "is not"
+    }
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "message": "Filter this to rows with price below 3.5 — item,price / jam,2.99 / tea,4.10 / oat,3.5",
+   "input": {
+    "table": {
+     "headers": [
+      "item",
+      "price"
+     ],
+     "rows": [
+      {
+       "item": "jam",
+       "price": 2.99
+      },
+      {
+       "item": "tea",
+       "price": 4.1
+      },
+      {
+       "item": "oat",
+       "price": 3.5
+      }
+     ]
+    },
+    "column": "price",
+    "operator": "<",
+    "value": 3.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operator",
+     "rule": "enum",
+     "from": "below"
+    }
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "message": "I only want the rows with region equal to North. region,sales / North,40 / South,22 / North,18",
+   "input": {
+    "table": {
+     "headers": [
+      "region",
+      "sales"
+     ],
+     "rows": [
+      {
+       "region": "North",
+       "sales": 40
+      },
+      {
+       "region": "South",
+       "sales": 22
+      },
+      {
+       "region": "North",
+       "sales": 18
+      }
+     ]
+    },
+    "column": "region",
+    "operator": "=",
+    "value": "North"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operator",
+     "rule": "enum",
+     "from": "equal to"
+    }
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "message": "keep only rows where age is no more than 30: name,age / Kim,29 / Lu,31 / Mo,30",
+   "input": {
+    "table": {
+     "headers": [
+      "name",
+      "age"
+     ],
+     "rows": [
+      {
+       "name": "Kim",
+       "age": 29
+      },
+      {
+       "name": "Lu",
+       "age": 31
+      },
+      {
+       "name": "Mo",
+       "age": 30
+      }
+     ]
+    },
+    "column": "age",
+    "operator": "<=",
+    "value": 30
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operator",
+     "rule": "enum",
+     "from": "no more than"
+    }
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "message": "keep only the rows of my timesheet where hours is greater than 40",
+   "input": {
+    "column": "hours",
+    "operator": ">",
+    "value": 40
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "operator",
+     "rule": "enum",
+     "from": "greater than"
+    }
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "message": "filter the table I sent so only rows where department equals Sales are left",
+   "input": {
+    "column": "department",
+    "operator": "=",
+    "value": "Sales"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "operator",
+     "rule": "enum",
+     "from": "equals"
+    }
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "message": "group by customer and count the orders: customer,item / Ann,pen / Raj,ink / Ann,pad",
+   "input": {
+    "table": {
+     "headers": [
+      "customer",
+      "item"
+     ],
+     "rows": [
+      {
+       "customer": "Ann",
+       "item": "pen"
+      },
+      {
+       "customer": "Raj",
+       "item": "ink"
+      },
+      {
+       "customer": "Ann",
+       "item": "pad"
+      }
+     ]
+    },
+    "column": "customer",
+    "operation": "count"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "count"
+    }
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "message": "total the spend for each category\ncategory,spend\nfood,12.5\nfuel,40\nfood,7.25",
+   "input": {
+    "table": {
+     "headers": [
+      "category",
+      "spend"
+     ],
+     "rows": [
+      {
+       "category": "food",
+       "spend": 12.5
+      },
+      {
+       "category": "fuel",
+       "spend": 40
+      },
+      {
+       "category": "food",
+       "spend": 7.25
+      }
+     ]
+    },
+    "column": "category",
+    "aggregate": "spend",
+    "operation": "sum"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "total"
+    }
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "message": "average goals grouped by team: team,goals / Reds,2 / Blues,1 / Reds,4",
+   "input": {
+    "table": {
+     "headers": [
+      "team",
+      "goals"
+     ],
+     "rows": [
+      {
+       "team": "Reds",
+       "goals": 2
+      },
+      {
+       "team": "Blues",
+       "goals": 1
+      },
+      {
+       "team": "Reds",
+       "goals": 4
+      }
+     ]
+    },
+    "column": "team",
+    "aggregate": "goals",
+    "operation": "mean"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "average"
+    }
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "message": "Shop owner here, what is the max price in each aisle? aisle,price / A,3.2 / B,1.1 / A,5.6",
+   "input": {
+    "table": {
+     "headers": [
+      "aisle",
+      "price"
+     ],
+     "rows": [
+      {
+       "aisle": "A",
+       "price": 3.2
+      },
+      {
+       "aisle": "B",
+       "price": 1.1
+      },
+      {
+       "aisle": "A",
+       "price": 5.6
+      }
+     ]
+    },
+    "column": "aisle",
+    "aggregate": "price",
+    "operation": "max"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "max"
+    }
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "message": "group these rows by species and take the minimum weight: species,weight / cat,4.1 / dog,12 / cat,3.6",
+   "input": {
+    "table": {
+     "headers": [
+      "species",
+      "weight"
+     ],
+     "rows": [
+      {
+       "species": "cat",
+       "weight": 4.1
+      },
+      {
+       "species": "dog",
+       "weight": 12
+      },
+      {
+       "species": "cat",
+       "weight": 3.6
+      }
+     ]
+    },
+    "column": "species",
+    "aggregate": "weight",
+    "operation": "min"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "minimum"
+    }
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "message": "group by month and give the mean temp — month,temp / Jan,3 / Feb,5 / Jan,1",
+   "input": {
+    "table": {
+     "headers": [
+      "month",
+      "temp"
+     ],
+     "rows": [
+      {
+       "month": "Jan",
+       "temp": 3
+      },
+      {
+       "month": "Feb",
+       "temp": 5
+      },
+      {
+       "month": "Jan",
+       "temp": 1
+      }
+     ]
+    },
+    "column": "month",
+    "aggregate": "temp",
+    "operation": "mean"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "mean"
+    }
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "message": "sum the hours by project. project,hours / Atlas,6 / Beacon,3 / Atlas,2.5",
+   "input": {
+    "table": {
+     "headers": [
+      "project",
+      "hours"
+     ],
+     "rows": [
+      {
+       "project": "Atlas",
+       "hours": 6
+      },
+      {
+       "project": "Beacon",
+       "hours": 3
+      },
+      {
+       "project": "Atlas",
+       "hours": 2.5
+      }
+     ]
+    },
+    "column": "project",
+    "aggregate": "hours",
+    "operation": "sum"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "sum"
+    }
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "message": "for the sales sheet I attached, total the revenue grouped by rep",
+   "input": {
+    "column": "rep",
+    "aggregate": "revenue",
+    "operation": "sum"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "total"
+    }
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "message": "how many tickets are there per status in the table above?",
+   "input": {
+    "column": "status",
+    "operation": "count"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "how many"
+    }
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "message": "lowest score in each class, grouped: class,score / 7A,61 / 7B,58 / 7A,49",
+   "input": {
+    "table": {
+     "headers": [
+      "class",
+      "score"
+     ],
+     "rows": [
+      {
+       "class": "7A",
+       "score": 61
+      },
+      {
+       "class": "7B",
+       "score": 58
+      },
+      {
+       "class": "7A",
+       "score": 49
+      }
+     ]
+    },
+    "column": "class",
+    "aggregate": "score",
+    "operation": "min"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "lowest"
+    }
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "message": "pivot a count of bookings by room and day: room,day / Oak,Mon / Elm,Mon / Oak,Tue",
+   "input": {
+    "table": {
+     "headers": [
+      "room",
+      "day"
+     ],
+     "rows": [
+      {
+       "room": "Oak",
+       "day": "Mon"
+      },
+      {
+       "room": "Elm",
+       "day": "Mon"
+      },
+      {
+       "room": "Oak",
+       "day": "Tue"
+      }
+     ]
+    },
+    "rowColumn": "room",
+    "columnColumn": "day",
+    "operation": "count"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "count"
+    }
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "message": "pivot the average rating with product as rows and store as columns: product,store,rating / tea,A,4 / tea,B,3 / mug,A,5 / mug,B,2",
+   "input": {
+    "table": {
+     "headers": [
+      "product",
+      "store",
+      "rating"
+     ],
+     "rows": [
+      {
+       "product": "tea",
+       "store": "A",
+       "rating": 4
+      },
+      {
+       "product": "tea",
+       "store": "B",
+       "rating": 3
+      },
+      {
+       "product": "mug",
+       "store": "A",
+       "rating": 5
+      },
+      {
+       "product": "mug",
+       "store": "B",
+       "rating": 2
+      }
+     ]
+    },
+    "rowColumn": "product",
+    "columnColumn": "store",
+    "valueColumn": "rating",
+    "operation": "mean"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "average"
+    }
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "message": "pivot total units by rep and quarter\nrep,quarter,units\nKo,Q1,10\nKo,Q2,14\nLi,Q1,9\nLi,Q2,11",
+   "input": {
+    "table": {
+     "headers": [
+      "rep",
+      "quarter",
+      "units"
+     ],
+     "rows": [
+      {
+       "rep": "Ko",
+       "quarter": "Q1",
+       "units": 10
+      },
+      {
+       "rep": "Ko",
+       "quarter": "Q2",
+       "units": 14
+      },
+      {
+       "rep": "Li",
+       "quarter": "Q1",
+       "units": 9
+      },
+      {
+       "rep": "Li",
+       "quarter": "Q2",
+       "units": 11
+      }
+     ]
+    },
+    "rowColumn": "rep",
+    "columnColumn": "quarter",
+    "valueColumn": "units",
+    "operation": "sum"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "total"
+    }
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "message": "pivot the max lap by driver and track driver,track,lap / Ana,Monza,81 / Ana,Spa,105 / Ben,Monza,83 / Ben,Spa,103",
+   "input": {
+    "table": {
+     "headers": [
+      "driver",
+      "track",
+      "lap"
+     ],
+     "rows": [
+      {
+       "driver": "Ana",
+       "track": "Monza",
+       "lap": 81
+      },
+      {
+       "driver": "Ana",
+       "track": "Spa",
+       "lap": 105
+      },
+      {
+       "driver": "Ben",
+       "track": "Monza",
+       "lap": 83
+      },
+      {
+       "driver": "Ben",
+       "track": "Spa",
+       "lap": 103
+      }
+     ]
+    },
+    "rowColumn": "driver",
+    "columnColumn": "track",
+    "valueColumn": "lap",
+    "operation": "max"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "max"
+    }
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "message": "pivot the minimum price, shop as rows and fruit as columns. shop,fruit,price / X,apple,0.4 / X,pear,0.6 / Y,apple,0.35 / Y,pear,0.55",
+   "input": {
+    "table": {
+     "headers": [
+      "shop",
+      "fruit",
+      "price"
+     ],
+     "rows": [
+      {
+       "shop": "X",
+       "fruit": "apple",
+       "price": 0.4
+      },
+      {
+       "shop": "X",
+       "fruit": "pear",
+       "price": 0.6
+      },
+      {
+       "shop": "Y",
+       "fruit": "apple",
+       "price": 0.35
+      },
+      {
+       "shop": "Y",
+       "fruit": "pear",
+       "price": 0.55
+      }
+     ]
+    },
+    "rowColumn": "shop",
+    "columnColumn": "fruit",
+    "valueColumn": "price",
+    "operation": "min"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "minimum"
+    }
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "message": "pivot table: sum of sales by person and week. person,week,sales / Zoe,w1,30 / Zoe,w2,28 / Tim,w1,35 / Tim,w2,40",
+   "input": {
+    "table": {
+     "headers": [
+      "person",
+      "week",
+      "sales"
+     ],
+     "rows": [
+      {
+       "person": "Zoe",
+       "week": "w1",
+       "sales": 30
+      },
+      {
+       "person": "Zoe",
+       "week": "w2",
+       "sales": 28
+      },
+      {
+       "person": "Tim",
+       "week": "w1",
+       "sales": 35
+      },
+      {
+       "person": "Tim",
+       "week": "w2",
+       "sales": 40
+      }
+     ]
+    },
+    "rowColumn": "person",
+    "columnColumn": "week",
+    "valueColumn": "sales",
+    "operation": "sum"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "sum"
+    }
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "message": "pivot mean score, class by test: class,test,score / 9X,t1,62 / 9X,t2,70 / 9Y,t1,58 / 9Y,t2,66",
+   "input": {
+    "table": {
+     "headers": [
+      "class",
+      "test",
+      "score"
+     ],
+     "rows": [
+      {
+       "class": "9X",
+       "test": "t1",
+       "score": 62
+      },
+      {
+       "class": "9X",
+       "test": "t2",
+       "score": 70
+      },
+      {
+       "class": "9Y",
+       "test": "t1",
+       "score": 58
+      },
+      {
+       "class": "9Y",
+       "test": "t2",
+       "score": 66
+      }
+     ]
+    },
+    "rowColumn": "class",
+    "columnColumn": "test",
+    "valueColumn": "score",
+    "operation": "mean"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "mean"
+    }
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "message": "pivot the sheet I uploaded: total amount by region and month",
+   "input": {
+    "rowColumn": "region",
+    "columnColumn": "month",
+    "valueColumn": "amount",
+    "operation": "sum"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "total"
+    }
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "message": "cross-tabulate my survey table, counting answers by cohort and question",
+   "input": {
+    "rowColumn": "cohort",
+    "columnColumn": "question",
+    "operation": "count"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "counting"
+    }
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "message": "highest temp, pivoted by city and month: city,month,temp / Rome,Jun,31 / Rome,Jul,34 / Oslo,Jun,19 / Oslo,Jul,22",
+   "input": {
+    "table": {
+     "headers": [
+      "city",
+      "month",
+      "temp"
+     ],
+     "rows": [
+      {
+       "city": "Rome",
+       "month": "Jun",
+       "temp": 31
+      },
+      {
+       "city": "Rome",
+       "month": "Jul",
+       "temp": 34
+      },
+      {
+       "city": "Oslo",
+       "month": "Jun",
+       "temp": 19
+      },
+      {
+       "city": "Oslo",
+       "month": "Jul",
+       "temp": 22
+      }
+     ]
+    },
+    "rowColumn": "city",
+    "columnColumn": "month",
+    "valueColumn": "temp",
+    "operation": "max"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "operation",
+     "rule": "enum",
+     "from": "highest"
+    }
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "message": "sort by price, cheapest first: item,price / lamp,24 / rug,60 / mug,6",
+   "input": {
+    "table": {
+     "headers": [
+      "item",
+      "price"
+     ],
+     "rows": [
+      {
+       "item": "lamp",
+       "price": 24
+      },
+      {
+       "item": "rug",
+       "price": 60
+      },
+      {
+       "item": "mug",
+       "price": 6
+      }
+     ]
+    },
+    "column": "price",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "cheapest first"
+    }
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "message": "sort these by score, highest first\nname,score\nIvy,82\nOwen,91\nPia,77",
+   "input": {
+    "table": {
+     "headers": [
+      "name",
+      "score"
+     ],
+     "rows": [
+      {
+       "name": "Ivy",
+       "score": 82
+      },
+      {
+       "name": "Owen",
+       "score": 91
+      },
+      {
+       "name": "Pia",
+       "score": 77
+      }
+     ]
+    },
+    "column": "score",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "highest first"
+    }
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "message": "sort the table by date, newest first: date,event / 2026-03-02,launch / 2026-07-19,review / 2026-01-10,kickoff",
+   "input": {
+    "table": {
+     "headers": [
+      "date",
+      "event"
+     ],
+     "rows": [
+      {
+       "date": "2026-03-02",
+       "event": "launch"
+      },
+      {
+       "date": "2026-07-19",
+       "event": "review"
+      },
+      {
+       "date": "2026-01-10",
+       "event": "kickoff"
+      }
+     ]
+    },
+    "column": "date",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "newest first"
+    }
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "message": "can you sort by name in descending order? name,team / Zed,A / Amy,B / Lou,C",
+   "input": {
+    "table": {
+     "headers": [
+      "name",
+      "team"
+     ],
+     "rows": [
+      {
+       "name": "Zed",
+       "team": "A"
+      },
+      {
+       "name": "Amy",
+       "team": "B"
+      },
+      {
+       "name": "Lou",
+       "team": "C"
+      }
+     ]
+    },
+    "column": "name",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "descending"
+    }
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "message": "Sort ascending by age. name,age / Rui,34 / Kat,27 / Dev,41",
+   "input": {
+    "table": {
+     "headers": [
+      "name",
+      "age"
+     ],
+     "rows": [
+      {
+       "name": "Rui",
+       "age": 34
+      },
+      {
+       "name": "Kat",
+       "age": 27
+      },
+      {
+       "name": "Dev",
+       "age": 41
+      }
+     ]
+    },
+    "column": "age",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "ascending"
+    }
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "message": "sort by km, smallest to largest — town,km / Ely,24 / Bath,180 / Hove,95",
+   "input": {
+    "table": {
+     "headers": [
+      "town",
+      "km"
+     ],
+     "rows": [
+      {
+       "town": "Ely",
+       "km": 24
+      },
+      {
+       "town": "Bath",
+       "km": 180
+      },
+      {
+       "town": "Hove",
+       "km": 95
+      }
+     ]
+    },
+    "column": "km",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "smallest to largest"
+    }
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "message": "sort these rows by surname in reverse alphabetical order: surname,first / Adams,Jo / Young,Al / Patel,Ria",
+   "input": {
+    "table": {
+     "headers": [
+      "surname",
+      "first"
+     ],
+     "rows": [
+      {
+       "surname": "Adams",
+       "first": "Jo"
+      },
+      {
+       "surname": "Young",
+       "first": "Al"
+      },
+      {
+       "surname": "Patel",
+       "first": "Ria"
+      }
+     ]
+    },
+    "column": "surname",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "reverse alphabetical"
+    }
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "message": "sort my expenses table by amount, largest to smallest",
+   "input": {
+    "column": "amount",
+    "direction": "descending"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "largest to smallest"
+    }
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "message": "sort the rows of my inventory sheet by stock, lowest first",
+   "input": {
+    "column": "stock",
+    "direction": "ascending"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "lowest first"
+    }
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "message": "sort by points in descending order, then by name: name,points / Ash,10 / Bea,12 / Cal,10",
+   "input": {
+    "table": {
+     "headers": [
+      "name",
+      "points"
+     ],
+     "rows": [
+      {
+       "name": "Ash",
+       "points": 10
+      },
+      {
+       "name": "Bea",
+       "points": 12
+      },
+      {
+       "name": "Cal",
+       "points": 10
+      }
+     ]
+    },
+    "column": "points",
+    "direction": "descending",
+    "then": "name"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "descending"
+    }
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "message": "export this table as CSV with semicolons: product | price / pen | 1.2 / pad | 3",
+   "input": {
+    "table": {
+     "headers": [
+      "product",
+      "price"
+     ],
+     "rows": [
+      {
+       "product": "pen",
+       "price": 1.2
+      },
+      {
+       "product": "pad",
+       "price": 3
+      }
+     ]
+    },
+    "delimiter": ";"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "semicolons"
+    }
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "message": "write these rows out as tab-separated CSV text: name | age / Ivo | 40 / Una | 35",
+   "input": {
+    "table": {
+     "headers": [
+      "name",
+      "age"
+     ],
+     "rows": [
+      {
+       "name": "Ivo",
+       "age": 40
+      },
+      {
+       "name": "Una",
+       "age": 35
+      }
+     ]
+    },
+    "delimiter": "\t"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "tab-separated"
+    }
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "message": "make a pipe-delimited csv out of this: code | city / LHR | London / CDG | Paris",
+   "input": {
+    "table": {
+     "headers": [
+      "code",
+      "city"
+     ],
+     "rows": [
+      {
+       "code": "LHR",
+       "city": "London"
+      },
+      {
+       "code": "CDG",
+       "city": "Paris"
+      }
+     ]
+    },
+    "delimiter": "|"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "pipe-delimited"
+    }
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "message": "convert this table to comma-separated csv: day | rain / Mon | 2 / Tue | 0",
+   "input": {
+    "table": {
+     "headers": [
+      "day",
+      "rain"
+     ],
+     "rows": [
+      {
+       "day": "Mon",
+       "rain": 2
+      },
+      {
+       "day": "Tue",
+       "rain": 0
+      }
+     ]
+    },
+    "delimiter": ","
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "comma-separated"
+    }
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "message": "I need it as csv with ; between fields — region | total / N | 40 / S | 31",
+   "input": {
+    "table": {
+     "headers": [
+      "region",
+      "total"
+     ],
+     "rows": [
+      {
+       "region": "N",
+       "total": 40
+      },
+      {
+       "region": "S",
+       "total": 31
+      }
+     ]
+    },
+    "delimiter": ";"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": ";"
+    }
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "message": "export as a TSV csv file please: team | wins / Owls | 7 / Hawks | 9",
+   "input": {
+    "table": {
+     "headers": [
+      "team",
+      "wins"
+     ],
+     "rows": [
+      {
+       "team": "Owls",
+       "wins": 7
+      },
+      {
+       "team": "Hawks",
+       "wins": 9
+      }
+     ]
+    },
+    "delimiter": "\t"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "tsv"
+    }
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "message": "save my table as csv with semicolons instead of commas",
+   "input": {
+    "delimiter": ";"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "semicolons"
+    }
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "message": "turn the table above into a tab-delimited csv",
+   "input": {
+    "delimiter": "\t"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "tab-delimited"
+    }
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "message": "write this to CSV using a pipe between columns. sku | qty / X1 | 5 / Y2 | 0",
+   "input": {
+    "table": {
+     "headers": [
+      "sku",
+      "qty"
+     ],
+     "rows": [
+      {
+       "sku": "X1",
+       "qty": 5
+      },
+      {
+       "sku": "Y2",
+       "qty": 0
+      }
+     ]
+    },
+    "delimiter": "|"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "pipe between columns"
+    }
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "message": "csv out with commas please — fruit | kg / fig | 2 / kiwi | 1.5",
+   "input": {
+    "table": {
+     "headers": [
+      "fruit",
+      "kg"
+     ],
+     "rows": [
+      {
+       "fruit": "fig",
+       "kg": 2
+      },
+      {
+       "fruit": "kiwi",
+       "kg": 1.5
+      }
+     ]
+    },
+    "delimiter": ","
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "commas"
+    }
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "message": "markdown table, centred columns: player,goals / Kane,30 / Salah,24",
+   "input": {
+    "table": {
+     "headers": [
+      "player",
+      "goals"
+     ],
+     "rows": [
+      {
+       "player": "Kane",
+       "goals": 30
+      },
+      {
+       "player": "Salah",
+       "goals": 24
+      }
+     ]
+    },
+    "align": "centre"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "centred"
+    }
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "message": "turn this into a markdown table with everything right aligned — month,cost / Jan,420 / Feb,385",
+   "input": {
+    "table": {
+     "headers": [
+      "month",
+      "cost"
+     ],
+     "rows": [
+      {
+       "month": "Jan",
+       "cost": 420
+      },
+      {
+       "month": "Feb",
+       "cost": 385
+      }
+     ]
+    },
+    "align": "right"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "right aligned"
+    }
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "message": "I'm writing docs; markdown table, left-aligned: flag,meaning / -v,verbose / -q,quiet",
+   "input": {
+    "table": {
+     "headers": [
+      "flag",
+      "meaning"
+     ],
+     "rows": [
+      {
+       "flag": "-v",
+       "meaning": "verbose"
+      },
+      {
+       "flag": "-q",
+       "meaning": "quiet"
+      }
+     ]
+    },
+    "align": "left"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "left-aligned"
+    }
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "message": "markdown table please, center aligned: planet,moons / Mars,2 / Jupiter,95",
+   "input": {
+    "table": {
+     "headers": [
+      "planet",
+      "moons"
+     ],
+     "rows": [
+      {
+       "planet": "Mars",
+       "moons": 2
+      },
+      {
+       "planet": "Jupiter",
+       "moons": 95
+      }
+     ]
+    },
+    "align": "centre"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "center aligned"
+    }
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "message": "Can you make a markdown table with the numbers aligned to the right? item,qty / bolts,40 / nuts,55",
+   "input": {
+    "table": {
+     "headers": [
+      "item",
+      "qty"
+     ],
+     "rows": [
+      {
+       "item": "bolts",
+       "qty": 40
+      },
+      {
+       "item": "nuts",
+       "qty": 55
+      }
+     ]
+    },
+    "align": "right"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "aligned to the right"
+    }
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "message": "markdown table with centered text: country,capital / Peru,Lima / Mali,Bamako",
+   "input": {
+    "table": {
+     "headers": [
+      "country",
+      "capital"
+     ],
+     "rows": [
+      {
+       "country": "Peru",
+       "capital": "Lima"
+      },
+      {
+       "country": "Mali",
+       "capital": "Bamako"
+      }
+     ]
+    },
+    "align": "centre"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "centered"
+    }
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "message": "my lab results table needs to go in the wiki as markdown, right-aligned",
+   "input": {
+    "align": "right"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "right-aligned"
+    }
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "message": "the figures I pasted below should be a markdown table with centred cells",
+   "input": {
+    "align": "centre"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "centred"
+    }
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "message": "README table in markdown, align left please: key,default / port,8080 / host,localhost",
+   "input": {
+    "table": {
+     "headers": [
+      "key",
+      "default"
+     ],
+     "rows": [
+      {
+       "key": "port",
+       "default": 8080
+      },
+      {
+       "key": "host",
+       "default": "localhost"
+      }
+     ]
+    },
+    "align": "left"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "align left"
+    }
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "message": "markdown table, right justified: runner,time / Ola,41:02 / Ben,39:55",
+   "input": {
+    "table": {
+     "headers": [
+      "runner",
+      "time"
+     ],
+     "rows": [
+      {
+       "runner": "Ola",
+       "time": "41:02"
+      },
+      {
+       "runner": "Ben",
+       "time": "39:55"
+      }
+     ]
+    },
+    "align": "right"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "right justified"
+    }
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "message": "minify this json for a config value: {\"a\": 1, \"b\": [1, 2]}",
+   "input": {
+    "text": "{\"a\": 1, \"b\": [1, 2]}",
+    "style": "minified"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "minify"
+    }
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "message": "squash this json onto one line:\n{\n  \"id\": 7,\n  \"ok\": true\n}",
+   "input": {
+    "text": "{\n  \"id\": 7,\n  \"ok\": true\n}",
+    "style": "minified"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "onto one line"
+    }
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "message": "pretty print {\"user\":{\"name\":\"Ann\",\"age\":30}} with 4 spaces",
+   "input": {
+    "text": "{\"user\":{\"name\":\"Ann\",\"age\":30}}",
+    "style": "pretty",
+    "indent": 4
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "pretty"
+    }
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "message": "make this json readable please: {\"items\":[1,2,3],\"total\":6}",
+   "input": {
+    "text": "{\"items\":[1,2,3],\"total\":6}",
+    "style": "pretty"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "readable"
+    }
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "message": "compact this JSON: { \"x\": 1, \"y\": 2 }",
+   "input": {
+    "text": "{ \"x\": 1, \"y\": 2 }",
+    "style": "minified"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "compact"
+    }
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "message": "Developer here, I want the minified version of {\"debug\": false, \"level\": \"warn\"} please",
+   "input": {
+    "text": "{\"debug\": false, \"level\": \"warn\"}",
+    "style": "minified"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "minified"
+    }
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "message": "can you minify the webhook payload I copied? it's json and too long",
+   "input": {
+    "style": "minified"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "minify"
+    }
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "message": "pretty-print the json our API sent back, it's at the bottom of this message",
+   "input": {
+    "style": "pretty"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "pretty-print"
+    }
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "message": "strip the whitespace out of this json: {\"k\": \"v\", \"n\": 2}",
+   "input": {
+    "text": "{\"k\": \"v\", \"n\": 2}",
+    "style": "minified"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "strip the whitespace"
+    }
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "message": "pretty format the json and sort keys: {\"b\":2,\"a\":1,\"c\":3}",
+   "input": {
+    "text": "{\"b\":2,\"a\":1,\"c\":3}",
+    "style": "pretty",
+    "sortKeys": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "pretty"
+    }
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "message": "read this into rows, it's semicolon-delimited:\nname;score\nAna;9\nBo;7",
+   "input": {
+    "text": "name;score\nAna;9\nBo;7",
+    "delimiter": ";"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "semicolon-delimited"
+    }
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "message": "parse this pipe-separated export: id|city\n1|Leeds\n2|York",
+   "input": {
+    "text": "id|city\n1|Leeds\n2|York",
+    "delimiter": "|"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "pipe-separated"
+    }
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "message": "tab-separated csv, parse it:\nname\tage\nJo\t31\nMo\t28",
+   "input": {
+    "text": "name\tage\nJo\t31\nMo\t28",
+    "delimiter": "\t"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "tab-separated"
+    }
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "message": "parse this csv (comma delimited): sku,qty\nA7,3\nB9,12",
+   "input": {
+    "text": "sku,qty\nA7,3\nB9,12",
+    "delimiter": ","
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "comma delimited"
+    }
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "message": "Accountant here. Parse these csv figures, fields split by semicolons:\nmonth;income\nJan;3200\nFeb;2950",
+   "input": {
+    "text": "month;income\nJan;3200\nFeb;2950",
+    "delimiter": ";"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "semicolons"
+    }
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "message": "the separator is a pipe, parse the csv: fruit|kg\nfig|2\nlime|1.5",
+   "input": {
+    "text": "fruit|kg\nfig|2\nlime|1.5",
+    "delimiter": "|"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "pipe"
+    }
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "message": "parse the semicolon-separated csv file I pasted",
+   "input": {
+    "delimiter": ";"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "semicolon-separated"
+    }
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "message": "read this TSV into rows and columns",
+   "input": {
+    "delimiter": "\t"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "tsv"
+    }
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "message": "parse csv with ; as the delimiter: city;temp\nRiga;8\nKyiv;11",
+   "input": {
+    "text": "city;temp\nRiga;8\nKyiv;11",
+    "delimiter": ";"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": ";"
+    }
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "message": "Teacher: parse this tab-delimited csv register\nstudent\tpresent\nAmy\tyes\nRon\tno",
+   "input": {
+    "text": "student\tpresent\nAmy\tyes\nRon\tno",
+    "delimiter": "\t"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "delimiter",
+     "rule": "enum",
+     "from": "tab-delimited"
+    }
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "message": "sort the keys of {\"zeta\":1,\"alpha\":2,\"mid\":3} in descending order",
+   "input": {
+    "json": "{\"zeta\":1,\"alpha\":2,\"mid\":3}",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "descending"
+    }
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "message": "order the keys of this json object z to a: {\"b\":1,\"c\":2,\"a\":3}",
+   "input": {
+    "json": "{\"b\":1,\"c\":2,\"a\":3}",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "z to a"
+    }
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "message": "put the json keys a to z: {\"name\":\"x\",\"id\":1,\"age\":4}",
+   "input": {
+    "json": "{\"name\":\"x\",\"id\":1,\"age\":4}",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "a to z"
+    }
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "message": "sort these json keys in ascending order: {\"port\":80,\"host\":\"h\",\"debug\":true}",
+   "input": {
+    "json": "{\"port\":80,\"host\":\"h\",\"debug\":true}",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "ascending"
+    }
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "message": "json keys in reverse alphabetical order please: {\"apple\":1,\"cherry\":2,\"banana\":3}",
+   "input": {
+    "json": "{\"apple\":1,\"cherry\":2,\"banana\":3}",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "reverse alphabetical"
+    }
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "message": "my package.json is a mess, reorder all its keys descending",
+   "input": {
+    "direction": "descending"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "descending"
+    }
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "message": "sort every key in the json config below Z to A, with 4-space indent",
+   "input": {
+    "direction": "descending",
+    "indent": 4
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "z to a"
+    }
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "message": "Can you sort this object's keys ascending? {\"y\": 2, \"x\": 1}",
+   "input": {
+    "json": "{\"y\": 2, \"x\": 1}",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "ascending"
+    }
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "message": "descending key order for this json: {\"v2\":true,\"v10\":false,\"v1\":null}",
+   "input": {
+    "json": "{\"v2\":true,\"v10\":false,\"v1\":null}",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "descending"
+    }
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "message": "sort the keys A-Z in this json: {\"zip\":\"N1\",\"city\":\"Leeds\"}",
+   "input": {
+    "json": "{\"zip\":\"N1\",\"city\":\"Leeds\"}",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "a-z"
+    }
+   ]
+  },
+  {
+   "skill": "hashText",
+   "message": "sha512 of the word lighthouse",
+   "input": {
+    "text": "lighthouse",
+    "algorithm": "SHA-512"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "algorithm",
+     "rule": "enum",
+     "from": "sha512"
+    }
+   ]
+  },
+  {
+   "skill": "hashText",
+   "message": "give me the SHA-1 hash of build-4471",
+   "input": {
+    "text": "build-4471",
+    "algorithm": "SHA-1"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "algorithm",
+     "rule": "enum",
+     "from": "sha-1"
+    }
+   ]
+  },
+  {
+   "skill": "hashText",
+   "message": "hash orange juice with sha-384",
+   "input": {
+    "text": "orange juice",
+    "algorithm": "SHA-384"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "algorithm",
+     "rule": "enum",
+     "from": "sha-384"
+    }
+   ]
+  },
+  {
+   "skill": "hashText",
+   "message": "I need a SHA-256 checksum for the string release-v2.3",
+   "input": {
+    "text": "release-v2.3",
+    "algorithm": "SHA-256"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "algorithm",
+     "rule": "enum",
+     "from": "sha-256"
+    }
+   ]
+  },
+  {
+   "skill": "hashText",
+   "message": "sha1 hash of my username mokafor88",
+   "input": {
+    "text": "mokafor88",
+    "algorithm": "SHA-1"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "algorithm",
+     "rule": "enum",
+     "from": "sha1"
+    }
+   ]
+  },
+  {
+   "skill": "hashText",
+   "message": "what's the sha384 of Tuesday-batch?",
+   "input": {
+    "text": "Tuesday-batch",
+    "algorithm": "SHA-384"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "algorithm",
+     "rule": "enum",
+     "from": "sha384"
+    }
+   ]
+  },
+  {
+   "skill": "hashText",
+   "message": "sha512 this file's contents for me",
+   "input": {
+    "algorithm": "SHA-512"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "algorithm",
+     "rule": "enum",
+     "from": "sha512"
+    }
+   ]
+  },
+  {
+   "skill": "hashText",
+   "message": "run the paragraph below through SHA-1",
+   "input": {
+    "algorithm": "SHA-1"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "algorithm",
+     "rule": "enum",
+     "from": "sha-1"
+    }
+   ]
+  },
+  {
+   "skill": "hashText",
+   "message": "SHA-512 hash of: The quick fox",
+   "input": {
+    "text": "The quick fox",
+    "algorithm": "SHA-512"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "algorithm",
+     "rule": "enum",
+     "from": "sha-512"
+    }
+   ]
+  },
+  {
+   "skill": "hashText",
+   "message": "hash abc123 using sha 256",
+   "input": {
+    "text": "abc123",
+    "algorithm": "SHA-256"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "algorithm",
+     "rule": "enum",
+     "from": "sha 256"
+    }
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "message": "router as hex bytes with colons in between",
+   "input": {
+    "text": "router",
+    "separator": ":"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "colons"
+    }
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "message": "convert Mia to hex, bytes separated by dashes",
+   "input": {
+    "text": "Mia",
+    "separator": "-"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "dashes"
+    }
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "message": "hex for OK2026 with a space between each byte",
+   "input": {
+    "text": "OK2026",
+    "separator": " "
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "a space between each byte"
+    }
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "message": "turn Zebra into hex, no separators",
+   "input": {
+    "text": "Zebra",
+    "separator": ""
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "no separators"
+    }
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "message": "hex dump of hi there with hyphens",
+   "input": {
+    "text": "hi there",
+    "separator": "-"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "hyphens"
+    }
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "message": "uppercase hex of Café with colon separators",
+   "input": {
+    "text": "Café",
+    "separator": ":",
+    "uppercase": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "colon separators"
+    }
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "message": "hex encode the token below, colon-separated",
+   "input": {
+    "separator": ":"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "colon-separated"
+    }
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "message": "show the string I copied as hex bytes, space separated",
+   "input": {
+    "separator": " "
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "space separated"
+    }
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "message": "MAC-style hex for abc, colons please",
+   "input": {
+    "text": "abc",
+    "separator": ":"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "colons"
+    }
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "message": "hex encode 42! all run together, no spaces",
+   "input": {
+    "text": "42!",
+    "separator": ""
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "no spaces"
+    }
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "message": "url encode this whole address: https://example.com/a b/c?x=1 y",
+   "input": {
+    "text": "https://example.com/a b/c?x=1 y",
+    "scope": "full"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scope",
+     "rule": "enum",
+     "from": "whole address"
+    }
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "message": "percent-encode the full url https://site.org/my file.pdf",
+   "input": {
+    "text": "https://site.org/my file.pdf",
+    "scope": "full"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scope",
+     "rule": "enum",
+     "from": "full url"
+    }
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "message": "url encode tom & jerry as a query component",
+   "input": {
+    "text": "tom & jerry",
+    "scope": "component"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scope",
+     "rule": "enum",
+     "from": "component"
+    }
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "message": "url-encode just this parameter value for a link: size=10 & colour=red",
+   "input": {
+    "text": "size=10 & colour=red",
+    "scope": "component"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scope",
+     "rule": "enum",
+     "from": "parameter value"
+    }
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "message": "make the complete link url safe: http://x.io/search?q=red shoes",
+   "input": {
+    "text": "http://x.io/search?q=red shoes",
+    "scope": "full"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scope",
+     "rule": "enum",
+     "from": "complete link"
+    }
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "message": "url escape a/b c for use as a path segment",
+   "input": {
+    "text": "a/b c",
+    "scope": "component"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scope",
+     "rule": "enum",
+     "from": "path segment"
+    }
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "message": "percent encode the whole url I pasted",
+   "input": {
+    "scope": "full"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "scope",
+     "rule": "enum",
+     "from": "whole url"
+    }
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "message": "url encode this search term as a component",
+   "input": {
+    "scope": "component"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "scope",
+     "rule": "enum",
+     "from": "component"
+    }
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "message": "Encode the entire URL, keep the slashes: https://shop.co/new arrivals",
+   "input": {
+    "text": "https://shop.co/new arrivals",
+    "scope": "full"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scope",
+     "rule": "enum",
+     "from": "entire url"
+    }
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "message": "url encode 50% off! for a query parameter",
+   "input": {
+    "text": "50% off!",
+    "scope": "component"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scope",
+     "rule": "enum",
+     "from": "query parameter"
+    }
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "random 10-letter string, letters only",
+   "input": {
+    "length": 10,
+    "charset": "letters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "charset",
+     "rule": "enum",
+     "from": "letters only"
+    }
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "make me a random 64 char hex token",
+   "input": {
+    "length": 64,
+    "charset": "hex"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "charset",
+     "rule": "enum",
+     "from": "hex"
+    }
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "8 random digits for a PIN-ish code",
+   "input": {
+    "length": 8,
+    "charset": "digits"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "charset",
+     "rule": "enum",
+     "from": "digits"
+    }
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "random code made of 12 numbers, for a gift card",
+   "input": {
+    "length": 12,
+    "charset": "digits"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "charset",
+     "rule": "enum",
+     "from": "numbers"
+    }
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "generate 20 random characters including symbols for my wifi key",
+   "input": {
+    "length": 20,
+    "charset": "symbols"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "charset",
+     "rule": "enum",
+     "from": "symbols"
+    }
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "give me a random 9-character code with no look-alike characters",
+   "input": {
+    "length": 9,
+    "charset": "unambiguous"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "charset",
+     "rule": "enum",
+     "from": "no look-alike characters"
+    }
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "random alphanumeric string, 24 long",
+   "input": {
+    "length": 24,
+    "charset": "alphanumeric"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "charset",
+     "rule": "enum",
+     "from": "alphanumeric"
+    }
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "16 random characters, only A-Z letters",
+   "input": {
+    "length": 16,
+    "charset": "letters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "charset",
+     "rule": "enum",
+     "from": "letters"
+    }
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "random 32-char string with punctuation in it",
+   "input": {
+    "length": 32,
+    "charset": "symbols"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "charset",
+     "rule": "enum",
+     "from": "punctuation"
+    }
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "generate a random 6-character code that's easy to read aloud over the phone",
+   "input": {
+    "length": 6,
+    "charset": "unambiguous"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "charset",
+     "rule": "enum",
+     "from": "easy to read aloud"
+    }
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "message": "triadic colours from #3366CC",
+   "input": {
+    "color": "#3366CC",
+    "scheme": "triadic"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scheme",
+     "rule": "enum",
+     "from": "triadic"
+    }
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "message": "split-complementary palette around #E07A5F",
+   "input": {
+    "color": "#E07A5F",
+    "scheme": "split-complementary"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scheme",
+     "rule": "enum",
+     "from": "split-complementary"
+    }
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "message": "six tints of #1B998B for a chart",
+   "input": {
+    "color": "#1B998B",
+    "scheme": "tints",
+    "count": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scheme",
+     "rule": "enum",
+     "from": "tints"
+    }
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "message": "give me 4 darker shades of teal #008080",
+   "input": {
+    "color": "#008080",
+    "scheme": "shades",
+    "count": 4
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scheme",
+     "rule": "enum",
+     "from": "shades"
+    }
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "message": "tetradic colour scheme based on #FFB400",
+   "input": {
+    "color": "#FFB400",
+    "scheme": "tetradic"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scheme",
+     "rule": "enum",
+     "from": "tetradic"
+    }
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "message": "palette of colours that sit next to #6A4C93 on the colour wheel",
+   "input": {
+    "color": "#6A4C93",
+    "scheme": "analogous"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scheme",
+     "rule": "enum",
+     "from": "sit next to"
+    }
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "message": "what is the opposite colour on the wheel for #00A6ED? make a palette",
+   "input": {
+    "color": "#00A6ED",
+    "scheme": "complementary"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scheme",
+     "rule": "enum",
+     "from": "opposite colour"
+    }
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "message": "palette of lighter versions of #C0392B, 5 of them",
+   "input": {
+    "color": "#C0392B",
+    "scheme": "tints",
+    "count": 5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scheme",
+     "rule": "enum",
+     "from": "lighter versions"
+    }
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "message": "analogous set for #FF7F50 please, for my bakery logo",
+   "input": {
+    "color": "#FF7F50",
+    "scheme": "analogous"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "scheme",
+     "rule": "enum",
+     "from": "analogous"
+    }
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "message": "build a complementary palette from my brand colour",
+   "input": {
+    "scheme": "complementary"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "scheme",
+     "rule": "enum",
+     "from": "complementary"
+    }
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "message": "I'm filling in a cheque for 2350.75, how do I write it out in words?",
+   "input": {
+    "value": 2350.75,
+    "style": "currency"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "cheque"
+    }
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "message": "spell 48.20 out in words as money, in dollars",
+   "input": {
+    "value": 48.2,
+    "style": "currency",
+    "currency": "dollars"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "as money"
+    }
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "message": "write 7019 out in plain words please",
+   "input": {
+    "value": 7019,
+    "style": "plain"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "plain"
+    }
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "message": "write 1,500,000 pounds in words as currency",
+   "input": {
+    "value": 1500000,
+    "style": "currency",
+    "currency": "pounds"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "currency"
+    }
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "message": "spell out 63 as a plain number, no money stuff",
+   "input": {
+    "value": 63,
+    "style": "plain"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "plain"
+    }
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "message": "for an invoice, write 899.99 out in words as an amount of money",
+   "input": {
+    "value": 899.99,
+    "style": "currency"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "amount of money"
+    }
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "message": "spell 3004 out in words, plain style",
+   "input": {
+    "value": 3004,
+    "style": "plain"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "plain style"
+    }
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "message": "write 12.40 out in words as a cash amount",
+   "input": {
+    "value": 12.4,
+    "style": "currency"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "cash amount"
+    }
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "message": "write the total on this invoice out in words for the cheque",
+   "input": {
+    "style": "currency"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "cheque"
+    }
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "message": "spell out 250 in plain English words",
+   "input": {
+    "value": 250,
+    "style": "plain"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "plain english"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "what date is 11 weeks after 2026-10-14?",
+   "input": {
+    "from": "2026-10-14",
+    "amount": 11,
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "11 weeks"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "add one year to 2027-05-09, when is the renewal?",
+   "input": {
+    "from": "2027-05-09",
+    "amount": 1,
+    "unit": "years"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "year"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "my contract ends 30 months after 2025-11-01, which date is that?",
+   "input": {
+    "from": "2025-11-01",
+    "amount": 30,
+    "unit": "months"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "months"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "Count forward 250 days from 2026-12-01",
+   "input": {
+    "from": "2026-12-01",
+    "amount": 250,
+    "unit": "days"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "days"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "what was the date 4 weeks before 2026-11-02",
+   "input": {
+    "from": "2026-11-02",
+    "amount": -4,
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "weeks"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "1 month after 2026-01-31, what date do I land on?",
+   "input": {
+    "from": "2026-01-31",
+    "amount": 1,
+    "unit": "months"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "month"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "go back 15 years from 2026-09-01 and tell me the date",
+   "input": {
+    "from": "2026-09-01",
+    "amount": -15,
+    "unit": "years"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "years"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "Nurse here: what is the date 72 days from 3 November 2026?",
+   "input": {
+    "from": "2026-11-03",
+    "amount": 72,
+    "unit": "days"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "72 days"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "add 26 weeks to my start date",
+   "input": {
+    "amount": 26,
+    "unit": "weeks"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "weeks"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "date 8 months prior to 2027-03-15",
+   "input": {
+    "from": "2027-03-15",
+    "amount": -8,
+    "unit": "months"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "8 months"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "weekly dates from 2026-10-02 to 2026-11-27, list them",
+   "input": {
+    "from": "2026-10-02",
+    "to": "2026-11-27",
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "weekly"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "monthly from 2026-09-30 through 2027-02-28, list the dates",
+   "input": {
+    "from": "2026-09-30",
+    "to": "2027-02-28",
+    "unit": "months"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "monthly"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list the dates 2026-12-01 to 2026-12-10, day by day",
+   "input": {
+    "from": "2026-12-01",
+    "to": "2026-12-10",
+    "unit": "days"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "day by day"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "every 2 weeks between 2026-09-14 and 2026-12-07, which dates?",
+   "input": {
+    "from": "2026-09-14",
+    "to": "2026-12-07",
+    "step": 2,
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "2 weeks"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list a date for each month from 2027-01-01 to 2027-06-01",
+   "input": {
+    "from": "2027-01-01",
+    "to": "2027-06-01",
+    "unit": "months"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "each month"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "Give me all the days from 2026-10-25 to 2026-11-03 as a list",
+   "input": {
+    "from": "2026-10-25",
+    "to": "2026-11-03",
+    "unit": "days"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "days"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list dates every 3 months between 2026-03-31 and 2027-03-31",
+   "input": {
+    "from": "2026-03-31",
+    "to": "2027-03-31",
+    "step": 3,
+    "unit": "months"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "3 months"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list every week between the two dates in my calendar invite",
+   "input": {
+    "unit": "weeks"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "every week"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list the dates week by week from 2026-11-06 to 2027-01-08",
+   "input": {
+    "from": "2026-11-06",
+    "to": "2027-01-08",
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "week by week"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "each day between 2026-09-21 and 2026-09-27, listed out",
+   "input": {
+    "from": "2026-09-21",
+    "to": "2026-09-27",
+    "unit": "days"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "each day"
+    }
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "message": "show 9000 seconds the long way, full unit names",
+   "input": {
+    "seconds": 9000,
+    "style": "long"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "long"
+    }
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "message": "write 4520 seconds as a duration in short form",
+   "input": {
+    "seconds": 4520,
+    "style": "short"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "short form"
+    }
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "message": "86400 seconds spelled out in full as a duration",
+   "input": {
+    "seconds": 86400,
+    "style": "long"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "spelled out in full"
+    }
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "message": "compact readout of 3725 seconds please, like a timer would show",
+   "input": {
+    "seconds": 3725,
+    "style": "short"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "compact"
+    }
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "message": "make 125 seconds readable, abbreviated",
+   "input": {
+    "seconds": 125,
+    "style": "short"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "abbreviated"
+    }
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "message": "long format please: 54321 seconds as a duration",
+   "input": {
+    "seconds": 54321,
+    "style": "long"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "long format"
+    }
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "message": "how long is 7777 seconds? use short units",
+   "input": {
+    "seconds": 7777,
+    "style": "short"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "short units"
+    }
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "message": "turn the elapsed seconds in my log into a duration, long style please",
+   "input": {
+    "style": "long"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "long style"
+    }
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "message": "translate 600 seconds into a duration written out in long form",
+   "input": {
+    "seconds": 600,
+    "style": "long"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "long form"
+    }
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "message": "convert 100000 seconds, short style with 3 units",
+   "input": {
+    "seconds": 100000,
+    "style": "short",
+    "maxUnits": 3
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "short style"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "monthly book club from 2026-10-08, next 6 dates",
+   "input": {
+    "start": "2026-10-08",
+    "every": "month",
+    "count": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "every",
+     "rule": "enum",
+     "from": "monthly"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "yearly MOT from 2027-04-12, list 5 dates",
+   "input": {
+    "start": "2027-04-12",
+    "every": "year",
+    "count": 5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "every",
+     "rule": "enum",
+     "from": "yearly"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "a reminder every day from 2026-09-20, 7 dates",
+   "input": {
+    "start": "2026-09-20",
+    "every": "day",
+    "count": 7
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "every",
+     "rule": "enum",
+     "from": "every day"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "weekly swimming lessons starting 2026-09-09, ten sessions",
+   "input": {
+    "start": "2026-09-09",
+    "every": "week",
+    "count": 10
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "every",
+     "rule": "enum",
+     "from": "weekly"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "every 3 weeks from 2026-10-01, 6 times",
+   "input": {
+    "start": "2026-10-01",
+    "every": "week",
+    "interval": 3,
+    "count": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "every",
+     "rule": "enum",
+     "from": "3 weeks"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "an annual boiler service repeating from 2026-11-11, list the next 4 dates",
+   "input": {
+    "start": "2026-11-11",
+    "every": "year",
+    "count": 4
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "every",
+     "rule": "enum",
+     "from": "annual"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "daily dose starting 2026-09-03 until 2026-09-12, what are the dates",
+   "input": {
+    "start": "2026-09-03",
+    "every": "day",
+    "until": "2026-09-12"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "every",
+     "rule": "enum",
+     "from": "daily"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "list the next 8 dates of my weekly yoga class",
+   "input": {
+    "every": "week",
+    "count": 8
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "every",
+     "rule": "enum",
+     "from": "weekly"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "every 2 months from 2026-12-05, 5 dates please",
+   "input": {
+    "start": "2026-12-05",
+    "every": "month",
+    "interval": 2,
+    "count": 5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "every",
+     "rule": "enum",
+     "from": "2 months"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "repeat every 10 days starting 2026-09-15, eight dates",
+   "input": {
+    "start": "2026-09-15",
+    "every": "day",
+    "interval": 10,
+    "count": 8
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "every",
+     "rule": "enum",
+     "from": "10 days"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "find me the date of the Thursday coming up next",
+   "input": {
+    "weekday": "Thursday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "weekday",
+     "rule": "enum",
+     "from": "thursday"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "date of the previous Monday?",
+   "input": {
+    "weekday": "Monday",
+    "direction": "previous"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "weekday",
+     "rule": "enum",
+     "from": "monday"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "previous"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "date of last Wednesday? the one before today",
+   "input": {
+    "weekday": "Wednesday",
+    "direction": "previous"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "weekday",
+     "rule": "enum",
+     "from": "wednesday"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "last"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "which date is the next Sunday after 2026-10-20?",
+   "input": {
+    "weekday": "Sunday",
+    "direction": "next",
+    "from": "2026-10-20"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "weekday",
+     "rule": "enum",
+     "from": "sunday"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "next"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "most recent Saturday before 2026-12-01, what date",
+   "input": {
+    "weekday": "Saturday",
+    "direction": "previous",
+    "from": "2026-12-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "weekday",
+     "rule": "enum",
+     "from": "saturday"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "most recent"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "I need the date of next fri",
+   "input": {
+    "weekday": "Friday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "weekday",
+     "rule": "enum",
+     "from": "fri"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "next Thurs after 2026-11-26, what date?",
+   "input": {
+    "weekday": "Thursday",
+    "from": "2026-11-26"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "weekday",
+     "rule": "enum",
+     "from": "thurs"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "what was the date this past Tuesday?",
+   "input": {
+    "weekday": "Tuesday",
+    "direction": "previous"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "weekday",
+     "rule": "enum",
+     "from": "tuesday"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "this past"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "the Sunday that comes after 2027-01-03, which date is it",
+   "input": {
+    "weekday": "Sunday",
+    "from": "2027-01-03"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "weekday",
+     "rule": "enum",
+     "from": "sunday"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "the Monday just gone, what date was it?",
+   "input": {
+    "weekday": "Monday",
+    "direction": "previous"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "weekday",
+     "rule": "enum",
+     "from": "monday"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "just gone"
+    }
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "message": "my sensor reports 1790000000 as seconds since 1970, turn that unix stamp into a calendar date",
+   "input": {
+    "unix": 1790000000,
+    "unit": "seconds"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "seconds"
+    }
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "message": "convert the timestamp 1788255000123 milliseconds to a date",
+   "input": {
+    "unix": 1788255000123,
+    "unit": "milliseconds"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "milliseconds"
+    }
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "message": "epoch ms 1700000000000 to an ISO date",
+   "input": {
+    "unix": 1700000000000,
+    "unit": "milliseconds"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "ms"
+    }
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "message": "this unix timestamp is in seconds: 1609459200, readable date?",
+   "input": {
+    "unix": 1609459200,
+    "unit": "seconds"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "seconds"
+    }
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "message": "Unix time 1767225600 (seconds) as an ISO date",
+   "input": {
+    "unix": 1767225600,
+    "unit": "seconds"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "seconds"
+    }
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "message": "convert unix time 1795000000000 millis to a date",
+   "input": {
+    "unix": 1795000000000,
+    "unit": "milliseconds"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "millis"
+    }
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "message": "auto-detect the unit and convert unix timestamp 1767225600000 to a date",
+   "input": {
+    "unix": 1767225600000,
+    "unit": "auto"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "auto-detect"
+    }
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "message": "what date is the unix timestamp in this log line? it is in milliseconds",
+   "input": {
+    "unit": "milliseconds"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "milliseconds"
+    }
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "message": "the server logged 2000000000 in seconds since 1970, convert that unix time to a date",
+   "input": {
+    "unix": 2000000000,
+    "unit": "seconds"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "in seconds"
+    }
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "message": "not sure of the unit, just auto detect it: unix time 1780000000",
+   "input": {
+    "unix": 1780000000,
+    "unit": "auto"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "auto detect"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "the hotel bar tab came to 96 euros, split between 4 people",
+   "input": {
+    "bill": 96,
+    "people": 4,
+    "currency": "€"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "currency",
+     "rule": "enum",
+     "from": "euros"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "dinner came to 4,800 rupees, 3 of us, 10% tip, how much each?",
+   "input": {
+    "bill": 4800,
+    "people": 3,
+    "tipPercent": 10,
+    "currency": "₹"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "currency",
+     "rule": "enum",
+     "from": "rupees"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "bill of 12000 yen for two of us, add a 5 percent tip and split it",
+   "input": {
+    "bill": 12000,
+    "people": 2,
+    "tipPercent": 5,
+    "currency": "¥"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "currency",
+     "rule": "enum",
+     "from": "yen"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "$142.80 tab, split six ways with 18% tip",
+   "input": {
+    "bill": 142.8,
+    "people": 6,
+    "tipPercent": 18,
+    "currency": "$"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "currency",
+     "rule": "enum",
+     "from": "$"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "split £75 three ways",
+   "input": {
+    "bill": 75,
+    "people": 3,
+    "currency": "£"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "currency",
+     "rule": "enum",
+     "from": "£"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "how much each if 5 friends split 210 dollars with a 12% tip",
+   "input": {
+    "bill": 210,
+    "people": 5,
+    "tipPercent": 12,
+    "currency": "$"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "currency",
+     "rule": "enum",
+     "from": "dollars"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "€58.40 lunch bill split between 2 people, 15% tip",
+   "input": {
+    "bill": 58.4,
+    "people": 2,
+    "tipPercent": 15,
+    "currency": "€"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "currency",
+     "rule": "enum",
+     "from": "€"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "pizza night: split 64 pounds between 4, no tip",
+   "input": {
+    "bill": 64,
+    "people": 4,
+    "currency": "£"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "currency",
+     "rule": "enum",
+     "from": "pounds"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "split our restaurant bill four ways in euros with a 10% tip",
+   "input": {
+    "people": 4,
+    "tipPercent": 10,
+    "currency": "€"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "currency",
+     "rule": "enum",
+     "from": "euros"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "split a ₹1,250 taxi fare between 3 of us",
+   "input": {
+    "bill": 1250,
+    "people": 3,
+    "currency": "₹"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "currency",
+     "rule": "enum",
+     "from": "₹"
+    }
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "how big is 5368709120 bytes in binary units?",
+   "input": {
+    "bytes": 5368709120,
+    "base": "binary"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "base",
+     "rule": "enum",
+     "from": "binary"
+    }
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "2,000,000 bytes as a human file size, decimal units",
+   "input": {
+    "bytes": 2000000,
+    "base": "decimal"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "base",
+     "rule": "enum",
+     "from": "decimal"
+    }
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "readable size of 734003200 bytes using powers of 1024",
+   "input": {
+    "bytes": 734003200,
+    "base": "binary"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "base",
+     "rule": "enum",
+     "from": "powers of 1024"
+    }
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "show 1048576 bytes as a file size in MiB style",
+   "input": {
+    "bytes": 1048576,
+    "base": "binary"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "base",
+     "rule": "enum",
+     "from": "mib"
+    }
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "convert 999999 bytes to a readable size, SI units",
+   "input": {
+    "bytes": 999999,
+    "base": "decimal"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "base",
+     "rule": "enum",
+     "from": "si units"
+    }
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "how many GB is 3200000000 bytes, base 10",
+   "input": {
+    "bytes": 3200000000,
+    "base": "decimal"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "base",
+     "rule": "enum",
+     "from": "base 10"
+    }
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "the file is 262144 bytes, give me its size in KiB",
+   "input": {
+    "bytes": 262144,
+    "base": "binary"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "base",
+     "rule": "enum",
+     "from": "kib"
+    }
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "make the byte count in this download log readable, binary units",
+   "input": {
+    "base": "binary"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "base",
+     "rule": "enum",
+     "from": "binary"
+    }
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "how big a file is 15000000000 bytes in decimal GB, 2 decimals?",
+   "input": {
+    "bytes": 15000000000,
+    "base": "decimal",
+    "decimals": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "base",
+     "rule": "enum",
+     "from": "decimal gb"
+    }
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "readable size for 8589934592 bytes, 1024-based",
+   "input": {
+    "bytes": 8589934592,
+    "base": "binary"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "base",
+     "rule": "enum",
+     "from": "1024-based"
+    }
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "£2,000 at 4.5% compounded quarterly for 6 years",
+   "input": {
+    "principal": 2000,
+    "rate": 4.5,
+    "years": 6,
+    "frequency": "quarterly"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "frequency",
+     "rule": "enum",
+     "from": "quarterly"
+    }
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "8000 at 3% for 15 years, interest added monthly, what do I end up with?",
+   "input": {
+    "principal": 8000,
+    "rate": 3,
+    "years": 15,
+    "frequency": "monthly"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "frequency",
+     "rule": "enum",
+     "from": "monthly"
+    }
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "what's 12000 worth after 8 years at 5% compounding daily?",
+   "input": {
+    "principal": 12000,
+    "rate": 5,
+    "years": 8,
+    "frequency": "daily"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "frequency",
+     "rule": "enum",
+     "from": "daily"
+    }
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "1500 at 6% compounded twice a year for 10 years",
+   "input": {
+    "principal": 1500,
+    "rate": 6,
+    "years": 10,
+    "frequency": "semi-annually"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "frequency",
+     "rule": "enum",
+     "from": "twice a year"
+    }
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "invest 5,000 at 2.75% compounded every week for 4 years",
+   "input": {
+    "principal": 5000,
+    "rate": 2.75,
+    "years": 4,
+    "frequency": "weekly"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "frequency",
+     "rule": "enum",
+     "from": "every week"
+    }
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "25000 at 7% compounded once a year for 20 years",
+   "input": {
+    "principal": 25000,
+    "rate": 7,
+    "years": 20,
+    "frequency": "annually"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "frequency",
+     "rule": "enum",
+     "from": "once a year"
+    }
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "Retiree here: 40000 at 3.2% for 12 years, compounded half-yearly. What's it grow to?",
+   "input": {
+    "principal": 40000,
+    "rate": 3.2,
+    "years": 12,
+    "frequency": "semi-annually"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "frequency",
+     "rule": "enum",
+     "from": "half-yearly"
+    }
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "300 at 9% for 2 years with monthly compounding, adding 50 each month",
+   "input": {
+    "principal": 300,
+    "rate": 9,
+    "years": 2,
+    "frequency": "monthly",
+    "contribution": 50
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "frequency",
+     "rule": "enum",
+     "from": "monthly"
+    }
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "how much will my savings be after 10 years at 4% compounded monthly?",
+   "input": {
+    "rate": 4,
+    "years": 10,
+    "frequency": "monthly"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "frequency",
+     "rule": "enum",
+     "from": "monthly"
+    }
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "message": "compound 750 at 5% semi-annually over 3 years",
+   "input": {
+    "principal": 750,
+    "rate": 5,
+    "years": 3,
+    "frequency": "semi-annually"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "frequency",
+     "rule": "enum",
+     "from": "semi-annually"
+    }
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "message": "a printable calendar grid of November 2026 where weeks start on Sunday",
+   "input": {
+    "year": 2026,
+    "month": 11,
+    "startOn": "Sunday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startOn",
+     "rule": "enum",
+     "from": "sunday"
+    }
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "message": "print me December 2026 as a calendar, Monday first",
+   "input": {
+    "year": 2026,
+    "month": 12,
+    "startOn": "Monday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startOn",
+     "rule": "enum",
+     "from": "monday first"
+    }
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "message": "month view calendar of April 2027 with Sunday as the first column",
+   "input": {
+    "year": 2027,
+    "month": 4,
+    "startOn": "Sunday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startOn",
+     "rule": "enum",
+     "from": "sunday"
+    }
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "message": "I need a printable calendar grid for month 7 of 2027, starting Mondays",
+   "input": {
+    "year": 2027,
+    "month": 7,
+    "startOn": "Monday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startOn",
+     "rule": "enum",
+     "from": "mondays"
+    }
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "message": "lay out October 2026 as a calendar with the week beginning on Sunday",
+   "input": {
+    "year": 2026,
+    "month": 10,
+    "startOn": "Sunday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startOn",
+     "rule": "enum",
+     "from": "beginning on sunday"
+    }
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "message": "Calendar for Jan 2028, Mon-start weeks",
+   "input": {
+    "year": 2028,
+    "month": 1,
+    "startOn": "Monday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startOn",
+     "rule": "enum",
+     "from": "mon-start"
+    }
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "message": "a US-style calendar for May 2027, Sundays first",
+   "input": {
+    "year": 2027,
+    "month": 5,
+    "startOn": "Sunday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startOn",
+     "rule": "enum",
+     "from": "sundays first"
+    }
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "message": "calendar grid for August 2027 running Monday to Sunday",
+   "input": {
+    "year": 2027,
+    "month": 8,
+    "startOn": "Monday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startOn",
+     "rule": "enum",
+     "from": "monday to sunday"
+    }
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "message": "show March 2026 as a calendar grid, weeks start on sun",
+   "input": {
+    "year": 2026,
+    "month": 3,
+    "startOn": "Sunday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startOn",
+     "rule": "enum",
+     "from": "start on sun"
+    }
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "message": "grid of weeks for June 2027 beginning Monday",
+   "input": {
+    "year": 2027,
+    "month": 6,
+    "startOn": "Monday"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startOn",
+     "rule": "enum",
+     "from": "monday"
+    }
+   ]
+  }
+ ],
+ "synonyms": {
+  "columnMath.operation": {
+   "add up": "sum",
+   "total": "sum",
+   "lowest": "min",
+   "smallest": "min",
+   "biggest": "max",
+   "mean": "average"
+  },
+  "filterRows.operator": {
+   "over": ">",
+   "greater than": ">",
+   "at least": ">=",
+   "is not": "!=",
+   "below": "<",
+   "equal to": "=",
+   "equals": "=",
+   "no more than": "<="
+  },
+  "groupBy.operation": {
+   "total": "sum",
+   "average": "mean",
+   "how many": "count",
+   "lowest": "min"
+  },
+  "pivotRows.operation": {
+   "total": "sum",
+   "average": "mean",
+   "highest": "max"
+  },
+  "sortRows.direction": {
+   "cheapest first": "ascending",
+   "highest first": "descending",
+   "newest first": "descending",
+   "smallest to largest": "ascending",
+   "reverse alphabetical": "descending",
+   "largest to smallest": "descending",
+   "lowest first": "ascending"
+  },
+  "toCsv.delimiter": {
+   "semicolons": ";",
+   "tab-separated": "\t",
+   "pipe-delimited": "|",
+   "comma-separated": ",",
+   "tsv": "\t",
+   "tab-delimited": "\t",
+   "pipe between columns": "|",
+   "commas": ","
+  },
+  "toMarkdownTable.align": {
+   "center aligned": "centre",
+   "centered": "centre"
+  },
+  "formatJson.style": {
+   "minify": "minified",
+   "onto one line": "minified",
+   "readable": "pretty",
+   "compact": "minified",
+   "strip the whitespace": "minified"
+  },
+  "parseCsv.delimiter": {
+   "semicolon-delimited": ";",
+   "pipe-separated": "|",
+   "tab-separated": "\t",
+   "comma delimited": ",",
+   "semicolons": ";",
+   "pipe": "|",
+   "semicolon-separated": ";",
+   "tsv": "\t",
+   "tab-delimited": "\t"
+  },
+  "sortObjectKeys.direction": {
+   "z to a": "descending",
+   "a to z": "ascending",
+   "reverse alphabetical": "descending",
+   "a-z": "ascending"
+  },
+  "hashText.algorithm": {
+   "sha512": "SHA-512",
+   "sha1": "SHA-1",
+   "sha384": "SHA-384",
+   "sha 256": "SHA-256"
+  },
+  "hexEncode.separator": {
+   "colons": ":",
+   "dashes": "-",
+   "a space between each byte": " ",
+   "no separators": "",
+   "hyphens": "-",
+   "colon separators": ":",
+   "colon-separated": ":",
+   "space separated": " ",
+   "no spaces": ""
+  },
+  "urlEncode.scope": {
+   "whole address": "full",
+   "parameter value": "component",
+   "complete link": "full",
+   "path segment": "component",
+   "whole url": "full",
+   "entire url": "full",
+   "query parameter": "component"
+  },
+  "generateRandomString.charset": {
+   "numbers": "digits",
+   "no look-alike characters": "unambiguous",
+   "punctuation": "symbols",
+   "easy to read aloud": "unambiguous"
+  },
+  "generatePalette.scheme": {
+   "sit next to": "analogous",
+   "opposite colour": "complementary",
+   "lighter versions": "tints"
+  },
+  "numberToWords.style": {
+   "cheque": "currency",
+   "as money": "currency",
+   "amount of money": "currency",
+   "cash amount": "currency"
+  },
+  "addDuration.unit": {
+   "year": "years",
+   "month": "months"
+  },
+  "dateRangeList.unit": {
+   "weekly": "weeks",
+   "monthly": "months",
+   "day by day": "days",
+   "each month": "months",
+   "every week": "weeks",
+   "week by week": "weeks",
+   "each day": "days"
+  },
+  "durationToText.style": {
+   "spelled out in full": "long",
+   "compact": "short",
+   "abbreviated": "short"
+  },
+  "expandRecurrence.every": {
+   "annual": "year",
+   "daily": "day"
+  },
+  "nextWeekday.direction": {
+   "last": "previous",
+   "most recent": "previous",
+   "this past": "previous",
+   "just gone": "previous"
+  },
+  "nextWeekday.weekday": {
+   "fri": "Friday",
+   "thurs": "Thursday"
+  },
+  "unixToIso.unit": {
+   "ms": "milliseconds",
+   "millis": "milliseconds"
+  },
+  "splitBill.currency": {
+   "euros": "€",
+   "rupees": "₹",
+   "yen": "¥",
+   "dollars": "$",
+   "pounds": "£"
+  },
+  "fileSizeHuman.base": {
+   "powers of 1024": "binary",
+   "mib": "binary",
+   "si units": "decimal",
+   "base 10": "decimal",
+   "kib": "binary",
+   "1024-based": "binary"
+  },
+  "compoundInterest.frequency": {
+   "twice a year": "semi-annually",
+   "every week": "weekly",
+   "once a year": "annually",
+   "half-yearly": "semi-annually"
+  },
+  "generateCalendarGrid.startOn": {
+   "mon-start": "Monday",
+   "start on sun": "Sunday"
+  }
+ }
+}

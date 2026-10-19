@@ -1,0 +1,605 @@
+{
+  "batch": "o09",
+  "texts": [
+    {
+      "kind": "receipt",
+      "text": "CAFÉ LUMIÈRE\nRue des Tanneurs 12, Valmora\n2 x Café crème €5,80\nCroissant au beurre €1,90\nTarte aux pommes €4,20\nJus d'orange pressé €3,50\nTOTAL €15,40\nTVA 10% incluse €1,40\nTable 4 · 14/05/2026 09:17\nMerci et à bientôt"
+    },
+    {
+      "kind": "receipt",
+      "text": "MERCATO CENTRALE VALMORA\nVia Lunga 88\nPane integrale 500g 2,15\nLatte fresco 1L 1,49\nMozzarella 125g x2 2,58\nPomodori 1,240kg @ 2,90/kg 3,60\nOlio extra vergine 0,75L 7,95\nTOTALE EUR 17,77\nContanti 20,00\nResto 2,23\nCassa 03 · 22.06.2026 18:41 · Scontr. 0457"
+    },
+    {
+      "kind": "receipt",
+      "text": "BÄCKEREI HOLZMANN\nBrückengasse 5\n3 x Roggenbrötchen à 0,65 € 1,95 €\n1 Bauernbrot 750 g 3,80 €\n2 x Apfelstrudel à 2,40 € 4,80 €\nSumme 10,55 €\nEC-Karte 10,55 €\nMwSt 7% enthalten 0,69 €\nBon-Nr. 2281 03.03.2026 07:52"
+    },
+    {
+      "kind": "receipt",
+      "text": "MUSEO DE LA CIUDAD · TIENDA\nPostal Puente Viejo x4 €4.00\nCatálogo \"Valmora 1900\" €24.50\nImán de cerámica €6.75\nSubtotal €35.25\nDescuento socios 10% -€3.53\nTotal €31.72\nTarjeta ****3091\nFecha 08/09/2026 Hora 16:05\nTicket nº 004812"
+    },
+    {
+      "kind": "receipt",
+      "text": "APOTHEKE AM MARKT\nIbuprofen 400 mg 20 St. 4,95 €\nSonnencreme LSF 50 200 ml 12,90 €\nHalstabletten 24 St. 6,45 €\nZwischensumme 24,30 €\nKundenrabatt 5% -1,22 €\nGesamt 23,08 €\nBar 25,00 €\nRückgeld 1,92 €\n11.07.2026 · 10:26 · Kasse 1"
+    },
+    {
+      "kind": "receipt",
+      "text": "TRATTORIA DEL PONTE\nTable 12 · Covers 3 · Server: Giulia\nBruschetta al pomodoro €7.50\nRisotto ai funghi €14.00\nTagliatelle al ragù €13.50\nBranzino alla griglia €19.00\nTiramisù x2 €12.00\nAcqua frizzante 1L €3.50\nSubtotal €69.50\nCoperto 3 x €2.00 €6.00\nTotal €75.50"
+    },
+    {
+      "kind": "receipt",
+      "text": "VTV VALMORA TRANSPORT\nTicket machine 117 · Piazza Nova\n1 x 24-hour pass Zone A+B €8.40\n2 x Single ticket 90 min €2.10 = €4.20\nTotal paid €12.60\nCard contactless ****5520\nValid from 19.04.2026 13:02\nRef. 117-009834"
+    },
+    {
+      "kind": "receipt",
+      "text": "LIBRAIRIE DU QUAI\n\"Les ponts de Valmora\" (poche) 9,20 €\nCarte de la ville 1:12 500 7,50 €\nMarque-page en cuir 3,90 €\nSac kraft 0,20 €\nTotal TTC 20,80 €\ndont TVA 5,5% sur livres 0,48 €\nCB sans contact 20,80 €\nVendeur: Élodie · 27/10/2026 15:33"
+    },
+    {
+      "kind": "receipt",
+      "text": "HOTEL STELLA DEL FIUME\nRoom 314 · Guest: Mr D. Okafor\nArrival 02/08/2026 · Departure 05/08/2026\n3 nights @ €128.00 €384.00\nCity tax 3 nights x 2 persons x €2.50 €15.00\nMinibar €11.40\nBreakfast (extra guest) €16.00\nTotal €426.40\nPaid by Mastercard ****7714\nFolio No. 22603"
+    },
+    {
+      "kind": "receipt",
+      "text": "GELATERIA SAN ROCCO\n2 coppette medie €3,50 = €7,00\n1 cono grande con panna €4,20\n1 affogato €4,80\nTotale €16,00\nPagato carta €16,00\n13/07/2026 21:47 · Op. 2 · N. 0391"
+    },
+    {
+      "kind": "receipt",
+      "text": "FERRAMENTA BRUNI\nViale dei Tigli 41 · Tel. 555-0142\nWood screws 4 x 40 mm, box of 200 €5.90\nMasking tape 25 mm x2 €3.80\nBrass hinge 75 mm x4 €10.00\nWall plugs 8 mm, 50 pcs €2.45\nSubtotal €22.15\nVAT 22% included €3.99\nTotal €22.15\nCard ****2068 · 30/01/2026 11:12"
+    },
+    {
+      "kind": "receipt",
+      "text": "PARKING CATHÉDRALE\nEntrée 16/03/2026 08:14\nSortie 16/03/2026 12:39\nDurée 4 h 25 min\nTarif 1re heure 2,40 € puis 0,60 € par 15 min\nMontant 10,80 €\nPayé CB ****6631\nTicket n° 558207"
+    },
+    {
+      "kind": "receipt",
+      "text": "FRUTAS Y VERDURAS LOLA · Puesto 23\nNaranjas 2 kg x 1,80 €/kg 3,60 €\nFresas 500 g 2,95 €\nAguacates 3 uds x 0,90 € 2,70 €\nCebollas 1,5 kg x 1,20 €/kg 1,80 €\nTotal 11,05 €\nEntregado 20,00 €\nCambio 8,95 €\nSábado 23/05/2026 10:08"
+    },
+    {
+      "kind": "receipt",
+      "text": "WEINSTUBE ZUM GOLDENEN HIRSCH\nTisch 9\n2 x Riesling 0,2 l à 5,90 € 11,80 €\n1 x Grauburgunder 0,2 l 6,40 €\n1 x Käseplatte 13,50 €\n1 x Brezel 2,80 €\nSumme 34,50 €\nTrinkgeld 3,50 €\nBezahlt 38,00 €\n18.12.2026 22:15 · Bed. Lukas"
+    },
+    {
+      "kind": "receipt",
+      "text": "NETTOYAGE ÉCLAIR\nRue Saint-Gilles 7 · Tél. 555-0168\nChemise x3 à 4,50 € 13,50 €\nCostume 2 pièces 16,00 €\nRobe en soie 12,80 €\nTotal 42,30 €\nAcompte versé -20,00 €\nReste à payer 22,30 €\nPrêt le jeudi 04/06/2026 après 17 h\nTicket n° 1187"
+    },
+    {
+      "kind": "notice",
+      "text": "CLOSED FOR RENOVATION\nThe Musée Lenoir will be closed from 1 March to 15 April 2026. The garden café remains open daily 10:00–18:00.\nTickets already bought for these dates will be refunded in full; please email billets@musee-lenoir.example with your booking number."
+    },
+    {
+      "kind": "notice",
+      "text": "DO NOT FEED THE PIGEONS\nFine up to €150 under city bylaw No. 47/2019.\nNe pas nourrir les pigeons · Non dare da mangiare ai piccioni\nMunicipal Police Valmora · Tel. 555-0110"
+    },
+    {
+      "kind": "notice",
+      "text": "NOTICE TO RESIDENTS\nWater supply to Rue Verte nos. 2–48 and Impasse du Moulin will be interrupted on Tuesday 9 June 2026 from 08:30 to approx. 14:00 for pipe replacement.\nPlease store enough water beforehand. We apologise for the inconvenience.\nValmora Water Board · Works ref. VW-26-0612 · Helpline 555-0177"
+    },
+    {
+      "kind": "notice",
+      "text": "ÖFFNUNGSZEITEN\nMo–Fr 9:00–18:30\nSa 9:00–14:00\nSo & Feiertage geschlossen\nAb 1. November: Do bis 20:00 Uhr\nHolzmann & Söhne · Brückengasse 5"
+    },
+    {
+      "kind": "notice",
+      "text": "LIFT OUT OF SERVICE\nThe lift at Platform 3 is out of order until Friday 11 September. Step-free access to all platforms is available via the underpass at the east entrance (approx. 150 m).\nFor assistance call 555-0193 or ask staff at the ticket office.\nValmora Centrale Station, 08/09/2026"
+    },
+    {
+      "kind": "notice",
+      "text": "PISCINE MUNICIPALE · RULES\nSwimming caps are compulsory.\nChildren under 8 must be accompanied by an adult in the water.\nNo diving in lanes 1 to 3 (depth 1.20 m).\nWater temperature today: 27.5 °C\nLane swimming 07:00–09:00 and 12:00–13:30 only.\nLost property: ask at reception, desk No. 2."
+    },
+    {
+      "kind": "notice",
+      "text": "STRIKE ACTION: THURSDAY 21 MAY\nTram lines 2, 5 and 9 will run a reduced service (about 1 in 3 trams) between 06:00 and 21:00. Night buses N1–N4 are not affected.\nCheck live times at vtv-valmora.example/info or call 555-0120.\nWe apologise for the disruption."
+    },
+    {
+      "kind": "notice",
+      "text": "MISSING CAT\nGrey tabby, answers to \"Pépin\", 4 years old, white tip on tail, microchipped (no. 250 268 500 731 204).\nLast seen 3 October near Place des Lices.\nIf you see him please call Inès on 07700 900314. Reward €100."
+    },
+    {
+      "kind": "notice",
+      "text": "ASSEMBLEA CONDOMINIALE\nThe annual residents' meeting for Via Aurelia 15 (staircases A and B) will be held on 27/11/2026 at 18.30 in the ground-floor hall.\nAgenda: 1. Accounts 2025–26 2. Roof repair quote (€38,400) 3. Bicycle storage 4. Any other business.\nIf you cannot attend, a proxy form is available from the porter, flat 0B.\nThe Administrator, Studio Ferri"
+    },
+    {
+      "kind": "notice",
+      "text": "ROAD CLOSED\nKaiserstraße between Nos. 20 and 64\nMon 6 July 2026 – Fri 31 July 2026, 07:00–19:00\nDiversion via Lindenallee (follow yellow signs)\nBus 14 stops moved 50 m south\nEnquiries: Stadtbauamt, Tel. 555-0155"
+    },
+    {
+      "kind": "notice",
+      "text": "BACK IN 15 MINUTES\nGone to the post office. If you are collecting a repair, ticket nos. 4410–4425 are ready.\nTorno tra 15 minuti · Zurück in 15 Minuten\nOrologeria Conti, since 1958"
+    },
+    {
+      "kind": "notice",
+      "text": "LIBRARY HOURS DURING THE HOLIDAYS\nFrom 23 December to 2 January the Bibliothèque Saint-Roch is open 10 a.m. to 4 p.m., closed 25 and 26 December and 1 January.\nLoans due during this period are automatically extended to 9 January. The book return box at the side door is emptied twice a day."
+    },
+    {
+      "kind": "notice",
+      "text": "FOOD HYGIENE RATING\nThis establishment was inspected on 14/02/2026 and scored 92/100 (grade A).\nInspector ref. SAN-4471 · Valmora Health Department\nNext inspection due no later than February 2027."
+    },
+    {
+      "kind": "notice",
+      "text": "MARCHÉ AUX PUCES\nEvery first Sunday of the month, Place du Marché, 7 a.m.–1 p.m.\nPitch hire €12 (3 m) or €20 (6 m); book at the town hall, counter 4, by the Friday before.\nNo food sales without a permit. Cars must leave the square by 6.30 a.m."
+    },
+    {
+      "kind": "notice",
+      "text": "PLEASE DO NOT TOUCH\nSome objects in this room are over 2,000 years old. Photography without flash is permitted.\nMaximum 25 visitors in Room 7 at any one time.\nBitte nicht berühren · Ne pas toucher · No tocar"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Ms Hartley,\nThank you for your booking at Pensione Aurora. We confirm a double room with balcony for 3 nights, arriving Friday 17 April 2026 and departing Monday 20 April. The rate is €96.00 per night including breakfast, €288.00 in total, plus city tax of €2.00 per person per night, payable on arrival.\nCheck-in is from 14:00; if you expect to arrive after 22:00, please let us know.\nKind regards,\nChiara Benedetti, Reception"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr Lindqvist,\nFollowing our inspection on 3 March, I am writing to confirm that the deposit of €1,850 for Apartment 4C, Rue Fontaine 22, will be returned to you less €135 for replacing the damaged kitchen blind (invoice attached). The balance of €1,715 will be transferred to your account within 10 working days.\nYours sincerely,\nMargot Delacroix\nAgence Delacroix Immobilier"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Train times for Thursday\nHi Tomás,\nThe 07:42 from Valmora Centrale gets into Lindheim at 09:15, which gives us plenty of time before the 10 a.m. meeting. Return is the 17:28, arriving 19:01. Tickets are €38.60 each way with the rail card discount, so €77.20 return. Shall I book two?\nCheers,\nAnnika"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Resident,\nRe: Residents' parking permit, zone C3\nYour permit (no. 0047713) expires on 31/12/2026. To renew it for 2027, please complete the enclosed form and return it with a copy of your vehicle registration by 30 November. The annual fee is €65, or €32.50 for a second vehicle registered at the same address.\nMobilità e Trasporti, Comune di Valmora"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Parents,\nClass 4B will visit the Natural History Museum on Wednesday 14 October. The coach leaves school at 8.45 a.m. and returns by 3.15 p.m. The cost is €14.50 per child, which covers transport and entry; please pay at the office by Friday 9 October.\nChildren should bring a packed lunch and a waterproof jacket.\nMrs A. Moreau, Class teacher"
+    },
+    {
+      "kind": "letter",
+      "text": "Bonjour Mr Patel,\nWe are delighted to confirm your table for 6 at Le Petit Rivage on Saturday 12 December at 8 p.m. As requested, we have noted 1 vegetarian and 1 gluten-free guest. The tasting menu is €68 per person (€92 with wine pairing).\nWe hold tables for 15 minutes. To change your booking, reply to this email or call 555-0186.\nÀ bientôt,\nSophie Vernet"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr Kowalski,\nThis is a reminder of your appointment with Dr Elena Ruiz on Tuesday 3 November 2026 at 16:20 at Clínica Dental Sol, Calle Mayor 31, 2nd floor.\nPlease arrive 10 minutes early and bring your health card. If you need to cancel, kindly give us at least 24 hours' notice on 555-0129, as missed appointments are charged at €30.\nBest wishes,\nClínica Dental Sol"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Gran,\nWe arrived in Valmora on Sunday after 11 hours on the train! The flat is on the 5th floor (no lift) but the view of the cathedral is worth every step. Yesterday we walked 18 km and had the best hot chocolate I've ever tasted, for €3.20. It's 31° today so we're off to the lake.\nLots of love,\nMaya and Ben x"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your first day, Monday 1 June\nDear Ruairí,\nWelcome to Studio Brandt! Please come to reception at Hafenstraße 9, 3rd floor, at 9:30. Your desk is in Room 3.14 and your laptop will be ready. Lunch on your first day is on us; the canteen is open 12:00–14:00 and a main course costs €6.80.\nIf you have any questions before then, call me on +44 7700 900452.\nBest,\nHenrike Vogel, Office Manager"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Sir or Madam,\nOn 22 August I bought a coffee machine (model CM-300, order no. 88-40127) from your shop on Avenue Gambetta for €249.00. After two weeks it stopped heating water. I returned it on 9 September and was told a repair would take 6 to 8 weeks.\nAs the machine is under guarantee, I would prefer a replacement or a full refund. I enclose a copy of the receipt.\nYours faithfully,\nPieter de Groot"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Friend of the Museum,\nYour membership (no. AM-20391) expires on 30 September 2026. Renewing now costs €45 for an individual or €70 for two adults at the same address, and still includes free entry to all exhibitions, 10% off in the shop and two guest passes.\nRenew online, by phone on 555-0134, or at the front desk.\nWith thanks,\nIsabel Marchetti, Membership Office"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Change to your walking tour, 25/07\nHello Jordan,\nBecause of the heat warning (38 °C expected), the 2 p.m. Old Town walking tour on 25 July has been moved to 9 a.m. the same day. The meeting point is unchanged: the fountain in Piazza dei Mercanti.\nIf the new time doesn't suit you, we will refund your 4 tickets (€72.00) in full.\nThanks for understanding,\nValmora Walks"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Ms Nakamura,\nWe are pleased to offer you a place on the Intensive German course (level B1) at Sprachschule Lindenhof, from 7 September to 2 October 2026, Monday to Friday, 9:00–12:30.\nThe course fee is €980. A deposit of €200 is due by 31 July to secure your place; the remaining €780 is payable on the first day.\nMit freundlichen Grüßen,\nDr Jakob Weiss, Director of Studies"
+    },
+    {
+      "kind": "letter",
+      "text": "Hi neighbours,\nWe're having a small party on Saturday 19 September for our daughter's 18th birthday, from about 7 p.m. We'll keep the music down after 11 and everything should be finished by 1 a.m. Sorry in advance for any noise, and do come up for a drink if you like (flat 3D)!\nLucía and Marco"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Booking RV-551208 confirmed\nDear Mr Haddad,\nYour car is reserved for collection at Valmora Airport, desk 2, on 14/08/2026 at 10:30 and return on 21/08/2026 at 10:00. Group C (compact hatchback or similar), manual, unlimited km.\nTotal: 7 days x €41.50 = €290.50, plus full insurance at €12.00 per day (€84.00). Amount due at the desk: €374.50.\nValmora Car Hire"
+    },
+    {
+      "kind": "menu",
+      "text": "CAFÉ LUMIÈRE · PETIT DÉJEUNER\nServi de 7h30 à 11h30\nCafé crème 2,90 €\nChocolat chaud à l'ancienne 3,80 €\nCroissant 1,90 € · Pain au chocolat 2,10 €\nOmelette jambon-fromage 8,50 €\nTartine beurre et confiture 3,40 €\nFormule: boisson chaude + jus + viennoiserie 7,90 €"
+    },
+    {
+      "kind": "menu",
+      "text": "PIZZERIA DA NINO\nMargherita (pomodoro, mozzarella, basilico) €8.00\nDiavola (salame piccante) €10.50\nQuattro formaggi €11.00\nCapricciosa (prosciutto, funghi, carciofi, olive) €12.00\nCalzone ripieno €11.50\nExtra toppings €1.50 each\nGluten-free base +€2.50\nTakeaway 10% off · Tel. 555-0151"
+    },
+    {
+      "kind": "menu",
+      "text": "BAR EL RINCÓN · TAPAS\nPatatas bravas 4,50 €\nCroquetas de jamón (6 uds.) 6,80 €\nPimientos de Padrón 5,20 €\nTortilla española (ración) 5,90 €\nGambas al ajillo 9,50 €\nPulpo a la gallega 14,00 €\nCaña 2,20 € · Copa de vino 3,00 €\nPrecios con IVA incluido"
+    },
+    {
+      "kind": "menu",
+      "text": "LUNCH MENU · 2 COURSES €19.50 · 3 COURSES €24.00\nStarters: Chilled gazpacho, or burrata with roasted peppers\nMains: Grilled sea bream with salsa verde, or wild mushroom risotto (V)\nDesserts: Crème brûlée, or lemon sorbet (VG)\nMonday to Friday, 12:00–14:30\nService not included. Please tell us about any allergies."
+    },
+    {
+      "kind": "menu",
+      "text": "BRAUHAUS AM FLUSS\nHelles 0,5 l 4,60 €\nWeißbier 0,5 l 4,90 €\nDunkel 0,3 l 3,40 €\nSchweinshaxe mit Knödel 17,80 €\nWiener Schnitzel mit Kartoffelsalat 19,50 €\nBrezel mit Obatzda 7,20 €\nApfelstrudel mit Vanillesoße 6,50 €\nKüche täglich 11:30–22:00 Uhr"
+    },
+    {
+      "kind": "menu",
+      "text": "GELATERIA SAN ROCCO\nCono piccolo (2 gusti) €2.80\nCoppetta media (3 gusti) €3.50\nCoppetta grande (4 gusti) €4.50\nPanna montata +€0.60\nAffogato al caffè €4.80\nToday's flavours: pistachio, stracciatella, fior di latte, mango, dark chocolate 70%\nVegan flavours are marked with a leaf"
+    },
+    {
+      "kind": "menu",
+      "text": "ROOM SERVICE · HOTEL STELLA DEL FIUME\nAvailable 24 hours · Dial 9\nClub sandwich with fries €16.00\nCaesar salad with chicken €14.50\nSpaghetti al pomodoro €12.00\nCheese plate (3 cheeses) €13.00\nChocolate fondant (allow 15 min) €8.50\nA tray charge of €4.00 applies to every order."
+    },
+    {
+      "kind": "menu",
+      "text": "KAFFEEBAR KORN\nEspresso 2,20\nDoppio 3,00\nCappuccino 3,40\nFlat White 3,90\nHafermilch +0,50\nChai Latte 4,10\nZimtschnecke 3,20\nAlle Preise in Euro · WLAN: korn-gast / kaffee2026"
+    },
+    {
+      "kind": "menu",
+      "text": "CRÊPERIE TY KORRIGAN\nGalettes (sarrasin)\nComplète: jambon, œuf, emmental 9,50 €\nForestière: champignons, crème, lardons 10,80 €\nChèvre-miel: fromage de chèvre, miel, noix 11,20 €\nCrêpes (froment)\nBeurre-sucre 4,00 € · Citron 4,50 €\nCaramel au beurre salé 5,80 €\nBolée de cidre 25 cl 3,50 €"
+    },
+    {
+      "kind": "menu",
+      "text": "TODAY'S CATCH · 14 JUNE\nGrilled sardines (6) with bread and salad €11.00\nWhole sea bass, approx. 400 g, with lemon potatoes €22.00\nMussels in white wine, 1 kg pot €16.50\nFried calamari €13.50\nPrawns per 100 g €7.50\nHouse white, 1/2 carafe €9.00\nAsk your waiter about allergens"
+    },
+    {
+      "kind": "menu",
+      "text": "SUNDAY BRUNCH AT THE ORANGERIE\n10 a.m. to 3 p.m. · €34 per adult · €15 children 4–12 · under 4s free\nBottomless coffee and tea, fresh juices\nEggs any style, smoked salmon, waffles with berries\nCheese and charcuterie table\nGlass of crémant +€8\nBooking essential: 555-0173 or brunch@orangerie.example"
+    },
+    {
+      "kind": "menu",
+      "text": "TAVERNA KALIMERA\nMezedes for 2 people €24.00\nTzatziki €5.50 · Hummus €5.50 · Taramosalata €6.00\nSaganaki (fried cheese) €7.50\nMoussaka €14.50\nLamb kleftiko €18.90\nPork souvlaki, 2 skewers €13.00\nBaklava €5.00\nOuzo 40 ml €4.00"
+    },
+    {
+      "kind": "menu",
+      "text": "VINS AU VERRE (12 cl) / BOUTEILLE (75 cl)\nCôtes du Rhône rouge 2023 5,50 € / 26,00 €\nSancerre blanc 2024 8,00 € / 39,00 €\nRosé de Provence 2025 6,00 € / 28,00 €\nCrémant d'Alsace brut 7,50 € / 34,00 €\nMuscat de Beaumes-de-Venise (8 cl) 6,50 €\nL'abus d'alcool est dangereux pour la santé."
+    },
+    {
+      "kind": "menu",
+      "text": "GREEN LEAF KITCHEN\nAll dishes 100% plant-based\nBuddha bowl: quinoa, roast squash, kale, tahini €12.90\nFalafel wrap with pickled cabbage €9.40\nLentil soup of the day, with sourdough €7.20\nBanana bread (GF) €3.60\nMatcha latte €4.30 · Turmeric latte €4.10\nAdd avocado +€1.80"
+    },
+    {
+      "kind": "menu",
+      "text": "ANADOLU GRILL\nDöner im Brot 7,50 €\nDürüm Döner 8,00 €\nDöner Teller mit Pommes 12,50 €\nLahmacun mit Salat 6,00 €\nFalafel Box (6 Stück) 7,00 €\nAyran 2,00 € · Cola 0,33 l 2,50 €\nJeden Mittwoch: Döner + Getränk 8,50 €\nGeöffnet bis 2 Uhr"
+    },
+    {
+      "kind": "timetable",
+      "text": "TRAM 4 · PIAZZA NOVA → OSPEDALE SAN LUCA\nMon–Fri first tram 05:12, last tram 00:48\nEvery 6 min 07:00–09:30 and 16:30–19:00\nEvery 10 min at other times until 21:00\nEvery 15 min after 21:00\nSat every 12 min · Sun and holidays every 20 min\nJourney time approx. 24 min"
+    },
+    {
+      "kind": "timetable",
+      "text": "DEPARTURES · VALMORA CENTRALE\nTime Train Destination Platform Remarks\n08:05 IC 512 Lindheim 4 On time\n08:12 RE 7 Port Aubrac 9 +5\n08:20 S3 Airport 2 On time\n08:31 ICE 1580 Hamburg-Altona 6 Cancelled\n08:40 RB 22 Sankt Veit 11 On time\n08:47 EC 34 Milano Centrale 5 +12"
+    },
+    {
+      "kind": "timetable",
+      "text": "BUS 31 · STOP: RUE DES CARMES\nTo Gare Routière: 6:40, 7:10, 7:40, 8:10, then at 10 and 40 minutes past each hour until 18:40, then 19:25, 20:25, 21:25\nTo Hôpital Nord: 6:55, 7:25, 7:55, then hourly at :25 until 21:25\nSundays: no service\nTimetable valid from 31/08/2026"
+    },
+    {
+      "kind": "timetable",
+      "text": "RIVER BOAT SERVICE · SUMMER 2026\nPont Neuf dep. 10:00 11:30 13:00 14:30 16:00 17:30\nJardin Botanique 10:15 11:45 13:15 14:45 16:15 17:45\nÎle aux Saules 10:35 12:05 13:35 15:05 16:35 18:05\nOld Harbour arr. 10:50 12:20 13:50 15:20 16:50 18:20\nAdults €9.00 single · €15.00 return · Children 6–14 half price\nRuns daily, 1 May to 30 September"
+    },
+    {
+      "kind": "timetable",
+      "text": "GUIDED TOURS · CASTELLO DI VALMORA\nEnglish: 10:30, 13:00, 15:30\nItaliano: 10:00, 11:30, 14:00, 16:30\nDeutsch: 12:00 (Sat & Sun only)\nFrançais: 14:30 (Tue, Thu)\nDuration approx. 50 minutes · max. 20 people\n€6.00 in addition to the entry ticket"
+    },
+    {
+      "kind": "timetable",
+      "text": "FITNESS CLUB NORD · CLASSES WEEK 38\nMon 07:00 Spinning (45 min) · 18:30 Yoga\nTue 12:15 Pilates · 19:00 Dance cardio\nWed 07:00 Spinning · 18:00 Body conditioning\nThu 12:15 Core 30 · 19:30 Boxing fit\nFri 17:30 Stretch & relax\nSat 10:00 Family yoga (children 6+)\nBook in the app max. 48 h in advance · Studio 2, 1st floor"
+    },
+    {
+      "kind": "timetable",
+      "text": "NIGHT BUS N2 · FRIDAY & SATURDAY NIGHTS\nHauptbahnhof 23:45 00:45 01:45 02:45 03:45\nMarktplatz 23:52 00:52 01:52 02:52 03:52\nUniversität 00:01 01:01 02:01 03:01 04:01\nKlinikum Süd 00:14 01:14 02:14 03:14 04:14\nNight supplement €1.00 on all tickets\nTel. 555-0147 (24 h)"
+    },
+    {
+      "kind": "timetable",
+      "text": "AIRPORT EXPRESS · CITY CENTRE ↔ VALMORA AIRPORT\nFrom Piazza Nova: every 20 min, 4:40 a.m. to 11:40 p.m.\nFrom Airport (Arrivals, exit B): every 20 min, 5:20 a.m. to 12:20 a.m.\nJourney 35–45 min depending on traffic\nSingle €7.50 · Return €12.00 · Under 12s free with an adult\nTickets from the driver (cards only) or online"
+    },
+    {
+      "kind": "timetable",
+      "text": "MARKET DAYS IN VALMORA\nMonday: flowers, Place aux Herbes, 8:00–13:00\nWednesday: food market, Halles Centrales, 7:00–14:00\nThursday: organic farmers, Parc Saint-Jean, 15:00–19:30\nSaturday: everything, Cours Belvédère, 7:00–13:30\nSunday: antiques and books, Quai des Tanneurs, 9:00–17:00"
+    },
+    {
+      "kind": "timetable",
+      "text": "PISCINE DES MARRONNIERS · HORAIRES\nLundi 12:00–13:45 / 17:00–20:00\nMardi 7:30–9:00 / 12:00–13:45\nMercredi 10:00–18:00\nJeudi 12:00–13:45 / 17:00–21:30\nVendredi 7:30–9:00 / 12:00–19:00\nSamedi et dimanche 9:00–18:00\nEntrée 4,20 € · Carte 10 entrées 36,00 €\nFermeture des caisses 30 min avant"
+    },
+    {
+      "kind": "timetable",
+      "text": "CINEMA ASTRA PALACE · THIS WEEK\nThe Ninth Lantern (12) 14:15 17:00 20:45\nSmall Hours in Valmora (U) 11:00 13:30\nNight Train to Lindheim (15) 18:10 21:20\nGli ultimi tram (OV, English subtitles) 19:00\nTuesday: all tickets €6.50 · Standard €9.80 · Students €7.50"
+    },
+    {
+      "kind": "timetable",
+      "text": "REGIONAL LINE R5 · VALMORA – LAC DORÉ\nValmora Centrale 06:18 07:18 08:18 12:18 17:18 18:48\nSaint-Clair 06:31 07:31 08:31 12:31 17:31 19:01\nMontfleury 06:44 07:44 08:44 12:44 17:44 19:14\nLac Doré 07:02 08:02 09:02 13:02 18:02 19:32\nBicycles free outside 7:00–9:00"
+    },
+    {
+      "kind": "timetable",
+      "text": "LYCÉE HÉLÈNE VARENNE · SCHOOL DAY\nGates open 7:45\nPeriod 1 8:00–8:55\nPeriod 2 8:55–9:50\nBreak 9:50–10:10\nPeriod 3 10:10–11:05\nPeriod 4 11:05–12:00\nLunch 12:00–13:30\nPeriod 5 13:30–14:25\nPeriod 6 14:25–15:20\nWednesday: lessons end at 12:00"
+    },
+    {
+      "kind": "timetable",
+      "text": "FUNICOLARE DEL BELVEDERE\nDaily 7:00–23:30, every 15 min (every 10 min Sat & Sun 10:00–19:00)\nJourney time 4 min · Height difference 152 m\nSingle €2.50 · Return €4.00 · Bikes €1.50\nLast descent 23:45\nClosed for maintenance 2–13 November 2026"
+    },
+    {
+      "kind": "timetable",
+      "text": "SUMMER ORGAN FESTIVAL 2026 · CATHEDRAL OF ST MARTIN\nSun 5 July, 20:30 · Bach and Buxtehude · Anna Kessler\nSun 12 July, 20:30 · French romantics · Luc Aubertin\nSun 19 July, 20:30 · Improvisation night · Marek Dvořák\nSun 26 July, 18:00 · Family concert (45 min)\nTickets €15 / concessions €10 / under 16s free"
+    },
+    {
+      "kind": "recipe",
+      "text": "TARTE TATIN (serves 6)\n150 g caster sugar, 50 g butter, 6 firm apples, 1 sheet puff pastry (approx. 230 g)\nOven 200 °C / gas 6. Melt the sugar in a 24 cm ovenproof pan until amber, then stir in the butter.\nArrange the apple quarters tightly, cook for 10 min, cover with the pastry and bake for 25–30 min.\nRest 5 min before turning out."
+    },
+    {
+      "kind": "recipe",
+      "text": "GAZPACHO ANDALUZ · 4 raciones\n1 kg ripe tomatoes\n1 green pepper\n1/2 cucumber\n1 clove garlic\n60 ml olive oil\n2 tbsp sherry vinegar\n1 tsp salt\nBlend everything until smooth, sieve, and chill for at least 2 hours. Serve with diced cucumber and croutons."
+    },
+    {
+      "kind": "recipe",
+      "text": "RISOTTO ALLA MILANESE\nServes 4 · Prep 10 min · Cook 25 min\n320 g Carnaroli rice\n1.2 litres hot chicken stock\n1 small onion, finely chopped\n0.2 g saffron (1 sachet)\n40 g butter, 60 g grated Parmigiano\nSoften the onion in half the butter, toast the rice for 2 min, then add the stock a ladle at a time. Stir in the saffron after 10 min. Finish with the rest of the butter and the cheese."
+    },
+    {
+      "kind": "recipe",
+      "text": "APPLE STRUDEL · makes 1 strudel (8 slices)\n250 g plain flour, 1 egg, 125 ml lukewarm water, 2 tbsp oil, pinch of salt\n1 kg apples, 80 g sugar, 1 tsp cinnamon, 50 g raisins, 60 g breadcrumbs toasted in 40 g butter\nRest the dough for 30 min, stretch it paper-thin over a floured cloth, fill, roll and bake at 190 °C for 35–40 min.\nDust with icing sugar."
+    },
+    {
+      "kind": "recipe",
+      "text": "CRÊPES · about 12\n250 g flour\n4 eggs\n1/2 litre milk\n50 g melted butter\n1 pinch of salt\n1 tbsp sugar\nWhisk, rest the batter for 1 hour, then cook in a hot 22 cm pan, about 1 min per side."
+    },
+    {
+      "kind": "recipe",
+      "text": "PAELLA VALENCIANA (6 personas)\n400 g bomba rice\n600 g chicken, in pieces\n300 g rabbit, in pieces\n200 g flat green beans\n150 g garrofó beans\n1 grated tomato, 2 tsp sweet paprika, a pinch of saffron\n1.5 litres water\nBrown the meat, add the vegetables, paprika and water, and simmer for 20 min. Add the rice, spread it evenly and do not stir again. Cook for 18 min, then rest for 5 min."
+    },
+    {
+      "kind": "recipe",
+      "text": "CHOCOLAT CHAUD À L'ANCIENNE · 2 tasses\n40 cl whole milk\n10 cl single cream\n100 g dark chocolate 70%, chopped\n1 tsp cocoa powder\n1 pinch of fleur de sel\nHeat the milk and cream to just below boiling, pour over the chocolate, whisk for 2 min and serve at once."
+    },
+    {
+      "kind": "recipe",
+      "text": "SPRITZ · 1 glass\n3 parts prosecco (90 ml)\n2 parts bitter orange aperitivo (60 ml)\n1 splash soda water (approx. 30 ml)\nFill a wine glass with ice, add the prosecco first, then the aperitivo, top with soda and garnish with 1/2 slice of orange."
+    },
+    {
+      "kind": "recipe",
+      "text": "SPICED BISCUITS (SPECULOOS) · about 40\n2 1/4 cups flour (280 g)\n3/4 cup dark brown sugar\n1/2 cup butter, softened\n1 egg\n2 tsp mixed spice, 1/2 tsp baking soda\nCream the butter and sugar, beat in the egg, then add the dry ingredients. Chill for 2 hours, roll to 3 mm, cut and bake at 350 °F (175 °C) for 12–14 minutes."
+    },
+    {
+      "kind": "recipe",
+      "text": "SOUPE DE POISSON · 6 portions\n1.5 kg mixed rockfish, cleaned\n2 leeks, 1 onion, 1 fennel bulb\n4 tomatoes, 3 cloves garlic\n1 strip orange peel, 1 bay leaf, pinch of saffron\n2 litres water\nFry the vegetables in olive oil for 10 min, add the fish and cook 10 min more, then the water and seasonings. Simmer for 30 min, blend and pass through a sieve. Serve with rouille and croûtons."
+    },
+    {
+      "kind": "recipe",
+      "text": "KAISERSCHMARRN · serves 2\n4 eggs, separated\n120 g flour\n250 ml milk\n2 tbsp sugar, 1 pinch salt\n30 g raisins (soaked in 2 tbsp rum)\n30 g butter for the pan\nBeat the whites stiff and fold into the batter. Cook in butter over medium heat for 4–5 min, turn in pieces, tear apart with two forks and caramelise with 1 tbsp sugar. Serve with plum compote."
+    },
+    {
+      "kind": "recipe",
+      "text": "TORTILLA DE PATATAS\nIngredients (serves 4): 5 medium potatoes (about 800 g), 1 onion, 6 eggs, 250 ml olive oil, salt\nSlice the potatoes thinly and cook gently in the oil with the onion for 20 min until soft but not brown. Drain, keeping 2 tbsp of the oil. Mix with the beaten eggs and leave for 10 min. Cook in a 26 cm pan for 5 min, flip with a plate and cook 3 min more."
+    },
+    {
+      "kind": "recipe",
+      "text": "MULLED WINE (GLÜHWEIN) · 8 cups\n1.5 litres dry red wine\n250 ml orange juice\n100 g sugar (or to taste)\n2 cinnamon sticks, 6 cloves, 3 star anise\n1 orange, sliced\nHeat gently for 20 minutes; do not let it boil (max. 78 °C, or the alcohol escapes). Add 4 cl rum per cup if you like."
+    },
+    {
+      "kind": "recipe",
+      "text": "BRUSCHETTA AL POMODORO · 8 slices\n4 ripe plum tomatoes, diced\n1 clove garlic, halved\n8 slices of country bread, 1.5 cm thick\n6 basil leaves, torn\n3 tbsp extra virgin olive oil, 1/2 tsp sea salt\nToast the bread on a griddle for 2 min each side, rub with garlic, then top with the tomatoes, basil, oil and salt. Eat within 10 minutes."
+    },
+    {
+      "kind": "recipe",
+      "text": "MADELEINES · 24 pieces\n2 eggs, 100 g sugar, 100 g flour, 1 tsp baking powder, 100 g melted butter, zest of 1 lemon\nWhisk the eggs and sugar until pale, fold in the flour and baking powder, then the butter and zest. Chill the batter for at least 1 hour.\nBake in buttered tins at 220 °C for 4 min, then lower to 180 °C for 5–6 min more."
+    },
+    {
+      "kind": "label",
+      "text": "DOMAINE DES TROIS COLLINES\nCôtes de Valmora\nAppellation Contrôlée\n2022\nMis en bouteille au domaine\n13,5% vol. · 750 ml\nContains sulphites · Contient des sulfites\nLot L22-0815"
+    },
+    {
+      "kind": "label",
+      "text": "OLIO EXTRA VERGINE DI OLIVA\nFrantoio Ruggeri · Raccolta 2025/26\nSuperior category olive oil obtained directly from olives and solely by mechanical means.\n500 ml e\nBest before: 31/03/2027\nStore in a cool, dark place, away from heat.\nLot 25-112 · Produced in Italy"
+    },
+    {
+      "kind": "label",
+      "text": "FROMAGE DE CHÈVRE AFFINÉ\nLait cru de chèvre · Raw goat's milk\nPoids net 180 g\nMatière grasse 45% sur extrait sec\nÀ consommer de préférence avant le 22/11/2026\nConserver entre +2 °C et +6 °C\nFR 26.418.007 CE\nPrix/kg 28,90 € · Prix 5,20 €"
+    },
+    {
+      "kind": "label",
+      "text": "TOSTERIA MARINI · CAFFÈ IN GRANI\nMiscela Oro: 80% Arabica, 20% Robusta\nTostato il 02.09.2026\nPeso netto 250 g\nNotes of cocoa, hazelnut and dried fruit\nBest within 3 months of roasting. Once opened, close tightly and keep in a cool, dry place."
+    },
+    {
+      "kind": "label",
+      "text": "APOTHEKE AM MARKT · Tel. 555-0118\nMs Hanna Berg\nAmoxicillin 500 mg capsules, 21\nTake 1 capsule 3 times a day for 7 days. Complete the course.\nDispensed 11/07/2026 · Rx No. 66120\nKeep out of the reach of children."
+    },
+    {
+      "kind": "label",
+      "text": "100% LINEN\nMade in Portugal\nWash at 40 °C\nDo not tumble dry\nIron on high, while damp\nDry clean P\nSize EU 38 / UK 10 / US 6\nStyle 4471-B · Colour: Sand"
+    },
+    {
+      "kind": "label",
+      "text": "CHOCOLATERIE VAN DAELE · DARK 72%\nIngredients: cocoa mass, sugar, cocoa butter, emulsifier (soy lecithin), vanilla. May contain milk and hazelnuts.\nNutrition per 100 g: Energy 2,364 kJ / 565 kcal · Fat 42 g (of which saturates 25 g) · Carbohydrate 33 g (of which sugars 28 g) · Fibre 11 g · Protein 8.1 g · Salt 0.02 g\nNet weight 100 g · Best before 05/2027"
+    },
+    {
+      "kind": "label",
+      "text": "CONFITURE EXTRA D'ABRICOTS\nPréparée avec 60 g de fruits pour 100 g\nTeneur totale en sucres: 58 g pour 100 g\nPoids net 340 g\nAprès ouverture, à conserver au réfrigérateur et à consommer sous 3 semaines.\nFerme du Vieux Noyer, 18 chemin des Vignes, Valmora\nDLUO: fin 12/2027"
+    },
+    {
+      "kind": "label",
+      "text": "PRIORITY · PRIORITAIRE\nFrom: Lena Fischer, Gartenweg 12, 40210 Valmora\nTo: Mr Óscar Ibáñez, Calle del Olivar Viejo 7, 3º B, 41927 Valdelagua, Spain\nWeight 1.84 kg\nPostage €15.90\nTracking No. RR 4419 0371 2 DE\nContents: books (2), gift"
+    },
+    {
+      "kind": "label",
+      "text": "PIMENTÓN DE LA VERA · DULCE\nSweet smoked paprika\nNet weight 75 g\nIngredients: 100% smoked paprika (Capsicum annuum)\nStore away from light and humidity\nBest before 08/2028 · Lot 3417\nEspecias La Alcazaba, Valmora"
+    },
+    {
+      "kind": "label",
+      "text": "BRAUEREI HIRSCHGRUND\nValmorer Märzen\nAlc. 5,6 % vol.\n0,5 l\nZutaten: Wasser, Gerstenmalz, Hopfen, Hefe\nMindestens haltbar bis: 14.03.2027\nPfand 0,08 €"
+    },
+    {
+      "kind": "label",
+      "text": "SALUMERIA BIANCHI\nProsciutto crudo stagionato 24 mesi\nPeso netto 0,214 kg\n€/kg 39,90\nPrezzo €8,54\nConfezionato il 19/09/2026\nDa consumarsi entro il 03/10/2026\nConservare a +4 °C"
+    },
+    {
+      "kind": "label",
+      "text": "USB-C CHARGER 30 W\nInput: 100–240 V ~ 50/60 Hz 0.8 A\nOutput: 5 V DC 3 A / 9 V DC 3 A / 15 V DC 2 A / 20 V DC 1.5 A\nModel: VC-3020 · Made in China\nIndoor use only. Do not cover while charging.\nSer. No. 2604-118734"
+    },
+    {
+      "kind": "label",
+      "text": "MIEL DE LAVANDE\nRécolté et mis en pot par Rucher des Lilas\nOrigine: France\nPoids net 500 g\nRécolte 2026\nÀ consommer de préférence avant fin 2028\nConserver à température ambiante. Le miel peut cristalliser naturellement.\nNe pas donner aux enfants de moins de 1 an."
+    },
+    {
+      "kind": "label",
+      "text": "SOURCE SAINTE-ÉLISE\nNatural mineral water\n1.5 L\nComposition (mg/L): Calcium 78 · Magnesium 24 · Sodium 9.4 · Potassium 1.6 · Bicarbonates 312 · Sulphates 14 · Nitrates 3.2\nDry residue at 180 °C: 305 mg/L\npH 7.4\nBest before 06/2028"
+    },
+    {
+      "kind": "flyer",
+      "text": "JAZZ ON THE RIVER\nFriday 24 July 2026 · 8 p.m.\nQuai des Tanneurs, Pontoon 3\nThe Marco Ferri Quartet with special guest Ingrid Solberg (vocals)\nTickets €18 in advance, €22 on the door, students €12\nBar opens 7.15 p.m. · Bookings 555-0162\nwww.jazzriver-valmora.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "YOGA IN THE PARK\nEvery Sunday in June, 9:00–10:15\nParc de la Roseraie (by the bandstand)\nAll levels welcome · bring your own mat\nPay what you can, suggested €8\nRain? We move to the Orangery.\nInfo: Clara, 07700 900178"
+    },
+    {
+      "kind": "flyer",
+      "text": "FLOHMARKT IM HINTERHOF\nSamstag, 12. September 2026, 10–16 Uhr\nLindenstraße 41, Innenhof\nMöbel, Bücher, Kinderkleidung, Schallplatten\nKaffee und Kuchen 2,50 €\nStandgebühr: 5 € pro Tisch\nAnmeldung bis 5. September: flohmarkt41@post.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "LANGUAGE EXCHANGE · TANDEM NIGHT\nEvery Wednesday, 19:00–21:30\nBar Il Tram, Via Garibaldi 26\nSpeak Italian, English, Spanish, French or German with locals and newcomers. Free entry; first drink 50% off with this flyer.\nInstagram: @tandem.valmora"
+    },
+    {
+      "kind": "flyer",
+      "text": "GRAND OPENING · 3 OCTOBER\nOsteria Nuova, Corso Cavour 58\nFree glass of prosecco for every table on opening weekend (3–4 October)\nLunch menu from €14.90 · Dinner from 19:00\nBook your table: 555-0105 or osteria-nuova.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "BIKE TOURS OF VALMORA\n3-hour Old Town tour: daily 10:00 and 15:00 · €35 (bike and helmet included)\nRiverside sunset ride: Tue & Fri 19:00 · 2 1/2 hours · €40\nKids under 12: €20 · Groups of 8+: 15% discount\nMeeting point: Piazza Nova, next to the clock tower\nBook at bikevalmora.example or call 555-0133"
+    },
+    {
+      "kind": "flyer",
+      "text": "CHŒUR SAINT-ROCH\nConcert de Noël\nDimanche 20 décembre 2026 à 17 h\nÉglise Saint-Roch, place du Parvis\nProgramme: Charpentier, Rutter, chants traditionnels\nEntrée libre, participation au chapeau\nVin chaud offert à la sortie"
+    },
+    {
+      "kind": "flyer",
+      "text": "ENGLISH LESSONS WITH A NATIVE SPEAKER\nConversation, exam preparation (B2, C1) and business English\nChildren from 8 years, adults all levels\n€25 per hour · €110 for 5 lessons\nOnline or at your home (Valmora centre)\nCall or text Fiona: +44 7700 900625"
+    },
+    {
+      "kind": "flyer",
+      "text": "NEW YEAR OFFER AT FITNESS CLUB NORD\nJoin before 31 January and pay no joining fee (save €49)\n12-month membership €29.90 per month\nOff-peak (before 4 p.m.) €19.90 per month\nFree personal training session worth €40\nOpen 6 a.m.–11 p.m., 7 days a week\nViale Europa 112 · 555-0189"
+    },
+    {
+      "kind": "flyer",
+      "text": "TEATRO COMUNALE PRESENTS\n\"The Importance of Being Earnest\" in English with Italian surtitles\n15–18 April 2026 at 20:45 · Sunday matinée 19 April at 16:00\nStalls €32 · Circle €24 · Gallery €14\nBox office open Tue–Sat 10:00–13:00 and 16:00–19:00\nRunning time 2 h 30 min including one interval"
+    },
+    {
+      "kind": "flyer",
+      "text": "FROM FARM TO TABLE\nOrganic farmers' market every Thursday, 15:00–19:30, Parc Saint-Jean\nOver 30 local producers: vegetables, cheese, honey, bread, flowers\nBring your own bags and get a €1 voucher for every €20 you spend\nNew this season: pick-up boxes from €12, order by Tuesday at 6 p.m."
+    },
+    {
+      "kind": "flyer",
+      "text": "VALMORA 10K CHARITY RUN\nSunday 11 October 2026 · Start 9:30 at the Old Harbour\nEntry €20 (€10 for under 16s) · 5 km fun run €8\nAll profits go to the Children's Hospital Valmora\nChip timing, medal and T-shirt for every finisher\nRegister by 30 September at run10k-valmora.example\nCourse closes at 11:30"
+    },
+    {
+      "kind": "flyer",
+      "text": "TO LET · STUDIO FLAT\nRue Fontaine 18, 4th floor with lift\n28 m², furnished, balcony facing south\n€640 per month + €45 service charges\nDeposit 2 months' rent (€1,280)\nAvailable from 1 November 2026\nViewings Sat 10:00–12:00 · Call 555-0144"
+    },
+    {
+      "kind": "flyer",
+      "text": "WINE TASTING EVENING\nThursday 5 November, 7–9.30 p.m.\nCave Saint-Vincent, 9 rue des Remparts\nSix wines from the Loire with cheese and charcuterie\n€28 per person · 10% off any bottle on the night\nPlaces limited to 24: reserve at the shop or on 555-0197"
+    },
+    {
+      "kind": "flyer",
+      "text": "EXHIBITION · \"BRIDGES OF VALMORA, 1890–1990\"\nPhotographs from the city archive, many shown for the first time\n12 March – 31 May 2026\nGalerie du Pont, Quai Belvédère 3\nTue–Sun 11:00–19:00 · Closed Mondays\nEntry €5 / reduced €3 / free on the first Sunday of the month"
+    },
+    {
+      "kind": "form",
+      "text": "TRENO REGIONALE · BIGLIETTO\nValmora Centrale → Lago Dorato\n2nd class · 1 adult\nValid on 14/06/2026\nPrice €8.90\nValidate before boarding\nPNR X7K2Q9 · Ticket no. 8033 1194 5520\nIssued 13/06/2026 18:22 · Machine 044"
+    },
+    {
+      "kind": "form",
+      "text": "GUEST REGISTRATION CARD\nSurname: Andersson First name: Elin\nDate of birth: 14/02/1991 Nationality: Swedish\nRoom: 207 Arrival: 21/09/2026 Departure: 24/09/2026\nNo. of guests: 2\nRate: €112.00 per night, breakfast included\nSignature: E. Andersson"
+    },
+    {
+      "kind": "form",
+      "text": "TEATRO COMUNALE\nThe Importance of Being Earnest\nSat 18 April 2026 · 20:45\nStalls · Row F · Seat 14\nPrice €32.00 incl. booking fee €1.50\nOrder 77120-4 · Doors open 20:15\nNo admission after the start of the performance"
+    },
+    {
+      "kind": "form",
+      "text": "MUSEO DELLA CITTÀ · INGRESSO\nBiglietto intero €12,00\nValid for one entry on 09/08/2026\nIncludes temporary exhibition \"Valmora 1900\"\nTicket No. 0041178\nPlease keep your ticket until you leave the museum."
+    },
+    {
+      "kind": "form",
+      "text": "CAKE ORDER FORM · BÄCKEREI HOLZMANN\nName: Familie Brandl Tel. 555-0109\nCollection date: Sat 26.09.2026, 10:00\nCake: Schwarzwälder Kirschtorte, 26 cm (12 pieces)\nWriting: \"Alles Gute, Oma! 80\"\nPrice 34,50 € · Deposit paid 10,00 € · Balance 24,50 €\nOrder no. 1906"
+    },
+    {
+      "kind": "form",
+      "text": "BOARDING PASS\nPassenger: MARTIN/CLAIRE MS\nFlight VM 2417 Valmora (VLM) → Lisbon (LIS)\nDate 03OCT · Departs 06:55 · Gate B12\nBoarding 06:15 · Gate closes 06:35\nSeat 14C · Zone 2\nBooking ref. QH4T7M · Seq. 087"
+    },
+    {
+      "kind": "form",
+      "text": "AVIS DE CONTRAVENTION\nNo. 2026-0418-772\nDate: 18/04/2026 Heure: 11:42\nLieu: Rue des Carmes, devant le no. 14\nVéhicule: Peugeot 208, gris\nMotif: stationnement payant non réglé\nMontant forfaitaire: 35 € (minoré 25 € si payé sous 15 jours)"
+    },
+    {
+      "kind": "form",
+      "text": "MEMBERSHIP APPLICATION · FITNESS CLUB NORD\nName: Jonas Weber\nEmail: j.weber@mail.example\nMobile: 07700 900241\nMembership: 12 months, off-peak\nStart date: 01/02/2026\nMonthly fee: €19.90 · Joining fee: waived (offer)\nSigned: J. Weber Date: 28/01/2026"
+    },
+    {
+      "kind": "form",
+      "text": "BIKE RENTAL AGREEMENT\nCustomer: Sofía Navarro\nBikes: 2 x city bike (No. 14, No. 22), 1 child seat\nFrom 11/05/2026 09:30 to 11/05/2026 17:30\n2 bikes x 8 h x €2.50 = €40.00\nChild seat €5.00\nTotal €45.00 · Deposit €100 held on card\nI accept the terms printed overleaf. Signed: S. Navarro"
+    },
+    {
+      "kind": "form",
+      "text": "PROPERTY IRREGULARITY REPORT\nFile ref. VLMVM48821\nPassenger: Mr Tariq Hassan\nFlight: VM 1182 from Athens, 07/07/2026\nBag type: black hard-shell suitcase, 4 wheels, approx. 23 kg\nTag no. VM 334871\nDelivery address: Hotel Belvedere, Room 506\nContact: 555-0122"
+    },
+    {
+      "kind": "form",
+      "text": "MONTHLY TRAVEL PASS · APPLICATION\nSurname: Rossi First name: Paola\nDate of birth: 03/05/1958\nPass type: Senior (65+), zones A–C\nPrice €21.00 per month (standard €48.00)\nStart month: October 2026\nPhoto attached: yes\nSignature: P. Rossi Date: 22/09/2026"
+    },
+    {
+      "kind": "form",
+      "text": "SUMMER ORGAN FESTIVAL 2026\nCathedral of St Martin\nSunday 12 July 2026, 20:30\nLuc Aubertin · French romantics\nNave, unreserved seating\nConcession €10.00\nTicket 0236 of 400\nDoors 20:00 · No latecomers during pieces"
+    },
+    {
+      "kind": "form",
+      "text": "REPAIR TICKET · OROLOGERIA CONTI\nNo. 4417\nCustomer: Sig.ra Bianca Lodi\nItem: lady's wristwatch, gold-plated, 28 mm\nFault: stops after 2–3 hours; new battery and seal\nEstimate €38.00 · Paid on account €10.00\nReady from: Tue 6 October 2026, after 3 p.m.\nTel. 555-0153"
+    },
+    {
+      "kind": "form",
+      "text": "RIVER BOAT · RETURN TICKET\nPont Neuf – Old Harbour\n1 adult €15.00\n1 child (6–14) €7.50\nTotal €22.50\nValid for the outward trip on 16/08/2026 and return on the same day\nTicket 3301-2276 · Issued 09:52"
+    },
+    {
+      "kind": "form",
+      "text": "SERVICE ORDER · GARAGE DUVAL\nDate: 02/03/2026 Order no. 6631\nVehicle: Renault Clio, 2019, 64,250 km\nWork: annual service, oil and filter change, front brake pads\nLabour 1.5 h @ €58.00 €87.00\nParts €112.40\nTotal excl. VAT €199.40\nVAT 20% €39.88\nTotal €239.28\nCustomer signature: M. Lefèvre"
+    },
+    {
+      "kind": "page",
+      "text": "THE OLD TOWN\nThe heart of Valmora lies within the medieval walls, a 2.4 km circuit that can be walked in under an hour. Most visitors enter through the Porta Nova, rebuilt in 1782 after a fire destroyed the original gate.\nFrom here, Via Lunga runs straight to the cathedral square. Look up as you walk: many of the houses still carry their builders' marks and dates, the oldest from 1438.\n24"
+    },
+    {
+      "kind": "page",
+      "text": "A SHORT HISTORY OF THE PONT NEUF\nDespite its name, the Pont Neuf is the oldest surviving bridge in the city. Work began in 1561 and took nearly 30 years; its seven arches span 186 m of the river.\nIn 1944 two arches were damaged, and the bridge was closed until 1951. A plaque on the third pier records the flood of 12 November 1872, when the water rose 6.3 m above its usual level."
+    },
+    {
+      "kind": "page",
+      "text": "— 117 —\nElena reached the station at ten past nine, which meant she had missed the 9.04 by six minutes. The board above the platforms clicked through its letters: Lindheim, delayed 25 min; Port Aubrac, on time; Sankt Veit, cancelled.\nShe bought a coffee for €2.40 from the kiosk and sat on the bench under the clock. If the Lindheim train came at all, she would be there by noon. If not, there was always the bus, and the bus was always worse."
+    },
+    {
+      "kind": "page",
+      "text": "HOW TO TAKE YOUR MEDICINE\nAdults and children over 12: take 1 or 2 tablets every 4 to 6 hours as needed. Do not take more than 8 tablets in 24 hours.\nChildren aged 6 to 12: take 1/2 to 1 tablet every 4 to 6 hours. Do not give more than 4 tablets in 24 hours.\nDo not take for more than 3 days without speaking to a doctor or pharmacist.\n2"
+    },
+    {
+      "kind": "page",
+      "text": "INTRODUCTION\nMy grandmother cooked for eleven people every Sunday in a kitchen barely 3 m wide. She never weighed anything, so the recipes in this book are my best attempt to turn \"a handful\" and \"enough\" into grams and millilitres.\nWhere she used lard, I have usually used olive oil; where she said \"until it's right\", I have given a time, but trust your nose first. Oven temperatures are for a fan oven; add 20 °C for a conventional one.\nix"
+    },
+    {
+      "kind": "page",
+      "text": "FLOOR 2 · DECORATIVE ARTS\nRooms 12 to 18 show furniture, glass and ceramics made in Valmora between 1650 and 1900. Highlights include the Marchetti cabinet (Room 14), inlaid with over 4,000 pieces of ivory and tortoiseshell, and a set of 36 porcelain plates painted for the wedding of Count Alessandro Ferri in 1764.\nAudio guide stops 21–34. Lifts are located next to Room 12 and Room 18."
+    },
+    {
+      "kind": "page",
+      "text": "4.3 Percentages\nTo increase an amount by 15%, multiply it by 1.15. For example, a jacket costing €80 rises by 15% to €80 × 1.15 = €92.\nTo decrease an amount by 15%, multiply by 0.85. So a €92 jacket in a 15% sale costs €92 × 0.85 = €78.20, which is less than the original €80.\nExercise 4C: questions 1–12, page 57."
+    },
+    {
+      "kind": "page",
+      "text": "GETTING AROUND\nA single ticket costs €2.10 and is valid for 90 minutes on trams, buses and the funicular, including changes. A 24-hour pass is €8.40 for zones A and B, which cover the whole city; the airport bus is not included.\nTickets must be validated on first use. Inspectors may charge a penalty of €60, reduced to €40 if paid on the spot."
+    },
+    {
+      "kind": "page",
+      "text": "Chapter 7\nThe letter had been posted on 3 March, but it reached the Rue Fontaine almost three weeks later, with a Spanish stamp and a coffee ring on the envelope. Madame Arnaud turned it over twice before she opened it.\n\"Dear Hélène,\" it began, in a hand she had not seen for 22 years. She sat down at the kitchen table, put on her glasses, and read it through to the end without once looking up.\n89"
+    },
+    {
+      "kind": "page",
+      "text": "DESCALING YOUR COFFEE MACHINE\nDescale every 2 to 3 months, or when the orange light flashes. Fill the tank with 0.5 L of water and add 1 sachet (25 g) of descaling powder.\nPlace a container of at least 600 ml under the spout and hold the steam button for 5 seconds. The cycle takes about 20 minutes. Rinse the tank and run 2 full tanks of clean water before use.\nPage 14"
+    },
+    {
+      "kind": "page",
+      "text": "THE CATHEDRAL OF ST MARTIN\nThe present building was begun in 1218 and consecrated in 1302, though the north tower was only finished in 1567. Its spire, 96 m high, was for two centuries the tallest structure in the region.\nThe tower can be climbed daily from 10:00 to 17:00 (last entry 16:30). There are 312 steps and no lift; the climb takes about 20 minutes. Admission €4, children under 10 free."
+    },
+    {
+      "kind": "page",
+      "text": "BIRDS OF THE RIVERBANK\nBetween April and September up to 40 pairs of sand martins nest in the bank below the old mill. Each burrow is around 60 cm long, and the birds return to the same colony year after year from West Africa, a journey of more than 4,000 km.\nPlease keep dogs on a lead between the footbridge and the weir, and do not climb the bank. Report any disturbance to the ranger on 555-0171."
+    },
+    {
+      "kind": "page",
+      "text": "SECTION 5: HOLIDAYS\nFull-time staff are entitled to 25 days of paid holiday per year, plus public holidays. Part-time staff receive a pro-rata amount; for example, someone working 3 days a week receives 15 days.\nHoliday requests of more than 5 consecutive days must be made at least 4 weeks in advance. Up to 5 unused days may be carried over to the next year, but they must be taken by 31 March.\n— 12 —"
+    },
+    {
+      "kind": "page",
+      "text": "STOP 6 · THE COVERED MARKET\nBuilt of iron and glass in 1889 to designs by the engineer Paul Varenne, the Halles Centrales replaced an open market that had stood on the site since the 14th century. The roof covers 3,200 m² and is held up by just 24 columns.\nToday 58 stalls sell food on Wednesdays and Saturdays. Try the almond biscuits at stall 17, still made to a recipe from 1902.\nContinue 250 m along Rue Verte to Stop 7."
+    },
+    {
+      "kind": "page",
+      "text": "Little Pigeon flew over the river, past the 7 bridges and the 3 church towers, all the way to the big square.\n\"Coo!\" she said. \"Where has everyone gone?\" The clock said 6 o'clock, and the market was closing.\nA man with a red cart threw her 1, 2, 3 crumbs. \"That's all for today, little one,\" he said, and he winked.\n36"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{"text": "she was miles away all through dinner", "category": "none", "pair": 0, "key": "miles", "skill": null}
+{"text": "my commute is 13 miles, how many km is that", "category": "conversion", "pair": 0, "key": "miles", "skill": "convertLength"}
+{"text": "actions speak louder than words, apparently", "category": "none", "pair": 1, "key": "words", "skill": null}
+{"text": "spell out 4,350 in words, it's for the rent cheque", "category": "conversion", "pair": 1, "key": "words", "skill": "numberToWords"}
+{"text": "my column in the parish newsletter gets zero readers", "category": "none", "pair": 2, "key": "column", "skill": null}
+{"text": "average the price column in this table", "category": "data", "pair": 2, "key": "column", "skill": "columnMath"}
+{"text": "the swallows nested in our garage again", "category": "none", "pair": 3, "key": "nested", "skill": null}
+{"text": "squash this nested json down to one level", "category": "data", "pair": 3, "key": "nested", "skill": "flattenJson"}
+{"text": "taking the new job was a real leap of faith", "category": "none", "pair": 4, "key": "leap", "skill": null}
+{"text": "check whether 2032 is a leap year", "category": "dates", "pair": 4, "key": "leap", "skill": "isLeapYear"}
+{"text": "i only work well with a deadline breathing down my neck", "category": "none", "pair": 5, "key": "deadline", "skill": null}
+{"text": "how many days until my deadline on 30 november", "category": "dates", "pair": 5, "key": "deadline", "skill": "countdownTo"}
+{"text": "the pros at the golf club make it look easy", "category": "none", "pair": 6, "key": "pros", "skill": null}
+{"text": "weigh up the pros and cons of moving to leeds with scores", "category": "decisions", "pair": 6, "key": "pros", "skill": "prosConsScore"}
+{"text": "i'm running out of options with my landlord", "category": "none", "pair": 7, "key": "options", "skill": null}
+{"text": "rank my three job options by salary 5, commute 3, team 2", "category": "decisions", "pair": 7, "key": "options", "skill": "weightedDecisionMatrix"}
+{"text": "she threw some shade at my new haircut", "category": "none", "pair": 8, "key": "shade", "skill": null}
+{"text": "give me a shade 20% darker than #4a90e2", "category": "design", "pair": 8, "key": "shade", "skill": "darkenColor"}
+{"text": "in contrast to my brother, i'm always on time", "category": "none", "pair": 9, "key": "contrast", "skill": null}
+{"text": "check the contrast of white text on #ffcc00", "category": "design", "pair": 9, "key": "contrast", "skill": "contrastRatio"}
+{"text": "that's your version of events, not mine", "category": "none", "pair": 10, "key": "version", "skill": null}
+{"text": "is version 2.10.1 newer than 2.9.8 or older", "category": "developer", "pair": 10, "key": "version", "skill": "compareSemver"}
+{"text": "he's obsessed with status and money", "category": "none", "pair": 11, "key": "status", "skill": null}
+{"text": "what does status code 418 mean", "category": "developer", "pair": 11, "key": "status", "skill": "httpStatusLookup"}
+{"text": "my teenage son is a complete cipher to me", "category": "none", "pair": 12, "key": "cipher", "skill": null}
+{"text": "put this note through a caesar cipher with a shift of 3", "category": "encoding", "pair": 12, "key": "cipher", "skill": "caesarShift"}
+{"text": "she connected the dots long before the rest of us", "category": "none", "pair": 13, "key": "dots", "skill": null}
+{"text": "turn these dots and dashes back into words: .... ..", "category": "encoding", "pair": 13, "key": "dots", "skill": "morseDecode"}
+{"text": "that plan is a recipe for disaster", "category": "none", "pair": 14, "key": "recipe", "skill": null}
+{"text": "my pancake recipe serves 4, i need it for 10", "category": "everyday", "pair": 14, "key": "recipe", "skill": "scaleRecipe"}
+{"text": "the council will foot the bill, as usual", "category": "none", "pair": 15, "key": "bill", "skill": null}
+{"text": "work out each share of the bill: 96, four people, 10% tip", "category": "everyday", "pair": 15, "key": "bill", "skill": "splitBill"}
+{"text": "she drives a hard bargain at car boot sales", "category": "none", "pair": 16, "key": "bargain", "skill": null}
+{"text": "which is the better bargain, 500g at 3.20 or 750g at 4.50", "category": "everyday", "pair": 16, "key": "bargain", "skill": "comparePrices"}
+{"text": "she asked for an extension on her essay again", "category": "none", "pair": 17, "key": "extension", "skill": null}
+{"text": "what kind of file has the extension .avif", "category": "files", "pair": 17, "key": "extension", "skill": "fileExtensionInfo"}
+{"text": "the rank and file are not happy about this", "category": "none", "pair": 18, "key": "file", "skill": null}
+{"text": "how big is a file of 3,450,000 bytes in readable terms", "category": "files", "pair": 18, "key": "file", "skill": "fileSizeHuman"}
+{"text": "thanks for the loan of your ladder last week", "category": "none", "pair": 19, "key": "loan", "skill": null}
+{"text": "what would my 15,000 loan cost a month over 5 years at 6%", "category": "finance", "pair": 19, "key": "loan", "skill": "amortizeLoan"}
+{"text": "she won the vote by a narrow margin", "category": "none", "pair": 20, "key": "margin", "skill": null}
+{"text": "what's my margin if i buy at 12 and sell at 20", "category": "finance", "pair": 20, "key": "margin", "skill": "markupMargin"}
+{"text": "we had to scrabble around for extra chairs", "category": "none", "pair": 21, "key": "scrabble", "skill": null}
+{"text": "what is quixotic worth in scrabble", "category": "games", "pair": 21, "key": "scrabble", "skill": "scrabbleScore"}
+{"text": "the ball is in your court now", "category": "none", "pair": 22, "key": "ball", "skill": null}
+{"text": "ask the magic eight ball if i'll get the flat", "category": "games", "pair": 22, "key": "ball", "skill": "magicEightBall"}
+{"text": "my mental checklist before a flight is ridiculous", "category": "none", "pair": 23, "key": "checklist", "skill": null}
+{"text": "make a checklist from my moving jobs: boxes, tape, van", "category": "generation", "pair": 23, "key": "checklist", "skill": "generateChecklist"}
+{"text": "heads will roll for this mess", "category": "none", "pair": 24, "key": "heads", "skill": null}
+{"text": "flip a coin five times and count the heads", "category": "generation", "pair": 24, "key": "heads", "skill": "flipCoin"}
+{"text": "she moves in a very different circle since uni", "category": "none", "pair": 25, "key": "circle", "skill": null}
+{"text": "what's the area of a circle 6 m across", "category": "geometry", "pair": 25, "key": "circle", "skill": "areaOf"}
+{"text": "she keeps her distance from the rest of the family", "category": "none", "pair": 26, "key": "distance", "skill": null}
+{"text": "straight line distance from (2,3) to (10,9) please", "category": "geometry", "pair": 26, "key": "distance", "skill": "distanceBetweenPoints"}
+{"text": "climbing the corporate ladder is exhausting", "category": "none", "pair": 27, "key": "ladder", "skill": null}
+{"text": "my ladder is 5 m, base 1.2 m out, how high does it reach", "category": "geometry", "pair": 27, "key": "ladder", "skill": "pythagorean"}
+{"text": "my heart sank when i opened the letter", "category": "none", "pair": 28, "key": "heart", "skill": null}
+{"text": "my heart rate maxes out at 185, split that into zones", "category": "health", "pair": 28, "key": "heart", "skill": "heartRateZones"}
+{"text": "i'll sleep on it and let you know", "category": "none", "pair": 29, "key": "sleep", "skill": null}
+{"text": "i want five full cycles of sleep before a 6:40 start, what bedtime", "category": "health", "pair": 29, "key": "sleep", "skill": "sleepCycleTimes"}
+{"text": "she finally made the grade for the squad", "category": "none", "pair": 30, "key": "grade", "skill": null}
+{"text": "what grade do i need on my final to finish at 70%", "category": "learning", "pair": 30, "key": "grade", "skill": "gradeNeeded"}
+{"text": "every family dinner turns into a quiz about my love life", "category": "none", "pair": 31, "key": "quiz", "skill": null}
+{"text": "mark my quiz answers against the key: 1a 2c 3b 4d", "category": "learning", "pair": 31, "key": "quiz", "skill": "gradeQuiz"}
+{"text": "you two are a right pair of troublemakers", "category": "none", "pair": 32, "key": "pair", "skill": null}
+{"text": "pair up these eight kids at random for the relay", "category": "lists", "pair": 32, "key": "pair", "skill": "pairUp"}
+{"text": "we have nothing in common anymore", "category": "none", "pair": 33, "key": "common", "skill": null}
+{"text": "which names are common to both my guest lists", "category": "lists", "pair": 33, "key": "common", "skill": "intersectLists"}
+{"text": "he earns a fraction of what she does", "category": "none", "pair": 34, "key": "fraction", "skill": null}
+{"text": "reduce the fraction 45/60 for my homework", "category": "math", "pair": 34, "key": "fraction", "skill": "fractionSimplify"}
+{"text": "i'm giving this a hundred and ten percent", "category": "none", "pair": 35, "key": "percent", "skill": null}
+{"text": "what's 18 percent of my 2,400 rent", "category": "math", "pair": 35, "key": "percent", "skill": "percentOf"}
+{"text": "biting my nails is a habit i can't shake", "category": "none", "pair": 36, "key": "habit", "skill": null}
+{"text": "i flossed 19 of 30 days, what's my habit rate", "category": "organising", "pair": 36, "key": "habit", "skill": "habitCompletionRate"}
+{"text": "chores are the bane of my existence", "category": "none", "pair": 37, "key": "chores", "skill": null}
+{"text": "rotate the chores between me, sam and jo for four weeks", "category": "organising", "pair": 37, "key": "chores", "skill": "rotateAssignments"}
+{"text": "she made capital out of his mistake", "category": "none", "pair": 38, "key": "capital", "skill": null}
+{"text": "name the capital of mongolia for my pub quiz notes", "category": "reference", "pair": 38, "key": "capital", "skill": "countryLookup"}
+{"text": "she's totally in her element on stage", "category": "none", "pair": 39, "key": "element", "skill": null}
+{"text": "what's the symbol for the element tungsten", "category": "reference", "pair": 39, "key": "element", "skill": "periodicTableLookup"}
+{"text": "the state of my kitchen right now is shameful", "category": "none", "pair": 40, "key": "state", "skill": null}
+{"text": "my parcel label says ok for the state, which us state is that", "category": "reference", "pair": 40, "key": "state", "skill": "usStateLookup"}
+{"text": "she's always chasing the latest trend", "category": "none", "pair": 41, "key": "trend", "skill": null}
+{"text": "fit a trend line through my sales: 3, 5, 8, 9, 12", "category": "statistics", "pair": 41, "key": "trend", "skill": "linearRegression"}
+{"text": "the news spread fast around the village", "category": "none", "pair": 42, "key": "spread", "skill": null}
+{"text": "describe the spread of these scores: 55 61 70 88 92", "category": "statistics", "pair": 42, "key": "spread", "skill": "describeNumbers"}
+{"text": "the judge handed out heavy sentences", "category": "none", "pair": 43, "key": "sentences", "skill": null}
+{"text": "how many sentences are in my cover letter", "category": "text", "pair": 43, "key": "sentences", "skill": "countSentences"}
+{"text": "i rest my case", "category": "none", "pair": 44, "key": "case", "skill": null}
+{"text": "put my variable name user first name in snake case", "category": "text", "pair": 44, "key": "case", "skill": "convertCase"}
+{"text": "my mum speaks entirely in emoji these days", "category": "none", "pair": 45, "key": "emoji", "skill": null}
+{"text": "strip the emoji out of my instagram caption", "category": "text", "pair": 45, "key": "emoji", "skill": "removeEmoji"}
+{"text": "you make a valid point about the parking", "category": "none", "pair": 46, "key": "valid", "skill": null}
+{"text": "is hello@my-site.co a valid email", "category": "validation", "pair": 46, "key": "valid", "skill": "validateEmail"}
+{"text": "she played her trump card in the end", "category": "none", "pair": 47, "key": "card", "skill": null}
+{"text": "run the luhn check on my gift card 4539 1488 0343 6467", "category": "validation", "pair": 47, "key": "card", "skill": "validateLuhn"}
+{"text": "he got a citation for speeding last month", "category": "none", "pair": 48, "key": "citation", "skill": null}
+{"text": "format an apa citation for smith, 2019, the quiet garden", "category": "writing", "pair": 48, "key": "citation", "skill": "formatCitation"}
+{"text": "there's a cold draft coming from the window", "category": "none", "pair": 49, "key": "draft", "skill": null}
+{"text": "my draft needs 2,000 words, how far off am i", "category": "writing", "pair": 49, "key": "draft", "skill": "countWordTargets"}

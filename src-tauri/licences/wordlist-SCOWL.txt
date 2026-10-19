@@ -1,0 +1,64 @@
+The English word list behind Pigeon's anagram, spelling and word-game skills.
+
+65,381 words, filtered from the american-english and british-english lists
+Debian ships (both spellings are kept, so "colour" and "color" are each valid).
+Those lists come from SCOWL — Spell Checker Oriented Word Lists — assembled by
+Kevin Atkinson from a set of sources that each carry their own permission.
+
+  SCOWL          http://wordlist.aspell.net/
+  Debian source  https://packages.debian.org/source/sid/scowl
+
+SCOWL's terms are permissive and ask, in substance, for two things: that the
+copyright notice below travels with any distribution of the words, and that
+the derivation is not misrepresented. Pigeon's copy is a filtered subset —
+proper nouns, possessives and anything with punctuation are excluded — and it
+is embedded in src/lib/words.js, whose header says the same.
+
+----------------------------------------------------------------------------
+
+The collective work is Copyright 2000-2018 by Kevin Atkinson as well as any
+of the copyrights mentioned below:
+
+  Copyright 2000-2018 by Kevin Atkinson
+
+  Permission to use, copy, modify, distribute and sell these word
+  lists, the associated scripts, the output created from the scripts,
+  and its documentation for any purpose is hereby granted without fee,
+  provided that the above copyright notice appears in all copies and
+  that both that copyright notice and this permission notice appear in
+  supporting documentation. Kevin Atkinson makes no representations
+  about the suitability of this array for any purpose. It is provided
+  "as is" without express or implied warranty.
+
+Alan Beale also deserves special credit as he has, in addition to
+providing the 12Dicts package and being a major contributor to the
+ENABLE word list, given me an incredible amount of feedback and
+created a number of special lists (those found in the Supplement) in
+order to help improve the overall quality of SCOWL.
+
+The 10 level includes the 1000 most common English words (according to
+the Moby (TM) Words II [MWORDS] package), a subset of the 1000 most
+common words on the Internet (according to Awad & Smith [AWDS]), and
+frequently class 16 from Brian Kelk's "UK English Wordlist with
+Frequency Classification" [UKACD].
+
+The MWords package was explicitly placed in the public domain:
+
+    The Moby lexicon project is complete and has been place into the
+    public domain. Use, sell, rework, excerpt and use in any way on any
+    computer system and/or with any programming language.
+
+The UKACD package is distributed with the following notice:
+
+    UK Advanced Cryptics Dictionary
+    Copyright (c) J Ross Beresford 1993-1999. All Rights Reserved.
+    The following restriction is placed on the use of this publication:
+    if The UK Advanced Cryptics Dictionary is used in a software package
+    or redistributed in any form, the copyright notice must be
+    prominently displayed and the text of this document must be included
+    verbatim.
+
+The full SCOWL "Copyright" file, which enumerates every contributing source,
+ships with the Debian scowl package and at the URL above. Pigeon carries the
+notices for the parts it actually uses; if the word list is ever regenerated
+from a wider SCOWL level, this file is regenerated with it.

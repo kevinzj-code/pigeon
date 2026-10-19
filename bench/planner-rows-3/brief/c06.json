@@ -1,0 +1,1893 @@
+{
+ "task": "co-listed minimal pairs",
+ "pairs": [
+  {
+   "twins": [
+    "airportCodeLookup",
+    "countryLookup"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "airportCodeLookup \u2014 Look up an airport by its IATA code, or find the airports serving a city.\n  needs: query: string\n  e.g. \"what airport is LHR\" \u2192 {\"query\":\"LHR\"}",
+    "countryLookup \u2014 Look up a country's capital city, ISO codes, currency and international dialling code.\n  needs: query: string\n  e.g. \"what is the capital of Switzerland\" \u2192 {\"query\":\"Switzerland\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "airport code or city",
+       "minLength": 1,
+       "prompt": "Which airport code or city?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "country",
+       "minLength": 2,
+       "prompt": "Which country?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "languageCodeLookup"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "airportCodeLookup \u2014 Look up an airport by its IATA code, or find the airports serving a city.\n  needs: query: string\n  e.g. \"what airport is LHR\" \u2192 {\"query\":\"LHR\"}",
+    "languageCodeLookup \u2014 Look up what a two-letter language code stands for, or find the code for a language \u2014 ISO 639-1.\n  needs: query: string\n  e.g. \"what language is code ta\" \u2192 {\"query\":\"ta\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "airport code or city",
+       "minLength": 1,
+       "prompt": "Which airport code or city?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "language or code",
+       "minLength": 1,
+       "prompt": "Which language or code should I look up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "airportCodeLookup \u2014 Look up an airport by its IATA code, or find the airports serving a city.\n  needs: query: string\n  e.g. \"what airport is LHR\" \u2192 {\"query\":\"LHR\"}",
+    "phoneRegionLookup \u2014 Find which country an international dialling code belongs to, or the code for a country.\n  needs: query: string\n  e.g. \"what country is +44\" \u2192 {\"query\":\"+44\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "airport code or city",
+       "minLength": 1,
+       "prompt": "Which airport code or city?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "dialling code or country",
+       "minLength": 1,
+       "prompt": "Which dialling code or country?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "aspectRatio",
+    "fractionSimplify"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "aspectRatio \u2014 Reduce a width by a height to its screen ratio, like 16:9.\n  needs: width: number, height: number\n  e.g. \"what aspect ratio is 1920 by 1080\" \u2192 {\"width\":1920,\"height\":1080}",
+    "fractionSimplify \u2014 Reduce a fraction like 6/8 to its lowest terms.\n  needs: fraction: string\n  e.g. \"simplify 6/8\" \u2192 {\"fraction\":\"6/8\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "width",
+      "height"
+     ],
+     "properties": {
+      "width": {
+       "type": "number",
+       "label": "width",
+       "exclusiveMinimum": 0,
+       "prompt": "What is the width?"
+      },
+      "height": {
+       "type": "number",
+       "label": "height",
+       "exclusiveMinimum": 0,
+       "prompt": "What is the height?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "fraction"
+     ],
+     "properties": {
+      "fraction": {
+       "type": "string",
+       "label": "fraction",
+       "minLength": 3,
+       "prompt": "Which fraction should I simplify? Write it as 6/8."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "checkAnagram",
+    "checkPalindrome"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "checkAnagram \u2014 Check whether two words or phrases use exactly the same letters.\n  needs: first: string, second: string\n  e.g. \"are listen and silent anagrams\" \u2192 {\"first\":\"listen\",\"second\":\"silent\"}",
+    "checkPalindrome \u2014 Check whether a word or phrase reads the same backwards.\n  needs: text: string\n  optional: strict: boolean\n  e.g. \"is racecar a palindrome\" \u2192 {\"text\":\"racecar\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "first",
+      "second"
+     ],
+     "properties": {
+      "first": {
+       "type": "string",
+       "label": "first word or phrase",
+       "minLength": 1,
+       "maxLength": 200,
+       "prompt": "What is the first word or phrase?"
+      },
+      "second": {
+       "type": "string",
+       "label": "second word or phrase",
+       "minLength": 1,
+       "maxLength": 200,
+       "prompt": "And the second?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 2000,
+       "prompt": "What should I check?"
+      },
+      "strict": {
+       "type": "boolean",
+       "label": "count every character",
+       "default": false,
+       "description": "count spaces, punctuation and capitals as part of the text"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "complementaryColor",
+    "nearestNamedColor"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "complementaryColor \u2014 Find the colour opposite a given one on the colour wheel.\n  needs: color: string\n  e.g. \"what is the complement of #2C6E8C\" \u2192 {\"color\":\"#2C6E8C\"}",
+    "nearestNamedColor \u2014 Find the closest CSS colour name to a colour \u2014 what you would call it in words.\n  needs: color: string\n  e.g. \"what colour name is closest to #556B2F\" \u2192 {\"color\":\"#556B2F\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertBase",
+    "convertRomanNumeral"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "convertBase \u2014 Write a number in another base \u2014 200 in base 7, 255 as hex, or 1011 back from binary. Any radix from 2 to 36.\n  needs: value: string, fromBase: integer, toBase: integer\n  e.g. \"convert 255 to hexadecimal\" \u2192 {\"value\":\"255\",\"fromBase\":10,\"toBase\":16}",
+    "convertRomanNumeral \u2014 Convert a number to Roman numerals, or read Roman numerals back as a number.\n  needs: value: string\n  e.g. \"what is 2026 in roman numerals\" \u2192 {\"value\":\"2026\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "value",
+      "fromBase",
+      "toBase"
+     ],
+     "properties": {
+      "value": {
+       "type": "string",
+       "label": "number",
+       "minLength": 1,
+       "prompt": "Which number should I convert?"
+      },
+      "fromBase": {
+       "type": "integer",
+       "label": "from base",
+       "minimum": 2,
+       "maximum": 36,
+       "prompt": "What base is it in? (2 for binary, 16 for hex)"
+      },
+      "toBase": {
+       "type": "integer",
+       "label": "to base",
+       "minimum": 2,
+       "maximum": 36,
+       "prompt": "Which base should I convert to?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "value"
+     ],
+     "properties": {
+      "value": {
+       "type": "string",
+       "label": "number or numeral",
+       "minLength": 1,
+       "prompt": "Which number or numeral? (e.g. 2026 or MMXXVI)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertCurrencyFixed",
+    "currencyLookup"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "convertCurrencyFixed \u2014 Convert an amount between currencies at an exchange rate you supply.\n  needs: amount: number, from: string, to: string, rate: number\n  e.g. \"convert 100 EUR to USD at 1.0842\" \u2192 {\"amount\":100,\"from\":\"EUR\",\"to\":\"USD\",\"rate\":1.0842}",
+    "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to",
+      "rate"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "label": "amount",
+       "carry": true,
+       "prompt": "How much should I convert?"
+      },
+      "from": {
+       "type": "string",
+       "label": "from currency",
+       "minLength": 3,
+       "maxLength": 3,
+       "prompt": "Which currency is it in? (a three-letter code)"
+      },
+      "to": {
+       "type": "string",
+       "label": "to currency",
+       "minLength": 3,
+       "maxLength": 3,
+       "prompt": "Which currency should I convert to?"
+      },
+      "rate": {
+       "type": "number",
+       "label": "rate per 1 unit",
+       "exclusiveMinimum": 0,
+       "prompt": "What exchange rate should I use? (how many of the target currency per 1 of the source)"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "string",
+       "label": "currency code",
+       "minLength": 2,
+       "prompt": "Which currency code? (like GBP)"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertTime",
+    "durationToText"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "convertTime \u2014 Convert a length of time between units \u2014 how long 210 minutes runs to in hours.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many hours is 5400 seconds\" \u2192 {\"amount\":5400,\"from\":\"s\",\"to\":\"h\"}",
+    "durationToText \u2014 Turn a raw number of seconds into readable words like \"1h 30m\".\n  needs: seconds: number\n  optional: style: string, maxUnits: integer\n  e.g. \"what is 5400 seconds as a duration\" \u2192 {\"seconds\":5400}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "from",
+      "to"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "carry": true,
+       "prompt": "How much should I convert?",
+       "label": "duration"
+      },
+      "from": {
+       "type": "string",
+       "prompt": "Converting from which unit?",
+       "label": "from unit"
+      },
+      "to": {
+       "type": "string",
+       "prompt": "Converting to which unit?",
+       "label": "to unit"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "seconds"
+     ],
+     "properties": {
+      "seconds": {
+       "type": "number",
+       "label": "seconds",
+       "carry": true,
+       "minimum": 0,
+       "prompt": "How many seconds?"
+      },
+      "style": {
+       "type": "string",
+       "label": "style",
+       "enum": [
+        "short",
+        "long"
+       ],
+       "default": "short"
+      },
+      "maxUnits": {
+       "type": "integer",
+       "label": "most units shown",
+       "minimum": 1,
+       "maximum": 5,
+       "default": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countLines"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countCharacters \u2014 Count the characters in a text \u2014 with spaces, without spaces, and how many are letters or digits.\n  needs: text: string\n  e.g. \"how many characters is this\" \u2192 {\"text\":\"The quick brown fox.\"}",
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I measure?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countSentences"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countCharacters \u2014 Count the characters in a text \u2014 with spaces, without spaces, and how many are letters or digits.\n  needs: text: string\n  e.g. \"how many characters is this\" \u2192 {\"text\":\"The quick brown fox.\"}",
+    "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I measure?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "syllableCount"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countCharacters \u2014 Count the characters in a text \u2014 with spaces, without spaces, and how many are letters or digits.\n  needs: text: string\n  e.g. \"how many characters is this\" \u2192 {\"text\":\"The quick brown fox.\"}",
+    "syllableCount \u2014 Count the syllables \u2014 the beats \u2014 in a word or a text.\n  needs: text: string\n  e.g. \"how many syllables in beautiful\" \u2192 {\"text\":\"beautiful\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I measure?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which word or text?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countOccurrences"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "countOccurrences \u2014 Count how many times one word or phrase repeats inside a text.\n  needs: text: string, needle: string\n  optional: caseSensitive: boolean, wholeWord: boolean\n  e.g. \"how many times does \"the\" appear in this\" \u2192 {\"text\":\"the cat sat on the mat\",\"needle\":\"the\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text",
+      "needle"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "needle": {
+       "type": "string",
+       "label": "what to count",
+       "minLength": 1,
+       "prompt": "What should I count?"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      },
+      "wholeWord": {
+       "type": "boolean",
+       "label": "whole words only",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countSentences"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "joinLines"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I join?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "separator",
+       "default": ", "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": true
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each line",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "removeDuplicateLines"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "removeDuplicateLines \u2014 Remove repeated lines from a text, keeping the first time each one appeared.\n  needs: text: string\n  optional: ignoreCase: boolean, ignoreSpacing: boolean\n  e.g. \"remove the duplicate lines\" \u2192 {\"text\":\"apple\\nbanana\\napple\\ncherry\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I deduplicate?"
+      },
+      "ignoreCase": {
+       "type": "boolean",
+       "label": "ignore case",
+       "default": false
+      },
+      "ignoreSpacing": {
+       "type": "boolean",
+       "label": "ignore spacing",
+       "default": false,
+       "description": "treat lines differing only in spacing as the same"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "syllableCount"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "syllableCount \u2014 Count the syllables \u2014 the beats \u2014 in a word or a text.\n  needs: text: string\n  e.g. \"how many syllables in beautiful\" \u2192 {\"text\":\"beautiful\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which word or text?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "textFileStats"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "textFileStats \u2014 Count the lines, words and bytes in a piece of text and describe its line endings.\n  needs: text: string\n  e.g. \"stats for this text\" \u2192 {\"text\":\"hello world\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 2000000,
+       "prompt": "Which text should I measure?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "countSentences"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countOccurrences \u2014 Count how many times one word or phrase repeats inside a text.\n  needs: text: string, needle: string\n  optional: caseSensitive: boolean, wholeWord: boolean\n  e.g. \"how many times does \"the\" appear in this\" \u2192 {\"text\":\"the cat sat on the mat\",\"needle\":\"the\"}",
+    "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text",
+      "needle"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "needle": {
+       "type": "string",
+       "label": "what to count",
+       "minLength": 1,
+       "prompt": "What should I count?"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      },
+      "wholeWord": {
+       "type": "boolean",
+       "label": "whole words only",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "syllableCount"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countOccurrences \u2014 Count how many times one word or phrase repeats inside a text.\n  needs: text: string, needle: string\n  optional: caseSensitive: boolean, wholeWord: boolean\n  e.g. \"how many times does \"the\" appear in this\" \u2192 {\"text\":\"the cat sat on the mat\",\"needle\":\"the\"}",
+    "syllableCount \u2014 Count the syllables \u2014 the beats \u2014 in a word or a text.\n  needs: text: string\n  e.g. \"how many syllables in beautiful\" \u2192 {\"text\":\"beautiful\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text",
+      "needle"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "needle": {
+       "type": "string",
+       "label": "what to count",
+       "minLength": 1,
+       "prompt": "What should I count?"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      },
+      "wholeWord": {
+       "type": "boolean",
+       "label": "whole words only",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which word or text?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "syllableCount"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}",
+    "syllableCount \u2014 Count the syllables \u2014 the beats \u2014 in a word or a text.\n  needs: text: string\n  e.g. \"how many syllables in beautiful\" \u2192 {\"text\":\"beautiful\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which word or text?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "findLongestWord"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countWords \u2014 Measure how long a piece of text is: its total words, characters, sentences and paragraphs.\n  needs: text: string\n  e.g. \"how many words is this paragraph\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog.\"}",
+    "findLongestWord \u2014 Find the longest word in a text \u2014 the biggest word, and any that tie with it.\n  needs: text: string\n  optional: top: integer\n  e.g. \"what is the longest word in this sentence\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "top": {
+       "type": "integer",
+       "label": "how many words",
+       "minimum": 1,
+       "maximum": 20,
+       "default": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "wordFrequency"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countWords \u2014 Measure how long a piece of text is: its total words, characters, sentences and paragraphs.\n  needs: text: string\n  e.g. \"how many words is this paragraph\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog.\"}",
+    "wordFrequency \u2014 Which words repeat most in a text \u2014 each distinct word ranked by how often it recurs.\n  needs: text: string\n  optional: limit: integer, removeStopWords: boolean\n  e.g. \"what words come up most in this text\" \u2192 {\"text\":\"the cat sat on the mat the cat purred\",\"limit\":2}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      },
+      "limit": {
+       "type": "integer",
+       "label": "how many words",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 5
+      },
+      "removeStopWords": {
+       "type": "boolean",
+       "label": "skip stop words",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "languageCodeLookup"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "countryLookup \u2014 Look up a country's capital city, ISO codes, currency and international dialling code.\n  needs: query: string\n  e.g. \"what is the capital of Switzerland\" \u2192 {\"query\":\"Switzerland\"}",
+    "languageCodeLookup \u2014 Look up what a two-letter language code stands for, or find the code for a language \u2014 ISO 639-1.\n  needs: query: string\n  e.g. \"what language is code ta\" \u2192 {\"query\":\"ta\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "country",
+       "minLength": 2,
+       "prompt": "Which country?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "language or code",
+       "minLength": 1,
+       "prompt": "Which language or code should I look up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "formatCurrency"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}",
+    "formatCurrency \u2014 Write an amount of money the way a currency is normally written, with its symbol and decimal places.\n  needs: amount: number, currency: string\n  optional: style: string\n  e.g. \"write 1234.5 as pounds\" \u2192 {\"amount\":1234.5,\"currency\":\"GBP\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "string",
+       "label": "currency code",
+       "minLength": 2,
+       "prompt": "Which currency code? (like GBP)"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "currency"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "label": "amount",
+       "carry": true,
+       "prompt": "How much?"
+      },
+      "currency": {
+       "type": "string",
+       "label": "currency",
+       "minLength": 3,
+       "maxLength": 3,
+       "prompt": "Which currency? (a three-letter code like GBP)"
+      },
+      "style": {
+       "type": "string",
+       "label": "style",
+       "enum": [
+        "symbol",
+        "code",
+        "name"
+       ],
+       "default": "symbol"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "unicodeLookup"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}",
+    "unicodeLookup \u2014 Look up a character by symbol, code point or name, with its encodings.\n  needs: query: string\n  e.g. \"look up the character A\" \u2192 {\"query\":\"A\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "string",
+       "label": "currency code",
+       "minLength": 2,
+       "prompt": "Which currency code? (like GBP)"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "character or code",
+       "minLength": 1,
+       "prompt": "Which character, code point or name should I look up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "usStateLookup"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "currencyLookup \u2014 Look up what a currency code stands for \u2014 its name, symbol and how many decimal places it uses.\n  needs: code: string\n  e.g. \"what is JPY\" \u2192 {\"code\":\"JPY\"}",
+    "usStateLookup \u2014 Look up a US state by name or postal abbreviation.\n  needs: query: string\n  e.g. \"what is the capital of California\" \u2192 {\"query\":\"California\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "string",
+       "label": "currency code",
+       "minLength": 2,
+       "prompt": "Which currency code? (like GBP)"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "state",
+       "minLength": 1,
+       "prompt": "Which state should I look up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "darkenColor",
+    "lightenColor"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "darkenColor \u2014 Shade a colour towards black by a percentage.\n  needs: color: string\n  optional: by: number\n  e.g. \"darken #2C6E8C by 20%\" \u2192 {\"color\":\"#2C6E8C\",\"by\":20}",
+    "lightenColor \u2014 Tint a colour towards white by a percentage.\n  needs: color: string\n  optional: by: number\n  e.g. \"lighten #2C6E8C by 20%\" \u2192 {\"color\":\"#2C6E8C\",\"by\":20}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      },
+      "by": {
+       "type": "number",
+       "label": "darken by %",
+       "minimum": 0,
+       "maximum": 100,
+       "default": 10
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      },
+      "by": {
+       "type": "number",
+       "label": "lighten by %",
+       "minimum": 0,
+       "maximum": 100,
+       "default": 10
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfWeek",
+    "isWeekend"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "dayOfWeek \u2014 Name the weekday a date lands on \u2014 a Monday, a Saturday.\n  needs: date: string\n  e.g. \"what day of the week is 14 November 2026\" \u2192 {\"date\":\"2026-11-14\"}",
+    "isWeekend \u2014 Say whether a date is a weekend or a working day.\n  needs: date: string\n  e.g. \"is 2026-11-14 a weekend\" \u2192 {\"date\":\"2026-11-14\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "date"
+     ],
+     "properties": {
+      "date": {
+       "type": "string",
+       "label": "date",
+       "prompt": "Which date?",
+       "description": "a date"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "date"
+     ],
+     "properties": {
+      "date": {
+       "type": "string",
+       "label": "date",
+       "prompt": "Which date?",
+       "description": "a date"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysInMonth",
+    "generateCalendarGrid"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "daysInMonth \u2014 Say how many days long a given month is.\n  needs: month: integer, year: integer\n  e.g. \"how many days in february 2026\" \u2192 {\"month\":2,\"year\":2026}",
+    "generateCalendarGrid \u2014 Draw a month out as a printable calendar grid of weeks.\n  needs: year: integer, month: integer\n  optional: startOn: string\n  e.g. \"show me a calendar grid for September 2026\" \u2192 {\"year\":2026,\"month\":9}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "month",
+      "year"
+     ],
+     "properties": {
+      "month": {
+       "type": "integer",
+       "label": "month (1\u201312)",
+       "minimum": 1,
+       "maximum": 12,
+       "prompt": "Which month, as a number 1\u201312?"
+      },
+      "year": {
+       "type": "integer",
+       "label": "year",
+       "minimum": 1,
+       "maximum": 9999,
+       "prompt": "Which year?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "year",
+      "month"
+     ],
+     "properties": {
+      "year": {
+       "type": "integer",
+       "label": "year",
+       "minimum": 1,
+       "maximum": 9999,
+       "prompt": "Which year?"
+      },
+      "month": {
+       "type": "integer",
+       "label": "month",
+       "minimum": 1,
+       "maximum": 12,
+       "prompt": "Which month, as a number from 1 to 12?"
+      },
+      "startOn": {
+       "type": "string",
+       "label": "week starts on",
+       "enum": [
+        "Monday",
+        "Sunday"
+       ],
+       "default": "Monday"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dedupeList",
+    "shuffleList"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "dedupeList \u2014 Remove repeated items from a list, keeping the first of each and the original order.\n  needs: items: array\n  optional: ignoreCase: boolean\n  e.g. \"remove the duplicates from this list\" \u2192 {\"items\":[\"apple\",\"banana\",\"apple\",\"cherry\"]}",
+    "shuffleList \u2014 Jumble any list into a random order from a seed.\n  needs: items: array, seed: integer\n  e.g. \"shuffle these with seed 7\" \u2192 {\"items\":[1,2,3,4,5],\"seed\":7}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "items"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 1,
+       "prompt": "Which list should I deduplicate?"
+      },
+      "ignoreCase": {
+       "type": "boolean",
+       "label": "ignore case",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "items",
+      "seed"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 2,
+       "prompt": "Which list should I shuffle?"
+      },
+      "seed": {
+       "type": "integer",
+       "label": "repeatable seed",
+       "minimum": 0,
+       "prompt": "Which seed? Any whole number \u2014 the same seed always gives the same order."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "diffJson",
+    "diffText"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "diffJson \u2014 Compare two JSON documents and list the paths added, removed and changed.\n  needs: left: string, right: string\n  e.g. \"diff these two json documents\" \u2192 {\"left\":\"{\\\"name\\\":\\\"Ana\\\",\\\"age\\\":34}\",\"right\":\"{\\\"name\\\":\\\"Bea\\\",\\\"age\\\":34,\\\"city\\\":\\\"Leeds\\\"}\"}",
+    "diffText \u2014 Compare two versions of a text and show what was added and removed, by line or by word.\n  needs: before: string, after: string\n  optional: by: string\n  e.g. \"show me the line by line changes\" \u2192 {\"before\":\"apple\\nbanana\\ncherry\",\"after\":\"apple\\nblueberry\\ncherry\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "left",
+      "right"
+     ],
+     "properties": {
+      "left": {
+       "type": "string",
+       "label": "original json",
+       "minLength": 1,
+       "prompt": "Which JSON should I compare from?"
+      },
+      "right": {
+       "type": "string",
+       "label": "new json",
+       "minLength": 1,
+       "prompt": "Which JSON should I compare to?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "before",
+      "after"
+     ],
+     "properties": {
+      "before": {
+       "type": "string",
+       "label": "original text",
+       "prompt": "What is the original text?"
+      },
+      "after": {
+       "type": "string",
+       "label": "new text",
+       "prompt": "What is the new text?"
+      },
+      "by": {
+       "type": "string",
+       "label": "compare by",
+       "enum": [
+        "line",
+        "word"
+       ],
+       "default": "line"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "diffText",
+    "reverseText"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "diffText \u2014 Compare two versions of a text and show what was added and removed, by line or by word.\n  needs: before: string, after: string\n  optional: by: string\n  e.g. \"show me the line by line changes\" \u2192 {\"before\":\"apple\\nbanana\\ncherry\",\"after\":\"apple\\nblueberry\\ncherry\"}",
+    "reverseText \u2014 Reverse a text \u2014 by character, by word, or by line.\n  needs: text: string\n  optional: by: string\n  e.g. \"reverse the word stressed\" \u2192 {\"text\":\"stressed\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "before",
+      "after"
+     ],
+     "properties": {
+      "before": {
+       "type": "string",
+       "label": "original text",
+       "prompt": "What is the original text?"
+      },
+      "after": {
+       "type": "string",
+       "label": "new text",
+       "prompt": "What is the new text?"
+      },
+      "by": {
+       "type": "string",
+       "label": "compare by",
+       "enum": [
+        "line",
+        "word"
+       ],
+       "default": "line"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I reverse?"
+      },
+      "by": {
+       "type": "string",
+       "label": "reverse by",
+       "enum": [
+        "characters",
+        "words",
+        "lines"
+       ],
+       "default": "characters"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractDates"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractCurrencyAmounts \u2014 Pull every money amount out of a text, with its currency.\n  needs: text: string\n  e.g. \"get the amounts from this invoice line\" \u2192 {\"text\":\"subtotal \u00a3120.50, shipping \u00a34.99\"}",
+    "extractDates \u2014 Pull the dates already written in a block of text back out of it.\n  needs: text: string\n  optional: dayFirst: boolean\n  e.g. \"find the dates in this text\" \u2192 {\"text\":\"The meeting is on 2026-09-01 and the deadline is 2026-10-15.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I search for dates?"
+      },
+      "dayFirst": {
+       "type": "boolean",
+       "label": "day before month",
+       "default": true,
+       "description": "read 03/04/2026 as 3 April rather than 4 March"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractNumbers"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractCurrencyAmounts \u2014 Pull every money amount out of a text, with its currency.\n  needs: text: string\n  e.g. \"get the amounts from this invoice line\" \u2192 {\"text\":\"subtotal \u00a3120.50, shipping \u00a34.99\"}",
+    "extractNumbers \u2014 Take the plain figures out of a text, thousands separators and decimals handled.\n  needs: text: string\n  e.g. \"get the numbers from: we sold 1,250 units at \u00a33.99 each\" \u2192 {\"text\":\"we sold 1,250 units at \u00a33.99 each\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractEmails"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractDates \u2014 Pull the dates already written in a block of text back out of it.\n  needs: text: string\n  optional: dayFirst: boolean\n  e.g. \"find the dates in this text\" \u2192 {\"text\":\"The meeting is on 2026-09-01 and the deadline is 2026-10-15.\"}",
+    "extractEmails \u2014 List the email addresses written somewhere in a text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the emails out of this: contact ana@example.com or sales@shop.co.uk\" \u2192 {\"text\":\"contact ana@example.com or sales@shop.co.uk\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I search for dates?"
+      },
+      "dayFirst": {
+       "type": "boolean",
+       "label": "day before month",
+       "default": true,
+       "description": "read 03/04/2026 as 3 April rather than 4 March"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractTimes"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractDates \u2014 Pull the dates already written in a block of text back out of it.\n  needs: text: string\n  optional: dayFirst: boolean\n  e.g. \"find the dates in this text\" \u2192 {\"text\":\"The meeting is on 2026-09-01 and the deadline is 2026-10-15.\"}",
+    "extractTimes \u2014 Pull every clock time out of a text and give each in 24-hour form.\n  needs: text: string\n  e.g. \"get the times from this message\" \u2192 {\"text\":\"the meeting is 9:30am and lunch at 1pm\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I search for dates?"
+      },
+      "dayFirst": {
+       "type": "boolean",
+       "label": "day before month",
+       "default": true,
+       "description": "read 03/04/2026 as 3 April rather than 4 March"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractUrls"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractDates \u2014 Pull the dates already written in a block of text back out of it.\n  needs: text: string\n  optional: dayFirst: boolean\n  e.g. \"find the dates in this text\" \u2192 {\"text\":\"The meeting is on 2026-09-01 and the deadline is 2026-10-15.\"}",
+    "extractUrls \u2014 List the web addresses appearing in a block of text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the links from: see https://example.com/docs and www.other.org\" \u2192 {\"text\":\"see https://example.com/docs and www.other.org\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I search for dates?"
+      },
+      "dayFirst": {
+       "type": "boolean",
+       "label": "day before month",
+       "default": true,
+       "description": "read 03/04/2026 as 3 April rather than 4 March"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

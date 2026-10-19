@@ -1,0 +1,40 @@
+[package]
+name = "pigeon-engine"
+version = "0.1.0"
+description = "Does what a .pigeon file says, with the model in the host's own process."
+authors = ["Kevin Jackson"]
+edition = "2021"
+rust-version = "1.77.2"
+license = "Apache-2.0"
+
+[dependencies]
+# The file: check, prompt, retrieval, answer reading. Its chat templates are
+# what every prompt is rendered with (D52); llama.cpp's own formatter is never used.
+pigeon-core = { path = "../pigeon-core", features = ["chat-template"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+libc = "0.2"
+
+# llama.cpp itself, through its raw C interface only: every call into it is in
+# src/llama.rs. Pinned exactly: the commit it carries (26394b4) is part of the
+# runtime stamp a score is recorded against (E10). Changing this pin means
+# changing LLAMA_CPP_COMMIT in lib.rs, and riding every Pigeon again.
+[target.'cfg(target_os = "macos")'.dependencies]
+llama-cpp-sys-2 = { version = "=0.1.158", features = ["metal", "mtmd"] }
+
+[target.'cfg(not(target_os = "macos"))'.dependencies]
+llama-cpp-sys-2 = { version = "=0.1.158", features = ["mtmd"] }
+
+[dev-dependencies]
+# Tests build small .pigeon files of their own (a base Pigeon, D83).
+pigeon-core = { path = "../pigeon-core", features = ["chat-template", "test-support"] }
+
+[[bin]]
+# Asks every row of a holdout through the engine and prints the score.
+name = "pigeon-ride"
+path = "src/bin/pigeon-ride.rs"
+
+[[bin]]
+# For benches only: the engine behind one loopback endpoint (see the file).
+name = "pigeon-serve"
+path = "src/bin/pigeon-serve.rs"

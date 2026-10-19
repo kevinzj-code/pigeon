@@ -1,0 +1,3604 @@
+{
+ "rows": [
+  {
+   "skill": "expectedValue",
+   "message": "coin-flip side bet with my brother: half the time I get 40, half the time I get 5. expected value?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 40,
+      "probability": 0.5
+     },
+     {
+      "value": 5,
+      "probability": 0.5
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "half the time"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "half the time"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Spinner game for the school fair: a quarter of the time it lands on 20 points, a quarter on 10, and half on 0. What's the expected value of a spin?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 20,
+      "probability": 0.25
+     },
+     {
+      "value": 10,
+      "probability": 0.25
+     },
+     {
+      "value": 0,
+      "probability": 0.5
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "a quarter of the time"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Outcomes for tomorrow's sales call: a half chance of a 3000 order, a quarter chance of 1000, a quarter chance of zero. Expected order value?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 3000,
+      "probability": 0.5
+     },
+     {
+      "value": 1000,
+      "probability": 0.25
+     },
+     {
+      "value": 0,
+      "probability": 0.25
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "a half"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "EV please: half the time +120, half the time -80",
+   "input": {
+    "outcomes": [
+     {
+      "value": 120,
+      "probability": 0.5
+     },
+     {
+      "value": -80,
+      "probability": 0.5
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "half the time"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "half the time"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "boss drop table - a quarter of kills drop 400 gold, a quarter drop 200, half drop 50. expected value per kill?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 400,
+      "probability": 0.25
+     },
+     {
+      "value": 200,
+      "probability": 0.25
+     },
+     {
+      "value": 50,
+      "probability": 0.5
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "In our card game a quarter of the cards score 4, a quarter score 2, a quarter score 1 and the last quarter score 0. Expected value of one draw?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 4,
+      "probability": 0.25
+     },
+     {
+      "value": 2,
+      "probability": 0.25
+     },
+     {
+      "value": 1,
+      "probability": 0.25
+     },
+     {
+      "value": 0,
+      "probability": 0.25
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    },
+    {
+     "field": "outcomes.3.probability",
+     "rule": "fraction",
+     "from": "quarter"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "For the forecast: there's a half chance the client renews at 18000 and a half chance they drop to 6000. Expected contract value?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 18000,
+      "probability": 0.5
+     },
+     {
+      "value": 6000,
+      "probability": 0.5
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "a half"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a half"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Ward shifts: half the time I run 2 hours over, a quarter of the time 1 hour over, and a quarter of the time 0. What's the expected value of my overtime per shift?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 2,
+      "probability": 0.5
+     },
+     {
+      "value": 1,
+      "probability": 0.25
+     },
+     {
+      "value": 0,
+      "probability": 0.25
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "half the time"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a quarter of the time"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "a quarter of the time"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "An investment with two equally likely results, half each: 2500 or -1000. What's the expected value?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 2500,
+      "probability": 0.5
+     },
+     {
+      "value": -1000,
+      "probability": 0.5
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "half"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Expected value of my delivery round time: 90 minutes half the time, 120 a quarter of the time and 150 the other quarter.",
+   "input": {
+    "outcomes": [
+     {
+      "value": 90,
+      "probability": 0.5
+     },
+     {
+      "value": 120,
+      "probability": 0.25
+     },
+     {
+      "value": 150,
+      "probability": 0.25
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "half the time"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a quarter of the time"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "quarter"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "penalty game at the fete, half the kicks score and win 10, half miss and win 1. expected value of the prize per kick",
+   "input": {
+    "outcomes": [
+     {
+      "value": 10,
+      "probability": 0.5
+     },
+     {
+      "value": 1,
+      "probability": 0.5
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "half"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Running a café, I'd like the expected value of a day's takings: a quarter chance of sun and 900, a half chance of cloud and 600, a quarter chance of rain and 250.",
+   "input": {
+    "outcomes": [
+     {
+      "value": 900,
+      "probability": 0.25
+     },
+     {
+      "value": 600,
+      "probability": 0.5
+     },
+     {
+      "value": 250,
+      "probability": 0.25
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a half"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "D&D night - roll a d20 for my initiative, seed 314",
+   "input": {
+    "notation": "1d20",
+    "seed": 314
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "a d20"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "roll a pair of dice, seed 88",
+   "input": {
+    "notation": "2d6",
+    "seed": 88
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "a pair of dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "Our Monopoly box has no dice in it. Can you roll two dice for us using seed 5?",
+   "input": {
+    "notation": "2d6",
+    "seed": 5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "two dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "fireball damage!! 8 d6s with seed 21",
+   "input": {
+    "notation": "8d6",
+    "seed": 21
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "8 d6s"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "Please roll three d8 dice from seed 1234.",
+   "input": {
+    "notation": "3d8",
+    "seed": 1234
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "three d8 dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "could you roll four 10-sided dice? seed 77",
+   "input": {
+    "notation": "4d10",
+    "seed": 77
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "four 10-sided dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "Need a percentile roll for the critical table: one d100, seed 9001.",
+   "input": {
+    "notation": "1d100",
+    "seed": 9001
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "one d100"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "Yahtzee turn, five dice please, seed 61",
+   "input": {
+    "notation": "5d6",
+    "seed": 61
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "five dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "roll a 12-sided die with seed 3 for the barbarian's greataxe",
+   "input": {
+    "notation": "1d12",
+    "seed": 3
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "a 12-sided die"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "Backgammon opening move: throw a couple of dice, seed 2468.",
+   "input": {
+    "notation": "2d6",
+    "seed": 2468
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "a couple of dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "2 d4s seed 0",
+   "input": {
+    "notation": "2d4",
+    "seed": 0
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "2 d4s"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "My little one lost the die from Snakes and Ladders. Could you roll a die for us? Seed 15 is fine.",
+   "input": {
+    "notation": "1d6",
+    "seed": 15
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "a die"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "six dice, seed 600, go",
+   "input": {
+    "notation": "6d6",
+    "seed": 600
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "six dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "Warhammer shooting phase - roll 10 dice to hit with seed 1987",
+   "input": {
+    "notation": "10d6",
+    "seed": 1987
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "10 dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "roll an 8-sided die (seed 55)",
+   "input": {
+    "notation": "1d8",
+    "seed": 55
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "an 8-sided die"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "GM here, I need three d20s for the party's saving throws, seed 808",
+   "input": {
+    "notation": "3d20",
+    "seed": 808
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "three d20s"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "Rolling with advantage: could you roll two 20-sided dice with seed 17?",
+   "input": {
+    "notation": "2d20",
+    "seed": 17
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "two 20-sided dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "I'm teaching probability tomorrow. Roll 12 dice from seed 2025 so the class can check the totals.",
+   "input": {
+    "notation": "12d6",
+    "seed": 2025
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "12 dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "just roll one die, seed 404",
+   "input": {
+    "notation": "1d6",
+    "seed": 404
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "one die"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "Settlers of Catan, my turn - a pair of dice off seed 31 quick",
+   "input": {
+    "notation": "2d6",
+    "seed": 31
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "a pair of dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "sneak attack damage: five d6 dice, seed 13",
+   "input": {
+    "notation": "5d6",
+    "seed": 13
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "five d6 dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "roll a d4 seed 250 for the magic missile",
+   "input": {
+    "notation": "1d4",
+    "seed": 250
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "a d4"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "roll a pair of 10-sided dice for me",
+   "input": {
+    "notation": "2d10"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "a pair of 10-sided dice"
+    }
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "message": "Can you throw three dice for our board game night?",
+   "input": {
+    "notation": "3d6"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "notation",
+     "rule": "dice",
+     "from": "three dice"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Doing my first half marathon in October. If I hold 6:15 per km, what finish time is that?",
+   "input": {
+    "distanceKm": 21.0975,
+    "paceSecondsPerKm": 375
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "what pace do I need to run a marathon in 3:45:00",
+   "input": {
+    "distanceKm": 42.195,
+    "timeSeconds": 13500
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "10k at 4:50 a km, finishing time?",
+   "input": {
+    "distanceKm": 10,
+    "paceSecondsPerKm": 290
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "10k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "ran a 5k in 27:30 - what was my pace per km",
+   "input": {
+    "distanceKm": 5,
+    "timeSeconds": 1650
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a 5k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Coach here. One of my runners wants a 1:30:00 half marathon. What per-km pace is that?",
+   "input": {
+    "distanceKm": 21.0975,
+    "timeSeconds": 5400
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "pace per km for a marathon finished in 4 hours",
+   "input": {
+    "distanceKm": 42.195,
+    "timeSeconds": 14400
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "If I jog a 10k at 7:00 per kilometre, how long will it take me?",
+   "input": {
+    "distanceKm": 10,
+    "paceSecondsPerKm": 420
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a 10k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Finished a 5k in 22 minutes flat this morning. What was my average pace?",
+   "input": {
+    "distanceKm": 5,
+    "timeSeconds": 1320
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a 5k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "running a half marathon at 5:00/km, whats the finish time",
+   "input": {
+    "distanceKm": 21.0975,
+    "paceSecondsPerKm": 300
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "My dad walked a marathon in 7:20:00 at the weekend. What pace per km was that?",
+   "input": {
+    "distanceKm": 42.195,
+    "timeSeconds": 26400
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Training plan check: a 10k in 48 minutes means what pace?",
+   "input": {
+    "distanceKm": 10,
+    "timeSeconds": 2880
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a 10k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Running the London marathon at 5:40 a kilometre - when would I be done?",
+   "input": {
+    "distanceKm": 42.195,
+    "paceSecondsPerKm": 340
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "If my target is a half marathon in 2 hours, how fast per km do I need to go?",
+   "input": {
+    "distanceKm": 21.0975,
+    "timeSeconds": 7200
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "what time would I finish a 5k running 6:30 per k",
+   "input": {
+    "distanceKm": 5,
+    "paceSecondsPerKm": 390
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a 5k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "how fast was I going? did a 10k in 1:02:30",
+   "input": {
+    "distanceKm": 10,
+    "timeSeconds": 3750
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a 10k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "For me a marathon at 6:00 per km would be the dream. What finish time does that give?",
+   "input": {
+    "distanceKm": 42.195,
+    "paceSecondsPerKm": 360
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Pace for a half marathon in 1:52:00?",
+   "input": {
+    "distanceKm": 21.0975,
+    "timeSeconds": 6720
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Charity 10k on Sunday. I'll be walking at about 9:30 per km, so roughly how long will I be out there?",
+   "input": {
+    "distanceKm": 10,
+    "paceSecondsPerKm": 570
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "10k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "work out my pace: 5k, 31 minutes",
+   "input": {
+    "distanceKm": 5,
+    "timeSeconds": 1860
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "5k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Couch to 5k graduate here! I run at 7:45 a km. What will my 5k time be?",
+   "input": {
+    "distanceKm": 5,
+    "paceSecondsPerKm": 465
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "5k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "elite stuff - a marathon in 2:01:09, what's the per km pace?",
+   "input": {
+    "distanceKm": 42.195,
+    "timeSeconds": 7269
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "If I keep a steady 5:20 per km over a half marathon, when do I cross the line?",
+   "input": {
+    "distanceKm": 21.0975,
+    "paceSecondsPerKm": 320
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Pace check for a 10k in 55:00 - per kilometre?",
+   "input": {
+    "distanceKm": 10,
+    "timeSeconds": 3300
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a 10k"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "My running club's half marathon is next month and I want to go 5:45 per km. Finish time?",
+   "input": {
+    "distanceKm": 21.0975,
+    "paceSecondsPerKm": 345
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "split times for a half marathon in 1:45:00",
+   "input": {
+    "distance": 21.0975,
+    "time": "1:45:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "a half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "split times for a sub 4:00:00 marathon please",
+   "input": {
+    "distance": 42.195,
+    "time": "4:00:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "km splits for a 10k in 45:00",
+   "input": {
+    "distance": 10,
+    "time": "45:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "a 10k"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Need my pacing splits for a 5k in 19:30 please",
+   "input": {
+    "distance": 5,
+    "time": "19:30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "a 5k"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Race plan for a marathon: goal 3:15:00. What are my split times?",
+   "input": {
+    "distance": 42.195,
+    "time": "3:15:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "half marathon goal 2:10:00 - split times per km please",
+   "input": {
+    "distance": 21.0975,
+    "time": "2:10:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "what splits does a 10k in 1:05:00 need?",
+   "input": {
+    "distance": 10,
+    "time": "1:05:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "a 10k"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Splits for a 5k target of 24:00, I'm racing on Saturday",
+   "input": {
+    "distance": 5,
+    "time": "24:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "a 5k"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Our club captain wants a 3:30:00 marathon. Work out the split times she needs.",
+   "input": {
+    "distance": 42.195,
+    "time": "3:30:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "half marathon in 1:59:59, splits",
+   "input": {
+    "distance": 21.0975,
+    "time": "1:59:59"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Help me pace a 10k: target 39:59, give me km splits",
+   "input": {
+    "distance": 10,
+    "time": "39:59"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "a 10k"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Split times for a marathon in 5:00:00 including walk breaks in the average",
+   "input": {
+    "distance": 42.195,
+    "time": "5:00:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "How far is a marathon in miles? Signing up for my first one.",
+   "input": {
+    "amount": 42.195,
+    "from": "km",
+    "to": "mi"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "Convert a half marathon into miles. Is it about 13?",
+   "input": {
+    "amount": 21.0975,
+    "from": "km",
+    "to": "mi"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "convert a 10k to miles",
+   "input": {
+    "amount": 10,
+    "from": "km",
+    "to": "mi"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a 10k"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "convert a 5k to miles for my American cousin",
+   "input": {
+    "amount": 5,
+    "from": "km",
+    "to": "mi"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a 5k"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "Is a half marathon more than 13 miles? Convert it for me.",
+   "input": {
+    "amount": 21.0975,
+    "from": "km",
+    "to": "mi"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "A marathon is how many metres? Our track is 400 m a lap.",
+   "input": {
+    "amount": 42.195,
+    "from": "km",
+    "to": "m"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "marathon"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "how many yards is a 5k",
+   "input": {
+    "amount": 5,
+    "from": "km",
+    "to": "yd"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a 5k"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "Out of curiosity, how many feet long is a 10k race?",
+   "input": {
+    "amount": 10,
+    "from": "km",
+    "to": "ft"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a 10k"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "Is a fortnight more than 300 hours? Convert it.",
+   "input": {
+    "amount": 14,
+    "from": "d",
+    "to": "h"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a fortnight"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "convert a week into minutes - I'm tracking 2 habits",
+   "input": {
+    "amount": 7,
+    "from": "d",
+    "to": "min"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a week"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "convert a decade into days, I turn 30 soon",
+   "input": {
+    "amount": 10,
+    "from": "yr",
+    "to": "d"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a decade"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "how many seconds is half an hour",
+   "input": {
+    "amount": 30,
+    "from": "min",
+    "to": "s"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "half an hour"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "Quick one: a quarter of an hour in seconds?",
+   "input": {
+    "amount": 15,
+    "from": "min",
+    "to": "s"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a quarter of an hour"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "convert half an hour to hours as a decimal, for 4 timesheets",
+   "input": {
+    "amount": 30,
+    "from": "min",
+    "to": "h"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "half an hour"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "Grandma is ninety-nine. How many weeks is a century?",
+   "input": {
+    "amount": 100,
+    "from": "yr",
+    "to": "wk"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a century"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "How many hours are in a week? Planning a rota for 6 staff.",
+   "input": {
+    "amount": 7,
+    "from": "d",
+    "to": "h"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a week"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "My visa lasts a fortnight from the 3rd. Convert that to minutes.",
+   "input": {
+    "amount": 14,
+    "from": "d",
+    "to": "min"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a fortnight"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "Is an hour 3600 seconds? Convert it so I can check.",
+   "input": {
+    "amount": 60,
+    "from": "min",
+    "to": "s"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "an hour"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "convert a decade to hours please, my 1st decade of work is done",
+   "input": {
+    "amount": 10,
+    "from": "yr",
+    "to": "h"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a decade"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "convert a century to days, for a 100th birthday card",
+   "input": {
+    "amount": 100,
+    "from": "yr",
+    "to": "d"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a century"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Scale this recipe to half for me: 400 g spaghetti, 2 cloves garlic, 100 ml olive oil",
+   "input": {
+    "ingredients": [
+     "400 g spaghetti",
+     "2 cloves garlic",
+     "100 ml olive oil"
+    ],
+    "factor": 0.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Only cooking for 3 instead of 4, so scale the recipe to three quarters: 600 g chicken, 2 tbsp curry paste, 400 ml coconut milk",
+   "input": {
+    "ingredients": [
+     "600 g chicken",
+     "2 tbsp curry paste",
+     "400 ml coconut milk"
+    ],
+    "factor": 0.75
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "three quarters"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Making a mini version of the cake, so a quarter of: 4 eggs, 2 cups self-raising flour, 225 g caster sugar, 225 g soft butter",
+   "input": {
+    "ingredients": [
+     "4 eggs",
+     "2 cups self-raising flour",
+     "225 g caster sugar",
+     "225 g soft butter"
+    ],
+    "factor": 0.25
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "a quarter"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Scale this down to half - 3 cups rice, 4 cups water, 1 tsp salt",
+   "input": {
+    "ingredients": [
+     "3 cups rice",
+     "4 cups water",
+     "1 tsp salt"
+    ],
+    "factor": 0.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "can you make half of the recipe below",
+   "input": {
+    "factor": 0.5
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Cut this to a quarter: 500 g flour, 250 g butter, 200 g sugar, 2 eggs",
+   "input": {
+    "ingredients": [
+     "500 g flour",
+     "250 g butter",
+     "200 g sugar",
+     "2 eggs"
+    ],
+    "factor": 0.25
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "a quarter"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "I want three quarters of the batch: 1 kg potatoes, 200 ml cream, 50 g butter",
+   "input": {
+    "ingredients": [
+     "1 kg potatoes",
+     "200 ml cream",
+     "50 g butter"
+    ],
+    "factor": 0.75
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "three quarters"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Half quantities please -\n2 cups oats\n1 cup raisins\n3/4 cup brown sugar",
+   "input": {
+    "ingredients": [
+     "2 cups oats",
+     "1 cup raisins",
+     "3/4 cup brown sugar"
+    ],
+    "factor": 0.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Baking in a smaller tin, so I need three quarters of: 250 g self-raising flour, 3 eggs, 175 g caster sugar",
+   "input": {
+    "ingredients": [
+     "250 g self-raising flour",
+     "3 eggs",
+     "175 g caster sugar"
+    ],
+    "factor": 0.75
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "three quarters"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Scale this catering recipe down to a fifth: 5 kg mince, 10 onions, 2.5 litres stock",
+   "input": {
+    "ingredients": [
+     "5 kg mince",
+     "10 onions",
+     "2.5 litres stock"
+    ],
+    "factor": 0.2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "a fifth"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "School canteen recipe, but I only want a tenth of it at home: 20 litres soup stock, 3 kg lentils, 500 g butter",
+   "input": {
+    "ingredients": [
+     "20 litres soup stock",
+     "3 kg lentils",
+     "500 g butter"
+    ],
+    "factor": 0.1
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "a tenth"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Scale my recipe to three quarters",
+   "input": {
+    "factor": 0.75
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "three quarters"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "half this marinade: 4 tbsp soy sauce, 2 tbsp honey, 1 tsp ginger",
+   "input": {
+    "ingredients": [
+     "4 tbsp soy sauce",
+     "2 tbsp honey",
+     "1 tsp ginger"
+    ],
+    "factor": 0.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Reduce to a quarter: 8 eggs, 4 cups milk, 1 cup sugar, 2 tsp vanilla",
+   "input": {
+    "ingredients": [
+     "8 eggs",
+     "4 cups milk",
+     "1 cup sugar",
+     "2 tsp vanilla"
+    ],
+    "factor": 0.25
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "a quarter"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "The party's smaller now, so I need three quarters of 2 kg lamb shoulder, 6 cloves garlic, 3 sprigs rosemary",
+   "input": {
+    "ingredients": [
+     "2 kg lamb shoulder",
+     "6 cloves garlic",
+     "3 sprigs rosemary"
+    ],
+    "factor": 0.75
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "three quarters"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "pancakes for one: work out half of 1½ cups flour, 3/4 cup milk, 1 egg",
+   "input": {
+    "ingredients": [
+     "1½ cups flour",
+     "3/4 cup milk",
+     "1 egg"
+    ],
+    "factor": 0.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "a dozen free-range eggs for 3.20 - what's the unit price per egg?",
+   "input": {
+    "price": 3.2,
+    "quantity": 12,
+    "unit": "egg"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "half a dozen bagels at 4.50, so how much is each one?",
+   "input": {
+    "price": 4.5,
+    "quantity": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "Got a pair of running socks for 14. Price per sock for my expenses form?",
+   "input": {
+    "price": 14,
+    "quantity": 2,
+    "unit": "sock"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a pair of"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "Shop owner here: a gross of pencils costs me 28.80 wholesale. Cost per pencil?",
+   "input": {
+    "price": 28.8,
+    "quantity": 144,
+    "unit": "pencil"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a gross"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "a couple of ribeye steaks for 11 - how much per steak",
+   "input": {
+    "price": 11,
+    "quantity": 2,
+    "unit": "steak"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "Tulip bulbs come as a score for 9.00. What's the unit price per bulb?",
+   "input": {
+    "price": 9,
+    "quantity": 20,
+    "unit": "bulb"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a score"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "a dozen roses cost 30. what's the price per rose",
+   "input": {
+    "price": 30,
+    "quantity": 12,
+    "unit": "rose"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "price per can: half a dozen cans of tonic for 3.60",
+   "input": {
+    "price": 3.6,
+    "quantity": 6,
+    "unit": "can"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "Our bakery bought a gross of paper bags for 21.60. How much per bag?",
+   "input": {
+    "price": 21.6,
+    "quantity": 144,
+    "unit": "bag"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a gross"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "a couple of lemons for 0.90, per lemon?",
+   "input": {
+    "price": 0.9,
+    "quantity": 2,
+    "unit": "lemon"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "A pair of concert tickets came to 57 with fees. What's the cost per ticket?",
+   "input": {
+    "price": 57,
+    "quantity": 2,
+    "unit": "ticket"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a pair of"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "Doughnuts are a dozen for 7.20. Unit price per doughnut?",
+   "input": {
+    "price": 7.2,
+    "quantity": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "half a dozen wine glasses for 18.99, what's the cost per glass",
+   "input": {
+    "price": 18.99,
+    "quantity": 6,
+    "unit": "glass"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "Teacher buying supplies: a score of glue sticks for 12. What's the price per stick?",
+   "input": {
+    "price": 12,
+    "quantity": 20,
+    "unit": "stick"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a score"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "pick a couple of names from Ana, Ben, Cole, Dee and Eli for washing-up duty, seed 12",
+   "input": {
+    "items": [
+     "Ana",
+     "Ben",
+     "Cole",
+     "Dee",
+     "Eli"
+    ],
+    "seed": 12,
+    "count": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a couple"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "Choose half a dozen raffle winners from: Fay, Gus, Hal, Ivy, Jo, Kit, Lea, Max. Seed 2026.",
+   "input": {
+    "items": [
+     "Fay",
+     "Gus",
+     "Hal",
+     "Ivy",
+     "Jo",
+     "Kit",
+     "Lea",
+     "Max"
+    ],
+    "seed": 2026,
+    "count": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "Pick a pair of songs for the first dance from this list at random: Perfect, Shallow, At Last, Crazy in Love. Seed 9.",
+   "input": {
+    "items": [
+     "Perfect",
+     "Shallow",
+     "At Last",
+     "Crazy in Love"
+    ],
+    "seed": 9,
+    "count": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a pair"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "From the list below, pick a dozen at random with seed 4",
+   "input": {
+    "seed": 4,
+    "count": 12
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "randomly pick a couple of players to go in goal: Sam, Raj, Tom, Lin. seed 81",
+   "input": {
+    "items": [
+     "Sam",
+     "Raj",
+     "Tom",
+     "Lin"
+    ],
+    "seed": 81,
+    "count": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a couple"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "Draw half a dozen spelling words at random from ocean, yellow, bridge, castle, garden, rocket, planet, window - seed 7",
+   "input": {
+    "items": [
+     "ocean",
+     "yellow",
+     "bridge",
+     "castle",
+     "garden",
+     "rocket",
+     "planet",
+     "window"
+    ],
+    "seed": 7,
+    "count": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "Pick a pair of names at random from my class list, seed 15",
+   "input": {
+    "seed": 15,
+    "count": 2
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a pair"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "Randomly choose a couple of restaurants for this week from Nando's, Wagamama, Dishoom, Pho. Seed 202.",
+   "input": {
+    "items": [
+     "Nando's",
+     "Wagamama",
+     "Dishoom",
+     "Pho"
+    ],
+    "seed": 202,
+    "count": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a couple"
+    }
+   ]
+  },
+  {
+   "skill": "randomNumber",
+   "message": "For bingo with my class I need a dozen random whole numbers from 1 to 30, seed 18",
+   "input": {
+    "min": 1,
+    "max": 30,
+    "seed": 18,
+    "count": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "randomNumber",
+   "message": "half a dozen lottery numbers 1 to 59, no repeats, seed 8",
+   "input": {
+    "min": 1,
+    "max": 59,
+    "seed": 8,
+    "count": 6,
+    "unique": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "randomNumber",
+   "message": "Generate a couple of random numbers between 10 and 99 with seed 61",
+   "input": {
+    "min": 10,
+    "max": 99,
+    "seed": 61,
+    "count": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a couple"
+    }
+   ]
+  },
+  {
+   "skill": "randomNumber",
+   "message": "Give me a score of random test values from 0 to 1000, seed 5",
+   "input": {
+    "min": 0,
+    "max": 1000,
+    "seed": 5,
+    "count": 20
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a score"
+    }
+   ]
+  },
+  {
+   "skill": "randomNumber",
+   "message": "Need a pair of random numbers from 1 to 12 for a board game, seed 3",
+   "input": {
+    "min": 1,
+    "max": 12,
+    "seed": 3,
+    "count": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a pair"
+    }
+   ]
+  },
+  {
+   "skill": "randomNumber",
+   "message": "random sample: a dozen numbers between 100 and 999, seed 77",
+   "input": {
+    "min": 100,
+    "max": 999,
+    "seed": 77,
+    "count": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "randomNumber",
+   "message": "Draw half a dozen random numbers from 1 to 20 without repeats for the raffle, seed 1212",
+   "input": {
+    "min": 1,
+    "max": 20,
+    "seed": 1212,
+    "count": 6,
+    "unique": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "randomNumber",
+   "message": "For a simulation I need a couple of non-whole random values between 0 and 1, seed 9",
+   "input": {
+    "min": 0,
+    "max": 1,
+    "seed": 9,
+    "count": 2,
+    "whole": false
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a couple"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Generate a passphrase that's half a dozen words long",
+   "input": {
+    "words": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "passphrase please: half a dozen words, capitalised, joined with underscores",
+   "input": {
+    "words": 6,
+    "capitalise": true,
+    "separator": "_"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "My wallet backup wants a passphrase of a dozen words, plus 2 digits on the end",
+   "input": {
+    "words": 12,
+    "number": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Guest wifi passphrase: a couple of words and a two-digit number, nothing fancy",
+   "input": {
+    "words": 2,
+    "number": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Make me a random-word passphrase, half a dozen words, ending in a number",
+   "input": {
+    "words": 6,
+    "number": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "I need 1 long passphrase for my password manager - a dozen words, capitalised",
+   "input": {
+    "words": 12,
+    "capitalise": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "Dinner came to 86.40 for a couple of us, plus a 12.5% tip. How much each?",
+   "input": {
+    "bill": 86.4,
+    "people": 2,
+    "tipPercent": 12.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "people",
+     "rule": "quantity",
+     "from": "a couple"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "split 240 between half a dozen of us, no tip",
+   "input": {
+    "bill": 240,
+    "people": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "people",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "Team lunch: 312.60 across a dozen of us with 10% service. What does each person pay?",
+   "input": {
+    "bill": 312.6,
+    "people": 12,
+    "tipPercent": 10
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "people",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "Pizza night was 54 for a pair of us, 15% tip on top - split it",
+   "input": {
+    "bill": 54,
+    "people": 2,
+    "tipPercent": 15
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "people",
+     "rule": "quantity",
+     "from": "a pair"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "Our book club bill is 147.25 between a dozen people with an 18% tip. Per person?",
+   "input": {
+    "bill": 147.25,
+    "people": 12,
+    "tipPercent": 18
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "people",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "Brunch for half a dozen came to €96.30 and we're adding a 10% tip. What's each share?",
+   "input": {
+    "bill": 96.3,
+    "people": 6,
+    "tipPercent": 10,
+    "currency": "€"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "people",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "a couple of us had a curry for 38.90, split it with a 20 percent tip",
+   "input": {
+    "bill": 38.9,
+    "people": 2,
+    "tipPercent": 20
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "people",
+     "rule": "quantity",
+     "from": "a couple"
+    }
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "message": "Stag do bar tab of £640, split it between a score of lads",
+   "input": {
+    "bill": 640,
+    "people": 20,
+    "currency": "£"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "people",
+     "rule": "quantity",
+     "from": "a score"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "I need to be up at 06:30 and it takes me half an hour to drop off. When should I go to bed?",
+   "input": {
+    "time": "06:30",
+    "fallAsleepMinutes": 30
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "fallAsleepMinutes",
+     "rule": "quantity",
+     "from": "half an hour"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "alarm's at 7:15, I take about a quarter of an hour to fall asleep - bedtimes?",
+   "input": {
+    "time": "7:15",
+    "fallAsleepMinutes": 15
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "fallAsleepMinutes",
+     "rule": "quantity",
+     "from": "a quarter of an hour"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "If I'm in bed at 23:30 and it takes half an hour to nod off, what times should I wake up?",
+   "input": {
+    "time": "23:30",
+    "direction": "sleep",
+    "fallAsleepMinutes": 30
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "fallAsleepMinutes",
+     "rule": "quantity",
+     "from": "half an hour"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "My sleep cycles seem to be about an hour long. I wake at 05:45, so when should I sleep?",
+   "input": {
+    "time": "05:45",
+    "cycleMinutes": 60
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "cycleMinutes",
+     "rule": "quantity",
+     "from": "an hour"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "Bedtimes for a 06:00 start? Falling asleep takes me half an hour.",
+   "input": {
+    "time": "06:00",
+    "fallAsleepMinutes": 30
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "fallAsleepMinutes",
+     "rule": "quantity",
+     "from": "half an hour"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "night shift nurse: I want to wake at 14:00 and it takes a quarter of an hour to drift off. bedtimes?",
+   "input": {
+    "time": "14:00",
+    "fallAsleepMinutes": 15
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "fallAsleepMinutes",
+     "rule": "quantity",
+     "from": "a quarter of an hour"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "Going to sleep at 22:00 with cycles of an hour, when are good wake times?",
+   "input": {
+    "time": "22:00",
+    "direction": "sleep",
+    "cycleMinutes": 60
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "cycleMinutes",
+     "rule": "quantity",
+     "from": "an hour"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "wake at 08:30, half an hour to fall asleep, 80 minute cycles - when do I go to bed",
+   "input": {
+    "time": "08:30",
+    "cycleMinutes": 80,
+    "fallAsleepMinutes": 30
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "fallAsleepMinutes",
+     "rule": "quantity",
+     "from": "half an hour"
+    }
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "Baking scones: what's half a cup of caster sugar in grams?",
+   "input": {
+    "amount": 0.5,
+    "from": "cup",
+    "to": "g",
+    "ingredient": "caster sugar"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "convert a quarter cup of olive oil to ml",
+   "input": {
+    "amount": 0.25,
+    "from": "cup",
+    "to": "ml",
+    "ingredient": "olive oil"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "fraction",
+     "from": "a quarter"
+    }
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "Recipe says three quarters of a cup of milk. How many ml is that?",
+   "input": {
+    "amount": 0.75,
+    "from": "cup",
+    "to": "ml",
+    "ingredient": "milk"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "fraction",
+     "from": "three quarters"
+    }
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "half a teaspoon of salt in grams please",
+   "input": {
+    "amount": 0.5,
+    "from": "tsp",
+    "to": "g",
+    "ingredient": "salt"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "convert an eighth of a cup of honey to tablespoons",
+   "input": {
+    "amount": 0.125,
+    "from": "cup",
+    "to": "tbsp",
+    "ingredient": "honey"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "fraction",
+     "from": "an eighth"
+    }
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "American recipe: a quarter cup of brown sugar, what's that in grams?",
+   "input": {
+    "amount": 0.25,
+    "from": "cup",
+    "to": "g",
+    "ingredient": "brown sugar"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "fraction",
+     "from": "a quarter"
+    }
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "How many grams of butter is half a cup? Baking for 12 tomorrow.",
+   "input": {
+    "amount": 0.5,
+    "from": "cup",
+    "to": "g",
+    "ingredient": "butter"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "three quarters of a cup of rolled oats in grams, please",
+   "input": {
+    "amount": 0.75,
+    "from": "cup",
+    "to": "g",
+    "ingredient": "rolled oats"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "fraction",
+     "from": "three quarters"
+    }
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "Turn half a tablespoon of honey into grams for me",
+   "input": {
+    "amount": 0.5,
+    "from": "tbsp",
+    "to": "g",
+    "ingredient": "honey"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "My recipe wants a quarter of a cup of cream and I only have a measuring jug - convert it to millilitres?",
+   "input": {
+    "amount": 0.25,
+    "from": "cup",
+    "to": "ml",
+    "ingredient": "cream"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "fraction",
+     "from": "a quarter"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "I've got a 420 page novel for book club in a fortnight. How many pages a day?",
+   "input": {
+    "totalPages": 420,
+    "days": 14
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a fortnight"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Need to get through 210 pages of case law in a week, make me a reading schedule",
+   "input": {
+    "totalPages": 210,
+    "days": 7
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a week"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "reading plan: 96 pages over a couple of days",
+   "input": {
+    "totalPages": 96,
+    "days": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "My daughter has 180 pages of her set text to finish in half a dozen days. Can you make her a reading schedule?",
+   "input": {
+    "totalPages": 180,
+    "days": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Split 1,000 pages into a daily reading schedule for a fortnight",
+   "input": {
+    "totalPages": 1000,
+    "days": 14
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a fortnight"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "I want to read The Hobbit (310 pages) in a week. Daily reading schedule please.",
+   "input": {
+    "totalPages": 310,
+    "days": 7
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a week"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Exam revision: 264 pages of notes to read in a dozen days. How many pages a day?",
+   "input": {
+    "totalPages": 264,
+    "days": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Can you plan my reading of a 152 page report over a couple of days?",
+   "input": {
+    "totalPages": 152,
+    "days": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "350 pages, a fortnight, give me a reading schedule",
+   "input": {
+    "totalPages": 350,
+    "days": 14
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a fortnight"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "480 pages to read in a week - what's that per day?",
+   "input": {
+    "totalPages": 480,
+    "days": 7
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a week"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Reading challenge: 640 pages across a fortnight. Pages per day?",
+   "input": {
+    "totalPages": 640,
+    "days": 14
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a fortnight"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Plan 75 pages of a textbook over half a dozen days.",
+   "input": {
+    "totalPages": 75,
+    "days": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Nurse studying for boards: 900 pages of review in a fortnight - how many pages per day?",
+   "input": {
+    "totalPages": 900,
+    "days": 14
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a fortnight"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "I'm travelling for a week with a 560 page biography. Reading schedule?",
+   "input": {
+    "totalPages": 560,
+    "days": 7
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a week"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "how many pages per day to finish 123 pages in a couple of days",
+   "input": {
+    "totalPages": 123,
+    "days": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Retired and finally reading War and Peace, 1,225 pages. I want to finish in a dozen days. Daily target?",
+   "input": {
+    "totalPages": 1225,
+    "days": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "message": "evaluate 45 times 3 plus 12.50 for the till",
+   "input": {
+    "expression": "45 * 3 + 12.50"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "expression",
+     "rule": "arithmetic",
+     "from": "45 times 3 plus 12.50"
+    }
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "message": "What's 1,200 divided by 16?",
+   "input": {
+    "expression": "1200 / 16"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "expression",
+     "rule": "arithmetic",
+     "from": "1,200 divided by 16"
+    }
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "message": "work out the maths: 7 squared minus 15",
+   "input": {
+    "expression": "7^2 - 15"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "expression",
+     "rule": "arithmetic",
+     "from": "7 squared minus 15"
+    }
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "message": "I need 3 to the power of 8 for a combinatorics question",
+   "input": {
+    "expression": "3^8"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "expression",
+     "rule": "arithmetic",
+     "from": "3 to the power of 8"
+    }
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "message": "what is 950 plus 210 plus 85",
+   "input": {
+    "expression": "950 + 210 + 85"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "expression",
+     "rule": "arithmetic",
+     "from": "950 plus 210 plus 85"
+    }
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "message": "what's 18.5 multiplied by 40 minus 120? it's for my payslip",
+   "input": {
+    "expression": "18.5 * 40 - 120"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "expression",
+     "rule": "arithmetic",
+     "from": "18.5 multiplied by 40 minus 120"
+    }
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "message": "work out 2,500 over 12 as a number",
+   "input": {
+    "expression": "2500 / 12"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "expression",
+     "rule": "arithmetic",
+     "from": "2,500 over 12"
+    }
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "message": "what's 12 cubed",
+   "input": {
+    "expression": "12^3"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "expression",
+     "rule": "arithmetic",
+     "from": "12 cubed"
+    }
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "message": "Checking my son's homework: 144 divided by 12 times 5",
+   "input": {
+    "expression": "144 / 12 * 5"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "expression",
+     "rule": "arithmetic",
+     "from": "144 divided by 12 times 5"
+    }
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "message": "evaluate 4.99 times 6 minus 2.50",
+   "input": {
+    "expression": "4.99 * 6 - 2.50"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "expression",
+     "rule": "arithmetic",
+     "from": "4.99 times 6 minus 2.50"
+    }
+   ]
+  },
+  {
+   "skill": "whatPercent",
+   "message": "a dozen of my 30 seedlings sprouted - what percent is that?",
+   "input": {
+    "part": 12,
+    "whole": 30
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "part",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "whatPercent",
+   "message": "I've read a couple of the 8 chapters. What percentage is that?",
+   "input": {
+    "part": 2,
+    "whole": 8
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "part",
+     "rule": "quantity",
+     "from": "a couple"
+    }
+   ]
+  },
+  {
+   "skill": "whatPercent",
+   "message": "Half a dozen of the 25 pupils were off sick today. As a percentage?",
+   "input": {
+    "part": 6,
+    "whole": 25
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "part",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "whatPercent",
+   "message": "a score of the 80 questions are done, what percentage is that",
+   "input": {
+    "part": 20,
+    "whole": 80
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "part",
+     "rule": "quantity",
+     "from": "a score"
+    }
+   ]
+  }
+ ]
+}

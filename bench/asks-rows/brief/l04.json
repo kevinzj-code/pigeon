@@ -1,0 +1,395 @@
+{
+ "batch": "l04",
+ "skills": [
+  {
+   "skill": "applyTax",
+   "category": "finance",
+   "does": "Add tax to a price, or work backwards from a price that already includes it, at a rate you supply.",
+   "examples": [
+    "add 20% vat to 250",
+    "what is the vat included in 300 at 20%",
+    "add 8.875% sales tax to 49.99"
+   ]
+  },
+  {
+   "skill": "compoundInterest",
+   "category": "finance",
+   "does": "Grow a sum year on year, with each year’s interest earning interest too.",
+   "examples": [
+    "what does 1000 grow to at 5% for 10 years",
+    "compound 5000 at 4% monthly for 5 years",
+    "save 200 a month at 6% for 20 years"
+   ]
+  },
+  {
+   "skill": "convertCurrencyFixed",
+   "category": "finance",
+   "does": "Convert an amount between currencies at an exchange rate you supply.",
+   "examples": [
+    "convert 100 EUR to USD at 1.0842",
+    "50 gbp in euros at a rate of 1.18",
+    "how much is 250 dollars in yen at 150.53"
+   ]
+  },
+  {
+   "skill": "hourlyToSalary",
+   "category": "finance",
+   "does": "Turn an hourly wage into the yearly salary it adds up to.",
+   "examples": [
+    "what is 25 an hour as a salary",
+    "annual salary for 18.50 an hour at 40 hours",
+    "15 an hour over 48 working weeks"
+   ]
+  },
+  {
+   "skill": "markupMargin",
+   "category": "finance",
+   "does": "Convert between markup and margin, and work out a selling price from a cost.",
+   "examples": [
+    "sell at 50% markup on a cost of 20",
+    "what price gives a 40% margin on cost 60",
+    "my cost is 12 and I sell at 20 — what is the margin"
+   ]
+  },
+  {
+   "skill": "salaryToHourly",
+   "category": "finance",
+   "does": "Divide an annual salary down to what a single hour is worth.",
+   "examples": [
+    "what is 48750 a year per hour",
+    "hourly rate for a 60000 salary at 40 hours",
+    "35000 a year as an hourly rate"
+   ]
+  },
+  {
+   "skill": "savingsGoal",
+   "category": "finance",
+   "does": "Work out how long a savings goal takes, or how much to put aside each month.",
+   "examples": [
+    "how long to save 10000 at 250 a month with no interest",
+    "how many months to save 10000 at 250 a month at 3 percent",
+    "saving 100 a month at 2 percent for a 5000 goal"
+   ]
+  },
+  {
+   "skill": "simpleInterest",
+   "category": "finance",
+   "does": "Charge flat interest on the original amount only, never on the interest.",
+   "examples": [
+    "simple interest on 1000 at 5% for 3 years",
+    "how much interest on 2500 at 4.5% over 2 years",
+    "interest on 500 at 10% for half a year"
+   ]
+  },
+  {
+   "skill": "checkAnagram",
+   "category": "games",
+   "does": "Check whether two words or phrases use exactly the same letters.",
+   "examples": [
+    "are listen and silent anagrams",
+    "is dormitory an anagram of dirty room",
+    "are hello and world anagrams"
+   ]
+  },
+  {
+   "skill": "checkPalindrome",
+   "category": "games",
+   "does": "Check whether a word or phrase reads the same backwards.",
+   "examples": [
+    "is racecar a palindrome",
+    "check if this phrase is a palindrome",
+    "is hello a palindrome"
+   ]
+  },
+  {
+   "skill": "magicEightBall",
+   "category": "games",
+   "does": "Give a magic eight ball answer to a yes or no question.",
+   "examples": [
+    "magic eight ball, will it rain tomorrow",
+    "ask the magic 8 ball",
+    "should I take the job"
+   ]
+  },
+  {
+   "skill": "scrabbleScore",
+   "category": "games",
+   "does": "Add up what a word is worth in Scrabble tile values.",
+   "examples": [
+    "what does pigeon score in scrabble",
+    "scrabble score for quiz",
+    "how many points is jazz worth"
+   ]
+  },
+  {
+   "skill": "solveAnagram",
+   "category": "games",
+   "does": "Rearrange all the letters of a word into the other words they spell.",
+   "examples": [
+    "unscramble listen",
+    "what words can I make from stop",
+    "solve the anagram tea"
+   ]
+  },
+  {
+   "skill": "wordleFilter",
+   "category": "games",
+   "does": "Narrow a word list down from green, yellow and grey letter clues.",
+   "examples": [
+    "wordle: green c at the start, k in the middle",
+    "five letters starting cr, no e",
+    "pattern .a.e. with an r somewhere"
+   ]
+  },
+  {
+   "skill": "wordsFromLetters",
+   "category": "games",
+   "does": "Build every shorter word you can from a pool of letters, using some of them.",
+   "examples": [
+    "what words can I make from pigeon",
+    "words from the letters stop",
+    "make words from cat"
+   ]
+  },
+  {
+   "skill": "flipCoin",
+   "category": "generation",
+   "does": "Flip a coin for heads or tails, one flip or several, from a seed so it can be repeated.",
+   "examples": [
+    "flip a coin with seed 1",
+    "flip a coin seed 7",
+    "flip 5 coins with seed 42"
+   ]
+  },
+  {
+   "skill": "generateCalendarGrid",
+   "category": "generation",
+   "does": "Draw a month out as a printable calendar grid of weeks.",
+   "examples": [
+    "show me a calendar grid for September 2026",
+    "calendar for February 2026",
+    "month grid for February 2024"
+   ]
+  },
+  {
+   "skill": "generateChecklist",
+   "category": "generation",
+   "does": "Turn your own list into tick boxes — a markdown checklist.",
+   "examples": [
+    "make a checklist from these items",
+    "checklist with a heading",
+    "make a numbered checklist"
+   ]
+  },
+  {
+   "skill": "generateSchedule",
+   "category": "generation",
+   "does": "Divide a stretch of time into even slots, with optional breaks between them.",
+   "examples": [
+    "split 9am to noon into three slots",
+    "ninety minute sessions from 9 to 5",
+    "three slots with fifteen minute breaks"
+   ]
+  },
+  {
+   "skill": "loremIpsum",
+   "category": "generation",
+   "does": "Generate meaningless placeholder filler to fill out a layout.",
+   "examples": [
+    "generate some placeholder text",
+    "lorem ipsum with two paragraphs",
+    "filler text with a different seed"
+   ]
+  },
+  {
+   "skill": "randomNumber",
+   "category": "generation",
+   "does": "Pick a random number in a range, from a seed so the same draw can be repeated.",
+   "examples": [
+    "pick a number between 1 and 100 with seed 7",
+    "random number 1 to 6 seed 1",
+    "give me 5 numbers between 1 and 50, seed 42"
+   ]
+  },
+  {
+   "skill": "rollDice",
+   "category": "generation",
+   "does": "Roll dice in standard notation like 2d6+3, from a seed so the same roll can be repeated.",
+   "examples": [
+    "roll 2d6 with seed 7",
+    "roll a d20 with seed 1",
+    "roll 3d8+2 seed 42"
+   ]
+  },
+  {
+   "skill": "areaOf",
+   "category": "geometry",
+   "does": "Work out the space inside a shape — the area of a rectangle, square, circle, triangle, trapezoid, ellipse or parallelogram.",
+   "examples": [
+    "area of a rectangle 8 by 5",
+    "area of a circle with radius 3",
+    "area of a triangle with base 10 and height 6"
+   ]
+  },
+  {
+   "skill": "distanceBetweenPoints",
+   "category": "geometry",
+   "does": "Work out the straight-line distance between two points on a plane or in space.",
+   "examples": [
+    "distance between (0,0) and (3,4)",
+    "how far apart are these two points",
+    "distance in 3d space"
+   ]
+  },
+  {
+   "skill": "haversineDistance",
+   "category": "geometry",
+   "does": "Work out the great-circle distance between two points on Earth from their latitude and longitude.",
+   "examples": [
+    "distance from london to paris",
+    "how far is new york from london",
+    "distance between two nearby points"
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "category": "geometry",
+   "does": "Work out the distance round the edge of a shape — its perimeter or circumference, or how much fencing or edging it takes.",
+   "examples": [
+    "perimeter of a rectangle 8 by 5",
+    "circumference of a circle with radius 3",
+    "perimeter of a square with 7 metre sides"
+   ]
+  },
+  {
+   "skill": "pythagorean",
+   "category": "geometry",
+   "does": "Find a missing side of a right-angled triangle — a ladder's length, a diagonal, a hypotenuse — from the other two.",
+   "examples": [
+    "hypotenuse of a triangle with sides 3 and 4",
+    "find the missing side if the hypotenuse is 13 and one side is 5",
+    "diagonal of a 1920 by 1080 screen"
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "category": "geometry",
+   "does": "Work out the volume of a cube, box, sphere, cylinder, cone or pyramid.",
+   "examples": [
+    "volume of a cube with 4cm sides",
+    "volume of a box 10 by 5 by 2",
+    "volume of a sphere with radius 3"
+   ]
+  },
+  {
+   "skill": "bmiCalculate",
+   "category": "health",
+   "does": "Work out body mass index from a height and weight — the formula only.",
+   "examples": [
+    "bmi for 70kg and 175cm",
+    "work out bmi for 90kg at 180cm",
+    "bmi calculation for 55kg and 160cm"
+   ]
+  },
+  {
+   "skill": "heartRateZones",
+   "category": "health",
+   "does": "Split a maximum heart rate you supply into the standard five training zones.",
+   "examples": [
+    "heart rate zones for a max of 190",
+    "training zones from a measured max of 180",
+    "zones using heart rate reserve with resting 50"
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "category": "health",
+   "does": "Convert between running pace, speed and finish time over a distance.",
+   "examples": [
+    "finish time for a 10k at 5:30 per km",
+    "what pace is a 3 hour marathon",
+    "pace for a 5k in 25 minutes"
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "category": "health",
+   "does": "Work out wake or bedtimes a whole number of sleep cycles apart.",
+   "examples": [
+    "when should I go to bed to wake at 7am",
+    "bedtimes to wake at 06:30",
+    "if I go to sleep now at 23:00 when should I wake"
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "category": "health",
+   "does": "Work out the pace and split times needed to finish a distance in a target time.",
+   "examples": [
+    "split times for a 10k in 50 minutes",
+    "what pace do I need for a 5k in 22:30",
+    "pace for 3 miles in 24 minutes"
+   ]
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "category": "learning",
+   "does": "Check each line of a worked calculation and find the first one that is wrong.",
+   "examples": [
+    "check my working",
+    "is this calculation right",
+    "check these sums"
+   ]
+  },
+  {
+   "skill": "flashcardShuffle",
+   "category": "learning",
+   "does": "Shuffle a set of flashcards into a study order.",
+   "examples": [
+    "shuffle my flashcards",
+    "shuffle these cards with seed 42",
+    "randomise this deck"
+   ]
+  },
+  {
+   "skill": "gpaCalculate",
+   "category": "learning",
+   "does": "Work out a grade point average from letter grades and credit hours.",
+   "examples": [
+    "work out my gpa",
+    "calculate gpa for two A grades",
+    "what is my grade point average this term"
+   ]
+  },
+  {
+   "skill": "gradeNeeded",
+   "category": "learning",
+   "does": "Work out what score the remaining work needs to reach a target grade.",
+   "examples": [
+    "what do I need on the final to get 80 percent",
+    "what score do I need for a 90 average",
+    "can I still pass with 70 percent"
+   ]
+  },
+  {
+   "skill": "gradeQuiz",
+   "category": "learning",
+   "does": "Mark a set of answers against an answer key and give the score, question by question.",
+   "examples": [
+    "mark these answers against the key",
+    "grade my quiz",
+    "score these ignoring capitals"
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "category": "learning",
+   "does": "Turn a page count into a daily reading schedule.",
+   "examples": [
+    "reading schedule for 60 pages at 20 a day",
+    "how much should I read a day to finish 100 pages in 4 days",
+    "plan 45 pages at 20 pages a day"
+   ]
+  }
+ ]
+}

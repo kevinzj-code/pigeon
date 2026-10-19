@@ -1,0 +1,605 @@
+{
+ "batch": "o01",
+ "texts": [
+  {
+   "kind": "receipt",
+   "text": "H. PELLOW & SON FAMILY BUTCHERS\n7 Sheep Street, Brackenford BK7 4LD\nTel 01632 960218\nPork sausages 6 £3.90\nLamb mince 500g £4.75\nSmoked back bacon 8 rashers £3.60\nChicken thighs 1.2kg £5.28\nPork pie, large £6.50\nTOTAL £24.03\nCash £30.00 Change £5.97\nSat 14/02/2026 10:18"
+  },
+  {
+   "kind": "receipt",
+   "text": "The Buttercross Tea Room\nMarket Place, Brackenford\nTable 4 Covers 3\n2 x Cream tea £13.00\nToasted teacake £2.85\nPot of Earl Grey £2.40\nElderflower pressé £2.75\nSubtotal £21.00\nTotal to pay £21.00\nPaid by card ****3306\nServed by Megan 15:42 03/05/26"
+  },
+  {
+   "kind": "receipt",
+   "text": "COLDMERE IRONMONGERS LTD\n22 Bridge Street, Brackenford BK7 2EF\nVAT No. 418 2290 61\nGalvanised nails 40mm 500g £3.49\nRawlplugs red x100 £2.15\nHose connector 1/2 in £4.80\nParaffin 4L £11.99\nQty 4 Items\nTOTAL £22.43\nVAT incl. @ 20% £3.74\nVISA CONTACTLESS AUTH 552190\n29/10/2026 11:06"
+  },
+  {
+   "kind": "receipt",
+   "text": "Thornby Pharmacy\n4 Church Row, Brackenford\nIbuprofen 200mg 24 tabs £1.15\nHay fever relief 30 tabs £4.99\nFabric plasters x30 £2.35\nSun cream SPF 50 200ml £7.25\nSubtotal £15.74\nAdvantage points used -£1.00\nTotal £14.74\nPoints earned 14\nThu 11 Jun 2026 16:20 Till 1"
+  },
+  {
+   "kind": "receipt",
+   "text": "THE GOLDEN PLAICE\nOrder No. 217\n1 x Cod & chips £9.40\n1 x Haddock & chips £9.80\n2 x Mushy peas £3.00\n1 x Curry sauce £1.60\n1 x Can of cola £1.30\nTotal £25.10\nCard £25.10\nFri 20:47 Collect at counter"
+  },
+  {
+   "kind": "receipt",
+   "text": "Kestrel Books\n11 Swan Yard, Brackenford BK7 1RA\nA Field Guide to Hedgerows (pbk) £12.99\nThe Lantern Keeper's Daughter £8.99\nWalking map, sheet 214 £9.50\nGift card top-up £20.00\nTotal £51.48\nMastercard ****7720\nReceipt 004-118352\nExchanges within 28 days with receipt"
+  },
+  {
+   "kind": "receipt",
+   "text": "Fenn's Fruit & Veg, Stall 12\nTuesday Market, Brackenford\nPotatoes 2.5kg £2.00\nLeeks x3 £1.50\nBramley apples 1.1kg £2.42\nStrawberries 2 punnets £5.00\nCauliflower £1.35\nTotal £12.27\nCash tendered £20.00\nChange £7.73"
+  },
+  {
+   "kind": "receipt",
+   "text": "THE WHEATSHEAF INN\nHigh Street, Brackenford\nTable 12\n2 Pints Brackenford Bitter £9.60\n1 Large house red 250ml £7.20\n1 Ploughman's lunch £11.50\n1 Steak & ale pie £14.95\n1 Sticky toffee pudding £6.25\nSubtotal £49.50\nService (optional) 10% £4.95\nTotal £54.45\nThank you, see you again soon!"
+  },
+  {
+   "kind": "receipt",
+   "text": "BRACKENFORD SERVICE STATION\nAshby Road, BK7 6TT\nPump 3 Unleaded 34.62L @ 142.9p £49.47\nScreenwash 5L £4.99\nCar wash Programme 2 £8.00\nTOTAL £62.46\nDebit card ****0915\nAuth code 830412\nMileage 41,207\n12-01-2026 07:58"
+  },
+  {
+   "kind": "receipt",
+   "text": "St Aldric's Hospice Shop\nWool jumper £6.00\nJigsaw 1000 pcs £3.50\nHardback novels 3 @ £1.50 £4.50\nTeapot, blue glaze £5.00\nTotal £19.00\nGift Aid: thank you, your donor reference is GA-20914\nPaid cash £20.00 Change £1.00\nVolunteer: Ruth 13/07/2026"
+  },
+  {
+   "kind": "receipt",
+   "text": "Dough & Daughter Bakery\n3 Malt Lane, Brackenford\nSourdough boule £4.20\n4 x Chelsea bun @ £1.85 £7.40\nSausage roll £2.60\nVictoria sponge, whole £16.00\nTotal £30.20\nPaid: Apple Pay\n16 Oct 2026 08:34 #0442"
+  },
+  {
+   "kind": "receipt",
+   "text": "Hessle Green Veterinary Practice\nPatient: Biscuit (canine) Ref. P-30781\nConsultation £48.00\nBooster vaccination £56.50\nFlea & worm treatment 3 months £32.85\nNail clip £8.00\nTotal inc. VAT £145.35\nPaid by card 22/08/2026\nNext booster due 22/08/2027"
+  },
+  {
+   "kind": "receipt",
+   "text": "BRACKENFORD POST OFFICE\n1st Class Large Letter x2 £5.10\nSpecial Delivery Guaranteed by 1pm £8.95\nParcel 2kg UK standard £5.69\nBook of 8 2nd Class stamps £6.40\nTOTAL £26.14\nTracking AB 1043 5528 7GB\nFri 06/03/2026 12:11\nServed at counter 2"
+  },
+  {
+   "kind": "receipt",
+   "text": "Quick Heel & Key, Abbey Walk\nTicket No. 7731\nGents heels replaced £14.50\nKey cut x3 @ £4.25 £12.75\nWatch battery fitted £7.99\nTotal £35.24\nDeposit paid £10.00\nBalance due £25.24\nReady Wed 9 Sept after 2pm"
+  },
+  {
+   "kind": "receipt",
+   "text": "Coldmere Garden Centre\nCompost multi-purpose 50L 2 @ £6.99 £13.98\nLavender 'Hidcote' 2L pot £7.50\nTerracotta pot 30cm £12.00\nBird seed mix 1.8kg £5.45\nSubtotal £38.93\nClub card 10% off -£3.89\nTotal £35.04\nCard ****2264 03/04/2026 14:52"
+  },
+  {
+   "kind": "notice",
+   "text": "BRACKENFORD TOWN COUNCIL\nMarket Place will be closed to traffic from 6am to 6pm on Saturday 18 April 2026 for the Spring Fair.\nTraders may unload from 5.30am via Sheep Street only.\nEnquiries: 01632 960350 or clerk@brackenford-tc.example"
+  },
+  {
+   "kind": "notice",
+   "text": "PRIVATE CAR PARK\nCustomers of Garland & Hale Solicitors only\nMaximum stay 2 hours\nUnauthorised vehicles will be issued a Parking Charge Notice of £70 (reduced to £40 if paid within 14 days).\nEnforced 24/7 by camera. Site code BK-114"
+  },
+  {
+   "kind": "notice",
+   "text": "Brackenford Library\nOpening hours from 1 September\nMon 9.30am – 5pm\nTue 9.30am – 7pm\nWed Closed\nThu 9.30am – 5pm\nFri 9.30am – 5pm\nSat 10am – 1pm\nBook returns box available 24 hours. Tel 01632 960477"
+  },
+  {
+   "kind": "notice",
+   "text": "St Aldric's Church\nBell ringing practice takes place every Tuesday from 7.30pm to 9pm. New ringers aged 12 and over are always welcome; no experience needed.\nTower Captain: Graham Ashdown, 07700 900215"
+  },
+  {
+   "kind": "notice",
+   "text": "CLOSED FOR STOCKTAKING\nSorry, we are closed on Monday 5 January. We reopen on Tuesday 6 January at 9am.\nOnline orders placed after 3pm on Friday 2 January will be dispatched from Wednesday 7 January. Thank you for your patience!\nThe team at Kestrel Books"
+  },
+  {
+   "kind": "notice",
+   "text": "ROAD CLOSURE\nMill Lane (between Bridge Street and Tanners Row)\nFrom 08:00 Mon 12 Oct 2026 to 18:00 Fri 23 Oct 2026\nReason: gas main replacement\nDiversion via Ashby Road and Station Hill, approx. 1.2 miles\nOrder ref. TTRO/2026/0391"
+  },
+  {
+   "kind": "notice",
+   "text": "LOST CAT\nPepper, grey tabby, female, 4 years old, green collar with bell\nLast seen 2 March near the Coldmere Road allotments\nMicrochipped. Very nervous, so please do not chase her\nPlease check sheds and garages\nCall Jo on 07700 900631. £50 reward"
+  },
+  {
+   "kind": "notice",
+   "text": "PAY & DISPLAY\nCattle Market Car Park\nUp to 1 hour £1.20\nUp to 2 hours £2.20\nUp to 4 hours £3.80\nOver 4 hours £6.00\nFree after 6pm and on Sundays\nBlue Badge holders: no charge, max 3 hours\nPay by phone, location code 4471"
+  },
+  {
+   "kind": "notice",
+   "text": "Brackenford Medical Centre\nFlu vaccination clinics for patients aged 65+ will run on Saturday 3 October and Saturday 17 October, 8.30am to 12.30pm. No appointment needed; please bring your NHS number if you have it.\nPatients aged 18–64 in an at-risk group, please book on 01632 960582."
+  },
+  {
+   "kind": "notice",
+   "text": "DANGER\nDeep water. Fast currents after heavy rain.\nNo swimming or paddling\nIn an emergency call 999 and ask for the Fire Service\nYour location: Footbridge 3, River Wenn, grid ref. SP 4217 0835\nNearest lifebuoy 200m downstream"
+  },
+  {
+   "kind": "notice",
+   "text": "STAFF WANTED\nSaturday assistant, 9am–5pm, £11.44 per hour\nMust be 16 or over\nEarly starts on market days\nApply within or email jobs@doughanddaughter.example with a short CV"
+  },
+  {
+   "kind": "notice",
+   "text": "Coldmere Road Allotments\nAnnual rent of £38.50 per full plot (£19.25 per half plot) is due by 1 November 2026.\nWater troughs will be turned off on 31 October and back on in late March.\nPlease keep paths clear and light bonfires before 10am only. Secretary: Pat Okafor, plot 17"
+  },
+  {
+   "kind": "notice",
+   "text": "BRACKENFORD MUSEUM\nOpen Wednesday to Sunday, 10am–4.30pm (last entry 4.15pm)\nAdults £6.50\nConcessions £5.00\nChildren under 16 free\nTickets valid for 12 months\nNo flash photography in the Roman Gallery"
+  },
+  {
+   "kind": "notice",
+   "text": "Christmas and New Year bin collections\nUsual day Thu 25 Dec → Sat 27 Dec\nUsual day Fri 26 Dec → Mon 29 Dec\nUsual day Thu 1 Jan → Fri 2 Jan\nGarden waste collections resume the week of 12 January.\nPut bins out by 7am. Missed bin? Call 01632 960190 quoting your property ref."
+  },
+  {
+   "kind": "notice",
+   "text": "Last collection times\nMonday to Friday 5.30pm\nSaturday 12 noon\nSunday no collection\nPostbox No. BK7 118\nNearest Post Office: Market Place, open until 5.30pm\nCollection queries: 01632 960245"
+  },
+  {
+   "kind": "letter",
+   "text": "Dear Mr Ellery,\nThank you for your email of 4 May about the overgrown hedge on Pinfold Lane. I have passed this to the highways team, who inspected it on 9 May and have written to the landowner asking for it to be cut back by 30 May.\nIf the work has not been done by then, please contact me again quoting reference TC/26/114.\nKind regards,\nSandra Pike\nClerk to Brackenford Town Council"
+  },
+  {
+   "kind": "letter",
+   "text": "Flat 2, 15 Wool Street, Brackenford BK7 3HN\n28 July 2026\nDear Ms Varga,\nI am writing to give you notice that from 1 September 2026 the monthly rent for the flat will increase from £725 to £760, an increase of £35 per month. This is the first change since your tenancy began in March 2023.\nYour standing order will need updating before 1 September. If you have any questions, please ring me on 07700 900482.\nYours sincerely,\nDerek Holloway"
+  },
+  {
+   "kind": "letter",
+   "text": "Hi Aunt Margaret,\nWe've booked our flights! We land at Heathrow on Thursday, June 18 at 7:05 a.m. and should reach Brackenford by about 1 p.m. if the trains behave. The tickets came to $1,840 for the three of us, which honestly wasn't bad for summer.\nCould you recommend a B&B near the market square for the nights of the 18th through the 21st? We'd like two rooms if possible.\nLove to everyone,\nCarrie"
+  },
+  {
+   "kind": "letter",
+   "text": "Brackenford C of E Primary School\nDear Parents and Carers,\nYear 4 will visit Coldmere Farm Park on Wednesday 13 May 2026. The coach leaves at 9.15am and returns by 3.00pm. The cost is £14.50 per child, payable through the school payments app by Friday 1 May.\nPlease send your child with a packed lunch, a named water bottle and wellies.\nYours faithfully,\nMrs H. Doyle, Year 4 Teacher"
+  },
+  {
+   "kind": "letter",
+   "text": "Re: Quotation No. Q-2291, 6 Abbey Walk\nDear Mr and Mrs Thorne,\nFurther to my visit on 2 February, I am pleased to quote as follows for repointing the rear elevation and replacing two cast-iron downpipes.\nLabour, 6 days £1,620.00\nMaterials and scaffold hire £845.00\nSubtotal £2,465.00\nVAT at 20% £493.00\nTotal £2,958.00\nThis quotation is valid for 60 days.\nYours sincerely, Tom Garside, Garside Building Services"
+  },
+  {
+   "kind": "letter",
+   "text": "Subject: November book club\nHi all,\nJust a reminder that we're meeting at The Wheatsheaf on Tuesday 10 November at 7.45pm in the back room. We're discussing The Salt Orchard, so please finish it by then if you can!\nSubs for the year are £12; I've had nine so far, so if you haven't paid, bring cash on the night.\nCheers,\nLena"
+  },
+  {
+   "kind": "letter",
+   "text": "Abbey Dental Care\n12 Abbey Walk, Brackenford BK7 1QS\nDear Mr Patel,\nOur records show that your six-monthly check-up is now due. We have reserved an appointment for you with Dr Inés Moreno on Monday 23 November 2026 at 10:40.\nIf this time is not convenient, please call reception on 01632 960744 at least 24 hours beforehand. A fee of £25 applies to missed appointments.\nYours sincerely,\nThe Practice Team"
+  },
+  {
+   "kind": "letter",
+   "text": "Dear Phil and Anita,\nThank you so much for feeding the hens while we were away. All 6 of them seem none the worse, and you'll find a dozen eggs and a jar of plum jam on your doorstep.\nWe're back on the 14th but off again from 2 to 9 August, so if you're free then, we'd love you to do it again!\nWith love, Bea and Sam at No. 9"
+  },
+  {
+   "kind": "letter",
+   "text": "To: orders@kestrelbooks.example\nSubject: Order KB-58731, wrong item\nHello,\nI ordered two copies of Walking the Old Drove Roads (£14.99 each) on 3 March, but the parcel that arrived today contained one copy and a diary I didn't order. My card was charged £29.98 plus £3.50 postage.\nPlease could you send the second copy or refund £14.99? I'm happy to post the diary back.\nMany thanks,\nOwen Rhys"
+  },
+  {
+   "kind": "letter",
+   "text": "Brackenford Cricket Club\nDear Member,\nThe Annual General Meeting will be held in the pavilion on Thursday 26 February 2026 at 7.30pm. The accounts show a surplus of £1,214 for the season, mostly thanks to the summer barbecue, which raised £860.\nNominations for committee posts must reach me by 12 February. Subscriptions for 2026 are unchanged at £85 (juniors £30).\nYours faithfully,\nIan Copley, Hon. Secretary"
+  },
+  {
+   "kind": "letter",
+   "text": "Subject: Viewing confirmed, 3 Orchard Close\nDear Ms Abara,\nI'm pleased to confirm your viewing of 3 Orchard Close, Brackenford on Saturday 7 March at 11:15. The asking price is £289,950 and the vendors are hoping to move by early summer.\nThe property has 3 bedrooms, a 60ft rear garden and an EPC rating of C (71). There is parking for 2 cars.\nKind regards,\nMartin Lowe, Lowe & Pargeter Estate Agents, 01632 960905"
+  },
+  {
+   "kind": "letter",
+   "text": "Dear Mrs Kettering,\nOn behalf of everyone at St Aldric's Hospice, thank you for your generous gift of £250 in memory of your husband, Alan. Because you are a UK taxpayer and ticked the Gift Aid box, we can claim an extra £62.50, making your gift worth £312.50.\nThat is enough to fund a nurse for a whole night shift.\nWith grateful thanks,\nFiona Marsh, Supporter Care"
+  },
+  {
+   "kind": "letter",
+   "text": "Dear Hugh,\nThank you for the list of names. We have arranged host families for all 22 visitors from Brackenford, and our coach will meet you at the ferry port at 18h30 on Thursday 14 May.\nThe dinner on Saturday will cost €28 per person, and the boat trip on Sunday €12.50. Children under 12 pay half price.\nÀ bientôt,\nÉlise Marchand, Comité de jumelage de Villiers-sur-Lèze"
+  },
+  {
+   "kind": "letter",
+   "text": "Planning Application Ref. 26/00418/HOUS\nProposal: single-storey rear extension and replacement garage at 41 Station Hill, Brackenford\nDear Occupier,\nAs a neighbouring resident, you may wish to comment on the above application. Comments must be received in writing by 4 September 2026 and should quote the reference number.\nPlans can be viewed at the Town Hall, Monday to Friday, 9am to 4pm.\nYours faithfully,\nDevelopment Management"
+  },
+  {
+   "kind": "letter",
+   "text": "Hi Rachel,\nHere are the dates for Tom's piano lessons this term: every Wednesday from 9 September to 9 December, except half-term on 28 October. That's 13 lessons at £22 each, so £286 in total.\nHis Grade 3 exam is provisionally booked for 25 November at 2:20pm.\nBest wishes,\nMrs Aldous"
+  },
+  {
+   "kind": "menu",
+   "text": "THE WHEATSHEAF INN\nLunch served 12–2.30pm\nSoup of the day with crusty bread £6.50\nPloughman's with Brackenford Blue £11.50\nFish finger sandwich £9.25\nSteak & ale pie, mash, greens £14.95\nHam, egg & chips £12.75\nDesserts from £6.25\nPlease tell us about any allergies"
+  },
+  {
+   "kind": "menu",
+   "text": "Buttercross Tea Room\nCream tea (2 scones, jam, clotted cream, pot of tea) £6.50\nToasted teacake £2.85\nCheese & chive scone £3.10\nWelsh rarebit £7.40\nLemon drizzle slice £3.25\nPot of tea for one £2.40\nElderflower pressé £2.75"
+  },
+  {
+   "kind": "menu",
+   "text": "THE GOLDEN PLAICE\nCod regular £8.20 large £10.90\nHaddock regular £8.60 large £11.40\nChips small £2.40 large £3.60\nBattered sausage £2.30\nMushy peas £1.50\nCurry sauce £1.60\nKids' meal (fish bites, chips, drink) £5.95\nOpen Tue–Sat 11.30–2 and 4.30–9"
+  },
+  {
+   "kind": "menu",
+   "text": "SPICE OF BRACKENFORD\nStarters\nOnion bhaji (3) £3.95\nVegetable samosa (2) £3.75\nMains\nChicken tikka masala £10.50\nLamb rogan josh £11.25\nChana masala (v) £8.50\nPilau rice £3.20\nGarlic naan £3.40\nFree delivery over £20 within 3 miles. Tel 01632 960671"
+  },
+  {
+   "kind": "menu",
+   "text": "Bistro Thirty-One, 31 Wool Street\nSet dinner Tue–Thu: 2 courses £26, 3 courses £31\nChalk stream trout, brown shrimp butter\nSlow-cooked pork belly, crackling, apple purée\nWild mushroom risotto, aged parmesan (v)\nCrème brûlée, shortbread\nDark chocolate tart, crème fraîche\nA discretionary service charge of 12.5% is added for tables of 6 or more"
+  },
+  {
+   "kind": "menu",
+   "text": "Market Café Breakfasts (served 7am–11.30am)\nFull English: 2 eggs, bacon, sausage, beans, tomato, toast £9.50\nVeggie breakfast £8.95\nBacon roll £4.20, add an egg 80p\nPorridge with honey £3.60\nEggs Benedict £8.25\nMug of tea £1.80\nCappuccino £2.90"
+  },
+  {
+   "kind": "menu",
+   "text": "Scoops Ice Cream Parlour\n1 scoop £2.50\n2 scoops £4.20\n3 scoops £5.60\nWaffle cone +60p\nFlavours today: vanilla, salted caramel, mint choc chip, raspberry ripple, lemon sorbet (vegan)\nKnickerbocker glory £6.95\nBanana split £6.50\nMilkshakes 400ml £4.40"
+  },
+  {
+   "kind": "menu",
+   "text": "The Swan Hotel, Sunday Lunch\nServed 12 noon to 3pm, booking advised\nRoast sirloin of beef, Yorkshire pudding £18.95\nRoast loin of pork, apple sauce £16.95\nNut roast, onion gravy (vg) £14.50\nChildren's portions £9.50\nAll served with roast potatoes, seasonal vegetables and gravy\nCall 01632 960320 to book"
+  },
+  {
+   "kind": "menu",
+   "text": "Forno Brackenford\nMargherita 12in £10.50\nDiavola, spicy salami, chilli £12.95\nQuattro formaggi £12.50\nFunghi e tartufo £13.75\nGarlic bread with mozzarella £5.80\nTiramisù £5.95\nTakeaway 10% off. Thursdays 5–7pm: 2-for-1 on 12in pizzas"
+  },
+  {
+   "kind": "menu",
+   "text": "The Coffee Horsebox, Market Square, Sat 8–1\nEspresso £2.20\nFlat white £3.30\nLatte reg £3.40 lg £3.90\nHot chocolate £3.50\nChai latte £3.70\nOat milk no extra charge, syrups +40p\nBring your own cup, 25p off"
+  },
+  {
+   "kind": "menu",
+   "text": "House wines by the glass 175ml / 250ml / bottle\nSauvignon Blanc, Chile £6.20 / £8.40 / £24.00\nPinot Grigio, Italy £6.50 / £8.80 / £25.00\nMerlot, France £6.20 / £8.40 / £24.00\nRioja Crianza, Spain £7.10 / £9.60 / £27.50\nRosé, Provence £7.40 / £9.90 / £28.50\nProsecco 125ml £7.25 / bottle £32.00\nAll wines 12–14% ABV"
+  },
+  {
+   "kind": "menu",
+   "text": "Brackenford Primary School Lunch Menu, Week 2\nMonday: Cottage pie or cheese & tomato pasta\nTuesday: Chicken curry with rice or vegetable korma\nWednesday: Roast turkey or veggie sausage roast\nThursday: Fish fingers or bean burger\nFriday: Pizza slice and wedges\nDessert daily; fruit and yoghurt always available\nMeals £2.85 per day, £14.25 per week"
+  },
+  {
+   "kind": "menu",
+   "text": "Pinfold Deli Sandwiches\nCoronation chicken £5.40\nHam & English mustard £4.90\nBrie, bacon & cranberry £5.75\nHummus & roasted veg (vg) £4.80\nTuna mayo & sweetcorn £4.60\nAdd soup of the day for £2.50\nMeal deal: sandwich, crisps & drink £7.50"
+  },
+  {
+   "kind": "menu",
+   "text": "SMOKE & SALT BURGER VAN\nThursday nights, Cattle Market, 5–9pm\nClassic beef burger 6oz £8.50\nDouble cheese & bacon £11.00\nPulled pork bun, slaw £9.25\nHalloumi & red pepper (v) £8.75\nSkin-on fries £3.50, loaded £5.25\nCans £1.50\nCash or card. Pre-order: 07700 900486"
+  },
+  {
+   "kind": "menu",
+   "text": "Farm Shop Kitchen Specials, Wed 21 Jan\nHam hock & pea soup £6.75\n1/2 rack of BBQ ribs, slaw, fries £13.50\nCheddar & leek quiche with salad £9.95\nJacket potato, chilli con carne £8.50\nApple & blackberry crumble, custard £5.25\nToday's cake: coffee & walnut, £3.60 a slice"
+  },
+  {
+   "kind": "timetable",
+   "text": "Route 42 Brackenford – Coldmere – Thornby\nMonday to Saturday\nBrackenford Market Place 07:15 09:15 11:15 13:15 15:15 17:40\nColdmere Green 07:27 09:27 11:27 13:27 15:27 17:52\nHessle Turn 07:34 09:34 11:34 13:34 15:34 17:59\nThornby Church 07:45 09:45 11:45 13:45 15:45 18:10\nNo service on Sundays or public holidays"
+  },
+  {
+   "kind": "timetable",
+   "text": "Brackenford Station Departures\nTime Destination Plat Expected\n08:02 Northam 1 On time\n08:14 Lindley Cross 2 Exp 08:21\n08:35 Northam 1 On time\n08:47 Ashby Parkway 2 Cancelled\n09:02 Northam 1 On time\nNext update 08:05"
+  },
+  {
+   "kind": "timetable",
+   "text": "Brackenford Leisure Centre Pool\nMon 06:30–08:30 Lane swim, 12:00–13:30 Adults only\nTue 06:30–08:30 Lane swim, 18:00–19:00 Aqua fit\nWed 16:00–17:30 Family fun session\nThu 06:30–08:30 Lane swim, 19:00–20:30 Lane swim\nFri 12:00–13:30 Over 50s\nSat 09:00–12:00 Public swim\nSun 10:00–13:00 Public swim, inflatable from 11:00\nAdult £5.40, junior £3.20"
+  },
+  {
+   "kind": "timetable",
+   "text": "Brackenford Markets 2026\nTuesday: General market, Market Place, 8am–3pm\nThursday: Livestock sale, Cattle Market, from 10.30am\nSaturday: General market and craft stalls, 8am–4pm\nFarmers' market: 2nd Sunday of each month, 9am–1pm\nPitch fees from £18 per day. Contact the Market Office on 01632 960134"
+  },
+  {
+   "kind": "timetable",
+   "text": "Services at St Aldric's this week\nSun 8 Mar 8.00am Holy Communion\nSun 8 Mar 10.30am Family Service\nWed 11 Mar 10.00am Said Eucharist\nFri 13 Mar 7.30pm Lent Group, the Vicarage\nSun 15 Mar 10.30am Mothering Sunday service\nVicar: Rev. Clare Dunmore, 01632 960568"
+  },
+  {
+   "kind": "timetable",
+   "text": "Fitness Studio Classes\nMon 07:00 Spin (45 min)\nMon 18:30 Pilates (60 min)\nTue 09:30 Over 60s Strength\nWed 19:00 HIIT (30 min)\nThu 18:30 Yoga (75 min)\nSat 09:00 Body Pump\nBook on the app up to 7 days ahead; £6 drop-in, free for members"
+  },
+  {
+   "kind": "timetable",
+   "text": "Rail replacement buses, Sat 24 and Sun 25 Oct\nNortham dep 07:40 09:40 11:40 13:40\nBrackenford Station (forecourt) 08:25 10:25 12:25 14:25\nLindley Cross arr 08:55 10:55 12:55 14:55\nJourneys take approx. 45 minutes longer than usual\nTickets are valid on these buses at no extra cost"
+  },
+  {
+   "kind": "timetable",
+   "text": "Half-term at Brackenford Library\nMon 16 Feb 10:30 Rhyme Time (under 5s)\nTue 17 Feb 14:00 Brick Club (ages 6–11)\nWed 18 Feb 11:00 Storytelling with puppets\nThu 19 Feb 14:00 Comic drawing workshop, £2\nFri 20 Feb 10:30 Rhyme Time\nAll free unless stated. Places limited to 20; book at the counter"
+  },
+  {
+   "kind": "timetable",
+   "text": "Household Recycling Centre, Ashby Road\nSummer hours (1 April – 30 September)\nMon, Wed, Fri, Sat, Sun 08:00–18:00\nTue, Thu Closed\nWinter hours (1 October – 31 March)\nMon, Wed, Fri, Sat, Sun 08:00–16:00\nLast entry 15 minutes before closing. Vans and trailers need a permit"
+  },
+  {
+   "kind": "timetable",
+   "text": "Regal Cinema, Sheep Street. Week from Fri 6 Nov\nThe Long Field (12A) 1h 52m 14:15 17:30 20:10\nPaper Moons (PG) 1h 38m 11:00 13:40 16:00\nHarbour of Lights (15) 2h 06m 19:45\nSaturday kids' club 10:00, all seats £3\nAdults £8.50, concessions £6.75"
+  },
+  {
+   "kind": "timetable",
+   "text": "Brackenford Academy Term Dates 2026–27\nAutumn term: Thu 3 Sep – Fri 18 Dec (half term 26–30 Oct)\nSpring term: Mon 4 Jan – Fri 26 Mar (half term 15–19 Feb)\nSummer term: Mon 12 Apr – Wed 21 Jul (half term 31 May – 4 Jun)\nINSET days: 1 and 2 Sep, 1 Feb, 7 Jun"
+  },
+  {
+   "kind": "timetable",
+   "text": "Coldmere Coaches Day Trip to the Coast, Sat 11 July\n07:30 Depart Brackenford Market Place\n07:45 Pick-up Thornby Church\n10:15 Comfort stop (30 min)\n12:00 Arrive Sandmere Bay\n16:30 Depart Sandmere Bay\n19:15 Approx. return to Brackenford\nFare £32 adults, £24 children. Book on 01632 960711"
+  },
+  {
+   "kind": "timetable",
+   "text": "Northam to Lindley Cross, Mondays to Fridays\nNortham 06:48 07:18 07:48 08:18\nAshby Parkway 06:57 07:27 07:57 08:27\nBrackenford 07:06 07:36 08:06 08:36\nLindley Cross 07:24 07:54 08:24 08:54\nThen every 30 minutes until 22:18 from Northam\nBicycles: max 2 per train, no reservation needed"
+  },
+  {
+   "kind": "timetable",
+   "text": "Brackenford Runners Weekly Sessions\nTue 18:45 Intervals on the track, 6 x 800m\nThu 18:30 Steady 5–7 miles from the Leisure Centre\nSat 09:00 Free 5k, Abbey Fields\nSun 08:30 Long run, 10–14 miles, two pace groups\nMembership £24 a year; first 3 sessions free"
+  },
+  {
+   "kind": "timetable",
+   "text": "Brackenford Folk Weekend, Saturday 20 June\n11:00 Morris dancing, Market Place\n12:30 The Thornby Fiddlers, Corn Exchange\n14:00 Children's ceilidh, Town Hall\n15:30 Song circle, The Wheatsheaf (back room)\n17:00 Maypole & Mummers, Abbey Fields\n19:30 Headline concert, Corn Exchange (tickets £15)\nAll daytime events free"
+  },
+  {
+   "kind": "recipe",
+   "text": "Grandma Joan's Victoria Sponge\n225g butter, softened\n225g caster sugar\n4 large eggs\n225g self-raising flour\n1 tsp baking powder\n2 tbsp milk\nHeat oven to 180°C (160°C fan), gas mark 4. Grease and line two 20cm tins.\nBeat everything together until smooth, divide between the tins and bake for 20–25 minutes.\nSandwich with raspberry jam and dust with icing sugar."
+  },
+  {
+   "kind": "recipe",
+   "text": "Cheese Scones (makes 8)\n225g self-raising flour\n55g cold butter, cubed\n85g mature Cheddar, grated\n1/2 tsp mustard powder\n150ml milk, plus extra to glaze\nRub the butter into the flour, stir in the cheese and mustard, then add milk to make a soft dough. Pat out to 2cm thick, cut with a 6cm cutter, glaze and bake at 220°C for 12–15 min."
+  },
+  {
+   "kind": "recipe",
+   "text": "Aunt Dot's Cornbread\n1 cup cornmeal\n1 cup all-purpose flour\n1/4 cup sugar\n1 tbsp baking powder\n1 tsp salt\n1 cup buttermilk\n1/3 cup melted butter\n1 egg\nPreheat oven to 400°F. Mix the dry ingredients, whisk in the wet, pour into a greased 8-inch square pan and bake 20 to 25 minutes until golden."
+  },
+  {
+   "kind": "recipe",
+   "text": "Brackenford Show Green Tomato Chutney\n1.5kg green tomatoes, chopped\n500g onions, chopped\n250g sultanas\n400g soft brown sugar\n600ml malt vinegar\n1 1/2 tsp ground ginger\nPut everything in a large pan and simmer gently for 2 1/2 hours, stirring often, until thick. Pot into hot sterilised jars and seal. Keeps 12 months."
+  },
+  {
+   "kind": "recipe",
+   "text": "Shepherd's Pie (serves 4–6)\n1 tbsp oil\n500g lamb mince\n1 onion and 2 carrots, finely diced\n2 tbsp tomato purée\n400ml lamb stock\n1 tbsp Worcestershire sauce\n900g potatoes, mashed with 50g butter\nBrown the mince, add the veg and soften for 10 min. Stir in the purée, stock and Worcestershire sauce and simmer for 20 min. Top with the mash and bake at 200°C for 25–30 minutes."
+  },
+  {
+   "kind": "recipe",
+   "text": "Lunchbox Flapjacks (cuts into 16)\n250g porridge oats\n125g butter\n125g light brown sugar\n3 tbsp golden syrup\nPinch of salt\nMelt the butter, sugar and syrup together, then stir in the oats and salt. Press into a lined 20cm square tin and bake at 170°C / gas 3 for 20–25 minutes. Cool before cutting."
+  },
+  {
+   "kind": "recipe",
+   "text": "Christmas Fair Mulled Wine (approx. 20 cups)\n3 bottles red wine (75cl)\n1 litre cloudy apple juice\n2 oranges, sliced\n2 cinnamon sticks\n6 cloves\n3 star anise\n150g sugar, to taste\nHeat gently for 20 minutes; do not boil. Serve at around 70°C in 125ml cups."
+  },
+  {
+   "kind": "recipe",
+   "text": "Tortilla de patatas, Señora Ibáñez's way\n6 eggs\n600g waxy potatoes, thinly sliced\n1 onion, sliced\n200ml olive oil\n1 tsp salt\nFry the potatoes and onion slowly in the oil for 25 minutes until soft but not brown. Drain, mix with the beaten eggs and salt, and rest for 10 minutes. Cook in a 24cm pan for 5 min each side."
+  },
+  {
+   "kind": "recipe",
+   "text": "Basic White Loaf (900g tin)\n500g strong white flour\n7g sachet fast-action yeast\n10g salt\n2 tbsp olive oil\n300ml warm water\nKnead for 10 minutes, then leave to rise for 1 hour until doubled. Shape, put in the tin and prove for 45 minutes. Bake at 220°C for 30 minutes until it sounds hollow underneath."
+  },
+  {
+   "kind": "recipe",
+   "text": "Strawberry Jam (makes 4 x 340g jars)\n1kg strawberries, hulled\n1kg jam sugar\nJuice of 1 lemon\nKnob of butter\nHeat the fruit and sugar gently until dissolved, then boil hard for 4 minutes. Test for a set on a cold saucer. Skim, stir in the butter and leave for 15 minutes before potting."
+  },
+  {
+   "kind": "recipe",
+   "text": "Leek & Potato Soup (serves 4)\n3 leeks, sliced\n2 medium potatoes, diced\n1 onion, chopped\n25g butter\n1.2 litres vegetable stock\n150ml single cream\nSweat the leeks and onion in the butter for 10 min. Add the potatoes and stock, simmer for 20 min, then blend. Stir in the cream and season. About 210 kcal per bowl."
+  },
+  {
+   "kind": "recipe",
+   "text": "Old Parkin (Nan's card, imperial)\n8oz medium oatmeal\n4oz self-raising flour\n2 tsp ground ginger\n4oz butter\n4oz black treacle\n4oz golden syrup\n3oz dark brown sugar\n1 egg, 2 tbsp milk\nBake in a 7in square tin at 140°C (275°F, gas 1) for 1 1/2 hours. Keep in a tin for 3 days before eating."
+  },
+  {
+   "kind": "recipe",
+   "text": "Crêpes for Pancake Day (makes 10)\n100g plain flour\n2 eggs\n300ml semi-skimmed milk\n1 tbsp sunflower oil, plus extra for frying\nPinch of salt\nWhisk to a smooth batter and rest for 30 minutes. Cook in a hot 20cm pan, about 1 minute each side. Serve with lemon and sugar."
+  },
+  {
+   "kind": "recipe",
+   "text": "Rich Fruit Cake (8in round)\n900g mixed dried fruit, soaked overnight in 150ml brandy\n250g butter\n250g dark muscovado sugar\n4 eggs\n275g plain flour\n2 tsp mixed spice\n100g glacé cherries, halved\nBake at 140°C / gas 1 for 3 1/2 to 4 hours, until a skewer comes out clean. Feed with 2 tbsp brandy every 2 weeks."
+  },
+  {
+   "kind": "recipe",
+   "text": "Elderflower Cordial\n20 elderflower heads, shaken free of insects\n1.5 litres boiling water\n1kg granulated sugar\n2 unwaxed lemons, zested and sliced\n50g citric acid\nDissolve the sugar in the water, add everything else, cover and leave for 24 hours. Strain through muslin into sterilised bottles. Dilute 1 part cordial to 10 parts water."
+  },
+  {
+   "kind": "label",
+   "text": "Brackenford Wildflower Honey\nProduced by T. & M. Searle, Hive Cottage, Thornby\nNet weight 340g\nBest before end 12/2028\nLot No. 26/07\nNot suitable for infants under 12 months\nStore at room temperature. Honey may crystallise naturally."
+  },
+  {
+   "kind": "label",
+   "text": "Pinfold Deli Granola, 500g\nIngredients: oats (55%), honey, sunflower seeds, almonds (8%), coconut, rapeseed oil, dried cranberries (5%)\nTypical values per 100g: Energy 1,891kJ / 452kcal, Fat 19.2g, of which saturates 4.1g, Carbohydrate 58.7g, of which sugars 17.3g, Protein 10.6g, Salt 0.03g\nAllergy advice: contains oats and almonds. Made in a kitchen that also handles peanuts.\nBest before: 14 FEB 2027"
+  },
+  {
+   "kind": "label",
+   "text": "BRACKENFORD BLUE\nHandmade soft blue cheese from unpasteurised cows' milk\nColdmere Farm Dairy, BK7 9PL\nWeight 0.284kg Price/kg £28.00 Price £7.95\nUse by 03.11.26\nKeep refrigerated below 5°C\nNot recommended for pregnant women"
+  },
+  {
+   "kind": "label",
+   "text": "Thornby Pharmacy, 4 Church Row, Brackenford. Tel 01632 960426\nAmoxicillin 500mg capsules\nQty: 21\nTake ONE capsule THREE times a day until finished\nSpace the doses evenly through the day\nMr Ravi Shah\n08/09/2026\nKeep out of the reach and sight of children"
+  },
+  {
+   "kind": "label",
+   "text": "100% Wool\nMade in the UK\nHand wash 30°C\nDo not bleach\nDry flat in shade\nCool iron, max 110°C\nDry clean P\nThornby Knitwear Co. Style 4417 Size M Col. Heather"
+  },
+  {
+   "kind": "label",
+   "text": "Coldmere Seeds\nRunner Bean 'Brackenford Champion'\nApprox. 40 seeds\nSow indoors April–May at 2.5cm deep, 1 per 7.5cm pot, or outdoors late May to June\nPlant out after the last frost, 30cm apart, against canes 2.4m tall\nHarvest July–October\nPacked for season 2027. Lot RB-0632"
+  },
+  {
+   "kind": "label",
+   "text": "Pinfold Paint Co. Interior Emulsion\nColour: Abbey Stone No. 214\nFinish: matt\n2.5 litres covers up to 32m²\nTouch dry 1 hour, recoat after 4 hours\nClean brushes with water\nVOC: max 30 g/l\nBatch 0926-118"
+  },
+  {
+   "kind": "label",
+   "text": "Thornby Hill Vineyard Bacchus 2025\nDry English white wine with elderflower and citrus aromas. Serve chilled at 8–10°C with fish or goat's cheese.\n11.5% vol 75cl\nContains sulphites\nProduced and bottled by Thornby Hill Vineyard, Brackenford BK7 8WE\n8.6 UK units"
+  },
+  {
+   "kind": "label",
+   "text": "Hessle Green Free Range Eggs\n6 Large\nPacked by Hessle Green Farm, 01632 960817\nBest before 28 MAR\nProducer code 1UK47210\nClass A. Keep refrigerated after purchase"
+  },
+  {
+   "kind": "label",
+   "text": "KETTLEWORKS Model KW-1700\n220–240V ~ 50/60Hz 2520–3000W\nMax 1.7L Min 0.5L\nSerial No. 26051847\nDo not immerse in water\nMade in China for Kettleworks Ltd, Brackenford BK7 5AA"
+  },
+  {
+   "kind": "label",
+   "text": "Market Place Antiques\nVictorian brass carriage clock, c. 1880, in working order\nHeight 14cm\nItem No. 1183\nPrice £245\nDealer: J. Morrow, Unit 6"
+  },
+  {
+   "kind": "label",
+   "text": "Hessle Mill Adult Dog Food, Chicken & Rice 12kg\nFeeding guide, grams per day:\nUp to 5kg: 60–90g\n5–10kg: 90–150g\n10–20kg: 150–250g\n20–30kg: 250–340g\nOver 30kg: 340g + 25g per extra 5kg\nAlways provide fresh drinking water. Protein 24%, Fat 12%, Fibre 3%"
+  },
+  {
+   "kind": "label",
+   "text": "Homemade at Pear Tree Cottage\nDamson Jam\nPrepared with 45g of fruit per 100g\nTotal sugar content 62g per 100g\nNet wt 227g\nMade 09/2026\nOnce opened, keep refrigerated and use within 4 weeks"
+  },
+  {
+   "kind": "label",
+   "text": "Thornby Outdoor Walking Boot\nUK 8 / EU 42 / US 9\nColour: Peat Brown\nWaterproof leather upper, cleated rubber sole\nWas £129.00 Now £89.00\nSKU 400-77182-08"
+  },
+  {
+   "kind": "label",
+   "text": "Coldmere Farm Whole Milk\nPasteurised, homogenised\n2 pints / 1.136 litres\nTypical values per 100ml: Energy 268kJ / 64kcal, Fat 3.6g, of which saturates 2.4g, Carbohydrate 4.7g, of which sugars 4.7g, Protein 3.4g, Calcium 124mg (16% RI)\nUse by 17 OCT\nKeep refrigerated below 5°C"
+  },
+  {
+   "kind": "flyer",
+   "text": "GRAND JUMBLE SALE\nSaturday 7 November, 10am–12 noon\nBrackenford Methodist Hall, Wool Street\nAdmission 50p, children free\nToys, books, bric-a-brac, cakes & refreshments\nDonations welcome Friday 6 November, 4–7pm\nAll proceeds to the Hall Roof Fund (target £12,000)"
+  },
+  {
+   "kind": "flyer",
+   "text": "QUIZ NIGHT at The Wheatsheaf\nThursday 22 January, 8pm start\nTeams of up to 6, £2 per person\nCash prize for the winning team, plus a bottle for the best team name!\nRaffle in aid of the Air Ambulance Appeal\nBooking: Dave on 07700 900374"
+  },
+  {
+   "kind": "flyer",
+   "text": "Gentle Yoga for Beginners\nMondays 7–8pm and Fridays 9.30–10.30am\nSt Aldric's Church Rooms, Brackenford\n£8 per class or £42 for a 6-week block\nMats provided; please bring a blanket\nContact Anjali: anjali@yogabrackenford.example / 07700 900558"
+  },
+  {
+   "kind": "flyer",
+   "text": "BRACKENFORD FARMERS' MARKET\nSunday 13 September, 9am–1pm, Market Place\nOver 30 local producers: cheese, cider, bread, game, honey, plants\nLive music from 11am\nFree parking at the Cattle Market Car Park on market Sundays"
+  },
+  {
+   "kind": "flyer",
+   "text": "Sparkle Window Cleaning\nFully insured, reliable, local\nTerraced from £12, semi-detached from £15, detached from £20\nConservatories, gutters & fascias also cleaned\nEvery 4 or 8 weeks\n10% off your first clean\nCall Lee on 07700 900247"
+  },
+  {
+   "kind": "flyer",
+   "text": "CAR BOOT SALE\nEvery Sunday from 5 April to 27 September\nHessle Green Farm, off Ashby Road\nSellers from 6.30am: cars £10, vans £15\nBuyers from 8am, entry £1\nRefreshments, toilets, plenty of parking\nCancelled if wet; check our page by 6am"
+  },
+  {
+   "kind": "flyer",
+   "text": "Brackenford Players present\nTHE IMPORTANCE OF BEING EARNEST\nby Oscar Wilde\nWed 18 – Sat 21 March, 7.30pm, Saturday matinée 2.30pm\nCorn Exchange, Market Place\nTickets £12, concessions £10, under 16s £6\nBox office: Kestrel Books or 01632 960553"
+  },
+  {
+   "kind": "flyer",
+   "text": "Brackenford Open Gardens Weekend\nSat 13 & Sun 14 June, 11am–5pm\n12 private gardens open, from cottage plots to a 2-acre walled garden\nTickets £10 (accompanied children free) from the Town Hall, valid both days\nTeas at the Methodist Hall. Plant stall at No. 4 Pinfold Lane\nIn aid of St Aldric's Hospice"
+  },
+  {
+   "kind": "flyer",
+   "text": "GUITAR LESSONS\nAcoustic, electric and bass, all ages and abilities\nGrades 1–8 or just for fun\n30 min £18 · 1 hour £32\nFirst lesson half price\nRing Marco on 07700 900913 or email marco.ferraz@guitarteacher.example"
+  },
+  {
+   "kind": "flyer",
+   "text": "BONFIRE & FIREWORKS\nThursday 5 November, Abbey Fields\nGates 6pm, bonfire lit 6.45pm, fireworks 7.30pm\nAdults £7, children 5–15 £4, under 5s free, family ticket (2+2) £20\nHot food, glow sticks, funfair\nNo sparklers or dogs, please"
+  },
+  {
+   "kind": "flyer",
+   "text": "Give blood in Brackenford\nTown Hall, Market Place\nTuesday 9 June, 13:30–15:30 and 16:30–19:30\nNew donors welcome. You need to be 17–65 and weigh over 50kg\nBook an appointment on 01632 960862 or just walk in\nOne donation can help up to 3 people"
+  },
+  {
+   "kind": "flyer",
+   "text": "BRACKENFORD TWINNING ASSOCIATION\nTrip to Villiers-sur-Lèze, 14–17 May 2026\nCoach and ferry from Brackenford Market Place, dep. 05:30\nApprox. €95 spending money recommended; host families provide meals\nCost £185 per adult, £120 per child under 16\nDeposit £50 by 31 January to Hugh Greaves, 01632 960409"
+  },
+  {
+   "kind": "flyer",
+   "text": "Paws About Town Dog Walking\nGroup walks (max 4 dogs) 1 hour £13\nSolo walks 45 min £16\nPuppy visits 20 min £9\nPet sitting from £22 a day\nDBS checked, first aid trained, fully insured\nText Hannah on 07700 900128"
+  },
+  {
+   "kind": "flyer",
+   "text": "Christmas Lights Switch-On\nSaturday 28 November 2026\n3pm Market stalls & carol singing\n4.30pm Lantern parade from Abbey Walk\n5.15pm Lights switched on by the Mayor, Cllr Ann Whitlock\n5.30pm Santa's grotto opens, £4 per child including gift\nRoads around Market Place closed 1pm–8pm"
+  },
+  {
+   "kind": "flyer",
+   "text": "KESTREL BOOKS SUMMER SALE\nUp to 50% off selected titles\nSaturday 25 July to Sunday 9 August\nAll maps & guides 20% off\nBuy 3 children's books, get the cheapest free\nLoyalty card holders: extra 5% at the till\nOpen 9am–5.30pm, Sundays 10am–4pm"
+  },
+  {
+   "kind": "form",
+   "text": "OFF-PEAK DAY RETURN\nClass STD\nFrom BRACKENFORD\nTo NORTHAM\nValid 14 MAR 26\nRoute ANY PERMITTED\nAdult\nPrice £12.40\nTicket No. 46219 88301\nIssued at Brackenford Station 07:52"
+  },
+  {
+   "kind": "form",
+   "text": "BRACKENFORD SCOUTS SUMMER RAFFLE\nTicket No. 0743\nDraw at the Summer Fête, Saturday 4 July 2026, 4pm\n1st prize: £200 voucher\n2nd prize: hamper\n3rd prize: £25 meal for two at The Swan\nPrice £1\nName: Rosie Tan Tel: 07700 900662"
+  },
+  {
+   "kind": "form",
+   "text": "PENALTY CHARGE NOTICE\nPCN No. BK26004418\nVehicle reg. KX19 PLD Colour: Silver\nLocation: Sheep Street, Brackenford\nDate 21/09/2026 Time 14:07\nContravention code 01: parked in a restricted street during prescribed hours\nCharge £70, reduced to £35 if paid within 14 days\nCEO No. 118"
+  },
+  {
+   "kind": "form",
+   "text": "Brackenford Library Membership Application\nSurname: Okonkwo\nFirst name(s): Adaeze Grace\nDate of birth: 03/11/1987\nAddress: 22 Tanners Row, Brackenford BK7 2JW\nEmail: a.okonkwo@mailbox.example\nCard No. issued: 2210 0473 9915\nSigned: A. G. Okonkwo Date: 12.02.2026"
+  },
+  {
+   "kind": "form",
+   "text": "CORN EXCHANGE BRACKENFORD\nBrackenford Folk Weekend: Headline concert\nSat 20 Jun 2026 Doors 19:00 Start 19:30\nStalls Row F Seat 14\n£15.00 incl. £1.00 booking fee\nTicket 1 of 2\nOrder ref. CE-260615-0381\nNo re-admission"
+  },
+  {
+   "kind": "form",
+   "text": "New Patient Questionnaire, Brackenford Medical Centre\nHeight: 5ft 9in Weight: 11st 4lb\nDo you smoke? No\nUnits of alcohol per week: 6\nCurrent medicines: lansoprazole 15mg once daily\nAllergies: penicillin (rash)\nBlood pressure today: 128/82\nNext of kin: Marta Nowak, 07700 900566"
+  },
+  {
+   "kind": "form",
+   "text": "DELIVERY NOTE No. 18852\nFrom: Coldmere Builders' Merchants, Ashby Road\nTo: Garside Building Services, site: 6 Abbey Walk\nBuilding sand, bulk bag 1 tonne Qty 2\nCement 25kg Qty 8\nEngineering bricks Qty 400\nDelivered 09/02/2026 08:15\nReceived by (print): T. GARSIDE\nGoods checked and in good condition"
+  },
+  {
+   "kind": "form",
+   "text": "Learn to Swim Enrolment Form\nChild's name: Leo Barraclough\nAge: 7 Stage: 3\nPreferred day: Saturday, 09:30 or 10:00\nMedical conditions: mild asthma, inhaler kept in bag\nParent/carer: Joanne Barraclough, 07700 900709\nFee: 10 weeks at £7.20 = £72.00, paid by card\nOffice use: Group S3-B, Instructor K. Ali"
+  },
+  {
+   "kind": "form",
+   "text": "COLDMERE COACHES\nDay Rider Adult\nValid on all routes in the Brackenford zone\nIssued 08:12 Tue 17 Mar 2026\nFare £5.80\nTicket 0091-55276\nDriver 214 Bus 37"
+  },
+  {
+   "kind": "form",
+   "text": "Allotment Tenancy Application\nApplicant: Kwame Mensah\nAddress: 8 Corn Street, Brackenford BK7 3DY\nTelephone: 01632 960933\nPlot size requested: half plot (approx. 125m²)\nPrevious growing experience: yes, 4 years\nDate added to waiting list: 15/05/2026\nPosition on list: 11"
+  },
+  {
+   "kind": "form",
+   "text": "The Swan Hotel, Registration\nGuest name: Mr & Mrs J. Whitcombe\nArrival 23/10/2026 Departure 25/10/2026 Nights 2\nRoom 7, Double, B&B\nRate £118.00 per night\nTotal £236.00\nCar reg: RE71 WKT\nNewspaper: none\nGuest signature: J. Whitcombe"
+  },
+  {
+   "kind": "form",
+   "text": "Brackenford 10K Entry Form, Sunday 4 October 2026\nName: Priya Lakhani\nGender: F Age on race day: 34\nClub: Brackenford Runners\nEstimated finish time: 52:30\nEntry fee: £22 (club members £20)\nEmergency contact: Raj Lakhani, 07700 900352\nT-shirt size: S\nRace No. 0417"
+  },
+  {
+   "kind": "form",
+   "text": "Year 4 Trip to Coldmere Farm Park, 13 May 2026\nI give permission for my child to attend the trip.\nChild's name: Isla Fenton\nClass: 4B\nPayment of £14.50 made on 28/04/2026\nDietary needs: vegetarian\nEmergency contact number on the day: 07700 900881\nSigned: Claire Fenton (Mother)"
+  },
+  {
+   "kind": "form",
+   "text": "Meter Reading Card\nAccount No. 7702 1146 38\nElectricity meter serial 19K0042277\nPrevious reading 48213 on 01/07/2026\nPresent reading 49006 on 01/10/2026\nUnits used 793 kWh\nRead by: customer\nSupply address: 3 Mill Cottages, Mill Lane, Brackenford"
+  },
+  {
+   "kind": "form",
+   "text": "BRACKENFORD MUSEUM\nAdmission ticket, valid for 12 months\n2 Adults @ £6.50 £13.00\n1 Child (under 16) FREE\nGift Aid declaration: Yes\nTotal £13.00\nVisit date 30/05/2026\nTicket ref. BM-26-11847"
+  },
+  {
+   "kind": "page",
+   "text": "THE CORN EXCHANGE\nThe Corn Exchange was built in 1857 at a cost of £3,240, raised largely by subscription among the town's farmers and merchants. Its great hall, 96 feet long, could hold 700 people, and for more than eighty years it rang every Thursday with the bargaining of corn dealers.\nAfter the last grain sale in 1938 the building served as a drill hall, a cinema and, from 1974, the town's main venue for concerts and plays.\n14"
+  },
+  {
+   "kind": "page",
+   "text": "What goes in your blue bin?\nYes: paper, cardboard (flattened), food tins, drinks cans, plastic bottles, pots, tubs and trays, glass bottles and jars.\nNo: plastic bags, polystyrene, nappies, textiles, food waste or garden waste.\nRinse items and leave the lids on bottles. Bins are emptied every 2 weeks; see your calendar for dates or visit brackenford.example/bins.\nLast year residents recycled 52.4% of household waste, up from 47.9%."
+  },
+  {
+   "kind": "page",
+   "text": "Chapter 3\nThe market had already begun when Nell came down Sheep Street, the stallholders calling prices across the cobbles as if they were quarrelling. She had four shillings in her pocket and a list in her mother's writing: two pounds of onions, a quarter of tea, and something for Sunday that would not cost the earth.\nAt the cheese stall old Mr Pellow was weighing a wedge of Blue for the vicar's wife, and he winked at Nell over the scales.\n37"
+  },
+  {
+   "kind": "page",
+   "text": "Walk 5: Abbey Fields and the River Wenn\nDistance 4.2 miles (6.8km). Time approx. 2 hours. Grade: easy, one stile.\nStart at the Cattle Market Car Park (grid ref. SP 421 083). Turn left along Mill Lane and cross the footbridge after 400 yards.\nFollow the river path past the old mill race to the second gate, then bear right across Abbey Fields towards the church tower.\nRefreshments: The Wheatsheaf, open from 11am."
+  },
+  {
+   "kind": "page",
+   "text": "3. How to take Hayfree tablets\nAdults and children aged 12 years and over: take one 10mg tablet once a day. Do not take more than 1 tablet in 24 hours.\nSwallow the tablet whole with a glass of water. You can take it with or without food.\nIf you take more than you should, talk to a doctor or pharmacist straight away. Take this leaflet and the pack with you.\nPage 2 of 4"
+  },
+  {
+   "kind": "page",
+   "text": "FROM THE VICARAGE\nDear friends, as I write this the daffodils along the churchyard wall are almost over, and the swallows are back in the tower. Thank you to everyone who came to the Easter services; we counted 214 people on Easter morning, the most since 2019.\nThe Lent appeal raised £1,068 for the food bank, which will buy around 1,500 meals.\nWith every blessing, Clare"
+  },
+  {
+   "kind": "page",
+   "text": "St Aldric's Church\nThe church is mostly 14th-century, though the north doorway, with its zigzag carving, survives from a Norman building of about 1140. The tower, 112ft high, was added in 1462 and holds a ring of 8 bells, the heaviest weighing 18 cwt.\nInside, look for the medieval wall painting of St Christopher opposite the south door and the brass of Thomas Wolley, wool merchant, d. 1503.\nOpen daily 9am–5pm."
+  },
+  {
+   "kind": "page",
+   "text": "Exercise 4B\n1. A farmer sells 36 eggs at £2.40 per dozen. How much does he receive?\n2. A bus leaves at 10:45 and arrives at 12:20. How long is the journey?\n3. Find 15% of £68.\n4. A field measures 120m by 85m. What is its area in hectares?\n5. Write 3/8 as a decimal and as a percentage.\nAnswers: 1. £7.20 2. 1h 35min 3. £10.20 4. 1.02 ha 5. 0.375, 37.5%"
+  },
+  {
+   "kind": "page",
+   "text": "Test your smoke alarm\nPress the test button once a month. If it does not beep, change the battery or the alarm.\nFit at least one alarm on every floor of your home, on the ceiling and at least 30cm from any wall or light.\nReplace alarms every 10 years. The date is usually printed on the back.\nBrackenford Fire Station offers free home safety visits to residents over 65. Call 01632 960999 to book."
+  },
+  {
+   "kind": "page",
+   "text": "Tuesday 14th April\nRain all morning, so I spent it in the archive at the Town Hall going through the 1881 census returns for Wool Street. Number 15 was a saddler's, with seven people living above the shop, including a lodger from Cork aged nineteen.\nAfternoon: walked out to Coldmere and back, about 6 miles. Tea at the farm shop, £3.60 for cake I didn't need.\nMust ask Mrs Pike about the parish rate books."
+  },
+  {
+   "kind": "page",
+   "text": "Descaling your kettle\nIn hard water areas such as Brackenford, descale every 4 to 6 weeks.\n1. Fill the kettle with 500ml of water and 500ml of white vinegar.\n2. Boil, then leave to stand for 1 hour.\n3. Empty, rinse three times and boil once with clean water before use.\nNever use descaler on the outside of the kettle. Do not exceed the MAX mark (1.7 litres)."
+  },
+  {
+   "kind": "page",
+   "text": "Pip the hedgehog lived under the shed at Number 9, where it was dry and smelled of apples.\nEvery night at 10 o'clock she crept out to count the slugs on the lettuces. One, two, three... twenty-seven!\nMrs Bea left a saucer of water by the gate and, on Fridays, a few biscuits for cats, which Pip liked best of all."
+  },
+  {
+   "kind": "page",
+   "text": "The Great Flood of 1947\nOn 16 March 1947 the River Wenn rose 9ft 6in above its normal level, the highest ever recorded at the town bridge. Water stood 3 feet deep in Mill Lane and Bridge Street, and 140 households had to be rehoused for up to six weeks.\nA brass plate on the wall of the Bridge Inn still marks the height of the water.\nSee also Chapter 7, The Railway Age, p. 88."
+  },
+  {
+   "kind": "page",
+   "text": "Council Tax 2026/27: Brackenford Town\nBand A £1,512.40\nBand B £1,764.47\nBand C £2,016.53\nBand D £2,268.60\nBand E £2,772.73\nBand F £3,276.87\nBand G £3,781.00\nBand H £4,537.20\nIncludes a town council precept of £96.12 at Band D"
+  },
+  {
+   "kind": "page",
+   "text": "Sowing Broad Beans\nIn mild areas, sow 'Aquadulce' type broad beans outdoors in late October or November for an early crop the following June. Elsewhere, sow from February to April.\nSow 5cm deep and 20cm apart in double rows 23cm apart, allowing 60cm between each pair of rows. A 3m double row needs about 30 seeds.\nPinch out the tips once the first pods have set to deter blackfly."
+  }
+ ]
+}

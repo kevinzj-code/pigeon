@@ -1,0 +1,1056 @@
+{
+  "batch": "f06",
+  "domain": "buildings, bridges, towers and landmarks",
+  "cases": [
+    {
+      "question": "what is the Corvane Spire",
+      "passage": "The Corvane Spire is a lattice observation tower on the headland above Port Elsmere. It was completed in 1931 to a design by the engineer Halvard Pruett. The tower is 112 metres tall and has two viewing galleries.",
+      "sentence": 1,
+      "quote": "lattice observation tower on the headland",
+      "looking_for": "what kind of structure the spire is"
+    },
+    {
+      "question": "where is the Mardle Viaduct",
+      "passage": "The Mardle Viaduct is a railway viaduct that carries the Ostbury line across the Fennick valley in western Calderan. It has twenty-two brick arches and was opened in 1868. The viaduct was restored by the Calderan Heritage Board between 1994 and 1997.",
+      "sentence": 1,
+      "quote": "across the Fennick valley in western Calderan",
+      "looking_for": "the location of the viaduct"
+    },
+    {
+      "question": "belstrade tower height",
+      "passage": "Belstrade Tower is a 214 metre office skyscraper in the Quayside district of Larrowmouth. Construction began in 2009 and the building opened in 2013. It was designed by the practice Ostrander Vale and has 52 floors. A public viewing deck occupies the 50th floor, 196 metres above the street.",
+      "sentence": 1,
+      "quote": "214 metre office skyscraper",
+      "looking_for": "the height of the tower"
+    },
+    {
+      "question": "who designed the Ellory Footbridge",
+      "passage": "The Ellory Footbridge is a cable-stayed pedestrian bridge designed by the architect Mirela Coyne. It spans the river Tamsin between the old market and the university quarter. The bridge was opened in 2004 by the then mayor, Gideon Hartwell.",
+      "sentence": 1,
+      "quote": "designed by the architect Mirela Coyne",
+      "looking_for": "the name of the bridge's designer"
+    },
+    {
+      "question": "when was Gallowmere Lighthouse built",
+      "passage": "Gallowmere Lighthouse is a granite lighthouse built in 1847 on the northern tip of Skerrin Island. Its light was automated in 1979, and the last keeper, Ewan Tolland, left the island that year. The tower stands 31 metres tall.",
+      "sentence": 1,
+      "quote": "granite lighthouse built in 1847",
+      "looking_for": "the year the lighthouse was built"
+    },
+    {
+      "question": "what is the Hollin Arch",
+      "passage": "The Hollin Arch is a triumphal arch in Varrow Square, Dunmere, raised to commemorate the city's charter. It was designed by Teodor Kask and unveiled in 1902. The arch is 24 metres high.",
+      "sentence": 1,
+      "quote": "a triumphal arch in Varrow Square",
+      "looking_for": "what the Hollin Arch is"
+    },
+    {
+      "question": "how many floors does the Quentin Building have",
+      "passage": "The Quentin Building is a 38-storey Art Deco office tower on Marlowe Street in Avenford. It was completed in 1930 for the Quentin Shipping Company. For four years it was the tallest building in the city, until the completion of the Harker Exchange in 1934.",
+      "sentence": 1,
+      "quote": "38-storey Art Deco office tower",
+      "looking_for": "the number of floors in the building"
+    },
+    {
+      "question": "pellam clock tower location",
+      "passage": "The Pellam Clock Tower is a Victorian clock tower standing at the centre of the market square in Hensworth. It was paid for by public subscription and completed in 1879. The clock mechanism was made by the Brindle and Sons foundry.",
+      "sentence": 1,
+      "quote": "at the centre of the market square in Hensworth",
+      "looking_for": "the location of the clock tower"
+    },
+    {
+      "question": "how long is the Saradon Bridge",
+      "passage": "The Saradon Bridge is a 3.4 kilometre road bridge linking the island of Saradon to the mainland at Corth. Its main span measures 610 metres. The bridge opened to traffic in 1998 and carries about 40,000 vehicles a day.",
+      "sentence": 1,
+      "quote": "3.4 kilometre road bridge",
+      "looking_for": "the total length of the bridge"
+    },
+    {
+      "question": "what is the Ottery Dome",
+      "passage": "The Ottery Dome is a covered concert hall and exhibition venue in the city of Rennick. Its steel and glass roof, 90 metres across, was the largest in the country when it opened in 1966. The hall seats 6,200 people.",
+      "sentence": 1,
+      "quote": "covered concert hall and exhibition venue",
+      "looking_for": "what kind of building the dome is"
+    },
+    {
+      "question": "who built Castle Harrowdene",
+      "passage": "Castle Harrowdene is a medieval fortress built by Baron Aldric Fenmore in the late twelfth century. It passed to the Crown in 1342 after the Fenmore line died out. Since 1951 it has been owned by the Harrowdene Trust, which opens it to visitors.",
+      "sentence": 1,
+      "quote": "built by Baron Aldric Fenmore",
+      "looking_for": "the person who built the castle"
+    },
+    {
+      "question": "when did the Wexley Tower open",
+      "passage": "The Wexley Tower is a television and observation tower that opened in 1972 in the city of Brannoch. At 287 metres it is the tallest structure in the region. A revolving restaurant was added in 1985 and closed in 2011.",
+      "sentence": 1,
+      "quote": "opened in 1972 in the city of Brannoch",
+      "looking_for": "the year the tower opened"
+    },
+    {
+      "question": "what is the Merrow Gate",
+      "passage": "The Merrow Gate is the last surviving gatehouse of the medieval walls of Kelbridge. It dates from about 1340. The upper floor houses a small museum of the town's history.",
+      "sentence": 1,
+      "quote": "last surviving gatehouse of the medieval walls",
+      "looking_for": "what the Merrow Gate is"
+    },
+    {
+      "question": "where is the Thornacre Monument",
+      "passage": "The Thornacre Monument is a granite obelisk on Beacon Hill, overlooking the town of Edderstow. It was erected in 1821 in memory of the shipowner Josiah Thornacre. The obelisk is 27 metres high and can be seen from the sea.",
+      "sentence": 1,
+      "quote": "on Beacon Hill, overlooking the town of Edderstow",
+      "looking_for": "the location of the monument"
+    },
+    {
+      "question": "how many spans does the Corran Bridge have",
+      "passage": "The Corran Bridge is a seven-span stone bridge over the river Aske at Mullinford. It was built between 1772 and 1776 by the mason Robert Haye. A wider concrete deck was added in 1938, and the bridge was closed to lorries in 2015.",
+      "sentence": 1,
+      "quote": "seven-span stone bridge",
+      "looking_for": "the number of spans of the bridge"
+    },
+    {
+      "question": "who owns Fairhaven Pier",
+      "passage": "Fairhaven Pier is a Victorian pleasure pier owned by the borough council of Fairhaven-on-Sea. It was built in 1891 by the Fairhaven Pier Company, which went bankrupt in 1923. The pier is 520 metres long.",
+      "sentence": 1,
+      "quote": "owned by the borough council of Fairhaven-on-Sea",
+      "looking_for": "the current owner of the pier"
+    },
+    {
+      "question": "what is the Kessing Tower made of",
+      "passage": "The Kessing Tower is a timber observation tower built entirely from larch in the Ulden forest park. Completed in 2017, it rises 46 metres above the forest floor. It was designed by the studio Arne Holt Partners.",
+      "sentence": 1,
+      "quote": "built entirely from larch",
+      "looking_for": "the material the tower is made of"
+    },
+    {
+      "question": "what is the Calloway Exchange",
+      "passage": "The Calloway Exchange is a former stock exchange building in Dunhaven that now serves as the city's central library. It was designed by Lionel Brask and completed in 1887. Trading ended there in 1969.",
+      "sentence": 1,
+      "quote": "former stock exchange building in Dunhaven",
+      "looking_for": "what the Calloway Exchange building is"
+    },
+    {
+      "question": "when was the Brightwater Aqueduct completed",
+      "passage": "The Brightwater Aqueduct is a stone aqueduct completed in 1796 to carry the Lennet Canal over the river Brill. It has nine arches and is 190 metres long. The engineer was Samuel Okeley, who also built the canal's flight of locks at Dunsford.",
+      "sentence": 1,
+      "quote": "stone aqueduct completed in 1796",
+      "looking_for": "the year the aqueduct was completed"
+    },
+    {
+      "question": "what is Harlan House",
+      "passage": "Harlan House is an eighteenth-century country house near the village of Ashby Wold. It was built for the merchant Thomas Harlan between 1752 and 1760. The house and its gardens have been run by the Wold Estates Trust since 1978.",
+      "sentence": 1,
+      "quote": "an eighteenth-century country house near the village",
+      "looking_for": "what Harlan House is"
+    },
+    {
+      "question": "how high above the river is the Gorran Gorge Bridge",
+      "passage": "The Gorran Gorge Bridge is a steel arch road bridge that carries the highway 180 metres above the Gorran river. Its arch spans 340 metres. The bridge was completed in 1981 after six years of construction.",
+      "sentence": 1,
+      "quote": "180 metres above the Gorran river",
+      "looking_for": "the height of the bridge above the river"
+    },
+    {
+      "question": "who designed the Lisle Pavilion",
+      "passage": "The Lisle Pavilion is a seafront entertainment hall in Wenmouth designed by the architect Clara Dunstan. It opened in 1911 and was rebuilt after a fire in 1946. The present building is managed by the Wenmouth Arts Company.",
+      "sentence": 1,
+      "quote": "designed by the architect Clara Dunstan",
+      "looking_for": "the name of the pavilion's architect"
+    },
+    {
+      "question": "where is the Ferrin Observatory",
+      "passage": "The Ferrin Observatory is an astronomical observatory on the summit of Mount Callan, above the town of Ressing. It was founded in 1889 by the astronomer Hugo Ferrin. Its largest telescope, a 1.2 metre reflector, was installed in 1934.",
+      "sentence": 1,
+      "quote": "on the summit of Mount Callan",
+      "looking_for": "the location of the observatory"
+    },
+    {
+      "question": "when was Granmoor Mill built",
+      "passage": "Granmoor Mill is a five-storey cotton mill built in 1824 beside the river Oake in Granmoor. It closed in 1959 and stood empty for thirty years. In 1992 it was converted into flats and a museum of weaving.",
+      "sentence": 1,
+      "quote": "cotton mill built in 1824",
+      "looking_for": "the year the mill was built"
+    },
+    {
+      "question": "what is the Daunt Tower",
+      "passage": "The Daunt Tower is a folly in the form of a ruined castle keep, built on the Daunt estate near Kirkhallow. It was commissioned in 1768 by Sir Edmund Daunt. The tower is 18 metres high.",
+      "sentence": 1,
+      "quote": "a folly in the form of a ruined castle keep",
+      "looking_for": "what kind of structure the Daunt Tower is"
+    },
+    {
+      "question": "how many people does Varden Arena hold",
+      "passage": "Varden Arena is a 21,000-seat indoor arena in the Northgate district of Callisford. It opened in 2001 and is the home of the Callisford Comets ice hockey club. The arena's record attendance of 22,450 was set at a concert in 2016.",
+      "sentence": 1,
+      "quote": "21,000-seat indoor arena",
+      "looking_for": "the seating capacity of the arena"
+    },
+    {
+      "question": "what is the Lantern House in Torvale",
+      "passage": "The Lantern House is a glass-roofed covered market in the centre of Torvale. It was built in 1868 to designs by the engineer Walter Pym. About ninety traders hold stalls there today.",
+      "sentence": 1,
+      "quote": "a glass-roofed covered market",
+      "looking_for": "what kind of building the Lantern House is"
+    },
+    {
+      "question": "who is the Aldwin Memorial for",
+      "passage": "The Aldwin Memorial is a bronze statue in Kingsmere Park honouring the nurse Agnes Aldwin. It was sculpted by Peter Lowry and unveiled in 1925. The statue was moved to its present site in 1960.",
+      "sentence": 1,
+      "quote": "honouring the nurse Agnes Aldwin",
+      "looking_for": "the person the memorial honours"
+    },
+    {
+      "question": "how tall is the Ivel Water Tower",
+      "passage": "The Ivel Water Tower is a 41 metre concrete water tower on the edge of the town of Ivel. Built in 1936, it held 900 cubic metres of water. It was taken out of use in 1988 and is now a climbing centre.",
+      "sentence": 1,
+      "quote": "41 metre concrete water tower",
+      "looking_for": "the height of the water tower"
+    },
+    {
+      "question": "where is the Halver Customs House",
+      "passage": "The Halver Customs House is a Georgian building on the quay at Halver harbour. It was completed in 1774 and collected duties on wine and salt until 1890. The building now houses the harbour master's office.",
+      "sentence": 1,
+      "quote": "on the quay at Halver harbour",
+      "looking_for": "the location of the customs house"
+    },
+    {
+      "question": "who designed the Penwarren Bridge",
+      "passage": "The Penwarren Bridge is a suspension bridge over the Penwarren estuary. It was designed by the engineer Isobel Marsh and opened in 1966. The main span is 870 metres, and the bridge was widened in 2003 by the firm Coyle Brothers.",
+      "sentence": 2,
+      "quote": "designed by the engineer Isobel Marsh",
+      "looking_for": "the name of the bridge's designer"
+    },
+    {
+      "question": "when was the Tolver Tower completed",
+      "passage": "The Tolver Tower is a residential skyscraper in the harbour district of Ostley. It was completed in 2019 after five years of construction. At 181 metres it overtook the Marram Building, finished in 2008, as the city's tallest.",
+      "sentence": 2,
+      "quote": "completed in 2019",
+      "looking_for": "the year the tower was completed"
+    },
+    {
+      "question": "how tall is the spire of Rosmund Cathedral",
+      "passage": "Rosmund Cathedral is the seat of the Bishop of Rosmund and the largest church in the diocese. Its central spire rises 97 metres, making it the tallest in the province. The nave is 140 metres long and was finished in 1311.",
+      "sentence": 2,
+      "quote": "central spire rises 97 metres",
+      "looking_for": "the height of the cathedral's spire"
+    },
+    {
+      "question": "who owns the Belgrove Hotel",
+      "passage": "The Belgrove Hotel is a grand hotel on the promenade at Seacombe Bay. Since 2015 it has been owned by the Marlin Leisure Group. It was built in 1898 for the railway entrepreneur Arthur Belgrove, whose family ran it until 1962.",
+      "sentence": 2,
+      "quote": "owned by the Marlin Leisure Group",
+      "looking_for": "the current owner of the hotel"
+    },
+    {
+      "question": "how many steps to the top of the Hennig Tower",
+      "passage": "The Hennig Tower is a brick bell tower beside the town hall of Lauterfeld. Visitors reach its gallery by climbing 312 steps. The tower is 64 metres tall and holds eight bells, the largest weighing four tonnes.",
+      "sentence": 2,
+      "quote": "climbing 312 steps",
+      "looking_for": "the number of steps to the top"
+    },
+    {
+      "question": "when was the Merriweather Bridge opened",
+      "passage": "The Merriweather Bridge is a road bridge carrying Kings Avenue across the river Dace in Holloway Cross. It was opened on 4 June 1932 by Lady Merriweather. The bridge replaced a timber crossing of 1810, which was demolished in 1931.",
+      "sentence": 2,
+      "quote": "opened on 4 June 1932",
+      "looking_for": "the date the bridge opened"
+    },
+    {
+      "question": "where is Kildane Lighthouse",
+      "passage": "Kildane Lighthouse is an active lighthouse operated by the Coastal Lights Board. It stands on Kildane Point at the mouth of Cassock Bay. The present tower was lit in 1903 and replaced an older light of 1790.",
+      "sentence": 2,
+      "quote": "stands on Kildane Point at the mouth of Cassock Bay",
+      "looking_for": "the location of the lighthouse"
+    },
+    {
+      "question": "how long is Vossmar Pier",
+      "passage": "Vossmar Pier is a seaside pier in the resort town of Vossmar. At 1.1 kilometres it is the longest pier on the eastern coast. It was built in 1887 and a tramway ran along it until 1958. The pavilion at the pier head seats 800 people.",
+      "sentence": 2,
+      "quote": "At 1.1 kilometres it is the longest pier",
+      "looking_for": "the length of the pier"
+    },
+    {
+      "question": "who is the architect of the Halden Concert Hall",
+      "passage": "The Halden Concert Hall is the principal concert venue of the city of Halden and the home of the Halden Philharmonic. The building was designed by the architect Johan Esterby and opened in 1988. Its main auditorium seats 1,900, and the orchestra's music director is Lena Varga.",
+      "sentence": 2,
+      "quote": "designed by the architect Johan Esterby",
+      "looking_for": "the name of the hall's architect"
+    },
+    {
+      "question": "what year was the Corbel Tower demolished",
+      "passage": "The Corbel Tower was a 22-storey office building in the centre of Pruett City. It was demolished in 2014 to make way for the Pruett Square redevelopment. Built in 1967, it had been the headquarters of the Corbel Insurance Company.",
+      "sentence": 2,
+      "quote": "demolished in 2014",
+      "looking_for": "the year the building was demolished"
+    },
+    {
+      "question": "how many rooms does Ardfield Palace have",
+      "passage": "Ardfield Palace is a royal residence on the outskirts of Kellmouth. The palace has 412 rooms, including 46 state apartments. It was begun in 1702 and completed in 1736 under the architect Simon Wraye.",
+      "sentence": 2,
+      "quote": "has 412 rooms",
+      "looking_for": "the number of rooms in the palace"
+    },
+    {
+      "question": "who built the Dorrington Viaduct",
+      "passage": "The Dorrington Viaduct is a curved masonry viaduct on the former Hallam and Dorrington Railway. It was built by the contractor Thomas Pellow between 1849 and 1852. The line closed in 1966, and the viaduct now carries a cycle path opened in 2008.",
+      "sentence": 2,
+      "quote": "built by the contractor Thomas Pellow",
+      "looking_for": "the builder of the viaduct"
+    },
+    {
+      "question": "when was the Lindquist Library built",
+      "passage": "The Lindquist Library is the main research library of the University of Aldermoor. Its present building was completed in 1912 with a gift from the timber merchant Karl Lindquist. A modern extension designed by Ruth Abara was added in 1999.",
+      "sentence": 2,
+      "quote": "completed in 1912",
+      "looking_for": "the year the library building was built"
+    },
+    {
+      "question": "how high is the Gannet Dam",
+      "passage": "The Gannet Dam is a concrete arch dam on the upper river Gannet, forming Lake Ostrel. The dam is 156 metres high and 480 metres long at its crest. It was completed in 1959 and its power station produces 320 megawatts.",
+      "sentence": 2,
+      "quote": "156 metres high",
+      "looking_for": "the height of the dam"
+    },
+    {
+      "question": "where is the Ambry Cross",
+      "passage": "The Ambry Cross is a carved stone high cross dating from the ninth century. It stands in the churchyard of the village of Ambry, in the Coldwater valley. The cross is 4.6 metres tall and is decorated with scenes of the harvest.",
+      "sentence": 2,
+      "quote": "in the churchyard of the village of Ambry",
+      "looking_for": "the location of the cross"
+    },
+    {
+      "question": "who paid for the Fallow Fountain",
+      "passage": "The Fallow Fountain is an ornamental fountain in the central square of Brenton. It was commissioned by the brewer Henry Fallow in 1884 as a gift to the town. The sculptor was Amelia Corte, and the fountain was restored in 2010.",
+      "sentence": 2,
+      "quote": "commissioned by the brewer Henry Fallow",
+      "looking_for": "the person who commissioned the fountain"
+    },
+    {
+      "question": "arkwell centre number of floors",
+      "passage": "The Arkwell Centre is a mixed-use skyscraper in the business district of Doveport. It has 64 floors above ground and four basement levels. The tower is 271 metres tall and was completed in 2011.",
+      "sentence": 2,
+      "quote": "64 floors above ground",
+      "looking_for": "the number of floors in the building"
+    },
+    {
+      "question": "what is the Quill Tower used for now",
+      "passage": "The Quill Tower is a former shot tower in the riverside district of Ennisford. It is now used as a gallery and recording studio. Lead shot was made there from 1826 until 1951.",
+      "sentence": 2,
+      "quote": "now used as a gallery and recording studio",
+      "looking_for": "the current use of the tower"
+    },
+    {
+      "question": "when was Callender Castle destroyed",
+      "passage": "Callender Castle is a ruined fortress on a crag above the village of Callender Ford. It was destroyed by fire in 1645 during the siege of the town. The castle was first built in 1190 and enlarged in 1420 by the Lords of Callender.",
+      "sentence": 2,
+      "quote": "destroyed by fire in 1645",
+      "looking_for": "the year the castle was destroyed"
+    },
+    {
+      "question": "how long is the Harrowby Tunnel",
+      "passage": "The Harrowby Tunnel is a road tunnel beneath the Fell Downs. It is 6.2 kilometres long, the longest road tunnel in the country. Work began in 1987 and the tunnel opened in 1993.",
+      "sentence": 2,
+      "quote": "6.2 kilometres long",
+      "looking_for": "the length of the tunnel"
+    },
+    {
+      "question": "who designed the Mercer Gallery building",
+      "passage": "The Mercer Gallery is a public art gallery in the old harbour of Port Sallow. Its building was designed by the architect Nadia Fenwick and opened in 2006. The collection was begun in 1931 by the collector Douglas Mercer, whose house was its first home.",
+      "sentence": 2,
+      "quote": "designed by the architect Nadia Fenwick",
+      "looking_for": "the architect of the gallery building"
+    },
+    {
+      "question": "what was the building cost of the Ostrel Bridge",
+      "passage": "The Ostrel Bridge is a cable-stayed road bridge across the Ostrel estuary. It cost 410 million crowns to build and opened in 2010. Its two towers are 152 metres tall, and its main span is 620 metres.",
+      "sentence": 2,
+      "quote": "cost 410 million crowns to build",
+      "looking_for": "the cost of building the bridge"
+    },
+    {
+      "question": "who is the keeper of Hallow Rock Lighthouse",
+      "passage": "Hallow Rock Lighthouse is one of the few lighthouses on the northern coast still kept by a resident keeper. The present keeper is Marion Tull, who took up the post in 2017. She succeeded Alan Breck, who had kept the light for 31 years.",
+      "sentence": 2,
+      "quote": "The present keeper is Marion Tull",
+      "looking_for": "the name of the current lighthouse keeper"
+    },
+    {
+      "question": "when was the Bellwood Clock installed",
+      "passage": "The Bellwood Clock is a large public clock on the facade of the Bellwood department store in Marston Hythe. It was installed in 1921 when the store was rebuilt. The store itself was founded in 1868 by William Bellwood and closed in 2018.",
+      "sentence": 2,
+      "quote": "installed in 1921",
+      "looking_for": "the year the clock was installed"
+    },
+    {
+      "question": "where is Gaunt's Tower",
+      "passage": "Gaunt's Tower is a sixteenth-century tower house built for the Gaunt family. It stands on the south bank of the river Lorne, two kilometres east of Haddow. The tower was abandoned in 1740 and restored as a holiday let in 1995.",
+      "sentence": 2,
+      "quote": "on the south bank of the river Lorne",
+      "looking_for": "the location of the tower"
+    },
+    {
+      "question": "how heavy is Great Oswin",
+      "passage": "Great Oswin is the largest bell in the tower of Hollinsby Minster. It weighs 11 tonnes and sounds the note E flat. The bell was cast in 1882 by the Marlowe foundry and was recast in 1937.",
+      "sentence": 2,
+      "quote": "weighs 11 tonnes",
+      "looking_for": "the weight of the bell"
+    },
+    {
+      "question": "who opened the Wrayburn Bridge",
+      "passage": "The Wrayburn Bridge is a steel truss bridge carrying the Coast Road across Wrayburn Creek. It was formally opened in 1927 by the governor of the province, Alexander Brede. The engineer in charge of the works was Marta Sollis.",
+      "sentence": 2,
+      "quote": "opened in 1927 by the governor of the province, Alexander Brede",
+      "looking_for": "the person who opened the bridge"
+    },
+    {
+      "question": "ellenmore stadium capacity",
+      "passage": "Ellenmore Stadium is a football stadium in the Riverside district of Calder Port. It has a capacity of 34,600, all seated. The ground opened in 1904 and was rebuilt in stages between 1995 and 2002.",
+      "sentence": 2,
+      "quote": "capacity of 34,600",
+      "looking_for": "the seating capacity of the stadium"
+    },
+    {
+      "question": "what was the Raddle Tower originally",
+      "passage": "The Raddle Tower is a brick tower in the town park of Raddlestone. It was originally built in 1810 as a windmill. The sails were removed in 1895, and the tower became a park lookout in 1931.",
+      "sentence": 2,
+      "quote": "originally built in 1810 as a windmill",
+      "looking_for": "the tower's original purpose"
+    },
+    {
+      "question": "when did construction of the Varnley Tower begin",
+      "passage": "The Varnley Tower is a 305 metre skyscraper in the financial district of Corrin. Construction began in March 2016 on the site of the old Varnley bus station. The tower was topped out in 2020 and opened to tenants in 2021.",
+      "sentence": 2,
+      "quote": "Construction began in March 2016",
+      "looking_for": "when construction of the tower started"
+    },
+    {
+      "question": "who designed Ostmark Town Hall",
+      "passage": "Ostmark Town Hall is the seat of the municipal council of Ostmark. The building was designed by the architect Felix Tarrant and completed in 1906. Its clock tower, 58 metres high, was added in 1912 by Tarrant's partner, Hugh Penrose.",
+      "sentence": 2,
+      "quote": "designed by the architect Felix Tarrant",
+      "looking_for": "the name of the town hall's architect"
+    },
+    {
+      "question": "how old is the Sedge Bridge",
+      "passage": "The Sedge Bridge is a packhorse bridge over the Sedge Water near the hamlet of Low Thorn. It was built in the fifteenth century and is the oldest bridge in the county. It was repaired in 1702 and again in 1985.",
+      "sentence": 2,
+      "quote": "built in the fifteenth century",
+      "looking_for": "when the bridge was built"
+    },
+    {
+      "question": "how tall is the Liston Mast",
+      "passage": "The Liston Mast is a guyed radio mast near the village of Liston Moor. It is 380 metres tall, the tallest structure in the country. The mast was built in 1965 and replaced a 210 metre mast that collapsed in a storm that year.",
+      "sentence": 2,
+      "quote": "It is 380 metres tall",
+      "looking_for": "the height of the mast"
+    },
+    {
+      "question": "where is the Brennor Monument",
+      "passage": "The Brennor Monument is a memorial to the sailors lost in the Brennor shipwreck of 1871. It stands on the cliff path above Gull Cove, near the harbour of Wester Brennor. The monument was designed by Anna Lisle and unveiled in 1875.",
+      "sentence": 2,
+      "quote": "on the cliff path above Gull Cove",
+      "looking_for": "the location of the monument"
+    },
+    {
+      "question": "Tallon Viaduct number of arches",
+      "passage": "The Tallon Viaduct is a railway viaduct carrying the Grey Valley line over the river Tallon. It has thirty-one arches and is 640 metres long. It was built between 1873 and 1876, and four arches were rebuilt after flooding in 1912.",
+      "sentence": 2,
+      "quote": "thirty-one arches",
+      "looking_for": "the number of arches of the viaduct"
+    },
+    {
+      "question": "who lives at Marrowby House",
+      "passage": "Marrowby House is the official residence of the governor of the Marrowby province. The present occupant is Governor Helena Strand, who moved in after her appointment in 2022. The house was built in 1838 for the merchant Joseph Marrow.",
+      "sentence": 2,
+      "quote": "present occupant is Governor Helena Strand",
+      "looking_for": "the person currently living in the house"
+    },
+    {
+      "question": "when did the Fenwick Arcade open",
+      "passage": "The Fenwick Arcade is a covered shopping arcade linking Bridge Street and Market Row in Thurlow. It opened in 1898 with forty shop units under a glazed roof. The arcade was listed for protection in 1972 and restored in 2009.",
+      "sentence": 2,
+      "quote": "opened in 1898",
+      "looking_for": "the year the arcade opened"
+    },
+    {
+      "question": "what is the tallest building in Arnmouth",
+      "passage": "The Castellan Tower is a 168 metre office building in the docklands of Arnmouth. Since its completion in 2015 it has been the tallest building in the city. The previous tallest, the Harbour Board Building, had held the title since 1931.",
+      "sentence": 2,
+      "quote": "it has been the tallest building in the city",
+      "looking_for": "the name of the tallest building in the city"
+    },
+    {
+      "question": "who sculpted the Harvester statue in Delling",
+      "passage": "The Harvester is a bronze statue in the market square of Delling. It was sculpted by Ingrid Moll and unveiled in 1958. The statue was paid for by the Delling Farmers Union, whose chairman, Walter Cray, posed for it.",
+      "sentence": 2,
+      "quote": "sculpted by Ingrid Moll",
+      "looking_for": "the name of the sculptor"
+    },
+    {
+      "question": "how many bells does the Ashfeld Carillon have",
+      "passage": "The Ashfeld Carillon is a carillon housed in a freestanding tower in Ashfeld Park. It has 53 bells, the heaviest weighing nine tonnes. The tower was built in 1932 as a war memorial and is 70 metres tall.",
+      "sentence": 2,
+      "quote": "It has 53 bells",
+      "looking_for": "the number of bells in the carillon"
+    },
+    {
+      "question": "when was the Linden Tower renamed",
+      "passage": "The Linden Tower is an office skyscraper in Varrowfield, formerly known as the Corvex Tower. It was renamed in 2018 after the Linden Bank bought the building. The tower was completed in 1989 and is 160 metres tall.",
+      "sentence": 2,
+      "quote": "renamed in 2018",
+      "looking_for": "the year the tower was renamed"
+    },
+    {
+      "question": "where is Sorrel Abbey",
+      "passage": "Sorrel Abbey is a ruined Cistercian monastery founded in 1147. Its remains lie in a wooded valley three kilometres north of the market town of Brackwell. The abbey was dissolved in 1538, and its church was quarried for stone.",
+      "sentence": 2,
+      "quote": "three kilometres north of the market town of Brackwell",
+      "looking_for": "the location of the abbey"
+    },
+    {
+      "question": "how long is the Tessaly Bridge",
+      "passage": "The Tessaly Bridge is a pedestrian and cycle bridge over the harbour mouth at Tessaly. It is 280 metres long and opens by lifting its central section. The central section weighs 900 tonnes and can be raised in four minutes.",
+      "sentence": 2,
+      "quote": "It is 280 metres long",
+      "looking_for": "the length of the bridge"
+    },
+    {
+      "question": "who manages Rookley Hall",
+      "passage": "Rookley Hall is a Tudor manor house in the parish of Rookley Green. It is managed by the National Houses Fund, which took it over in 1965. The house was built about 1540 for Sir Giles Rookley and remained with his descendants for four centuries.",
+      "sentence": 2,
+      "quote": "managed by the National Houses Fund",
+      "looking_for": "the organisation that manages the hall"
+    },
+    {
+      "question": "when did the Sellick Building catch fire",
+      "passage": "The Sellick Building is a former department store on Union Road in Barrowfield. A fire on 12 January 1974 destroyed its upper floors. The building was restored in 1977 and has housed offices since 1980.",
+      "sentence": 2,
+      "quote": "A fire on 12 January 1974",
+      "looking_for": "the date of the fire"
+    },
+    {
+      "question": "who designed the Wendham Tower",
+      "passage": "The Wendham Tower is a 150 metre observation tower in Wendham Gardens. It opened in 1984 and was the city's tallest structure until 2006. The tower was designed by the engineer Rolf Aske.",
+      "sentence": 3,
+      "quote": "designed by the engineer Rolf Aske",
+      "looking_for": "the name of the tower's designer"
+    },
+    {
+      "question": "who is the director of the Kerrow Observatory",
+      "passage": "The Kerrow Observatory is a research observatory on Kerrow Fell. It was founded in 1903 by the astronomer Lydia Stann, who directed it until 1931. The current director is Tomas Ruel, appointed in 2020.",
+      "sentence": 3,
+      "quote": "current director is Tomas Ruel",
+      "looking_for": "the name of the current director"
+    },
+    {
+      "question": "how tall is the Marsden Spire",
+      "passage": "The Marsden Spire is a stainless steel sculpture in the plaza of Marsden Station. It was commissioned by the city council in 2011 and unveiled in 2013. The spire is 60 metres tall and lit from within at night.",
+      "sentence": 3,
+      "quote": "The spire is 60 metres tall",
+      "looking_for": "the height of the spire"
+    },
+    {
+      "question": "when was the Draycott Bridge rebuilt",
+      "passage": "The Draycott Bridge is a road bridge over the river Fenn in the town of Draycott. A wooden bridge stood on the site from the thirteenth century. The present stone bridge was built in 1764 by the mason John Treloar. It was rebuilt in 1951 after being damaged by floods.",
+      "sentence": 4,
+      "quote": "rebuilt in 1951",
+      "looking_for": "the year the bridge was rebuilt"
+    },
+    {
+      "question": "how many people visit the Arlen Tower each year",
+      "passage": "The Arlen Tower is a medieval keep on the hill above Arlen. It was built about 1180 by the Counts of Arlen. The keep was restored in 1890 and opened to the public in 1925. It now receives about 210,000 visitors a year.",
+      "sentence": 4,
+      "quote": "about 210,000 visitors a year",
+      "looking_for": "the number of visitors each year"
+    },
+    {
+      "question": "who owns Castle Marrin",
+      "passage": "Castle Marrin is a moated castle in the Lowe valley. It was built in 1386 by Sir Ralph Marrin. After the Marrin line ended in 1702 the castle passed through several families. Since 1989 it has been owned by the businessman Victor Halsey.",
+      "sentence": 4,
+      "quote": "owned by the businessman Victor Halsey",
+      "looking_for": "the current owner of the castle"
+    },
+    {
+      "question": "how long is the Aubry Bridge",
+      "passage": "The Aubry Bridge is a road and rail bridge across the Wend strait. It was opened in 1995 by Queen Adela of Varenland. The bridge carries a four-lane motorway on its upper deck and a double-track railway below. Its total length is 7.8 kilometres, with a main span of 1,090 metres.",
+      "sentence": 4,
+      "quote": "total length is 7.8 kilometres",
+      "looking_for": "the length of the bridge"
+    },
+    {
+      "question": "who was the architect of the Pembrey Library",
+      "passage": "The Pembrey Library is a public library in the town of Pembrey Wells. It was funded by a bequest from the shipbuilder Owen Pembrey. The building, designed by the architect Grace Tolley, opened in 1904.",
+      "sentence": 3,
+      "quote": "designed by the architect Grace Tolley",
+      "looking_for": "the name of the library's architect"
+    },
+    {
+      "question": "when did the Hartfell Tower open",
+      "passage": "The Hartfell Tower is a hotel and conference tower in the centre of Wellmere. It stands on the site of the old Hartfell Brewery, which closed in 1985. The tower opened in 2002 and has 420 rooms.",
+      "sentence": 3,
+      "quote": "The tower opened in 2002",
+      "looking_for": "the year the tower opened"
+    },
+    {
+      "question": "what is the Corvin Bridge made of",
+      "passage": "The Corvin Bridge is a footbridge in the park of Corvin Hall. It crosses the ornamental lake at its narrowest point. The bridge was built in 1779 for Lord Corvin. It is made of cast iron and is one of the oldest iron bridges in the country.",
+      "sentence": 4,
+      "quote": "made of cast iron",
+      "looking_for": "the material of the bridge"
+    },
+    {
+      "question": "how high is the Asterly Wheel",
+      "passage": "The Asterly Wheel is a giant observation wheel on the waterfront of Asterly. It was built for the city's festival year in 2010. It has 36 enclosed cabins, each holding up to 20 people. The wheel is 120 metres high.",
+      "sentence": 4,
+      "quote": "The wheel is 120 metres high",
+      "looking_for": "the height of the wheel"
+    },
+    {
+      "question": "who built Marrish Lighthouse",
+      "passage": "Marrish Lighthouse is a lighthouse on the outer rocks of Marrish Sound. It is 42 metres tall and its light can be seen for 24 nautical miles. The tower was built by the engineer Duncan Reith between 1840 and 1845.",
+      "sentence": 3,
+      "quote": "built by the engineer Duncan Reith",
+      "looking_for": "the builder of the lighthouse"
+    },
+    {
+      "question": "where is the Bellam Tower",
+      "passage": "The Bellam Tower is a 92 metre television tower. It was completed in 1967 and has a restaurant at 70 metres. The tower stands on Crown Hill in the western suburbs of Oskarvik.",
+      "sentence": 3,
+      "quote": "stands on Crown Hill in the western suburbs of Oskarvik",
+      "looking_for": "the location of the tower"
+    },
+    {
+      "question": "when was Dunstall Palace finished",
+      "passage": "Dunstall Palace is a baroque palace in the city of Dunstall. It was the residence of the Prince-Bishops of Dunstall until 1803. Work on the palace began in 1720 under the architect Lorenz Hesse. It was finished in 1744, after Hesse's death.",
+      "sentence": 4,
+      "quote": "finished in 1744",
+      "looking_for": "the year the palace was finished"
+    },
+    {
+      "question": "who runs Pennick Windmill",
+      "passage": "Pennick Windmill is a working tower mill on the edge of the village of Pennick. It was built in 1816 and ground corn commercially until 1949. The mill was restored between 1972 and 1980. It is now run by the Pennick Mill Society, whose volunteers grind flour on open days.",
+      "sentence": 4,
+      "quote": "run by the Pennick Mill Society",
+      "looking_for": "the organisation that runs the windmill"
+    },
+    {
+      "question": "how many storeys high is the Orchard Tower",
+      "passage": "The Orchard Tower is a residential building in the Hillside district of Graymouth. It was built in 1968 as social housing for the city council. The tower is 76 metres tall. It has 24 floors and 140 flats.",
+      "sentence": 4,
+      "quote": "It has 24 floors",
+      "looking_for": "the number of floors in the tower"
+    },
+    {
+      "question": "who designed the Saffron Bridge",
+      "passage": "The Saffron Bridge is a pedestrian bridge across the river Lisk in Abbotsley. Its curved deck is hung from a single leaning arch. The bridge was opened in 2012 by the mayor, Rhoda Kell. It was designed by the engineering firm Halvorsen Moor.",
+      "sentence": 4,
+      "quote": "designed by the engineering firm Halvorsen Moor",
+      "looking_for": "the designer of the bridge"
+    },
+    {
+      "question": "when did the Trellis Tower collapse",
+      "passage": "The Trellis Tower was a timber pagoda in the pleasure gardens of Ashcombe. It was built in 1764 and was 38 metres tall. The tower was a popular attraction for more than a century. It collapsed in a gale in 1883 and was not rebuilt.",
+      "sentence": 4,
+      "quote": "collapsed in a gale in 1883",
+      "looking_for": "the year the tower collapsed"
+    },
+    {
+      "question": "how much did Kelling Stadium cost",
+      "passage": "Kelling Stadium is a multi-purpose stadium in the south of the city of Kelling. It opened in 2006 and holds 48,000 spectators. The stadium is home to the Kelling Rovers football club. It cost 520 million marks to build, double the original estimate.",
+      "sentence": 4,
+      "quote": "cost 520 million marks to build",
+      "looking_for": "the cost of building the stadium"
+    },
+    {
+      "question": "who carved the lions on the Lion Gate in Varne",
+      "passage": "The Lion Gate is the ceremonial entrance to the old citadel of Varne. It was built in 1611 and takes its name from the two stone lions above the arch. The lions were carved by the sculptor Pieter Haldane.",
+      "sentence": 3,
+      "quote": "carved by the sculptor Pieter Haldane",
+      "looking_for": "the name of the sculptor"
+    },
+    {
+      "question": "when was the Ruddock Building completed",
+      "passage": "The Ruddock Building is a former warehouse on the Canal Basin in Kersey Mills. It is built of red brick and stands six storeys high. The warehouse was completed in 1858 for the Ruddock Carrying Company. It was converted into a hotel in 2001.",
+      "sentence": 3,
+      "quote": "completed in 1858",
+      "looking_for": "the year the building was completed"
+    },
+    {
+      "question": "how long is the Kessel Wall",
+      "passage": "The Kessel Wall is a defensive wall built around the old town of Kessel. It was begun in 1250 and strengthened in the sixteenth century. Much of it was pulled down in the 1860s to make room for boulevards. The surviving sections are 1.9 kilometres long and include eleven towers.",
+      "sentence": 4,
+      "quote": "1.9 kilometres long",
+      "looking_for": "the length of the wall"
+    },
+    {
+      "question": "who designed the Orrin Memorial Chapel",
+      "passage": "The Orrin Memorial Chapel is a small chapel in the grounds of Marcliff School. It was built in memory of the former pupils who died in the war of 1914 to 1918. The foundation stone was laid in 1920 by Viscount Orrin. The chapel was designed by the architect Edith Marlowe and consecrated in 1923.",
+      "sentence": 4,
+      "quote": "designed by the architect Edith Marlowe",
+      "looking_for": "the name of the chapel's architect"
+    },
+    {
+      "question": "how many people can the Graystone Exhibition Hall hold",
+      "passage": "The Graystone Exhibition Hall is a large iron and glass hall in the north of Linchester. It was built for the trade exhibition of 1886. After the exhibition it was used as a cattle market and later as a car showroom. Today it is an events venue that can hold 4,500 people.",
+      "sentence": 4,
+      "quote": "can hold 4,500 people",
+      "looking_for": "the number of people the hall holds"
+    },
+    {
+      "question": "who owns the Haverly Building",
+      "passage": "The Haverly Building is an Art Nouveau office building on Grand Parade in Selbury. It was designed by Otto Brand for the Haverly Insurance Company. Construction took from 1903 to 1906. The insurance company left the building in 1971. It has been owned since 2009 by the property company Westerhold Estates.",
+      "sentence": 5,
+      "quote": "owned since 2009 by the property company Westerhold Estates",
+      "looking_for": "the current owner of the building"
+    },
+    {
+      "question": "when was Saint Brannoc's Church built",
+      "passage": "Saint Brannoc's Church is the parish church of the village of Tregarra. It is dedicated to a sixth-century missionary said to have landed on the nearby beach. The tower contains a ring of six bells. The nave and chancel were built in the fourteenth century, and the tower was added in 1480.",
+      "sentence": 4,
+      "quote": "nave and chancel were built in the fourteenth century",
+      "looking_for": "when the church was built"
+    },
+    {
+      "question": "what is the height of Grantley Tower",
+      "passage": "Grantley Tower is a skyscraper in the Eastbank district of Mellis Bay. It was developed by the Grantley Property Trust and completed in 2008. The tower houses offices on its lower floors and a hotel above. It is 233 metres tall, with 58 floors. A sky garden on the 40th floor is open to the public at weekends.",
+      "sentence": 4,
+      "quote": "It is 233 metres tall",
+      "looking_for": "the height of the tower"
+    },
+    {
+      "question": "who designed the Harbour Arch at Kelloway",
+      "passage": "The Harbour Arch is a stone arch at the entrance to the old harbour of Kelloway. It was erected in 1849 to mark the visit of King Edwin the Third. The arch is 15 metres high. Its designer was the city architect, Amos Treharne.",
+      "sentence": 4,
+      "quote": "Its designer was the city architect, Amos Treharne",
+      "looking_for": "the name of the arch's designer"
+    },
+    {
+      "question": "how many towers does Castle Wendle have",
+      "passage": "Castle Wendle is a royal castle overlooking the harbour of Wendleport. It was begun in 1283 for King Alfric and finished in 1306. The castle's curtain wall is 600 metres around. It has eight round towers and a twin-towered gatehouse.",
+      "sentence": 4,
+      "quote": "eight round towers",
+      "looking_for": "the number of towers of the castle"
+    },
+    {
+      "question": "when did Kesterton Lido first open",
+      "passage": "Kesterton Lido is an open-air swimming pool on the seafront at Kesterton. The pool is 100 metres long and is filled with sea water. It opened in 1936 and closed in 1993 after storm damage. A local trust reopened it in 2016.",
+      "sentence": 3,
+      "quote": "It opened in 1936",
+      "looking_for": "the year the lido first opened"
+    },
+    {
+      "question": "who designed the Arnley Clock Tower",
+      "passage": "The Arnley Clock Tower stands at the junction of four roads in the centre of Arnley. It was built in 1887 to mark the jubilee of the reigning queen. The tower was paid for by the mill owner Samuel Booth. It was designed by the local architect Henry Pask.",
+      "sentence": 4,
+      "quote": "designed by the local architect Henry Pask",
+      "looking_for": "the name of the clock tower's designer"
+    },
+    {
+      "question": "how long did it take to build the Cardell Bridge",
+      "passage": "The Cardell Bridge is a suspension bridge across the Cardell gorge. Its main span is 410 metres. Construction took six years, from 1924 to 1930. It was the longest span in the world until 1931.",
+      "sentence": 3,
+      "quote": "Construction took six years",
+      "looking_for": "how long the bridge took to build"
+    },
+    {
+      "question": "what is the Osric Building now",
+      "passage": "The Osric Building is a former power station on the south bank of the river Calla. It generated electricity for the city of Hamblin from 1925 until 1981. Its four chimneys are each 101 metres tall. Since 2010 it has been a museum of modern design.",
+      "sentence": 4,
+      "quote": "Since 2010 it has been a museum of modern design",
+      "looking_for": "what the building is used as today"
+    },
+    {
+      "question": "how many storeys is Ferris House",
+      "passage": "Ferris House is a Georgian town house on Cavendish Row in Maddenford. It was built in 1789 for the banker Charles Ferris. The house has five storeys, including a basement and attic. It is now the headquarters of the Maddenford Civic Society.",
+      "sentence": 3,
+      "quote": "has five storeys",
+      "looking_for": "the number of storeys of the house"
+    },
+    {
+      "question": "when was the Weller Swing Bridge built",
+      "passage": "The Weller Swing Bridge is a road bridge over the Weller Ship Canal that can turn to let ships pass. Its turning span weighs 1,400 tonnes and rotates on a central pier. The bridge was built between 1891 and 1894. It is still opened about a dozen times a year.",
+      "sentence": 3,
+      "quote": "built between 1891 and 1894",
+      "looking_for": "when the bridge was built"
+    },
+    {
+      "question": "who lived in Hollowell Cottage",
+      "passage": "Hollowell Cottage is a thatched cottage in the village of Lower Prent. It dates from the seventeenth century. From 1902 until her death in 1948 it was the home of the novelist Ada Trevine. It is now a museum devoted to her life and work.",
+      "sentence": 3,
+      "quote": "home of the novelist Ada Trevine",
+      "looking_for": "the person who lived in the cottage"
+    },
+    {
+      "question": "where is the Gatwell Folly",
+      "passage": "The Gatwell Folly is an octagonal tower built as an eye-catcher in 1758. It was commissioned by the landowner George Gatwell. The tower is three storeys high and has a viewing room at the top. It fell into ruin in the nineteenth century and was restored in 1984. It stands on Sheepcote Ridge, south of the village of Wenlow.",
+      "sentence": 5,
+      "quote": "on Sheepcote Ridge, south of the village of Wenlow",
+      "looking_for": "the location of the folly"
+    },
+    {
+      "question": "how many rooms does the Kingsley Grand Hotel have",
+      "passage": "The Kingsley Grand Hotel is a luxury hotel overlooking the lake at Aster Vale. It was built in 1909 for the hotelier Frederick Kingsley. Guests have included three heads of state. It closed in 1990 for restoration and reopened in 1994. The hotel has 186 rooms and suites.",
+      "sentence": 5,
+      "quote": "has 186 rooms and suites",
+      "looking_for": "the number of rooms in the hotel"
+    },
+    {
+      "question": "when did the Calver Bridge open",
+      "passage": "The Calver Bridge is a toll bridge across the Calver estuary. It is owned by the Calver Bridge Company, which collects the tolls. The bridge has four lanes and a cycle track. It was opened on 2 May 1979. Tolls were raised for the last time in 2021.",
+      "sentence": 4,
+      "quote": "opened on 2 May 1979",
+      "looking_for": "the date the bridge opened"
+    },
+    {
+      "question": "who looks after the Wraxhill Stones",
+      "passage": "The Wraxhill Stones are a circle of nineteen standing stones on Wraxhill Down. They were raised about 2500 BC by the first farmers of the downs. The tallest stone is 3.2 metres high. The site is looked after by the Downland Heritage Trust.",
+      "sentence": 4,
+      "quote": "looked after by the Downland Heritage Trust",
+      "looking_for": "the organisation that cares for the stones"
+    },
+    {
+      "question": "how many lanes does the Rennet Bridge carry",
+      "passage": "The Rennet Bridge is a concrete box girder bridge over the river Rennet at Corley. It was built in 1974 to take traffic off the old town bridge. The bridge carries six lanes of the ring road.",
+      "sentence": 3,
+      "quote": "carries six lanes",
+      "looking_for": "the number of lanes on the bridge"
+    },
+    {
+      "question": "how tall is the Ardent Tower",
+      "passage": "The Ardent Tower is a mixed-use skyscraper in the Lakeside district of Varmouth. It was designed by the practice Kell and Orme. Construction began in 2014 and was completed in 2018. The building contains offices, a hotel and 200 apartments. Its spire carries a beacon for aircraft. The tower is 262 metres tall to the tip of the spire.",
+      "sentence": 6,
+      "quote": "262 metres tall to the tip",
+      "looking_for": "the height of the tower"
+    },
+    {
+      "question": "who designed the Mirrin Pagoda",
+      "passage": "The Mirrin Pagoda is a nine-storey brick pagoda in the temple gardens of Mirrin. It was built in 1426 to house sacred texts. It is 57 metres tall. The pagoda was badly damaged by an earthquake in 1830. It was rebuilt in 1834 to the original design of the master builder Shen Arlo.",
+      "sentence": 5,
+      "quote": "original design of the master builder Shen Arlo",
+      "looking_for": "the name of the pagoda's designer"
+    },
+    {
+      "question": "when was the Clennell Bridge built",
+      "passage": "The Clennell Bridge is a medieval bridge across the river Clenn in the town of Clennell. It has five pointed arches and a chapel on its central pier. The chapel was dedicated to the patron saint of travellers. The bridge was built between 1390 and 1402.",
+      "sentence": 4,
+      "quote": "built between 1390 and 1402",
+      "looking_for": "when the bridge was built"
+    },
+    {
+      "question": "how much water does the Mardon Dam hold back",
+      "passage": "The Mardon Dam is an embankment dam on the river Mard. It was completed in 1971 and is 64 metres high. The reservoir behind it holds 410 million cubic metres of water.",
+      "sentence": 3,
+      "quote": "holds 410 million cubic metres of water",
+      "looking_for": "the amount of water the reservoir holds"
+    },
+    {
+      "question": "who owns the Crestwood Hotel",
+      "passage": "The Crestwood Hotel is a seafront hotel in Lannport. It was built in 1902 by the shipping magnate Edgar Crest. The Crest family ran the hotel until 1971, when it was sold. It has 140 rooms and a ballroom.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the current owner of the hotel"
+    },
+    {
+      "question": "how tall is the Wellan Tower",
+      "passage": "The Wellan Tower is a brick chimney that is the last surviving part of the Wellan ironworks. The works were founded in 1832 by Ezra Wellan. The tower's base is 9 metres across. It was given protected status in 1985.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the height of the tower"
+    },
+    {
+      "question": "who designed the Rillstone Bridge",
+      "passage": "The Rillstone Bridge is a stone arch bridge over the river Rill. It was built in 1810 by the contractor Joseph Pardew. It was paid for by the county and opened by the Lord Lieutenant, Earl Mardale.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the bridge's designer"
+    },
+    {
+      "question": "when was the Corlett Tower demolished",
+      "passage": "The Corlett Tower is a 30-storey residential block in Ennisfield. It was built in 1969 and refurbished in 2005. A neighbouring block, Lyle House, was demolished in 2012.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the tower was demolished"
+    },
+    {
+      "question": "who is the keeper of Skellan Island Lighthouse now",
+      "passage": "Skellan Island Lighthouse is a stone lighthouse on the western shore of Skellan Island. Its first keeper, Robert Daunay, served from 1856 to 1890. The light was automated in 1987, and the last keeper, Hugh Mair, retired that year.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current keeper"
+    },
+    {
+      "question": "total length of the Aldmere Bridge",
+      "passage": "The Aldmere Bridge is a cantilever bridge over the Aldmere Firth. Its towers are 104 metres tall. It was opened in 1890 and was painted red in 1952. Each of its two main spans is 520 metres.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the total length of the bridge"
+    },
+    {
+      "question": "who was the architect of Tilsey Town Hall",
+      "passage": "Tilsey Town Hall is the seat of the borough council of Tilsey. The building was opened in 1897 by the mayor, Richard Coate. Its clock was made by the firm of Lund and Barrow. The council chamber was redecorated in 1960.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the town hall's architect"
+    },
+    {
+      "question": "when was the Fanshaw Observatory founded",
+      "passage": "The Fanshaw Observatory is a public observatory in the town park of Ellery. Its present dome was built in 1964. The main telescope, a refractor made in 1880, was moved there from the old observatory.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the observatory was founded"
+    },
+    {
+      "question": "Delmont Tower floor count",
+      "passage": "The Delmont Tower is a 190 metre office tower in Westquay. It was completed in 2004 for the Delmont Bank. Its lobby is three storeys high. The building has 22 lifts.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of floors in the tower"
+    },
+    {
+      "question": "who owns Harrowmere Castle",
+      "passage": "Harrowmere Castle is a ruined castle on the shore of Lake Harrow. It was built in 1240 by Walter de Harrow. The castle was besieged in 1460 and slighted after the civil war. Its last resident, the antiquary Bertram Hale, left in 1898.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the current owner of the castle"
+    },
+    {
+      "question": "how tall is the statue of Queen Maud in Ransby",
+      "passage": "The statue of Queen Maud is a bronze monument in the main square of Ransby. It was sculpted by Henrik Vos and unveiled in 1911. The statue stands on a granite pedestal 6 metres high.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the height of the statue"
+    },
+    {
+      "question": "when did the Morven Bridge open",
+      "passage": "The Morven Bridge is a road bridge across the river Morv at Eskby. Construction began in 1958. The bridge was designed by the engineer Paula Grieve. It was widened in 1990.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the date the bridge opened"
+    },
+    {
+      "question": "who is the warden of the Ashlock Almshouses",
+      "passage": "The Ashlock Almshouses are a row of twelve cottages founded in 1612 for poor widows of the parish. They were endowed by the merchant Margaret Ashlock. The first warden was the curate John Ridding. The buildings were restored in 1962.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current warden"
+    },
+    {
+      "question": "what is the tallest building in Elsworth",
+      "passage": "The Carrow Building is an office tower in the centre of Elsworth. When it was completed in 1972 it was the tallest building in the city. It is 120 metres tall and has 31 floors. The tower was refurbished in 2015.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the tallest building now"
+    },
+    {
+      "question": "how many arches on the Penmor railway viaduct",
+      "passage": "The Penmor Viaduct is a railway viaduct over the Penmor valley. It is 450 metres long and 37 metres high. It was completed in 1864 by the engineer Isaac Brunt.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of arches of the viaduct"
+    },
+    {
+      "question": "when was the Ormley Tower built",
+      "passage": "The Ormley Tower is a medieval tower house in the hills above Ormley. It was restored in 1925 by the architect Alice Barr. The tower was bought by the Ormley Heritage Trust in 1990.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "when the tower was built"
+    },
+    {
+      "question": "who designed Brightmoor Stadium",
+      "passage": "Brightmoor Stadium is the home ground of the Brightmoor United football club. It was opened in 1999 by the club's chairman, Leonard Shawcross. The stadium holds 28,000 spectators. It was built by the construction company Harland Boyd.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the stadium's designer"
+    },
+    {
+      "question": "when did Vale Palace burn down",
+      "passage": "Vale Palace was a royal summer residence near the town of Vellmouth. It was built in 1690 for King Ennis. The palace was enlarged in 1760 and became a military hospital in 1916. Its gardens are now a public park.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the palace burned down"
+    },
+    {
+      "question": "who owns Stanton Mill",
+      "passage": "Stanton Mill is a former flax mill on the river Stan. It was founded in 1797 by the brothers George and Henry Stanton. The mill closed in 1961. Its buildings were converted into workshops and a cafe in 2003.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the current owner of the mill"
+    },
+    {
+      "question": "how high is the Dorran Dam",
+      "passage": "The Dorran Dam is a gravity dam on the upper river Dorr. It is 820 metres long at the crest. The dam was completed in 1966 and holds back Dorran Water. Its power station produces 140 megawatts.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the height of the dam"
+    },
+    {
+      "question": "when was Fullers Hall built",
+      "passage": "Fullers Hall is the guildhall of the Guild of Fullers in the city of Ambury. The guild was founded in 1361. The hall was badly damaged by fire in 1666. Its fine plaster ceiling in the banqueting room was added in 1720.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "when the hall was built"
+    },
+    {
+      "question": "who lives in Stelling House",
+      "passage": "Stelling House is a Regency villa on the hill above Pemworth. It was built in 1818 for the admiral Sir James Stelling. The poet Clara Ostrom lived there from 1880 to 1903. The house was divided into flats in 1950.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who lives in the house now"
+    },
+    {
+      "question": "how long is the Harker Tunnel",
+      "passage": "The Harker Tunnel is a railway tunnel under the Harker Hills. It was dug between 1846 and 1851 by about 3,000 labourers. Its portals are 8 metres high. The tunnel was electrified in 1972.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the length of the tunnel"
+    },
+    {
+      "question": "who designed Penhallow Lighthouse",
+      "passage": "Penhallow Lighthouse is a lighthouse on the headland of Penhallow. It was commissioned by the harbour trust in 1859. The tower was lit for the first time in 1862 by the trust's chairman, Edward Lusk. It is 26 metres tall.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the lighthouse's designer"
+    },
+    {
+      "question": "how many people visit the Aldous Tower",
+      "passage": "The Aldous Tower is a viewing tower on the summit of Aldous Hill. It was built in 1897 to mark the queen's jubilee. On a clear day 40 church towers can be seen from the top. The tower is open to visitors from April to October.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of visitors each year"
+    },
+    {
+      "question": "when did the Fellgate Bridge close",
+      "passage": "The Fellgate Bridge is a footbridge over the railway at Fellgate station. It was built in 1902 of wrought iron. The station closed to passengers in 1965. A new lift was fitted to the bridge in 2019.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the bridge closed"
+    },
+    {
+      "question": "who is the abbot of Torran Abbey",
+      "passage": "Torran Abbey is a Benedictine monastery on the island of Torran. It was founded in 1104 by the monk Aelred of Corve. Its church was rebuilt in 1880 after a storm. Twenty monks live there today.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current abbot"
+    },
+    {
+      "question": "how tall is the Crane Building",
+      "passage": "The Crane Building is a hotel tower in Fairlie Point. Its original plans, drawn in 2007, were for a 300 metre tower. The design was scaled back after the financial crisis, and the building opened in 2012.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the height of the building"
+    },
+    {
+      "question": "who unveiled the Tarrow Cenotaph",
+      "passage": "The Tarrow Cenotaph is a stone war memorial in Memorial Gardens, Tarrow. It was designed by the architect Simon Fyfe. The memorial was paid for by public subscription and completed in 1923. Names from the Second World War were added in 1949.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who unveiled the memorial"
+    },
+    {
+      "question": "how many people work in the Vossberg Building",
+      "passage": "The Vossberg Building is the headquarters of the Vossberg Electrical Company in Kantsburg. It was completed in 1961 and has 28 floors. The company employs 12,000 people worldwide. The building's lobby contains a mural by Ilse Darnow.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of people working in the building"
+    }
+  ]
+}

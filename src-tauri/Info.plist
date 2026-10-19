@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Merged into the bundle's Info.plist by Tauri. macOS shows this string
+	     in the screen-recording prompt, and the prompt is only ever triggered
+	     by someone using the screenshot action — never at launch. -->
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Pigeon reads the text in a screenshot on this Mac. The picture is never saved and never sent anywhere.</string>
+</dict>
+</plist>

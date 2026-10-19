@@ -1,0 +1,15 @@
+{
+  "id": "ranked",
+  "hypothesis": "'best match first' measured 159 alone before runway-auto existed; never with the current stack",
+  "flags": [
+    "--ranked"
+  ],
+  "prompt": null,
+  "needs": [
+    "planner",
+    "category"
+  ],
+  "rule": "correct >= control.correct + 4 and leaks <= control.leaks",
+  "reads": null,
+  "added": "2026-09-08"
+}

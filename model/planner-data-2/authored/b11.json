@@ -1,0 +1,7145 @@
+{
+ "rows": [
+  {
+   "skill": "joinLines",
+   "message": "put these on one line separated by semicolons:\nmilk\neggs\nflour\nbutter",
+   "input": {
+    "text": "milk\neggs\nflour\nbutter",
+    "delimiter": ";"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "Can you join these lines into a single line with a space between each?\nRoses\nare\nred",
+   "input": {
+    "text": "Roses\nare\nred",
+    "delimiter": " "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "join with pipes\nalpha\nbravo\ncharlie\ndelta",
+   "input": {
+    "text": "alpha\nbravo\ncharlie\ndelta",
+    "delimiter": "|"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "I've got my students' names one per line and the register wants them on one line, comma separated.\nAisha\nBen\nCarlos\nDanielle",
+   "input": {
+    "text": "Aisha\nBen\nCarlos\nDanielle",
+    "delimiter": ","
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "join these lines together into one line\nred\ngreen\nblue",
+   "input": {
+    "text": "red\ngreen\nblue"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "join this column into one line w/ dashes between\n2024\n2025\n2026",
+   "input": {
+    "text": "2024\n2025\n2026",
+    "delimiter": "-"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "Please combine the following lines into one, using a slash between them:\nParis\nLyon\nNice",
+   "input": {
+    "text": "Paris\nLyon\nNice",
+    "delimiter": "/"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "need these SKUs on a single line for the order form, comma between each\nAB-101\nAB-205\nCD-330\nEF-412",
+   "input": {
+    "text": "AB-101\nAB-205\nCD-330\nEF-412",
+    "delimiter": ","
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "flatten these lines into one line and leave the blank ones out\nsalt\n\npepper\n\ncumin",
+   "input": {
+    "text": "salt\n\npepper\n\ncumin",
+    "skipBlank": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "join these hashtags into one line with spaces\n#travel\n#sunset\n#beach",
+   "input": {
+    "text": "#travel\n#sunset\n#beach",
+    "delimiter": " "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "As a nurse I keep the meds list one per line, but the handover sheet needs one line with commas:\nparacetamol\nibuprofen\namoxicillin",
+   "input": {
+    "text": "paracetamol\nibuprofen\namoxicillin",
+    "delimiter": ","
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "concatenate these lines into one line with a single space\nGood\nmorning\nVietnam",
+   "input": {
+    "text": "Good\nmorning\nVietnam",
+    "delimiter": " "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "Join these email address lines into one line separated by semicolons so I can paste them into Outlook:\nana@shop.co\nraj@shop.co\nlee@shop.co",
+   "input": {
+    "text": "ana@shop.co\nraj@shop.co\nlee@shop.co",
+    "delimiter": ";"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "join lines, keep the leading spaces as they are\n  one\n  two\n  three",
+   "input": {
+    "text": "  one\n  two\n  three",
+    "trim": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "join the lines into one line, colons between:\nhh\nmm\nss",
+   "input": {
+    "text": "hh\nmm\nss",
+    "delimiter": ":"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "My game inventory is a column, I want it as one row joined with \" + \":\nsword\nshield\npotion",
+   "input": {
+    "text": "sword\nshield\npotion",
+    "delimiter": " + "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "Join up these lines into a single comma-separated line\nMonday\nWednesday\nFriday",
+   "input": {
+    "text": "Monday\nWednesday\nFriday",
+    "delimiter": ","
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "unwrap these lines into one line\nThe meeting has been\nmoved to Thursday\nat ten.",
+   "input": {
+    "text": "The meeting has been\nmoved to Thursday\nat ten.",
+    "delimiter": " "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "joinLines",
+   "message": "join all the lines in my list with a semicolon",
+   "input": {
+    "delimiter": ";"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "joinLines",
+   "message": "Could you put the lines of this onto one line?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "joinLines",
+   "message": "collapse the lines below into a single line, comma between them",
+   "input": {
+    "delimiter": ","
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "joinLines",
+   "message": "merge these lines into one using pipes",
+   "input": {
+    "delimiter": "|"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "joinLines",
+   "message": "join up my column of ids into one line",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "joinLines",
+   "message": "I need the following lines joined into one, skipping any blank ones",
+   "input": {
+    "skipBlank": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "what are the keywords in this abstract: Coral reefs are dying as ocean temperatures rise. Bleaching events now strike reefs every few years, and reefs need a decade to recover.",
+   "input": {
+    "text": "Coral reefs are dying as ocean temperatures rise. Bleaching events now strike reefs every few years, and reefs need a decade to recover."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "Give me the top 3 keywords from: The new bakery sells sourdough, rye and spelt loaves. Sourdough sells out by noon. The rye is popular with older customers.",
+   "input": {
+    "text": "The new bakery sells sourdough, rye and spelt loaves. Sourdough sells out by noon. The rye is popular with older customers.",
+    "limit": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "extract keywords: Volcanoes erupt when magma rises. Magma chambers fill slowly. Lava flows can bury whole villages.",
+   "input": {
+    "text": "Volcanoes erupt when magma rises. Magma chambers fill slowly. Lava flows can bury whole villages."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "I'm tagging blog posts and need 5 distinctive keywords for this one: Our trip to Iceland started in Reykjavik. We drove the ring road, saw glaciers, waterfalls and geysers, and soaked in the Blue Lagoon.",
+   "input": {
+    "text": "Our trip to Iceland started in Reykjavik. We drove the ring road, saw glaciers, waterfalls and geysers, and soaked in the Blue Lagoon.",
+    "limit": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "which words stand out most in this customer complaint? The delivery van was late again. The driver left the parcel in the rain. The parcel was soaked and the box was crushed.",
+   "input": {
+    "text": "The delivery van was late again. The driver left the parcel in the rain. The parcel was soaked and the box was crushed."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "Pick out the most important terms in this lesson summary: Photosynthesis turns sunlight into sugar. Chlorophyll absorbs light. Plants release oxygen as a by-product.",
+   "input": {
+    "text": "Photosynthesis turns sunlight into sugar. Chlorophyll absorbs light. Plants release oxygen as a by-product."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "top 2 keywords pls - Bitcoin fell sharply today. Ethereum held steady. Traders blamed Bitcoin miners selling.",
+   "input": {
+    "text": "Bitcoin fell sharply today. Ethereum held steady. Traders blamed Bitcoin miners selling.",
+    "limit": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "Pull the top keywords from this product blurb for my shop listing: Handmade leather wallet. Full-grain leather, hand stitched, with six card slots. The leather ages beautifully.",
+   "input": {
+    "text": "Handmade leather wallet. Full-grain leather, hand stitched, with six card slots. The leather ages beautifully."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "Extract ten keywords from these meeting notes: Hiring freeze on engineering. The new office opens in March. Engineering will move first.",
+   "input": {
+    "text": "Hiring freeze on engineering. The new office opens in March. Engineering will move first.",
+    "limit": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "What's this recipe mostly about, keyword-wise? Toast the cumin seeds. Fry onions until golden. Add lentils, turmeric and stock, then simmer the lentils until soft.",
+   "input": {
+    "text": "Toast the cumin seeds. Fry onions until golden. Add lentils, turmeric and stock, then simmer the lentils until soft."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "what are the keywords for this news item: Rugby season opens Saturday. The squad has three new props. Ticket sales for the opening match are strong.",
+   "input": {
+    "text": "Rugby season opens Saturday. The squad has three new props. Ticket sales for the opening match are strong."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "Could you identify the distinctive vocabulary in this paragraph from my novel? The lighthouse keeper climbed the spiral stairs. Fog swallowed the harbour. Somewhere a foghorn moaned.",
+   "input": {
+    "text": "The lighthouse keeper climbed the spiral stairs. Fog swallowed the harbour. Somewhere a foghorn moaned."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "pull 4 keywords max from this: Patients reported dizziness after the new dose. Dizziness eased within two days. Nurses logged blood pressure twice daily.",
+   "input": {
+    "text": "Patients reported dizziness after the new dose. Dizziness eased within two days. Nurses logged blood pressure twice daily.",
+    "limit": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "main keywords in this review? The hotel pool was freezing. The breakfast buffet was huge. Staff were friendly but the pool needs heating.",
+   "input": {
+    "text": "The hotel pool was freezing. The breakfast buffet was huge. Staff were friendly but the pool needs heating."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "Summarise in keywords only: Solar panels on the school roof cut the electricity bill. Pupils track solar output on a screen in the hall.",
+   "input": {
+    "text": "Solar panels on the school roof cut the electricity bill. Pupils track solar output on a screen in the hall."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "pull out the 6 most telling words from my cover letter: I led a warehouse team of twelve. I cut picking errors in half. I trained new staff on forklift safety.",
+   "input": {
+    "text": "I led a warehouse team of twelve. I cut picking errors in half. I trained new staff on forklift safety.",
+    "limit": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "keywords for this support ticket please: Printer offline after the update. Restarting the printer did not help.",
+   "input": {
+    "text": "Printer offline after the update. Restarting the printer did not help."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "Distinctive terms, please: Badgers dig setts in woodland. Setts can be centuries old. Badgers mostly eat earthworms.",
+   "input": {
+    "text": "Badgers dig setts in woodland. Setts can be centuries old. Badgers mostly eat earthworms."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "what are the main keywords in my essay",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "Give me the 5 most distinctive terms in the article below.",
+   "input": {
+    "limit": 5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "extract the keywords from this transcript",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "Which words best characterise this document? I need keywords for the index.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "top 3 keywords in the text I'm about to paste",
+   "input": {
+    "limit": 3
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "keywordsTfidf",
+   "message": "tag my blog post with its standout keywords",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "is this tweet positive or negative? \"Worst train journey ever, two hours late and no apology.\"",
+   "input": {
+    "text": "Worst train journey ever, two hours late and no apology."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "What's the sentiment of this message from a parent: Thank you so much, Mrs Patel, Leo absolutely loved the school trip!",
+   "input": {
+    "text": "Thank you so much, Mrs Patel, Leo absolutely loved the school trip!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "sentiment check: the update broke everything and support ignored me",
+   "input": {
+    "text": "the update broke everything and support ignored me"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "I run a cafe. Is this Google review positive or negative? \"Lovely coffee, friendly staff, a bit pricey but worth it.\"",
+   "input": {
+    "text": "Lovely coffee, friendly staff, a bit pricey but worth it."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "how negative does this sound: I am disappointed and frustrated with the delays.",
+   "input": {
+    "text": "I am disappointed and frustrated with the delays."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "Rate the sentiment of this, positive or negative: What a fantastic match, the crowd was amazing!",
+   "input": {
+    "text": "What a fantastic match, the crowd was amazing!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "is this email positive or negative? \"I have asked three times now and still nothing has been fixed. This is unacceptable.\"",
+   "input": {
+    "text": "I have asked three times now and still nothing has been fixed. This is unacceptable."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "Before I post it, is my reply friendly enough? Happy to help, thanks for your patience and have a great weekend.",
+   "input": {
+    "text": "Happy to help, thanks for your patience and have a great weekend."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "positive or negative: not bad at all, actually quite good",
+   "input": {
+    "text": "not bad at all, actually quite good"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "Please gauge the sentiment of this patient feedback: The nurses were kind but the waiting room was dirty and cold.",
+   "input": {
+    "text": "The nurses were kind but the waiting room was dirty and cold."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "sentiment score for \"I hate Mondays\"",
+   "input": {
+    "text": "I hate Mondays"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "is the vibe of this game review good? Gorgeous graphics, brilliant story, but the controls are awful.",
+   "input": {
+    "text": "Gorgeous graphics, brilliant story, but the controls are awful."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "My team lead wrote this in the retro, is it positive or negative overall? We shipped on time and I'm proud of everyone, though the crunch was painful.",
+   "input": {
+    "text": "We shipped on time and I'm proud of everyone, though the crunch was painful."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "Classify the sentiment: The room was clean, the bed was comfy and the view was stunning.",
+   "input": {
+    "text": "The room was clean, the bed was comfy and the view was stunning."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "how happy does this customer sound - \"Package arrived broken. Very upset. Want a refund.\"",
+   "input": {
+    "text": "Package arrived broken. Very upset. Want a refund."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "Is this comment hostile or supportive? Great job on the talk, really inspiring stuff.",
+   "input": {
+    "text": "Great job on the talk, really inspiring stuff."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "detect sentiment in: meh, it was fine i guess, nothing special",
+   "input": {
+    "text": "meh, it was fine i guess, nothing special"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "Analyse the sentiment of this line from a poem: grief sits heavy where your laughter used to be",
+   "input": {
+    "text": "grief sits heavy where your laughter used to be"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "is my landlord's email positive or negative",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "What's the sentiment of the review I'm pasting below?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "check the sentiment of these survey answers",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "does this text sound upset to you",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "Score how positive my product description is.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "lexiconSentiment",
+   "message": "sentiment of that chat log pls",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "mask the email address in: Send the invoice to raj.mehta@outlook.com by Friday.",
+   "input": {
+    "text": "Send the invoice to raj.mehta@outlook.com by Friday."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "Before I post this support thread publicly, mask the personal details: My number is 07700 900123 and my email is jo@acme.io",
+   "input": {
+    "text": "My number is 07700 900123 and my email is jo@acme.io"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "hide the card number with stars: Paid with 5500 0000 0000 0004 yesterday",
+   "input": {
+    "text": "Paid with 5500 0000 0000 0004 yesterday",
+    "style": "stars"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "Can you mask the private details in this note? Patient contact: 0161 496 0000, mum's email helen.b@gmail.com",
+   "input": {
+    "text": "Patient contact: 0161 496 0000, mum's email helen.b@gmail.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "partly mask the phone number so the last digits still show: ring me on 020 7946 0321",
+   "input": {
+    "text": "ring me on 020 7946 0321",
+    "style": "partial"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "mask just the emails, leave the phone numbers: tom@site.org or 0113 496 0789",
+   "input": {
+    "text": "tom@site.org or 0113 496 0789",
+    "kinds": [
+     "email"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "anonymise the personal data in this log before I share it: user sam.k@corp.net logged in",
+   "input": {
+    "text": "user sam.k@corp.net logged in"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "Redact sensitive data, stars please: Card 4000 0566 5566 5556, email liz@shop.uk",
+   "input": {
+    "text": "Card 4000 0566 5566 5556, email liz@shop.uk",
+    "style": "stars"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "pls mask the personal info in this message from a customer: hi it's dan, call me on 07911 123456 about the order",
+   "input": {
+    "text": "hi it's dan, call me on 07911 123456 about the order"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "Only redact the card number here: Card 3782 822463 10005, call 0207 946 0011",
+   "input": {
+    "text": "Card 3782 822463 10005, call 0207 946 0011",
+    "kinds": [
+     "card"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "I'm a teacher sharing a parent email with colleagues. Please mask the contact details: Reach me at priya.shah@mail.com or 07700 900456.",
+   "input": {
+    "text": "Reach me at priya.shah@mail.com or 07700 900456."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "mask sensitive stuff: billing@northwind.com, +44 20 7946 0958",
+   "input": {
+    "text": "billing@northwind.com, +44 20 7946 0958"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "Redact the phone number only, keep the email visible: Text 07700 900789 or write to kai@fold.io",
+   "input": {
+    "text": "Text 07700 900789 or write to kai@fold.io",
+    "kinds": [
+     "phone"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "censor the personal data in this screenshot text: Account holder email: m.jones@bank-mail.com",
+   "input": {
+    "text": "Account holder email: m.jones@bank-mail.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "Partially redact the email in: Questions? Ask fatima@school.edu",
+   "input": {
+    "text": "Questions? Ask fatima@school.edu",
+    "style": "partial"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "replace the private details with placeholders: Ship to Alan, phone 0131 496 0222, alan@home.net",
+   "input": {
+    "text": "Ship to Alan, phone 0131 496 0222, alan@home.net"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "mask PII in this row - Grace, grace.o@uni.ac.uk, 07700 900111",
+   "input": {
+    "text": "Grace, grace.o@uni.ac.uk, 07700 900111"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "Could you mask the email address in this complaint before I forward it? From: angry.customer@yahoo.com - the parcel never came.",
+   "input": {
+    "text": "From: angry.customer@yahoo.com - the parcel never came."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "redact the personal details in my spreadsheet export",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "Mask any phone numbers and emails in the text below with stars.",
+   "input": {
+    "style": "stars"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "hide the sensitive info in this chat before I send it to IT",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "partially mask the card numbers in these notes",
+   "input": {
+    "style": "partial"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "Can you redact private data from the email I'm about to paste?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "mask the emails in this log",
+   "input": {
+    "kinds": [
+     "email"
+    ]
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "collapse the spaces in this: The   quick  brown    fox",
+   "input": {
+    "text": "The   quick  brown    fox"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "Collapse the extra spaces here please:   Dear  Sir,   thank you   for your letter.  ",
+   "input": {
+    "text": "  Dear  Sir,   thank you   for your letter.  "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "normalize whitespace: total   due    on    arrival",
+   "input": {
+    "text": "total   due    on    arrival"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "I copied this from a PDF and the spacing is all over the place, can you tidy it? Chapter  1   The   Beginning",
+   "input": {
+    "text": "Chapter  1   The   Beginning"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "collapse the double spaces in: Please  arrive  by  nine  sharp.",
+   "input": {
+    "text": "Please  arrive  by  nine  sharp."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "Clean up the whitespace in this address:   12   High    Street ,   Leeds   ",
+   "input": {
+    "text": "  12   High    Street ,   Leeds   "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "tidy whitespace and squeeze the blank lines:\nline one\n\n\n\nline two",
+   "input": {
+    "text": "line one\n\n\n\nline two",
+    "collapseBlankLines": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "Fix the spaces but keep all my blank lines as they are:\nIntro   text\n\n\nEnd   text",
+   "input": {
+    "text": "Intro   text\n\n\nEnd   text",
+    "collapseBlankLines": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "strip the leading and trailing spaces and collapse the gaps:     hello      world     ",
+   "input": {
+    "text": "    hello      world     "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "my essay has random double spaces, normalise the whitespace: The  results  were   clear and  the  method   was sound.",
+   "input": {
+    "text": "The  results  were   clear and  the  method   was sound."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "whitespace cleanup pls: SELECT  *   FROM    users",
+   "input": {
+    "text": "SELECT  *   FROM    users"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "Could you collapse the extra whitespace in this menu item? Fish   and   chips    £9.50",
+   "input": {
+    "text": "Fish   and   chips    £9.50"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "trim and collapse the extra spaces in:  Room  4B  ,  second   floor ",
+   "input": {
+    "text": " Room  4B  ,  second   floor "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "Tidy up the spacing and line endings in this pasted text:\r\nNotes   from\r\n\r\n\r\nthe   meeting",
+   "input": {
+    "text": "Notes   from\r\n\r\n\r\nthe   meeting"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "collapse multiple spaces to one: a    b     c      d",
+   "input": {
+    "text": "a    b     c      d"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "the whitespace in this caption is messy, tidy it:   Sunset   over    the   bay  ",
+   "input": {
+    "text": "  Sunset   over    the   bay  "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "Normalise the whitespace in this product title: Organic   Green  Tea   - 50   bags",
+   "input": {
+    "text": "Organic   Green  Tea   - 50   bags"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "squeeze out the extra blank lines and spaces:\nItem   A\n\n\n\n\nItem   B",
+   "input": {
+    "text": "Item   A\n\n\n\n\nItem   B"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "normalise the whitespace in the paragraph I pasted",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "Collapse the extra spaces in the text below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "normalize the whitespace in this file but keep the blank lines",
+   "input": {
+    "collapseBlankLines": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "this copy from Word has weird spacing, can you fix the spaces",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "clean the whitespace out of these lines",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "normalizeWhitespace",
+   "message": "Please collapse the runs of spaces in my draft.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "numberLines",
+   "message": "add line numbers to this poem:\nThe rain came down\nThe river rose\nThe town slept on",
+   "input": {
+    "text": "The rain came down\nThe river rose\nThe town slept on"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "Add a line number to each step of my recipe:\nPreheat the oven\nMix the batter\nPour into tins\nBake for 25 minutes",
+   "input": {
+    "text": "Preheat the oven\nMix the batter\nPour into tins\nBake for 25 minutes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "put numbers in front of these lines starting from 5\nfive\nsix\nseven",
+   "input": {
+    "text": "five\nsix\nseven",
+    "start": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "line-number this code, separator \": \"\nimport os\nprint(os.getcwd())",
+   "input": {
+    "text": "import os\nprint(os.getcwd())",
+    "separator": ": "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "Please put line numbers on these agenda items:\nWelcome\nMinutes of last meeting\nBudget\nAny other business",
+   "input": {
+    "text": "Welcome\nMinutes of last meeting\nBudget\nAny other business"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "number the lines but skip the empty ones\nalpha\n\nbeta\n\ngamma",
+   "input": {
+    "text": "alpha\n\nbeta\n\ngamma",
+    "skipBlank": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "I'm marking scripts, add line numbers starting from 21:\nParis\nOxygen\n1066",
+   "input": {
+    "text": "Paris\nOxygen\n1066",
+    "start": 21
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "add a line number at the start of every line\nwake up\nfeed cat\ncoffee",
+   "input": {
+    "text": "wake up\nfeed cat\ncoffee"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "Can you give each line of these lyrics I wrote a number?\nWe ride at dawn\nWe sing at dusk",
+   "input": {
+    "text": "We ride at dawn\nWe sing at dusk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "number these lines with a closing bracket like 1)\nmilk\nbread\njam",
+   "input": {
+    "text": "milk\nbread\njam",
+    "separator": ")"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "Number these lines starting at 0:\nzero\nfirst\nsecond",
+   "input": {
+    "text": "zero\nfirst\nsecond",
+    "start": 0
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "add numbers to each line of the guest list\nAmir\nBeth\nCole\nDina\nEvan",
+   "input": {
+    "text": "Amir\nBeth\nCole\nDina\nEvan"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "Give these error log lines line numbers please\nERROR disk full\nWARN retrying\nERROR timeout",
+   "input": {
+    "text": "ERROR disk full\nWARN retrying\nERROR timeout"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "number lines, tab after the number\nnorth\neast\nsouth\nwest",
+   "input": {
+    "text": "north\neast\nsouth\nwest",
+    "separator": "\t"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "My kid's spelling list needs numbering from 11 since the first ten were last week:\nbecause\nfriend\nthrough",
+   "input": {
+    "text": "because\nfriend\nthrough",
+    "start": 11
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "stick a line number on each of these\nsetup\ntest\ndeploy",
+   "input": {
+    "text": "setup\ntest\ndeploy"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "Number the lines of this script for the actors:\nANNA: Where were you?\nTOM: Out.\nANNA: Out where?",
+   "input": {
+    "text": "ANNA: Where were you?\nTOM: Out.\nANNA: Out where?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "add line numbers, numbering only lines that have text\nfirst\n\n\nsecond\nthird",
+   "input": {
+    "text": "first\n\n\nsecond\nthird",
+    "skipBlank": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "numberLines",
+   "message": "stick line numbers down the side of my notes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "numberLines",
+   "message": "Put line numbers from 100 onwards on the code below.",
+   "input": {
+    "start": 100
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "numberLines",
+   "message": "put a line number in front of each line of this",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "numberLines",
+   "message": "number these lines with a dash after each number",
+   "input": {
+    "separator": "-"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "numberLines",
+   "message": "Could you add line numbering to my contract draft?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "numberLines",
+   "message": "line numbers on this pls, skip blank lines",
+   "input": {
+    "skipBlank": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "padText",
+   "message": "pad the word menu to 12 characters",
+   "input": {
+    "text": "menu",
+    "width": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "Right-align 3.50 in a field 8 wide",
+   "input": {
+    "text": "3.50",
+    "width": 8,
+    "align": "right"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "pad 7 with zeros on the left to 3 digits",
+   "input": {
+    "text": "7",
+    "width": 3,
+    "align": "right",
+    "fill": "0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "centre \"GAME OVER\" in 20 columns",
+   "input": {
+    "text": "GAME OVER",
+    "width": 20,
+    "align": "centre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "I'm making a receipt layout; pad \"Coffee\" to 15 chars with dots after it",
+   "input": {
+    "text": "Coffee",
+    "width": 15,
+    "fill": "."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "pad Total out to a width of 10, right aligned",
+   "input": {
+    "text": "Total",
+    "width": 10,
+    "align": "right"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "Can you pad the order number 42 to six characters with leading zeros?",
+   "input": {
+    "text": "42",
+    "width": 6,
+    "align": "right",
+    "fill": "0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "left pad ABC to 9 with dashes",
+   "input": {
+    "text": "ABC",
+    "width": 9,
+    "align": "right",
+    "fill": "-"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "pad the heading Results to 30 characters, centred, using asterisks",
+   "input": {
+    "text": "Results",
+    "width": 30,
+    "align": "centre",
+    "fill": "*"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "pad \"Name\" to 16 so my table columns line up",
+   "input": {
+    "text": "Name",
+    "width": 16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "Please right-pad the label Qty to 7 characters",
+   "input": {
+    "text": "Qty",
+    "width": 7,
+    "align": "left"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "pad \"hello\" to exactly 11 wide, centred",
+   "input": {
+    "text": "hello",
+    "width": 11,
+    "align": "centre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "pad 2026 to 10 chars with spaces on the left",
+   "input": {
+    "text": "2026",
+    "width": 10,
+    "align": "right"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "For my terminal game, pad the score 980 to 8 characters with zeros",
+   "input": {
+    "text": "980",
+    "width": 8,
+    "align": "right",
+    "fill": "0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "fill out \"Chapter 1\" to 25 characters with dots for a contents page",
+   "input": {
+    "text": "Chapter 1",
+    "width": 25,
+    "fill": "."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "Pad the SKU X9 to 5 characters, right-aligned, using underscores",
+   "input": {
+    "text": "X9",
+    "width": 5,
+    "align": "right",
+    "fill": "_"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "pad ok to 4",
+   "input": {
+    "text": "ok",
+    "width": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "Centre the word Welcome in a 40 character banner of equals signs",
+   "input": {
+    "text": "Welcome",
+    "width": 40,
+    "align": "centre",
+    "fill": "="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "pad the invoice code INV-88 out to 14 characters",
+   "input": {
+    "text": "INV-88",
+    "width": 14
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "padText",
+   "message": "pad my column header to 20 characters",
+   "input": {
+    "width": 20
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "padText",
+   "message": "Right-align this value in a 12 wide field.",
+   "input": {
+    "width": 12,
+    "align": "right"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "padText",
+   "message": "pad the text below to 30 chars with dots",
+   "input": {
+    "width": 30,
+    "fill": "."
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "padText",
+   "message": "centre this title in 50 columns",
+   "input": {
+    "width": 50,
+    "align": "centre"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "padText",
+   "message": "Can you pad my label out to width 16?",
+   "input": {
+    "width": 16
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "what grade level is this paragraph? The mitochondria is the powerhouse of the cell. It turns food into energy the cell can use.",
+   "input": {
+    "text": "The mitochondria is the powerhouse of the cell. It turns food into energy the cell can use."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "I teach year 4. Is this story readable for them? The dog ran to the park. He found a red ball under a tree.",
+   "input": {
+    "text": "The dog ran to the park. He found a red ball under a tree."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "Flesch reading ease for: Notwithstanding the aforementioned provisions, the lessee shall indemnify the lessor against all consequential losses.",
+   "input": {
+    "text": "Notwithstanding the aforementioned provisions, the lessee shall indemnify the lessor against all consequential losses."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "check the reading level of my patient leaflet: Take one tablet each morning with water. Do not drive if you feel sleepy.",
+   "input": {
+    "text": "Take one tablet each morning with water. Do not drive if you feel sleepy."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "What grade level is this written at? Our innovative, cross-functional methodology leverages synergistic paradigms to operationalise stakeholder value.",
+   "input": {
+    "text": "Our innovative, cross-functional methodology leverages synergistic paradigms to operationalise stakeholder value."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "reading level pls: Press the green button. Wait for the beep. Then open the door.",
+   "input": {
+    "text": "Press the green button. Wait for the beep. Then open the door."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "What reading level is this story? Once upon a time, a little fox lived in a hollow log near the river.",
+   "input": {
+    "text": "Once upon a time, a little fox lived in a hollow log near the river."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "Can you estimate the school grade for this exam question? Explain how the industrial revolution transformed urban living conditions in nineteenth-century Britain.",
+   "input": {
+    "text": "Explain how the industrial revolution transformed urban living conditions in nineteenth-century Britain."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "is my cover letter too hard to read? I am writing to express my considerable enthusiasm regarding the opportunity to contribute to your organisation's continued development.",
+   "input": {
+    "text": "I am writing to express my considerable enthusiasm regarding the opportunity to contribute to your organisation's continued development."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "reading level check on this product warning: Keep away from fire. Not suitable for children under three.",
+   "input": {
+    "text": "Keep away from fire. Not suitable for children under three."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "Assess the reading level of this abstract: We examine heterogeneous treatment effects using a randomised controlled trial across forty municipalities.",
+   "input": {
+    "text": "We examine heterogeneous treatment effects using a randomised controlled trial across forty municipalities."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "As a council officer I have to write in plain English. What grade level is this? Bins are collected every Tuesday. Put them out by 7am.",
+   "input": {
+    "text": "Bins are collected every Tuesday. Put them out by 7am."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "How hard to read is the opening of my blog post? I never meant to become a beekeeper. It started with one swarm in the apple tree.",
+   "input": {
+    "text": "I never meant to become a beekeeper. It started with one swarm in the apple tree."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "Give me the Flesch-Kincaid grade of this sentence: The committee will reconvene subsequent to the publication of the auditor's preliminary findings.",
+   "input": {
+    "text": "The committee will reconvene subsequent to the publication of the auditor's preliminary findings."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "what reading level are these game instructions at? Collect all the stars. Avoid the spikes. Jump twice to fly.",
+   "input": {
+    "text": "Collect all the stars. Avoid the spikes. Jump twice to fly."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "Is this terms-of-service clause written at too high a reading level? Subscribers acknowledge that renewal shall occur automatically unless cancellation is effected prior to the billing date.",
+   "input": {
+    "text": "Subscribers acknowledge that renewal shall occur automatically unless cancellation is effected prior to the billing date."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "reading ease of: Wash your hands. Dry them well. Use the gel by the door.",
+   "input": {
+    "text": "Wash your hands. Dry them well. Use the gel by the door."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "My dad wrote this for the church newsletter, is the reading level ok? The harvest supper will be held in the village hall, and everyone is warmly invited to bring a dish to share.",
+   "input": {
+    "text": "The harvest supper will be held in the village hall, and everyone is warmly invited to bring a dish to share."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "what grade level is my essay written at",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "Check the readability of the passage below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "what reading level is this leaflet, would a ten year old manage it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "Flesch score for my draft please",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "is the reading level of these instructions too high?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingLevel",
+   "message": "estimate the reading age of the chapter I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingTime",
+   "message": "how long would it take to read this aloud? Ladies and gentlemen, thank you all for coming tonight to celebrate twenty years of the club.",
+   "input": {
+    "text": "Ladies and gentlemen, thank you all for coming tonight to celebrate twenty years of the club."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "Reading time for my wedding toast at 130 words a minute: I first met Sam at university, when he borrowed my notes and never gave them back. Ten years on, he still hasn't.",
+   "input": {
+    "text": "I first met Sam at university, when he borrowed my notes and never gave them back. Ten years on, he still hasn't.",
+    "wpm": 130
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "how many minutes will it take to read this: The library will close for refurbishment from June until September. Books can be returned at the town hall.",
+   "input": {
+    "text": "The library will close for refurbishment from June until September. Books can be returned at the town hall."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "I read slowly, about 120 wpm. How long will this take me? The orientation pack explains parking, lunch and the fire drill.",
+   "input": {
+    "text": "The orientation pack explains parking, lunch and the fire drill.",
+    "wpm": 120
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "Estimate the reading time of this newsletter intro: Welcome to the autumn issue. This month we cover the bake sale, the new playground and the winter concert.",
+   "input": {
+    "text": "Welcome to the autumn issue. This month we cover the bake sale, the new playground and the winter concert."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "speaking time for this radio ad at 160 wpm: Big savings this weekend only at Harlow Furniture. Sofas, beds and tables, all half price.",
+   "input": {
+    "text": "Big savings this weekend only at Harlow Furniture. Sofas, beds and tables, all half price.",
+    "wpm": 160
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "how long to read this email out loud? Hi team, quick update: the server move is done, logins work, and the old box goes offline Friday.",
+   "input": {
+    "text": "Hi team, quick update: the server move is done, logins work, and the old box goes offline Friday."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "A speed reader at 600 words per minute, how long for this? The treaty ended the war but left the borders unresolved for decades.",
+   "input": {
+    "text": "The treaty ended the war but left the borders unresolved for decades.",
+    "wpm": 600
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "How long will my eulogy take to say? Mum loved her garden, her grandchildren and a strong cup of tea. She taught us all to be kind.",
+   "input": {
+    "text": "Mum loved her garden, her grandchildren and a strong cup of tea. She taught us all to be kind."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "how long to read pls: Step one, unplug the router. Step two, wait thirty seconds. Step three, plug it back in.",
+   "input": {
+    "text": "Step one, unplug the router. Step two, wait thirty seconds. Step three, plug it back in."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "Time to read this at 250 words per minute: The museum's new wing houses the dinosaur collection and a hands-on science lab.",
+   "input": {
+    "text": "The museum's new wing houses the dinosaur collection and a hands-on science lab.",
+    "wpm": 250
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "how long does this take to read - Our shop opens at nine, closes at five, and is shut on Sundays and bank holidays.",
+   "input": {
+    "text": "Our shop opens at nine, closes at five, and is shut on Sundays and bank holidays."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "I'm a podcast host; how many seconds will this intro take to read aloud at 150 wpm? Welcome back to Garden Talk, the show where we get our hands dirty.",
+   "input": {
+    "text": "Welcome back to Garden Talk, the show where we get our hands dirty.",
+    "wpm": 150
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "Estimate how long it takes to read this bedtime story: The moon looked down on the sleepy farm. The cows were quiet. The owl said goodnight.",
+   "input": {
+    "text": "The moon looked down on the sleepy farm. The cows were quiet. The owl said goodnight."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "how long to read at 90 words a minute? Please remember to sign the permission slip and return it by Thursday.",
+   "input": {
+    "text": "Please remember to sign the permission slip and return it by Thursday.",
+    "wpm": 90
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "How long will this LinkedIn post take to read? Thrilled to share that I've joined Brightline as head of design. Grateful to everyone who helped along the way.",
+   "input": {
+    "text": "Thrilled to share that I've joined Brightline as head of design. Grateful to everyone who helped along the way."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "presentation timing: how long to say this at 140 wpm? Our quarter closed strong, with new customers up and churn down across every region.",
+   "input": {
+    "text": "Our quarter closed strong, with new customers up and churn down across every region.",
+    "wpm": 140
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "Roughly how long would it take someone to read this sign? Beware of the dog. Deliveries round the back. Ring twice.",
+   "input": {
+    "text": "Beware of the dog. Deliveries round the back. Ring twice."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingTime",
+   "message": "how many minutes is my speech when read out loud",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingTime",
+   "message": "Reading time for the article below at 200 wpm?",
+   "input": {
+    "wpm": 200
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingTime",
+   "message": "how many minutes would this chapter take to read",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingTime",
+   "message": "Estimate the reading time of my blog post.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingTime",
+   "message": "how long to read this aloud at 110 words per minute",
+   "input": {
+    "wpm": 110
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingTime",
+   "message": "time it'd take to read the report I'm attaching",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "remove the repeated lines:\nbread\nmilk\nbread\neggs\nmilk",
+   "input": {
+    "text": "bread\nmilk\nbread\neggs\nmilk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "My mailing list has duplicate lines, please remove them:\nann@x.com\nbob@x.com\nann@x.com\ncat@x.com",
+   "input": {
+    "text": "ann@x.com\nbob@x.com\nann@x.com\ncat@x.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "get rid of duplicate lines, case doesn't matter:\nLondon\nlondon\nParis\nPARIS\nRome",
+   "input": {
+    "text": "London\nlondon\nParis\nPARIS\nRome",
+    "ignoreCase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "Delete the duplicate lines from this list of student ids:\nS101\nS102\nS101\nS103\nS102",
+   "input": {
+    "text": "S101\nS102\nS101\nS103\nS102"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "dedupe these lines\nred\nred\nblue\nred\ngreen",
+   "input": {
+    "text": "red\nred\nblue\nred\ngreen"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "remove dupes, treat extra spacing as the same line:\nfish  and chips\nfish and chips\npie and mash",
+   "input": {
+    "text": "fish  and chips\nfish and chips\npie and mash",
+    "ignoreSpacing": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "I exported tags from my blog and some appear twice. Remove the duplicates:\ntravel\nfood\ntravel\nphotography\nfood",
+   "input": {
+    "text": "travel\nfood\ntravel\nphotography\nfood"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "Can you strip out the duplicate lines from this log?\nERROR db timeout\nINFO retry\nERROR db timeout\nINFO ok",
+   "input": {
+    "text": "ERROR db timeout\nINFO retry\nERROR db timeout\nINFO ok"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "remove duplicate lines, unique only please\n10\n20\n10\n30\n20",
+   "input": {
+    "text": "10\n20\n10\n30\n20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "Please remove the duplicates from my guest list, ignoring capital letters:\nJohn Smith\njohn smith\nMary Jones",
+   "input": {
+    "text": "John Smith\njohn smith\nMary Jones",
+    "ignoreCase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "remove the duplicate lines in this inventory, keep the first one\nsword\npotion\nsword\nshield\npotion",
+   "input": {
+    "text": "sword\npotion\nsword\nshield\npotion"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "kill the duplicate lines in this:\nWHERE id = 1\nWHERE id = 2\nWHERE id = 1",
+   "input": {
+    "text": "WHERE id = 1\nWHERE id = 2\nWHERE id = 1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "As a shop owner I've got repeated product codes in this column, remove duplicate lines:\nA-12\nB-07\nA-12\nC-33",
+   "input": {
+    "text": "A-12\nB-07\nA-12\nC-33"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "remove duplicate lines ignoring case and spacing\nHello World\nhello  world\nGoodbye",
+   "input": {
+    "text": "Hello World\nhello  world\nGoodbye",
+    "ignoreCase": true,
+    "ignoreSpacing": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "Remove duplicate lines from these medication lists:\naspirin 75mg\nmetformin 500mg\naspirin 75mg",
+   "input": {
+    "text": "aspirin 75mg\nmetformin 500mg\naspirin 75mg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "take out the lines that repeat\nMon\nTue\nMon\nWed\nTue",
+   "input": {
+    "text": "Mon\nTue\nMon\nWed\nTue"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "remove the duplicate URLs from this list:\nhttps://a.com\nhttps://b.com\nhttps://a.com",
+   "input": {
+    "text": "https://a.com\nhttps://b.com\nhttps://a.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "Could you remove any duplicated lines in my playlist?\nHey Jude\nYesterday\nHey Jude\nLet It Be",
+   "input": {
+    "text": "Hey Jude\nYesterday\nHey Jude\nLet It Be"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "dedupe the lines in my contacts export",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "Dedupe the list below, ignoring case.",
+   "input": {
+    "ignoreCase": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "remove any line that appears twice in this file",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "remove duplicates from these lines but treat different spacing as the same",
+   "input": {
+    "ignoreSpacing": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "Can you delete the duplicate lines in my notes?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeDuplicateLines",
+   "message": "delete duplicate lines from the log I'm about to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "strip the emojis from this caption: Beach day 🏖️ with the fam ❤️",
+   "input": {
+    "text": "Beach day 🏖️ with the fam ❤️"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "Can you take the emoji out of this before I paste it into the report? Sales up 20% 📈🔥",
+   "input": {
+    "text": "Sales up 20% 📈🔥"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "remove emojis: lol 😂😂 that was wild",
+   "input": {
+    "text": "lol 😂😂 that was wild"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "Please delete the emoji from my out-of-office message: Back Monday 🌴 see you then 👋",
+   "input": {
+    "text": "Back Monday 🌴 see you then 👋"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "replace each emoji with a space: good👍luck🍀everyone",
+   "input": {
+    "text": "good👍luck🍀everyone",
+    "replaceWith": " "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "no emojis please - Happy birthday Gran 🎂🎁🎈",
+   "input": {
+    "text": "Happy birthday Gran 🎂🎁🎈"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "My students' feedback is full of emoji; clean them out: Loved the lesson 😍 but homework 😭",
+   "input": {
+    "text": "Loved the lesson 😍 but homework 😭"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "strip emoji and swap them for [emoji]: Order shipped 📦 arriving soon 🚚",
+   "input": {
+    "text": "Order shipped 📦 arriving soon 🚚",
+    "replaceWith": "[emoji]"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "get rid of the emoji in this tweet → GG everyone 🎮🏆",
+   "input": {
+    "text": "GG everyone 🎮🏆"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "Remove the emoji characters from this product name: Choco Bar 🍫 Deluxe",
+   "input": {
+    "text": "Choco Bar 🍫 Deluxe"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "emoji-free version of: Meeting moved to 3pm ⏰ sorry 🙏",
+   "input": {
+    "text": "Meeting moved to 3pm ⏰ sorry 🙏"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "take all the emoji out: 🚀 Launch day! 🚀 Thanks team 🙌",
+   "input": {
+    "text": "🚀 Launch day! 🚀 Thanks team 🙌"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "Our database chokes on emoji. Strip them from: Café review ⭐⭐⭐⭐ great croissants",
+   "input": {
+    "text": "Café review ⭐⭐⭐⭐ great croissants"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "remove the emoji but leave everything else: Gym at 6 💪 then breakfast 🥞",
+   "input": {
+    "text": "Gym at 6 💪 then breakfast 🥞"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "Could you drop the emoji from this WhatsApp message? Running late 😅 be there in 10",
+   "input": {
+    "text": "Running late 😅 be there in 10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "de-emoji this: Nice one 👏👏👏",
+   "input": {
+    "text": "Nice one 👏👏👏"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "Remove emojis from the subject line, please: 🎉 Big Summer Sale 🎉",
+   "input": {
+    "text": "🎉 Big Summer Sale 🎉"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "strip out emoji and put a dash where each one was: rain🌧️then sun☀️",
+   "input": {
+    "text": "rain🌧️then sun☀️",
+    "replaceWith": "-"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "strip the emojis out of my chat export",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "Remove all emoji from the text below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "delete the emojis from these comments",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "can you delete the emojis in my caption and replace them with spaces",
+   "input": {
+    "replaceWith": " "
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "emoji-free version of this message pls",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeEmoji",
+   "message": "Please remove the emojis from my email signature.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "remove the stop words from: the best way to learn a new language is to practise every day",
+   "input": {
+    "text": "the best way to learn a new language is to practise every day"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "Strip out the filler words in this search query: where can I find a cheap hotel in the centre of Rome",
+   "input": {
+    "text": "where can I find a cheap hotel in the centre of Rome"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "remove the stop words from my gym motto: never give up on the things that make you smile",
+   "input": {
+    "text": "never give up on the things that make you smile"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "I'm building a search index for my shop. Remove the common words from: a pair of red running shoes for women",
+   "input": {
+    "text": "a pair of red running shoes for women"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "remove stop words and also the word please: please could you send me the report by the end of the week",
+   "input": {
+    "text": "please could you send me the report by the end of the week",
+    "extra": [
+     "please"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "Can you take out the stop words from this headline? The council has voted to close the old library on the high street",
+   "input": {
+    "text": "The council has voted to close the old library on the high street"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "stop word removal on: I would like to book a table for two at eight",
+   "input": {
+    "text": "I would like to book a table for two at eight"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "Remove stop words plus \"basically\" and \"literally\": basically the game was literally the best of the year",
+   "input": {
+    "text": "basically the game was literally the best of the year",
+    "extra": [
+     "basically",
+     "literally"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "keep only the content words: the patient was given a dose of the new medicine in the morning",
+   "input": {
+    "text": "the patient was given a dose of the new medicine in the morning"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "strip filler words from my essay title - An investigation into the effects of the moon on the tides",
+   "input": {
+    "text": "An investigation into the effects of the moon on the tides"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "Please remove the stop words from this tweet: just got back from the beach and it was so nice",
+   "input": {
+    "text": "just got back from the beach and it was so nice"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "remove stop words, and treat \"um\" as one too: um so the plan is to um meet at the station",
+   "input": {
+    "text": "um so the plan is to um meet at the station",
+    "extra": [
+     "um"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "lose the stop words in this: there are some of us who are not going to the party",
+   "input": {
+    "text": "there are some of us who are not going to the party"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "For my NLP homework, remove the stop words from: The quick fox and the lazy dog are friends",
+   "input": {
+    "text": "The quick fox and the lazy dog are friends"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "Could you strip the stop words out of this recipe line? Add the flour to the bowl and mix it with a spoon",
+   "input": {
+    "text": "Add the flour to the bowl and mix it with a spoon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "remove common english stop words: we have been waiting for the bus for an hour",
+   "input": {
+    "text": "we have been waiting for the bus for an hour"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "filter the stop words from this product title: The Best Guide to the History of the World",
+   "input": {
+    "text": "The Best Guide to the History of the World"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "strip stop words, also drop \"inc\": the acme inc annual report for the year",
+   "input": {
+    "text": "the acme inc annual report for the year",
+    "extra": [
+     "inc"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "drop the stop words in my abstract",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "Get rid of the common stop words in the paragraph below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "take the stop words out of these search terms",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "remove stop words from this and also drop the word very",
+   "input": {
+    "extra": [
+     "very"
+    ]
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "Can you remove the common filler words from my notes?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "removeStopWords",
+   "message": "stop word removal on the text I'm pasting next",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "replaceText",
+   "message": "replace every \"Ltd\" with \"Limited\" in: Acme Ltd and Bolt Ltd signed the deal.",
+   "input": {
+    "text": "Acme Ltd and Bolt Ltd signed the deal.",
+    "find": "Ltd",
+    "replace": "Limited"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "In this sentence swap 'dog' for 'cat': The dog chased the dog next door.",
+   "input": {
+    "text": "The dog chased the dog next door.",
+    "find": "dog",
+    "replace": "cat"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "find teh and replace it with the: I left teh keys on teh table",
+   "input": {
+    "text": "I left teh keys on teh table",
+    "find": "teh",
+    "replace": "the"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "replace all the dashes with slashes in 2026-10-08",
+   "input": {
+    "text": "2026-10-08",
+    "find": "-",
+    "replace": "/"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "We renamed our product, so replace the word SkyNote with CloudPad in this text: Try SkyNote today. SkyNote syncs everywhere.",
+   "input": {
+    "text": "Try SkyNote today. SkyNote syncs everywhere.",
+    "find": "SkyNote",
+    "replace": "CloudPad"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "replace hello with hi, ignoring case: Hello there, HELLO again, hello!",
+   "input": {
+    "text": "Hello there, HELLO again, hello!",
+    "find": "hello",
+    "replace": "hi",
+    "caseSensitive": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "use a regex to replace every digit with #: card 4421 ends 77",
+   "input": {
+    "text": "card 4421 ends 77",
+    "find": "\\d",
+    "replace": "#",
+    "regex": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "Please find-and-replace Mr Smith with Dr Smith in this letter: Dear Mr Smith, thank you, Mr Smith.",
+   "input": {
+    "text": "Dear Mr Smith, thank you, Mr Smith.",
+    "find": "Mr Smith",
+    "replace": "Dr Smith"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "replace the semicolons with commas: red;green;blue",
+   "input": {
+    "text": "red;green;blue",
+    "find": ";",
+    "replace": ","
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "Can you replace 'colour' with 'color' throughout? The colour wheel shows every colour.",
+   "input": {
+    "text": "The colour wheel shows every colour.",
+    "find": "colour",
+    "replace": "color"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "replace 2025 with 2026 in this text: Season 2025 tickets, valid for 2025 only",
+   "input": {
+    "text": "Season 2025 tickets, valid for 2025 only",
+    "find": "2025",
+    "replace": "2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "replace all the underscores with spaces in my_file_name_final",
+   "input": {
+    "text": "my_file_name_final",
+    "find": "_",
+    "replace": " "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "In my recipe replace butter with margarine: Melt the butter, then add more butter.",
+   "input": {
+    "text": "Melt the butter, then add more butter.",
+    "find": "butter",
+    "replace": "margarine"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "regex replace \\s+ with a single space in: too   many    gaps",
+   "input": {
+    "text": "too   many    gaps",
+    "find": "\\s+",
+    "replace": " ",
+    "regex": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "Swap every 'and' for '&' in: salt and pepper and oil",
+   "input": {
+    "text": "salt and pepper and oil",
+    "find": "and",
+    "replace": "&"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "find and replace localhost with api.example.com in this text: url=http://localhost:8080/v1",
+   "input": {
+    "text": "url=http://localhost:8080/v1",
+    "find": "localhost",
+    "replace": "api.example.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "The player's name changed. Replace Zed with Zara: Zed scored. Pass to Zed.",
+   "input": {
+    "text": "Zed scored. Pass to Zed.",
+    "find": "Zed",
+    "replace": "Zara"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "replace 'TODO' with 'DONE' (case sensitive) in: TODO fix login; todo later; TODO tests",
+   "input": {
+    "text": "TODO fix login; todo later; TODO tests",
+    "find": "TODO",
+    "replace": "DONE",
+    "caseSensitive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "replaceText",
+   "message": "replace every 'Inc' with 'Incorporated' in my document",
+   "input": {
+    "find": "Inc",
+    "replace": "Incorporated"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "replaceText",
+   "message": "In the text below, swap 'customer' for 'client' everywhere.",
+   "input": {
+    "find": "customer",
+    "replace": "client"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "replaceText",
+   "message": "find teh and replace with the in this essay",
+   "input": {
+    "find": "teh",
+    "replace": "the"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "replaceText",
+   "message": "Change all the commas to tabs in my data",
+   "input": {
+    "find": ",",
+    "replace": "\t"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "replaceText",
+   "message": "replace London with Manchester throughout this letter",
+   "input": {
+    "find": "London",
+    "replace": "Manchester"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "replaceText",
+   "message": "swap 'he' for 'they' in the paragraph I'm pasting, ignoring case",
+   "input": {
+    "find": "he",
+    "replace": "they",
+    "caseSensitive": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "reverseText",
+   "message": "spell drawer backwards",
+   "input": {
+    "text": "drawer"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "Reverse the letters in hello world",
+   "input": {
+    "text": "hello world"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse the word order: one two three four",
+   "input": {
+    "text": "one two three four",
+    "by": "words"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "can you reverse \"Never odd or even\" so it reads back to front",
+   "input": {
+    "text": "Never odd or even"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse the order of these lines\nfirst\nsecond\nthird",
+   "input": {
+    "text": "first\nsecond\nthird",
+    "by": "lines"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "My kid wants a secret code. Reverse the characters of: meet me at the treehouse",
+   "input": {
+    "text": "meet me at the treehouse"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse word order in this sentence - Yoda speaks like this I think",
+   "input": {
+    "text": "Yoda speaks like this I think",
+    "by": "words"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "Please print 12345 in reverse",
+   "input": {
+    "text": "12345"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "for my crossword clue, reverse the letters of Pigeon",
+   "input": {
+    "text": "Pigeon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "Reverse the lines of this countdown so it goes up:\n3\n2\n1\nliftoff",
+   "input": {
+    "text": "3\n2\n1\nliftoff",
+    "by": "lines"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse each character in abc-def-ghi",
+   "input": {
+    "text": "abc-def-ghi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse this phrase word by word: the end is the beginning",
+   "input": {
+    "text": "the end is the beginning",
+    "by": "words"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "For a puzzle in my escape room, reverse the text: the key is under the rug",
+   "input": {
+    "text": "the key is under the rug"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse lines\nalpha\nbeta\ngamma\ndelta",
+   "input": {
+    "text": "alpha\nbeta\ngamma\ndelta",
+    "by": "lines"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "What does level look like when you reverse it?",
+   "input": {
+    "text": "level"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "Reverse the words, not the letters: Monday Tuesday Wednesday",
+   "input": {
+    "text": "Monday Tuesday Wednesday",
+    "by": "words"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "write my name backwards: Maria Okafor",
+   "input": {
+    "text": "Maria Okafor"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "can u reverse this string: x9_y8_z7",
+   "input": {
+    "text": "x9_y8_z7"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse my playlist so the last line comes first",
+   "input": {
+    "by": "lines"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "reverseText",
+   "message": "Write the text below backwards, letter by letter.",
+   "input": {
+    "by": "characters"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse the word order of this sentence",
+   "input": {
+    "by": "words"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "reverseText",
+   "message": "can you reverse my password hint backwards",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse these lines so the last one comes first",
+   "input": {
+    "by": "lines"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "reverseText",
+   "message": "Reverse the characters in the phrase I'm about to give you.",
+   "input": {
+    "by": "characters"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "how much do these two titles overlap in words? \"Introduction to Machine Learning\" and \"Machine Learning for Beginners\"",
+   "input": {
+    "a": "Introduction to Machine Learning",
+    "b": "Machine Learning for Beginners"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "Jaccard similarity between 'red apple pie' and 'green apple pie'",
+   "input": {
+    "a": "red apple pie",
+    "b": "green apple pie"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "Are these two product descriptions basically the same words? First: soft cotton t-shirt in navy. Second: navy t-shirt in soft cotton.",
+   "input": {
+    "a": "soft cotton t-shirt in navy.",
+    "b": "navy t-shirt in soft cotton."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "word overlap score: \"the cat sat on the mat\" vs \"the dog sat on the log\"",
+   "input": {
+    "a": "the cat sat on the mat",
+    "b": "the dog sat on the log"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "I mark essays and suspect copying. How similar are these two sentences by shared words? A: The war ended because both sides ran out of money. B: Both sides ran out of money so the war ended.",
+   "input": {
+    "a": "The war ended because both sides ran out of money.",
+    "b": "Both sides ran out of money so the war ended."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "compare the word overlap of 'buy cheap flights to Spain' and 'cheap flights Spain deals'",
+   "input": {
+    "a": "buy cheap flights to Spain",
+    "b": "cheap flights Spain deals"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "How similar are these two job titles? Senior Software Engineer / Software Engineer Senior",
+   "input": {
+    "a": "Senior Software Engineer",
+    "b": "Software Engineer Senior"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "shared-word similarity, case sensitive: \"Apple Pay\" and \"apple pay\"",
+   "input": {
+    "a": "Apple Pay",
+    "b": "apple pay",
+    "caseSensitive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "Measure how much these two tweets overlap: \"great game tonight lads\" and \"great night lads\"",
+   "input": {
+    "a": "great game tonight lads",
+    "b": "great night lads"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "jaccard similarity of \"fast delivery good price\" and \"good price slow delivery\"",
+   "input": {
+    "a": "fast delivery good price",
+    "b": "good price slow delivery"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "Do these two search queries share many words? one: best pizza near me, two: pizza near me open now",
+   "input": {
+    "a": "best pizza near me",
+    "b": "pizza near me open now"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "how similar are these headlines by word overlap - \"Storm hits coast\" and \"Coast braces for storm\"",
+   "input": {
+    "a": "Storm hits coast",
+    "b": "Coast braces for storm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "How similar are these two ingredient lists by the words they share? flour sugar eggs butter, and flour eggs milk butter",
+   "input": {
+    "a": "flour sugar eggs butter",
+    "b": "flour eggs milk butter"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "compare these two bug reports for similarity: \"login page crashes on submit\" / \"crash on login submit\"",
+   "input": {
+    "a": "login page crashes on submit",
+    "b": "crash on login submit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "word similarity between my two taglines: \"bake it better\" and \"better baking every day\"",
+   "input": {
+    "a": "bake it better",
+    "b": "better baking every day"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "How similar are 'blue sky thinking' and 'blue sky research' by the words they share?",
+   "input": {
+    "a": "blue sky thinking",
+    "b": "blue sky research"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "overlap of words between \"quiet room with a view\" and \"room with a sea view\"",
+   "input": {
+    "a": "quiet room with a view",
+    "b": "room with a sea view"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "Two customers left these reviews. How similar are they by word overlap? \"friendly staff great food\" and \"great food rude staff\"",
+   "input": {
+    "a": "friendly staff great food",
+    "b": "great food rude staff"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "how much do my two paragraphs overlap in wording",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "Compare the word overlap between these two abstracts.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "jaccard similarity of the two lists I'm sending",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "how much do these two product blurbs overlap in words?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "How similar are the two answers below, by shared words?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityJaccard",
+   "message": "word overlap between my old bio and my new bio",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "edit distance between Jon and John",
+   "input": {
+    "a": "Jon",
+    "b": "John"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "What's the edit distance from 'flaw' to 'lawn'?",
+   "input": {
+    "a": "flaw",
+    "b": "lawn"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "levenshtein distance from saturday to sunday",
+   "input": {
+    "a": "saturday",
+    "b": "sunday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "I'm deduping a customer list. How close are 'Catherine' and 'Kathryn' by edit distance?",
+   "input": {
+    "a": "Catherine",
+    "b": "Kathryn"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "How many single-character edits between 'recieve' and 'receive'?",
+   "input": {
+    "a": "recieve",
+    "b": "receive"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "edit distance between \"Main St\" and \"Main Street\"",
+   "input": {
+    "a": "Main St",
+    "b": "Main Street"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "edit distance, case sensitive: Apple vs apple",
+   "input": {
+    "a": "Apple",
+    "b": "apple",
+    "caseSensitive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "how far apart are the strings abc123 and abd124 in edits",
+   "input": {
+    "a": "abc123",
+    "b": "abd124"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "Spell-check help: how many edits from 'definately' to 'definitely'?",
+   "input": {
+    "a": "definately",
+    "b": "definitely"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "Levenshtein between the two usernames gamer_99 and gamer_66",
+   "input": {
+    "a": "gamer_99",
+    "b": "gamer_66"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "how many character edits separate Smyth from Smith",
+   "input": {
+    "a": "Smyth",
+    "b": "Smith"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "how many edits apart are vapour and vapours, levenshtein",
+   "input": {
+    "a": "vapour",
+    "b": "vapours"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "string distance between \"New York\" and \"Newark\"",
+   "input": {
+    "a": "New York",
+    "b": "Newark"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "In the pharmacy we worry about look-alike names. Edit distance between hydroxyzine and hydralazine?",
+   "input": {
+    "a": "hydroxyzine",
+    "b": "hydralazine"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "edit distance between teh and the, how many typos apart",
+   "input": {
+    "a": "teh",
+    "b": "the"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "levenshtein: book vs back",
+   "input": {
+    "a": "book",
+    "b": "back"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "Edit distance please between the postcodes SW1A 1AA and SW1A 2AA",
+   "input": {
+    "a": "SW1A 1AA",
+    "b": "SW1A 2AA"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "levenshtein distance from 'horse' to 'ros', counting insertions, deletions and swaps",
+   "input": {
+    "a": "horse",
+    "b": "ros"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "edit distance between the product codes XK-2201 and XK-2210",
+   "input": {
+    "a": "XK-2201",
+    "b": "XK-2210"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "edit distance between my two spellings of the surname",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "How many character edits apart are these two strings?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "levenshtein distance between the two passwords I'm about to type",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "how close are these two names by letter edits",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "similarityLevenshtein",
+   "message": "Compute the edit distance between the two codes below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "slugify",
+   "message": "slug for my blog post \"10 Tips for Better Sleep\"",
+   "input": {
+    "text": "10 Tips for Better Sleep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "Turn \"Summer Sale: 50% Off Everything!\" into a URL slug",
+   "input": {
+    "text": "Summer Sale: 50% Off Everything!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "make a url slug of: Why I Quit My Job (And You Should Too)",
+   "input": {
+    "text": "Why I Quit My Job (And You Should Too)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "slugify with underscores: Annual Report 2026",
+   "input": {
+    "text": "Annual Report 2026",
+    "separator": "_"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "I need a slug for this recipe page, max 20 characters: Grandma's Famous Apple Crumble",
+   "input": {
+    "text": "Grandma's Famous Apple Crumble",
+    "maxLength": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "Generate a slug from the title \"Crème Brûlée Without a Blowtorch\"",
+   "input": {
+    "text": "Crème Brûlée Without a Blowtorch"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "url slug pls: How To Train Your Pigeon",
+   "input": {
+    "text": "How To Train Your Pigeon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "Can you create a permalink slug for \"Q&A with the Head Teacher\"?",
+   "input": {
+    "text": "Q&A with the Head Teacher"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "slug, 30 chars max: The Ultimate Beginner's Guide to Sourdough Baking at Home",
+   "input": {
+    "text": "The Ultimate Beginner's Guide to Sourdough Baking at Home",
+    "maxLength": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "make this product name a slug with underscores - Red Leather Sofa (3 Seater)",
+   "input": {
+    "text": "Red Leather Sofa (3 Seater)",
+    "separator": "_"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "Slugify \"Zürich Travel Diary — Day 1\"",
+   "input": {
+    "text": "Zürich Travel Diary — Day 1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "need a clean url slug for the event: Spring Fair & Bake Off 2027",
+   "input": {
+    "text": "Spring Fair & Bake Off 2027"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "What would the slug be for 'Top 5 Indie Games of the Year'?",
+   "input": {
+    "text": "Top 5 Indie Games of the Year"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "convert this heading to a slug for the docs site: Getting Started With the API",
+   "input": {
+    "text": "Getting Started With the API"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "slugify \"Hello Again, Old Friend\" using underscores, no longer than 15 characters",
+   "input": {
+    "text": "Hello Again, Old Friend",
+    "separator": "_",
+    "maxLength": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "Make a web address slug out of my shop's category name: Kids' Shoes & Wellies",
+   "input": {
+    "text": "Kids' Shoes & Wellies"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "turn the podcast episode title into a slug - Ep. 42: Money, Myths and Mortgages",
+   "input": {
+    "text": "Ep. 42: Money, Myths and Mortgages"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "URL slug for the news story \"Council Approves New Cycle Lanes\"",
+   "input": {
+    "text": "Council Approves New Cycle Lanes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "slugify",
+   "message": "make a url slug from my article title",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "slugify",
+   "message": "Slugify the heading below using underscores.",
+   "input": {
+    "separator": "_"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "slugify",
+   "message": "turn this title into a slug no longer than 25 characters",
+   "input": {
+    "maxLength": 25
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "slugify",
+   "message": "can you make a permalink slug for my new blog post",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "slugify",
+   "message": "generate a slug for the product name I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "slugify",
+   "message": "Create URL slugs from these page titles.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "sortLines",
+   "message": "put these lines in alphabetical order\nzebra\nmango\napple\nkiwi",
+   "input": {
+    "text": "zebra\nmango\napple\nkiwi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "Sort these lines from Z to A:\nOliver\nAmelia\nHarry\nIsla",
+   "input": {
+    "text": "Oliver\nAmelia\nHarry\nIsla",
+    "direction": "descending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort numerically, smallest first\n100\n9\n25\n3",
+   "input": {
+    "text": "100\n9\n25\n3",
+    "by": "numeric"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "order these lines by length, longest first\nhi\nhello there\nhey",
+   "input": {
+    "text": "hi\nhello there\nhey",
+    "by": "length",
+    "direction": "descending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "Can you sort my bookshelf list alphabetically? One title per line:\nWuthering Heights\nEmma\nDracula\nBeloved",
+   "input": {
+    "text": "Wuthering Heights\nEmma\nDracula\nBeloved"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort these lines of scores highest to lowest\n72\n88\n65\n91",
+   "input": {
+    "text": "72\n88\n65\n91",
+    "by": "numeric",
+    "direction": "descending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "I'm a teacher making a register, sort these lines A to Z:\nPatel\nAdams\nNguyen\nBrown",
+   "input": {
+    "text": "Patel\nAdams\nNguyen\nBrown"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort lines case-sensitively\nbanana\nApple\napple\nBanana",
+   "input": {
+    "text": "banana\nApple\napple\nBanana",
+    "caseSensitive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "Sort these lines by length, shortest first:\nelephant\ncat\nhorse",
+   "input": {
+    "text": "elephant\ncat\nhorse",
+    "by": "length"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort the lines of this alphabetically please\nimport sys\nimport json\nimport os",
+   "input": {
+    "text": "import sys\nimport json\nimport os"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "Please sort these prices from low to high, one per line:\n12.99\n4.50\n30\n7.25",
+   "input": {
+    "text": "12.99\n4.50\n30\n7.25",
+    "by": "numeric"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "reverse alphabetical sort of these lines\nmercury\nvenus\nearth\nmars",
+   "input": {
+    "text": "mercury\nvenus\nearth\nmars",
+    "direction": "descending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort my to-do lines a-z\nwater plants\nbook dentist\npay rent",
+   "input": {
+    "text": "water plants\nbook dentist\npay rent"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "Arrange these lines by number, biggest first:\n5\n50\n15\n500",
+   "input": {
+    "text": "5\n50\n15\n500",
+    "by": "numeric",
+    "direction": "descending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort these country lines alphabetically\nPeru\nChad\nFiji\nIraq\nOman",
+   "input": {
+    "text": "Peru\nChad\nFiji\nIraq\nOman"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "As a DJ I want my set list sorted by title length, shortest first:\nBlue Monday\nOne\nYesterday",
+   "input": {
+    "text": "Blue Monday\nOne\nYesterday",
+    "by": "length"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort lines ascending\ndelta\nalpha\ncharlie\nbravo",
+   "input": {
+    "text": "delta\nalpha\ncharlie\nbravo"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "Could you sort the lines of these invoice ids numerically?\n1040\n987\n1003\n12",
+   "input": {
+    "text": "1040\n987\n1003\n12",
+    "by": "numeric"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort every line in my file a to z",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "sortLines",
+   "message": "Sort the lines below from highest number to lowest.",
+   "input": {
+    "by": "numeric",
+    "direction": "descending"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "sortLines",
+   "message": "order the lines below by how long they are",
+   "input": {
+    "by": "length"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "sortLines",
+   "message": "can you sort the lines in my notes in reverse alphabetical order",
+   "input": {
+    "direction": "descending"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "sortLines",
+   "message": "alphabetise the lines in my notes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "sortLines",
+   "message": "Sort the lines of the CSV I'm pasting, case sensitive.",
+   "input": {
+    "caseSensitive": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "splitLines",
+   "message": "split these onto separate lines: red, orange, yellow, green",
+   "input": {
+    "text": "red, orange, yellow, green"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "Split this on semicolons into separate lines: north;south;east;west",
+   "input": {
+    "text": "north;south;east;west",
+    "delimiter": ";"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "break this pipe-separated row onto lines: id|name|email|phone",
+   "input": {
+    "text": "id|name|email|phone",
+    "delimiter": "|"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "I've got a comma list of guests, can you split it one per line? Sara, Tom, Ade, Lin",
+   "input": {
+    "text": "Sara, Tom, Ade, Lin"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "split on slashes, one per line: home/user/docs/reports",
+   "input": {
+    "text": "home/user/docs/reports",
+    "delimiter": "/"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "Split these tags into separate lines at each comma: python,javascript,rust,go",
+   "input": {
+    "text": "python,javascript,rust,go"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "one item per line please, split at the commas: eggs, , milk, , bread",
+   "input": {
+    "text": "eggs, , milk, , bread",
+    "skipBlank": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "split this sentence into lines wherever there's a dash: wake-shower-dress-leave",
+   "input": {
+    "text": "wake-shower-dress-leave",
+    "delimiter": "-"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "Please split the following into lines on every colon: host:port:user:pass",
+   "input": {
+    "text": "host:port:user:pass",
+    "delimiter": ":"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "split this at the commas but keep the spaces around each piece:  a ,  b ,  c",
+   "input": {
+    "text": " a ,  b ,  c",
+    "trim": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "As a teacher I paste the class list from email as one line. Split it onto lines: Amy, Ben, Cara, Dev, Ella",
+   "input": {
+    "text": "Amy, Ben, Cara, Dev, Ella"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "split by ' and ' onto separate lines: fish and chips and peas",
+   "input": {
+    "text": "fish and chips and peas",
+    "delimiter": " and "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "break up this comma separated postcode list into lines - LS1 4AP, M1 1AE, B1 1BB",
+   "input": {
+    "text": "LS1 4AP, M1 1AE, B1 1BB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "Split this string on the plus signs into separate lines: milk+sugar+tea",
+   "input": {
+    "text": "milk+sugar+tea",
+    "delimiter": "+"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "split into lines at each semicolon and drop empty bits: a;;b;;c",
+   "input": {
+    "text": "a;;b;;c",
+    "delimiter": ";",
+    "skipBlank": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "I need these SKUs one per line, split on the commas: X1,X2,X3,X4,X5",
+   "input": {
+    "text": "X1,X2,X3,X4,X5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "split this up into separate lines at the hashes: intro#verse#chorus#outro",
+   "input": {
+    "text": "intro#verse#chorus#outro",
+    "delimiter": "#"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "Could you split this comma list onto new lines? London, Paris, Berlin, Madrid",
+   "input": {
+    "text": "London, Paris, Berlin, Madrid"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitLines",
+   "message": "break the comma list below into one item per line",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "splitLines",
+   "message": "Split this on semicolons, one item per line.",
+   "input": {
+    "delimiter": ";"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "splitLines",
+   "message": "break my pipe delimited row into lines",
+   "input": {
+    "delimiter": "|"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "splitLines",
+   "message": "split this comma string so each value is on its own line",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "splitLines",
+   "message": "can you split my list of email addresses onto separate lines at the commas",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "splitLines",
+   "message": "Split the text I'm about to paste into lines at every slash.",
+   "input": {
+    "delimiter": "/"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "stemWords",
+   "message": "stem these words: connected connecting connection",
+   "input": {
+    "text": "connected connecting connection"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "What are the stems of jumping, jumped and jumps?",
+   "input": {
+    "text": "jumping, jumped and jumps"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "reduce to word stems: the dogs were barking loudly",
+   "input": {
+    "text": "the dogs were barking loudly"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "I'm building a search box for my bookshop; stem this query so plurals match: cookbooks for beginners",
+   "input": {
+    "text": "cookbooks for beginners"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "Porter stem: generalization generalize general",
+   "input": {
+    "text": "generalization generalize general"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "stem each word in: teachers teaching taught",
+   "input": {
+    "text": "teachers teaching taught"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "Can you stem this sentence for my NLP class? The children played happily in the gardens",
+   "input": {
+    "text": "The children played happily in the gardens"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "word stems please - argue argued argues arguing",
+   "input": {
+    "text": "argue argued argues arguing"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "stem the keywords: running shoes, trail runners, runs",
+   "input": {
+    "text": "running shoes, trail runners, runs"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "Give me the stemmed form of: nationalisation nationalised nations",
+   "input": {
+    "text": "nationalisation nationalised nations"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "stem: cats caresses ponies",
+   "input": {
+    "text": "cats caresses ponies"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "Strip these words down to their stems: hopeful hopefully hopeless",
+   "input": {
+    "text": "hopeful hopefully hopeless"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "stem this product search: waterproof jackets and walking boots",
+   "input": {
+    "text": "waterproof jackets and walking boots"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "Please stem the following for indexing: universities university universal",
+   "input": {
+    "text": "universities university universal"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "stem these: fishing fished fisher fishes",
+   "input": {
+    "text": "fishing fished fisher fishes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "what do relational, relate and relativity stem to?",
+   "input": {
+    "text": "relational, relate and relativity"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "stem the words in this tweet - loving these sunny mornings",
+   "input": {
+    "text": "loving these sunny mornings"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "Run a stemmer over: organizing organized organizer organization",
+   "input": {
+    "text": "organizing organized organizer organization"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stemWords",
+   "message": "stem the words in my search query",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stemWords",
+   "message": "Reduce every word in the text below to its stem.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stemWords",
+   "message": "run the stemmer on these keywords",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stemWords",
+   "message": "can you stem my list of tags",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stemWords",
+   "message": "Stem the words in the paragraph I'm pasting.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stemWords",
+   "message": "word stems for this document pls",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "remove the html tags: <h1>Welcome</h1><p>Glad you're here.</p>",
+   "input": {
+    "html": "<h1>Welcome</h1><p>Glad you're here.</p>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "Can you strip the html and give me just the text from this snippet? <div class=\"price\">Now <strong>£19.99</strong></div>",
+   "input": {
+    "html": "<div class=\"price\">Now <strong>£19.99</strong></div>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "strip html from <a href=\"/faq\">Read our FAQ</a> for help",
+   "input": {
+    "html": "<a href=\"/faq\">Read our FAQ</a> for help"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "I copied an email template, strip the html tags so it's plain text: <p>Hi Sam,</p><p>Your order has <em>shipped</em>.</p>",
+   "input": {
+    "html": "<p>Hi Sam,</p><p>Your order has <em>shipped</em>.</p>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "take the tags out of <ul><li>Milk</li><li>Bread</li></ul>",
+   "input": {
+    "html": "<ul><li>Milk</li><li>Bread</li></ul>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "plain text version of this HTML please: <span style=\"color:red\">Sold out</span>",
+   "input": {
+    "html": "<span style=\"color:red\">Sold out</span>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "Strip the markup and put it all on one line: <p>Line one</p><br><p>Line two</p>",
+   "input": {
+    "html": "<p>Line one</p><br><p>Line two</p>",
+    "keepLineBreaks": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "remove html tags from my product description: <b>Organic</b> cotton, <i>machine washable</i>",
+   "input": {
+    "html": "<b>Organic</b> cotton, <i>machine washable</i>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "Get rid of the HTML in this and keep the words: <td>Total</td><td>&pound;42</td>",
+   "input": {
+    "html": "<td>Total</td><td>&pound;42</td>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "html to text: <h2>Opening hours</h2><p>Mon-Fri 9-5</p>",
+   "input": {
+    "html": "<h2>Opening hours</h2><p>Mon-Fri 9-5</p>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "please strip tags, keep line breaks: <p>Roses are red</p><p>Violets are blue</p>",
+   "input": {
+    "html": "<p>Roses are red</p><p>Violets are blue</p>",
+    "keepLineBreaks": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "The CMS exported this with tags. Strip the html: <p>Meeting moved to <strong>Thursday</strong>.</p>",
+   "input": {
+    "html": "<p>Meeting moved to <strong>Thursday</strong>.</p>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "de-html this: <em>Fragile</em> &amp; <em>heavy</em>",
+   "input": {
+    "html": "<em>Fragile</em> &amp; <em>heavy</em>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "strip the html tags from this scraped page bit <nav>Home | About</nav><main>Fresh bread daily</main>",
+   "input": {
+    "html": "<nav>Home | About</nav><main>Fresh bread daily</main>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "Could you strip the HTML out of my newsletter footer? <footer><small>Unsubscribe any time</small></footer>",
+   "input": {
+    "html": "<footer><small>Unsubscribe any time</small></footer>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "just the readable text from <blockquote>Be kind, always.</blockquote>",
+   "input": {
+    "html": "<blockquote>Be kind, always.</blockquote>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "strip html tags: <p>Dose: <b>2 tablets</b> twice daily</p>",
+   "input": {
+    "html": "<p>Dose: <b>2 tablets</b> twice daily</p>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "convert this html to plain text: <h3>Level 4</h3><p>Boss fight unlocked!</p>",
+   "input": {
+    "html": "<h3>Level 4</h3><p>Boss fight unlocked!</p>"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "strip the html tags from my saved web page",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "Remove all the tags from the HTML below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "convert this html email into plain text",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "take the markup out of my html snippet but keep the line breaks",
+   "input": {
+    "keepLineBreaks": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "can you strip tags from the html I'm about to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripHtml",
+   "message": "Plain text only from this HTML, all on one line please.",
+   "input": {
+    "keepLineBreaks": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "remove the markdown formatting: # Shopping list\n- **eggs**\n- _milk_",
+   "input": {
+    "markdown": "# Shopping list\n- **eggs**\n- _milk_"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "strip the markdown from this line: See the [docs](https://example.com/docs) for **details**.",
+   "input": {
+    "markdown": "See the [docs](https://example.com/docs) for **details**."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "strip the markdown: ## Week 3 *Reading*: chapters 4-6",
+   "input": {
+    "markdown": "## Week 3 *Reading*: chapters 4-6"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "I'm pasting a README into a plain-text form. Strip the markdown: **Install** with `npm install pigeon`",
+   "input": {
+    "markdown": "**Install** with `npm install pigeon`"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "markdown to plain text please: > Be the change you wish to see.",
+   "input": {
+    "markdown": "> Be the change you wish to see."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "remove the markdown but drop the link text too: Click [here](https://shop.example) to buy",
+   "input": {
+    "markdown": "Click [here](https://shop.example) to buy",
+    "keepLinkText": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "Remove the markdown formatting, the asterisks and hashes: ### Notes\n*important* meeting at **noon**",
+   "input": {
+    "markdown": "### Notes\n*important* meeting at **noon**"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "strip the markdown syntax from: 1. Preheat\n2. **Stir**\n3. Bake",
+   "input": {
+    "markdown": "1. Preheat\n2. **Stir**\n3. Bake"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "strip the markdown from this table row | Name | Score |",
+   "input": {
+    "markdown": "| Name | Score |"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "Please strip markdown from my Slack message: ~~cancelled~~ moved to *Friday*",
+   "input": {
+    "markdown": "~~cancelled~~ moved to *Friday*"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "remove markdown, keep the link words: Read [the guide](https://x.io/guide) first",
+   "input": {
+    "markdown": "Read [the guide](https://x.io/guide) first",
+    "keepLinkText": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "strip the markdown out of this for an SMS: **Reminder:** dentist at _3pm_",
+   "input": {
+    "markdown": "**Reminder:** dentist at _3pm_"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "Convert from markdown to plain words: # Chapter One\nIt was a **dark** night.",
+   "input": {
+    "markdown": "# Chapter One\nIt was a **dark** night."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "strip markdown formatting from the release note - - Fixed **login** bug\n- Added `dark mode`",
+   "input": {
+    "markdown": "- Fixed **login** bug\n- Added `dark mode`"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "take out the markdown marks: __Bold claim__ and *soft aside*",
+   "input": {
+    "markdown": "__Bold claim__ and *soft aside*"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "My notes app exports markdown. Strip the markdown to plain text: ## To do\n- [ ] call vet\n- [x] buy food",
+   "input": {
+    "markdown": "## To do\n- [ ] call vet\n- [x] buy food"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "strip the markdown from this heading and image: ![logo](logo.png) ## About us",
+   "input": {
+    "markdown": "![logo](logo.png) ## About us"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "remove the markdown formatting: Use `git pull` then **restart** the server",
+   "input": {
+    "markdown": "Use `git pull` then **restart** the server"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "strip the markdown from my README",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "Convert the markdown below to plain text.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "remove all the markdown formatting from this note, and drop the link text",
+   "input": {
+    "keepLinkText": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "can you turn my markdown file into plain text",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "Strip the md syntax out of the changelog I'm pasting.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "stripMarkdown",
+   "message": "plain text version of this markdown pls",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "how many syllables does hippopotamus have",
+   "input": {
+    "text": "hippopotamus"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "Count the syllables in this haiku line: an old silent pond",
+   "input": {
+    "text": "an old silent pond"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "syllables in strawberry?",
+   "input": {
+    "text": "strawberry"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "I'm writing a limerick. How many syllables in: There once was a man from Peru",
+   "input": {
+    "text": "There once was a man from Peru"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "Can you tell me the syllable count of 'communication'?",
+   "input": {
+    "text": "communication"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "number of syllables in my daughter's name, Anastasia",
+   "input": {
+    "text": "Anastasia"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "How many syllables are in the phrase happy birthday to you",
+   "input": {
+    "text": "happy birthday to you"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "break chocolate into syllables and tell me how many",
+   "input": {
+    "text": "chocolate"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "Count syllables for this lyric so it fits the beat: I walked along the river",
+   "input": {
+    "text": "I walked along the river"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "how many syllables in the word February",
+   "input": {
+    "text": "February"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "For speech therapy practice, count the syllables in: butterfly",
+   "input": {
+    "text": "butterfly"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "Please count syllables in this line of my sonnet: Shall I compare the evening to the sea",
+   "input": {
+    "text": "Shall I compare the evening to the sea"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "syllables of 'Mississippi'",
+   "input": {
+    "text": "Mississippi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "how many syllables, roughly, in onomatopoeia",
+   "input": {
+    "text": "onomatopoeia"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "Is this haiku line five syllables? morning dew glistens",
+   "input": {
+    "text": "morning dew glistens"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "count the syllables in the brand name Volkswagen",
+   "input": {
+    "text": "Volkswagen"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "syllable count for the rap line: money on my mind and my mind on the grind",
+   "input": {
+    "text": "money on my mind and my mind on the grind"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "How many syllables in 'library'? My son says three, I say two.",
+   "input": {
+    "text": "library"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "how many syllables are in each line of my poem",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "How many syllables are in the lines below?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "does this haiku have the right number of syllables? I'll paste it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "how many syllables in my baby's name? I'll type it next",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "Count the syllables in the verse I'm pasting.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "syllableCount",
+   "message": "syllables in these song lyrics pls",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "toAscii",
+   "message": "convert to plain ascii: Ñandú señor",
+   "input": {
+    "text": "Ñandú señor"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "Convert this name to ascii without accents so our old system accepts it: José Álvarez",
+   "input": {
+    "text": "José Álvarez"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "make this ascii: naïve façade",
+   "input": {
+    "text": "naïve façade"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "strip diacritics from Dvořák",
+   "input": {
+    "text": "Dvořák"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "I need an ascii-only version of the street name Rue de l'Église for the courier form",
+   "input": {
+    "text": "Rue de l'Église"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "ascii-fy this filename: résumé_final.pdf",
+   "input": {
+    "text": "résumé_final.pdf"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "Can you convert these towns to plain ascii? Göteborg, Malmö, Åre",
+   "input": {
+    "text": "Göteborg, Malmö, Åre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "convert the curly quotes and dashes to ascii: “Hello” — she said",
+   "input": {
+    "text": "“Hello” — she said"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "transliterate to ascii: Kraków Łódź Gdańsk",
+   "input": {
+    "text": "Kraków Łódź Gdańsk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "Please make this ASCII safe for the SMS gateway: Crème brûlée £5",
+   "input": {
+    "text": "Crème brûlée £5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "remove accents, and keep characters that can't convert: Zoë ☕ café",
+   "input": {
+    "text": "Zoë ☕ café",
+    "dropUnknown": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "plain ascii version of São Paulo",
+   "input": {
+    "text": "São Paulo"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "Our payroll export chokes on accents. Convert to ascii: Björn Ångström",
+   "input": {
+    "text": "Björn Ångström"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "strip the accents off piñata jalapeño",
+   "input": {
+    "text": "piñata jalapeño"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "convert to ascii and drop anything that has no ascii form: Tokyo 東京 trip",
+   "input": {
+    "text": "Tokyo 東京 trip",
+    "dropUnknown": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "ascii only please: Ça va très bien",
+   "input": {
+    "text": "Ça va très bien"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "turn this into basic ascii letters - Ærøskøbing",
+   "input": {
+    "text": "Ærøskøbing"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "For my game's leaderboard, convert the player tag to ascii: Ñoño_Über",
+   "input": {
+    "text": "Ñoño_Über"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "toAscii",
+   "message": "convert my contact list to ascii, no accents",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "toAscii",
+   "message": "Turn the passage below into plain ASCII characters only.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "toAscii",
+   "message": "make this csv ascii-only so the old database takes it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "toAscii",
+   "message": "strip the diacritics from these surnames",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "toAscii",
+   "message": "can you convert my file to ascii and keep any characters that won't convert",
+   "input": {
+    "dropUnknown": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "toAscii",
+   "message": "ASCII version of the address I'm pasting pls",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "break this into separate sentences: I woke up late. The bus had gone. I walked.",
+   "input": {
+    "text": "I woke up late. The bus had gone. I walked."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "Can you split my paragraph into its sentences? Dr. Lee arrived at noon. She examined the patient. All was well.",
+   "input": {
+    "text": "Dr. Lee arrived at noon. She examined the patient. All was well."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "one sentence per line please: Wow! Did you see that? Unbelievable.",
+   "input": {
+    "text": "Wow! Did you see that? Unbelievable."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "split into sentences - The shop opens at 9. It closes at 5. We are shut on Sundays.",
+   "input": {
+    "text": "The shop opens at 9. It closes at 5. We are shut on Sundays."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "I'm making flashcards from my notes; separate these into individual sentences: Mitosis has four phases. Prophase comes first. Telophase is last.",
+   "input": {
+    "text": "Mitosis has four phases. Prophase comes first. Telophase is last."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "split this review into individual sentences: Great food. Slow service. Would I go back? Probably.",
+   "input": {
+    "text": "Great food. Slow service. Would I go back? Probably."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "Please break the following text at each full stop into sentences: Mix the flour. Add the eggs. Stir well.",
+   "input": {
+    "text": "Mix the flour. Add the eggs. Stir well."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "split these sentences apart: Mr. Brown paid £3.50 for tea. Mrs. Brown had coffee.",
+   "input": {
+    "text": "Mr. Brown paid £3.50 for tea. Mrs. Brown had coffee."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "sentence tokenize: It rained. Then it snowed. Then the sun came out!",
+   "input": {
+    "text": "It rained. Then it snowed. Then the sun came out!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "Could you split this email up into its individual sentences? Thanks for the update. I'll review it tonight. Speak tomorrow.",
+   "input": {
+    "text": "Thanks for the update. I'll review it tonight. Speak tomorrow."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "split the speech into sentences: Friends, we gathered here today. We remember. We rebuild.",
+   "input": {
+    "text": "Friends, we gathered here today. We remember. We rebuild."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "split this game guide into individual sentences: Level one is easy. Level two has lava. Level three is a maze.",
+   "input": {
+    "text": "Level one is easy. Level two has lava. Level three is a maze."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "As a translator I work sentence by sentence. Split this into sentences: Le chat dort. Il fait chaud. Nous partons demain.",
+   "input": {
+    "text": "Le chat dort. Il fait chaud. Nous partons demain."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "Break this patient note into sentences: Pt alert. BP stable at 120/80. Discharge planned.",
+   "input": {
+    "text": "Pt alert. BP stable at 120/80. Discharge planned."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "can u split this into sentences pls: omg it worked. finally. going to bed now.",
+   "input": {
+    "text": "omg it worked. finally. going to bed now."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "Separate out the sentences in this quote: Life is short. Art is long. Opportunity is fleeting.",
+   "input": {
+    "text": "Life is short. Art is long. Opportunity is fleeting."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "split into individual sentences: The U.S. team won. Fans cheered. Parties lasted all night.",
+   "input": {
+    "text": "The U.S. team won. Fans cheered. Parties lasted all night."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "Show me the sentences of this paragraph one by one: Our sales rose. Costs fell. Profit doubled?",
+   "input": {
+    "text": "Our sales rose. Costs fell. Profit doubled?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "split my essay up into individual sentences, one per line",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "Split the paragraph below into a list of its sentences.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "one sentence per line from this transcript",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "can you separate these notes into individual sentences",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "split the article I'm about to paste into individual sentences",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "message": "divide my cover letter into its sentences",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "break this sentence into its words: She sells sea shells",
+   "input": {
+    "text": "She sells sea shells"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "Can you tokenise this into words? I can't believe it's Friday",
+   "input": {
+    "text": "I can't believe it's Friday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "tokenize into words and lowercase them: The Cat In The Hat",
+   "input": {
+    "text": "The Cat In The Hat",
+    "lowercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "list the words in: to be or not to be, unique only",
+   "input": {
+    "text": "to be or not to be",
+    "unique": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "I'm teaching reading, split this into separate words: The big dog ran fast",
+   "input": {
+    "text": "The big dog ran fast"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "word tokenize: state-of-the-art machine learning",
+   "input": {
+    "text": "state-of-the-art machine learning"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "Split this search query into words: cheap flights London Rome",
+   "input": {
+    "text": "cheap flights London Rome"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "split into words, lowercase and no duplicates: Red red RED blue Blue",
+   "input": {
+    "text": "Red red RED blue Blue",
+    "lowercase": true,
+    "unique": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "break the tweet into individual words - just landed in Tokyo, so tired",
+   "input": {
+    "text": "just landed in Tokyo, so tired"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "Please separate the words of this line: Once more unto the breach",
+   "input": {
+    "text": "Once more unto the breach"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "tokenise into words: Mr O'Neill's café opens at 8",
+   "input": {
+    "text": "Mr O'Neill's café opens at 8"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "give me the words of this phrase one by one: happy new year everyone",
+   "input": {
+    "text": "happy new year everyone"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "Word tokens for my NLP assignment please: Natural language processing is fun",
+   "input": {
+    "text": "Natural language processing is fun"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "split into words: Game over, press start to continue",
+   "input": {
+    "text": "Game over, press start to continue"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "Tokenize the words in this product title, lowercased: Wireless Bluetooth Headphones Black",
+   "input": {
+    "text": "Wireless Bluetooth Headphones Black",
+    "lowercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "tokenize into unique words: apple banana apple cherry banana",
+   "input": {
+    "text": "apple banana apple cherry banana",
+    "unique": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "Could you split the headline into separate words? Markets rally as rates fall",
+   "input": {
+    "text": "Markets rally as rates fall"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "words from this sentence as a list: we'll meet at the old mill",
+   "input": {
+    "text": "we'll meet at the old mill"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "tokenize the sentence I wrote into word tokens",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "Tokenise the text below into word tokens, lowercase.",
+   "input": {
+    "lowercase": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "break this paragraph into individual words, no repeats",
+   "input": {
+    "unique": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "give me the word tokens of this tweet",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "Can you split the caption I'm pasting into separate words?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "tokenizeWords",
+   "message": "word-tokenize my search log",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim the whitespace from each line:\n   apples  \n  pears\n plums   ",
+   "input": {
+    "text": "   apples  \n  pears\n plums   "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "Remove the leading spaces on every line:\n    def run():\n    return 1",
+   "input": {
+    "text": "    def run():\n    return 1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "strip trailing spaces from each line\nhello   \nworld    ",
+   "input": {
+    "text": "hello   \nworld    "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim each line and remove any blank ones:\n  milk \n   \n eggs  \n\n bread",
+   "input": {
+    "text": "  milk \n   \n eggs  \n\n bread",
+    "dropBlank": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "My CSV export has spaces at the start and end of each line, trim them:\n  id,name  \n  1,Ann  \n  2,Bo  ",
+   "input": {
+    "text": "  id,name  \n  1,Ann  \n  2,Bo  "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "Please trim the spaces around each line of my poem, every line is padded:\n   The wind   \n   the rain   \n   the night   ",
+   "input": {
+    "text": "   The wind   \n   the rain   \n   the night   "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim lines\n  a\n    b\n      c",
+   "input": {
+    "text": "  a\n    b\n      c"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "Can you strip the leading and trailing whitespace from every line, keeping blank lines?\n  one  \n\n  two  ",
+   "input": {
+    "text": "  one  \n\n  two  ",
+    "dropBlank": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim every line of this list of names\n   Priya \n Omar   \n  Lucy",
+   "input": {
+    "text": "   Priya \n Omar   \n  Lucy"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim the indentation off each line:\n        step one\n        step two",
+   "input": {
+    "text": "        step one\n        step two"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim the spaces round each line and drop the empty lines\n alpha \n\n  beta  \n   \n gamma",
+   "input": {
+    "text": " alpha \n\n  beta  \n   \n gamma",
+    "dropBlank": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "I pasted these from a PDF and each line has junk spaces at the ends; trim the lines:\n  Chapter 1  \n  Chapter 2  ",
+   "input": {
+    "text": "  Chapter 1  \n  Chapter 2  "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "Trim each line in these log entries:\n   [INFO] start   \n   [WARN] slow   ",
+   "input": {
+    "text": "   [INFO] start   \n   [WARN] slow   "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "strip spaces from the beginning and end of each line\n  10:00 standup  \n  14:00 review  ",
+   "input": {
+    "text": "  10:00 standup  \n  14:00 review  "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim each line of my shopping list pls\n  oats \n  honey  \n tea ",
+   "input": {
+    "text": "  oats \n  honey  \n tea "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "Could you trim the leading whitespace on each line of this address?\n    12 Mill Lane\n    York",
+   "input": {
+    "text": "    12 Mill Lane\n    York"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim each of these lines, both ends:\n   north   \n   south   ",
+   "input": {
+    "text": "   north   \n   south   "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim the lines of these player names and lose blank lines\n   Ace  \n\n  Blaze \n",
+   "input": {
+    "text": "   Ace  \n\n  Blaze \n",
+    "dropBlank": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "trimLines",
+   "message": "my config file has stray spaces at the ends of every line, trim them all",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "trimLines",
+   "message": "Strip the leading and trailing whitespace from every line below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim each line of this list and remove the empty ones",
+   "input": {
+    "dropBlank": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "trimLines",
+   "message": "can you trim the whitespace on every line of my pasted table",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "trimLines",
+   "message": "Remove the trailing spaces from each line of the code I'm sending.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "trimLines",
+   "message": "trim all the lines in these notes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "truncateText",
+   "message": "cut this down to 30 characters: Welcome to our brand new online store for handmade candles",
+   "input": {
+    "text": "Welcome to our brand new online store for handmade candles",
+    "limit": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "Truncate this headline to 6 words: Local man wins lottery for the third time in ten years",
+   "input": {
+    "text": "Local man wins lottery for the third time in ten years",
+    "limit": 6,
+    "unit": "words"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "shorten to 15 chars: Introduction to Quantum Mechanics",
+   "input": {
+    "text": "Introduction to Quantum Mechanics",
+    "limit": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate this for my app's notification preview, max 40 characters: Your parcel has been delivered to the safe place you chose",
+   "input": {
+    "text": "Your parcel has been delivered to the safe place you chose",
+    "limit": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate to 10 characters and end with ...: Supercalifragilistic",
+   "input": {
+    "text": "Supercalifragilistic",
+    "limit": 10,
+    "ellipsis": "..."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "Cut this product name to 25 characters, it's fine to cut mid-word: Ultra Soft Bamboo Bath Towel Set Grey",
+   "input": {
+    "text": "Ultra Soft Bamboo Bath Towel Set Grey",
+    "limit": 25,
+    "breakWords": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate this to the first 12 words: The quick brown fox jumped over the lazy sleeping dog and then ran into the deep dark woods",
+   "input": {
+    "text": "The quick brown fox jumped over the lazy sleeping dog and then ran into the deep dark woods",
+    "limit": 12,
+    "unit": "words"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "Can you shorten my tweet to 50 characters? Just finished my first marathon and I can barely walk but I am so happy",
+   "input": {
+    "text": "Just finished my first marathon and I can barely walk but I am so happy",
+    "limit": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate at 20 chars: Meeting notes for the quarterly budget review",
+   "input": {
+    "text": "Meeting notes for the quarterly budget review",
+    "limit": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate to five words: Please remember to bring your packed lunch on Friday",
+   "input": {
+    "text": "Please remember to bring your packed lunch on Friday",
+    "limit": 5,
+    "unit": "words"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "Shorten this meta description to 60 characters: Discover our range of eco friendly cleaning products made in Britain from natural ingredients",
+   "input": {
+    "text": "Discover our range of eco friendly cleaning products made in Britain from natural ingredients",
+    "limit": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "cut it to 8 characters with a dash at the end: Wednesday",
+   "input": {
+    "text": "Wednesday",
+    "limit": 8,
+    "ellipsis": "-"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "Truncate this patient summary to 20 words for the board: Patient admitted with chest pain, ECG normal, troponin negative, observed overnight, discharged home with advice to follow up with GP within two weeks",
+   "input": {
+    "text": "Patient admitted with chest pain, ECG normal, troponin negative, observed overnight, discharged home with advice to follow up with GP within two weeks",
+    "limit": 20,
+    "unit": "words"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "shorten to 35 characters: Annual General Meeting of the Allotment Society",
+   "input": {
+    "text": "Annual General Meeting of the Allotment Society",
+    "limit": 35
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "Shorten this subject line to 3 words: Reminder about tomorrow's fire drill",
+   "input": {
+    "text": "Reminder about tomorrow's fire drill",
+    "limit": 3,
+    "unit": "words"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate to 18 characters: The Legend of the Forgotten Kingdom",
+   "input": {
+    "text": "The Legend of the Forgotten Kingdom",
+    "limit": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "Please cut this down to 100 characters for the SMS: Hi, this is a reminder that your appointment with the hygienist is on Tuesday at 10am at the High Street practice. Reply C to cancel.",
+   "input": {
+    "text": "Hi, this is a reminder that your appointment with the hygienist is on Tuesday at 10am at the High Street practice. Reply C to cancel.",
+    "limit": 100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "shorten this blurb to 10 words, no ellipsis: A gripping thriller about a detective chasing a killer across the frozen north of Norway",
+   "input": {
+    "text": "A gripping thriller about a detective chasing a killer across the frozen north of Norway",
+    "limit": 10,
+    "unit": "words",
+    "ellipsis": ""
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate to 12 characters please: Strawberry Cheesecake",
+   "input": {
+    "text": "Strawberry Cheesecake",
+    "limit": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "truncateText",
+   "message": "shorten my bio to 160 characters",
+   "input": {
+    "limit": 160
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "truncateText",
+   "message": "Truncate the description below to 25 words.",
+   "input": {
+    "limit": 25,
+    "unit": "words"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "truncateText",
+   "message": "cut this caption down to 80 characters",
+   "input": {
+    "limit": 80
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "truncateText",
+   "message": "can you truncate my abstract to 50 words",
+   "input": {
+    "limit": 50,
+    "unit": "words"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "truncateText",
+   "message": "Shorten the title I'm pasting to 30 characters, cutting mid-word if needed.",
+   "input": {
+    "limit": 30,
+    "breakWords": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "which words come up most often in: the rain in spain falls mainly on the plain in spain",
+   "input": {
+    "text": "the rain in spain falls mainly on the plain in spain"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "Give me the top 3 most frequent words in this review: great food, great staff, great prices, food was hot",
+   "input": {
+    "text": "great food, great staff, great prices, food was hot",
+    "limit": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "word frequency count for: buy now buy today buy online now",
+   "input": {
+    "text": "buy now buy today buy online now"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "I'm checking my essay for overused words. Which words repeat the most? However the results were clear. However the method was weak. However we continued.",
+   "input": {
+    "text": "However the results were clear. However the method was weak. However we continued."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "most common words, including little words like the and of: the end of the road is the start of the journey",
+   "input": {
+    "text": "the end of the road is the start of the journey",
+    "removeStopWords": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "Rank the words by how often they appear: cat dog cat bird dog cat",
+   "input": {
+    "text": "cat dog cat bird dog cat"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "top 10 words in these survey answers: slow app, slow login, crashes, slow sync, crashes on login",
+   "input": {
+    "text": "slow app, slow login, crashes, slow sync, crashes on login",
+    "limit": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "what's the most repeated word in this chant? let's go team let's go team go go go",
+   "input": {
+    "text": "let's go team let's go team go go go"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "Count how often each word appears in: red fish blue fish one fish two fish",
+   "input": {
+    "text": "red fish blue fish one fish two fish"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "word frequencies please - coffee tea coffee juice coffee tea water",
+   "input": {
+    "text": "coffee tea coffee juice coffee tea water"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "Which words recur most in my speech? We will fight. We will win. We will never surrender.",
+   "input": {
+    "text": "We will fight. We will win. We will never surrender."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "most frequent 2 words: pizza pasta pizza salad pasta pizza",
+   "input": {
+    "text": "pizza pasta pizza salad pasta pizza",
+    "limit": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "As a teacher I want the word frequency of my pupil's sentence: then we went to the shop and then we went home and then we had tea",
+   "input": {
+    "text": "then we went to the shop and then we went home and then we had tea"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "frequency of words in this product feedback: battery good, screen good, battery lasts, price high",
+   "input": {
+    "text": "battery good, screen good, battery lasts, price high"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "Tell me the top five words by frequency here: data drives decisions, data informs strategy, data matters",
+   "input": {
+    "text": "data drives decisions, data informs strategy, data matters",
+    "limit": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "which word is used the most in this lyric: love me tender love me sweet never let me go",
+   "input": {
+    "text": "love me tender love me sweet never let me go"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "word frequency, keep the stop words in: a rose is a rose is a rose",
+   "input": {
+    "text": "a rose is a rose is a rose",
+    "removeStopWords": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "What words appear most often in these complaint notes? late delivery, damaged box, late again, refund late",
+   "input": {
+    "text": "late delivery, damaged box, late again, refund late"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "count how often each word appears in my blog post",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "Give me the 10 most frequent words in the transcript below.",
+   "input": {
+    "limit": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "word frequency count for this chapter",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "rank every word in my essay by how often it occurs, stop words included",
+   "input": {
+    "removeStopWords": false
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "Rank the words in these reviews by how often they appear.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordFrequency",
+   "message": "top 3 most common words in the text I'm pasting",
+   "input": {
+    "limit": 3
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wrapText",
+   "message": "wrap this to 25 characters per line: The annual summer fete will be held on the village green this year",
+   "input": {
+    "text": "The annual summer fete will be held on the village green this year",
+    "width": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "Hard-wrap at 40 columns please: Please ensure all visitors sign in at reception and wear their badge at all times while on site",
+   "input": {
+    "text": "Please ensure all visitors sign in at reception and wear their badge at all times while on site",
+    "width": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "wrap at 15: once upon a time there lived a tiny dragon",
+   "input": {
+    "text": "once upon a time there lived a tiny dragon",
+    "width": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "I'm writing a git commit body, wrap the text at 72 characters: Refactor the payment module to remove the duplicated retry logic and make the timeout configurable per merchant",
+   "input": {
+    "text": "Refactor the payment module to remove the duplicated retry logic and make the timeout configurable per merchant",
+    "width": 72
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "Can you wrap this text so no line is longer than 30 characters? Thank you for shopping with us, we hope to see you again soon",
+   "input": {
+    "text": "Thank you for shopping with us, we hope to see you again soon",
+    "width": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "wrap at 20 chars with a two space indent: remember to water the tomatoes every evening",
+   "input": {
+    "text": "remember to water the tomatoes every evening",
+    "width": 20,
+    "indent": "  "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "line wrap this at 50: The quick brown fox jumps over the lazy dog while the farmer watches from the kitchen window",
+   "input": {
+    "text": "The quick brown fox jumps over the lazy dog while the farmer watches from the kitchen window",
+    "width": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "Wrap my poem prose into lines of at most 18 characters: the river runs silver under a sleeping moon",
+   "input": {
+    "text": "the river runs silver under a sleeping moon",
+    "width": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "wrap to 35 columns for the receipt printer: Returns accepted within thirty days with proof of purchase only",
+   "input": {
+    "text": "Returns accepted within thirty days with proof of purchase only",
+    "width": 35
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "hard wrap at 12: press any key to continue the game",
+   "input": {
+    "text": "press any key to continue the game",
+    "width": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "Please word-wrap this email paragraph at 60 characters: I wanted to follow up on our conversation last week about the new rota and whether weekend shifts can be shared",
+   "input": {
+    "text": "I wanted to follow up on our conversation last week about the new rota and whether weekend shifts can be shared",
+    "width": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "wrap this at 28 and indent each line with > : Thanks for flagging this, I will look into it today",
+   "input": {
+    "text": "Thanks for flagging this, I will look into it today",
+    "width": 28,
+    "indent": "> "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "wrap these instructions to 22 character lines: Take two tablets with water after food",
+   "input": {
+    "text": "Take two tablets with water after food",
+    "width": 22
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "Wrap the code comment at 80 columns: This function validates the user input, normalises the date formats, and rejects any record that is missing a postcode or a surname",
+   "input": {
+    "text": "This function validates the user input, normalises the date formats, and rejects any record that is missing a postcode or a surname",
+    "width": 80
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "wrap at 16 chars: happy birthday to the best grandad in the world",
+   "input": {
+    "text": "happy birthday to the best grandad in the world",
+    "width": 16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "Could you line-wrap this to 45 characters? Our library is open late on Thursdays for students preparing for exams",
+   "input": {
+    "text": "Our library is open late on Thursdays for students preparing for exams",
+    "width": 45
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "wrap text to 33 wide: Boarding for flight BA117 to New York will begin at gate twelve shortly",
+   "input": {
+    "text": "Boarding for flight BA117 to New York will begin at gate twelve shortly",
+    "width": 33
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "hard-wrap this paragraph to a width of 24 for my zine: we printed the first issue on a borrowed photocopier at midnight",
+   "input": {
+    "text": "we printed the first issue on a borrowed photocopier at midnight",
+    "width": 24
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wrapText",
+   "message": "wrap my essay at 80 columns",
+   "input": {
+    "width": 80
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wrapText",
+   "message": "Hard-wrap the paragraph below to 40 characters.",
+   "input": {
+    "width": 40
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wrapText",
+   "message": "wrap this text so lines are no longer than 60 chars",
+   "input": {
+    "width": 60
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wrapText",
+   "message": "can you wrap my commit message at 72",
+   "input": {
+    "width": 72
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wrapText",
+   "message": "Wrap the text I'm pasting at 30 columns with a four space indent.",
+   "input": {
+    "width": 30,
+    "indent": "    "
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wrapText",
+   "message": "line-wrap this README section",
+   "input": {},
+   "mode": "pointed"
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "joinLines",
+    "numberLines"
+   ],
+   "rows": [
+    {
+     "skill": "joinLines",
+     "message": "join the lines of this packing list into one line:\npassport\ncharger\nsocks",
+     "input": {
+      "text": "passport\ncharger\nsocks"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "numberLines",
+     "message": "add line numbers to the lines of this packing list:\npassport\ncharger\nsocks",
+     "input": {
+      "text": "passport\ncharger\nsocks"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "numberLines"
+   ],
+   "rows": [
+    {
+     "skill": "joinLines",
+     "message": "Can you join these checkout steps into one line with commas?\nopen app\nlog in\npay",
+     "input": {
+      "text": "open app\nlog in\npay",
+      "delimiter": ","
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "numberLines",
+     "message": "Can you add line numbers to these checkout steps?\nopen app\nlog in\npay",
+     "input": {
+      "text": "open app\nlog in\npay"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "removeDuplicateLines"
+   ],
+   "rows": [
+    {
+     "skill": "joinLines",
+     "message": "join these attendee lines into one line with commas:\nAmy\nRaj\nAmy\nZoe",
+     "input": {
+      "text": "Amy\nRaj\nAmy\nZoe",
+      "delimiter": ","
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "removeDuplicateLines",
+     "message": "remove the duplicate lines from these attendee lines:\nAmy\nRaj\nAmy\nZoe",
+     "input": {
+      "text": "Amy\nRaj\nAmy\nZoe"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "removeDuplicateLines"
+   ],
+   "rows": [
+    {
+     "skill": "joinLines",
+     "message": "join my tag lines into a single line\nsale\nnew\nsale\nhot",
+     "input": {
+      "text": "sale\nnew\nsale\nhot"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "removeDuplicateLines",
+     "message": "remove the duplicate tag lines from my list\nsale\nnew\nsale\nhot",
+     "input": {
+      "text": "sale\nnew\nsale\nhot"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "joinLines",
+     "message": "join these city lines into one line:\nOslo\nCairo\nLima",
+     "input": {
+      "text": "Oslo\nCairo\nLima"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "sort these city lines alphabetically:\nOslo\nCairo\nLima",
+     "input": {
+      "text": "Oslo\nCairo\nLima"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "joinLines",
+     "message": "join the lines of these scores with spaces\n42\n7\n19",
+     "input": {
+      "text": "42\n7\n19",
+      "delimiter": " "
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "sort the lines of these scores numerically\n42\n7\n19",
+     "input": {
+      "text": "42\n7\n19",
+      "by": "numeric"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "splitLines"
+   ],
+   "rows": [
+    {
+     "skill": "joinLines",
+     "message": "join these colours onto one line with commas:\nteal\nnavy\nplum",
+     "input": {
+      "text": "teal\nnavy\nplum",
+      "delimiter": ","
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "splitLines",
+     "message": "split these colours onto separate lines at the commas: teal, navy, plum",
+     "input": {
+      "text": "teal, navy, plum"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "splitLines"
+   ],
+   "rows": [
+    {
+     "skill": "joinLines",
+     "message": "join this column into one line separated by semicolons:\nA1\nB2\nC3",
+     "input": {
+      "text": "A1\nB2\nC3",
+      "delimiter": ";"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "splitLines",
+     "message": "split this line separated by semicolons into a column: A1;B2;C3",
+     "input": {
+      "text": "A1;B2;C3",
+      "delimiter": ";"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "trimLines"
+   ],
+   "rows": [
+    {
+     "skill": "joinLines",
+     "message": "join each of these padded lines into one line:\n  red  \n  blue  \n  green  ",
+     "input": {
+      "text": "  red  \n  blue  \n  green  "
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "trimLines",
+     "message": "trim each of these padded lines:\n  red  \n  blue  \n  green  ",
+     "input": {
+      "text": "  red  \n  blue  \n  green  "
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "trimLines"
+   ],
+   "rows": [
+    {
+     "skill": "joinLines",
+     "message": "join the lines of my address into one line with commas\n 1 Elm Road \n Bath \n BA1 1AA ",
+     "input": {
+      "text": " 1 Elm Road \n Bath \n BA1 1AA ",
+      "delimiter": ","
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "trimLines",
+     "message": "trim the spaces around the lines of my address\n 1 Elm Road \n Bath \n BA1 1AA ",
+     "input": {
+      "text": " 1 Elm Road \n Bath \n BA1 1AA "
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "numberLines",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "numberLines",
+     "message": "number the lines of this reading list:\nDune\nEmma\nBeloved",
+     "input": {
+      "text": "Dune\nEmma\nBeloved"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "sort the lines of this reading list A to Z:\nDune\nEmma\nBeloved",
+     "input": {
+      "text": "Dune\nEmma\nBeloved"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "numberLines",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "numberLines",
+     "message": "add line numbers to these chore lines\nhoover\ndishes\nlaundry",
+     "input": {
+      "text": "hoover\ndishes\nlaundry"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "sort these chore lines alphabetically\nhoover\ndishes\nlaundry",
+     "input": {
+      "text": "hoover\ndishes\nlaundry"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeDuplicateLines",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "removeDuplicateLines",
+     "message": "remove the duplicate lines in this list of fruits:\npear\nfig\npear\napple",
+     "input": {
+      "text": "pear\nfig\npear\napple"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "sort the lines in this list of fruits:\npear\nfig\npear\napple",
+     "input": {
+      "text": "pear\nfig\npear\napple"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeDuplicateLines",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "removeDuplicateLines",
+     "message": "remove duplicate lines from my log\nwarn disk\nok\nwarn disk",
+     "input": {
+      "text": "warn disk\nok\nwarn disk"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "sort the lines of my log alphabetically\nwarn disk\nok\nwarn disk",
+     "input": {
+      "text": "warn disk\nok\nwarn disk"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeDuplicateLines",
+    "trimLines"
+   ],
+   "rows": [
+    {
+     "skill": "removeDuplicateLines",
+     "message": "remove duplicate lines in my list of usernames:\njdoe\nasmith\njdoe",
+     "input": {
+      "text": "jdoe\nasmith\njdoe"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "trimLines",
+     "message": "trim the spaces off the lines in my list of usernames:\n  jdoe  \n asmith \n  jdoe",
+     "input": {
+      "text": "  jdoe  \n asmith \n  jdoe"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeDuplicateLines",
+    "trimLines"
+   ],
+   "rows": [
+    {
+     "skill": "removeDuplicateLines",
+     "message": "remove the repeated lines here:\ncoffee\ntea\ncoffee",
+     "input": {
+      "text": "coffee\ntea\ncoffee"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "trimLines",
+     "message": "trim the padded lines here:\n  coffee\ntea  \n  coffee",
+     "input": {
+      "text": "  coffee\ntea  \n  coffee"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeEmoji",
+    "removeStopWords"
+   ],
+   "rows": [
+    {
+     "skill": "removeEmoji",
+     "message": "remove the emoji from this sentence: the dog 🐶 is in the garden 🌳",
+     "input": {
+      "text": "the dog 🐶 is in the garden 🌳"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "removeStopWords",
+     "message": "remove the stop words from this sentence: the dog is in the garden",
+     "input": {
+      "text": "the dog is in the garden"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeEmoji",
+    "removeStopWords"
+   ],
+   "rows": [
+    {
+     "skill": "removeEmoji",
+     "message": "strip the emojis out of my caption: off to the beach with my best friends 🏖️",
+     "input": {
+      "text": "off to the beach with my best friends 🏖️"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "removeStopWords",
+     "message": "strip the stop words out of my caption: off to the beach with my best friends",
+     "input": {
+      "text": "off to the beach with my best friends"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeEmoji",
+    "stripHtml"
+   ],
+   "rows": [
+    {
+     "skill": "removeEmoji",
+     "message": "strip the emoji from this message: Order confirmed 🎉 thanks",
+     "input": {
+      "text": "Order confirmed 🎉 thanks"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "stripHtml",
+     "message": "strip the html from this message: <p>Order confirmed <b>thanks</b></p>",
+     "input": {
+      "html": "<p>Order confirmed <b>thanks</b></p>"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeEmoji",
+    "stripHtml"
+   ],
+   "rows": [
+    {
+     "skill": "removeEmoji",
+     "message": "strip the emojis and keep the plain words of my banner: Happy Friday 😎🍕",
+     "input": {
+      "text": "Happy Friday 😎🍕"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "stripHtml",
+     "message": "strip the html tags and keep the plain words of my banner: <div>Happy <i>Friday</i></div>",
+     "input": {
+      "html": "<div>Happy <i>Friday</i></div>"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeEmoji",
+    "stripHtml"
+   ],
+   "rows": [
+    {
+     "skill": "removeEmoji",
+     "message": "clean the emoji out of this newsletter line: Big news 📣 we're moving",
+     "input": {
+      "text": "Big news 📣 we're moving"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "stripHtml",
+     "message": "clean the html tags out of this newsletter line: <h2>Big news</h2> we're moving",
+     "input": {
+      "html": "<h2>Big news</h2> we're moving"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "sortLines",
+    "sortList"
+   ],
+   "rows": [
+    {
+     "skill": "sortLines",
+     "message": "sort these fruit lines into alphabetical order:\nplum\napple\nkiwi",
+     "input": {
+      "text": "plum\napple\nkiwi"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortList",
+     "message": "sort this fruit list into alphabetical order: plum, apple, kiwi",
+     "input": {
+      "items": [
+       "plum",
+       "apple",
+       "kiwi"
+      ]
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "sortLines",
+    "sortList"
+   ],
+   "rows": [
+    {
+     "skill": "sortLines",
+     "message": "sort these lines from biggest to smallest:\n30\n4\n100",
+     "input": {
+      "text": "30\n4\n100",
+      "by": "numeric",
+      "direction": "descending"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortList",
+     "message": "sort this list from biggest to smallest: 30, 4, 100",
+     "input": {
+      "items": [
+       30,
+       4,
+       100
+      ],
+      "by": "numeric",
+      "direction": "descending"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "splitLines",
+    "wrapText"
+   ],
+   "rows": [
+    {
+     "skill": "splitLines",
+     "message": "split this text onto new lines at each comma: apples, pears, plums, cherries, grapes",
+     "input": {
+      "text": "apples, pears, plums, cherries, grapes"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "wrapText",
+     "message": "wrap this text onto new lines at 20 characters: apples, pears, plums, cherries, grapes",
+     "input": {
+      "text": "apples, pears, plums, cherries, grapes",
+      "width": 20
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "splitLines",
+    "wrapText"
+   ],
+   "rows": [
+    {
+     "skill": "splitLines",
+     "message": "split this sentence into lines at each semicolon: we met; we talked; we left together at dawn",
+     "input": {
+      "text": "we met; we talked; we left together at dawn",
+      "delimiter": ";"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "wrapText",
+     "message": "wrap this sentence into lines of 15 characters: we met; we talked; we left together at dawn",
+     "input": {
+      "text": "we met; we talked; we left together at dawn",
+      "width": 15
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "splitLines",
+    "wrapText"
+   ],
+   "rows": [
+    {
+     "skill": "splitLines",
+     "message": "split this onto multiple lines on the pipes: home | about | shop | contact us today",
+     "input": {
+      "text": "home | about | shop | contact us today",
+      "delimiter": "|"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "wrapText",
+     "message": "wrap this onto multiple lines at 12 characters: home | about | shop | contact us today",
+     "input": {
+      "text": "home | about | shop | contact us today",
+      "width": 12
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "tokenizeSentences",
+    "tokenizeWords"
+   ],
+   "rows": [
+    {
+     "skill": "tokenizeSentences",
+     "message": "tokenize into sentences: Rain fell. Wind howled. We stayed in.",
+     "input": {
+      "text": "Rain fell. Wind howled. We stayed in."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "tokenizeWords",
+     "message": "tokenize into words: Rain fell. Wind howled. We stayed in.",
+     "input": {
+      "text": "Rain fell. Wind howled. We stayed in."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "tokenizeSentences",
+    "tokenizeWords"
+   ],
+   "rows": [
+    {
+     "skill": "tokenizeSentences",
+     "message": "break my caption into individual sentences: Sun's out. Let's go swimming.",
+     "input": {
+      "text": "Sun's out. Let's go swimming."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "tokenizeWords",
+     "message": "break my caption into individual words: Sun's out. Let's go swimming.",
+     "input": {
+      "text": "Sun's out. Let's go swimming."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "findLongestWord",
+    "wordFrequency"
+   ],
+   "rows": [
+    {
+     "skill": "findLongestWord",
+     "message": "which word is the longest in this line: the extraordinary cat sat on the extraordinary mat",
+     "input": {
+      "text": "the extraordinary cat sat on the extraordinary mat"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "wordFrequency",
+     "message": "which word is the most frequent in this line: the extraordinary cat sat on the extraordinary mat",
+     "input": {
+      "text": "the extraordinary cat sat on the extraordinary mat"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "findLongestWord",
+    "wordFrequency"
+   ],
+   "rows": [
+    {
+     "skill": "findLongestWord",
+     "message": "find the longest word in my tweet: unbelievable comeback by the underdogs, unbelievable night",
+     "input": {
+      "text": "unbelievable comeback by the underdogs, unbelievable night"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "wordFrequency",
+     "message": "find the most common word in my tweet: unbelievable comeback by the underdogs, unbelievable night",
+     "input": {
+      "text": "unbelievable comeback by the underdogs, unbelievable night"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "diffText",
+    "reverseText"
+   ],
+   "rows": [
+    {
+     "skill": "diffText",
+     "message": "show me what changed between 'meet at noon' and 'meet at one'",
+     "input": {
+      "before": "meet at noon",
+      "after": "meet at one"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "reverseText",
+     "message": "reverse 'meet at noon' and show me",
+     "input": {
+      "text": "meet at noon"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "diffText",
+    "reverseText"
+   ],
+   "rows": [
+    {
+     "skill": "diffText",
+     "message": "diff these word by word: 'fast cheap reliable' vs 'fast reliable'",
+     "input": {
+      "before": "fast cheap reliable",
+      "after": "fast reliable",
+      "by": "word"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "reverseText",
+     "message": "reverse these words: fast cheap reliable",
+     "input": {
+      "text": "fast cheap reliable",
+      "by": "words"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "wordFrequency"
+   ],
+   "rows": [
+    {
+     "skill": "countWords",
+     "message": "count the words in this: the cat chased the other cat",
+     "input": {
+      "text": "the cat chased the other cat"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "wordFrequency",
+     "message": "which words appear most in this: the cat chased the other cat",
+     "input": {
+      "text": "the cat chased the other cat"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "wordFrequency"
+   ],
+   "rows": [
+    {
+     "skill": "countWords",
+     "message": "count the words in my headline: Storm closes schools as storm warnings spread",
+     "input": {
+      "text": "Storm closes schools as storm warnings spread"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "wordFrequency",
+     "message": "count each word's frequency in my headline: Storm closes schools as storm warnings spread",
+     "input": {
+      "text": "Storm closes schools as storm warnings spread"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "wordFrequency"
+   ],
+   "rows": [
+    {
+     "skill": "countWords",
+     "message": "give me the word count of this caption: sunny day at the lake with the kids",
+     "input": {
+      "text": "sunny day at the lake with the kids"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "wordFrequency",
+     "message": "give me the word frequency of this caption: sunny day at the lake with the kids",
+     "input": {
+      "text": "sunny day at the lake with the kids"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "tokenizeSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countSentences",
+     "message": "how many sentences are in this: It rained. We stayed in. The roof leaked.",
+     "input": {
+      "text": "It rained. We stayed in. The roof leaked."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "tokenizeSentences",
+     "message": "list the sentences in this: It rained. We stayed in. The roof leaked.",
+     "input": {
+      "text": "It rained. We stayed in. The roof leaked."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "tokenizeSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countSentences",
+     "message": "count the sentences in my abstract: We test drug X. It works. Side effects were mild.",
+     "input": {
+      "text": "We test drug X. It works. Side effects were mild."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "tokenizeSentences",
+     "message": "split the sentences in my abstract apart: We test drug X. It works. Side effects were mild.",
+     "input": {
+      "text": "We test drug X. It works. Side effects were mild."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "tokenizeSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countSentences",
+     "message": "Count the sentences in this review: Lovely hotel. Rude staff. Great pool.",
+     "input": {
+      "text": "Lovely hotel. Rude staff. Great pool."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "tokenizeSentences",
+     "message": "Split the sentences in this review onto separate lines: Lovely hotel. Rude staff. Great pool.",
+     "input": {
+      "text": "Lovely hotel. Rude staff. Great pool."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countSentences",
+     "message": "how many sentences in: The owl hooted. The mouse froze.",
+     "input": {
+      "text": "The owl hooted. The mouse froze."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "how many syllables in: The owl hooted. The mouse froze.",
+     "input": {
+      "text": "The owl hooted. The mouse froze."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countSentences",
+     "message": "count the sentences in this verse: Snow falls. Night comes.",
+     "input": {
+      "text": "Snow falls. Night comes."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "count the syllables in this verse: Snow falls. Night comes.",
+     "input": {
+      "text": "Snow falls. Night comes."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countOccurrences",
+     "message": "count the times 'la' shows up in: la la land",
+     "input": {
+      "text": "la la land",
+      "needle": "la"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "count the syllables in: la la land",
+     "input": {
+      "text": "la la land"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countOccurrences",
+     "message": "count how many times banana appears in: banana bread with banana cream",
+     "input": {
+      "text": "banana bread with banana cream",
+      "needle": "banana"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "count how many syllables are in: banana bread with banana cream",
+     "input": {
+      "text": "banana bread with banana cream"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "how many lines are in this verse:\nThe moon is high\nThe sea is calm",
+     "input": {
+      "text": "The moon is high\nThe sea is calm"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "how many syllables are in this verse:\nThe moon is high\nThe sea is calm",
+     "input": {
+      "text": "The moon is high\nThe sea is calm"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the lines in my haiku:\nold pond\nfrog jumps\nsplash",
+     "input": {
+      "text": "old pond\nfrog jumps\nsplash"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "count the syllables in my haiku:\nold pond\nfrog jumps\nsplash",
+     "input": {
+      "text": "old pond\nfrog jumps\nsplash"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "how many lines are in this list:\nzinc\niron\ncopper",
+     "input": {
+      "text": "zinc\niron\ncopper"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "sort the lines in this list:\nzinc\niron\ncopper",
+     "input": {
+      "text": "zinc\niron\ncopper"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the lines of my guest list\nTara\nBo\nAl",
+     "input": {
+      "text": "Tara\nBo\nAl"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "sort the lines of my guest list\nTara\nBo\nAl",
+     "input": {
+      "text": "Tara\nBo\nAl"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "removeDuplicateLines"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the colour lines in this paint order:\nred\nred\nblue",
+     "input": {
+      "text": "red\nred\nblue"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "removeDuplicateLines",
+     "message": "remove the duplicate colour lines in this paint order:\nred\nred\nblue",
+     "input": {
+      "text": "red\nred\nblue"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "removeDuplicateLines"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "how many lines does my email list have\nx@a.com\ny@a.com\nx@a.com",
+     "input": {
+      "text": "x@a.com\ny@a.com\nx@a.com"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "removeDuplicateLines",
+     "message": "remove duplicate lines from my email list\nx@a.com\ny@a.com\nx@a.com",
+     "input": {
+      "text": "x@a.com\ny@a.com\nx@a.com"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "joinLines"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "how many lines are in these names:\nAna\nBen\nCal",
+     "input": {
+      "text": "Ana\nBen\nCal"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "joinLines",
+     "message": "join the lines of these names into one:\nAna\nBen\nCal",
+     "input": {
+      "text": "Ana\nBen\nCal"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "joinLines"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the lines in my ingredient list\nflour\nsugar\nbutter",
+     "input": {
+      "text": "flour\nsugar\nbutter"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "joinLines",
+     "message": "join the lines in my ingredient list with commas\nflour\nsugar\nbutter",
+     "input": {
+      "text": "flour\nsugar\nbutter",
+      "delimiter": ","
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "how many characters long is the word caterpillar",
+     "input": {
+      "text": "caterpillar"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "how many syllables long is the word caterpillar",
+     "input": {
+      "text": "caterpillar"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "count the characters in my band name, The Midnight Owls",
+     "input": {
+      "text": "The Midnight Owls"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "count the syllables in my band name, The Midnight Owls",
+     "input": {
+      "text": "The Midnight Owls"
+     },
+     "mode": "full"
+    }
+   ]
+  }
+ ]
+}

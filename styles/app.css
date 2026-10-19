@@ -1,0 +1,1101 @@
+/* app.css — the main window, moved out of index.html so the Settings and
+   Developer windows can share it. Nothing in it changed in the move. */
+
+@font-face{font-family:'Hanken Grotesk';
+  src:url('../fonts/hanken-grotesk-variable.woff2') format('woff2-variations'),
+      url('../fonts/hanken-grotesk-variable.woff2') format('woff2');
+  font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url('../fonts/ibm-plex-mono-400.woff2') format('woff2');
+  font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url('../fonts/ibm-plex-mono-600.woff2') format('woff2');
+  font-weight:600;font-style:normal;font-display:swap}
+
+/* ============================================================================
+   ALTIMETER DESIGN SYSTEM
+   The tokens live in styles/tokens.css, carried over verbatim from the desktop
+   app's :root so Pigeon and the rest of the fleet read as one thing. Do not
+   fork those values, and do not paint a colour here that is not one of them.
+
+   Flat by default. Glass ONLY on the gauges named in the spec. The send button
+   is solid — the one weighty action. Shimmer/breathe is sanctioned in exactly
+   two places: the send button and the active nav badge.
+   If you're tempted to add glass somewhere else: don't.
+   ========================================================================= */
+*{margin:0;padding:0;box-sizing:border-box}
+/* Panels drawn with display:flex must still disappear when hidden. */
+[hidden]{display:none!important}
+html,body{height:100%}
+body{font-family:var(--sans);
+  background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased;
+  overflow:hidden;display:flex;flex-direction:column}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
+input,textarea,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--aqua);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.list,.pane-head,.t-badge,button{-webkit-user-select:none;user-select:none}
+.mono{font-family:var(--mono)}
+
+.app{flex:1;display:flex;overflow:hidden;min-height:0}
+
+/* ---------- the window: a list of conversations, and the conversation ----------
+   Laid out like a messaging app, because that is what Pigeon is now: every
+   Pigeon is someone you can message, and each row says who a chat is with,
+   what last happened in it and whether anything is still coming. */
+.list{width:310px;flex-shrink:0;border-right:1px solid var(--border);display:flex;flex-direction:column;
+  background:var(--surface);min-height:0}
+.list-head{display:flex;gap:8px;padding:12px 12px 8px;align-items:center}
+.search{flex:1;display:flex;align-items:center;gap:7px;background:var(--panel);border-radius:9px;padding:0 10px;
+  height:32px;color:var(--ink-faint);min-width:0}
+.search span{display:grid}
+.search svg{width:14px;height:14px}
+.search input{border:0;background:none;outline:none;flex:1;min-width:0;font-size:13px;color:var(--ink)}
+.search input::placeholder{color:var(--ink-faint)}
+.search:focus-within{box-shadow:0 0 0 2px var(--aqua)}
+.compose-btn{width:32px;height:32px;border-radius:9px;display:grid;place-items:center;color:var(--ink);
+  border:1px solid var(--border);flex-shrink:0}
+.compose-btn:hover{background:var(--panel)}
+.compose-btn svg{width:17px;height:17px}
+.compose-btn[hidden]{display:none}
+.tabs{display:flex;margin:0 12px 8px;padding:3px;background:var(--panel);border-radius:9px;gap:3px}
+.tabs button{flex:1;padding:5px 8px;border-radius:7px;font-size:12.5px;font-weight:600;color:var(--ink-soft)}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow-card)}
+.rows{flex:1;overflow-y:auto;padding:0 8px 8px;display:flex;flex-direction:column;gap:2px;min-height:0}
+.sec{font-family:var(--mono);font-size:9px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-faint);padding:10px 10px 4px}
+.list-empty{font-size:12.5px;color:var(--ink-faint);padding:10px 12px;line-height:1.5}
+
+.pins{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2px;padding:2px 0 8px;margin-bottom:4px;
+  border-bottom:1px solid var(--border)}
+.pin{position:relative;display:flex;flex-direction:column;align-items:center;gap:6px;padding:9px 4px 8px;
+  border-radius:12px;font-size:11.5px;font-weight:600;color:var(--ink-soft);min-width:0}
+.pin:hover{background:var(--hover)}
+.pin-name{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pin.on .pin-name{color:var(--ink)}
+.pin.on .av{box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--aqua)}
+.pin .udot{left:10px;top:12px;margin-top:0}
+.pin-busy{position:absolute;top:3px;right:14px;z-index:1;background:var(--panel);border:1px solid var(--border);
+  border-radius:10px 10px 10px 3px;padding:4px 6px;display:flex}
+.pin-busy .dots i{width:4px;height:4px}
+
+.crow-wrap{position:relative}
+.crow{position:relative;display:flex;gap:11px;align-items:center;padding:9px 10px 9px 16px;border-radius:12px;
+  text-align:left;width:100%;transition:background var(--dur-fast) var(--ease)}
+.crow:hover{background:var(--hover)}
+.crow.on{background:var(--panel)}
+.crow.dim .av,.crow.dim b{opacity:.55}
+.udot{position:absolute;left:4px;top:50%;width:8px;height:8px;margin-top:-4px;border-radius:50%;background:var(--aqua)}
+.crow-main{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.crow-top{display:flex;align-items:center;gap:6px}
+.crow-top b{font-size:14px;font-weight:700;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.crow-top time{font-size:11px;color:var(--ink-faint);font-variant-numeric:tabular-nums;flex-shrink:0}
+.crow-top .muted{display:grid;color:var(--ink-faint)}
+.crow-top .muted svg{width:12px;height:12px}
+.crow-prev{font-size:12.5px;line-height:1.4;color:var(--ink-faint);display:-webkit-box;-webkit-line-clamp:2;
+  -webkit-box-orient:vertical;overflow:hidden;min-height:2.8em;padding-right:22px;overflow-wrap:anywhere}
+.crow-prev.one{-webkit-line-clamp:1;min-height:0;padding-right:0}
+.crow-prev .draft{color:var(--danger);font-weight:600}
+.crow-prev .busy{font-family:var(--mono);font-size:11px;color:var(--aqua)}
+.crow-prev mark,.crow-top mark,.sg-txt mark{background:var(--aqua-tint);color:inherit;border-radius:3px;padding:0 1px}
+.unread .crow-top b{color:var(--ink)}
+.unread .crow-prev{color:var(--ink)}
+.crow-more{position:absolute;right:8px;bottom:9px;width:24px;height:24px;border-radius:7px;display:grid;
+  place-items:center;color:var(--ink-faint);opacity:0;transition:opacity var(--dur-fast) var(--ease),background var(--dur-fast) var(--ease),color var(--dur-fast) var(--ease)}
+.crow-more svg{width:16px;height:16px}
+.crow-wrap:hover .crow-more,.crow-more:focus-visible{opacity:1}
+.crow-more:hover{background:var(--surface);color:var(--ink)}
+/* A Pigeon's row opens its page. What shows on hover, set to the right on its
+   own pill: the compose button — filled, so it reads as a different thing from
+   the row and is not pressed on the way to the page — and ⋯. */
+.prow .crow-side{position:absolute;right:8px;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:4px;
+  padding:3px 3px 3px 14px;border-radius:999px;background:linear-gradient(90deg,transparent,var(--hover) 14px);
+  opacity:0;transition:opacity var(--dur-fast) var(--ease)}
+.prow:hover .crow-side,.prow:focus-within .crow-side{opacity:1}
+.prow .crow.on ~ .crow-side{background:linear-gradient(90deg,transparent,var(--panel) 14px)}
+.prow .crow-more{position:static;opacity:1}
+.crow-go{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--solid);color:var(--on-solid);
+  box-shadow:var(--shadow-card);transition:transform var(--dur-fast) var(--ease)}
+.crow-go svg{width:15px;height:15px}
+.crow-go:hover{transform:scale(1.06)}
+.crow-go:active{transform:scale(.92)}
+.crow .kind{margin-left:auto}
+
+/* The honest status strip, short version: whether the models are up and where
+   the chats are kept, on every screen. The whole strip is one click in. */
+.list-foot{border-top:1px solid var(--border);padding:10px 14px;display:flex;align-items:center;gap:8px;width:100%;
+  text-align:left;font-family:var(--mono);font-size:10px;color:var(--ink-faint);
+  letter-spacing:.03em;flex-shrink:0}
+.list-foot span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.list-foot:hover{background:var(--hover);color:var(--ink-soft)}
+.dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;background:var(--ink-faint);opacity:.5}
+.dot.on{background:var(--green);opacity:1}
+.dot.sub{background:var(--amber);opacity:1}
+
+/* Every model seam in §3, and what is actually running behind it. */
+.stack{display:flex;flex-direction:column;border-top:1px solid var(--border);margin-top:12px}
+.stackrow{display:flex;align-items:center;gap:8px;padding:7px 4px;border-bottom:1px solid var(--border);font-size:10.5px;
+  font-family:var(--mono);color:var(--ink-soft)}
+.stackrow b{font-weight:600;min-width:64px;color:var(--ink-faint);letter-spacing:.03em;flex-shrink:0}
+.stackrow span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* Floating, and fixed rather than absolute: the list scrolls, and an
+   absolutely-positioned menu inside it would be clipped by that overflow. */
+.ctx{position:fixed;z-index:96;min-width:210px;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;box-shadow:var(--shadow-float);padding:5px;display:flex;flex-direction:column;
+  transform-origin:top center;animation:pop .16s ease-out}
+.ctx button{display:flex;align-items:center;gap:10px;padding:7px 10px;border-radius:8px;font-size:13px;
+  text-align:left;color:var(--ink);transition:background var(--dur-fast) var(--ease)}
+.ctx button:hover{background:var(--panel)}
+.ctx button:focus-visible{background:var(--panel);outline:2px solid var(--aqua);outline-offset:-2px}
+.ctx button.danger,.ctx button.danger svg{color:var(--danger)}
+.ctx svg{width:16px;height:16px;color:var(--ink-faint)}
+.ctx .rule{height:1px;background:var(--border);margin:4px 6px}
+.ctx button:disabled{opacity:.45;cursor:default}
+.ctx button:disabled:hover{background:none}
+
+/* ---------- the conversation pane ---------- */
+.pane{flex:1;min-width:0;display:flex;flex-direction:column;position:relative;min-height:0}
+.pane-head{height:60px;flex-shrink:0;display:flex;align-items:center;gap:6px;padding:0 12px 0 16px;
+  border-bottom:1px solid var(--gold-hairline);background:var(--surface)}
+body[data-lane="b"] .pane-head.chat{border-bottom-color:var(--warn-line)}
+.pane-body{flex:1;display:flex;flex-direction:column;position:relative;min-height:0}
+.head-btn{width:32px;height:32px;border-radius:9px;display:grid;place-items:center;color:var(--ink-faint);flex-shrink:0;
+  transition:background var(--dur-fast) var(--ease),color var(--dur-fast) var(--ease),transform var(--dur-fast) var(--ease)}
+.head-btn:hover,.head-btn[aria-expanded="true"]{background:var(--panel);color:var(--ink)}
+.head-btn:active{transform:scale(.9)}
+.head-btn svg{width:18px;height:18px}
+.head-btn.sm{width:26px;height:26px;border-radius:7px}
+.head-btn.sm svg{width:13px;height:13px}
+.head-btn.back{display:none}
+.contact{flex:1;min-width:0;display:flex;align-items:center;gap:10px;text-align:left;border-radius:10px;padding:4px 6px 4px 0}
+.contact-txt{min-width:0;display:flex;flex-direction:column;gap:2px}
+.c-name{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:800;min-width:0}
+.c-title{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+.c-name svg{width:13px;height:13px;color:var(--ink-faint);flex-shrink:0}
+.c-sub{font-size:12px;color:var(--ink-faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.c-sub.busy{font-family:var(--mono);font-size:11px;color:var(--aqua)}
+.c-sub.busy.warm{color:var(--warn-ink)}
+
+/* Avatars: the app icon's squircle. Patch drawn, Pen a pen on the warm ground,
+   an imported Pigeon its own icon or its initials. */
+/* The facts the app states about a contact: "Works it out · starts fresh". */
+.fact-line{font-size:11.5px;font-style:italic;color:var(--ink-faint);white-space:nowrap;flex-shrink:0}
+.p-does{font-weight:600;color:var(--ink)}
+
+/* New chat: To:, and the Pigeons under it. */
+.to-row{flex:1;display:flex;align-items:center;gap:10px;min-width:0}
+.to-row label{font-family:var(--mono);font-size:11px;color:var(--ink-faint);letter-spacing:.04em}
+.to-field{flex:1;display:flex;align-items:center;gap:6px;min-width:0}
+.to-field input{flex:1;min-width:0;border:0;outline:none;background:none;font-size:14.5px;height:34px;color:var(--ink)}
+.to-field input::placeholder{color:var(--ink-faint)}
+.token{display:inline-flex;align-items:center;gap:7px;padding:3px 4px 3px 3px;border-radius:8px;background:var(--aqua-tint);
+  color:var(--ink);font-size:13.5px;font-weight:700;white-space:nowrap;max-width:60%;overflow:hidden;text-overflow:ellipsis}
+.token.warm{background:var(--warn-bg);box-shadow:inset 0 0 0 1px var(--warn-line)}
+.token .x{width:20px;height:20px;border-radius:5px;display:grid;place-items:center;color:var(--ink-faint)}
+.token .x:hover{color:var(--ink);background:var(--surface)}
+.token .x svg{width:12px;height:12px}
+/* The token for a default recipient carries no ×, so it pads its own right
+   edge instead of borrowing the button's. */
+.token.plain{padding-right:9px}
+/* "Someone else…" — the way off the default. A named button rather than an ×,
+   because changing your mind about a default is choosing, not removing. */
+.to-else{font-size:13px;color:var(--ink-soft);padding:4px 8px;border-radius:8px;white-space:nowrap}
+.to-else:hover{color:var(--ink);background:var(--panel)}
+.suggest{position:absolute;top:4px;left:48px;width:min(430px,calc(100% - 64px));z-index:20;background:var(--surface);
+  border:1px solid var(--border);border-radius:14px;box-shadow:var(--shadow-float);padding:6px;max-height:calc(100% - 24px);overflow-y:auto}
+/* Plays once, whenever [hidden] lifts — not on the keystroke-by-keystroke
+   redraws of what's inside, since those never touch this element itself. */
+.suggest:not([hidden]){animation:panelIn var(--dur-fast) var(--ease)}
+@keyframes panelIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+.link{color:var(--aqua);font-weight:700;text-decoration:underline;font-size:13px}
+.choose-hint{margin:auto;text-align:center;max-width:360px;color:var(--ink-faint);font-size:13px;line-height:1.6;padding:40px 20px}
+
+/* A chat's details, and a Pigeon's page. */
+.info{position:absolute;top:0;right:0;bottom:0;width:300px;background:var(--surface);border-left:1px solid var(--border);
+  box-shadow:var(--shadow-float);padding:18px 20px 22px;overflow-y:auto;z-index:15;display:flex;flex-direction:column;
+  align-items:center;gap:8px;text-align:center}
+/* Slides in from the edge it lives against. Only on [hidden] lifting — the
+   facts inside it get rewritten on every repaint while it's open, and none of
+   that should make the panel itself jump. */
+.info:not([hidden]){animation:drawerIn var(--dur-med) var(--ease)}
+/* The drawer takes its width from the thread rather than covering it. */
+@media(min-width:761px){.pane-body:has(> .info:not([hidden])) > .view{margin-right:300px}}
+@keyframes drawerIn{from{opacity:0;transform:translateX(16px)}to{opacity:1;transform:translateX(0)}}
+.info .info-x{align-self:flex-end;margin:-6px -8px -18px 0}
+.info h3{margin:4px 0 0;font-size:18px;font-weight:800;overflow-wrap:anywhere}
+.info p{margin:0;font-size:13px;line-height:1.55;color:var(--ink-soft)}
+.profile{margin:auto;text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px;max-width:400px;
+  width:100%;padding:24px 16px}
+.profile h3{margin:6px 0 0;font-size:20px;font-weight:800;letter-spacing:-.01em;max-width:100%;overflow-wrap:anywhere}
+.profile p{margin:0;font-size:13.5px;line-height:1.55;color:var(--ink-soft)}
+.profile .sec{align-self:stretch;text-align:left}
+.info .facts,.profile .facts{width:100%;text-align:left;margin-top:8px}
+.p-chats{align-self:stretch;display:flex;flex-direction:column;gap:2px}
+.actions{display:flex;gap:8px;justify-content:center;margin:6px 0 2px;flex-wrap:wrap}
+.act{display:flex;flex-direction:column;align-items:center;gap:5px;min-width:74px;padding:9px 8px 8px;border-radius:12px;
+  background:var(--surface);border:1px solid var(--border);font-size:11.5px;font-weight:700;color:var(--aqua)}
+.act svg{width:18px;height:18px}
+.act:hover{border-color:var(--aqua)}
+.act.primary{background:var(--solid);color:var(--on-solid);border-color:var(--solid)}
+.facts{display:flex;flex-direction:column;border-top:1px solid var(--border)}
+.fact{display:flex;flex-direction:column;gap:2px;padding:9px 0;border-bottom:1px solid var(--border)}
+.fact dt{font-family:var(--mono);font-size:9px;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-faint)}
+.fact dd{font-size:13px;line-height:1.45;color:var(--ink)}
+.danger-link{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:13px;font-weight:700;color:var(--danger);
+  padding:8px 10px;border-radius:9px}
+.danger-link:hover{background:var(--hover)}
+.danger-link svg{width:16px;height:16px}
+/* Lifted from the desktop app verbatim — same tokens, same timings. */
+.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,80px);background:var(--solid);color:var(--on-solid);
+  padding:12px 18px;border-radius:999px;font-size:13px;font-weight:600;z-index:90;opacity:0;
+  transition:transform var(--dur-med) var(--ease),opacity var(--dur-med) var(--ease);
+  pointer-events:none;max-width:88vw;text-align:center}
+.toast.on{transform:translate(-50%,0);opacity:1}
+/* Read aloud, never drawn. display:none and visibility:hidden would take it out
+   of the accessibility tree along with the layout, which is the one thing it is
+   here to stay in. */
+.offscreen{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;
+  clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+
+/* ONE scrim for the whole app. The desktop app has a second class for this that
+   differs by two hex digits; carrying both would be exactly the fork the header
+   forbids. Two card sizes sit inside it: .sheet-card asks a question,
+   .modal shows a record. */
+.sheet{position:fixed;inset:0;background:var(--scrim);display:flex;align-items:center;
+  justify-content:center;z-index:60;padding:20px;animation:scrimIn var(--dur-fast) var(--ease)}
+@keyframes scrimIn{from{opacity:0}to{opacity:1}}
+/* Not the download card: its progress repaint replaces the whole card node on
+   every tick, and a pop per tick is a card that never stops blinking. */
+/* The card pops in once, when the sheet opens. A sheet that redraws its card
+   (Settings on every click, Play on choosing a game) swaps in a new element,
+   which would pop again and shake the whole dialog — so after the opening the
+   host is marked settled and a fresh card simply appears (openSheet). */
+.sheet:not(.settled) .sheet-card:not(.fr-card),.sheet:not(.settled) .modal{animation:pop .18s ease-out}
+.sheet-card{background:var(--surface);border:1px solid var(--gold-hairline);border-radius:14px;
+  padding:20px;max-width:400px;box-shadow:var(--shadow-modal)}
+.sheet-title{font-weight:800;font-size:15px;margin-bottom:8px}
+.sheet-body{font-size:13.5px;color:var(--ink-soft);line-height:1.55}
+.sheet-body code{font-family:var(--mono);font-size:12px}
+.sheet-row{display:flex;gap:8px;justify-content:flex-end;margin-top:18px}
+.sheet-list{margin:10px 0 0;padding-left:18px;font-size:13px;line-height:1.55;color:var(--ink-soft);max-height:40vh;overflow:auto}
+.sheet-list li{margin:4px 0}
+.keys-list{margin-top:8px}
+.keys-list dt{min-width:96px}
+.keys-list kbd{font-family:var(--mono);font-size:11px;padding:1px 6px;border:1px solid var(--border);border-radius:5px;background:var(--panel)}
+.sheet-btn{font-size:13px;padding:8px 14px;border-radius:999px;border:1px solid var(--gold-hairline)}
+.sheet-btn.primary{background:var(--solid);color:var(--on-solid);border-color:var(--solid)}
+.sheet-btn.danger{background:var(--danger);color:var(--on-danger);border-color:var(--danger)}
+/* The first-run sheet: two model rows, the fit line, the attribution box and
+   a progress bar. Drawn from the mockup's own rules, not a fork of them. */
+.fr-card{max-width:470px;width:100%}
+.mdl-row{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid var(--border);
+  font-size:13px}
+.mdl-row:first-of-type{border-top:1px solid var(--border);margin-top:14px}
+.mdl-row .mn{font-weight:700}
+.mdl-row .mr{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);
+  letter-spacing:.03em}
+.mdl-row .sz{margin-left:auto;font-family:var(--mono);font-size:11px;
+  color:var(--ink);flex-shrink:0}
+.sheet-card .fit-line{display:flex;align-items:center;gap:7px;margin:12px 0 0;
+  font-family:var(--mono);font-size:10px;letter-spacing:.04em;
+  color:var(--green);line-height:1.4}
+.sheet-card .fit-line i{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0}
+.sheet-card .fit-line.warn{color:var(--warn-ink)}
+.sheet-card .fit-line.warn i{background:var(--amber)}
+.attrib{margin-top:12px;background:var(--panel);border-radius:10px;padding:9px 11px;font-size:11.5px;
+  color:var(--ink-soft);line-height:1.55}
+.attrib b{font-weight:600;color:var(--ink)}
+.bar{height:6px;border-radius:999px;background:var(--panel);overflow:hidden;margin-top:14px}
+.bar i{display:block;height:100%;background:var(--aqua);border-radius:999px;transition:width .15s ease}
+.bar-meta{display:flex;justify-content:space-between;margin-top:7px;
+  font-family:var(--mono);font-size:10px;color:var(--ink-faint);letter-spacing:.04em}
+.sheet-card .sheet-note{font-size:11.5px;color:var(--ink-faint);margin:0 auto 0 0;max-width:26ch;line-height:1.45}
+.fr-card .sheet-row{align-items:center}
+.stackrow.clickable{cursor:pointer}
+.stackrow.clickable:hover b{color:var(--ink)}
+.renamebox{width:100%;background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:9px 12px;font-size:14px;color:var(--ink);outline:none}
+.renamebox:focus{border-color:var(--aqua)}
+/* --radius-modal and --shadow-modal were declared at the top of this file and
+   used by nothing. This is what they were for. */
+.modal{background:var(--surface);border-radius:var(--radius-modal);width:100%;max-width:460px;max-height:82vh;
+  display:flex;flex-direction:column;box-shadow:var(--shadow-modal);overflow:hidden}
+.modal-head{display:flex;align-items:center;gap:10px;padding:16px 16px 12px;border-bottom:1px solid var(--border)}
+.modal-head b{flex:1;font-size:15px;font-weight:800;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.modal-head .sub{font-family:var(--mono);font-size:10px;
+  color:var(--ink-faint);letter-spacing:.05em}
+.modal-body{overflow-y:auto;min-height:0;padding:14px 16px 16px;display:flex;flex-direction:column;gap:12px}
+.modal-foot{padding:12px 16px;border-top:1px solid var(--border);display:flex;gap:10px;align-items:center}
+.field label{display:block;font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--ink-faint);
+  margin-bottom:6px;font-family:var(--mono)}
+pre.code{background:var(--panel);border-radius:12px;padding:12px;overflow-x:auto;
+  font-family:var(--mono);font-size:12px;line-height:1.6;
+  color:var(--ink);white-space:pre-wrap;overflow-wrap:anywhere}
+.spacer{flex:1}
+.view{flex:1;overflow-y:auto;min-height:0}
+.view.chat{display:flex;flex-direction:column;overflow:hidden}
+
+/* ---------- chat ---------- */
+.thread{flex:1;overflow-y:auto;padding:14px 18px 6px;display:flex;flex-direction:column;gap:10px;
+  max-width:840px;width:100%;margin:0 auto}
+/* One turn: the question, the answer, and the controls that belong to them.
+   It has to be a flex column with the thread's own gap, because the bubbles
+   place themselves left or right with align-self — inside a plain div they
+   would align against the wrapper instead of the thread and every reply would
+   jump to the left. */
+.turn{display:flex;flex-direction:column;gap:10px}
+/* Set once, in JS, on a turn that just landed — never on a full-thread
+   redraw caused by something else, so an old turn does not replay this every
+   time a reaction or a plan panel repaints the thread around it. */
+.turn-enter{animation:turnIn var(--dur-med) var(--ease)}
+@keyframes turnIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+/* One message: the bubble, its reaction, the tools beside it and the line
+   under it. Yours sit on the right; the Pigeon's on the left. */
+.msg{display:flex;flex-direction:column;gap:4px;max-width:80%;min-width:0}
+.msg.me{align-self:flex-end;align-items:flex-end}
+.msg.them{align-self:flex-start;align-items:flex-start}
+.bub-wrap{position:relative;max-width:100%}
+.bub{max-width:100%;padding:11px 14px;border-radius:var(--radius-organic-sm);font-size:14px;
+  line-height:1.6;overflow-wrap:anywhere}
+.bub.u{background:var(--user);color:var(--on-user);border-bottom-right-radius:6px;white-space:pre-wrap}
+.bub.ai{background:var(--surface);color:var(--ink);border:1px solid var(--border);
+  border-bottom-left-radius:6px;position:relative;box-shadow:var(--shadow-card);padding-left:22px}
+.bub.ai::before{content:"";position:absolute;left:8px;top:14px;bottom:14px;width:4px;
+  background:var(--aqua);border-radius:60% 20% 60% 20%}
+.bub.ai.ask::before{background:var(--gold)}
+/* Working on it. Three dots rather than a spinner: a spinner implies a
+   measurable proportion of something, and nothing here knows how long a plan
+   will take. */
+.dots{display:inline-flex;gap:5px;align-items:center}
+.dots i{width:6px;height:6px;border-radius:50%;background:var(--ink-faint);display:block;
+  animation:dotpulse 1.1s ease-in-out infinite}
+.dots i:nth-child(2){animation-delay:.18s}
+.dots i:nth-child(3){animation-delay:.36s}
+@keyframes dotpulse{0%,100%{opacity:.3;transform:translateY(0)}50%{opacity:1;transform:translateY(-2px)}}
+/* The typing bubble everyone knows, with what the Pigeon is actually doing
+   written under it — from the pipeline's own stage events, not a timer. */
+.typing-bub{display:flex;align-items:center;padding:13px 15px;border-radius:18px 18px 18px 6px;
+  background:var(--surface);border:1px solid var(--border);box-shadow:var(--shadow-card)}
+.typing-bub.warm{border-left:4px solid var(--gen-rule)}
+/* The same bubble once sentences have landed in it: the reply's own type,
+   each new sentence fading in where it ends, the dots trailing after the
+   last one until the turn is whole. */
+.typing-bub.has-text{display:block;padding:11px 14px;border-radius:var(--radius-organic-sm);
+  border-bottom-left-radius:6px;font-size:14px;line-height:1.6;color:var(--ink);white-space:pre-wrap;overflow-wrap:anywhere}
+.typing-bub.has-text .live{display:inline}
+.typing-bub.has-text .dots{display:inline-flex;margin-left:8px;vertical-align:middle}
+.typing-bub .land{animation:landIn .45s ease-out both}
+@keyframes landIn{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+/* The stage line, when the pipeline reaches a new step: a short slide in. */
+#stageLine.swap{animation:stageSwap .35s ease-out}
+@keyframes stageSwap{from{opacity:.15;transform:translateX(-4px)}to{opacity:1;transform:none}}
+
+/* Under your message: ‹ 1/2 › and the receipt. Under a reply: what produced it. */
+.receipt{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--ink-faint);padding:0 4px;
+  font-variant-numeric:tabular-nums}
+.receipt b{font-weight:700}
+.vers{display:inline-flex;align-items:center;gap:2px;font-family:var(--mono);
+  font-size:10px;color:var(--ink-soft)}
+.vers button{width:22px;height:22px;border-radius:6px;display:grid;place-items:center;color:var(--ink-faint)}
+.vers button:hover:not(:disabled){background:var(--panel);color:var(--ink)}
+.vers button:disabled{opacity:var(--disabled-opacity);cursor:default}
+.vers svg{width:14px;height:14px}
+.prov{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-family:var(--mono);
+  font-size:10px;color:var(--ink-faint);letter-spacing:.02em;padding:0 4px;line-height:1.5}
+.prov svg{width:12px;height:12px;color:var(--green)}
+.prov.bad svg{color:var(--danger)}
+.prov code{color:var(--ink-soft);font-family:inherit}
+.prov.busy{color:var(--aqua)}
+.typing-bub.warm + .prov.busy{color:var(--warn-ink)}
+/* The line under a reply: who did the work. It sits where a messaging app says
+   "Delivered", in plain verbs, and opens Message info. */
+.markrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:0 4px}
+.mark{display:inline-flex;align-items:center;gap:5px;font-family:var(--mono);font-size:10.5px;
+  color:var(--ink-faint);border-radius:6px;padding:2px 5px;margin-left:-5px;line-height:1.4}
+.mark:hover{background:var(--panel)}
+.mark svg{width:12px;height:12px;flex-shrink:0}
+/* One line, however long a section title or file name is: the whole label is
+   in the title, and Message info says it in full. */
+.mark{flex-shrink:0;max-width:min(520px,calc(100vw - 96px))}
+.mark>span:not(.chev){min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mark .chev{color:var(--ink-faint)}
+.mark.worked,.mark.looked,.mark.found,.mark.waiting{color:var(--aqua)}
+.mark.written{color:var(--warn-ink)}
+.mark.couldnt,.mark.skipped{color:var(--ink-soft)}
+.acts{display:inline-flex;align-items:center;gap:2px}
+.acts button{font-size:11.5px;font-weight:600;color:var(--ink-soft);padding:2px 7px;border-radius:6px;display:inline-grid;place-items:center}
+.acts button:hover{background:var(--panel);color:var(--ink)}
+.acts svg{width:14px;height:14px}
+/* "I took this as": what Patch read from the words, above the answer. */
+.took{display:flex;flex-wrap:wrap;align-items:baseline;gap:3px 6px;font-size:12px;line-height:1.5;color:var(--ink-soft);
+  padding-bottom:6px;margin-bottom:6px;border-bottom:1px solid var(--aqua-line)}
+/* One tap to the twin, and the note on an answer that came of one. */
+.took .twin{margin-left:6px;padding:1px 8px;font-size:10px;font-family:var(--mono)}
+.took .chose{margin-left:6px;color:var(--ink-faint)}
+.took b{color:var(--ink);font-weight:700}
+.took .tvs{display:inline-flex;flex-wrap:wrap;gap:4px}
+.took button.tv{border:1px solid transparent;cursor:pointer;line-height:inherit}
+.took button.tv:hover{border-color:var(--aqua)}
+.took button.tv:focus-visible{outline:2px solid var(--aqua);outline-offset:1px}
+.took .tv{font-family:var(--mono);font-size:11.5px;color:var(--ink);background:var(--aqua-tint);border-radius:5px;padding:0 5px}
+/* Hovering a value names it ("bill"), at once rather than after the system tooltip's delay. */
+.took button.tv{position:relative}
+.took button.tv[data-label]:hover::after,.took button.tv[data-label]:focus-visible::after{content:attr(data-label);position:absolute;left:50%;bottom:calc(100% + 6px);transform:translateX(-50%);
+  white-space:nowrap;font:500 11px/1.2 var(--mono);color:var(--surface);background:var(--ink);border-radius:5px;padding:3px 6px;pointer-events:none;z-index:5}
+.sheet-title code.cv-label{font-family:var(--mono);font-size:.9em;font-weight:600;background:var(--aqua-tint);color:var(--ink);border-radius:5px;padding:1px 6px}
+.took .took-sep{color:var(--ink-faint)}
+/* Couldn't: nothing was produced, so the bubble is an outline, never aqua. */
+.bub.ai.couldnt{box-shadow:none;border:1.5px solid var(--border)}
+.bub.ai.couldnt::before{background:var(--ink-faint)}
+.bub.ai p{margin:0}
+.bub.ai p + p,.bub.ai p + .chips{margin-top:6px}
+.bub.ai .why{font-size:12.5px;color:var(--ink-soft)}
+.acts-in{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+/* A button that acts is filled and carries a verb; a chip that types is an outline. */
+.btn-verb{height:28px;padding:0 12px;border-radius:8px;background:var(--ink);color:var(--surface);font-size:12.5px;font-weight:700}
+.btn-verb:hover{opacity:.88}
+.btn-verb.soft{background:var(--panel);color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.chip{display:inline-flex;align-items:center;background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:5px 11px;font-size:12.5px;color:var(--ink-soft)}
+.chip:hover{border-color:var(--aqua);color:var(--aqua)}
+.chip .mono{color:var(--ink-faint);margin-left:6px;font-size:11px}
+.chip .g{font-family:var(--mono);font-size:9px;font-weight:600;color:var(--ink-faint);
+  border:1px solid var(--border);border-radius:4px;padding:0 3px;margin-right:6px;line-height:14px}
+/* One-time notes, and the figure they point at. */
+.fnote{display:flex;gap:10px;align-items:flex-start;max-width:380px;padding:8px 10px;border-radius:10px;background:var(--panel);
+  font-size:12px;line-height:1.5;color:var(--ink-soft)}
+.fnote button{font-weight:700;color:var(--aqua);white-space:nowrap}
+.tip-figure .val:first-of-type{animation:figpulse 1.4s ease 2}
+@keyframes figpulse{50%{background:var(--aqua-tint);box-shadow:0 0 0 4px var(--aqua-tint)}}
+.stamp{align-self:center;font-size:11px;color:var(--ink-faint);padding:6px 0 0;font-variant-numeric:tabular-nums}
+.stamp b{font-weight:700;color:var(--ink-soft)}
+.fwd-label{font-family:var(--mono);font-size:9.5px;letter-spacing:.04em;color:var(--ink-faint);
+  display:flex;align-items:center;gap:5px;padding:0 4px}
+.fwd-label svg{width:12px;height:12px}
+/* The status line under your message, and messages waiting their turn. */
+/* The status line under an in-flight question keeps its place while empty and
+   its width while counting down, so neither nudges the thread. */
+.receipt.status{min-height:16px}
+.receipt.status.empty{visibility:hidden}
+.q-status{font-family:var(--mono);font-size:10.5px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.receipt.status .q-status{display:inline-block;min-width:11ch}
+.q-status.busy{color:var(--aqua)}
+.msg.queued .bub.u{opacity:.72}
+.q-x{width:18px;height:18px;border-radius:5px;display:grid;place-items:center;color:var(--ink-faint)}
+.q-x:hover{background:var(--panel);color:var(--ink)}
+.q-x svg{width:11px;height:11px}
+.queue-note{align-self:flex-end;font-size:12px;color:var(--ink-soft)}
+.queue-note button{font-weight:700;color:var(--aqua)}
+.bub.ai.ask.folded{opacity:.7}
+/* Reply: the quote on a sent message, and where a writer's memory ends. */
+.q-strip{display:block;max-width:100%;font-size:11.5px;color:var(--ink-soft);border-right:2px solid var(--border);padding-right:8px;
+  text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mem-edge{display:flex;align-items:center;gap:10px;font-size:11.5px;color:var(--ink-soft);margin:4px 0}
+.mem-edge::before,.mem-edge::after{content:"";flex:1;border-top:1px dashed var(--border)}
+.rbar.quote .btn-verb{margin-top:6px;height:24px;font-size:11.5px}
+/* The notes before sending: what will happen, and the moves that work. */
+.note{display:flex;flex-direction:column;gap:8px;padding:10px 12px;margin-bottom:6px;border-radius:12px;background:var(--warn-bg);
+  border:1px solid var(--warn-line);font-size:13px;color:var(--ink);line-height:1.45}
+.note-btns{display:flex;gap:6px;flex-wrap:wrap}
+.note-strip{padding:6px 10px;margin-bottom:6px;border-radius:10px;background:var(--aqua-tint);font-size:12px;color:var(--ink)}
+/* The download, offered at the top of the list rather than as a sheet at launch. */
+.dl-strip{display:flex;flex-direction:column;gap:8px;margin:4px 6px 8px;padding:10px 12px;border-radius:12px;background:var(--aqua-tint);
+  font-size:12.5px;line-height:1.45;color:var(--ink)}
+.dl-btns{display:flex;gap:6px}
+/* A Pigeon's page: what it is for, before anything is sent. */
+.profile.page{align-items:stretch;text-align:left;max-width:560px;margin:0 auto;width:100%}
+.profile.page > .av{align-self:center}
+.profile.page > h3,.profile.page > .p-sub{text-align:center}
+.p-sub{font-size:12px;color:var(--ink-faint)}
+.p-maker{border-left:3px solid var(--border);padding:2px 0 2px 12px;display:flex;flex-direction:column;gap:4px}
+.p-eyebrow{font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-faint)}
+.profile .p-claim{font-size:12px;font-style:italic;color:var(--ink-faint)}
+.p-continue{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:12px;border:1px solid var(--aqua-line);
+  background:var(--aqua-tint);font-size:13.5px;text-align:left;width:100%;color:var(--ink)}
+.p-continue span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.p-continue svg{width:14px;height:14px;flex-shrink:0}
+.profile .p-none{font-size:12.5px;color:var(--ink-faint)}
+.p-compose textarea{width:100%;border:1px solid var(--border);border-radius:14px;padding:9px 12px;font:inherit;font-size:14px;
+  background:var(--surface);color:var(--ink);resize:none}
+/* Play (src/ui/play.js): one sheet to start a play, and a card on the
+   Pigeon's page for the one going on or the last one. */
+.play-sheet{max-width:520px;width:min(520px,calc(100vw - 32px))}
+.ps-lede{font-size:13px;color:var(--ink-soft);line-height:1.5;margin:0 0 12px}
+.ps-perms{list-style:none;margin:0 0 10px;padding:0;display:grid;gap:6px}
+.ps-perms li{display:flex;align-items:center;gap:10px;padding:8px 10px;border:1px solid var(--border);border-radius:10px}
+.ps-perms li.ok{background:var(--panel)}
+.ps-tick{width:18px;height:18px;border-radius:50%;border:1.5px solid var(--border);display:grid;place-items:center;flex-shrink:0;color:var(--surface)}
+.ps-perms li.ok .ps-tick{background:var(--green);border-color:transparent}
+.ps-tick svg{width:12px;height:12px}
+.ps-perm{flex:1;display:flex;flex-direction:column;font-size:13px}
+.ps-perm small{color:var(--ink-faint);font-size:11.5px}
+.ps-on{font-size:11.5px;color:var(--ink-faint)}
+.ps-sec{font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin:12px 0 6px}
+.ps-wins{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;max-height:300px;overflow:auto;padding:2px}
+.ps-win{display:flex;flex-direction:column;gap:2px;text-align:left;padding:6px;border-radius:10px;border:1.5px solid var(--border);background:var(--surface)}
+.ps-win:hover{background:var(--hover)}
+.ps-win.on{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.ps-shot{aspect-ratio:4/3;border-radius:6px;background:var(--panel);display:grid;place-items:center;overflow:hidden;color:var(--ink-faint);font-size:11px;margin-bottom:4px}
+.ps-shot img{width:100%;height:100%;object-fit:contain;image-rendering:pixelated;background:#000}
+.ps-app{font-size:12.5px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ps-title{font-size:11.5px;color:var(--ink-faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ps-note{font-size:12px;color:var(--ink-soft);line-height:1.5;margin:6px 0}
+.ps-note.bad{color:var(--danger)}
+.ps-more{margin:10px 0 4px;font-size:12.5px}
+.ps-more summary{cursor:pointer;font-weight:600;color:var(--ink-soft)}
+.ps-more .check{display:flex;gap:8px;align-items:center;margin:8px 0 4px}
+.ps-limit{display:flex;gap:8px;align-items:center;margin:6px 0 4px}
+.ps-limit select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:3px 6px}
+.play-sheet .sheet-btn svg{width:13px;height:13px;margin-right:6px;vertical-align:-2px}
+.play-sheet .sheet-btn:disabled{opacity:.4;cursor:default}
+.play-card{margin:14px auto 4px;max-width:520px;display:flex;flex-wrap:wrap;align-items:center;gap:12px;text-align:left;padding:10px 12px;border:1px solid var(--border);border-radius:14px}
+.play-card.live{border-color:var(--ink)}
+.pc-shot{width:72px;height:54px;border-radius:8px;background:#000;object-fit:contain;image-rendering:pixelated;flex-shrink:0}
+span.pc-shot{background:var(--panel)}
+.pc-txt{flex:1;min-width:180px;display:flex;flex-direction:column;font-size:13px}
+.pc-txt small{color:var(--ink-faint);font-size:11.5px;line-height:1.4}
+.pc-btns{display:flex;gap:6px;flex-shrink:0;margin-left:auto}
+.head-btn.play-on{color:var(--danger)}
+.p-details summary{cursor:pointer;font-size:12.5px;font-weight:600;color:var(--ink-soft)}
+.p-judged{text-decoration:none;border-bottom:1px dotted currentColor;cursor:help}
+.st-range{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px;font-size:12.5px;color:var(--ink-soft)}
+.st-range input{font:inherit;margin-left:4px}
+/* Copy diagnostics: a full-width button whose second line says what it copies. */
+.act.diag-copy{width:100%;margin-top:10px;align-items:flex-start;text-align:left;gap:2px;padding:9px 12px}
+.act.diag-copy span{font-size:13px;font-weight:600}
+.act.diag-copy small{font-size:11.5px;color:var(--ink-faint);line-height:1.4}
+.removed-bar{margin:8px 14px 14px;padding:12px;border-radius:12px;background:var(--panel);font-size:13px;text-align:center;color:var(--ink)}
+.card-c .card-rem{font-size:12.5px;color:var(--ink-soft)}
+/* Settings: a sheet in the main window. */
+.sheet-card.settings-card{width:min(620px,calc(100vw - 32px));max-width:none;max-height:min(640px,calc(100vh - 40px));display:flex;flex-direction:column;
+  padding:0;overflow:hidden}
+.st-head{display:flex;align-items:center;justify-content:space-between;padding:16px 18px 6px}
+/* The same control as the list's tabs: a track, and the chosen one lifted. Chosen
+   is read from the ARIA state the markup already sets, never a class. */
+.st-tabs{display:flex;gap:3px;margin:8px 14px 10px;padding:3px;background:var(--panel);border-radius:9px}
+.st-tabs button{flex:1;padding:5px 8px;border-radius:7px;font-size:12.5px;font-weight:600;color:var(--ink-soft)}
+.st-tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow-card)}
+.st-body{padding:14px 20px 20px;overflow-y:auto;min-height:0;display:flex;flex-direction:column;gap:14px}
+.st-row{display:grid;grid-template-columns:170px 1fr;gap:12px;align-items:start;font-size:13px;color:var(--ink)}
+.st-label{color:var(--ink-soft);padding-top:5px}
+.st-val p{margin:0}
+.st-seg{display:inline-flex;flex-wrap:wrap;gap:2px;padding:2px;border-radius:9px;background:var(--panel)}
+.st-seg button{padding:4px 12px;border-radius:7px;font-size:12.5px;font-weight:600;color:var(--ink-soft);white-space:nowrap}
+.st-seg button[aria-checked="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow-card)}
+.st-note{font-size:12px;color:var(--ink-faint);margin:6px 0 0}
+.st-btns{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.st-btns .btn-verb svg{width:14px;height:14px;margin-right:4px;vertical-align:-2px}
+.st-details summary{cursor:pointer;font-size:12.5px;font-weight:600;color:var(--ink-soft)}
+.st-list{display:flex;flex-direction:column;gap:8px}
+.st-pigeon{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:13px;color:var(--ink)}
+.st-pigeon > span{min-width:0;flex:1}
+.st-pigeon b,.st-pigeon small{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.st-pigeon small{color:var(--ink-faint);font-size:12px}
+.st-log{display:flex;flex-direction:column;gap:4px}
+.st-log div{display:flex;gap:10px;padding:6px 10px;border-radius:8px;background:var(--panel);font-size:12.5px}
+.st-log span{min-width:0;overflow-wrap:anywhere}
+.st-log time{font-family:var(--mono);font-size:11px;color:var(--ink-faint);white-space:nowrap}
+/* The web sheet quotes exactly what would be sent. */
+.net-q{margin:8px 0;padding:8px 12px;border-radius:10px;background:var(--panel);font-family:var(--mono);
+  font-size:12.5px;color:var(--ink)}
+input.net-q{display:block;width:100%;box-sizing:border-box;border:1px solid transparent;outline:none}
+input.net-q:hover{border-color:var(--border)}
+input.net-q:focus{border-color:var(--aqua);background:var(--surface)}
+.list-foot svg{width:15px;height:15px}
+/* Patch's question is answered only through this bar; × skips it. */
+.rbar{display:flex;gap:10px;align-items:flex-start;padding:8px 10px 8px 12px;margin-bottom:6px;border-radius:12px;
+  background:var(--panel);font-size:12.5px;line-height:1.45}
+.rbar-q{flex:1;min-width:0;border-left:2px solid var(--aqua);padding-left:8px;color:var(--ink)}
+.rbar-q b{font-weight:700}
+.rbar-q small{display:block;color:var(--ink-soft);font-size:11.5px;margin-top:2px}
+.rbar-x{width:22px;height:22px;border-radius:6px;display:grid;place-items:center;color:var(--ink-faint);flex-shrink:0}
+.rbar-x:hover{background:var(--surface);color:var(--ink)}
+.rbar-x svg{width:12px;height:12px}
+/* A reply that landed in another chat. Inside the window only. */
+.banners{position:fixed;top:12px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;gap:6px;z-index:80;
+  width:min(380px,calc(100vw - 24px))}
+.banner{display:flex;gap:10px;align-items:center;padding:8px 12px 8px 8px;background:var(--surface);border:1px solid var(--border);
+  border-radius:14px;box-shadow:var(--shadow-float);text-align:left;width:100%;animation:bannerIn var(--dur-med) var(--ease)}
+.banner-txt{flex:1;min-width:0;display:flex;flex-direction:column;font-size:12.5px;color:var(--ink)}
+.banner-txt b{font-weight:700}
+.banner-txt span,.banner-txt em{font-style:normal;color:var(--ink-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.banner-txt span{font-size:11.5px}
+@keyframes bannerIn{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:none}}
+
+/* Reactions, the tools beside a message, and the tapback bar. A reaction is
+   yours alone: nothing here is ever shown to a model. */
+.react{position:absolute;top:-13px;width:26px;height:26px;border-radius:50%;background:var(--surface);border:1px solid var(--border);
+  display:grid;place-items:center;font-size:13px;box-shadow:var(--shadow-card)}
+.react.fresh{animation:pop .25s cubic-bezier(.3,1.6,.5,1)}
+.msg.them .react{right:-11px}
+.msg.me .react{left:-11px}
+@keyframes pop{from{transform:scale(.3);opacity:0}}
+/* Under a message, only while it is hovered or holds the keyboard: the line
+   saying who did the work, then Copy, Reply, Edit, ⋯ and when. Space is kept
+   for it, so nothing moves on hover. The one-time note under a reply and the
+   stage line while a reply is coming are not part of this; they stay. */
+.hov,.markrow{opacity:0;transition:opacity var(--dur-fast) var(--ease)}
+.hov{display:inline-flex;align-items:center;gap:2px}
+.msg:hover .hov,.msg:focus-within .hov,.msg:hover .markrow,.msg:focus-within .markrow{opacity:1}
+.hov button{font-size:11.5px;font-weight:600;color:var(--ink-soft);padding:2px 7px;border-radius:6px;display:inline-grid;place-items:center;min-height:22px}
+.hov button:hover{background:var(--panel);color:var(--ink)}
+.hov button:disabled{opacity:var(--disabled-opacity);cursor:default}
+.hov svg{width:14px;height:14px}
+.hov .when{font-family:var(--mono);font-weight:500;font-size:10.5px;color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.hov .when[aria-pressed="true"]{color:var(--ink-soft)}
+.msg.me .receipt{min-height:22px}
+.tapback{position:absolute;bottom:calc(100% + 8px);display:flex;gap:2px;width:max-content;padding:4px;background:var(--surface);
+  border:1px solid var(--border);border-radius:999px;box-shadow:var(--shadow-float);z-index:5;animation:pop .2s ease-out}
+.msg.them .tapback{left:0}
+.msg.me .tapback{right:0}
+.tapback button{flex-shrink:0;width:32px;height:32px;border-radius:50%;font-size:17px;display:grid;place-items:center}
+.tapback button:hover,.tapback button[aria-pressed="true"]{background:var(--panel)}
+.flash .bub{animation:flash 1.6s ease}
+@keyframes flash{0%,45%{box-shadow:0 0 0 3px var(--amber)}100%{box-shadow:0 0 0 0 transparent}}
+
+/* New reply: one landed while you were reading further up. */
+.jump{position:absolute;left:50%;bottom:118px;transform:translateX(-50%);display:flex;align-items:center;gap:6px;
+  background:var(--solid);color:var(--on-solid);border-radius:999px;padding:6px 13px 6px 10px;font-size:12px;font-weight:700;
+  box-shadow:var(--shadow-float);z-index:6;animation:pop .2s ease-out}
+.jump svg{width:14px;height:14px}
+/* An image being dragged over the conversation. */
+.drop{position:absolute;inset:8px;z-index:30;display:grid;place-items:center;background:var(--aqua-tint);
+  border:2px dashed var(--aqua);border-radius:14px;pointer-events:none}
+.drop span{background:var(--surface);color:var(--ink);padding:10px 16px;border-radius:999px;font-weight:700;box-shadow:var(--shadow-float)}
+
+/* An empty chat: who you are talking to, what to try, and — for Patch — Patch. */
+.card-c{margin:auto;text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px;max-width:440px;width:100%;padding:24px 8px}
+.card-c h3{font-size:20px;font-weight:800;letter-spacing:-.01em;margin-top:4px}
+.card-c p{font-size:13.5px;line-height:1.55;color:var(--ink-soft)}
+.card-c .patch-perch{margin:0}
+.card-c .starters{margin-top:6px}
+.card-c .card-foot{font-size:12px;color:var(--ink-faint);margin-top:6px}
+
+/* ---------- written replies ----------
+   A written reply must be tellable from a computed one at a glance, at any
+   zoom, without reading a word of it (spec §5.2). It is the same bubble as
+   Patch's with the rule in dark yellow where his is aqua, and a badge that
+   never goes away. Aqua stays Patch's, and nothing written borrows it. */
+.bub.ai.gen::before{background:var(--gen-rule)}
+/* Message info: how one reply was made, with the plan folded away for developers. */
+.info.mi-host{align-items:stretch;text-align:left}
+.mi{display:flex;flex-direction:column;gap:6px;width:100%}
+.mi-eyebrow{font-family:var(--mono);font-size:9.5px;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-faint);margin-top:8px}
+.mi h3{font-size:16px}
+.info .mi-ts{font-family:var(--mono);font-size:11px;color:var(--ink-faint)}
+.mi-how{display:flex;flex-direction:column;gap:8px}
+.info .mi-how p{color:var(--ink)}
+.mi-dev{margin-top:8px;text-align:left}
+.mi-dev summary{cursor:pointer;font-size:12px;font-weight:600;color:var(--ink-soft)}
+.mi-dev .plan{margin-top:8px}
+.how-got .facts{margin:0}
+.job-out{font-size:15.5px;font-weight:700;letter-spacing:-.005em;line-height:1.35;overflow-wrap:anywhere}
+.job-note{display:block;margin-top:6px;font-size:12px;color:var(--warn-ink)}
+.skill-art{display:block;width:88px;height:88px;margin:2px 0 6px;color:var(--ink)}
+.recipe{display:block;font:12px/1.4 var(--mono);color:var(--ink-soft);overflow-wrap:anywhere}
+/* A grounded answer is set like a looked-up one — mono, the words a click
+   from where they came from — and keeps the written rule beside it. */
+.job-out.doc{font-family:var(--mono);font-size:14px;font-weight:500;letter-spacing:0;line-height:1.55}
+.job-out.doc .val{font-size:1em}
+
+/* The citation window (ui/cite.js): one frame for every underline. */
+.cite-sub{font-family:var(--mono);font-size:11px;color:var(--ink-faint);overflow-wrap:anywhere;user-select:text}
+.cite-passage{font-size:13.5px;line-height:1.65;color:var(--ink-soft);white-space:pre-wrap;overflow-wrap:anywhere;user-select:text;
+  background:var(--panel);border-radius:12px;padding:12px 14px}
+.cite-working{font-family:var(--mono);font-size:12.5px;color:var(--ink);overflow-wrap:anywhere}
+.cite-note{margin:0;font-size:12px;color:var(--ink-faint);line-height:1.5}
+mark.from-here{background:var(--warn-bg);color:var(--ink);box-shadow:0 0 0 2px var(--warn-bg);border-radius:3px;border-bottom:1.5px solid var(--amber)}
+/* Forward to Patch, Forward to Chat: the question, to the one who can answer it. */
+.fwd-btn{margin-top:10px;display:inline-flex;align-items:center;gap:7px;padding:6px 13px 6px 10px;border-radius:999px;
+  border:1px solid var(--aqua);color:var(--aqua);background:var(--surface);font-size:12.5px;font-weight:700;
+  transition:background .15s ease,color .15s ease}
+.fwd-btn:hover{background:var(--aqua);color:var(--on-accent)}
+.fwd-btn svg{width:14px;height:14px}
+body[data-lane="b"] .inputrow-field textarea:focus{border-color:var(--gen-rule)}
+
+/* Under the question: what it is about to run, and what of your sentence it
+   already read. Quiet by construction — the question is the thing to answer,
+   this is the thing to glance at. Same hairline-on-tint pattern as .fail. */
+.ask-meta{display:block;margin-top:9px;padding-top:8px;border-top:1px solid var(--gold-hairline);
+  font-size:12.5px;color:var(--ink-faint);line-height:1.55}
+.ask-meta b{font-weight:600;color:var(--ink)}
+.ask-does{display:block}
+.ask-have{display:block;margin-top:3px}
+.ask-kv{display:inline-block;margin-right:10px}
+.ask-kv b{font-family:var(--mono);font-size:11.5px}
+.ask-why{display:block;margin-top:5px;color:var(--warn-ink)}
+.bub.ai.err::before{background:var(--danger)}
+
+/* §3.6 — a computed value must be visually distinct from generated prose.
+   Mono, tabular figures, and a subtle underline that says "this came from a
+   function". The tooltip carries the skill and its input. */
+.val{font-family:var(--mono);font-size:.92em;
+  font-variant-numeric:tabular-nums;border-bottom:1px dashed var(--aqua-line);
+  padding-bottom:1px;cursor:pointer;color:var(--ink)}
+.val:hover{background:var(--aqua-tint);border-bottom-style:solid}
+/* The tooltip is the summary; clicking opens the whole record — what the skill
+   was given, what it returned, and where that came from. */
+/* Bundled: same mono treatment, plus a dot that opens the "data as of" note.
+   §3 — bundled data shows its date. */
+.val.bundled{border-bottom-color:var(--gold)}
+.val.bundled::after{content:"◦";color:var(--gold);font-size:1.1em;vertical-align:super;
+  margin-left:1px;line-height:0}
+/* Web-sourced values get the amber indicator. Reachable now that webAnswer and
+   webSearch ship — this comment used to say no web skill existed, which stopped
+   being true and sat here saying it anyway. */
+.val.web{border-bottom-color:var(--amber)}
+.val.web::after{content:"⌾";color:var(--amber);font-size:.95em;margin-left:2px}
+/* A Pigeon's own file: the same amber citation mark as the web. */
+.val.doc{border-bottom-color:var(--amber)}
+.val.doc::after{content:"⌾";color:var(--amber);font-size:.95em;margin-left:2px}
+.val.doc:focus-visible{outline:2px solid var(--aqua);outline-offset:2px;border-radius:2px}
+
+/* §3.6 — failed steps render inline, as failures. */
+.fail{display:block;margin:6px 0;padding:8px 11px;border-radius:10px;
+  background:var(--fail-bg);border:1px solid var(--fail-line);
+  font-size:13px;color:var(--ink)}
+.fail .code{font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.07em;color:var(--danger);display:block;margin-bottom:2px}
+
+/* "Show plan" — honesty made inspectable. */
+/* The editor that replaces a question while you rewrite it. Aligned right and
+   sized like the bubble it stands in for, so the thread does not lurch. */
+.edit-wrap{align-self:flex-end;max-width:82%;width:100%;display:flex;flex-direction:column;gap:8px}
+.edit-ta{width:100%;background:var(--surface);border:1px solid var(--aqua);border-radius:var(--radius-organic-sm);
+  padding:12px 14px;font-size:14px;color:var(--ink);font-family:var(--sans);
+  outline:none;resize:none;line-height:1.5;max-height:220px;overflow-y:auto}
+.edit-actions{display:flex;gap:8px;justify-content:flex-end}
+.edit-actions .btn{padding:8px 14px;font-size:12px}
+.planbtn{font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.09em;text-transform:uppercase;color:var(--ink-faint);
+  padding:3px 9px;border-radius:999px;border:1px solid var(--border);background:var(--surface)}
+.planbtn:hover{color:var(--aqua);border-color:var(--aqua)}
+.plan{margin-top:7px;border-radius:var(--radius-card);border:1px solid var(--border);
+  background:var(--surface);box-shadow:var(--shadow-card);overflow:hidden}
+/* The flow: one box per stage, joined by a connector drawn as a pseudo-element
+   rather than a border, so the last box does not trail a line into nothing. */
+/* The plan, as the exchange behind the answer: Patch (the model) decides,
+   the Robot (the JavaScript) does, and the hand-off between them is visible.
+   Patch's lines sit on white with his aqua rule; the Robot's are flat mono on
+   the panel tint, because he has nothing to be warm about. */
+.chat-flow{display:flex;flex-direction:column;gap:10px;padding:12px 12px 8px}
+.cf-row{display:flex;gap:9px;align-items:flex-start}
+.cf-av{flex:none;width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:15px;overflow:hidden}
+.cf-av.patch{background:var(--patch-bg)}
+.cf-av.patch img{display:block;width:35px;height:35px;max-width:none;transform:translate(-2px,-2px)}
+.cf-av.robot{color:var(--ink-soft);background:var(--panel);border:1px solid var(--border)}
+.cf-av.robot svg{display:block;width:17px;height:17px}
+.cf-col{display:flex;flex-direction:column;min-width:0;max-width:92%}
+.cf-who{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);margin:0 0 3px 2px}
+.cf-bub{position:relative;padding:8px 12px;border-radius:12px 12px 12px 5px;font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+.cf-row.patch .cf-bub{background:var(--surface);border:1px solid var(--border);padding-left:17px;color:var(--ink)}
+.cf-row.patch .cf-bub::before{content:"";position:absolute;left:7px;top:10px;bottom:10px;width:3px;border-radius:2px;background:var(--aqua)}
+.cf-row.patch.bad .cf-bub::before{background:var(--danger)}
+.cf-row.patch.ask .cf-bub::before{background:var(--gold)}
+/* A Pigeon speaking as itself: its own avatar, and Patch's bubble shape with
+   the written lane's dark-yellow rule, because what it says is generated. */
+.cf-av.pigeon{border-radius:0;overflow:visible}
+.cf-row.pigeon .cf-bub{background:var(--surface);border:1px solid var(--border);padding-left:17px;color:var(--ink)}
+.cf-row.pigeon .cf-bub::before{content:"";position:absolute;left:7px;top:10px;bottom:10px;width:3px;border-radius:2px;background:var(--gen-rule)}
+.cf-row.pigeon.bad .cf-bub::before{background:var(--danger)}
+.cf-row.pigeon.ask .cf-bub::before{background:var(--gold)}
+.cf-row.robot .cf-bub{background:var(--panel);border:1px solid var(--border);font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);border-radius:9px 9px 9px 4px}
+.cf-row.robot.bad .cf-bub{border-color:var(--fail-line);color:var(--danger)}
+.cf-bub code{font-family:var(--mono);font-size:.92em;background:var(--aqua-tint);padding:1px 5px;border-radius:5px}
+.cf-sub{font-family:var(--mono);font-size:10px;color:var(--ink-faint);margin:3px 0 0 4px}
+/* A plain word with the system's number behind it: dotted, and the cursor says so. */
+.cf-term{border-bottom:1px dotted var(--ink-faint);cursor:pointer;border-radius:2px}
+.cf-term:focus-visible,.cf-sub[data-tip]:focus-visible{outline:2px solid var(--aqua);outline-offset:2px}
+.cf-sub[data-tip]{cursor:pointer}
+.cf-tip{position:fixed;z-index:60;max-width:300px;padding:8px 11px;border-radius:10px;background:var(--solid);color:var(--on-solid);
+  font-family:var(--sans);font-size:12px;line-height:1.45;box-shadow:var(--shadow-float);pointer-events:none}
+.cf-tip[hidden]{display:none}
+.rawbtn{margin:0 12px 10px}
+.plan h5{font-family:var(--mono);font-size:9px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-faint);padding:9px 12px 5px}
+.plan pre{font-family:var(--mono);font-size:11px;line-height:1.55;
+  padding:0 12px 10px;overflow-x:auto;white-space:pre;color:var(--ink-soft)}
+.plan .step{border-top:1px solid var(--border);padding:9px 12px;font-size:12px}
+.plan .step .hd{display:flex;align-items:center;gap:7px;margin-bottom:3px}
+.plan .step .hd b{font-size:12.5px;font-weight:700}
+.plan .step .ms{margin-left:auto;font-family:var(--mono);
+  font-size:9.5px;color:var(--ink-faint)}
+.plan .kv{font-family:var(--mono);font-size:10.5px;
+  color:var(--ink-soft);overflow-wrap:anywhere;line-height:1.5}
+.plan .rt{display:flex;gap:8px;flex-wrap:wrap;align-items:center;
+  border-top:1px solid var(--border);padding:8px 12px;font-family:var(--mono);
+  font-size:9.5px;letter-spacing:.06em;color:var(--ink-faint)}
+
+.t-badge{font-family:var(--mono);font-size:9px;font-weight:600;
+  letter-spacing:.07em;padding:2.5px 7px;border-radius:5px;flex-shrink:0;white-space:nowrap;
+  text-transform:uppercase}
+.t-badge.ok{background:var(--ok-tint);color:var(--green)}
+.t-badge.bad{background:var(--bad-tint);color:var(--danger)}
+.t-badge.core{background:var(--aqua-tint);color:var(--aqua)}
+.t-badge.standard{background:var(--panel);color:var(--ink-soft)}
+.t-badge.extended{background:transparent;border:1px dashed var(--gold);color:var(--warn-ink)}
+.t-badge.label{background:var(--warn-bg);color:var(--warn-ink)}
+
+/* ---------- composer ---------- */
+.composer{flex-shrink:0;padding:8px 18px 16px;max-width:840px;width:100%;margin:0 auto}
+.inputrow-field{margin-bottom:10px}
+.inputrow-field textarea{width:100%;background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius-organic);padding:12px 16px;font-size:14px;color:var(--ink);
+  font-family:var(--sans);outline:none;box-shadow:var(--shadow-card);
+  resize:none;line-height:1.45;max-height:160px;display:block;
+  transition:border-color var(--dur-fast) var(--ease)}
+.inputrow-field textarea::placeholder{color:var(--ink-faint)}
+.inputrow-field textarea:focus{border-color:var(--aqua)}
+.inputrow{display:flex;align-items:center;gap:8px}
+.icon-btn{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;
+  justify-content:center;flex-shrink:0;color:var(--ink);
+  transition:transform var(--dur-fast) var(--ease),background var(--dur-fast) var(--ease),
+    color var(--dur-fast) var(--ease),box-shadow var(--dur-fast) var(--ease)}
+.icon-btn svg{width:19px;height:19px}
+.icon-btn:disabled{opacity:var(--disabled-opacity);cursor:not-allowed}
+.icon-btn:not(:disabled):active{transform:scale(.9)}
+/* No margin-left:auto here any more — .spacer does that job. Welding "push me
+   right" onto "I am the solid button" broke the moment anything else joined the
+   row. */
+.icon-btn.solid{background:var(--solid);color:var(--on-solid);box-shadow:var(--shadow-solid);
+  position:relative;overflow:hidden}
+/* Sending, not yet sendable again: the same three dots the thread itself
+   uses, in the button's own ink so they read against the solid fill. No
+   sweep here — one quiet "still working" signal beats two at once. */
+.icon-btn.busy{background:var(--solid);color:var(--on-solid)}
+.icon-btn.busy .dots i{background:currentColor}
+/* A toggle that is ON says what is on: the circle becomes a labelled pill and
+   takes the aqua fill. Off, it is a plain circular button — the colour IS the
+   state. Lifted from the desktop app. */
+.icon-btn.labeled{width:auto;padding:0 12px 0 9px;gap:6px;border-radius:999px;
+  font-family:var(--mono);
+  font-size:10px;font-weight:700;letter-spacing:.06em}
+.icon-btn.labeled svg{width:16px;height:16px;flex-shrink:0}
+.icon-btn.web-on{background:var(--aqua);color:var(--on-accent);box-shadow:var(--shadow-card)}
+.icon-btn.ghost-toggle{border:1px solid var(--border);color:var(--ink-soft)}
+.icon-btn.ghost-toggle:hover{border-color:var(--ink-faint);color:var(--ink)}
+.icon-btn.solid svg{position:relative;z-index:1}
+/* Sanctioned breathe #1 of 2: the send button. */
+.icon-btn.solid.breathe::after{content:"";position:absolute;top:-60%;left:-60%;width:220%;height:220%;
+  background:linear-gradient(115deg,transparent 40%,var(--glint) 50%,transparent 60%);
+  animation:sweep 8s ease-in-out infinite;animation-play-state:paused}
+/* The glint moves only while somebody is writing: an idle window holds still. */
+.inputrow-field:focus-within ~ .inputrow .icon-btn.solid.breathe::after,.composer:focus-within .icon-btn.solid.breathe::after{animation-play-state:running}
+@keyframes sweep{0%,72%{transform:translateX(-70%)}86%,100%{transform:translateX(70%)}}
+/* Stop, while a reply is on its way: the same solid button, a square in it. */
+.icon-btn.stop{background:var(--danger);color:var(--on-danger);box-shadow:var(--shadow-solid)}
+.icon-btn.stop svg{width:16px;height:16px}
+.hint{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;
+  color:var(--ink-faint);text-transform:uppercase}
+.seed{display:flex;align-items:center;gap:6px;padding:0 11px;height:34px;border-radius:999px;
+  font-family:var(--mono);font-size:10px;color:var(--ink)}
+.seed input{width:48px;background:transparent;border:none;outline:none;font-size:10px;
+  font-family:inherit;color:var(--ink)}
+
+/* ---------- reading an image (experimental) ----------
+   The chip sits above the box in the composer's own card style; amber is the
+   stand-in colour, because a classical OCR engine is standing in for a vision
+   model and the badge should say so wherever the text appears. No animation
+   beyond the dots the in-flight turn already uses. */
+.composer.drop-target .inputrow-field textarea{border-color:var(--aqua);border-style:dashed;
+  background:var(--aqua-tint)}
+.attach{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-card);
+  box-shadow:var(--shadow-card);margin-bottom:10px;padding:10px 12px}
+.attach-row{display:flex;align-items:flex-start;gap:12px}
+.attach-thumb{width:48px;height:48px;border-radius:8px;object-fit:cover;flex-shrink:0;
+  border:1px solid var(--border);background:var(--paper);display:block}
+.attach-body{flex:1;min-width:0}
+.attach-head{display:flex;align-items:baseline;gap:8px;min-width:0}
+.attach-head b{font-size:13px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.attach-meta,.attach-sub{font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint)}
+.attach-sub{margin-top:4px;display:flex;align-items:center;gap:8px;text-transform:none;letter-spacing:.03em;
+  font-size:10.5px}
+.attach.reading .attach-sub,.attach.tidying .attach-sub{color:var(--aqua)}
+.attach.failed .attach-sub{color:var(--danger)}
+.attach.failed .attach-thumb{opacity:.5}
+.attach-actions{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap;align-items:center}
+.attach-ask{font-size:12px;color:var(--ink);flex-basis:100%}
+.attach-actions button{font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;
+  border:1px solid var(--border);color:var(--ink-soft);background:var(--surface)}
+.attach-actions button:hover{border-color:var(--ink-faint);color:var(--ink)}
+.attach-actions button.on{background:var(--aqua);border-color:var(--aqua);color:var(--on-accent)}
+/* "Nothing in Pigeon can see a picture." A one-shot Pigeon's box IS its input,
+   so this is the moment the app owes an explanation rather than a quiet
+   substitution — warn colours, not danger: nothing has gone wrong, something
+   was misunderstood about what is in the room. The quote is the words that
+   would actually be sent, because the point is to be read, not agreed to. */
+.attach-actions.attach-blind{background:var(--warn-bg);border:1px solid var(--warn-line);
+  border-radius:8px;padding:8px 10px;margin-top:8px}
+.attach-actions.attach-blind .attach-ask{color:var(--warn-ink);line-height:1.45}
+.attach-actions.attach-blind .attach-ask b{font-weight:700}
+.attach-quote{flex-basis:100%;margin:6px 0 2px;padding:5px 9px;border-left:2px solid var(--warn-line);
+  font-family:var(--mono);font-size:10.5px;line-height:1.5;
+  color:var(--ink-soft);background:var(--paper);border-radius:0 5px 5px 0;
+  overflow-wrap:anywhere}
+.attach-actions.attach-blind button{border-color:var(--warn-line);color:var(--warn-ink);background:var(--paper)}
+.attach-actions.attach-blind button:hover{border-color:var(--amber);color:var(--ink)}
+/* The pasted-transcript chip. Same skeleton as an attachment, because it is
+   the same promise: something was read, here is what changed, and here is the
+   original back if you want it. Its own accent so the two are not confused. */
+.attach.transcript .attach-thumb{display:flex;align-items:center;justify-content:center;
+  background:var(--paper);color:var(--ink-faint)}
+.attach.transcript .attach-thumb svg{width:17px;height:17px}
+.attach.transcript.offered .attach-sub{color:var(--ink-soft)}
+.attach.transcript .attach-actions{margin-top:0;align-items:center}
+/* The words the repair changed, named rather than summarised — the one thing
+   on this chip that must never be quietly rolled up into a count. */
+.tr-changed{margin-top:5px;font-family:var(--mono);
+  font-size:10px;letter-spacing:.02em;color:var(--ink-faint);display:flex;flex-wrap:wrap;gap:4px}
+.tr-changed code{background:var(--paper);border:1px solid var(--border);border-radius:4px;
+  padding:0 4px;color:var(--ink-soft)}
+/* The repair as it grows, the tail of it: proof the model is at work, under
+   the dots, in the same quiet type as the words it changed. */
+.tr-live{margin:5px 0 0;max-height:4.6em;overflow:hidden;white-space:pre-wrap;word-break:break-word;
+  font-family:var(--mono);font-size:10px;line-height:1.35;color:var(--ink-faint)}
+.attach-x{width:28px;height:28px;border-radius:6px;display:flex;align-items:center;justify-content:center;
+  color:var(--ink-faint);flex-shrink:0}
+.attach-x svg{width:15px;height:15px}
+.attach-x:hover{background:var(--paper);color:var(--ink)}
+.attach-ta{width:100%;margin-top:10px;background:var(--paper);border:1px solid var(--border);
+  border-radius:10px;padding:10px 12px;font-family:var(--mono);
+  font-size:11.5px;line-height:1.5;color:var(--ink);outline:none;resize:vertical;max-height:220px;display:block}
+.attach-ta:focus{border-color:var(--aqua)}
+.t-badge.image{background:var(--warn-bg);color:var(--warn-ink)}
+/* Inside the user's bubble: the typed question keeps its pre-wrap; the block
+   beneath it is a labelled record, not more of the question. */
+.bub.u.with-image{white-space:normal;min-width:min(60%,420px)}
+.bub.u .typed{white-space:pre-wrap}
+.bub.u .from-image{margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.22)}
+.bub.u .typed + .from-image{margin-top:10px}
+.from-image-pic{display:block;max-width:220px;max-height:220px;border-radius:10px;margin-bottom:6px;cursor:zoom-in;
+  transition:transform var(--dur-fast) var(--ease)}
+.from-image-pic:hover{transform:scale(1.02)}
+.from-image-pic:focus-visible{outline:2px solid var(--on-user);outline-offset:2px}
+/* A sent picture, opened: about four fifths of the conversation pane, the
+   rest of it shaded. */
+.lightbox{position:absolute;inset:0;z-index:40;display:grid;place-items:center;background:var(--shade);cursor:zoom-out}
+.lightbox[hidden]{display:none}
+.lightbox img{max-width:80%;max-height:80%;object-fit:contain;border-radius:12px;box-shadow:var(--shadow-modal);cursor:default;
+  animation:picIn var(--dur-med) var(--ease)}
+@keyframes picIn{from{opacity:0;transform:scale(.96)}to{opacity:1;transform:scale(1)}}
+.lightbox-x{position:absolute;top:12px;right:14px;width:34px;height:34px;border-radius:50%;background:var(--surface);color:var(--ink);
+  font-size:22px;line-height:1;display:grid;place-items:center;box-shadow:var(--shadow-card)}
+.lightbox-x:hover{background:var(--panel)}
+.from-image-hd{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-family:var(--mono);
+  font-size:10px;letter-spacing:.03em;opacity:.9}
+.from-image details{margin-top:6px}
+.from-image summary{cursor:pointer;font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.06em;text-transform:uppercase;opacity:.8;list-style:none}
+.from-image summary::before{content:"▸ ";}
+.from-image details[open] summary::before{content:"▾ ";}
+.from-image pre{margin:6px 0 0;font-family:var(--mono);font-size:11px;
+  line-height:1.5;white-space:pre-wrap;max-height:240px;overflow:auto;background:var(--code-bg);
+  border-radius:8px;padding:8px 10px}
+.plan .kv pre.inline{display:inline-block;vertical-align:top;margin:0;white-space:pre-wrap;max-width:calc(100% - 60px);
+  font-size:10.5px;background:transparent;padding:0}
+
+/* ---------- panels (skills, plan, ledger) ---------- */
+.pad{padding:18px;max-width:900px;margin:0 auto}
+.lede{font-size:13.5px;color:var(--ink-soft);line-height:1.65;margin-bottom:16px;max-width:64ch}
+.searchrow{display:flex;gap:8px;margin-bottom:14px;align-items:center}
+.searchrow input{flex:1;background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:999px;
+  padding:9px 15px;font-size:13px;outline:none;box-shadow:var(--shadow-card)}
+.searchrow input:focus{border-color:var(--aqua)}
+.cat{font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-faint);margin:18px 0 8px;display:flex;
+  align-items:center;gap:8px}
+.cat::after{content:"";flex:1;height:1px;background:var(--border)}
+.srow{display:flex;align-items:flex-start;gap:11px;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;padding:11px 13px;margin-bottom:7px}
+.srow.stub{border-style:dashed;background:transparent}
+.srow .sn{flex:1;min-width:0}
+.srow .sn b{display:block;font-size:13.5px;font-weight:700;
+  font-family:var(--mono)}
+.srow .sn p{font-size:12.5px;color:var(--ink-soft);margin-top:3px;line-height:1.5}
+.srow .sn .ex{font-size:11.5px;color:var(--ink-faint);margin-top:5px;font-style:italic}
+.srow .tags{display:flex;gap:5px;align-items:center;flex-shrink:0;flex-wrap:wrap;
+  justify-content:flex-end;max-width:190px}
+.try{font-size:11px;font-weight:700;color:var(--aqua);border:1px solid var(--aqua);
+  border-radius:999px;padding:3px 11px;flex-shrink:0}
+.try:hover{background:var(--aqua);color:var(--on-accent)}
+
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-organic);
+  box-shadow:var(--shadow-card);padding:16px 18px;margin-bottom:14px}
+.card h3{font-size:15px;font-weight:800;margin-bottom:6px}
+.card p{font-size:13px;color:var(--ink-soft);line-height:1.65}
+.card textarea{width:100%;min-height:150px;background:var(--panel);border:1px solid var(--border);
+  border-radius:12px;padding:11px 13px;font-family:var(--mono);
+  font-size:11.5px;line-height:1.6;outline:none;resize:vertical;margin-top:10px}
+.card textarea:focus{border-color:var(--aqua)}
+.btn{padding:9px 16px;border-radius:999px;font-size:13px;font-weight:700}
+.btn.primary{background:var(--solid);color:var(--on-solid)}
+.btn.ghost{border:1px solid var(--border);color:var(--ink-soft)}
+.btn.ghost:hover{border-color:var(--aqua);color:var(--aqua)}
+.btnrow{display:flex;gap:8px;margin-top:11px;flex-wrap:wrap;align-items:center}
+.warn{background:var(--warn-bg);color:var(--warn-ink);border-radius:var(--radius-card);
+  padding:11px 14px;font-size:12.5px;line-height:1.6;margin-bottom:14px}
+
+.ledger{width:100%;border-collapse:collapse;font-size:13px}
+.ledger th{text-align:left;font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);padding:0 10px 7px 0;
+  border-bottom:1px solid var(--border)}
+.ledger td{padding:9px 10px 9px 0;border-bottom:1px solid var(--border);vertical-align:top;
+  line-height:1.55;color:var(--ink-soft)}
+.ledger td:first-child{color:var(--ink);font-weight:600;white-space:nowrap;
+  font-family:var(--mono);font-size:11.5px}
+.ledger td b{color:var(--green);font-weight:700}
+.ledger td i{color:var(--ink-faint);font-style:normal}
+
+.empty{text-align:center;color:var(--ink-faint);font-size:13px;padding:34px 20px;line-height:1.7}
+/* Patch is the app's ONE illustrated character — everything else in the UI is
+   line art or type. He is a sprite (assets/patch-sprites.png) and brings his
+   own colours; src/patch-life.js steps the frames, breathing and Zs included. */
+.patch-perch{display:inline-block;margin:0 0 14px;cursor:pointer;line-height:0}
+.patch-sprite{display:inline-block;background-repeat:no-repeat}
+.patch-perch.faces-left .patch-sprite{transform:scaleX(-1)}
+.starters{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;max-width:600px;margin:14px auto 0}
+.starter{background:var(--surface);border:1px solid var(--border);border-radius:999px;padding:6px 13px;
+  font-size:12.5px;color:var(--ink-soft);box-shadow:var(--shadow-card);
+  transition:border-color var(--dur-fast) var(--ease),color var(--dur-fast) var(--ease),transform var(--dur-fast) var(--ease)}
+.starter:hover{border-color:var(--aqua);color:var(--aqua)}
+.starter:active{transform:scale(.96)}
+
+/* A narrow window: the list and the conversation take turns, and the header
+   grows a back button. */
+@media(max-width:760px){
+  .list{width:100%;border-right:0}
+  .app.pane-open .list{display:none}
+  .app:not(.pane-open) .pane{display:none}
+  .head-btn.back{display:grid}
+  .info{width:100%}
+  .suggest{left:12px;width:calc(100% - 24px)}
+  .msg{max-width:92%}
+  /* No hover on a narrow window: the row shows for the message that has focus. */
+  .msg:focus-within .hov,.msg:focus-within .markrow{opacity:1}
+}
+
+/* The Meet sheet (ui/meet.js): what a Pigeon file is, before it is added. */
+.meet-card{max-width:520px}
+.meet-row{display:flex;gap:10px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--border)}
+.meet-row:first-child{border-top:0}
+.meet-row input[type=checkbox]{margin-top:4px}
+.meet-kind{font-size:12px;color:var(--ink-soft)}
+.meet-note{font-size:12.5px;color:var(--ink-soft);margin:4px 0 0}
+/* What the import check said: a note each, its particulars behind Details. */
+.note-more{display:inline}
+.note-more summary{display:inline;cursor:pointer;font-family:var(--sans);font-size:12px;color:var(--aqua);text-decoration:underline;text-underline-offset:2px}
+.note-more[open]{display:block;margin-top:2px;font-family:var(--mono);font-size:11px;color:var(--ink-faint);word-break:break-all}
+.p-notes{align-self:stretch;text-align:left;display:flex;flex-direction:column;gap:6px}
+.p-note{font-size:12.5px;color:var(--ink-soft);border-left:3px solid var(--border);padding:2px 0 2px 12px}
+.meet-safety{font-size:12px;color:var(--ink-soft);margin-top:10px}
+.p-examples{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:4px;font-size:12.5px}
+.p-examples li{display:flex;flex-wrap:wrap;gap:6px;align-items:baseline}
+.p-ex-in{color:var(--ink)}
+.p-ex-out{color:var(--ink-soft)}
+.p-ex-art{width:72px;height:72px;border-radius:8px;background:var(--panel);border:1px solid var(--border);object-fit:contain}
+.p-tag{font-size:11px;padding:0 6px;border-radius:6px;border:1px solid var(--border);color:var(--ink-soft)}
+.p-tag.ok{border-color:var(--aqua);color:var(--ink)}

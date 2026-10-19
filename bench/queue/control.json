@@ -1,0 +1,13 @@
+{
+  "id": "control",
+  "hypothesis": "baseline for batch 1 on this host",
+  "flags": [],
+  "prompt": null,
+  "needs": [
+    "planner",
+    "category"
+  ],
+  "rule": null,
+  "reads": null,
+  "added": "2026-09-08"
+}

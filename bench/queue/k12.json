@@ -1,0 +1,16 @@
+{
+  "id": "k12",
+  "hypothesis": "20 cards is a round-1 default never re-swept with the adapter in front; fewer siblings in view, shorter prompt",
+  "flags": [
+    "--k",
+    "12"
+  ],
+  "prompt": null,
+  "needs": [
+    "planner",
+    "category"
+  ],
+  "rule": "correct >= control.correct - 4 and siblings < control.siblings and avgMs < control.avgMs and leaks <= control.leaks",
+  "reads": null,
+  "added": "2026-09-08"
+}

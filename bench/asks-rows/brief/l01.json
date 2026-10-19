@@ -1,0 +1,395 @@
+{
+ "batch": "l01",
+ "skills": [
+  {
+   "skill": "convertAngle",
+   "category": "conversion",
+   "does": "Convert an angle — degrees, radians, gradians, turns, arcminutes, arcseconds.",
+   "examples": [
+    "convert 180 degrees to radians",
+    "how many degrees is 1 radian",
+    "90 degrees in gradians"
+   ]
+  },
+  {
+   "skill": "convertArea",
+   "category": "conversion",
+   "does": "Convert an area — square metres, square feet, hectares, acres, square miles.",
+   "examples": [
+    "how many square feet is 85 square metres",
+    "convert 2 acres to hectares",
+    "1 hectare in square metres"
+   ]
+  },
+  {
+   "skill": "convertBase",
+   "category": "conversion",
+   "does": "Write a number in another base — 200 in base 7, 255 as hex, or 1011 back from binary. Any radix from 2 to 36.",
+   "examples": [
+    "convert 255 to hexadecimal",
+    "what is binary 11111111 in decimal",
+    "convert hex 1A4 to decimal"
+   ]
+  },
+  {
+   "skill": "convertDataSize",
+   "category": "conversion",
+   "does": "Convert a file or storage size — bytes, kB, MB, GB, TB, and the binary KiB, MiB, GiB.",
+   "examples": [
+    "how many GiB is 500 GB",
+    "convert 1.5 GB to MB",
+    "4096 bytes in KiB"
+   ]
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "category": "conversion",
+   "does": "Convert fuel economy between litres per 100km, miles per gallon and kilometres per litre.",
+   "examples": [
+    "convert 30 mpg to litres per 100km",
+    "what is 7.5 l/100km in mpg",
+    "convert 40 imperial mpg to l per 100km"
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "category": "conversion",
+   "does": "Convert a distance or length — millimetres, centimetres, metres, kilometres, inches, feet, yards, miles.",
+   "examples": [
+    "how many km is 26.2 miles",
+    "convert 6 feet to cm",
+    "what is 100 metres in yards"
+   ]
+  },
+  {
+   "skill": "convertMass",
+   "category": "conversion",
+   "does": "Convert a weight or mass — grams, kilograms, tonnes, ounces, pounds, stone.",
+   "examples": [
+    "what is 70 kg in stone",
+    "convert 500 grams to ounces",
+    "how many kg is 165 pounds"
+   ]
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "category": "conversion",
+   "does": "Convert a number to Roman numerals, or read Roman numerals back as a number.",
+   "examples": [
+    "what is 2026 in roman numerals",
+    "read MCMLXXXIV",
+    "roman numeral for 4"
+   ]
+  },
+  {
+   "skill": "convertSpeed",
+   "category": "conversion",
+   "does": "Convert a speed — miles per hour, kilometres per hour, metres per second, knots.",
+   "examples": [
+    "100 km/h in mph",
+    "convert 70 mph to kph",
+    "how fast is 20 knots in km/h"
+   ]
+  },
+  {
+   "skill": "convertTemperature",
+   "category": "conversion",
+   "does": "Convert a temperature between Celsius, Fahrenheit and Kelvin.",
+   "examples": [
+    "convert 180 celsius to fahrenheit",
+    "what is 98.6 F in celsius",
+    "gas mark oven 200C in fahrenheit"
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "category": "conversion",
+   "does": "Convert a length of time between units — how long 210 minutes runs to in hours.",
+   "examples": [
+    "how many hours is 5400 seconds",
+    "convert 3 days to hours",
+    "90 minutes in seconds"
+   ]
+  },
+  {
+   "skill": "convertVolume",
+   "category": "conversion",
+   "does": "Convert a volume — millilitres, litres, teaspoons, tablespoons, cups, pints, quarts, gallons.",
+   "examples": [
+    "2 cups in ml",
+    "how many tablespoons in 100 ml",
+    "convert 1 gallon to litres"
+   ]
+  },
+  {
+   "skill": "numberToWords",
+   "category": "conversion",
+   "does": "Spell a number out in English words, the way it is said aloud or written on a cheque.",
+   "examples": [
+    "write 1234 in words",
+    "spell out 42",
+    "write 1000000 in words"
+   ]
+  },
+  {
+   "skill": "buildQueryString",
+   "category": "data",
+   "does": "Assemble a ?key=value query string from named parameters.",
+   "examples": [
+    "build a query string from these parameters",
+    "make a query string with a space in the value",
+    "build a query with a repeated parameter"
+   ]
+  },
+  {
+   "skill": "columnMath",
+   "category": "data",
+   "does": "Total, average, or find the smallest or largest value down one column of a table.",
+   "examples": [
+    "add up the amount column",
+    "what is the average q1",
+    "highest value in the score column"
+   ]
+  },
+  {
+   "skill": "diffJson",
+   "category": "data",
+   "does": "Compare two JSON documents and list the paths added, removed and changed.",
+   "examples": [
+    "diff these two json documents",
+    "compare two identical json objects",
+    "what was removed between these two versions"
+   ]
+  },
+  {
+   "skill": "filterRows",
+   "category": "data",
+   "does": "Drop the rows of a table that fail a condition.",
+   "examples": [
+    "keep only rows where amount is over 100",
+    "show me just the North region rows",
+    "filter to names containing \"an\""
+   ]
+  },
+  {
+   "skill": "flattenJson",
+   "category": "data",
+   "does": "Squash nested JSON down to one level, every key a dot path.",
+   "examples": [
+    "flatten this json",
+    "flatten a nested config",
+    "flatten json with an array"
+   ]
+  },
+  {
+   "skill": "formatJson",
+   "category": "data",
+   "does": "Tidy JSON into readable indented form, or squash it onto one line.",
+   "examples": [
+    "pretty print this json",
+    "minify this json",
+    "format with 4 space indent"
+   ]
+  },
+  {
+   "skill": "getPath",
+   "category": "data",
+   "does": "Read one value out of a JSON document at a dotted path — pull settings.theme out of it.",
+   "examples": [
+    "get user.name from this json",
+    "read the second item sku",
+    "what is at a.b.c in this document"
+   ]
+  },
+  {
+   "skill": "groupBy",
+   "category": "data",
+   "does": "Total or average rows per category, grouped by a shared value.",
+   "examples": [
+    "group these rows by region and sum the amounts",
+    "count the rows in each category",
+    "average the score per team"
+   ]
+  },
+  {
+   "skill": "parseCsv",
+   "category": "data",
+   "does": "Read CSV text into rows and columns, detecting the header line.",
+   "examples": [
+    "parse this csv: name,amount\nAna,120\nBo,80",
+    "read a csv with a quoted comma",
+    "parse semicolon separated data"
+   ]
+  },
+  {
+   "skill": "parseKeyValue",
+   "category": "data",
+   "does": "Read key/value or INI-style settings text into structured data.",
+   "examples": [
+    "parse these key value pairs",
+    "read this config text",
+    "parse an ini file with sections"
+   ]
+  },
+  {
+   "skill": "parseMarkdownTable",
+   "category": "data",
+   "does": "Read an existing markdown table back into rows of data.",
+   "examples": [
+    "parse this markdown table",
+    "turn this markdown table into rows",
+    "read a table with alignment markers"
+   ]
+  },
+  {
+   "skill": "parseQueryString",
+   "category": "data",
+   "does": "Break a link’s ?key=value pairs apart and say what each holds.",
+   "examples": [
+    "parse this query string",
+    "break down the parameters in this url",
+    "parse a query with encoded values"
+   ]
+  },
+  {
+   "skill": "pivotRows",
+   "category": "data",
+   "does": "Cross-tabulate one column against another into a grid of cells.",
+   "examples": [
+    "pivot amount by region and quarter",
+    "count rows by day and type",
+    "average sales by store and month"
+   ]
+  },
+  {
+   "skill": "selectColumns",
+   "category": "data",
+   "does": "Pick which columns of a table to keep, renaming them if you like.",
+   "examples": [
+    "keep only the name and amount columns",
+    "pick the region column and rename it to area",
+    "reorder the columns"
+   ]
+  },
+  {
+   "skill": "setPath",
+   "category": "data",
+   "does": "Change or add a value in a JSON document at a dotted path — update config.timeout to 30.",
+   "examples": [
+    "set user.name to Bea in this json",
+    "change the port to 9000",
+    "add an email field to this json"
+   ]
+  },
+  {
+   "skill": "sortObjectKeys",
+   "category": "data",
+   "does": "Sort the keys of a JSON object alphabetically, all the way down.",
+   "examples": [
+    "sort the keys in this json",
+    "alphabetise this config",
+    "sort nested keys too"
+   ]
+  },
+  {
+   "skill": "sortRows",
+   "category": "data",
+   "does": "Reorder the rows of a table by a column, changing nothing else.",
+   "examples": [
+    "sort by amount, biggest first",
+    "sort these names alphabetically",
+    "order by region then by q1"
+   ]
+  },
+  {
+   "skill": "toCsv",
+   "category": "data",
+   "does": "Turn rows and columns back into CSV text, quoting anything that needs it.",
+   "examples": [
+    "turn this table back into csv",
+    "write this out as csv, quoting the comma",
+    "export as semicolon separated"
+   ]
+  },
+  {
+   "skill": "toMarkdownTable",
+   "category": "data",
+   "does": "Draw rows and columns out as a markdown table, pipes and all.",
+   "examples": [
+    "make a markdown table from this data",
+    "format as a right-aligned markdown table",
+    "turn one row into markdown"
+   ]
+  },
+  {
+   "skill": "transposeTable",
+   "category": "data",
+   "does": "Pivot a table on its side, so rows become columns.",
+   "examples": [
+    "transpose this table",
+    "swap the rows and columns",
+    "flip this table on its side"
+   ]
+  },
+  {
+   "skill": "unflattenJson",
+   "category": "data",
+   "does": "Rebuild deep nested JSON from keys that are already flat dot paths.",
+   "examples": [
+    "unflatten this json",
+    "rebuild nested config from dotted keys",
+    "turn indexed paths back into an array"
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "category": "dates",
+   "does": "Move a date forward or back by a number of working days — three working days on from a Monday — skipping weekends and holidays.",
+   "examples": [
+    "what date is 5 working days from 1 September 2026",
+    "add 10 business days to 2026-09-01",
+    "one working day after 2026-09-01"
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "category": "dates",
+   "does": "Move a date forward or back by days, weeks, months or years.",
+   "examples": [
+    "what date is 90 days after 2026-07-12",
+    "six weeks from 1 March 2026",
+    "three months after 31 January 2026"
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "category": "dates",
+   "does": "Count how old somebody is from their birthday.",
+   "examples": [
+    "how old is someone born 1990-05-20",
+    "age of someone born 2000-01-01 on 2026-01-01",
+    "how old will a baby born 2026-06-15 be on 2026-12-25"
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "category": "dates",
+   "does": "Count how many working days (Mon–Fri) fall between two dates you give. Does not know public holidays.",
+   "examples": [
+    "working days between 1 September and 30 September 2026",
+    "how many business days from monday 2026-06-01 to friday 2026-06-05",
+    "business days in a full year 2026"
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "category": "dates",
+   "does": "Convert a time from one time zone to another, using IANA zone names.",
+   "examples": [
+    "3pm London in New York on 2026-09-01",
+    "what is 9am Tokyo in London on 2026-01-15",
+    "11pm Sydney in Los Angeles 2026-06-10"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1056 @@
+{
+  "batch": "f07",
+  "domain": "sports clubs, leagues and competitions",
+  "cases": [
+    {
+      "question": "what sport do the Harlow Crossing Kestrels play",
+      "passage": "The Harlow Crossing Kestrels are a professional ice hockey team based in the town of Harlow Crossing. The team was founded in 1964 and plays its home games at the Mardle Arena. It has won the Northern Ice League four times, most recently in 2018.",
+      "sentence": 1,
+      "quote": "professional ice hockey team",
+      "looking_for": "the sport the team plays"
+    },
+    {
+      "question": "what is the Tamberlin Shield",
+      "passage": "The Tamberlin Shield is a knockout cup competition for amateur rugby union clubs in the province of Ostwen. It was first contested in 1902 and is organised by the Ostwen Rugby Union. The final is played each April at Corley Park. Pennick Wanderers have won it a record eleven times.",
+      "sentence": 1,
+      "quote": "knockout cup competition for amateur rugby union clubs",
+      "looking_for": "what kind of thing the shield is"
+    },
+    {
+      "question": "where are brockfield athletic based",
+      "passage": "Brockfield Athletic is a semi-professional football club based in the market town of Kessling Brook. The club was formed in 1889 by workers at the Brockfield ironworks. It plays in the Wealden Counties League and its home ground is Foundry Lane. The current manager is Ollie Ransome.",
+      "sentence": 1,
+      "quote": "based in the market town of Kessling Brook",
+      "looking_for": "the town where the club is based"
+    },
+    {
+      "question": "what league do the sandermouth gulls play in",
+      "passage": "The Sandermouth Gulls are a professional baseball team that competes in the Coastal Baseball League. They were founded in 1951 and play at Harbour Field, a ballpark with 9,400 seats. The Gulls won their only league title in 1977. Their manager since 2022 has been Teodor Malin.",
+      "sentence": 1,
+      "quote": "competes in the Coastal Baseball League",
+      "looking_for": "the name of the league the team plays in"
+    },
+    {
+      "question": "who organises the Carrowdene Netball Championship",
+      "passage": "The Carrowdene Netball Championship is an annual tournament organised by the Carrowdene Netball Association for clubs in the region. It was first held in 1958 with six teams. Since 2010 the tournament has been played at the Elmhurst Sports Centre. The 2024 title was won by Rowan Vale.",
+      "sentence": 1,
+      "quote": "organised by the Carrowdene Netball Association",
+      "looking_for": "the body that organises the championship"
+    },
+    {
+      "question": "what is the vellacourt premier division",
+      "passage": "The Vellacourt Premier Division is the highest level of men's professional football in the republic of Vellacourt. It was established in 1934 and is contested by sixteen clubs. Each season runs from August to May, with the bottom two clubs relegated. Holbeck City are the current champions.",
+      "sentence": 1,
+      "quote": "highest level of men's professional football",
+      "looking_for": "what the division is"
+    },
+    {
+      "question": "what is the nickname of fallowfield rovers",
+      "passage": "Fallowfield Rovers, known as the Millers, are a football club in the town of Fallowfield. The club was founded in 1878 and is one of the oldest in the county. It plays its home matches at Weir Road in amber and black shirts. Rovers reached the final of the County Cup in 1996.",
+      "sentence": 1,
+      "quote": "known as the Millers",
+      "looking_for": "the club's nickname"
+    },
+    {
+      "question": "where do the tullen bay mariners play",
+      "passage": "The Tullen Bay Mariners are a professional basketball team that plays its home games at the Quayside Dome in the city of Tullen. The franchise was founded in 1989 as the Tullen Lancers and adopted its present name in 1997. It competes in the Western Basketball Association. The Mariners' head coach is Halvard Brenn.",
+      "sentence": 1,
+      "quote": "plays its home games at the Quayside Dome",
+      "looking_for": "the arena where the team plays home games"
+    },
+    {
+      "question": "what sport is the pellamy trophy for",
+      "passage": "The Pellamy Trophy is awarded to the winner of an annual women's field hockey tournament between universities in the Corlish region. The trophy was donated in 1923 by the sports patron Edith Pellamy. Eight universities take part each year. Halverstone University won the 2024 edition.",
+      "sentence": 1,
+      "quote": "women's field hockey tournament",
+      "looking_for": "the sport the trophy is played for"
+    },
+    {
+      "question": "what is Wexhollow Cricket Club",
+      "passage": "Wexhollow Cricket Club is an amateur cricket club in the village of Wexhollow, playing in the Downland Cricket League. The club was founded in 1851 and has played on the village green since its first season. Its pavilion was rebuilt in 1983 after a fire. The club fields three senior teams and a junior section.",
+      "sentence": 1,
+      "quote": "amateur cricket club in the village of Wexhollow",
+      "looking_for": "what kind of organisation the club is"
+    },
+    {
+      "question": "when was the marrick valley league founded",
+      "passage": "The Marrick Valley League was founded in 1911 as a competition for colliery football teams in the Marrick valley. It now has three divisions and forty-two member clubs. Clubs promoted from the Premier Division move up to the Northern Counties League. The league's longest-serving member is Tollerby Colliery Welfare, which joined in 1919.",
+      "sentence": 1,
+      "quote": "founded in 1911",
+      "looking_for": "the year the league was founded"
+    },
+    {
+      "question": "how many clubs are in the aldersey rugby league",
+      "passage": "The Aldersey Rugby League is a semi-professional rugby league competition of ten clubs in the county of Aldersey. It was formed in 1946 after the merger of two older county competitions. The season runs from March to September, ending with a Grand Final. Harnwick Bulls won the 2024 Grand Final against Lessop Rangers.",
+      "sentence": 1,
+      "quote": "competition of ten clubs",
+      "looking_for": "the number of clubs in the league"
+    },
+    {
+      "question": "who owns the callender park racers",
+      "passage": "The Callender Park Racers are a speedway team owned by the haulage businessman Rufus Teague. The team races at Callender Park Stadium in the town of Merriden. It was founded in 1948 and competes in the National Speedway League. The team manager is Gail Hosking.",
+      "sentence": 1,
+      "quote": "owned by the haulage businessman Rufus Teague",
+      "looking_for": "the name of the team's owner"
+    },
+    {
+      "question": "what colours do kilbrannoch thistle play in",
+      "passage": "Kilbrannoch Thistle is a football club that plays in green and white hoops. It was founded in 1882 in the village of Kilbrannoch and moved to the nearby town of Dunavie in 1923. The club's ground, Ferry Park, holds 3,100 spectators. Thistle were champions of the Highland Combination in 1931 and 1972.",
+      "sentence": 1,
+      "quote": "plays in green and white hoops",
+      "looking_for": "the colours of the club's kit"
+    },
+    {
+      "question": "what is the Graysholm Open",
+      "passage": "The Graysholm Open is a professional golf tournament played each June on the links course at Graysholm. It was first held in 1921 and joined the Northern Tour in 1988. The prize fund in 2024 was 1.8 million crowns. The tournament record of 266 was set by Ansel Varga in 2009.",
+      "sentence": 1,
+      "quote": "professional golf tournament",
+      "looking_for": "what the Graysholm Open is"
+    },
+    {
+      "question": "where is sallis reach rowing club",
+      "passage": "Sallis Reach Rowing Club is a rowing club on the north bank of the River Ammer at Sallis Reach. It was founded in 1867 by a group of schoolmasters. The club has produced eleven national champions and hosts an annual regatta each July. Its boathouse, built in 1901, is a listed building.",
+      "sentence": 1,
+      "quote": "on the north bank of the River Ammer",
+      "looking_for": "the location of the rowing club"
+    },
+    {
+      "question": "what division do merrow town play in",
+      "passage": "Merrow Town is a football club that plays in the Second Division of the Hallendale Football League. The club was founded in 1903 and spent forty seasons in the First Division before relegation in 2016. Its home ground is Castle Meadow, which holds 6,800 spectators. The club's manager is Bryn Toller.",
+      "sentence": 1,
+      "quote": "plays in the Second Division",
+      "looking_for": "the division the club currently plays in"
+    },
+    {
+      "question": "what is the saltreach cup",
+      "passage": "The Saltreach Cup is a curling competition for club teams from the coastal towns of Marrowfield province. It was first played in 1897 on the frozen harbour at Saltreach. Since 1962 it has been held indoors at the Saltreach Ice Rink. The Grevholm Curling Club holds the record with fourteen wins.",
+      "sentence": 1,
+      "quote": "curling competition for club teams",
+      "looking_for": "what the Saltreach Cup is"
+    },
+    {
+      "question": "who founded orlen harriers",
+      "passage": "Orlen Harriers is an athletics club founded in 1887 by the schoolteacher Matthias Corbel in the town of Orlen. It is one of the largest running clubs in the province, with about 900 members. The club trains at the Brook Lane track, which it shares with Orlen Grammar School. Its president is Wenna Dray.",
+      "sentence": 1,
+      "quote": "the schoolteacher Matthias Corbel",
+      "looking_for": "the person who founded the club"
+    },
+    {
+      "question": "what does the torvane bowls federation do",
+      "passage": "The Torvane Bowls Federation is the governing body for lawn bowls in the region of Torvane. It was formed in 1907 and has its offices in the town of Mellick. The federation has 214 affiliated clubs and runs the Torvane Championships each August. Its chief executive is Pieter Sollas.",
+      "sentence": 1,
+      "quote": "governing body for lawn bowls",
+      "looking_for": "what the federation does"
+    },
+    {
+      "question": "when was rothwick albion founded",
+      "passage": "Rothwick Albion is a football club founded in 1874 in the port of Rothwick. The club turned professional in 1893 and joined the national league in 1901. Albion play at the Dockside Ground, which they have occupied since 1911. Their most successful period came in the 1950s, when they won two league titles.",
+      "sentence": 1,
+      "quote": "founded in 1874",
+      "looking_for": "the year the club was founded"
+    },
+    {
+      "question": "who competes in the brennan plate",
+      "passage": "The Brennan Plate is contested each spring by the boxing clubs of the six universities in the city of Dallowmere. The competition was founded in 1932 and is named after the former boxer Hugh Brennan. Bouts are held over three nights at the Dallowmere Corn Exchange. Saint Ivo's College has won the plate most often.",
+      "sentence": 1,
+      "quote": "the boxing clubs of the six universities",
+      "looking_for": "who takes part in the competition"
+    },
+    {
+      "question": "what sport do the morrisford stags play",
+      "passage": "The Morrisford Stags are an amateur gridiron football team based in the town of Morrisford. The team was founded in 1986 by students returning from study abroad. It plays in the Northern Gridiron Conference and has won the conference bowl three times. Home games are played at the Morrisford Rugby Club ground.",
+      "sentence": 1,
+      "quote": "amateur gridiron football team",
+      "looking_for": "the sport the team plays"
+    },
+    {
+      "question": "who are larchmont rangers",
+      "passage": "Larchmont Rangers is a women's football club based in the city of Larchmont that plays in the Fenland Women's Premier League. The club was formed in 1971 and became fully professional in 2019. It plays home matches at Sedge Lane, the ground of the men's club Larchmont United. The head coach is Annika Wroe.",
+      "sentence": 1,
+      "quote": "women's football club based in the city of Larchmont",
+      "looking_for": "what Larchmont Rangers is"
+    },
+    {
+      "question": "how many teams in the coldmere shinty league",
+      "passage": "The Coldmere Shinty League has eight teams drawn from the villages of the Coldmere district. It was established in 1896, making it one of the oldest shinty competitions in the country. Matches are played on Saturdays from March to October. Glenaskin won the league in 2024 for the fifth year running.",
+      "sentence": 1,
+      "quote": "has eight teams",
+      "looking_for": "the number of teams in the league"
+    },
+    {
+      "question": "tresham wanderers home ground",
+      "passage": "Tresham Wanderers play their home matches at Pound Lane, a ground of 4,200 capacity in the town of Tresham. The club was founded in 1895 by members of the Tresham Cycling Club. Wanderers have spent most of their history in the regional leagues. Before moving to their present ground in 1927, they played on Tresham Common.",
+      "sentence": 1,
+      "quote": "at Pound Lane",
+      "looking_for": "the name of the club's home ground"
+    },
+    {
+      "question": "when is the lessing bowl played",
+      "passage": "The Lessing Bowl is played each January between the champions of the Northern and Southern Collegiate Leagues. The game was first staged in 1938 at Ravensholt Stadium. It has been sponsored by the brewer Haldane since 1994. The Northern champions lead the series by 47 wins to 38.",
+      "sentence": 1,
+      "quote": "played each January",
+      "looking_for": "the time of year the game is played"
+    },
+    {
+      "question": "who runs the westerhay basketball league",
+      "passage": "The Westerhay Basketball League is run by the Westerhay Basketball Federation and has twelve professional clubs. It was founded in 1958 with six clubs. The regular season lasts from October to April and is followed by playoffs. Ostley Royals have won the most titles, with fourteen.",
+      "sentence": 1,
+      "quote": "run by the Westerhay Basketball Federation",
+      "looking_for": "the body that runs the league"
+    },
+    {
+      "question": "how many members does mallowdene tennis club have",
+      "passage": "Mallowdene Tennis Club is a lawn tennis club with about 650 members in the suburb of Mallowdene. It was founded in 1883 and has eighteen courts, six of them grass. The club hosts the Mallowdene Invitational each June. Its head professional is Corinne Abel.",
+      "sentence": 1,
+      "quote": "about 650 members",
+      "looking_for": "the number of club members"
+    },
+    {
+      "question": "where is the kellock cup final held",
+      "passage": "The Kellock Cup final is held each May at Riverside Park in the city of Abermoy. The cup was founded in 1888 and is open to all senior football clubs in the province. Its first final was played at the Abermoy Cricket Ground. The current holders are Inverlen Caledonian.",
+      "sentence": 1,
+      "quote": "at Riverside Park",
+      "looking_for": "the venue of the cup final"
+    },
+    {
+      "question": "who is the manager of dorran city",
+      "passage": "Dorran City is a professional football club in the city of Dorran. Its manager is Lukas Hefferan, appointed in 2023. The club was founded in 1880 by Tomas Ferrell, a local brewer. City have won the national league nine times.",
+      "sentence": 2,
+      "quote": "Lukas Hefferan",
+      "looking_for": "the name of the current manager"
+    },
+    {
+      "question": "when was upper callow hockey club founded",
+      "passage": "Upper Callow Hockey Club is a field hockey club in the village of Upper Callow. It was founded in 1904 by the vicar of the parish. The club's first team was promoted to the National Premier League in 2015. It plays on an artificial pitch laid in 1998.",
+      "sentence": 2,
+      "quote": "founded in 1904",
+      "looking_for": "the year the club was founded"
+    },
+    {
+      "question": "how many grand finals have the harnwick bulls won",
+      "passage": "The Harnwick Bulls are a rugby league club from the mining town of Harnwick. They have won the Aldersey Grand Final seven times, most recently in 2024. The club was founded in 1921 and plays at the Pithead Ground. Its record attendance is 11,300, set against Lessop Rangers in 1952.",
+      "sentence": 2,
+      "quote": "seven times",
+      "looking_for": "the number of Grand Final wins"
+    },
+    {
+      "question": "who is the captain of the sennland cricket team",
+      "passage": "The Sennland cricket team is the men's side that plays international cricket for the republic of Sennland. Its captain is the batsman Ravi Holloran, who took over in 2022. The team played its first international match in 1952 against Orsland. Its head coach is the former bowler Dean Carvell.",
+      "sentence": 2,
+      "quote": "Ravi Holloran",
+      "looking_for": "the name of the team's captain"
+    },
+    {
+      "question": "where do wexley saints play",
+      "passage": "Wexley Saints are a professional rugby union club in the city of Wexley. They play their home games at the Abbey Field, which holds 14,500 spectators. The club was founded in 1872 by former pupils of Wexley Grammar School. Saints have been champions of the Premier Rugby League three times.",
+      "sentence": 2,
+      "quote": "at the Abbey Field",
+      "looking_for": "the ground where the club plays"
+    },
+    {
+      "question": "how many teams are in the rhoswen hockey league",
+      "passage": "The Rhoswen Hockey League is the top ice hockey competition in the kingdom of Rhoswen. It currently has eleven teams, after the Tarrow Wolves withdrew in 2023. The league was founded in 1949 with four teams. The regular season is followed by a playoff for the Rhoswen Crown.",
+      "sentence": 2,
+      "quote": "eleven teams",
+      "looking_for": "the current number of teams in the league"
+    },
+    {
+      "question": "who coaches the kelsby comets",
+      "passage": "The Kelsby Comets are a women's basketball team in the city of Kelsby. The team is coached by Mirela Danek, who was appointed in 2021. It was founded in 1994 by the former player Hester Lund. The Comets play at the Kelsby Civic Arena.",
+      "sentence": 2,
+      "quote": "coached by Mirela Danek",
+      "looking_for": "the name of the team's coach"
+    },
+    {
+      "question": "what is brenholt united's stadium called",
+      "passage": "Brenholt United is a professional football club based in the town of Brenholt. The club's stadium is the Ironside Ground, which it has used since 1906. United were founded in 1879 as Brenholt Rovers and changed their name in 1891. The record attendance at the ground is 28,410.",
+      "sentence": 2,
+      "quote": "the Ironside Ground",
+      "looking_for": "the name of the club's stadium"
+    },
+    {
+      "question": "when was the arlesford cup first held",
+      "passage": "The Arlesford Cup is a knockout competition for amateur cricket clubs in the county of Arlesford. It was first held in 1874, with eight clubs entering. The final has been played at Mallard Green since 1950. Monkton Priors won the 2024 final by four wickets.",
+      "sentence": 2,
+      "quote": "first held in 1874",
+      "looking_for": "the year of the first competition"
+    },
+    {
+      "question": "who owns carnford rovers",
+      "passage": "Carnford Rovers is a football club in the town of Carnford that plays in the Second Tier. Since 2020 the club has been owned by the logistics company Haverhall Group. It was founded in 1886 by the Carnford Methodist chapel. The chairman is Selwyn Marsh.",
+      "sentence": 2,
+      "quote": "owned by the logistics company Haverhall Group",
+      "looking_for": "the club's owner"
+    },
+    {
+      "question": "how many members does thorsby golf club have",
+      "passage": "Thorsby Golf Club is a private members' golf club on the heathland south of the town of Thorsby. It has about 1,100 members and a waiting list for new applicants. The course was laid out in 1903 by the designer Walter Pomfrey. It hosted the national amateur championship in 1958 and 1987.",
+      "sentence": 2,
+      "quote": "about 1,100 members",
+      "looking_for": "the number of members"
+    },
+    {
+      "question": "who won the hesketh shield in 2024",
+      "passage": "The Hesketh Shield is a cup competition for women's rugby union clubs in the region of Hesketh. The 2024 shield was won by Corrie Vale, who beat Ambersley 24 to 17 in the final. The competition was founded in 1989. Ambersley hold the record for most wins, with nine.",
+      "sentence": 2,
+      "quote": "won by Corrie Vale",
+      "looking_for": "the winner of the 2024 shield"
+    },
+    {
+      "question": "when did the saltmarsh sharks join the league",
+      "passage": "The Saltmarsh Sharks are an ice hockey team from the coastal town of Saltmarsh. They joined the National Ice Hockey League in 1997 as an expansion team. The team was founded in 1979 and played in regional competitions for its first eighteen years. Their home rink is the Saltmarsh Ice Centre.",
+      "sentence": 2,
+      "quote": "joined the National Ice Hockey League in 1997",
+      "looking_for": "the year the team joined the league"
+    },
+    {
+      "question": "where is the ellisfield bowl played",
+      "passage": "The Ellisfield Bowl is an annual rugby match between Ellisfield School and Hamble College. It is played each November at the Mardon Road ground in the town of Ellisfield. The first match took place in 1868 on Hamble Common. Hamble College lead the series by 71 wins to 64.",
+      "sentence": 2,
+      "quote": "at the Mardon Road ground",
+      "looking_for": "the venue of the match"
+    },
+    {
+      "question": "who is the head coach of the varrow ospreys",
+      "passage": "The Varrow Ospreys are a professional volleyball club in the city of Varrow. The head coach is Emil Strand, who succeeded Paolo Venn in 2024. The club was founded in 1969 and plays in the National Volleyball League. Its captain is the setter Ines Korbel.",
+      "sentence": 2,
+      "quote": "Emil Strand",
+      "looking_for": "the name of the current head coach"
+    },
+    {
+      "question": "how many league titles have kirkhallow rangers won",
+      "passage": "Kirkhallow Rangers are a football club from the town of Kirkhallow in the Lowland region. The club has won the national league title fifteen times, more than any other club. Rangers were founded in 1873 by members of a rowing club. They have played at Tannery Park since 1899.",
+      "sentence": 2,
+      "quote": "fifteen times",
+      "looking_for": "the number of league titles won"
+    },
+    {
+      "question": "when was the merriwell ladies golf championship first played",
+      "passage": "The Merriwell Ladies Golf Championship is an amateur golf tournament for women held at Merriwell Golf Club. It was first played in 1897, when eleven players entered. The championship has been held every year since 1946. The record winning score of 281 was set by Freya Lindahl in 2011.",
+      "sentence": 2,
+      "quote": "first played in 1897",
+      "looking_for": "the year it was first played"
+    },
+    {
+      "question": "who is the president of arnhollow football club",
+      "passage": "Arnhollow Football Club is a member-owned club in the city of Arnhollow. Its president is Dagny Ruud, elected by the members in 2022. The club was founded in 1902 by dockworkers from the Arnhollow quays. The head coach is Bjorn Elling.",
+      "sentence": 2,
+      "quote": "Dagny Ruud",
+      "looking_for": "the name of the club president"
+    },
+    {
+      "question": "penwick panthers arena",
+      "passage": "The Penwick Panthers are a professional handball club in the city of Penwick. They play their home matches in the Grainhall Arena, which seats 4,800. The club was founded in 1961 by members of the Penwick Gymnastics Society. The Panthers won the national cup in 2008 and 2019.",
+      "sentence": 2,
+      "quote": "the Grainhall Arena",
+      "looking_for": "the name of the team's home arena"
+    },
+    {
+      "question": "how often is the ambry trophy played",
+      "passage": "The Ambry Trophy is a team golf competition between amateur sides from the northern and southern provinces. It is held every two years, alternating between courses in the north and south. The trophy was donated in 1926 by the shipowner Lionel Ambry. The southern side has won 23 of the 48 matches played.",
+      "sentence": 2,
+      "quote": "held every two years",
+      "looking_for": "how often the trophy is contested"
+    },
+    {
+      "question": "who founded the osterby shooting club",
+      "passage": "The Osterby Shooting Club is a target shooting club with ranges in the forest east of Osterby. It was founded in 1862 by the forester Henrik Aune. The club has about 400 members and trains Olympic-style rifle and pistol shooters. Its current chair is Lise Varde.",
+      "sentence": 2,
+      "quote": "the forester Henrik Aune",
+      "looking_for": "the person who founded the club"
+    },
+    {
+      "question": "what league does hartsend athletic play in",
+      "passage": "Hartsend Athletic is a football club from the village of Hartsend in the district of Mardle. It plays in the Mardle and District Sunday League. The club was founded in 1977 and has won the Mardle Charity Shield twice. Home games are played on the Hartsend recreation ground.",
+      "sentence": 2,
+      "quote": "Mardle and District Sunday League",
+      "looking_for": "the name of the league the club plays in"
+    },
+    {
+      "question": "when did the kellow racers move to kellow",
+      "passage": "The Kellow Racers compete in professional basketball and take their name from the old horse track at Kellow. The team moved to Kellow in 2009 from the town of Brightholm, where it had been founded in 1972. It plays in the Southern Basketball League. Its home arena is the Kellow Exchange.",
+      "sentence": 2,
+      "quote": "moved to Kellow in 2009",
+      "looking_for": "the year the team relocated"
+    },
+    {
+      "question": "what is the capacity of hallam road",
+      "passage": "Hallam Road is the home ground of Ferrisby Town Football Club. It has a capacity of 7,250, of which 2,900 are seated. The ground opened in 1912 on land given by the Hallam family. Its record attendance of 17,400 was set in a cup tie in 1949.",
+      "sentence": 2,
+      "quote": "a capacity of 7,250",
+      "looking_for": "the capacity of the ground"
+    },
+    {
+      "question": "when were the fenmouth pirates formed",
+      "passage": "The Fenmouth Pirates are an amateur rugby league club in the town of Fenmouth. The club was formed in 1990 by a group of former players from nearby Toller. It plays in the Southern Conference and trains at Fenmouth Leisure Park. In 2017 the club opened a women's section.",
+      "sentence": 2,
+      "quote": "formed in 1990",
+      "looking_for": "the year the club was formed"
+    },
+    {
+      "question": "who is the chief executive of the rhoswen football association",
+      "passage": "The Rhoswen Football Association is the governing body of football in the kingdom of Rhoswen. Its chief executive is Ottilie Grane, who was appointed in 2020. The association was founded in 1889 and is a member of the Continental Football Union. Its president is the former international Arvid Kell.",
+      "sentence": 2,
+      "quote": "Ottilie Grane",
+      "looking_for": "the name of the chief executive"
+    },
+    {
+      "question": "what colours do penhurst harriers wear",
+      "passage": "Penhurst Harriers is a cross-country running club in the town of Penhurst. Its members race in black vests with a white diagonal band. The club was founded in 1894 and won the national team championship in 1926. It meets at the Penhurst Lido every Tuesday and Thursday.",
+      "sentence": 2,
+      "quote": "black vests with a white diagonal band",
+      "looking_for": "the club's racing colours"
+    },
+    {
+      "question": "how many clubs enter the haldrin cup",
+      "passage": "The Haldrin Cup is the national knockout competition for basketball clubs in the republic of Haldrin. Sixty-four clubs enter each season, from the professional league and the regional divisions. The cup was first played in 1955. The final is held at the Haldrin National Arena each March.",
+      "sentence": 2,
+      "quote": "Sixty-four clubs enter each season",
+      "looking_for": "the number of clubs in the cup"
+    },
+    {
+      "question": "where is greyfriars lawn tennis club",
+      "passage": "Greyfriars Lawn Tennis Club is a private tennis club founded in 1879. It is located on Priory Walk in the cathedral city of Wendlebury. The club has twelve grass courts and four clay courts. It hosted the national veterans' championships from 1960 to 1985.",
+      "sentence": 2,
+      "quote": "on Priory Walk in the cathedral city of Wendlebury",
+      "looking_for": "the location of the club"
+    },
+    {
+      "question": "wetherdale town record goalscorer",
+      "passage": "Wetherdale Town is a football club in the town of Wetherdale. Its record goalscorer is Wilf Dacre, who scored 312 goals between 1924 and 1938. The record for appearances is held by Ron Hebden, with 641. The club plays at Mill Street.",
+      "sentence": 2,
+      "quote": "Wilf Dacre",
+      "looking_for": "the name of the club's all-time top scorer"
+    },
+    {
+      "question": "when was the northwold hockey association founded",
+      "passage": "The Northwold Hockey Association is the governing body for field hockey in the province of Northwold. It was founded in 1898 by representatives of nine clubs. The association runs leagues for men, women and juniors. Its headquarters moved to the town of Barrowcote in 1971.",
+      "sentence": 2,
+      "quote": "founded in 1898",
+      "looking_for": "the year the association was founded"
+    },
+    {
+      "question": "who sponsors the wealden counties league",
+      "passage": "The Wealden Counties League is a regional football league with three divisions. Since 2021 it has been sponsored by the building society Marlstone Mutual and is known for sponsorship reasons as the Marlstone League. It was founded in 1920. Clubs from the Premier Division can be promoted to the Southern League.",
+      "sentence": 2,
+      "quote": "sponsored by the building society Marlstone Mutual",
+      "looking_for": "the name of the league's sponsor"
+    },
+    {
+      "question": "tollbridge cricket club nickname",
+      "passage": "Tollbridge County Cricket Club is one of the twelve first-class cricket counties of the kingdom of Ardmore. The club is nicknamed the Foxes, after the fox on the county crest. It was founded in 1863 and plays most home matches at the Grange Ground. Tollbridge last won the county championship in 2012.",
+      "sentence": 2,
+      "quote": "nicknamed the Foxes",
+      "looking_for": "the club's nickname"
+    },
+    {
+      "question": "when did strand athletic go bust",
+      "passage": "Strand Athletic was a professional football club based in the port of Cardrow. The club went into liquidation in 1993 after years of falling crowds. It had been founded in 1887 and spent nine seasons in the top division. A new club, Cardrow Strand, was formed in 1994 and plays at the old ground.",
+      "sentence": 2,
+      "quote": "went into liquidation in 1993",
+      "looking_for": "the year the club went out of business"
+    },
+    {
+      "question": "who designed the halloway golf course",
+      "passage": "Halloway Golf Club is a members' golf club on the cliffs west of the town of Halloway. Its course was designed in 1911 by the architect Fergus Lamond. The club was founded in 1896 with a nine-hole course laid out by its first professional, Tom Ashby. It has hosted the national open championship six times.",
+      "sentence": 2,
+      "quote": "the architect Fergus Lamond",
+      "looking_for": "the person who designed the course"
+    },
+    {
+      "question": "where is the headquarters of the ardmore cricket board",
+      "passage": "The Ardmore Cricket Board is the governing body for cricket in the kingdom of Ardmore. Its headquarters are at Wellbourne Park in the capital, Corriston. The board was founded in 1890 and organises the county championship. Its chair is Lady Imelda Rusk.",
+      "sentence": 2,
+      "quote": "at Wellbourne Park in the capital, Corriston",
+      "looking_for": "the location of the board's headquarters"
+    },
+    {
+      "question": "who won the first quarrington cup",
+      "passage": "The Quarrington Cup is a football competition for clubs in the Fenland region. The first final, in 1881, was won by Saltby Rovers. The most successful club is Wisbourne Town, with eighteen wins. The 2024 cup was won by Garnet Heath.",
+      "sentence": 2,
+      "quote": "won by Saltby Rovers",
+      "looking_for": "the winner of the first final"
+    },
+    {
+      "question": "how many divisions does the corlan league have",
+      "passage": "The Corlan League is an amateur football league in the city of Hesterby. It has five divisions with ten clubs in each. The league was founded in 1931 by local church teams. Its cup competition is the Corlan Charity Shield.",
+      "sentence": 2,
+      "quote": "five divisions",
+      "looking_for": "the number of divisions in the league"
+    },
+    {
+      "question": "who is the owner of the ruskmoor royals",
+      "passage": "The Ruskmoor Royals are a professional ice hockey team in the city of Ruskmoor. The team is owned by the property developer Clement Ashdown. It was founded in 1998 by a group of local businessmen led by Harald Neve. The Royals play at the Ruskmoor Ice Palace.",
+      "sentence": 2,
+      "quote": "the property developer Clement Ashdown",
+      "looking_for": "the name of the team's owner"
+    },
+    {
+      "question": "who is the captain of ellerburn rugby club",
+      "passage": "Ellerburn Rugby Club is an amateur rugby union club from the village of Ellerburn. The club captain for the 2025 season is the flanker Owain Price. The head coach is the former professional Barney Lisle. The club was founded in 1880 and plays at Glebe Meadow.",
+      "sentence": 2,
+      "quote": "the flanker Owain Price",
+      "looking_for": "the name of the club captain"
+    },
+    {
+      "question": "what kind of bowls does kettlemere bowling club play",
+      "passage": "The Kettlemere Bowling Club is a sports club in the village of Kettlemere. It plays crown green bowls on a green behind the Black Horse inn. The club was founded in 1889 and has won the county league eleven times. Its membership is about 120.",
+      "sentence": 2,
+      "quote": "crown green bowls",
+      "looking_for": "the type of bowls the club plays"
+    },
+    {
+      "question": "when was the pallister netball league founded",
+      "passage": "The Pallister Netball League is a netball league for clubs in the district of Pallister. It was founded in 1964 by the district's schools sports association. It has four divisions and about forty teams. Matches are played on Saturday mornings at the Pallister Leisure Centre.",
+      "sentence": 2,
+      "quote": "founded in 1964",
+      "looking_for": "the year the league was founded"
+    },
+    {
+      "question": "corringdale rugby director of rugby",
+      "passage": "Corringdale Rugby Club is a professional rugby union club in the cathedral town of Corringdale. Its director of rugby is Hamish Telfer, who joined from Wexley Saints in 2023. The head coach is Pieter du Bois. The club was founded in 1875.",
+      "sentence": 2,
+      "quote": "Hamish Telfer",
+      "looking_for": "the name of the director of rugby"
+    },
+    {
+      "question": "where does tarnbeck cycling club meet",
+      "passage": "Tarnbeck Cycling Club is a road and track cycling club founded in 1891. It is based in the town of Tarnbeck and meets at the Old Corn Exchange. The club organises the Tarnbeck Hill Climb each October. Members have won eleven national titles.",
+      "sentence": 2,
+      "quote": "meets at the Old Corn Exchange",
+      "looking_for": "the place where the club meets"
+    },
+    {
+      "question": "what is the record attendance at saxholm park",
+      "passage": "Saxholm Park is the home ground of Elsworth Albion Football Club. Its record attendance is 31,212, for a cup tie against Kirkhallow Rangers in 1938. The ground's current capacity is 18,000. It was opened in 1897 and rebuilt in 1995.",
+      "sentence": 2,
+      "quote": "31,212",
+      "looking_for": "the highest crowd at the ground"
+    },
+    {
+      "question": "who is the manager of tannerby rovers",
+      "passage": "Tannerby Rovers is a professional football club based in the town of Tannerby. The club was founded in 1884 by the vicar Edward Marne and won its first league title in 1912. The current manager is Jody Kessel, who was appointed in 2024. Rovers play at Sedge Road.",
+      "sentence": 3,
+      "quote": "Jody Kessel",
+      "looking_for": "the name of the current manager"
+    },
+    {
+      "question": "how many championships have the glenmara hawks won",
+      "passage": "The Glenmara Hawks are a hurling club from the parish of Glenmara. The club was founded in 1887 and plays at Saint Colm's Park. It has won the county senior championship nineteen times, a record. Its most recent title came in 2021.",
+      "sentence": 3,
+      "quote": "nineteen times",
+      "looking_for": "the number of championship wins"
+    },
+    {
+      "question": "when was the bellwood ladies football league formed",
+      "passage": "The Bellwood Ladies Football League is an amateur women's football league in the county of Bellwood. It has two divisions and twenty-two clubs. The league was formed in 1983 by six clubs from the county's market towns. Its cup is named after the founder secretary, Joan Tarbet.",
+      "sentence": 3,
+      "quote": "formed in 1983",
+      "looking_for": "the year the league was formed"
+    },
+    {
+      "question": "who is the head coach of the marchmont ravens",
+      "passage": "The Marchmont Ravens are a professional rugby league club based in the city of Marchmont. They were founded in 1895 and have won the national championship six times. The head coach is Dale Ormerod, a former Ravens captain. The club's chief executive is Fiona Rudd.",
+      "sentence": 3,
+      "quote": "Dale Ormerod",
+      "looking_for": "the name of the head coach"
+    },
+    {
+      "question": "where do the ashwater pumas play",
+      "passage": "The Ashwater Pumas are a women's ice hockey team in the Northern Women's Hockey League. The team was formed in 2001 and turned professional in 2018. Home games are played at the Ashwater Civic Ice Rink. The Pumas won the league championship in 2022.",
+      "sentence": 3,
+      "quote": "Ashwater Civic Ice Rink",
+      "looking_for": "the venue for home games"
+    },
+    {
+      "question": "how many teams play in the dellmoor water polo league",
+      "passage": "The Dellmoor Water Polo League is the top water polo competition in the province of Dellmoor. It was established in 1932 and is run by the Dellmoor Swimming Association. Eight teams take part, each playing the others twice. The champions qualify for the Continental Water Polo Cup.",
+      "sentence": 3,
+      "quote": "Eight teams take part",
+      "looking_for": "the number of teams in the league"
+    },
+    {
+      "question": "who founded the kestrel ridge climbing club",
+      "passage": "The Kestrel Ridge Climbing Club is a rock climbing and mountaineering club in the uplands of Westmere. It has about 300 members and owns a hut below Kestrel Ridge. It was founded in 1909 by the brothers Alec and Rowan Fairley. The club publishes a guidebook to the ridge's climbs.",
+      "sentence": 3,
+      "quote": "the brothers Alec and Rowan Fairley",
+      "looking_for": "the people who founded the club"
+    },
+    {
+      "question": "who won the 2023 ravenshaw trophy",
+      "passage": "The Ravenshaw Trophy is a team squash competition for clubs in the Midland region. It has been held each spring since 1961. The 2023 trophy was won by Holmbury Squash Club, who beat Carden 3 matches to 2 in the final. Carden won in 2024.",
+      "sentence": 3,
+      "quote": "won by Holmbury Squash Club",
+      "looking_for": "the winner of the 2023 trophy"
+    },
+    {
+      "question": "when did corvey town move to langley park",
+      "passage": "Corvey Town is a football club in the town of Corvey. It was founded in 1891 and originally played on the town's cricket ground. The club moved to its present home, Langley Park, in 1934. Langley Park holds 5,600 spectators.",
+      "sentence": 3,
+      "quote": "Langley Park, in 1934",
+      "looking_for": "the year the club moved grounds"
+    },
+    {
+      "question": "what is the capacity of the ferrow arena",
+      "passage": "The Ferrow Arena is the home of the Ferrow Flyers basketball team. It opened in 1996 and was renovated in 2019. The arena holds 11,800 spectators for basketball games. Its record crowd of 12,950 was set at a concert in 2001.",
+      "sentence": 3,
+      "quote": "holds 11,800 spectators",
+      "looking_for": "the capacity of the arena"
+    },
+    {
+      "question": "who is the chair of tibbet green cricket club",
+      "passage": "Tibbet Green Cricket Club is a village cricket club in the county of Ellisford. It was founded in 1834, making it one of the oldest clubs in the county. The club's chair is Roderick Vane, a former first team captain. Its first team captain for 2025 is Sami Khoury.",
+      "sentence": 3,
+      "quote": "Roderick Vane",
+      "looking_for": "the name of the club's chair"
+    },
+    {
+      "question": "how many members does the arnwell fencing club have",
+      "passage": "The Arnwell Fencing Club is a fencing club in the city of Arnwell. It was founded in 1921 by the army officer Major Clive Harker. The club has about 180 members, a third of them juniors. It has produced four national champions in the sabre.",
+      "sentence": 3,
+      "quote": "about 180 members",
+      "looking_for": "the number of club members"
+    },
+    {
+      "question": "where is the northern ice league final played",
+      "passage": "The Northern Ice League is a semi-professional ice hockey league with nine teams. It was founded in 1972 after the collapse of the earlier Border League. The league final is played each April at the Lindholm Arena in the city of Lindholm. The Graybeck Wolves are the most successful team, with eleven titles.",
+      "sentence": 3,
+      "quote": "at the Lindholm Arena",
+      "looking_for": "the venue of the league final"
+    },
+    {
+      "question": "who is the chief executive of haddon city",
+      "passage": "Haddon City is a professional football club in the city of Haddon. It was founded in 1878 and has been owned since 2015 by the investor Mikael Torvald. The chief executive is Sophie Arden, appointed in 2022. The manager is Kristof Bannan.",
+      "sentence": 3,
+      "quote": "Sophie Arden",
+      "looking_for": "the name of the chief executive"
+    },
+    {
+      "question": "what year did the fairhaven saints win the challenge cup",
+      "passage": "The Fairhaven Saints are a rugby league club from the seaside town of Fairhaven. The club was founded in 1903 and joined the professional league in 1921. Its only Challenge Cup win came in 1956, when it beat Marchmont Ravens in the final. The Saints play at Promenade Park.",
+      "sentence": 3,
+      "quote": "came in 1956",
+      "looking_for": "the year the club won the cup"
+    },
+    {
+      "question": "who is the coach at hightown rowing club",
+      "passage": "Hightown Rowing Club is a rowing club on the River Lisle at Hightown. It was founded in 1858 and is the oldest club on the river. The club's head coach is Imogen Fairweather. Its president is the former international rower Tom Rudge.",
+      "sentence": 3,
+      "quote": "Imogen Fairweather",
+      "looking_for": "the name of the head coach"
+    },
+    {
+      "question": "how many teams are in the selcott darts league",
+      "passage": "The Selcott Darts League is a pub darts league in the town of Selcott and its surrounding villages. It was started in 1952 by the landlord of the Plough Inn. Forty-eight teams from thirty pubs are members. Matches are played on Tuesday evenings from September to April.",
+      "sentence": 3,
+      "quote": "Forty-eight teams",
+      "looking_for": "the number of teams in the league"
+    },
+    {
+      "question": "when were the vossberg eagles founded",
+      "passage": "The Vossberg Eagles are a professional basketball team in the city of Vossberg. They play in the Central Basketball League and are coached by Lorne Dibb. The Eagles were founded in 1967 as the works team of the Vossberg Steel Company. They have won four league titles.",
+      "sentence": 3,
+      "quote": "founded in 1967",
+      "looking_for": "the year the team was founded"
+    },
+    {
+      "question": "what is the name of carnmoor rugby club's ground",
+      "passage": "Carnmoor Rugby Football Club is a rugby union club in the town of Carnmoor. Founded in 1869, it is one of the founding members of the Western Rugby Union. The club's home ground is Quarry Field, which it has used since 1906. Its first team plays in the Western Championship.",
+      "sentence": 3,
+      "quote": "Quarry Field",
+      "looking_for": "the name of the club's ground"
+    },
+    {
+      "question": "who has made the most appearances for glasby albion",
+      "passage": "Glasby Albion is a football club in the town of Glasby. The club's top scorer is Neville Rook, with 288 goals. The appearance record is held by Desmond Harte, who played 702 games between 1951 and 1971. Albion play at Station Road.",
+      "sentence": 3,
+      "quote": "Desmond Harte",
+      "looking_for": "the player with the most appearances"
+    },
+    {
+      "question": "when is the teasdale cup final",
+      "passage": "The Teasdale Cup is a knockout competition for women's hockey clubs in the north of the country. It was founded in 1931 by the hockey player Marion Teasdale. The final is played on the first Sunday in March. Wendlebury Ladies are the current holders.",
+      "sentence": 3,
+      "quote": "the first Sunday in March",
+      "looking_for": "the date of the cup final"
+    },
+    {
+      "question": "who are the current champions of the castlemoor league",
+      "passage": "The Castlemoor League is an amateur rugby union league in the region of Castlemoor. It was formed in 1965 and has three divisions. The current champions are Hollery Vale, who won the title in 2025. Brookdale have won the most titles, with twelve.",
+      "sentence": 3,
+      "quote": "Hollery Vale",
+      "looking_for": "the name of the current champions"
+    },
+    {
+      "question": "where does elsmoor swimming club train",
+      "passage": "Elsmoor Swimming Club is a competitive swimming club in the town of Elsmoor. It was founded in 1878 and swam in the open-air river baths until 1937. The club now trains at the Elsmoor Aquatic Centre, which opened in 2008. It has about 450 members.",
+      "sentence": 3,
+      "quote": "Elsmoor Aquatic Centre",
+      "looking_for": "the place where the club trains"
+    },
+    {
+      "question": "when did halcombe united last win the league",
+      "passage": "Halcombe United is a professional football club in the city of Halcombe. The club won its first league title in 1921. Its most recent league title came in 2004, under the manager Ivo Brandt. United play at the Halcombe Bowl.",
+      "sentence": 3,
+      "quote": "came in 2004",
+      "looking_for": "the year of the most recent title"
+    },
+    {
+      "question": "who started the dunscar women's cricket league",
+      "passage": "The Dunscar Women's Cricket League is an amateur cricket league for women's teams in the county of Dunscar. It has fourteen teams in two divisions. The league was started in 1999 by the cricket coach Priya Lomas. Its season runs from May to August.",
+      "sentence": 3,
+      "quote": "Priya Lomas",
+      "looking_for": "the person who started the league"
+    },
+    {
+      "question": "who manages ashcott wanderers",
+      "passage": "Ashcott Wanderers is a semi-professional football club in the town of Ashcott. The club was founded in 1890 by workers at the Ashcott brickworks. It plays in the Southern Combination League at Kiln Lane. The manager is Garth Pellow, who returned for a second spell in 2023. The club captain is the defender Jamie Corr.",
+      "sentence": 4,
+      "quote": "Garth Pellow",
+      "looking_for": "the name of the club manager"
+    },
+    {
+      "question": "how many people can elmstead park hold",
+      "passage": "Elmstead Park is a rugby league stadium in the town of Elmstead. It is the home of the Elmstead Rhinos. The stadium was built in 1924 and rebuilt after a fire in 1986. It holds 9,200 spectators, 3,000 of them seated. The record attendance is 23,880.",
+      "sentence": 4,
+      "quote": "holds 9,200 spectators",
+      "looking_for": "the capacity of the stadium"
+    },
+    {
+      "question": "when was the daleshire fell running association founded",
+      "passage": "The Daleshire Fell Running Association is the governing body for hill and mountain running in the county of Daleshire. It sanctions about ninety races a year. Its championship is decided by each runner's best eight results. The association was founded in 1970 by a group of club secretaries. Its headquarters are in the village of Kettlesing.",
+      "sentence": 4,
+      "quote": "founded in 1970",
+      "looking_for": "the year the association was founded"
+    },
+    {
+      "question": "who is the head coach of the raskby thunder",
+      "passage": "The Raskby Thunder are a professional ice hockey team in the city of Raskby. The team was founded in 1985 and joined the top league in 1992. It plays at the Raskby Ice Dome, which holds 6,500. Its head coach is Antti Veland, who was appointed in 2022. The captain is the forward Erik Moss.",
+      "sentence": 4,
+      "quote": "Antti Veland",
+      "looking_for": "the name of the head coach"
+    },
+    {
+      "question": "what is the granville cup made of",
+      "passage": "The Granville Cup is the trophy awarded to the winners of the Tarnmouth Rugby Championship. It was first presented in 1907. The cup was donated by the shipowner Hector Granville, who had played for the county. It is made of silver gilt and stands 64 centimetres high. Since 1990 the winners have received a replica, and the original is kept at the county museum.",
+      "sentence": 4,
+      "quote": "made of silver gilt",
+      "looking_for": "the material the trophy is made of"
+    },
+    {
+      "question": "where did marbury town play before station lane",
+      "passage": "Marbury Town is a football club in the market town of Marbury. It was founded in 1883 and joined the Western League in 1898. The club has played at Station Lane since 1922. Before that it played at the Kingsmead, a field behind the parish church. Station Lane holds 4,000 spectators.",
+      "sentence": 4,
+      "quote": "the Kingsmead",
+      "looking_for": "the club's previous ground"
+    },
+    {
+      "question": "how many members does brayfield judo club have",
+      "passage": "Brayfield Judo Club is a martial arts club in the town of Brayfield. It was founded in 1956 by the instructor Kenji Mori, who had moved to the town from abroad. The club trains in a hall above the Brayfield market. It has about 260 members, including 150 juniors. Three of its members have competed at the Olympic Games.",
+      "sentence": 4,
+      "quote": "about 260 members",
+      "looking_for": "the number of club members"
+    },
+    {
+      "question": "who is the president of the westlake archery society",
+      "passage": "The Westlake Archery Society is an archery club that shoots on the lawns of Westlake Hall. It was founded in 1789 and is one of the oldest archery clubs in the country. Its annual meeting for the Westlake Silver Arrow is held in June. The society's president is Lady Margaret Orme. Its captain of archery is Nicholas Fenn.",
+      "sentence": 4,
+      "quote": "Lady Margaret Orme",
+      "looking_for": "the name of the society's president"
+    },
+    {
+      "question": "when was the first pellacombe derby",
+      "passage": "The Pellacombe Derby is the football match between the two professional clubs of the city of Pellacombe, Pellacombe Rovers and Pellacombe Athletic. It is one of the most fiercely contested rivalries in the country. Rovers have won 88 of the meetings and Athletic 81. The first derby was played in 1889 at the Pellacombe cricket ground. The highest attendance for the fixture is 54,100.",
+      "sentence": 4,
+      "quote": "first derby was played in 1889",
+      "looking_for": "the year of the first derby"
+    },
+    {
+      "question": "who owns the steelton stallions",
+      "passage": "The Steelton Stallions are a professional gridiron football team. They play in the city of Steelton at Foundry Field. The team was founded in 1958 by the steelmaker Arthur Kell. It has been owned since 2019 by the technology entrepreneur Nadia Okafor. The head coach is Luis Ordway.",
+      "sentence": 4,
+      "quote": "Nadia Okafor",
+      "looking_for": "the current owner of the team"
+    },
+    {
+      "question": "attendance at the 2024 castlebrook cup final",
+      "passage": "The Castlebrook Cup is a knockout competition for semi-professional football clubs in the region of Castlebrook. It was founded in 1897. The final is played at a neutral ground chosen by the regional association. The 2024 final, at Brennard Park, was watched by 6,418 spectators. Lowfield Town won it 2 to 1.",
+      "sentence": 4,
+      "quote": "watched by 6,418 spectators",
+      "looking_for": "the attendance at the 2024 final"
+    },
+    {
+      "question": "who is the trainer at whitlow boxing club",
+      "passage": "Whitlow Boxing Club is an amateur boxing club in the docks area of the city of Whitlow. It was founded in 1932 in a disused chapel. The club has produced six national amateur champions. Its head trainer is Frankie Doyle, who boxed for the club in the 1980s. Its patron is the former professional champion Sid Marley.",
+      "sentence": 4,
+      "quote": "Frankie Doyle",
+      "looking_for": "the name of the head trainer"
+    },
+    {
+      "question": "who is the current captain of the wellbourne women's cricket team",
+      "passage": "The Wellbourne women's cricket team represents the county of Wellbourne in women's domestic cricket. It was formed in 1935 and plays most home games at Rookery Lane. The team won the national women's championship in 1998 and 2016. Its first captain was Edith Pyne. The current captain is the wicketkeeper Asha Mehta, who took over in 2024.",
+      "sentence": 5,
+      "quote": "Asha Mehta",
+      "looking_for": "the name of the current captain"
+    },
+    {
+      "question": "how much is membership at ambrell lawn tennis club",
+      "passage": "Ambrell Lawn Tennis Club is a tennis club in the town of Ambrell. It was founded in 1881 and has nine grass courts. The club runs coaching for juniors and adults throughout the year. It is affiliated to the regional tennis association. Adult membership costs 340 crowns a year, with reduced rates for students.",
+      "sentence": 5,
+      "quote": "340 crowns a year",
+      "looking_for": "the cost of adult membership"
+    },
+    {
+      "question": "who scored the winner in the 1971 brenmouth cup final",
+      "passage": "The Brenmouth Cup is an annual football cup for clubs in the coastal district of Brenmouth. It was first played in 1903. The most successful club is Brenmouth Corinthians, with twenty-two wins. The 1971 final between Corinthians and Saltby Rovers drew a record crowd of 9,000. Saltby won that final 1 to 0 with a goal from the winger Alf Rennard.",
+      "sentence": 5,
+      "quote": "Alf Rennard",
+      "looking_for": "the scorer of the winning goal"
+    },
+    {
+      "question": "how many lanes does the fennick athletics club track have",
+      "passage": "Fennick Athletics Club is an athletics club in the town of Fennick. It was founded in 1908 as Fennick Harriers and adopted its present name in 1964. The club has about 700 members and coaches sprinting, jumping and throwing events. It trains at the Fennick Sports Ground, which it shares with two schools. The ground's track has eight lanes and was resurfaced in 2021.",
+      "sentence": 5,
+      "quote": "has eight lanes",
+      "looking_for": "the number of lanes on the track"
+    },
+    {
+      "question": "who is the chairman of lowfield town",
+      "passage": "Lowfield Town is a semi-professional football club in the town of Lowfield. It was founded in 1899 by members of the Lowfield Temperance Society. The club plays at Mill Meadow, which holds 3,500 spectators. Its manager is Callum Royle and its captain is the midfielder Tom Hext. The chairman is the local builder Derek Fane, who has led the club since 2017.",
+      "sentence": 5,
+      "quote": "Derek Fane",
+      "looking_for": "the name of the club chairman"
+    },
+    {
+      "question": "when did rothley ice hockey club fold",
+      "passage": "Rothley Ice Hockey Club was an ice hockey team from the town of Rothley. It was founded in 1951 and played at the Rothley Rink. The club won the national championship in 1963 and 1964. Falling attendances and the closure of the rink caused financial trouble in the 1980s. The club folded in 1989, and its records passed to the town museum.",
+      "sentence": 5,
+      "quote": "folded in 1989",
+      "looking_for": "the year the club folded"
+    },
+    {
+      "question": "who is the current head coach of the hawksmere bears",
+      "passage": "The Hawksmere Bears are one of the founder members of the national basketball competition. The team was founded in 1977 by the businessman Gordon Pike. It plays in the National Basketball League and has won the title twice. Its home arena is the Hawksmere Centre, which seats 7,000. The Bears' first head coach was Larry Dunmore, who led them for fourteen seasons. The current head coach is Marta Kowal, appointed in 2023.",
+      "sentence": 6,
+      "quote": "Marta Kowal",
+      "looking_for": "the name of the current head coach"
+    },
+    {
+      "question": "dellford rugby club motto",
+      "passage": "Dellford Rugby Club is a rugby union club in the town of Dellford. It was founded in 1871 by former pupils of Dellford School. The club plays at the Paddock, a ground beside the River Dell. It has teams for men, women and juniors. The club colours are blue and gold. Its motto is Stand Fast, taken from the town's coat of arms.",
+      "sentence": 6,
+      "quote": "Stand Fast",
+      "looking_for": "the club's motto"
+    },
+    {
+      "question": "who is the current manager of brayside town",
+      "passage": "Brayside Town is a football club in the seaside town of Brayside. It was founded in 1896 and plays at the Promenade Ground. Its longest-serving manager was Reg Tolley, who was in charge from 1958 to 1977. The club won the county league under him in 1966.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current manager"
+    },
+    {
+      "question": "who owns pennick wanderers",
+      "passage": "Pennick Wanderers is a rugby union club in the town of Pennick. The club was founded in 1879 by the mill owner Josiah Ambler. It has won the Tamberlin Shield a record eleven times. Its home ground is Ambler Park, named after the founder.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the club's owner"
+    },
+    {
+      "question": "who has won the dalbury open the most",
+      "passage": "The Dalbury Open is a professional snooker tournament held each autumn in the city of Dalbury. It was first staged in 1982. The 2024 title was won by Callum Brisk, who beat Ronan Vey 9 frames to 6 in the final. The tournament's prize fund is 400,000 crowns.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the player with the most tournament wins"
+    },
+    {
+      "question": "who is the head coach of the tarnfield tigers",
+      "passage": "The Tarnfield Tigers are a rugby league club from the town of Tarnfield. The club's captain is the prop forward Kieran Ashe. It was founded in 1902 and plays at Bridge End. The assistant coach is Lee Brough.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the head coach"
+    },
+    {
+      "question": "what is the capacity of marsh road",
+      "passage": "Marsh Road is the home ground of Rendell Athletic Football Club. The ground opened in 1904 on reclaimed marshland. Its record attendance is 14,320, set for a cup tie in 1951. A new main stand was opened in 2010.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the capacity of the ground"
+    },
+    {
+      "question": "when was the wendham rugby league founded",
+      "passage": "The Wendham Rugby League is an amateur rugby league competition in the county of Wendham. Its oldest member club, Wendham Miners, was founded in 1889. The league has two divisions and sixteen clubs. The champions play the winners of the neighbouring Hasford League each September.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the league was founded"
+    },
+    {
+      "question": "who won the northfold championship in 2024",
+      "passage": "The Northfold Championship is the top tier of club basketball in the province of Northfold. It was established in 1961 and has ten teams. Hartbury Knights won the 2023 championship, their fourth title. The 2024 season was the first played under a new playoff format.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the winner of the 2024 championship"
+    },
+    {
+      "question": "who is the president of tarrowmere bowls club",
+      "passage": "Tarrowmere Bowls Club is a lawn bowls club in the village of Tarrowmere. It was founded in 1904 by the village doctor, Albert Wynne. The club's captain is Joan Pickles and its secretary is Brian Sowerby. It has two greens and about ninety members.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the club president"
+    },
+    {
+      "question": "how many times has ellingworth united won the league",
+      "passage": "Ellingworth United is a professional football club in the town of Ellingworth. It was founded in 1882 and joined the national league in 1892. The club has won the national cup five times, most recently in 1997. United play at the Brewery Ground.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of league titles"
+    },
+    {
+      "question": "who designed the corrin hill golf course",
+      "passage": "Corrin Hill Golf Club is a golf club on the moorland above the town of Marlcombe. The club was founded in 1899 by a group of mill owners led by Samuel Pratt. Its clubhouse was designed by the architect Florence Eade and opened in 1912. The course is 6,420 metres long.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who designed the course"
+    },
+    {
+      "question": "who is the captain of pellbury hockey club",
+      "passage": "Pellbury Hockey Club is a field hockey club in the city of Pellbury. The club's head coach is Marit Engel, a former international. It was founded in 1898 and plays at the Pellbury University sports ground. The club's women's team won the national league in 2019.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the club captain"
+    },
+    {
+      "question": "when did the giants move to ellsmouth",
+      "passage": "The Ellsmouth Giants are a professional baseball team based in the city of Ellsmouth. The team was founded in 1931 in the town of Granthorpe as the Granthorpe Giants. It plays its home games at Bay Street Park, which opened in 1964. The Giants have won the national series three times.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the team moved to Ellsmouth"
+    },
+    {
+      "question": "who is the chief executive of the lowmarsh hockey federation",
+      "passage": "The Lowmarsh Hockey Federation is the governing body for ice hockey in the republic of Lowmarsh. It was founded in 1931 and runs the national league and the national teams. Its president is Anders Hjelm, who was elected in 2021. The federation's offices are in the capital, Bergsted.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the chief executive"
+    },
+    {
+      "question": "how many members does cobbet lane running club have",
+      "passage": "Cobbet Lane Running Club is a road running club in the city of Halvern. It was founded in 1983 by eleven runners who met at the Cobbet Lane gym. The club organises the Halvern Ten each spring, which attracts about 2,000 runners. It is affiliated to the national athletics federation.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of club members"
+    },
+    {
+      "question": "saltby rovers all time top scorer",
+      "passage": "Saltby Rovers is a football club in the fishing port of Saltby. The club was founded in 1879 and plays at the Harbour Ground. Its record appearance maker is the defender Harold Ince, who played 614 matches. The club's highest scorer in a single season was Jack Mardell, with 46 goals in 1931.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the player with the most career goals"
+    },
+    {
+      "question": "what year was orrin valley hockey club founded",
+      "passage": "Orrin Valley Hockey Club is an ice hockey club in the mountain town of Orrin. Its home rink, the Orrin Ice Hall, was opened in 1958. The club's junior section was established in 1972. The first team plays in the second division of the national league.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the club was founded"
+    },
+    {
+      "question": "who won the 2025 fernbrook masters",
+      "passage": "The Fernbrook Masters is a professional tennis tournament held on clay courts in the town of Fernbrook. It was founded in 1972 and is played each May. The 2024 singles title was won by Oskar Lindgren. The tournament record of five titles is held by Pavel Drozd.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the winner of the 2025 tournament"
+    },
+    {
+      "question": "where do kilnworth rovers play their home games",
+      "passage": "Kilnworth Rovers is a football club in the town of Kilnworth. From 1890 to 1998 the club played at Pottery Lane, which was sold for housing. The club is building a new stadium on the edge of the town, due to open in 2027. Rovers won the regional league in 1985.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the club's current home ground"
+    },
+    {
+      "question": "who manages the brookdale national football team",
+      "passage": "The Brookdale national football team is the men's side of the island nation of Brookdale. It played its first international match in 1948. The team's captain is the midfielder Rhys Ennor, who has won 92 caps. Its record goalscorer is Dai Morcom, with 41 goals.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the team manager"
+    },
+    {
+      "question": "how long is the ferncliff golf course",
+      "passage": "Ferncliff Golf Club is a golf club on the clifftops north of the town of Corbury. The club was founded in 1904 and its course has eighteen holes. The par for the course is 71. Its course record of 63 was set in 2018.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the length of the course"
+    },
+    {
+      "question": "when was bramscote lawn tennis club founded",
+      "passage": "Bramscote Lawn Tennis Club is a tennis club in the village of Bramscote. Its clubhouse was built in 1926 and extended in 1990. The club has eight courts, four of them floodlit. It has about 300 members.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the club was founded"
+    },
+    {
+      "question": "who is the chairman of the kessingford football league",
+      "passage": "The Kessingford Football League is an amateur league for clubs in the district of Kessingford. It was founded in 1904 by the district's first football secretary, Walter Ibbot. The league's fixtures secretary is Dawn Halley. It has three divisions and thirty-one clubs.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the league chairman"
+    },
+    {
+      "question": "how many titles have the vorrel vikings won",
+      "passage": "The Vorrel Vikings are a professional handball club from the port of Vorrel. The club was founded in 1954 and joined the national league in 1966. It reached the league final six times between 1990 and 2010. The Vikings play at the Harbour Hall.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of league titles"
+    },
+    {
+      "question": "who won the moorhampton cup final in 2024",
+      "passage": "The Moorhampton Cup is a knockout competition for amateur rugby league clubs. It has been held each year since 1925, apart from during wartime. The 2024 final was postponed from April to June because of a waterlogged pitch. Brayfield Rangers have won the cup most often.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the winner of the 2024 final"
+    },
+    {
+      "question": "who founded glenholm shinty club",
+      "passage": "Glenholm Shinty Club is a shinty club in the glen of the River Holm. Its first recorded match was played in 1880 against Strathmallow. The club's patron is the landowner Sir Iain Fraser. It plays at Dalnacreich.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who founded the club"
+    },
+    {
+      "question": "what is the capacity of the linmouth ice rink",
+      "passage": "The Linmouth Ice Rink is the home of the Linmouth Lynx ice hockey team. It opened in 1973 and was refurbished in 2015. A record crowd of 4,812 watched the 1988 league final there. The rink is owned by Linmouth Borough Council.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the capacity of the rink"
+    },
+    {
+      "question": "who is the president of the corlanth rugby union",
+      "passage": "The Corlanth Rugby Union is the governing body for rugby union in the kingdom of Corlanth. It was founded in 1880 by eleven clubs. Its first president was the schoolmaster Edwin Tarrant. The union's chief executive is Gwen Halloran.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current president"
+    },
+    {
+      "question": "how many clubs are in the fellmouth basketball league",
+      "passage": "The Fellmouth Basketball League is a semi-professional basketball league in the north of the country. It was founded in 1979 with eight clubs. The league's most successful club is the Fellmouth Herons, with nine titles. Its season runs from October to March.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the current number of clubs in the league"
+    },
+    {
+      "question": "which team has won the tullen cup the most",
+      "passage": "The Tullen Cup is a knockout competition for professional basketball clubs in the Western Basketball Association. It was introduced in 1993. The Tullen Bay Mariners won the first edition. The 2024 cup was won by the Elden Hawks, their third victory.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the team with the most cup wins"
+    },
+    {
+      "question": "what is the nickname of dunscombe celtic",
+      "passage": "Dunscombe Celtic is a football club in the town of Dunscombe. It was founded in 1888 by Irish immigrants working in the town's foundries. The club plays in green and white shirts at Foundry Park. Its supporters' club was founded in 1921.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the club's nickname"
+    }
+  ]
+}

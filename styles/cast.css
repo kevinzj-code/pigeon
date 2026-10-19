@@ -1,0 +1,43 @@
+/* cast.css — a Pigeon's avatar and a To: row, shared by the window and the
+ * menu bar. Both windows draw them from the same builders (src/ui/pigeons.js
+ * avatarHtml, toListHtml), so the rules live once: a kind added there is
+ * styled in both places or in neither. Sizes come from --s on the element
+ * and the few overrides each window keeps beside its own sheet. */
+.av{--s:40px;position:relative;width:var(--s);height:var(--s);flex-shrink:0;border-radius:calc(var(--s) * .223);
+  display:grid;place-items:center;overflow:hidden;font-weight:800;font-size:calc(var(--s) * .34);letter-spacing:-.02em;line-height:1}
+.av-patch{background:var(--patch-bg);color:var(--patch-fg)}
+.av-patch svg{width:72%;height:auto;overflow:visible;display:block}
+/* The icon file carries macOS's margin around its rounded square; scaled so the
+   square fills the avatar's own. */
+.av-appicon{background:#16283A}
+.av-appicon .appicon{width:100%;height:100%;display:block;transform:scale(1.25)}
+.av-voice{background:var(--warn-bg);color:var(--warn-ink);box-shadow:inset 0 0 0 1px var(--warn-line)}
+.av-job{background:var(--surface);color:var(--warn-ink);font-family:var(--mono);font-weight:600;
+  font-size:calc(var(--s) * .28);letter-spacing:0;box-shadow:inset 0 0 0 1px var(--warn-line)}
+/* Pen and Peek both write words nothing checks, so both wear the writers' ground. */
+.av-base,.av-peek{background:var(--warn-bg);color:var(--warn-ink);box-shadow:inset 0 0 0 1px var(--warn-line)}
+.av-base svg,.av-peek svg,.av-new svg,.av-add svg{width:50%;height:50%}
+.av-new,.av-missing{background:var(--panel);color:var(--ink-faint)}
+.av-add{background:var(--aqua-tint);color:var(--aqua)}
+.av-img{background:var(--panel)}
+.av-img img{width:100%;height:100%;object-fit:cover;display:block}
+
+.sg-label{font-family:var(--mono);font-size:9px;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-faint);padding:9px 10px 4px}
+.sg{display:flex;align-items:center;gap:10px;width:100%;padding:7px 10px;border-radius:10px;text-align:left;
+  transition:background var(--dur-fast) var(--ease)}
+.sg:hover{background:var(--hover)}
+.sg[aria-selected="true"]{background:var(--panel)}
+.sg.off .av{opacity:.55}
+.sg.off .sg-txt b{color:var(--ink-faint);font-weight:600}
+.sg-txt{flex:1;min-width:0;display:flex;flex-direction:column;gap:1px}
+.sg-txt b{font-size:13.5px;font-weight:700}
+.sg-txt small{font-size:12px;color:var(--ink-faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sg-meta{font-family:var(--mono);font-size:9.5px;color:var(--ink-faint);white-space:nowrap}
+.sg-key{font-family:var(--mono);font-size:10px;color:var(--ink-faint);min-width:8px;text-align:right}
+.sg-rule{height:1px;background:var(--border);margin:5px 6px}
+.sg-import{font-size:13px;font-weight:600;color:var(--ink-soft);padding:9px 10px}
+.sg-none{font-size:12.5px;color:var(--ink-faint);padding:10px;line-height:1.5}
+.sg-txt small.sg-fact{font-size:11px;font-style:italic}
+.sg.sugg{background:var(--aqua-tint)}
+.sg-hint{font-family:var(--mono);font-size:9.5px;color:var(--ink-faint);padding:6px 10px 3px}

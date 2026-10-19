@@ -1,0 +1,5289 @@
+{
+ "rows": [
+  {
+   "skill": "base64Decode",
+   "message": "un-base64 bWVldCBtZSBhdCBub29u",
+   "input": {
+    "base64": "bWVldCBtZSBhdCBub29u"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "My son left a note on the fridge that just says U2hvcHBpbmcgbGlzdDogZWdncywgbWlsaw== — can you turn that base64 into words?",
+   "input": {
+    "base64": "U2hvcHBpbmcgbGlzdDogZWdncywgbWlsaw=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "Customer email came through with b3JkZXIgIzQ0NzEgc2hpcHBlZA== in the subject line. Pretty sure it's base64 — can you decode it?",
+   "input": {
+    "base64": "b3JkZXIgIzQ0NzEgc2hpcHBlZA=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "base64 to plain text please: Z3JhbmRtYSBzYXlzIGhp",
+   "input": {
+    "base64": "Z3JhbmRtYSBzYXlzIGhp"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "Could you decode the base64 value cGFzc3dvcmQgcmVzZXQgZG9uZQ== from our server log?",
+   "input": {
+    "base64": "cGFzc3dvcmQgcmVzZXQgZG9uZQ=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "found TGV2ZWwgMyB1bmxvY2tlZA== in a game save file, decode the base64?",
+   "input": {
+    "base64": "TGV2ZWwgMyB1bmxvY2tlZA=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "Reverse this base64 for me: c2VlIHlvdSBhdCA3cG0=",
+   "input": {
+    "base64": "c2VlIHlvdSBhdCA3cG0="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "what text is hiding in VGhlIGNhdCBpcyBhc2xlZXA= (it's base64)",
+   "input": {
+    "base64": "VGhlIGNhdCBpcyBhc2xlZXA="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "I'm an accountant, not a techie. The bank export has aW52b2ljZSBwYWlk in the memo column and someone said it's base64. Decode it to text?",
+   "input": {
+    "base64": "aW52b2ljZSBwYWlk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "decode base64 SGkgU2Ft",
+   "input": {
+    "base64": "SGkgU2Ft"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "Please convert the base64 string cmFpbnkgZGF5 back to readable English.",
+   "input": {
+    "base64": "cmFpbnkgZGF5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "travelling and my booking confirmation shows Ym9va2luZyByZWYgWlg4MQ== — base64 decode that",
+   "input": {
+    "base64": "Ym9va2luZyByZWYgWlg4MQ=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "quick, unbase64 d2VsY29tZSBhYm9hcmQ=",
+   "input": {
+    "base64": "d2VsY29tZSBhYm9hcmQ="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "Our teacher put ZGlubmVyIGF0IDg= on the board as a puzzle. Is that base64, and what does it read as?",
+   "input": {
+    "base64": "ZGlubmVyIGF0IDg="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "Z29vZCBsdWNrIHRvbW9ycm93 — decode from base64",
+   "input": {
+    "base64": "Z29vZCBsdWNrIHRvbW9ycm93"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "can u decode this b64: dGhhbmtzIQ==",
+   "input": {
+    "base64": "dGhhbmtzIQ=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "The API returned cXVpeiBhbnN3ZXJz as the payload field. Base64 decode it so I can read it.",
+   "input": {
+    "base64": "cXVpeiBhbnN3ZXJz"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "Translate dGhlIGVhZ2xlIGhhcyBsYW5kZWQ= out of base64",
+   "input": {
+    "base64": "dGhlIGVhZ2xlIGhhcyBsYW5kZWQ="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "decode the base64 below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "I've got a base64 string from an old config file. Can you turn it back into normal text for me?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "what does my base64 payload say once it's decoded?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "Un-base64 the token I'm about to paste, please.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "decode this from base64 into readable words",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Decode",
+   "message": "Could you un-base64 the attached header value?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "turn meet me at noon into base64",
+   "input": {
+    "text": "meet me at noon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "I need \"Shopping list: eggs, milk\" encoded as base64 for a little app I'm writing.",
+   "input": {
+    "text": "Shopping list: eggs, milk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "base64 of grandma says hi?",
+   "input": {
+    "text": "grandma says hi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "Please convert the phrase \"invoice paid\" to base64.",
+   "input": {
+    "text": "invoice paid"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "Our test harness wants the header value in base64. The raw value is user:admin123 — encode it?",
+   "input": {
+    "text": "user:admin123"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "b64 encode rainy day",
+   "input": {
+    "text": "rainy day"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "Can you make \"welcome aboard\" into a base64 string?",
+   "input": {
+    "text": "welcome aboard"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "encode 'the eagle has landed' in base64 for my spy-themed party invites",
+   "input": {
+    "text": "the eagle has landed"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "I teach an intro coding class and want to show what Bonjour looks like in base64. Encode it please.",
+   "input": {
+    "text": "Bonjour"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "url-safe base64 for \"room 204?\" with no padding",
+   "input": {
+    "text": "room 204?",
+    "urlSafe": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "Give me the base64 form of happy birthday",
+   "input": {
+    "text": "happy birthday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "base64ify pigeon post",
+   "input": {
+    "text": "pigeon post"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "I'm building a link token — give me order-7781 as base64 using the url-safe alphabet.",
+   "input": {
+    "text": "order-7781",
+    "urlSafe": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "what's \"free tickets\" in base64",
+   "input": {
+    "text": "free tickets"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "Encode the word Montréal to base64, accent and all.",
+   "input": {
+    "text": "Montréal"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "Running a puzzle hunt for my nephews. Could you base64 encode \"look under the stairs\" so they have to crack it?",
+   "input": {
+    "text": "look under the stairs"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "convert bus leaves 9:15 to base 64",
+   "input": {
+    "text": "bus leaves 9:15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "turn good luck tomorrow into base64 (the web-safe variant without = padding)",
+   "input": {
+    "text": "good luck tomorrow",
+    "urlSafe": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "put my message into base64 for me",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "Can you turn the text I paste next into base64?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "i need my note encoded as base64 before I send it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "Please base64 the following paragraph for our config file.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "I need my string in base64, the version with - and _ instead of + and /",
+   "input": {
+    "urlSafe": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "base64Encode",
+   "message": "Convert this snippet to base64 so it fits in the JSON field.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "01001000 01101001 — what's that in letters?",
+   "input": {
+    "binary": "01001000 01101001"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "My daughter wrote 01111001 01100101 01110011 on her homework and says it's binary. Can you translate it to text?",
+   "input": {
+    "binary": "01111001 01100101 01110011"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "convert binary 01100011 01100001 01110100 to text",
+   "input": {
+    "binary": "01100011 01100001 01110100"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "Please decode the bits 01001110 01101111 into characters.",
+   "input": {
+    "binary": "01001110 01101111"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "A geocache clue reads 01100100 01101111 01100111. Is that binary for a word? Decode it.",
+   "input": {
+    "binary": "01100100 01101111 01100111"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "binary to ascii: 010100110100111101010011",
+   "input": {
+    "binary": "010100110100111101010011"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "what word is 01101000 01100101 01111001 in binary",
+   "input": {
+    "binary": "01101000 01100101 01111001"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "Translate these binary bytes into English: 01011001 01101111 00100001",
+   "input": {
+    "binary": "01011001 01101111 00100001"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "gamer here, an easter egg in the level spells 01110111 01101001 01101110 in binary. decode pls",
+   "input": {
+    "binary": "01110111 01101001 01101110"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "no spaces in it but here goes — 0110011101100111, binary to letters?",
+   "input": {
+    "binary": "0110011101100111"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "Could you turn the binary 01100010 01111001 01100101 into plain text for me?",
+   "input": {
+    "binary": "01100010 01111001 01100101"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "I'm a teacher checking answers: what text does 01000001 00110001 decode to from binary?",
+   "input": {
+    "binary": "01000001 00110001"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "binary 01000111 01101111 into readable letters, go",
+   "input": {
+    "binary": "01000111 01101111"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "There's a tattoo on my mate's arm reading 01110010 01100101 01100100. He won't tell me. Decode the binary?",
+   "input": {
+    "binary": "01110010 01100101 01100100"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "translate binary code 01001101 01100001 01111000 to a name",
+   "input": {
+    "binary": "01001101 01100001 01111000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "Convert 01100110 01110101 01101110 from binary to characters.",
+   "input": {
+    "binary": "01100110 01110101 01101110"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "decode 01110011 01110101 01101110 out of binary please",
+   "input": {
+    "binary": "01110011 01110101 01101110"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "binary message 01001111 01101001, what does it spell",
+   "input": {
+    "binary": "01001111 01101001"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "I'll paste some binary next, convert it to letters for me",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "My nephew sent me a message in binary. Can you convert it to text?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "translate my binary code into words please",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "Convert the following binary to ASCII.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "what does the binary on this card spell out?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryDecode",
+   "message": "binary to text on the bit string from my puzzle book",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "spell Oi as binary bytes",
+   "input": {
+    "text": "Oi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "For my coding club I'd like the word dog shown as 1s and 0s.",
+   "input": {
+    "text": "dog"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "binary code for OK?",
+   "input": {
+    "text": "OK"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "Kindly render the word win as eight-bit binary.",
+   "input": {
+    "text": "win"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "I'm making a birthday card for a computer nerd. Could you convert Ben to binary code, with a dash between each byte?",
+   "input": {
+    "text": "Ben",
+    "separator": "-"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "text to binary: cat",
+   "input": {
+    "text": "cat"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "How would you write bye using binary digits?",
+   "input": {
+    "text": "bye"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "convert the name Max into binary code",
+   "input": {
+    "text": "Max"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "Encode \"see you soon\" as binary, eight bits per character.",
+   "input": {
+    "text": "see you soon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "binary of gg with commas between bytes",
+   "input": {
+    "text": "gg",
+    "separator": ","
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "Our escape room needs a clue. Can you convert the word zap into binary so players have to decode it?",
+   "input": {
+    "text": "zap"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "what's lol in binary lol",
+   "input": {
+    "text": "lol"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "Convert SOS to binary for a bracelet bead pattern.",
+   "input": {
+    "text": "SOS"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "quick: red → binary",
+   "input": {
+    "text": "red"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "Could you express the word sun in binary code?",
+   "input": {
+    "text": "sun"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "binary-encode Bob with a slash between each byte",
+   "input": {
+    "text": "Bob",
+    "separator": "/"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "Need the binary representation of the letters fun",
+   "input": {
+    "text": "fun"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "Show me Yo! as a string of bits.",
+   "input": {
+    "text": "Yo!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "encode my caption as binary digits",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "Could you put the sentence below into binary code?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "turn my name into 1s and 0s please",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "I want my wedding date message written in binary for the cake topper.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "binary for the word I'm about to send, bytes split by underscores",
+   "input": {
+    "separator": "_"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "binaryEncode",
+   "message": "Spell this out in binary for me.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "73656520796f7520736f6f6e — what does that hex spell?",
+   "input": {
+    "hex": "73656520796f7520736f6f6e"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "hex to text 4261636b2061742035",
+   "input": {
+    "hex": "4261636b2061742035"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "Please convert the hex string 636f666665653f into characters.",
+   "input": {
+    "hex": "636f666665653f"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "I'm debugging a packet capture and the payload is 4a616e6520446f65. Can you read that hex as ASCII?",
+   "input": {
+    "hex": "4a616e6520446f65"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "decode hex 6f726465722073686970706564",
+   "input": {
+    "hex": "6f726465722073686970706564"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "what word is 676f6f646e69676874 in hexadecimal",
+   "input": {
+    "hex": "676f6f646e69676874"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "Translate 68656c6c6f207468657265 from hex to English, please.",
+   "input": {
+    "hex": "68656c6c6f207468657265"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "the clue in our puzzle hunt is 50 61 72 69 73 — hex bytes I think. decode?",
+   "input": {
+    "hex": "50 61 72 69 73"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "Convert hex 544f444f to plain text",
+   "input": {
+    "hex": "544f444f"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "read 61:64:6d:69:6e as text, it's hex from a log",
+   "input": {
+    "hex": "61:64:6d:69:6e"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "Could you un-hex 48617070792064617973 for me?",
+   "input": {
+    "hex": "48617070792064617973"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "My firmware dump has 5465612074696d65 near the top. Decode that hex into readable text?",
+   "input": {
+    "hex": "5465612074696d65"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "hex decode 0x6c6f67696e206f6b",
+   "input": {
+    "hex": "0x6c6f67696e206f6b"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "What characters are the hex bytes 526f6f6d203132?",
+   "input": {
+    "hex": "526f6f6d203132"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "45786974 hex → text pls",
+   "input": {
+    "hex": "45786974"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "Decode the hexadecimal 70697a7a61206e69676874 into letters.",
+   "input": {
+    "hex": "70697a7a61206e69676874"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "decode from hex: 666c69676874204146313233",
+   "input": {
+    "hex": "666c69676874204146313233"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "A student handed in 486f6c61 as their answer in hex. What text is that?",
+   "input": {
+    "hex": "486f6c61"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "decode the hex I'm pasting below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "Can you convert this hex dump back into readable text?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "decode my hexadecimal string to ascii",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "I copied some hexadecimal off a serial console. Please translate it to ASCII.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "hex to string on the value in my clipboard",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexDecode",
+   "message": "Read the following hex as characters, please.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "turn coffee? into hex",
+   "input": {
+    "text": "coffee?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "I'm labelling a test fixture — encode the city name Paris as hex.",
+   "input": {
+    "text": "Paris"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "I'm writing a unit test and need \"Jane Doe\" as hexadecimal.",
+   "input": {
+    "text": "Jane Doe"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "router config wants the username admin as hexadecimal, colon-delimited",
+   "input": {
+    "text": "admin",
+    "separator": ":"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "Please convert \"goodnight\" to hexadecimal byte values.",
+   "input": {
+    "text": "goodnight"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "what's the hexadecimal encoding of TODO",
+   "input": {
+    "text": "TODO"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "Could you write Hola out as hex in capital letters?",
+   "input": {
+    "text": "Hola",
+    "uppercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "For a firmware string table I need \"error 404\" in hex with dashes between the bytes.",
+   "input": {
+    "text": "error 404",
+    "separator": "-"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "how do you write lunch in hex",
+   "input": {
+    "text": "lunch"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "Encode \"Tea time\" as hex, uppercase, space between bytes.",
+   "input": {
+    "text": "Tea time",
+    "uppercase": true,
+    "separator": " "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "to hexadecimal: Thanks!",
+   "input": {
+    "text": "Thanks!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "I'm a hobbyist programming an LED sign and it wants hex. Convert the word beep for me?",
+   "input": {
+    "text": "beep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "convert mum to hex bytes",
+   "input": {
+    "text": "mum"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "Convert \"pizza night\" into hex codes.",
+   "input": {
+    "text": "pizza night"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "give me the hex for map",
+   "input": {
+    "text": "map"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "Show \"login ok\" as hexadecimal bytes separated by colons.",
+   "input": {
+    "text": "login ok",
+    "separator": ":"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "what's Exit in hex, upper case please",
+   "input": {
+    "text": "Exit",
+    "uppercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "Could you hex-encode \"Room 12\" for our door controller config?",
+   "input": {
+    "text": "Room 12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "Can you encode my string as hexadecimal?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "I need the string below written as hex byte values.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "turn the password hint I paste into hexadecimal",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "Please give me the hex of this label, in capitals.",
+   "input": {
+    "uppercase": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "need the hex version of a phrase I'll send you",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hexEncode",
+   "message": "What would the following line look like as hex?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseDecode",
+   "message": ".... . .-.. .--. — what does that morse spell",
+   "input": {
+    "morse": ".... . .-.. .--."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "Translate the Morse .... .. / -- --- -- into English please.",
+   "input": {
+    "morse": ".... .. / -- --- --"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "ham radio newbie here. I keep hearing -.-. --.- on the band — can you decode that morse?",
+   "input": {
+    "morse": "-.-. --.-"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "morse to text: --- -.-",
+   "input": {
+    "morse": "--- -.-"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "My grandson tapped -.-- . ... on the table at dinner. Is that Morse code? What does it mean?",
+   "input": {
+    "morse": "-.-- . ..."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "read this morse back as letters: -. ---",
+   "input": {
+    "morse": "-. ---"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "Please decipher the morse code - . .-",
+   "input": {
+    "morse": "- . .-"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "what word is -.. --- --. in morse code?",
+   "input": {
+    "morse": "-.. --- --."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "Scouts badge practice: convert ..-. .. .-. . from Morse to letters.",
+   "input": {
+    "morse": "..-. .. .-. ."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "decipher morse .-.. --- ...- .",
+   "input": {
+    "morse": ".-.. --- ...- ."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "There's a sign in the escape room reading . -..- .. - in dots and dashes. Translate the morse for me?",
+   "input": {
+    "morse": ". -..- .. -"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "--. --- / .... --- -- . translate from morse",
+   "input": {
+    "morse": "--. --- / .... --- -- ."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "Could you turn the Morse ... - --- .--. into normal text?",
+   "input": {
+    "morse": "... - --- .--."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "morse code .-. ..- -. means what",
+   "input": {
+    "morse": ".-. ..- -."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "I'm a radio operator logging contacts. Someone sent --... ...-- at sign-off — decode that morse please.",
+   "input": {
+    "morse": "--... ...--"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "convert -.-. .- .-.. .-.. / -- . from morse code to words",
+   "input": {
+    "morse": "-.-. .- .-.. .-.. / -- ."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "Decipher this telegraph code: .-- .- - . .-.",
+   "input": {
+    "morse": ".-- .- - . .-."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "pls translate morse -. --- .-. - ....",
+   "input": {
+    "morse": "-. --- .-. - ...."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "translate the morse I'm going to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "I recorded some Morse beeps and wrote them down as dots and dashes. Can you turn them into words?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "decipher my morse message please",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "A vintage postcard has a line of Morse along the bottom. Can you decipher it if I type it out?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "convert the following morse code to letters",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseDecode",
+   "message": "read back the dots and dashes from my notebook as text",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "how do I tap HELP in morse",
+   "input": {
+    "text": "HELP"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "Please translate \"hi mom\" into Morse code.",
+   "input": {
+    "text": "hi mom"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "My Scout troop is learning signals. What's the Morse for the word water?",
+   "input": {
+    "text": "water"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "convert dog to morse code",
+   "input": {
+    "text": "dog"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "turn \"go home\" into dots and dashes",
+   "input": {
+    "text": "go home"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "Could you write the word love in Morse for an engraving on a ring?",
+   "input": {
+    "text": "love"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "stop → morse?",
+   "input": {
+    "text": "stop"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "I flash a torch at my sister across the street at night. How would I send \"call me\" in Morse?",
+   "input": {
+    "text": "call me"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "what's pizza in morse code lol",
+   "input": {
+    "text": "pizza"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "Translate north into Morse.",
+   "input": {
+    "text": "north"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "morse for the word exit please",
+   "input": {
+    "text": "exit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "Kindly convert \"good night\" into Morse code dots and dashes.",
+   "input": {
+    "text": "good night"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "put fire into morse",
+   "input": {
+    "text": "fire"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "For a bracelet with long and short beads, I need the Morse for Emma.",
+   "input": {
+    "text": "Emma"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "how would a telegraph operator send hotel",
+   "input": {
+    "text": "hotel"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "write \"see you at 8\" in morse",
+   "input": {
+    "text": "see you at 8"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "Convert my name, Priya, into Morse code please.",
+   "input": {
+    "text": "Priya"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "what is run in dots and dashes",
+   "input": {
+    "text": "run"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "translate my message into morse code",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "Can you turn the phrase below into dots and dashes?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "I want the motto on our team shirt written in Morse.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "convert this note to morse",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "please write out the words I send next as Morse",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "morseEncode",
+   "message": "Turn my sentence into Morse for a radio drill.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rot13",
+   "message": "rot13 Gur pnxr vf n yvr",
+   "input": {
+    "text": "Gur pnxr vf n yvr"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "Can you apply ROT13 to \"meet at the library\"?",
+   "input": {
+    "text": "meet at the library"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "Forum spoiler tag is broken, so I'll hide it myself. ROT13 \"the butler did it\" please.",
+   "input": {
+    "text": "the butler did it"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "un-rot13 Fanxr vf gur xvyyre",
+   "input": {
+    "text": "Fanxr vf gur xvyyre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "what does Purpx gur qbbe come out as under rot13",
+   "input": {
+    "text": "Purpx gur qbbe"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "ROT-13 the word Pigeon for me.",
+   "input": {
+    "text": "Pigeon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "Please run ROT13 over: The answer is Paris",
+   "input": {
+    "text": "The answer is Paris"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "rot13 encode surprise party",
+   "input": {
+    "text": "surprise party"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "My puzzle book says the clue is ROT13'd: Ybbx haqre gur zng. Decode it?",
+   "input": {
+    "text": "Ybbx haqre gur zng"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "rot13 of hello world 2024",
+   "input": {
+    "text": "hello world 2024"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "I run a trivia newsletter. ROT13 the answer \"Mount Everest\" so readers don't see it by accident.",
+   "input": {
+    "text": "Mount Everest"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "apply rot 13 to Guvf vf frperg",
+   "input": {
+    "text": "Guvf vf frperg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "Could you ROT13 the phrase dinner is ready?",
+   "input": {
+    "text": "dinner is ready"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "decode rot13 Jr jba gur tnzr",
+   "input": {
+    "text": "Jr jba gur tnzr"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "rot13 'Darth Vader is the father'",
+   "input": {
+    "text": "Darth Vader is the father"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "Run rot13 on gift under the bed — it's for a treasure hunt.",
+   "input": {
+    "text": "gift under the bed"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "what's Nyy tbbq after rot13?",
+   "input": {
+    "text": "Nyy tbbq"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "rot13 the word secret",
+   "input": {
+    "text": "secret"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rot13",
+   "message": "hide my plot twist with rot13, pasting it in a sec",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rot13",
+   "message": "Can you ROT13 my forum post before I publish it?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rot13",
+   "message": "undo the rot13 on this reply",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rot13",
+   "message": "Please apply ROT13 to the paragraph below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rot13",
+   "message": "rot13 my riddle answer so the kids can't peek",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rot13",
+   "message": "Someone replied in ROT13 on the forum — can you unscramble their reply for me?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "caesar cipher \"attack at dawn\" with shift 4",
+   "input": {
+    "text": "attack at dawn",
+    "shift": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "Shift every letter of pizza forward 2 places in the alphabet.",
+   "input": {
+    "text": "pizza",
+    "shift": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "My history class is doing Roman ciphers. Encrypt \"veni vidi vici\" with a Caesar shift of 7, please.",
+   "input": {
+    "text": "veni vidi vici",
+    "shift": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "decrypt the caesar text fdw by moving letters back 3",
+   "input": {
+    "text": "fdw",
+    "shift": -3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "caesar 10 on secret base",
+   "input": {
+    "text": "secret base",
+    "shift": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "Could you move each letter of \"good morning\" along by 5?",
+   "input": {
+    "text": "good morning",
+    "shift": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "Zebra through a Caesar cipher, offset 1 — what comes out?",
+   "input": {
+    "text": "Zebra",
+    "shift": 1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "Caesar-encode the phrase meet me at six with a key of 11.",
+   "input": {
+    "text": "meet me at six",
+    "shift": 11
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "Escape room clue reads \"jxu tqo\" and the hint says shift back 16. Decrypt it?",
+   "input": {
+    "text": "jxu tqo",
+    "shift": -16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "shift cat by 25 letters",
+   "input": {
+    "text": "cat",
+    "shift": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "Apply a Caesar cipher, shift of 8, to the word Bristol.",
+   "input": {
+    "text": "Bristol",
+    "shift": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "encrypt hello there using caesar with offset 6",
+   "input": {
+    "text": "hello there",
+    "shift": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "undo a caesar shift on \"wkh hqg\" — move the letters back 3",
+   "input": {
+    "text": "wkh hqg",
+    "shift": -3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "I'm writing a kids' treasure map. Caesar shift \"dig by the oak\" forward by 2 please.",
+   "input": {
+    "text": "dig by the oak",
+    "shift": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "caesar shift of 9 on the word apple",
+   "input": {
+    "text": "apple",
+    "shift": 9
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "Please Caesar-decrypt \"Mjqqt\" with a shift of -5.",
+   "input": {
+    "text": "Mjqqt",
+    "shift": -5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "Julius Caesar style, shift \"rome falls\" by twelve",
+   "input": {
+    "text": "rome falls",
+    "shift": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "letter-shift Banana by 4 positions",
+   "input": {
+    "text": "Banana",
+    "shift": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "caesar shift my message by 7",
+   "input": {
+    "shift": 7
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "Could you encrypt the note below with a Caesar cipher, shift 3?",
+   "input": {
+    "shift": 3
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "I want to Caesar-shift a phrase by 2 places — I'll paste it next.",
+   "input": {
+    "shift": 2
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "shift the letters in my clue back by 4",
+   "input": {
+    "shift": -4
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "Caesar cipher the following with an offset of 9.",
+   "input": {
+    "shift": 9
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "caesarShift",
+   "message": "caesar-encrypt my secret with a shift of 15",
+   "input": {
+    "shift": 15
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "compressText",
+   "message": "compress \"la la la la la la la la\" for me",
+   "input": {
+    "text": "la la la la la la la la"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "Can you squeeze buy milk buy milk buy milk into a shorter string?",
+   "input": {
+    "text": "buy milk buy milk buy milk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "I'm short on space in a database field. Compress the text \"yes yes yes yes yes yes\" so it takes less room.",
+   "input": {
+    "text": "yes yes yes yes yes yes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "compress the text row row row your boat into something shorter",
+   "input": {
+    "text": "row row row your boat"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "Please compress: tick tock tick tock tick tock",
+   "input": {
+    "text": "tick tock tick tock tick tock"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "compress abcabcabcabcabcabc",
+   "input": {
+    "text": "abcabcabcabcabcabc"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "Our game sends colour sequences over the network. Shrink red,green,blue,red,green,blue down before I send it.",
+   "input": {
+    "text": "red,green,blue,red,green,blue"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "how small can you compress the word banana",
+   "input": {
+    "text": "banana"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "Compress this repeated text so it's shorter: go team go team go team",
+   "input": {
+    "text": "go team go team go team"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "squash zzzzzzzzzzzzzzzzzzzz",
+   "input": {
+    "text": "zzzzzzzzzzzzzzzzzzzz"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "Could you compress the string 1,2,3,1,2,3,1,2,3 for storage?",
+   "input": {
+    "text": "1,2,3,1,2,3,1,2,3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "compress text: the end the end the end",
+   "input": {
+    "text": "the end the end the end"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "Teacher here — I want to show the class compression. Compress \"Monday Monday Monday\" and I'll compare lengths.",
+   "input": {
+    "text": "Monday Monday Monday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "compress the laugh ha ha ha ha ha down",
+   "input": {
+    "text": "ha ha ha ha ha"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "Compress \"ok ok ok ok ok ok ok ok\" please.",
+   "input": {
+    "text": "ok ok ok ok ok ok ok ok"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "run compression on lorem ipsum lorem ipsum",
+   "input": {
+    "text": "lorem ipsum lorem ipsum"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "I need \"to be or not to be\" compressed so it fits in a QR code.",
+   "input": {
+    "text": "to be or not to be"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "compress knock knock",
+   "input": {
+    "text": "knock knock"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compressText",
+   "message": "compress my log output",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "compressText",
+   "message": "Can you compress the essay I'm about to paste into something shorter to store?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "compressText",
+   "message": "shrink down the following text for sending",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "compressText",
+   "message": "Please compress my notes into a compact string.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "compressText",
+   "message": "compress the JSON blob from my clipboard",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "compressText",
+   "message": "I've got a long chat transcript — compress it so I can stash it in one field.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "decompressText",
+   "message": "decompress AAAAFzYYRBAIFAYHBoLCAA==",
+   "input": {
+    "compressed": "AAAAFzYYRBAIFAYHBoLCAA=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "Can you unpack AAAAGjEdTyIDaaTYaxBAIFBINCIDA4KawA== back into the original text?",
+   "input": {
+    "compressed": "AAAAGjEdTyIDaaTYaxBAIFBINCIDA4KawA=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "I compressed a note yesterday and saved AAAAFzyZTmIIBAoJA4DB4LAQ. Please decompress it so I can read it.",
+   "input": {
+    "compressed": "AAAAFzyZTmIIBAoJA4DB4LAQ"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "uncompress AAAAFTkbzuIIBAoIIDybzqchAYjeYToA",
+   "input": {
+    "compressed": "AAAAFTkbzuIIBAoIIDybzqchAYjeYToA"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "What's inside the compressed string AAAAHToaTGaxAdDfAoJAYHBYPAIZBjWA?",
+   "input": {
+    "compressed": "AAAAHToaTGaxAdDfAoJAYHBYPAIZBjWA"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "inflate AAAAEjCYjHAIFAYHBoCA back to text",
+   "input": {
+    "compressed": "AAAAEjCYjHAIFAYHBoCA"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "Our game server stored AAAAHTkZTILDPADKbhYYjYdTKLIBAoIZYNCIUZQ= as compressed data. Decompress it?",
+   "input": {
+    "compressed": "AAAAHTkZTILDPADKbhYYjYdTKLIBAoIZYNCIUZQ="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "decompress the blob AAAABjEYTdATCA==",
+   "input": {
+    "compressed": "AAAABjEYTdATCA=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "Please decompress AAAAFzObxAdDKYTaIIBAoJBoRA4K for me.",
+   "input": {
+    "compressed": "AAAAFzObxAdDKYTaIIBAoJBoRA4K"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "unzip this compressed text: AAAAFD1AIDAoHAw=",
+   "input": {
+    "compressed": "AAAAFD1AIDAoHAw="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "AAAABjGaDKZTmZQ= is a compressed word, decompress it",
+   "input": {
+    "compressed": "AAAABjGaDKZTmZQ="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "Restore the original from AAAAERiLBkLBmLIBAoJBoGA= — it was compressed.",
+   "input": {
+    "compressed": "AAAAERiLBkLBmLIBAoJBoGA="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "decompress AAAAFzoaDKIDKbjIIIBAoJBoRA4K please",
+   "input": {
+    "compressed": "AAAAFzoaDKIDKbjIIIBAoJBoRA4K"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "A student sent me AAAAFCabzcZDCeRBAIFBINAYGeQ= from the compression exercise. Decompress it so I can check their work.",
+   "input": {
+    "compressed": "AAAAFCabzcZDCeRBAIFBINAYGeQ="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "undo the compression on AAAADjQYRBAIFAYHAA==",
+   "input": {
+    "compressed": "AAAADjQYRBAIFAYHAA=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "Decompress AAAACzWbjeYzWIIBAjWA into readable text.",
+   "input": {
+    "compressed": "AAAACzWbjeYzWIIBAjWA"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "decompress and show me the original: AAAAFzYbzkZTaIDScDmdYJAIFBINCDaA",
+   "input": {
+    "compressed": "AAAAFzYbzkZTaIDScDmdYJAIFBINCDaA"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "Unpack the compressed QR payload AAAAEjobxAYjKIDechAbjedBBAIEZQ== please.",
+   "input": {
+    "compressed": "AAAAEjobxAYjKIDechAbjedBBAIEZQ=="
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "decompressText",
+   "message": "decompress my saved blob",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "decompressText",
+   "message": "I have a compressed string from last week. Can you unpack it back to the original text?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "decompressText",
+   "message": "uncompress the data I'm pasting below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "decompressText",
+   "message": "Please decompress the field value from our database.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "decompressText",
+   "message": "unpack my compressed notes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "decompressText",
+   "message": "Inflate the compressed blob in my clipboard back into words.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "percent-encode fish & chips",
+   "input": {
+    "text": "fish & chips"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "I'm building a search link and need \"red shoes size 9\" URL-encoded.",
+   "input": {
+    "text": "red shoes size 9"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "url escape 50% off sale",
+   "input": {
+    "text": "50% off sale"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "Could you URL-encode the phrase \"what's new?\" so it works in a link?",
+   "input": {
+    "text": "what's new?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "Our newsletter tool breaks on spaces. Please encode \"Spring Fair 2026\" for the URL.",
+   "input": {
+    "text": "Spring Fair 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "percent encode the whole url https://example.com/my page?q=a b",
+   "input": {
+    "text": "https://example.com/my page?q=a b",
+    "scope": "full"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "encode name=Zoë Smith for a query parameter",
+   "input": {
+    "text": "name=Zoë Smith"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "url encode tom+jerry",
+   "input": {
+    "text": "tom+jerry"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "Please make \"São Paulo\" safe to put in a URL.",
+   "input": {
+    "text": "São Paulo"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "url-encode a/b testing so it can sit in a link path",
+   "input": {
+    "text": "a/b testing"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "URL-encode the full link https://shop.test/search?item=blue jeans but keep the slashes",
+   "input": {
+    "text": "https://shop.test/search?item=blue jeans",
+    "scope": "full"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "how do I url encode #hashtag fun for a share link",
+   "input": {
+    "text": "#hashtag fun"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "I'm a nurse setting up a form link — encode \"Ward 7 / Bay 3\" for the URL please.",
+   "input": {
+    "text": "Ward 7 / Bay 3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "urlencode 1+1=2",
+   "input": {
+    "text": "1+1=2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "Encode \"crème brûlée recipe\" so I can put it in a search URL.",
+   "input": {
+    "text": "crème brûlée recipe"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "percent-encode Q&A night for a link",
+   "input": {
+    "text": "Q&A night"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "make this whole address url-safe without touching the colon and slashes: http://intranet.local/team docs/",
+   "input": {
+    "text": "http://intranet.local/team docs/",
+    "scope": "full"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "URL encode \"price < £20\"",
+   "input": {
+    "text": "price < £20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "url encode my search term",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "Can you percent-encode the text below for a query parameter?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "I need my product name escaped so it can go in a web address.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "percent-escape the whole link I'm pasting, leave the slashes",
+   "input": {
+    "scope": "full"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "urlencode the following string",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlEncode",
+   "message": "Please make my redirect parameter URL-safe.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "url decode fish%20%26%20chips",
+   "input": {
+    "text": "fish%20%26%20chips"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "What does red%20shoes%20size%209 say once it's URL-decoded?",
+   "input": {
+    "text": "red%20shoes%20size%209"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "My analytics report shows the search term as S%C3%A3o%20Paulo. Can you percent-decode it?",
+   "input": {
+    "text": "S%C3%A3o%20Paulo"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "unescape 50%25%20off",
+   "input": {
+    "text": "50%25%20off"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "Please decode the URL-encoded string Spring%20Fair%202026.",
+   "input": {
+    "text": "Spring%20Fair%202026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "form value came in as blue+jeans+size+32 — decode it with plus as space",
+   "input": {
+    "text": "blue+jeans+size+32",
+    "plusAsSpace": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "percent decode Zo%C3%AB",
+   "input": {
+    "text": "Zo%C3%AB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "Can you turn %23hashtag%20fun back into normal text?",
+   "input": {
+    "text": "%23hashtag%20fun"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "I'm a developer debugging a redirect: decode https%3A%2F%2Fexample.com%2Flogin from the query string.",
+   "input": {
+    "text": "https%3A%2F%2Fexample.com%2Flogin"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "url-decode Q%26A%20night",
+   "input": {
+    "text": "Q%26A%20night"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "decode the percent escapes in Ward%207%20%2F%20Bay%203",
+   "input": {
+    "text": "Ward%207%20%2F%20Bay%203"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "What's cr%C3%A8me%20br%C3%BBl%C3%A9e in plain characters?",
+   "input": {
+    "text": "cr%C3%A8me%20br%C3%BBl%C3%A9e"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "url-decode this form post value, + means space: first+name%3DAnna",
+   "input": {
+    "text": "first+name%3DAnna",
+    "plusAsSpace": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "URL decode 1%2B1%3D2",
+   "input": {
+    "text": "1%2B1%3D2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "Could you decode what%27s%20new%3F from the link?",
+   "input": {
+    "text": "what%27s%20new%3F"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "the shop's tracking link has price%20%3C%20%C2%A320 in it, percent-decode that to readable text",
+   "input": {
+    "text": "price%20%3C%20%C2%A320"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "percent-decode tom%2Bjerry",
+   "input": {
+    "text": "tom%2Bjerry"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "Decode the query value hello+there+friend, treating plusses as spaces.",
+   "input": {
+    "text": "hello+there+friend",
+    "plusAsSpace": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "url decode the link I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "Can you unescape the %20 stuff in my query string?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "I copied a URL full of percent signs. Please decode it into readable text.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "url-decode what my web form submitted — treat each + as a space",
+   "input": {
+    "plusAsSpace": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "percent-decode the parameter below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "urlDecode",
+   "message": "Please make the encoded URL from our logs human-readable.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hashText",
+   "message": "sha-256 hash of password123",
+   "input": {
+    "text": "password123"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "What's the SHA-1 of the string Pigeon?",
+   "input": {
+    "text": "Pigeon",
+    "algorithm": "SHA-1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "I'm verifying a download page's example. Hash \"the quick brown fox\" with SHA-256 please.",
+   "input": {
+    "text": "the quick brown fox"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "sha512 my_secret_key",
+   "input": {
+    "text": "my_secret_key",
+    "algorithm": "SHA-512"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "Could you compute the SHA-384 digest of order-1029?",
+   "input": {
+    "text": "order-1029",
+    "algorithm": "SHA-384"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "hash hello world",
+   "input": {
+    "text": "hello world"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "get me a sha256 digest for \"Monday standup notes\"",
+   "input": {
+    "text": "Monday standup notes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "Our test fixture needs the SHA-1 checksum of admin@example.com.",
+   "input": {
+    "text": "admin@example.com",
+    "algorithm": "SHA-1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "Please generate a SHA-256 hash for the text banana bread.",
+   "input": {
+    "text": "banana bread"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "sha 512 hash of \"top secret\"",
+   "input": {
+    "text": "top secret",
+    "algorithm": "SHA-512"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "compute the hash of v2.4.1-release",
+   "input": {
+    "text": "v2.4.1-release"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "I'm teaching a security class — show the SHA-256 of the word cat so students can compare.",
+   "input": {
+    "text": "cat"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "digest of letmein using sha384",
+   "input": {
+    "text": "letmein",
+    "algorithm": "SHA-384"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "What hash does SHA-512 give for Kevin?",
+   "input": {
+    "text": "Kevin"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "sha256 of 42",
+   "input": {
+    "text": "42"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "Give me the SHA-1 fingerprint of \"build 7781\".",
+   "input": {
+    "text": "build 7781",
+    "algorithm": "SHA-1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "hash the phrase open sesame with sha-256",
+   "input": {
+    "text": "open sesame"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "Calculate a SHA-384 for invoice INV-2207 please.",
+   "input": {
+    "text": "invoice INV-2207",
+    "algorithm": "SHA-384"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "hashText",
+   "message": "sha256 my file contents",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hashText",
+   "message": "Can you hash the string I'm about to paste with SHA-1?",
+   "input": {
+    "algorithm": "SHA-1"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "hashText",
+   "message": "I need the SHA-512 digest of the config below.",
+   "input": {
+    "algorithm": "SHA-512"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "hashText",
+   "message": "compute a hash for my API payload",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hashText",
+   "message": "Please give me the sha-256 of the following text.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "hashText",
+   "message": "hash my password hint so I can compare later",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "need a new passphrase for my wifi",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Could you come up with a passphrase made of four random words?",
+   "input": {
+    "words": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "My mum keeps forgetting her passwords. Can you make her an easy-to-remember passphrase out of words, with capital letters?",
+   "input": {
+    "capitalise": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "diceware-style passphrase, 7 words",
+   "input": {
+    "words": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Generate a word-based passphrase joined with underscores.",
+   "input": {
+    "separator": "_"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "random words passphrase w/ a number at the end pls",
+   "input": {
+    "number": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "I run a small shop and need a new admin login I can actually remember. Make me a 3 word passphrase.",
+   "input": {
+    "words": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "create a passphrase of ten words separated by spaces",
+   "input": {
+    "words": 10,
+    "separator": " "
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Please make me a memorable passphrase for my password manager master key.",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "xkcd style passphrase, capitalise each word and stick two digits on the end",
+   "input": {
+    "capitalise": true,
+    "number": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Pick some random words and turn them into a passphrase, nine of them.",
+   "input": {
+    "words": 9
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "passphrase with words joined by a plus sign",
+   "input": {
+    "separator": "+"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Our school's new staff accounts need memorable passphrases. Generate one from 6 random words with a number on the end.",
+   "input": {
+    "words": 6,
+    "number": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "a short passphrase, just two words",
+   "input": {
+    "words": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Can I get a random-word passphrase with full stops between the words?",
+   "input": {
+    "separator": "."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "make up a passphrase I can say out loud",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "I'm setting up my kid's tablet. Generate a passphrase from 4 words, capitalised, separated by commas.",
+   "input": {
+    "words": 4,
+    "capitalise": true,
+    "separator": ","
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "new passphrase please — 12 words, max security",
+   "input": {
+    "words": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Generate a passphrase for my laptop's disk encryption.",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "word passphrase, 5 words, Title Case",
+   "input": {
+    "words": 5,
+    "capitalise": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "suggest a passphrase made of everyday words for our shared family account",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Could I have a passphrase with three words and slashes in between?",
+   "input": {
+    "words": 3,
+    "separator": "/"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "gimme a random words passphrase ending in a number",
+   "input": {
+    "number": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "I'm a nurse and our ward PC needs a passphrase that's easy to type — eight words, no capitals.",
+   "input": {
+    "words": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "random string of 20 characters",
+   "input": {
+    "length": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "I need a random 6 digit code for a door lock.",
+   "input": {
+    "length": 6,
+    "charset": "digits"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "Generate a random hex string, 40 characters long, for a test token.",
+   "input": {
+    "length": 40,
+    "charset": "hex"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "make me a random letters-only string of 10",
+   "input": {
+    "length": 10,
+    "charset": "letters"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "Could you produce a random alphanumeric string?",
+   "input": {
+    "charset": "alphanumeric"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "Our event needs voucher codes people can read over the phone without mixing up 0 and O. Generate one, 8 characters.",
+   "input": {
+    "length": 8,
+    "charset": "unambiguous"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "random 64 char string with symbols",
+   "input": {
+    "length": 64,
+    "charset": "symbols"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "Give me a random string I can use as a temporary password.",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "generate 128 random characters",
+   "input": {
+    "length": 128
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "Please create a random string of digits, 4 long, for a PIN.",
+   "input": {
+    "length": 4,
+    "charset": "digits"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "I'm a developer seeding test data. Generate a random string of 24 letters and numbers.",
+   "input": {
+    "length": 24,
+    "charset": "alphanumeric"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "random salt string, 16 hex chars",
+   "input": {
+    "length": 16,
+    "charset": "hex"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "spin up some random characters for an invite code",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "Generate a 12-character random string using only letters.",
+   "input": {
+    "length": 12,
+    "charset": "letters"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "need a random code with no confusable characters for a raffle ticket",
+   "input": {
+    "charset": "unambiguous"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "Make me a random string with punctuation in it, 30 long.",
+   "input": {
+    "length": 30,
+    "charset": "symbols"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "random string length 5",
+   "input": {
+    "length": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "Could I get a random string of numbers, 9 digits?",
+   "input": {
+    "length": 9,
+    "charset": "digits"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "For a classroom game I need a random jumble of letters — 7 of them.",
+   "input": {
+    "length": 7,
+    "charset": "letters"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "generate a random secret string for my .env file, 50 chars",
+   "input": {
+    "length": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "I'd like a random string drawn from hexadecimal characters.",
+   "input": {
+    "charset": "hex"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "API secret needed: 256 random characters, any letters or digits",
+   "input": {
+    "length": 256
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "Generate random characters for a nonce — 32, alphanumeric.",
+   "input": {
+    "length": 32,
+    "charset": "alphanumeric"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateRandomString",
+   "message": "I want a random string that's easy to read aloud, 10 characters.",
+   "input": {
+    "length": 10,
+    "charset": "unambiguous"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "new uuid please",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "Could you generate 4 UUIDs for my test fixtures?",
+   "input": {
+    "count": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "I'm adding rows to a database by hand and each needs a primary key. Give me ten GUIDs.",
+   "input": {
+    "count": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "uppercase guid",
+   "input": {
+    "uppercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "Please create a random UUID v4.",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "spit out 2 uuids",
+   "input": {
+    "count": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "Generate twenty UUIDs in upper case for a spreadsheet import.",
+   "input": {
+    "count": 20,
+    "uppercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "need a guid for a windows registry entry",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "Could I have a dozen UUIDs?",
+   "input": {
+    "count": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "make a v4 uuid in caps",
+   "input": {
+    "uppercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "I'm a game modder and every item in the mod needs its own UUID. Generate 8 of them.",
+   "input": {
+    "count": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "Generate one UUID for a correlation ID.",
+   "input": {
+    "count": 1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "random uuid x 50",
+   "input": {
+    "count": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "Create a GUID for my Visual Studio project.",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "6 guids, uppercase",
+   "input": {
+    "count": 6,
+    "uppercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "please generate a fresh universally unique identifier",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "Our API wants an idempotency key in UUID format. Can you make one?",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "three uuids please",
+   "input": {
+    "count": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "Generate a hundred UUIDs.",
+   "input": {
+    "count": 100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "guid in capital letters for a COM class",
+   "input": {
+    "uppercase": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "I need 15 random UUIDs for seeding a dev database.",
+   "input": {
+    "count": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "Can you mint a new uuid for this record?",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "make 7 v4 uuids",
+   "input": {
+    "count": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateUuid",
+   "message": "Teacher here — generate 30 UUIDs so each student gets a unique ID.",
+   "input": {
+    "count": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "are earth and heart anagrams?",
+   "input": {
+    "first": "earth",
+    "second": "heart"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "Is lemon an anagram of melon?",
+   "input": {
+    "first": "lemon",
+    "second": "melon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "My crossword clue says the answer is an anagram of \"angel\". I think it's glean — do they use the same letters?",
+   "input": {
+    "first": "angel",
+    "second": "glean"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "do dusty and study have exactly the same letters",
+   "input": {
+    "first": "dusty",
+    "second": "study"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "Check whether \"the eyes\" and \"they see\" are anagrams of each other.",
+   "input": {
+    "first": "the eyes",
+    "second": "they see"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "anagram check: peach / cheap",
+   "input": {
+    "first": "peach",
+    "second": "cheap"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "Can \"elbow\" be rearranged into \"below\"? Same letters?",
+   "input": {
+    "first": "elbow",
+    "second": "below"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "my kid insists ocean and canoe are anagrams, settle it",
+   "input": {
+    "first": "ocean",
+    "second": "canoe"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "Are \"conversation\" and \"voices rant on\" anagrams?",
+   "input": {
+    "first": "conversation",
+    "second": "voices rant on"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "is secure an anagram of rescue",
+   "input": {
+    "first": "secure",
+    "second": "rescue"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "Teacher here: do \"evil\" and \"vile\" contain exactly the same letters?",
+   "input": {
+    "first": "evil",
+    "second": "vile"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "anagrams or not — sword and words",
+   "input": {
+    "first": "sword",
+    "second": "words"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "Please check if \"a gentleman\" is an anagram of \"elegant man\".",
+   "input": {
+    "first": "a gentleman",
+    "second": "elegant man"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "is palm an anagram of lamp?",
+   "input": {
+    "first": "palm",
+    "second": "lamp"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "Playing Bananagrams with my nan — are \"stone\" and \"notes\" anagrams of each other?",
+   "input": {
+    "first": "stone",
+    "second": "notes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "do pirate and parrot use the same letters",
+   "input": {
+    "first": "pirate",
+    "second": "parrot"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "Are \"funeral\" and \"real fun\" anagrams?",
+   "input": {
+    "first": "funeral",
+    "second": "real fun"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "check anagram: alert vs later",
+   "input": {
+    "first": "alert",
+    "second": "later"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "are these two words anagrams?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "Can you check whether my two phrases use exactly the same letters? I'll send them.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "is thing an anagram of the other word on my list",
+   "input": {
+    "first": "thing"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "Check if the pair of names below are anagrams of each other.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "are my two crossword answers anagrams",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkAnagram",
+   "message": "I wrote a phrase I think is an anagram of my name, Morgan. Check it for me?",
+   "input": {
+    "first": "Morgan"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "is kayak a palindrome",
+   "input": {
+    "text": "kayak"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "Does \"A man, a plan, a canal, Panama\" read the same backwards?",
+   "input": {
+    "text": "A man, a plan, a canal, Panama"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "My daughter says level is a palindrome. Is she right?",
+   "input": {
+    "text": "level"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "palindrome check: rotator",
+   "input": {
+    "text": "rotator"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "Is \"step on no pets\" a palindrome?",
+   "input": {
+    "text": "step on no pets"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "check whether 12321 reads the same both ways",
+   "input": {
+    "text": "12321"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "Strictly speaking — counting spaces and capitals — is \"Taco cat\" a palindrome?",
+   "input": {
+    "text": "Taco cat",
+    "strict": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "does banana read the same forwards and backwards",
+   "input": {
+    "text": "banana"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "English teacher here. Is \"Madam, in Eden, I'm Adam\" a true palindrome?",
+   "input": {
+    "text": "Madam, in Eden, I'm Adam"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "is civic a palindrome?",
+   "input": {
+    "text": "civic"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "Check if \"no lemon, no melon\" is a palindrome, strict mode with punctuation counted.",
+   "input": {
+    "text": "no lemon, no melon",
+    "strict": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "palindrome? refer",
+   "input": {
+    "text": "refer"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "Could you tell me whether \"Eva, can I see bees in a cave?\" is a palindrome?",
+   "input": {
+    "text": "Eva, can I see bees in a cave?"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "is the word pigeon a palindrome lol",
+   "input": {
+    "text": "pigeon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "Does \"Red rum, sir, is murder\" read the same in reverse?",
+   "input": {
+    "text": "Red rum, sir, is murder"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "my licence plate is ABBA — palindrome?",
+   "input": {
+    "text": "ABBA"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "Check whether \"Mr. Owl ate my metal worm\" is a palindrome.",
+   "input": {
+    "text": "Mr. Owl ate my metal worm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "is redivider the same backwards",
+   "input": {
+    "text": "redivider"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "is my sentence a palindrome?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "Can you check if the phrase I'm pasting reads the same backwards?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "check this word for being a palindrome, strictly",
+   "input": {
+    "strict": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "I made up a line for a poetry contest. Is it a palindrome?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "does my kid's name read the same both ways",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkPalindrome",
+   "message": "Please test whether the following phrase is a palindrome.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "magic 8 ball: will I pass my driving test",
+   "input": {
+    "question": "will I pass my driving test"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "Ask the eight ball whether I should buy the red bike.",
+   "input": {
+    "question": "whether I should buy the red bike"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "Oh great magic eight ball, is today my lucky day?",
+   "input": {
+    "question": "is today my lucky day"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "bored at work, give me a random fortune from the 8-ball toy",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "Can you consult the magic eight ball for me? Will my team win on Saturday?",
+   "input": {
+    "question": "Will my team win on Saturday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "8 ball, does she like me back",
+   "input": {
+    "question": "does she like me back"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "I'm stuck deciding — magic 8 ball, should I order pizza tonight?",
+   "input": {
+    "question": "should I order pizza tonight"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "shake the 8 ball",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "Ask the magic eight ball for my holiday forecast: will there be snow at Christmas?",
+   "input": {
+    "question": "will there be snow at Christmas"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "For a party game: what does the magic 8 ball say to \"is the cake a lie\"?",
+   "input": {
+    "question": "is the cake a lie"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "eight ball question - am I getting a raise this year",
+   "input": {
+    "question": "am I getting a raise this year"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "I can't make my mind up, so the 8 ball gets the final say on it",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "Magic 8 ball, should we adopt a puppy?",
+   "input": {
+    "question": "should we adopt a puppy"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "ask the magic eight ball if my flight will be delayed",
+   "input": {
+    "question": "if my flight will be delayed"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "My students want a fun break. Magic eight ball: will there be homework tonight?",
+   "input": {
+    "question": "will there be homework tonight"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "roll the magic 8-ball on whether I text him first",
+   "input": {
+    "question": "whether I text him first"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "Could I get a fortune from the eight ball, without telling it my question out loud?",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "8-ball: is the new Zelda worth buying",
+   "input": {
+    "question": "is the new Zelda worth buying"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "magic eight ball, will the bakery have croissants left",
+   "input": {
+    "question": "will the bakery have croissants left"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "Pretend you're a magic 8 ball toy and give me one of your answers.",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "yes or no, magic eight ball: should I quit my band?",
+   "input": {
+    "question": "should I quit my band"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "What would a magic 8 ball say about me learning the violin at 60?",
+   "input": {
+    "question": "me learning the violin at 60"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "magic 8 ball — will the bus be on time?",
+   "input": {
+    "question": "will the bus be on time"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "magicEightBall",
+   "message": "I need the eight ball's verdict: is it going to be sunny for the picnic?",
+   "input": {
+    "question": "is it going to be sunny for the picnic"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "how much is zebra worth in scrabble",
+   "input": {
+    "word": "zebra"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "What would the word quixotic score on a Scrabble board, ignoring bonus squares?",
+   "input": {
+    "word": "quixotic"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "Family game night dispute: my brother played OXEN. What's its Scrabble value?",
+   "input": {
+    "word": "OXEN"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "scrabble points for fjord",
+   "input": {
+    "word": "fjord"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "Add up the Scrabble tiles in the word kettle.",
+   "input": {
+    "word": "kettle"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "tile value of wizard?",
+   "input": {
+    "word": "wizard"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "Could you tell me the Scrabble score of rhythm?",
+   "input": {
+    "word": "rhythm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "I'm a retired teacher who plays Scrabble every Sunday. How many points does the word vex get?",
+   "input": {
+    "word": "vex"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "banjo — tally its scrabble tiles for me",
+   "input": {
+    "word": "banjo"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "Scrabble value for the word kiwi please",
+   "input": {
+    "word": "kiwi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "Total letter value of squeeze in Scrabble, no bonus squares?",
+   "input": {
+    "word": "squeeze"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "add the scrabble letter values in puzzle",
+   "input": {
+    "word": "puzzle"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "Before I lay it down — what's the base Scrabble score for JINX?",
+   "input": {
+    "word": "JINX"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "count up the scrabble points in tomato",
+   "input": {
+    "word": "tomato"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "My students are learning letter values. Work out the Scrabble score for elephant.",
+   "input": {
+    "word": "elephant"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "pts for the word hex in scrabble",
+   "input": {
+    "word": "hex"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "Is zigzag a big scoring Scrabble word? Give me its total.",
+   "input": {
+    "word": "zigzag"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "scrabble total for crown",
+   "input": {
+    "word": "crown"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "what's my word worth in scrabble",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "Can you score the word I'm about to play in Scrabble?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "add up the tile points for my best word this round",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "How many Scrabble points would the word on my rack get?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "scrabble score for the word below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "scrabbleScore",
+   "message": "Please total the Scrabble letter values of my opponent's word.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "unscramble rhtae",
+   "input": {
+    "letters": "rhtae"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "What word do the letters nlome make if you use all of them?",
+   "input": {
+    "letters": "nlome"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "I'm stuck on a jumble puzzle in the paper — please unscramble ystud into a word.",
+   "input": {
+    "letters": "ystud"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "rearrange hcaep into a real word",
+   "input": {
+    "letters": "hcaep"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "nacoe is an anagram of something — unscramble it using every letter",
+   "input": {
+    "letters": "nacoe"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "unscramble esroh into a word",
+   "input": {
+    "letters": "esroh"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "Crossword clue says it's an anagram of \"veil\" — what other words use exactly those letters?",
+   "input": {
+    "letters": "veil"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "what can uecsre be unscrambled into",
+   "input": {
+    "letters": "uecsre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "Please unjumble the letters tseno.",
+   "input": {
+    "letters": "tseno"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "My kids' word-search bonus asks to unscramble rdea. Help?",
+   "input": {
+    "letters": "rdea"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "anagram solver: smate",
+   "input": {
+    "letters": "smate"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "Which words use all of the letters in gniht?",
+   "input": {
+    "letters": "gniht"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "unscramble the word cera",
+   "input": {
+    "letters": "cera"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "Unscramble hicn — it's one real word using all four letters.",
+   "input": {
+    "letters": "hicn"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "I'm a quizmaster checking my anagram round — what does lnsiet unscramble to?",
+   "input": {
+    "letters": "lnsiet"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "solve wolbe",
+   "input": {
+    "letters": "wolbe"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "Rearrange all the letters in dsrow to make a word.",
+   "input": {
+    "letters": "dsrow"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "what words are anagrams of alter",
+   "input": {
+    "letters": "alter"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "Could you unscramble an anagram for me? I'll type the jumbled letters next.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "I've got a jumbled word from today's puzzle. Can you solve the anagram?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "what word do my scrambled tiles spell",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "Please unscramble the jumble I'm about to type.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "solve the anagram on my clue card",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "solveAnagram",
+   "message": "Rearrange my letters into a proper word, all of them used.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "wordle help: five letters ending in ash",
+   "input": {
+    "pattern": "..ash"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "Today's Wordle: I have B first and H last, nothing else green. What could it be?",
+   "input": {
+    "pattern": "b...h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "Stuck on wordle. Five letters, S locked in as the first green, T showed yellow, and R, E, A came up grey.",
+   "input": {
+    "pattern": "s....",
+    "present": "t",
+    "absent": "rea"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "Green R in second spot and green E at the end of a 5-letter word. Suggestions?",
+   "input": {
+    "pattern": ".r..e"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "5 letter wordle answers beginning with pl",
+   "input": {
+    "pattern": "pl..."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "My mum's stuck on her Wordle: ends in ck, five letters, s is grey. Which words fit?",
+   "input": {
+    "pattern": "...ck",
+    "absent": "s"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "wordle pattern g.o.. any ideas",
+   "input": {
+    "pattern": "g.o.."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "Four-letter word puzzle: second letter i, last letter e. List candidates.",
+   "input": {
+    "pattern": ".i.e"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "wordle: t at both ends of a five letter word",
+   "input": {
+    "pattern": "t...t"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "Could you find five-letter words matching c_a__ for my Wordle?",
+   "input": {
+    "pattern": "c.a.."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "wordle: last letter y is green, o is yellow somewhere, show me up to 5 options",
+   "input": {
+    "pattern": "....y",
+    "present": "o",
+    "limit": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "Green F first, green L fourth, five letters total. What words fit my wordle?",
+   "input": {
+    "pattern": "f..l."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "wordle starting with sh, list 20 options",
+   "input": {
+    "pattern": "sh...",
+    "limit": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "I'm on my last guess! w first, r last, 5 letters. Help me filter.",
+   "input": {
+    "pattern": "w...r"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "wordle ending in er, and a i o u are all grey",
+   "input": {
+    "pattern": "...er",
+    "absent": "aiou"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "Which five-letter words fit m.n.. in Wordle?",
+   "input": {
+    "pattern": "m.n.."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "wordle guess help — the first two letters are CL (both green), O is in the word but misplaced, 5 letters",
+   "input": {
+    "pattern": "cl...",
+    "present": "o"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "Words for my Wordle that begin with A and end with E, five letters long, please.",
+   "input": {
+    "pattern": "a...e"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "help me with today's wordle",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "I've got some yellow and grey letters in Wordle but I'll tell you the greens in a sec — narrow it down?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "filter wordle words for my clues, y is yellow and t is grey",
+   "input": {
+    "present": "y",
+    "absent": "t"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "Which Wordle words still fit my board?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "wordle solver please, grey letters are q z x",
+   "input": {
+    "absent": "qzx"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordleFilter",
+   "message": "Can you list possible Wordle answers from my green letters?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "what words can I spell with garden",
+   "input": {
+    "letters": "garden"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "Find all the words hidden in the letters of planet.",
+   "input": {
+    "letters": "planet"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "Word game with my grandkids: how many words can we make out of sunday?",
+   "input": {
+    "letters": "sunday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "words made from orange, at least 4 letters",
+   "input": {
+    "letters": "orange",
+    "minLength": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "List smaller words you can form from the letters in winter.",
+   "input": {
+    "letters": "winter"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "what words can I build from the letters aerdtsl on my rack?",
+   "input": {
+    "letters": "aerdtsl"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "Please list words I can spell from the letters in basket, 10 at most.",
+   "input": {
+    "letters": "basket",
+    "limit": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "words in doctor",
+   "input": {
+    "letters": "doctor"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "I teach year 3 and want a spelling warm-up. What words can be built from mother?",
+   "input": {
+    "letters": "mother"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "which 5+ letter words come out of lights",
+   "input": {
+    "letters": "lights",
+    "minLength": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "How many words can you make using letters from friend?",
+   "input": {
+    "letters": "friend"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "tiles: e t a o r s n — words please",
+   "input": {
+    "letters": "etaorsn"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "Show me 25 words I can make from the letters of keyboard.",
+   "input": {
+    "letters": "keyboard",
+    "limit": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "words from pencils with at least six letters",
+   "input": {
+    "letters": "pencils",
+    "minLength": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "What can I spell from the letters in castle?",
+   "input": {
+    "letters": "castle"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "Countdown practice — find words in the letters gartemsoi.",
+   "input": {
+    "letters": "gartemsoi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "Make two-letter-and-up words out of bread.",
+   "input": {
+    "letters": "bread",
+    "minLength": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "list words hidden in the word triangle",
+   "input": {
+    "letters": "triangle"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "spell out every shorter word my seven letters allow, I'll list them",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "I'll give you my seven Scrabble letters. Find every word I could play from them.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "words of 4 letters or more from my letter pool",
+   "input": {
+    "minLength": 4
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "Can you list the words hidden in my name?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "find words in the letters on my rack",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "wordsFromLetters",
+   "message": "Please build as many words as you can from the jumble below.",
+   "input": {},
+   "mode": "pointed"
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "base64Decode",
+    "base64Encode"
+   ],
+   "rows": [
+    {
+     "skill": "base64Decode",
+     "message": "my friend's text message reads c2VlIHlvdSB0aGVyZQ== — can you decode it from base64 for me before I reply?",
+     "input": {
+      "base64": "c2VlIHlvdSB0aGVyZQ=="
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "base64Encode",
+     "message": "my friend's text message reads see you there — can you encode it to base64 for me before I reply?",
+     "input": {
+      "text": "see you there"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "base64Decode",
+    "base64Encode"
+   ],
+   "rows": [
+    {
+     "skill": "base64Decode",
+     "message": "Please turn the base64 cGljayB1cCBicmVhZA== back into plain words for my shopping app.",
+     "input": {
+      "base64": "cGljayB1cCBicmVhZA=="
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "base64Encode",
+     "message": "Please turn the plain words \"pick up bread\" into base64 for my shopping app.",
+     "input": {
+      "text": "pick up bread"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "binaryDecode",
+    "binaryEncode"
+   ],
+   "rows": [
+    {
+     "skill": "binaryDecode",
+     "message": "show the binary 01001010 01101111 as plain letters",
+     "input": {
+      "binary": "01001010 01101111"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "binaryEncode",
+     "message": "show the plain letters Jo as binary",
+     "input": {
+      "text": "Jo"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "binaryDecode",
+    "binaryEncode"
+   ],
+   "rows": [
+    {
+     "skill": "binaryDecode",
+     "message": "For my coding class, what word do the ones and zeros 01101000 01100001 01110100 spell?",
+     "input": {
+      "binary": "01101000 01100001 01110100"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "binaryEncode",
+     "message": "For my coding class, what ones and zeros spell the word hat?",
+     "input": {
+      "text": "hat"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "binaryDecode",
+    "binaryEncode"
+   ],
+   "rows": [
+    {
+     "skill": "binaryDecode",
+     "message": "scout puzzle — turn the binary 01001111 01101011 00100001 into letters",
+     "input": {
+      "binary": "01001111 01101011 00100001"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "binaryEncode",
+     "message": "scout puzzle — turn the letters Ok! into binary",
+     "input": {
+      "text": "Ok!"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "binaryEncode",
+    "hexEncode"
+   ],
+   "rows": [
+    {
+     "skill": "binaryEncode",
+     "message": "write the word cake out in binary bytes",
+     "input": {
+      "text": "cake"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "hexEncode",
+     "message": "write the word cake out in hex bytes",
+     "input": {
+      "text": "cake"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "binaryEncode",
+    "hexEncode"
+   ],
+   "rows": [
+    {
+     "skill": "binaryEncode",
+     "message": "I'm labelling a circuit board — show \"snow\" as binary, please.",
+     "input": {
+      "text": "snow"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "hexEncode",
+     "message": "I'm labelling a circuit board — show \"snow\" as hexadecimal, please.",
+     "input": {
+      "text": "snow"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "checkAnagram",
+    "checkPalindrome"
+   ],
+   "rows": [
+    {
+     "skill": "checkAnagram",
+     "message": "word game question — is the word tinsel an anagram of listen?",
+     "input": {
+      "first": "tinsel",
+      "second": "listen"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "checkPalindrome",
+     "message": "word game question — is the word tinsel a palindrome?",
+     "input": {
+      "text": "tinsel"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "checkAnagram",
+    "checkPalindrome"
+   ],
+   "rows": [
+    {
+     "skill": "checkAnagram",
+     "message": "Word puzzle for my class: do \"stressed\" and \"desserts\" use exactly the same letters?",
+     "input": {
+      "first": "stressed",
+      "second": "desserts"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "checkPalindrome",
+     "message": "Word puzzle for my class: does \"stressed desserts\" read the same backwards?",
+     "input": {
+      "text": "stressed desserts"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "compressText",
+    "decompressText"
+   ],
+   "rows": [
+    {
+     "skill": "compressText",
+     "message": "for the app's tiny cache field, compress the text bye bye bye bye bye bye",
+     "input": {
+      "text": "bye bye bye bye bye bye"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "decompressText",
+     "message": "for the app's tiny cache field, decompress the text AAAAFzEeTKIIBAoJA4DB4LAQ",
+     "input": {
+      "compressed": "AAAAFzEeTKIIBAoJA4DB4LAQ"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "compressText",
+    "decompressText"
+   ],
+   "rows": [
+    {
+     "skill": "compressText",
+     "message": "Our chat log field is tiny — please compress na na na na na na na before I save it.",
+     "input": {
+      "text": "na na na na na na na"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "decompressText",
+     "message": "Our chat log field is tiny — please decompress AAAAFDcYRBAIFAYHBoKYQA== that I saved.",
+     "input": {
+      "compressed": "AAAAFDcYRBAIFAYHBoKYQA=="
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generatePassphrase",
+    "generateRandomString"
+   ],
+   "rows": [
+    {
+     "skill": "generatePassphrase",
+     "message": "generate a new password for my router made of 6 random words",
+     "input": {
+      "words": 6
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateRandomString",
+     "message": "generate a new password for my router made of 6 random characters",
+     "input": {
+      "length": 6
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generatePassphrase",
+    "generateRandomString"
+   ],
+   "rows": [
+    {
+     "skill": "generatePassphrase",
+     "message": "generate a memorable password for our shop's till made of random words",
+     "input": {},
+     "mode": "full"
+    },
+    {
+     "skill": "generateRandomString",
+     "message": "generate a password for our shop's till made of random characters",
+     "input": {},
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generatePassphrase",
+    "generateUuid"
+   ],
+   "rows": [
+    {
+     "skill": "generatePassphrase",
+     "message": "make me a passphrase for the new staff account",
+     "input": {},
+     "mode": "full"
+    },
+    {
+     "skill": "generateUuid",
+     "message": "make me a uuid for the new staff account",
+     "input": {},
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generatePassphrase",
+    "generateUuid"
+   ],
+   "rows": [
+    {
+     "skill": "generatePassphrase",
+     "message": "Generate 3 random words joined as a passphrase, please.",
+     "input": {
+      "words": 3
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateUuid",
+     "message": "Generate 3 random GUIDs, please.",
+     "input": {
+      "count": 3
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateRandomString",
+    "generateUuid"
+   ],
+   "rows": [
+    {
+     "skill": "generateRandomString",
+     "message": "give me a random 36 character string for the order id",
+     "input": {
+      "length": 36
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateUuid",
+     "message": "give me a random v4 uuid for the order id",
+     "input": {},
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateRandomString",
+    "generateUuid"
+   ],
+   "rows": [
+    {
+     "skill": "generateRandomString",
+     "message": "My test database needs a fresh random hex string as a key.",
+     "input": {
+      "charset": "hex"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateUuid",
+     "message": "My test database needs a fresh random GUID as a key.",
+     "input": {},
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateUuid",
+    "validateUuid"
+   ],
+   "rows": [
+    {
+     "skill": "generateUuid",
+     "message": "generate a uuid for my new database record",
+     "input": {},
+     "mode": "full"
+    },
+    {
+     "skill": "validateUuid",
+     "message": "validate the uuid 3f2b8c1e-9d4a-4e6f-8b2c-1a7d5e9f0c34 for my new database record",
+     "input": {
+      "uuid": "3f2b8c1e-9d4a-4e6f-8b2c-1a7d5e9f0c34"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateUuid",
+    "validateUuid"
+   ],
+   "rows": [
+    {
+     "skill": "generateUuid",
+     "message": "our API request header needs a valid uuid in the trace field — generate one",
+     "input": {},
+     "mode": "full"
+    },
+    {
+     "skill": "validateUuid",
+     "message": "our API request header has c9bf9e57-1685-4c89-bafb-ff5af830be8a in the trace field — check that uuid is valid",
+     "input": {
+      "uuid": "c9bf9e57-1685-4c89-bafb-ff5af830be8a"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateUuid",
+    "validateUuid"
+   ],
+   "rows": [
+    {
+     "skill": "generateUuid",
+     "message": "the warehouse scanner config file needs a fresh uuid in the device id slot — make one",
+     "input": {},
+     "mode": "full"
+    },
+    {
+     "skill": "validateUuid",
+     "message": "the warehouse scanner config file has 6ba7b810-9dad-11d1-80b4-00c04fd430c8 in the device id slot — which uuid version is that?",
+     "input": {
+      "uuid": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "hexDecode",
+    "hexEncode"
+   ],
+   "rows": [
+    {
+     "skill": "hexDecode",
+     "message": "for my name badge, decode the hex 4a6f into readable text",
+     "input": {
+      "hex": "4a6f"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "hexEncode",
+     "message": "for my name badge, encode the readable text Jo into hex",
+     "input": {
+      "text": "Jo"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "hexDecode",
+    "hexEncode"
+   ],
+   "rows": [
+    {
+     "skill": "hexDecode",
+     "message": "Debugging a serial device: what characters do the hex bytes 736e6f77 stand for?",
+     "input": {
+      "hex": "736e6f77"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "hexEncode",
+     "message": "Debugging a serial device: what hex bytes stand for the characters snow?",
+     "input": {
+      "text": "snow"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "hexDecode",
+    "hexEncode"
+   ],
+   "rows": [
+    {
+     "skill": "hexDecode",
+     "message": "Bakery sign project — read the hex 63616b65 back as letters",
+     "input": {
+      "hex": "63616b65"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "hexEncode",
+     "message": "Bakery sign project — write the letters cake as hex",
+     "input": {
+      "text": "cake"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "hexDecode",
+    "morseDecode"
+   ],
+   "rows": [
+    {
+     "skill": "hexDecode",
+     "message": "decode this hex clue from the escape room: 534f53",
+     "input": {
+      "hex": "534f53"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "morseDecode",
+     "message": "decode this morse clue from the escape room: ... --- ...",
+     "input": {
+      "morse": "... --- ..."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "hexDecode",
+    "morseDecode"
+   ],
+   "rows": [
+    {
+     "skill": "hexDecode",
+     "message": "My nephew's secret note is written in hex bytes, 666f67. What does it say?",
+     "input": {
+      "hex": "666f67"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "morseDecode",
+     "message": "My nephew's secret note is written in morse dots and dashes, ..-. --- --. What does it say?",
+     "input": {
+      "morse": "..-. --- --."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "morseDecode",
+    "morseEncode"
+   ],
+   "rows": [
+    {
+     "skill": "morseDecode",
+     "message": "translate the morse - .- -.-. --- into words",
+     "input": {
+      "morse": "- .- -.-. ---"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "morseEncode",
+     "message": "translate the words taco into morse",
+     "input": {
+      "text": "taco"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "morseDecode",
+    "morseEncode"
+   ],
+   "rows": [
+    {
+     "skill": "morseDecode",
+     "message": "Ham radio practice: what is ..-. --- --. in plain letters from Morse?",
+     "input": {
+      "morse": "..-. --- --."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "morseEncode",
+     "message": "Ham radio practice: what is fog in Morse from plain letters?",
+     "input": {
+      "text": "fog"
+     },
+     "mode": "full"
+    }
+   ]
+  }
+ ]
+}

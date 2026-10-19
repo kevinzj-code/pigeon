@@ -1,0 +1,13 @@
+{
+  "id": "runway-verb",
+  "hypothesis": "an action-led runway phrase steers the commit along the sibling axis (parse/render, encode/decode) where a topic noun does not",
+  "flags": [],
+  "prompt": "runway-verb",
+  "needs": [
+    "planner",
+    "category"
+  ],
+  "rule": "siblings <= control.siblings - 4 and correct >= control.correct and leaks <= control.leaks",
+  "reads": null,
+  "added": "2026-09-08"
+}

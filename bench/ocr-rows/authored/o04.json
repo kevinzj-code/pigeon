@@ -1,0 +1,605 @@
+{
+  "batch": "o04",
+  "texts": [
+    {
+      "kind": "receipt",
+      "text": "HOLLINGWORTH SU SHOP\nStudents' Union Building, Level 1\nA4 refill pad 160pg £2.25\nHighlighters x4 £3.10\nMeal deal £4.50\nOat milk 1L £1.65\nSubtotal £11.50\nNUS discount 10% -£1.15\nTOTAL £10.35\nContactless ****3061\n14/10/2026 12:47 Till 3 Op 112"
+    },
+    {
+      "kind": "receipt",
+      "text": "Larkfield State University Bookstore\n1200 College Ave, Larkfield\n(608) 555-0172\nIntro to Organic Chemistry 9th ed. (used) $86.40\nLab notebook, carbonless $14.95\nScientific calculator $18.99\nHoodie, navy, size M $42.00\nSUBTOTAL $162.34\nSales tax 5.5% $8.93\nTOTAL $171.27\nStudent ID charge acct 20417733\n08/24/2026 10:05 AM"
+    },
+    {
+      "kind": "receipt",
+      "text": "Bean There Café, Library Ground Floor\nOrder #4471\nOat latte (large) 3.85\nCinnamon swirl 2.40\nSoup of the day 4.20\nReusable cup discount -0.25\nTotal £10.20\nPaid: Campus card 88213\nBalance remaining £14.65\n11 Mar 2026 15:32"
+    },
+    {
+      "kind": "receipt",
+      "text": "PRINT & BIND CENTRE\nEngineering Block E, Room E0.14\nColour A3 poster x2 @ £4.80 £9.60\nB&W A4 double-sided x120 @ 6p £7.20\nComb binding x3 @ £2.50 £7.50\nTotal £24.30\nJob ref. PB-26-0913\nCollected 03/05/2026 16:20"
+    },
+    {
+      "kind": "receipt",
+      "text": "Gowns & Gear Hire Ltd\nGraduation hire, Ceremony 4, 18 July 2026\nBA gown, hood and cap £46.00\nExtra guest ticket x2 @ £12.50 £25.00\nOfficial photo pack A £39.00\nSubtotal £110.00\nDeposit paid 02/06 -£30.00\nBalance paid £80.00\nReturn gown by 17:00 same day\nRef. GH/26/07118"
+    },
+    {
+      "kind": "receipt",
+      "text": "Tony's Slice House\nDelivery to: Whitcombe Hall, Rm 314\n1 Large pepperoni $17.50\n1 Medium veggie $14.25\nGarlic knots (8) $5.99\n2-liter cola $3.49\nSubtotal $41.23\nTax 7% $2.89\nDelivery fee $3.00\nTotal $47.12\nOrdered 11:48 PM 02/11/2026"
+    },
+    {
+      "kind": "receipt",
+      "text": "LINDENAU CAMPUS CANTEEN\nTill 2 Student rate\nDish of the day €3.20\nSalad bar 312 g @ €1.00/100 g €3.12\nApple spritzer 0.5 L €1.60\nBottle deposit €0.25\nTotal €8.17\nPaid by canteen card\nRemaining credit €21.43\n12.04.2026 12:18"
+    },
+    {
+      "kind": "receipt",
+      "text": "Quadrangle Pharmacy\nMedical Centre, Gate 3\nIbuprofen 200mg x16 £0.89\nThroat lozenges x24 £3.49\nThermometer, digital £6.99\nRehydration sachets x6 £4.25\nTotal £15.62\nCash £20.00\nChange £4.38\nVAT No. GB 318 4402 71\n19/01/2026 09:14"
+    },
+    {
+      "kind": "receipt",
+      "text": "Ridgeway Sports Centre\nStudent membership, Semester 1 £65.00\nSquash court hire 45 min £6.40\nLocker deposit (refundable) £5.00\nTotal £76.40\nPaid: Visa debit ending 7720\nMember no. RS-104553\nValid 21/09/2026 to 31/01/2027\nThank you, see you on court!"
+    },
+    {
+      "kind": "receipt",
+      "text": "Quad Cart Coffee\nCold brew 16 oz $4.25\nChai latte 12 oz $4.75\nEverything bagel w/ cream cheese $3.95\nSubtotal $12.95\nTax 6% $0.78\nTip 15% $1.94\nTotal $15.67\nCard **** 5508\n09/03/2026 7:52 AM Order #63"
+    },
+    {
+      "kind": "receipt",
+      "text": "Fenmore University Library\nPayment receipt\nOverdue: The Structure of Small Things (14 days @ £0.20) £2.80\nLost item: Statistics Workbook, 3rd edn £34.50\nProcessing charge £5.00\nTotal paid £42.30\nMethod: online card payment\nBorrower 2209 8814 6\nReceipt no. LIB-00731\n06/06/2026 14:02"
+    },
+    {
+      "kind": "receipt",
+      "text": "SPOKES CAMPUS CYCLES\nInner tube 700x28c x2 @ £6.50 £13.00\nPuncture repair labour £8.00\nLED light set £19.99\nD-lock £24.99\nSubtotal £65.98\nStudent 15% off lights & locks -£6.75\nTotal £59.23\n22/09/2026 17:41 Receipt 2287"
+    },
+    {
+      "kind": "receipt",
+      "text": "The Old Boathouse Bar\nTab 18 Opened 20:10\n3 x House lager pint @ 3.60 10.80\n2 x Lime soda @ 1.90 3.80\nNachos to share 6.50\nChips & curry sauce 3.25\nTotal 24.35\nSplit 3 ways 8.12 / 8.12 / 8.11\nClosed 23:02 24/10/2026"
+    },
+    {
+      "kind": "receipt",
+      "text": "Office of Residence Life\nHousing deposit receipt\nStudent: Maya R. Okonkwo\nID 900417286\nFall 2026 room deposit $250.00\nKey replacement fee $35.00\nTotal received $285.00\nPayment: e-check #10294\nDate: 07/14/2026\nQuestions? housing@larkfield.edu or 555-0139"
+    },
+    {
+      "kind": "receipt",
+      "text": "Easel & Ink Art Supplies\nCartridge paper A2 x10 £8.50\nAcrylic set 12 x 22ml £14.75\nBrushes, round No. 2, 4, 6 £7.20\nMasking tape 1 1/2 in £2.95\nSubtotal £33.40\nFine Art student discount 20% -£6.68\nTotal £26.72\nCard ending 9154 approved\n30/09/2026 11:26"
+    },
+    {
+      "kind": "notice",
+      "text": "LEVEL 3 SILENT STUDY\nNo phone calls, no group work, no hot food.\nLaptops permitted; please mute all devices.\nOpen 08:00 to 23:00 Monday to Friday, 10:00 to 18:00 at weekends.\nReport noise by text to 07700 900214 (your number is not shown to other students)."
+    },
+    {
+      "kind": "notice",
+      "text": "Chemistry Teaching Lab C2.06\nLab coats and safety glasses must be worn at all times.\nMaximum occupancy 24 students.\nFume cupboard 3 out of use until 15 Nov.\nIn an emergency call Security on ext. 2222 or 01632 960555.\nNearest eyewash station: corridor C2, opposite room C2.09."
+    },
+    {
+      "kind": "notice",
+      "text": "PERMIT HOLDERS ONLY\nCar Park B, bays 1 to 140\nMon to Fri 7:30 a.m. to 6:00 p.m.\nVehicles without a valid 2026/27 permit will be issued a $45 citation.\nVisitor parking is available in Lot D at $2.00 per hour (max. 4 hours).\nParking Services: 555-0156"
+    },
+    {
+      "kind": "notice",
+      "text": "EXAMINATION IN PROGRESS\nSports Hall, Desks 1 to 260\nPlease keep noise to a minimum. Candidates may not leave in the first 30 minutes or the last 15 minutes.\nLate arrivals after 09:30 must report to the invigilator's desk.\nBags are left at owner's risk."
+    },
+    {
+      "kind": "notice",
+      "text": "Lift 2 out of order\nEngineers expected Thursday 23/04 from 08:00. Please use Lift 1 or the stairs by room 1.12.\nIf you need step-free access to floors 2 to 5, call Estates on 01632 960318 and we'll arrange help within 20 minutes."
+    },
+    {
+      "kind": "notice",
+      "text": "Kitchen 4B, Marlowe House\nFridge clear-out every Sunday at 10 p.m.: label your food with your name and room no.\nAnything unlabelled or past its date will be binned.\nFire doors must stay closed. Toasters belong in the kitchen, not the corridor (3 alarms this term already).\nCleaner visits Tue & Fri 9:00 to 11:30."
+    },
+    {
+      "kind": "notice",
+      "text": "From Monday 5 October this café is card and campus card only.\nMinimum spend 50p. We accept Visa, Mastercard and Amex.\nRefill your own cup for 20% off any hot drink.\nOpening hours: 7.45am to 4.30pm term time, 9am to 2pm vacations."
+    },
+    {
+      "kind": "notice",
+      "text": "ROOM CHANGE\nPSY2041 Cognitive Neuroscience lecture (Tues 14:00) has moved from LT1 to the Hargreaves Theatre, Building 9, for weeks 4 to 7 only.\nWeek 8 onwards: back in LT1.\nQuestions to the module leader, Dr Inés Calloway, at i.calloway@fenmore.ac.uk"
+    },
+    {
+      "kind": "notice",
+      "text": "Bicycles left at these racks after 30 June will be tagged.\nTagged bikes not removed within 14 days will be taken to the Security Lodge and kept for 3 months.\nCollect with proof of ownership, Mon to Fri 09:00 to 17:00.\nLodge: 01632 960733, ref. CYC-2026"
+    },
+    {
+      "kind": "notice",
+      "text": "NOTICE: WATER SUPPLY INTERRUPTION\nBlocks C, D and E, Ashby Court\nWednesday 18 March 2026, 9.00am to approx. 1.30pm\nEssential pipe repairs. Toilets on the ground floor of Block A will remain available.\nWe apologise for the inconvenience. Facilities helpdesk ext. 4410"
+    },
+    {
+      "kind": "notice",
+      "text": "Plant Growth Room 2\nSet point 22 °C day / 16 °C night, humidity 65%\nDo not adjust the controller. If the reading is outside ±2 °C, log it on the sheet and email growthrooms@biosci.fenmore.ac.uk\nDoor must be kept shut: 14 h light cycle in progress."
+    },
+    {
+      "kind": "notice",
+      "text": "Pool Timetable Change\nLane swimming is cancelled on Saturday 7 November (08:00 to 12:00) for the inter-university gala.\nPublic sessions resume at 12:30.\nSpectator seating: 180 places, first come first served.\nMembers will receive a £3 voucher by email."
+    },
+    {
+      "kind": "notice",
+      "text": "Found in Lecture Theatre 3: black umbrella, blue water bottle, a pair of glasses in a red case, and a USB stick labelled \"THESIS FINAL v7\".\nAsk at the Main Reception, open 8:30 to 17:00.\nItems kept for 28 days."
+    },
+    {
+      "kind": "notice",
+      "text": "Wi-Fi network: CampusGuest\nThe code changes every Monday; ask at the counter.\nPlease limit laptop use to 90 minutes when the café is busy (12:00 to 14:00).\nSockets at tables 1 to 8 only."
+    },
+    {
+      "kind": "notice",
+      "text": "Printing prices from 1 September 2026\nBlack & white A4: 5p per side\nColour A4: 25p per side\nA3 prices are double the A4 rate.\nTop up online or at kiosks in the Library and the Hub (minimum £1).\nUnused credit carries over to next year."
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Ms Adebayo,\nI am pleased to confirm your unconditional offer of a place on the MSc Data Science (full-time), starting on 21 September 2026.\nYour tuition fee for 2026/27 is £12,850. A deposit of £1,500 is due by 30 June 2026 to secure your place; this will be deducted from your first instalment.\nYour student number is 26017742. Please quote it in all correspondence.\nYours sincerely,\nDr Harriet Lowe\nAdmissions Tutor"
+    },
+    {
+      "kind": "letter",
+      "text": "From: Prof. Tomás Echeverría\nTo: Jun Li\nSubject: Chapter 3 draft\nHi Jun, thanks for sending the draft on Friday. I've left comments on pages 12 to 19; the main issue is that Table 3.2 reports n = 148 but the text says 152, so please check which is right.\nCan we meet on Thursday 15 Oct at 2:30 pm in room 4.07? If not, I'm free Monday morning.\nBest, Tomás"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Resident,\nYour room inspection for Flat 12, Cedar Court is booked for Tuesday 9 June between 10am and 1pm.\nPlease make sure the room is clear of rubbish and that all furniture is in place. Missing items are charged at cost; a missing desk chair, for example, is £48.\nYour deposit of £200 will be returned within 21 days of your check-out date.\nKind regards,\nResidential Services\n01632 960245"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your 2026-2027 Financial Aid Award\nDear Carlos,\nYour award for the 2026-2027 academic year is now available in the student portal. It includes a Larkfield Merit Scholarship of $6,000 ($3,000 per semester) and a work-study allocation of up to $2,400.\nPlease accept or decline each award by June 1, 2026. If you have questions, call us at 555-0187, Monday through Friday, 8:30 a.m. to 4:30 p.m.\nSincerely,\nOffice of Student Financial Aid"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Dr Nakamura,\nOn behalf of the programme committee, I am happy to tell you that your paper \"Soil Carbon in Upland Pasture, 1998 to 2024\" (submission #217) has been accepted for oral presentation.\nTalks are 15 minutes plus 5 minutes for questions. Please upload your slides by 5 October.\nThe early registration fee of €280 applies until 31 August; after that it is €340.\nWith best wishes,\nElodie Marchetti, Programme Chair"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Dr Whitfield,\nI am writing to request a 7-day extension for my ECON2105 coursework, which is due on Friday 27 November at 12 noon.\nI was ill from 18 to 24 November and have attached a note from the campus medical centre. If approved, my new deadline would be Friday 4 December.\nMany thanks for considering this.\nKind regards,\nPriya Raman (student no. 2214 0937)"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Reservation ready to collect\nHello Sam,\nThe item you reserved is now waiting for you at the Issue Desk, Hartley Library:\nMedieval Towns of the North, by R. A. Penhallow (shelfmark 942.03 PEN)\nIt will be held until 20:00 on Saturday 17 October. You currently have 6 of 12 loans in use.\nLibrary Services"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr Fairbairn,\nThank you for your gift of £250 to the Brackenhurst College Bursary Fund. With Gift Aid, it is worth £312.50 to the College.\nLast year the fund supported 43 students, with awards of between £500 and £2,000 each.\nWe would be delighted to see you at the Alumni Garden Party on Saturday 20 June 2026 at 3pm.\nWith warm thanks,\nFiona Dalgleish\nDevelopment Director"
+    },
+    {
+      "kind": "letter",
+      "text": "From: Lab Manager <labs@physics.fenmore.ac.uk>\nSubject: Booking confirmed: Optics Lab 2\nHi Ana, your booking for Optics Lab 2 is confirmed for Wednesday 11 November, 09:00 to 13:00 (4 h).\nThe HeNe laser (632.8 nm) and the spectrometer are reserved for you. Please complete the risk assessment, form RA-7, at least 48 hours before.\nThanks, Gwen"
+    },
+    {
+      "kind": "letter",
+      "text": "To whom it may concern,\nThis is to confirm that Mr Oluwaseun Adeyemi (date of birth 03/08/2005) is a registered full-time undergraduate student at Fenmore University, studying BSc Civil Engineering.\nHis course began on 22/09/2024 and is expected to end on 30/06/2028.\nStudent number: 24101558\nSigned on behalf of the Academic Registrar\nStudent Records Office, 14 October 2026"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Climbing Club: Peak trip, 31 Oct\nHi all! 14 places left on the Halloween trip. The coach leaves the Union steps at 7:00 am sharp and gets back about 8:30 pm.\nCost is £22 for members and £30 for non-members, which covers transport and a guide. Pay by Wednesday 28th via the SU website.\nBring layers, 2 litres of water, a packed lunch and a head torch. Costumes optional!\nRhiannon, Trips Sec."
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: PHYS 201 midterm logistics\nHi everyone,\nThe midterm is Thursday, October 22, from 6:00 to 7:30 p.m. in Brandt Hall 104. It covers chapters 1 through 6 and is worth 25% of your grade.\nYou may bring one 8.5 x 11 in. sheet of notes (both sides) and a non-graphing calculator.\nOffice hours this week: Tue 3-4 p.m. and Wed 10-11 a.m.\nProf. Delgado"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Graduand,\nCongratulations! Your graduation ceremony will take place in the Great Hall on Wednesday 15 July 2026 at 11.00am. Please arrive by 9.30am to collect your gown.\nEach graduand may bring up to 2 guests free of charge. Extra tickets, if available, cost £15 each.\nThe ceremony lasts approx. 1 hour 45 minutes.\nYours faithfully,\nCeremonies Office"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Lucía,\nWelcome to the exchange programme! Your room in Residencia Las Encinas, room 2-118, is available from 1 February.\nMonthly rent is €395, including water and Wi-Fi. A deposit of €400 is due on arrival, so please bring €795 for the first payment.\nYour buddy, Marco, will meet you at the bus stop outside Faculty Building B at 16:00 on arrival day.\nSaludos,\nInternational Office"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your storage is 92% full\nDear user,\nYour university file storage is using 46.0 GB of your 50 GB quota. When you reach 100%, you will not be able to save new files or receive email.\nTo free up space, empty your Recycle Bin and move large files to the shared project drive. Need more? Request an increase at ithelp@fenmore.ac.uk (ticket category 3.4).\nIT Service Desk, ext. 5000"
+    },
+    {
+      "kind": "menu",
+      "text": "THE REFECTORY\nLunch, Monday 12 October, served 11:45 to 14:15\nRoast chicken, herb potatoes, greens £5.20\nChickpea & spinach curry, rice (VG) £4.60\nFish & chips, mushy peas £5.80\nJacket potato with beans & cheese £3.90\nSoup of the day with roll £2.75\nAdd a drink & pudding for £1.50\nStudent ID required for these prices"
+    },
+    {
+      "kind": "menu",
+      "text": "Whitcombe Dining Hall\nDinner, 5:00 to 8:30 PM\nGrill: Smash burger, fries\nGlobal: Chicken tikka masala, basmati rice, naan\nPlant Forward: Black bean enchiladas (VG, GF)\nPasta Bar: Penne with marinara or alfredo\nDessert: Apple crisp\nGuest meal $12.75; meal swipes accepted\nAllergen info: ask a manager or call 555-0128"
+    },
+    {
+      "kind": "menu",
+      "text": "COFFEE\nEspresso 1.90 / 2.20\nAmericano 2.40 / 2.80\nFlat white 2.90\nLatte 2.90 / 3.30\nMocha 3.20 / 3.60\nOat, soy or almond milk +30p\nExtra shot +50p\nBring your own cup: 25p off"
+    },
+    {
+      "kind": "menu",
+      "text": "UNION BAR FOOD, served 12 till 9\nLoaded fries £4.50\nHalloumi wrap £5.95\nBuffalo wings (6) £5.25 / (12) £9.50\nBeef or bean burger £7.95\nPizza 10\" £6.50, toppings 60p each\nWing Wednesday: 12 wings for £6!\nKitchen closes 30 mins before the bar"
+    },
+    {
+      "kind": "menu",
+      "text": "St Aldric's College\nMichaelmas Formal Hall, Friday 16 October 2026\nCeleriac velouté, truffle oil\nBraised beef cheek, pommes purée, glazed carrots\nVegetarian: wild mushroom & tarragon tart (V)\nDark chocolate délice, crème fraîche\nCoffee & petits fours\nTickets £18.50 (guests £24.00); gowns to be worn"
+    },
+    {
+      "kind": "menu",
+      "text": "El Comal Food Truck\nParked outside the Science Library, Tue & Thu 11 a.m. to 3 p.m.\nTacos (3) $9.00\nBurrito al pastor $11.50\nQuesadilla, cheese & jalapeño $8.25\nElote $4.00\nHorchata 16 oz $3.75\nCombo: any burrito + drink $14.00"
+    },
+    {
+      "kind": "menu",
+      "text": "Café Aula, Faculty of Letters\nCroissant €1.40\nTortilla sandwich €3.20\nMixed salad €4.80\nCafé con leche €1.30\nFresh orange juice €2.50\nMenu of the day (2 courses, bread, drink and dessert) €9.50\nAll prices include 10% VAT"
+    },
+    {
+      "kind": "menu",
+      "text": "Breakfast at Cedar Court\nWeekdays 7:30 to 9:30, weekends 8:30 to 10:30\nFull English (2 sausages, bacon, egg, beans, toast)\nVegetarian breakfast with 2 veggie sausages\nPorridge with honey or golden syrup\nCereals, yoghurt & fresh fruit\nToast, croissants, jam & marmalade\nTea, coffee, juice\nIncluded in catered rent; guests £6.50"
+    },
+    {
+      "kind": "menu",
+      "text": "Saturday Campus Market: Bakery Stall\nSourdough loaf 800g £4.20\nSeeded rye 600g £3.80\nCinnamon buns £2.40 each or 4 for £8.50\nAlmond croissant £2.60\nBrownie slab £2.25\nFocaccia, rosemary & sea salt £3.50\nCash or card, no minimum"
+    },
+    {
+      "kind": "menu",
+      "text": "NOODLE BAR, Student Hub Level 2\n1. Chicken ramen £7.50\n2. Tofu katsu curry £7.20\n3. Prawn pad thai £8.10\n4. Vegetable gyoza (5) £4.00\n5. Edamame with sea salt £3.00\nAdd a soft-boiled egg 80p\nStudent deal: any main + miso soup £8.50 (Mon to Thu)"
+    },
+    {
+      "kind": "menu",
+      "text": "Blend Bar @ Rec Center\nSmoothies 20 oz $6.50\nGreen Machine: spinach, banana, mango, apple juice\nPB Power: peanut butter, banana, oat milk, cocoa\nBerry Blast: strawberry, blueberry, Greek yogurt\nAdd whey or plant protein +$1.25\nAdd chia seeds +$0.75\nShow your rec pass for 10% off"
+    },
+    {
+      "kind": "menu",
+      "text": "Postgraduate Research Day: catering\n09:15 Arrival tea, coffee & pastries\n11:00 Mid-morning break with fruit\n12:45 Buffet lunch: sandwich platters, falafel wraps, couscous salad, crisps\n15:30 Afternoon tea with scones, jam & clotted cream\nDietary requirements to events@brackenhurst.ac.uk by 2 March\nCatering for 120 delegates"
+    },
+    {
+      "kind": "menu",
+      "text": "KEBAB KORNER, open till 3am\nChicken shish £7.00\nLamb doner, small £6.00 / large £8.50\nFalafel wrap £5.50\nChips £2.50 / cheesy chips £3.20\nCan of drink £1.20\nMeal deal: wrap + chips + can £8.00\nFree delivery to halls over £15. Tel 07700 900583"
+    },
+    {
+      "kind": "menu",
+      "text": "THE BUTTERY, Hall prices 2026/27\nBreakfast roll £2.10\nMain course £3.85\nVegetarian main £3.40\nSide salad 95p\nPudding £1.30\nFruit 40p\nTea or coffee 70p\nPrices for members on battels; visitors pay 20% more"
+    },
+    {
+      "kind": "menu",
+      "text": "Campus Corner Pizza\nSizes: 10 in / 14 in / 18 in\nCheese $9.99 / $13.99 / $17.99\nPepperoni $11.49 / $15.99 / $19.99\nVeggie Supreme $12.49 / $16.99 / $21.49\nExtra toppings $1.25 / $1.75 / $2.25\nGarlic bread $4.50\nTuesday: any 14 in pizza $10 with student ID"
+    },
+    {
+      "kind": "timetable",
+      "text": "CAMPUS SHUTTLE U1\nRail Station to Science Park via City Centre\nMon to Fri, every 15 minutes\nRail Station 07:05 07:20 07:35 07:50\nClock Tower 07:12 07:27 07:42 07:57\nMain Campus 07:21 07:36 07:51 08:06\nScience Park 07:29 07:44 07:59 08:14\nLast bus from Science Park 23:45\nSingle £1.20, student week pass £6.00"
+    },
+    {
+      "kind": "timetable",
+      "text": "Year 2 BSc Psychology, Week 3\nMon 09:00-10:00 PSY2108 Lecture, LT1\nMon 14:00-16:00 PSY2050 Lab, Room B1.22\nTue 11:00-12:00 PSY2063 Lecture, Hargreaves Theatre\nWed 10:00-11:00 Seminar Group 4, Room 2.15\nThu 13:00-15:00 PSY2050 Lab, Room B1.22\nFri 09:00-10:00 Personal tutor drop-in, Room 3.04"
+    },
+    {
+      "kind": "timetable",
+      "text": "Hartley Library opening hours, Autumn term 2026\nMonday to Thursday 08:00 to 00:00\nFriday 08:00 to 21:00\nSaturday 10:00 to 18:00\nSunday 10:00 to 22:00\nExam period (4 to 22 January): open 24 hours\nHelp desk staffed 09:00 to 17:00 weekdays"
+    },
+    {
+      "kind": "timetable",
+      "text": "Ridgeway Sports Centre: classes\nMon 07:15 Spin (45 min), Studio 2\nMon 18:30 Yoga (60 min), Studio 1\nTue 12:10 HIIT (30 min), Sports Hall\nWed 17:30 Pilates (50 min), Studio 1\nThu 19:00 Boxfit (45 min), Studio 2\nSat 10:00 Parkrun warm-up, meet at the pavilion\nBook via the app; classes open 7 days ahead"
+    },
+    {
+      "kind": "timetable",
+      "text": "January Examinations 2027: candidate 2214 0937\nTue 12 Jan 09:30 ECON2105 Microeconomics II, 2 h, Sports Hall desk 118\nThu 14 Jan 14:00 ECON2110 Econometrics, 3 h, Great Hall desk 42\nMon 18 Jan 09:30 ECON2120 Economic History, 2 h, Room G.04\nFri 22 Jan 14:00 MATH1902 Statistics for Economists, 1 h 30 min, Sports Hall desk 7\nArrive 20 minutes before the start. Bring your student card."
+    },
+    {
+      "kind": "timetable",
+      "text": "Welcome Week Schedule, Saturday, August 22\n8:00 a.m. Move-in begins, all residence halls\n11:30 a.m. Family lunch, North Lawn\n1:00 p.m. Convocation, Brandt Auditorium\n3:15 p.m. Campus tour (leaves every 20 min from the Bell Tower)\n6:00 p.m. Floor meetings\n9:00 p.m. Movie on the Quad"
+    },
+    {
+      "kind": "timetable",
+      "text": "Trains to University Halt\nPlatform 3, Mon to Sat\nKingsbridge dep. 06:48 07:18 07:48 08:18\nAshby Road 06:55 07:25 07:55 08:25\nMilton Parkway 07:01 07:31 08:01 08:31\nUniversity Halt arr. 07:06 07:36 08:06 08:36\nSundays: hourly from 09:18\nRailcard holders save 1/3 on all fares"
+    },
+    {
+      "kind": "timetable",
+      "text": "Day 2 programme, 9 April\n09:00 Keynote: Dr Amara Osei, \"Reading Old Maps\"\n10:00 Session 3A (Room 1) / Session 3B (Room 2)\n11:15 Coffee\n11:45 Poster session, Atrium (max. A0, portrait)\n13:00 Lunch\n14:00 Panel: Archives after 2030\n15:30 Close and prize for best poster (£100 book token)"
+    },
+    {
+      "kind": "timetable",
+      "text": "Student Advice Centre opening times\nMon 10:00-16:00\nTue 10:00-19:00 (late opening)\nWed 13:00-16:00\nThu 10:00-16:00\nFri 10:00-15:00\nDrop in or book a 30-minute appointment: 01632 960884\nClosed 24 Dec to 2 Jan inclusive"
+    },
+    {
+      "kind": "timetable",
+      "text": "Term dates 2026/27\nAutumn term: 28 September 2026 to 11 December 2026\nSpring term: 11 January 2027 to 26 March 2027\nSummer term: 26 April 2027 to 18 June 2027\nReading weeks: 2 to 6 November and 15 to 19 February\nGraduation week: 12 to 16 July 2027"
+    },
+    {
+      "kind": "timetable",
+      "text": "SafeRide Night Shuttle\nThu to Sat, 9 PM to 3 AM\nStops every 30 min:\n:00 Student Union\n:07 Library, west entrance\n:12 Greek Row\n:18 Maple Street apartments\n:24 Stadium Lot C\nTrack live at saferide.larkfield.edu or call 555-0164"
+    },
+    {
+      "kind": "timetable",
+      "text": "Fume hood cleaning rota, Lab 4.12\nWeek 1 (5 Oct) Okafor & Lindqvist\nWeek 2 (12 Oct) Mbeki & Sato\nWeek 3 (19 Oct) Ferreira & Novak\nWeek 4 (26 Oct) Hughes & Petrov\nWeek 5 (2 Nov) Okafor & Lindqvist\nSign the log sheet after each clean. Spills over 100 ml: call ext. 2299"
+    },
+    {
+      "kind": "timetable",
+      "text": "Aquatics Centre, 25 m pool\nMon/Wed/Fri 06:30-08:30 lane swim (6 lanes)\nMon/Wed/Fri 12:00-13:30 lane swim (4 lanes)\nTue/Thu 17:00-19:00 club training, pool closed to public\nSat 09:00-12:00 family swim, water temp. 29 °C\nSun 14:00-16:00 adult lessons, £8.50 per session"
+    },
+    {
+      "kind": "timetable",
+      "text": "International Arrivals Coach, 19 to 21 September\nHeathfield Airport, Coach Bay 9, to Main Campus\nDeparts 08:00, 10:30, 13:00, 15:30, 18:00 and 20:30\nJourney time approx. 1 hr 10 min\nFree for new international students; show your CAS number\nMissed the last coach? Call the Welcome Desk on 07700 900376"
+    },
+    {
+      "kind": "timetable",
+      "text": "Philosophy Research Seminar, Autumn 2026\nWednesdays 4.15pm, Room 2.08, Arts Tower\n14 Oct Dr Kwame Asante, Vagueness and Colour\n21 Oct Prof. Ingrid Solberg, Promises\n28 Oct No seminar (reading week)\n4 Nov Dr Ruth Abernathy, Moral Luck Revisited\n11 Nov Dr Mateo Ruiz, What Is a Problem?\nTea & biscuits from 4pm. All welcome."
+    },
+    {
+      "kind": "recipe",
+      "text": "Five-Bean Chilli for a Flat of 6\nServes 6 | Prep 15 min | Cook 40 min\n2 tbsp olive oil\n2 onions, chopped\n3 garlic cloves\n2 tsp smoked paprika, 1 tsp cumin\n2 x 400g tins mixed beans, drained\n1 x 400g tin chopped tomatoes\n250ml veg stock\nFry onion 8 min, add garlic and spices for 1 min, then everything else. Simmer 30 min. Approx. £1.10 per portion."
+    },
+    {
+      "kind": "recipe",
+      "text": "Mug Brownie (microwave)\n4 tbsp self-raising flour\n4 tbsp sugar\n2 tbsp cocoa powder\n3 tbsp milk\n2 tbsp vegetable oil\nPinch of salt\nMix in a large mug until smooth. Microwave on high (800W) for 1 min 30 sec. Leave 2 minutes before eating: it's very hot!"
+    },
+    {
+      "kind": "recipe",
+      "text": "Dorm Microwave Mac & Cheese (1 serving)\n1/2 cup elbow macaroni\n1/2 cup water\n1/4 cup milk\n1/2 cup shredded cheddar\nPinch of salt and black pepper\nMicrowave the pasta and water in a large mug for 2 min, stir, then 2 min more (repeat until tender, about 6 min total). Stir in the milk and cheese; heat 30 sec. Approx. 410 calories."
+    },
+    {
+      "kind": "recipe",
+      "text": "Overnight Oats, 1 jar\n50g rolled oats\n120ml milk (any kind)\n2 tbsp Greek yoghurt\n1 tsp honey\nHandful of berries\nStir, put the lid on and leave in the fridge overnight. Keeps 2 days. 380 kcal per jar, approx. 75p."
+    },
+    {
+      "kind": "recipe",
+      "text": "Shakshuka, serves 2\n1 tbsp oil, 1 onion, 1 red pepper\n2 garlic cloves, 1 tsp cumin, 1/2 tsp chilli flakes\n400g tin chopped tomatoes\n4 eggs\nFeta & coriander to finish\nSoften onion and pepper 10 min. Add garlic, spices and tomatoes; simmer 10 min. Make 4 wells, crack in the eggs, cover for 6 to 8 min."
+    },
+    {
+      "kind": "recipe",
+      "text": "Abuela Nuñez's Tortilla\nServes 4, 45 minutes\n600 g waxy potatoes, thinly sliced\n1 onion, sliced\n6 large eggs\n200 ml olive oil\n1 tsp salt\nCook the potatoes and onion gently in the oil for 20 min; drain. Beat the eggs with the salt, add the potatoes, rest 10 min. Cook in a 24 cm pan, 5 min per side."
+    },
+    {
+      "kind": "recipe",
+      "text": "Halls Kitchen Soda Bread\n500 g plain flour\n1 tsp bicarbonate of soda\n1 tsp salt\n400 ml buttermilk\nOven 200 °C / 180 °C fan / gas 6\nMix to a soft dough, shape a round, cut a deep cross. Bake 30 to 35 min until it sounds hollow underneath."
+    },
+    {
+      "kind": "recipe",
+      "text": "Instant Ramen, Upgraded\n1 pack instant noodles (use half the sachet)\n1 egg, boiled 6 1/2 min\n1 spring onion, sliced\n1 tsp soy sauce, 1/2 tsp sesame oil\nHandful of spinach\nCook noodles 3 min, stir in spinach for the last 30 sec. Top with the halved egg and onion. Total cost approx. 90p."
+    },
+    {
+      "kind": "recipe",
+      "text": "Red Lentil Soup (budget card no. 7)\n200g red lentils 40p\n1 onion 15p\n2 carrots 20p\n1 tsp curry powder 5p\n1 stock cube 10p\n1.2 litres water\nTotal 90p for 4 bowls, about 23p each\nSimmer everything 25 min, blend half."
+    },
+    {
+      "kind": "recipe",
+      "text": "Chocolate Chip Cookies (Res Hall Bake-Off winner 2025)\n2 1/4 cups flour, 1 tsp baking soda, 1 tsp salt\n1 cup butter, softened\n3/4 cup sugar, 3/4 cup brown sugar\n2 eggs, 1 tsp vanilla\n2 cups chocolate chips\nBake at 350°F for 10 to 12 min. Makes about 48."
+    },
+    {
+      "kind": "recipe",
+      "text": "Quick Chicken Stir-Fry\nServes 2 | 20 min | 520 kcal each\n2 chicken breasts (approx. 300 g), in strips\n1 tbsp soy sauce, 1 tbsp honey, 1 tsp grated ginger\n1 pack stir-fry veg (320 g)\n2 nests egg noodles\nCook noodles 4 min. Fry chicken on high 5 to 6 min, add veg for 3 min, then sauce and noodles for 1 min."
+    },
+    {
+      "kind": "recipe",
+      "text": "Hummus for the Society Social\nMakes 1 large bowl (approx. 10 portions)\n2 x 400g tins chickpeas, drained (keep 4 tbsp liquid)\n3 tbsp tahini\nJuice of 1 1/2 lemons\n1 garlic clove\n4 tbsp olive oil, 1/2 tsp salt\nBlitz 3 min until smooth, loosen with the reserved liquid. Top with paprika."
+    },
+    {
+      "kind": "recipe",
+      "text": "Winter Ball Mulled Apple (non-alcoholic)\nFor 20 cups:\n4 litres cloudy apple juice\n2 oranges, sliced\n4 cinnamon sticks\n8 cloves, 3 star anise\n100 g brown sugar\nHeat gently to 70 °C; never boil. Hold on the lowest setting for up to 3 hrs."
+    },
+    {
+      "kind": "recipe",
+      "text": "Tuna Pasta Bake, serves 4\n300g pasta shapes\n2 x 145g tins tuna, drained\n198g tin sweetcorn\n1 jar tomato sauce (500g)\n100g grated cheddar\nCook pasta 2 min less than the pack says. Mix with tuna, corn and sauce, top with cheese, bake 20 min at 190°C."
+    },
+    {
+      "kind": "recipe",
+      "text": "Crêpes for Pancake Day\nMakes 10\n125 g plain flour\n2 eggs\n300 ml milk\n1 tbsp melted butter, pinch of salt\nRest the batter 30 min. Use 3 tbsp per crêpe in a 20 cm pan, 1 min per side. Serve with lemon & sugar, or chocolate spread and banana."
+    },
+    {
+      "kind": "label",
+      "text": "Sodium chloride, NaCl\nPurity ≥ 99.5%\n500 g\nLot No. 26B0417\nExp. 03/2029\nStore at 15-25 °C, keep container tightly closed.\nChem Stores, Fenmore University, Bldg 7, ext. 2240"
+    },
+    {
+      "kind": "label",
+      "text": "PROJECT GLACIER-2 SAMPLE\nID: GL2-0153\nCollected: 14/08/2026 11:20\nSite: Core 4, depth 1.75 m\nStore at -80 °C\nCollector: H. Kowalczyk\nDO NOT THAW"
+    },
+    {
+      "kind": "label",
+      "text": "Fenmore University Official Merchandise\n80% cotton, 20% polyester\nSize: L (chest 42-44 in / 107-112 cm)\nMachine wash 30°C, inside out\nDo not tumble dry\nMade in Portugal\nStyle 2207 Navy/Gold"
+    },
+    {
+      "kind": "label",
+      "text": "Campus Roasters\nQuad Blend, whole bean\nColombia 60% / Ethiopia 40%\nNotes of cocoa, cherry and brown sugar\nRoasted 02/10/2026\nBest before 02/04/2027\nNet wt. 250 g (8.8 oz)\n£7.50"
+    },
+    {
+      "kind": "label",
+      "text": "Chicken & Avocado Wrap\nMade on campus 14.10.26\nUse by 15.10.26\nEnergy 1,837 kJ / 439 kcal per pack\nFat 18.2 g, of which saturates 4.1 g\nContains: wheat, milk, mustard\nKeep refrigerated below 5°C\n£3.95"
+    },
+    {
+      "kind": "label",
+      "text": "REFERENCE ONLY\nNot for loan\nShelfmark: Q 510.3 HAL\nBarcode 3 0114 02287 551 6\nHartley Library, Level 2\nIf found outside the library, please return to the Issue Desk."
+    },
+    {
+      "kind": "label",
+      "text": "Amoxicillin 500mg capsules\nTake ONE capsule THREE times a day for 7 days\nComplete the course.\nQty: 21\nMs J. Okoro 12/10/2026\nQuadrangle Pharmacy, Medical Centre, Gate 3\nTel 01632 960509"
+    },
+    {
+      "kind": "label",
+      "text": "Larkfield Lions Sport Bottle\nCapacity 24 fl oz (710 mL)\nBPA-free Tritan\nHand wash only; not dishwasher safe\nDo not use for hot liquids above 140°F (60°C)\nItem #LS-3318\n$14.99"
+    },
+    {
+      "kind": "label",
+      "text": "PAT TESTED\nPassed\nAsset No. EST-04419\nTested 11/03/2026\nRetest due 11/03/2027\nTester: D. Mwangi\nDo not remove this label"
+    },
+    {
+      "kind": "label",
+      "text": "Ethanol absolute, 2.5 L\nHighly flammable liquid and vapour.\nCauses serious eye irritation.\nKeep away from heat, sparks and open flames. No smoking.\nFlash point 13 °C\nCAS 64-17-5\nOpened: 07/09/2026 by R. Achebe, Lab 3.11"
+    },
+    {
+      "kind": "label",
+      "text": "Brackenhurst Beekeeping Society\nWildflower Honey\nHarvested from the college hives, July 2026\nNet weight 340 g\nBest before end 2028\nNot suitable for children under 12 months\nJar 57 of 120\nBatch WH26-3"
+    },
+    {
+      "kind": "label",
+      "text": "PARCEL\nTo: Tom Haverford, Room 2.14, Nightingale Hall\nFenmore University, Fenmore FN7 4AB\nWeight 1.36 kg\nTracking no. FX 7740 2281 93GB\nReceived at mailroom 13/10 15:42, shelf C\nCollect within 7 days with student ID"
+    },
+    {
+      "kind": "label",
+      "text": "Lion's Den Grab & Go\nTeriyaki Salmon Bowl\nPacked 10/12/26\nSell by 10/14/26\nServing size 1 bowl (368 g)\nCalories 525\nProtein 32 g, Carbs 61 g, Fat 17 g\nContains: fish, soy, wheat, sesame\n$9.49"
+    },
+    {
+      "kind": "label",
+      "text": "Multi-surface cleaner, refill station\nDilute 1:40 (25 ml per 1 L of water)\npH 7.5\nRefilled 05/10/2026, bottle no. 12\nKeep out of reach of children.\nEstates Cleaning Services, Block F"
+    },
+    {
+      "kind": "label",
+      "text": "Histology slides, Box 14 of 20\nSpecimens HS-301 to HS-325 (25 slides)\nStain: H&E\nSection thickness 5 µm\nPrepared 2026-09-28 by Dr F. Ouédraogo\nReturn to cabinet 3, drawer B"
+    },
+    {
+      "kind": "flyer",
+      "text": "FRESHERS' FAIR 2026\nOver 220 clubs and societies under one roof!\nTuesday 22 & Wednesday 23 September, 11am to 4pm\nMain Sports Hall and the Union Courtyard\nFree pizza at 1pm (while it lasts), free tote bag for the first 500 through the door\n#FenmoreFreshers"
+    },
+    {
+      "kind": "flyer",
+      "text": "ROOM TO LET near campus\nDouble room in a 4-bed student house, 9 Linnet Road\n5 min walk to the Science Park, 12 min to the station\n£135 per week incl. bills & Wi-Fi\nAvailable from 1 January 2027 to 30 June 2027\nCall or text Ellie on 07700 900641"
+    },
+    {
+      "kind": "flyer",
+      "text": "OPEN MIC NIGHT\nThursday 29 October, doors 7.30pm\nThe Old Boathouse Bar\nPoetry, music, comedy: 10 minute slots\nSign up at the bar from 7pm\nEntry £3, free for performers\nPrize for the best act: a £50 bar tab"
+    },
+    {
+      "kind": "flyer",
+      "text": "PARTICIPANTS WANTED\nDo you sleep less than 7 hours a night?\nWe are looking for students aged 18 to 30 for a study on sleep and memory.\nOne 90-minute session in the Psychology Building, Room B1.08\nYou will receive a £15 gift voucher.\nEthics ref. PSY-ETH-2026-114\nEmail sleepstudy@fenmore.ac.uk"
+    },
+    {
+      "kind": "flyer",
+      "text": "Struggling with Calc I or II?\nFree peer tutoring, Sunday to Thursday, 7 to 10 PM\nMath Learning Center, Brandt Hall 210\nNo appointment needed\nOver 3,400 visits last year!\nQuestions: mathcenter@larkfield.edu or 555-0191"
+    },
+    {
+      "kind": "flyer",
+      "text": "5K Fun Run for the Campus Food Bank\nSaturday 14 November 2026, 10:00 start at the Pavilion\n2 laps of the lakeside path\nEntry £8 (students £5), every penny goes to the food bank\nFancy dress encouraged!\nRegister by 11 November at fenmoresu.org/run, bib numbers 1 to 400"
+    },
+    {
+      "kind": "flyer",
+      "text": "Tándem Café: language exchange\nSpanish, French, Mandarin, Arabic, Dutch, English & more\nEvery Monday, 18:00 to 20:00, International House, Kerkstraat 14\nTalk for 30 minutes in your language, 30 minutes in theirs\nFirst drink on us (up to €3)"
+    },
+    {
+      "kind": "flyer",
+      "text": "LIVE IN THE UNION\nTHE PAPER LANTERNS + support from Halfway Kites\nFriday 6 November, doors 19:30, on stage 21:00\nTickets £12 advance / £15 on the door\nOver 18s, ID required\nBox office 01632 960927"
+    },
+    {
+      "kind": "flyer",
+      "text": "MOVE-OUT SALE\nEverything must go by May 15!\nMini fridge $40\nDesk lamp $8\nFuton (full size) $75\nMicrowave 700W $25\nTextbooks for BIOL 101 and CHEM 121, $20 each\nPickup only, 412 Maple St Apt 3B\nText Jordan 555-0115"
+    },
+    {
+      "kind": "flyer",
+      "text": "Volunteer Week, 1 to 5 March\nGive 2 hours, get a free coffee!\nBeach clean, Monday 1 March, coach leaves 09:15\nLitter pick on campus, every day at 12:30\nReading buddies at Ashgrove Primary, Wed & Fri\nSign up at the SU desk; 140 places in total"
+    },
+    {
+      "kind": "flyer",
+      "text": "Graduation Portraits\nStudio sittings in the Library Foyer, 13 to 17 July\nPackages from £29 (1 print + digital file)\nFamily group shot add-on £15\nPre-book online and save 10%: code GRAD10\nFrames available in oak or black, 8x10 in"
+    },
+    {
+      "kind": "flyer",
+      "text": "FILM SOC presents: Autumn Season\nEvery Sunday at 7pm, Lecture Theatre 2\n4 Oct: Science fiction double bill\n11 Oct: French night (subtitled, with crêpes)\n18 Oct: Documentary + Q&A with the director\n25 Oct: Halloween horror\nMembership £10 for the year, or £2 a film"
+    },
+    {
+      "kind": "flyer",
+      "text": "Give blood on campus\nStudent Hub, Rooms 1 & 2\nThursday 19 November, 10:00 to 15:30\nIt takes about 1 hour, and 1 donation can help up to 3 people.\nBook a slot on 01632 960161 or just drop in.\nPlease eat and drink well beforehand."
+    },
+    {
+      "kind": "flyer",
+      "text": "HACK FENMORE 2026\n24 hours of building, 7-8 November\nComputer Science Building, Level 0\nTeams of 2 to 4, all skill levels welcome\nPrizes worth £1,500, free food all weekend\nRegister by 31 Oct: 180 places only\n#HackFenmore @fenmorecs"
+    },
+    {
+      "kind": "flyer",
+      "text": "CHAMBER CHOIR AUDITIONS\nSopranos, altos, tenors & basses wanted\nAuditions: 29 & 30 September, 5:00 to 8:00 pm, Music Room 1\nPrepare 1 short piece (max. 3 min); sight-reading included\nRehearsals Tuesdays 7 to 9:30 pm\nConcert tour to Leipzig, March 2027 (approx. €450 per singer)"
+    },
+    {
+      "kind": "form",
+      "text": "Hartley Library: external membership application\nName: Graham Pettigrew\nAddress: 27 Osier Lane, Fenmore FN2 8LW\nPhone: 01632 960378\nCategory: Alumni (graduated 1996)\nFee: £40 per year\nCard no. issued: EXT-2026-0581\nSignature: G. Pettigrew Date: 12/10/2026"
+    },
+    {
+      "kind": "form",
+      "text": "WINTER BALL 2026\nSaturday 5 December, 19:00 till 01:00\nFenmore Assembly Rooms\nTicket type: Dining (3 courses + after-party)\nPrice £58.00\nTable 14, Seat 6\nTicket no. 004318\nDress code: black tie\nNon-transferable. Present with student ID."
+    },
+    {
+      "kind": "form",
+      "text": "Postgraduate Expense Claim\nClaimant: Jun Li, Dept of History, student no. 2309 4471\n12/05 Train Fenmore to London return £46.80\n12/05 Archive reading room day pass £10.00\n12/05 Lunch (subsistence cap £15) £9.45\n13/05 Photocopying 64 pages @ 15p £9.60\nTotal claimed £75.85\nBudget code HIS-PGR-07\nApproved by: T. Echeverría"
+    },
+    {
+      "kind": "form",
+      "text": "Course Add/Drop Form, Fall 2026\nStudent: Daniel Kim ID 900588104\nADD: CHEM 121 Sec. 03, General Chemistry I, 4 credits\nADD: CHEM 121L Sec. 07, Lab, 1 credit\nDROP: BIOL 110 Sec. 01, Intro Biology, 4 credits\nCredits before change: 14\nCredits after change: 15\nAdvisor signature: L. Moreau Date: 09/02/2026"
+    },
+    {
+      "kind": "form",
+      "text": "PARKING PERMIT 2026/27\nPermit no. 7716\nZone: B (staff and postgraduate)\nVehicle reg.: KX19 TRN\nValid from 01/09/2026 to 31/08/2027\nDisplay on the dashboard, nearside, clearly visible.\nFee paid: £168.00 (12 monthly payments of £14.00)"
+    },
+    {
+      "kind": "form",
+      "text": "Accommodation Preference Form 2027/28\nApplicant no. A-26-11903\n1st choice: Cedar Court, en-suite, £172 per week\n2nd choice: Marlowe House, standard, £139 per week\n3rd choice: Any catered hall\nContract length: 42 weeks\nQuiet floor? Yes\nAccessibility needs: Ground floor room please (knee surgery, 2025)"
+    },
+    {
+      "kind": "form",
+      "text": "Lab Induction Record, Lab 3.11\nName: Rosa Ibáñez\nFire exits & assembly point shown [x]\nSpill kit location shown [x]\nEyewash & shower tested [x]\nWaste streams explained [x]\nRisk assessments RA-3, RA-7, RA-12 read [x]\nInducted by: Dr P. Lindqvist on 21/09/2026, 10:40"
+    },
+    {
+      "kind": "form",
+      "text": "STANDARD CLASS\nFENMORE to KINGSBRIDGE\nOff-peak day return\nValid 14 Oct 2026\nRoute: Any permitted\nAdult fare £14.10, 16-25 Railcard 1/3 off\nPrice £9.40\nTicket no. 48119 00327\nOut: 08:18 Return: any off-peak train"
+    },
+    {
+      "kind": "form",
+      "text": "Coursework Cover Sheet\nModule: GEOG2210 Coastal Processes\nAssignment: Field report (3,000 words max.)\nWord count: 2,874\nStudent no.: 25106612\nSubmitted: 04/12/2026 11:52\nMark: 68%\nMarker: Dr S. Abernethy\nSecond marker: Dr N. Faure"
+    },
+    {
+      "kind": "form",
+      "text": "VISITOR PASS\nName: Helen Brightwater\nCompany: Northcote Elevators Ltd\nVisiting: Estates Office, Block F\nDate: 13/10/2026 Time in: 08:47\nCar reg.: none\nPass no. V-2291\nMust be worn visibly. Return to Reception on leaving."
+    },
+    {
+      "kind": "form",
+      "text": "LARKFIELD LIONS vs. HARMON STATE\nSaturday, November 7, 2026 Kickoff 1:00 PM\nMemorial Stadium\nSection 112 Row K Seat 18\nStudent ticket $0.00\nGate opens 11:30 AM\nBarcode 7 4410 20983 5\nClear bag policy in effect"
+    },
+    {
+      "kind": "form",
+      "text": "Campus Health Centre: new patient registration\nSurname: Okafor First name: Chidinma\nDate of birth: 17/02/2007\nTerm address: Flat 6, Room C, Cedar Court\nMobile: 07700 900219\nPrevious GP: Ashgrove Surgery, Lindford\nAllergies: penicillin\nSigned: C. Okafor 23/09/2026"
+    },
+    {
+      "kind": "form",
+      "text": "INTER-LIBRARY LOAN REQUEST\nRequester: M. Ferreira, PhD, Dept of Linguistics\nTitle: Vowel Shifts in Coastal Dialects\nAuthor: Brennan, A. (1987)\nPages 141-168 (chapter 6)\nCharge: £3.00, paid from dept. budget\nNeed by: 30/11/2026\nRequest no. ILL-26-0398"
+    },
+    {
+      "kind": "form",
+      "text": "Room Booking Request\nSociety: Chess Club\nRoom: Seminar Room 1.04 (capacity 30)\nDates: every Wednesday, 14 Oct to 9 Dec 2026 (9 weeks)\nTime: 18:00 to 21:00\nExpected attendance: 22\nEquipment: projector, 10 tables\nContact: Wei Zhang, 07700 900448\nStatus: APPROVED, ref. RB-5512"
+    },
+    {
+      "kind": "form",
+      "text": "Student Ambassador Timesheet, October 2026\nName: Liam O'Connell Payroll no. 55190\n03/10 Open Day 09:00-16:00 7.0 h\n10/10 Campus tours 10:00-13:30 3.5 h\n17/10 Open Day 09:00-15:30 6.5 h\nTotal hours 17.0\nRate £12.60 per hour\nGross pay £214.20"
+    },
+    {
+      "kind": "page",
+      "text": "4. Assessment and Feedback\n4.1 Most modules are assessed by a combination of coursework and examination. The weighting for each module is shown in the module guide, for example 40% coursework and 60% examination.\n4.2 Coursework must be submitted online by 12:00 (noon) on the deadline day. Work submitted up to 24 hours late receives a penalty of 10 marks; after 24 hours, a mark of 0 is recorded.\n4.3 You will receive feedback within 15 working days of the deadline.\n22"
+    },
+    {
+      "kind": "page",
+      "text": "A Short History of Brackenhurst College\nThe College was founded in 1868 by the cotton merchant Josiah Brackenhurst, who left £40,000 for \"the education of young men of modest means\". The first 26 students arrived in October 1871, when the Old Quad was still half built.\nWomen were admitted in 1974, and by 1980 they made up 41% of the student body. Today the College has some 520 undergraduates and 310 postgraduates from more than 60 countries."
+    },
+    {
+      "kind": "page",
+      "text": "Experiment 5: Determining g with a Simple Pendulum\nAim: to measure the acceleration due to gravity to within 2%.\nSet the string length L to 0.500 m, measured from the pivot to the centre of the bob. Displace the bob by no more than 10° and time 20 complete oscillations; repeat three times.\nThe period is T = t/20, and g = 4π²L/T². With L = 0.500 m you should find T ≈ 1.42 s.\nPage 31"
+    },
+    {
+      "kind": "page",
+      "text": "Chapter 7\nThe bell in the clock tower struck eleven as Nell crossed the quad, and she counted the strokes out of habit, the way her father had taught her in another city, a long time ago.\nRoom 14 was on the third floor of the Old Library, up 63 stone steps that dipped in the middle from a century and a half of feet. The door was ajar. Inside, Professor Haldane was already pouring two cups of tea.\n\"You're late,\" he said, without looking up. \"Four minutes. That's a record for you.\"\n112"
+    },
+    {
+      "kind": "page",
+      "text": "Feeling overwhelmed?\nYou are not alone. In our 2025 survey, 3 in 5 students said they had felt anxious about their studies at some point during the year.\nThe Wellbeing Service offers free, confidential support, including same-day appointments, 6-week counselling courses and evening workshops.\nCall 01632 960700 (9am to 5pm, Mon to Fri) or email wellbeing@fenmore.ac.uk. Out of hours, call the 24/7 student line on 01632 960199."
+    },
+    {
+      "kind": "page",
+      "text": "BSc Marine Biology\nCourse code C1F7 | 3 years full-time, or 4 years with a placement\nTypical offer: ABB including Biology, or DDM in a relevant BTEC\nYou'll spend at least 20 days in the field, including a 10-day residential trip to our research station at Pennock Bay in Year 2.\nIn 2025, 94% of our graduates were in work or further study 15 months after finishing.\nFees for UK students: £9,535 per year"
+    },
+    {
+      "kind": "page",
+      "text": "2.3 The Mean and the Median\nSuppose the weekly rents paid by five students are £120, £135, £135, £150 and £410. The mean is £950 ÷ 5 = £190, but four of the five students pay less than that.\nThe median, the middle value when the data are in order, is £135. When a data set contains an extreme value such as £410, the median is often the better summary of a typical value.\nExercise 2.3: Find the mean and median of 14, 9, 22, 9 and 16.\n38"
+    },
+    {
+      "kind": "page",
+      "text": "Fire Safety in Halls\nLast year, 212 fire alarms in our residences were false alarms, and 140 of those were caused by cooking. Every false alarm means up to 600 students standing outside, often at night.\nNever leave cooking unattended, keep kitchen doors shut and do not cover smoke detectors. Candles, incense and fairy lights that plug into the mains are not allowed.\nTampering with fire equipment carries a fine of £150 and may lead to disciplinary action."
+    },
+    {
+      "kind": "page",
+      "text": "Academic Standing\nA student whose cumulative GPA falls below 2.00 at the end of any semester will be placed on academic probation. Students on probation may enroll in no more than 13 credit hours and must meet with an academic advisor before the second week of classes.\nA student who remains below 2.00 for two consecutive semesters may be suspended for one semester. Appeals must be submitted to the Office of the Registrar within 10 business days.\nLarkfield State University Catalog 2026-2027, page 47"
+    },
+    {
+      "kind": "page",
+      "text": "Most domestic ovens run hot or cold by as much as 15 °C, which is why the same recipe can fail in one kitchen and succeed in another. Students in shared flats rarely own an oven thermometer, but one costs less than £6.\nIn our tests in 2024, the oven in a typical halls kitchen read 180 °C on the dial and 197 °C on the middle shelf. A cake that should take 35 minutes was done in 28.\nThe Thrifty Cook, Chapter 3"
+    },
+    {
+      "kind": "page",
+      "text": "Where does your recycling go?\nIn 2025/26 the campus produced 1,840 tonnes of waste. 62% was recycled or composted, up from 48% five years ago.\nFood waste from the 3 main kitchens goes to an anaerobic digester 9 miles away, where it is turned into electricity and fertiliser.\nHelp us reach 75% by 2030: rinse cans and bottles, flatten cardboard and never put plastic bags in the paper bins."
+    },
+    {
+      "kind": "page",
+      "text": "Module E-204: European Economic History, 6 ECTS\nLectures: Tuesdays 10:15-11:45, Aula Magna\nTutorials: Thursdays, groups A to D, Rooms 1.01 to 1.04\nAssessment: written exam (70%) and a 2,500-word essay (30%)\nThe module traces the economies of Europe from the end of the Napoleonic wars to the creation of the euro in 1999, with particular attention to trade, banking and migration.\nReading pack available from the copy shop, €12.50."
+    },
+    {
+      "kind": "page",
+      "text": "The library closed at midnight, but nobody had ever told the cleaner, Mrs Cartwright, so on most nights she was still there at a quarter past one, pushing her trolley along the Dewey decimals from 100 to 999 as if she were walking a dog.\nIt was she who found the letter, tucked into a copy of a 1952 atlas, its envelope addressed in green ink to a student who had graduated forty years before.\n\"Well,\" she said aloud, to nobody, \"that's not right.\"\nChapter Twelve, page 203"
+    },
+    {
+      "kind": "page",
+      "text": "Referencing in Harvard Style\nIn the text, give the author's surname and the year, with a page number for direct quotes: (Okonjo, 2019, p. 44).\nIn your reference list, arrange entries alphabetically by surname. A book entry looks like this:\nOkonjo, F. (2019) Rivers and Cities. 2nd edn. Fenmore: Quayside Press.\nNeed help? Book a 30-minute session with an academic skills tutor at the Library."
+    },
+    {
+      "kind": "page",
+      "text": "The Clock Tower\nStanding 46 metres high, the Clock Tower has been the symbol of the university since it was completed in 1904. Its four faces are each 3.2 m across, and the hour bell, known to students as \"Big Agnes\", weighs 2.4 tonnes.\nThe tower was restored between 2018 and 2021 at a cost of £3.6 million. Guided climbs of its 274 steps run on the first Saturday of every month, April to October.\nCampus Heritage Trail, Stop 5"
+    }
+  ]
+}

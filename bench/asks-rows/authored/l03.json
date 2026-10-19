@@ -1,0 +1,395 @@
+{
+ "batch": "l03",
+ "pairs": [
+  {
+   "skill": "cronToText",
+   "no": "the cron job at 6 every morning has been failing silently for weeks",
+   "yes": "when does this cron job run: 0 6 * * 1-5"
+  },
+  {
+   "skill": "cronToText",
+   "no": "nobody ever explained the cron expression on the old server in plain english",
+   "yes": "explain the cron expression 30 2 * * 0 in plain english"
+  },
+  {
+   "skill": "escapeRegex",
+   "no": "there is no escape from regex at this job, it is in every ticket",
+   "yes": "escape this for a regex: price (usd) $5.00"
+  },
+  {
+   "skill": "escapeRegex",
+   "no": "forgot to escape the dots in my pattern and it matched half the log",
+   "yes": "escape the dots in shop.example.com so the pattern matches it literally"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "no": "my brain is serving http status 503 today, try again tomorrow",
+   "yes": "explain http status 503"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "no": "a 418 teapot is the only http status code i actually find charming",
+   "yes": "what does http status code 418 mean"
+  },
+  {
+   "skill": "jwtDecode",
+   "no": "the jwt in our app expires every hour and the whole team hates it",
+   "yes": "decode this jwt from our app and show when it expires: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjMiLCJuYW1lIjoiQWRhIiwiZXhwIjoxNzY3MjI1NjAwfQ.c2ln"
+  },
+  {
+   "skill": "jwtDecode",
+   "no": "spent the whole sprint arguing about which claims go in the jwt token",
+   "yes": "show the claims inside this jwt token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjMiLCJuYW1lIjoiQWRhIiwiZXhwIjoxNzY3MjI1NjAwfQ.c2ln"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "no": "the mail server bounced my attachment over some mime type nonsense again",
+   "yes": "mime type for a .webp attachment"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "no": "my nephew wants to be a mime, which is a very specific type of career",
+   "yes": "what mime type is an .svg file"
+  },
+  {
+   "skill": "parseSemver",
+   "no": "version 2.0 of me is still in beta, honestly",
+   "yes": "parse version 2.0.0-beta.4 into its parts"
+  },
+  {
+   "skill": "parseSemver",
+   "no": "the jump to version 3.0.0 was a major release in every sense",
+   "yes": "split version 3.0.0-rc.1 into major, minor, patch and pre-release"
+  },
+  {
+   "skill": "testRegex",
+   "no": "everyone in the office has a regex they are secretly proud of",
+   "yes": "test this regex against my text: \\bcat\\w* on \"cats and catalogs and a dog\""
+  },
+  {
+   "skill": "testRegex",
+   "no": "she has a pattern of matching with the worst people on every app",
+   "yes": "show every match of the pattern [A-Z]\\w+ in: Paris and London are busy"
+  },
+  {
+   "skill": "unicodeLookup",
+   "no": "my username has a unicode snowman in it and nobody can ever type it",
+   "yes": "look up the unicode snowman character ☃"
+  },
+  {
+   "skill": "unicodeLookup",
+   "no": "unicode broke our database the week a customer with an umlaut signed up",
+   "yes": "unicode code point and encodings for the umlaut ü"
+  },
+  {
+   "skill": "base64Decode",
+   "no": "the api docs might as well have been base64, nobody could decode them",
+   "yes": "decode this base64: d2VsY29tZSBob21l"
+  },
+  {
+   "skill": "base64Decode",
+   "no": "a weird base64 string turned up in a spam email so i deleted it",
+   "yes": "un-base64 this string: Z29vZCBtb3JuaW5n"
+  },
+  {
+   "skill": "base64Encode",
+   "no": "my whole personality is encoded in sarcasm at this point",
+   "yes": "base64 encode the word sarcasm"
+  },
+  {
+   "skill": "base64Encode",
+   "no": "the base64 blob in that config file is longer than my arm",
+   "yes": "base64 encode this line for the config file: retries=3"
+  },
+  {
+   "skill": "binaryDecode",
+   "no": "my dad still thinks everything is binary, right or wrong",
+   "yes": "decode this binary: 01110010 01101001 01100111 01101000 01110100"
+  },
+  {
+   "skill": "binaryDecode",
+   "no": "the binary on the old mainframe printouts looked like wallpaper",
+   "yes": "what does this binary from an old printout say: 01101000 01101001"
+  },
+  {
+   "skill": "binaryEncode",
+   "no": "my brother sees everything in binary terms, good or bad",
+   "yes": "convert good to binary"
+  },
+  {
+   "skill": "binaryEncode",
+   "no": "wrote my initials in binary on a birthday cake once and nobody got it",
+   "yes": "write my initials KJ in binary"
+  },
+  {
+   "skill": "caesarShift",
+   "no": "the night shift moved me along by three hours and i am wrecked",
+   "yes": "shift the word night along by three letters"
+  },
+  {
+   "skill": "caesarShift",
+   "no": "we did caesar shift puzzles in primary school and i loved every minute",
+   "yes": "caesar shift \"meet at noon\" by 5"
+  },
+  {
+   "skill": "compressText",
+   "no": "tried to compress a whole year of notes into one page last night",
+   "yes": "compress this text into a short string: notes notes notes notes notes"
+  },
+  {
+   "skill": "compressText",
+   "no": "the morning train squashes us in like compressed cargo",
+   "yes": "squash this down into a compressed base64 string: cargo cargo cargo cargo"
+  },
+  {
+   "skill": "decompressText",
+   "no": "a long weekend away to decompress is the only thing getting me through this month",
+   "yes": "decompress this string: AAAAFkFpZ0mAjBDQ8kxGQ0ZEmQA="
+  },
+  {
+   "skill": "decompressText",
+   "no": "the dog decompresses on the sofa after every walk",
+   "yes": "unpack this compressed text back out: AAAADAwgMIRmgJAZoA=="
+  },
+  {
+   "skill": "generatePassphrase",
+   "no": "the wifi passphrase at my parents is five random words about their cat",
+   "yes": "generate a wifi passphrase of five random words"
+  },
+  {
+   "skill": "generatePassphrase",
+   "no": "a memorable password made of words is still one i forget every week",
+   "yes": "generate a memorable password of four words separated by dashes"
+  },
+  {
+   "skill": "generateRandomString",
+   "no": "my toddler typed a random string of letters into my work email",
+   "yes": "generate a random string of 12 letters"
+  },
+  {
+   "skill": "generateRandomString",
+   "no": "the booking code is a random 16 character string and the hotel spelled it wrong",
+   "yes": "make a random 16 character string of letters and digits"
+  },
+  {
+   "skill": "generateUuid",
+   "no": "every table in this database uses a uuid and debugging it is misery",
+   "yes": "generate a uuid for a new database row"
+  },
+  {
+   "skill": "generateUuid",
+   "no": "he keeps a unique identifier on every coffee mug in the house",
+   "yes": "generate one unique identifier, a v4 uuid"
+  },
+  {
+   "skill": "hashText",
+   "no": "we made a total hash of the move, boxes everywhere",
+   "yes": "sha256 hash of the word boxes"
+  },
+  {
+   "skill": "hashText",
+   "no": "the corned beef hash at that diner is the best thing on the menu",
+   "yes": "sha1 hash of corned beef"
+  },
+  {
+   "skill": "hexDecode",
+   "no": "pretty sure the neighbour put a hex on my garden",
+   "yes": "decode the hex 67617264656e into text"
+  },
+  {
+   "skill": "hexDecode",
+   "no": "old memory dumps were walls of hex that only Dave could read",
+   "yes": "read this hex as text: 44 61 76 65"
+  },
+  {
+   "skill": "hexEncode",
+   "no": "she put a hex on the whole office party, apparently",
+   "yes": "hex encode the word party"
+  },
+  {
+   "skill": "hexEncode",
+   "no": "the colour of my bedroom wall is a hex value i picked at random",
+   "yes": "write the word bedroom out as hex byte values"
+  },
+  {
+   "skill": "morseDecode",
+   "no": "the dripping tap sounds like someone tapping out morse all night",
+   "yes": "decode this morse: - .- .--."
+  },
+  {
+   "skill": "morseDecode",
+   "no": "grandad learned morse in the navy and still taps it on the table",
+   "yes": "decode the morse -. .- ...- -.-- grandad tapped out"
+  },
+  {
+   "skill": "morseEncode",
+   "no": "my eyelid has been twitching in morse code all day",
+   "yes": "write \"all day\" in morse code"
+  },
+  {
+   "skill": "morseEncode",
+   "no": "the kids flashed morse at each other with torches on every camping trip",
+   "yes": "encode \"camping trip\" in morse"
+  },
+  {
+   "skill": "rot13",
+   "no": "the spoilers on that forum were all in rot13 back in the day",
+   "yes": "rot13 this spoiler: gur ohgyre qvq vg"
+  },
+  {
+   "skill": "rot13",
+   "no": "rot13 is not encryption and my old boss never believed me",
+   "yes": "rot13 the sentence \"my boss never believed me\""
+  },
+  {
+   "skill": "urlDecode",
+   "no": "links full of %20 make my inbox look like a ransom note",
+   "yes": "url decode ransom%20note%20inbox"
+  },
+  {
+   "skill": "urlDecode",
+   "no": "the old intranet urls were a soup of percent signs and nobody dared touch them",
+   "yes": "url decode this percent soup: na%C3%AFve%20intranet"
+  },
+  {
+   "skill": "urlEncode",
+   "no": "spaces in a web address still break half the tools at work",
+   "yes": "url encode this for a web address: tools at work"
+  },
+  {
+   "skill": "urlEncode",
+   "no": "the marketing team links are always percent encoded beyond recognition",
+   "yes": "percent encode marketing & sales for a link"
+  },
+  {
+   "skill": "comparePrices",
+   "no": "the bigger box is never actually better value, it is a supermarket trick",
+   "yes": "which is better value, a 1kg box at 4.50 or a 400g box at 2.10"
+  },
+  {
+   "skill": "comparePrices",
+   "no": "my mum will compare egg prices across three shops every saturday",
+   "yes": "compare egg prices: 6 for 1.80, 12 for 3.20, 30 for 7.50, cheapest per egg"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "no": "my gran never measured anything, a cup of flour was whatever mug was nearest",
+   "yes": "a cup of plain flour in grams"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "no": "an american recipe in cups drives me up the wall",
+   "yes": "convert 2 cups of flour from an american recipe to grams"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "no": "fuel for the trip to cornwall cost more than the cottage",
+   "yes": "fuel cost for the 380 mile trip to cornwall at 42 mpg with petrol at 1.49 a litre"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "no": "the van drinks diesel like it is going out of fashion",
+   "yes": "fuel cost for 200 km in the van at 11 L per 100km, diesel at 1.70"
+  },
+  {
+   "skill": "scaleRecipe",
+   "no": "doubled the recipe once and ended up with cake for a week",
+   "yes": "double this cake recipe: 200g flour, 2 eggs, 150ml milk"
+  },
+  {
+   "skill": "scaleRecipe",
+   "no": "halving a recipe never works with eggs, you end up with half an egg",
+   "yes": "halve this recipe: 3 eggs, 1 cup sugar, 2 cups flour"
+  },
+  {
+   "skill": "shippingTotal",
+   "no": "shipping costs more than the order itself half the time",
+   "yes": "total my order with shipping: 12.99 and 8.50, postage 4.95"
+  },
+  {
+   "skill": "shippingTotal",
+   "no": "my basket has been sitting full for a week while i talk myself out of it",
+   "yes": "how much is my basket: 3 x 4.99 and 1 x 15, 10% tax, free delivery over 25"
+  },
+  {
+   "skill": "splitBill",
+   "no": "we always split the bill evenly and Tom always orders the lobster",
+   "yes": "split a 132 bill evenly between 5 with a 10% tip"
+  },
+  {
+   "skill": "splitBill",
+   "no": "splitting the bill abroad with a tip confuses me every holiday",
+   "yes": "add an 18% tip to 47.20 and split the bill between two of us"
+  },
+  {
+   "skill": "stackDiscounts",
+   "no": "the sale signs say 50% off and then another 20% off, it is a circus",
+   "yes": "50% off and then another 20% off 80, what do i actually pay"
+  },
+  {
+   "skill": "stackDiscounts",
+   "no": "stacking discount codes is my mum's favourite sport",
+   "yes": "stack discount codes of 15% and 10% on a 60 order"
+  },
+  {
+   "skill": "unitPrice",
+   "no": "the price per kilo of coffee these days is criminal",
+   "yes": "price per kilo of coffee at 6.50 for 227g"
+  },
+  {
+   "skill": "unitPrice",
+   "no": "nobody reads the tiny price per litre label on the shelf",
+   "yes": "price per litre for a 1.75 litre bottle at 2.89"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "no": "my boss saves every file as a .docx and emails it to himself",
+   "yes": "what sort of file is a .docx"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "no": "the .heic file my phone makes confuses every website i upload it to",
+   "yes": "what is a .heic file and which media type does it use"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "no": "my photo library is about 300 billion bytes of blurry cats",
+   "yes": "300000000000 bytes as a readable file size"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "no": "the attachment limit is so tiny that every file feels too big",
+   "yes": "how big a file is 26214400 bytes"
+  },
+  {
+   "skill": "textFileStats",
+   "no": "the log file has more lines than a soap opera script",
+   "yes": "count the lines, words and bytes in this log: error at boot\nretry ok\nerror again"
+  },
+  {
+   "skill": "textFileStats",
+   "no": "my essay is three words over the limit and i refuse to cut any",
+   "yes": "line, word and byte stats for my essay: The end.\nOr is it?"
+  },
+  {
+   "skill": "amortizeLoan",
+   "no": "the mortgage payment leaves the account the day after payday, every month",
+   "yes": "monthly payment and total interest on a 180000 mortgage at 3.9% over 30 years"
+  },
+  {
+   "skill": "amortizeLoan",
+   "no": "paying off the car loan felt better than buying the car",
+   "yes": "total interest on a 12000 car loan at 6.9% over 4 years"
+  },
+  {
+   "skill": "applyDiscount",
+   "no": "staff discount is the only reason i still work there",
+   "yes": "apply my 20% staff discount to a 35 shirt"
+  },
+  {
+   "skill": "applyDiscount",
+   "no": "everything in that shop is permanently 30% off, which means nothing",
+   "yes": "30% off a 64.99 coat"
+  }
+ ]
+}

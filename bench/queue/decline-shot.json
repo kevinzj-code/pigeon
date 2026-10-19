@@ -1,0 +1,13 @@
+{
+  "id": "decline-shot",
+  "hypothesis": "the four remaining declines are 'work on the thing I have not pasted'; one decline-check shot of that shape",
+  "flags": [],
+  "prompt": "decline-shot",
+  "needs": [
+    "planner",
+    "category"
+  ],
+  "rule": "tally.declined <= control.tally.declined - 2 and leaks <= control.leaks and correct >= control.correct",
+  "reads": null,
+  "added": "2026-09-08"
+}

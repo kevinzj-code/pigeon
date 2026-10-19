@@ -1,0 +1,2172 @@
+{
+ "batch": "b01",
+ "categories": [
+  "text"
+ ],
+ "skills": [
+  {
+   "name": "averageWordLength",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "averageWordLength \u2014 Work out the typical word size in a text \u2014 its average word length.\n  needs: text: string\n  e.g. \"average word length of this sentence\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I measure?"
+     }
+    }
+   },
+   "examples": [
+    "average word length of this sentence",
+    "how long are the words on average",
+    "mean word length here",
+    "average word length across two sentences",
+    "word length for a single word",
+    "how long is the average word in this sentence",
+    "how long are the words in this on average"
+   ]
+  },
+  {
+   "name": "cleanTranscript",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "cleanTranscript \u2014 Strip the timestamps, cue numbers and repeated speaker labels out of an auto-generated transcript, rejoin the sentences its captions cut in half, and drop the stutters and filler words.\n  needs: text: string\n  optional: removeFillers: boolean, removeStutters: boolean\n  e.g. \"strip the timestamps out of this transcript\" \u2192 {\"text\":\"[0:00:00 --> 0:00:05] Today we look at the tariffs and how they\\n\\n[0:00:05 --> 0:00:10] impact the industry. Let us jump in.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "transcript",
+      "prompt": "Paste the transcript and I will tidy it."
+     },
+     "removeFillers": {
+      "type": "boolean",
+      "label": "remove filler words",
+      "default": true,
+      "description": "drop \"you know\" and \"kind of\" where they are clearly filler"
+     },
+     "removeStutters": {
+      "type": "boolean",
+      "label": "remove stutters",
+      "default": true,
+      "description": "drop a repeated word the speaker restarted on"
+     }
+    }
+   },
+   "examples": [
+    "strip the timestamps out of this transcript",
+    "clean up this auto generated transcript",
+    "tidy this srt subtitle file into readable text",
+    "remove the filler words from this transcript",
+    "take the repeated speaker names out of this recording transcript"
+   ]
+  },
+  {
+   "name": "convertCase",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "convertCase \u2014 Change text to another capitalisation \u2014 title case, upper, lower, camelCase, snake_case.\n  needs: text: string, style: string\n  e.g. \"make this title case: the lord of the rings\" \u2192 {\"text\":\"the lord of the rings\",\"style\":\"title\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text",
+     "style"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I change?"
+     },
+     "style": {
+      "type": "string",
+      "label": "case",
+      "enum": [
+       "upper",
+       "lower",
+       "title",
+       "sentence",
+       "camel",
+       "pascal",
+       "snake",
+       "kebab",
+       "constant"
+      ],
+      "prompt": "Which case? (upper, lower, title, sentence, camel, pascal, snake, kebab or constant)"
+     }
+    }
+   },
+   "examples": [
+    "make this title case: the lord of the rings",
+    "convert \"user first name\" to camelCase",
+    "snake case for \"My Long Variable\"",
+    "shout this: keep it down",
+    "fix the capitals: HELLO THERE. HOW ARE YOU?",
+    "change my heading to title case: a tale of two cities",
+    "put this in upper case: quiet please"
+   ]
+  },
+  {
+   "name": "countCharacters",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "countCharacters \u2014 Count the characters in a text \u2014 with spaces, without spaces, and how many are letters or digits.\n  needs: text: string\n  e.g. \"how many characters is this\" \u2192 {\"text\":\"The quick brown fox.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "prompt": "Which text should I measure?"
+     }
+    }
+   },
+   "examples": [
+    "how many characters is this",
+    "character count with spaces and without",
+    "will this fit in 280 characters",
+    "count the characters in a number-heavy line",
+    "how long is a single word"
+   ]
+  },
+  {
+   "name": "countLines",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "prompt": "Which text should I count?"
+     }
+    }
+   },
+   "examples": [
+    "how many lines is this",
+    "count lines including the blank ones",
+    "line count of a single line",
+    "how many lines with windows line endings",
+    "count lines in a list with a trailing newline",
+    "how many lines are in this file",
+    "line count for this block"
+   ]
+  },
+  {
+   "name": "countOccurrences",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "countOccurrences \u2014 Count how many times one word or phrase repeats inside a text.\n  needs: text: string, needle: string\n  optional: caseSensitive: boolean, wholeWord: boolean\n  e.g. \"how many times does \"the\" appear in this\" \u2192 {\"text\":\"the cat sat on the mat\",\"needle\":\"the\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text",
+     "needle"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     },
+     "needle": {
+      "type": "string",
+      "label": "what to count",
+      "minLength": 1,
+      "prompt": "What should I count?"
+     },
+     "caseSensitive": {
+      "type": "boolean",
+      "label": "match case",
+      "default": false
+     },
+     "wholeWord": {
+      "type": "boolean",
+      "label": "whole words only",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "how many times does \"the\" appear in this",
+    "count how often \"error\" shows up in the log",
+    "count Cat case-sensitively",
+    "count whole words only, not parts of words",
+    "how many times does zebra appear"
+   ]
+  },
+  {
+   "name": "countSentences",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I count?"
+     }
+    }
+   },
+   "examples": [
+    "how many sentences is this",
+    "count sentences in one line",
+    "sentence count with an abbreviation in it",
+    "how many sentences with exclamations",
+    "average sentence length of this paragraph"
+   ]
+  },
+  {
+   "name": "countWords",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "countWords \u2014 Measure how long a piece of text is: its total words, characters, sentences and paragraphs.\n  needs: text: string\n  e.g. \"how many words is this paragraph\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "prompt": "Which text should I count?"
+     }
+    }
+   },
+   "examples": [
+    "how many words is this paragraph",
+    "word count for a two sentence note",
+    "count the words in my two paragraphs",
+    "how long is this",
+    "count a line that is only spaces"
+   ]
+  },
+  {
+   "name": "detectLanguage",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "detectLanguage \u2014 Guess which language a piece of text is written in.\n  needs: text: string\n  e.g. \"what language is this\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog and then it goes to sleep\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 20000,
+      "prompt": "Which text should I identify?"
+     }
+    }
+   },
+   "examples": [
+    "what language is this",
+    "identify the language of this sentence",
+    "which language is this written in",
+    "detect the language",
+    "what language is a short phrase in"
+   ]
+  },
+  {
+   "name": "detectRepetition",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "detectRepetition \u2014 Find phrases a piece of text repeats.\n  needs: text: string\n  optional: minWords: integer, minTimes: integer\n  e.g. \"find repeated phrases\" \u2192 {\"text\":\"I think that I think that this is fine\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 50000,
+      "prompt": "Which text should I check for repetition?"
+     },
+     "minWords": {
+      "type": "integer",
+      "label": "min words in phrase",
+      "minimum": 2,
+      "maximum": 12,
+      "default": 3
+     },
+     "minTimes": {
+      "type": "integer",
+      "label": "min times it appears",
+      "minimum": 2,
+      "maximum": 50,
+      "default": 2
+     }
+    }
+   },
+   "examples": [
+    "find repeated phrases",
+    "is this text repetitive",
+    "check for repeated phrases of two words",
+    "find phrases used three times",
+    "spot repetition in this paragraph"
+   ]
+  },
+  {
+   "name": "diffText",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "diffText \u2014 Compare two versions of a text and show what was added and removed, by line or by word.\n  needs: before: string, after: string\n  optional: by: string\n  e.g. \"show me the line by line changes\" \u2192 {\"before\":\"apple\\nbanana\\ncherry\",\"after\":\"apple\\nblueberry\\ncherry\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "before",
+     "after"
+    ],
+    "properties": {
+     "before": {
+      "type": "string",
+      "label": "original text",
+      "prompt": "What is the original text?"
+     },
+     "after": {
+      "type": "string",
+      "label": "new text",
+      "prompt": "What is the new text?"
+     },
+     "by": {
+      "type": "string",
+      "label": "compare by",
+      "enum": [
+       "line",
+       "word"
+      ],
+      "default": "line"
+     }
+    }
+   },
+   "examples": [
+    "show me the line by line changes",
+    "diff these two paragraphs by word",
+    "compare the old and new list",
+    "what was deleted from this list",
+    "did anything change",
+    "show me what differs between the earlier draft and the later one",
+    "compare these two drafts line by line"
+   ]
+  },
+  {
+   "name": "escapeHtml",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "escapeHtml \u2014 Make text safe to drop into HTML, turning angle brackets and ampersands into entities \u2014 or turn escaped ones back.\n  needs: text: string\n  optional: direction: string\n  e.g. \"escape this html: <b>bold</b>\" \u2192 {\"text\":\"<b>bold</b>\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text?"
+     },
+     "direction": {
+      "type": "string",
+      "label": "escape or unescape",
+      "enum": [
+       "escape",
+       "unescape"
+      ],
+      "default": "escape"
+     }
+    }
+   },
+   "examples": [
+    "escape this html: <b>bold</b>",
+    "escape an ampersand",
+    "unescape &lt;p&gt;hi&lt;/p&gt;",
+    "escape a quoted attribute",
+    "escape text with nothing special in it",
+    "make these angle brackets safe for a web page",
+    "encode the special characters so html shows them literally"
+   ]
+  },
+  {
+   "name": "extractCodeBlocks",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractCodeBlocks \u2014 Lift the fenced code snippets out of a markdown document.\n  needs: markdown: string\n  optional: language: string\n  e.g. \"get the code blocks from this readme\" \u2192 {\"markdown\":\"Run it:\\n\\n```bash\\nnpm test\\n```\\n\\nThen:\\n\\n```js\\nconst a = 1;\\n```\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "markdown"
+    ],
+    "properties": {
+     "markdown": {
+      "type": "string",
+      "label": "markdown",
+      "minLength": 1,
+      "prompt": "Which markdown should I read?"
+     },
+     "language": {
+      "type": "string",
+      "label": "language",
+      "description": "keep only blocks tagged with this language"
+     }
+    }
+   },
+   "examples": [
+    "get the code blocks from this readme",
+    "extract just the js blocks",
+    "pull an untagged code block",
+    "get a multi-line block",
+    "any code blocks in this document"
+   ]
+  },
+  {
+   "name": "extractCurrencyAmounts",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractCurrencyAmounts \u2014 Pull every money amount out of a text, with its currency.\n  needs: text: string\n  e.g. \"get the amounts from this invoice line\" \u2192 {\"text\":\"subtotal \u00a3120.50, shipping \u00a34.99\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     }
+    }
+   },
+   "examples": [
+    "get the amounts from this invoice line",
+    "find the prices in this sentence",
+    "extract amounts with thousands separators",
+    "pull amounts written with codes",
+    "any money in this line",
+    "list every price in this text",
+    "which sums of money are mentioned here"
+   ]
+  },
+  {
+   "name": "extractDates",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractDates \u2014 Pull the dates already written in a block of text back out of it.\n  needs: text: string\n  optional: dayFirst: boolean\n  e.g. \"find the dates in this text\" \u2192 {\"text\":\"The meeting is on 2026-09-01 and the deadline is 2026-10-15.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 100000,
+      "prompt": "Which text should I search for dates?"
+     },
+     "dayFirst": {
+      "type": "boolean",
+      "label": "day before month",
+      "default": true,
+      "description": "read 03/04/2026 as 3 April rather than 4 March"
+     }
+    }
+   },
+   "examples": [
+    "find the dates in this text",
+    "extract dates written out in words",
+    "are there any dates here",
+    "pull out the slashed dates",
+    "read the dates month first"
+   ]
+  },
+  {
+   "name": "extractEmails",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractEmails \u2014 List the email addresses written somewhere in a text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the emails out of this: contact ana@example.com or sales@shop.co.uk\" \u2192 {\"text\":\"contact ana@example.com or sales@shop.co.uk\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     },
+     "unique": {
+      "type": "boolean",
+      "label": "remove duplicates",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "get the emails out of this: contact ana@example.com or sales@shop.co.uk",
+    "find email addresses in this signature block",
+    "pull the addresses, keeping duplicates",
+    "any emails in here?",
+    "extract emails from a csv line"
+   ]
+  },
+  {
+   "name": "extractHashtags",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractHashtags \u2014 Gather the #tags used in a post.\n  needs: text: string\n  optional: unique: boolean, lowercase: boolean\n  e.g. \"get the hashtags from this post\" \u2192 {\"text\":\"Shipping today #buildinpublic #indiedev\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     },
+     "unique": {
+      "type": "boolean",
+      "label": "remove duplicates",
+      "default": true
+     },
+     "lowercase": {
+      "type": "boolean",
+      "label": "lowercase",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "get the hashtags from this post",
+    "find the tags in this caption",
+    "extract hashtags ignoring a hex colour",
+    "hashtags with duplicates kept",
+    "any hashtags in this sentence"
+   ]
+  },
+  {
+   "name": "extractIpAddresses",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractIpAddresses \u2014 Find the IPv4 and IPv6 addresses in a server log.\n  needs: text: string\n  optional: unique: boolean, version: string\n  e.g. \"get the ip addresses from this log\" \u2192 {\"text\":\"from 192.168.1.10 to 8.8.8.8\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     },
+     "unique": {
+      "type": "boolean",
+      "label": "remove duplicates",
+      "default": true
+     },
+     "version": {
+      "type": "string",
+      "label": "ip version",
+      "enum": [
+       "both",
+       "v4",
+       "v6"
+      ],
+      "default": "both"
+     }
+    }
+   },
+   "examples": [
+    "get the ip addresses from this log",
+    "find the ips in these lines",
+    "extract ipv6 addresses",
+    "ignore a version number that looks like an ip",
+    "any ip addresses here"
+   ]
+  },
+  {
+   "name": "extractListItems",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractListItems \u2014 Pull the bulleted or numbered list items out of a document.\n  needs: text: string\n  optional: type: string\n  e.g. \"get the list items from this note\" \u2192 {\"text\":\"Shopping:\\n- milk\\n- eggs\\n- bread\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I read?"
+     },
+     "type": {
+      "type": "string",
+      "label": "list type",
+      "enum": [
+       "any",
+       "bulleted",
+       "numbered"
+      ],
+      "default": "any"
+     }
+    }
+   },
+   "examples": [
+    "get the list items from this note",
+    "extract the numbered steps",
+    "pull the items from a nested list",
+    "get only the bulleted items",
+    "extract items from a mixed list"
+   ]
+  },
+  {
+   "name": "extractMentions",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractMentions \u2014 Gather the @handles somebody was tagged as.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"who is mentioned in this post\" \u2192 {\"text\":\"thanks @ana and @bo for the help\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     },
+     "unique": {
+      "type": "boolean",
+      "label": "remove duplicates",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "who is mentioned in this post",
+    "get the handles from this thread",
+    "extract mentions but not the email address",
+    "mentions with duplicates kept",
+    "any mentions in this line"
+   ]
+  },
+  {
+   "name": "extractNgrams",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractNgrams \u2014 Break text into overlapping runs of n words or characters \u2014 two-word runs, bigrams, trigrams.\n  needs: text: string\n  optional: n: integer, unit: string\n  e.g. \"get the bigrams from this sentence\" \u2192 {\"text\":\"the quick brown fox\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 50000,
+      "prompt": "Which text should I break up?"
+     },
+     "n": {
+      "type": "integer",
+      "label": "n-gram size",
+      "minimum": 1,
+      "maximum": 10,
+      "default": 2
+     },
+     "unit": {
+      "type": "string",
+      "label": "words or characters",
+      "enum": [
+       "words",
+       "characters"
+      ],
+      "default": "words"
+     }
+    }
+   },
+   "examples": [
+    "get the bigrams from this sentence",
+    "trigrams of this text",
+    "single word ngrams",
+    "character bigrams of a word",
+    "bigrams where one repeats",
+    "split this into runs of two words",
+    "give me the three-word sequences in this"
+   ]
+  },
+  {
+   "name": "extractNumbers",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractNumbers \u2014 Take the plain figures out of a text, thousands separators and decimals handled.\n  needs: text: string\n  e.g. \"get the numbers from: we sold 1,250 units at \u00a33.99 each\" \u2192 {\"text\":\"we sold 1,250 units at \u00a33.99 each\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     }
+    }
+   },
+   "examples": [
+    "get the numbers from: we sold 1,250 units at \u00a33.99 each",
+    "pull the figures out of this line",
+    "extract numbers including negatives",
+    "find the numbers in this sentence",
+    "numbers from a shopping list"
+   ]
+  },
+  {
+   "name": "extractPhoneNumbers",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractPhoneNumbers \u2014 Spot the phone numbers you could dial in a signature or footer.\n  needs: text: string\n  optional: defaultRegion: string\n  e.g. \"find the phone numbers in this text\" \u2192 {\"text\":\"Call 020 7946 0958 or 07700 900123 for details.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 100000,
+      "prompt": "Which text should I search?"
+     },
+     "defaultRegion": {
+      "type": "string",
+      "label": "default dialling code",
+      "description": "the dialling code to assume for numbers written without one"
+     }
+    }
+   },
+   "examples": [
+    "find the phone numbers in this text",
+    "extract phone numbers with country codes",
+    "are there any phone numbers here",
+    "pull the number out of this signature",
+    "find numbers assuming a uk default"
+   ]
+  },
+  {
+   "name": "extractTimes",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractTimes \u2014 Pull every clock time out of a text and give each in 24-hour form.\n  needs: text: string\n  e.g. \"get the times from this message\" \u2192 {\"text\":\"the meeting is 9:30am and lunch at 1pm\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     }
+    }
+   },
+   "examples": [
+    "get the times from this message",
+    "find the clock times in this line",
+    "extract times written with a dot",
+    "pull midnight and noon",
+    "any times in this sentence"
+   ]
+  },
+  {
+   "name": "extractUrls",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractUrls \u2014 List the web addresses appearing in a block of text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the links from: see https://example.com/docs and www.other.org\" \u2192 {\"text\":\"see https://example.com/docs and www.other.org\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     },
+     "unique": {
+      "type": "boolean",
+      "label": "remove duplicates",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "get the links from: see https://example.com/docs and www.other.org",
+    "extract the url, ignore the full stop",
+    "find links in a markdown line",
+    "any links in this text",
+    "pull both urls with the query strings intact"
+   ]
+  },
+  {
+   "name": "findLongestWord",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "findLongestWord \u2014 Find the longest word in a text \u2014 the biggest word, and any that tie with it.\n  needs: text: string\n  optional: top: integer\n  e.g. \"what is the longest word in this sentence\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     },
+     "top": {
+      "type": "integer",
+      "label": "how many words",
+      "minimum": 1,
+      "maximum": 20,
+      "default": 1
+     }
+    }
+   },
+   "examples": [
+    "what is the longest word in this sentence",
+    "find the longest word",
+    "longest three words in this line",
+    "longest word when several tie",
+    "longest word in a hyphenated phrase",
+    "pick out the lengthiest word in this text",
+    "which word here has the most letters"
+   ]
+  },
+  {
+   "name": "findNearDuplicates",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "findNearDuplicates \u2014 Find entries in a list that are nearly the same as each other.\n  needs: items: array\n  optional: threshold: number\n  e.g. \"find near duplicates in this list\" \u2192 {\"items\":[\"apple pie\",\"apple pies\",\"banana bread\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 2,
+      "maxItems": 500,
+      "items": {
+       "type": "string"
+      },
+      "prompt": "Which list should I check?"
+     },
+     "threshold": {
+      "type": "number",
+      "label": "similarity (0.5\u20131)",
+      "minimum": 0.5,
+      "maximum": 1,
+      "default": 0.85,
+      "description": "how similar two entries must be to count as duplicates"
+     }
+    }
+   },
+   "examples": [
+    "find near duplicates in this list",
+    "are any of these the same",
+    "spot duplicate entries ignoring case and punctuation",
+    "find similar lines",
+    "check three near identical spellings"
+   ]
+  },
+  {
+   "name": "flagPii",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "flagPii \u2014 Scan text for personal or sensitive data and report what was found and where, leaving the text unchanged.\n  needs: text: string\n  optional: kinds: array\n  e.g. \"check this for personal data\" \u2192 {\"text\":\"Contact ana@example.com or call 020 7946 0958.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 100000,
+      "prompt": "Which text should I check?"
+     },
+     "kinds": {
+      "type": "array",
+      "label": "kinds to check",
+      "maxItems": 10,
+      "items": {
+       "type": "string"
+      },
+      "description": "limit the check to these kinds"
+     }
+    }
+   },
+   "examples": [
+    "check this for personal data",
+    "does this contain a card number",
+    "is there any pii here",
+    "flag sensitive data in this log line",
+    "check only for email addresses"
+   ]
+  },
+  {
+   "name": "flagProfanity",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "flagProfanity \u2014 Flag swear words in text against a word list.\n  needs: text: string\n  e.g. \"check this for swearing\" \u2192 {\"text\":\"What a bloody mess this is\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 100000,
+      "prompt": "Which text should I check?"
+     }
+    }
+   },
+   "examples": [
+    "check this for swearing",
+    "is there profanity in this text",
+    "flag rude words",
+    "does this contain swearing inside longer words",
+    "check a repeated swear word"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "averageWordLength",
+    "findLongestWord"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "averageWordLength \u2014 Work out the typical word size in a text \u2014 its average word length.\n  needs: text: string\n  e.g. \"average word length of this sentence\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\"}",
+    "findLongestWord \u2014 Find the longest word in a text \u2014 the biggest word, and any that tie with it.\n  needs: text: string\n  optional: top: integer\n  e.g. \"what is the longest word in this sentence\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I measure?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "top": {
+       "type": "integer",
+       "label": "how many words",
+       "minimum": 1,
+       "maximum": 20,
+       "default": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countCharacters \u2014 Count the characters in a text \u2014 with spaces, without spaces, and how many are letters or digits.\n  needs: text: string\n  e.g. \"how many characters is this\" \u2192 {\"text\":\"The quick brown fox.\"}",
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I measure?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countOccurrences"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countCharacters \u2014 Count the characters in a text \u2014 with spaces, without spaces, and how many are letters or digits.\n  needs: text: string\n  e.g. \"how many characters is this\" \u2192 {\"text\":\"The quick brown fox.\"}",
+    "countOccurrences \u2014 Count how many times one word or phrase repeats inside a text.\n  needs: text: string, needle: string\n  optional: caseSensitive: boolean, wholeWord: boolean\n  e.g. \"how many times does \"the\" appear in this\" \u2192 {\"text\":\"the cat sat on the mat\",\"needle\":\"the\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I measure?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text",
+      "needle"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "needle": {
+       "type": "string",
+       "label": "what to count",
+       "minLength": 1,
+       "prompt": "What should I count?"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      },
+      "wholeWord": {
+       "type": "boolean",
+       "label": "whole words only",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countSentences"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countCharacters \u2014 Count the characters in a text \u2014 with spaces, without spaces, and how many are letters or digits.\n  needs: text: string\n  e.g. \"how many characters is this\" \u2192 {\"text\":\"The quick brown fox.\"}",
+    "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I measure?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countOccurrences"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "countOccurrences \u2014 Count how many times one word or phrase repeats inside a text.\n  needs: text: string, needle: string\n  optional: caseSensitive: boolean, wholeWord: boolean\n  e.g. \"how many times does \"the\" appear in this\" \u2192 {\"text\":\"the cat sat on the mat\",\"needle\":\"the\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text",
+      "needle"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "needle": {
+       "type": "string",
+       "label": "what to count",
+       "minLength": 1,
+       "prompt": "What should I count?"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      },
+      "wholeWord": {
+       "type": "boolean",
+       "label": "whole words only",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countSentences"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "textFileStats"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "textFileStats \u2014 Count the lines, words and bytes in a piece of text and describe its line endings.\n  needs: text: string\n  e.g. \"stats for this text\" \u2192 {\"text\":\"hello world\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 2000000,
+       "prompt": "Which text should I measure?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "countSentences"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countOccurrences \u2014 Count how many times one word or phrase repeats inside a text.\n  needs: text: string, needle: string\n  optional: caseSensitive: boolean, wholeWord: boolean\n  e.g. \"how many times does \"the\" appear in this\" \u2192 {\"text\":\"the cat sat on the mat\",\"needle\":\"the\"}",
+    "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text",
+      "needle"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "needle": {
+       "type": "string",
+       "label": "what to count",
+       "minLength": 1,
+       "prompt": "What should I count?"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      },
+      "wholeWord": {
+       "type": "boolean",
+       "label": "whole words only",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "countWords"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}",
+    "countWords \u2014 Measure how long a piece of text is: its total words, characters, sentences and paragraphs.\n  needs: text: string\n  e.g. \"how many words is this paragraph\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "findLongestWord"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "countWords \u2014 Measure how long a piece of text is: its total words, characters, sentences and paragraphs.\n  needs: text: string\n  e.g. \"how many words is this paragraph\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog.\"}",
+    "findLongestWord \u2014 Find the longest word in a text \u2014 the biggest word, and any that tie with it.\n  needs: text: string\n  optional: top: integer\n  e.g. \"what is the longest word in this sentence\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "top": {
+       "type": "integer",
+       "label": "how many words",
+       "minimum": 1,
+       "maximum": 20,
+       "default": 1
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "detectLanguage",
+    "detectRepetition"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "detectLanguage \u2014 Guess which language a piece of text is written in.\n  needs: text: string\n  e.g. \"what language is this\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog and then it goes to sleep\"}",
+    "detectRepetition \u2014 Find phrases a piece of text repeats.\n  needs: text: string\n  optional: minWords: integer, minTimes: integer\n  e.g. \"find repeated phrases\" \u2192 {\"text\":\"I think that I think that this is fine\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 20000,
+       "prompt": "Which text should I identify?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 50000,
+       "prompt": "Which text should I check for repetition?"
+      },
+      "minWords": {
+       "type": "integer",
+       "label": "min words in phrase",
+       "minimum": 2,
+       "maximum": 12,
+       "default": 3
+      },
+      "minTimes": {
+       "type": "integer",
+       "label": "min times it appears",
+       "minimum": 2,
+       "maximum": 50,
+       "default": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractDates"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "extractCurrencyAmounts \u2014 Pull every money amount out of a text, with its currency.\n  needs: text: string\n  e.g. \"get the amounts from this invoice line\" \u2192 {\"text\":\"subtotal \u00a3120.50, shipping \u00a34.99\"}",
+    "extractDates \u2014 Pull the dates already written in a block of text back out of it.\n  needs: text: string\n  optional: dayFirst: boolean\n  e.g. \"find the dates in this text\" \u2192 {\"text\":\"The meeting is on 2026-09-01 and the deadline is 2026-10-15.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I search for dates?"
+      },
+      "dayFirst": {
+       "type": "boolean",
+       "label": "day before month",
+       "default": true,
+       "description": "read 03/04/2026 as 3 April rather than 4 March"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractNumbers"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "extractCurrencyAmounts \u2014 Pull every money amount out of a text, with its currency.\n  needs: text: string\n  e.g. \"get the amounts from this invoice line\" \u2192 {\"text\":\"subtotal \u00a3120.50, shipping \u00a34.99\"}",
+    "extractNumbers \u2014 Take the plain figures out of a text, thousands separators and decimals handled.\n  needs: text: string\n  e.g. \"get the numbers from: we sold 1,250 units at \u00a33.99 each\" \u2192 {\"text\":\"we sold 1,250 units at \u00a33.99 each\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractTimes"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "extractCurrencyAmounts \u2014 Pull every money amount out of a text, with its currency.\n  needs: text: string\n  e.g. \"get the amounts from this invoice line\" \u2192 {\"text\":\"subtotal \u00a3120.50, shipping \u00a34.99\"}",
+    "extractTimes \u2014 Pull every clock time out of a text and give each in 24-hour form.\n  needs: text: string\n  e.g. \"get the times from this message\" \u2192 {\"text\":\"the meeting is 9:30am and lunch at 1pm\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractEmails"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "extractDates \u2014 Pull the dates already written in a block of text back out of it.\n  needs: text: string\n  optional: dayFirst: boolean\n  e.g. \"find the dates in this text\" \u2192 {\"text\":\"The meeting is on 2026-09-01 and the deadline is 2026-10-15.\"}",
+    "extractEmails \u2014 List the email addresses written somewhere in a text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the emails out of this: contact ana@example.com or sales@shop.co.uk\" \u2192 {\"text\":\"contact ana@example.com or sales@shop.co.uk\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I search for dates?"
+      },
+      "dayFirst": {
+       "type": "boolean",
+       "label": "day before month",
+       "default": true,
+       "description": "read 03/04/2026 as 3 April rather than 4 March"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractMentions"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "extractDates \u2014 Pull the dates already written in a block of text back out of it.\n  needs: text: string\n  optional: dayFirst: boolean\n  e.g. \"find the dates in this text\" \u2192 {\"text\":\"The meeting is on 2026-09-01 and the deadline is 2026-10-15.\"}",
+    "extractMentions \u2014 Gather the @handles somebody was tagged as.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"who is mentioned in this post\" \u2192 {\"text\":\"thanks @ana and @bo for the help\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I search for dates?"
+      },
+      "dayFirst": {
+       "type": "boolean",
+       "label": "day before month",
+       "default": true,
+       "description": "read 03/04/2026 as 3 April rather than 4 March"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractTimes"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "extractDates \u2014 Pull the dates already written in a block of text back out of it.\n  needs: text: string\n  optional: dayFirst: boolean\n  e.g. \"find the dates in this text\" \u2192 {\"text\":\"The meeting is on 2026-09-01 and the deadline is 2026-10-15.\"}",
+    "extractTimes \u2014 Pull every clock time out of a text and give each in 24-hour form.\n  needs: text: string\n  e.g. \"get the times from this message\" \u2192 {\"text\":\"the meeting is 9:30am and lunch at 1pm\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I search for dates?"
+      },
+      "dayFirst": {
+       "type": "boolean",
+       "label": "day before month",
+       "default": true,
+       "description": "read 03/04/2026 as 3 April rather than 4 March"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractUrls"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "extractDates \u2014 Pull the dates already written in a block of text back out of it.\n  needs: text: string\n  optional: dayFirst: boolean\n  e.g. \"find the dates in this text\" \u2192 {\"text\":\"The meeting is on 2026-09-01 and the deadline is 2026-10-15.\"}",
+    "extractUrls \u2014 List the web addresses appearing in a block of text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the links from: see https://example.com/docs and www.other.org\" \u2192 {\"text\":\"see https://example.com/docs and www.other.org\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I search for dates?"
+      },
+      "dayFirst": {
+       "type": "boolean",
+       "label": "day before month",
+       "default": true,
+       "description": "read 03/04/2026 as 3 April rather than 4 March"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractEmails",
+    "extractUrls"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "extractEmails \u2014 List the email addresses written somewhere in a text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the emails out of this: contact ana@example.com or sales@shop.co.uk\" \u2192 {\"text\":\"contact ana@example.com or sales@shop.co.uk\"}",
+    "extractUrls \u2014 List the web addresses appearing in a block of text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the links from: see https://example.com/docs and www.other.org\" \u2192 {\"text\":\"see https://example.com/docs and www.other.org\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractMentions",
+    "extractTimes"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "extractMentions \u2014 Gather the @handles somebody was tagged as.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"who is mentioned in this post\" \u2192 {\"text\":\"thanks @ana and @bo for the help\"}",
+    "extractTimes \u2014 Pull every clock time out of a text and give each in 24-hour form.\n  needs: text: string\n  e.g. \"get the times from this message\" \u2192 {\"text\":\"the meeting is 9:30am and lunch at 1pm\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractNumbers",
+    "sum"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "extractNumbers \u2014 Take the plain figures out of a text, thousands separators and decimals handled.\n  needs: text: string\n  e.g. \"get the numbers from: we sold 1,250 units at \u00a33.99 each\" \u2192 {\"text\":\"we sold 1,250 units at \u00a33.99 each\"}",
+    "sum \u2014 Add a list of numbers up to one final total.\n  needs: values: array\n  e.g. \"add up 1250, 3400 and 890\" \u2192 {\"values\":[1250,3400,890]}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "values"
+     ],
+     "properties": {
+      "values": {
+       "type": "array",
+       "label": "numbers",
+       "items": {
+        "type": "number"
+       },
+       "minItems": 1,
+       "prompt": "Which numbers should I add up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractTimes",
+    "listTimezoneOffsets"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "extractTimes \u2014 Pull every clock time out of a text and give each in 24-hour form.\n  needs: text: string\n  e.g. \"get the times from this message\" \u2192 {\"text\":\"the meeting is 9:30am and lunch at 1pm\"}",
+    "listTimezoneOffsets \u2014 Show the local time and UTC offset in several time zones at once.\n  needs: zones: array\n  optional: at: string\n  e.g. \"show the time in London Tokyo and New York\" \u2192 {\"zones\":[\"Europe/London\",\"Asia/Tokyo\",\"America/New_York\"]}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "zones"
+     ],
+     "properties": {
+      "zones": {
+       "type": "array",
+       "label": "time zones",
+       "minItems": 1,
+       "maxItems": 25,
+       "items": {
+        "type": "string"
+       },
+       "prompt": "Which time zones should I list?"
+      },
+      "at": {
+       "type": "string",
+       "label": "timestamp",
+       "description": "an ISO timestamp to ask about instead of now"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractUrls",
+    "validateUrl"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "extractUrls \u2014 List the web addresses appearing in a block of text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the links from: see https://example.com/docs and www.other.org\" \u2192 {\"text\":\"see https://example.com/docs and www.other.org\"}",
+    "validateUrl \u2014 Say whether a web address is well formed, and split out its host and path.\n  needs: url: string\n  e.g. \"is https://example.com/docs a valid url\" \u2192 {\"url\":\"https://example.com/docs\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "url"
+     ],
+     "properties": {
+      "url": {
+       "type": "string",
+       "label": "url",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

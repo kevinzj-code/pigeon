@@ -1,0 +1,13 @@
+{
+  "id": "no-example-cards",
+  "hypothesis": "the planner word-matches the message against the card's e.g. line and picks a sibling on vocabulary",
+  "flags": [],
+  "prompt": "no-example-cards",
+  "needs": [
+    "planner",
+    "category"
+  ],
+  "rule": "siblings < control.siblings and correct >= control.correct and leaks <= control.leaks",
+  "reads": null,
+  "added": "2026-09-08"
+}

@@ -1,0 +1,145 @@
+{
+ "reviewer": "Pigeon dev, 2026-10-13: every arguable case each writer named, read; these are left out of training",
+ "strike": [
+  {
+   "batch": "f01",
+   "question": "who is mayor of Ludgrove",
+   "why": "the council leader could fairly be taken as the mayor"
+  },
+  {
+   "batch": "f01",
+   "question": "what is the highest point in the Sallow district",
+   "why": "\"rises above 400 metres\" half answers the highest point"
+  },
+  {
+   "batch": "f01",
+   "question": "how old is Wrenfold",
+   "why": "\"how old\" answered only by a first-recorded year"
+  },
+  {
+   "batch": "f02",
+   "question": "who runs the varrick port authority",
+   "why": "the board or the chief executive could both be \"who runs\" it"
+  },
+  {
+   "batch": "f03",
+   "question": "how much does the sparrow e-reader cost",
+   "why": "the first model's price could be taken as the answer"
+  },
+  {
+   "batch": "f03",
+   "question": "when was orrin software founded",
+   "why": "the first release year could be read as the founding year"
+  },
+  {
+   "batch": "f03",
+   "question": "when did haddon's close",
+   "why": "the mill fire could be read as a closure"
+  },
+  {
+   "batch": "f03",
+   "question": "how old is quenby's sweet shop",
+   "why": "\"how old\" answered only by a start year"
+  },
+  {
+   "batch": "f04",
+   "question": "when did the Gale river flood",
+   "why": "with only \"the worst flood on record\", 0 is as defensible as 3"
+  },
+  {
+   "batch": "f05",
+   "question": "who is the race director of the Sorrel Ridge Ultra",
+   "why": "unclear whether the creator still directs it"
+  },
+  {
+   "batch": "f05",
+   "question": "where do people watch the Garron Point Air Show from",
+   "why": "sentence 1 is also a fair pick"
+  },
+  {
+   "batch": "f05",
+   "question": "how far do the pigeons fly in the Halston Long Race",
+   "why": "the distance is only implied"
+  },
+  {
+   "batch": "f05",
+   "question": "how old is the Penmarrow Fair",
+   "why": "\"how old\" answered only by a charter year"
+  },
+  {
+   "batch": "f06",
+   "question": "who is the keeper of Skellan Island Lighthouse now",
+   "why": "\"no keeper now\" can fairly be read as answering"
+  },
+  {
+   "batch": "f06",
+   "question": "what is the tallest building in Arnmouth",
+   "why": "the labelled sentence does not contain the name"
+  },
+  {
+   "batch": "f07",
+   "question": "when is the lessing bowl played",
+   "why": "time of year or first game: both defensible"
+  },
+  {
+   "batch": "f07",
+   "question": "how long is the ferncliff golf course",
+   "why": "the hole count could count as a length"
+  },
+  {
+   "batch": "f07",
+   "question": "who has won the dalbury open the most",
+   "why": "a title count could be taken as the record"
+  },
+  {
+   "batch": "f07",
+   "question": "which team has won the tullen cup the most",
+   "why": "a title count could be taken as the record"
+  },
+  {
+   "batch": "f08",
+   "question": "when was Ellendale Playhouse built",
+   "why": "the build year could fairly be either date"
+  },
+  {
+   "batch": "f08",
+   "question": "how old is the Ashgill Male Voice Choir",
+   "why": "\"how old\" only implied by a later date"
+  },
+  {
+   "batch": "f09",
+   "question": "how many locks are on the pallister canal",
+   "why": "only one flight is counted"
+  },
+  {
+   "batch": "f09",
+   "question": "how far is ormstead airport from ormstead",
+   "why": "only a bus time is given"
+  },
+  {
+   "batch": "f09",
+   "question": "what is the fastest journey time between cardow and elsham",
+   "why": "only a typical time is given"
+  },
+  {
+   "batch": "f10",
+   "question": "what was the top speed of the pollux",
+   "why": "a service speed could be accepted as the top speed"
+  },
+  {
+   "batch": "f10",
+   "question": "who discovered the saffron-winged moth",
+   "why": "naming the moth could be read as discovering it"
+  },
+  {
+   "batch": "f10",
+   "question": "how many vellow hares are left in the wild",
+   "why": "a fenced reserve could be counted as wild"
+  },
+  {
+   "batch": "f08",
+   "question": "when did the Rookwood Repertory Theatre open",
+   "why": "when it opened depends on which building is meant"
+  }
+ ]
+}

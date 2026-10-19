@@ -1,0 +1,465 @@
+{
+  "job": {
+    "id": "control",
+    "hypothesis": "baseline for batch 1 on this host",
+    "flags": [],
+    "prompt": null,
+    "needs": [
+      "planner",
+      "category"
+    ],
+    "rule": null,
+    "reads": null,
+    "added": "2026-09-08"
+  },
+  "host": "darwin-arm64-aa4fb6",
+  "head": "ee1aa77",
+  "dirty": true,
+  "limit": null,
+  "ran": "2026-09-08T14:00:38.011Z",
+  "wallMs": 792917,
+  "record": {
+    "date": "2026-09-08T14:00:38.000Z",
+    "head": "17d3e1b",
+    "host": "darwin-arm64-aa4fb6",
+    "platform": "darwin-arm64",
+    "model": "Qwen3.5-2B-Q4_K_M.gguf",
+    "prompt": "shipped",
+    "flags": [
+      "--router",
+      "category",
+      "--category-base",
+      "http://127.0.0.1:8101",
+      "--trained",
+      "--min-confidence",
+      "0.80",
+      "--only",
+      "llm+ex",
+      "--runway-auto",
+      "--second-look"
+    ],
+    "holdout": 308,
+    "noSkill": 100,
+    "configs": {
+      "llm+ex": {
+        "tally": {
+          "answered": 211,
+          "wrong-skill": 32,
+          "declined": 84,
+          "asked": 3,
+          "asked-honest": 50,
+          "network-off": 2,
+          "failed": 6,
+          "wrongly-answered": 20,
+          "error": 0
+        },
+        "correct": 263,
+        "leaks": 20,
+        "siblings": 17,
+        "avgMs": 1943,
+        "misses": [
+          {
+            "outcome": "wrong-skill",
+            "message": "render those rows as a markdown table",
+            "want": "toMarkdownTable",
+            "got": "parseMarkdownTable"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "turn this nested object into dot paths",
+            "want": "flattenJson",
+            "got": "unflattenJson"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "totals per department from these rows",
+            "want": "groupBy",
+            "got": "sortRows"
+          },
+          {
+            "outcome": "failed",
+            "message": "give me tints and shades of #556B2F",
+            "want": "generatePalette",
+            "got": "generatePalette"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "make c++ safe to drop into a pattern",
+            "want": "escapeRegex",
+            "got": "httpStatusLookup"
+          },
+          {
+            "outcome": "asked",
+            "message": "these 1s and 0s spell what",
+            "want": "binaryDecode",
+            "got": "binaryDecode"
+          },
+          {
+            "outcome": "failed",
+            "message": "sha512 digest of this phrase",
+            "want": "hashText",
+            "got": "hashText"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "whats my basket come to with postage",
+            "want": "shippingTotal",
+            "got": "stackDiscounts"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "rearrange the letters of tarps",
+            "want": "solveAnagram",
+            "got": "wordsFromLetters"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "turn my packing list into tick boxes",
+            "want": "generateChecklist",
+            "got": "loremIpsum"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "what percentage of days did I manage it",
+            "want": "habitCompletionRate",
+            "got": "percentageDistribution"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "anything way off in this set",
+            "want": "findOutliers",
+            "got": "rankValues"
+          },
+          {
+            "outcome": "declined",
+            "message": "what changed between the old and new version",
+            "want": "diffText",
+            "got": null
+          },
+          {
+            "outcome": "failed",
+            "message": "grab the bullets from this",
+            "want": "extractListItems",
+            "got": "extractListItems"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "does this read as happy or unhappy",
+            "want": "lexiconSentiment",
+            "got": "readingLevel"
+          },
+          {
+            "outcome": "asked",
+            "message": "does this payload conform to my schema",
+            "want": "validateJsonSchema",
+            "got": "validateJsonSchema"
+          },
+          {
+            "outcome": "declined",
+            "message": "am I overusing any words here",
+            "want": "findRepeatedWords",
+            "got": null
+          },
+          {
+            "outcome": "declined",
+            "message": "any misspellings in this paragraph",
+            "want": "spellCheck",
+            "got": null
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "put my bin collection dates on a calendar, first thursday, ten of them",
+            "want": "expandRecurrence",
+            "got": "extractDates"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "a 210 minute film runs for how long",
+            "want": "convertTime",
+            "got": "streakCount"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "what params are in this link",
+            "want": "parseQueryString",
+            "got": "extractUrls"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "is 2026-07-04 a saturday",
+            "want": "dayOfWeek",
+            "got": "isWeekend"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "turn 2h 15m into seconds",
+            "want": "parseDuration",
+            "got": "durationToText"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "simplify 2560 by 1440 to a ratio",
+            "want": "aspectRatio",
+            "got": "fractionSimplify"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "run this pattern over my sample and show hits",
+            "want": "testRegex",
+            "got": "extractCodeBlocks"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "squash this text down",
+            "want": "compressText",
+            "got": "truncateText"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "these hex bytes say what",
+            "want": "hexDecode",
+            "got": "hexEncode"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "extra 15 off an already 30 off item",
+            "want": "stackDiscounts",
+            "got": "applyDiscount"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "non-compounding interest on 800 at 6% for 18 months",
+            "want": "simpleInterest",
+            "got": "compoundInterest"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "tile value of the word zebra",
+            "want": "scrabbleScore",
+            "got": "countOccurrences"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "print me a month view of december 2026",
+            "want": "generateCalendarGrid",
+            "got": "daysInMonth"
+          },
+          {
+            "outcome": "asked",
+            "message": "litres in a cylinder 30cm across and 50 tall",
+            "want": "volumeOf",
+            "got": "volumeOf"
+          },
+          {
+            "outcome": "declined",
+            "message": "did I get any of these lines wrong",
+            "want": "checkArithmeticSteps",
+            "got": null
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "give me every number from 5 to 40 in fives",
+            "want": "rangeList",
+            "got": "numberLines"
+          },
+          {
+            "outcome": "failed",
+            "message": "which entries appear on both lists",
+            "want": "intersectLists",
+            "got": "intersectLists"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "merge both lists without repeats",
+            "want": "unionLists",
+            "got": "intersectLists"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "what does the code sv stand for",
+            "want": "languageCodeLookup",
+            "got": "currencyLookup"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "add these up as I go",
+            "want": "cumulativeSum",
+            "got": "sum"
+          },
+          {
+            "outcome": "failed",
+            "message": "smooth this over a 5 point window",
+            "want": "movingAverage",
+            "got": "movingAverage"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "change my heading to title case",
+            "want": "convertCase",
+            "got": "checkTitleCase"
+          },
+          {
+            "outcome": "failed",
+            "message": "what stands out in this document",
+            "want": "keywordsTfidf",
+            "got": "keywordsTfidf"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "hide the private bits in this text",
+            "want": "maskSensitive",
+            "got": "binaryDecode"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "just the readable text from this markup",
+            "want": "stripHtml",
+            "got": "extractHeadings"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "give me the outline of this markdown doc",
+            "want": "extractHeadings",
+            "got": "outlineToMarkdown"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "index the headings in this doc",
+            "want": "generateTableOfContents",
+            "got": "extractHeadings"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "translate good morning into portuguese",
+            "want": "(none)",
+            "got": "languageCodeLookup"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "what is the difference between affect and effect",
+            "want": "(none)",
+            "got": "differenceLists"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the sentiment in the room was tense",
+            "want": "(none)",
+            "got": "lexiconSentiment"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the whole project is an anagram of chaos",
+            "want": "(none)",
+            "got": "solveAnagram"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "is a table of contents even necessary these days",
+            "want": "(none)",
+            "got": "breakEvenComparison"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the timezone difference is killing our team",
+            "want": "(none)",
+            "got": "timezoneLookup"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "my average day starts with coffee and regret",
+            "want": "(none)",
+            "got": "averageWordLength"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "keep the streak alive, whatever it takes",
+            "want": "(none)",
+            "got": "streakCount"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "it was a coin toss who would get the job",
+            "want": "(none)",
+            "got": "flipCoin"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the dice were loaded from the start",
+            "want": "(none)",
+            "got": "rollDice"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "lorem ipsum is what my brain feels like today",
+            "want": "(none)",
+            "got": "loremIpsum"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "this password policy is driving everyone mad",
+            "want": "(none)",
+            "got": "passwordStrength"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the table by the window is always taken",
+            "want": "(none)",
+            "got": "prioritizeTasks"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "that speech was a word salad",
+            "want": "(none)",
+            "got": "countWords"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "he made a hash of the presentation",
+            "want": "(none)",
+            "got": "hashText"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the business days drag when the boss is around",
+            "want": "(none)",
+            "got": "businessDaysBetween"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "binary thinking is what got us into this",
+            "want": "(none)",
+            "got": "binaryDecode"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "my morse code is rusty",
+            "want": "(none)",
+            "got": "morseDecode"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the url is broken and nobody cares",
+            "want": "(none)",
+            "got": "validateUrl"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "settle this: pineapple on pizza, yes or no",
+            "want": "(none)",
+            "got": "magicEightBall"
+          }
+        ]
+      }
+    },
+    "verifier": {
+      "fired": 11,
+      "switched": 0,
+      "switchedRight": 0,
+      "switchedWrong": 0,
+      "rescued": 11,
+      "rescuedRight": 10,
+      "rescuedWrong": 1,
+      "rescuedLeak": 0
+    }
+  }
+}

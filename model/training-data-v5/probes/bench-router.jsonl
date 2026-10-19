@@ -1,0 +1,408 @@
+{"text": "3 miles in metres", "category": "conversion", "skill": "convertLength", "set": "holdout", "split": "tune"}
+{"text": "220 fahrenheit as celsius", "category": "conversion", "skill": "convertTemperature", "set": "holdout", "split": "tune"}
+{"text": "750 MB in GiB", "category": "conversion", "skill": "convertDataSize", "set": "holdout", "split": "tune"}
+{"text": "how many radians is 45 deg", "category": "conversion", "skill": "convertAngle", "set": "holdout", "split": "tune"}
+{"text": "write 200 in base 7", "category": "conversion", "skill": "convertBase", "set": "holdout", "split": "tune"}
+{"text": "turn CDXLIV into arabic digits", "category": "conversion", "skill": "convertRomanNumeral", "set": "holdout", "split": "tune"}
+{"text": "how do you write 305 on a cheque", "category": "conversion", "skill": "numberToWords", "set": "holdout", "split": "tune"}
+{"text": "read this csv into columns", "category": "data", "skill": "parseCsv", "set": "holdout", "split": "tune"}
+{"text": "order the table by price descending", "category": "data", "skill": "sortRows", "set": "holdout", "split": "tune"}
+{"text": "render those rows as a markdown table", "category": "data", "skill": "toMarkdownTable", "set": "holdout", "split": "tune"}
+{"text": "tidy this json so it is readable", "category": "data", "skill": "formatJson", "set": "holdout", "split": "tune"}
+{"text": "assemble a query string for page=2 and sort=asc", "category": "data", "skill": "buildQueryString", "set": "holdout", "split": "tune"}
+{"text": "turn this nested object into dot paths", "category": "data", "skill": "flattenJson", "set": "holdout", "split": "tune"}
+{"text": "totals per department from these rows", "category": "data", "skill": "groupBy", "set": "holdout", "split": "tune"}
+{"text": "read this md table as data", "category": "data", "skill": "parseMarkdownTable", "set": "holdout", "split": "tune"}
+{"text": "cross-tab sales by month and product", "category": "data", "skill": "pivotRows", "set": "holdout", "split": "tune"}
+{"text": "put these json keys in order", "category": "data", "skill": "sortObjectKeys", "set": "holdout", "split": "tune"}
+{"text": "expand these dotted keys back into objects", "category": "data", "skill": "unflattenJson", "set": "holdout", "split": "tune"}
+{"text": "how many days between 12 july 2026 and christmas", "category": "dates", "skill": "daysBetween", "set": "holdout", "split": "tune"}
+{"text": "how long until 25 december", "category": "dates", "skill": "countdownTo", "set": "holdout", "split": "tune"}
+{"text": "when is the next thursday", "category": "dates", "skill": "nextWeekday", "set": "holdout", "split": "tune"}
+{"text": "born 1985-03-12, how old are they now", "category": "dates", "skill": "ageFromDate", "set": "holdout", "split": "tune"}
+{"text": "9am in berlin is what time in tokyo on 2026-05-05", "category": "dates", "skill": "convertTimezone", "set": "holdout", "split": "tune"}
+{"text": "what date is in a fortnight", "category": "dates", "skill": "parseRelativeDate", "set": "holdout", "split": "tune"}
+{"text": "how much time has passed since 2026-08-20", "category": "dates", "skill": "timeAgo", "set": "holdout", "split": "tune"}
+{"text": "express 7500 seconds as hours and minutes", "category": "dates", "skill": "durationToText", "set": "holdout", "split": "tune"}
+{"text": "three working days on from 2026-11-02", "category": "dates", "skill": "addBusinessDays", "set": "holdout", "split": "tune"}
+{"text": "which numbered day of 2026 is 1 august", "category": "dates", "skill": "dayOfYear", "set": "holdout", "split": "tune"}
+{"text": "does 2100 have a leap day", "category": "dates", "skill": "isLeapYear", "set": "holdout", "split": "tune"}
+{"text": "epoch value for 2027-01-01 midnight", "category": "dates", "skill": "isoToUnix", "set": "holdout", "split": "tune"}
+{"text": "clock times right now in Paris Delhi and Chicago", "category": "dates", "skill": "listTimezoneOffsets", "set": "holdout", "split": "tune"}
+{"text": "turn 1700000000 into a readable date", "category": "dates", "skill": "unixToIso", "set": "holdout", "split": "tune"}
+{"text": "score these three options against my criteria", "category": "decisions", "skill": "weightedDecisionMatrix", "set": "holdout", "split": "tune"}
+{"text": "average payout if I win 500 a fifth of the time", "category": "decisions", "skill": "expectedValue", "set": "holdout", "split": "tune"}
+{"text": "resize 1600x900 to fit 400 wide", "category": "design", "skill": "scaleDimensions", "set": "holdout", "split": "tune"}
+{"text": "colour on the other side of the wheel from #3366FF", "category": "design", "skill": "complementaryColor", "set": "holdout", "split": "tune"}
+{"text": "give me hsl for #1E90FF", "category": "design", "skill": "convertColor", "set": "holdout", "split": "tune"}
+{"text": "give me tints and shades of #556B2F", "category": "design", "skill": "generatePalette", "set": "holdout", "split": "tune"}
+{"text": "halfway colour between #FF0000 and #FFFF00", "category": "design", "skill": "mixColors", "set": "holdout", "split": "tune"}
+{"text": "2.25rem in px please", "category": "design", "skill": "remToPx", "set": "holdout", "split": "tune"}
+{"text": "which version wins, 3.0.0-rc.1 or 3.0.0", "category": "developer", "skill": "compareSemver", "set": "holdout", "split": "tune"}
+{"text": "make c++ safe to drop into a pattern", "category": "developer", "skill": "escapeRegex", "set": "holdout", "split": "tune"}
+{"text": "show me the payload of this bearer token", "category": "developer", "skill": "jwtDecode", "set": "holdout", "split": "tune"}
+{"text": "split 4.2.1+build9 into parts", "category": "developer", "skill": "parseSemver", "set": "holdout", "split": "tune"}
+{"text": "code point for the pound sign", "category": "developer", "skill": "unicodeLookup", "set": "holdout", "split": "tune"}
+{"text": "make this text safe for a query string", "category": "encoding", "skill": "urlEncode", "set": "holdout", "split": "tune"}
+{"text": "un-base64 this blob", "category": "encoding", "skill": "base64Decode", "set": "holdout", "split": "tune"}
+{"text": "these 1s and 0s spell what", "category": "encoding", "skill": "binaryDecode", "set": "holdout", "split": "tune"}
+{"text": "move every letter on by 5", "category": "encoding", "skill": "caesarShift", "set": "holdout", "split": "tune"}
+{"text": "unpack this compressed blob", "category": "encoding", "skill": "decompressText", "set": "holdout", "split": "tune"}
+{"text": "random 12 char token please", "category": "encoding", "skill": "generateRandomString", "set": "holdout", "split": "tune"}
+{"text": "sha512 digest of this phrase", "category": "encoding", "skill": "hashText", "set": "holdout", "split": "tune"}
+{"text": "give me the hex bytes for this word", "category": "encoding", "skill": "hexEncode", "set": "holdout", "split": "tune"}
+{"text": "put my name into dots and dashes", "category": "encoding", "skill": "morseEncode", "set": "holdout", "split": "tune"}
+{"text": "dinner 132.40, 18% tip, 5 people", "category": "everyday", "skill": "splitBill", "set": "holdout", "split": "tune"}
+{"text": "how many grams is a cup of caster sugar", "category": "everyday", "skill": "convertCookingMeasure", "set": "holdout", "split": "tune"}
+{"text": "which pack size is better value", "category": "everyday", "skill": "comparePrices", "set": "holdout", "split": "tune"}
+{"text": "whats my basket come to with postage", "category": "everyday", "skill": "shippingTotal", "set": "holdout", "split": "tune"}
+{"text": "how big is 3400000 bytes in readable units", "category": "files", "skill": "fileSizeHuman", "set": "holdout", "split": "tune"}
+{"text": "how many words and bytes in this", "category": "files", "skill": "textFileStats", "set": "holdout", "split": "tune"}
+{"text": "reduce 249 by 30%", "category": "finance", "skill": "applyDiscount", "set": "holdout", "split": "tune"}
+{"text": "add 20 percent vat onto 480", "category": "finance", "skill": "applyTax", "set": "holdout", "split": "tune"}
+{"text": "what does 2500 become after 8 years at 3.5", "category": "finance", "skill": "compoundInterest", "set": "holdout", "split": "tune"}
+{"text": "costs me 8, sells for 14, whats the margin", "category": "finance", "skill": "markupMargin", "set": "holdout", "split": "tune"}
+{"text": "how long till I have 3000 putting 120 aside monthly", "category": "finance", "skill": "savingsGoal", "set": "holdout", "split": "tune"}
+{"text": "do these two phrases use the same letters", "category": "games", "skill": "checkAnagram", "set": "holdout", "split": "tune"}
+{"text": "ask the 8 ball if I should go", "category": "games", "skill": "magicEightBall", "set": "holdout", "split": "tune"}
+{"text": "rearrange the letters of tarps", "category": "games", "skill": "solveAnagram", "set": "holdout", "split": "tune"}
+{"text": "throw a couple of dice for me, seed 9", "category": "generation", "skill": "rollDice", "set": "holdout", "split": "tune"}
+{"text": "pick a number from 1 to 20, seed 9", "category": "generation", "skill": "randomNumber", "set": "holdout", "split": "tune"}
+{"text": "turn my packing list into tick boxes", "category": "generation", "skill": "generateChecklist", "set": "holdout", "split": "tune"}
+{"text": "need three paragraphs of dummy copy", "category": "generation", "skill": "loremIpsum", "set": "holdout", "split": "tune"}
+{"text": "how much carpet for a 4.5 by 3.2 m room", "category": "geometry", "skill": "areaOf", "set": "holdout", "split": "tune"}
+{"text": "great circle miles between these coordinates", "category": "geometry", "skill": "haversineDistance", "set": "holdout", "split": "tune"}
+{"text": "ladder length if the wall is 8 and the base is 6", "category": "geometry", "skill": "pythagorean", "set": "holdout", "split": "tune"}
+{"text": "body mass index at 1.8m and 82 kilos", "category": "health", "skill": "bmiCalculate", "set": "holdout", "split": "tune"}
+{"text": "how long would a half marathon take at 6 min km", "category": "health", "skill": "paceCalculate", "set": "holdout", "split": "tune"}
+{"text": "kilometre splits to break 45 minutes over 10k", "category": "health", "skill": "splitTimes", "set": "holdout", "split": "tune"}
+{"text": "score this test paper against the correct responses", "category": "learning", "skill": "gradeQuiz", "set": "holdout", "split": "tune"}
+{"text": "reorder my deck for revision", "category": "learning", "skill": "flashcardShuffle", "set": "holdout", "split": "tune"}
+{"text": "I am on 65 with 40% left, what do I need for a 70", "category": "learning", "skill": "gradeNeeded", "set": "holdout", "split": "tune"}
+{"text": "set revision dates starting today", "category": "learning", "skill": "spacedRepetitionSchedule", "set": "holdout", "split": "tune"}
+{"text": "strip the repeats out of this list", "category": "lists", "skill": "dedupeList", "set": "holdout", "split": "tune"}
+{"text": "tally how many of each appear", "category": "lists", "skill": "countItems", "set": "holdout", "split": "tune"}
+{"text": "deal these 12 names into groups of four", "category": "lists", "skill": "chunkList", "set": "holdout", "split": "tune"}
+{"text": "squash this nested array flat", "category": "lists", "skill": "flattenList", "set": "holdout", "split": "tune"}
+{"text": "draw partners for these six, seed 3", "category": "lists", "skill": "pairUp", "set": "holdout", "split": "tune"}
+{"text": "jumble this playlist up, seed 4", "category": "lists", "skill": "shuffleList", "set": "holdout", "split": "tune"}
+{"text": "pair each name with its score", "category": "lists", "skill": "zipLists", "set": "holdout", "split": "tune"}
+{"text": "whats 340 divided by 8 plus 12", "category": "math", "skill": "evaluateExpression", "set": "holdout", "split": "tune"}
+{"text": "price went 25 to 31, whats the increase", "category": "math", "skill": "percentChange", "set": "holdout", "split": "tune"}
+{"text": "round 88.4567 to 3 dp", "category": "math", "skill": "roundTo", "set": "holdout", "split": "tune"}
+{"text": "total these figures for me: 45 62 18 9", "category": "math", "skill": "sum", "set": "holdout", "split": "tune"}
+{"text": "read 4.5k as a plain number", "category": "math", "skill": "parseNumber", "set": "holdout", "split": "tune"}
+{"text": "write 45.5 as pounds sterling", "category": "math", "skill": "formatCurrency", "set": "holdout", "split": "tune"}
+{"text": "share 750 between shares of 5 3 and 2", "category": "math", "skill": "allocateProportionally", "set": "holdout", "split": "tune"}
+{"text": "give me fibonacci up to the 12th", "category": "math", "skill": "fibonacci", "set": "holdout", "split": "tune"}
+{"text": "highest number dividing 84 and 126", "category": "math", "skill": "gcd", "set": "holdout", "split": "tune"}
+{"text": "smallest number both 8 and 14 go into", "category": "math", "skill": "lcm", "set": "holdout", "split": "tune"}
+{"text": "if 5 maps to 8, what maps to 40", "category": "math", "skill": "ratioSolve", "set": "holdout", "split": "tune"}
+{"text": "divide my 2800 salary into budget categories", "category": "organising", "skill": "budgetSplit", "set": "holdout", "split": "tune"}
+{"text": "what percentage of days did I manage it", "category": "organising", "skill": "habitCompletionRate", "set": "holdout", "split": "tune"}
+{"text": "fair rota for four flatmates and three chores", "category": "organising", "skill": "rotateAssignments", "set": "holdout", "split": "tune"}
+{"text": "lay my tasks out from 9am with 10 min gaps", "category": "organising", "skill": "timeBlockSchedule", "set": "holdout", "split": "tune"}
+{"text": "what is the capital of Portugal", "category": "reference", "skill": "countryLookup", "set": "holdout", "split": "tune"}
+{"text": "which airport is CDG", "category": "reference", "skill": "airportCodeLookup", "set": "holdout", "split": "tune"}
+{"text": "tell me about magnesium", "category": "reference", "skill": "periodicTableLookup", "set": "holdout", "split": "tune"}
+{"text": "offset from utc in Auckland", "category": "reference", "skill": "timezoneLookup", "set": "holdout", "split": "tune"}
+{"text": "mean and spread of 12 19 22 8 31", "category": "statistics", "skill": "describeNumbers", "set": "holdout", "split": "tune"}
+{"text": "do these two columns move together", "category": "statistics", "skill": "correlation", "set": "holdout", "split": "tune"}
+{"text": "anything way off in this set", "category": "statistics", "skill": "findOutliers", "set": "holdout", "split": "tune"}
+{"text": "best fit line for this scatter", "category": "statistics", "skill": "linearRegression", "set": "holdout", "split": "tune"}
+{"text": "p95 of these latencies", "category": "statistics", "skill": "percentile", "set": "holdout", "split": "tune"}
+{"text": "order these from best to worst", "category": "statistics", "skill": "rankValues", "set": "holdout", "split": "tune"}
+{"text": "how many words in this sentence right here", "category": "text", "skill": "countWords", "set": "holdout", "split": "tune"}
+{"text": "make \"Annual Report 2026\" a url slug", "category": "text", "skill": "slugify", "set": "holdout", "split": "tune"}
+{"text": "swap every instance of teh for the", "category": "text", "skill": "replaceText", "set": "holdout", "split": "tune"}
+{"text": "list the links in that message", "category": "text", "skill": "extractUrls", "set": "holdout", "split": "tune"}
+{"text": "how many characters is this tweet", "category": "text", "skill": "countCharacters", "set": "holdout", "split": "tune"}
+{"text": "how many lines does this file have", "category": "text", "skill": "countLines", "set": "holdout", "split": "tune"}
+{"text": "break this sentence into individual words", "category": "text", "skill": "tokenizeWords", "set": "holdout", "split": "tune"}
+{"text": "strip the filler words out of this query", "category": "text", "skill": "removeStopWords", "set": "holdout", "split": "tune"}
+{"text": "how long would this take someone to read", "category": "text", "skill": "readingTime", "set": "holdout", "split": "tune"}
+{"text": "strip the indentation off every line", "category": "text", "skill": "trimLines", "set": "holdout", "split": "tune"}
+{"text": "put these lines in alphabetical order", "category": "text", "skill": "sortLines", "set": "holdout", "split": "tune"}
+{"text": "join these lines into one comma separated line", "category": "text", "skill": "joinLines", "set": "holdout", "split": "tune"}
+{"text": "what changed between the old and new version", "category": "text", "skill": "diffText", "set": "holdout", "split": "tune"}
+{"text": "guess the language of this snippet", "category": "text", "skill": "detectLanguage", "set": "holdout", "split": "tune"}
+{"text": "make these angle brackets safe for html", "category": "text", "skill": "escapeHtml", "set": "holdout", "split": "tune"}
+{"text": "list every price mentioned here", "category": "text", "skill": "extractCurrencyAmounts", "set": "holdout", "split": "tune"}
+{"text": "list the tags used in this tweet", "category": "text", "skill": "extractHashtags", "set": "holdout", "split": "tune"}
+{"text": "grab the bullets from this", "category": "text", "skill": "extractListItems", "set": "holdout", "split": "tune"}
+{"text": "split this into two word runs", "category": "text", "skill": "extractNgrams", "set": "holdout", "split": "tune"}
+{"text": "what times are mentioned", "category": "text", "skill": "extractTimes", "set": "holdout", "split": "tune"}
+{"text": "which of these entries are basically the same", "category": "text", "skill": "findNearDuplicates", "set": "holdout", "split": "tune"}
+{"text": "anything rude in this message", "category": "text", "skill": "flagProfanity", "set": "holdout", "split": "tune"}
+{"text": "does this read as happy or unhappy", "category": "text", "skill": "lexiconSentiment", "set": "holdout", "split": "tune"}
+{"text": "stick numbers on each line", "category": "text", "skill": "numberLines", "set": "holdout", "split": "tune"}
+{"text": "strip the smileys out", "category": "text", "skill": "removeEmoji", "set": "holdout", "split": "tune"}
+{"text": "how much vocabulary do these share", "category": "text", "skill": "similarityJaccard", "set": "holdout", "split": "tune"}
+{"text": "cut these words back to their roots", "category": "text", "skill": "stemWords", "set": "holdout", "split": "tune"}
+{"text": "drop the formatting marks from this", "category": "text", "skill": "stripMarkdown", "set": "holdout", "split": "tune"}
+{"text": "flatten the accents in this name", "category": "text", "skill": "toAscii", "set": "holdout", "split": "tune"}
+{"text": "is this address written correctly: jo@example", "category": "validation", "skill": "validateEmail", "set": "holdout", "split": "tune"}
+{"text": "this config is being rejected, what is malformed", "category": "validation", "skill": "validateJson", "set": "holdout", "split": "tune"}
+{"text": "tidy this number into international format", "category": "validation", "skill": "formatPhoneNumber", "set": "holdout", "split": "tune"}
+{"text": "is #GG0011 a real colour code", "category": "validation", "skill": "validateHexColor", "set": "holdout", "split": "tune"}
+{"text": "is 10.0.0.256 usable", "category": "validation", "skill": "validateIpAddress", "set": "holdout", "split": "tune"}
+{"text": "does this payload conform to my schema", "category": "validation", "skill": "validateJsonSchema", "set": "holdout", "split": "tune"}
+{"text": "is +44 7700 900 the right shape", "category": "validation", "skill": "validatePhoneNumber", "set": "holdout", "split": "tune"}
+{"text": "build an APA reference from these details", "category": "writing", "skill": "formatCitation", "set": "holdout", "split": "tune"}
+{"text": "how long is each paragraph in my draft", "category": "writing", "skill": "paragraphStats", "set": "holdout", "split": "tune"}
+{"text": "capitalise this headline properly", "category": "writing", "skill": "checkTitleCase", "set": "holdout", "split": "tune"}
+{"text": "am I overusing any words here", "category": "writing", "skill": "findRepeatedWords", "set": "holdout", "split": "tune"}
+{"text": "render this md as html", "category": "writing", "skill": "markdownToHtml", "set": "holdout", "split": "tune"}
+{"text": "plural of cactus", "category": "writing", "skill": "pluralize", "set": "holdout", "split": "tune"}
+{"text": "any misspellings in this paragraph", "category": "writing", "skill": "spellCheck", "set": "holdout", "split": "tune"}
+{"text": "put my bin collection dates on a calendar, first thursday, ten of them", "category": "dates", "skill": "expandRecurrence", "set": "holdout", "split": "tune"}
+{"text": "narrow my guesses: _o_se, has an r, no t", "category": "games", "skill": "wordleFilter", "set": "holdout", "split": "tune"}
+{"text": "tell me about the Antikythera mechanism", "category": "reference", "skill": "webAnswer", "set": "holdout", "split": "tune"}
+{"text": "convert 12 stone to kilograms", "category": "conversion", "skill": "convertMass", "set": "holdout", "split": "grade"}
+{"text": "how much is 6 tablespoons in millilitres", "category": "conversion", "skill": "convertVolume", "set": "holdout", "split": "grade"}
+{"text": "a 210 minute film runs for how long", "category": "conversion", "skill": "convertTime", "set": "holdout", "split": "grade"}
+{"text": "3000 sq ft in square metres", "category": "conversion", "skill": "convertArea", "set": "holdout", "split": "grade"}
+{"text": "my car does 45 mpg, whats that in litres per 100", "category": "conversion", "skill": "convertFuelEconomy", "set": "holdout", "split": "grade"}
+{"text": "how many m/s is 90 kph", "category": "conversion", "skill": "convertSpeed", "set": "holdout", "split": "grade"}
+{"text": "keep rows where status is open", "category": "data", "skill": "filterRows", "set": "holdout", "split": "grade"}
+{"text": "total the revenue column", "category": "data", "skill": "columnMath", "set": "holdout", "split": "grade"}
+{"text": "write these rows back out as csv", "category": "data", "skill": "toCsv", "set": "holdout", "split": "grade"}
+{"text": "keep just the name and email columns", "category": "data", "skill": "selectColumns", "set": "holdout", "split": "grade"}
+{"text": "whats changed between these two configs", "category": "data", "skill": "diffJson", "set": "holdout", "split": "grade"}
+{"text": "pull settings.theme out of this document", "category": "data", "skill": "getPath", "set": "holdout", "split": "grade"}
+{"text": "turn this .env content into an object", "category": "data", "skill": "parseKeyValue", "set": "holdout", "split": "grade"}
+{"text": "what params are in this link", "category": "data", "skill": "parseQueryString", "set": "holdout", "split": "grade"}
+{"text": "update config.timeout to 30 in this json", "category": "data", "skill": "setPath", "set": "holdout", "split": "grade"}
+{"text": "turn the columns of this table into rows", "category": "data", "skill": "transposeTable", "set": "holdout", "split": "grade"}
+{"text": "whats the gap between 2026-01-01 and 2026-06-30", "category": "dates", "skill": "daysBetween", "set": "holdout", "split": "grade"}
+{"text": "push 2026-03-01 forward by 45 days", "category": "dates", "skill": "addDuration", "set": "holdout", "split": "grade"}
+{"text": "is 2026-07-04 a saturday", "category": "dates", "skill": "dayOfWeek", "set": "holdout", "split": "grade"}
+{"text": "read 4 march 2027 as an iso date", "category": "dates", "skill": "parseDate", "set": "holdout", "split": "grade"}
+{"text": "working days from 2026-02-02 to 2026-02-27", "category": "dates", "skill": "businessDaysBetween", "set": "holdout", "split": "grade"}
+{"text": "what is the date and time right now", "category": "dates", "skill": "currentTime", "set": "holdout", "split": "grade"}
+{"text": "rewrite 2026-11-14 as DD/MM/YYYY", "category": "dates", "skill": "formatDate", "set": "holdout", "split": "grade"}
+{"text": "turn 2h 15m into seconds", "category": "dates", "skill": "parseDuration", "set": "holdout", "split": "grade"}
+{"text": "every date from 2026-03-01 up to 2026-03-07", "category": "dates", "skill": "dateRangeList", "set": "holdout", "split": "grade"}
+{"text": "how long is april 2027", "category": "dates", "skill": "daysInMonth", "set": "holdout", "split": "grade"}
+{"text": "is new years day 2027 a saturday or sunday", "category": "dates", "skill": "isWeekend", "set": "holdout", "split": "grade"}
+{"text": "which week number does 2026-06-15 fall in", "category": "dates", "skill": "isoWeek", "set": "holdout", "split": "grade"}
+{"text": "collapse these date ranges into as few as possible", "category": "dates", "skill": "mergeIntervals", "set": "holdout", "split": "grade"}
+{"text": "at what point does the annual plan pay off", "category": "decisions", "skill": "breakEvenComparison", "set": "holdout", "split": "grade"}
+{"text": "help me weigh this up, 3 for and 2 against", "category": "decisions", "skill": "prosConsScore", "set": "holdout", "split": "grade"}
+{"text": "simplify 2560 by 1440 to a ratio", "category": "design", "skill": "aspectRatio", "set": "holdout", "split": "grade"}
+{"text": "will white text pass on #767676", "category": "design", "skill": "contrastRatio", "set": "holdout", "split": "grade"}
+{"text": "shade #FFAA00 down 30 percent", "category": "design", "skill": "darkenColor", "set": "holdout", "split": "grade"}
+{"text": "tint #223344 up by 15 percent", "category": "design", "skill": "lightenColor", "set": "holdout", "split": "grade"}
+{"text": "what fraction of a rem is 12px", "category": "design", "skill": "pxToRem", "set": "holdout", "split": "grade"}
+{"text": "put 30 2 * * 1 into plain english", "category": "developer", "skill": "cronToText", "set": "holdout", "split": "grade"}
+{"text": "what is a 429 telling me", "category": "developer", "skill": "httpStatusLookup", "set": "holdout", "split": "grade"}
+{"text": "content type to serve a .svg with", "category": "developer", "skill": "mimeTypeLookup", "set": "holdout", "split": "grade"}
+{"text": "run this pattern over my sample and show hits", "category": "developer", "skill": "testRegex", "set": "holdout", "split": "grade"}
+{"text": "what does caf%C3%A9 decode to", "category": "encoding", "skill": "urlDecode", "set": "holdout", "split": "grade"}
+{"text": "b64 this string for me", "category": "encoding", "skill": "base64Encode", "set": "holdout", "split": "grade"}
+{"text": "show me the bits for the letter Z", "category": "encoding", "skill": "binaryEncode", "set": "holdout", "split": "grade"}
+{"text": "squash this text down", "category": "encoding", "skill": "compressText", "set": "holdout", "split": "grade"}
+{"text": "four random words as a password", "category": "encoding", "skill": "generatePassphrase", "set": "holdout", "split": "grade"}
+{"text": "need a fresh guid", "category": "encoding", "skill": "generateUuid", "set": "holdout", "split": "grade"}
+{"text": "these hex bytes say what", "category": "encoding", "skill": "hexDecode", "set": "holdout", "split": "grade"}
+{"text": "what is -.-. --.- in letters", "category": "encoding", "skill": "morseDecode", "set": "holdout", "split": "grade"}
+{"text": "apply the 13 letter rotation to this", "category": "encoding", "skill": "rot13", "set": "holdout", "split": "grade"}
+{"text": "triple this recipe: 1 cup rice, 2 eggs", "category": "everyday", "skill": "scaleRecipe", "set": "holdout", "split": "grade"}
+{"text": "what does that work out to per litre", "category": "everyday", "skill": "unitPrice", "set": "holdout", "split": "grade"}
+{"text": "cost to drive 150 km if I use 9 litres per 100 and fuel is 1.80", "category": "everyday", "skill": "fuelCostForTrip", "set": "holdout", "split": "grade"}
+{"text": "extra 15 off an already 30 off item", "category": "everyday", "skill": "stackDiscounts", "set": "holdout", "split": "grade"}
+{"text": "whats a .webp file", "category": "files", "skill": "fileExtensionInfo", "set": "holdout", "split": "grade"}
+{"text": "change 400 usd to gbp at 0.79", "category": "finance", "skill": "convertCurrencyFixed", "set": "holdout", "split": "grade"}
+{"text": "monthly repayment on 12000 over 4 years at 6%", "category": "finance", "skill": "amortizeLoan", "set": "holdout", "split": "grade"}
+{"text": "22 an hour, whats that yearly", "category": "finance", "skill": "hourlyToSalary", "set": "holdout", "split": "grade"}
+{"text": "52000 a year works out at what per hour", "category": "finance", "skill": "salaryToHourly", "set": "holdout", "split": "grade"}
+{"text": "non-compounding interest on 800 at 6% for 18 months", "category": "finance", "skill": "simpleInterest", "set": "holdout", "split": "grade"}
+{"text": "does level read the same both ways", "category": "games", "skill": "checkPalindrome", "set": "holdout", "split": "grade"}
+{"text": "tile value of the word zebra", "category": "games", "skill": "scrabbleScore", "set": "holdout", "split": "grade"}
+{"text": "which words fit from these seven tiles", "category": "games", "skill": "wordsFromLetters", "set": "holdout", "split": "grade"}
+{"text": "heads or tails, seed 5", "category": "generation", "skill": "flipCoin", "set": "holdout", "split": "grade"}
+{"text": "print me a month view of december 2026", "category": "generation", "skill": "generateCalendarGrid", "set": "holdout", "split": "grade"}
+{"text": "carve 2pm to 5pm into four sessions", "category": "generation", "skill": "generateSchedule", "set": "holdout", "split": "grade"}
+{"text": "how far from (1,2) to (7,10)", "category": "geometry", "skill": "distanceBetweenPoints", "set": "holdout", "split": "grade"}
+{"text": "how much fencing round a 12 by 9 plot", "category": "geometry", "skill": "perimeterOf", "set": "holdout", "split": "grade"}
+{"text": "litres in a cylinder 30cm across and 50 tall", "category": "geometry", "skill": "volumeOf", "set": "holdout", "split": "grade"}
+{"text": "my measured max is 172, split it into zones", "category": "health", "skill": "heartRateZones", "set": "holdout", "split": "grade"}
+{"text": "what time should I turn in for a 5:45 alarm", "category": "health", "skill": "sleepCycleTimes", "set": "holdout", "split": "grade"}
+{"text": "did I get any of these lines wrong", "category": "learning", "skill": "checkArithmeticSteps", "set": "holdout", "split": "grade"}
+{"text": "grade point average from these modules", "category": "learning", "skill": "gpaCalculate", "set": "holdout", "split": "grade"}
+{"text": "plan out 420 pages before the end of the month", "category": "learning", "skill": "readingScheduleFromPages", "set": "holdout", "split": "grade"}
+{"text": "put these items in natural order", "category": "lists", "skill": "sortList", "set": "holdout", "split": "grade"}
+{"text": "give me every number from 5 to 40 in fives", "category": "lists", "skill": "rangeList", "set": "holdout", "split": "grade"}
+{"text": "what is missing from the second list", "category": "lists", "skill": "differenceLists", "set": "holdout", "split": "grade"}
+{"text": "which entries appear on both lists", "category": "lists", "skill": "intersectLists", "set": "holdout", "split": "grade"}
+{"text": "draw a winner from these entrants, seed 9", "category": "lists", "skill": "pickRandom", "set": "holdout", "split": "grade"}
+{"text": "merge both lists without repeats", "category": "lists", "skill": "unionLists", "set": "holdout", "split": "grade"}
+{"text": "work out 12% of 6500", "category": "math", "skill": "percentOf", "set": "holdout", "split": "grade"}
+{"text": "what proportion is 18 of 24, in percent", "category": "math", "skill": "whatPercent", "set": "holdout", "split": "grade"}
+{"text": "divide 475 between 6 of us", "category": "math", "skill": "splitEvenly", "set": "holdout", "split": "grade"}
+{"text": "multiply 7 by 9 by 3 together", "category": "math", "skill": "product", "set": "holdout", "split": "grade"}
+{"text": "write 9876543 with commas in it", "category": "math", "skill": "formatNumber", "set": "holdout", "split": "grade"}
+{"text": "what share of the total is each of 12 30 58", "category": "math", "skill": "percentageDistribution", "set": "holdout", "split": "grade"}
+{"text": "multiply 1 through 8 together", "category": "math", "skill": "factorial", "set": "holdout", "split": "grade"}
+{"text": "lowest terms for 45/60", "category": "math", "skill": "fractionSimplify", "set": "holdout", "split": "grade"}
+{"text": "does 221 have any divisors", "category": "math", "skill": "isPrime", "set": "holdout", "split": "grade"}
+{"text": "which primes multiply to make 990", "category": "math", "skill": "primeFactors", "set": "holdout", "split": "grade"}
+{"text": "add the right suffix to 42", "category": "math", "skill": "toOrdinal", "set": "holdout", "split": "grade"}
+{"text": "overlap in working hours for these offices", "category": "organising", "skill": "findCommonMeetingHours", "set": "holdout", "split": "grade"}
+{"text": "sort my jobs by what matters most", "category": "organising", "skill": "prioritizeTasks", "set": "holdout", "split": "grade"}
+{"text": "longest run of consecutive days in this log", "category": "organising", "skill": "streakCount", "set": "holdout", "split": "grade"}
+{"text": "what does SEK mean", "category": "reference", "skill": "currencyLookup", "set": "holdout", "split": "grade"}
+{"text": "what does the code sv stand for", "category": "reference", "skill": "languageCodeLookup", "set": "holdout", "split": "grade"}
+{"text": "where does +351 dial to", "category": "reference", "skill": "phoneRegionLookup", "set": "holdout", "split": "grade"}
+{"text": "which state has the abbreviation OR", "category": "reference", "skill": "usStateLookup", "set": "holdout", "split": "grade"}
+{"text": "average these marks where the exam counts triple", "category": "statistics", "skill": "weightedAverage", "set": "holdout", "split": "grade"}
+{"text": "add these up as I go", "category": "statistics", "skill": "cumulativeSum", "set": "holdout", "split": "grade"}
+{"text": "bucket these values into six ranges", "category": "statistics", "skill": "histogramBins", "set": "holdout", "split": "grade"}
+{"text": "smooth this over a 5 point window", "category": "statistics", "skill": "movingAverage", "set": "holdout", "split": "grade"}
+{"text": "give me the iqr of this sample", "category": "statistics", "skill": "quartiles", "set": "holdout", "split": "grade"}
+{"text": "standardise this set", "category": "statistics", "skill": "zScores", "set": "holdout", "split": "grade"}
+{"text": "which words repeat most in that paragraph", "category": "text", "skill": "wordFrequency", "set": "holdout", "split": "grade"}
+{"text": "change my heading to title case", "category": "text", "skill": "convertCase", "set": "holdout", "split": "grade"}
+{"text": "grab the email addresses from this signature", "category": "text", "skill": "extractEmails", "set": "holdout", "split": "grade"}
+{"text": "what numbers appear in this invoice line", "category": "text", "skill": "extractNumbers", "set": "holdout", "split": "grade"}
+{"text": "how many sentences in that paragraph", "category": "text", "skill": "countSentences", "set": "holdout", "split": "grade"}
+{"text": "how often does the word error appear in the log", "category": "text", "skill": "countOccurrences", "set": "holdout", "split": "grade"}
+{"text": "split that paragraph into separate sentences", "category": "text", "skill": "tokenizeSentences", "set": "holdout", "split": "grade"}
+{"text": "what reading age is this passage written at", "category": "text", "skill": "readingLevel", "set": "holdout", "split": "grade"}
+{"text": "tidy up the spacing in this pasted text", "category": "text", "skill": "normalizeWhitespace", "set": "holdout", "split": "grade"}
+{"text": "get rid of repeated lines in this list", "category": "text", "skill": "removeDuplicateLines", "set": "holdout", "split": "grade"}
+{"text": "shorten this to fit 100 characters", "category": "text", "skill": "truncateText", "set": "holdout", "split": "grade"}
+{"text": "split that comma list onto separate lines", "category": "text", "skill": "splitLines", "set": "holdout", "split": "grade"}
+{"text": "typical word size in this paragraph", "category": "text", "skill": "averageWordLength", "set": "holdout", "split": "grade"}
+{"text": "am I saying the same phrase twice", "category": "text", "skill": "detectRepetition", "set": "holdout", "split": "grade"}
+{"text": "lift the fenced snippets out of this doc", "category": "text", "skill": "extractCodeBlocks", "set": "holdout", "split": "grade"}
+{"text": "which dates are mentioned in this note", "category": "text", "skill": "extractDates", "set": "holdout", "split": "grade"}
+{"text": "pull out any ip addresses from these lines", "category": "text", "skill": "extractIpAddresses", "set": "holdout", "split": "grade"}
+{"text": "which handles are tagged here", "category": "text", "skill": "extractMentions", "set": "holdout", "split": "grade"}
+{"text": "any numbers to call in this signature", "category": "text", "skill": "extractPhoneNumbers", "set": "holdout", "split": "grade"}
+{"text": "biggest word in this passage", "category": "text", "skill": "findLongestWord", "set": "holdout", "split": "grade"}
+{"text": "scan this for anything personal", "category": "text", "skill": "flagPii", "set": "holdout", "split": "grade"}
+{"text": "what stands out in this document", "category": "text", "skill": "keywordsTfidf", "set": "holdout", "split": "grade"}
+{"text": "hide the private bits in this text", "category": "text", "skill": "maskSensitive", "set": "holdout", "split": "grade"}
+{"text": "right justify this in 10 columns", "category": "text", "skill": "padText", "set": "holdout", "split": "grade"}
+{"text": "write this backwards", "category": "text", "skill": "reverseText", "set": "holdout", "split": "grade"}
+{"text": "how many edits between these two spellings", "category": "text", "skill": "similarityLevenshtein", "set": "holdout", "split": "grade"}
+{"text": "just the readable text from this markup", "category": "text", "skill": "stripHtml", "set": "holdout", "split": "grade"}
+{"text": "how many beats in the word incredible", "category": "text", "skill": "syllableCount", "set": "holdout", "split": "grade"}
+{"text": "break these lines at 40 wide", "category": "text", "skill": "wrapText", "set": "holdout", "split": "grade"}
+{"text": "is https://example.com/x a proper link", "category": "validation", "skill": "validateUrl", "set": "holdout", "split": "grade"}
+{"text": "does 31 september exist", "category": "validation", "skill": "validateDate", "set": "holdout", "split": "grade"}
+{"text": "how good is hunter2 as a password", "category": "validation", "skill": "passwordStrength", "set": "holdout", "split": "grade"}
+{"text": "does this account number check out", "category": "validation", "skill": "validateIban", "set": "holdout", "split": "grade"}
+{"text": "does this book number check digit work", "category": "validation", "skill": "validateIsbn", "set": "holdout", "split": "grade"}
+{"text": "does this card number pass the checksum", "category": "validation", "skill": "validateLuhn", "set": "holdout", "split": "grade"}
+{"text": "is this string a proper uuid", "category": "validation", "skill": "validateUuid", "set": "holdout", "split": "grade"}
+{"text": "give me the outline of this markdown doc", "category": "writing", "skill": "extractHeadings", "set": "holdout", "split": "grade"}
+{"text": "am I close to my 1500 word target", "category": "writing", "skill": "countWordTargets", "set": "holdout", "split": "grade"}
+{"text": "which sentences run on too long", "category": "writing", "skill": "findLongSentences", "set": "holdout", "split": "grade"}
+{"text": "index the headings in this doc", "category": "writing", "skill": "generateTableOfContents", "set": "holdout", "split": "grade"}
+{"text": "turn my indented notes into markdown", "category": "writing", "skill": "outlineToMarkdown", "set": "holdout", "split": "grade"}
+{"text": "singular form of criteria", "category": "writing", "skill": "singularize", "set": "holdout", "split": "grade"}
+{"text": "what shade of blue is #4682B4 nearest to", "category": "design", "skill": "nearestNamedColor", "set": "holdout", "split": "grade"}
+{"text": "where does 2x squared minus 7x plus 3 cross zero", "category": "math", "skill": "solveQuadratic", "set": "holdout", "split": "grade"}
+{"text": "find me some pages on the Voyager probes", "category": "reference", "skill": "webSearch", "set": "holdout", "split": "grade"}
+{"text": "write me a poem about the sea", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "summarise this email for me", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "i had a really rough day today", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "explain how a diesel engine works", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "what should i name my cat", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "translate good morning into portuguese", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "brainstorm ideas for a birthday party", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "help me word this apology to my landlord", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "why do cats knead blankets", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "what do you think of this opening paragraph", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "give me a metaphor for burnout", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "i keep procrastinating and i do not know why", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "rewrite this so it sounds less formal", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "tell me about the fall of constantinople", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "is it worth learning rust in 2026", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "my code throws a null pointer, any ideas", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "what is the difference between affect and effect", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "suggest a name for a bakery", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "describe the smell of rain on hot pavement", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "convert me into a morning person", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "how many people does it take to change a lightbulb", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "what a day it has been", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "talk me through a breathing exercise", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "draft a thank you note to my team", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "what are some good podcasts about history", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "my streak of bad luck finally ended", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the colour palette in that film was gorgeous", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "i need to compress my schedule this week", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "hash browns or fried, which is better", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "she has a real gift for languages", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the sentiment in the room was tense", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "shuffle along, nothing to see here", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "i want to pick up the pace at work", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "that regex course was a waste of money", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "my rota at work is a nightmare", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "she got a first in her degree", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "he is in his prime right now", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the whole project is an anagram of chaos", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "i keep a list of things i am grateful for", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the morse code scene in that film was inaccurate", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "my bank keeps sending me letters about nothing", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "is a table of contents even necessary these days", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "i cannot spell to save my life", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the timezone difference is killing our team", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "what a difference a year makes", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "my password manager keeps logging me out", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "that airport was chaos yesterday", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "chemistry was never my strong subject", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the interest rate news is depressing", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "i should really schedule more downtime", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "we need to split up before this gets worse", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "my average day starts with coffee and regret", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "he is a real outlier in that family", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "she has her priorities sorted", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "that film does not scale well to a small screen", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "i am trying to convert my brother to jazz", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the discount store on the corner closed down", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the tip of the iceberg, honestly", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "tax season always makes me anxious", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "our interest in the project has faded", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the root of the problem is trust", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "she factored in the weather and cancelled", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the ratio of talk to action here is grim", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the whole summer vanished before i noticed", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "my calendar is a wall of blue", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the countdown to the holidays has begun in my head", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "keep the streak alive, whatever it takes", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "it was a coin toss who would get the job", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the dice were loaded from the start", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "that outline she gave in the meeting was thin", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the headings in that report told the whole story", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "lorem ipsum is what my brain feels like today", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "this password policy is driving everyone mad", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the pattern here is obvious, he never listens", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the table by the window is always taken", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the markup on those drinks is criminal", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "wrap it up, we are out of time", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "that speech was a word salad", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the two sisters could not be more different", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "he made a hash of the presentation", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "his joke did not survive the retelling", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "quadratic is a word i have not heard since school", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "we walked the perimeter of the park twice", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the business days drag when the boss is around", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "binary thinking is what got us into this", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "my morse code is rusty", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "the url is broken and nobody cares", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "she is a first-rate mechanic", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "why is json so much nicer than xml", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "compose a haiku about a broken umbrella", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "what happened at the battle of hastings", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "give me feedback on my cover letter", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "settle this: pineapple on pizza, yes or no", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "sketch me an itinerary for three days in kyoto", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "what is the plot of the odyssey in a nutshell", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "cheer me up, it has been a long week", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "recommend a novel for a long flight", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "explain the offside rule like i am five", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "how do i tell my flatmate the kitchen is a mess", "category": "none", "skill": null, "set": "no-skill"}
+{"text": "what makes sourdough rise", "category": "none", "skill": null, "set": "no-skill"}

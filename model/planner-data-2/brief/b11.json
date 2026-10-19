@@ -1,0 +1,2667 @@
+{
+ "batch": "b11",
+ "categories": [
+  "text"
+ ],
+ "skills": [
+  {
+   "name": "joinLines",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which lines should I join?"
+     },
+     "delimiter": {
+      "type": "string",
+      "label": "separator",
+      "default": ", "
+     },
+     "skipBlank": {
+      "type": "boolean",
+      "label": "skip blank lines",
+      "default": true
+     },
+     "trim": {
+      "type": "boolean",
+      "label": "trim each line",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "join these lines with commas",
+    "turn this list into a comma separated line",
+    "join the lines with a pipe",
+    "join lines and skip the empty ones",
+    "join into a sentence with and"
+   ]
+  },
+  {
+   "name": "keywordsTfidf",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "keywordsTfidf \u2014 Pull the most distinctive words out of a document.\n  needs: text: string\n  optional: limit: integer, corpus: array\n  e.g. \"pull the keywords out of this\" \u2192 {\"text\":\"The pigeon carried the message. Pigeons have carried messages for centuries. The message arrived safely.\",\"limit\":4}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 100000,
+      "prompt": "Which text should I pull keywords from?"
+     },
+     "limit": {
+      "type": "integer",
+      "label": "how many keywords",
+      "minimum": 1,
+      "maximum": 50,
+      "default": 8
+     },
+     "corpus": {
+      "type": "array",
+      "label": "other documents",
+      "maxItems": 200,
+      "items": {
+       "type": "string"
+      },
+      "description": "other documents to score against - the text is split into its own sections if none are given"
+     }
+    }
+   },
+   "examples": [
+    "pull the keywords out of this",
+    "what are the main topics here",
+    "keywords from this paragraph",
+    "find the distinctive words",
+    "keywords scored against other documents"
+   ]
+  },
+  {
+   "name": "lexiconSentiment",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "lexiconSentiment \u2014 Judge whether text sounds happy or unhappy, positive or negative.\n  needs: text: string\n  e.g. \"how positive is this review\" \u2192 {\"text\":\"This is an excellent product and I really love it\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 50000,
+      "prompt": "Which text should I score?"
+     }
+    }
+   },
+   "examples": [
+    "how positive is this review",
+    "score the sentiment of this feedback",
+    "is this message positive or negative",
+    "sentiment of a negated sentence",
+    "analyse the tone of this comment",
+    "would you say this comes across as cheerful or gloomy",
+    "is the tone of this positive or negative"
+   ]
+  },
+  {
+   "name": "maskSensitive",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "maskSensitive \u2014 Hide private details in text \u2014 emails, phone numbers, cards \u2014 behind placeholders.\n  needs: text: string\n  optional: style: string, kinds: array\n  e.g. \"redact the personal data in this\" \u2192 {\"text\":\"Contact ana@example.com or call 020 7946 0958.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 100000,
+      "prompt": "Which text should I redact?"
+     },
+     "style": {
+      "type": "string",
+      "label": "mask style",
+      "enum": [
+       "label",
+       "stars",
+       "partial"
+      ],
+      "default": "label"
+     },
+     "kinds": {
+      "type": "array",
+      "label": "kinds to mask",
+      "maxItems": 10,
+      "items": {
+       "type": "string"
+      },
+      "description": "limit the masking to these kinds"
+     }
+    }
+   },
+   "examples": [
+    "redact the personal data in this",
+    "mask this card number with stars",
+    "partially mask the email",
+    "nothing to redact here",
+    "mask only the phone number",
+    "scrub the email and phone number out of this",
+    "blank out the personal information here"
+   ]
+  },
+  {
+   "name": "normalizeWhitespace",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "normalizeWhitespace \u2014 Tidy the spacing in a text \u2014 collapse runs of spaces, trim the ends, and unify line endings.\n  needs: text: string\n  optional: collapseBlankLines: boolean\n  e.g. \"tidy up the spacing in this\" \u2192 {\"text\":\"too    many     spaces\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "prompt": "Which text should I tidy?"
+     },
+     "collapseBlankLines": {
+      "type": "boolean",
+      "label": "collapse blank lines",
+      "default": true,
+      "description": "reduce runs of blank lines to one"
+     }
+    }
+   },
+   "examples": [
+    "tidy up the spacing in this",
+    "trim and collapse this text",
+    "normalise windows line endings",
+    "collapse the blank lines",
+    "clean up text pasted from a pdf"
+   ]
+  },
+  {
+   "name": "numberLines",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "numberLines \u2014 Put a line number in front of each line of a text.\n  needs: text: string\n  optional: start: integer, separator: string, skipBlank: boolean\n  e.g. \"number these lines\" \u2192 {\"text\":\"alpha\\nbeta\\ngamma\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I number?"
+     },
+     "start": {
+      "type": "integer",
+      "label": "first number",
+      "default": 1
+     },
+     "separator": {
+      "type": "string",
+      "label": "separator",
+      "default": ". "
+     },
+     "skipBlank": {
+      "type": "boolean",
+      "label": "skip blank lines",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "number these lines",
+    "add line numbers starting at 10",
+    "number lines with a colon",
+    "number only the non-blank lines",
+    "number a ten line list to check the padding"
+   ]
+  },
+  {
+   "name": "padText",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "padText \u2014 Pad text out to a fixed width, aligned left, right or centre.\n  needs: text: string, width: integer\n  optional: align: string, fill: string\n  e.g. \"pad \"abc\" to 8 characters\" \u2192 {\"text\":\"abc\",\"width\":8}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text",
+     "width"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "prompt": "Which text should I pad?"
+     },
+     "width": {
+      "type": "integer",
+      "label": "width",
+      "minimum": 1,
+      "maximum": 500,
+      "prompt": "Pad to what width?"
+     },
+     "align": {
+      "type": "string",
+      "label": "align",
+      "enum": [
+       "left",
+       "right",
+       "centre"
+      ],
+      "default": "left"
+     },
+     "fill": {
+      "type": "string",
+      "label": "fill character",
+      "default": " ",
+      "minLength": 1,
+      "maxLength": 1
+     }
+    }
+   },
+   "examples": [
+    "pad \"abc\" to 8 characters",
+    "right align 42 in 6 columns",
+    "centre the word title in 11",
+    "pad with dots to make a table of contents line",
+    "pad text that is already too long"
+   ]
+  },
+  {
+   "name": "readingLevel",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "readingLevel \u2014 Estimate the reading age of a passage \u2014 reading ease and school grade level.\n  needs: text: string\n  e.g. \"how hard is this to read\" \u2192 {\"text\":\"The cat sat on the mat. It was a warm day.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I assess?"
+     }
+    }
+   },
+   "examples": [
+    "how hard is this to read",
+    "reading level of this sentence",
+    "flesch score for a plain paragraph",
+    "is this readable",
+    "grade level of a short instruction"
+   ]
+  },
+  {
+   "name": "readingTime",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "readingTime \u2014 How long a text takes to read or to say aloud, at a words-per-minute rate you set.\n  needs: text: string\n  optional: wpm: integer\n  e.g. \"how long will this take to read\" \u2192 {\"text\":\"a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I time?"
+     },
+     "wpm": {
+      "type": "integer",
+      "label": "words per minute",
+      "minimum": 30,
+      "maximum": 2000,
+      "default": 238
+     }
+    }
+   },
+   "examples": [
+    "how long will this take to read",
+    "reading time for a short note",
+    "how long to read this out loud at 150 wpm",
+    "reading time at 200 words a minute",
+    "how long is this article to read"
+   ]
+  },
+  {
+   "name": "removeDuplicateLines",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "removeDuplicateLines \u2014 Remove repeated lines from a text, keeping the first time each one appeared.\n  needs: text: string\n  optional: ignoreCase: boolean, ignoreSpacing: boolean\n  e.g. \"remove the duplicate lines\" \u2192 {\"text\":\"apple\\nbanana\\napple\\ncherry\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I deduplicate?"
+     },
+     "ignoreCase": {
+      "type": "boolean",
+      "label": "ignore case",
+      "default": false
+     },
+     "ignoreSpacing": {
+      "type": "boolean",
+      "label": "ignore spacing",
+      "default": false,
+      "description": "treat lines differing only in spacing as the same"
+     }
+    }
+   },
+   "examples": [
+    "remove the duplicate lines",
+    "dedupe this list keeping the order",
+    "remove duplicates ignoring case",
+    "dedupe ignoring extra spaces",
+    "strip repeated lines from text that has none"
+   ]
+  },
+  {
+   "name": "removeEmoji",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "removeEmoji \u2014 Strip emoji out of text.\n  needs: text: string\n  optional: replaceWith: string\n  e.g. \"remove the emoji from this\" \u2192 {\"text\":\"Great work \ud83d\udc4d thanks \ud83c\udf89\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 50000,
+      "prompt": "Which text should I strip emoji from?"
+     },
+     "replaceWith": {
+      "type": "string",
+      "label": "replace emoji with",
+      "maxLength": 10,
+      "default": ""
+     }
+    }
+   },
+   "examples": [
+    "remove the emoji from this",
+    "strip emoji out",
+    "take the emoji out of this message",
+    "clean emoji from this text",
+    "remove emoji and keep the words"
+   ]
+  },
+  {
+   "name": "removeStopWords",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "removeStopWords \u2014 Strip the common filler words from a text, leaving only the content words.\n  needs: text: string\n  optional: extra: array\n  e.g. \"strip the filler words from this\" \u2192 {\"text\":\"the cat sat on the mat\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I strip?"
+     },
+     "extra": {
+      "type": "array",
+      "label": "extra words to remove",
+      "items": {
+       "type": "string"
+      },
+      "description": "more words to treat as filler"
+     }
+    }
+   },
+   "examples": [
+    "strip the filler words from this",
+    "remove stop words from a search query",
+    "strip filler and my own extra words",
+    "remove stop words when there are none",
+    "strip a sentence that is all filler"
+   ]
+  },
+  {
+   "name": "replaceText",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "replaceText \u2014 Find and replace text, either literally or with a regular expression.\n  needs: text: string, find: string, replace: string\n  optional: regex: boolean, caseSensitive: boolean\n  e.g. \"replace \"colour\" with \"color\" in my text\" \u2192 {\"text\":\"The colour of the colour chart.\",\"find\":\"colour\",\"replace\":\"color\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text",
+     "find",
+     "replace"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "prompt": "Which text should I change?"
+     },
+     "find": {
+      "type": "string",
+      "label": "find",
+      "minLength": 1,
+      "prompt": "What should I search for?"
+     },
+     "replace": {
+      "type": "string",
+      "label": "replace with",
+      "prompt": "What should I replace it with?"
+     },
+     "regex": {
+      "type": "boolean",
+      "label": "regular expression",
+      "default": false
+     },
+     "caseSensitive": {
+      "type": "boolean",
+      "label": "match case",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "replace \"colour\" with \"color\" in my text",
+    "swap all the commas for semicolons",
+    "collapse repeated spaces using a regex",
+    "replace Cat ignoring case",
+    "replace something that is not there"
+   ]
+  },
+  {
+   "name": "reverseText",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "reverseText \u2014 Reverse a text \u2014 by character, by word, or by line.\n  needs: text: string\n  optional: by: string\n  e.g. \"reverse the word stressed\" \u2192 {\"text\":\"stressed\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I reverse?"
+     },
+     "by": {
+      "type": "string",
+      "label": "reverse by",
+      "enum": [
+       "characters",
+       "words",
+       "lines"
+      ],
+      "default": "characters"
+     }
+    }
+   },
+   "examples": [
+    "reverse the word stressed",
+    "reverse this text backwards",
+    "reverse the word order of the quick brown fox",
+    "reverse these lines",
+    "reverse racecar"
+   ]
+  },
+  {
+   "name": "similarityJaccard",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "similarityJaccard \u2014 Measure how much two texts overlap by the words they share.\n  needs: a: string, b: string\n  optional: caseSensitive: boolean\n  e.g. \"how similar are these two sentences\" \u2192 {\"a\":\"the quick brown fox\",\"b\":\"the quick red fox\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "a",
+     "b"
+    ],
+    "properties": {
+     "a": {
+      "type": "string",
+      "label": "first text",
+      "minLength": 1,
+      "prompt": "What is the first text?"
+     },
+     "b": {
+      "type": "string",
+      "label": "second text",
+      "minLength": 1,
+      "prompt": "What is the second text?"
+     },
+     "caseSensitive": {
+      "type": "boolean",
+      "label": "match case",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "how similar are these two sentences",
+    "compare two identical texts",
+    "overlap between two unrelated lines",
+    "do these product descriptions overlap",
+    "similarity of texts sharing nothing"
+   ]
+  },
+  {
+   "name": "similarityLevenshtein",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "similarityLevenshtein \u2014 Measure how many single-character edits turn one string into another, and how similar that makes them.\n  needs: a: string, b: string\n  optional: caseSensitive: boolean\n  e.g. \"how different are kitten and sitting\" \u2192 {\"a\":\"kitten\",\"b\":\"sitting\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "a",
+     "b"
+    ],
+    "properties": {
+     "a": {
+      "type": "string",
+      "label": "first text",
+      "prompt": "What is the first string?"
+     },
+     "b": {
+      "type": "string",
+      "label": "second text",
+      "prompt": "What is the second string?"
+     },
+     "caseSensitive": {
+      "type": "boolean",
+      "label": "match case",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "how different are kitten and sitting",
+    "edit distance between colour and color",
+    "how similar are these two names",
+    "compare two identical strings",
+    "distance between totally different words"
+   ]
+  },
+  {
+   "name": "slugify",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "slugify \u2014 Turn a title into a URL-safe slug \u2014 lowercase, hyphens, no accents or punctuation.\n  needs: text: string\n  optional: separator: string, maxLength: integer\n  e.g. \"make a slug from \"Hello, World! A Beginner's Guide\"\" \u2192 {\"text\":\"Hello, World! A Beginner's Guide\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "What should I turn into a slug?"
+     },
+     "separator": {
+      "type": "string",
+      "label": "separator",
+      "enum": [
+       "-",
+       "_"
+      ],
+      "default": "-"
+     },
+     "maxLength": {
+      "type": "integer",
+      "label": "max length",
+      "minimum": 1,
+      "maximum": 200
+     }
+    }
+   },
+   "examples": [
+    "make a slug from \"Hello, World! A Beginner's Guide\"",
+    "url slug for \"Caf\u00e9 M\u00fcnster \u2014 Opening Times\"",
+    "slugify with underscores: My Blog Post",
+    "short slug, max 12 chars, from \"The Complete Guide To Everything\"",
+    "slug for \"  spaced   out   title  \""
+   ]
+  },
+  {
+   "name": "sortLines",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which lines should I sort?"
+     },
+     "by": {
+      "type": "string",
+      "label": "sort by",
+      "enum": [
+       "alphabetical",
+       "numeric",
+       "length"
+      ],
+      "default": "alphabetical"
+     },
+     "direction": {
+      "type": "string",
+      "label": "order",
+      "enum": [
+       "ascending",
+       "descending"
+      ],
+      "default": "ascending"
+     },
+     "caseSensitive": {
+      "type": "boolean",
+      "label": "match case",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "sort these lines alphabetically",
+    "sort this list z to a",
+    "sort these numbers properly",
+    "order the lines shortest first",
+    "sort a shopping list"
+   ]
+  },
+  {
+   "name": "splitLines",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "splitLines \u2014 Split one line into separate lines wherever a delimiter appears.\n  needs: text: string\n  optional: delimiter: string, trim: boolean, skipBlank: boolean\n  e.g. \"split this comma separated list onto lines\" \u2192 {\"text\":\"apple, banana, cherry\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I split?"
+     },
+     "delimiter": {
+      "type": "string",
+      "label": "split on",
+      "default": ",",
+      "minLength": 1
+     },
+     "trim": {
+      "type": "boolean",
+      "label": "trim each piece",
+      "default": true
+     },
+     "skipBlank": {
+      "type": "boolean",
+      "label": "skip blank pieces",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "split this comma separated list onto lines",
+    "break this on semicolons",
+    "split a tab separated row",
+    "split and drop the empty pieces",
+    "split on the word and"
+   ]
+  },
+  {
+   "name": "stemWords",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "stemWords \u2014 Reduce words to their stems so different forms of the same word group together.\n  needs: text: string\n  e.g. \"stem running runs and runner\" \u2192 {\"text\":\"running runs runner\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which words should I stem?"
+     }
+    }
+   },
+   "examples": [
+    "stem running runs and runner",
+    "reduce these to stems",
+    "stem the plural forms",
+    "stem happily and happiness",
+    "stem short words that should not change"
+   ]
+  },
+  {
+   "name": "stripHtml",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "stripHtml \u2014 Strip the tags out of HTML markup and leave the readable words.\n  needs: html: string\n  optional: keepLineBreaks: boolean\n  e.g. \"strip the tags from <p>Hello <b>world</b></p>\" \u2192 {\"html\":\"<p>Hello <b>world</b></p>\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "html"
+    ],
+    "properties": {
+     "html": {
+      "type": "string",
+      "label": "html",
+      "minLength": 1,
+      "prompt": "Which HTML should I strip?"
+     },
+     "keepLineBreaks": {
+      "type": "boolean",
+      "label": "keep line breaks",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "strip the tags from <p>Hello <b>world</b></p>",
+    "get the text out of this html",
+    "remove tags and decode the entities",
+    "strip a script tag and its contents",
+    "strip html with a line break",
+    "drop the tags and give me the plain words from this html",
+    "remove the html and leave the words"
+   ]
+  },
+  {
+   "name": "stripMarkdown",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "stripMarkdown \u2014 Turn markdown into plain text, dropping the formatting marks.\n  needs: markdown: string\n  optional: keepLinkText: boolean\n  e.g. \"strip the markdown from **bold** and *italic*\" \u2192 {\"markdown\":\"**bold** and *italic*\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "markdown"
+    ],
+    "properties": {
+     "markdown": {
+      "type": "string",
+      "label": "markdown",
+      "minLength": 1,
+      "prompt": "Which markdown should I strip?"
+     },
+     "keepLinkText": {
+      "type": "boolean",
+      "label": "keep link text",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "strip the markdown from **bold** and *italic*",
+    "plain text from this heading",
+    "remove the markdown link syntax",
+    "strip a bulleted list",
+    "strip inline code and a code fence"
+   ]
+  },
+  {
+   "name": "syllableCount",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "syllableCount \u2014 Count the syllables \u2014 the beats \u2014 in a word or a text.\n  needs: text: string\n  e.g. \"how many syllables in beautiful\" \u2192 {\"text\":\"beautiful\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which word or text?"
+     }
+    }
+   },
+   "examples": [
+    "how many syllables in beautiful",
+    "syllable count for this line",
+    "how many syllables is extraordinary",
+    "count the syllables in cat",
+    "syllables in the quick brown fox",
+    "count the beats when you say banana out loud",
+    "syllables in incredible"
+   ]
+  },
+  {
+   "name": "toAscii",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "toAscii \u2014 Strip accents and convert a text to plain ASCII.\n  needs: text: string\n  optional: dropUnknown: boolean\n  e.g. \"convert caf\u00e9 to ascii\" \u2192 {\"text\":\"caf\u00e9\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I convert?"
+     },
+     "dropUnknown": {
+      "type": "boolean",
+      "label": "drop unconvertible",
+      "default": true,
+      "description": "remove characters with no ASCII equivalent"
+     }
+    }
+   },
+   "examples": [
+    "convert caf\u00e9 to ascii",
+    "strip the accents from M\u00fcnster Stra\u00dfe",
+    "make this ascii safe",
+    "convert smart quotes to plain ones",
+    "convert text that is already ascii"
+   ]
+  },
+  {
+   "name": "tokenizeSentences",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "tokenizeSentences \u2014 Break a passage at its full stops into separate sentences.\n  needs: text: string\n  e.g. \"split this into sentences\" \u2192 {\"text\":\"Hello there. How are you? I am well.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I split?"
+     }
+    }
+   },
+   "examples": [
+    "split this into sentences",
+    "break the paragraph into sentences",
+    "split sentences with an abbreviation",
+    "one sentence only",
+    "split on an exclamation mark"
+   ]
+  },
+  {
+   "name": "tokenizeWords",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "tokenizeWords \u2014 Break a sentence at its spaces into separate words.\n  needs: text: string\n  optional: lowercase: boolean, unique: boolean\n  e.g. \"split this into words\" \u2192 {\"text\":\"The quick brown fox\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I split?"
+     },
+     "lowercase": {
+      "type": "boolean",
+      "label": "lowercase",
+      "default": false
+     },
+     "unique": {
+      "type": "boolean",
+      "label": "remove duplicates",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "split this into words",
+    "tokenise keeping the apostrophe",
+    "split into lowercase word tokens",
+    "unique word tokens only",
+    "tokenise a hyphenated phrase"
+   ]
+  },
+  {
+   "name": "trimLines",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "trimLines \u2014 Remove the leading and trailing spaces from every line of a text, leaving the lines themselves in place.\n  needs: text: string\n  optional: dropBlank: boolean\n  e.g. \"trim the spaces off each line\" \u2192 {\"text\":\"  one  \\n  two\\nthree   \"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "prompt": "Which text should I trim?"
+     },
+     "dropBlank": {
+      "type": "boolean",
+      "label": "drop blank lines",
+      "default": false,
+      "description": "also remove lines that end up empty"
+     }
+    }
+   },
+   "examples": [
+    "trim the spaces off each line",
+    "tidy an indented list",
+    "trim lines and drop the empty ones",
+    "trim lines that are already clean",
+    "trim a single padded line"
+   ]
+  },
+  {
+   "name": "truncateText",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "truncateText \u2014 Cut text off at a maximum length and end it with an ellipsis.\n  needs: text: string, limit: integer\n  optional: unit: string, ellipsis: string, breakWords: boolean\n  e.g. \"shorten this to 20 characters\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\",\"limit\":20}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text",
+     "limit"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I shorten?"
+     },
+     "limit": {
+      "type": "integer",
+      "label": "max length",
+      "minimum": 1,
+      "prompt": "Shorten it to how many?"
+     },
+     "unit": {
+      "type": "string",
+      "label": "characters or words",
+      "enum": [
+       "characters",
+       "words"
+      ],
+      "default": "characters"
+     },
+     "ellipsis": {
+      "type": "string",
+      "label": "ellipsis",
+      "default": "\u2026"
+     },
+     "breakWords": {
+      "type": "boolean",
+      "label": "cut mid-word",
+      "default": false,
+      "description": "allow cutting in the middle of a word"
+     }
+    }
+   },
+   "examples": [
+    "shorten this to 20 characters",
+    "cut this down to 5 words",
+    "truncate a string already short enough",
+    "shorten to 10 chars with a custom ellipsis",
+    "truncate mid-word if it has to"
+   ]
+  },
+  {
+   "name": "wordFrequency",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "wordFrequency \u2014 Which words repeat most in a text \u2014 each distinct word ranked by how often it recurs.\n  needs: text: string\n  optional: limit: integer, removeStopWords: boolean\n  e.g. \"what words come up most in this text\" \u2192 {\"text\":\"the cat sat on the mat the cat purred\",\"limit\":2}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I count?"
+     },
+     "limit": {
+      "type": "integer",
+      "label": "how many words",
+      "minimum": 1,
+      "maximum": 100,
+      "default": 5
+     },
+     "removeStopWords": {
+      "type": "boolean",
+      "label": "skip stop words",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "what words come up most in this text",
+    "most common words including the small ones",
+    "word counts for a repeated phrase",
+    "top word in a sentence about testing",
+    "frequency when every word is a stop word"
+   ]
+  },
+  {
+   "name": "wrapText",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "wrapText \u2014 Hard-wrap text to a maximum line width, breaking lines at a set number of characters.\n  needs: text: string\n  optional: width: integer, indent: string\n  e.g. \"wrap this at 20 characters\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\",\"width\":20}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I wrap?"
+     },
+     "width": {
+      "type": "integer",
+      "label": "line width",
+      "minimum": 10,
+      "maximum": 400,
+      "default": 72
+     },
+     "indent": {
+      "type": "string",
+      "label": "indent",
+      "default": ""
+     }
+    }
+   },
+   "examples": [
+    "wrap this at 20 characters",
+    "hard wrap at 30 columns",
+    "wrap with an indent",
+    "wrap text that already fits",
+    "wrap a paragraph keeping the blank line",
+    "rewrap this paragraph to 30 columns",
+    "reflow this so no line passes 16 characters"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "joinLines",
+    "numberLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}",
+    "numberLines \u2014 Put a line number in front of each line of a text.\n  needs: text: string\n  optional: start: integer, separator: string, skipBlank: boolean\n  e.g. \"number these lines\" \u2192 {\"text\":\"alpha\\nbeta\\ngamma\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I join?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "separator",
+       "default": ", "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": true
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each line",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I number?"
+      },
+      "start": {
+       "type": "integer",
+       "label": "first number",
+       "default": 1
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "default": ". "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "removeDuplicateLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}",
+    "removeDuplicateLines \u2014 Remove repeated lines from a text, keeping the first time each one appeared.\n  needs: text: string\n  optional: ignoreCase: boolean, ignoreSpacing: boolean\n  e.g. \"remove the duplicate lines\" \u2192 {\"text\":\"apple\\nbanana\\napple\\ncherry\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I join?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "separator",
+       "default": ", "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": true
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each line",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I deduplicate?"
+      },
+      "ignoreCase": {
+       "type": "boolean",
+       "label": "ignore case",
+       "default": false
+      },
+      "ignoreSpacing": {
+       "type": "boolean",
+       "label": "ignore spacing",
+       "default": false,
+       "description": "treat lines differing only in spacing as the same"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "sortLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}",
+    "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I join?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "separator",
+       "default": ", "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": true
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each line",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "length"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "splitLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}",
+    "splitLines \u2014 Split one line into separate lines wherever a delimiter appears.\n  needs: text: string\n  optional: delimiter: string, trim: boolean, skipBlank: boolean\n  e.g. \"split this comma separated list onto lines\" \u2192 {\"text\":\"apple, banana, cherry\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I join?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "separator",
+       "default": ", "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": true
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each line",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I split?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "split on",
+       "default": ",",
+       "minLength": 1
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each piece",
+       "default": true
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank pieces",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "trimLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}",
+    "trimLines \u2014 Remove the leading and trailing spaces from every line of a text, leaving the lines themselves in place.\n  needs: text: string\n  optional: dropBlank: boolean\n  e.g. \"trim the spaces off each line\" \u2192 {\"text\":\"  one  \\n  two\\nthree   \"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I join?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "separator",
+       "default": ", "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": true
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each line",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I trim?"
+      },
+      "dropBlank": {
+       "type": "boolean",
+       "label": "drop blank lines",
+       "default": false,
+       "description": "also remove lines that end up empty"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "numberLines",
+    "sortLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "numberLines \u2014 Put a line number in front of each line of a text.\n  needs: text: string\n  optional: start: integer, separator: string, skipBlank: boolean\n  e.g. \"number these lines\" \u2192 {\"text\":\"alpha\\nbeta\\ngamma\"}",
+    "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I number?"
+      },
+      "start": {
+       "type": "integer",
+       "label": "first number",
+       "default": 1
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "default": ". "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "length"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeDuplicateLines",
+    "sortLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "removeDuplicateLines \u2014 Remove repeated lines from a text, keeping the first time each one appeared.\n  needs: text: string\n  optional: ignoreCase: boolean, ignoreSpacing: boolean\n  e.g. \"remove the duplicate lines\" \u2192 {\"text\":\"apple\\nbanana\\napple\\ncherry\"}",
+    "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I deduplicate?"
+      },
+      "ignoreCase": {
+       "type": "boolean",
+       "label": "ignore case",
+       "default": false
+      },
+      "ignoreSpacing": {
+       "type": "boolean",
+       "label": "ignore spacing",
+       "default": false,
+       "description": "treat lines differing only in spacing as the same"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "length"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeDuplicateLines",
+    "trimLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "removeDuplicateLines \u2014 Remove repeated lines from a text, keeping the first time each one appeared.\n  needs: text: string\n  optional: ignoreCase: boolean, ignoreSpacing: boolean\n  e.g. \"remove the duplicate lines\" \u2192 {\"text\":\"apple\\nbanana\\napple\\ncherry\"}",
+    "trimLines \u2014 Remove the leading and trailing spaces from every line of a text, leaving the lines themselves in place.\n  needs: text: string\n  optional: dropBlank: boolean\n  e.g. \"trim the spaces off each line\" \u2192 {\"text\":\"  one  \\n  two\\nthree   \"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I deduplicate?"
+      },
+      "ignoreCase": {
+       "type": "boolean",
+       "label": "ignore case",
+       "default": false
+      },
+      "ignoreSpacing": {
+       "type": "boolean",
+       "label": "ignore spacing",
+       "default": false,
+       "description": "treat lines differing only in spacing as the same"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I trim?"
+      },
+      "dropBlank": {
+       "type": "boolean",
+       "label": "drop blank lines",
+       "default": false,
+       "description": "also remove lines that end up empty"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeEmoji",
+    "removeStopWords"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "removeEmoji \u2014 Strip emoji out of text.\n  needs: text: string\n  optional: replaceWith: string\n  e.g. \"remove the emoji from this\" \u2192 {\"text\":\"Great work \ud83d\udc4d thanks \ud83c\udf89\"}",
+    "removeStopWords \u2014 Strip the common filler words from a text, leaving only the content words.\n  needs: text: string\n  optional: extra: array\n  e.g. \"strip the filler words from this\" \u2192 {\"text\":\"the cat sat on the mat\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 50000,
+       "prompt": "Which text should I strip emoji from?"
+      },
+      "replaceWith": {
+       "type": "string",
+       "label": "replace emoji with",
+       "maxLength": 10,
+       "default": ""
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I strip?"
+      },
+      "extra": {
+       "type": "array",
+       "label": "extra words to remove",
+       "items": {
+        "type": "string"
+       },
+       "description": "more words to treat as filler"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "removeEmoji",
+    "stripHtml"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "removeEmoji \u2014 Strip emoji out of text.\n  needs: text: string\n  optional: replaceWith: string\n  e.g. \"remove the emoji from this\" \u2192 {\"text\":\"Great work \ud83d\udc4d thanks \ud83c\udf89\"}",
+    "stripHtml \u2014 Strip the tags out of HTML markup and leave the readable words.\n  needs: html: string\n  optional: keepLineBreaks: boolean\n  e.g. \"strip the tags from <p>Hello <b>world</b></p>\" \u2192 {\"html\":\"<p>Hello <b>world</b></p>\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 50000,
+       "prompt": "Which text should I strip emoji from?"
+      },
+      "replaceWith": {
+       "type": "string",
+       "label": "replace emoji with",
+       "maxLength": 10,
+       "default": ""
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "html"
+     ],
+     "properties": {
+      "html": {
+       "type": "string",
+       "label": "html",
+       "minLength": 1,
+       "prompt": "Which HTML should I strip?"
+      },
+      "keepLineBreaks": {
+       "type": "boolean",
+       "label": "keep line breaks",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "sortLines",
+    "sortList"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}",
+    "sortList \u2014 Put a list of items in order \u2014 alphabetically, numerically, or in natural order where numbers inside names count.\n  needs: items: array\n  optional: by: string, direction: string\n  e.g. \"sort this list alphabetically\" \u2192 {\"items\":[\"cherry\",\"apple\",\"banana\"]}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "length"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "items"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 1,
+       "prompt": "Which list should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "natural"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "splitLines",
+    "wrapText"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "splitLines \u2014 Split one line into separate lines wherever a delimiter appears.\n  needs: text: string\n  optional: delimiter: string, trim: boolean, skipBlank: boolean\n  e.g. \"split this comma separated list onto lines\" \u2192 {\"text\":\"apple, banana, cherry\"}",
+    "wrapText \u2014 Hard-wrap text to a maximum line width, breaking lines at a set number of characters.\n  needs: text: string\n  optional: width: integer, indent: string\n  e.g. \"wrap this at 20 characters\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\",\"width\":20}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I split?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "split on",
+       "default": ",",
+       "minLength": 1
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each piece",
+       "default": true
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank pieces",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I wrap?"
+      },
+      "width": {
+       "type": "integer",
+       "label": "line width",
+       "minimum": 10,
+       "maximum": 400,
+       "default": 72
+      },
+      "indent": {
+       "type": "string",
+       "label": "indent",
+       "default": ""
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "tokenizeSentences",
+    "tokenizeWords"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "tokenizeSentences \u2014 Break a passage at its full stops into separate sentences.\n  needs: text: string\n  e.g. \"split this into sentences\" \u2192 {\"text\":\"Hello there. How are you? I am well.\"}",
+    "tokenizeWords \u2014 Break a sentence at its spaces into separate words.\n  needs: text: string\n  optional: lowercase: boolean, unique: boolean\n  e.g. \"split this into words\" \u2192 {\"text\":\"The quick brown fox\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I split?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I split?"
+      },
+      "lowercase": {
+       "type": "boolean",
+       "label": "lowercase",
+       "default": false
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "findLongestWord",
+    "wordFrequency"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "findLongestWord \u2014 Find the longest word in a text \u2014 the biggest word, and any that tie with it.\n  needs: text: string\n  optional: top: integer\n  e.g. \"what is the longest word in this sentence\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\"}",
+    "wordFrequency \u2014 Which words repeat most in a text \u2014 each distinct word ranked by how often it recurs.\n  needs: text: string\n  optional: limit: integer, removeStopWords: boolean\n  e.g. \"what words come up most in this text\" \u2192 {\"text\":\"the cat sat on the mat the cat purred\",\"limit\":2}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "top": {
+       "type": "integer",
+       "label": "how many words",
+       "minimum": 1,
+       "maximum": 20,
+       "default": 1
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      },
+      "limit": {
+       "type": "integer",
+       "label": "how many words",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 5
+      },
+      "removeStopWords": {
+       "type": "boolean",
+       "label": "skip stop words",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "diffText",
+    "reverseText"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "diffText \u2014 Compare two versions of a text and show what was added and removed, by line or by word.\n  needs: before: string, after: string\n  optional: by: string\n  e.g. \"show me the line by line changes\" \u2192 {\"before\":\"apple\\nbanana\\ncherry\",\"after\":\"apple\\nblueberry\\ncherry\"}",
+    "reverseText \u2014 Reverse a text \u2014 by character, by word, or by line.\n  needs: text: string\n  optional: by: string\n  e.g. \"reverse the word stressed\" \u2192 {\"text\":\"stressed\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "before",
+      "after"
+     ],
+     "properties": {
+      "before": {
+       "type": "string",
+       "label": "original text",
+       "prompt": "What is the original text?"
+      },
+      "after": {
+       "type": "string",
+       "label": "new text",
+       "prompt": "What is the new text?"
+      },
+      "by": {
+       "type": "string",
+       "label": "compare by",
+       "enum": [
+        "line",
+        "word"
+       ],
+       "default": "line"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I reverse?"
+      },
+      "by": {
+       "type": "string",
+       "label": "reverse by",
+       "enum": [
+        "characters",
+        "words",
+        "lines"
+       ],
+       "default": "characters"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "wordFrequency"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "countWords \u2014 Measure how long a piece of text is: its total words, characters, sentences and paragraphs.\n  needs: text: string\n  e.g. \"how many words is this paragraph\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog.\"}",
+    "wordFrequency \u2014 Which words repeat most in a text \u2014 each distinct word ranked by how often it recurs.\n  needs: text: string\n  optional: limit: integer, removeStopWords: boolean\n  e.g. \"what words come up most in this text\" \u2192 {\"text\":\"the cat sat on the mat the cat purred\",\"limit\":2}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      },
+      "limit": {
+       "type": "integer",
+       "label": "how many words",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 5
+      },
+      "removeStopWords": {
+       "type": "boolean",
+       "label": "skip stop words",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "tokenizeSentences"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}",
+    "tokenizeSentences \u2014 Break a passage at its full stops into separate sentences.\n  needs: text: string\n  e.g. \"split this into sentences\" \u2192 {\"text\":\"Hello there. How are you? I am well.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I split?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "syllableCount"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countSentences \u2014 Count the sentences in a text, and the average sentence length.\n  needs: text: string\n  e.g. \"how many sentences is this\" \u2192 {\"text\":\"Hello there. How are you today? I am well.\"}",
+    "syllableCount \u2014 Count the syllables \u2014 the beats \u2014 in a word or a text.\n  needs: text: string\n  e.g. \"how many syllables in beautiful\" \u2192 {\"text\":\"beautiful\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which word or text?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "syllableCount"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countOccurrences \u2014 Count how many times one word or phrase repeats inside a text.\n  needs: text: string, needle: string\n  optional: caseSensitive: boolean, wholeWord: boolean\n  e.g. \"how many times does \"the\" appear in this\" \u2192 {\"text\":\"the cat sat on the mat\",\"needle\":\"the\"}",
+    "syllableCount \u2014 Count the syllables \u2014 the beats \u2014 in a word or a text.\n  needs: text: string\n  e.g. \"how many syllables in beautiful\" \u2192 {\"text\":\"beautiful\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text",
+      "needle"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "needle": {
+       "type": "string",
+       "label": "what to count",
+       "minLength": 1,
+       "prompt": "What should I count?"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      },
+      "wholeWord": {
+       "type": "boolean",
+       "label": "whole words only",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which word or text?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "syllableCount"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "syllableCount \u2014 Count the syllables \u2014 the beats \u2014 in a word or a text.\n  needs: text: string\n  e.g. \"how many syllables in beautiful\" \u2192 {\"text\":\"beautiful\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which word or text?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "sortLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "length"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "removeDuplicateLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "removeDuplicateLines \u2014 Remove repeated lines from a text, keeping the first time each one appeared.\n  needs: text: string\n  optional: ignoreCase: boolean, ignoreSpacing: boolean\n  e.g. \"remove the duplicate lines\" \u2192 {\"text\":\"apple\\nbanana\\napple\\ncherry\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I deduplicate?"
+      },
+      "ignoreCase": {
+       "type": "boolean",
+       "label": "ignore case",
+       "default": false
+      },
+      "ignoreSpacing": {
+       "type": "boolean",
+       "label": "ignore spacing",
+       "default": false,
+       "description": "treat lines differing only in spacing as the same"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "joinLines"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countLines \u2014 Count the lines in a block of text, separating blank lines from lines with content.\n  needs: text: string\n  e.g. \"how many lines is this\" \u2192 {\"text\":\"one\\ntwo\\nthree\"}",
+    "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I count?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I join?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "separator",
+       "default": ", "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": true
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each line",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "syllableCount"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "countCharacters \u2014 Count the characters in a text \u2014 with spaces, without spaces, and how many are letters or digits.\n  needs: text: string\n  e.g. \"how many characters is this\" \u2192 {\"text\":\"The quick brown fox.\"}",
+    "syllableCount \u2014 Count the syllables \u2014 the beats \u2014 in a word or a text.\n  needs: text: string\n  e.g. \"how many syllables in beautiful\" \u2192 {\"text\":\"beautiful\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I measure?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which word or text?"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

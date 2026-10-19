@@ -1,0 +1,395 @@
+{
+ "batch": "l06",
+ "pairs": [
+  {
+   "skill": "habitCompletionRate",
+   "no": "keeping any habit going for 30 days is beyond me",
+   "yes": "completion rate for my reading habit: kept it 21 of 30 days"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "no": "her completion rate on side projects is famously low",
+   "yes": "my meditation completion rate this week, done 5 of 7 days"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "no": "my priorities have changed a lot since the kids arrived",
+   "yes": "prioritise these tasks for me: report due today, call the plumber, book flights, answer emails"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "no": "the urgent jobs always crowd out the important ones at work",
+   "yes": "rank these jobs, most urgent and important first: fix the leak, file taxes, clean the gutters"
+  },
+  {
+   "skill": "rotateAssignments",
+   "no": "we had a cleaning rota at uni and nobody ever followed it",
+   "yes": "make a cleaning rota for sam, priya and joe over four weeks: bins, bathroom, hoovering"
+  },
+  {
+   "skill": "rotateAssignments",
+   "no": "having to rotate onto the night shift every month wrecks my sleep",
+   "yes": "rotate the night shift between ana, ben and cal for the next six weeks"
+  },
+  {
+   "skill": "streakCount",
+   "no": "lost my 200 day streak on duolingo because of a wedding",
+   "yes": "count my longest streak: ran on may 1, 2, 3, 5, 6, 7 and 8"
+  },
+  {
+   "skill": "streakCount",
+   "no": "he is on a winning streak at the pub quiz lately",
+   "yes": "find my current streak: walked on 7, 9, 10, 11 and 12 october"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "no": "my whole afternoon is one solid time block of meetings",
+   "yes": "time block my afternoon from 1pm: emails 30 min, report 2 hours, calls 45 min, with breaks"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "no": "writers block hit hard this morning and nothing got done",
+   "yes": "block out my morning from 8 to 12 for writing, admin and the gym with short breaks"
+  },
+  {
+   "skill": "airportCodeLookup",
+   "no": "CDG is the airport where my suitcase went to die",
+   "yes": "which airport has the code CDG"
+  },
+  {
+   "skill": "airportCodeLookup",
+   "no": "Milan has too many airports and I always book the wrong one",
+   "yes": "which airports serve Milan"
+  },
+  {
+   "skill": "countryLookup",
+   "no": "we spent a week in Kazakhstan's capital and it snowed every day",
+   "yes": "what is the capital of Kazakhstan"
+  },
+  {
+   "skill": "countryLookup",
+   "no": "came back from Peru with a pocket full of coins i can't spend",
+   "yes": "country info for peru: capital, currency and iso code"
+  },
+  {
+   "skill": "currencyLookup",
+   "no": "paid in CHF, a currency that makes every coffee cost a fortune",
+   "yes": "what currency is CHF and what's its symbol"
+  },
+  {
+   "skill": "currencyLookup",
+   "no": "the euro symbol never prints right on our old receipt printer",
+   "yes": "what's the symbol for EUR and how many decimal places does it use"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "no": "my kid speaks in a code only her brother understands",
+   "yes": "what is the iso 639-1 code for swahili"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "no": "the url ends in /ko/ and i can't read a word of it",
+   "yes": "what language does the code ko stand for"
+  },
+  {
+   "skill": "periodicTableLookup",
+   "no": "the kids made a periodic table cake and iron was strawberry",
+   "yes": "look up iron on the periodic table: symbol, mass and group"
+  },
+  {
+   "skill": "periodicTableLookup",
+   "no": "she has a heart of gold underneath all that sarcasm",
+   "yes": "what is gold's atomic number and symbol"
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "no": "a number starting +234 keeps ringing me at midnight",
+   "yes": "which country has the dialling code +234"
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "no": "dialling abroad from a hotel phone cost me forty euros once",
+   "yes": "what's the dialling code to call portugal"
+  },
+  {
+   "skill": "timezoneLookup",
+   "no": "still running on Sydney time after the flight home",
+   "yes": "current time in Sydney and its utc offset"
+  },
+  {
+   "skill": "timezoneLookup",
+   "no": "she lives in her own time zone, always forty minutes late",
+   "yes": "what's the utc offset for the America/Denver time zone"
+  },
+  {
+   "skill": "usStateLookup",
+   "no": "spent a whole summer driving across Texas in a car with no air con",
+   "yes": "what's the capital of texas and its postal abbreviation"
+  },
+  {
+   "skill": "usStateLookup",
+   "no": "our new neighbours moved here from MN and hate our mild winters",
+   "yes": "which us state is MN"
+  },
+  {
+   "skill": "webAnswer",
+   "no": "the mayor of our town has been in office since i was a child",
+   "yes": "who is the current mayor of Bristol"
+  },
+  {
+   "skill": "webAnswer",
+   "no": "that documentary about Marie Curie made me cry on the train",
+   "yes": "when did Marie Curie win her second Nobel prize"
+  },
+  {
+   "skill": "webSearch",
+   "no": "spent all evening searching the web for a sofa and bought nothing",
+   "yes": "search the web for reviews of the ikea kivik sofa"
+  },
+  {
+   "skill": "webSearch",
+   "no": "my dad will google anything and trust the first result",
+   "yes": "google the history of the Eiffel Tower and give me the links"
+  },
+  {
+   "skill": "correlation",
+   "no": "there's a strong correlation between me eating cake and feeling guilty",
+   "yes": "correlation between ice cream sales 12 18 25 31 and temperature 14 19 24 29"
+  },
+  {
+   "skill": "correlation",
+   "no": "correlation is not causation, my stats lecturer said daily",
+   "yes": "correlation coefficient for 2 4 6 8 and 3 5 9 10"
+  },
+  {
+   "skill": "cumulativeSum",
+   "no": "the cumulative effect of all these late nights is catching up with me",
+   "yes": "cumulative sum of 120, 85, 200, 40"
+  },
+  {
+   "skill": "cumulativeSum",
+   "no": "the running total on my bar tab was frightening by midnight",
+   "yes": "running total of my bar spending: 6.50, 5, 7.20, 4.80"
+  },
+  {
+   "skill": "describeNumbers",
+   "no": "my test scores this term have been all over the place",
+   "yes": "summarise my test scores: 61, 74, 88, 74, 93"
+  },
+  {
+   "skill": "describeNumbers",
+   "no": "he is very much an average golfer and proud of it",
+   "yes": "give me the mean, median and spread of these golf scores: 82 79 91 85"
+  },
+  {
+   "skill": "findOutliers",
+   "no": "he's always been a bit of an outlier in our family",
+   "yes": "which of these is an outlier: 12 14 13 15 98 11"
+  },
+  {
+   "skill": "findOutliers",
+   "no": "one freezing day in july threw our whole holiday off",
+   "yes": "spot any unusual readings in these july temperatures: 24 26 25 9 27 23"
+  },
+  {
+   "skill": "histogramBins",
+   "no": "half the bins on our street never got emptied this week",
+   "yes": "put these ages into 4 bins: 23 31 45 52 38 61 29 47"
+  },
+  {
+   "skill": "histogramBins",
+   "no": "the histogram in my thesis took longer than the writing",
+   "yes": "make a histogram of these scores with 5 bins: 55 62 70 71 78 84 90 93"
+  },
+  {
+   "skill": "linearRegression",
+   "no": "my fitness has been on a steady downward trend since christmas",
+   "yes": "fit a trend line to my weight: week 1 80, week 2 79.4, week 3 78.9, week 4 78.1"
+  },
+  {
+   "skill": "linearRegression",
+   "no": "the regression in his behaviour since the move worries his teacher",
+   "yes": "linear regression for x 1 2 3 4 5 and y 3 5 7 10 11"
+  },
+  {
+   "skill": "movingAverage",
+   "no": "it took a whole weekend to smooth things over with my sister",
+   "yes": "smooth these daily sales with a 3 day moving average: 40 55 38 61 47 52"
+  },
+  {
+   "skill": "movingAverage",
+   "no": "my step count swings wildly, 3000 one day, 15000 the next, no pattern at all",
+   "yes": "7 day moving average of my step counts: 3000 8200 15000 6400 9100 4300 11800 7600"
+  },
+  {
+   "skill": "percentile",
+   "no": "my son was in the 95th percentile for height as a baby",
+   "yes": "95th percentile of these heights: 160 172 168 181 175 190 158"
+  },
+  {
+   "skill": "percentile",
+   "no": "scoring in the bottom tenth of the class never bothered him",
+   "yes": "10th percentile of these class scores: 45 52 61 67 70 73 80 88"
+  },
+  {
+   "skill": "quartiles",
+   "no": "the city is split into quarters and ours is the noisy one",
+   "yes": "split these into quartiles: 3 7 8 5 12 14 21 13 18"
+  },
+  {
+   "skill": "quartiles",
+   "no": "my salary sits in the bottom quartile for my job, says the survey",
+   "yes": "quartiles and interquartile range of these salaries: 28000 31000 35000 40000 44000 52000 61000"
+  },
+  {
+   "skill": "rankValues",
+   "no": "he pulled rank on me during the fire drill",
+   "yes": "rank these lap times from fastest: 12.4 11.9 13.1 12.0"
+  },
+  {
+   "skill": "rankValues",
+   "no": "our team ranked dead last in the five-a-side league again",
+   "yes": "give each team its rank by points: lions 34, hawks 41, rovers 34, city 29"
+  },
+  {
+   "skill": "weightedAverage",
+   "no": "my gran's opinion carries more weight than anyone else's at christmas",
+   "yes": "weighted average of 70, 85 and 90 with weights 1, 2 and 3"
+  },
+  {
+   "skill": "weightedAverage",
+   "no": "the exam counts for most of the grade, which feels unfair",
+   "yes": "my final grade if coursework 68 counts 40% and the exam 74 counts 60%"
+  },
+  {
+   "skill": "zScores",
+   "no": "honestly he is about three standard deviations above normal in stubbornness",
+   "yes": "how many standard deviations from the mean is each of these: 55 62 70 48 90"
+  },
+  {
+   "skill": "zScores",
+   "no": "catching some z's on the train is the best part of my commute",
+   "yes": "z-scores for my commute times: 32 35 31 48 33"
+  },
+  {
+   "skill": "averageWordLength",
+   "no": "my teenager's average reply is one word long",
+   "yes": "average word length in this: never trust a man who owns two umbrellas"
+  },
+  {
+   "skill": "averageWordLength",
+   "no": "legal documents use words so long they need their own postcode",
+   "yes": "what's the average length of the words in this clause: the lessee shall indemnify the lessor"
+  },
+  {
+   "skill": "cleanTranscript",
+   "no": "the auto captions turned my boss's name into a swear word",
+   "yes": "clean up these auto captions: [00:01] SPEAKER 1: um so we, we start [00:04] SPEAKER 1: at nine"
+  },
+  {
+   "skill": "cleanTranscript",
+   "no": "reading the transcript of my own talk was mortifying, so many ums",
+   "yes": "remove the timestamps and ums from this transcript: 00:12 um i think, i think we should go"
+  },
+  {
+   "skill": "convertCase",
+   "no": "she always writes in all caps like she's shouting at me",
+   "yes": "convert to all caps: meeting moved to thursday"
+  },
+  {
+   "skill": "convertCase",
+   "no": "our codebase mixes camelCase and snake_case and it drives me mad",
+   "yes": "change \"order total amount\" to camelCase"
+  },
+  {
+   "skill": "countCharacters",
+   "no": "my bio is stuck at exactly 160 characters and i like it that way",
+   "yes": "count the characters in my bio: coffee first, opinions later, dog always"
+  },
+  {
+   "skill": "countCharacters",
+   "no": "the cast of characters at my office christmas party was something else",
+   "yes": "how many characters is this tweet: just missed the last train home, again"
+  },
+  {
+   "skill": "countLines",
+   "no": "she delivered her lines in the school play without a single mistake",
+   "yes": "count the lines in this poem:\nroses are red\nviolets are blue\n\nsugar is sweet"
+  },
+  {
+   "skill": "countLines",
+   "no": "the lines at the post office went right out the door",
+   "yes": "how many lines in this list, blank ones too:\nmilk\n\neggs\nbread"
+  },
+  {
+   "skill": "countOccurrences",
+   "no": "he says \"literally\" so often it has lost all meaning",
+   "yes": "how many times does \"literally\" appear in: it was literally freezing, literally the coldest day"
+  },
+  {
+   "skill": "countOccurrences",
+   "no": "the word sorry shows up in every email my manager sends",
+   "yes": "how many times is \"sorry\" in this email: sorry for the delay, and sorry again"
+  },
+  {
+   "skill": "countSentences",
+   "no": "the judge gave him a lighter sentence than anyone expected",
+   "yes": "sentence count for this: i woke up late. the bus was gone. i walked."
+  },
+  {
+   "skill": "countSentences",
+   "no": "her emails are one enormous sentence with no full stops at all",
+   "yes": "count the sentences in this email and the average sentence length: thanks for this. agreed. see you monday."
+  },
+  {
+   "skill": "countWords",
+   "no": "she is a woman of few words, but every one counts",
+   "yes": "count the words in this paragraph: we met at the station, shook hands, and never spoke again"
+  },
+  {
+   "skill": "countWords",
+   "no": "my essay is 300 words short and it's due tomorrow",
+   "yes": "how many words is my essay intro: the industrial revolution changed how people lived and worked"
+  },
+  {
+   "skill": "detectLanguage",
+   "no": "my grandmother spoke a language i never learned and i regret it",
+   "yes": "what language is this: ich habe keine ahnung"
+  },
+  {
+   "skill": "detectLanguage",
+   "no": "the menu was in a language none of us could place",
+   "yes": "guess the language of this text: tá sé ag cur báistí"
+  },
+  {
+   "skill": "detectRepetition",
+   "no": "my dad repeats the same three jokes at every family dinner",
+   "yes": "find repeated phrases in this: at the end of the day we need, at the end of the day, results"
+  },
+  {
+   "skill": "detectRepetition",
+   "no": "history repeats itself, my teacher used to say",
+   "yes": "check this paragraph for phrases it repeats: we are excited. we are excited to announce we are excited"
+  },
+  {
+   "skill": "diffText",
+   "no": "the old version of me would have stayed in bed all day",
+   "yes": "diff the old and new version:\nold: meet at 3pm in room 2\nnew: meet at 4pm in room 5"
+  },
+  {
+   "skill": "diffText",
+   "no": "the difference between the two drafts was mostly her coffee intake",
+   "yes": "show the differences between these drafts by word: we will ship friday / we hope to ship friday"
+  },
+  {
+   "skill": "escapeHtml",
+   "no": "we escape the office early every friday, it's tradition",
+   "yes": "escape this for html: fish & chips <£5>"
+  },
+  {
+   "skill": "escapeHtml",
+   "no": "ampersands are the prettiest characters on the keyboard, fight me",
+   "yes": "turn the html entities back into characters: Tom &amp; Jerry &lt;3"
+  }
+ ]
+}

@@ -1,0 +1,4904 @@
+{
+ "synonyms": {
+  "areaOf.shape": {
+   "rectangular": "rectangle",
+   "circular": "circle",
+   "oval": "ellipse",
+   "elliptical": "ellipse",
+   "triangular": "triangle"
+  },
+  "perimeterOf.shape": {
+   "rectangular": "rectangle",
+   "circular": "circle",
+   "regular polygon": "regularPolygon",
+   "regular octagon": "regularPolygon",
+   "triangular": "triangle",
+   "regular hexagon": "regularPolygon"
+  },
+  "volumeOf.solid": {
+   "cylindrical": "cylinder",
+   "ball": "sphere",
+   "cuboid": "box",
+   "conical": "cone",
+   "spherical": "sphere"
+  },
+  "sleepCycleTimes.direction": {
+   "go to bed at": "sleep",
+   "alarm goes off at": "wake",
+   "lights out at": "sleep",
+   "get up at": "wake",
+   "be up by": "wake",
+   "hit the hay at": "sleep",
+   "falling asleep": "sleep"
+  },
+  "splitTimes.unit": {
+   "mile": "miles",
+   "kilometres": "km",
+   "kilometers": "km",
+   "kilometre": "km"
+  },
+  "sortList.direction": {
+   "largest first": "descending",
+   "z to a": "descending",
+   "smallest to biggest": "ascending",
+   "reverse alphabetical": "descending",
+   "a to z": "ascending",
+   "highest first": "descending"
+  },
+  "sortList.by": {
+   "by number": "numeric",
+   "alphabetically": "alphabetical",
+   "numerically": "numeric"
+  },
+  "fibonacci.mode": {
+   "list the first": "sequence",
+   "at position": "nth",
+   "as a list": "sequence",
+   "every fibonacci number": "sequence"
+  },
+  "formatCurrency.style": {
+   "dollar sign": "symbol",
+   "rupee sign": "symbol",
+   "euro sign": "symbol"
+  },
+  "formatNumber.style": {
+   "no commas": "plain",
+   "thousands separators": "standard",
+   "short form": "compact",
+   "as a %": "percent",
+   "percentage": "percent"
+  },
+  "toOrdinal.style": {
+   "spell out": "words",
+   "written out in full": "words",
+   "in digits": "short",
+   "spelled-out": "words",
+   "in letters": "words"
+  },
+  "budgetSplit.preset": {
+   "fifty thirty twenty": "50/30/20",
+   "60-20-20": "60/20/20",
+   "50-30-20": "50/30/20",
+   "70-20-10": "70/20/10",
+   "seventy twenty ten": "70/20/10",
+   "sixty twenty twenty": "60/20/20"
+  },
+  "findOutliers.method": {
+   "standard deviations": "zscore",
+   "z-score": "zscore",
+   "interquartile range": "iqr",
+   "z score": "zscore",
+   "tukey fences": "iqr",
+   "box plot rule": "iqr"
+  },
+  "movingAverage.type": {
+   "unweighted": "simple",
+   "wma": "weighted",
+   "sma": "simple",
+   "recent points count more": "weighted",
+   "equal weight": "simple"
+  },
+  "rankValues.direction": {
+   "lowest first": "ascending",
+   "highest first": "descending",
+   "smallest first": "ascending"
+  },
+  "rankValues.method": {
+   "1223": "dense",
+   "1224": "competition",
+   "no gaps": "dense"
+  },
+  "convertCase.style": {
+   "all caps": "upper",
+   "screaming_snake_case": "constant",
+   "capitalise each word": "title",
+   "upper camel case": "pascal",
+   "kebab-case": "kebab",
+   "pascalcase": "pascal",
+   "lowercase": "lower",
+   "camelcase": "camel"
+  },
+  "escapeHtml.direction": {
+   "decode": "unescape",
+   "html-encode": "escape",
+   "reverse the escaping": "unescape",
+   "encode": "escape",
+   "escaped": "escape"
+  },
+  "extractIpAddresses.version": {
+   "version 4": "v4",
+   "either kind": "both",
+   "version 6": "v6",
+   "ipv4 and ipv6": "both",
+   "ipv4": "v4",
+   "ipv6": "v6"
+  },
+  "diffText.by": {
+   "lines": "line",
+   "word-level": "word",
+   "words": "word"
+  },
+  "extractListItems.type": {
+   "bullet points": "bulleted",
+   "bullets": "bulleted",
+   "ordered list": "numbered",
+   "whatever kind": "any",
+   "dot points": "bulleted"
+  },
+  "extractNgrams.unit": {
+   "letter pairs": "characters",
+   "word bigrams": "words",
+   "letters": "characters",
+   "word pairs": "words",
+   "chars": "characters"
+  },
+  "maskSensitive.style": {
+   "asterisks": "stars",
+   "star out": "stars",
+   "partly visible": "partial",
+   "placeholders": "label",
+   "partially": "partial",
+   "labels": "label"
+  },
+  "padText.align": {
+   "center": "centre",
+   "in the middle": "centre",
+   "centered": "centre",
+   "right-align": "right",
+   "centred": "centre",
+   "left-justify": "left"
+  },
+  "reverseText.by": {
+   "word order": "words",
+   "letter by letter": "characters",
+   "line order": "lines",
+   "word by word": "words",
+   "letters": "characters"
+  },
+  "slugify.separator": {
+   "underscores": "_",
+   "hyphens": "-",
+   "dashes": "-",
+   "hyphenated": "-",
+   "underscore": "_",
+   "hyphen separated": "-"
+  },
+  "sortLines.by": {
+   "longest line first": "length",
+   "by number": "numeric",
+   "short to long": "length",
+   "numerically": "numeric"
+  },
+  "sortLines.direction": {
+   "shortest first": "ascending",
+   "z to a": "descending",
+   "longest line first": "descending",
+   "biggest first": "descending",
+   "reverse alphabetical": "descending",
+   "short to long": "ascending"
+  },
+  "truncateText.unit": {
+   "chars": "characters",
+   "letters": "characters"
+  },
+  "formatCitation.style": {
+   "modern language association": "MLA",
+   "american psychological association": "APA"
+  }
+ },
+ "rows": [
+  {
+   "skill": "areaOf",
+   "message": "our patio is rectangular, 4.5 m by 3 m — how many square metres is that?",
+   "input": {
+    "shape": "rectangle",
+    "width": 4.5,
+    "height": 3
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "rectangular"
+    }
+   ]
+  },
+  {
+   "skill": "areaOf",
+   "message": "circular rug, radius 80 cm. what area does it cover",
+   "input": {
+    "shape": "circle",
+    "radius": 80
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "circular"
+    }
+   ]
+  },
+  {
+   "skill": "areaOf",
+   "message": "Kid's homework: find the area of a triangle whose base is 12 and height 9.",
+   "input": {
+    "shape": "triangle",
+    "base": 12,
+    "height": 9
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "triangle"
+    }
+   ]
+  },
+  {
+   "skill": "areaOf",
+   "message": "how much space is inside an oval with radii 5 and 3?",
+   "input": {
+    "shape": "ellipse",
+    "radius": 5,
+    "radius2": 3
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "oval"
+    }
+   ]
+  },
+  {
+   "skill": "areaOf",
+   "message": "I'm tiling a square floor, 3.2 metres each side. Area please.",
+   "input": {
+    "shape": "square",
+    "side": 3.2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "square floor"
+    }
+   ]
+  },
+  {
+   "skill": "areaOf",
+   "message": "garden bed shaped like a trapezium: parallel sides 6 and 4 m, 2.5 m apart. area?",
+   "input": {
+    "shape": "trapezoid",
+    "base": 6,
+    "base2": 4,
+    "height": 2.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "trapezium"
+    }
+   ]
+  },
+  {
+   "skill": "areaOf",
+   "message": "parallelogram with a base of 14cm and a height of 5cm, what's its area",
+   "input": {
+    "shape": "parallelogram",
+    "base": 14,
+    "height": 5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "parallelogram"
+    }
+   ]
+  },
+  {
+   "skill": "areaOf",
+   "message": "Need the area of an elliptical pond. 7 m and 4 m are the two radii.",
+   "input": {
+    "shape": "ellipse",
+    "radius": 7,
+    "radius2": 4
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "elliptical"
+    }
+   ]
+  },
+  {
+   "skill": "areaOf",
+   "message": "sailmaker here — triangular sail, base 2.4 m, height 5 m, how much cloth area",
+   "input": {
+    "shape": "triangle",
+    "base": 2.4,
+    "height": 5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "triangular"
+    }
+   ]
+  },
+  {
+   "skill": "areaOf",
+   "message": "pizza maths: a circle of radius 18 cm is how many square cm?",
+   "input": {
+    "shape": "circle",
+    "radius": 18
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "circle"
+    }
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "message": "how much edging do I need round a rectangular lawn 12 m by 7 m",
+   "input": {
+    "shape": "rectangle",
+    "width": 12,
+    "height": 7
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "rectangular"
+    }
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "message": "circumference of a circular pond with a 2.5 m radius",
+   "input": {
+    "shape": "circle",
+    "radius": 2.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "circular"
+    }
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "message": "Fence for a square paddock, sides 40 metres. Total length?",
+   "input": {
+    "shape": "square",
+    "side": 40
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "square"
+    }
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "message": "triangle field with sides 30, 40 and 50 m, distance all the way round?",
+   "input": {
+    "shape": "triangle",
+    "a": 30,
+    "b": 40,
+    "c": 50
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "triangle"
+    }
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "message": "what's the perimeter of a regular polygon with 8 sides of 15 cm each",
+   "input": {
+    "shape": "regularPolygon",
+    "side": 15,
+    "sides": 8
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "regular polygon"
+    }
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "message": "My stop sign cutout is a regular octagon, 8 sides each 25cm. How much tape goes round the edge?",
+   "input": {
+    "shape": "regularPolygon",
+    "side": 25,
+    "sides": 8
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "regular octagon"
+    }
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "message": "Perimeter of a triangular plot: 18 m, 22 m, 25 m.",
+   "input": {
+    "shape": "triangle",
+    "a": 18,
+    "b": 22,
+    "c": 25
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "triangular"
+    }
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "message": "how long a ribbon goes round a circle of radius 9 inches?",
+   "input": {
+    "shape": "circle",
+    "radius": 9
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "circle"
+    }
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "message": "skirting board for a rectangle room 5.2 by 3.8 m, what's the perimeter",
+   "input": {
+    "shape": "rectangle",
+    "width": 5.2,
+    "height": 3.8
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "rectangle"
+    }
+   ]
+  },
+  {
+   "skill": "perimeterOf",
+   "message": "regular hexagon tile with 6 sides of 10 cm, perimeter?",
+   "input": {
+    "shape": "regularPolygon",
+    "side": 10,
+    "sides": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "shape",
+     "rule": "enum",
+     "from": "regular hexagon"
+    }
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "message": "how much water fits in a cylindrical tank, radius 0.6 m and 1.8 m tall",
+   "input": {
+    "solid": "cylinder",
+    "radius": 0.6,
+    "height": 1.8
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "solid",
+     "rule": "enum",
+     "from": "cylindrical"
+    }
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "message": "volume of a ball with a radius of 11 cm?",
+   "input": {
+    "solid": "sphere",
+    "radius": 11
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "solid",
+     "rule": "enum",
+     "from": "ball"
+    }
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "message": "what's the volume of a cuboid 30 wide, 20 deep, 15 high",
+   "input": {
+    "solid": "box",
+    "width": 30,
+    "depth": 20,
+    "height": 15
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "solid",
+     "rule": "enum",
+     "from": "cuboid"
+    }
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "message": "sand in a conical pile, radius 2 m, height 1.5 m. how many cubic metres",
+   "input": {
+    "solid": "cone",
+    "radius": 2,
+    "height": 1.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "solid",
+     "rule": "enum",
+     "from": "conical"
+    }
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "message": "ice cube 2.5 cm on each side — volume?",
+   "input": {
+    "solid": "cube",
+    "side": 2.5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "solid",
+     "rule": "enum",
+     "from": "cube"
+    }
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "message": "For my class model: a pyramid with a 20 by 20 cm base, 15 cm tall. Volume?",
+   "input": {
+    "solid": "pyramid",
+    "width": 20,
+    "depth": 20,
+    "height": 15
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "solid",
+     "rule": "enum",
+     "from": "pyramid"
+    }
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "message": "spherical fish bowl radius 14cm, how many cm³ inside",
+   "input": {
+    "solid": "sphere",
+    "radius": 14
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "solid",
+     "rule": "enum",
+     "from": "spherical"
+    }
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "message": "shipping box 60 x 40 x 35 cm, whats the volume",
+   "input": {
+    "solid": "box",
+    "width": 60,
+    "depth": 40,
+    "height": 35
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "solid",
+     "rule": "enum",
+     "from": "box"
+    }
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "message": "an ice cream cone with radius 3 cm, 11 cm high — how much does it hold",
+   "input": {
+    "solid": "cone",
+    "radius": 3,
+    "height": 11
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "solid",
+     "rule": "enum",
+     "from": "cone"
+    }
+   ]
+  },
+  {
+   "skill": "volumeOf",
+   "message": "Planter shaped like a cylinder, radius 25cm and height 40cm. How much soil fills it?",
+   "input": {
+    "solid": "cylinder",
+    "radius": 25,
+    "height": 40
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "solid",
+     "rule": "enum",
+     "from": "cylinder"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "if I go to bed at 22:30 when should my alarm be set",
+   "input": {
+    "time": "22:30",
+    "direction": "sleep"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "go to bed at"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "need to wake at 6:15 for an early shift, what time should I sleep by",
+   "input": {
+    "time": "6:15",
+    "direction": "wake"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "wake at"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "Alarm goes off at 5:45. Best bedtimes in whole sleep cycles?",
+   "input": {
+    "time": "5:45",
+    "direction": "wake"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "alarm goes off at"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "falling asleep around 23:15 tonight — which wake up times fit whole sleep cycles?",
+   "input": {
+    "time": "23:15",
+    "direction": "sleep"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "falling asleep"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "lights out at 21:45 for me — which wake-up times line up with full cycles?",
+   "input": {
+    "time": "21:45",
+    "direction": "sleep"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "lights out at"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "nurse on nights here. I have to get up at 14:30, what bedtimes fit my sleep cycles?",
+   "input": {
+    "time": "14:30",
+    "direction": "wake"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "get up at"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "I want to be up by 7:20 — bedtimes that fit 90 minute cycles please",
+   "input": {
+    "time": "7:20",
+    "direction": "wake",
+    "cycleMinutes": 90
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "be up by"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "gonna hit the hay at 0:30, what time to wake so i'm not groggy",
+   "input": {
+    "time": "0:30",
+    "direction": "sleep"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "hit the hay at"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "Must wake up at 5:00 to catch a flight. Bedtime options by sleep cycle?",
+   "input": {
+    "time": "5:00",
+    "direction": "wake"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "wake up at"
+    }
+   ]
+  },
+  {
+   "skill": "sleepCycleTimes",
+   "message": "going to sleep at 22:00 and my cycles run about 100 min. when do i wake",
+   "input": {
+    "time": "22:00",
+    "direction": "sleep",
+    "cycleMinutes": 100
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "going to sleep at"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Training for a 6 mile race and want to finish in 54 minutes. Splits?",
+   "input": {
+    "distance": 6,
+    "time": "54:00",
+    "unit": "miles"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "mile"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "split times to do 15 kilometres in 1:15:00",
+   "input": {
+    "distance": 15,
+    "time": "1:15:00",
+    "unit": "km"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "kilometres"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "what pace per mile gets me 13.1 miles in 1:50:00?",
+   "input": {
+    "distance": 13.1,
+    "time": "1:50:00",
+    "unit": "miles"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "miles"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "split times for an 8 km tempo run in 36:00",
+   "input": {
+    "distance": 8,
+    "time": "36:00",
+    "unit": "km"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "km"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "I'd like to cover 20 kilometers in 1:40:00 on the trail, what pace and splits",
+   "input": {
+    "distance": 20,
+    "time": "1:40:00",
+    "unit": "km"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "kilometers"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Target is 26.2 miles in 3:30:00. What splits do I hold?",
+   "input": {
+    "distance": 26.2,
+    "time": "3:30:00",
+    "unit": "miles"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "miles"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "give me km splits for 12 km in 58 minutes",
+   "input": {
+    "distance": 12,
+    "time": "58:00",
+    "unit": "km"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "km splits"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "2 mile time trial in 13:00 — what pace is that per mile",
+   "input": {
+    "distance": 2,
+    "time": "13:00",
+    "unit": "miles"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "mile"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "parkrun goal: 5 kilometre course in 24:45. what pace and split times?",
+   "input": {
+    "distance": 5,
+    "time": "24:45",
+    "unit": "km"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "kilometre"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Splits for 10 miles with a 1:20:00 finish, cheers",
+   "input": {
+    "distance": 10,
+    "time": "1:20:00",
+    "unit": "miles"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "miles"
+    }
+   ]
+  },
+  {
+   "skill": "sortList",
+   "message": "sort these alphabetically please: kiwi, mango, apple, fig",
+   "input": {
+    "items": [
+     "kiwi",
+     "mango",
+     "apple",
+     "fig"
+    ],
+    "by": "alphabetical"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "alphabetically"
+    }
+   ]
+  },
+  {
+   "skill": "sortList",
+   "message": "put 42, 7, 19, 3, 88 in order numerically, largest first",
+   "input": {
+    "items": [
+     42,
+     7,
+     19,
+     3,
+     88
+    ],
+    "by": "numeric",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "numerically"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "largest first"
+    }
+   ]
+  },
+  {
+   "skill": "sortList",
+   "message": "my playlist files need sorting in natural order: song10, song2, song1",
+   "input": {
+    "items": [
+     "song10",
+     "song2",
+     "song1"
+    ],
+    "by": "natural"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "natural order"
+    }
+   ]
+  },
+  {
+   "skill": "sortList",
+   "message": "can you sort the guest list z to a",
+   "input": {
+    "direction": "descending"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "z to a"
+    }
+   ]
+  },
+  {
+   "skill": "sortList",
+   "message": "Order these numerically, smallest to biggest: 3.5, 12, 0.75, 6",
+   "input": {
+    "items": [
+     3.5,
+     12,
+     0.75,
+     6
+    ],
+    "by": "numeric",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "numerically"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "smallest to biggest"
+    }
+   ]
+  },
+  {
+   "skill": "sortList",
+   "message": "sort in reverse alphabetical order: Tokyo, Lima, Oslo, Cairo",
+   "input": {
+    "items": [
+     "Tokyo",
+     "Lima",
+     "Oslo",
+     "Cairo"
+    ],
+    "by": "alphabetical",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "alphabetical"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "reverse alphabetical"
+    }
+   ]
+  },
+  {
+   "skill": "sortList",
+   "message": "sort the photo names below the natural way so img2 lands before img10",
+   "input": {
+    "by": "natural"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "natural"
+    }
+   ]
+  },
+  {
+   "skill": "sortList",
+   "message": "Teacher here, please sort this list of surnames A to Z: Patel, Okafor, Brown, Nguyen",
+   "input": {
+    "items": [
+     "Patel",
+     "Okafor",
+     "Brown",
+     "Nguyen"
+    ],
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "a to z"
+    }
+   ]
+  },
+  {
+   "skill": "sortList",
+   "message": "high scores 1200 950 3100 870, sort them descending by number",
+   "input": {
+    "items": [
+     1200,
+     950,
+     3100,
+     870
+    ],
+    "by": "numeric",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "by number"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "descending"
+    }
+   ]
+  },
+  {
+   "skill": "sortList",
+   "message": "sort this list numerically for me, highest first",
+   "input": {
+    "by": "numeric",
+    "direction": "descending"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "numerically"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "highest first"
+    }
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "message": "can you list the first 12 fibonacci numbers for my maths club",
+   "input": {
+    "n": 12,
+    "mode": "sequence"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "mode",
+     "rule": "enum",
+     "from": "list the first"
+    }
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "message": "what's the nth fibonacci number when n = 27",
+   "input": {
+    "n": 27,
+    "mode": "nth"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "mode",
+     "rule": "enum",
+     "from": "nth"
+    }
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "message": "Write out the fibonacci sequence up to 15 terms.",
+   "input": {
+    "n": 15,
+    "mode": "sequence"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "mode",
+     "rule": "enum",
+     "from": "sequence up to"
+    }
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "message": "fibonacci number at position 40, just that one value",
+   "input": {
+    "n": 40,
+    "mode": "nth"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "mode",
+     "rule": "enum",
+     "from": "at position"
+    }
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "message": "Developer here: I need the first 20 fibonacci terms as a list.",
+   "input": {
+    "n": 20,
+    "mode": "sequence"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "mode",
+     "rule": "enum",
+     "from": "as a list"
+    }
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "message": "show me the sequence of the first 9 fibonacci numbers",
+   "input": {
+    "n": 9,
+    "mode": "sequence"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "mode",
+     "rule": "enum",
+     "from": "sequence"
+    }
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "message": "I only want the 33rd fibonacci number on its own, not the whole run",
+   "input": {
+    "n": 33,
+    "mode": "nth"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "mode",
+     "rule": "enum",
+     "from": "on its own"
+    }
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "message": "print fibonacci terms one through 25 as a sequence",
+   "input": {
+    "n": 25,
+    "mode": "sequence"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "mode",
+     "rule": "enum",
+     "from": "sequence"
+    }
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "message": "give me the fibonacci nth term for n of 18",
+   "input": {
+    "n": 18,
+    "mode": "nth"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "mode",
+     "rule": "enum",
+     "from": "nth term"
+    }
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "message": "spit out every fibonacci number from the start up to the 14th",
+   "input": {
+    "n": 14,
+    "mode": "sequence"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "mode",
+     "rule": "enum",
+     "from": "every fibonacci number"
+    }
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "message": "write 2500 euros with the currency code, not the € sign",
+   "input": {
+    "amount": 2500,
+    "currency": "EUR",
+    "style": "code"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "currency code"
+    }
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "message": "write 1499.99 as money in US dollars with the dollar sign",
+   "input": {
+    "amount": 1499.99,
+    "currency": "USD",
+    "style": "symbol"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "dollar sign"
+    }
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "message": "Show 870 Swiss francs with the currency name written out.",
+   "input": {
+    "amount": 870,
+    "currency": "CHF",
+    "style": "name"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "currency name"
+    }
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "message": "how should 15000 japanese yen look with the symbol",
+   "input": {
+    "amount": 15000,
+    "currency": "JPY",
+    "style": "symbol"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "symbol"
+    }
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "message": "invoice line: format 320.5 pounds sterling as currency with the ISO code",
+   "input": {
+    "amount": 320.5,
+    "currency": "GBP",
+    "style": "code"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "iso code"
+    }
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "message": "Could you write 64.2 Canadian dollars using the full name of the currency?",
+   "input": {
+    "amount": 64.2,
+    "currency": "CAD",
+    "style": "name"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "full name"
+    }
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "message": "write 12 Indian rupees as currency with the rupee sign",
+   "input": {
+    "amount": 12,
+    "currency": "INR",
+    "style": "symbol"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "rupee sign"
+    }
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "message": "5,250.75 Australian dollars, three-letter code style please",
+   "input": {
+    "amount": 5250.75,
+    "currency": "AUD",
+    "style": "code"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "three-letter code"
+    }
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "message": "write 99.9 euros properly using the euro sign",
+   "input": {
+    "amount": 99.9,
+    "currency": "EUR",
+    "style": "symbol"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "euro sign"
+    }
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "message": "for a cheque, format 1200 Mexican pesos with the currency's name",
+   "input": {
+    "amount": 1200,
+    "currency": "MXN",
+    "style": "name"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "name"
+    }
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "message": "our conversion rate came out at 0.275, format that number as a percentage",
+   "input": {
+    "value": 0.275,
+    "style": "percent"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "percentage"
+    }
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "message": "shorten 4,800,000 to compact form for a slide",
+   "input": {
+    "value": 4800000,
+    "style": "compact"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "compact form"
+    }
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "message": "format 1234567.891 with no commas at all",
+   "input": {
+    "value": 1234567.891,
+    "style": "plain"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "no commas"
+    }
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "message": "How would 98765432 look with thousands separators?",
+   "input": {
+    "value": 98765432,
+    "style": "standard"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "thousands separators"
+    }
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "message": "display 52300 in short form, k style",
+   "input": {
+    "value": 52300,
+    "style": "compact"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "short form"
+    }
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "message": "write 0.0625 as a percent with 2 decimals",
+   "input": {
+    "value": 0.0625,
+    "style": "percent",
+    "decimals": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "percent"
+    }
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "message": "I need 3,500,000 written plain, no separators, for a spreadsheet cell",
+   "input": {
+    "value": 3500000,
+    "style": "plain"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "plain"
+    }
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "message": "make 15750 compact for a dashboard tile",
+   "input": {
+    "value": 15750,
+    "style": "compact"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "compact"
+    }
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "message": "Format 7654321.5 the standard way, 1 decimal place.",
+   "input": {
+    "value": 7654321.5,
+    "style": "standard",
+    "decimals": 1
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "standard way"
+    }
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "message": "write 0.9 as a % please",
+   "input": {
+    "value": 0.9,
+    "style": "percent"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "as a %"
+    }
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "message": "write 23 as an ordinal in words",
+   "input": {
+    "value": 23,
+    "style": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "in words"
+    }
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "message": "spell out 41 as an ordinal for a wedding invite",
+   "input": {
+    "value": 41,
+    "style": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "spell out"
+    }
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "message": "ordinal with the short suffix for 63",
+   "input": {
+    "value": 63,
+    "style": "short"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "short suffix"
+    }
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "message": "What's 90 as an ordinal, written out in full?",
+   "input": {
+    "value": 90,
+    "style": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "written out in full"
+    }
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "message": "turn 5 into its ordinal in digits, like on a calendar",
+   "input": {
+    "value": 5,
+    "style": "short"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "in digits"
+    }
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "message": "how do I write 101 as an ordinal, the spelled-out version",
+   "input": {
+    "value": 101,
+    "style": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "spelled-out"
+    }
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "message": "13 as an ordinal number, short form please",
+   "input": {
+    "value": 13,
+    "style": "short"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "short form"
+    }
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "message": "Year 2 teacher: write 72 as an ordinal in letters for the worksheet",
+   "input": {
+    "value": 72,
+    "style": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "in letters"
+    }
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "message": "ordinal of 1000 in words?",
+   "input": {
+    "value": 1000,
+    "style": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "words"
+    }
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "message": "give me 22 as a short ordinal for a race bib",
+   "input": {
+    "value": 22,
+    "style": "short"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "short ordinal"
+    }
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "split my 2800 take-home using the 70/20/10 rule",
+   "input": {
+    "income": 2800,
+    "preset": "70/20/10"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "preset",
+     "rule": "enum",
+     "from": "70/20/10"
+    }
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "budget 4200 a month fifty thirty twenty",
+   "input": {
+    "income": 4200,
+    "preset": "50/30/20"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "preset",
+     "rule": "enum",
+     "from": "fifty thirty twenty"
+    }
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "I earn 1850 a month. Can you divide it 60-20-20?",
+   "input": {
+    "income": 1850,
+    "preset": "60/20/20"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "preset",
+     "rule": "enum",
+     "from": "60-20-20"
+    }
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "use the 50-30-20 rule on 3,600",
+   "input": {
+    "income": 3600,
+    "preset": "50/30/20"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "preset",
+     "rule": "enum",
+     "from": "50-30-20"
+    }
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "Divide 2,150 into budget buckets using 70-20-10.",
+   "input": {
+    "income": 2150,
+    "preset": "70/20/10"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "preset",
+     "rule": "enum",
+     "from": "70-20-10"
+    }
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "student loan month: 950 to budget, 60/20/20 please",
+   "input": {
+    "income": 950,
+    "preset": "60/20/20"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "preset",
+     "rule": "enum",
+     "from": "60/20/20"
+    }
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "how should I split 5500 with the seventy twenty ten rule",
+   "input": {
+    "income": 5500,
+    "preset": "70/20/10"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "preset",
+     "rule": "enum",
+     "from": "seventy twenty ten"
+    }
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "split my 3100 paycheck with the 50/30/20 budget rule",
+   "input": {
+    "income": 3100,
+    "preset": "50/30/20"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "preset",
+     "rule": "enum",
+     "from": "50/30/20"
+    }
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "budget my 2,400 using sixty twenty twenty",
+   "input": {
+    "income": 2400,
+    "preset": "60/20/20"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "preset",
+     "rule": "enum",
+     "from": "sixty twenty twenty"
+    }
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "Can you break 6000 down 70/20/10 for our household budget?",
+   "input": {
+    "income": 6000,
+    "preset": "70/20/10"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "preset",
+     "rule": "enum",
+     "from": "70/20/10"
+    }
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "message": "spot outliers in 12, 14, 13, 15, 61, 14 using the IQR method",
+   "input": {
+    "values": [
+     12,
+     14,
+     13,
+     15,
+     61,
+     14
+    ],
+    "method": "iqr"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "iqr method"
+    }
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "message": "find the outliers more than 2 standard deviations out: 50, 52, 49, 51, 90, 48",
+   "input": {
+    "values": [
+     50,
+     52,
+     49,
+     51,
+     90,
+     48
+    ],
+    "method": "zscore",
+    "threshold": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "standard deviations"
+    }
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "message": "z-score outliers in my lab readings 4.1 4.3 4.2 9.8 4.0 4.4",
+   "input": {
+    "values": [
+     4.1,
+     4.3,
+     4.2,
+     9.8,
+     4,
+     4.4
+    ],
+    "method": "zscore"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "z-score"
+    }
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "message": "any outliers by interquartile range? 200, 210, 205, 950, 198, 202",
+   "input": {
+    "values": [
+     200,
+     210,
+     205,
+     950,
+     198,
+     202
+    ],
+    "method": "iqr"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "interquartile range"
+    }
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "message": "find outliers in the data below with a z score cutoff of 2.5",
+   "input": {
+    "method": "zscore",
+    "threshold": 2.5
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "z score"
+    }
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Tukey fences outlier check on 7, 8, 8, 9, 30, 7, 8 please",
+   "input": {
+    "values": [
+     7,
+     8,
+     8,
+     9,
+     30,
+     7,
+     8
+    ],
+    "method": "iqr"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "tukey fences"
+    }
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "message": "nurse here, patient temps 36.8 37.0 36.9 39.9 36.7 — any outliers by zscore?",
+   "input": {
+    "values": [
+     36.8,
+     37,
+     36.9,
+     39.9,
+     36.7
+    ],
+    "method": "zscore"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "zscore"
+    }
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "message": "check my sales column for outliers, iqr method",
+   "input": {
+    "method": "iqr"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "iqr"
+    }
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "message": "by the box plot rule, are there any outliers in 3, 5, 4, 6, 5, 22?",
+   "input": {
+    "values": [
+     3,
+     5,
+     4,
+     6,
+     5,
+     22
+    ],
+    "method": "iqr"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "box plot rule"
+    }
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "message": "flag any outliers beyond 3 standard deviations in 10 11 9 10 12 10 11 45 10 9",
+   "input": {
+    "values": [
+     10,
+     11,
+     9,
+     10,
+     12,
+     10,
+     11,
+     45,
+     10,
+     9
+    ],
+    "method": "zscore",
+    "threshold": 3
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "standard deviations"
+    }
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "message": "3-day simple moving average of 10, 12, 14, 11, 15",
+   "input": {
+    "values": [
+     10,
+     12,
+     14,
+     11,
+     15
+    ],
+    "window": 3,
+    "type": "simple"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "simple"
+    }
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Weighted moving average with a window of 4 over 21 23 22 25 27 26",
+   "input": {
+    "values": [
+     21,
+     23,
+     22,
+     25,
+     27,
+     26
+    ],
+    "window": 4,
+    "type": "weighted"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "weighted"
+    }
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "message": "unweighted 2-point moving average of 5, 9, 7, 11",
+   "input": {
+    "values": [
+     5,
+     9,
+     7,
+     11
+    ],
+    "window": 2,
+    "type": "simple"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "unweighted"
+    }
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "message": "need the WMA moving average over 3 periods for 100, 102, 101, 105, 108",
+   "input": {
+    "values": [
+     100,
+     102,
+     101,
+     105,
+     108
+    ],
+    "window": 3,
+    "type": "weighted"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "wma"
+    }
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "message": "SMA with a 5-day window: 44, 45, 43, 47, 46, 48, 49",
+   "input": {
+    "values": [
+     44,
+     45,
+     43,
+     47,
+     46,
+     48,
+     49
+    ],
+    "window": 5,
+    "type": "simple"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "sma"
+    }
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "message": "weighted moving average across 3 points for the revenue numbers I'm about to paste",
+   "input": {
+    "window": 3,
+    "type": "weighted"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "weighted"
+    }
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "message": "rolling average, window 2, where recent points count more: 8, 6, 9, 12",
+   "input": {
+    "values": [
+     8,
+     6,
+     9,
+     12
+    ],
+    "window": 2,
+    "type": "weighted"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "recent points count more"
+    }
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "message": "plain simple moving average over 7 days of my step counts",
+   "input": {
+    "window": 7,
+    "type": "simple"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "simple"
+    }
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Give each point equal weight: 4-point moving average of 3 5 4 6 8 7",
+   "input": {
+    "values": [
+     3,
+     5,
+     4,
+     6,
+     8,
+     7
+    ],
+    "window": 4,
+    "type": "simple"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "equal weight"
+    }
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "message": "linearly weighted moving average, window 3: 1.2, 1.5, 1.4, 1.9",
+   "input": {
+    "values": [
+     1.2,
+     1.5,
+     1.4,
+     1.9
+    ],
+    "window": 3,
+    "type": "weighted"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "linearly weighted"
+    }
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank these lap times lowest first: 12.4, 11.9, 13.1, 12.0",
+   "input": {
+    "values": [
+     12.4,
+     11.9,
+     13.1,
+     12
+    ],
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "lowest first"
+    }
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank scores 88, 92, 88, 75 using dense ranking",
+   "input": {
+    "values": [
+     88,
+     92,
+     88,
+     75
+    ],
+    "method": "dense"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "dense ranking"
+    }
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "message": "Rank 40 35 40 50 with standard competition ranking.",
+   "input": {
+    "values": [
+     40,
+     35,
+     40,
+     50
+    ],
+    "method": "competition"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "competition"
+    }
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank 7, 9, 9, 4 so ties share a rank with no gaps after",
+   "input": {
+    "values": [
+     7,
+     9,
+     9,
+     4
+    ],
+    "method": "dense"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "no gaps"
+    }
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank in ascending order: 300, 120, 450, 200",
+   "input": {
+    "values": [
+     300,
+     120,
+     450,
+     200
+    ],
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "ascending"
+    }
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "message": "ordinal ranking of 5, 5, 3, 8 — ties just get the next number",
+   "input": {
+    "values": [
+     5,
+     5,
+     3,
+     8
+    ],
+    "method": "ordinal"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "ordinal ranking"
+    }
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank Ana 81, Ben 95, Cleo 77 highest first",
+   "input": {
+    "values": [
+     81,
+     95,
+     77
+    ],
+    "labels": [
+     "Ana",
+     "Ben",
+     "Cleo"
+    ],
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "highest first"
+    }
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank the team points below with 1223 style ties",
+   "input": {
+    "method": "dense"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "1223"
+    }
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "message": "Rank 14 20 14 9 in descending order, 1224 for ties.",
+   "input": {
+    "values": [
+     14,
+     20,
+     14,
+     9
+    ],
+    "direction": "descending",
+    "method": "competition"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "descending"
+    },
+    {
+     "field": "method",
+     "rule": "enum",
+     "from": "1224"
+    }
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank the survey scores I'll paste, smallest first, so the smallest value gets rank 1",
+   "input": {
+    "direction": "ascending"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "smallest first"
+    }
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "message": "make this ALL CAPS: fire exit only",
+   "input": {
+    "text": "fire exit only",
+    "style": "upper"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "all caps"
+    }
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "message": "convert 'order total amount' to snake_case",
+   "input": {
+    "text": "order total amount",
+    "style": "snake"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "snake_case"
+    }
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "message": "change the case of 'Main Nav Link' to kebab-case",
+   "input": {
+    "text": "Main Nav Link",
+    "style": "kebab"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "kebab-case"
+    }
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "message": "turn 'max retry count' into SCREAMING_SNAKE_CASE for an env var",
+   "input": {
+    "text": "max retry count",
+    "style": "constant"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "screaming_snake_case"
+    }
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "message": "PascalCase please: user profile card",
+   "input": {
+    "text": "user profile card",
+    "style": "pascal"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "pascalcase"
+    }
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "message": "lowercase this for me: PLEASE DO NOT DISTURB",
+   "input": {
+    "text": "PLEASE DO NOT DISTURB",
+    "style": "lower"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "lowercase"
+    }
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "message": "change this to sentence case: QUARTERLY REVIEW MEETING MOVED",
+   "input": {
+    "text": "QUARTERLY REVIEW MEETING MOVED",
+    "style": "sentence"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "sentence case"
+    }
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "message": "change the capitalisation so I capitalise each word of 'the old man and the sea'",
+   "input": {
+    "text": "the old man and the sea",
+    "style": "title"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "capitalise each word"
+    }
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "message": "convert my variable names below to camelCase",
+   "input": {
+    "style": "camel"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "camelcase"
+    }
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "message": "upper camel case for 'shopping cart item', it's a class name",
+   "input": {
+    "text": "shopping cart item",
+    "style": "pascal"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "upper camel case"
+    }
+   ]
+  },
+  {
+   "skill": "diffText",
+   "message": "compare these two texts word by word: 'the cat sat on the mat' vs 'the cat lay on the rug'",
+   "input": {
+    "before": "the cat sat on the mat",
+    "after": "the cat lay on the rug",
+    "by": "word"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "word by word"
+    }
+   ]
+  },
+  {
+   "skill": "diffText",
+   "message": "line by line diff please\nbefore:\napples\npears\nplums\nafter:\napples\npeaches\nplums",
+   "input": {
+    "before": "apples\npears\nplums",
+    "after": "apples\npeaches\nplums",
+    "by": "line"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "line by line"
+    }
+   ]
+  },
+  {
+   "skill": "diffText",
+   "message": "compare my two contract drafts and show the changes by word",
+   "input": {
+    "by": "word"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "by word"
+    }
+   ]
+  },
+  {
+   "skill": "diffText",
+   "message": "what changed between the old and new text, checking each word? Old: Meeting at 3pm in room 4. New: Meeting at 4pm in room 2.",
+   "input": {
+    "before": "Meeting at 3pm in room 4.",
+    "after": "Meeting at 4pm in room 2.",
+    "by": "word"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "each word"
+    }
+   ]
+  },
+  {
+   "skill": "diffText",
+   "message": "show me the changed lines between my old and new config",
+   "input": {
+    "by": "line"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "lines"
+    }
+   ]
+  },
+  {
+   "skill": "diffText",
+   "message": "word-level diff of 'fast red car' and 'slow red bike'",
+   "input": {
+    "before": "fast red car",
+    "after": "slow red bike",
+    "by": "word"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "word-level"
+    }
+   ]
+  },
+  {
+   "skill": "diffText",
+   "message": "Compare these shopping lists line by line.\nfirst:\nmilk\neggs\nbread\nsecond:\nmilk\nbutter\nbread",
+   "input": {
+    "before": "milk\neggs\nbread",
+    "after": "milk\nbutter\nbread",
+    "by": "line"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "line by line"
+    }
+   ]
+  },
+  {
+   "skill": "diffText",
+   "message": "editor here: which words differ between 'We will ship on Monday' and 'We should ship by Tuesday'?",
+   "input": {
+    "before": "We will ship on Monday",
+    "after": "We should ship by Tuesday",
+    "by": "word"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "words"
+    }
+   ]
+  },
+  {
+   "skill": "diffText",
+   "message": "diff these two versions by line. v1:\nhost=localhost\nport=80\nv2:\nhost=example.com\nport=80",
+   "input": {
+    "before": "host=localhost\nport=80",
+    "after": "host=example.com\nport=80",
+    "by": "line"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "by line"
+    }
+   ]
+  },
+  {
+   "skill": "diffText",
+   "message": "compare the two versions of my essay paragraph word for word",
+   "input": {
+    "by": "word"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "word for word"
+    }
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "escape this for a web page: <script>alert(1)</script>",
+   "input": {
+    "text": "<script>alert(1)</script>",
+    "direction": "escape"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "escape"
+    }
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "decode these html entities back to tags: &lt;em&gt;hello&lt;/em&gt;",
+   "input": {
+    "text": "&lt;em&gt;hello&lt;/em&gt;",
+    "direction": "unescape"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "decode"
+    }
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "html-encode this: Tom & Jerry <3",
+   "input": {
+    "text": "Tom & Jerry <3",
+    "direction": "escape"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "html-encode"
+    }
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "unescape this html from our CMS: Fish &amp; Chips &gt; Pizza",
+   "input": {
+    "text": "Fish &amp; Chips &gt; Pizza",
+    "direction": "unescape"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "unescape"
+    }
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "make <div class=\"note\"> safe to paste into html, escape it",
+   "input": {
+    "text": "<div class=\"note\">",
+    "direction": "escape"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "escape it"
+    }
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "unescape the html entities in the snippet below",
+   "input": {
+    "direction": "unescape"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "unescape"
+    }
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "reverse the escaping on this html: &quot;hello&quot; &amp; goodbye",
+   "input": {
+    "text": "&quot;hello&quot; &amp; goodbye",
+    "direction": "unescape"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "reverse the escaping"
+    }
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "Escape the ampersands and angle brackets in my blog snippet for html.",
+   "input": {
+    "direction": "escape"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "escape"
+    }
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "encode 5 < 7 && 9 > 3 as html entities",
+   "input": {
+    "text": "5 < 7 && 9 > 3",
+    "direction": "escape"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "encode"
+    }
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "message": "developer q: need a<b and c>d escaped for an html attribute",
+   "input": {
+    "text": "a<b and c>d",
+    "direction": "escape"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "escaped"
+    }
+   ]
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "pull only the ipv4 addresses out of: login from 10.0.0.5 and 2001:db8::1, retry from 10.0.0.5",
+   "input": {
+    "text": "login from 10.0.0.5 and 2001:db8::1, retry from 10.0.0.5",
+    "version": "v4"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "version",
+     "rule": "enum",
+     "from": "ipv4"
+    }
+   ]
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "List the IPv6 addresses in this log: conn fe80::1ff:fe23:4567:890a ok; conn 192.168.0.9 ok",
+   "input": {
+    "text": "conn fe80::1ff:fe23:4567:890a ok; conn 192.168.0.9 ok",
+    "version": "v6"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "version",
+     "rule": "enum",
+     "from": "ipv6"
+    }
+   ]
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "grab every ipv6 address from the firewall log below",
+   "input": {
+    "version": "v6"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "version",
+     "rule": "enum",
+     "from": "ipv6"
+    }
+   ]
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "ip addresses, both v4 and v6 please: deny 172.16.4.2 / allow ::1 / deny 172.16.4.3",
+   "input": {
+    "text": "deny 172.16.4.2 / allow ::1 / deny 172.16.4.3",
+    "version": "both"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "version",
+     "rule": "enum",
+     "from": "both"
+    }
+   ]
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "find the version 4 ip addresses: GET / 203.0.113.7, POST /api 2001:db8::7",
+   "input": {
+    "text": "GET / 203.0.113.7, POST /api 2001:db8::7",
+    "version": "v4"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "version",
+     "rule": "enum",
+     "from": "version 4"
+    }
+   ]
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "sysadmin here, extract the IPv4 addresses from the access log I'm pasting",
+   "input": {
+    "version": "v4"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "version",
+     "rule": "enum",
+     "from": "ipv4"
+    }
+   ]
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "any ip addresses of either kind in 'from 8.8.4.4 via 2606:4700::1111'?",
+   "input": {
+    "text": "from 8.8.4.4 via 2606:4700::1111",
+    "version": "both"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "version",
+     "rule": "enum",
+     "from": "either kind"
+    }
+   ]
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "ipv6 only from this: [2001:db8:0:1::5] connected, [198.51.100.3] dropped",
+   "input": {
+    "text": "[2001:db8:0:1::5] connected, [198.51.100.3] dropped",
+    "version": "v6"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "version",
+     "rule": "enum",
+     "from": "ipv6"
+    }
+   ]
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "extract the version 6 ip addresses out of 'peer fe80::2 up, peer 10.1.1.1 down, peer 2001:db8::2 up'",
+   "input": {
+    "text": "peer fe80::2 up, peer 10.1.1.1 down, peer 2001:db8::2 up",
+    "version": "v6"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "version",
+     "rule": "enum",
+     "from": "version 6"
+    }
+   ]
+  },
+  {
+   "skill": "extractIpAddresses",
+   "message": "Get the ipv4 and ipv6 addresses from: client 192.0.2.44 proxied by 2001:db8:ab::9",
+   "input": {
+    "text": "client 192.0.2.44 proxied by 2001:db8:ab::9",
+    "version": "both"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "version",
+     "rule": "enum",
+     "from": "ipv4 and ipv6"
+    }
+   ]
+  },
+  {
+   "skill": "extractListItems",
+   "message": "only the bullet points from this note please:\nPacking\n- passport\n- charger\n1. book taxi",
+   "input": {
+    "text": "Packing\n- passport\n- charger\n1. book taxi",
+    "type": "bulleted"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "bullet points"
+    }
+   ]
+  },
+  {
+   "skill": "extractListItems",
+   "message": "get the numbered steps out of this:\nRecipe\n1. boil water\n2. add pasta\n- tip: salt it",
+   "input": {
+    "text": "Recipe\n1. boil water\n2. add pasta\n- tip: salt it",
+    "type": "numbered"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "numbered"
+    }
+   ]
+  },
+  {
+   "skill": "extractListItems",
+   "message": "pull every list item of any kind out of the doc below",
+   "input": {
+    "type": "any"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "any kind"
+    }
+   ]
+  },
+  {
+   "skill": "extractListItems",
+   "message": "Extract the bullets only:\n* eggs\n* flour\n1) preheat oven",
+   "input": {
+    "text": "* eggs\n* flour\n1) preheat oven",
+    "type": "bulleted"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "bullets"
+    }
+   ]
+  },
+  {
+   "skill": "extractListItems",
+   "message": "from the meeting minutes I'm pasting, just give me the numbered list items",
+   "input": {
+    "type": "numbered"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "numbered"
+    }
+   ]
+  },
+  {
+   "skill": "extractListItems",
+   "message": "grab the ordered list items from this:\nAgenda\n1. welcome\n2. budget\n3. AOB",
+   "input": {
+    "text": "Agenda\n1. welcome\n2. budget\n3. AOB",
+    "type": "numbered"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "ordered list"
+    }
+   ]
+  },
+  {
+   "skill": "extractListItems",
+   "message": "list items of whatever kind in my to-do:\n- call mum\n2. pay rent\n- water plants",
+   "input": {
+    "text": "- call mum\n2. pay rent\n- water plants",
+    "type": "any"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "whatever kind"
+    }
+   ]
+  },
+  {
+   "skill": "extractListItems",
+   "message": "Teacher: pull the bulleted points from my handout.\nKey facts\n- water boils at 100C\n- ice melts at 0C",
+   "input": {
+    "text": "Key facts\n- water boils at 100C\n- ice melts at 0C",
+    "type": "bulleted"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "bulleted"
+    }
+   ]
+  },
+  {
+   "skill": "extractListItems",
+   "message": "numbered list only please —\nSteps:\n1. unplug\n2. wait 10 seconds\n3. replug\n- note: be patient",
+   "input": {
+    "text": "Steps:\n1. unplug\n2. wait 10 seconds\n3. replug\n- note: be patient",
+    "type": "numbered"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "numbered list"
+    }
+   ]
+  },
+  {
+   "skill": "extractListItems",
+   "message": "extract the dot points as list items from my lecture notes",
+   "input": {
+    "type": "bulleted"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "type",
+     "rule": "enum",
+     "from": "dot points"
+    }
+   ]
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "bigrams of letter pairs in the word 'banana'",
+   "input": {
+    "text": "banana",
+    "unit": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "letter pairs"
+    }
+   ]
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "get the word bigrams from 'to be or not to be' as n-grams",
+   "input": {
+    "text": "to be or not to be",
+    "unit": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "word bigrams"
+    }
+   ]
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "overlapping runs of 3 characters from 'hello'",
+   "input": {
+    "text": "hello",
+    "n": 3,
+    "unit": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "characters"
+    }
+   ]
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "split the paragraph below into overlapping runs of 3 words",
+   "input": {
+    "n": 3,
+    "unit": "words"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "words"
+    }
+   ]
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "break 'Patricia' into overlapping groups of 3 letters",
+   "input": {
+    "text": "Patricia",
+    "n": 3,
+    "unit": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "letters"
+    }
+   ]
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "break 'the quick brown fox jumps' into overlapping word pairs",
+   "input": {
+    "text": "the quick brown fox jumps",
+    "unit": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "word pairs"
+    }
+   ]
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "bigrams of chars in 'mississippi' for my NLP homework",
+   "input": {
+    "text": "mississippi",
+    "unit": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "chars"
+    }
+   ]
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "four-word runs from the speech I'll paste — words, not letters",
+   "input": {
+    "n": 4,
+    "unit": "words"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "words, not letters"
+    }
+   ]
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "2-grams over characters: 'abcde'",
+   "input": {
+    "text": "abcde",
+    "n": 2,
+    "unit": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "characters"
+    }
+   ]
+  },
+  {
+   "skill": "extractNgrams",
+   "message": "ngrams of 3 words from 'all that glitters is not gold'",
+   "input": {
+    "text": "all that glitters is not gold",
+    "n": 3,
+    "unit": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "3 words"
+    }
+   ]
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "hide the card number with asterisks: card 4111 1111 1111 1111 exp 09/27",
+   "input": {
+    "text": "card 4111 1111 1111 1111 exp 09/27",
+    "style": "stars"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "asterisks"
+    }
+   ]
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "partially mask this email for a screenshot: reach me at sam.lee@example.org",
+   "input": {
+    "text": "reach me at sam.lee@example.org",
+    "style": "partial"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "partially"
+    }
+   ]
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "redact the customer notes below, swapping private details for labels",
+   "input": {
+    "style": "label"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "labels"
+    }
+   ]
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "star out the phone number in: call Priya on 07700 900123 after 5",
+   "input": {
+    "text": "call Priya on 07700 900123 after 5",
+    "style": "stars"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "star out"
+    }
+   ]
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "mask these emails so they're partly visible: billing@shop.co, help@shop.co",
+   "input": {
+    "text": "billing@shop.co, help@shop.co",
+    "style": "partial"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "partly visible"
+    }
+   ]
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "blank out the personal info in the email I'm about to paste, use stars",
+   "input": {
+    "style": "stars"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "stars"
+    }
+   ]
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "Replace private details with placeholders: Email jo@mail.com or ring 555-0142",
+   "input": {
+    "text": "Email jo@mail.com or ring 555-0142",
+    "style": "label"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "placeholders"
+    }
+   ]
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "HR here. scrub this with labels like [EMAIL]: contact dana@corp.io re payroll",
+   "input": {
+    "text": "contact dana@corp.io re payroll",
+    "style": "label"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "labels"
+    }
+   ]
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "partial masking on this please: my line is 020 7946 0321",
+   "input": {
+    "text": "my line is 020 7946 0321",
+    "style": "partial"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "partial masking"
+    }
+   ]
+  },
+  {
+   "skill": "maskSensitive",
+   "message": "redact 'send it to kim@home.net tonight' using stars",
+   "input": {
+    "text": "send it to kim@home.net tonight",
+    "style": "stars"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "stars"
+    }
+   ]
+  },
+  {
+   "skill": "padText",
+   "message": "right-align 'Total' in 12 characters",
+   "input": {
+    "text": "Total",
+    "width": 12,
+    "align": "right"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "right-align"
+    }
+   ]
+  },
+  {
+   "skill": "padText",
+   "message": "pad 'MENU' to 20 characters, center aligned",
+   "input": {
+    "text": "MENU",
+    "width": 20,
+    "align": "centre"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "center"
+    }
+   ]
+  },
+  {
+   "skill": "padText",
+   "message": "pad 'id' to 10 chars, left aligned, filling with dots",
+   "input": {
+    "text": "id",
+    "width": 10,
+    "align": "left",
+    "fill": "."
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "left aligned"
+    }
+   ]
+  },
+  {
+   "skill": "padText",
+   "message": "centred heading: pad 'Chapter One' to 30 characters with dashes",
+   "input": {
+    "text": "Chapter One",
+    "width": 30,
+    "align": "centre",
+    "fill": "-"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "centred"
+    }
+   ]
+  },
+  {
+   "skill": "padText",
+   "message": "Left-justify 'Name' in a 15 character column.",
+   "input": {
+    "text": "Name",
+    "width": 15,
+    "align": "left"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "left-justify"
+    }
+   ]
+  },
+  {
+   "skill": "padText",
+   "message": "pad 'Score' to 16 characters with it in the middle",
+   "input": {
+    "text": "Score",
+    "width": 16,
+    "align": "centre"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "in the middle"
+    }
+   ]
+  },
+  {
+   "skill": "padText",
+   "message": "flush right, width 8, for '3.50' on my receipt printer",
+   "input": {
+    "text": "3.50",
+    "width": 8,
+    "align": "right"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "flush right"
+    }
+   ]
+  },
+  {
+   "skill": "padText",
+   "message": "pad 'OK' out to 6 characters, centered, using asterisks",
+   "input": {
+    "text": "OK",
+    "width": 6,
+    "align": "centre",
+    "fill": "*"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "centered"
+    }
+   ]
+  },
+  {
+   "skill": "padText",
+   "message": "center the line I'll paste to 40 characters",
+   "input": {
+    "width": 40,
+    "align": "centre"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "center"
+    }
+   ]
+  },
+  {
+   "skill": "padText",
+   "message": "pad the label 'Amount Due' to 20 characters, right justify it",
+   "input": {
+    "text": "Amount Due",
+    "width": 20,
+    "align": "right"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "align",
+     "rule": "enum",
+     "from": "right justify"
+    }
+   ]
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse the word order in 'measure twice cut once'",
+   "input": {
+    "text": "measure twice cut once",
+    "by": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "word order"
+    }
+   ]
+  },
+  {
+   "skill": "reverseText",
+   "message": "spell 'drawer' backwards letter by letter",
+   "input": {
+    "text": "drawer",
+    "by": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "letter by letter"
+    }
+   ]
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse the order of these lines so the last comes first:\nstep one\nstep two\nstep three",
+   "input": {
+    "text": "step one\nstep two\nstep three",
+    "by": "lines"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "lines"
+    }
+   ]
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse the words in the sentence below",
+   "input": {
+    "by": "words"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "words"
+    }
+   ]
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse the characters of 'stop pots'",
+   "input": {
+    "text": "stop pots",
+    "by": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "characters"
+    }
+   ]
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse the line order:\nalpha\nbeta\ngamma",
+   "input": {
+    "text": "alpha\nbeta\ngamma",
+    "by": "lines"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "line order"
+    }
+   ]
+  },
+  {
+   "skill": "reverseText",
+   "message": "Reverse 'live on time' word by word.",
+   "input": {
+    "text": "live on time",
+    "by": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "word by word"
+    }
+   ]
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse the lines of the log I'm pasting so the newest is on top",
+   "input": {
+    "by": "lines"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "lines"
+    }
+   ]
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse the letters of 'Hannah went home' like a mirror",
+   "input": {
+    "text": "Hannah went home",
+    "by": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "letters"
+    }
+   ]
+  },
+  {
+   "skill": "reverseText",
+   "message": "reverse 'one two three four' by words, keep each word intact",
+   "input": {
+    "text": "one two three four",
+    "by": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "by words"
+    }
+   ]
+  },
+  {
+   "skill": "slugify",
+   "message": "slug with underscores for 'Summer Sale 2026'",
+   "input": {
+    "text": "Summer Sale 2026",
+    "separator": "_"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "underscores"
+    }
+   ]
+  },
+  {
+   "skill": "slugify",
+   "message": "make a URL slug for 'Top 10 Hiking Trails' using hyphens",
+   "input": {
+    "text": "Top 10 Hiking Trails",
+    "separator": "-"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "hyphens"
+    }
+   ]
+  },
+  {
+   "skill": "slugify",
+   "message": "slugify 'Quarterly Report: Q3' with dashes",
+   "input": {
+    "text": "Quarterly Report: Q3",
+    "separator": "-"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "dashes"
+    }
+   ]
+  },
+  {
+   "skill": "slugify",
+   "message": "turn the article title below into a slug with underscores",
+   "input": {
+    "separator": "_"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "underscores"
+    }
+   ]
+  },
+  {
+   "skill": "slugify",
+   "message": "I need 'Grandma's Apple Pie' as a hyphenated url slug",
+   "input": {
+    "text": "Grandma's Apple Pie",
+    "separator": "-"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "hyphenated"
+    }
+   ]
+  },
+  {
+   "skill": "slugify",
+   "message": "url-safe slug, underscore between words: 'Meet The Team'",
+   "input": {
+    "text": "Meet The Team",
+    "separator": "_"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "underscore"
+    }
+   ]
+  },
+  {
+   "skill": "slugify",
+   "message": "slug for 'Ask Me Anything!' joined by hyphens, max 15 characters",
+   "input": {
+    "text": "Ask Me Anything!",
+    "separator": "-",
+    "maxLength": 15
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "hyphens"
+    }
+   ]
+  },
+  {
+   "skill": "slugify",
+   "message": "make a slug from my product name with dashes between the words",
+   "input": {
+    "separator": "-"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "dashes"
+    }
+   ]
+  },
+  {
+   "skill": "slugify",
+   "message": "python dev: slugify 'Data Cleaning Tips' with underscores rather than the default",
+   "input": {
+    "text": "Data Cleaning Tips",
+    "separator": "_"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "underscores"
+    }
+   ]
+  },
+  {
+   "skill": "slugify",
+   "message": "Create a hyphen separated slug out of 'Café Opening Hours'.",
+   "input": {
+    "text": "Café Opening Hours",
+    "separator": "-"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "separator",
+     "rule": "enum",
+     "from": "hyphen separated"
+    }
+   ]
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort these lines by length, shortest first:\nkiwi\nbanana\nfig",
+   "input": {
+    "text": "kiwi\nbanana\nfig",
+    "by": "length",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "by length"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "shortest first"
+    }
+   ]
+  },
+  {
+   "skill": "sortLines",
+   "message": "order the lines numerically:\n10 apples\n9 pears\n100 plums",
+   "input": {
+    "text": "10 apples\n9 pears\n100 plums",
+    "by": "numeric"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "numerically"
+    }
+   ]
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort the lines of my csv export below z to a",
+   "input": {
+    "direction": "descending"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "z to a"
+    }
+   ]
+  },
+  {
+   "skill": "sortLines",
+   "message": "Sort these lines in descending order:\nOslo\nBerlin\nMadrid",
+   "input": {
+    "text": "Oslo\nBerlin\nMadrid",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "descending"
+    }
+   ]
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort with the longest line first please:\nhi\nhello there\nhey",
+   "input": {
+    "text": "hi\nhello there\nhey",
+    "by": "length",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "longest line first"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "longest line first"
+    }
+   ]
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort the lines of the packing list I'm pasting in alphabetical order, ascending",
+   "input": {
+    "by": "alphabetical",
+    "direction": "ascending"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "alphabetical"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "ascending"
+    }
+   ]
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort these lines by number, biggest first:\n300 ml\n25 ml\n1000 ml",
+   "input": {
+    "text": "300 ml\n25 ml\n1000 ml",
+    "by": "numeric",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "by number"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "biggest first"
+    }
+   ]
+  },
+  {
+   "skill": "sortLines",
+   "message": "Put these log lines in reverse alphabetical order:\nwarn disk\nerror net\ninfo boot",
+   "input": {
+    "text": "warn disk\nerror net\ninfo boot",
+    "by": "alphabetical",
+    "direction": "descending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "alphabetical"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "reverse alphabetical"
+    }
+   ]
+  },
+  {
+   "skill": "sortLines",
+   "message": "sort lines numerically, ascending:\n42\n7\n19",
+   "input": {
+    "text": "42\n7\n19",
+    "by": "numeric",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "numerically"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "ascending"
+    }
+   ]
+  },
+  {
+   "skill": "sortLines",
+   "message": "order these lines from short to long:\nelephant\ncat\nhorse",
+   "input": {
+    "text": "elephant\ncat\nhorse",
+    "by": "length",
+    "direction": "ascending"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "by",
+     "rule": "enum",
+     "from": "short to long"
+    },
+    {
+     "field": "direction",
+     "rule": "enum",
+     "from": "short to long"
+    }
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "message": "cut 'The annual general meeting has been moved to Thursday' down to 6 words",
+   "input": {
+    "text": "The annual general meeting has been moved to Thursday",
+    "limit": 6,
+    "unit": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "words"
+    }
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate this to 30 characters: Please remember to bring your own lunch on Friday",
+   "input": {
+    "text": "Please remember to bring your own lunch on Friday",
+    "limit": 30,
+    "unit": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "characters"
+    }
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "message": "shorten my product description to 120 chars",
+   "input": {
+    "limit": 120,
+    "unit": "characters"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "chars"
+    }
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate to the first 4 words: 'Fresh sourdough bread baked every morning'",
+   "input": {
+    "text": "Fresh sourdough bread baked every morning",
+    "limit": 4,
+    "unit": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "4 words"
+    }
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate 'Limited time offer on all winter coats' at 20 letters",
+   "input": {
+    "text": "Limited time offer on all winter coats",
+    "limit": 20,
+    "unit": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "letters"
+    }
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate the tweet below to 50 characters",
+   "input": {
+    "limit": 50,
+    "unit": "characters"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "characters"
+    }
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "message": "Truncate 'Our support team will reply within two business days' to 25 characters max.",
+   "input": {
+    "text": "Our support team will reply within two business days",
+    "limit": 25,
+    "unit": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "characters"
+    }
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "message": "shorten to the first 3 words only, then an ellipsis: 'Breaking news from the city council'",
+   "input": {
+    "text": "Breaking news from the city council",
+    "limit": 3,
+    "unit": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "words"
+    }
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "message": "shorten 'Introduction to Machine Learning for Beginners' to 18 chars for a tab label",
+   "input": {
+    "text": "Introduction to Machine Learning for Beginners",
+    "limit": 18,
+    "unit": "characters"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "chars"
+    }
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "message": "truncate 'Thanks so much for coming to the party' after five words",
+   "input": {
+    "text": "Thanks so much for coming to the party",
+    "limit": 5,
+    "unit": "words"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "unit",
+     "rule": "enum",
+     "from": "five words"
+    }
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "message": "MLA citation please: Toni Morrison, Beloved, 1987, Knopf",
+   "input": {
+    "authors": [
+     "Toni Morrison"
+    ],
+    "title": "Beloved",
+    "year": 1987,
+    "publisher": "Knopf",
+    "style": "MLA"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "mla citation"
+    }
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "message": "cite in APA: authors Jane Smith and Kevin Lee, 'Sleep and memory', 2021, Journal of Cognition, volume 14, pages 22-31",
+   "input": {
+    "authors": [
+     "Jane Smith",
+     "Kevin Lee"
+    ],
+    "title": "Sleep and memory",
+    "year": 2021,
+    "container": "Journal of Cognition",
+    "volume": "14",
+    "pages": "22-31",
+    "style": "APA"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "apa"
+    }
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "message": "Chicago style please — George Orwell, Nineteen Eighty-Four, 1949, Secker & Warburg",
+   "input": {
+    "authors": [
+     "George Orwell"
+    ],
+    "title": "Nineteen Eighty-Four",
+    "year": 1949,
+    "publisher": "Secker & Warburg",
+    "style": "Chicago"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "chicago style"
+    }
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "message": "student here: format Mary Beard's SPQR (2015, Profile Books) as a reference in Modern Language Association style",
+   "input": {
+    "authors": [
+     "Mary Beard"
+    ],
+    "title": "SPQR",
+    "year": 2015,
+    "publisher": "Profile Books",
+    "style": "MLA"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "modern language association"
+    }
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "message": "citation in American Psychological Association style: Carol Dweck, Mindset, 2006",
+   "input": {
+    "authors": [
+     "Carol Dweck"
+    ],
+    "title": "Mindset",
+    "year": 2006,
+    "style": "APA"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "american psychological association"
+    }
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "message": "turn this into a chicago citation: Yuval Noah Harari, Sapiens, 2014",
+   "input": {
+    "authors": [
+     "Yuval Noah Harari"
+    ],
+    "title": "Sapiens",
+    "year": 2014,
+    "style": "Chicago"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "chicago"
+    }
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "message": "format the book details below as an MLA works-cited entry",
+   "input": {
+    "style": "MLA"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "mla"
+    }
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "message": "APA please: Atul Gawande, 'The Checklist Manifesto', Metropolitan Books, 2009",
+   "input": {
+    "authors": [
+     "Atul Gawande"
+    ],
+    "title": "The Checklist Manifesto",
+    "year": 2009,
+    "publisher": "Metropolitan Books",
+    "style": "APA"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "apa"
+    }
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "message": "format a Chicago citation for the web article 'How Bees Dance' by Ana Ruiz, 2023, https://example.org/bees",
+   "input": {
+    "authors": [
+     "Ana Ruiz"
+    ],
+    "title": "How Bees Dance",
+    "year": 2023,
+    "url": "https://example.org/bees",
+    "style": "Chicago"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "chicago"
+    }
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "message": "make an APA style reference from the paper info I'm pasting",
+   "input": {
+    "style": "APA"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "style",
+     "rule": "enum",
+     "from": "apa style"
+    }
+   ]
+  }
+ ]
+}

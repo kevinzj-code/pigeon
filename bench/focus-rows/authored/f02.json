@@ -1,0 +1,1056 @@
+{
+  "batch": "f02",
+  "domain": "public offices, councils and institutions",
+  "cases": [
+    {
+      "question": "who is the mayor of dunstow",
+      "passage": "The Mayor of Dunstow is the elected head of Dunstow Town Council. The office dates from the town's charter of 1734, and the first holder was the wool merchant Edmund Prowse. The current mayor is Harriet Kemble, who was elected in May 2023. The mayor chairs meetings of the full council and represents the town at civic events.",
+      "sentence": 3,
+      "quote": "The current mayor is Harriet Kemble",
+      "looking_for": "the name of the current mayor of Dunstow"
+    },
+    {
+      "question": "who is the current speaker of the ostmere assembly",
+      "passage": "The Speaker of the Ostmere Assembly is the presiding officer of the provincial legislature of Ostmere. The Speaker is elected by the members at the first sitting after each general election. The office was first held by Arnold Cray from 1911 to 1920. The longest-serving Speaker was Mabel Fairlie, who presided for twenty-two years until her retirement in 1987.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the present Speaker"
+    },
+    {
+      "question": "what is the varrick port authority",
+      "passage": "The Varrick Port Authority is a public body that owns and manages the harbour and docks of the city of Varrick. It was established by an act of the provincial legislature in 1952, taking over from three private dock companies. Its board has nine members, five of whom are appointed by the city council. The authority's chief executive since 2019 has been Tomasz Brenner.",
+      "sentence": 1,
+      "quote": "a public body that owns and manages the harbour and docks",
+      "looking_for": "what kind of body the port authority is"
+    },
+    {
+      "question": "when was the varrick port authority set up",
+      "passage": "The Varrick Port Authority is a public body that owns and manages the harbour and docks of the city of Varrick. It was established by an act of the provincial legislature in 1952, taking over from three private dock companies. Its board has nine members, five of whom are appointed by the city council. The authority's chief executive since 2019 has been Tomasz Brenner.",
+      "sentence": 2,
+      "quote": "established by an act of the provincial legislature in 1952",
+      "looking_for": "the year the port authority was established"
+    },
+    {
+      "question": "who runs the varrick port authority",
+      "passage": "The Varrick Port Authority is a public body that owns and manages the harbour and docks of the city of Varrick. It was established by an act of the provincial legislature in 1952, taking over from three private dock companies. Its board has nine members, five of whom are appointed by the city council. The authority's chief executive since 2019 has been Tomasz Brenner.",
+      "sentence": 4,
+      "quote": "chief executive since 2019 has been Tomasz Brenner",
+      "looking_for": "the name of the person in charge of the authority"
+    },
+    {
+      "question": "how many members are on kellow county council",
+      "passage": "Kellow County Council is the local authority for the county of Kellow. It has 61 councillors, elected every four years from 54 divisions. The council meets at County Hall in the town of Brayford, which it has occupied since 1938. Its annual budget is about 640 million crowns.",
+      "sentence": 2,
+      "quote": "It has 61 councillors",
+      "looking_for": "the number of councillors on the council"
+    },
+    {
+      "question": "where does kellow county council meet",
+      "passage": "Kellow County Council is the local authority for the county of Kellow. It has 61 councillors, elected every four years from 54 divisions. The council meets at County Hall in the town of Brayford, which it has occupied since 1938. Its annual budget is about 640 million crowns.",
+      "sentence": 3,
+      "quote": "meets at County Hall in the town of Brayford",
+      "looking_for": "the place where the council meets"
+    },
+    {
+      "question": "who is the leader of lenford borough council",
+      "passage": "Lenford Borough Council is the local authority for the borough of Lenford. The council was created in 1974 when the old town council merged with two rural districts. Its first leader was Walter Ames, a former railway signalman, who held the post until 1981. The council's offices are in the Civic Centre on Mill Road.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current council leader"
+    },
+    {
+      "question": "who is the carrowmere ombudsman",
+      "passage": "Ingrid Saltash is the Ombudsman of Carrowmere, an office she has held since 2020. The ombudsman investigates complaints from the public about provincial government departments. The office was created in 1977, and its first holder was the retired judge Lionel Haddow. It handles about 4,000 complaints a year.",
+      "sentence": 1,
+      "quote": "Ingrid Saltash is the Ombudsman of Carrowmere",
+      "looking_for": "the name of the current ombudsman"
+    },
+    {
+      "question": "when was the carrowmere ombudsman created",
+      "passage": "Ingrid Saltash is the Ombudsman of Carrowmere, an office she has held since 2020. The ombudsman investigates complaints from the public about provincial government departments. The office was created in 1977, and its first holder was the retired judge Lionel Haddow. It handles about 4,000 complaints a year.",
+      "sentence": 3,
+      "quote": "The office was created in 1977",
+      "looking_for": "the year the office was created"
+    },
+    {
+      "question": "how many complaints does the carrowmere ombudsman get",
+      "passage": "Ingrid Saltash is the Ombudsman of Carrowmere, an office she has held since 2020. The ombudsman investigates complaints from the public about provincial government departments. The office was created in 1977, and its first holder was the retired judge Lionel Haddow. It handles about 4,000 complaints a year.",
+      "sentence": 4,
+      "quote": "about 4,000 complaints a year",
+      "looking_for": "the number of complaints handled each year"
+    },
+    {
+      "question": "who appoints the chief justice of pellan",
+      "passage": "The Chief Justice of Pellan is the head of the judiciary of the Republic of Pellan and presides over its Supreme Court. The Chief Justice is appointed by the President on the advice of the Judicial Council. The present Chief Justice is Amara Osei-Wynn, who took the oath in 2021. The office has existed since the republic's constitution of 1948.",
+      "sentence": 2,
+      "quote": "appointed by the President on the advice of the Judicial Council",
+      "looking_for": "who makes the appointment of the Chief Justice"
+    },
+    {
+      "question": "who is the chief justice of pellan",
+      "passage": "The Chief Justice of Pellan is the head of the judiciary of the Republic of Pellan and presides over its Supreme Court. The Chief Justice is appointed by the President on the advice of the Judicial Council. The present Chief Justice is Amara Osei-Wynn, who took the oath in 2021. The office has existed since the republic's constitution of 1948.",
+      "sentence": 3,
+      "quote": "The present Chief Justice is Amara Osei-Wynn",
+      "looking_for": "the name of the current Chief Justice"
+    },
+    {
+      "question": "how long is the governor of brannock term",
+      "passage": "The Governor of Brannock is the head of the executive branch of the state of Brannock. The governor is elected by popular vote in a statewide election. Members of the state legislature serve two-year terms and may stand for re-election without limit. The current governor is Celia Marchbanks, a former state treasurer.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the length of the governor's term of office"
+    },
+    {
+      "question": "what is the halverstone audit office",
+      "passage": "The Halverstone Audit Office is the independent body that checks the accounts of every government department in Halverstone. It reports its findings to the Public Accounts Committee of the national parliament. The office employs about 800 staff and is headed by the Auditor General, currently Rupert Okafor. Its headquarters are in the Vellum Building in the capital, Sarne.",
+      "sentence": 1,
+      "quote": "the independent body that checks the accounts of every government department",
+      "looking_for": "what the audit office is"
+    },
+    {
+      "question": "who is the auditor general of halverstone",
+      "passage": "The Halverstone Audit Office is the independent body that checks the accounts of every government department in Halverstone. It reports its findings to the Public Accounts Committee of the national parliament. The office employs about 800 staff and is headed by the Auditor General, currently Rupert Okafor. Its headquarters are in the Vellum Building in the capital, Sarne.",
+      "sentence": 3,
+      "quote": "headed by the Auditor General, currently Rupert Okafor",
+      "looking_for": "the name of the current Auditor General"
+    },
+    {
+      "question": "where is the halverstone audit office",
+      "passage": "The Halverstone Audit Office is the independent body that checks the accounts of every government department in Halverstone. It reports its findings to the Public Accounts Committee of the national parliament. The office employs about 800 staff and is headed by the Auditor General, currently Rupert Okafor. Its headquarters are in the Vellum Building in the capital, Sarne.",
+      "sentence": 4,
+      "quote": "Its headquarters are in the Vellum Building",
+      "looking_for": "the location of the office's headquarters"
+    },
+    {
+      "question": "when was the mardale electoral commission formed",
+      "passage": "The Mardale Electoral Commission is an independent body that runs national elections and referendums in Mardale. It was formed in 1996, replacing the elections branch of the interior ministry. The commission has five commissioners, who serve single terms of seven years. Its chair is Nadia Ferrante, appointed in 2022.",
+      "sentence": 2,
+      "quote": "It was formed in 1996",
+      "looking_for": "the year the commission was formed"
+    },
+    {
+      "question": "how long do mardale electoral commissioners serve",
+      "passage": "The Mardale Electoral Commission is an independent body that runs national elections and referendums in Mardale. It was formed in 1996, replacing the elections branch of the interior ministry. The commission has five commissioners, who serve single terms of seven years. Its chair is Nadia Ferrante, appointed in 2022.",
+      "sentence": 3,
+      "quote": "serve single terms of seven years",
+      "looking_for": "the length of a commissioner's term"
+    },
+    {
+      "question": "who chairs the mardale electoral commission",
+      "passage": "The Mardale Electoral Commission is an independent body that runs national elections and referendums in Mardale. It was formed in 1996, replacing the elections branch of the interior ministry. The commission has five commissioners, who serve single terms of seven years. Its chair is Nadia Ferrante, appointed in 2022.",
+      "sentence": 4,
+      "quote": "Its chair is Nadia Ferrante",
+      "looking_for": "the name of the commission's chair"
+    },
+    {
+      "question": "who chairs the senby water board",
+      "passage": "The Senby Water Board is a public utility that supplies drinking water to the city of Senby and its suburbs. It was established in 1889 by the merchant and reformer Josiah Penhallick, who served as its first chairman. The board operates four reservoirs and a treatment works at Garth Hill. It serves around 310,000 customers.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current chair of the board"
+    },
+    {
+      "question": "how many customers does the senby water board serve",
+      "passage": "The Senby Water Board is a public utility that supplies drinking water to the city of Senby and its suburbs. It was established in 1889 by the merchant and reformer Josiah Penhallick, who served as its first chairman. The board operates four reservoirs and a treatment works at Garth Hill. It serves around 310,000 customers.",
+      "sentence": 4,
+      "quote": "around 310,000 customers",
+      "looking_for": "the number of customers the board serves"
+    },
+    {
+      "question": "who is the poet laureate of callisand",
+      "passage": "The Poet Laureate of Callisand is an honorary post awarded to a poet by the national arts council. The current laureate is Desmond Ilori, who was named in 2024 for a term of three years. His predecessor, Greta Vanstone, held the post from 2018 to 2024. The laureate is expected to write verse for occasions of national importance.",
+      "sentence": 2,
+      "quote": "The current laureate is Desmond Ilori",
+      "looking_for": "the name of the current Poet Laureate"
+    },
+    {
+      "question": "who was poet laureate of callisand before desmond ilori",
+      "passage": "The Poet Laureate of Callisand is an honorary post awarded to a poet by the national arts council. The current laureate is Desmond Ilori, who was named in 2024 for a term of three years. His predecessor, Greta Vanstone, held the post from 2018 to 2024. The laureate is expected to write verse for occasions of national importance.",
+      "sentence": 3,
+      "quote": "His predecessor, Greta Vanstone",
+      "looking_for": "the name of the previous laureate"
+    },
+    {
+      "question": "what is the poet laureate of callisand",
+      "passage": "The Poet Laureate of Callisand is an honorary post awarded to a poet by the national arts council. The current laureate is Desmond Ilori, who was named in 2024 for a term of three years. His predecessor, Greta Vanstone, held the post from 2018 to 2024. The laureate is expected to write verse for occasions of national importance.",
+      "sentence": 1,
+      "quote": "an honorary post awarded to a poet by the national arts council",
+      "looking_for": "what the post of Poet Laureate is"
+    },
+    {
+      "question": "who is the finance minister of drevania",
+      "passage": "The Ministry of Finance of Drevania is the government department responsible for public finances, taxation and the national budget. It was established in 1921, three years after the country's independence. The ministry's permanent secretary, the senior civil servant, is Helene Dorsch. Its offices occupy the former customs house on Quay Street in Ostra.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the minister in charge of finance"
+    },
+    {
+      "question": "where is the ministry of finance of drevania based",
+      "passage": "The Ministry of Finance of Drevania is the government department responsible for public finances, taxation and the national budget. It was established in 1921, three years after the country's independence. The ministry's permanent secretary, the senior civil servant, is Helene Dorsch. Its offices occupy the former customs house on Quay Street in Ostra.",
+      "sentence": 4,
+      "quote": "Its offices occupy the former customs house on Quay Street",
+      "looking_for": "the location of the ministry's offices"
+    },
+    {
+      "question": "when was lowmarsh fire and rescue service founded",
+      "passage": "Lowmarsh Fire and Rescue Service is the fire service for the county of Lowmarsh. It operates 23 fire stations and employs about 900 firefighters, a third of them on call. The service was founded in 1948 under the national Fire Services Act, taking over from the old borough brigades. Its chief fire officer is Graham Usher.",
+      "sentence": 3,
+      "quote": "The service was founded in 1948",
+      "looking_for": "the year the fire service was founded"
+    },
+    {
+      "question": "how many fire stations does lowmarsh have",
+      "passage": "Lowmarsh Fire and Rescue Service is the fire service for the county of Lowmarsh. It operates 23 fire stations and employs about 900 firefighters, a third of them on call. The service was founded in 1948 under the national Fire Services Act, taking over from the old borough brigades. Its chief fire officer is Graham Usher.",
+      "sentence": 2,
+      "quote": "It operates 23 fire stations",
+      "looking_for": "the number of fire stations"
+    },
+    {
+      "question": "who is the chief fire officer of lowmarsh",
+      "passage": "Lowmarsh Fire and Rescue Service is the fire service for the county of Lowmarsh. It operates 23 fire stations and employs about 900 firefighters, a third of them on call. The service was founded in 1948 under the national Fire Services Act, taking over from the old borough brigades. Its chief fire officer is Graham Usher.",
+      "sentence": 4,
+      "quote": "Its chief fire officer is Graham Usher",
+      "looking_for": "the name of the chief fire officer"
+    },
+    {
+      "question": "who is the sheriff of corran county",
+      "passage": "Lucinda Hale is the Sheriff of Corran County, the chief law enforcement officer of the county. She was first elected in 2016 and re-elected in 2020 and 2024. Before her, the office was held for twenty years by Raymond Tolliver. The sheriff's office employs 140 deputies and runs the county jail in Ashgrove.",
+      "sentence": 1,
+      "quote": "Lucinda Hale is the Sheriff of Corran County",
+      "looking_for": "the name of the current sheriff"
+    },
+    {
+      "question": "how many deputies does the corran county sheriff have",
+      "passage": "Lucinda Hale is the Sheriff of Corran County, the chief law enforcement officer of the county. She was first elected in 2016 and re-elected in 2020 and 2024. Before her, the office was held for twenty years by Raymond Tolliver. The sheriff's office employs 140 deputies and runs the county jail in Ashgrove.",
+      "sentence": 4,
+      "quote": "employs 140 deputies",
+      "looking_for": "the number of deputies employed"
+    },
+    {
+      "question": "how many deputies does the fenwold sheriff employ",
+      "passage": "The Sheriff of Fenwold is the elected head of law enforcement in Fenwold County. The office was established in 1851, when the county was organised. The current sheriff, Victor Amesbury, took office in January 2021. The county jail he oversees holds up to 320 inmates.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of deputies employed by the sheriff"
+    },
+    {
+      "question": "when was brightmoor public library founded",
+      "passage": "Brightmoor Public Library is the main public library service of the city of Brightmoor. It was founded in 1867 with a bequest from the shipowner Cornelius Fane. The library now has eleven branches and a central building on Market Square that opened in 1904. Its collection holds about 1.2 million items.",
+      "sentence": 2,
+      "quote": "It was founded in 1867",
+      "looking_for": "the year the library was founded"
+    },
+    {
+      "question": "how many branches does brightmoor public library have",
+      "passage": "Brightmoor Public Library is the main public library service of the city of Brightmoor. It was founded in 1867 with a bequest from the shipowner Cornelius Fane. The library now has eleven branches and a central building on Market Square that opened in 1904. Its collection holds about 1.2 million items.",
+      "sentence": 3,
+      "quote": "now has eleven branches",
+      "looking_for": "the number of library branches"
+    },
+    {
+      "question": "who is the head librarian of brightmoor public library",
+      "passage": "Brightmoor Public Library is the main public library service of the city of Brightmoor. It was founded in 1867 with a bequest from the shipowner Cornelius Fane. The library now has eleven branches and a central building on Market Square that opened in 1904. Its collection holds about 1.2 million items.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current head librarian"
+    },
+    {
+      "question": "who founded the ellingsby state archives",
+      "passage": "The Ellingsby State Archives is the official archive of the government of Ellingsby. It was founded in 1902 by the historian Margarethe Lund, who became its first director. The archives hold more than 90 kilometres of records, the oldest dating from 1420. The present director is Samuel Achterberg.",
+      "sentence": 2,
+      "quote": "founded in 1902 by the historian Margarethe Lund",
+      "looking_for": "the name of the person who founded the archives"
+    },
+    {
+      "question": "who is the director of the ellingsby state archives",
+      "passage": "The Ellingsby State Archives is the official archive of the government of Ellingsby. It was founded in 1902 by the historian Margarethe Lund, who became its first director. The archives hold more than 90 kilometres of records, the oldest dating from 1420. The present director is Samuel Achterberg.",
+      "sentence": 4,
+      "quote": "The present director is Samuel Achterberg",
+      "looking_for": "the name of the current director"
+    },
+    {
+      "question": "how old is the oldest record in the ellingsby state archives",
+      "passage": "The Ellingsby State Archives is the official archive of the government of Ellingsby. It was founded in 1902 by the historian Margarethe Lund, who became its first director. The archives hold more than 90 kilometres of records, the oldest dating from 1420. The present director is Samuel Achterberg.",
+      "sentence": 3,
+      "quote": "the oldest dating from 1420",
+      "looking_for": "the date of the oldest record held"
+    },
+    {
+      "question": "who is the registrar general of tamberlin",
+      "passage": "The Registrar General of Tamberlin is the official responsible for recording births, marriages and deaths in Tamberlin. The post was created by the Registration Act of 1866. The Registrar General is supported by a deputy, currently Ophelia Grant, and by registrars in each district. The office is based in the General Register House in Calder Square.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current Registrar General"
+    },
+    {
+      "question": "when was the registrar general of tamberlin post created",
+      "passage": "The Registrar General of Tamberlin is the official responsible for recording births, marriages and deaths in Tamberlin. The post was created by the Registration Act of 1866. The Registrar General is supported by a deputy, currently Ophelia Grant, and by registrars in each district. The office is based in the General Register House in Calder Square.",
+      "sentence": 2,
+      "quote": "created by the Registration Act of 1866",
+      "looking_for": "the year the post was created"
+    },
+    {
+      "question": "what is the harnell commission",
+      "passage": "The Harnell Commission is a public inquiry set up to examine flood defences along the River Harn after the floods of 2019. It is chaired by the retired engineer Bridget Coll and has four other members. The commission published an interim report in 2021 and its final report in March 2023. The government accepted 31 of its 40 recommendations.",
+      "sentence": 1,
+      "quote": "a public inquiry set up to examine flood defences",
+      "looking_for": "what the Harnell Commission is"
+    },
+    {
+      "question": "how many recommendations did the harnell commission make",
+      "passage": "The Harnell Commission is a public inquiry set up to examine flood defences along the River Harn after the floods of 2019. It is chaired by the retired engineer Bridget Coll and has four other members. The commission published an interim report in 2021 and its final report in March 2023. The government accepted 31 of its 40 recommendations.",
+      "sentence": 4,
+      "quote": "accepted 31 of its 40 recommendations",
+      "looking_for": "the number of recommendations made"
+    },
+    {
+      "question": "when was the harnell commission final report published",
+      "passage": "The Harnell Commission is a public inquiry set up to examine flood defences along the River Harn after the floods of 2019. It is chaired by the retired engineer Bridget Coll and has four other members. The commission published an interim report in 2021 and its final report in March 2023. The government accepted 31 of its 40 recommendations.",
+      "sentence": 3,
+      "quote": "its final report in March 2023",
+      "looking_for": "the date of the final report"
+    },
+    {
+      "question": "when was the corvell housing agency abolished",
+      "passage": "The Corvell Housing Agency is a government agency that builds and manages social housing in the province of Corvell. It was created in 1964 by merging the housing departments of six borough councils. In 2011 the agency was reorganised and its development arm was transferred to a separate company. It manages about 48,000 homes.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the agency was abolished"
+    },
+    {
+      "question": "how many homes does the corvell housing agency manage",
+      "passage": "The Corvell Housing Agency is a government agency that builds and manages social housing in the province of Corvell. It was created in 1964 by merging the housing departments of six borough councils. In 2011 the agency was reorganised and its development arm was transferred to a separate company. It manages about 48,000 homes.",
+      "sentence": 4,
+      "quote": "manages about 48,000 homes",
+      "looking_for": "the number of homes the agency manages"
+    },
+    {
+      "question": "who is the president of the senate of marovia",
+      "passage": "The Senate of Marovia is the upper house of the Marovian parliament. Its presiding officer is the President of the Senate, currently Elias Vantongeren, elected by the senators in 2022. The Senate has 75 members, chosen by the regional assemblies for six-year terms. It sits in the Palace of Saint Ottilie in the capital, Merre.",
+      "sentence": 2,
+      "quote": "currently Elias Vantongeren",
+      "looking_for": "the name of the current President of the Senate"
+    },
+    {
+      "question": "how many senators does marovia have",
+      "passage": "The Senate of Marovia is the upper house of the Marovian parliament. Its presiding officer is the President of the Senate, currently Elias Vantongeren, elected by the senators in 2022. The Senate has 75 members, chosen by the regional assemblies for six-year terms. It sits in the Palace of Saint Ottilie in the capital, Merre.",
+      "sentence": 3,
+      "quote": "The Senate has 75 members",
+      "looking_for": "the number of members of the Senate"
+    },
+    {
+      "question": "where does the marovian senate sit",
+      "passage": "The Senate of Marovia is the upper house of the Marovian parliament. Its presiding officer is the President of the Senate, currently Elias Vantongeren, elected by the senators in 2022. The Senate has 75 members, chosen by the regional assemblies for six-year terms. It sits in the Palace of Saint Ottilie in the capital, Merre.",
+      "sentence": 4,
+      "quote": "sits in the Palace of Saint Ottilie",
+      "looking_for": "the building where the Senate meets"
+    },
+    {
+      "question": "how long is the term of the mayor of quillon",
+      "passage": "The Mayor of Quillon is the directly elected head of the city government of Quillon. Mayors serve a term of five years and may be re-elected once. The office was created in 1999, when the city adopted a directly elected executive. The current mayor is Rosalind Okwuosa-Grey, first elected in 2019.",
+      "sentence": 2,
+      "quote": "Mayors serve a term of five years",
+      "looking_for": "the length of a mayor's term"
+    },
+    {
+      "question": "when did quillon get a directly elected mayor",
+      "passage": "The Mayor of Quillon is the directly elected head of the city government of Quillon. Mayors serve a term of five years and may be re-elected once. The office was created in 1999, when the city adopted a directly elected executive. The current mayor is Rosalind Okwuosa-Grey, first elected in 2019.",
+      "sentence": 3,
+      "quote": "The office was created in 1999",
+      "looking_for": "the year the elected mayoralty began"
+    },
+    {
+      "question": "who is the mayor of quillon",
+      "passage": "The Mayor of Quillon is the directly elected head of the city government of Quillon. Mayors serve a term of five years and may be re-elected once. The office was created in 1999, when the city adopted a directly elected executive. The current mayor is Rosalind Okwuosa-Grey, first elected in 2019.",
+      "sentence": 4,
+      "quote": "The current mayor is Rosalind Okwuosa-Grey",
+      "looking_for": "the name of the current mayor"
+    },
+    {
+      "question": "who is the deputy mayor of hessenby",
+      "passage": "The Mayor of Hessenby is the ceremonial head of Hessenby City Council. The mayor is chosen each May by the councillors from among their own number. The mayor for 2025 to 2026 is Councillor Anwen Gilchrist. The mayor is assisted at civic functions by a consort chosen from among the mayor's family or friends.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the deputy mayor"
+    },
+    {
+      "question": "who is the mayor of hessenby",
+      "passage": "The Mayor of Hessenby is the ceremonial head of Hessenby City Council. The mayor is chosen each May by the councillors from among their own number. The mayor for 2025 to 2026 is Councillor Anwen Gilchrist. The mayor is assisted at civic functions by a consort chosen from among the mayor's family or friends.",
+      "sentence": 3,
+      "quote": "The mayor for 2025 to 2026 is Councillor Anwen Gilchrist",
+      "looking_for": "the name of the current mayor"
+    },
+    {
+      "question": "how is the mayor of hessenby chosen",
+      "passage": "The Mayor of Hessenby is the ceremonial head of Hessenby City Council. The mayor is chosen each May by the councillors from among their own number. The mayor for 2025 to 2026 is Councillor Anwen Gilchrist. The mayor is assisted at civic functions by a consort chosen from among the mayor's family or friends.",
+      "sentence": 2,
+      "quote": "chosen each May by the councillors from among their own number",
+      "looking_for": "the way the mayor is chosen"
+    },
+    {
+      "question": "where is the torvale central bank",
+      "passage": "The Torvale Central Bank is the central bank of Torvale, headquartered in the port city of Kessen. It was established in 1934 to take over the issue of banknotes from the commercial banks. The bank sets interest rates through its Monetary Committee of seven members. Its governor, Aurelio Danforth, has held office since 2020.",
+      "sentence": 1,
+      "quote": "headquartered in the port city of Kessen",
+      "looking_for": "the city where the central bank is based"
+    },
+    {
+      "question": "who is the governor of the torvale central bank",
+      "passage": "The Torvale Central Bank is the central bank of Torvale, headquartered in the port city of Kessen. It was established in 1934 to take over the issue of banknotes from the commercial banks. The bank sets interest rates through its Monetary Committee of seven members. Its governor, Aurelio Danforth, has held office since 2020.",
+      "sentence": 4,
+      "quote": "Its governor, Aurelio Danforth",
+      "looking_for": "the name of the central bank governor"
+    },
+    {
+      "question": "how many people are on the torvale monetary committee",
+      "passage": "The Torvale Central Bank is the central bank of Torvale, headquartered in the port city of Kessen. It was established in 1934 to take over the issue of banknotes from the commercial banks. The bank sets interest rates through its Monetary Committee of seven members. Its governor, Aurelio Danforth, has held office since 2020.",
+      "sentence": 3,
+      "quote": "Monetary Committee of seven members",
+      "looking_for": "the number of committee members"
+    },
+    {
+      "question": "what is the torvale central bank interest rate",
+      "passage": "The Torvale Central Bank is the central bank of Torvale, headquartered in the port city of Kessen. It was established in 1934 to take over the issue of banknotes from the commercial banks. The bank sets interest rates through its Monetary Committee of seven members. Its governor, Aurelio Danforth, has held office since 2020.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the current interest rate figure"
+    },
+    {
+      "question": "who is the coroner for west allensby",
+      "passage": "The Coroner for West Allensby is the judicial officer who investigates sudden and unexplained deaths in the western half of the county of Allensby. The current coroner is Priya Halloran, appointed in 2018. She sits at the coroner's court in the town of Fallbridge, which hears about 600 inquests a year. The post was created in 1974, when the county's three coronerships were reduced to two.",
+      "sentence": 2,
+      "quote": "The current coroner is Priya Halloran",
+      "looking_for": "the name of the current coroner"
+    },
+    {
+      "question": "how many inquests does the west allensby coroner hold",
+      "passage": "The Coroner for West Allensby is the judicial officer who investigates sudden and unexplained deaths in the western half of the county of Allensby. The current coroner is Priya Halloran, appointed in 2018. She sits at the coroner's court in the town of Fallbridge, which hears about 600 inquests a year. The post was created in 1974, when the county's three coronerships were reduced to two.",
+      "sentence": 3,
+      "quote": "hears about 600 inquests a year",
+      "looking_for": "the number of inquests held each year"
+    },
+    {
+      "question": "when was the coroner for west allensby post created",
+      "passage": "The Coroner for West Allensby is the judicial officer who investigates sudden and unexplained deaths in the western half of the county of Allensby. The current coroner is Priya Halloran, appointed in 2018. She sits at the coroner's court in the town of Fallbridge, which hears about 600 inquests a year. The post was created in 1974, when the county's three coronerships were reduced to two.",
+      "sentence": 4,
+      "quote": "The post was created in 1974",
+      "looking_for": "the year the post was created"
+    },
+    {
+      "question": "who is the chief constable of the mereshire constabulary",
+      "passage": "The Mereshire Constabulary is the territorial police force for the county of Mereshire. It was formed in 1969 from the merger of the county and city forces. The force is overseen by an elected Police Commissioner, currently Barnaby Lisle. It has around 1,700 officers and 1,100 staff.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current chief constable"
+    },
+    {
+      "question": "how many officers does mereshire constabulary have",
+      "passage": "The Mereshire Constabulary is the territorial police force for the county of Mereshire. It was formed in 1969 from the merger of the county and city forces. The force is overseen by an elected Police Commissioner, currently Barnaby Lisle. It has around 1,700 officers and 1,100 staff.",
+      "sentence": 4,
+      "quote": "around 1,700 officers",
+      "looking_for": "the number of police officers"
+    },
+    {
+      "question": "when was mereshire constabulary formed",
+      "passage": "The Mereshire Constabulary is the territorial police force for the county of Mereshire. It was formed in 1969 from the merger of the county and city forces. The force is overseen by an elected Police Commissioner, currently Barnaby Lisle. It has around 1,700 officers and 1,100 staff.",
+      "sentence": 2,
+      "quote": "formed in 1969 from the merger",
+      "looking_for": "the year the force was formed"
+    },
+    {
+      "question": "what is the lord warden of the saltings",
+      "passage": "The Lord Warden of the Saltings is a ceremonial office in the county of Calverey, originally charged with defending the coastal marshes. The office dates from the fourteenth century, though its military duties lapsed in 1702. Holders are appointed for life by the Crown. The present Lord Warden is the former naval officer Hugo Penrose, appointed in 2015.",
+      "sentence": 1,
+      "quote": "a ceremonial office in the county of Calverey",
+      "looking_for": "what the office of Lord Warden is"
+    },
+    {
+      "question": "who is the lord warden of the saltings",
+      "passage": "The Lord Warden of the Saltings is a ceremonial office in the county of Calverey, originally charged with defending the coastal marshes. The office dates from the fourteenth century, though its military duties lapsed in 1702. Holders are appointed for life by the Crown. The present Lord Warden is the former naval officer Hugo Penrose, appointed in 2015.",
+      "sentence": 4,
+      "quote": "The present Lord Warden is the former naval officer Hugo Penrose",
+      "looking_for": "the name of the present Lord Warden"
+    },
+    {
+      "question": "how long does the lord warden of the saltings serve",
+      "passage": "The Lord Warden of the Saltings is a ceremonial office in the county of Calverey, originally charged with defending the coastal marshes. The office dates from the fourteenth century, though its military duties lapsed in 1702. Holders are appointed for life by the Crown. The present Lord Warden is the former naval officer Hugo Penrose, appointed in 2015.",
+      "sentence": 3,
+      "quote": "appointed for life by the Crown",
+      "looking_for": "the length of the Lord Warden's tenure"
+    },
+    {
+      "question": "when was the ashcott statistics office founded",
+      "passage": "The Ashcott Statistics Office, founded in 1911, is the national statistical agency of Ashcott. It conducts the national census every ten years, most recently in 2021. The office employs about 2,300 people at sites in Varne and Tolley. Its head, the National Statistician, is Fiona Mbeki-Walsh.",
+      "sentence": 1,
+      "quote": "founded in 1911",
+      "looking_for": "the year the statistics office was founded"
+    },
+    {
+      "question": "when was the last census in ashcott",
+      "passage": "The Ashcott Statistics Office, founded in 1911, is the national statistical agency of Ashcott. It conducts the national census every ten years, most recently in 2021. The office employs about 2,300 people at sites in Varne and Tolley. Its head, the National Statistician, is Fiona Mbeki-Walsh.",
+      "sentence": 2,
+      "quote": "most recently in 2021",
+      "looking_for": "the year of the most recent census"
+    },
+    {
+      "question": "who is the national statistician of ashcott",
+      "passage": "The Ashcott Statistics Office, founded in 1911, is the national statistical agency of Ashcott. It conducts the national census every ten years, most recently in 2021. The office employs about 2,300 people at sites in Varne and Tolley. Its head, the National Statistician, is Fiona Mbeki-Walsh.",
+      "sentence": 4,
+      "quote": "is Fiona Mbeki-Walsh",
+      "looking_for": "the name of the National Statistician"
+    },
+    {
+      "question": "what is the population of ashcott",
+      "passage": "The Ashcott Statistics Office, founded in 1911, is the national statistical agency of Ashcott. It conducts the national census every ten years, most recently in 2021. The office employs about 2,300 people at sites in Varne and Tolley. Its head, the National Statistician, is Fiona Mbeki-Walsh.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the population of Ashcott"
+    },
+    {
+      "question": "how many judges are on the kelvarra court of appeal",
+      "passage": "The Court of Appeal of Kelvarra is the second-highest court in the Kelvarra judicial system. It has fourteen judges, led by the President of the Court of Appeal, currently Bernard Oyelaran. The court hears appeals from the provincial high courts in both civil and criminal cases. It sits in the Hall of Justice in the capital, Dorrow, which was completed in 1897.",
+      "sentence": 2,
+      "quote": "It has fourteen judges",
+      "looking_for": "the number of judges on the court"
+    },
+    {
+      "question": "who is the president of the kelvarra court of appeal",
+      "passage": "The Court of Appeal of Kelvarra is the second-highest court in the Kelvarra judicial system. It has fourteen judges, led by the President of the Court of Appeal, currently Bernard Oyelaran. The court hears appeals from the provincial high courts in both civil and criminal cases. It sits in the Hall of Justice in the capital, Dorrow, which was completed in 1897.",
+      "sentence": 2,
+      "quote": "currently Bernard Oyelaran",
+      "looking_for": "the name of the court's president"
+    },
+    {
+      "question": "when was the kelvarra court of appeal established",
+      "passage": "The Court of Appeal of Kelvarra is the second-highest court in the Kelvarra judicial system. It has fourteen judges, led by the President of the Court of Appeal, currently Bernard Oyelaran. The court hears appeals from the provincial high courts in both civil and criminal cases. It sits in the Hall of Justice in the capital, Dorrow, which was completed in 1897.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the court was established"
+    },
+    {
+      "question": "who founded the pennymoor almshouse trust",
+      "passage": "The Pennymoor Almshouse Trust is a charity that provides homes for older people of limited means in the town of Pennymoor. It manages 42 almshouse flats in three courtyards near the parish church. The trust was founded in 1612 by the will of Agnes Treloar, a cloth merchant's widow. Its present chair of trustees is the retired doctor Kenneth Moss.",
+      "sentence": 3,
+      "quote": "founded in 1612 by the will of Agnes Treloar",
+      "looking_for": "the name of the trust's founder"
+    },
+    {
+      "question": "who is the chair of the pennymoor almshouse trust",
+      "passage": "The Pennymoor Almshouse Trust is a charity that provides homes for older people of limited means in the town of Pennymoor. It manages 42 almshouse flats in three courtyards near the parish church. The trust was founded in 1612 by the will of Agnes Treloar, a cloth merchant's widow. Its present chair of trustees is the retired doctor Kenneth Moss.",
+      "sentence": 4,
+      "quote": "Its present chair of trustees is the retired doctor Kenneth Moss",
+      "looking_for": "the name of the chair of trustees"
+    },
+    {
+      "question": "how many flats does the pennymoor almshouse trust have",
+      "passage": "The Pennymoor Almshouse Trust is a charity that provides homes for older people of limited means in the town of Pennymoor. It manages 42 almshouse flats in three courtyards near the parish church. The trust was founded in 1612 by the will of Agnes Treloar, a cloth merchant's widow. Its present chair of trustees is the retired doctor Kenneth Moss.",
+      "sentence": 2,
+      "quote": "manages 42 almshouse flats",
+      "looking_for": "the number of almshouse flats"
+    },
+    {
+      "question": "how many members does brackenhurst parish council have",
+      "passage": "Brackenhurst Parish Council is the lowest tier of local government for the village of Brackenhurst. It was formed in 1894 under the Local Government Act of that year. The council meets on the second Tuesday of each month in the village hall. Elections are held every four years, most recently in 2023, when 11 candidates stood.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of councillors on the parish council"
+    },
+    {
+      "question": "when does brackenhurst parish council meet",
+      "passage": "Brackenhurst Parish Council is the lowest tier of local government for the village of Brackenhurst. It was formed in 1894 under the Local Government Act of that year. The council meets on the second Tuesday of each month in the village hall. Elections are held every four years, most recently in 2023, when 11 candidates stood.",
+      "sentence": 3,
+      "quote": "meets on the second Tuesday of each month",
+      "looking_for": "the day the council meets"
+    },
+    {
+      "question": "who chairs the sallowmede arts council",
+      "passage": "The Sallowmede Arts Council is the government body that funds the arts in the province of Sallowmede. Its chair is the novelist Imogen Ravel, appointed by the culture minister in 2023. The council was established in 1958 and distributes about 85 million crowns a year. Its chief executive, who runs the council day to day, is Darren Okoye.",
+      "sentence": 2,
+      "quote": "Its chair is the novelist Imogen Ravel",
+      "looking_for": "the name of the council's chair"
+    },
+    {
+      "question": "who runs the sallowmede arts council day to day",
+      "passage": "The Sallowmede Arts Council is the government body that funds the arts in the province of Sallowmede. Its chair is the novelist Imogen Ravel, appointed by the culture minister in 2023. The council was established in 1958 and distributes about 85 million crowns a year. Its chief executive, who runs the council day to day, is Darren Okoye.",
+      "sentence": 4,
+      "quote": "Its chief executive, who runs the council day to day, is Darren Okoye",
+      "looking_for": "the name of the chief executive"
+    },
+    {
+      "question": "how much money does the sallowmede arts council give out",
+      "passage": "The Sallowmede Arts Council is the government body that funds the arts in the province of Sallowmede. Its chair is the novelist Imogen Ravel, appointed by the culture minister in 2023. The council was established in 1958 and distributes about 85 million crowns a year. Its chief executive, who runs the council day to day, is Darren Okoye.",
+      "sentence": 3,
+      "quote": "distributes about 85 million crowns a year",
+      "looking_for": "the amount of funding given out each year"
+    },
+    {
+      "question": "where is the garrow mint",
+      "passage": "The Garrow Mint is the state mint of the Republic of Garrow, located in the town of Ellesford. It produces all of the republic's coins and many commemorative medals. The mint moved to Ellesford in 1971 from its original site in the capital, where it had operated since 1802. It strikes about 600 million coins a year.",
+      "sentence": 1,
+      "quote": "located in the town of Ellesford",
+      "looking_for": "the location of the mint"
+    },
+    {
+      "question": "when was the garrow mint founded",
+      "passage": "The Garrow Mint is the state mint of the Republic of Garrow, located in the town of Ellesford. It produces all of the republic's coins and many commemorative medals. The mint moved to Ellesford in 1971 from its original site in the capital, where it had operated since 1802. It strikes about 600 million coins a year.",
+      "sentence": 3,
+      "quote": "where it had operated since 1802",
+      "looking_for": "the year the mint began operating"
+    },
+    {
+      "question": "how many coins does the garrow mint make",
+      "passage": "The Garrow Mint is the state mint of the Republic of Garrow, located in the town of Ellesford. It produces all of the republic's coins and many commemorative medals. The mint moved to Ellesford in 1971 from its original site in the capital, where it had operated since 1802. It strikes about 600 million coins a year.",
+      "sentence": 4,
+      "quote": "strikes about 600 million coins a year",
+      "looking_for": "the number of coins produced each year"
+    },
+    {
+      "question": "who heads the fenmarch highways agency",
+      "passage": "The Fenmarch Highways Agency is the government agency responsible for trunk roads and motorways in Fenmarch. It was created in 1994 as an executive agency of the transport ministry. The agency's first chief executive was Lawrence Prideaux, who led it until 2003. It maintains about 4,200 kilometres of road.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current head of the agency"
+    },
+    {
+      "question": "how many kilometres of road does the fenmarch highways agency look after",
+      "passage": "The Fenmarch Highways Agency is the government agency responsible for trunk roads and motorways in Fenmarch. It was created in 1994 as an executive agency of the transport ministry. The agency's first chief executive was Lawrence Prideaux, who led it until 2003. It maintains about 4,200 kilometres of road.",
+      "sentence": 4,
+      "quote": "maintains about 4,200 kilometres of road",
+      "looking_for": "the length of road the agency maintains"
+    },
+    {
+      "question": "when was the fenmarch highways agency created",
+      "passage": "The Fenmarch Highways Agency is the government agency responsible for trunk roads and motorways in Fenmarch. It was created in 1994 as an executive agency of the transport ministry. The agency's first chief executive was Lawrence Prideaux, who led it until 2003. It maintains about 4,200 kilometres of road.",
+      "sentence": 2,
+      "quote": "created in 1994 as an executive agency",
+      "looking_for": "the year the agency was created"
+    },
+    {
+      "question": "what is the tollmere lighthouse board",
+      "passage": "The Tollmere Lighthouse Board is the authority responsible for lighthouses, buoys and beacons around the coast of Tollmere. It was incorporated by royal charter in 1786. The board maintains 37 lighthouses and about 410 buoys from depots at Skerran and Holm Bay. Its chief executive is Moira Kettleby.",
+      "sentence": 1,
+      "quote": "the authority responsible for lighthouses, buoys and beacons",
+      "looking_for": "what the Lighthouse Board is"
+    },
+    {
+      "question": "when was the tollmere lighthouse board set up",
+      "passage": "The Tollmere Lighthouse Board is the authority responsible for lighthouses, buoys and beacons around the coast of Tollmere. It was incorporated by royal charter in 1786. The board maintains 37 lighthouses and about 410 buoys from depots at Skerran and Holm Bay. Its chief executive is Moira Kettleby.",
+      "sentence": 2,
+      "quote": "incorporated by royal charter in 1786",
+      "looking_for": "the year the board was set up"
+    },
+    {
+      "question": "how many lighthouse keepers does the tollmere lighthouse board employ",
+      "passage": "The Tollmere Lighthouse Board is the authority responsible for lighthouses, buoys and beacons around the coast of Tollmere. It was incorporated by royal charter in 1786. The board maintains 37 lighthouses and about 410 buoys from depots at Skerran and Holm Bay. Its chief executive is Moira Kettleby.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of lighthouse keepers employed"
+    },
+    {
+      "question": "who is the harbourmaster of port wenna",
+      "passage": "Captain Elspeth Rourke is the Harbourmaster of Port Wenna, responsible for the safe movement of ships within the harbour. She was appointed in 2021 after twenty years as a pilot on the Wenna estuary. The post is one of the oldest public offices in the town, first recorded in 1563. The harbourmaster's office is in the Pilot House at the end of the North Mole.",
+      "sentence": 1,
+      "quote": "Captain Elspeth Rourke is the Harbourmaster of Port Wenna",
+      "looking_for": "the name of the harbourmaster"
+    },
+    {
+      "question": "when was the port wenna harbourmaster first recorded",
+      "passage": "Captain Elspeth Rourke is the Harbourmaster of Port Wenna, responsible for the safe movement of ships within the harbour. She was appointed in 2021 after twenty years as a pilot on the Wenna estuary. The post is one of the oldest public offices in the town, first recorded in 1563. The harbourmaster's office is in the Pilot House at the end of the North Mole.",
+      "sentence": 3,
+      "quote": "first recorded in 1563",
+      "looking_for": "the year the post was first recorded"
+    },
+    {
+      "question": "what is the brisbury lands tribunal",
+      "passage": "The Brisbury Lands Tribunal is a specialist court that settles disputes over the valuation of land and compensation for compulsory purchase in Brisbury. It was set up in 1950 and has a president and six members. Appeals from the tribunal go to the High Court on points of law only. The current president is Judge Teodor Malik.",
+      "sentence": 1,
+      "quote": "a specialist court that settles disputes over the valuation of land",
+      "looking_for": "what the Lands Tribunal is"
+    },
+    {
+      "question": "how many members does the brisbury lands tribunal have",
+      "passage": "The Brisbury Lands Tribunal is a specialist court that settles disputes over the valuation of land and compensation for compulsory purchase in Brisbury. It was set up in 1950 and has a president and six members. Appeals from the tribunal go to the High Court on points of law only. The current president is Judge Teodor Malik.",
+      "sentence": 2,
+      "quote": "has a president and six members",
+      "looking_for": "the number of tribunal members"
+    },
+    {
+      "question": "when was the corlan parliament founded",
+      "passage": "The Corlan Parliament, founded in 1849, is the legislature of the Grand Duchy of Corlan. It has a single chamber of 101 deputies elected by proportional representation. Parliamentary elections are held every five years, most recently in 2024. The President of the Parliament is Matthias Edling.",
+      "sentence": 1,
+      "quote": "founded in 1849",
+      "looking_for": "the year the parliament was founded"
+    },
+    {
+      "question": "how many deputies are in the corlan parliament",
+      "passage": "The Corlan Parliament, founded in 1849, is the legislature of the Grand Duchy of Corlan. It has a single chamber of 101 deputies elected by proportional representation. Parliamentary elections are held every five years, most recently in 2024. The President of the Parliament is Matthias Edling.",
+      "sentence": 2,
+      "quote": "a single chamber of 101 deputies",
+      "looking_for": "the number of deputies"
+    },
+    {
+      "question": "who is the prime minister of corlan",
+      "passage": "The Corlan Parliament, founded in 1849, is the legislature of the Grand Duchy of Corlan. It has a single chamber of 101 deputies elected by proportional representation. Parliamentary elections are held every five years, most recently in 2024. The President of the Parliament is Matthias Edling.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the prime minister"
+    },
+    {
+      "question": "who is the lord provost of glenvarrie",
+      "passage": "Isla Mackintyre is the Lord Provost of Glenvarrie, the civic head of the city and convener of its council. She was elected by the councillors in 2022, following the retirement of Alasdair Bain. The Lord Provost also serves as Lord Lieutenant of the city. The office has existed since 1487.",
+      "sentence": 1,
+      "quote": "Isla Mackintyre is the Lord Provost of Glenvarrie",
+      "looking_for": "the name of the current Lord Provost"
+    },
+    {
+      "question": "how old is the office of lord provost of glenvarrie",
+      "passage": "Isla Mackintyre is the Lord Provost of Glenvarrie, the civic head of the city and convener of its council. She was elected by the councillors in 2022, following the retirement of Alasdair Bain. The Lord Provost also serves as Lord Lieutenant of the city. The office has existed since 1487.",
+      "sentence": 4,
+      "quote": "The office has existed since 1487",
+      "looking_for": "the date the office began"
+    },
+    {
+      "question": "who was the previous lord provost of glenvarrie",
+      "passage": "Isla Mackintyre is the Lord Provost of Glenvarrie, the civic head of the city and convener of its council. She was elected by the councillors in 2022, following the retirement of Alasdair Bain. The Lord Provost also serves as Lord Lieutenant of the city. The office has existed since 1487.",
+      "sentence": 2,
+      "quote": "following the retirement of Alasdair Bain",
+      "looking_for": "the name of the previous Lord Provost"
+    },
+    {
+      "question": "what is the halden chamber of commerce",
+      "passage": "The Halden Chamber of Commerce is a membership organisation representing about 2,000 businesses in the city of Halden. It was founded in 1823 by a group of grain and timber merchants. The chamber issues certificates of origin for exports and runs a training centre on Fleet Street. Its president for 2025 is the brewer Annika Holm.",
+      "sentence": 1,
+      "quote": "a membership organisation representing about 2,000 businesses",
+      "looking_for": "what the chamber of commerce is"
+    },
+    {
+      "question": "who founded the halden chamber of commerce",
+      "passage": "The Halden Chamber of Commerce is a membership organisation representing about 2,000 businesses in the city of Halden. It was founded in 1823 by a group of grain and timber merchants. The chamber issues certificates of origin for exports and runs a training centre on Fleet Street. Its president for 2025 is the brewer Annika Holm.",
+      "sentence": 2,
+      "quote": "founded in 1823 by a group of grain and timber merchants",
+      "looking_for": "who founded the chamber"
+    },
+    {
+      "question": "how many members are in the westmarch assembly",
+      "passage": "The Westmarch Assembly is the 80-member devolved legislature of the region of Westmarch. It was created in 1999 following a regional referendum the previous year. Members are elected every four years, with 50 chosen in constituencies and 30 from regional lists. The Presiding Officer is Gwilym Arnott, a member since 2007.",
+      "sentence": 1,
+      "quote": "the 80-member devolved legislature",
+      "looking_for": "the number of members of the assembly"
+    },
+    {
+      "question": "when was the westmarch assembly created",
+      "passage": "The Westmarch Assembly is the 80-member devolved legislature of the region of Westmarch. It was created in 1999 following a regional referendum the previous year. Members are elected every four years, with 50 chosen in constituencies and 30 from regional lists. The Presiding Officer is Gwilym Arnott, a member since 2007.",
+      "sentence": 2,
+      "quote": "created in 1999 following a regional referendum",
+      "looking_for": "the year the assembly was created"
+    },
+    {
+      "question": "who is the first minister of westmarch",
+      "passage": "The Westmarch Assembly is the 80-member devolved legislature of the region of Westmarch. It was created in 1999 following a regional referendum the previous year. Members are elected every four years, with 50 chosen in constituencies and 30 from regional lists. The Presiding Officer is Gwilym Arnott, a member since 2007.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the First Minister"
+    },
+    {
+      "question": "where is ravensholm district council based",
+      "passage": "Ravensholm District Council is the local authority for the district of Ravensholm and is based at Dunmore House in the market town of Sellick Cross. The council has 39 councillors, elected from 21 wards. Since 2023 no party has held a majority, and the council is led by a coalition under Councillor Petra Lindqvist. Its chief executive is Owen Garside.",
+      "sentence": 1,
+      "quote": "is based at Dunmore House",
+      "looking_for": "the location of the council's base"
+    },
+    {
+      "question": "how many councillors does ravensholm district council have",
+      "passage": "Ravensholm District Council is the local authority for the district of Ravensholm and is based at Dunmore House in the market town of Sellick Cross. The council has 39 councillors, elected from 21 wards. Since 2023 no party has held a majority, and the council is led by a coalition under Councillor Petra Lindqvist. Its chief executive is Owen Garside.",
+      "sentence": 2,
+      "quote": "The council has 39 councillors",
+      "looking_for": "the number of councillors"
+    },
+    {
+      "question": "who was the previous leader of ravensholm district council",
+      "passage": "Ravensholm District Council is the local authority for the district of Ravensholm and is based at Dunmore House in the market town of Sellick Cross. The council has 39 councillors, elected from 21 wards. Since 2023 no party has held a majority, and the council is led by a coalition under Councillor Petra Lindqvist. Its chief executive is Owen Garside.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the previous council leader"
+    },
+    {
+      "question": "what is the mallory institute",
+      "passage": "The Mallory Institute is a government research institute that studies soil science and crop disease in the Republic of Ostrel. It was founded in 1920 on an estate bequeathed by the landowner Frederick Mallory. The institute employs about 450 scientists and runs field stations at Haddon and Crawle Fen. Its director is the plant pathologist Yasmin Darrow.",
+      "sentence": 1,
+      "quote": "a government research institute that studies soil science and crop disease",
+      "looking_for": "what the Mallory Institute is"
+    },
+    {
+      "question": "who gave the land for the mallory institute",
+      "passage": "The Mallory Institute is a government research institute that studies soil science and crop disease in the Republic of Ostrel. It was founded in 1920 on an estate bequeathed by the landowner Frederick Mallory. The institute employs about 450 scientists and runs field stations at Haddon and Crawle Fen. Its director is the plant pathologist Yasmin Darrow.",
+      "sentence": 2,
+      "quote": "bequeathed by the landowner Frederick Mallory",
+      "looking_for": "the person who gave the estate"
+    },
+    {
+      "question": "who is the director of the ostrel geological survey",
+      "passage": "The Ostrel Geological Survey is the national agency for geological mapping and research in Ostrel. Its director is Bartholomew Nkemelu, who was appointed in 2017 after leading the survey's mineral resources division. The survey was founded in 1873 and its first director was the mining engineer Hollis Warrender. It publishes the national geological map at a scale of one to fifty thousand.",
+      "sentence": 2,
+      "quote": "Its director is Bartholomew Nkemelu",
+      "looking_for": "the name of the current director"
+    },
+    {
+      "question": "when did the tarrin parliament library open",
+      "passage": "The Library of the Tarrin Parliament provides research and information services to members of the Tarrin Parliament. It opened in 1883 in the north wing of the parliament building, where its reading room still stands. The library's collection includes about 600,000 volumes and the papers of every prime minister since 1901. It is headed by the Parliamentary Librarian, Corinne Absalom.",
+      "sentence": 2,
+      "quote": "It opened in 1883",
+      "looking_for": "the year the library opened"
+    },
+    {
+      "question": "who is the clerk of dunvale county council",
+      "passage": "The Clerk of Dunvale County Council is the council's senior legal officer and returning officer for elections. The post is held by Martin Achterhof, who succeeded Beryl Swann in 2019. The clerk advises the council on procedure and keeps its minutes. The office dates from 1889.",
+      "sentence": 2,
+      "quote": "The post is held by Martin Achterhof",
+      "looking_for": "the name of the current Clerk"
+    },
+    {
+      "question": "who is the leader of dunvale county council",
+      "passage": "The Clerk of Dunvale County Council is the council's senior legal officer and returning officer for elections. The post is held by Martin Achterhof, who succeeded Beryl Swann in 2019. The clerk advises the council on procedure and keeps its minutes. The office dates from 1889.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the council leader"
+    },
+    {
+      "question": "how many beds does ardvellan general hospital have",
+      "passage": "Ardvellan General Hospital is a public teaching hospital in the city of Ardvellan. It has 820 beds and an emergency department that treats about 95,000 patients a year. The hospital opened in 1931 on the site of a former workhouse. Its chief executive is Gideon Faraday-Lowe.",
+      "sentence": 2,
+      "quote": "It has 820 beds",
+      "looking_for": "the number of hospital beds"
+    },
+    {
+      "question": "who founded ardvellan general hospital",
+      "passage": "Ardvellan General Hospital is a public teaching hospital in the city of Ardvellan. It has 820 beds and an emergency department that treats about 95,000 patients a year. The hospital opened in 1931 on the site of a former workhouse. Its chief executive is Gideon Faraday-Lowe.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the hospital's founder"
+    },
+    {
+      "question": "how many wards does pennick have",
+      "passage": "Pennick City Council is the local authority for the city of Pennick. The city is divided into 18 wards, each electing three councillors. Pennick was granted city status in 1926, having been a borough since 1614. The council's headquarters are in the Guildhall on Bridge Street.",
+      "sentence": 2,
+      "quote": "divided into 18 wards",
+      "looking_for": "the number of wards"
+    },
+    {
+      "question": "how many people work for pennick city council",
+      "passage": "Pennick City Council is the local authority for the city of Pennick. The city is divided into 18 wards, each electing three councillors. Pennick was granted city status in 1926, having been a borough since 1614. The council's headquarters are in the Guildhall on Bridge Street.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of council employees"
+    },
+    {
+      "question": "who chairs the kelloway health board",
+      "passage": "The Kelloway Health Board plans and runs public health services for the region of Kelloway. It is chaired by the former surgeon Roisin Adeyemi, who was appointed in 2024. The board has a budget of about 1.9 billion crowns and employs 22,000 people. It was formed in 2009 by merging four hospital trusts.",
+      "sentence": 2,
+      "quote": "chaired by the former surgeon Roisin Adeyemi",
+      "looking_for": "the name of the board's chair"
+    },
+    {
+      "question": "who is the chief executive of the kelloway health board",
+      "passage": "The Kelloway Health Board plans and runs public health services for the region of Kelloway. It is chaired by the former surgeon Roisin Adeyemi, who was appointed in 2024. The board has a budget of about 1.9 billion crowns and employs 22,000 people. It was formed in 2009 by merging four hospital trusts.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the chief executive"
+    },
+    {
+      "question": "when was the hollin meteorological office founded",
+      "passage": "The Hollin Meteorological Office is the national weather service of Hollin. It was founded in 1867 as a department of the navy and became a civilian agency in 1946. The office runs 140 weather stations and a supercomputer at its headquarters in Ravel. Its chief executive is Annelise Thorogood.",
+      "sentence": 2,
+      "quote": "founded in 1867 as a department of the navy",
+      "looking_for": "the year the weather service was founded"
+    },
+    {
+      "question": "how many people work at the hollin meteorological office",
+      "passage": "The Hollin Meteorological Office is the national weather service of Hollin. It was founded in 1867 as a department of the navy and became a civilian agency in 1946. The office runs 140 weather stations and a supercomputer at its headquarters in Ravel. Its chief executive is Annelise Thorogood.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of staff"
+    },
+    {
+      "question": "who is the information commissioner of varnsey",
+      "passage": "The Information Commissioner of Varnsey is an independent official who enforces the law on freedom of information and data protection. The current commissioner is Ezra Kallenbach, who took office in 2022 for a five-year term. The office was created in 2000 and has about 300 staff. Its first commissioner was Gwendolyn Shore.",
+      "sentence": 2,
+      "quote": "The current commissioner is Ezra Kallenbach",
+      "looking_for": "the name of the current commissioner"
+    },
+    {
+      "question": "how long does the varnsey information commissioner serve",
+      "passage": "The Information Commissioner of Varnsey is an independent official who enforces the law on freedom of information and data protection. The current commissioner is Ezra Kallenbach, who took office in 2022 for a five-year term. The office was created in 2000 and has about 300 staff. Its first commissioner was Gwendolyn Shore.",
+      "sentence": 2,
+      "quote": "for a five-year term",
+      "looking_for": "the length of the commissioner's term"
+    },
+    {
+      "question": "what is the exchequer court of lissane",
+      "passage": "The Exchequer Court of Lissane is a court that hears disputes over taxes and customs duties in Lissane. It sits in the old Treasury building in the capital and has three judges. Its decisions can be appealed to the Supreme Court of Lissane. The court was established in 1820.",
+      "sentence": 1,
+      "quote": "a court that hears disputes over taxes and customs duties",
+      "looking_for": "what the Exchequer Court is"
+    },
+    {
+      "question": "where does the exchequer court of lissane sit",
+      "passage": "The Exchequer Court of Lissane is a court that hears disputes over taxes and customs duties in Lissane. It sits in the old Treasury building in the capital and has three judges. Its decisions can be appealed to the Supreme Court of Lissane. The court was established in 1820.",
+      "sentence": 2,
+      "quote": "sits in the old Treasury building",
+      "looking_for": "the place where the court sits"
+    },
+    {
+      "question": "who is the surveyor general of ambrenne",
+      "passage": "Konrad Vellacott is the Surveyor General of Ambrenne, the official in charge of national mapping and land boundaries. He was appointed in 2020, succeeding Margit Haas, who had held the post since 2008. The Surveyor General heads the National Survey Department, which employs about 1,100 people. The office was established in 1791.",
+      "sentence": 1,
+      "quote": "Konrad Vellacott is the Surveyor General of Ambrenne",
+      "looking_for": "the name of the current Surveyor General"
+    },
+    {
+      "question": "what does the fallowdene planning inspectorate do",
+      "passage": "The Fallowdene Planning Inspectorate decides appeals against planning decisions made by local councils in Fallowdene. It was set up in 1968 and is based in the town of Morrow Bridge. Inspectors decide about 14,000 appeals a year, most of them on written evidence. The chief planning inspector is Hazel Ombrecht.",
+      "sentence": 1,
+      "quote": "decides appeals against planning decisions",
+      "looking_for": "what the Planning Inspectorate does"
+    },
+    {
+      "question": "where is the fallowdene planning inspectorate based",
+      "passage": "The Fallowdene Planning Inspectorate decides appeals against planning decisions made by local councils in Fallowdene. It was set up in 1968 and is based in the town of Morrow Bridge. Inspectors decide about 14,000 appeals a year, most of them on written evidence. The chief planning inspector is Hazel Ombrecht.",
+      "sentence": 2,
+      "quote": "based in the town of Morrow Bridge",
+      "looking_for": "the town where it is based"
+    },
+    {
+      "question": "what does the office of the public guardian of seldon do",
+      "passage": "The Office of the Public Guardian of Seldon protects people who lack the mental capacity to manage their own affairs. It registers powers of attorney and supervises about 60,000 court-appointed deputies. The office was created in 2007, replacing the older Court Protection Unit. It is headed by the Public Guardian, Leopold Akintola.",
+      "sentence": 1,
+      "quote": "protects people who lack the mental capacity to manage their own affairs",
+      "looking_for": "what the Office of the Public Guardian does"
+    },
+    {
+      "question": "when was the seldon court protection unit set up",
+      "passage": "The Office of the Public Guardian of Seldon protects people who lack the mental capacity to manage their own affairs. It registers powers of attorney and supervises about 60,000 court-appointed deputies. The office was created in 2007, replacing the older Court Protection Unit. It is headed by the Public Guardian, Leopold Akintola.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the older unit was created"
+    },
+    {
+      "question": "what is the merrow crown estate",
+      "passage": "The Merrow Crown Estate is a public body that manages land and property owned by the monarch of Merrow on behalf of the state. Its portfolio includes farmland, forests and most of the seabed out to twelve nautical miles. The estate's profits, about 400 million crowns last year, are paid to the national treasury. It was given its present form by the Crown Lands Act of 1956.",
+      "sentence": 1,
+      "quote": "manages land and property owned by the monarch",
+      "looking_for": "what the Crown Estate is"
+    },
+    {
+      "question": "how much is the merrow crown estate worth",
+      "passage": "The Merrow Crown Estate is a public body that manages land and property owned by the monarch of Merrow on behalf of the state. Its portfolio includes farmland, forests and most of the seabed out to twelve nautical miles. The estate's profits, about 400 million crowns last year, are paid to the national treasury. It was given its present form by the Crown Lands Act of 1956.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the total value of the estate"
+    },
+    {
+      "question": "where is the high court of varenne",
+      "passage": "The High Court of Varenne, which sits in the Rendel Palace in the city of Corbe, is the superior court for civil and criminal cases in Varenne. It has 48 judges and hears about 9,000 cases a year. The court's president, Justice Elodie Marchetti, was appointed in 2019. Its present building was completed in 1878 to designs by the architect Jules Aubry.",
+      "sentence": 1,
+      "quote": "sits in the Rendel Palace in the city of Corbe",
+      "looking_for": "the location of the High Court"
+    },
+    {
+      "question": "how many judges does the high court of varenne have",
+      "passage": "The High Court of Varenne, which sits in the Rendel Palace in the city of Corbe, is the superior court for civil and criminal cases in Varenne. It has 48 judges and hears about 9,000 cases a year. The court's president, Justice Elodie Marchetti, was appointed in 2019. Its present building was completed in 1878 to designs by the architect Jules Aubry.",
+      "sentence": 2,
+      "quote": "It has 48 judges",
+      "looking_for": "the number of judges"
+    },
+    {
+      "question": "who is the lord chamberlain of kestria",
+      "passage": "Baron Alaric Thorne is the Lord Chamberlain of Kestria, the senior officer of the royal household. He was appointed by King Leopold IV in 2018. The Lord Chamberlain organises state visits, royal weddings and funerals. His predecessor, the Countess of Drummel, served for fourteen years.",
+      "sentence": 1,
+      "quote": "Baron Alaric Thorne is the Lord Chamberlain of Kestria",
+      "looking_for": "the name of the current Lord Chamberlain"
+    },
+    {
+      "question": "who appointed the lord chamberlain of kestria",
+      "passage": "Baron Alaric Thorne is the Lord Chamberlain of Kestria, the senior officer of the royal household. He was appointed by King Leopold IV in 2018. The Lord Chamberlain organises state visits, royal weddings and funerals. His predecessor, the Countess of Drummel, served for fourteen years.",
+      "sentence": 2,
+      "quote": "appointed by King Leopold IV in 2018",
+      "looking_for": "the person who made the appointment"
+    },
+    {
+      "question": "when was the thornwick volunteer fire brigade founded",
+      "passage": "The Thornwick Volunteer Fire Brigade, founded in 1876, is one of the oldest volunteer fire brigades in the province of Ruellan. It has 64 volunteer members and two stations, at Thornwick and Upper Ley. The brigade's commander since 2015 has been Fritz Andermatt, a carpenter. Its original hand pump of 1877 is kept in the town museum.",
+      "sentence": 1,
+      "quote": "founded in 1876",
+      "looking_for": "the year the brigade was founded"
+    },
+    {
+      "question": "who founded the thornwick volunteer fire brigade",
+      "passage": "The Thornwick Volunteer Fire Brigade, founded in 1876, is one of the oldest volunteer fire brigades in the province of Ruellan. It has 64 volunteer members and two stations, at Thornwick and Upper Ley. The brigade's commander since 2015 has been Fritz Andermatt, a carpenter. Its original hand pump of 1877 is kept in the town museum.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the brigade's founder"
+    },
+    {
+      "question": "what is the council of state of velden",
+      "passage": "The Council of State of Velden is the highest advisory body to the government of Velden and the supreme court for administrative law. It has 21 councillors, appointed for life on the nomination of the cabinet. Its vice-president, Hendrika Bloemhof, chairs its daily work, as the presidency is held by the monarch. The council was founded in 1531.",
+      "sentence": 1,
+      "quote": "the highest advisory body to the government of Velden",
+      "looking_for": "what the Council of State is"
+    },
+    {
+      "question": "how many councillors are on the council of state of velden",
+      "passage": "The Council of State of Velden is the highest advisory body to the government of Velden and the supreme court for administrative law. It has 21 councillors, appointed for life on the nomination of the cabinet. Its vice-president, Hendrika Bloemhof, chairs its daily work, as the presidency is held by the monarch. The council was founded in 1531.",
+      "sentence": 2,
+      "quote": "It has 21 councillors",
+      "looking_for": "the number of councillors"
+    },
+    {
+      "question": "who is the governor of maraval",
+      "passage": "Tobias Fenwright is the Governor of Maraval, the representative of the national government in the province of Maraval. He was appointed in 2021 by the Minister of the Interior. Governors serve at the minister's pleasure and have no fixed term. The previous governor, Lisette Carmody, served from 2013 to 2021.",
+      "sentence": 1,
+      "quote": "Tobias Fenwright is the Governor of Maraval",
+      "looking_for": "the name of the current governor"
+    },
+    {
+      "question": "who appoints the governor of maraval",
+      "passage": "Tobias Fenwright is the Governor of Maraval, the representative of the national government in the province of Maraval. He was appointed in 2021 by the Minister of the Interior. Governors serve at the minister's pleasure and have no fixed term. The previous governor, Lisette Carmody, served from 2013 to 2021.",
+      "sentence": 2,
+      "quote": "appointed in 2021 by the Minister of the Interior",
+      "looking_for": "who appoints the governor"
+    },
+    {
+      "question": "what is the halbrook bureau of standards",
+      "passage": "The Halbrook Bureau of Standards is the national body that keeps the official standards of weight and length and certifies measuring equipment in Halbrook. It was founded in 1879, the year Halbrook adopted the metric system. The bureau's laboratories are in the suburb of Ludmore Park. Its director since 2022 has been the physicist Oona Pelham.",
+      "sentence": 1,
+      "quote": "keeps the official standards of weight and length",
+      "looking_for": "what the Bureau of Standards is"
+    },
+    {
+      "question": "when was the halbrook bureau of standards founded",
+      "passage": "The Halbrook Bureau of Standards is the national body that keeps the official standards of weight and length and certifies measuring equipment in Halbrook. It was founded in 1879, the year Halbrook adopted the metric system. The bureau's laboratories are in the suburb of Ludmore Park. Its director since 2022 has been the physicist Oona Pelham.",
+      "sentence": 2,
+      "quote": "It was founded in 1879",
+      "looking_for": "the year the bureau was founded"
+    },
+    {
+      "question": "who was the first director of the halbrook bureau of standards",
+      "passage": "The Halbrook Bureau of Standards is the national body that keeps the official standards of weight and length and certifies measuring equipment in Halbrook. It was founded in 1879, the year Halbrook adopted the metric system. The bureau's laboratories are in the suburb of Ludmore Park. Its director since 2022 has been the physicist Oona Pelham.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the first director"
+    },
+    {
+      "question": "how many seats does corrin city council have",
+      "passage": "Corrin City Council is the governing body of the city of Corrin. The council was reformed in 2016, when the number of wards was cut from 24 to 16. Its leader is Councillor Abiodun Fairweather, of the Civic Alliance. The council's budget for 2025 was 410 million crowns.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of council seats"
+    },
+    {
+      "question": "when was the westerholt port police established",
+      "passage": "The Westerholt Port Police is a small police force that patrols the docks and harbour of Westerholt. It was established in 1838 by the harbour commissioners, and is one of the oldest police forces in the country. The force has 85 officers and its own launch, the Sentinel. Its chief officer is Superintendent Clara Moyo.",
+      "sentence": 2,
+      "quote": "established in 1838 by the harbour commissioners",
+      "looking_for": "the year the force was established"
+    }
+  ]
+}

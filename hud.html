@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Playing</title>
+<!-- hud.html — the play overlay (src-tauri/src/playhud.rs). A small panel in the
+     top-right corner, over the game, while a Pigeon plays it: what it sees, the
+     key it last pressed, how many moves, Stop and Hide. It is never made key,
+     so the game keeps the keyboard; clicking it does not bring Pigeon forward.
+
+     THE WINDOW IS SEE-THROUGH: the body paints nothing and .hud is the whole
+     card, with its own blur. Its ink follows the Mac's appearance, like the
+     summon bar's, because it sits over whatever the game draws.
+
+     Opened in a browser tab (npm run serve → /hud.html?demo) it plays a
+     made-up run so the card can be worked on without a game. -->
+<style>
+@font-face{font-family:'Hanken Grotesk';src:url('fonts/hanken-grotesk-variable.woff2') format('woff2');
+  font-weight:100 900;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url('fonts/ibm-plex-mono-400.woff2') format('woff2');
+  font-weight:400;font-display:swap}
+:root{
+  --ink:#0F1E2C; --soft:rgba(15,30,44,.72); --faint:rgba(15,30,44,.55); --line:rgba(15,30,44,.12);
+  --card:rgba(250,252,255,.82); --chip:rgba(15,30,44,.06); --stop:#C4382C; --stop-ink:#fff; --live:#1F8A5B;
+  --warn:#9A6200;
+  color-scheme:light dark;
+}
+@media (prefers-color-scheme:dark){:root{
+  --ink:#EEF3F8; --soft:rgba(238,243,248,.78); --faint:rgba(238,243,248,.55); --line:rgba(238,243,248,.14);
+  --card:rgba(24,30,38,.84); --chip:rgba(238,243,248,.08); --stop:#E0564A; --live:#4CC38A; --warn:#E3A94A;
+}}
+*{box-sizing:border-box;margin:0}
+html,body{background:transparent;height:100%;overflow:hidden}
+body{font:13px/1.35 'Hanken Grotesk',system-ui,sans-serif;color:var(--ink);-webkit-user-select:none;user-select:none;cursor:default}
+.hud{position:absolute;inset:0;border-radius:16px;background:var(--card);
+  -webkit-backdrop-filter:blur(24px) saturate(1.4);backdrop-filter:blur(24px) saturate(1.4);
+  box-shadow:inset 0 0 0 1px var(--line);display:flex;flex-direction:column;padding:12px;gap:10px}
+.top{display:flex;align-items:center;gap:8px;min-height:22px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--live);flex-shrink:0;box-shadow:0 0 0 3px color-mix(in srgb,var(--live) 22%,transparent)}
+.dot.wait{background:var(--warn);box-shadow:0 0 0 3px color-mix(in srgb,var(--warn) 22%,transparent)}
+.dot.off{background:var(--faint);box-shadow:none}
+.dot.live{animation:beat 1.6s ease-in-out infinite}
+@keyframes beat{50%{opacity:.45}}
+.who{font-weight:700;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.who small{font-weight:500;color:var(--faint)}
+.x{border:0;background:var(--chip);color:var(--soft);width:24px;height:24px;border-radius:7px;display:grid;place-items:center;font:inherit;cursor:pointer}
+.x:hover{color:var(--ink)}
+.x svg{width:12px;height:12px}
+.sees{position:relative;flex:1;min-height:0;border-radius:10px;background:#000;overflow:hidden;display:grid;place-items:center}
+.sees img{width:100%;height:100%;object-fit:contain;image-rendering:pixelated;display:block}
+.sees .none{color:rgba(255,255,255,.6);font-size:12px;padding:12px;text-align:center}
+.sees .tag{position:absolute;left:6px;top:6px;font:10px/1 'IBM Plex Mono',ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;
+  color:rgba(255,255,255,.85);background:rgba(0,0,0,.45);padding:4px 6px;border-radius:5px}
+.move{display:flex;align-items:baseline;gap:8px}
+.move b{font-size:18px;font-weight:750;letter-spacing:-.01em}
+.move span{color:var(--soft)}
+.meta{font:11px/1.3 'IBM Plex Mono',ui-monospace,monospace;color:var(--faint);display:flex;justify-content:space-between;gap:8px}
+.btns{display:flex;gap:8px}
+.btn{flex:1;border:0;border-radius:9px;padding:8px 10px;font:600 13px/1 'Hanken Grotesk',system-ui,sans-serif;cursor:pointer;background:var(--chip);color:var(--ink)}
+.btn.stop{background:var(--stop);color:var(--stop-ink)}
+.btn kbd{font:11px 'IBM Plex Mono',ui-monospace,monospace;opacity:.8;margin-left:6px}
+.why{color:var(--soft)}
+html:not(.native) body{background:linear-gradient(135deg,#3a6b4f,#1e3b5a)}
+</style>
+<body>
+<div class="hud" id="hud" role="status" aria-live="polite"></div>
+<script type="module" src="src/hud.js"></script>
+</body>
+</html>

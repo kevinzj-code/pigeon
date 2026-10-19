@@ -1,0 +1,1693 @@
+{
+ "batch": "b06",
+ "categories": [
+  "validation",
+  "everyday",
+  "learning"
+ ],
+ "skills": [
+  {
+   "name": "formatPhoneNumber",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "formatPhoneNumber \u2014 Rewrite a phone number in E.164, international or national form.\n  needs: number: string\n  optional: region: string\n  e.g. \"format this phone number\" \u2192 {\"number\":\"+44 20 7946 0958\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "number"
+    ],
+    "properties": {
+     "number": {
+      "type": "string",
+      "label": "phone number",
+      "minLength": 1,
+      "prompt": "Which phone number should I format?"
+     },
+     "region": {
+      "type": "string",
+      "label": "default dialling code",
+      "description": "the dialling code to assume when the number has no + prefix"
+     }
+    }
+   },
+   "examples": [
+    "format this phone number",
+    "normalise this us number to e164",
+    "write this indian number in international form",
+    "clean up this messy number",
+    "format a singapore number",
+    "tidy +44 20 7946 0958 into international format"
+   ]
+  },
+  {
+   "name": "passwordStrength",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "passwordStrength \u2014 Estimate how much entropy a password has and flag predictable patterns.\n  needs: password: string\n  e.g. \"how strong is the password password\" \u2192 {\"password\":\"password\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "password"
+    ],
+    "properties": {
+     "password": {
+      "type": "string",
+      "label": "password",
+      "minLength": 1,
+      "maxLength": 256,
+      "prompt": "Which password should I measure?"
+     }
+    }
+   },
+   "examples": [
+    "how strong is the password password",
+    "check this password strength",
+    "is 123456 a strong password",
+    "rate my passphrase",
+    "how good is aaaaaaaa"
+   ]
+  },
+  {
+   "name": "validateDate",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateDate \u2014 Check whether a date actually exists on the calendar.\n  needs: date: string\n  e.g. \"is 2026-02-29 a real date\" \u2192 {\"date\":\"2026-02-29\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "minLength": 1,
+      "prompt": "Which date should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is 2026-02-29 a real date",
+    "check that 2024-02-29 exists",
+    "is 31 april a valid date",
+    "validate 2026-12-25",
+    "is 03/04/2026 unambiguous"
+   ]
+  },
+  {
+   "name": "validateEmail",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateEmail \u2014 Say whether an email address is written correctly.\n  needs: email: string\n  e.g. \"is ana@example.com a valid email\" \u2192 {\"email\":\"ana@example.com\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "email"
+    ],
+    "properties": {
+     "email": {
+      "type": "string",
+      "label": "email address",
+      "minLength": 1,
+      "prompt": "Which email address should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is ana@example.com a valid email",
+    "check jo.patel+work@company.co.uk",
+    "is this email valid: no-at-sign.com",
+    "check ana@localhost",
+    "validate .leading@example.com"
+   ]
+  },
+  {
+   "name": "validateHexColor",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateHexColor \u2014 Test a hex colour code and expand #abc shorthand.\n  needs: color: string\n  e.g. \"is #FF5733 a valid hex colour\" \u2192 {\"color\":\"#FF5733\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "color"
+    ],
+    "properties": {
+     "color": {
+      "type": "string",
+      "label": "colour code",
+      "minLength": 1,
+      "prompt": "Which colour code should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is #FF5733 a valid hex colour",
+    "check the shorthand #abc",
+    "is #12345 valid",
+    "validate a colour with alpha",
+    "is #GGHHII a colour"
+   ]
+  },
+  {
+   "name": "validateIban",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateIban \u2014 Test an IBAN bank number against its own checksum.\n  needs: iban: string\n  e.g. \"is this iban valid\" \u2192 {\"iban\":\"GB82 WEST 1234 5698 7654 32\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "iban"
+    ],
+    "properties": {
+     "iban": {
+      "type": "string",
+      "label": "iban",
+      "minLength": 1,
+      "prompt": "Which IBAN should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is this iban valid",
+    "check this german iban",
+    "validate this french account number",
+    "is this a real iban",
+    "check iban NL91ABNA0417164300",
+    "does this bank account number check out: GB82 WEST 1234 5698 7654 32",
+    "is DE89 3704 0044 0532 0130 00 a valid iban"
+   ]
+  },
+  {
+   "name": "validateIpAddress",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateIpAddress \u2014 Test an IP address and say whether it is IPv4, IPv6 or neither.\n  needs: address: string\n  e.g. \"is 192.168.1.1 a valid ip\" \u2192 {\"address\":\"192.168.1.1\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "address"
+    ],
+    "properties": {
+     "address": {
+      "type": "string",
+      "label": "ip address",
+      "minLength": 1,
+      "prompt": "Which address should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is 192.168.1.1 a valid ip",
+    "check 8.8.8.8",
+    "is 256.1.1.1 valid",
+    "validate the loopback address",
+    "check an ipv6 address"
+   ]
+  },
+  {
+   "name": "validateIsbn",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateIsbn \u2014 Check an ISBN-10 or ISBN-13 book number against its check digit.\n  needs: isbn: string\n  e.g. \"is 9780306406157 a valid isbn\" \u2192 {\"isbn\":\"9780306406157\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "isbn"
+    ],
+    "properties": {
+     "isbn": {
+      "type": "string",
+      "label": "isbn",
+      "minLength": 9,
+      "prompt": "Which ISBN should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is 9780306406157 a valid isbn",
+    "check this isbn-10",
+    "validate an isbn with dashes",
+    "check an isbn-10 ending in X",
+    "is 9780306406158 valid"
+   ]
+  },
+  {
+   "name": "validateJson",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateJson \u2014 Check whether some JSON parses, and say exactly where the error is if it does not.\n  needs: text: string\n  e.g. \"is this json valid: {\"a\":1}\" \u2192 {\"text\":\"{\\\"a\\\":1}\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "json",
+      "minLength": 1,
+      "prompt": "Which JSON should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is this json valid: {\"a\":1}",
+    "check this json array",
+    "why will this json not parse",
+    "validate this multi-line json",
+    "is a bare string valid json"
+   ]
+  },
+  {
+   "name": "validateJsonSchema",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateJsonSchema \u2014 Check whether a JSON document matches a JSON Schema.\n  needs: schema: string, data: string\n  e.g. \"does this json match the schema\" \u2192 {\"schema\":\"{\\\"type\\\":\\\"object\\\",\\\"required\\\":[\\\"name\\\"],\\\"properties\\\":{\\\"name\\\":{\\\"type\\\":\\\"string\\\"}}}\",\"data\":\"{\\\"name\\\":\\\"Ana\\\"}\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "schema",
+     "data"
+    ],
+    "properties": {
+     "schema": {
+      "type": "string",
+      "label": "schema",
+      "minLength": 1,
+      "prompt": "Which JSON Schema should I check against?"
+     },
+     "data": {
+      "type": "string",
+      "label": "json",
+      "minLength": 1,
+      "prompt": "Which JSON document should I check?"
+     }
+    }
+   },
+   "examples": [
+    "does this json match the schema",
+    "validate this data against my schema",
+    "check the age is in range",
+    "is this value one of the allowed options",
+    "validate a numeric string against an integer field"
+   ]
+  },
+  {
+   "name": "validateLuhn",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateLuhn \u2014 Check a card number against the Luhn checksum.\n  needs: number: string\n  e.g. \"is 4539578763621486 a valid card number\" \u2192 {\"number\":\"4539578763621486\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "number"
+    ],
+    "properties": {
+     "number": {
+      "type": "string",
+      "label": "number",
+      "minLength": 2,
+      "prompt": "Which number should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is 4539578763621486 a valid card number",
+    "check this number passes luhn",
+    "validate a number with a typo",
+    "check a number written with spaces",
+    "luhn check a short number"
+   ]
+  },
+  {
+   "name": "validatePhoneNumber",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validatePhoneNumber \u2014 Say whether a phone number has the right shape for its country.\n  needs: number: string\n  optional: region: string\n  e.g. \"is this a valid phone number\" \u2192 {\"number\":\"+44 20 7946 0958\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "number"
+    ],
+    "properties": {
+     "number": {
+      "type": "string",
+      "label": "phone number",
+      "minLength": 1,
+      "prompt": "Which phone number should I check?"
+     },
+     "region": {
+      "type": "string",
+      "label": "default dialling code",
+      "description": "the dialling code to assume when the number has no + prefix"
+     }
+    }
+   },
+   "examples": [
+    "is this a valid phone number",
+    "check this us number",
+    "validate +91 98765 43210",
+    "is +44 123 a real number",
+    "check a number with an unknown country code"
+   ]
+  },
+  {
+   "name": "validateUrl",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateUrl \u2014 Say whether a web address is well formed, and split out its host and path.\n  needs: url: string\n  e.g. \"is https://example.com/docs a valid url\" \u2192 {\"url\":\"https://example.com/docs\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "url"
+    ],
+    "properties": {
+     "url": {
+      "type": "string",
+      "label": "url",
+      "minLength": 1,
+      "prompt": "Which address should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is https://example.com/docs a valid url",
+    "break this url into its parts",
+    "check www.example.org without a protocol",
+    "is \"not a url at all\" valid",
+    "validate an ftp address"
+   ]
+  },
+  {
+   "name": "validateUuid",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateUuid \u2014 Test a UUID and say which version it is.\n  needs: uuid: string\n  e.g. \"is this a valid uuid\" \u2192 {\"uuid\":\"550e8400-e29b-41d4-a716-446655440000\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "uuid"
+    ],
+    "properties": {
+     "uuid": {
+      "type": "string",
+      "label": "uuid",
+      "minLength": 1,
+      "prompt": "Which UUID should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is this a valid uuid",
+    "check this v7 identifier",
+    "is the nil uuid valid",
+    "validate a uuid with the wrong length",
+    "check a uuid in braces"
+   ]
+  },
+  {
+   "name": "comparePrices",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "comparePrices \u2014 Rank several sizes or packs by value for money and say which is cheapest per unit.\n  needs: options: array\n  optional: unit: string\n  e.g. \"which is better value, 500ml for 1.20 or 1.5l for 3.30\" \u2192 {\"options\":[{\"name\":\"500ml bottle\",\"price\":1.2,\"quantity\":0.5},{\"name\":\"1.5l bottle\",\"price\":3.3,\"quantity\":1.5}],\"unit\":\"litre\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "options"
+    ],
+    "properties": {
+     "options": {
+      "type": "array",
+      "label": "options",
+      "minItems": 2,
+      "prompt": "Which options should I compare? Each needs a price and a quantity.",
+      "items": {
+       "type": "object"
+      }
+     },
+     "unit": {
+      "type": "string",
+      "label": "unit",
+      "default": "unit"
+     }
+    }
+   },
+   "examples": [
+    "which is better value, 500ml for 1.20 or 1.5l for 3.30",
+    "compare three pack sizes",
+    "is the bigger box cheaper per kilo",
+    "compare two identically priced options",
+    "which coffee is best value"
+   ]
+  },
+  {
+   "name": "convertCookingMeasure",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "convertCookingMeasure \u2014 Convert a cooking measure between cups, spoons, millilitres and grams, using the ingredient to get weight right.\n  needs: amount: number, from: string, to: string\n  optional: ingredient: string\n  e.g. \"how many grams is 2 cups of flour\" \u2192 {\"amount\":2,\"from\":\"cups\",\"to\":\"g\",\"ingredient\":\"flour\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "label": "amount",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "How much?"
+     },
+     "from": {
+      "type": "string",
+      "label": "from unit",
+      "prompt": "From which measure? (cups, tbsp, tsp, ml, g)"
+     },
+     "to": {
+      "type": "string",
+      "label": "to unit",
+      "prompt": "To which measure?"
+     },
+     "ingredient": {
+      "type": "string",
+      "label": "ingredient",
+      "description": "needed to go between volume and weight"
+     }
+    }
+   },
+   "examples": [
+    "how many grams is 2 cups of flour",
+    "convert 250g of sugar to cups",
+    "3 tablespoons of butter in grams",
+    "how many ml is 1 cup",
+    "convert 4 teaspoons to tablespoons"
+   ]
+  },
+  {
+   "name": "fuelCostForTrip",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "fuelCostForTrip \u2014 Work out the fuel cost of a journey from distance, consumption and fuel price.\n  needs: distance: number, price: number\n  optional: litresPer100km: number, milesPerGallon: number, returnTrip: boolean\n  e.g. \"fuel cost for a 500km trip at 7.5 litres per 100km and 1.65 a litre\" \u2192 {\"distance\":500,\"litresPer100km\":7.5,\"price\":1.65}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "distance",
+     "price"
+    ],
+    "properties": {
+     "distance": {
+      "type": "number",
+      "label": "distance",
+      "minimum": 0,
+      "prompt": "How far is the trip?"
+     },
+     "price": {
+      "type": "number",
+      "label": "fuel price",
+      "minimum": 0,
+      "prompt": "What does the fuel cost per litre or gallon?"
+     },
+     "litresPer100km": {
+      "type": "number",
+      "label": "litres per 100km",
+      "minimum": 0.1,
+      "maximum": 100,
+      "description": "consumption in L/100km"
+     },
+     "milesPerGallon": {
+      "type": "number",
+      "label": "miles per gallon",
+      "minimum": 1,
+      "maximum": 200,
+      "description": "consumption in miles per gallon"
+     },
+     "returnTrip": {
+      "type": "boolean",
+      "label": "return trip",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "fuel cost for a 500km trip at 7.5 litres per 100km and 1.65 a litre",
+    "how much fuel for 320 km at 6.2 L per 100",
+    "petrol cost for 300 miles at 32 mpg",
+    "fuel for a return trip of 120km",
+    "cost of driving 50 km at 5 litres per 100km"
+   ]
+  },
+  {
+   "name": "scaleRecipe",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "scaleRecipe \u2014 Multiply every ingredient amount in a recipe by a factor, rounded to sensible kitchen fractions.\n  needs: ingredients: array, factor: number\n  e.g. \"double this recipe: 2 cups flour, 1 egg, 3/4 tsp salt\" \u2192 {\"ingredients\":[\"2 cups flour\",\"1 egg\",\"3/4 tsp salt\"],\"factor\":2}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "ingredients",
+     "factor"
+    ],
+    "properties": {
+     "ingredients": {
+      "type": "array",
+      "label": "ingredients",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1,
+      "prompt": "Which ingredients should I scale? One per line."
+     },
+     "factor": {
+      "type": "number",
+      "label": "multiply by",
+      "exclusiveMinimum": 0,
+      "prompt": "By what factor? (2 to double, 0.5 to halve)"
+     }
+    }
+   },
+   "examples": [
+    "double this recipe: 2 cups flour, 1 egg, 3/4 tsp salt",
+    "halve these: 1 cup sugar, 2 tbsp butter, 4 eggs",
+    "scale by 1.5: 500 g pasta, 200 ml cream",
+    "triple 1\u00bd cups oats and \u2153 cup honey",
+    "double a list with a line that has no amount"
+   ]
+  },
+  {
+   "name": "shippingTotal",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "shippingTotal \u2014 Total a basket \u2014 items, postage, free-delivery thresholds and tax.\n  needs: items: array\n  optional: shipping: number, freeShippingOver: number, taxRate: number, taxOnShipping: boolean\n  e.g. \"total this order with shipping\" \u2192 {\"items\":[{\"price\":12.5,\"quantity\":2},{\"price\":8,\"quantity\":1}],\"shipping\":4.99,\"freeShippingOver\":50}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "items",
+      "minItems": 1,
+      "maxItems": 200,
+      "prompt": "What is in the order?"
+     },
+     "shipping": {
+      "type": "number",
+      "label": "shipping cost",
+      "minimum": 0,
+      "default": 0
+     },
+     "freeShippingOver": {
+      "type": "number",
+      "label": "free shipping from",
+      "minimum": 0,
+      "description": "subtotal at which shipping becomes free"
+     },
+     "taxRate": {
+      "type": "number",
+      "label": "tax %",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 0,
+      "description": "as a percentage"
+     },
+     "taxOnShipping": {
+      "type": "boolean",
+      "label": "tax on shipping",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "total this order with shipping",
+    "order total with 20 percent tax",
+    "how much is my basket",
+    "am I close to free delivery",
+    "total with tax not charged on delivery"
+   ]
+  },
+  {
+   "name": "splitBill",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "splitBill \u2014 Add a tip to a bill and split it between people, to the exact penny.\n  needs: bill: number\n  optional: tipPercent: number, people: integer, currency: string\n  e.g. \"split a 84.50 bill four ways with 15% tip\" \u2192 {\"bill\":84.5,\"tipPercent\":15,\"people\":4}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "bill"
+    ],
+    "properties": {
+     "bill": {
+      "type": "number",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "How much was the bill?",
+      "label": "bill"
+     },
+     "tipPercent": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 0,
+      "label": "tip %"
+     },
+     "people": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 1,
+      "label": "people"
+     },
+     "currency": {
+      "type": "string",
+      "enum": [
+       "\u00a3",
+       "$",
+       "\u20ac",
+       "\u20b9",
+       "\u00a5"
+      ],
+      "label": "currency"
+     }
+    }
+   },
+   "examples": [
+    "split a 84.50 bill four ways with 15% tip",
+    "what is 20% tip on 60",
+    "split 100 between 3 of us",
+    "dinner was 45.60, 12.5 percent tip, two people",
+    "bill of 200 split 8 ways with 10% service"
+   ]
+  },
+  {
+   "name": "stackDiscounts",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "stackDiscounts \u2014 Take one discount off after another \u2014 an extra 15% off an already reduced price \u2014 and show the real saving.\n  needs: price: number, discounts: array\n  e.g. \"stack 20% and 10% off 100\" \u2192 {\"price\":100,\"discounts\":[20,10]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "price",
+     "discounts"
+    ],
+    "properties": {
+     "price": {
+      "type": "number",
+      "label": "price",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "What is the starting price?"
+     },
+     "discounts": {
+      "type": "array",
+      "label": "discounts %",
+      "minItems": 1,
+      "maxItems": 10,
+      "items": {
+       "type": "number"
+      },
+      "prompt": "Which discount percentages apply?"
+     }
+    }
+   },
+   "examples": [
+    "stack 20% and 10% off 100",
+    "apply a single 10% discount to 50",
+    "three discounts on 200",
+    "two 5% discounts on 80",
+    "half price then 10% off 100",
+    "an extra 15 percent off something already 30 percent off, on 200",
+    "apply 10 then 5 percent off 80"
+   ]
+  },
+  {
+   "name": "unitPrice",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "unitPrice \u2014 Work out the price per unit \u2014 per litre, per kilo, per item \u2014 so sizes can be compared.\n  needs: price: number, quantity: number\n  optional: unit: string\n  e.g. \"what is the price per litre of 2.4 litres for 3.60\" \u2192 {\"price\":3.6,\"quantity\":2.4,\"unit\":\"litre\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "price",
+     "quantity"
+    ],
+    "properties": {
+     "price": {
+      "type": "number",
+      "label": "price",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "What does it cost?"
+     },
+     "quantity": {
+      "type": "number",
+      "label": "quantity",
+      "exclusiveMinimum": 0,
+      "prompt": "How much do you get?"
+     },
+     "unit": {
+      "type": "string",
+      "label": "unit",
+      "default": "unit",
+      "description": "what the quantity is measured in"
+     }
+    }
+   },
+   "examples": [
+    "what is the price per litre of 2.4 litres for 3.60",
+    "price per kilo for 750g at 4.20",
+    "cost per item for a pack of 12 at 5.99",
+    "unit price of 500ml for 1.25",
+    "price per sheet for 240 sheets at 2.40",
+    "what does that work out to per litre: 3.60 for 1.5 litres"
+   ]
+  },
+  {
+   "name": "checkArithmeticSteps",
+   "category": "learning",
+   "needsNetwork": false,
+   "card": "checkArithmeticSteps \u2014 Check each line of a worked calculation and find the first one that is wrong.\n  needs: steps: array\n  optional: tolerance: number\n  e.g. \"check my working\" \u2192 {\"steps\":[\"2 + 3 * 4 = 14\",\"14 - 4 = 10\",\"10 / 2 = 5\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "steps"
+    ],
+    "properties": {
+     "steps": {
+      "type": "array",
+      "label": "steps",
+      "minItems": 1,
+      "maxItems": 100,
+      "items": {
+       "type": "string"
+      },
+      "prompt": "Which steps should I check? Write each as \"expression = answer\"."
+     },
+     "tolerance": {
+      "type": "number",
+      "label": "allowed difference",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 1e-06
+     }
+    }
+   },
+   "examples": [
+    "check my working",
+    "is this calculation right",
+    "check these sums",
+    "find the mistake in my working",
+    "verify this arithmetic with brackets"
+   ]
+  },
+  {
+   "name": "flashcardShuffle",
+   "category": "learning",
+   "needsNetwork": false,
+   "card": "flashcardShuffle \u2014 Shuffle a set of flashcards into a study order.\n  needs: cards: array\n  optional: seed: integer\n  e.g. \"shuffle my flashcards\" \u2192 {\"cards\":[\"alpha\",\"beta\",\"gamma\",\"delta\",\"epsilon\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "cards"
+    ],
+    "properties": {
+     "cards": {
+      "type": "array",
+      "label": "cards",
+      "minItems": 2,
+      "maxItems": 500,
+      "items": {
+       "type": "string"
+      },
+      "prompt": "Which cards should I shuffle?"
+     },
+     "seed": {
+      "type": "integer",
+      "label": "repeatable seed",
+      "minimum": 0,
+      "maximum": 2147483647,
+      "default": 1
+     }
+    }
+   },
+   "examples": [
+    "shuffle my flashcards",
+    "shuffle these cards with seed 42",
+    "randomise this deck",
+    "mix up my revision cards",
+    "shuffle two cards"
+   ]
+  },
+  {
+   "name": "gpaCalculate",
+   "category": "learning",
+   "needsNetwork": false,
+   "card": "gpaCalculate \u2014 Work out a grade point average from letter grades and credit hours.\n  needs: courses: array\n  e.g. \"work out my gpa\" \u2192 {\"courses\":[{\"grade\":\"A\",\"credits\":3},{\"grade\":\"B+\",\"credits\":4},{\"grade\":\"C\",\"credits\":3}]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "courses"
+    ],
+    "properties": {
+     "courses": {
+      "type": "array",
+      "label": "courses",
+      "minItems": 1,
+      "maxItems": 100,
+      "prompt": "What are the grades and credit hours?"
+     }
+    }
+   },
+   "examples": [
+    "work out my gpa",
+    "calculate gpa for two A grades",
+    "what is my grade point average this term",
+    "gpa including a failed course",
+    "gpa for a single course"
+   ]
+  },
+  {
+   "name": "gradeNeeded",
+   "category": "learning",
+   "needsNetwork": false,
+   "card": "gradeNeeded \u2014 Work out what score the remaining work needs to reach a target grade.\n  needs: current: number, completed: number, target: number\n  e.g. \"what do I need on the final to get 80 percent\" \u2192 {\"current\":78,\"completed\":70,\"target\":80}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "current",
+     "completed",
+     "target"
+    ],
+    "properties": {
+     "current": {
+      "type": "number",
+      "label": "score so far %",
+      "minimum": 0,
+      "maximum": 100,
+      "prompt": "What is the score so far, as a percentage?"
+     },
+     "completed": {
+      "type": "number",
+      "label": "course done %",
+      "minimum": 0.01,
+      "maximum": 99.99,
+      "prompt": "What percentage of the course does that cover?"
+     },
+     "target": {
+      "type": "number",
+      "label": "target grade %",
+      "minimum": 0,
+      "maximum": 100,
+      "prompt": "What overall percentage are you aiming for?"
+     }
+    }
+   },
+   "examples": [
+    "what do I need on the final to get 80 percent",
+    "what score do I need for a 90 average",
+    "can I still pass with 70 percent",
+    "do I still need to revise for the last test",
+    "what do I need to score to keep a 60 average",
+    "sitting at 72 with 30% of the marks still to come, what gets me to 75",
+    "I'm on 78 so far; what mark do I need on the remaining 25% to end on 80"
+   ]
+  },
+  {
+   "name": "gradeQuiz",
+   "category": "learning",
+   "needsNetwork": false,
+   "card": "gradeQuiz \u2014 Mark a set of answers against an answer key and give the score, question by question.\n  needs: answers: array, key: array\n  optional: caseSensitive: boolean, ignoreSpacing: boolean\n  e.g. \"mark these answers against the key\" \u2192 {\"answers\":[\"Paris\",\"Berlin\",\"Madrid\"],\"key\":[\"Paris\",\"Rome\",\"Madrid\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "answers",
+     "key"
+    ],
+    "properties": {
+     "answers": {
+      "type": "array",
+      "label": "answers",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1,
+      "prompt": "What were the answers given?"
+     },
+     "key": {
+      "type": "array",
+      "label": "answer key",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1,
+      "prompt": "What is the correct answer to each?"
+     },
+     "caseSensitive": {
+      "type": "boolean",
+      "label": "match case",
+      "default": false
+     },
+     "ignoreSpacing": {
+      "type": "boolean",
+      "label": "ignore extra spaces",
+      "default": true
+     }
+    }
+   },
+   "examples": [
+    "mark these answers against the key",
+    "grade my quiz",
+    "score these ignoring capitals",
+    "mark strictly on capitalisation",
+    "grade a test where several are wrong"
+   ]
+  },
+  {
+   "name": "readingScheduleFromPages",
+   "category": "learning",
+   "needsNetwork": false,
+   "card": "readingScheduleFromPages \u2014 Turn a page count into a daily reading schedule.\n  needs: totalPages: integer\n  optional: pagesPerDay: integer, days: integer, startDate: string\n  e.g. \"reading schedule for 60 pages at 20 a day\" \u2192 {\"totalPages\":60,\"pagesPerDay\":20,\"startDate\":\"2026-09-01\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "totalPages"
+    ],
+    "properties": {
+     "totalPages": {
+      "type": "integer",
+      "label": "pages",
+      "minimum": 1,
+      "maximum": 100000,
+      "prompt": "How many pages?"
+     },
+     "pagesPerDay": {
+      "type": "integer",
+      "label": "pages per day",
+      "minimum": 1,
+      "maximum": 10000,
+      "description": "how many pages you read a day"
+     },
+     "days": {
+      "type": "integer",
+      "label": "days available",
+      "minimum": 1,
+      "maximum": 3650,
+      "description": "how many days you have"
+     },
+     "startDate": {
+      "type": "string",
+      "label": "start date",
+      "description": "the first reading day - today by default"
+     }
+    }
+   },
+   "examples": [
+    "reading schedule for 60 pages at 20 a day",
+    "how much should I read a day to finish 100 pages in 4 days",
+    "plan 45 pages at 20 pages a day",
+    "split 300 pages into 100 a day",
+    "read 10 pages at 3 a day"
+   ]
+  },
+  {
+   "name": "spacedRepetitionSchedule",
+   "category": "learning",
+   "needsNetwork": false,
+   "card": "spacedRepetitionSchedule \u2014 Work out the review dates for spaced repetition from a starting date.\n  optional: date: string, intervals: array\n  e.g. \"when should I review this\" \u2192 {\"date\":\"2026-09-01\"}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date learned",
+      "description": "the day the material was first learned - today by default"
+     },
+     "intervals": {
+      "type": "array",
+      "label": "review after (days)",
+      "maxItems": 20,
+      "items": {
+       "type": "integer"
+      },
+      "description": "days after the start date to review on"
+     }
+    }
+   },
+   "examples": [
+    "when should I review this",
+    "spaced repetition schedule doubling each time",
+    "review dates one week and one month out",
+    "revision schedule starting in december",
+    "give me a revision plan from today"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "formatPhoneNumber",
+    "validatePhoneNumber"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "formatPhoneNumber \u2014 Rewrite a phone number in E.164, international or national form.\n  needs: number: string\n  optional: region: string\n  e.g. \"format this phone number\" \u2192 {\"number\":\"+44 20 7946 0958\"}",
+    "validatePhoneNumber \u2014 Say whether a phone number has the right shape for its country.\n  needs: number: string\n  optional: region: string\n  e.g. \"is this a valid phone number\" \u2192 {\"number\":\"+44 20 7946 0958\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "number"
+     ],
+     "properties": {
+      "number": {
+       "type": "string",
+       "label": "phone number",
+       "minLength": 1,
+       "prompt": "Which phone number should I format?"
+      },
+      "region": {
+       "type": "string",
+       "label": "default dialling code",
+       "description": "the dialling code to assume when the number has no + prefix"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "number"
+     ],
+     "properties": {
+      "number": {
+       "type": "string",
+       "label": "phone number",
+       "minLength": 1,
+       "prompt": "Which phone number should I check?"
+      },
+      "region": {
+       "type": "string",
+       "label": "default dialling code",
+       "description": "the dialling code to assume when the number has no + prefix"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "splitBill",
+    "splitEvenly"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "splitBill \u2014 Add a tip to a bill and split it between people, to the exact penny.\n  needs: bill: number\n  optional: tipPercent: number, people: integer, currency: string\n  e.g. \"split a 84.50 bill four ways with 15% tip\" \u2192 {\"bill\":84.5,\"tipPercent\":15,\"people\":4}",
+    "splitEvenly \u2014 Split an amount into equal parts, assigning the leftover pennies so the parts add back up.\n  needs: amount: number, parts: integer\n  optional: decimals: integer\n  e.g. \"split 100 three ways\" \u2192 {\"amount\":100,\"parts\":3}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "bill"
+     ],
+     "properties": {
+      "bill": {
+       "type": "number",
+       "carry": true,
+       "exclusiveMinimum": 0,
+       "prompt": "How much was the bill?",
+       "label": "bill"
+      },
+      "tipPercent": {
+       "type": "number",
+       "minimum": 0,
+       "maximum": 100,
+       "default": 0,
+       "label": "tip %"
+      },
+      "people": {
+       "type": "integer",
+       "minimum": 1,
+       "default": 1,
+       "label": "people"
+      },
+      "currency": {
+       "type": "string",
+       "enum": [
+        "\u00a3",
+        "$",
+        "\u20ac",
+        "\u20b9",
+        "\u00a5"
+       ],
+       "label": "currency"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "parts"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "label": "amount",
+       "carry": true,
+       "prompt": "What amount should I split?"
+      },
+      "parts": {
+       "type": "integer",
+       "label": "parts",
+       "minimum": 1,
+       "prompt": "Into how many parts?"
+      },
+      "decimals": {
+       "type": "integer",
+       "label": "decimal places",
+       "minimum": 0,
+       "maximum": 6,
+       "default": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateDate",
+    "validateJsonSchema"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateDate \u2014 Check whether a date actually exists on the calendar.\n  needs: date: string\n  e.g. \"is 2026-02-29 a real date\" \u2192 {\"date\":\"2026-02-29\"}",
+    "validateJsonSchema \u2014 Check whether a JSON document matches a JSON Schema.\n  needs: schema: string, data: string\n  e.g. \"does this json match the schema\" \u2192 {\"schema\":\"{\\\"type\\\":\\\"object\\\",\\\"required\\\":[\\\"name\\\"],\\\"properties\\\":{\\\"name\\\":{\\\"type\\\":\\\"string\\\"}}}\",\"data\":\"{\\\"name\\\":\\\"Ana\\\"}\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "date"
+     ],
+     "properties": {
+      "date": {
+       "type": "string",
+       "label": "date",
+       "minLength": 1,
+       "prompt": "Which date should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "schema",
+      "data"
+     ],
+     "properties": {
+      "schema": {
+       "type": "string",
+       "label": "schema",
+       "minLength": 1,
+       "prompt": "Which JSON Schema should I check against?"
+      },
+      "data": {
+       "type": "string",
+       "label": "json",
+       "minLength": 1,
+       "prompt": "Which JSON document should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validateIpAddress"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateEmail \u2014 Say whether an email address is written correctly.\n  needs: email: string\n  e.g. \"is ana@example.com a valid email\" \u2192 {\"email\":\"ana@example.com\"}",
+    "validateIpAddress \u2014 Test an IP address and say whether it is IPv4, IPv6 or neither.\n  needs: address: string\n  e.g. \"is 192.168.1.1 a valid ip\" \u2192 {\"address\":\"192.168.1.1\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "email"
+     ],
+     "properties": {
+      "email": {
+       "type": "string",
+       "label": "email address",
+       "minLength": 1,
+       "prompt": "Which email address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "address"
+     ],
+     "properties": {
+      "address": {
+       "type": "string",
+       "label": "ip address",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validatePhoneNumber"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateEmail \u2014 Say whether an email address is written correctly.\n  needs: email: string\n  e.g. \"is ana@example.com a valid email\" \u2192 {\"email\":\"ana@example.com\"}",
+    "validatePhoneNumber \u2014 Say whether a phone number has the right shape for its country.\n  needs: number: string\n  optional: region: string\n  e.g. \"is this a valid phone number\" \u2192 {\"number\":\"+44 20 7946 0958\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "email"
+     ],
+     "properties": {
+      "email": {
+       "type": "string",
+       "label": "email address",
+       "minLength": 1,
+       "prompt": "Which email address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "number"
+     ],
+     "properties": {
+      "number": {
+       "type": "string",
+       "label": "phone number",
+       "minLength": 1,
+       "prompt": "Which phone number should I check?"
+      },
+      "region": {
+       "type": "string",
+       "label": "default dialling code",
+       "description": "the dialling code to assume when the number has no + prefix"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validateUrl"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateEmail \u2014 Say whether an email address is written correctly.\n  needs: email: string\n  e.g. \"is ana@example.com a valid email\" \u2192 {\"email\":\"ana@example.com\"}",
+    "validateUrl \u2014 Say whether a web address is well formed, and split out its host and path.\n  needs: url: string\n  e.g. \"is https://example.com/docs a valid url\" \u2192 {\"url\":\"https://example.com/docs\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "email"
+     ],
+     "properties": {
+      "email": {
+       "type": "string",
+       "label": "email address",
+       "minLength": 1,
+       "prompt": "Which email address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "url"
+     ],
+     "properties": {
+      "url": {
+       "type": "string",
+       "label": "url",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIban",
+    "validateIsbn"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateIban \u2014 Test an IBAN bank number against its own checksum.\n  needs: iban: string\n  e.g. \"is this iban valid\" \u2192 {\"iban\":\"GB82 WEST 1234 5698 7654 32\"}",
+    "validateIsbn \u2014 Check an ISBN-10 or ISBN-13 book number against its check digit.\n  needs: isbn: string\n  e.g. \"is 9780306406157 a valid isbn\" \u2192 {\"isbn\":\"9780306406157\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "iban"
+     ],
+     "properties": {
+      "iban": {
+       "type": "string",
+       "label": "iban",
+       "minLength": 1,
+       "prompt": "Which IBAN should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "isbn"
+     ],
+     "properties": {
+      "isbn": {
+       "type": "string",
+       "label": "isbn",
+       "minLength": 9,
+       "prompt": "Which ISBN should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIban",
+    "validateLuhn"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateIban \u2014 Test an IBAN bank number against its own checksum.\n  needs: iban: string\n  e.g. \"is this iban valid\" \u2192 {\"iban\":\"GB82 WEST 1234 5698 7654 32\"}",
+    "validateLuhn \u2014 Check a card number against the Luhn checksum.\n  needs: number: string\n  e.g. \"is 4539578763621486 a valid card number\" \u2192 {\"number\":\"4539578763621486\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "iban"
+     ],
+     "properties": {
+      "iban": {
+       "type": "string",
+       "label": "iban",
+       "minLength": 1,
+       "prompt": "Which IBAN should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "number"
+     ],
+     "properties": {
+      "number": {
+       "type": "string",
+       "label": "number",
+       "minLength": 2,
+       "prompt": "Which number should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validatePhoneNumber"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateIpAddress \u2014 Test an IP address and say whether it is IPv4, IPv6 or neither.\n  needs: address: string\n  e.g. \"is 192.168.1.1 a valid ip\" \u2192 {\"address\":\"192.168.1.1\"}",
+    "validatePhoneNumber \u2014 Say whether a phone number has the right shape for its country.\n  needs: number: string\n  optional: region: string\n  e.g. \"is this a valid phone number\" \u2192 {\"number\":\"+44 20 7946 0958\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "address"
+     ],
+     "properties": {
+      "address": {
+       "type": "string",
+       "label": "ip address",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "number"
+     ],
+     "properties": {
+      "number": {
+       "type": "string",
+       "label": "phone number",
+       "minLength": 1,
+       "prompt": "Which phone number should I check?"
+      },
+      "region": {
+       "type": "string",
+       "label": "default dialling code",
+       "description": "the dialling code to assume when the number has no + prefix"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validateUrl"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateIpAddress \u2014 Test an IP address and say whether it is IPv4, IPv6 or neither.\n  needs: address: string\n  e.g. \"is 192.168.1.1 a valid ip\" \u2192 {\"address\":\"192.168.1.1\"}",
+    "validateUrl \u2014 Say whether a web address is well formed, and split out its host and path.\n  needs: url: string\n  e.g. \"is https://example.com/docs a valid url\" \u2192 {\"url\":\"https://example.com/docs\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "address"
+     ],
+     "properties": {
+      "address": {
+       "type": "string",
+       "label": "ip address",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "url"
+     ],
+     "properties": {
+      "url": {
+       "type": "string",
+       "label": "url",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validateUuid"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateIpAddress \u2014 Test an IP address and say whether it is IPv4, IPv6 or neither.\n  needs: address: string\n  e.g. \"is 192.168.1.1 a valid ip\" \u2192 {\"address\":\"192.168.1.1\"}",
+    "validateUuid \u2014 Test a UUID and say which version it is.\n  needs: uuid: string\n  e.g. \"is this a valid uuid\" \u2192 {\"uuid\":\"550e8400-e29b-41d4-a716-446655440000\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "address"
+     ],
+     "properties": {
+      "address": {
+       "type": "string",
+       "label": "ip address",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "uuid"
+     ],
+     "properties": {
+      "uuid": {
+       "type": "string",
+       "label": "uuid",
+       "minLength": 1,
+       "prompt": "Which UUID should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIsbn",
+    "validateLuhn"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateIsbn \u2014 Check an ISBN-10 or ISBN-13 book number against its check digit.\n  needs: isbn: string\n  e.g. \"is 9780306406157 a valid isbn\" \u2192 {\"isbn\":\"9780306406157\"}",
+    "validateLuhn \u2014 Check a card number against the Luhn checksum.\n  needs: number: string\n  e.g. \"is 4539578763621486 a valid card number\" \u2192 {\"number\":\"4539578763621486\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "isbn"
+     ],
+     "properties": {
+      "isbn": {
+       "type": "string",
+       "label": "isbn",
+       "minLength": 9,
+       "prompt": "Which ISBN should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "number"
+     ],
+     "properties": {
+      "number": {
+       "type": "string",
+       "label": "number",
+       "minLength": 2,
+       "prompt": "Which number should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateJson",
+    "validateJsonSchema"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "validateJson \u2014 Check whether some JSON parses, and say exactly where the error is if it does not.\n  needs: text: string\n  e.g. \"is this json valid: {\"a\":1}\" \u2192 {\"text\":\"{\\\"a\\\":1}\"}",
+    "validateJsonSchema \u2014 Check whether a JSON document matches a JSON Schema.\n  needs: schema: string, data: string\n  e.g. \"does this json match the schema\" \u2192 {\"schema\":\"{\\\"type\\\":\\\"object\\\",\\\"required\\\":[\\\"name\\\"],\\\"properties\\\":{\\\"name\\\":{\\\"type\\\":\\\"string\\\"}}}\",\"data\":\"{\\\"name\\\":\\\"Ana\\\"}\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "json",
+       "minLength": 1,
+       "prompt": "Which JSON should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "schema",
+      "data"
+     ],
+     "properties": {
+      "schema": {
+       "type": "string",
+       "label": "schema",
+       "minLength": 1,
+       "prompt": "Which JSON Schema should I check against?"
+      },
+      "data": {
+       "type": "string",
+       "label": "json",
+       "minLength": 1,
+       "prompt": "Which JSON document should I check?"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

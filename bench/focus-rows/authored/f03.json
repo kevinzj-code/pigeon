@@ -1,0 +1,1056 @@
+{
+  "batch": "f03",
+  "domain": "companies, shops and products",
+  "cases": [
+    {
+      "question": "what does marrowfield instruments make",
+      "passage": "Marrowfield Instruments is a maker of laboratory balances and moisture analysers based in the town of Quillby. The company was founded in 1958 by the brothers Otto and Lenz Marrow. It employs about 640 people and exports to more than forty countries. Its chief executive since 2019 has been Priya Halloran.",
+      "sentence": 1,
+      "quote": "maker of laboratory balances and moisture analysers",
+      "looking_for": "the kind of products the company makes"
+    },
+    {
+      "question": "what is the tarnby kettle",
+      "passage": "The Tarnby Kettle is a stovetop whistling kettle made of enamelled steel by the cookware firm Ardley and Rusk. It was designed in 1964 by Hilde Sorensby and has been made in the same shape ever since. More than three million have been sold. The current model holds 2.1 litres and is offered in eleven colours.",
+      "sentence": 1,
+      "quote": "stovetop whistling kettle made of enamelled steel",
+      "looking_for": "what kind of object the kettle is"
+    },
+    {
+      "question": "where is cobbleford mills headquartered",
+      "passage": "Cobbleford Mills is a flour milling company headquartered in the port town of Senmouth. It was founded in 1871 as a single water mill on the River Cobble at Ashwick. The company moved its milling to the docks in 1902 to be near the grain ships. It now operates four mills and supplies bakeries across the region.",
+      "sentence": 1,
+      "quote": "headquartered in the port town of Senmouth",
+      "looking_for": "the town where the company has its head office"
+    },
+    {
+      "question": "who makes the pellow tern",
+      "passage": "The Pellow Tern is a two-seat sailing dinghy built by Gannet Boatworks of Wexley Quay. It was introduced in 1981 as a training boat for sailing schools. The hull is 4.3 metres long and weighs 98 kilograms. About 6,000 have been built.",
+      "sentence": 1,
+      "quote": "built by Gannet Boatworks of Wexley Quay",
+      "looking_for": "the company that builds the dinghy"
+    },
+    {
+      "question": "what kind of shop is hennick and daw",
+      "passage": "Hennick and Daw is an independent bookshop on Market Lane in the town of Orrisford. It was opened in 1923 by Agnes Hennick and her cousin Walter Daw. The shop occupies a timber-framed building of the sixteenth century. It is now run by Agnes Hennick's great-grandson, Tom Pryer.",
+      "sentence": 1,
+      "quote": "an independent bookshop on Market Lane",
+      "looking_for": "the type of shop it is"
+    },
+    {
+      "question": "what is quorrel",
+      "passage": "Quorrel is a chain of coffee houses with 212 branches in the Kingdom of Ostberg and its neighbours. The first branch opened in 1996 in a former bank on Halde Street in the capital, Brenmark. The chain was bought by the food group Sarnow Holdings in 2011. Its chief executive is Lukas Venner.",
+      "sentence": 1,
+      "quote": "a chain of coffee houses",
+      "looking_for": "what sort of business Quorrel is"
+    },
+    {
+      "question": "how many shops does pindle pharmacy have",
+      "passage": "Pindle Pharmacy is a chain of 340 chemist's shops across the northern provinces of Arvenland. It was founded in 1934 by the pharmacist Ruth Pindle, who opened her first shop in the mining town of Carrow. By 1970 the chain had 85 shops. Its head office is in Dunsley and it employs about 5,200 people.",
+      "sentence": 1,
+      "quote": "a chain of 340 chemist's shops",
+      "looking_for": "the number of shops in the chain"
+    },
+    {
+      "question": "what is sweetmeadow",
+      "passage": "Sweetmeadow is a brand of salted butter produced by the Holm Valley Dairy Cooperative. It was launched in 1952 and is sold in a green and gold foil wrapper. The butter is churned at the cooperative's creamery in Lusk. In 2020 it was the best-selling butter in the country by volume.",
+      "sentence": 1,
+      "quote": "a brand of salted butter",
+      "looking_for": "what product Sweetmeadow is"
+    },
+    {
+      "question": "who owns fairbairn toys",
+      "passage": "Fairbairn Toys is a maker of wooden toys and puzzles owned by the Danvers family investment company Lyle Street Capital. It was founded in 1947 by the carpenter Hugh Fairbairn in a shed behind his house in Petherick. The company's best-known product is the Fairbairn Ark, a painted wooden ark with forty animals. Its workshops are still in Petherick.",
+      "sentence": 1,
+      "quote": "owned by the Danvers family investment company Lyle Street Capital",
+      "looking_for": "the owner of the toy company"
+    },
+    {
+      "question": "what is the strand 40",
+      "passage": "The Strand 40 is a cordless lawn mower made by the garden tools company Coppice. It was launched in 2018 and replaced the corded Strand 35. The mower has a cutting width of 40 centimetres and a 45-litre grass box. Its battery runs for about 35 minutes on a full charge.",
+      "sentence": 1,
+      "quote": "a cordless lawn mower",
+      "looking_for": "what kind of product the Strand 40 is"
+    },
+    {
+      "question": "what does lattimer and shaw do",
+      "passage": "Lattimer and Shaw is a firm of auctioneers specialising in clocks, watches and scientific instruments. It was founded in 1889 in the cathedral city of Durnholm by Edwin Lattimer and Francis Shaw. Its saleroom on Abbey Street holds about thirty auctions a year. The firm's record price is 412,000 crowns, paid in 2015 for an astronomical clock by Jakob Merle.",
+      "sentence": 1,
+      "quote": "a firm of auctioneers specialising in clocks",
+      "looking_for": "the kind of business the firm carries on"
+    },
+    {
+      "question": "what type of car is the hadley wren",
+      "passage": "The Hadley Wren is a small two-door family car built by Hadley Motor Works from 1959 to 1977. It was designed by Conrad Ibsley and had a rear-mounted engine of 850 cc. About 1.4 million were made at the company's factory in Stannow. A restored Wren is on display at the Stannow Transport Museum.",
+      "sentence": 1,
+      "quote": "a small two-door family car",
+      "looking_for": "the type of car the Wren is"
+    },
+    {
+      "question": "where is brisk cycles based",
+      "passage": "Brisk Cycles is a bicycle maker based in the town of Fellmarsh in the county of Oaken. It was founded in 1975 by the racing cyclist Ivo Danek, who built frames in a garage in Tollbridge before moving the business. The company makes about 20,000 bicycles a year. Its road bikes have been ridden by the Oaken professional team since 2014.",
+      "sentence": 1,
+      "quote": "based in the town of Fellmarsh",
+      "looking_for": "the town where the company is based"
+    },
+    {
+      "question": "who makes corrie's mints",
+      "passage": "Corrie's Mints are boiled peppermint sweets made by the confectioner Albright and Sons of Hulme Cross. They were first made in 1910 to a recipe by Margaret Corrie, a sweet-shop owner in the village of Tarn. The sweets are sold in a flat tin with a picture of a lighthouse on the lid. About 90 million are made each year.",
+      "sentence": 1,
+      "quote": "made by the confectioner Albright and Sons of Hulme Cross",
+      "looking_for": "the company that makes the sweets"
+    },
+    {
+      "question": "what is lumen ledger",
+      "passage": "Lumen Ledger is an accounting program for small businesses developed by the software company Talbrook Systems. It was first released in 2004 for desktop computers and moved to a subscription service in 2016. The program has about 310,000 paying customers. Talbrook's offices are in the city of Rennart.",
+      "sentence": 1,
+      "quote": "an accounting program for small businesses",
+      "looking_for": "what kind of software Lumen Ledger is"
+    },
+    {
+      "question": "how many employees does stavely glass have",
+      "passage": "Stavely Glass is a glass bottle manufacturer with about 1,150 employees at two works in the county of Morne. It was founded in 1862 by Samuel Stavely, a chemist from the town of Holloway. The company makes around two million bottles a day for breweries, dairies and drinks firms. Its chairman is Fiona Stavely-Hart, the founder's great-great-granddaughter.",
+      "sentence": 1,
+      "quote": "with about 1,150 employees",
+      "looking_for": "the number of people the company employs"
+    },
+    {
+      "question": "what is thimble and thread",
+      "passage": "Thimble and Thread is a chain of haberdashery shops selling fabric, yarn and sewing supplies. It has 64 shops, most of them in market towns of the Wolde region. The company was founded in 1968 by Dora Kemble in the town of Ashby Fenn. Its headquarters and warehouse are in Wroxley.",
+      "sentence": 1,
+      "quote": "a chain of haberdashery shops",
+      "looking_for": "what kind of business Thimble and Thread is"
+    },
+    {
+      "question": "what is the kestrel k2",
+      "passage": "The Kestrel K2 is a rangefinder camera for 35 mm film made by Ostmann Optik from 1952 to 1961. It was the successor to the Kestrel K1, which had been launched in 1947. The K2 added a built-in light meter and a faster shutter. Around 180,000 were produced at Ostmann's factory in Wellendorf.",
+      "sentence": 1,
+      "quote": "a rangefinder camera for 35 mm film",
+      "looking_for": "what kind of device the Kestrel K2 is"
+    },
+    {
+      "question": "when was dunmore pottery founded",
+      "passage": "Dunmore Pottery is a maker of stoneware and earthenware founded in 1794 in the village of Dunmore Cross. Its most famous product is a blue-glazed jug known as the Dunmore pitcher, first made in 1830. The pottery was bought by the Fairley family in 1911 and enlarged with a second kiln in 1923. It now employs about sixty potters and decorators.",
+      "sentence": 1,
+      "quote": "founded in 1794",
+      "looking_for": "the year the pottery was founded"
+    },
+    {
+      "question": "who founded harlequin paints",
+      "passage": "Harlequin Paints is a paint company founded by the chemist Leopold Graumann in the city of Essendorf in 1921. Its first product was a quick-drying enamel for bicycles. The company was sold to the chemicals group Varnholt in 1988 and is now run as one of its brands. Its current chief executive is Marta Kiel.",
+      "sentence": 1,
+      "quote": "founded by the chemist Leopold Graumann",
+      "looking_for": "the person who founded the company"
+    },
+    {
+      "question": "who designed the sorrel chair",
+      "passage": "The Sorrel chair is a stacking chair of moulded plywood designed by Ingrid Valleby in 1957. It was made by the furniture company Hollin and Marsh until 1974 and has been made by Nordform since 1999. More than five million have been sold. A Sorrel chair is in the collection of the Museum of Applied Art in Kerrow.",
+      "sentence": 1,
+      "quote": "designed by Ingrid Valleby in 1957",
+      "looking_for": "the person who designed the chair"
+    },
+    {
+      "question": "what is bramble hill relish",
+      "passage": "Bramble Hill Relish is a spiced tomato and apple chutney made in the town of Weyland by the Bramble Hill Preserves company. It was first sold in 1936 at the Weyland market by Edith Crane. The relish is made in batches of 400 jars in copper pans. It won the gold award at the National Fine Food Show in 2018.",
+      "sentence": 1,
+      "quote": "a spiced tomato and apple chutney",
+      "looking_for": "what kind of food the relish is"
+    },
+    {
+      "question": "where are tolland watches made",
+      "passage": "Tolland watches are mechanical wristwatches made in the mountain town of Grisvall in the canton of Oberau. The brand was founded in 1878 by the watchmaker Emil Tolland, who had trained in the city of Lanz. Since 2006 it has belonged to the luxury goods group Maison Arlette. The company makes about 9,000 watches a year.",
+      "sentence": 1,
+      "quote": "made in the mountain town of Grisvall",
+      "looking_for": "the place where the watches are made"
+    },
+    {
+      "question": "what is cardwell's",
+      "passage": "Cardwell's is a department store on Regent Row in the city of Hallamby. It opened in 1884 as a draper's shop run by Jonas Cardwell and grew to fill most of the block by 1912. The store has six floors and a rooftop tea room. It has been owned by the Pellmann retail group since 2003.",
+      "sentence": 1,
+      "quote": "a department store on Regent Row",
+      "looking_for": "what kind of place Cardwell's is"
+    },
+    {
+      "question": "what does velkor make",
+      "passage": "Velkor is a manufacturer of lifts and escalators with its head office in the city of Brandt. It was founded in 1909 as a maker of hand-cranked goods hoists. The company installed the lifts in the 41-storey Meridian Tower, then the tallest building in the country. It has about 7,800 employees and factories in four countries.",
+      "sentence": 1,
+      "quote": "a manufacturer of lifts and escalators",
+      "looking_for": "the products the company makes"
+    },
+    {
+      "question": "what fuel does the ember 3 stove burn",
+      "passage": "The Ember 3 is a wood-burning stove made by Cullen Ironworks of Spratton. It was introduced in 1994 as a smaller version of the Ember 5. The stove has a heat output of 4.8 kilowatts and weighs 72 kilograms. It is approved for use in smoke control areas.",
+      "sentence": 1,
+      "quote": "a wood-burning stove",
+      "looking_for": "the fuel the stove burns"
+    },
+    {
+      "question": "what is pennyroyal bank",
+      "passage": "Pennyroyal Bank is a savings bank serving the counties of Harle and Wenmore. It was set up in 1846 as the Harle Penny Savings Society to take deposits from mill workers. The bank has 58 branches and about 600,000 customers. Its chief executive is Dominic Askey.",
+      "sentence": 1,
+      "quote": "a savings bank serving the counties of Harle and Wenmore",
+      "looking_for": "what kind of institution the bank is"
+    },
+    {
+      "question": "which company made the arden typewriter",
+      "passage": "The Arden was a portable typewriter made by the office equipment company Mallory and Pike between 1931 and 1968. It was designed by the engineer Rupert Cale, who had previously worked for the rival firm Strand Typewriters. More than 2.5 million were made at the factory in Bexford. The Arden 5, introduced in 1949, added a tabulator key.",
+      "sentence": 1,
+      "quote": "made by the office equipment company Mallory and Pike",
+      "looking_for": "the company that made the typewriter"
+    },
+    {
+      "question": "what is gully's",
+      "passage": "Gully's is a chain of fish and chip restaurants with 37 branches along the coast of the county of Tremane. The first shop was opened in 1952 on the harbour at Porthallow by the fisherman's widow Ada Gully. The chain is still owned by the Gully family. Its fish is bought daily at the auction in Calloch Quay.",
+      "sentence": 1,
+      "quote": "a chain of fish and chip restaurants",
+      "looking_for": "what kind of business Gully's is"
+    },
+    {
+      "question": "who manufactures the fennec scooter",
+      "passage": "The Fennec is a 125 cc motor scooter manufactured by Rossi-Marten of Valdoro since 1988. It was styled by the designer Giulia Ferrante and was the company's best-selling model in the 1990s. The current fourth generation was launched in 2021. Its top speed is about 95 kilometres per hour.",
+      "sentence": 1,
+      "quote": "manufactured by Rossi-Marten of Valdoro",
+      "looking_for": "the company that manufactures the scooter"
+    },
+    {
+      "question": "who founded quillon pens",
+      "passage": "Quillon Pens is a maker of fountain pens and inks based in the town of Harbury. It was founded in 1902 by the stationer Albert Quill and his wife Maud. The company's best-known pen is the Quillon 22, introduced in 1932. It has been owned by the writing goods group Scrivener Holdings since 1997.",
+      "sentence": 2,
+      "quote": "founded in 1902 by the stationer Albert Quill",
+      "looking_for": "the person who founded the pen company"
+    },
+    {
+      "question": "when was ashdown ales founded",
+      "passage": "Ashdown Ales is a brewery in the market town of Kelsby. It was founded in 1838 by the maltster John Ashdown. The brewery moved to its present site on Mill Road in 1897. Its best-known beer is Kelsby Gold, first brewed in 1959.",
+      "sentence": 2,
+      "quote": "founded in 1838",
+      "looking_for": "the year the brewery was founded"
+    },
+    {
+      "question": "who is the ceo of dalwinter",
+      "passage": "Dalwinter is a maker of outdoor heaters and barbecues based in the city of Askern. Its chief executive is Hannah Lowrie, who was appointed in 2022. She succeeded Paul Denning, who had led the company for eighteen years. Dalwinter was founded in 1966 by Arthur Dalwinter and employs about 900 people.",
+      "sentence": 2,
+      "quote": "Its chief executive is Hannah Lowrie",
+      "looking_for": "the name of the current chief executive"
+    },
+    {
+      "question": "how many stores does brightpenny have",
+      "passage": "Brightpenny is a chain of discount variety stores. It has 418 stores, most of them on high streets in small and medium-sized towns. The first store opened in 1979 in the town of Gorsley. The company was bought by its management in 2015 for 160 million crowns. It plans to open another 50 stores by 2027.",
+      "sentence": 2,
+      "quote": "It has 418 stores",
+      "looking_for": "the number of stores the chain has"
+    },
+    {
+      "question": "where is ottery and bloom headquartered",
+      "passage": "Ottery and Bloom is a seed company selling vegetable and flower seeds by mail and online. Its headquarters are in the village of Hollyfield, on the edge of the Carrow Downs. The company was founded in 1911 in the city of Lindmouth by the nurseryman George Ottery. Its trial grounds cover 30 hectares.",
+      "sentence": 2,
+      "quote": "Its headquarters are in the village of Hollyfield",
+      "looking_for": "the place where the company has its headquarters"
+    },
+    {
+      "question": "who owns kittering crisps",
+      "passage": "Kittering Crisps is a brand of hand-cooked potato crisps made in the town of Kittering. Since 2019 it has been owned by the snack food group Harvest Lane Foods. The brand was started in 1988 by the farmer Bill Overy, who fried crisps from his own potatoes in a converted barn. Its best-selling flavour is sea salt and cider vinegar.",
+      "sentence": 2,
+      "quote": "owned by the snack food group Harvest Lane Foods",
+      "looking_for": "the company that owns the brand"
+    },
+    {
+      "question": "how much does the corrin 12 weigh",
+      "passage": "The Corrin 12 is a lightweight laptop made by the computer company Ambrel. It weighs 1.08 kilograms and is 13 millimetres thick. The laptop was launched in 2023 at a price of 1,299 crowns. Its battery lasts up to 18 hours.",
+      "sentence": 2,
+      "quote": "It weighs 1.08 kilograms",
+      "looking_for": "the weight of the laptop"
+    },
+    {
+      "question": "when did gorringe's close",
+      "passage": "Gorringe's was a department store in the city of Wellport. It closed in January 1998 after 131 years of trading. The store was founded in 1867 by the draper Silas Gorringe. Its building on Castle Street was converted into flats in 2004.",
+      "sentence": 2,
+      "quote": "It closed in January 1998",
+      "looking_for": "the date the store closed"
+    },
+    {
+      "question": "who designed the corvo lamp",
+      "passage": "The Corvo is an adjustable desk lamp with a spring-balanced arm. It was designed in 1949 by the engineer Thomas Barlow for the lighting firm Henley Electric. The lamp was revised in 1972 by the designer Mia Dahlquist to take a smaller bulb. It is still made by Henley Electric in its factory at Pottersby.",
+      "sentence": 2,
+      "quote": "designed in 1949 by the engineer Thomas Barlow",
+      "looking_for": "the person who designed the lamp"
+    },
+    {
+      "question": "what is the top speed of the avocet gt",
+      "passage": "The Avocet GT is a two-seat sports car built by Avocet Motors of Hensley. Its top speed is 248 kilometres per hour and it reaches 100 kilometres per hour in 4.1 seconds. The car was launched in 2019 and is assembled by hand at a rate of four a week. It is powered by a 3.0-litre six-cylinder engine.",
+      "sentence": 2,
+      "quote": "Its top speed is 248 kilometres per hour",
+      "looking_for": "the maximum speed of the car"
+    },
+    {
+      "question": "who is the chairman of the barrowby group",
+      "passage": "The Barrowby Group is a holding company that owns supermarkets, petrol stations and a bakery business. Its chairman is Sir Edwin Larch. Its chief executive is Natalie Orme, who joined from the grocer Fenmore in 2020. The group was founded in 1931 by Edwin Larch's grandfather, Joseph Larch. It employs about 41,000 people.",
+      "sentence": 2,
+      "quote": "Its chairman is Sir Edwin Larch",
+      "looking_for": "the name of the company's chairman"
+    },
+    {
+      "question": "when was the merlin washing machine launched",
+      "passage": "The Merlin is a range of washing machines made by the appliance company Tollard. The first Merlin was launched in 1962 as one of the country's first automatic machines. The range was redesigned in 1985 and again in 2010. Tollard makes about 300,000 Merlins a year at its works in Stapley Moor.",
+      "sentence": 2,
+      "quote": "The first Merlin was launched in 1962",
+      "looking_for": "the year the first machine was launched"
+    },
+    {
+      "question": "how many people work at corriemoor foods",
+      "passage": "Corriemoor Foods is a maker of frozen pies and ready meals based in the town of Brackwell. It employs about 2,300 people at three factories. The company was founded in 1957 as a butcher's shop by Ian Corrie. Its annual sales were 410 million crowns in 2024.",
+      "sentence": 2,
+      "quote": "It employs about 2,300 people",
+      "looking_for": "the number of people employed"
+    },
+    {
+      "question": "what is the sudsworth slogan",
+      "passage": "Sudsworth is a brand of household soap made by the Hale Chemical Company. Its slogan since 1926 has been \"Clean as the North Wind\". The soap was first made in 1899 at the company's works in Tarrow. It is sold in a blue paper wrapper printed with a windmill.",
+      "sentence": 2,
+      "quote": "Clean as the North Wind",
+      "looking_for": "the advertising slogan of the brand"
+    },
+    {
+      "question": "who founded velvet hare",
+      "passage": "Velvet Hare is a chain of children's clothing shops with 92 branches. It was founded in 1985 by the former schoolteacher Lorna Pike, who opened the first shop in the town of Elmswade. Since 2017 it has been owned by the clothing group Thrale. The chain's chief executive is Owen Marchetti.",
+      "sentence": 2,
+      "quote": "founded in 1985 by the former schoolteacher Lorna Pike",
+      "looking_for": "the person who founded the chain"
+    },
+    {
+      "question": "where are ganton knives made",
+      "passage": "Ganton is a maker of kitchen knives and scissors. Its factory is in the steel town of Corbrook, where it has made blades since 1880. The company's head office moved to the capital, Arnhold, in 1995. Ganton knives are sold in about thirty countries.",
+      "sentence": 2,
+      "quote": "Its factory is in the steel town of Corbrook",
+      "looking_for": "the place where the knives are made"
+    },
+    {
+      "question": "how much does the linnet stroller cost",
+      "passage": "The Linnet is a folding baby stroller made by the nursery goods company Hobbin. It sells for 349 crowns, or 399 crowns with the carrycot. The stroller folds with one hand and weighs 7.2 kilograms. It was named Stroller of the Year by Parenting Monthly in 2022.",
+      "sentence": 2,
+      "quote": "It sells for 349 crowns",
+      "looking_for": "the price of the stroller"
+    },
+    {
+      "question": "who owns carramore water",
+      "passage": "Carramore Water is a brand of bottled spring water from a source in the Carramore Hills. The brand is owned by the drinks company Fyfe and Gale. The spring was first bottled commercially in 1923 by the hotel keeper James Rennie. About 120 million bottles are sold each year.",
+      "sentence": 2,
+      "quote": "owned by the drinks company Fyfe and Gale",
+      "looking_for": "the company that owns the brand"
+    },
+    {
+      "question": "when did halcyon airways start flying",
+      "passage": "Halcyon Airways is a regional airline based at Dunmarsh Airport. It began flying in May 1993 with two turboprop aircraft between Dunmarsh and the island of Orra. The airline now has a fleet of 22 aircraft and serves 31 destinations. Its chief executive is Kofi Mensah-Hart.",
+      "sentence": 2,
+      "quote": "It began flying in May 1993",
+      "looking_for": "when the airline started flying"
+    },
+    {
+      "question": "who is the creative director of larkin and moss",
+      "passage": "Larkin and Moss is a fashion house founded in the city of Pellmouth in 1974. Its creative director is Ines Varga, who has led its design studio since 2021. She replaced the founder, Hugo Larkin, who retired after 47 years. The house shows two collections a year at Pellmouth Fashion Week.",
+      "sentence": 2,
+      "quote": "Its creative director is Ines Varga",
+      "looking_for": "the name of the current creative director"
+    },
+    {
+      "question": "when was ashbury tea founded",
+      "passage": "Ashbury Tea is a tea merchant that blends and packs loose-leaf tea and tea bags. The company was founded in 1856 by the grocer Henry Ashbury in the port of Callow. Its best-known blend, Morning Harbour, was created in 1904. The company moved its packing works to the town of Ridley in 1960.",
+      "sentence": 2,
+      "quote": "founded in 1856 by the grocer Henry Ashbury",
+      "looking_for": "the year the company was founded"
+    },
+    {
+      "question": "how many vehicles does tarrant coaches have",
+      "passage": "Tarrant Coaches is a coach operator running excursions and private hire from the town of Wellbrook. Its fleet has 46 coaches and 12 minibuses. The company was started in 1948 by the brothers Frank and Leslie Tarrant with a single war-surplus bus. It is now run by Frank Tarrant's granddaughter, Joanne Tarrant.",
+      "sentence": 2,
+      "quote": "Its fleet has 46 coaches and 12 minibuses",
+      "looking_for": "the number of vehicles in the fleet"
+    },
+    {
+      "question": "where is morley's ice cream made",
+      "passage": "Morley's Ice Cream is a family-run ice cream maker. It is made at a dairy farm near the village of Little Ashcote, where the Morley family keeps a herd of 180 cows. The business was started in 1986 by Pat and Jim Morley. Its ice cream is sold in about 400 shops and cafes.",
+      "sentence": 2,
+      "quote": "made at a dairy farm near the village of Little Ashcote",
+      "looking_for": "the place where the ice cream is made"
+    },
+    {
+      "question": "who invented the snapcatch",
+      "passage": "The Snapcatch is a spring-loaded window catch sold by the hardware company Dawes and Ruddock. It was invented in 1924 by the locksmith Arthur Penhale of Cressby. The company bought the patent from Penhale in 1926 and has made the catch ever since. More than 40 million have been sold.",
+      "sentence": 2,
+      "quote": "invented in 1924 by the locksmith Arthur Penhale",
+      "looking_for": "the person who invented the catch"
+    },
+    {
+      "question": "what size is the halo tab 10 screen",
+      "passage": "The Halo Tab 10 is a tablet computer made by Juniper Electronics. It has a 10.4-inch screen and weighs 465 grams. The tablet was released in 2022 alongside the smaller Halo Tab 8, which has an 8.7-inch screen. It runs on the company's own Pinecone operating system.",
+      "sentence": 2,
+      "quote": "It has a 10.4-inch screen",
+      "looking_for": "the size of the tablet's screen"
+    },
+    {
+      "question": "who is the managing director of penrose printing",
+      "passage": "Penrose Printing is a printing company in the town of Garth specialising in books and catalogues. Its managing director is Clare Penrose, the fourth generation of her family to run it. The firm was founded in 1898 by Walter Penrose. It has 180 staff and prints about twelve million books a year.",
+      "sentence": 2,
+      "quote": "Its managing director is Clare Penrose",
+      "looking_for": "the name of the managing director"
+    },
+    {
+      "question": "when was the haybury 35 tractor introduced",
+      "passage": "The Haybury 35 is a small farm tractor made by the agricultural machinery company Haybury. It was introduced in 1955 and remained in production until 1971. It had a 35-horsepower diesel engine and a three-point hitch. About 260,000 were built at the company's works in Cardon.",
+      "sentence": 2,
+      "quote": "It was introduced in 1955",
+      "looking_for": "the year the tractor was introduced"
+    },
+    {
+      "question": "who owns black lantern books",
+      "passage": "Black Lantern Books is a publisher of crime fiction and true crime. Since 2020 it has been owned by the publishing group Corvell House. It was founded in 1979 by the crime writer Margery Teale and her husband, the editor Paul Teale. The imprint publishes about forty books a year.",
+      "sentence": 2,
+      "quote": "owned by the publishing group Corvell House",
+      "looking_for": "the company that owns the publisher"
+    },
+    {
+      "question": "how much does the hollin flask hold",
+      "passage": "The Hollin is a stainless steel vacuum flask made by the outdoor equipment company Craigmoor. It holds 750 millilitres and keeps drinks hot for up to 24 hours. A larger version, the Hollin Max, holds 1.2 litres. The flask was launched in 2009 and comes in nine colours.",
+      "sentence": 2,
+      "quote": "It holds 750 millilitres",
+      "looking_for": "the capacity of the flask"
+    },
+    {
+      "question": "where did spindle records start",
+      "passage": "Spindle Records is an independent record label specialising in folk and acoustic music. It started in 1971 in a flat above a shop in the town of Torrisby, where its founder Ray Haddon recorded local singers. The label moved to the capital, Velmarsh, in 1980. It has released more than 600 albums.",
+      "sentence": 2,
+      "quote": "in a flat above a shop in the town of Torrisby",
+      "looking_for": "the place where the label started"
+    },
+    {
+      "question": "who runs marisford bank",
+      "passage": "Marisford Bank is a commercial bank with its head office in the city of Marisford. Its chief executive is Ruth Okafor, who took over in 2023. The bank was founded in 1888 by a group of wool merchants led by Josiah Hale. It has 140 branches and about three million customers.",
+      "sentence": 2,
+      "quote": "Its chief executive is Ruth Okafor",
+      "looking_for": "the name of the person who runs the bank"
+    },
+    {
+      "question": "how long is the warranty on fernley boots",
+      "passage": "Fernley is a maker of leather work boots and walking boots based in the town of Hasling. Its boots carry a warranty of five years against defects in the stitching and soles. The company was founded in 1919 by the cobbler Ernest Fernley. It makes about 140,000 pairs a year.",
+      "sentence": 2,
+      "quote": "a warranty of five years",
+      "looking_for": "the length of the warranty"
+    },
+    {
+      "question": "how old is quenby's sweet shop",
+      "passage": "Quenby's is a sweet shop on the high street of the village of Ambry. It has traded from the same shop since 1810, which makes it one of the oldest sweet shops in the country. The shop was bought by Marion and Keith Lowe in 1994. It sells about 300 kinds of sweets from glass jars.",
+      "sentence": 2,
+      "quote": "It has traded from the same shop since 1810",
+      "looking_for": "how long the shop has been trading"
+    },
+    {
+      "question": "who makes the kiska fridge",
+      "passage": "The Kiska is a range of compact refrigerators for caravans and boats. It is made by the appliance firm Norbeck at its factory in the town of Hallow Cross. The range was designed by Signe Lund in 1987 and updated in 2015. The Kiska runs on gas, mains electricity or a 12-volt battery.",
+      "sentence": 2,
+      "quote": "made by the appliance firm Norbeck",
+      "looking_for": "the company that makes the fridge"
+    },
+    {
+      "question": "when did ravensworth radio go out of business",
+      "passage": "Ravensworth Radio was a manufacturer of radio and television sets based in the town of Kemsley. It went out of business in 1983, when its last factory was closed by the receivers. The company had been founded in 1923 by the wireless enthusiast Cyril Ravensworth. At its peak in 1960 it employed 6,000 people.",
+      "sentence": 2,
+      "quote": "It went out of business in 1983",
+      "looking_for": "the year the company went out of business"
+    },
+    {
+      "question": "where was the first truscott's shop",
+      "passage": "Truscott's is a chain of hardware shops with 51 branches in the province of Alsmere. The first shop was opened in 1946 in the village of Polgrain by the ironmonger Harold Truscott. The company's head office and warehouse are in the town of Redmarsh. It is still owned by the Truscott family.",
+      "sentence": 2,
+      "quote": "in the village of Polgrain",
+      "looking_for": "the place where the first shop opened"
+    },
+    {
+      "question": "how many harbours does halyard cover",
+      "passage": "Halyard is a mobile app for planning sailing trips. It shows tide times, weather forecasts and harbour information for about 2,000 harbours. It was developed by the software company Bowline Labs in the city of Crane Bay and launched in 2017. The app has been downloaded about 800,000 times.",
+      "sentence": 2,
+      "quote": "harbour information for about 2,000 harbours",
+      "looking_for": "the number of harbours the app covers"
+    },
+    {
+      "question": "how strong is ferrow cider",
+      "passage": "Ferrow Cider is a dry still cider made from apples grown in the Ferrow Valley. It has an alcohol content of 6.5 percent. The cider has been made since 1902 at Ferrow Farm by the Hambly family. About 1.2 million litres are made each year.",
+      "sentence": 2,
+      "quote": "an alcohol content of 6.5 percent",
+      "looking_for": "the alcoholic strength of the cider"
+    },
+    {
+      "question": "where is ellard audio based",
+      "passage": "Ellard Audio is a maker of loudspeakers and amplifiers for home use. The company is based in the town of Fairmead, where it has a factory and listening rooms. It was founded in 1968 in the city of Haldane by the sound engineer Peter Ellard. Its loudspeakers are sold in about fifty countries.",
+      "sentence": 2,
+      "quote": "based in the town of Fairmead",
+      "looking_for": "the town where the company is based"
+    },
+    {
+      "question": "who is the president of sundial watches",
+      "passage": "Sundial is a watch brand belonging to the Kaltern Group. Its president is Marco Belli, who has run the brand since 2018. Sundial was founded in 1932 by the watchmaker Henri Dussault in the town of Valmeyer. The brand makes about 120,000 watches a year.",
+      "sentence": 2,
+      "quote": "Its president is Marco Belli",
+      "looking_for": "the name of the brand's president"
+    },
+    {
+      "question": "how many hotels does gannet inns have",
+      "passage": "Gannet Inns is a chain of budget hotels. It operates 134 hotels, most of them beside main roads and railway stations. The chain was founded in 1989 by the hotelier Simon Ashe, whose first hotel had 40 rooms. It is owned by the investment firm Brightwell Partners.",
+      "sentence": 2,
+      "quote": "It operates 134 hotels",
+      "looking_for": "the number of hotels in the chain"
+    },
+    {
+      "question": "when was the skylark kite first sold",
+      "passage": "The Skylark is a two-line stunt kite made by the kite company Windward of Polmarsh. It was first sold in 1978 and is credited with popularising stunt kites in the country. The kite has a wingspan of 2.3 metres. It was designed by the kite flier Doug Ambrose.",
+      "sentence": 2,
+      "quote": "It was first sold in 1978",
+      "looking_for": "the year the kite was first sold"
+    },
+    {
+      "question": "who publishes hearth and home magazine",
+      "passage": "Hearth and Home is a monthly magazine about interior decoration and gardening. It is published by Kenward Media from offices in the city of Saltinge. The magazine was founded in 1951 by the journalist Dorothy Kenward. Its editor is Felicity Arden.",
+      "sentence": 2,
+      "quote": "published by Kenward Media",
+      "looking_for": "the company that publishes the magazine"
+    },
+    {
+      "question": "what is mapleby spread made from",
+      "passage": "Mapleby Spread is a savoury sandwich spread sold in small brown jars. It is made from brewer's yeast extract, salt and celery. The spread was invented in 1912 by the chemist Herbert Lyle at the Mapleby Brewery. It is now made by the food company Fennick Foods.",
+      "sentence": 2,
+      "quote": "made from brewer's yeast extract, salt and celery",
+      "looking_for": "the ingredients the spread is made from"
+    },
+    {
+      "question": "how far can the volta glide go on one charge",
+      "passage": "The Volta Glide is an electric scooter made by the company Volta Mobility. It can travel up to 45 kilometres on one charge. The scooter has a top speed of 25 kilometres per hour and folds for carrying. It was launched in 2021 and costs 599 crowns.",
+      "sentence": 2,
+      "quote": "up to 45 kilometres on one charge",
+      "looking_for": "the distance the scooter travels on one charge"
+    },
+    {
+      "question": "how long does the haldor nova battery last",
+      "passage": "The Haldor Nova is a smartphone made by the electronics company Haldor. It was released in March 2024 with a 6.4-inch screen and a 50-megapixel camera. Its 5,000 mAh battery lasts about two days of normal use. It replaced the Haldor Nova Lite, which had been criticised for its short battery life.",
+      "sentence": 3,
+      "quote": "battery lasts about two days of normal use",
+      "looking_for": "how long the battery lasts"
+    },
+    {
+      "question": "who is the ceo of garrowby",
+      "passage": "Garrowby is a maker of garden furniture and sheds. It was founded in 1953 by the joiner Reg Garrow in the town of Pellsby. Its chief executive since 2020 has been Anita Rowe. The company now has factories in Pellsby and Ashtree and sells through garden centres.",
+      "sentence": 3,
+      "quote": "Its chief executive since 2020 has been Anita Rowe",
+      "looking_for": "the name of the chief executive"
+    },
+    {
+      "question": "when did penwarden's open its first shop",
+      "passage": "Penwarden's is a chain of bakeries in the county of Wendmoor. The chain has 73 shops and is known for its pasties. Its central bakery was built in 1975 at Trevowan. The first shop was opened in 1931 by Nellie Penwarden on Fore Street in Tremarra.",
+      "sentence": 4,
+      "quote": "The first shop was opened in 1931",
+      "looking_for": "the year the first shop opened"
+    },
+    {
+      "question": "how many employees does kestrel mobile have",
+      "passage": "Kestrel Mobile is a mobile phone network operating in the Republic of Norland. It was set up in 1998 as a joint venture between the telephone company Ostel and the electronics firm Pemberton Electric. The company employs 3,600 people, most of them at its head office and call centres in the city of Vallis. It has about 9.4 million customers.",
+      "sentence": 3,
+      "quote": "The company employs 3,600 people",
+      "looking_for": "the number of employees"
+    },
+    {
+      "question": "when did they stop making the bellamy rowan",
+      "passage": "The Rowan is an estate car that was made by the car company Bellamy Motors. It was introduced in 1968 as a replacement for the Bellamy Countryman. The Rowan was popular with farmers and families and was made at the Stannard Road works in Coldmere. Production ended in 1986, when it was replaced by the Bellamy Vista.",
+      "sentence": 4,
+      "quote": "Production ended in 1986",
+      "looking_for": "the year production of the car ended"
+    },
+    {
+      "question": "who founded tidewater kayaks",
+      "passage": "Tidewater Kayaks is a maker of sea kayaks based in the harbour town of Port Selwyn. Its kayaks are made of fibreglass and carbon fibre at a workshop on the quay. It was founded in 1984 by the canoeist Moira Kell, who built her first kayak in her garage. The company has been owned since 2012 by the outdoor brand Fellcraft.",
+      "sentence": 3,
+      "quote": "founded in 1984 by the canoeist Moira Kell",
+      "looking_for": "the person who founded the company"
+    },
+    {
+      "question": "where are cragg mattresses made",
+      "passage": "Cragg is a mattress brand known for its pocket-sprung mattresses. The brand was created in 1961 by the upholsterer Joseph Cragg in the city of Eastholm. Cragg mattresses are made by hand at a factory in the town of Hindlow. It was bought by the bedding company Restwell in 2008.",
+      "sentence": 3,
+      "quote": "made by hand at a factory in the town of Hindlow",
+      "looking_for": "the place where the mattresses are made"
+    },
+    {
+      "question": "how much was pellow games sold for",
+      "passage": "Pellow Games is a video game developer based in the city of Arnmouth. It is best known for the puzzle series Lanternlight, which has sold more than 12 million copies. The studio was founded in 2008 by four former university friends. In 2023 it was sold to the publisher Starling Interactive for 340 million crowns.",
+      "sentence": 4,
+      "quote": "sold to the publisher Starling Interactive for 340 million crowns",
+      "looking_for": "the price the studio was sold for"
+    },
+    {
+      "question": "who designed the arlen sofa",
+      "passage": "The Arlen is a three-seat sofa sold by the furniture retailer Homestead. It has a beech frame and loose feather cushions and comes in 30 fabrics. Homestead has sold the Arlen since 1997 and it remains the shop's best-selling sofa. It was designed by Karin Holm, who also designed the matching Arlen armchair.",
+      "sentence": 4,
+      "quote": "It was designed by Karin Holm",
+      "looking_for": "the person who designed the sofa"
+    },
+    {
+      "question": "when was larchmont insurance founded",
+      "passage": "Larchmont Insurance is an insurer of homes, cars and small businesses. It has about 2.2 million customers and a head office in the city of Dunscombe. It was founded in 1872 as a mutual fire insurance society for farmers. The company has been listed on the Dunscombe Stock Exchange since 1994.",
+      "sentence": 3,
+      "quote": "founded in 1872 as a mutual fire insurance society",
+      "looking_for": "the year the company was founded"
+    },
+    {
+      "question": "who is the head chef at gallow's table",
+      "passage": "Gallow's Table is a restaurant in the old corn exchange of the town of Merriby. It opened in 2011 and has twice been named Restaurant of the Year by the Merriby Food Guide. The restaurant was founded by the chef Daniel Ferris, who left in 2019 to open a restaurant in the capital. Its head chef is now Aisha Morland.",
+      "sentence": 4,
+      "quote": "Its head chef is now Aisha Morland",
+      "looking_for": "the name of the current head chef"
+    },
+    {
+      "question": "how long is the gannet 7 kayak",
+      "passage": "The Gannet 7 is a touring kayak made by Seacraft of Port Arrow. It was launched in 2015 to replace the Gannet 6. It is 5.2 metres long and weighs 23 kilograms. The kayak is designed for one paddler and can carry about 150 kilograms.",
+      "sentence": 3,
+      "quote": "It is 5.2 metres long",
+      "looking_for": "the length of the kayak"
+    },
+    {
+      "question": "where is cindral headquartered",
+      "passage": "Cindral is a manufacturer of ceramic tiles. It was founded in 1949 in the town of Ostwick by the brothers Leo and Max Hartig. The company grew quickly in the 1960s and opened factories in three countries. Its headquarters have been in the city of Brannau since 1981.",
+      "sentence": 4,
+      "quote": "Its headquarters have been in the city of Brannau",
+      "looking_for": "the city where the company has its headquarters"
+    },
+    {
+      "question": "who owns pinnacle outdoor",
+      "passage": "Pinnacle Outdoor is a retailer of climbing and hiking equipment with 28 shops. It was founded in 1972 by the climbers Rob Kerr and Jean Allard in the town of Scarsby. The founders sold the company in 1999 and retired to the coast. It is now owned by the sports retailer Fieldhouse Group.",
+      "sentence": 4,
+      "quote": "now owned by the sports retailer Fieldhouse Group",
+      "looking_for": "the company that owns the retailer"
+    },
+    {
+      "question": "how many passengers does the tern 20 carry",
+      "passage": "The Tern 20 is a light passenger aircraft built by Ardent Aero. It first flew in 1996 and entered service with regional airlines in 1998. It carries up to 19 passengers and two pilots. The aircraft has two turboprop engines and a range of 1,400 kilometres.",
+      "sentence": 3,
+      "quote": "It carries up to 19 passengers",
+      "looking_for": "the number of passengers it can carry"
+    },
+    {
+      "question": "who started lark and fable",
+      "passage": "Lark and Fable is a chain of toy shops with 39 branches. Its shops are known for their play tables, where children can try toys before they are bought. The chain is owned by its staff through an employee trust set up in 2016. It was started in 1990 by Rosalind Ebbs, a former primary school teacher, in the town of Cawley.",
+      "sentence": 4,
+      "quote": "started in 1990 by Rosalind Ebbs",
+      "looking_for": "the person who started the chain"
+    },
+    {
+      "question": "when was the first bluebell vacuum cleaner made",
+      "passage": "The Bluebell is an upright vacuum cleaner made by the household appliance company Sweepwell. It was the company's first product and is still its best-selling model. The cleaner's blue-painted metal body was designed by Albert Kemp. The first Bluebell was made in 1938 in a workshop in the town of Carrisford.",
+      "sentence": 4,
+      "quote": "The first Bluebell was made in 1938",
+      "looking_for": "the year the first cleaner was made"
+    },
+    {
+      "question": "what is harlock's revenue",
+      "passage": "Harlock is an engineering company that makes gearboxes and couplings for wind turbines and ships. It was founded in 1920 in the city of Rothmere. Its revenue in 2024 was 3.4 billion crowns. The company has about 11,000 employees in 18 countries.",
+      "sentence": 3,
+      "quote": "Its revenue in 2024 was 3.4 billion crowns",
+      "looking_for": "the amount of the company's revenue"
+    },
+    {
+      "question": "what does the name orlo mean",
+      "passage": "Orlo is a brand of olive oil produced by the Santerra cooperative of farmers in the hills of Calvera. The oil is pressed from Corvina olives within a day of the harvest. The brand was launched in 1994. Its name means \"edge\" in the local dialect, after the edge of the hills where the groves lie.",
+      "sentence": 4,
+      "quote": "Its name means \"edge\" in the local dialect",
+      "looking_for": "the meaning of the brand name"
+    },
+    {
+      "question": "when was lyndale dairies formed",
+      "passage": "Lyndale Dairies is a milk processor that collects milk from about 900 farms. It makes milk, cream, butter and cheese at four creameries. The company was formed in 1971 by the merger of the Lyndale Creamery Company and the Ashworth Milk Supply. Its head office is in the town of Bramworth.",
+      "sentence": 3,
+      "quote": "formed in 1971 by the merger",
+      "looking_for": "the year the company was formed"
+    },
+    {
+      "question": "how many units has the glowbox sold",
+      "passage": "The Glowbox is a handheld games console made by the electronics company Amberley Digital. It was released in November 2019 and has a 7-inch screen. The original Glowbox has sold more than 31 million units. The console was followed in 2023 by the Glowbox Plus, which has sold 9 million units.",
+      "sentence": 3,
+      "quote": "The original Glowbox has sold more than 31 million units",
+      "looking_for": "the number of units the original console has sold"
+    },
+    {
+      "question": "where is pennington's shop",
+      "passage": "Pennington's is a gentlemen's outfitters known for its tweed jackets. It was founded in 1820 by the tailor Josiah Pennington. Its only shop is at 14 Cornmarket Street in the town of Abbotsley. The firm has made cloth caps for the national rowing team since 1958.",
+      "sentence": 3,
+      "quote": "Its only shop is at 14 Cornmarket Street",
+      "looking_for": "the location of the shop"
+    },
+    {
+      "question": "who chairs holloway brothers",
+      "passage": "Holloway Brothers is a building materials merchant with 210 yards. It was founded in 1904 by the brothers Albert and Sidney Holloway. The company was listed on the stock exchange in 1986. Its chief executive is Graham Tull. The board is chaired by Esther Holloway, a granddaughter of Albert Holloway.",
+      "sentence": 5,
+      "quote": "The board is chaired by Esther Holloway",
+      "looking_for": "the name of the person who chairs the board"
+    },
+    {
+      "question": "when did the clipper lunchbox come out",
+      "passage": "The Clipper is a metal lunchbox with a domed lid and a vacuum flask clipped inside. It is made by the housewares firm Treadwell. The lunchbox became a symbol of factory work and appears in many films and songs. It came out in 1947 and has hardly changed since.",
+      "sentence": 4,
+      "quote": "It came out in 1947",
+      "looking_for": "the year the lunchbox came out"
+    },
+    {
+      "question": "how many stores does cordell home have",
+      "passage": "Cordell Home is a homeware retailer. It was founded in 1988 by Saskia Cordell, who sold candles at a market stall in the city of Tavisham. It has 156 stores and an online shop. The company was sold to the investment firm Oakbridge in 2021.",
+      "sentence": 3,
+      "quote": "It has 156 stores",
+      "looking_for": "the number of stores"
+    },
+    {
+      "question": "what engine does the marten scout have",
+      "passage": "The Marten Scout is a small off-road vehicle made by Marten Motors of Kellsby. It is used by farmers, foresters and mountain rescue teams. The Scout has permanent four-wheel drive and a ground clearance of 280 millimetres. It is powered by a 2.2-litre four-cylinder diesel engine.",
+      "sentence": 4,
+      "quote": "powered by a 2.2-litre four-cylinder diesel engine",
+      "looking_for": "the engine the vehicle has"
+    },
+    {
+      "question": "how many restaurants does pasta mia have",
+      "passage": "Pasta Mia is a chain of Italian restaurants. It was founded in 1993 by the restaurateur Gino Saltieri in the city of Brennford. The chain grew quickly in the 2000s and was bought by the food service group Platewell in 2014. It now has 87 restaurants. Its menu is the same in every branch and changes twice a year.",
+      "sentence": 4,
+      "quote": "It now has 87 restaurants",
+      "looking_for": "the number of restaurants in the chain"
+    },
+    {
+      "question": "who invented fizzwell",
+      "passage": "Fizzwell is a carbonated soft drink flavoured with ginger and lemon. Its recipe has never been published. It is made by the drinks company Albion Springs and sold in 30 countries. The drink is known for its yellow glass bottle. It was invented in 1909 by the chemist Walter Brigg, who sold the recipe to Albion Springs in 1911.",
+      "sentence": 5,
+      "quote": "invented in 1909 by the chemist Walter Brigg",
+      "looking_for": "the person who invented the drink"
+    },
+    {
+      "question": "how bright is the lumo p1 projector",
+      "passage": "The Lumo P1 is a home cinema projector made by Corrado Optics. It was launched in 2022 at a price of 1,899 crowns. It has a brightness of 2,800 lumens. The projector uses a laser light source rated for 25,000 hours.",
+      "sentence": 3,
+      "quote": "It has a brightness of 2,800 lumens",
+      "looking_for": "the brightness of the projector"
+    },
+    {
+      "question": "who leads oakmere garden centres",
+      "passage": "Oakmere is a group of garden centres with 22 sites. It was founded in 1964 by the nurseryman Dennis Oak. Its largest centre, at Oakmere Cross, covers eight hectares. In 2018 the group was bought by the family of its then chief executive, Paul Merriman. Since 2022 it has been led by Paul Merriman's daughter, Lucy Merriman.",
+      "sentence": 5,
+      "quote": "led by Paul Merriman's daughter, Lucy Merriman",
+      "looking_for": "the name of the person who now leads the group"
+    },
+    {
+      "question": "where was pellworth's first factory",
+      "passage": "Pellworth is a maker of sports shoes. The company's head office is in the city of Erlach. Its shoes are now made under contract in several countries. Pellworth's first factory was a converted tannery in the village of Sollen, opened in 1951.",
+      "sentence": 4,
+      "quote": "a converted tannery in the village of Sollen",
+      "looking_for": "the place where the first factory was"
+    },
+    {
+      "question": "who designed the hearth teapot",
+      "passage": "The Hearth is a brown stoneware teapot made by the Kilnworth Pottery. The pottery has made it in the same brown glaze since the start. It holds six cups and has a lid that locks in place when pouring. The teapot has been made since 1934. Its shape was designed by the potter Ellen Harker.",
+      "sentence": 5,
+      "quote": "designed by the potter Ellen Harker",
+      "looking_for": "the person who designed the teapot"
+    },
+    {
+      "question": "how many stores did trimble's have at its peak",
+      "passage": "Trimble's was a chain of electrical shops. It closed in 2009 after the company went into administration. At its peak in 1995 it had 312 stores. The chain was founded in 1957 by Leonard Trimble in the town of Arnley.",
+      "sentence": 3,
+      "quote": "At its peak in 1995 it had 312 stores",
+      "looking_for": "the largest number of stores the chain had"
+    },
+    {
+      "question": "who makes the glide wheelchair",
+      "passage": "The Glide is a lightweight folding wheelchair. It weighs 9 kilograms without its wheels and can be folded in a few seconds. The chair was designed in 2012 by the engineer and Paralympic athlete Sam Okoro. It is made by the mobility company Freewheel Medical in the town of Hensby.",
+      "sentence": 4,
+      "quote": "made by the mobility company Freewheel Medical",
+      "looking_for": "the company that makes the wheelchair"
+    },
+    {
+      "question": "when did bellows brewery stop brewing",
+      "passage": "Bellows Brewery was a brewery in the town of Marston Hythe. It was founded in 1823 by the innkeeper Thomas Bellows. Its best-known beer was a dark mild called Bellows Black. In 1962 it was taken over by the larger brewer Kemp and Lowe. Brewing at the Marston Hythe site stopped in 1968, and the buildings became a museum in 1990.",
+      "sentence": 5,
+      "quote": "Brewing at the Marston Hythe site stopped in 1968",
+      "looking_for": "the year brewing stopped"
+    },
+    {
+      "question": "what are tallis guitars made of",
+      "passage": "Tallis is a maker of acoustic guitars based in the town of Rookwood. It was founded in 1979 by the luthier Ana Ribeiro, who had trained in the city of Valdora. The guitars have tops of spruce or cedar and backs of walnut grown on the company's own land. About 3,000 are made each year.",
+      "sentence": 3,
+      "quote": "tops of spruce or cedar and backs of walnut",
+      "looking_for": "the woods the guitars are made from"
+    },
+    {
+      "question": "how many employees does rokeby software have",
+      "passage": "Rokeby Software makes programs for managing hospitals and clinics. It was founded in 1991 by two doctors, Imran Shah and Claire Rokeby. It has about 4,700 employees. The company is based in the city of Fenmouth and has offices in six other countries.",
+      "sentence": 3,
+      "quote": "It has about 4,700 employees",
+      "looking_for": "the number of employees"
+    },
+    {
+      "question": "when did ostmann stop making cameras",
+      "passage": "Ostmann Optik is a maker of binoculars and rifle scopes based in the town of Wellendorf. It was founded in 1898 as a maker of spectacle lenses. From 1936 the company also made cameras, including the Kestrel rangefinders. It stopped making cameras in 1974 to concentrate on binoculars. The company now employs about 800 people.",
+      "sentence": 4,
+      "quote": "It stopped making cameras in 1974",
+      "looking_for": "the year the company stopped making cameras"
+    },
+    {
+      "question": "what is hallam tools' best selling product",
+      "passage": "Hallam Tools is a maker of hand tools for gardeners and builders. The company was founded in 1891 in the city of Mellor. It makes about 400 different tools, from trowels to wrecking bars. Its best-selling product is the Hallam Number 4 spade, which has been made since 1903.",
+      "sentence": 4,
+      "quote": "best-selling product is the Hallam Number 4 spade",
+      "looking_for": "the name of the best-selling product"
+    },
+    {
+      "question": "who designed the linnea bag",
+      "passage": "The Linnea is a leather handbag made by the fashion house Valcourt. It was introduced in 1966 and named after the actress Linnea Strand, who carried one in a film. The bag is made by hand in the company's workshop in the town of Sauvelle. It was designed by Odile Marchand, Valcourt's head of leather goods at the time.",
+      "sentence": 4,
+      "quote": "designed by Odile Marchand",
+      "looking_for": "the person who designed the handbag"
+    },
+    {
+      "question": "where is the glenbarrow distillery",
+      "passage": "Glenbarrow is a single malt whisky owned by the drinks group Strathvane Spirits. The whisky was first distilled in 1824 by the farmer Duncan Barrow. It is aged for at least twelve years in sherry casks. The distillery stands on the banks of the Barrow Burn near the village of Inverlee. About 400,000 bottles are sold each year.",
+      "sentence": 4,
+      "quote": "near the village of Inverlee",
+      "looking_for": "the place where the distillery stands"
+    },
+    {
+      "question": "how many subscribers does pagewise have",
+      "passage": "Pagewise is an online service that lends electronic books for a monthly fee. It was launched in 2013 by the software company Inkwell Digital. The service has about 6.5 million subscribers. Its library holds about 1.2 million titles from more than 4,000 publishers.",
+      "sentence": 3,
+      "quote": "The service has about 6.5 million subscribers",
+      "looking_for": "the number of subscribers"
+    },
+    {
+      "question": "who owns the copper kettle tea room",
+      "passage": "The Copper Kettle is a tea room in the village of Ambersley. It opened in 1952 in the former village post office. It is known for its scones and its collection of more than 300 teapots. The tea room was run for forty years by its founder, Joan Pettifer. It has been owned since 2016 by the baker Liam Doyle and his partner Sara Quint.",
+      "sentence": 5,
+      "quote": "owned since 2016 by the baker Liam Doyle and his partner Sara Quint",
+      "looking_for": "the people who own the tea room"
+    },
+    {
+      "question": "how much water does the fenwold d60 use",
+      "passage": "The Fenwold D60 is a freestanding dishwasher made by the appliance company Fenwold. It holds 14 place settings and has eight programmes. It uses 9.5 litres of water on its eco programme. The dishwasher was launched in 2023 and won a design award the same year.",
+      "sentence": 3,
+      "quote": "It uses 9.5 litres of water",
+      "looking_for": "the amount of water the dishwasher uses"
+    },
+    {
+      "question": "who founded rudd and prior",
+      "passage": "Rudd and Prior is a firm of estate agents with 40 offices. The firm specialises in country houses and farms. Its head office is in the market town of Pellbury. It merged with the rival agency Coombe Lettings in 2005. It was founded in 1887 by the land surveyors William Rudd and Edward Prior.",
+      "sentence": 5,
+      "quote": "founded in 1887 by the land surveyors William Rudd and Edward Prior",
+      "looking_for": "the people who founded the firm"
+    },
+    {
+      "question": "who is the current ceo of marchbank",
+      "passage": "Marchbank is a maker of office furniture based in the town of Elsworth. It was founded in 1946 by the cabinet maker Victor Marchbank. From 1988 to 2015 the company was led by its chief executive Duncan Reid, who expanded it into twelve countries. It employs about 3,000 people.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current chief executive"
+    },
+    {
+      "question": "who owns pebblestone cheese",
+      "passage": "Pebblestone is a hard cheese made from cow's milk on farms near the village of Stonecross. It was first made in 1874 by the farmer's wife Martha Lyle. The cheese is aged for at least eighteen months in caves cut into the hillside. It won the supreme champion award at the Midmarsh Cheese Show in 2019.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the owner of the cheese brand"
+    },
+    {
+      "question": "how many employees does coldwell paper have",
+      "passage": "Coldwell Paper is a paper maker with mills in the towns of Coldwell and Brisby. It was founded in 1802 and is one of the oldest companies in the country. The two mills produce about 180,000 tonnes of paper a year. Its largest customer is the newspaper group Herald Press.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of people employed"
+    },
+    {
+      "question": "when was orrin software founded",
+      "passage": "Orrin Software is a developer of design programs for architects. Its main product, Orrin Draft, was first released in 1994. The company floated on the stock exchange in 2001 and was bought by the engineering software group Talus in 2017. It has about 900 employees.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the company was founded"
+    },
+    {
+      "question": "how much does the sparrow e-reader cost",
+      "passage": "The Sparrow is an electronic book reader sold by the bookseller Leaf and Quill. It has a 6-inch screen and holds about 8,000 books. The first Sparrow, launched in 2012, cost 129 crowns. The current fourth-generation model was released in 2024 with a lit screen and a waterproof case.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the current price of the e-reader"
+    },
+    {
+      "question": "who designed the pellinor coupe",
+      "passage": "The Pellinor is a two-door coupe built by Vantor Cars since 2016. It was named after the Pellinor Pass, where the company tests its cars. The car is assembled at Vantor's factory in Lessano and has a V8 engine. It was unveiled at the Arnmouth Motor Show by the company's chairman, Rafael Vantor.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who designed the car"
+    },
+    {
+      "question": "where is cobbler's rest headquartered",
+      "passage": "Cobbler's Rest is a chain of shoe repair and key cutting shops. It has 640 branches, many of them in supermarkets and railway stations. The first branch was opened in 1969 in the town of Haddersley by the shoe repairer Tom Gant. The company was bought by its employees in 2012.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the place where the company has its headquarters"
+    },
+    {
+      "question": "who is the head of ferrand bank",
+      "passage": "Ferrand Bank is a private bank founded in 1781 in the city of Lauzerne by the merchant Jacques Ferrand. It manages money for wealthy families and charities. The bank was run by members of the Ferrand family until 1979. It has offices in eight countries.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the person who currently heads the bank"
+    },
+    {
+      "question": "what is the top speed of the brisa moped",
+      "passage": "The Brisa is a moped made by the motorcycle company Moto Valdi since 1964. It has a 49 cc two-stroke engine and pedals for starting. The Brisa is the best-selling moped in the company's history, with more than four million made. Its fuel tank holds 3.5 litres.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the maximum speed of the moped"
+    },
+    {
+      "question": "who founded harvest lane foods",
+      "passage": "Harvest Lane Foods is a snack food group based in the city of Lowmoor. It owns brands including Kittering Crisps, Barlow's Pretzels and Nutkin. The group's largest factory is in the town of Kittering. Its chief executive since 2016 has been Martin Seyer.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who founded the company"
+    },
+    {
+      "question": "when did peabody's toy shop open",
+      "passage": "Peabody's is a toy shop on Bridge Street in the town of Ellsworth. It is the largest toy shop in the county, with four floors. The shop was bought by the brothers Tom and Ian Peabody in 1964 and renamed after them. It was rebuilt after a fire in 1987.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the date the shop first opened"
+    },
+    {
+      "question": "how many branches does stourley building society have",
+      "passage": "Stourley Building Society is a mutual savings and mortgage lender owned by its members. It was founded in 1852 in the town of Stourley. The society has about 410,000 members and lends mainly to first-time buyers. In 2008 it merged with the smaller Ashmead Building Society, which had 14 branches.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of branches the society has"
+    },
+    {
+      "question": "who is the ceo of talbrook systems",
+      "passage": "Talbrook Systems is a software company based in the city of Rennart. Its best-known product is the accounting program Lumen Ledger. The company was founded in 1999 by Alan Fisk and Joanne Hale, who ran it together until both retired in 2018. It has about 1,300 employees.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current chief executive"
+    },
+    {
+      "question": "how much does a tolland watch cost",
+      "passage": "Tolland is a watch brand founded in 1878 by the watchmaker Emil Tolland. Its watches are made in small numbers in the mountain town of Grisvall. The brand's best-known model is the Tolland Meridian, introduced in 1931. The record price paid for a Tolland at auction is 1.2 million crowns, for a pocket watch made in 1902.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the price of a watch"
+    },
+    {
+      "question": "who designed the pennant radio",
+      "passage": "The Pennant is a portable transistor radio made by Ravensworth Radio from 1961 to 1975. It was the company's best-selling product, with about 1.8 million made. The Pennant was advertised by the singer Lily Mayhew, who was photographed with one on the beach at Corlow. A revised model with an FM band was introduced in 1968.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who designed the radio"
+    },
+    {
+      "question": "when was gannet boatworks founded",
+      "passage": "Gannet Boatworks is a builder of small sailing boats on the quay at Wexley Quay. Its best-known boat is the Pellow Tern dinghy, introduced in 1981. The yard moved to its present sheds in 1958 after a fire destroyed its old workshop. It builds about 300 boats a year.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the boatyard was founded"
+    },
+    {
+      "question": "who owns lattice bakery",
+      "passage": "Lattice Bakery is an artisan bakery on Mill Street in the town of Quarrington. It was founded in 2009 by the pastry chef Helene Dubois. The founder sold the bakery in 2020 and moved abroad. It is run day to day by its head baker, Marcus Webb.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the bakery's owner"
+    },
+    {
+      "question": "how many cars does bellamy motors make a year",
+      "passage": "Bellamy Motors is a car maker based in the town of Coldmere. It was founded in 1921 by the engineer Charles Bellamy. Its best-known car was the Rowan estate, of which 640,000 were made between 1968 and 1986. The company now makes only electric cars.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of cars made each year"
+    },
+    {
+      "question": "when did haddon's close",
+      "passage": "Haddon's is a family-owned maker of woollen blankets in the village of Calder Brook. It was founded in 1790 and is still run by the Haddon family. The company's original mill burned down in 1911 and was replaced by the present building. Its blankets are sold in about 200 shops.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the date the company closed"
+    },
+    {
+      "question": "who is the ceo of fieldhouse group",
+      "passage": "Fieldhouse Group is a sports retailer that owns the Pinnacle Outdoor and Runner's Way chains. It was founded in 1958 by the former footballer Stan Field. The group has about 520 shops. In 2024 it appointed Bernard Collis as its new chairman.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the chief executive"
+    },
+    {
+      "question": "when was the pemberton four launched",
+      "passage": "The Pemberton Four is a four-slice toaster made by the appliance company Pemberton Electric. It has a chrome body and separate controls for each pair of slots. The toaster was named Product of the Year by the Household Goods Council in 2017. A two-slice version, the Pemberton Two, followed in 2019.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the toaster was launched"
+    },
+    {
+      "question": "how much does the kestle t20 weigh",
+      "passage": "The Kestle T20 is a cordless hedge trimmer made by the garden tools firm Kestle. It has a 55-centimetre blade and cuts branches up to 20 millimetres thick. The trimmer's battery charges in 60 minutes and runs for about 50 minutes. It was launched in 2021 and costs 149 crowns.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the weight of the trimmer"
+    },
+    {
+      "question": "who founded fyfe and gale",
+      "passage": "Fyfe and Gale is a drinks company that makes bottled water, cordials and tonic water. It owns the Carramore Water brand, which it bought from the Rennie family in 1987. The company's head office is in the city of Strelby. Its chief executive is Angus Fyfe-Moran.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who founded the company"
+    },
+    {
+      "question": "where is ambrel based",
+      "passage": "Ambrel is a computer company known for its lightweight laptops. It was founded in 2006 by the engineers Mei Lin and Jonas Ekholm. Its laptops are assembled by contract manufacturers in three countries. The company opened its first shop in 2019 on Kings Parade in the city of Arnsby.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the place where the company is based"
+    },
+    {
+      "question": "who is the head brewer at ashdown ales",
+      "passage": "Kelsby Gold is a pale ale brewed by Ashdown Ales in the town of Kelsby. It was first brewed in 1959 by the brewer Frank Lomas, whose recipe is still used. The beer has an alcohol content of 4.2 percent. It won the champion beer award at the Northern Beer Festival in 2014.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current head brewer"
+    },
+    {
+      "question": "when did coastair start flying",
+      "passage": "Coastair was a regional airline based at Ostley Airport. It flew small propeller aircraft to the islands off the west coast. The airline stopped flying in October 2001 after its largest aircraft was grounded. At its peak it carried about 400,000 passengers a year.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the date the airline started flying"
+    },
+    {
+      "question": "how many people does freewheel medical employ",
+      "passage": "Freewheel Medical is a maker of wheelchairs and walking aids based in the town of Hensby. It makes about 60,000 wheelchairs a year, most of them sold to hospitals. The company was founded in 1997 by three wheelchair users. It has sponsored the national wheelchair basketball team since 2010.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of people employed"
+    },
+    {
+      "question": "who designed the puffin pram",
+      "passage": "The Puffin is a coach-built pram made by the nursery firm Hobbin since 1932. It has a steel chassis, leaf springs and a hood of waxed cotton. It was chosen in 1958 by the actress Vera Lyall for her first child, which made it fashionable. A modern version with a lighter frame was launched in 2010.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who designed the pram"
+    },
+    {
+      "question": "where is inkwell digital based",
+      "passage": "Inkwell Digital is a software company that runs the electronic book lending service Pagewise. It was founded in 2011 by the former librarian Grace Odum and the programmer Sven Dahl. Its first office was in a shared workspace in the city of Tamsley. The company employs about 350 people.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the place where the company is based"
+    },
+    {
+      "question": "how many stores does homestead have",
+      "passage": "Homestead is a furniture retailer founded in 1972 by Gordon and Eileen Blake in the town of Mirren. Its best-selling product is the Arlen sofa. The company's warehouse in Mirren covers 40,000 square metres. Homestead also sells online and delivers to every part of the country.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of stores the retailer has"
+    }
+  ]
+}

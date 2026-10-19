@@ -1,0 +1,500 @@
+{"text": "my area was getting so cramped under that huge tent", "category": "none", "pair": 0, "key": "area", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how many acres is an area of 3.5 hectares", "category": "conversion", "pair": 0, "key": "area", "skill": "convertArea", "half": "real", "source": "fresh"}
+{"text": "the base of the building looked solid from the ground up", "category": "none", "pair": 1, "key": "base", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what does 345 look like written in base 6", "category": "conversion", "pair": 1, "key": "base", "skill": "convertBase", "half": "real", "source": "fresh"}
+{"text": "i'm finally starting to understand the weight of my own decisions", "category": "none", "pair": 2, "key": "weight", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "my suitcase weight is 23 kg, what is that in pounds", "category": "conversion", "pair": 2, "key": "weight", "skill": "convertMass", "half": "real", "source": "fresh"}
+{"text": "the volume in my stomach felt like a thousand gallons of tea", "category": "none", "pair": 3, "key": "gallons", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "turn 12 us gallons into litres please", "category": "conversion", "pair": 3, "key": "gallons", "skill": "convertVolume", "half": "real", "source": "fresh"}
+{"text": "i spent three days straight on the loft conversion", "category": "none", "pair": 4, "key": "conversion", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "quick unit conversion: 64 fluid ounces to millilitres", "category": "conversion", "pair": 4, "key": "conversion", "skill": "convertVolume", "half": "real", "source": "fresh"}
+{"text": "what if the temperature drops before we even start the show", "category": "none", "pair": 5, "key": "temperature", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "convert an oven temperature of 350 fahrenheit to celsius", "category": "conversion", "pair": 5, "key": "temperature", "skill": "convertTemperature", "half": "real", "source": "fresh"}
+{"text": "the angle of his gaze shifted and the room felt wider", "category": "none", "pair": 6, "key": "angle", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "express a 135 degree angle in radians", "category": "conversion", "pair": 6, "key": "angle", "skill": "convertAngle", "half": "real", "source": "fresh"}
+{"text": "do i really have to spell it out for you", "category": "none", "pair": 7, "key": "spell", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "spell out 18,750 the way you'd say it", "category": "conversion", "pair": 7, "key": "spell", "skill": "numberToWords", "half": "real", "source": "fresh"}
+{"text": "my shoes are worn down but good for a few hundred more feet", "category": "none", "pair": 8, "key": "feet", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how many metres is 40 feet", "category": "conversion", "pair": 8, "key": "feet", "skill": "convertLength", "half": "real", "source": "fresh"}
+{"text": "they say the speed of light is crazy fast, it just keeps going", "category": "none", "pair": 9, "key": "speed", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "i need 30 metres per second as a speed in mph", "category": "conversion", "pair": 9, "key": "speed", "skill": "convertSpeed", "half": "real", "source": "fresh"}
+{"text": "eighty thousand seconds felt like a lifetime, yet only an hour passed", "category": "none", "pair": 10, "key": "seconds", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "turn 20,000 seconds into weeks, days and hours", "category": "conversion", "pair": 10, "key": "seconds", "skill": "convertTime", "half": "real", "source": "fresh"}
+{"text": "there were acres of empty seats at the gig", "category": "none", "pair": 11, "key": "acres", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "how big are 40 acres when measured in hectares", "category": "conversion", "pair": 11, "key": "acres", "skill": "convertArea", "half": "real", "source": "fresh"}
+{"text": "we've had rows about money all week", "category": "none", "pair": 12, "key": "rows", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "turn these rows into csv: name, age / sam, 31 / jo, 27", "category": "data", "pair": 12, "key": "rows", "skill": "toCsv", "half": "real", "source": "fresh"}
+{"text": "i had to filter out all the noise to hear him", "category": "none", "pair": 13, "key": "filter", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "filter my expenses table down to just the travel lines", "category": "data", "pair": 13, "key": "filter", "skill": "filterRows", "half": "real", "source": "fresh"}
+{"text": "this heatwave is going to flatten me", "category": "none", "pair": 14, "key": "flatten", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "flatten this json so every key becomes a dot path", "category": "data", "pair": 14, "key": "flatten", "skill": "flattenJson", "half": "real", "source": "fresh"}
+{"text": "the path to my old feelings was dotted with mistakes", "category": "none", "pair": 15, "key": "path", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "read the path user.address.city out of this json", "category": "data", "pair": 15, "key": "path", "skill": "getPath", "half": "real", "source": "fresh"}
+{"text": "my group of friends finally got together this week", "category": "none", "pair": 16, "key": "group", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "group these sales by region and total each one", "category": "data", "pair": 16, "key": "group", "skill": "groupBy", "half": "real", "source": "fresh"}
+{"text": "it was hard to pivot my focus when everything moved", "category": "none", "pair": 17, "key": "pivot", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "can you pivot my sales so months run across and products down", "category": "data", "pair": 17, "key": "pivot", "skill": "pivotRows", "half": "real", "source": "fresh"}
+{"text": "sort the chaos in my head so i can breathe", "category": "none", "pair": 18, "key": "sort", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "sort these table rows by price, cheapest first", "category": "data", "pair": 18, "key": "sort", "skill": "sortRows", "half": "real", "source": "fresh"}
+{"text": "i wish i could just reorder my priorities properly", "category": "none", "pair": 19, "key": "reorder", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "reorder the keys in this json alphabetically, all levels", "category": "data", "pair": 19, "key": "reorder", "skill": "sortObjectKeys", "half": "real", "source": "fresh"}
+{"text": "she can transpose any song into a new key by ear", "category": "none", "pair": 20, "key": "transpose", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "transpose this table so the months run down the side", "category": "data", "pair": 20, "key": "transpose", "skill": "transposeTable", "half": "real", "source": "fresh"}
+{"text": "his query went unanswered for weeks", "category": "none", "pair": 21, "key": "query", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "build a query string from page=2, sort=new and q=boots", "category": "data", "pair": 21, "key": "query", "skill": "buildQueryString", "half": "real", "source": "fresh"}
+{"text": "my flat is never tidy for more than a day", "category": "none", "pair": 22, "key": "tidy", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "tidy this json up with two-space indents", "category": "data", "pair": 22, "key": "tidy", "skill": "formatJson", "half": "real", "source": "fresh"}
+{"text": "they handed me a key to open the back door", "category": "none", "pair": 23, "key": "key", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "read this key=value text into data: host=db1, port=5432", "category": "data", "pair": 23, "key": "key", "skill": "parseKeyValue", "half": "real", "source": "fresh"}
+{"text": "set my expectations lower after that long delay", "category": "none", "pair": 24, "key": "set", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "set ui.theme to dark in this json config", "category": "data", "pair": 24, "key": "set", "skill": "setPath", "half": "real", "source": "fresh"}
+{"text": "it's been five working days since i last saw the sun", "category": "none", "pair": 25, "key": "working", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "count the working days between 2 june and 27 june for my invoice", "category": "dates", "pair": 25, "key": "working", "skill": "businessDaysBetween", "half": "real", "source": "fresh"}
+{"text": "the countdown to christmas starts in august at our house", "category": "none", "pair": 26, "key": "countdown", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "start a countdown to my sister's wedding on 12 june", "category": "dates", "pair": 26, "key": "countdown", "skill": "countdownTo", "half": "real", "source": "fresh"}
+{"text": "i can't stop thinking about how quickly the year is spinning", "category": "none", "pair": 27, "key": "year", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what day of the year is 9 august, and how much is left", "category": "dates", "pair": 27, "key": "year", "skill": "dayOfYear", "half": "real", "source": "fresh"}
+{"text": "she kept her appointment every fortnight from then on", "category": "none", "pair": 28, "key": "fortnight", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "give me the dates every fortnight from 5 january, ten in all", "category": "dates", "pair": 28, "key": "fortnight", "skill": "expandRecurrence", "half": "real", "source": "fresh"}
+{"text": "she couldn't wait for the weekend after that long stretch of work", "category": "none", "pair": 29, "key": "weekend", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "do we get 14 march 2027 off, is it a weekend", "category": "dates", "pair": 29, "key": "weekend", "skill": "isWeekend", "half": "real", "source": "fresh"}
+{"text": "the party was two days ago and it was chaos", "category": "none", "pair": 30, "key": "ago", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how long ago was 3 march 2019, in plain words", "category": "dates", "pair": 30, "key": "ago", "skill": "timeAgo", "half": "real", "source": "fresh"}
+{"text": "she booked the flight for next week and i hope it works out", "category": "none", "pair": 31, "key": "week", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what iso week is my exam on 18 november in", "category": "dates", "pair": 31, "key": "week", "skill": "isoWeek", "half": "real", "source": "fresh"}
+{"text": "it was just six weeks ago when we finally finished the project", "category": "none", "pair": 32, "key": "weeks", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what date is six weeks after 14 may", "category": "dates", "pair": 32, "key": "weeks", "skill": "addDuration", "half": "real", "source": "fresh"}
+{"text": "my body is still in another time zone", "category": "none", "pair": 33, "key": "zone", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "convert 4pm sydney time into my zone, london", "category": "dates", "pair": 33, "key": "zone", "skill": "convertTimezone", "half": "real", "source": "fresh"}
+{"text": "she went on a date with the barista last night", "category": "none", "pair": 34, "key": "date", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "reformat the date 2026-11-07 the british way, day first", "category": "dates", "pair": 34, "key": "date", "skill": "formatDate", "half": "real", "source": "fresh"}
+{"text": "it was a busy month so i was glad of three days off", "category": "none", "pair": 35, "key": "month", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how long is the month of february in 2028", "category": "dates", "pair": 35, "key": "month", "skill": "daysInMonth", "half": "real", "source": "fresh"}
+{"text": "the gap between that sale and the next one feels like an eternity", "category": "none", "pair": 36, "key": "gap", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's the gap in days between 3 april and 19 june", "category": "dates", "pair": 36, "key": "gap", "skill": "daysBetween", "half": "real", "source": "fresh"}
+{"text": "i forgot to save that timestamp before the system shut down", "category": "none", "pair": 37, "key": "timestamp", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what date and time is the timestamp 1767225600", "category": "dates", "pair": 37, "key": "timestamp", "skill": "unixToIso", "half": "real", "source": "fresh"}
+{"text": "i finally broke even between buying my second hand car and renting", "category": "none", "pair": 38, "key": "even", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "when does a 400 bike break even against bus fares of 3.20 a day", "category": "decisions", "pair": 38, "key": "even", "skill": "breakEvenComparison", "half": "real", "source": "fresh"}
+{"text": "he asked for the expected value of a coin flip and i laughed", "category": "none", "pair": 39, "key": "expected", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "expected return on a 2 pound ticket where 1 in 300 wins 400?", "category": "decisions", "pair": 39, "key": "expected", "skill": "expectedValue", "half": "real", "source": "fresh"}
+{"text": "my mum's criteria for a husband are impossible", "category": "none", "pair": 40, "key": "criteria", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "score three cars on my criteria: price 40%, safety 35%, looks 25%", "category": "decisions", "pair": 40, "key": "criteria", "skill": "weightedDecisionMatrix", "half": "real", "source": "fresh"}
+{"text": "is it even worth getting out of bed today", "category": "none", "pair": 41, "key": "worth", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "over 3 years, is a 900 laptop worth it versus renting at 30 a month", "category": "decisions", "pair": 41, "key": "worth", "skill": "breakEvenComparison", "half": "real", "source": "fresh"}
+{"text": "you can't stack your luck when the odds are already against you", "category": "none", "pair": 42, "key": "odds", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "with 1 in 4 odds of winning 60 for a 10 stake, should i bet", "category": "decisions", "pair": 42, "key": "odds", "skill": "expectedValue", "half": "real", "source": "fresh"}
+{"text": "i can never decide what to have for lunch", "category": "none", "pair": 43, "key": "decide", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "help me decide on a puppy: for points 5 and 4, against 3 and 2", "category": "decisions", "pair": 43, "key": "decide", "skill": "prosConsScore", "half": "real", "source": "fresh"}
+{"text": "the decision matrix helped me pick the flat that saves on rent", "category": "none", "pair": 44, "key": "matrix", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "build a decision matrix for three phones: price 0.5, camera 0.3, battery 0.2", "category": "decisions", "pair": 44, "key": "matrix", "skill": "weightedDecisionMatrix", "half": "real", "source": "fresh"}
+{"text": "the payoff from all that revision was huge", "category": "none", "pair": 45, "key": "payoff", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "show me the payoff point: solar panels cost 6,000 and save 450 a year", "category": "decisions", "pair": 45, "key": "payoff", "skill": "breakEvenComparison", "half": "real", "source": "fresh"}
+{"text": "i've completely lost my work life balance", "category": "none", "pair": 46, "key": "balance", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "for and against a new job: +3, +2, -4, what's the balance", "category": "decisions", "pair": 46, "key": "balance", "skill": "prosConsScore", "half": "real", "source": "fresh"}
+{"text": "my paint job looks pretty complementary with the new blue trim", "category": "none", "pair": 47, "key": "complementary", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's the complementary colour of #3a7d44", "category": "design", "pair": 47, "key": "complementary", "skill": "complementaryColor", "half": "real", "source": "fresh"}
+{"text": "she decided to darken the poster so the sign was harder to read", "category": "none", "pair": 48, "key": "darken", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "darken #88c0d0 by a quarter for me", "category": "design", "pair": 48, "key": "darken", "skill": "darkenColor", "half": "real", "source": "fresh"}
+{"text": "lighten up, it was only a joke", "category": "none", "pair": 49, "key": "lighten", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "lighten #6b4226 by 30 percent for a hover state", "category": "design", "pair": 49, "key": "lighten", "skill": "lightenColor", "half": "real", "source": "fresh"}
+{"text": "the way red and blue blend together in the bruised sky looked unreal", "category": "none", "pair": 50, "key": "blend", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "blend #ff6600 and #0066ff, 70 to 30", "category": "design", "pair": 50, "key": "blend", "skill": "mixColors", "half": "real", "source": "fresh"}
+{"text": "i couldn't remember what to call that muddy brown until someone said earthy", "category": "none", "pair": 51, "key": "call", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what would you call #8b6f47 as a css colour name", "category": "design", "pair": 51, "key": "call", "skill": "nearestNamedColor", "half": "real", "source": "fresh"}
+{"text": "the palette of that grey wall shifts with the sun all day", "category": "none", "pair": 52, "key": "palette", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "build a triadic palette around #264653", "category": "design", "pair": 52, "key": "palette", "skill": "generatePalette", "half": "real", "source": "fresh"}
+{"text": "every aspect of this wedding has been stressful", "category": "none", "pair": 53, "key": "aspect", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "what aspect ratio is a 3440 by 1440 monitor", "category": "design", "pair": 53, "key": "aspect", "skill": "aspectRatio", "half": "real", "source": "fresh"}
+{"text": "he turned his room from bright yellow into a cosy dark grey", "category": "none", "pair": 54, "key": "grey", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "give me the hsl for this grey: #8a8d91", "category": "design", "pair": 54, "key": "grey", "skill": "convertColor", "half": "real", "source": "fresh"}
+{"text": "i guess we can't be too generous with our pixels", "category": "none", "pair": 55, "key": "pixels", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "convert 18 pixels to rem, my root font is 16", "category": "design", "pair": 55, "key": "pixels", "skill": "pxToRem", "half": "real", "source": "fresh"}
+{"text": "she blew the whole thing out of all proportion", "category": "none", "pair": 56, "key": "proportion", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "resize 1600x900 to 400 wide, keeping the proportion", "category": "design", "pair": 56, "key": "proportion", "skill": "scaleDimensions", "half": "real", "source": "fresh"}
+{"text": "my layout is finally stable since i stopped trying to shrink everything", "category": "none", "pair": 57, "key": "shrink", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "shrink 3000 by 2000 to fit 800 wide, same shape", "category": "design", "pair": 57, "key": "shrink", "skill": "scaleDimensions", "half": "real", "source": "fresh"}
+{"text": "there's no escape from the school run", "category": "none", "pair": 58, "key": "escape", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "escape this for use in a regex: price (usd) $5.00", "category": "developer", "pair": 58, "key": "escape", "skill": "escapeRegex", "half": "real", "source": "fresh"}
+{"text": "that 404 error hit me like a wall", "category": "none", "pair": 59, "key": "error", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what kind of error is a 502 from my server", "category": "developer", "pair": 59, "key": "error", "skill": "httpStatusLookup", "half": "real", "source": "fresh"}
+{"text": "i'm starting to see a pattern with all my exes", "category": "none", "pair": 60, "key": "pattern", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "test the pattern ^[a-z]+\\d*$ against these three lines", "category": "developer", "pair": 60, "key": "pattern", "skill": "testRegex", "half": "real", "source": "fresh"}
+{"text": "it was just a token gesture of thanks", "category": "none", "pair": 61, "key": "token", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "decode this login token and show the claims: eyJhbGciOiJIUzI1NiJ9.e30.abc", "category": "developer", "pair": 61, "key": "token", "skill": "jwtDecode", "half": "real", "source": "fresh"}
+{"text": "the dress code at this wedding is a total mystery", "category": "none", "pair": 62, "key": "code", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "look up http code 410 for me", "category": "developer", "pair": 62, "key": "code", "skill": "httpStatusLookup", "half": "real", "source": "fresh"}
+{"text": "she's quite a character, my aunt", "category": "none", "pair": 63, "key": "character", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "look up the character ñ by name and code point", "category": "developer", "pair": 63, "key": "character", "skill": "unicodeLookup", "half": "real", "source": "fresh"}
+{"text": "those two are a perfect match", "category": "none", "pair": 64, "key": "match", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "does my regex ^\\d{5}$ match the postcode 90210", "category": "developer", "pair": 64, "key": "match", "skill": "testRegex", "half": "real", "source": "fresh"}
+{"text": "he's really not my type", "category": "none", "pair": 65, "key": "type", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "which mime type goes with a .webm file", "category": "developer", "pair": 65, "key": "type", "skill": "mimeTypeLookup", "half": "real", "source": "fresh"}
+{"text": "we hit a rough patch last year", "category": "none", "pair": 66, "key": "patch", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "split 3.2.1-rc.1 into major, minor and patch", "category": "developer", "pair": 66, "key": "patch", "skill": "parseSemver", "half": "real", "source": "fresh"}
+{"text": "the schedule was running on a fixed loop that never stopped", "category": "none", "pair": 67, "key": "schedule", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "explain this cron schedule in plain english: 0 6 * * 1-5", "category": "developer", "pair": 67, "key": "schedule", "skill": "cronToText", "half": "real", "source": "fresh"}
+{"text": "he had to shift the gears in his head back three steps", "category": "none", "pair": 68, "key": "shift", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "shift every letter in this note by 5: meet at noon", "category": "encoding", "pair": 68, "key": "shift", "skill": "caesarShift", "half": "real", "source": "fresh"}
+{"text": "we can squash one more in the back seat", "category": "none", "pair": 69, "key": "squash", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "squash this long note into a short compressed string", "category": "encoding", "pair": 69, "key": "squash", "skill": "compressText", "half": "real", "source": "fresh"}
+{"text": "decompress the memories buried in that box", "category": "none", "pair": 70, "key": "decompress", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "decompress this blob back to text: eJzLSM3JyQcABiwCFQ==", "category": "encoding", "pair": 70, "key": "decompress", "skill": "decompressText", "half": "real", "source": "fresh"}
+{"text": "there are no strings attached to the offer", "category": "none", "pair": 71, "key": "strings", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "generate three random strings of 12 characters each", "category": "encoding", "pair": 71, "key": "strings", "skill": "generateRandomString", "half": "real", "source": "fresh"}
+{"text": "i can never decode what my boss actually means", "category": "none", "pair": 72, "key": "decode", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "decode 48 65 6c 6c 6f from hex to letters", "category": "encoding", "pair": 72, "key": "decode", "skill": "hexDecode", "half": "real", "source": "fresh"}
+{"text": "my brain is scrambled after that exam", "category": "none", "pair": 73, "key": "scrambled", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "i need this spoiler scrambled with rot13", "category": "encoding", "pair": 73, "key": "scrambled", "skill": "rot13", "half": "real", "source": "fresh"}
+{"text": "she generated new hope out of the chaos", "category": "none", "pair": 74, "key": "generated", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "i need two uuids generated for my test users", "category": "encoding", "pair": 74, "key": "generated", "skill": "generateUuid", "half": "real", "source": "fresh"}
+{"text": "his fingerprints are all over this deal", "category": "none", "pair": 75, "key": "fingerprints", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "give me sha-256 fingerprints for these two lines", "category": "encoding", "pair": 75, "key": "fingerprints", "skill": "hashText", "half": "real", "source": "fresh"}
+{"text": "i'm the weak link on this team", "category": "none", "pair": 76, "key": "link", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "make this phrase safe for a link: cats & dogs?", "category": "encoding", "pair": 76, "key": "link", "skill": "urlEncode", "half": "real", "source": "fresh"}
+{"text": "to the bank i'm just ones and zeros", "category": "none", "pair": 77, "key": "zeros", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "what do these ones and zeros say: 01101000 01101001", "category": "encoding", "pair": 77, "key": "zeros", "skill": "binaryDecode", "half": "real", "source": "fresh"}
+{"text": "the answer was plain as day", "category": "none", "pair": 78, "key": "plain", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "turn this base64 back into plain text: c2VjcmV0", "category": "encoding", "pair": 78, "key": "plain", "skill": "base64Decode", "half": "real", "source": "fresh"}
+{"text": "it was a clear case of comparing apples and oranges", "category": "none", "pair": 79, "key": "apples", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "which apples are better value: 6 for 2.40 or 10 for 3.60", "category": "everyday", "pair": 79, "key": "apples", "skill": "comparePrices", "half": "real", "source": "fresh"}
+{"text": "the value of silence was just higher than i thought", "category": "none", "pair": 80, "key": "value", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "work out the value per kilo of a 2.5 kg bag at 7.20", "category": "everyday", "pair": 80, "key": "value", "skill": "unitPrice", "half": "real", "source": "fresh"}
+{"text": "we split the tab four ways including a 15 percent tip last night", "category": "none", "pair": 81, "key": "tab", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "split a 138 tab between five people with a 12% tip", "category": "everyday", "pair": 81, "key": "tab", "skill": "splitBill", "half": "real", "source": "fresh"}
+{"text": "coffee is the only fuel that keeps me going", "category": "none", "pair": 82, "key": "fuel", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "fuel cost for 240 km at 6 l/100km with petrol at 1.65", "category": "everyday", "pair": 82, "key": "fuel", "skill": "fuelCostForTrip", "half": "real", "source": "fresh"}
+{"text": "it's right on the tip of my tongue", "category": "none", "pair": 83, "key": "tip", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "add a 15% tip to 64 and split it three ways", "category": "everyday", "pair": 83, "key": "tip", "skill": "splitBill", "half": "real", "source": "fresh"}
+{"text": "don't let the discount slide by, you never know when things go on sale", "category": "none", "pair": 84, "key": "discount", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "stack a 25% discount and then 10% more off a 60 coat", "category": "everyday", "pair": 84, "key": "discount", "skill": "stackDiscounts", "half": "real", "source": "fresh"}
+{"text": "he said the free-delivery threshold was tricky with all the small items", "category": "none", "pair": 85, "key": "delivery", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "total my basket: 12.99, 8.50, delivery 3.95, free over 25", "category": "everyday", "pair": 85, "key": "delivery", "skill": "shippingTotal", "half": "real", "source": "fresh"}
+{"text": "camping is just not my cup of tea", "category": "none", "pair": 86, "key": "cup", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "how many grams of butter is half a cup", "category": "everyday", "pair": 86, "key": "cup", "skill": "convertCookingMeasure", "half": "real", "source": "fresh"}
+{"text": "i was doubling this batch of cookies till my hands got sticky", "category": "none", "pair": 87, "key": "batch", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "make this batch serve 9 instead of 6: 300g rice, 2 onions", "category": "everyday", "pair": 87, "key": "batch", "skill": "scaleRecipe", "half": "real", "source": "fresh"}
+{"text": "converting millilitres to grams for flour is always my worst nightmare", "category": "none", "pair": 88, "key": "millilitres", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how many grams is 250 millilitres of honey", "category": "everyday", "pair": 88, "key": "millilitres", "skill": "convertCookingMeasure", "half": "real", "source": "fresh"}
+{"text": "my hard drive feels lighter after losing thousands of bytes of memories", "category": "none", "pair": 89, "key": "bytes", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "turn 52,428,800 bytes into mb or gb", "category": "files", "pair": 89, "key": "bytes", "skill": "fileSizeHuman", "half": "real", "source": "fresh"}
+{"text": "that spreadsheet's size was growing faster than my patience", "category": "none", "pair": 90, "key": "size", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "9,437,184 bytes, what size is that in normal terms", "category": "files", "pair": 90, "key": "size", "skill": "fileSizeHuman", "half": "real", "source": "fresh"}
+{"text": "the new meeting format is a disaster", "category": "none", "pair": 91, "key": "format", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "what format is a .flac file", "category": "files", "pair": 91, "key": "format", "skill": "fileExtensionInfo", "half": "real", "source": "fresh"}
+{"text": "zip it, i'm trying to watch this", "category": "none", "pair": 92, "key": "zip", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "what is a .zip and what media type does it use", "category": "files", "pair": 92, "key": "zip", "skill": "fileExtensionInfo", "half": "real", "source": "fresh"}
+{"text": "she's great at reading between the lines", "category": "none", "pair": 93, "key": "lines", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "this snippet: how many lines does it have, plus words and bytes", "category": "files", "pair": 93, "key": "lines", "skill": "textFileStats", "half": "real", "source": "fresh"}
+{"text": "text file stats don't matter much once the story has ended", "category": "none", "pair": 94, "key": "stats", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "give me the file stats for this text: lines, words, bytes", "category": "files", "pair": 94, "key": "stats", "skill": "textFileStats", "half": "real", "source": "fresh"}
+{"text": "i've got two gigs this weekend", "category": "none", "pair": 95, "key": "gigs", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "how many gigs is a 6,442,450,944 byte download", "category": "files", "pair": 95, "key": "gigs", "skill": "fileSizeHuman", "half": "real", "source": "fresh"}
+{"text": "my mortgage payment feels like a mountain i'll never climb", "category": "none", "pair": 96, "key": "mortgage", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "repayments per month on a 220,000 mortgage, 25 years, 4.5%", "category": "finance", "pair": 96, "key": "mortgage", "skill": "amortizeLoan", "half": "real", "source": "fresh"}
+{"text": "tax hit me hard when i tried to budget for my holiday", "category": "none", "pair": 97, "key": "tax", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's 349 with 20% tax added", "category": "finance", "pair": 97, "key": "tax", "skill": "applyTax", "half": "real", "source": "fresh"}
+{"text": "i've lost all interest in that show", "category": "none", "pair": 98, "key": "interest", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "compound interest on 5,000 at 4% for 10 years, please", "category": "finance", "pair": 98, "key": "interest", "skill": "compoundInterest", "half": "real", "source": "fresh"}
+{"text": "the exchange rate shifted again while he was buying his coffee", "category": "none", "pair": 99, "key": "exchange", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "convert 250 euros to dollars at an exchange rate of 1.09", "category": "finance", "pair": 99, "key": "exchange", "skill": "convertCurrencyFixed", "half": "real", "source": "fresh"}
+{"text": "my salary went down so i'm wondering where i went wrong", "category": "none", "pair": 100, "key": "salary", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's a 42,000 salary per hour on 37.5 hour weeks", "category": "finance", "pair": 100, "key": "salary", "skill": "salaryToHourly", "half": "real", "source": "fresh"}
+{"text": "funny how a little markup makes the whole product feel expensive", "category": "none", "pair": 101, "key": "markup", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "cost 8, selling at 14, what markup is that", "category": "finance", "pair": 101, "key": "markup", "skill": "markupMargin", "half": "real", "source": "fresh"}
+{"text": "the hourly clock seems to tick faster when the salary keeps growing", "category": "none", "pair": 102, "key": "hourly", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "turn an hourly wage of 15.50 into a yearly figure", "category": "finance", "pair": 102, "key": "hourly", "skill": "hourlyToSalary", "half": "real", "source": "fresh"}
+{"text": "it's hard to keep up with inflation when savings don't grow", "category": "none", "pair": 103, "key": "grow", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how long until my savings grow to 8,000 at 200 a month", "category": "finance", "pair": 103, "key": "grow", "skill": "savingsGoal", "half": "real", "source": "fresh"}
+{"text": "he's been a bit off with me today", "category": "none", "pair": 104, "key": "off", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "knock 30% off the 129 jacket i'm eyeing", "category": "finance", "pair": 104, "key": "off", "skill": "applyDiscount", "half": "real", "source": "fresh"}
+{"text": "i never feel included at work", "category": "none", "pair": 105, "key": "included", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "120 with tax included at 20%, what's the price before tax", "category": "finance", "pair": 105, "key": "included", "skill": "applyTax", "half": "real", "source": "fresh"}
+{"text": "the amortization schedule looked like a maze where i kept getting lost", "category": "none", "pair": 106, "key": "amortization", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "show the amortization for 18,000 over 3 years at 6%", "category": "finance", "pair": 106, "key": "amortization", "skill": "amortizeLoan", "half": "real", "source": "fresh"}
+{"text": "my savings goal is finally coming true after months of small deposits", "category": "none", "pair": 107, "key": "deposits", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how many monthly deposits of 150 to reach 2,400", "category": "finance", "pair": 107, "key": "deposits", "skill": "savingsGoal", "half": "real", "source": "fresh"}
+{"text": "the bathroom tiles are cracking again", "category": "none", "pair": 108, "key": "tiles", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "add up the tiles for the word quartz", "category": "games", "pair": 108, "key": "tiles", "skill": "scrabbleScore", "half": "real", "source": "fresh"}
+{"text": "i know that song backwards", "category": "none", "pair": 109, "key": "backwards", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "does never odd or even read the same backwards", "category": "games", "pair": 109, "key": "backwards", "skill": "checkPalindrome", "half": "real", "source": "fresh"}
+{"text": "i need a week off to unscramble my brain", "category": "none", "pair": 110, "key": "unscramble", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "unscramble these letters into a word: l, e, p, p, a", "category": "games", "pair": 110, "key": "unscramble", "skill": "solveAnagram", "half": "real", "source": "fresh"}
+{"text": "she has a string of letters after her name", "category": "none", "pair": 111, "key": "letters", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "list every word hiding in the letters g, r, a, i, n", "category": "games", "pair": 111, "key": "letters", "skill": "wordsFromLetters", "half": "real", "source": "fresh"}
+{"text": "wordle is quietly ruining my mornings", "category": "none", "pair": 112, "key": "wordle", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "solve my wordle: green r first, yellow e, grey s and t", "category": "games", "pair": 112, "key": "wordle", "skill": "wordleFilter", "half": "real", "source": "fresh"}
+{"text": "sometimes the magic eight ball tells me things that scare me", "category": "none", "pair": 113, "key": "magic", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "shake the magic 8 ball: will i pass my driving test", "category": "games", "pair": 113, "key": "magic", "skill": "magicEightBall", "half": "real", "source": "fresh"}
+{"text": "for once my sister and i are on the same page", "category": "none", "pair": 114, "key": "same", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "do listen and silent use the same letters", "category": "games", "pair": 114, "key": "same", "skill": "checkAnagram", "half": "real", "source": "fresh"}
+{"text": "i tried to score points with her mum but it went wrong", "category": "none", "pair": 115, "key": "points", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how many points is zephyr worth in scrabble", "category": "games", "pair": 115, "key": "points", "skill": "scrabbleScore", "half": "real", "source": "fresh"}
+{"text": "i used to think silent was a good word until i heard that song", "category": "none", "pair": 116, "key": "silent", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what other words can silent be rearranged into", "category": "games", "pair": 116, "key": "silent", "skill": "solveAnagram", "half": "real", "source": "fresh"}
+{"text": "my mum will flip when she sees this", "category": "none", "pair": 117, "key": "flip", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "flip a coin to see who drives tonight", "category": "generation", "pair": 117, "key": "flip", "skill": "flipCoin", "half": "real", "source": "fresh"}
+{"text": "i wish the calendar would just slow down a bit", "category": "none", "pair": 118, "key": "calendar", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "draw a printable calendar for february 2027", "category": "generation", "pair": 118, "key": "calendar", "skill": "generateCalendarGrid", "half": "real", "source": "fresh"}
+{"text": "she kept rolling the dice in her head about the move", "category": "none", "pair": 119, "key": "dice", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "roll 4d6 dice for my character's strength", "category": "generation", "pair": 119, "key": "dice", "skill": "rollDice", "half": "real", "source": "fresh"}
+{"text": "i lost twenty quid on the slots", "category": "none", "pair": 120, "key": "slots", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "split 9 till 1 into 50-minute slots with 10-minute breaks", "category": "generation", "pair": 120, "key": "slots", "skill": "generateSchedule", "half": "real", "source": "fresh"}
+{"text": "random strings of fate keep getting thrown at him", "category": "none", "pair": 121, "key": "random", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "pick a random number from 1 to 250", "category": "generation", "pair": 121, "key": "random", "skill": "randomNumber", "half": "real", "source": "fresh"}
+{"text": "that whole episode was pure filler", "category": "none", "pair": 122, "key": "filler", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "give me two paragraphs of filler text for my mockup", "category": "generation", "pair": 122, "key": "filler", "skill": "loremIpsum", "half": "real", "source": "fresh"}
+{"text": "he filled that boring form with random nonsense to get it done", "category": "none", "pair": 123, "key": "nonsense", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "fill this layout with three lines of nonsense placeholder text", "category": "generation", "pair": 123, "key": "nonsense", "skill": "loremIpsum", "half": "real", "source": "fresh"}
+{"text": "the schedule for that meeting got split into uneven chunks with long breaks", "category": "none", "pair": 124, "key": "breaks", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "plan 2 to 5pm in 40-minute sessions with short breaks", "category": "generation", "pair": 124, "key": "breaks", "skill": "generateSchedule", "half": "real", "source": "fresh"}
+{"text": "my bucket list keeps getting longer", "category": "none", "pair": 125, "key": "bucket", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "turn my bucket list into a markdown checklist: skydive, rome, choir", "category": "generation", "pair": 125, "key": "bucket", "skill": "generateChecklist", "half": "real", "source": "fresh"}
+{"text": "i crossed off every item on that old paper list", "category": "none", "pair": 126, "key": "crossed", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "make my errands into boxes to be crossed off: bank, gp, dry cleaner", "category": "generation", "pair": 126, "key": "crossed", "skill": "generateChecklist", "half": "real", "source": "fresh"}
+{"text": "the volume of my shouting just got absorbed by the walls", "category": "none", "pair": 127, "key": "volume", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "volume of a cylinder 10 cm across and 30 cm tall", "category": "geometry", "pair": 127, "key": "volume", "skill": "volumeOf", "half": "real", "source": "fresh"}
+{"text": "his laugh filled the room like a giant sphere", "category": "none", "pair": 128, "key": "sphere", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how much fits inside a sphere 30 cm across", "category": "geometry", "pair": 128, "key": "sphere", "skill": "volumeOf", "half": "real", "source": "fresh"}
+{"text": "we're stuck in some kind of love triangle", "category": "none", "pair": 129, "key": "triangle", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "a right triangle has sides 9 and 12, how long is the third side", "category": "geometry", "pair": 129, "key": "triangle", "skill": "pythagorean", "half": "real", "source": "fresh"}
+{"text": "pythagorean triples of excuses make up the longest side of my day", "category": "none", "pair": 130, "key": "pythagorean", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "use pythagorean rules to find the hypotenuse for sides 5 and 12", "category": "geometry", "pair": 130, "key": "pythagorean", "skill": "pythagorean", "half": "real", "source": "fresh"}
+{"text": "i've been on edge all day", "category": "none", "pair": 131, "key": "edge", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "how far is it round the edge of a 20 by 35 m field", "category": "geometry", "pair": 131, "key": "edge", "skill": "perimeterOf", "half": "real", "source": "fresh"}
+{"text": "it's twenty minutes away as the crow flies", "category": "none", "pair": 132, "key": "crow", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "as the crow flies, how far from 40.7,-74.0 to 34.05,-118.24", "category": "geometry", "pair": 132, "key": "crow", "skill": "haversineDistance", "half": "real", "source": "fresh"}
+{"text": "i just need some space this weekend", "category": "none", "pair": 133, "key": "space", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "how much floor space is a 4.2 by 3.6 m room", "category": "geometry", "pair": 133, "key": "space", "skill": "areaOf", "half": "real", "source": "fresh"}
+{"text": "it's my round at the pub tonight", "category": "none", "pair": 134, "key": "round", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "how far round is a pond 8 m across", "category": "geometry", "pair": 134, "key": "round", "skill": "perimeterOf", "half": "real", "source": "fresh"}
+{"text": "the area in the corner where the old chair sat is empty now", "category": "none", "pair": 135, "key": "area", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how much area is my triangular garden bed, base 8 m, height 5", "category": "geometry", "pair": 135, "key": "area", "skill": "areaOf", "half": "real", "source": "fresh"}
+{"text": "the bmi of my dog is a joke now he's gained ten kilos", "category": "none", "pair": 136, "key": "bmi", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's the bmi of someone 5 ft 6 weighing 11 stone", "category": "health", "pair": 136, "key": "bmi", "skill": "bmiCalculate", "half": "real", "source": "fresh"}
+{"text": "the first lap felt like running on hot coals", "category": "none", "pair": 137, "key": "lap", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what lap times do i need for 1500 m in 5 minutes", "category": "health", "pair": 137, "key": "lap", "skill": "splitTimes", "half": "real", "source": "fresh"}
+{"text": "i finished the 10k in under an hour at a steady pace", "category": "none", "pair": 138, "key": "pace", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what pace per km gets me a 1:55 half marathon", "category": "health", "pair": 138, "key": "pace", "skill": "paceCalculate", "half": "real", "source": "fresh"}
+{"text": "i'm totally in the zone today", "category": "none", "pair": 139, "key": "zone", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "which zone is 150 bpm in if my max is 190", "category": "health", "pair": 139, "key": "zone", "skill": "heartRateZones", "half": "real", "source": "fresh"}
+{"text": "my sleep cycle is all messed up since i overslept", "category": "none", "pair": 140, "key": "cycle", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "i'm asleep at 23:30, when should i wake at the end of a cycle", "category": "health", "pair": 140, "key": "cycle", "skill": "sleepCycleTimes", "half": "real", "source": "fresh"}
+{"text": "it's been a long run of bad luck", "category": "none", "pair": 141, "key": "run", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "how long will a 21 km run take at 5:40 per km", "category": "health", "pair": 141, "key": "run", "skill": "paceCalculate", "half": "real", "source": "fresh"}
+{"text": "we split up last spring", "category": "none", "pair": 142, "key": "split", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "split my 10k into 1 km times for a 48 minute finish", "category": "health", "pair": 142, "key": "split", "skill": "splitTimes", "half": "real", "source": "fresh"}
+{"text": "she's a mass of contradictions", "category": "none", "pair": 143, "key": "mass", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "body mass index for 1.82 m and 95 kg", "category": "health", "pair": 143, "key": "mass", "skill": "bmiCalculate", "half": "real", "source": "fresh"}
+{"text": "i shuffled through my deck of cards and forgot which came first", "category": "none", "pair": 144, "key": "deck", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "shuffle this study deck for me: mitosis, meiosis, osmosis", "category": "learning", "pair": 144, "key": "deck", "skill": "flashcardShuffle", "half": "real", "source": "fresh"}
+{"text": "my working on that maths problem fell apart halfway through", "category": "none", "pair": 145, "key": "working", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "check my working line by line: 3x+5=20, 3x=15, x=4", "category": "learning", "pair": 145, "key": "working", "skill": "checkArithmeticSteps", "half": "real", "source": "fresh"}
+{"text": "i finally read sixty pages straight and my head is still buzzing", "category": "none", "pair": 146, "key": "pages", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "split 280 pages into a daily reading plan over 2 weeks", "category": "learning", "pair": 146, "key": "pages", "skill": "readingScheduleFromPages", "half": "real", "source": "fresh"}
+{"text": "i need to revise my opinion of him", "category": "none", "pair": 147, "key": "revise", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "when should i revise these spanish cards again if i started on 3 may", "category": "learning", "pair": 147, "key": "revise", "skill": "spacedRepetitionSchedule", "half": "real", "source": "fresh"}
+{"text": "she finally got my gpa right even though the numbers were all over the place", "category": "none", "pair": 148, "key": "gpa", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "my gpa from an a, a b+ and a c, each worth 3 credits", "category": "learning", "pair": 148, "key": "gpa", "skill": "gpaCalculate", "half": "real", "source": "fresh"}
+{"text": "i've got a score to settle with him", "category": "none", "pair": 149, "key": "score", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "score my spelling test: cat, dig, frog against cat, dog, frog", "category": "learning", "pair": 149, "key": "score", "skill": "gradeQuiz", "half": "real", "source": "fresh"}
+{"text": "this week has been a real test of patience", "category": "none", "pair": 150, "key": "test", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "what do i need on my last test to finish on 75%", "category": "learning", "pair": 150, "key": "test", "skill": "gradeNeeded", "half": "real", "source": "fresh"}
+{"text": "the arithmetic steps were a mess until the teacher pointed out the error", "category": "none", "pair": 151, "key": "steps", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "check these steps for the first mistake: 4x=20, x=6, 2x=12", "category": "learning", "pair": 151, "key": "steps", "skill": "checkArithmeticSteps", "half": "real", "source": "fresh"}
+{"text": "my flashcards got mixed up so i had to look through them in a panic", "category": "none", "pair": 152, "key": "flashcards", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "put my flashcards in a random study order: ser, estar, tener", "category": "learning", "pair": 152, "key": "flashcards", "skill": "flashcardShuffle", "half": "real", "source": "fresh"}
+{"text": "he split the grocery list into little chunks so i didn't miss anything", "category": "none", "pair": 153, "key": "chunks", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "split these 20 names into chunks of 5", "category": "lists", "pair": 153, "key": "chunks", "skill": "chunkList", "half": "real", "source": "fresh"}
+{"text": "counting the votes on that poll was like keeping a tally of raindrops", "category": "none", "pair": 154, "key": "tally", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "tally up these votes: yes, no, yes, yes, no", "category": "lists", "pair": 154, "key": "tally", "skill": "countItems", "half": "real", "source": "fresh"}
+{"text": "the telly is all repeats this summer", "category": "none", "pair": 155, "key": "repeats", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "remove the repeats from this list: tom, ann, tom, joe", "category": "lists", "pair": 155, "key": "repeats", "skill": "dedupeList", "half": "real", "source": "fresh"}
+{"text": "the difference between what i wanted and what i got was obvious", "category": "none", "pair": 156, "key": "difference", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's the difference between these lists: a, b, c and b, c, d", "category": "lists", "pair": 156, "key": "difference", "skill": "differenceLists", "half": "real", "source": "fresh"}
+{"text": "i tried to flatten out all those layers of bureaucracy last week", "category": "none", "pair": 157, "key": "flatten", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "flatten these grouped names into one plain list: [[ann, bo], [cy]]", "category": "lists", "pair": 157, "key": "flatten", "skill": "flattenList", "half": "real", "source": "fresh"}
+{"text": "i never really had the chance to pick the perfect ending", "category": "none", "pair": 158, "key": "pick", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "pick three at random from my team: raj, li, sam, kat, ola", "category": "lists", "pair": 158, "key": "pick", "skill": "pickRandom", "half": "real", "source": "fresh"}
+{"text": "my thoughts were a range from panic to calm with no stops between", "category": "none", "pair": 159, "key": "range", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "list the range from 5 to 50 in steps of 5", "category": "lists", "pair": 159, "key": "range", "skill": "rangeList", "half": "real", "source": "fresh"}
+{"text": "it's weird how the same shuffle happens with different seeds in a game", "category": "none", "pair": 160, "key": "shuffle", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "shuffle my reading list into a random order: dune, emma, ulysses", "category": "lists", "pair": 160, "key": "shuffle", "skill": "shuffleList", "half": "real", "source": "fresh"}
+{"text": "he said the list was in perfect order though he typed it in reverse", "category": "none", "pair": 161, "key": "order", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "put these surnames in alphabetical order: patel, ahmed, brown", "category": "lists", "pair": 161, "key": "order", "skill": "sortList", "half": "real", "source": "fresh"}
+{"text": "picking teams in pe was my nightmare", "category": "none", "pair": 162, "key": "teams", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "draw these 12 players into three random teams", "category": "lists", "pair": 162, "key": "teams", "skill": "pairUp", "half": "real", "source": "fresh"}
+{"text": "both of these stories ended up in the same chapter of our book", "category": "none", "pair": 163, "key": "both", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "which names are on both lists: ana, li, bo and li, bo, cy", "category": "lists", "pair": 163, "key": "both", "skill": "intersectLists", "half": "real", "source": "fresh"}
+{"text": "they allocated my time by how heavy my duties felt", "category": "none", "pair": 164, "key": "allocated", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "i need 1,200 allocated by weight 2:3:5", "category": "math", "pair": 164, "key": "allocated", "skill": "allocateProportionally", "half": "real", "source": "fresh"}
+{"text": "he tried to simplify his life but it ended up a mess", "category": "none", "pair": 165, "key": "simplify", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "simplify 18/24 for my kid's worksheet", "category": "math", "pair": 165, "key": "simplify", "skill": "fractionSimplify", "half": "real", "source": "fresh"}
+{"text": "the greatest common divisor of our hopes and fears turned out to be one", "category": "none", "pair": 166, "key": "divisor", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's the biggest divisor shared by 48, 72 and 120", "category": "math", "pair": 166, "key": "divisor", "skill": "gcd", "half": "real", "source": "fresh"}
+{"text": "she claimed her phone number was prime until someone showed her 91 wasn't", "category": "none", "pair": 167, "key": "prime", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "is my house number 221 a prime", "category": "math", "pair": 167, "key": "prime", "skill": "isPrime", "half": "real", "source": "fresh"}
+{"text": "factors of my patience were starting to pile up on my shelf", "category": "none", "pair": 168, "key": "factors", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "break 360 into its prime factors", "category": "math", "pair": 168, "key": "factors", "skill": "primeFactors", "half": "real", "source": "fresh"}
+{"text": "her ratio of success to failure is good because she only counts the wins", "category": "none", "pair": 169, "key": "ratio", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "solve this ratio: 3 is to 7 as x is to 28", "category": "math", "pair": 169, "key": "ratio", "skill": "ratioSolve", "half": "real", "source": "fresh"}
+{"text": "the price of this shirt is multiplied by my anxiety when i see the tags", "category": "none", "pair": 170, "key": "multiplied", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "12, 15 and 7 multiplied together come to what", "category": "math", "pair": 170, "key": "multiplied", "skill": "product", "half": "real", "source": "fresh"}
+{"text": "i tried to split the cost evenly but she said the leftovers are mine", "category": "none", "pair": 171, "key": "evenly", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "share 100 evenly between 3 kids, down to the penny", "category": "math", "pair": 171, "key": "evenly", "skill": "splitEvenly", "half": "real", "source": "fresh"}
+{"text": "that headache feels like a sum of all my bad decisions", "category": "none", "pair": 172, "key": "sum", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's the sum of my receipts: 14.50, 22, 9.75", "category": "math", "pair": 172, "key": "sum", "skill": "sum", "half": "real", "source": "fresh"}
+{"text": "i think the percentage increase in coffee prices is unfair to my wallet", "category": "none", "pair": 173, "key": "increase", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's the percent increase from 1.80 to 2.35", "category": "math", "pair": 173, "key": "increase", "skill": "percentChange", "half": "real", "source": "fresh"}
+{"text": "she's been round the block a few times", "category": "none", "pair": 174, "key": "round", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "round 2.71828 to the nearest hundredth", "category": "math", "pair": 174, "key": "round", "skill": "roundTo", "half": "real", "source": "fresh"}
+{"text": "money won't solve all your problems", "category": "none", "pair": 175, "key": "solve", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "solve x squared minus 5x plus 6 equals 0", "category": "math", "pair": 175, "key": "solve", "skill": "solveQuadratic", "half": "real", "source": "fresh"}
+{"text": "money talks, as my dad always says", "category": "none", "pair": 176, "key": "money", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "format 1234567.8 as money in pounds sterling", "category": "math", "pair": 176, "key": "money", "skill": "formatCurrency", "half": "real", "source": "fresh"}
+{"text": "did you know three quarters of a million is actually a lot of money", "category": "none", "pair": 177, "key": "quarters", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "write three quarters of a million as a plain number", "category": "math", "pair": 177, "key": "quarters", "skill": "parseNumber", "half": "real", "source": "fresh"}
+{"text": "i tried to split my budget but my savings account looked lonely", "category": "none", "pair": 178, "key": "budget", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "split my 2,400 income into a 50/30/20 budget", "category": "organising", "pair": 178, "key": "budget", "skill": "budgetSplit", "half": "real", "source": "fresh"}
+{"text": "i spent half of my paycheck on groceries this week", "category": "none", "pair": 179, "key": "paycheck", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "divide my 1,900 paycheck into needs, wants and savings", "category": "organising", "pair": 179, "key": "paycheck", "skill": "budgetSplit", "half": "real", "source": "fresh"}
+{"text": "you rotate those tasks so easily, like a well-oiled machine", "category": "none", "pair": 180, "key": "rotate", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "who walks the dog each day? rotate it between our three kids", "category": "organising", "pair": 180, "key": "rotate", "skill": "rotateAssignments", "half": "real", "source": "fresh"}
+{"text": "i tried to block out my morning for the kids, sunrise to brunch", "category": "none", "pair": 181, "key": "block", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "time block my day: emails 1h, deep work 2h, lunch, calls", "category": "organising", "pair": 181, "key": "block", "skill": "timeBlockSchedule", "half": "real", "source": "fresh"}
+{"text": "it's hard to prioritise when you're drowning in a sea of urgent tasks", "category": "none", "pair": 182, "key": "urgent", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "rank these by how urgent they are: tax return, dentist, gym", "category": "organising", "pair": 182, "key": "urgent", "skill": "prioritizeTasks", "half": "real", "source": "fresh"}
+{"text": "i always thought prioritizing was just about effort and urgency", "category": "none", "pair": 183, "key": "prioritizing", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "help with prioritizing these by importance and effort: invoices, garden, emails", "category": "organising", "pair": 183, "key": "prioritizing", "skill": "prioritizeTasks", "half": "real", "source": "fresh"}
+{"text": "i remember that three-hour meeting where no one spoke the whole time", "category": "none", "pair": 184, "key": "meeting", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "find a meeting hour that suits berlin, new york and tokyo", "category": "organising", "pair": 184, "key": "meeting", "skill": "findCommonMeetingHours", "half": "real", "source": "fresh"}
+{"text": "she kept her cool under all that pressure", "category": "none", "pair": 185, "key": "kept", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "i kept up stretching on 22 of 31 days, what's my rate", "category": "organising", "pair": 185, "key": "kept", "skill": "habitCompletionRate", "half": "real", "source": "fresh"}
+{"text": "lhr feels like a huge maze the moment you step onto its tarmac", "category": "none", "pair": 186, "key": "lhr", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "which city does the code lhr belong to", "category": "reference", "pair": 186, "key": "lhr", "skill": "airportCodeLookup", "half": "real", "source": "fresh"}
+{"text": "japan uses yen, so i guess i spent a lot of yen on that trip", "category": "none", "pair": 187, "key": "yen", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's the currency code and symbol for the yen", "category": "reference", "pair": 187, "key": "yen", "skill": "currencyLookup", "half": "real", "source": "fresh"}
+{"text": "she's a carbon copy of her mum", "category": "none", "pair": 188, "key": "carbon", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "atomic number and symbol for carbon, please", "category": "reference", "pair": 188, "key": "carbon", "skill": "periodicTableLookup", "half": "real", "source": "fresh"}
+{"text": "gold is so solid it never feels like it could be mined away", "category": "none", "pair": 189, "key": "gold", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's the chemical symbol for gold", "category": "reference", "pair": 189, "key": "gold", "skill": "periodicTableLookup", "half": "real", "source": "fresh"}
+{"text": "it's funny how the time zones make the day never end in tokyo", "category": "none", "pair": 190, "key": "tokyo", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what's the utc offset in tokyo right now", "category": "reference", "pair": 190, "key": "tokyo", "skill": "timezoneLookup", "half": "real", "source": "fresh"}
+{"text": "we looked up tx in the address book and found out what it meant", "category": "none", "pair": 191, "key": "tx", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what state does the abbreviation tx stand for", "category": "reference", "pair": 191, "key": "tx", "skill": "usStateLookup", "half": "real", "source": "fresh"}
+{"text": "she's always on the phone to her mum", "category": "none", "pair": 192, "key": "phone", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "which country has the phone prefix +356", "category": "reference", "pair": 192, "key": "phone", "skill": "phoneRegionLookup", "half": "real", "source": "fresh"}
+{"text": "we don't speak the same language anymore", "category": "none", "pair": 193, "key": "language", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "which language has the code cy", "category": "reference", "pair": 193, "key": "language", "skill": "languageCodeLookup", "half": "real", "source": "fresh"}
+{"text": "kindness is the only currency that matters", "category": "none", "pair": 194, "key": "currency", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "what currency do they use in iceland", "category": "reference", "pair": 194, "key": "currency", "skill": "countryLookup", "half": "real", "source": "fresh"}
+{"text": "gbp is weird because it has pounds but no dollars or euros", "category": "none", "pair": 195, "key": "gbp", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "what does gbp stand for as a currency", "category": "reference", "pair": 195, "key": "gbp", "skill": "currencyLookup", "half": "real", "source": "fresh"}
+{"text": "the cumulative total of our arguments is way higher than i thought", "category": "none", "pair": 196, "key": "cumulative", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "cumulative totals for my weekly steps: 52k, 61k, 48k", "category": "statistics", "pair": 196, "key": "cumulative", "skill": "cumulativeSum", "half": "real", "source": "fresh"}
+{"text": "he told me there was a correlation between the rain and how my car drove", "category": "none", "pair": 197, "key": "correlation", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "is there a correlation between hours 2, 4, 6 and scores 50, 65, 80", "category": "statistics", "pair": 197, "key": "correlation", "skill": "correlation", "half": "real", "source": "fresh"}
+{"text": "he's always been the outlier in our family", "category": "none", "pair": 198, "key": "outlier", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "which reading is the outlier: 4.1, 4.3, 9.8, 4.0", "category": "statistics", "pair": 198, "key": "outlier", "skill": "findOutliers", "half": "real", "source": "fresh"}
+{"text": "she makes a mean lasagne", "category": "none", "pair": 199, "key": "mean", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "what's the mean and median of 12, 15, 9, 22, 18", "category": "statistics", "pair": 199, "key": "mean", "skill": "describeNumbers", "half": "real", "source": "fresh"}
+{"text": "we're moving house in may", "category": "none", "pair": 200, "key": "moving", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "smooth my daily sales with a 3-point moving average: 10, 12, 9, 15", "category": "statistics", "pair": 200, "key": "moving", "skill": "movingAverage", "half": "real", "source": "fresh"}
+{"text": "we hit the 90th percentile of bad decisions back in high school", "category": "none", "pair": 201, "key": "percentile", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "90th percentile of these load times, please: 120, 340, 200, 560", "category": "statistics", "pair": 201, "key": "percentile", "skill": "percentile", "half": "real", "source": "fresh"}
+{"text": "i finally ranked my friends by how much they drink, not how much they care", "category": "none", "pair": 202, "key": "ranked", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "i want these scores ranked: 71, 88, 64, 88, 90", "category": "statistics", "pair": 202, "key": "ranked", "skill": "rankValues", "half": "real", "source": "fresh"}
+{"text": "linear regression didn't save the relationship, it just predicted the breakup", "category": "none", "pair": 203, "key": "regression", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "run a linear regression on (1,3), (2,5), (4,9), (5,11)", "category": "statistics", "pair": 203, "key": "regression", "skill": "linearRegression", "half": "real", "source": "fresh"}
+{"text": "my z-scores were all over the place this morning so i just laughed", "category": "none", "pair": 204, "key": "z-scores", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "convert my class results to z-scores: 60, 72, 85, 90", "category": "statistics", "pair": 204, "key": "z-scores", "skill": "zScores", "half": "real", "source": "fresh"}
+{"text": "he made a joke about the weighted average of his life choices", "category": "none", "pair": 205, "key": "weighted", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "weighted average please: exam 70 counts 60%, coursework 85 counts 40%", "category": "statistics", "pair": 205, "key": "weighted", "skill": "weightedAverage", "half": "real", "source": "fresh"}
+{"text": "the bins haven't been collected for a fortnight", "category": "none", "pair": 206, "key": "bins", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "put these times into 4 bins and count each: 12, 18, 25, 31, 40", "category": "statistics", "pair": 206, "key": "bins", "skill": "histogramBins", "half": "real", "source": "fresh"}
+{"text": "the quartiles of my patience are wider than this coffee cup", "category": "none", "pair": 207, "key": "quartiles", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "give me the quartiles and iqr for 3, 7, 8, 12, 15, 21, 30", "category": "statistics", "pair": 207, "key": "quartiles", "skill": "quartiles", "half": "real", "source": "fresh"}
+{"text": "my mind keeps repeating the same loop until i can't break it", "category": "none", "pair": 208, "key": "repeating", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "find the phrases i keep repeating in this speech", "category": "text", "pair": 208, "key": "repeating", "skill": "detectRepetition", "half": "real", "source": "fresh"}
+{"text": "the price tag on that sofa is criminal", "category": "none", "pair": 209, "key": "tag", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "escape every tag in this so it shows as text: <b>hi</b>", "category": "text", "pair": 209, "key": "tag", "skill": "escapeHtml", "half": "real", "source": "fresh"}
+{"text": "the hashtags on this post are all over the place and look ridiculous", "category": "none", "pair": 210, "key": "hashtags", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "pull the hashtags out of my caption: loving #summer #beach life", "category": "text", "pair": 210, "key": "hashtags", "skill": "extractHashtags", "half": "real", "source": "fresh"}
+{"text": "pulling the keywords from his speech was like sifting through snow for gold", "category": "none", "pair": 211, "key": "keywords", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "which keywords stand out most in this article", "category": "text", "pair": 211, "key": "keywords", "skill": "keywordsTfidf", "half": "real", "source": "fresh"}
+{"text": "he wears a mask at work, nobody knows the real him", "category": "none", "pair": 212, "key": "mask", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "mask the card number and email in this message", "category": "text", "pair": 212, "key": "mask", "skill": "maskSensitive", "half": "real", "source": "fresh"}
+{"text": "don't take that tone with me", "category": "none", "pair": 213, "key": "tone", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "is the tone of this review positive or negative", "category": "text", "pair": 213, "key": "tone", "skill": "lexiconSentiment", "half": "real", "source": "fresh"}
+{"text": "i swear this traffic gets worse every year", "category": "none", "pair": 214, "key": "swear", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "does my speech have any swear words in it", "category": "text", "pair": 214, "key": "swear", "skill": "flagProfanity", "half": "real", "source": "fresh"}
+{"text": "the filler words in my speech were so annoying i stopped using them", "category": "none", "pair": 215, "key": "filler", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "take the filler words out of this sentence", "category": "text", "pair": 215, "key": "filler", "skill": "removeStopWords", "half": "real", "source": "fresh"}
+{"text": "it was easier to count the beats in the music than the syllables", "category": "none", "pair": 216, "key": "syllables", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how many syllables are in refrigerator", "category": "text", "pair": 216, "key": "syllables", "skill": "syllableCount", "half": "real", "source": "fresh"}
+{"text": "i tried to count to twelve in french but my brain kept skipping", "category": "none", "pair": 217, "key": "count", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "count the lines in this poem, blank ones too", "category": "text", "pair": 217, "key": "count", "skill": "countLines", "half": "real", "source": "fresh"}
+{"text": "how many times did i say that i was done with the project?", "category": "none", "pair": 218, "key": "times", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "how many times does actually appear in my essay", "category": "text", "pair": 218, "key": "times", "skill": "countOccurrences", "half": "real", "source": "fresh"}
+{"text": "it's funny how the diff between two paragraphs can change the whole story", "category": "none", "pair": 219, "key": "diff", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "diff these two paragraphs and show what changed", "category": "text", "pair": 219, "key": "diff", "skill": "diffText", "half": "real", "source": "fresh"}
+{"text": "the transcript was so messy i had to clean it out like a dirty window", "category": "none", "pair": 220, "key": "transcript", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "drop the timestamps and speaker labels from this transcript", "category": "text", "pair": 220, "key": "transcript", "skill": "cleanTranscript", "half": "real", "source": "fresh"}
+{"text": "the html comments were just noise in the middle of the message", "category": "none", "pair": 221, "key": "html", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "strip the html out of this: <p>hi <b>there</b></p>", "category": "text", "pair": 221, "key": "html", "skill": "stripHtml", "half": "real", "source": "fresh"}
+{"text": "he tried to center his note on the page but it looked a mess", "category": "none", "pair": 222, "key": "center", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "center the word menu in a 30 character width", "category": "text", "pair": 222, "key": "center", "skill": "padText", "half": "real", "source": "fresh"}
+{"text": "the accent on that word was a real pain in the neck", "category": "none", "pair": 223, "key": "accent", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "remove the accent marks from crème brûlée", "category": "text", "pair": 223, "key": "accent", "skill": "toAscii", "half": "real", "source": "fresh"}
+{"text": "the text got truncated way too early when i pasted my rant into the form", "category": "none", "pair": 224, "key": "truncated", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "i need this caption truncated at 60 characters", "category": "text", "pair": 224, "key": "truncated", "skill": "truncateText", "half": "real", "source": "fresh"}
+{"text": "i feel like i should detect a language that no one speaks anymore", "category": "none", "pair": 225, "key": "detect", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "detect the language of this: obrigado pela ajuda", "category": "text", "pair": 225, "key": "detect", "skill": "detectLanguage", "half": "real", "source": "fresh"}
+{"text": "there's a slug on my lettuce", "category": "none", "pair": 226, "key": "slug", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "make a url slug from my post title: café culture in lisbon", "category": "text", "pair": 226, "key": "slug", "skill": "slugify", "half": "real", "source": "fresh"}
+{"text": "that was the straw that broke the camel's back", "category": "none", "pair": 227, "key": "camel", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "write first name last name in camel case", "category": "text", "pair": 227, "key": "camel", "skill": "convertCase", "half": "real", "source": "fresh"}
+{"text": "i desperately need a trim, my hair's a mess", "category": "none", "pair": 228, "key": "trim", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "trim the leading and trailing spaces from every line here", "category": "text", "pair": 228, "key": "trim", "skill": "trimLines", "half": "real", "source": "fresh"}
+{"text": "can you wrap your head around why that date doesn't exist anymore", "category": "none", "pair": 229, "key": "exist", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "does 30 february 2027 actually exist", "category": "validation", "pair": 229, "key": "exist", "skill": "validateDate", "half": "real", "source": "fresh"}
+{"text": "my shorthand was finally understood at last", "category": "none", "pair": 230, "key": "shorthand", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "expand the shorthand colour #3cf and check it", "category": "validation", "pair": 230, "key": "shorthand", "skill": "validateHexColor", "half": "real", "source": "fresh"}
+{"text": "he gave a long address at the wedding", "category": "none", "pair": 231, "key": "address", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "would 10.0.0.256 work as an ip address on my router", "category": "validation", "pair": 231, "key": "address", "skill": "validateIpAddress", "half": "real", "source": "fresh"}
+{"text": "the isbn code looked perfect until the last digit", "category": "none", "pair": 232, "key": "digit", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "is the last digit right on isbn 0-306-40615-2", "category": "validation", "pair": 232, "key": "digit", "skill": "validateIsbn", "half": "real", "source": "fresh"}
+{"text": "her strength of character amazes me", "category": "none", "pair": 233, "key": "strength", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "check the strength of my new login phrase: hunter2!", "category": "validation", "pair": 233, "key": "strength", "skill": "passwordStrength", "half": "real", "source": "fresh"}
+{"text": "i hate it when an email address is so long it wraps in my inbox", "category": "none", "pair": 234, "key": "email", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "is jo@@mail.com a proper email", "category": "validation", "pair": 234, "key": "email", "skill": "validateEmail", "half": "real", "source": "fresh"}
+{"text": "she formed a band at uni", "category": "none", "pair": 235, "key": "formed", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "is http:/bit.ly/x a properly formed url", "category": "validation", "pair": 235, "key": "formed", "skill": "validateUrl", "half": "real", "source": "fresh"}
+{"text": "i've got your number, mate", "category": "none", "pair": 236, "key": "number", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "format my number 020 7946 0958 in +44 style", "category": "validation", "pair": 236, "key": "number", "skill": "formatPhoneNumber", "half": "real", "source": "fresh"}
+{"text": "i can't bank on him turning up", "category": "none", "pair": 237, "key": "bank", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "check my bank's iban: de89 3704 0044 0532 0130 00", "category": "validation", "pair": 237, "key": "bank", "skill": "validateIban", "half": "real", "source": "fresh"}
+{"text": "the bouncer asked for my id twice", "category": "none", "pair": 238, "key": "id", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "is this id a proper uuid: 550e8400-e29b-41d4-a716-446655440000", "category": "validation", "pair": 238, "key": "id", "skill": "validateUuid", "half": "real", "source": "fresh"}
+{"text": "headings jumped out like a bunch of frogs", "category": "none", "pair": 239, "key": "headings", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "pull out the headings from this markdown as an outline", "category": "writing", "pair": 239, "key": "headings", "skill": "extractHeadings", "half": "real", "source": "fresh"}
+{"text": "markdown has been a pain in the neck since i tried to convert this list", "category": "none", "pair": 240, "key": "markdown", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "i need my readme's markdown rendered as html", "category": "writing", "pair": 240, "key": "markdown", "skill": "markdownToHtml", "half": "real", "source": "fresh"}
+{"text": "he gave himself the title of barbecue king", "category": "none", "pair": 241, "key": "title", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "is this in title case: a walk In the park", "category": "writing", "pair": 241, "key": "title", "skill": "checkTitleCase", "half": "real", "source": "fresh"}
+{"text": "her texts are always paragraphs long", "category": "none", "pair": 242, "key": "paragraphs", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "break this essay into paragraphs and count the words in each", "category": "writing", "pair": 242, "key": "paragraphs", "skill": "paragraphStats", "half": "real", "source": "fresh"}
+{"text": "the geese on the canal chased my dog", "category": "none", "pair": 243, "key": "geese", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "what is the singular form of geese", "category": "writing", "pair": 243, "key": "geese", "skill": "singularize", "half": "real", "source": "fresh"}
+{"text": "she gave me a glowing reference for the job", "category": "none", "pair": 244, "key": "reference", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "turn this into an apa reference: lee, 2021, river songs, penguin", "category": "writing", "pair": 244, "key": "reference", "skill": "formatCitation", "half": "real", "source": "fresh"}
+{"text": "i'm always the target of his jokes", "category": "none", "pair": 245, "key": "target", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "my essay is at 1,640 words, the target is 2,500, how short am i", "category": "writing", "pair": 245, "key": "target", "skill": "countWordTargets", "half": "real", "source": "fresh"}
+{"text": "his emails are so long-winded", "category": "none", "pair": 246, "key": "long-winded", "skill": null, "half": "idiom", "source": "fresh"}
+{"text": "flag any long-winded sentences over 25 words in this", "category": "writing", "pair": 246, "key": "long-winded", "skill": "findLongSentences", "half": "real", "source": "fresh"}
+{"text": "i turned my outline into a full markdown document but now i regret it", "category": "none", "pair": 247, "key": "outline", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "turn my outline into markdown bullet points", "category": "writing", "pair": 247, "key": "outline", "skill": "outlineToMarkdown", "half": "real", "source": "fresh"}
+{"text": "repeating words is like talking to yourself", "category": "none", "pair": 248, "key": "repeating", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "flag any words i'm repeating too close together in this paragraph", "category": "writing", "pair": 248, "key": "repeating", "skill": "findRepeatedWords", "half": "real", "source": "fresh"}
+{"text": "don't ask me to pluralize my problems, i can't afford another round", "category": "none", "pair": 249, "key": "pluralize", "skill": null, "half": "idiom", "source": "teacher"}
+{"text": "pluralize these: knife, child, sheep", "category": "writing", "pair": 249, "key": "pluralize", "skill": "pluralize", "half": "real", "source": "fresh"}

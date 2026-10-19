@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Ask Patch</title>
+<!-- bar.html — the summon bar: ⌘⇧P from anywhere, a bar of glass that says Ask Patch.
+     Its own page for the reason popover.html is one: it shares the pipeline and
+     none of the chrome. It is smaller again than the popover — Patch only, one
+     question, one answer — because it is reached for in a second.
+
+     THE WINDOW IS SEE-THROUGH. In the app the body paints nothing; the blur is
+     native glass that bar.rs lays under this page, exactly where .glass and the
+     .bub bubbles are — three, or four with Play for a Pigeon that plays (--n). --top, --margin, --radius, --bubble and --gap are
+     bar.rs's TOP, MARGIN, RADIUS, BUBBLE and GAP, and --part is its PART_S;
+     scripts/test.mjs fails if the two files disagree. The bubbles part from the
+     bar's right-hand end when the pointer comes near, the way Spotlight's do:
+     bar.js says open or shut, Rust moves the glass, and this page moves its
+     own drawing over the same time. What this page adds
+     on top of the material is the light: a rim, a sheen that leans toward the
+     pointer, and the shadow macOS is told not to draw.
+
+     Opened in a browser tab there is no native view, so html:not(.native)
+     paints a stand-in desktop and blurs it with backdrop-filter. That is for
+     working on this file, and nothing in the app reaches it.
+
+     The ink follows the MAC's appearance, not Pigeon's theme setting: the
+     material under the words is the system's, and it goes light or dark with
+     the system whatever Settings says. -->
+<link rel="stylesheet" href="styles/tokens.css">
+<link rel="stylesheet" href="styles/cast.css">
+<style>
+@font-face{font-family:'Hanken Grotesk';src:url('fonts/hanken-grotesk-variable.woff2') format('woff2');
+  font-weight:100 900;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url('fonts/ibm-plex-mono-400.woff2') format('woff2');
+  font-weight:400;font-display:swap}
+
+:root{
+  --top:24px; --margin:40px; --radius:32px; --row:64px; --bubble:64px; --gap:12px; --part:.28s; --n:3;
+  --g-ink:#0F1E2C; --g-soft:rgba(15,30,44,.74); --g-faint:rgba(15,30,44,.6);
+  --g-line:rgba(15,30,44,.12); --g-chip:rgba(255,255,255,.42); --g-chip-hover:rgba(255,255,255,.62);
+  --g-fill-a:rgba(255,255,255,.68); --g-fill-b:rgba(255,255,255,.55);
+  --g-rim:rgba(255,255,255,.7); --g-edge:rgba(255,255,255,.28); --g-sheen:rgba(255,255,255,.5);
+  --g-val:rgba(24,86,114,.75); --g-gold:#8A6516; --g-amber:#9A5B00; --g-danger:#A23A31; --g-green:#1F6A1B;
+  --g-gen:#7A5A06;
+}
+@media(prefers-color-scheme:dark){
+  :root{
+    --g-ink:#F4F8FB; --g-soft:rgba(244,248,251,.78); --g-faint:rgba(244,248,251,.62);
+    --g-line:rgba(255,255,255,.14); --g-chip:rgba(255,255,255,.12); --g-chip-hover:rgba(255,255,255,.2);
+    --g-fill-a:rgba(30,42,56,.66); --g-fill-b:rgba(14,22,32,.72);
+    --g-rim:rgba(255,255,255,.38); --g-edge:rgba(255,255,255,.14); --g-sheen:rgba(255,255,255,.22);
+    --g-val:rgba(140,205,235,.8); --g-gold:#E3C07C; --g-amber:#FFC466; --g-danger:#F09A90; --g-green:#8AD683;
+    --g-gen:#E8BD5A;
+  }
+}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0;height:100%;background:transparent;overflow:hidden}
+body{color:var(--g-ink);font-family:'Hanken Grotesk',-apple-system,BlinkMacSystemFont,sans-serif;font-size:15px;
+  line-height:1.5;-webkit-font-smoothing:antialiased;user-select:none;cursor:default}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer;text-align:left}
+:focus-visible{outline:2px solid var(--g-val);outline-offset:2px;border-radius:6px}
+
+/* ── the glass ───────────────────────────────────────────────────────────
+   Exactly the native view's frame. The material is underneath; this is the
+   light on it, and a milky fill. The fill is there for the words: the system's
+   glass goes lighter or darker with whatever is behind the window, and a page
+   cannot ask it which — so the fill alone is enough to keep the ink above
+   4.5:1 over a desktop that is pure black (light) or pure white (dark). */
+.glass{position:absolute;top:var(--top);left:var(--margin);right:var(--margin);bottom:var(--margin);
+  border-radius:var(--radius);display:flex;flex-direction:column;overflow:hidden;
+  transition:right var(--part) cubic-bezier(.3,.7,.2,1);
+  background:linear-gradient(180deg,var(--g-fill-a),var(--g-fill-b));
+  box-shadow:inset 0 1px 0 var(--g-rim),inset 0 0 0 1px var(--g-edge),inset 0 -1px 0 rgba(0,0,0,.08),
+    0 22px 44px rgba(0,0,0,.26),0 3px 10px rgba(0,0,0,.16)}
+/* The sheen: a soft highlight along the top edge that leans toward the
+   pointer (--mx, set by bar.js), which is most of what makes glass read as
+   liquid rather than frosted. */
+.glass::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;
+  background:radial-gradient(120% 90px at var(--mx,30%) 0%,var(--g-sheen),transparent 70%);
+  opacity:.55;transition:opacity var(--dur-med) var(--ease)}
+.glass:focus-within::before{opacity:.8}
+/* Open: the bar gives up the bubbles' width — three, or four with Play (--n,
+   set by bar.js and told to bar.rs) — and they stand beside it. */
+body.open .glass{right:calc(var(--margin) + var(--n) * (var(--bubble) + var(--gap)))}
+.bub{position:absolute;top:var(--top);width:var(--bubble);height:var(--bubble);border-radius:50%;display:grid;place-items:center;
+  right:var(--margin);opacity:0;pointer-events:none;color:var(--g-ink);
+  background:linear-gradient(180deg,var(--g-fill-a),var(--g-fill-b));
+  box-shadow:inset 0 1px 0 var(--g-rim),inset 0 0 0 1px var(--g-edge),0 14px 30px rgba(0,0,0,.24),0 2px 8px rgba(0,0,0,.16);
+  transition:right var(--part) cubic-bezier(.3,.7,.2,1),opacity var(--part) ease,transform var(--dur-fast) var(--ease)}
+body.open .bub{opacity:1;pointer-events:auto}
+body.open .bub[data-n="1"]{right:calc(var(--margin) + (var(--n) - 1) * (var(--bubble) + var(--gap)))}
+body.open .bub[data-n="2"]{right:calc(var(--margin) + (var(--n) - 2) * (var(--bubble) + var(--gap)))}
+body.open .bub[data-n="3"]{right:calc(var(--margin) + (var(--n) - 3) * (var(--bubble) + var(--gap)))}
+body.open .bub[data-n="4"]{right:var(--margin)}
+.bub[hidden]{display:none}
+.bub.playing{color:var(--g-red, #C4382C)}
+.bub:hover:not(:disabled){transform:scale(1.05)}
+.bub:active:not(:disabled){transform:scale(.96)}
+.bub:disabled{color:var(--g-faint);cursor:default}
+.bub svg{width:26px;height:26px}
+.bub .av{pointer-events:none}
+.bub:focus-visible{outline:2px solid var(--g-val);outline-offset:3px;border-radius:50%}
+html:not(.native) .bub{-webkit-backdrop-filter:blur(30px) saturate(1.8);backdrop-filter:blur(30px) saturate(1.8)}
+/* No native view in a browser tab, so the page blurs its own stand-in. */
+html:not(.native) .glass{-webkit-backdrop-filter:blur(30px) saturate(1.8);backdrop-filter:blur(30px) saturate(1.8)}
+html:not(.native) body{background:
+  radial-gradient(90% 120% at 85% 110%,#7fb0ff 0%,transparent 55%),
+  radial-gradient(80% 90% at 10% 0%,#7a3cf0 0%,transparent 60%),
+  linear-gradient(135deg,#2a1a8a,#12329c 55%,#0a1b5e)}
+
+/* Up: the bar settles into place (bar.js adds .up on every summon, and takes
+   it off again on the way out). */
+.glass{opacity:0}
+body.up .glass{opacity:1;animation:settle .22s cubic-bezier(.2,.9,.3,1.15)}
+body.out .glass,body.out .bub{opacity:0;transition:opacity .11s ease}
+@keyframes settle{from{opacity:0;transform:scale(.965) translateY(-6px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ── the row you type in ─────────────────────────────────────────────── */
+.row{display:flex;align-items:center;gap:12px;height:var(--row);flex-shrink:0;padding:0 22px 0 26px}
+#ask{flex:1;min-width:0;height:var(--row);background:none;border:none;outline:none;padding:0;
+  font:inherit;font-size:22px;font-weight:500;letter-spacing:-.005em;color:var(--g-ink);caret-color:var(--g-ink);
+  user-select:text}
+#ask::placeholder{color:var(--g-faint);font-weight:400}
+/* What Pigeon is holding, in as few words as will be true (§2.3). */
+.state{display:flex;align-items:center;gap:6px;flex-shrink:0;font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.05em;color:var(--g-faint);white-space:nowrap}
+.state i{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:.6;flex-shrink:0}
+.state.awake i{background:var(--g-green);opacity:1}
+.state.waking i{background:var(--g-amber);opacity:1;animation:pulse 1.1s ease-in-out infinite}
+.state.busted i{background:var(--g-danger);opacity:1}
+@keyframes pulse{50%{opacity:.35}}
+
+/* Who answers: cast.css rows, with the app's ink swapped for the glass's. */
+.picker{--ink:var(--g-ink);--ink-soft:var(--g-soft);--ink-faint:var(--g-faint);--hover:var(--g-chip);--panel:var(--g-chip);
+  --border:var(--g-line);margin:0 -12px;user-select:none}
+.picker .sg{background:none;border:0;font:inherit;color:var(--g-ink);cursor:pointer}
+.picker .sg:hover{background:var(--g-chip)}
+.picker .sg[aria-selected="true"]{background:var(--g-chip)}
+.picker .sg.off{cursor:default}
+.picker .sg-hint{font-size:9.5px;color:var(--g-ink-faint,var(--g-ink));opacity:.7;padding:6px 10px 3px}
+.gen-badge{color:var(--g-gen);font-weight:600;margin:0 0 6px}
+
+/* A reading waiting for its question: where it came from, how much, and that
+   no model has touched it. The picture itself is never kept (§5.8). */
+.chip{display:flex;align-items:center;gap:8px;margin:0 22px 10px 26px;padding:7px 8px 7px 12px;border-radius:12px;
+  background:var(--g-chip);font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;color:var(--g-soft);flex-shrink:0}
+.chip-thumb{width:30px;height:30px;border-radius:6px;object-fit:cover;flex-shrink:0}
+.chip b{font-family:'Hanken Grotesk',sans-serif;font-size:12.5px;font-weight:700;letter-spacing:0;color:var(--g-ink)}
+.chip .raw{margin-left:auto;border:1px dashed var(--g-gold);color:var(--g-gold);border-radius:999px;padding:2px 8px;text-transform:uppercase}
+.chip button{width:22px;height:22px;border-radius:6px;display:grid;place-items:center;font-size:15px;color:var(--g-faint)}
+.chip button:hover{background:var(--g-chip-hover);color:var(--g-ink)}
+
+/* ── the answer, under it ────────────────────────────────────────────── */
+.out{border-top:1px solid var(--g-line);padding:14px 26px 4px;overflow-y:auto;min-height:0;user-select:text;
+  animation:unfold .2s ease}
+@keyframes unfold{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+.answer{font-size:17px;line-height:1.5;overflow-wrap:anywhere}
+.answer.quiet{font-size:15px;color:var(--g-soft)}
+.prov{display:block;margin-top:7px;font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;color:var(--g-faint)}
+.fail{display:block;font-size:14px;color:var(--g-danger)}
+.fail .code{font-family:var(--mono);font-size:9px;letter-spacing:.08em;margin-right:7px}
+/* A value, marked the way the window marks it: computed, bundled, or web. */
+.val{font-family:var(--mono);font-size:.92em;font-variant-numeric:tabular-nums;
+  border-bottom:1px dashed var(--g-val);padding-bottom:1px}
+.val.bundled{border-bottom-color:var(--g-gold)}
+.val.bundled::after{content:"◦";color:var(--g-gold);vertical-align:super;font-size:1.1em;line-height:0;margin-left:1px}
+.val.web{border-bottom-color:var(--g-amber)}
+.val.web::after{content:"⌾";color:var(--g-amber);margin-left:2px}
+
+.acts{display:flex;flex-wrap:wrap;align-items:center;gap:7px;padding:10px 26px 14px;flex-shrink:0}
+.act{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:9.5px;font-weight:600;
+  letter-spacing:.07em;text-transform:uppercase;padding:7px 12px;border-radius:999px;color:var(--g-soft);
+  background:var(--g-chip);box-shadow:inset 0 1px 0 var(--g-edge);white-space:nowrap;
+  transition:background var(--dur-fast) var(--ease)}
+.act:hover:not(:disabled){background:var(--g-chip-hover);color:var(--g-ink)}
+.act:disabled{opacity:.5;cursor:default}
+.act kbd{font-family:var(--mono);font-size:9.5px;color:var(--g-faint)}
+.keys{margin-left:auto;font-family:var(--mono);font-size:9.5px;letter-spacing:.05em;color:var(--g-faint);white-space:nowrap}
+</style>
+
+<div class="glass" id="glass">
+  <div class="row">
+    <input id="ask" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+      placeholder="Ask Patch" aria-label="Ask Patch">
+    <span class="state" id="state"><i></i><span id="stateText">starting…</span></span>
+  </div>
+  <div class="chip" id="chip" hidden></div>
+  <!-- The answer lands here by replacing the lot, so the region can say so. -->
+  <div class="out" id="out" role="status" aria-live="polite" hidden></div>
+  <div class="acts" id="acts" hidden></div>
+</div>
+
+<!-- The bubbles, in reading order after the box. The first is whoever answers — Patch's
+     icon as the window shows it, until you pick someone else — and lists the
+     cast; the other two attach a reading. -->
+<button class="bub" data-n="1" id="bubPatch" aria-haspopup="listbox" aria-label="Choose who answers"></button>
+<button class="bub" data-n="2" id="bubImage" aria-label="Add an image" title="Add an image — only its text is kept">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="3"/><circle cx="9" cy="10" r="1.6"/><path d="M4 17l4.5-4.5 3.5 3.5 3-3 5 5"/></svg></button>
+<button class="bub" data-n="3" id="bubShot" aria-label="Read the screen" title="Read the text on your screen">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8V6.5A2.5 2.5 0 0 1 6.5 4H8M16 4h1.5A2.5 2.5 0 0 1 20 6.5V8M20 16v1.5a2.5 2.5 0 0 1-2.5 2.5H16M8 20H6.5A2.5 2.5 0 0 1 4 17.5V16"/><circle cx="12" cy="12" r="3"/></svg></button>
+<button class="bub" data-n="4" id="bubPlay" hidden aria-label="Play" title="Play">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.5 5.8v12.4a.8.8 0 0 0 1.2.7l9.6-6.2a.8.8 0 0 0 0-1.4L9.7 5.1a.8.8 0 0 0-1.2.7z"/></svg></button>
+<input type="file" id="pick" accept="image/*" hidden>
+
+<script type="module" src="src/bar.js"></script>

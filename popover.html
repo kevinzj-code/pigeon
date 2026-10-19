@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Pigeon</title>
+<!-- popover.html — the menu bar's window.
+     The doctype is not decoration: without it WebKit parses this page in quirks
+     mode, where percentage heights and inline metrics follow the old rules —
+     and this window is a flex column standing on `html,body{height:100%}`. The
+     main window has always had one. `lang` is here for the same reason it is
+     there: a screen reader has to know what language it is reading.
+     Its own page rather than a mode of index.html: it shares the pipeline
+     (src/stack.js, src/turn.js) and not the chrome, because a rail, a chat
+     list and a plan panel are the window's job and this is the surface for a
+     question you have while doing something else. The Altimeter tokens are
+     the app's own, copied not forked — see index.html's header. -->
+<link rel="stylesheet" href="styles/tokens.css">
+<link rel="stylesheet" href="styles/cast.css">
+<style>
+@font-face{font-family:'Hanken Grotesk';src:url('fonts/hanken-grotesk-variable.woff2') format('woff2');
+  font-weight:100 900;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url('fonts/ibm-plex-mono-400.woff2') format('woff2');
+  font-weight:400;font-display:swap}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0;height:100%}
+body{background:var(--surface);color:var(--ink);font-family:'Hanken Grotesk',-apple-system,BlinkMacSystemFont,sans-serif;
+  font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;
+  overflow:hidden;user-select:none}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer;text-align:left}
+:focus-visible{outline:2px solid var(--aqua);outline-offset:2px;border-radius:4px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+.head{display:flex;align-items:center;gap:9px;padding:11px 13px 9px;border-bottom:1px solid var(--border);
+  flex-shrink:0}
+.appmark{width:26px;height:26px;border-radius:8px;background:var(--patch-bg);display:grid;place-items:center;
+  flex-shrink:0;color:var(--patch-fg);padding:2px}
+.appmark svg{width:100%;height:100%}
+.who{min-width:0;flex:1}
+.name{font-weight:800;font-size:14px;display:block;line-height:1.2}
+/* The honesty rail, moved to where the app lives. It says what Pigeon is
+   holding at all times — §2.3 makes this line permanent. */
+.state{display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.04em;color:var(--ink-faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.state i{width:6px;height:6px;border-radius:50%;background:var(--ink-faint);opacity:.55;flex-shrink:0}
+.state.awake i{background:var(--green);opacity:1}
+.state.waking i{background:var(--amber);opacity:1}
+.state.busted i{background:var(--danger);opacity:1}
+
+.body{position:relative;padding:11px 13px 12px;overflow-y:auto;flex:1;min-height:0}
+/* Who answers, and the list to change it. The same cast as the window, drawn
+   from the same descriptors; Patch every time this window opens (§5.7). */
+.to{display:flex;align-items:center;gap:8px;margin-bottom:9px}
+.to-label{font-family:var(--mono);font-size:9.5px;letter-spacing:.06em;color:var(--ink-faint);flex-shrink:0}
+.who-btn{flex:1;min-width:0;display:flex;align-items:center;gap:7px;padding:5px 8px;border-radius:10px;
+  border:1px solid var(--border);background:var(--surface)}
+.who-btn:hover,.who-btn[aria-expanded="true"]{border-color:var(--ink-faint)}
+.who-name{font-size:13px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.who-chev{margin-left:auto;color:var(--ink-faint);font-size:10px;flex-shrink:0}
+.who-list{position:absolute;left:13px;right:13px;z-index:20;background:var(--surface);border:1px solid var(--border);
+  border-radius:12px;box-shadow:var(--shadow-float);padding:5px;max-height:300px;overflow-y:auto}
+.appmark .appicon{width:100%;height:100%;display:block;transform:scale(1.25)}
+.appmark:has(.appicon){overflow:hidden;background:#16283A}
+/* While the To: list is open it is the one thing that scrolls. */
+body.picking .body{overflow:hidden}
+.kind{font-family:var(--mono);font-size:8px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;
+  padding:2px 6px;border-radius:5px;white-space:nowrap;flex-shrink:0;line-height:1.5}
+.kind.verified{background:var(--aqua-tint);color:var(--aqua)}
+.kind.voice{background:var(--warn-bg);color:var(--warn-ink);box-shadow:inset 0 0 0 1px var(--warn-line)}
+.kind.job{color:var(--warn-ink);box-shadow:inset 0 0 0 1px var(--warn-line)}
+.kind.base,.kind.missing{color:var(--ink-faint);box-shadow:inset 0 0 0 1px var(--border)}
+
+/* A reading waiting for its question: where it came from, how much of it there
+   is, and that no model has touched it. */
+.reading{position:relative;margin-bottom:9px;background:var(--panel);border-radius:10px;padding:8px 10px}
+.reading-hd{display:flex;align-items:center;gap:7px;flex-wrap:wrap;font-family:var(--mono);font-size:8.5px;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--ink-faint);padding-right:22px}
+.reading-thumb{width:28px;height:28px;border-radius:5px;object-fit:cover;flex-shrink:0}
+.reading-hd b{color:var(--ink);font-weight:700;text-transform:none;letter-spacing:0;font-size:11px}
+.reading-x{position:absolute;top:4px;right:5px;width:22px;height:22px;border-radius:6px;display:grid;place-items:center;
+  color:var(--ink-faint);font-size:15px}
+.reading-x:hover{background:var(--surface);color:var(--ink)}
+.reading details{margin-top:6px}
+.reading summary{cursor:pointer;font-family:var(--mono);font-size:8.5px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--ink-faint)}
+.reading pre{margin:6px 0 0;font-family:var(--mono);font-size:10.5px;line-height:1.5;white-space:pre-wrap;
+  overflow-wrap:anywhere;overflow:visible;color:var(--ink);user-select:text}
+/* An image dragged onto the window. */
+body.dropping .body{outline:2px dashed var(--aqua);outline-offset:-6px;border-radius:12px}
+
+#ask{width:100%;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:10px 12px;
+  font:inherit;color:var(--ink);outline:none;resize:none;user-select:text}
+#ask:focus{border-color:var(--aqua)}
+#ask::placeholder{color:var(--ink-faint)}
+
+.answer{margin-top:10px;background:var(--panel);border-radius:12px;padding:10px 12px;user-select:text}
+.answer.gen{border-left:3px solid var(--gen-rule)}
+.answer .gen-badge{color:var(--gen-rule);font-weight:600}
+.answer .prov{display:block;margin-top:6px;font-family:var(--mono);font-size:9px;letter-spacing:.04em;
+  color:var(--ink-faint)}
+.answer .fail{display:block;margin-top:6px;font-size:12px;color:var(--danger)}
+.answer .fail .code{font-family:var(--mono);font-size:8.5px;letter-spacing:.08em;margin-right:6px}
+.val{font-family:var(--mono);font-size:.92em;font-variant-numeric:tabular-nums;
+  border-bottom:1px dashed rgba(44,110,140,.55);padding-bottom:1px;cursor:pointer}
+.val.bundled{border-bottom-color:var(--gold)}
+.val.bundled::after{content:"◦";color:var(--gold);vertical-align:super;font-size:1.1em;line-height:0;margin-left:1px}
+.val.web{border-bottom-color:var(--amber)}
+.val.web::after{content:"⌾";color:var(--amber);margin-left:2px}
+.pnote{margin-top:10px;background:var(--warn-bg);border-radius:10px;padding:9px 11px;font-size:12px;
+  color:var(--warn-ink);line-height:1.5}
+.psheet{margin-top:10px;background:var(--panel);border-radius:12px;padding:10px 12px;font-size:12px;
+  color:var(--ink);line-height:1.5}
+.psheet b{display:block;font-size:13px;margin-bottom:4px}
+.psheet p{margin:6px 0 0}
+.psheet ol{margin:6px 0 0;padding-left:18px}
+
+.pacts{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
+.pact{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:9px;font-weight:600;
+  letter-spacing:.07em;text-transform:uppercase;padding:7px 11px;border-radius:999px;
+  border:1px solid var(--border);color:var(--ink-soft);white-space:nowrap}
+.pact:hover:not(:disabled){border-color:var(--ink-faint);color:var(--ink)}
+.pact:disabled{opacity:.45;cursor:default}
+.pact svg{width:13px;height:13px}
+.pact kbd{font-family:var(--mono);font-size:8.5px;color:var(--ink-faint)}
+/* Play, for a Pigeon that plays: the one filled action, because it starts something. */
+.pact.play{background:var(--solid);border-color:var(--solid);color:var(--on-solid)}
+.pact.play:hover:not(:disabled){color:var(--on-solid);opacity:.9}
+.pact.play svg{width:10px;height:10px}
+
+/* The screenshot: the capture, scaled to fit, with a rectangle dragged over
+   the part that was meant. The crop is taken at full resolution, so a rough
+   drag on a small picture still reads sharp text. */
+.shot{margin-top:10px;position:relative;border-radius:10px;overflow:hidden;border:1px solid var(--border);
+  background:var(--panel);cursor:crosshair;user-select:none}
+.shot img{display:block;width:100%;height:auto;pointer-events:none}
+.shot .sel{position:absolute;border:1.5px solid var(--aqua);background:var(--aqua-tint);pointer-events:none}
+.shot-hint{margin-top:6px;font-family:var(--mono);font-size:9px;letter-spacing:.04em;color:var(--ink-faint)}
+.read{margin-top:10px;background:var(--panel);border-radius:10px;padding:9px 11px}
+.read-hd{display:flex;align-items:center;gap:7px;font-family:var(--mono);font-size:8.5px;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--ink-faint);margin-bottom:6px}
+.read-hd b{color:var(--ink);font-weight:700}
+.read pre{margin:0;font-family:var(--mono);font-size:11px;line-height:1.5;white-space:pre-wrap;
+  overflow-wrap:anywhere;overflow:visible;color:var(--ink);user-select:text}
+.raw{border:1px dashed var(--gold);color:var(--warn-ink);border-radius:999px;padding:3px 8px;
+  font-family:var(--mono);font-size:8.5px;letter-spacing:.07em;text-transform:uppercase;margin-left:auto}
+/* The To: list: cast.css rows, at this window's size. */
+.who-list .sg{gap:9px;padding:6px 9px;border-radius:9px;background:none;border:0;font:inherit;cursor:pointer}
+.who-list .sg-txt b{font-size:12.5px}
+.who-list .sg-txt small{font-size:11px}
+.who-list .sg-txt small.sg-fact{font-size:10.5px}
+.who-list .sg.off{cursor:default}
+/* Last time's answer, folded to one line until the next send. */
+.last{display:flex;align-items:center;gap:6px;margin-top:10px;font-size:12px;color:var(--ink-soft);min-width:0}
+.last-k{font-weight:700;color:var(--ink)}
+.last-t{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink)}
+.last-b{background:none;border:0;padding:0;font:inherit;font-size:12px;font-weight:600;color:var(--ink);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+.foot{display:flex;align-items:center;gap:7px;padding:8px 13px;border-top:1px solid var(--border);
+  font-family:var(--mono);font-size:9px;letter-spacing:.04em;color:var(--ink-faint);flex-shrink:0}
+.foot i{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0}
+</style>
+
+<div class="head">
+  <span class="appmark" id="mark"></span>
+  <span class="who">
+    <span class="name">Pigeon</span>
+    <span class="state" id="state"><i></i><span id="stateText">starting…</span></span>
+  </span>
+</div>
+
+<div class="body">
+  <div class="to">
+    <span class="to-label">To:</span>
+    <button class="who-btn" id="who" aria-haspopup="listbox" aria-expanded="false" aria-label="Who answers this"></button>
+  </div>
+  <div class="who-list" id="whoList" role="listbox" aria-label="Pigeons on this Mac" hidden></div>
+  <div class="reading" id="chip" hidden></div>
+  <textarea id="ask" rows="1" placeholder="Ask anything quick…"></textarea>
+  <!-- The answer lands here by replacing the lot, so the region can say so:
+       small enough that reading it out is the whole point of it. -->
+  <div id="out" role="status" aria-live="polite"></div>
+  <div class="pacts">
+    <button class="pact" id="openWindow">Open window <kbd>⌘↩</kbd></button>
+    <button class="pact" id="shot">Screenshot</button>
+    <button class="pact" id="pickImg">Picture…</button><input type="file" id="pickFile" accept="image/*" hidden>
+    <button class="pact play" id="play" hidden></button>
+    <button class="pact" id="wake">Wake models</button>
+  </div>
+</div>
+
+<div class="foot"><i></i><span id="footText">Nothing left this Mac</span></div>
+
+<script type="module" src="src/popover.js"></script>

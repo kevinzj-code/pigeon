@@ -1,0 +1,121 @@
+{
+ "batch": "l07",
+ "pairs": [
+  { "skill": "extractCodeBlocks", "no": "the code blocks in that tutorial were wrong and wasted my whole evening", "yes": "pull the code blocks out of this tutorial markdown" },
+  { "skill": "extractCodeBlocks", "no": "my nephew talks in code so his mum never knows where he is", "yes": "extract just the python code blocks from this readme" },
+
+  { "skill": "extractCurrencyAmounts", "no": "the amounts they charge for parking in town are criminal, £8 for two hours", "yes": "extract the money amounts from this: parking £8, fuel €42.50, tolls $6" },
+  { "skill": "extractCurrencyAmounts", "no": "paid through the nose for that sofa, a ridiculous amount of money", "yes": "pull out every money amount in this receipt: sofa £899, delivery £45" },
+
+  { "skill": "extractDates", "no": "had three dates this month and not one of them asked me a single question", "yes": "extract the dates from this message: dinner on 4 june, cinema on 19 june this month" },
+  { "skill": "extractDates", "no": "those old letters are full of dates nobody in the family remembers", "yes": "pull the dates out of these old letters: 3rd march 1921, 14 may 1923" },
+
+  { "skill": "extractEmails", "no": "nobody reads the email address in the footer of our newsletter anyway", "yes": "list every email address in this newsletter footer: support@tidy.app, billing@tidy.app" },
+  { "skill": "extractEmails", "no": "she changed her email address again, that's the fourth time this year", "yes": "extract the email addresses from this thread: sam.k@post.net wrote to her@mailbox.org" },
+
+  { "skill": "extractHashtags", "no": "people who put twenty hashtags on a photo of toast confuse me", "yes": "get the hashtags from this caption: toast for breakfast #brunch #sourdough #foodie" },
+  { "skill": "extractHashtags", "no": "the hashtag craze was huge for about a year and then it just died", "yes": "extract every hashtag from this tweet: launch day at last! #indiedev #gamedev" },
+
+  { "skill": "extractIpAddresses", "no": "our ip address changed overnight and now the office printer sulks", "yes": "pull the ip addresses out of this log: 10.0.0.4 refused, 192.168.1.20 accepted" },
+  { "skill": "extractIpAddresses", "no": "the server logs were full of strange ip addresses from all over the world last night", "yes": "extract the ip addresses from these server log lines: 203.0.113.7 GET /, 2001:db8::1 POST /login" },
+
+  { "skill": "extractListItems", "no": "my to-do list still has items on it from last christmas", "yes": "pull the list items out of this note: - milk\n- eggs\n- bread" },
+  { "skill": "extractListItems", "no": "climbing kilimanjaro has been on my bucket list for a decade", "yes": "extract the numbered items from this list: 1. pack bags 2. book taxi 3. lock up" },
+
+  { "skill": "extractMentions", "no": "she got a mention in the local paper for her marrows and hasn't shut up since", "yes": "get the @mentions from this post: thanks @lena and @tom_b for the marrows" },
+  { "skill": "extractMentions", "no": "my old school friend tagged me in a photo, mortifying", "yes": "list the handles tagged in this photo caption: reunion with @mo_s and @jules88" },
+
+  { "skill": "extractNgrams", "no": "i ching trigrams were my aunt's obsession for years", "yes": "word trigrams of this line: my aunt swore by the i ching" },
+  { "skill": "extractNgrams", "no": "two-word phrases are all my toddler manages, like more juice and no bed", "yes": "break this into two-word runs: more juice no bed now" },
+
+  { "skill": "extractNumbers", "no": "the numbers on the bathroom scale have been creeping up since august", "yes": "pull the numbers out of this: weighed 82.4 in august, 84.1 in october" },
+  { "skill": "extractNumbers", "no": "safety in numbers, my dad always said, so we walked home as a group", "yes": "extract the figures from this sentence: 12 of us walked 3.5 miles home" },
+
+  { "skill": "extractPhoneNumbers", "no": "lost my phone and with it every number i ever knew", "yes": "pull the phone numbers out of this signature: tel 020 7946 0018, mobile 07700 900123" },
+  { "skill": "extractPhoneNumbers", "no": "my gran still keeps a little book of phone numbers by the landline", "yes": "extract the phone numbers from this footer: call +44 161 496 0000 or 0800 123 4567" },
+
+  { "skill": "extractTimes", "no": "times have changed, we used to leave the back door unlocked", "yes": "pull the times out of this: bins at 7.30, post around 11am, back door locked by 22:00" },
+  { "skill": "extractTimes", "no": "the bus times on that timetable are pure fiction", "yes": "extract the clock times from this timetable line: dep 08:15, 9.40am, 1:05pm" },
+
+  { "skill": "extractUrls", "no": "he sends me links to cat videos at three in the morning", "yes": "get the links from this message: cat video https://vimeo.com/123 and www.catsite.org" },
+  { "skill": "extractUrls", "no": "that url was so long it wrapped around my screen twice", "yes": "extract the urls from this paragraph: docs at https://docs.rs and blog at www.ferris.dev" },
+
+  { "skill": "findLongestWord", "no": "my longest word in scrabble was quixotic and i still brag about it", "yes": "what is the longest word in: quixotic zebras jumped over lazy dogs" },
+  { "skill": "findLongestWord", "no": "the longest word my toddler can say is spaghetti, and he says it constantly", "yes": "find the longest word in this line: my toddler says spaghetti constantly" },
+
+  { "skill": "findNearDuplicates", "no": "my twin and i are near duplicates, even our mum mixes us up", "yes": "find the near duplicates in this list: Jon Smith, John Smith, jon smith., Mary Lee" },
+  { "skill": "findNearDuplicates", "no": "the shop sent me two nearly identical jumpers instead of one", "yes": "spot the nearly identical entries here: Acme Ltd, ACME Ltd., Acme Limited, Beta Co" },
+
+  { "skill": "flagPii", "no": "people overshare personal details online and then act surprised", "yes": "flag any personal details in this text: call jane on 07700 900456, ni number QQ123456C" },
+  { "skill": "flagPii", "no": "that sticky note with my bank pin on it is a privacy disaster waiting to happen", "yes": "is there any sensitive data in this note: pin 4821, sort code 12-34-56" },
+
+  { "skill": "flagProfanity", "no": "every swear word i know i picked up from grandad doing the crossword", "yes": "flag every swear word in this: what the hell is 7 down, bloody nonsense" },
+  { "skill": "flagProfanity", "no": "the language on that football terrace would make your ears bleed", "yes": "check this comment for bad language before i post it: that ref was a bloody disgrace" },
+
+  { "skill": "joinLines", "no": "standing in long lines at the post office is how i spend my lunch breaks", "yes": "join these lines with a semicolon: post office\nbank\nchemist" },
+  { "skill": "joinLines", "no": "she joined the choir and now every line of every hymn is stuck in my head", "yes": "join each line of this into one line with spaces: abide with me\nfast falls the eventide" },
+
+  { "skill": "keywordsTfidf", "no": "the key word in that job advert was flexible, which means unpaid overtime", "yes": "pull the keywords from this job advert: flexible hours, unpaid overtime, team player, fast paced" },
+  { "skill": "keywordsTfidf", "no": "the main topic at dinner was, as always, my cousin's wedding", "yes": "pick out the distinctive keywords in this: the wedding venue, catering budget and guest list dominated dinner" },
+
+  { "skill": "lexiconSentiment", "no": "my sentiments exactly, that film was a total waste of two hours", "yes": "score the sentiment of this review: a total waste of two hours, dreadful acting" },
+  { "skill": "lexiconSentiment", "no": "she's always so positive, even when the boiler packed in", "yes": "rate how positive this feedback sounds: engineer was on time, boiler fixed, lovely chap" },
+
+  { "skill": "maskSensitive", "no": "she wears a mask of politeness but you can see she's furious", "yes": "mask the email and phone in this: reach me at kim@post.net or 07700 900777" },
+  { "skill": "maskSensitive", "no": "those redacted government files are full of black bars and no answers", "yes": "redact the card number in this message: paid with 4929 1234 5678 9012 yesterday" },
+
+  { "skill": "normalizeWhitespace", "no": "the spacing on that wedding invite was all over the place and nobody noticed but me", "yes": "tidy up the spacing in this invite text:  you   are  invited   to  the wedding  " },
+  { "skill": "normalizeWhitespace", "no": "there's a lot of white space in the new office and it feels like a hospital", "yes": "trim the white space from the ends of these lines and collapse the double spaces" },
+
+  { "skill": "numberLines", "no": "my lines in the school play numbered exactly four, and i still forgot one", "yes": "number the lines of this script: i forgot\nmy lines\nagain" },
+  { "skill": "numberLines", "no": "his days at that company are numbered, everyone can see it", "yes": "number the lines of this to-do list: email boss\nbook dentist\nwater plants" },
+
+  { "skill": "padText", "no": "they pad out the news with stories about skateboarding ducks", "yes": "pad the word duck out to 10 characters, left aligned" },
+  { "skill": "padText", "no": "the essay was padded with filler just to hit the word count", "yes": "pad \"essay\" out to 12 characters, right aligned" },
+
+  { "skill": "readingLevel", "no": "my reading level dropped off a cliff once i got a phone", "yes": "what reading level is this paragraph: the cat sat on the mat and looked out at the rain" },
+  { "skill": "readingLevel", "no": "that tax letter was so hard to read i gave up halfway", "yes": "how hard is this tax letter to read: liability arising hereunder shall be apportioned accordingly" },
+
+  { "skill": "readingTime", "no": "reading time is the only peace i get, once the kids are in bed", "yes": "reading time for this at 200 words a minute: the kids are finally in bed and the house is quiet" },
+  { "skill": "readingTime", "no": "that speech went on so long half the room fell asleep", "yes": "how long would this speech take to say aloud at 130 words per minute" },
+
+  { "skill": "removeDuplicateLines", "no": "he repeats the same lines at every party, word for word", "yes": "remove the repeated lines from this: hello\nhow are you\nhello" },
+  { "skill": "removeDuplicateLines", "no": "the duplicates in my photo library are eating all the storage", "yes": "remove the duplicates from this list, keep the order: ana\nben\nana\ncarl" },
+
+  { "skill": "removeEmoji", "no": "my mum signs off every text with six emoji and a kiss", "yes": "strip the emoji from this text: love you 😘😘 see you sunday x" },
+  { "skill": "removeEmoji", "no": "the crying-laughing emoji is apparently uncool now, according to my teenager", "yes": "remove all emoji from this caption: my teenager says i'm uncool 😂😂🙄" },
+
+  { "skill": "removeStopWords", "no": "his speeches are mostly filler words, um and like and you know", "yes": "remove the stop words from this: the speech was mostly about the budget and the roads" },
+  { "skill": "removeStopWords", "no": "nothing will stop my nan from talking through the whole film", "yes": "strip the stop words out of: my nan talked through the whole film" },
+
+  { "skill": "replaceText", "no": "replacing the boiler cost more than the car did", "yes": "replace every \"boiler\" with \"heater\" in this: the boiler is old, the boiler leaks" },
+  { "skill": "replaceText", "no": "nobody could replace my old dog, but the puppy is trying", "yes": "swap every dog for puppy in this: the dog barked, the dog slept" },
+
+  { "skill": "reverseText", "no": "reversing into a tight space is my worst nightmare", "yes": "reverse the letters in the word nightmare" },
+  { "skill": "reverseText", "no": "she put the car into reverse and drove straight into the hedge", "yes": "reverse the word order of: she drove straight into the hedge" },
+
+  { "skill": "similarityJaccard", "no": "my brother and i are so similar we finish each other's sentences", "yes": "word overlap between these two sentences: my brother loves tea / my sister loves tea" },
+  { "skill": "similarityJaccard", "no": "the two reports overlap so much it's like they copied each other", "yes": "how much do these two reports overlap in wording: sales rose in may / sales fell in may" },
+
+  { "skill": "similarityLevenshtein", "no": "my name is one letter off from my cousin's and the post always goes wrong", "yes": "how many single letter edits turn cathryn into kathryn" },
+  { "skill": "similarityLevenshtein", "no": "the distance between us grew after she moved to leeds", "yes": "edit distance between leeds and leds" },
+
+  { "skill": "slugify", "no": "that slug ate half my lettuces overnight", "yes": "make a url slug from: Half My Lettuces — Gone Overnight!" },
+  { "skill": "slugify", "no": "slugging through this report is taking me all week", "yes": "slugify this blog title: Slugging Through The Week (Part 2)" },
+
+  { "skill": "sortLines", "no": "the dvd shelf is in no order at all and it drives my wife mad", "yes": "put these dvd titles in alphabetical order: Up\nAlien\nJaws\nHeat" },
+  { "skill": "sortLines", "no": "out of sorts all day, probably the cold coming on", "yes": "sort these lines by length: out of sorts\ncold\nprobably the cold coming on" },
+
+  { "skill": "splitLines", "no": "we split the bill three ways and somehow i still paid most", "yes": "split this onto separate lines at each comma: bill, tip, taxi, drinks" },
+  { "skill": "splitLines", "no": "the band split up before their second album, typical", "yes": "split this at every semicolon, one per line: first album;second album;live album" },
+
+  { "skill": "stemWords", "no": "the problem stems from him never reading the instructions", "yes": "stem these words: reading, reads, reader, instructions" },
+  { "skill": "stemWords", "no": "she's been running, cycling and swimming all summer for the triathlon", "yes": "reduce running, cycling and swimming to their stems" },
+
+  { "skill": "stripHtml", "no": "the email arrived as a wall of raw html and i gave up", "yes": "strip the html tags from this email: <div><p>Your order has <b>shipped</b></p></div>" },
+  { "skill": "stripHtml", "no": "learned a bit of html at school and made a terrible page about horses", "yes": "get the plain text out of this html: <h1>Horses</h1><p>I <i>love</i> them</p>" },
+
+  { "skill": "stripMarkdown", "no": "my notes are full of markdown asterisks nobody else understands", "yes": "strip the markdown from these notes: **buy** milk, *call* gran, [vet](http://vet.co)" },
+  { "skill": "stripMarkdown", "no": "the shop had a big markdown on winter coats so i bought two", "yes": "remove the markdown formatting from this: ## Winter coats\n**two** for the price of one" }
+ ]
+}

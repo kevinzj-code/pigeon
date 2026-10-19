@@ -1,0 +1,690 @@
+{"orig": "the integration says my body is wrong", "text": "check my request body, the integration says it is wrong", "category": "validation", "skill": "validateJsonSchema"}
+{"orig": "the slide needs a shorter version of this number", "text": "can you shorten this number for the slide", "category": "math", "skill": "formatNumber"}
+{"orig": "my css needs this in another notation", "text": "i need this colour in another notation for my css", "category": "design", "skill": "convertColor"}
+{"orig": "the pipe drawn table as real records", "text": "turn the pipe drawn table into real records", "category": "data", "skill": "parseMarkdownTable"}
+{"orig": "the geeky birthday card needs translating", "text": "help me translate the geeky birthday card", "category": "encoding", "skill": "binaryDecode"}
+{"orig": "the old system rejects accented characters", "text": "sort out the accented characters the old system rejects", "category": "text", "skill": "toAscii"}
+{"orig": "the video length is quoted in seconds", "text": "turn the video length from seconds into minutes", "category": "conversion", "skill": "convertTime"}
+{"orig": "the shared members of these two lists", "text": "find the shared members of these two lists", "category": "lists", "skill": "intersectLists"}
+{"orig": "the suffix that goes on this number", "text": "which suffix goes on this number", "category": "math", "skill": "toOrdinal"}
+{"orig": "the volume where the two offers are equal", "text": "at what volume are the two offers equal", "category": "decisions", "skill": "breakEvenComparison"}
+{"orig": "the date in 10 days", "text": "tell me the date in 10 days", "category": "dates", "skill": "parseRelativeDate"}
+{"orig": "my friend says these two are the same jumbled", "text": "could you check my friend's claim these two are the same jumbled", "category": "games", "skill": "checkAnagram"}
+{"orig": "the class has to be split into small teams", "text": "split the class into small teams", "category": "lists", "skill": "chunkList"}
+{"orig": "the accounts need this laid out as money", "text": "lay this out as money for the accounts", "category": "math", "skill": "formatCurrency"}
+{"orig": "the form wants numerals not words", "text": "can i get this in numerals, the form wants no words", "category": "math", "skill": "parseNumber"}
+{"orig": "this iban well formed account", "text": "is this iban a well formed account", "category": "validation", "skill": "validateIban"}
+{"orig": "the low level output hides a message", "text": "dig out the message hiding in the low level output", "category": "encoding", "skill": "hexDecode"}
+{"orig": "the curly quotes are breaking my export", "text": "straighten the curly quotes that are breaking my export", "category": "text", "skill": "toAscii"}
+{"orig": "someone born yesterday age", "text": "how old is someone born yesterday", "category": "dates", "skill": "ageFromDate"}
+{"orig": "the factor tree for this figure", "text": "give me the factor tree for this figure", "category": "math", "skill": "primeFactors"}
+{"orig": "the smallest whole numbers for this ratio", "text": "reduce this ratio to the smallest whole numbers", "category": "math", "skill": "fractionSimplify"}
+{"orig": "the number of permutations of this set", "text": "how many permutations does this set have", "category": "math", "skill": "factorial"}
+{"orig": "i ran that distance in that time was it decent", "text": "i ran that distance in that time, was the pace decent?", "category": "health", "skill": "paceCalculate"}
+{"orig": "the lockfile and the tag disagree which is later", "text": "which is later, the lockfile version or the tag", "category": "developer", "skill": "compareSemver"}
+{"orig": "the reviewer said it felt redundant", "text": "go through this and find what the reviewer felt was redundant", "category": "text", "skill": "detectRepetition"}
+{"orig": "the sequence where each is the last two added", "text": "list the sequence where each is the last two added", "category": "math", "skill": "fibonacci"}
+{"orig": "the full set across both of these", "text": "give me the full set across both of these", "category": "lists", "skill": "unionLists"}
+{"orig": "i have a list of upsides and downsides", "text": "help me weigh up my list of upsides and downsides", "category": "decisions", "skill": "prosConsScore"}
+{"orig": "the recipe is american and my scales are not", "text": "convert the american recipe for my scales", "category": "everyday", "skill": "convertCookingMeasure"}
+{"orig": "my card gave me a rate what does it work out at", "text": "can you work out what the rate my card gave me comes to", "category": "finance", "skill": "convertCurrencyFixed"}
+{"orig": "the t shirt slogan is in machine digits", "text": "read the machine digits on the t shirt slogan", "category": "encoding", "skill": "binaryDecode"}
+{"orig": "the abbreviated figure written out fully", "text": "write the abbreviated figure out fully", "category": "math", "skill": "parseNumber"}
+{"orig": "the named values riding on this address", "text": "pull out the named values riding on this address", "category": "data", "skill": "parseQueryString"}
+{"orig": "someone typed a birthday that looks impossible", "text": "could you check whether this typed birthday is even possible", "category": "validation", "skill": "validateDate"}
+{"orig": "the ordinal position of that date in the year", "text": "tell me the ordinal position of that date in the year", "category": "dates", "skill": "dayOfYear"}
+{"orig": "this will not fit the printed page width", "text": "wrap this so it fits the printed page width", "category": "text", "skill": "wrapText"}
+{"orig": "the warranty lasts six weeks until when", "text": "work out when a six week warranty runs until", "category": "dates", "skill": "addDuration"}
+{"orig": "this was shrunk and i want it whole", "text": "make this shrunk text whole again", "category": "encoding", "skill": "decompressText"}
+{"orig": "the log line is encoded and i need the content", "text": "i need the content of this encoded log line", "category": "encoding", "skill": "base64Decode"}
+{"orig": "the tape measure is in the wrong units", "text": "convert the tape measure reading into the right units", "category": "conversion", "skill": "convertLength"}
+{"orig": "the nerdy tattoo needs the ones and zeros", "text": "write out the ones and zeros for the nerdy tattoo", "category": "encoding", "skill": "binaryEncode"}
+{"orig": "the return without any reinvesting", "text": "work out the return without any reinvesting", "category": "finance", "skill": "simpleInterest"}
+{"orig": "the recipe serves four and i need six", "text": "if the recipe serves four, what ratio gets me six", "category": "math", "skill": "ratioSolve"}
+{"orig": "the point the cheaper option stops being cheaper", "text": "find the point where the cheaper option stops being cheaper", "category": "decisions", "skill": "breakEvenComparison"}
+{"orig": "the stored value needs expanding again", "text": "expand the stored value again", "category": "encoding", "skill": "decompressText"}
+{"orig": "the recipe fraction should be tidier", "text": "tidy up the recipe fraction", "category": "math", "skill": "fractionSimplify"}
+{"orig": "the field wants everything on one line", "text": "put everything on one line for the field", "category": "text", "skill": "joinLines"}
+{"orig": "my indents should turn into structure", "text": "turn my indents into structure", "category": "writing", "skill": "outlineToMarkdown"}
+{"orig": "this packed string expanded", "text": "can you expand this packed string", "category": "encoding", "skill": "decompressText"}
+{"orig": "the field has a length limit and this is long", "text": "shrink this long text, the field has a length limit", "category": "encoding", "skill": "compressText"}
+{"orig": "the film had beeping i want to understand", "text": "help me understand the beeping in the film", "category": "encoding", "skill": "morseDecode"}
+{"orig": "this markdown grid as rows", "text": "read this markdown grid as rows", "category": "data", "skill": "parseMarkdownTable"}
+{"orig": "the number on the back cover looks wrong", "text": "is the number on the back cover wrong?", "category": "validation", "skill": "validateIsbn"}
+{"orig": "the per unit figure for this pack", "text": "can i get the per unit figure for this pack", "category": "everyday", "skill": "unitPrice"}
+{"orig": "my longest stretch without missing", "text": "count my longest stretch without missing", "category": "organising", "skill": "streakCount"}
+{"orig": "my link breaks when the search has spaces", "text": "fix my link so spaces in the search stop breaking it", "category": "encoding", "skill": "urlEncode"}
+{"orig": "the plan quotes one unit my usage another", "text": "put my usage in the same unit the plan quotes", "category": "conversion", "skill": "convertDataSize"}
+{"orig": "the hourly behind a 60000 salary at 40 hours", "text": "i need the hourly behind a 60000 salary at 40 hours", "category": "finance", "skill": "salaryToHourly"}
+{"orig": "the double letter is under the q is it worth it", "text": "is the q worth it on the double letter", "category": "games", "skill": "scrabbleScore"}
+{"orig": "1000 my own way 40 40 20", "text": "can you divide 1000 my own way, 40 40 20", "category": "organising", "skill": "budgetSplit"}
+{"orig": "this comma text as rows", "text": "parse this comma text into rows", "category": "data", "skill": "parseCsv"}
+{"orig": "the fuzzy match needs a distance score", "text": "give the fuzzy match a distance score", "category": "text", "skill": "similarityLevenshtein"}
+{"orig": "the countdown to my sisters wedding", "text": "how long is the countdown to my sisters wedding", "category": "dates", "skill": "countdownTo"}
+{"orig": "my opponent challenged the value of this", "text": "settle my opponent's challenge on the value of this word", "category": "games", "skill": "scrabbleScore"}
+{"orig": "i only want what is inside the fences", "text": "pull out only what is inside the fences", "category": "text", "skill": "extractCodeBlocks"}
+{"orig": "the direction this data is going", "text": "which direction is this data going", "category": "statistics", "skill": "linearRegression"}
+{"orig": "the spacing came through wrong from word", "text": "sort out the spacing that came through wrong from word", "category": "text", "skill": "normalizeWhitespace"}
+{"orig": "the position form of 112", "text": "i need the position form of 112", "category": "math", "skill": "toOrdinal"}
+{"orig": "the records should run across not down", "text": "make the records run across instead of down", "category": "data", "skill": "transposeTable"}
+{"orig": "i cannot follow this without european units", "text": "put this in european units so i can follow it", "category": "everyday", "skill": "convertCookingMeasure"}
+{"orig": "the journal caps abstracts and i am over", "text": "count the words, the journal caps abstracts and i am over", "category": "text", "skill": "countWords"}
+{"orig": "the week number for 2000-01-01", "text": "tell me the week number for 2000-01-01", "category": "dates", "skill": "isoWeek"}
+{"orig": "the webinar is at three their time what is mine", "text": "convert three o'clock their time for the webinar into mine", "category": "dates", "skill": "convertTimezone"}
+{"orig": "the date meant by 1788255000000", "text": "could you tell me the date meant by 1788255000000", "category": "dates", "skill": "unixToIso"}
+{"orig": "the api keeps returning a number and no help", "text": "explain the number the api keeps returning with no help", "category": "developer", "skill": "httpStatusLookup"}
+{"orig": "the rest day following 2026-12-25", "text": "find the rest day following 2026-12-25", "category": "dates", "skill": "nextWeekday"}
+{"orig": "the spreadsheet will not accept how this is written", "text": "rewrite this date so the spreadsheet will accept it", "category": "dates", "skill": "parseDate"}
+{"orig": "the packet capture shows raw bytes", "text": "decode the raw bytes in the packet capture", "category": "encoding", "skill": "hexDecode"}
+{"orig": "the tree written as dotted keys", "text": "write the tree as dotted keys", "category": "data", "skill": "flattenJson"}
+{"orig": "the address bar will not take this", "text": "why will the address bar not take this", "category": "validation", "skill": "validateUrl"}
+{"orig": "the date 90 days on from 2026-07-12", "text": "can you give me the date 90 days on from 2026-07-12", "category": "dates", "skill": "addDuration"}
+{"orig": "the till will not take this number", "text": "check this number the till will not take", "category": "validation", "skill": "validateLuhn"}
+{"orig": "the audit wants a frequency for that term", "text": "count how often that term appears for the audit", "category": "text", "skill": "countOccurrences"}
+{"orig": "my editor shows a stray character at the end", "text": "find the stray character my editor shows at the end", "category": "files", "skill": "textFileStats"}
+{"orig": "the hour in London Tokyo and New York", "text": "show me the hour in London Tokyo and New York", "category": "dates", "skill": "listTimezoneOffsets"}
+{"orig": "the dice are lost and we still want to play", "text": "roll for us, the dice are lost and we still want to play", "category": "generation", "skill": "rollDice"}
+{"orig": "my rent went from 1200 to 1350, what percent increase is that", "text": "what percent increase is my rent going from 1200 to 1350", "category": "math", "skill": "percentChange"}
+{"orig": "the plain english standard has a threshold", "text": "does this pass the plain english standard's threshold", "category": "text", "skill": "readingLevel"}
+{"orig": "the api returns a duration in the wrong unit", "text": "convert the duration the api returns into the right unit", "category": "conversion", "skill": "convertTime"}
+{"orig": "the audit flagged my colours as failing", "text": "go through the colours the audit flagged as failing", "category": "design", "skill": "contrastRatio"}
+{"orig": "the quarter mark of these scores", "text": "where is the quarter mark of these scores", "category": "statistics", "skill": "percentile"}
+{"orig": "the chart tool wants the axes swapped", "text": "swap the axes for the chart tool", "category": "data", "skill": "transposeTable"}
+{"orig": "the eyes versus they see", "text": "check the eyes versus they see", "category": "games", "skill": "checkAnagram"}
+{"orig": "this json parses or not", "text": "does this json parse or not", "category": "validation", "skill": "validateJson"}
+{"orig": "this repeats so much it should pack down small", "text": "pack this down small, it repeats so much", "category": "encoding", "skill": "compressText"}
+{"orig": "the speed limit sign abroad confuses me", "text": "i need the speed limit sign abroad in my units", "category": "conversion", "skill": "convertSpeed"}
+{"orig": "i typed this in caps by accident", "text": "fix this, i typed it in caps by accident", "category": "text", "skill": "convertCase"}
+{"orig": "the database column stores dates as integers", "text": "convert this date to the integer the database column stores", "category": "dates", "skill": "isoToUnix"}
+{"orig": "my height and weight what does that say", "text": "i want to know what my height and weight say", "category": "health", "skill": "bmiCalculate"}
+{"orig": "the human date behind this number", "text": "can you find the human date behind this number", "category": "dates", "skill": "unixToIso"}
+{"orig": "this pasted badly from the pdf", "text": "tidy up this text that came through badly from the pdf", "category": "text", "skill": "normalizeWhitespace"}
+{"orig": "this heading should look like a book title", "text": "make this heading look like a book title", "category": "text", "skill": "convertCase"}
+{"orig": "i have a spreadsheet of candidates and no verdict", "text": "give me a verdict from my spreadsheet of candidates", "category": "decisions", "skill": "weightedDecisionMatrix"}
+{"orig": "my export repeated every row twice", "text": "remove the rows my export repeated twice", "category": "text", "skill": "removeDuplicateLines"}
+{"orig": "the token body is unreadable as it stands", "text": "make the token body readable", "category": "encoding", "skill": "base64Decode"}
+{"orig": "the config wants a raw number for this span", "text": "give the config a raw number for this span", "category": "dates", "skill": "parseDuration"}
+{"orig": "the router config will not accept this", "text": "why will the router config not accept this address", "category": "validation", "skill": "validateIpAddress"}
+{"orig": "the api returned a wall of letters ending in equals", "text": "decode the wall of letters ending in equals from the api", "category": "encoding", "skill": "base64Decode"}
+{"orig": "the portion of this amount at that rate", "text": "work out the portion of this amount at that rate", "category": "math", "skill": "percentOf"}
+{"orig": "the import created almost identical rows", "text": "spot the almost identical rows the import created", "category": "text", "skill": "findNearDuplicates"}
+{"orig": "this number in international shape", "text": "reformat this number for international dialling", "category": "validation", "skill": "formatPhoneNumber"}
+{"orig": "the paired opposite for #FF5733", "text": "find the paired opposite for #FF5733", "category": "design", "skill": "generatePalette"}
+{"orig": "the crypto exercise needs to know if this splits", "text": "does this number split, it's for the crypto exercise", "category": "math", "skill": "isPrime"}
+{"orig": "my oven dial does not match the recipe", "text": "convert my oven dial setting to what the recipe wants", "category": "conversion", "skill": "convertTemperature"}
+{"orig": "we rebranded and the old name is everywhere", "text": "swap the old name everywhere, we rebranded", "category": "text", "skill": "replaceText"}
+{"orig": "the application wants an average figure", "text": "work out the average figure the application wants", "category": "learning", "skill": "gpaCalculate"}
+{"orig": "the symbol used for INR", "text": "which symbol is used for INR", "category": "reference", "skill": "currencyLookup"}
+{"orig": "my watch keeps telling me im in the red", "text": "explain the red zone my watch keeps saying im in", "category": "health", "skill": "heartRateZones"}
+{"orig": "my kid asked if this word is a mirror", "text": "is this word a mirror, my kid asked", "category": "games", "skill": "checkPalindrome"}
+{"orig": "the contact field has something suspicious in it", "text": "check the suspicious thing in the contact field", "category": "validation", "skill": "validateEmail"}
+{"orig": "the first point 12 and 18 minute services meet", "text": "when do the 12 and 18 minute services first meet", "category": "math", "skill": "lcm"}
+{"orig": "i have one colour and need four more", "text": "help me get four more colours from the one i have", "category": "design", "skill": "generatePalette"}
+{"orig": "i have a fortnight and a fat novel", "text": "help me get through a fat novel in a fortnight", "category": "learning", "skill": "readingScheduleFromPages"}
+{"orig": "the wholesaler charges this what do i sell at", "text": "what should i sell at if the wholesaler charges this", "category": "finance", "skill": "markupMargin"}
+{"orig": "the style guide wants headings a certain way", "text": "check my headings the way the style guide wants", "category": "writing", "skill": "checkTitleCase"}
+{"orig": "the search returns everything because of common words", "text": "strip the common words that make the search return everything", "category": "text", "skill": "removeStopWords"}
+{"orig": "the settings file will not load", "text": "find out why the settings file will not load", "category": "validation", "skill": "validateJson"}
+{"orig": "the file should have one entry per row", "text": "confirm the file has one entry per row", "category": "text", "skill": "countLines"}
+{"orig": "the style guide forbids fixed pixel sizes", "text": "swap out the fixed pixel sizes the style guide forbids", "category": "design", "skill": "pxToRem"}
+{"orig": "i cannot decide which restaurant", "text": "pick a restaurant for me, i cannot decide", "category": "lists", "skill": "pickRandom"}
+{"orig": "the timer output needs to read like english", "text": "make the timer output read like english", "category": "dates", "skill": "durationToText"}
+{"orig": "the dialler refuses one of my entries", "text": "which of my entries is the dialler refusing", "category": "validation", "skill": "validatePhoneNumber"}
+{"orig": "the notice period skips weekends what date is that", "text": "what date does the notice period end, skipping weekends", "category": "dates", "skill": "addBusinessDays"}
+{"orig": "the video length is in seconds and means nothing", "text": "turn the video length in seconds into something meaningful", "category": "dates", "skill": "durationToText"}
+{"orig": "the puzzle answer is deliberately obscured", "text": "unscramble the deliberately obscured puzzle answer", "category": "encoding", "skill": "rot13"}
+{"orig": "my data came back in boxes inside boxes", "text": "unpack my data from its boxes inside boxes", "category": "lists", "skill": "flattenList"}
+{"orig": "the day after tomorrow date", "text": "i need the date for the day after tomorrow", "category": "dates", "skill": "parseRelativeDate"}
+{"orig": "the prose is in the way of the examples", "text": "get the examples out from the prose in the way", "category": "text", "skill": "extractCodeBlocks"}
+{"orig": "the download size is quoted oddly", "text": "convert the oddly quoted download size", "category": "conversion", "skill": "convertDataSize"}
+{"orig": "the second count behind 1w2d", "text": "what second count is behind 1w2d", "category": "dates", "skill": "parseDuration"}
+{"orig": "my stylesheet ignores one of these values", "text": "check which of these values my stylesheet ignores", "category": "validation", "skill": "validateHexColor"}
+{"orig": "there is leading whitespace on every row", "text": "trim the leading whitespace on every row", "category": "text", "skill": "trimLines"}
+{"orig": "my grades 72 85 91 with credits 10 20 30", "text": "weight my grades 72 85 91 by credits 10 20 30", "category": "statistics", "skill": "weightedAverage"}
+{"orig": "my deck reordered", "text": "reorder my deck", "category": "learning", "skill": "flashcardShuffle"}
+{"orig": "the design needs words that mean nothing", "text": "fill the design with words that mean nothing", "category": "generation", "skill": "loremIpsum"}
+{"orig": "the sign says quarter off what do i pay", "text": "what do i pay with a quarter off the sign price", "category": "finance", "skill": "applyDiscount"}
+{"orig": "the shortcut across the field is how long", "text": "how long is the shortcut across the field", "category": "geometry", "skill": "pythagorean"}
+{"orig": "i pasted a spreadsheet dump and need structure", "text": "give some structure to this spreadsheet dump i pasted", "category": "data", "skill": "parseCsv"}
+{"orig": "the american forecast means nothing to me", "text": "translate the american forecast into something i understand", "category": "conversion", "skill": "convertTemperature"}
+{"orig": "the sentences that lose the reader", "text": "go through this and point out the sentences that lose the reader", "category": "writing", "skill": "findLongSentences"}
+{"orig": "my writing feels breathless in places", "text": "find where my writing feels breathless", "category": "writing", "skill": "findLongSentences"}
+{"orig": "i keep forgetting steps make it trackable", "text": "turn the steps i keep forgetting into something trackable", "category": "generation", "skill": "generateChecklist"}
+{"orig": "my search keeps matching more than i meant", "text": "stop my search matching more than i meant", "category": "developer", "skill": "escapeRegex"}
+{"orig": "the licence plate abbreviation confuses me", "text": "decode the licence plate abbreviation for me", "category": "reference", "skill": "usStateLookup"}
+{"orig": "the print shop asked what shape my file is", "text": "what shape is my file, the print shop asked", "category": "design", "skill": "aspectRatio"}
+{"orig": "my api call fails and i cannot see why", "text": "find why my api call fails", "category": "validation", "skill": "validateJson"}
+{"orig": "the legal form wants this spelled out", "text": "spell this out for the legal form", "category": "conversion", "skill": "numberToWords"}
+{"orig": "the shelf label is missing and i want the rate", "text": "work out the rate, the shelf label is missing", "category": "everyday", "skill": "unitPrice"}
+{"orig": "the shelf label makes no sense to me", "text": "compare the prices on this confusing shelf label", "category": "everyday", "skill": "comparePrices"}
+{"orig": "my angle brackets are disappearing on the page", "text": "escape my angle brackets so they stop disappearing on the page", "category": "text", "skill": "escapeHtml"}
+{"orig": "the contract counts weekdays how many are there", "text": "how many weekdays does the contract count", "category": "dates", "skill": "businessDaysBetween"}
+{"orig": "the api wants nesting not dotted keys", "text": "nest these dotted keys the way the api wants", "category": "data", "skill": "unflattenJson"}
+{"orig": "someone typed an address with a bad octet", "text": "check the address someone typed for a bad octet", "category": "validation", "skill": "validateIpAddress"}
+{"orig": "the homework asks about this symbol", "text": "look up this symbol for the homework", "category": "reference", "skill": "periodicTableLookup"}
+{"orig": "the library catalogue rejected my entry", "text": "find out why the library catalogue rejected my entry", "category": "validation", "skill": "validateIsbn"}
+{"orig": "the current hour over in tokyo", "text": "what hour is it over in tokyo", "category": "dates", "skill": "currentTime"}
+{"orig": "the memory dump uses a base i cannot read", "text": "convert the memory dump's base into one i can read", "category": "conversion", "skill": "convertBase"}
+{"orig": "the protocol doc wants raw byte values", "text": "give me the raw byte values the protocol doc wants", "category": "encoding", "skill": "hexEncode"}
+{"orig": "the memory dump is full of byte pairs", "text": "decode the byte pairs filling the memory dump", "category": "encoding", "skill": "hexDecode"}
+{"orig": "my pattern finds nothing and i dont know why", "text": "figure out why my pattern finds nothing", "category": "developer", "skill": "testRegex"}
+{"orig": "the number in this record looks too short", "text": "is the number in this record too short", "category": "validation", "skill": "validatePhoneNumber"}
+{"orig": "the designer gave me pixels and i want relative units", "text": "convert the designer's pixels into relative units", "category": "design", "skill": "pxToRem"}
+{"orig": "the dashboard should show this compactly", "text": "show this compactly on the dashboard", "category": "math", "skill": "formatNumber"}
+{"orig": "my kids treasure hunt clue is scrambled", "text": "unscramble my kid's treasure hunt clue", "category": "encoding", "skill": "caesarShift"}
+{"orig": "that raw count of seconds in plain language", "text": "put that raw count of seconds into plain language", "category": "dates", "skill": "durationToText"}
+{"orig": "this table flipped", "text": "flip this table", "category": "data", "skill": "transposeTable"}
+{"orig": "my server sends this file and browsers refuse it", "text": "why do browsers refuse this file my server sends", "category": "developer", "skill": "mimeTypeLookup"}
+{"orig": "the copy sounds padded to me", "text": "find where the copy sounds padded", "category": "text", "skill": "detectRepetition"}
+{"orig": "the binary versus decimal storage muddle", "text": "clear up the binary versus decimal storage muddle", "category": "conversion", "skill": "convertDataSize"}
+{"orig": "we need to decide who goes first", "text": "help us decide who goes first", "category": "generation", "skill": "flipCoin"}
+{"orig": "the weight of each section of this piece", "text": "weigh each section of this piece", "category": "writing", "skill": "paragraphStats"}
+{"orig": "i cannot find anything in this jumbled file", "text": "sort this jumbled file so i can find anything", "category": "text", "skill": "sortLines"}
+{"orig": "the rise from 1200 to 1350 in percentage terms", "text": "could you put the rise from 1200 to 1350 in percentage terms", "category": "math", "skill": "percentChange"}
+{"orig": "the blog wants an estimate at the top", "text": "estimate the reading time for the top of the blog", "category": "text", "skill": "readingTime"}
+{"orig": "the span from 2026-01-01 to 2026-03-01", "text": "count the span from 2026-01-01 to 2026-03-01", "category": "dates", "skill": "daysBetween"}
+{"orig": "the endpoint refuses me with a number", "text": "what does the number the endpoint refuses me with mean", "category": "developer", "skill": "httpStatusLookup"}
+{"orig": "the clock face uses old lettering", "text": "read the old lettering on the clock face", "category": "conversion", "skill": "convertRomanNumeral"}
+{"orig": "the obvious answer is not obvious to me", "text": "help me find the answer that is not obvious to me", "category": "decisions", "skill": "weightedDecisionMatrix"}
+{"orig": "the scales at the gym use different units", "text": "convert the gym scales' units for me", "category": "conversion", "skill": "convertMass"}
+{"orig": "the spreadsheet formula gives me doubts", "text": "double check this spreadsheet formula", "category": "math", "skill": "evaluateExpression"}
+{"orig": "this token contents", "text": "show me this token's contents", "category": "developer", "skill": "jwtDecode"}
+{"orig": "the sunday after 2026-12-25", "text": "which sunday comes after 2026-12-25", "category": "dates", "skill": "nextWeekday"}
+{"orig": "the rows have trailing gaps i cannot see", "text": "sort out the trailing gaps i cannot see in the rows", "category": "text", "skill": "trimLines"}
+{"orig": "my cost is 12 and I sell at 20 — what is the margin", "text": "what is the margin if my cost is 12 and I sell at 20", "category": "finance", "skill": "markupMargin"}
+{"orig": "my grades averaged", "text": "average my grades for me", "category": "learning", "skill": "gpaCalculate"}
+{"orig": "my result on this and which ones failed", "text": "mark this and show which ones failed", "category": "learning", "skill": "gradeQuiz"}
+{"orig": "my search misses matches because of word endings", "text": "stem my search terms so word endings stop missing matches", "category": "text", "skill": "stemWords"}
+{"orig": "the colour shows as black and should not", "text": "why does this colour show as black", "category": "validation", "skill": "validateHexColor"}
+{"orig": "my paragraphs are uneven and it shows", "text": "show how uneven my paragraphs are", "category": "writing", "skill": "paragraphStats"}
+{"orig": "someone has to lose this toss", "text": "do the toss, someone has to lose this one", "category": "generation", "skill": "flipCoin"}
+{"orig": "the mockup is in pixels and my css is not", "text": "turn the mockup pixels into the units my css uses", "category": "design", "skill": "pxToRem"}
+{"orig": "the counterpart to this orange", "text": "find the counterpart to this orange", "category": "design", "skill": "complementaryColor"}
+{"orig": "the class needs numbered steps to follow", "text": "number the steps for the class to follow", "category": "text", "skill": "numberLines"}
+{"orig": "the hotel quoted abroad what is that at home", "text": "what is the hotel's foreign quote at home", "category": "finance", "skill": "convertCurrencyFixed"}
+{"orig": "the emoji has an official name what is it", "text": "do you know the emoji's official name", "category": "developer", "skill": "unicodeLookup"}
+{"orig": "this symbol renders as a box on my machine", "text": "identify this symbol that renders as a box on my machine", "category": "developer", "skill": "unicodeLookup"}
+{"orig": "the century rule always confuses me for that year", "text": "apply the century rule to that year for me", "category": "dates", "skill": "isLeapYear"}
+{"orig": "the fixed width export needs even fields", "text": "pad the fixed width export so the fields are even", "category": "text", "skill": "padText"}
+{"orig": "the dealer quoted a figure and i want to check", "text": "help me check the figure the dealer quoted", "category": "finance", "skill": "amortizeLoan"}
+{"orig": "the import cut off halfway", "text": "find out why the import cut off halfway", "category": "files", "skill": "textFileStats"}
+{"orig": "this paragraph needs breaking up somewhere", "text": "where should this paragraph be broken up", "category": "writing", "skill": "findLongSentences"}
+{"orig": "the log format needs the numeric stamp", "text": "give me the numeric stamp the log format needs", "category": "dates", "skill": "isoToUnix"}
+{"orig": "the split of 7 and 3 proportionally", "text": "share out 7 and 3 proportionally as percentages", "category": "math", "skill": "percentageDistribution"}
+{"orig": "the parcel limit is quoted differently", "text": "convert the parcel limit into my units", "category": "conversion", "skill": "convertMass"}
+{"orig": "someone left a schedule line and no comment", "text": "explain the schedule line someone left with no comment", "category": "developer", "skill": "cronToText"}
+{"orig": "the hire car manual uses another measure", "text": "convert the hire car manual's fuel measure", "category": "conversion", "skill": "convertFuelEconomy"}
+{"orig": "this all arrived on one row and i need it stacked", "text": "stack this, it all arrived on one row", "category": "text", "skill": "splitLines"}
+{"orig": "the scout badge puzzle uses dots and dashes", "text": "solve the dots and dashes in the scout badge puzzle", "category": "encoding", "skill": "morseDecode"}
+{"orig": "this needs to be plain for the csv export", "text": "make this plain for the csv export", "category": "text", "skill": "removeEmoji"}
+{"orig": "the api call needs these options in the address", "text": "put these options in the address for the api call", "category": "data", "skill": "buildQueryString"}
+{"orig": "i forget things a week later every time", "text": "help me stop forgetting things a week later", "category": "learning", "skill": "spacedRepetitionSchedule"}
+{"orig": "my kid wrote me a message in ones and zeros", "text": "read the message my kid wrote in ones and zeros", "category": "encoding", "skill": "binaryDecode"}
+{"orig": "my working checked please", "text": "i'd like my working checked please", "category": "learning", "skill": "checkArithmeticSteps"}
+{"orig": "this arrow character named", "text": "tell me what this arrow character is named", "category": "developer", "skill": "unicodeLookup"}
+{"orig": "the api returned an integer instead of a date", "text": "turn the integer the api returned into a date", "category": "dates", "skill": "unixToIso"}
+{"orig": "the payment form says the number is wrong", "text": "check the number the payment form says is wrong", "category": "validation", "skill": "validateLuhn"}
+{"orig": "the link in my email goes nowhere", "text": "check whether the link in my email actually works", "category": "validation", "skill": "validateUrl"}
+{"orig": "the first moment both patterns align", "text": "when is the first moment both patterns align", "category": "math", "skill": "lcm"}
+{"orig": "the till price after the voucher", "text": "what's the till price after the voucher", "category": "finance", "skill": "applyDiscount"}
+{"orig": "the browser shows a number instead of the page", "text": "what does the number the browser shows instead of the page mean", "category": "developer", "skill": "httpStatusLookup"}
+{"orig": "this shade is too washed out for the border", "text": "darken this washed out shade for the border", "category": "design", "skill": "darkenColor"}
+{"orig": "the export needs dates a particular way", "text": "format the dates the way the export needs", "category": "dates", "skill": "formatDate"}
+{"orig": "someone sent me a packed string to open", "text": "open the packed string someone sent me", "category": "encoding", "skill": "decompressText"}
+{"orig": "the name of the day for that date", "text": "name the day for that date", "category": "dates", "skill": "dayOfWeek"}
+{"orig": "the dashboard reads differently abroad", "text": "convert the dashboard reading abroad", "category": "conversion", "skill": "convertSpeed"}
+{"orig": "the numbered week containing 2026-11-14", "text": "which numbered week contains 2026-11-14", "category": "dates", "skill": "isoWeek"}
+{"orig": "the system wants the year first", "text": "put the year first for the system", "category": "dates", "skill": "formatDate"}
+{"orig": "my columns will not line up in the terminal", "text": "line up my columns in the terminal", "category": "text", "skill": "padText"}
+{"orig": "the escape room clue moves each letter", "text": "crack the escape room clue that moves each letter", "category": "encoding", "skill": "caesarShift"}
+{"orig": "the printer chokes on the little pictures", "text": "take out the little pictures the printer chokes on", "category": "text", "skill": "removeEmoji"}
+{"orig": "the arithmetic on this invoice needs checking", "text": "check the arithmetic on this invoice", "category": "math", "skill": "evaluateExpression"}
+{"orig": "the planning week that date sits in", "text": "which planning week does that date sit in", "category": "dates", "skill": "isoWeek"}
+{"orig": "the cipher in the book slides the alphabet", "text": "undo the cipher in the book that slides the alphabet", "category": "encoding", "skill": "caesarShift"}
+{"orig": "the api says my key is not acceptable", "text": "check why the api says my key is not acceptable", "category": "validation", "skill": "validateUuid"}
+{"orig": "the invoice needs the money written properly", "text": "write the money properly for the invoice", "category": "math", "skill": "formatCurrency"}
+{"orig": "the server runs something and i dont know when", "text": "when does the server run this thing", "category": "developer", "skill": "cronToText"}
+{"orig": "we keep arguing about whose turn it is", "text": "set up turns so we stop arguing about whose it is", "category": "organising", "skill": "rotateAssignments"}
+{"orig": "my css should scale with the user font size", "text": "make my css scale with the user font size", "category": "design", "skill": "pxToRem"}
+{"orig": "the run i am on right now", "text": "how long is the run i am on right now", "category": "organising", "skill": "streakCount"}
+{"orig": "the abstract has to be under five sentences", "text": "is the abstract under five sentences", "category": "text", "skill": "countSentences"}
+{"orig": "the tapped out version of this phrase", "text": "give me the tapped out version of this phrase", "category": "encoding", "skill": "morseEncode"}
+{"orig": "the class runs weekly when is the following one", "text": "when is the following one, the class runs weekly", "category": "dates", "skill": "nextWeekday"}
+{"orig": "the upload only accepts comma separated files", "text": "convert this to comma separated for the upload", "category": "data", "skill": "toCsv"}
+{"orig": "i wrote this and it matches too much", "text": "test why this one i wrote matches too much", "category": "developer", "skill": "testRegex"}
+{"orig": "the pub measure means nothing to me", "text": "what is the pub measure in units i know", "category": "conversion", "skill": "convertVolume"}
+{"orig": "this parameter string as fields", "text": "split this parameter string into fields", "category": "data", "skill": "parseQueryString"}
+{"orig": "the ampersand shows up wrong on screen", "text": "fix the ampersand showing up wrong on screen", "category": "text", "skill": "escapeHtml"}
+{"orig": "the indivisible factors of 360", "text": "can you list the indivisible factors of 360", "category": "math", "skill": "primeFactors"}
+{"orig": "my bank statement shows a code i dont recognise", "text": "which currency is the code on my bank statement", "category": "reference", "skill": "currencyLookup"}
+{"orig": "the hour on the clock now", "text": "what hour is it on the clock now", "category": "dates", "skill": "currentTime"}
+{"orig": "the one form of buses", "text": "i need the one form of buses", "category": "writing", "skill": "singularize"}
+{"orig": "the wind forecast uses sailing units", "text": "convert the wind forecast out of sailing units", "category": "conversion", "skill": "convertSpeed"}
+{"orig": "the printer is cheap but the ink is not", "text": "is the cheap printer worth it once the ink is counted", "category": "decisions", "skill": "breakEvenComparison"}
+{"orig": "the box part of a box plot for this", "text": "give me the box part of a box plot for this", "category": "statistics", "skill": "quartiles"}
+{"orig": "the price needs to be to the penny", "text": "round the price to the penny", "category": "math", "skill": "roundTo"}
+{"orig": "the american recipe uses cups and i have jugs", "text": "turn the american recipe's cups into jug measures", "category": "conversion", "skill": "convertVolume"}
+{"orig": "the turnaround date skipping the weekend", "text": "what's the turnaround date skipping the weekend", "category": "dates", "skill": "addBusinessDays"}
+{"orig": "the puzzle wants the tenth term of that series", "text": "find the tenth term of that series for the puzzle", "category": "math", "skill": "fibonacci"}
+{"orig": "the receipts should come to something", "text": "what do the receipts come to", "category": "math", "skill": "sum"}
+{"orig": "the crossword clue says it reads both ways", "text": "does the crossword answer really read both ways", "category": "games", "skill": "checkPalindrome"}
+{"orig": "i keep learning the order not the content", "text": "mix up the order so i learn the content", "category": "learning", "skill": "flashcardShuffle"}
+{"orig": "the legacy import wants plain characters only", "text": "convert this to plain characters for the legacy import", "category": "text", "skill": "toAscii"}
+{"orig": "the byte level version of this text", "text": "give me the byte level version of this text", "category": "encoding", "skill": "hexEncode"}
+{"orig": "my current unbroken run of days", "text": "count my current unbroken run of days", "category": "organising", "skill": "streakCount"}
+{"orig": "my commit message needs a sensible column limit", "text": "wrap my commit message at a sensible column limit", "category": "text", "skill": "wrapText"}
+{"orig": "the first of each month from january to april 2026", "text": "list the first of each month from january to april 2026", "category": "dates", "skill": "dateRangeList"}
+{"orig": "the website dropdown lists codes not names", "text": "which languages are behind the codes in the website dropdown", "category": "reference", "skill": "languageCodeLookup"}
+{"orig": "the offer expires in ten days which date", "text": "which date is it if the offer expires in ten days", "category": "dates", "skill": "addDuration"}
+{"orig": "the calendar date of the coming tuesday", "text": "what calendar date is the coming tuesday", "category": "dates", "skill": "parseRelativeDate"}
+{"orig": "the raw second count for this shorthand", "text": "convert this shorthand to a raw second count", "category": "dates", "skill": "parseDuration"}
+{"orig": "the link has escape codes i cannot read", "text": "decode the escape codes i cannot read in the link", "category": "encoding", "skill": "urlDecode"}
+{"orig": "the app rejects my configuration file", "text": "find out why the app rejects my configuration file", "category": "validation", "skill": "validateJson"}
+{"orig": "the date three weeks ahead", "text": "tell me the date three weeks ahead", "category": "dates", "skill": "parseRelativeDate"}
+{"orig": "the system let through a day that is not real", "text": "check whether this day the system let through is real", "category": "validation", "skill": "validateDate"}
+{"orig": "the julian style number for this date", "text": "give me the julian style number for this date", "category": "dates", "skill": "dayOfYear"}
+{"orig": "my filenames break when they have accents", "text": "fix my filenames that break when they have accents", "category": "text", "skill": "toAscii"}
+{"orig": "the date of the previous monday", "text": "what was the date of the previous monday", "category": "dates", "skill": "nextWeekday"}
+{"orig": "i got this many right out of that many how did i do", "text": "how did i do with this many right out of that many", "category": "math", "skill": "whatPercent"}
+{"orig": "the reference list entry for this work", "text": "write the reference list entry for this work", "category": "writing", "skill": "formatCitation"}
+{"orig": "the standings from this data", "text": "rank the standings from this data", "category": "statistics", "skill": "rankValues"}
+{"orig": "the ticket shows a code and no city", "text": "which city is the code on my ticket", "category": "reference", "skill": "airportCodeLookup"}
+{"orig": "the sequence that shows up in sunflowers", "text": "show the sequence that shows up in sunflowers", "category": "math", "skill": "fibonacci"}
+{"orig": "the register needs to be in order for the printout", "text": "put the register in order for the printout", "category": "text", "skill": "sortLines"}
+{"orig": "my inbox limit is 25 meg will this go", "text": "will this go under my 25 meg inbox limit", "category": "files", "skill": "fileSizeHuman"}
+{"orig": "the export has forty fields and i need two", "text": "pull just two of the forty fields from the export", "category": "data", "skill": "selectColumns"}
+{"orig": "the maximum as a percentile", "text": "express the maximum as a percentile", "category": "statistics", "skill": "percentile"}
+{"orig": "this would zip down well it is so repetitive", "text": "zip this down, it is so repetitive", "category": "encoding", "skill": "compressText"}
+{"orig": "the threshold nine in ten fall below", "text": "find the threshold nine in ten fall below", "category": "statistics", "skill": "percentile"}
+{"orig": "my flat settings need to become a proper tree", "text": "rebuild my flat settings as a proper tree", "category": "data", "skill": "unflattenJson"}
+{"orig": "the database rejected one of my identifiers", "text": "check the identifier the database rejected", "category": "validation", "skill": "validateUuid"}
+{"orig": "the markup is in the way of the content", "text": "strip the markup that is in the way of the content", "category": "text", "skill": "stripHtml"}
+{"orig": "this table as comma text", "text": "write this table as comma text", "category": "data", "skill": "toCsv"}
+{"orig": "the bank says ten clear days which date is that", "text": "which date is ten clear bank days away", "category": "dates", "skill": "addBusinessDays"}
+{"orig": "the address uses two letters i dont recognise", "text": "which state are the two letters in this address", "category": "reference", "skill": "usStateLookup"}
+{"orig": "the crop guide wants proportions not pixels", "text": "give me proportions not pixels for the crop guide", "category": "design", "skill": "aspectRatio"}
+{"orig": "this source in APA", "text": "cite this source in APA", "category": "writing", "skill": "formatCitation"}
+{"orig": "i have no measuring cups only scales", "text": "work this out for scales, i have no measuring cups", "category": "everyday", "skill": "convertCookingMeasure"}
+{"orig": "that date as YYYY/MM/DD", "text": "write that date as YYYY/MM/DD", "category": "dates", "skill": "formatDate"}
+{"orig": "the universe can answer this one", "text": "let the universe answer this one", "category": "games", "skill": "magicEightBall"}
+{"orig": "that date a rest day", "text": "is that date a rest day", "category": "dates", "skill": "isWeekend"}
+{"orig": "i have lost track of what day it is", "text": "what day is it, i have lost track", "category": "dates", "skill": "currentTime"}
+{"orig": "this data against that schema", "text": "check this data against that schema", "category": "validation", "skill": "validateJsonSchema"}
+{"orig": "the tagged version of this writing", "text": "give me the tagged version of this writing", "category": "writing", "skill": "markdownToHtml"}
+{"orig": "the bank rejected the account i entered", "text": "check the account the bank rejected", "category": "validation", "skill": "validateIban"}
+{"orig": "the date one month back", "text": "what was the date one month back", "category": "dates", "skill": "parseRelativeDate"}
+{"orig": "the full version of this shortened blob", "text": "restore the full version of this shortened blob", "category": "encoding", "skill": "decompressText"}
+{"orig": "i lost marks and want to know why", "text": "go through my working and show where i lost marks", "category": "learning", "skill": "checkArithmeticSteps"}
+{"orig": "the distress signal in the story says what", "text": "can you work out what the distress signal in the story says", "category": "encoding", "skill": "morseDecode"}
+{"orig": "the range excluding the extremes", "text": "work out the range excluding the extremes", "category": "statistics", "skill": "quartiles"}
+{"orig": "the poem needs the right rhythm here", "text": "count the syllables so the poem has the right rhythm here", "category": "text", "skill": "syllableCount"}
+{"orig": "the upload is rejected for the wrong type", "text": "which type should the rejected upload be", "category": "developer", "skill": "mimeTypeLookup"}
+{"orig": "the special symbols are ruining my match", "text": "escape the special symbols ruining my match", "category": "developer", "skill": "escapeRegex"}
+{"orig": "the headline figures for this data", "text": "give me the headline figures for this data", "category": "statistics", "skill": "describeNumbers"}
+{"orig": "the smallest span both patterns fit into", "text": "find the smallest span both patterns fit into", "category": "math", "skill": "lcm"}
+{"orig": "my answers and the key", "text": "grade my answers using the key", "category": "learning", "skill": "gradeQuiz"}
+{"orig": "the site says weak and i disagree", "text": "how strong is this really, the site says weak", "category": "validation", "skill": "passwordStrength"}
+{"orig": "my settings file needs reading into fields", "text": "read my settings file into fields", "category": "data", "skill": "parseKeyValue"}
+{"orig": "this json to one level", "text": "flatten this json to one level", "category": "data", "skill": "flattenJson"}
+{"orig": "the biggest number that goes into both", "text": "what's the biggest number that goes into both", "category": "math", "skill": "gcd"}
+{"orig": "the many form of knife", "text": "can i get the many form of knife", "category": "writing", "skill": "pluralize"}
+{"orig": "the parser chokes on the last row", "text": "check why the parser chokes on the last row", "category": "files", "skill": "textFileStats"}
+{"orig": "this amount as it would be read aloud", "text": "write this amount the way it is read aloud", "category": "conversion", "skill": "numberToWords"}
+{"orig": "the dots in this are behaving as wildcards", "text": "stop the dots in this behaving as wildcards", "category": "developer", "skill": "escapeRegex"}
+{"orig": "the invitation needs the day written correctly", "text": "write the day correctly for the invitation", "category": "math", "skill": "toOrdinal"}
+{"orig": "the machine number for 2026-09-01", "text": "i need the machine number for 2026-09-01", "category": "dates", "skill": "isoToUnix"}
+{"orig": "the record id looks wrong to me", "text": "verify this record id, it looks wrong to me", "category": "validation", "skill": "validateUuid"}
+{"orig": "the transfer keeps failing on the account details", "text": "check the account details the transfer keeps failing on", "category": "validation", "skill": "validateIban"}
+{"orig": "the address form wants a two letter code", "text": "what two letter code does the address form want for this country", "category": "reference", "skill": "countryLookup"}
+{"orig": "the label needs to cover several of them", "text": "make the label cover several of them", "category": "writing", "skill": "pluralize"}
+{"orig": "the invoice is in a currency i cannot place", "text": "help me place the currency on this invoice", "category": "reference", "skill": "currencyLookup"}
+{"orig": "the seo tool wants phrase groupings", "text": "group the phrases for the seo tool", "category": "text", "skill": "extractNgrams"}
+{"orig": "the prose hides a to do list somewhere", "text": "dig out the to do list hiding in the prose", "category": "text", "skill": "extractListItems"}
+{"orig": "the ranking needs the proper suffix", "text": "add the proper suffix for the ranking", "category": "math", "skill": "toOrdinal"}
+{"orig": "the length of january 2027 in days", "text": "how many days long is january 2027", "category": "dates", "skill": "daysInMonth"}
+{"orig": "the american listing means nothing to me", "text": "convert the american listing's area into something i know", "category": "conversion", "skill": "convertArea"}
+{"orig": "the number in letters for the paperwork", "text": "write the number in letters for the paperwork", "category": "conversion", "skill": "numberToWords"}
+{"orig": "the doctor quoted a number i cannot picture", "text": "convert the weight the doctor quoted into units i can picture", "category": "conversion", "skill": "convertMass"}
+{"orig": "the maths library expects the other unit", "text": "switch this to the unit the maths library expects", "category": "conversion", "skill": "convertAngle"}
+{"orig": "my mailing list has the same person twice", "text": "remove the person who is on my mailing list twice", "category": "lists", "skill": "dedupeList"}
+{"orig": "the subtitle track is labelled with two letters", "text": "which language is the two letter subtitle track", "category": "reference", "skill": "languageCodeLookup"}
+{"orig": "there are stray gaps everywhere in this", "text": "clean up the stray gaps everywhere in this", "category": "text", "skill": "normalizeWhitespace"}
+{"orig": "the actual date behind that expression", "text": "what's the actual date behind that expression", "category": "dates", "skill": "parseRelativeDate"}
+{"orig": "the editor flagged my capitals", "text": "check the capitals my editor flagged", "category": "writing", "skill": "checkTitleCase"}
+{"orig": "the dashboard needs every region side by side", "text": "line up every region's time side by side for the dashboard", "category": "dates", "skill": "listTimezoneOffsets"}
+{"orig": "the hour in Sydney and Los Angeles", "text": "what hour is it in Sydney and Los Angeles", "category": "dates", "skill": "listTimezoneOffsets"}
+{"orig": "the deposit is a tenth what is that", "text": "work out the deposit, it's a tenth", "category": "math", "skill": "percentOf"}
+{"orig": "the homework wants the factor tree for this", "text": "build the factor tree for this, it's homework", "category": "math", "skill": "primeFactors"}
+{"orig": "the final figure including everything", "text": "work out the final figure including everything", "category": "everyday", "skill": "shippingTotal"}
+{"orig": "i only want the words out of this page source", "text": "get just the words out of this page source", "category": "text", "skill": "stripHtml"}
+{"orig": "the config field only accepts encoded values", "text": "encode this for the config field", "category": "encoding", "skill": "base64Encode"}
+{"orig": "the analytics report shows mangled search terms", "text": "decode the mangled search terms in the analytics report", "category": "encoding", "skill": "urlDecode"}
+{"orig": "my config diffs are noisy because of key order", "text": "sort my config's keys so the diffs stop being noisy", "category": "data", "skill": "sortObjectKeys"}
+{"orig": "the download opens as text instead of the file", "text": "why does the download open as text instead of the file", "category": "developer", "skill": "mimeTypeLookup"}
+{"orig": "the departure board shows a code i cant place", "text": "which airport is the code on the departure board", "category": "reference", "skill": "airportCodeLookup"}
+{"orig": "the printer asked for numbers not a hex code", "text": "give the printer numbers instead of a hex code", "category": "design", "skill": "convertColor"}
+{"orig": "the summary field cuts off anyway", "text": "cut this down before the summary field does", "category": "text", "skill": "truncateText"}
+{"orig": "the prop needs the signal for the scene", "text": "write out the signal for the scene's prop", "category": "encoding", "skill": "morseEncode"}
+{"orig": "the only fair time for this call", "text": "find the only fair time for this call", "category": "organising", "skill": "findCommonMeetingHours"}
+{"orig": "the diff is unreadable and i want to know why", "text": "find out why the diff is unreadable", "category": "files", "skill": "textFileStats"}
+{"orig": "the exchange board lists letters not names", "text": "name the currencies behind the letters on the exchange board", "category": "reference", "skill": "currencyLookup"}
+{"orig": "the groups arent coming out as expected", "text": "check why the groups are not coming out as expected", "category": "developer", "skill": "testRegex"}
+{"orig": "the weekday date after that date", "text": "what's the weekday date after that date", "category": "dates", "skill": "nextWeekday"}
+{"orig": "the job advert quotes per hour and i think in years", "text": "what is the advert's hourly rate per year", "category": "finance", "skill": "hourlyToSalary"}
+{"orig": "the tracking url has values i want to read", "text": "read the values in the tracking url", "category": "data", "skill": "parseQueryString"}
+{"orig": "the run 1 up to 5", "text": "give me the run from 1 up to 5", "category": "lists", "skill": "rangeList"}
+{"orig": "my flight lands at local time what is that here", "text": "what is my flight's local landing time here", "category": "dates", "skill": "convertTimezone"}
+{"orig": "the thermostat abroad uses another scale", "text": "convert the thermostat abroad to my scale", "category": "conversion", "skill": "convertTemperature"}
+{"orig": "the grand figure across all of these", "text": "get the grand figure across all of these", "category": "math", "skill": "sum"}
+{"orig": "my drive advert and my computer disagree", "text": "reconcile the size on my drive advert with what my computer shows", "category": "conversion", "skill": "convertDataSize"}
+{"orig": "my list is long both ways which wins", "text": "which wins, my long list both ways", "category": "decisions", "skill": "prosConsScore"}
+{"orig": "this fraction with nothing left to cancel", "text": "cancel this fraction down till nothing is left", "category": "math", "skill": "fractionSimplify"}
+{"orig": "my modules carry different credit loads", "text": "weight my average by the different credit loads of my modules", "category": "statistics", "skill": "weightedAverage"}
+{"orig": "the market day after this coming one", "text": "when is the market day after this coming one", "category": "dates", "skill": "nextWeekday"}
+{"orig": "the icon is blank and it wont launch", "text": "what kind of file is this, the icon is blank and it won't launch", "category": "files", "skill": "fileExtensionInfo"}
+{"orig": "my homework wants this in its smallest form", "text": "put this in its smallest form for my homework", "category": "math", "skill": "fractionSimplify"}
+{"orig": "this figure as it would print on a bill", "text": "show this figure as it would print on a bill", "category": "math", "skill": "formatCurrency"}
+{"orig": "the fourth value that keeps this in proportion", "text": "find the fourth value that keeps this in proportion", "category": "math", "skill": "ratioSolve"}
+{"orig": "the pro rata calculation needs the month length", "text": "how long is the month for the pro rata calculation", "category": "dates", "skill": "daysInMonth"}
+{"orig": "the midpoint shade of these two", "text": "mix the midpoint shade of these two", "category": "design", "skill": "mixColors"}
+{"orig": "the super bowl number is in letters", "text": "can you put the super bowl number in normal digits", "category": "conversion", "skill": "convertRomanNumeral"}
+{"orig": "the shape of this file at a glance", "text": "show the shape of this file at a glance", "category": "writing", "skill": "extractHeadings"}
+{"orig": "the job took this many seconds is that long", "text": "put the job's seconds into words so i know if it's long", "category": "dates", "skill": "durationToText"}
+{"orig": "i keep forgetting my passwords give me words", "text": "give me memorable words, i keep forgetting my passwords", "category": "encoding", "skill": "generatePassphrase"}
+{"orig": "the schedule refers to weeks not dates", "text": "turn the schedule's week numbers into dates", "category": "dates", "skill": "isoWeek"}
+{"orig": "the api rejects my payload for the wrong shape", "text": "check my payload's shape, the api rejects it", "category": "validation", "skill": "validateJsonSchema"}
+{"orig": "this data as a markdown grid", "text": "i need this data as a markdown grid", "category": "data", "skill": "toMarkdownTable"}
+{"orig": "we all owe the same what is it each", "text": "how much do we each owe if it's the same", "category": "everyday", "skill": "splitBill"}
+{"orig": "my tabbed notes need to become a real document", "text": "turn my tabbed notes into a real document", "category": "writing", "skill": "outlineToMarkdown"}
+{"orig": "the balance of this draft is off somewhere", "text": "find where the balance of this draft is off", "category": "writing", "skill": "paragraphStats"}
+{"orig": "the 50th fibonacci number", "text": "how big is the 50th number in the fibonacci series", "category": "math", "skill": "fibonacci"}
+{"orig": "the api only accepts so many per call", "text": "batch these, the api only accepts so many per call", "category": "lists", "skill": "chunkList"}
+{"orig": "the opposing shade to #2C6E8C", "text": "find the opposing shade to #2C6E8C", "category": "design", "skill": "complementaryColor"}
+{"orig": "the elapsed days across those two points", "text": "count the elapsed days across those two points", "category": "dates", "skill": "daysBetween"}
+{"orig": "the referrer string is unreadable", "text": "make the referrer string readable", "category": "encoding", "skill": "urlDecode"}
+{"orig": "this part measured against the whole", "text": "measure this part against the whole", "category": "math", "skill": "whatPercent"}
+{"orig": "the brief specified a length am i there", "text": "am i at the length the brief specified", "category": "writing", "skill": "countWordTargets"}
+{"orig": "we need doubles teams for the tournament", "text": "pair us into doubles teams for the tournament", "category": "lists", "skill": "pairUp"}
+{"orig": "the sensor glitched somewhere in this run", "text": "spot where the sensor glitched in this run", "category": "statistics", "skill": "findOutliers"}
+{"orig": "the crossover in office hours for three sites", "text": "find the crossover in office hours for three sites", "category": "organising", "skill": "findCommonMeetingHours"}
+{"orig": "the recipe serves two and there are six of us", "text": "scale the recipe from two to six of us", "category": "everyday", "skill": "scaleRecipe"}
+{"orig": "the same moment on another clock", "text": "show the same moment on another clock", "category": "dates", "skill": "convertTimezone"}
+{"orig": "the token is base64 gibberish to me", "text": "decode the token, it's base64 gibberish to me", "category": "developer", "skill": "jwtDecode"}
+{"orig": "the bank slip needs words not digits", "text": "write words not digits for the bank slip", "category": "conversion", "skill": "numberToWords"}
+{"orig": "the european brochure quotes it differently", "text": "convert the european brochure's fuel figure", "category": "conversion", "skill": "convertFuelEconomy"}
+{"orig": "the full cost of this cart with postage", "text": "what's the full cost of this cart with postage", "category": "everyday", "skill": "shippingTotal"}
+{"orig": "my contacts are a mess of different styles", "text": "sort out my contacts into one phone number style", "category": "validation", "skill": "formatPhoneNumber"}
+{"orig": "the size of the drop as a proportion", "text": "how big is the drop as a proportion", "category": "math", "skill": "percentChange"}
+{"orig": "the environment file is just lines of text", "text": "parse the environment file's lines of text", "category": "data", "skill": "parseKeyValue"}
+{"orig": "the calendar date of the upcoming one", "text": "what calendar date is the upcoming one", "category": "dates", "skill": "nextWeekday"}
+{"orig": "my chemistry set has an unlabelled symbol", "text": "identify the unlabelled symbol in my chemistry set", "category": "reference", "skill": "periodicTableLookup"}
+{"orig": "the crm rejects numbers unless they look standard", "text": "make these numbers look standard for the crm", "category": "validation", "skill": "formatPhoneNumber"}
+{"orig": "the cad program wants this in a different measure", "text": "convert this into the measure the cad program wants", "category": "conversion", "skill": "convertAngle"}
+{"orig": "this pattern on this sample", "text": "test this pattern against this sample", "category": "developer", "skill": "testRegex"}
+{"orig": "the supplier sent bank details that look odd", "text": "check the supplier's odd looking bank details", "category": "validation", "skill": "validateIban"}
+{"orig": "the jumble in the paper defeats me", "text": "solve the jumble in the paper, it defeats me", "category": "games", "skill": "solveAnagram"}
+{"orig": "my nesting should become headings and bullets", "text": "turn my nesting into headings and bullets", "category": "writing", "skill": "outlineToMarkdown"}
+{"orig": "the csv cell has everything crammed together", "text": "break up everything crammed into the csv cell", "category": "text", "skill": "splitLines"}
+{"orig": "the monument inscription needs decoding", "text": "decode the monument inscription's numerals", "category": "conversion", "skill": "convertRomanNumeral"}
+{"orig": "the email arrived full of tags", "text": "strip the tags out of this email", "category": "text", "skill": "stripHtml"}
+{"orig": "the parameter has an ampersand and ruins the url", "text": "encode the ampersand in the parameter so it stops ruining the url", "category": "encoding", "skill": "urlEncode"}
+{"orig": "the copy paste added spaces at the start", "text": "remove the spaces the copy paste added at the start", "category": "text", "skill": "trimLines"}
+{"orig": "the total after each entry not the final one", "text": "show the total after each entry, not just the final one", "category": "statistics", "skill": "cumulativeSum"}
+{"orig": "the browser will not render this shade", "text": "check why the browser will not render this shade", "category": "validation", "skill": "validateHexColor"}
+{"orig": "the puzzle answer is written in bits", "text": "read the puzzle answer written in bits", "category": "encoding", "skill": "binaryDecode"}
+{"orig": "the pattern rabbits breed in apparently", "text": "show me the pattern rabbits breed in", "category": "math", "skill": "fibonacci"}
+{"orig": "the register needs to be in alphabetical order", "text": "put the register in alphabetical order", "category": "lists", "skill": "sortList"}
+{"orig": "someone tapped this out and i missed it", "text": "decode what someone tapped out that i missed", "category": "encoding", "skill": "morseDecode"}
+{"orig": "the date of the coming friday", "text": "i want the date of the coming friday", "category": "dates", "skill": "nextWeekday"}
+{"orig": "everyone from either list once each", "text": "list everyone from either list once each", "category": "lists", "skill": "unionLists"}
+{"orig": "the edits between these two payloads", "text": "show the edits between these two payloads", "category": "data", "skill": "diffJson"}
+{"orig": "their age at that point in time", "text": "how old were they at that point in time", "category": "dates", "skill": "ageFromDate"}
+{"orig": "the field has a limit and i am worried", "text": "count the characters, the field has a limit", "category": "text", "skill": "countCharacters"}
+{"orig": "the amount a sphere of radius 4 takes up", "text": "how much does a sphere of radius 4 take up", "category": "geometry", "skill": "volumeOf"}
+{"orig": "the timeout is written in shorthand i need the number", "text": "turn the shorthand timeout into a number", "category": "dates", "skill": "parseDuration"}
+{"orig": "the words i overwork in this draft", "text": "go through this draft and find the words i overwork", "category": "writing", "skill": "findRepeatedWords"}
+{"orig": "my score expressed as a proportion", "text": "express my score as a proportion", "category": "math", "skill": "whatPercent"}
+{"orig": "the biggest figure anywhere in that column", "text": "find the biggest figure anywhere in that column", "category": "data", "skill": "columnMath"}
+{"orig": "someone born yesterday", "text": "what age is a person born yesterday", "category": "dates", "skill": "ageFromDate"}
+{"orig": "the essay has to hit a thousand and i am nervous", "text": "will the essay hit a thousand, i'm nervous", "category": "writing", "skill": "countWordTargets"}
+{"orig": "the daily numbers jump about too much to read", "text": "smooth out the daily numbers that jump about too much", "category": "statistics", "skill": "movingAverage"}
+{"orig": "the import expects a certain number of rows", "text": "count the rows the import expects", "category": "text", "skill": "countLines"}
+{"orig": "the scout activity needs the signal version", "text": "give the scout activity the signal version", "category": "encoding", "skill": "morseEncode"}
+{"orig": "the american form rejects my date layout", "text": "change my date layout so the american form takes it", "category": "dates", "skill": "formatDate"}
+{"orig": "the smallest set of blocks covering all these", "text": "find the smallest set of blocks covering all these", "category": "dates", "skill": "mergeIntervals"}
+{"orig": "the checkout rejects the card i typed", "text": "check the card i typed that the checkout rejects", "category": "validation", "skill": "validateLuhn"}
+{"orig": "this telephone number well formed shape", "text": "is this telephone number in a well formed shape", "category": "validation", "skill": "validatePhoneNumber"}
+{"orig": "my writing feels echoey in places", "text": "find what makes my writing feel echoey", "category": "writing", "skill": "findRepeatedWords"}
+{"orig": "the same sequence every time is boring", "text": "shuffle this so it is not the same sequence every time", "category": "lists", "skill": "shuffleList"}
+{"orig": "the export from my bank is unreadable text", "text": "turn my bank export's unreadable text into a table", "category": "data", "skill": "parseCsv"}
+{"orig": "my boarding pass says three letters i dont know", "text": "which airport are the three letters on my boarding pass", "category": "reference", "skill": "airportCodeLookup"}
+{"orig": "the checkout number before i press pay", "text": "tell me the checkout number before i press pay", "category": "everyday", "skill": "shippingTotal"}
+{"orig": "the form for exactly one of these", "text": "give me the form for exactly one of these", "category": "writing", "skill": "singularize"}
+{"orig": "the relative weight of each of these", "text": "show the relative weight of each of these", "category": "math", "skill": "percentageDistribution"}
+{"orig": "my overall standing across these results", "text": "work out my overall standing across these results", "category": "learning", "skill": "gpaCalculate"}
+{"orig": "the tabletop needs a number and we have nothing", "text": "give us a number for the tabletop, we have nothing", "category": "generation", "skill": "rollDice"}
+{"orig": "i cannot decide just pick for me", "text": "just pick for me, i cannot decide", "category": "games", "skill": "magicEightBall"}
+{"orig": "the same order every time is not helping", "text": "shuffle my cards, the same order is not helping", "category": "learning", "skill": "flashcardShuffle"}
+{"orig": "i have reasons either way and no answer", "text": "weigh my reasons either way and give me an answer", "category": "decisions", "skill": "prosConsScore"}
+{"orig": "the bottle is sized in the other unit", "text": "convert the bottle size to the other unit", "category": "conversion", "skill": "convertVolume"}
+{"orig": "my calculator is in the wrong mode for this", "text": "convert this, my calculator is in the wrong mode", "category": "conversion", "skill": "convertAngle"}
+{"orig": "i cannot tell if this is a good idea", "text": "help me tell if this is a good idea", "category": "decisions", "skill": "prosConsScore"}
+{"orig": "the cms wants a clean identifier for this title", "text": "make a clean identifier from this title for the cms", "category": "text", "skill": "slugify"}
+{"orig": "the bill jumped how badly", "text": "how badly did the bill jump", "category": "math", "skill": "percentChange"}
+{"orig": "the network settings reject this entry", "text": "why do the network settings reject this entry", "category": "validation", "skill": "validateIpAddress"}
+{"orig": "i never know what happens to this word in twos", "text": "what happens to this word when there are two", "category": "writing", "skill": "pluralize"}
+{"orig": "my headings should be down the side instead", "text": "move my headings down the side instead", "category": "data", "skill": "transposeTable"}
+{"orig": "the tool only reads single level keys", "text": "flatten these keys to a single level for the tool", "category": "data", "skill": "flattenJson"}
+{"orig": "the api wants a number not a date string", "text": "give the api a number instead of this date string", "category": "dates", "skill": "isoToUnix"}
+{"orig": "this gibberish in the config must mean something", "text": "decode this gibberish in the config", "category": "encoding", "skill": "base64Decode"}
+{"orig": "my payment was rejected on the account field", "text": "check the account field my payment was rejected on", "category": "validation", "skill": "validateIban"}
+{"orig": "we need a fair system for the kitchen", "text": "set up a fair rota for the kitchen", "category": "organising", "skill": "rotateAssignments"}
+{"orig": "the full picture on these figures", "text": "give me the full picture on these figures", "category": "statistics", "skill": "describeNumbers"}
+{"orig": "the text needs a heavier tone of this colour", "text": "give the text a heavier tone of this colour", "category": "design", "skill": "darkenColor"}
+{"orig": "the missing quantity in this proportion", "text": "find the missing quantity in this proportion", "category": "math", "skill": "ratioSolve"}
+{"orig": "the shopping list should follow the aisles alphabetically", "text": "sort the lines of my shopping list alphabetically", "category": "text", "skill": "sortLines"}
+{"orig": "the test fixture needs a unique reference", "text": "make a unique reference for the test fixture", "category": "encoding", "skill": "generateUuid"}
+{"orig": "the doctor mentioned a number and i forgot it", "text": "work out the number the doctor mentioned from my height and weight", "category": "health", "skill": "bmiCalculate"}
+{"orig": "the puzzle box uses a letter wheel", "text": "solve the letter wheel on the puzzle box", "category": "encoding", "skill": "caesarShift"}
+{"orig": "i only want each one mentioned once", "text": "keep each one mentioned only once", "category": "lists", "skill": "dedupeList"}
+{"orig": "the plane route length between these places", "text": "how long is the plane route between these places", "category": "geometry", "skill": "haversineDistance"}
+{"orig": "i got 47 out of 60, what percent is that", "text": "can you tell me what percent 47 out of 60 is on my test", "category": "math", "skill": "whatPercent"}
+{"orig": "the secret has to go in as one safe string", "text": "encode the secret as one safe string", "category": "encoding", "skill": "base64Encode"}
+{"orig": "the forum hides spoilers behind scrambled text", "text": "unscramble the forum's spoiler text", "category": "encoding", "skill": "rot13"}
+{"orig": "i cannot tell what this message is written in", "text": "what language is this message written in", "category": "text", "skill": "detectLanguage"}
+{"orig": "the log needs a stamp for right now", "text": "give the log a stamp for right now", "category": "dates", "skill": "currentTime"}
+{"orig": "the primes behind 97", "text": "what primes are behind 97", "category": "math", "skill": "primeFactors"}
+{"orig": "the spec sheet uses another angular unit", "text": "convert the spec sheet's angular unit", "category": "conversion", "skill": "convertAngle"}
+{"orig": "the hire car dial is in the wrong units", "text": "convert the hire car dial to my units", "category": "conversion", "skill": "convertSpeed"}
+{"orig": "the same address keeps appearing", "text": "remove the address that keeps appearing", "category": "lists", "skill": "dedupeList"}
+{"orig": "my variable names are inconsistent across the file", "text": "make my variable names consistent across the file", "category": "text", "skill": "convertCase"}
+{"orig": "the one off charge for borrowing this", "text": "what is the one off charge for borrowing this", "category": "finance", "skill": "simpleInterest"}
+{"orig": "the headline says a shorthand figure i need exactly", "text": "give me the exact figure behind the headline's shorthand", "category": "math", "skill": "parseNumber"}
+{"orig": "the value stored at that address", "text": "get the value stored at that address", "category": "data", "skill": "getPath"}
+{"orig": "the result i need to keep a 60 average", "text": "what result keeps my average at 60", "category": "learning", "skill": "gradeNeeded"}
+{"orig": "the brief asked for a certain length", "text": "check this is the length the brief asked for", "category": "text", "skill": "countWords"}
+{"orig": "this draft feels like it circles back on itself", "text": "go through this draft and find where it circles back on itself", "category": "text", "skill": "detectRepetition"}
+{"orig": "my firewall rule fails on one entry", "text": "find the entry my firewall rule fails on", "category": "validation", "skill": "validateIpAddress"}
+{"orig": "the file opened as text not a table", "text": "open this file as a table not text", "category": "data", "skill": "parseCsv"}
+{"orig": "the form rejects the website i entered", "text": "check the website the form rejects", "category": "validation", "skill": "validateUrl"}
+{"orig": "this json laid out", "text": "lay out this json", "category": "data", "skill": "formatJson"}
+{"orig": "the email template will not take markdown", "text": "convert my markdown so the email template takes it", "category": "writing", "skill": "markdownToHtml"}
+{"orig": "the estate agent lists it in the other unit", "text": "convert the estate agent's figure to the other unit", "category": "conversion", "skill": "convertArea"}
+{"orig": "the log has a big number where a date should be", "text": "turn the big number in the log into a date", "category": "dates", "skill": "unixToIso"}
+{"orig": "the international prefix for India", "text": "can i get the international prefix for India", "category": "reference", "skill": "phoneRegionLookup"}
+{"orig": "my rent has gone up and i want to know by how much", "text": "by how much has my rent gone up", "category": "math", "skill": "percentChange"}
+{"orig": "the film credits year means nothing to me", "text": "what year is in the film credits", "category": "conversion", "skill": "convertRomanNumeral"}
+{"orig": "the merge doubled up my entries", "text": "undo the doubled up entries from the merge", "category": "text", "skill": "removeDuplicateLines"}
+{"orig": "i have these letters and no idea", "text": "make a word from these letters, i have no idea", "category": "games", "skill": "solveAnagram"}
+{"orig": "the small words should not be capitalised", "text": "check that the small words are not capitalised", "category": "writing", "skill": "checkTitleCase"}
+{"orig": "the tapping in the episode meant something", "text": "what did the tapping in the episode mean", "category": "encoding", "skill": "morseDecode"}
+{"orig": "the running multiple of this list", "text": "give me the running multiple of this list", "category": "math", "skill": "product"}
+{"orig": "the banner slot is a fixed size", "text": "resize this to fit the fixed banner slot", "category": "design", "skill": "scaleDimensions"}
+{"orig": "the index is choking on the small words", "text": "drop the small words the index is choking on", "category": "text", "skill": "removeStopWords"}
+{"orig": "the elapsed span in casual language", "text": "say the elapsed span in casual language", "category": "dates", "skill": "timeAgo"}
+{"orig": "the client wants american spelling throughout", "text": "switch everything to american spelling for the client", "category": "text", "skill": "replaceText"}
+{"orig": "the debugger shows a different number system", "text": "convert the debugger's number system to mine", "category": "conversion", "skill": "convertBase"}
+{"orig": "the form accepted a day that cannot exist", "text": "check whether the day the form accepted can exist", "category": "validation", "skill": "validateDate"}
+{"orig": "the log has an address that looks wrong", "text": "check the address in the log that looks wrong", "category": "validation", "skill": "validateIpAddress"}
+{"orig": "the timer shows a number i cannot read", "text": "turn the timer's number into something i can read", "category": "conversion", "skill": "convertTime"}
+{"orig": "the quote was before tax what is the real figure", "text": "what is the real figure once tax is added to the quote", "category": "finance", "skill": "applyTax"}
+{"orig": "this table reads better the other way round", "text": "turn this table the other way round", "category": "data", "skill": "transposeTable"}
+{"orig": "my browser address bar is full of percent signs", "text": "clean up the percent signs filling my address bar", "category": "encoding", "skill": "urlDecode"}
+{"orig": "the price tag abroad used unfamiliar letters", "text": "which currency used those unfamiliar letters on the price tag", "category": "reference", "skill": "currencyLookup"}
+{"orig": "the number that does not belong here", "text": "which number does not belong here", "category": "statistics", "skill": "findOutliers"}
+{"orig": "our teams are never awake together", "text": "find when our teams are awake together", "category": "organising", "skill": "findCommonMeetingHours"}
+{"orig": "the register value needs a different radix", "text": "change the register value to a different radix", "category": "conversion", "skill": "convertBase"}
+{"orig": "the asterisks show up literally in my export", "text": "get rid of the asterisks showing up literally in my export", "category": "text", "skill": "stripMarkdown"}
+{"orig": "this heading title styled", "text": "check this heading is title styled", "category": "writing", "skill": "checkTitleCase"}
+{"orig": "the journal rejected my references formatting", "text": "fix my references formatting, the journal rejected it", "category": "writing", "skill": "formatCitation"}
+{"orig": "the whole series between these two ends", "text": "list the whole series between these two ends", "category": "lists", "skill": "rangeList"}
+{"orig": "the gym form wants a number for my build", "text": "give me the number the gym form wants for my build", "category": "health", "skill": "bmiCalculate"}
+{"orig": "the recipe weights are american", "text": "convert the american recipe weights", "category": "conversion", "skill": "convertMass"}
+{"orig": "my phone refuses to preview this", "text": "why won't my phone preview this file type", "category": "files", "skill": "fileExtensionInfo"}
+{"orig": "the running day count at that point", "text": "what's the running day count at that point", "category": "dates", "skill": "dayOfYear"}
+{"orig": "the total does not match the back of the book", "text": "check my steps, the total does not match the back of the book", "category": "learning", "skill": "checkArithmeticSteps"}
+{"orig": "this date described as elapsed time", "text": "describe this date as elapsed time", "category": "dates", "skill": "timeAgo"}
+{"orig": "the log has the same entry over and over", "text": "sort out the log entry repeated over and over", "category": "text", "skill": "removeDuplicateLines"}
+{"orig": "the bookshop system will not find this", "text": "check why the bookshop system will not find this", "category": "validation", "skill": "validateIsbn"}
+{"orig": "the hour right now in London", "text": "what hour is it right now in London", "category": "reference", "skill": "timezoneLookup"}
+{"orig": "the first calendar day of each month to april 2026", "text": "list the first calendar day of each month to april 2026", "category": "dates", "skill": "dateRangeList"}
+{"orig": "the client sent a revision and i cannot spot the edits", "text": "spot the edits in the revision the client sent", "category": "text", "skill": "diffText"}
+{"orig": "the auth string is opaque and i need inside", "text": "open up the opaque auth string so i can see inside", "category": "developer", "skill": "jwtDecode"}
+{"orig": "the puzzle answer reads the other way round", "text": "reverse the puzzle answer, it reads the other way round", "category": "text", "skill": "reverseText"}
+{"orig": "i only want each row once here", "text": "keep each row only once here", "category": "text", "skill": "removeDuplicateLines"}
+{"orig": "the exam counts for more than the coursework", "text": "weight the exam more than the coursework in my average", "category": "statistics", "skill": "weightedAverage"}
+{"orig": "the docs need this as a neat grid", "text": "make this a neat grid for the docs", "category": "data", "skill": "toMarkdownTable"}
+{"orig": "the middle spread of these scores", "text": "find the middle spread of these scores", "category": "statistics", "skill": "quartiles"}
+{"orig": "the map scale says one thing what is the real distance", "text": "use the map scale to get the real distance", "category": "math", "skill": "ratioSolve"}
+{"orig": "my subscription renews three months from then", "text": "when does my subscription renew, three months from then", "category": "dates", "skill": "addDuration"}
+{"orig": "the heading should be about one not several", "text": "make the heading about one instead of several", "category": "writing", "skill": "singularize"}
+{"orig": "the equals separated lines as data", "text": "read the equals separated lines as data", "category": "data", "skill": "parseKeyValue"}
+{"orig": "the database stored a number i cannot read", "text": "read the number the database stored as a date", "category": "dates", "skill": "unixToIso"}
+{"orig": "the brackets in my string break the search", "text": "escape the brackets breaking my search", "category": "developer", "skill": "escapeRegex"}
+{"orig": "the nesting in my notes should become headings", "text": "turn the nesting in my notes into headings", "category": "writing", "skill": "outlineToMarkdown"}
+{"orig": "i only want to make half of this", "text": "scale this so i only make half", "category": "everyday", "skill": "scaleRecipe"}
+{"orig": "the same date in a different layout", "text": "put the same date in a different layout", "category": "dates", "skill": "formatDate"}
+{"orig": "my phone says storage full is this the culprit", "text": "is this file the culprit for my phone's full storage", "category": "files", "skill": "fileSizeHuman"}
+{"orig": "the monthly needed for 10000 inside two years", "text": "what monthly do i need for 10000 inside two years", "category": "finance", "skill": "savingsGoal"}
+{"orig": "the form for several of these", "text": "give me the form for several of these", "category": "writing", "skill": "pluralize"}
+{"orig": "the app lost my count of days", "text": "recount my days, the app lost my count", "category": "organising", "skill": "streakCount"}
+{"orig": "the flat pack instructions are metric", "text": "convert the metric flat pack instructions for me", "category": "conversion", "skill": "convertLength"}
+{"orig": "this date in the numeric form software uses", "text": "put this date in the numeric form software uses", "category": "dates", "skill": "isoToUnix"}
+{"orig": "the locale string means which language", "text": "which language does the locale string mean", "category": "reference", "skill": "languageCodeLookup"}
+{"orig": "this outline as markdown", "text": "can you put this outline into markdown", "category": "writing", "skill": "outlineToMarkdown"}
+{"orig": "this is too heavy for a disabled state", "text": "lighten this for a disabled state, it's too heavy", "category": "design", "skill": "lightenColor"}
+{"orig": "the invoice is foreign and i budget in pounds", "text": "convert the foreign invoice to pounds for my budget", "category": "finance", "skill": "convertCurrencyFixed"}
+{"orig": "this has to fit under the thumbnail", "text": "shorten this to fit under the thumbnail", "category": "text", "skill": "truncateText"}
+{"orig": "the pacer group says 2 hours can i hang on", "text": "what pace is the 2 hour pacer group, can i hang on", "category": "health", "skill": "paceCalculate"}
+{"orig": "the charge on 2500 at 4.5 percent over two years", "text": "what's the charge on 2500 at 4.5 percent over two years", "category": "finance", "skill": "simpleInterest"}
+{"orig": "my prose sounds monotonous somehow", "text": "go through my prose and find why it sounds monotonous", "category": "writing", "skill": "findRepeatedWords"}
+{"orig": "my success rate on this over the week", "text": "what's my success rate on this over the week", "category": "organising", "skill": "habitCompletionRate"}
+{"orig": "the build metadata is buried in this string", "text": "dig the build metadata out of this version string", "category": "developer", "skill": "parseSemver"}
+{"orig": "that date in slashed day first order", "text": "write that date in slashed day first order", "category": "dates", "skill": "formatDate"}
+{"orig": "the signal for SOS", "text": "could you give me the signal for SOS", "category": "encoding", "skill": "morseEncode"}
+{"orig": "the present moment in date terms", "text": "give me the present moment in date terms", "category": "dates", "skill": "currentTime"}
+{"orig": "the upcoming tuesday date", "text": "what's the upcoming tuesday date", "category": "dates", "skill": "nextWeekday"}
+{"orig": "the bigger bedroom should pay more rent", "text": "make the bigger bedroom pay more rent", "category": "math", "skill": "allocateProportionally"}
+{"orig": "the email client is not folding this properly", "text": "fold this properly, the email client won't", "category": "text", "skill": "wrapText"}
+{"orig": "the attachment bounced back as too large", "text": "how big was the attachment that bounced as too large", "category": "files", "skill": "fileSizeHuman"}
+{"orig": "the editor said i lean on certain words", "text": "show the words the editor said i lean on", "category": "writing", "skill": "findRepeatedWords"}
+{"orig": "the accented letter is breaking my export", "text": "identify the accented letter breaking my export", "category": "developer", "skill": "unicodeLookup"}
+{"orig": "this abbreviated span as a number", "text": "turn this abbreviated span into a number", "category": "dates", "skill": "parseDuration"}
+{"orig": "the alarm always catches me mid dream", "text": "when should my alarm go so it stops catching me mid dream", "category": "health", "skill": "sleepCycleTimes"}
+{"orig": "the structure is deeper than i need", "text": "flatten the structure, it's deeper than i need", "category": "lists", "skill": "flattenList"}
+{"orig": "the integer behind this calendar date", "text": "what integer is behind this calendar date", "category": "dates", "skill": "isoToUnix"}
+{"orig": "the opening 8 terms of the series", "text": "list the opening 8 terms of the series", "category": "math", "skill": "fibonacci"}
+{"orig": "my colours might fail the standard", "text": "do my colours fail the standard", "category": "design", "skill": "contrastRatio"}
+{"orig": "the typical value down that column", "text": "find the typical value down that column", "category": "data", "skill": "columnMath"}
+{"orig": "the product of every number up to 10", "text": "multiply every number up to 10", "category": "math", "skill": "factorial"}
+{"orig": "the code sample renders as actual markup", "text": "escape the code sample so it stops rendering as markup", "category": "text", "skill": "escapeHtml"}
+{"orig": "my cv cannot go out with errors in it", "text": "check my cv for errors before it goes out", "category": "writing", "skill": "spellCheck"}
+{"orig": "i typed the wrong name in every paragraph", "text": "fix the wrong name i typed in every paragraph", "category": "text", "skill": "replaceText"}
+{"orig": "the deed says acres and i think in hectares", "text": "convert the deed's acres into hectares", "category": "conversion", "skill": "convertArea"}
+{"orig": "the probability formula wants this term", "text": "give me the term the probability formula wants", "category": "math", "skill": "factorial"}
+{"orig": "my bibliography has to match the department style", "text": "format my bibliography in the department style", "category": "writing", "skill": "formatCitation"}
+{"orig": "the ninetieth cut point of these response times", "text": "find the ninetieth cut point of these response times", "category": "statistics", "skill": "percentile"}
+{"orig": "the sign looks the same upside down almost", "text": "check if the sign reads almost the same upside down", "category": "games", "skill": "checkPalindrome"}
+{"orig": "the largest square tile that fits both sides", "text": "what's the largest square tile that fits both sides", "category": "math", "skill": "gcd"}
+{"orig": "i keep waking up groggy and want to stop", "text": "help me stop waking up groggy", "category": "health", "skill": "sleepCycleTimes"}
+{"orig": "my newsletter keeps bouncing on one entry", "text": "find the entry my newsletter keeps bouncing on", "category": "validation", "skill": "validateEmail"}
+{"orig": "i cannot read this config as it stands", "text": "make this config readable", "category": "data", "skill": "formatJson"}
+{"orig": "the chart needs each as a share of the total", "text": "work out what slice of the total each one is, for the chart", "category": "math", "skill": "percentageDistribution"}
+{"orig": "the .mkv format is", "text": "what is the .mkv format", "category": "files", "skill": "fileExtensionInfo"}
+{"orig": "the tin says one thing the recipe another", "text": "match the tin's measure to the recipe's", "category": "everyday", "skill": "convertCookingMeasure"}
+{"orig": "the exercise asks for exactly three", "text": "count whether this is exactly three sentences for the exercise", "category": "text", "skill": "countSentences"}
+{"orig": "the combinatorics question needs this figure", "text": "work out the figure the combinatorics question needs", "category": "math", "skill": "factorial"}
+{"orig": "the size of that month on the calendar", "text": "how many days are in that month", "category": "dates", "skill": "daysInMonth"}
+{"orig": "the tenth term of that adding series", "text": "can you find the tenth term of that adding series", "category": "math", "skill": "fibonacci"}
+{"orig": "the age field might be out of bounds", "text": "check whether the age field is out of bounds", "category": "validation", "skill": "validateJsonSchema"}
+{"orig": "this figure is unreadable without separators", "text": "add separators so this figure is readable", "category": "math", "skill": "formatNumber"}
+{"orig": "the style guide wants a different naming convention", "text": "switch this to the naming convention the style guide wants", "category": "text", "skill": "convertCase"}
+{"orig": "the barcode number does not scan", "text": "check the barcode number that does not scan", "category": "validation", "skill": "validateIsbn"}
+{"orig": "the running app uses the other measure", "text": "convert to the measure the running app uses", "category": "conversion", "skill": "convertLength"}
+{"orig": "i only own spoons not scales", "text": "convert this to spoons, i don't own scales", "category": "everyday", "skill": "convertCookingMeasure"}
+{"orig": "the middle of the venn diagram here", "text": "find the middle of the venn diagram here", "category": "lists", "skill": "intersectLists"}
+{"orig": "the formatting symbols are cluttering this", "text": "clear out the formatting symbols cluttering this", "category": "text", "skill": "stripMarkdown"}
+{"orig": "my calculator is on the other side of the room", "text": "work this out, my calculator is across the room", "category": "math", "skill": "evaluateExpression"}
+{"orig": "they said a month ago what date was that", "text": "work out what date it was a month ago", "category": "dates", "skill": "parseRelativeDate"}
+{"orig": "the date my savings pot reaches the number", "text": "when will my savings pot reach the number", "category": "finance", "skill": "savingsGoal"}
+{"orig": "my calendar has bookings that overlap", "text": "merge the overlapping bookings on my calendar", "category": "dates", "skill": "mergeIntervals"}
+{"orig": "the stretch from 1 March 2024 to 1 March 2025", "text": "how long is the stretch from 1 March 2024 to 1 March 2025", "category": "dates", "skill": "daysBetween"}
+{"orig": "i only care about the big orders", "text": "keep only the big orders", "category": "data", "skill": "filterRows"}
+{"orig": "the deploy broke and the settings differ somewhere", "text": "find where the settings differ, the deploy broke", "category": "data", "skill": "diffJson"}
+{"orig": "this api response is one enormous line", "text": "break this api response out of one enormous line", "category": "data", "skill": "formatJson"}
+{"orig": "my supervisor wants proper referencing", "text": "do proper referencing for my supervisor", "category": "writing", "skill": "formatCitation"}
+{"orig": "the debugger output needs translating", "text": "translate the debugger's hex output", "category": "encoding", "skill": "hexDecode"}
+{"orig": "that proportion of this total", "text": "what's that proportion of this total", "category": "math", "skill": "percentOf"}
+{"orig": "the largest common chunk of these two", "text": "find the largest common chunk of these two", "category": "math", "skill": "gcd"}
+{"orig": "the readme has a table i want as data", "text": "pull the readme's table out as data", "category": "data", "skill": "parseMarkdownTable"}
+{"orig": "the firmware config takes byte pairs", "text": "write this as byte pairs for the firmware config", "category": "encoding", "skill": "hexEncode"}
+{"orig": "the calendar date behind timestamp 1788255000", "text": "can you turn timestamp 1788255000 into a calendar date", "category": "dates", "skill": "unixToIso"}
+{"orig": "the room bookings run into each other", "text": "merge the room bookings that run into each other", "category": "dates", "skill": "mergeIntervals"}
+{"orig": "the sms will split if this is too long", "text": "will this split as an sms, count it", "category": "text", "skill": "countCharacters"}
+{"orig": "the deadline is in their zone what is it in mine", "text": "what is the deadline in my zone", "category": "dates", "skill": "convertTimezone"}
+{"orig": "that date described in words", "text": "describe that date in words", "category": "dates", "skill": "timeAgo"}
+{"orig": "the index should treat these as one term", "text": "make the index treat these as one term", "category": "text", "skill": "stemWords"}
+{"orig": "my request came back with a code i dont know", "text": "what does the code my request came back with mean", "category": "developer", "skill": "httpStatusLookup"}
+{"orig": "i cannot do this one in my head", "text": "do this one for me, i cannot do it in my head", "category": "math", "skill": "evaluateExpression"}
+{"orig": "the indentation came through from the pdf", "text": "remove the indentation that came through from the pdf", "category": "text", "skill": "trimLines"}
+{"orig": "the puzzle needs the answer in machine digits", "text": "put the puzzle answer in machine digits", "category": "encoding", "skill": "binaryEncode"}
+{"orig": "the date 5 office days on from 1 September 2026", "text": "what date is 5 office days on from 1 September 2026", "category": "dates", "skill": "addBusinessDays"}
+{"orig": "the concrete size of this relative measure", "text": "give me the concrete size of this relative measure", "category": "design", "skill": "remToPx"}
+{"orig": "the database column naming needs to match", "text": "match the database column naming", "category": "text", "skill": "convertCase"}
+{"orig": "the essay limit is a thousand am i near", "text": "am i near the thousand word essay limit", "category": "text", "skill": "countWords"}
+{"orig": "the weekly variation is hiding the story", "text": "smooth the weekly variation hiding the story", "category": "statistics", "skill": "movingAverage"}
+{"orig": "the volume of a space with these three sides", "text": "multiply out these three sides for the space", "category": "math", "skill": "product"}
+{"orig": "i have the hex and need the components", "text": "split the hex into its components", "category": "design", "skill": "convertColor"}
+{"orig": "the report should show the symbol and decimals", "text": "show the symbol and decimals for the report", "category": "math", "skill": "formatCurrency"}
+{"orig": "the api wants this as an opaque string", "text": "turn this into the opaque string the api wants", "category": "encoding", "skill": "base64Encode"}
+{"orig": "this repeated text packed down", "text": "pack down this repeated text", "category": "encoding", "skill": "compressText"}
+{"orig": "the factorial of 25 please", "text": "what's the factorial of 25", "category": "math", "skill": "factorial"}
+{"orig": "the download page lists a checksum to match", "text": "check this against the checksum on the download page", "category": "encoding", "skill": "hashText"}
+{"orig": "the prose is too dense to follow", "text": "find where the prose is too dense to follow", "category": "writing", "skill": "findLongSentences"}
+{"orig": "my list is overwhelming where do i begin", "text": "where do i begin with my overwhelming list", "category": "organising", "skill": "prioritizeTasks"}
+{"orig": "everyone takes a turn at everything", "text": "rotate everyone through every job", "category": "organising", "skill": "rotateAssignments"}
+{"orig": "the import doubled everything up", "text": "undouble everything the import doubled", "category": "lists", "skill": "dedupeList"}
+{"orig": "someone emailed me a parquet and im lost", "text": "explain the parquet someone emailed me", "category": "files", "skill": "fileExtensionInfo"}
+{"orig": "our board game is missing its cubes", "text": "roll for our board game, it's missing its cubes", "category": "generation", "skill": "rollDice"}
+{"orig": "the gap between these two appointments", "text": "count the gap between these two appointments", "category": "dates", "skill": "daysBetween"}
+{"orig": "i get eight hours and still feel awful", "text": "plan my sleep so eight hours stops feeling awful", "category": "health", "skill": "sleepCycleTimes"}
+{"orig": "i just need bulk text for the template", "text": "fill the template with bulk text", "category": "generation", "skill": "loremIpsum"}
+{"orig": "the brand doc has a code that looks off", "text": "check the brand doc's code that looks off", "category": "validation", "skill": "validateHexColor"}
+{"orig": "the contract needs the amount in letters", "text": "write the contract amount in letters", "category": "conversion", "skill": "numberToWords"}
+{"orig": "the doctor said come back in three weeks which date", "text": "which date is three weeks from now for the doctor", "category": "dates", "skill": "parseRelativeDate"}
+{"orig": "this json rebuilt nested", "text": "rebuild this json nested", "category": "data", "skill": "unflattenJson"}
+{"orig": "the caller id shows an odd prefix", "text": "where is the odd prefix on my caller id from", "category": "reference", "skill": "phoneRegionLookup"}
+{"orig": "the form wants their age from the birth date", "text": "work out their age from the birth date for the form", "category": "dates", "skill": "ageFromDate"}
+{"orig": "the exam is in a week and the textbook is long", "text": "split the long textbook over the week before the exam", "category": "learning", "skill": "readingScheduleFromPages"}
+{"orig": "the legacy system cannot handle these symbols", "text": "strip the symbols the legacy system cannot handle", "category": "text", "skill": "removeEmoji"}
+{"orig": "the parser throws on this payload", "text": "find why the parser throws on this payload", "category": "validation", "skill": "validateJson"}
+{"orig": "this sentence rotated", "text": "rotate this sentence", "category": "encoding", "skill": "rot13"}
+{"orig": "the entries only one side has", "text": "show the entries only one side has", "category": "lists", "skill": "differenceLists"}
+{"orig": "the crossword needs the biggest entry", "text": "which is the biggest entry for the crossword", "category": "text", "skill": "findLongestWord"}
+{"orig": "i keep going back and forth on this", "text": "help me stop going back and forth on this", "category": "decisions", "skill": "prosConsScore"}
+{"orig": "the lines run off the edge of the terminal", "text": "wrap the lines running off the edge of the terminal", "category": "text", "skill": "wrapText"}
+{"orig": "my spreadsheet will not accept this as typed", "text": "fix this number so my spreadsheet accepts it", "category": "math", "skill": "parseNumber"}
+{"orig": "the chapter heading is in old numbering", "text": "what's the chapter heading's old numbering in digits", "category": "conversion", "skill": "convertRomanNumeral"}
+{"orig": "i think one of these is a shuffle of the other", "text": "is one of these a shuffle of the other", "category": "games", "skill": "checkAnagram"}
+{"orig": "the rota is planned by week number", "text": "plan the rota by week number for these dates", "category": "dates", "skill": "isoWeek"}
+{"orig": "my request body fails their validation", "text": "find out why my request body fails their validation", "category": "validation", "skill": "validateJsonSchema"}

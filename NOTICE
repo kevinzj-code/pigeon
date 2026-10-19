@@ -1,0 +1,35 @@
+Pigeon
+Copyright 2026 Kevin Jackson
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product bundles or links the following third-party work. The notices
+that must travel with a binary are reproduced in src-tauri/licences/ and ship
+inside the app (see src-tauri/licences/README.txt for what each one covers).
+
+  - llama.cpp (https://github.com/ggml-org/llama.cpp), MIT License,
+    Copyright (c) 2023-2024 The ggml authors: the model engine, linked into
+    pigeon-engine (src-tauri/licences/llama.cpp-MIT.txt).
+  - Hanken Grotesk (Copyright 2021 The Hanken Grotesk Project Authors) and
+    IBM Plex Mono (Copyright 2017 IBM Corp., Reserved Font Name "Plex"),
+    SIL Open Font License 1.1, in fonts/ (fonts/OFL.txt).
+  - SCOWL word lists (Copyright 2000-2018 Kevin Atkinson and others), behind
+    src/lib/words.js (src-tauri/licences/wordlist-SCOWL.txt).
+  - Unicode Character Database 15.0 character names, in
+    src/lib/unicode-names.js, under the Unicode License
+    (https://www.unicode.org/license.txt).
+  - ring, rustls, webpki-roots, reqwest and Tauri, whose notices are in
+    src-tauri/licences/ring-and-BoringSSL.txt and rust-libraries.txt.
+  - Recorded Wikipedia extracts used as test fixtures in src/lib/web-fixtures.js
+    are CC BY-SA 4.0 and carry their source URLs.
+
+The models Pigeon downloads on first run (Qwen3-VL 2B Instruct, Apache 2.0,
+Qwen team at Alibaba Cloud; nomic-embed-text v1.5, Apache 2.0, Nomic AI) are
+not in this repository. Their notices are written beside the weights before
+the download begins.
+
+The Patch character artwork in assets/ and the LoRA adapters in model/ are
+original work by the copyright holder and are covered by this project's
+Apache 2.0 licence. "Pigeon", "Patch" and "Airoplane Mode" are names of this
+project; the licence grants no right to use them to endorse or promote
+derivative works.

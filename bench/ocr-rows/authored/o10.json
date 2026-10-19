@@ -1,0 +1,605 @@
+{
+  "batch": "o10",
+  "texts": [
+    {
+      "kind": "receipt",
+      "text": "ST AUBYN GENERAL HOSPITAL\nWard 9 Coffee Cart\nLatte regular £2.85\nCheese and pickle sandwich £3.40\nBanana £0.35\nSparkling water 500ml £1.20\nTOTAL £7.80\nNHS staff discount 10% -£0.78\nTO PAY £7.02\nContactless ending 3381\n14/10/2026 06:47 Till 1 Ref 40917"
+    },
+    {
+      "kind": "receipt",
+      "text": "Aérogare Sud Duty Free\nTerminal 2, Gate B14\nParfum Lune Blanche 50ml €68.00\nChocolat noir 3 x €4.50 €13.50\nEau minérale 1,5L €2.90\nSubtotal €84.40\nRemise fidélité 5% -€4.22\nTotal €80.18\nBoarding pass seat 23C, flight ZQ 2207\nPaid Visa ****6120 18.10.2026 14:32"
+    },
+    {
+      "kind": "receipt",
+      "text": "Union Terminal News & Snacks\nTrack Level, Concourse C\nMorning Ledger newspaper $2.50\nTrail mix 6 oz $4.79\nIced coffee 16 oz $3.95\nSpearmint gum $1.89\nSUBTOTAL $13.13\nTax 6% $0.79\nTOTAL $13.92\nCash $20.00 Change $6.08\n10/02/2026 7:12 AM Reg 3 Trans #55102"
+    },
+    {
+      "kind": "receipt",
+      "text": "Riverside Infirmary Outpatient Pharmacy\nPrescription charge 2 items @ £9.90 £19.80\nIbuprofen gel 50g £3.65\nDigital thermometer £6.99\nTotal £30.44\nPaid cash £40.00\nChange £9.56\nRx No. 2026-11873\nServed by: Pharmacist J. Okafor\n22/09/2026 15:20"
+    },
+    {
+      "kind": "receipt",
+      "text": "Harrowgate House Staff Restaurant\nLevel 3\nSoup of the day £1.95\nJacket potato with beans £3.60\nSide salad £1.40\nApple juice 330ml £0.95\nTotal £7.90\nPaid by staff card No. 00417\nBalance remaining £22.10\nMon 05 Oct 2026 12:38"
+    },
+    {
+      "kind": "receipt",
+      "text": "Metro Airport Taxi Co-op\nCab No. 214 Driver ID 5508\nFrom: Terminal A arrivals 23:41\nTo: 1180 Larkspur Avenue 00:19\nDistance 18.6 mi\nMeter fare $46.20\nAirport surcharge $5.00\nTolls $3.50\nTip 15% $6.93\nTotal $61.63\nQuestions? Call 555-0118"
+    },
+    {
+      "kind": "receipt",
+      "text": "Westbrook Hospital Visitor Parking\nCar Park C, Bay 117\nEntry 13:05 08/10/2026\nExit 17:50 08/10/2026\nDuration 4 h 45 min\nTariff 4 to 6 hours £6.50\nBlue Badge concession 50% -£3.25\nAmount paid £3.25\nMachine 04 Receipt 228519\nKeep for your records"
+    },
+    {
+      "kind": "receipt",
+      "text": "QuickCopy Print Centre\nUnit 6, Canal Wharf Business Park\nA4 colour prints 120 @ 0.15 £18.00\nSpiral binding x4 @ 2.25 £9.00\nLaminating A3 x2 @ 1.80 £3.60\nNet £30.60\nVAT 20% £6.12\nTotal £36.72\nInvoice to: Pellow & Grant LLP, PO 7781\n09/10/2026 10:14"
+    },
+    {
+      "kind": "receipt",
+      "text": "Estación de Autobuses Plaza Norte\nTaquilla 3\nBillete sencillo Peñascal 1 x €7.85\nBillete ida y vuelta Sierra Alta 2 x €12.40\nTotal €32.65\nPagado con tarjeta ****0954\nSalida 16:45 Andén 11\nFecha 11/10/2026 Op. 300812"
+    },
+    {
+      "kind": "receipt",
+      "text": "The Friends' Shop, Main Atrium\nGet well card £2.75\nHelium balloon £4.99\nPuzzle book £3.50\nGrapes 500g £2.20\nTotal £13.44\nPaid contactless £13.44\nAll profits support the Children's Ward\nVolunteer on till: Maureen\nReceipt 7720 03/10/2026 11:56"
+    },
+    {
+      "kind": "receipt",
+      "text": "Skyline Lounge Bar, Pier 4\nTable 22 Guests 3\n2 x Lager 330ml @ $8.50 $17.00\n1 x House red 175ml $11.00\n1 x Club sandwich $16.50\n1 x Fries $6.25\nSubtotal $50.75\nTax 9% $4.57\nTotal $55.32\nGratuity not included\nCheck #6631 10/11/2026 5:48 PM"
+    },
+    {
+      "kind": "receipt",
+      "text": "Northport Ferry Terminal\nSailing 14:30 to Kerrow Isle\nAdult return x2 @ £24.00 £48.00\nChild return x1 @ £12.00 £12.00\nCar up to 5m £61.50\nBooking fee £1.50\nTotal £123.00\nBooking ref NFT-58H2K\nCheck in by 14:00 at Lane 6"
+    },
+    {
+      "kind": "receipt",
+      "text": "Brightwater Dental Practice\nPatient: R. Castellano\nExamination £27.50\nScale and polish £45.00\nBitewing X-rays x2 @ £12.00 £24.00\nTotal charges £96.50\nPaid today £96.50\nBalance £0.00\nNext appointment 14/04/2027 09:20\nTel 01632 960538"
+    },
+    {
+      "kind": "receipt",
+      "text": "Hauptbahnhof Ticket Machine 07\nDay ticket zones A-C €9.80\nBicycle ticket €3.50\nSeat reservation €4.90\nTotal €18.20\nPaid EC card ****3307\nValid 12.10.2026 until 03:00 next day\nTransaction 0049271\nKeep ticket until end of journey"
+    },
+    {
+      "kind": "receipt",
+      "text": "Hive Workspace, 88 Foundry Row\nHot desk day pass x3 @ $25.00 $75.00\nMeeting room 2 hr @ $30.00 $60.00\nPrinting 40 pages @ $0.10 $4.00\nSubtotal $139.00\nGST 5% $6.95\nTotal $145.95\nMember No. HW-2291\nPaid Mastercard 10/06/2026 4:02 PM"
+    },
+    {
+      "kind": "notice",
+      "text": "WARD 7B VISITING HOURS\nAfternoons 14:00 to 16:00\nEvenings 18:30 to 20:00\nA maximum of 2 visitors per bed at any time.\nChildren under 12 must be accompanied by an adult.\nPlease use the hand gel at the entrance to the ward.\nWard office: ext. 4471"
+    },
+    {
+      "kind": "notice",
+      "text": "NOTICE TO PASSENGERS\nLiquids in hand luggage must be in containers of 100ml or less.\nAll containers must fit in one clear resealable bag, approx. 20cm x 20cm.\nLaptops and tablets larger than a phone must be removed from your bag.\nThank you for your patience. Average wait today: 12 min."
+    },
+    {
+      "kind": "notice",
+      "text": "LIFT OUT OF SERVICE\nLift 2 (east core) will be closed for maintenance from Mon 19 Oct to Fri 23 Oct.\nPlease use Lift 1 or Lift 3. The stairs are on your left.\nAnyone needing assistance can call Facilities on ext. 2200.\nWe apologise for any inconvenience."
+    },
+    {
+      "kind": "notice",
+      "text": "Platform 4 Engineering Works\nOn Sunday 25 October no trains will call at this platform between 06:00 and 13:30.\nServices to Ashworth and Pellbridge will depart from Platform 2 instead.\nReplacement buses run every 20 minutes from the station forecourt, Bay C.\nAllow up to 45 min extra for your journey."
+    },
+    {
+      "kind": "notice",
+      "text": "PLEASE NOTE\nThis is a fragrance-free area.\nPatients on this unit may be sensitive to perfume, aftershave and scented sprays.\nFlowers are not permitted on the Respiratory Unit (Ward 12).\nRoom temperature is kept at 21°C to 23°C.\nQuestions? Ask the nurse in charge or call 01632 960274."
+    },
+    {
+      "kind": "notice",
+      "text": "KITCHEN RULES, 4th FLOOR\nThe fridge is cleared every Friday at 4:00 pm. Anything without a name and date goes.\nLoad the dishwasher, don't stack it in the sink.\nThe boiling water tap reaches 98°C. Keep fingers clear.\nMilk rota: Team A weeks 1 & 3, Team B weeks 2 & 4."
+    },
+    {
+      "kind": "notice",
+      "text": "Lost Property\nItems found on buses or in the station are kept at the Travel Centre for 28 days.\nOpening hours Mon to Sat 08:00 to 18:00, Sun 10:00 to 16:00.\nA handling fee of $3.00 applies to items over $50 in value.\nPhone 555-0162 or email lostproperty@riverlinetransit.example"
+    },
+    {
+      "kind": "notice",
+      "text": "FIRE EVACUATION POINT B\nIn the event of a fire alarm, leave the building by the nearest exit.\nDo not use the lifts.\nAssemble here and wait for the Fire Marshal to take a roll call.\nDo not re-enter until told it is safe.\nFire Marshal for Floors 1 to 3: K. Abiodun, ext. 3109"
+    },
+    {
+      "kind": "notice",
+      "text": "GATE CHANGE\nFlight PX 772 to Valmorra now departs from Gate 31, not Gate 18.\nBoarding begins at 19:05 and the gate closes at 19:35, 15 minutes before departure.\nWalking time from here is approx. 12 minutes.\nWe regret any inconvenience."
+    },
+    {
+      "kind": "notice",
+      "text": "SECURE AREA\nAccess to Floors 9 and 10 is by pass only.\nVisitors must sign in at reception on the ground floor and wear a badge at all times.\nTailgating through the turnstiles is a disciplinary matter.\nReport lost passes immediately to Security on 07700 900316, 24 hours a day."
+    },
+    {
+      "kind": "notice",
+      "text": "Pharmacy Opening Times\nMonday to Friday 8.30am to 6.00pm\nSaturday 9.00am to 1.00pm\nSunday and bank holidays closed\nOut of hours prescriptions: please go to the Emergency Department reception.\nAverage waiting time for a prescription is 25 to 40 minutes."
+    },
+    {
+      "kind": "notice",
+      "text": "Escalator Closure\nThe escalators at the Calder Street entrance are being replaced.\nWork starts 2 November 2026 and is expected to finish by 15 January 2027.\nStep-free access is available via the lift at the Wyndham Road entrance, 150m north.\nWe're sorry for the disruption."
+    },
+    {
+      "kind": "notice",
+      "text": "Car Park Notice\nSpaces 1 to 24 are reserved for disabled badge holders and visitors.\nStaff parking permits must be displayed on the dashboard.\nVehicles parked without a permit after 9:30 am may be clamped. Release fee £85.\nEnquiries: Estates Office, Room G.14, ext. 5012"
+    },
+    {
+      "kind": "notice",
+      "text": "Clinic Running Late\nDr Moreno's clinic is running approx. 40 minutes behind.\nPatients booked from 10:30 onwards will be seen in order of appointment.\nIf you cannot wait, please speak to reception at Desk 3 to rebook.\nHot drinks are available in the café on Level 1 until 4pm."
+    },
+    {
+      "kind": "notice",
+      "text": "Toilets\nCharge 30p, contactless or coins.\nAccessible toilet and baby change on Platform 1, free of charge (RADAR key).\nCleaned hourly from 06:00 to 23:00.\nLast check: 14:00, initials T.W.\nTo report a problem, text TOILET 3 to 07700 900582."
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mrs Haverford,\nYour appointment with the Orthopaedic Clinic has been booked for Tuesday 17 November 2026 at 10:45 am in Outpatients Department B, Level 2.\nPlease arrive 15 minutes early and bring a list of any medicines you take. If you need to change this appointment, call 01632 960719 between 9am and 4pm, quoting reference ORT/55180.\nYours sincerely,\nAppointments Team"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Desk moves this weekend\nHi all,\nFacilities will move the finance team from Floor 3 to Floor 5 on Saturday 24 October, starting at 8:00 am. Please pack your desk into the crates provided by 5:30 pm on Friday and label each crate with your new desk number (5.01 to 5.36).\nMonitors and docking stations stay where they are.\nThanks, Priya"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr Okonkwo,\nThank you for reporting your delayed bag on flight RT 309 from Sallow Bay on 3 October. Your file reference is SBX-44817.\nWe are pleased to say the bag has been traced and will be delivered to 27 Fenmore Gardens between 6pm and 9pm today. If you had to buy essential items, you may claim up to $150 by sending your receipts to claims@meridianair.example.\nKind regards,\nBaggage Services"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Dr Ashcombe,\nRe: Mr Tomás Ferreira, DOB 04/07/1958, Hospital No. K2290571\nI reviewed Mr Ferreira in clinic today. His blood pressure was 138/84 and his weight 82.4 kg, down 3 kg since June. I have reduced his bisoprolol to 2.5mg once daily and would be grateful if you could check his potassium in 4 weeks.\nI will see him again in 6 months.\nYours sincerely,\nDr H. Lindqvist, Consultant Cardiologist"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Ms Delacroix,\nI am delighted to offer you the position of Office Manager at Brennan Hale Associates, starting on Monday 4 January 2027. The salary is £34,500 a year, paid monthly, with 25 days' holiday plus bank holidays.\nPlease sign and return the enclosed contract by 30 November. Your first day will begin at 9:00 am at our Wexley Street office, 3rd floor.\nBest wishes,\nGareth Pryce, Director"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your Delay Repay claim DR-3381964\nDear Customer,\nYour 18:12 service from Calder Junction to Hollin Vale on 6 October arrived 37 minutes late. You are entitled to 50% of your single fare of £21.40, which is £10.70.\nThis will be refunded to the card ending 8842 within 5 to 7 working days. Thank you for travelling with Westmoor Rail."
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Inés,\nOn behalf of everyone at Larchfield Children's Hospital, thank you for the 312 hours you gave as a ward volunteer this year. Your sponsored walk raised €1,845 for the playroom, and the new books and games are already in use.\nWe hope you'll join us at the volunteers' lunch on 12 December at 12:30 in the Atrium Café.\nWarm wishes,\nMarta Echeverría, Volunteer Coordinator"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr Patel,\nYour annual season ticket between Brookhill and City Central expires on 31 October 2026. To renew at the 2027 price of £3,128, visit any ticket office or renew online before the expiry date.\nYou can also pay by monthly instalments of £268.50 over 12 months. Your season ticket number is ST 0072-4415.\nYours faithfully,\nCustomer Services"
+    },
+    {
+      "kind": "letter",
+      "text": "From: IT Service Desk\nTo: All staff\nSubject: Planned outage, Saturday 31 October\nThe email and file servers will be offline from 22:00 on Saturday 31 October until 04:00 on Sunday 1 November while we install security updates. Please save your work and log off before you leave on Friday.\nIf you have problems on Monday, raise a ticket at helpdesk@orrinfield.example or call ext. 7000."
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Ms Nakamura,\nYour blood tests taken on 2 October 2026 were all within the normal range. Your vitamin D level was 64 nmol/L and your HbA1c was 38 mmol/mol, so no treatment is needed.\nThere is no need to book a follow-up appointment. Please keep this letter with your records.\nYours sincerely,\nThe Practice Team, Elmstead Medical Centre"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr Abernathy,\nThank you for your email of September 14 about the Route 46 bus that did not stop at Mercer Lane at 7:52 a.m. I am sorry for the inconvenience this caused.\nI have spoken to the depot manager, and the driver has been reminded of the schedule. As a goodwill gesture I enclose 4 single-ride vouchers worth $2.75 each.\nSincerely,\nDelphine Moss, Customer Relations"
+    },
+    {
+      "kind": "letter",
+      "text": "Hi Tomasz,\nThanks for agreeing to speak at our partners' day. You're in Room 4.12 on Thursday 19 November, 2:15 to 2:45 pm, followed by 10 minutes of questions.\nPlease send your slides by 12 November in 16:9 format, no larger than 25 MB. Parking is booked for you in Bay 31 under the building. Call me on 07700 900447 if anything changes.\nCheers,\nHannah"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr Oyelaran,\nYour application for a staff parking permit has been approved. Your permit number is P-20661 and it is valid from 1 November 2026 to 31 October 2027 in Car Parks A and D only.\nThe annual charge of £312.00 will be taken from your salary in 12 monthly payments of £26.00, starting in November.\nEstates and Facilities"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your seat for flight NV 1180\nDear Ms Rinaldi,\nGood news: you have been moved to seat 4A in Premium Economy on your flight from Port Halden to Corrin City on 21 October, departing 08:55. Your baggage allowance is now 2 x 23kg.\nCheck-in opens 24 hours before departure. Your booking reference is QZ7HTB.\nKind regards, Nova Air"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Colin,\nPlease accept this email as notice of my resignation from my role as Senior Analyst. As my contract requires 4 weeks' notice, my last working day will be Friday 20 November 2026.\nI have 6.5 days of annual leave left and would like to take 2 of them on 12 and 13 November. Thank you for your support over the past 5 years.\nKind regards,\nAmaka Eze"
+    },
+    {
+      "kind": "menu",
+      "text": "Linden Wing Restaurant, Level 1\nToday's Hot Meals, served 11:30 to 14:00\nRoast chicken, stuffing and gravy £4.20\nVegetable lasagne (V) £3.90\nFish pie with peas £4.50\nChickpea and spinach curry (VG) £3.60\nSide of chips £1.30\nSponge and custard £1.50\nStaff and visitors welcome. 10% off with staff ID."
+    },
+    {
+      "kind": "menu",
+      "text": "Gate 22 Coffee Co.\nBreakfast until 11 am\nEgg and cheese bagel $7.25\nSteel cut oatmeal with berries $6.50\nYogurt parfait $5.75\nCoffee 12 oz $2.95 / 16 oz $3.45\nCold brew 16 oz $4.25\nFresh orange juice $4.95\nAdd bacon +$2.00"
+    },
+    {
+      "kind": "menu",
+      "text": "The Platform Bar\nMains\nSteak and ale pie, mash, greens £13.95\nBeer-battered haddock, chips, mushy peas £14.50\nHalloumi burger, sweet potato fries £12.25\nPloughman's with 2 cheeses £10.75\nSandwiches served until 9pm £7.50\nAsk staff about allergens. Card only. 12.5% service on tables of 6 or more."
+    },
+    {
+      "kind": "menu",
+      "text": "Cafetería Torre Norte, Planta 2\nMenú del día €11.50\nPrimero: gazpacho o ensalada mixta\nSegundo: merluza a la plancha o pollo asado\nPostre: flan o fruta\nIncluye pan, bebida y café\nDesayuno: tostada con tomate y café €2.80\nCruasán €1.40\nZumo de naranja €2.20\nHorario 7:30 a 16:00"
+    },
+    {
+      "kind": "menu",
+      "text": "Patient Menu, Week 2, Wednesday\nPlease tick one choice for each course and return to your nurse by 10am.\nLunch: Cream of tomato soup / Shepherd's pie / Cheese omelette\nSupper: Beef stew / Salmon fishcakes / Macaroni cheese\nDessert: Rice pudding / Fresh fruit / Low-sugar jelly\nSoft and puréed options are available. H = healthier choice, GF = gluten free."
+    },
+    {
+      "kind": "menu",
+      "text": "Terminal 3 Noodle Bar\nChicken ramen $16.90\nTonkotsu ramen with egg $18.40\nVegetable gyoza 6 pcs $9.80\nSalmon nigiri 4 pcs $11.20\nEdamame with sea salt $6.50\nGreen tea $3.20\nPrices include 10% GST. Open 05:30 to 23:30 daily."
+    },
+    {
+      "kind": "menu",
+      "text": "Grafton House Canteen, Week of 12 October\nMon: Jerk chicken, rice and peas £4.75\nTue: Mushroom stroganoff £4.25\nWed: Lamb hotpot £4.95\nThu: Thai green curry £4.60\nFri: Fish and chips £5.10\nMeal deal: main, drink and fruit for £6.00\nPre-order on ext. 2416 by 11am"
+    },
+    {
+      "kind": "menu",
+      "text": "On Board Café, Coach C\nBacon roll £4.60\nCheese and onion toastie £4.80\nCrisps 40g £1.40\nShortbread fingers 2-pack £1.75\nTea £2.40 / Coffee £2.90\nMiniature wine 187ml £6.50\nTrolley service from Coach A at approx. 10:15 and 13:45"
+    },
+    {
+      "kind": "menu",
+      "text": "Cafétéria Hôpital Saint-Rémy\nFormule midi (plat du jour, dessert et boisson) €9.80\nQuiche lorraine €4.20\nSalade niçoise €6.90\nCroque-monsieur €4.50\nCrème brûlée €2.90\nCafé €1.30, café crème €1.90\nOuvert de 7h30 à 18h, fermé le dimanche"
+    },
+    {
+      "kind": "menu",
+      "text": "Horizon Lounge Drinks\nHouse Champagne 125ml $14.00\nGin and tonic 50ml $11.50\nPale ale on tap 1/2 pint $5.50 / pint $9.00\nMocktail of the day $6.75\nSparkling water complimentary\nLast orders 30 minutes before the lounge closes at 23:00.\nID required for anyone who looks under 25."
+    },
+    {
+      "kind": "menu",
+      "text": "Tacos Doña Rosa, Lot B, Parkview Office Campus\nAl pastor taco $3.75\nCarnitas taco $3.75\nGrilled fish taco $4.25\nBurrito bowl $11.50\nElote with chili and lime $5.00\nHorchata 16 oz $3.50\n3 tacos + drink $12.00\nMon to Fri 11:00 am to 2:30 pm. Cash and cards."
+    },
+    {
+      "kind": "menu",
+      "text": "Little Stars Menu, ages 2 to 12\nFish fingers, peas and potato wedges £2.80\nCheesy pasta bake £2.60\nChicken dippers and beans £2.90\nVeggie sausage and mash £2.70\nFruit pot or yogurt £0.90\nMilk or juice carton 200ml £0.70\nAll children's meals come with a free sticker!"
+    },
+    {
+      "kind": "menu",
+      "text": "Depot Diner, Main Bus Terminal\nAll day breakfast $9.95\n2 eggs any style, toast, home fries\nPancake stack (3) with maple syrup $8.50\nClub sandwich and fries $12.75\nSoup and half sandwich $10.25\nBottomless coffee $2.25\nSeniors 10% off Tuesdays"
+    },
+    {
+      "kind": "menu",
+      "text": "Boardroom Catering Menu\nContinental breakfast, per person £6.50\nWorking lunch sandwich platter, serves 5 £27.50\nFruit platter, serves 10 £18.00\nTea and coffee for 10 £12.00\nBiscuits, plate of 20 £4.00\nOrders 48 hours in advance to catering@thamesgate.example\nCancellations after 2pm the day before are charged in full."
+    },
+    {
+      "kind": "menu",
+      "text": "Café Deck 7, MV Stella Nord\nCheese toastie €4.20\nPea soup with rye bread €5.40\nFish and chips €12.90\nApple tart with cream €3.60\nCoffee €2.40 / Tea €2.10\nKids' meal €6.50\nOpen from 30 minutes after departure until 20 minutes before arrival."
+    },
+    {
+      "kind": "timetable",
+      "text": "Hospital Shuttle, Route H1\nMonday to Friday\nRail Station dep 06:40 07:20 08:00 08:40 09:20\nPark & Ride dep 06:52 07:32 08:12 08:52 09:32\nGeneral Hospital arr 07:05 07:45 08:25 09:05 09:45\nThen every 40 minutes until 18:40\nFree for staff, patients and visitors"
+    },
+    {
+      "kind": "timetable",
+      "text": "DEPARTURES Terminal 1\n10:05 PX 214 Valmorra Gate 12 Boarding\n10:20 NV 882 Corrin City Gate 7 Delayed 11:10\n10:35 TR 3306 Lisle Gate 19 Go to gate\n10:50 MK 51 Port Halden Gate 3 Cancelled\n11:15 PX 230 Eastholm Gate 14 On time\n11:40 ZQ 1907 Santa Mira Gate 22 On time"
+    },
+    {
+      "kind": "timetable",
+      "text": "Hollin Vale to Calder Junction, Mondays to Fridays\nHollin Vale 06:12 07:12 08:12 09:42\nBrookhill 06:21 07:21 08:21 09:51\nAshworth 06:33 07:33 08:33 10:03\nCalder Junction 06:48 07:48 08:48 10:18\nBicycles are not carried on the 07:12 and 08:12."
+    },
+    {
+      "kind": "timetable",
+      "text": "Northport to Kerrow Isle, Winter 2026/27\nDepart Northport 07:30 10:45 14:30 17:15\nArrive Kerrow 08:40 11:55 15:40 18:25\nDepart Kerrow 09:00 12:15 16:00 18:45\nArrive Northport 10:10 13:25 17:10 19:55\nCrossing time approx. 1 hr 10 min. Sailings may be cancelled in winds above 45 knots."
+    },
+    {
+      "kind": "timetable",
+      "text": "Outpatient Clinics, Level 2\nMonday: Dermatology 09:00 to 12:30, Room 2.14\nTuesday: Diabetes 08:30 to 16:00, Room 2.06\nWednesday: Fracture Clinic 09:00 to 17:00, Room 2.21\nThursday: Ophthalmology 13:30 to 17:30, Room 2.09\nFriday: Paediatrics 09:30 to 12:00, Room 2.14\nPlease check in at the Level 2 kiosk on arrival."
+    },
+    {
+      "kind": "timetable",
+      "text": "Route 46 Mercer Lane Crosstown, Weekdays\nMercer Lane & 5th 6:15a 6:45a 7:15a 7:52a\nUnion Terminal 6:28a 6:58a 7:28a 8:05a\nCivic Center 6:37a 7:07a 7:37a 8:14a\nLakeview Medical Center 6:49a 7:19a 7:49a 8:26a\nFare $2.75, seniors $1.35. Exact change only."
+    },
+    {
+      "kind": "timetable",
+      "text": "Room 4.12 Bookings, Thursday 15 October\n08:30 to 09:00 Daily stand-up, Product team\n09:30 to 11:00 Quarterly review, Finance (Y. Hassan)\n11:00 to 12:00 Interview, Legal\n13:00 to 14:30 Supplier call, Procurement\n15:00 to 17:00 Training: Excel level 2, HR\nPlease leave the room tidy and the screen switched off."
+    },
+    {
+      "kind": "timetable",
+      "text": "Green Line First and Last Trains, Mondays to Fridays\nStation First Last\nWyndham Road 05:24 00:41\nCalder Street 05:27 00:44\nExchange Square 05:31 00:48\nRiverside 05:36 00:53\nAirport Parkway 05:49 01:06\nSaturday times as above. Sunday first trains run 1 hour later."
+    },
+    {
+      "kind": "timetable",
+      "text": "Ward 9 Shift Times\nEarly 07:00 to 15:30\nLate 13:00 to 21:30\nLong day 07:00 to 19:30\nNight 19:00 to 07:30\nHandover in the day room at 07:00, 13:00 and 19:00.\nBreaks: 30 min for shifts over 6 hours, 60 min for long days and nights."
+    },
+    {
+      "kind": "timetable",
+      "text": "Express Coach X9, Valid from 01.11.2026\nAirport Coach Station 08:00 11:00 14:00 17:00 20:00\nWestgate 08:35 11:35 14:35 17:35 20:35\nKingsmere Services 09:20 12:20 15:20 18:20 21:20\nEastholm Bus Station 10:05 13:05 16:05 19:05 22:05\nSingle €18, return €32. Wi-Fi and USB on every coach."
+    },
+    {
+      "kind": "timetable",
+      "text": "Check-in Zone D, Today\nFlight Destination Desks Opens Closes\nNV 1180 Corrin City D21 to D24 05:55 08:05\nTR 412 Lisle D25 to D27 06:30 08:30\nMK 77 Port Halden D28 06:40 08:50\nPX 506 Valmorra D21 to D24 09:10 11:20\nBag drop closes 50 minutes before departure."
+    },
+    {
+      "kind": "timetable",
+      "text": "Cleaning Schedule, Floors 1 to 6\nDaily 06:00 to 08:00: toilets, kitchens, bins\nDaily 18:30 to 21:00: desks, meeting rooms, vacuuming\nTuesday: windows inside, Floors 1 to 3\nThursday: windows inside, Floors 4 to 6\n1st Saturday of the month: carpet shampoo, 08:00 to 14:00\nSupervisor on duty: 07700 900263"
+    },
+    {
+      "kind": "timetable",
+      "text": "Medication Rounds, Ward 4A\nMorning 08:00\nLunchtime 12:00\nTeatime 17:00\nNight 22:00\nInsulin and time-critical medicines are given within 30 minutes of the time prescribed.\nPlease do not disturb the nurse wearing the red tabard during a round."
+    },
+    {
+      "kind": "timetable",
+      "text": "Tram 3 Hauptbahnhof to Universitätsklinik, Sundays\nHauptbahnhof 07:04, then every 15 min until 23:49\nMarktplatz +4 min\nStadtpark +9 min\nUniversitätsklinik +16 min\nLast tram from Universitätsklinik 00:12\nSingle ticket €3.20, day ticket €9.80"
+    },
+    {
+      "kind": "timetable",
+      "text": "Airport Express, Saturdays and Sundays\nAirport Terminal B 5:10 am 5:40 am 6:10 am, then every 30 min\nMidtown Station 5:31 am 6:01 am 6:31 am\nUnion Terminal 5:44 am 6:14 am 6:44 am\nLast train from the airport 11:40 pm\nOne way $8.50, round trip $15.00, children under 5 free"
+    },
+    {
+      "kind": "recipe",
+      "text": "Ward 9 Banana Bread (makes 1 loaf, 10 slices)\n3 ripe bananas, mashed\n75g butter, melted\n150g caster sugar\n1 egg, beaten\n1 tsp bicarbonate of soda\n190g plain flour\nMix everything in one bowl, pour into a lined 900g loaf tin and bake at 175°C (gas 4) for 55 to 60 minutes.\nFrom Sister Doyle, who brings one in every Friday"
+    },
+    {
+      "kind": "recipe",
+      "text": "Dietetics Department Recipe Card No. 12\nLentil and Carrot Soup, serves 4, approx. 210 kcal per serving\n1 onion, chopped\n3 carrots, diced\n150g red lentils, rinsed\n1.2 litres low-salt vegetable stock\n1/2 tsp ground cumin\nSoften the onion in 1 tbsp oil, add everything else and simmer for 25 minutes, then blend until smooth.\nSalt per serving: 0.6g"
+    },
+    {
+      "kind": "recipe",
+      "text": "Mike's Office Potluck Chili\nServes 8\n2 lb ground beef\n1 large onion, diced\n2 cans (15 oz each) kidney beans, drained\n1 can (28 oz) crushed tomatoes\n2 tbsp chili powder\n1 1/2 tsp ground cumin\nBrown the beef and onion, add the rest and simmer for 1 hour, stirring every 15 minutes.\nBring your own slow cooker. Label it with your name and floor number!"
+    },
+    {
+      "kind": "recipe",
+      "text": "Night Shift Overnight Oats\n40g rolled oats\n120ml semi-skimmed milk\n2 tbsp Greek yogurt\n1 tsp honey\nHandful of blueberries\nStir together in a jar, cover and chill for at least 4 hours. Eat cold at your 3am break.\nAbout 310 kcal and 14g protein per jar."
+    },
+    {
+      "kind": "recipe",
+      "text": "Nurses' Station Snickerdoodles\nMakes 24 cookies\n1/2 cup butter, softened\n1 cup sugar\n1 large egg\n1 1/2 cups all-purpose flour\n1 tsp cream of tartar\n1/2 tsp baking soda\n2 tbsp sugar and 2 tsp cinnamon for rolling\nRoll into 1 inch balls, coat in cinnamon sugar and bake at 375°F for 9 to 10 minutes."
+    },
+    {
+      "kind": "recipe",
+      "text": "Tortilla Española, from the Canteen at Torre Norte\nServes 6\n500g potatoes, thinly sliced\n1 onion, thinly sliced\n6 large eggs\n150ml olive oil\n1/2 tsp salt\nCook the potatoes and onion slowly in the oil for 20 minutes until soft, drain, then mix with the beaten eggs and salt.\nCook in a 24cm pan over a low heat for 8 minutes, turn out onto a plate and slide back in for 4 more."
+    },
+    {
+      "kind": "recipe",
+      "text": "Build-Up Smoothie, Nutrition Support Team\nFor patients who need extra calories, approx. 450 kcal per glass\n200ml full-fat milk\n1 small banana\n2 tbsp smooth peanut butter\n1 tbsp skimmed milk powder\n2 tsp honey\nBlend for 30 seconds and serve straight away. Not suitable for anyone with a nut allergy."
+    },
+    {
+      "kind": "recipe",
+      "text": "Lemon Drizzle Squares, from the Staff Bake Sale\nMakes 16\n225g self-raising flour\n225g softened butter\n225g caster sugar\n4 eggs\nZest of 2 lemons\nTopping: juice of 1 1/2 lemons and 85g granulated sugar\nBake in a 20cm x 30cm tin at 180°C, 160°C fan, for 35 minutes. Pour the topping over while the cake is still warm.\nThe bake sale raised £186.40 for the hospice."
+    },
+    {
+      "kind": "recipe",
+      "text": "Crêpes for the Paris Office Chandeleur Party\nMakes 12 crêpes, 22cm\n250g plain flour\n4 eggs\n500ml milk\n1 pinch salt\n2 tbsp melted butter\nWhisk to a smooth batter and rest for 1 hour.\nPour approx. 60ml into a hot buttered pan and cook for 1 minute each side."
+    },
+    {
+      "kind": "recipe",
+      "text": "Recipe Card No. 7, Diabetes Education Group\nOat and Apple Bars, makes 12\n200g porridge oats\n2 apples, grated\n50g sultanas\n60ml rapeseed oil\n1 tsp mixed spice\n2 eggs, beaten\nMix, press into an 18cm square tin and bake at 180°C for 25 minutes. Cut into 12 bars when cool.\nEach bar: 128 kcal, 15g carbohydrate."
+    },
+    {
+      "kind": "recipe",
+      "text": "Thanksgiving Lunch, Floor 12: Pumpkin Soup\nServes 10 to 12\n2 tbsp olive oil\n1 onion and 2 cloves garlic, chopped\n2 cans (29 oz each) pumpkin purée\n4 cups chicken broth\n1 cup half-and-half\n1 tsp nutmeg, salt and pepper\nSauté the onion and garlic, stir in the pumpkin and broth and simmer for 20 minutes. Add the half-and-half just before serving."
+    },
+    {
+      "kind": "recipe",
+      "text": "Ward Kitchen Rice Pudding, serves 6\n100g pudding rice\n1 litre whole milk\n50g sugar\n1 vanilla pod or 1 tsp vanilla extract\nGrated nutmeg\nPut everything in a buttered 1.5 litre dish, dot with butter and bake at 150°C for 2 hours, stirring after 30 minutes.\nSoft diet: blend for 20 seconds before serving."
+    },
+    {
+      "kind": "recipe",
+      "text": "The Station Master's Scones\nMakes 8\n350g self-raising flour\n1/4 tsp salt\n1 tsp baking powder\n85g butter, cubed\n3 tbsp caster sugar\n175ml milk\nRub the butter into the flour, stir in the sugar and milk and pat out to 4cm thick.\nCut with a 5cm cutter and bake at 220°C for 10 to 12 minutes. Served in the waiting room café since 1987."
+    },
+    {
+      "kind": "recipe",
+      "text": "Desk Lunch: Quick Hummus\nServes 4, ready in 5 minutes\n400g can chickpeas, drained (keep 3 tbsp of the liquid)\n2 tbsp tahini\n1 garlic clove\nJuice of 1/2 lemon\n2 tbsp olive oil\n1/2 tsp ground cumin\nBlend everything with the reserved liquid until smooth. Keeps for 3 days in the office fridge if you label it."
+    },
+    {
+      "kind": "recipe",
+      "text": "Vegetable Paella for 4, Hospital Volunteers' Supper\n300g bomba rice\n1 red pepper and 1 green pepper, sliced\n200g green beans, halved\n1 tsp sweet paprika\n1 pinch saffron (approx. 0.1g)\n900ml hot vegetable stock\nFry the vegetables in a 34cm pan, add the paprika, rice and saffron, then pour in the stock.\nSimmer without stirring for 18 minutes and rest for 5 minutes under a clean cloth."
+    },
+    {
+      "kind": "label",
+      "text": "Ibuprofen 400mg tablets\nTake ONE tablet THREE times a day with or after food.\nDo not take more than 3 tablets in 24 hours.\nQty: 24\nMr D. Marchetti 13/10/2026\nRiverside Infirmary Pharmacy, Tel 01632 960445\nKeep out of the reach and sight of children."
+    },
+    {
+      "kind": "label",
+      "text": "PATHOLOGY SPECIMEN\nPatient: GALLAGHER, Siobhán\nHospital No. W4418203 DOB 22/11/1974\nSample: Blood, EDTA 4ml\nCollected 07:52 13/10/2026 by RN\nWard: 6C Requested by: Dr Amin\nUrgent: YES"
+    },
+    {
+      "kind": "label",
+      "text": "NOVA AIR\nPriority\nDestination: Corrin City\nFlight NV 1180 21OCT\nPassenger RINALDI/CHIARA MS\nBag 1 of 2 Weight 21.5 kg\nTag No. 0742 NV 668215"
+    },
+    {
+      "kind": "label",
+      "text": "PureHands Alcohol Hand Rub\n70% ethanol v/v\n500ml\nRub a palmful into hands for 20 to 30 seconds until dry.\nHighly flammable. Keep away from heat and open flames. Store below 25°C.\nFor external use only. Avoid contact with eyes.\nBatch HR2610-44 Exp 09/2028"
+    },
+    {
+      "kind": "label",
+      "text": "Archival Box Files, Foolscap\nPack of 10\nBoard thickness 2mm, spine 75mm\nHolds approx. 500 sheets of 80gsm paper\nMade from 100% recycled board\nProduct code BF-7531\nNorthdesk Office Supplies Ltd, Tel 01632 960577"
+    },
+    {
+      "kind": "label",
+      "text": "Sodium Chloride 0.9% w/v\nIntravenous Infusion BP\n1000ml\nEach 1000ml contains 9g sodium chloride\nSodium 154 mmol/L, Chloride 154 mmol/L\nSterile. Single use only. Do not use unless the solution is clear and the container undamaged.\nLot 26K0417 Exp 03/2029\nStore below 25°C"
+    },
+    {
+      "kind": "label",
+      "text": "Chicken Tikka Masala with Pilau Rice\nInflight Meal, Economy\nNet weight 320g\nEnergy per pack 1,890 kJ / 452 kcal\nFat 16.2g, of which saturates 5.1g\nSalt 2.4g\nContains: milk, mustard. May contain nuts.\nKeep chilled 0°C to 5°C. Use by 15 OCT 2026. Batch 7731"
+    },
+    {
+      "kind": "label",
+      "text": "PLATFORM PANTRY\nEgg & Cress on Malted Bread\n£3.25\nMade in our kitchen at 5:30am today\nEnergy 1,397 kJ / 334 kcal per pack\nAllergens: egg, wheat, barley, mustard\nEat by 13 OCT\nSuitable for vegetarians"
+    },
+    {
+      "kind": "label",
+      "text": "SWIFTLINE COURIERS\nNEXT DAY BY 10:30\nTo: Accounts Payable, Halverson Logistics, 4th Floor, 211 Quay Street, Port Halden PH2 8QA\nTel 07700 900198\nFrom: Brennan Hale Associates, Wexley Street\nWeight 2.4 kg Parcel 1 of 3\nTracking SL 4400 7815 2263\nSignature required"
+    },
+    {
+      "kind": "label",
+      "text": "LAKEVIEW MEDICAL CENTER PHARMACY\nRx #6630142\nTORRES, MIGUEL\nAmoxicillin 500 mg capsules\nTake 1 capsule by mouth every 8 hours for 10 days\nQty: 30 Refills: 0\nFilled 10/12/2026 Discard after 10/12/2027\nPharmacy 555-0187"
+    },
+    {
+      "kind": "label",
+      "text": "Office Blend Coffee Beans\nMedium roast, Brazil and Colombia\n1kg, approx. 140 cups\nRoasted on 02.10.2026, best before 02.04.2027\nGrind for filter or espresso, 7g per cup\nStore in a cool dry place once opened\nRoasted by Harbour Bean Co., Unit 14, Mill Yard, Tel 01632 960350"
+    },
+    {
+      "kind": "label",
+      "text": "FOAM FIRE EXTINGUISHER 6 LITRE\nFor use on Class A and B fires: wood, paper, textiles, flammable liquids\nDO NOT use on electrical equipment over 1000V\n1. Pull the pin. 2. Aim at the base of the fire. 3. Squeeze the lever.\nDischarge time approx. 30 seconds, range 3 to 4 metres\nLast serviced 14/03/2026 Next service due 03/2027\nSerial No. FX-221907"
+    },
+    {
+      "kind": "label",
+      "text": "BLOOD DONOR SERVICE\nRed Cells in Additive Solution\nGroup O RhD Negative\nDonation No. G0817 26 448 291 K\nVolume approx. 280ml\nCollected 08/10/2026\nExpiry 12/11/2026 23:59\nStore at 2°C to 6°C"
+    },
+    {
+      "kind": "label",
+      "text": "LOST PROPERTY, Union Terminal\nItem: Black umbrella, wooden handle\nFound: Concourse C, Bench 14\nDate/time found: 10/09/2026 6:20 PM\nFound by: Officer R. Delgado, Badge #3317\nLog No. LP-26-0981\nHeld until 11/08/2026, then donated"
+    },
+    {
+      "kind": "label",
+      "text": "Hypodermic Syringes 5ml, Luer Slip\nBox of 100\nSterile EO. Single use only. Do not resterilise.\nGraduations 0.2ml\nLot 2609-0315 Manufactured 2026-09 Use by 2031-08\nStore between 5°C and 40°C, away from direct sunlight\nRef. SY-0500L"
+    },
+    {
+      "kind": "flyer",
+      "text": "St Aubyn Hospital Charity 5K Fun Run\nSunday 8 November 2026, 10:00 am, Larchfield Park\nEntry £12 adults, £6 under 16s, under 5s free\nEvery finisher gets a medal and a T-shirt\nRaising money for the new Scanner Appeal, target £250,000\nSign up at the main reception or call 01632 960190\nFancy dress encouraged!"
+    },
+    {
+      "kind": "flyer",
+      "text": "LUNCHTIME YOGA\nEvery Wednesday, 12:15 to 12:55\nMeeting Room 6.03 (chairs cleared)\n£5 per class or £36 for 8 weeks\nMats provided, bring water and wear comfy clothes\nAll levels welcome, no experience needed\nBook with Leila on ext. 6619 or at leila.m@fernhillgroup.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "Give Blood at Work\nTuesday 20 October, 9:30 am to 3:30 pm\nConference Suite, Ground Floor, Quayside House\nIt takes about 1 hour and can save up to 3 lives\nEat a meal and drink 500ml of water beforehand\nBook a 15-minute slot at the 2nd floor reception\nTea and biscuits afterwards!"
+    },
+    {
+      "kind": "flyer",
+      "text": "WE'RE HIRING at Corrin City Airport\nOpen day Saturday 31 October, 10am to 4pm, Terminal 2, Level 3\nSecurity officers from $21.50/hr\nBaggage handlers from $19.75/hr\nRetail and food service from $17.25/hr\nFree staff parking and shuttle, 24/7 shifts available\nBring photo ID and 2 references. Questions: 555-0134"
+    },
+    {
+      "kind": "flyer",
+      "text": "Staff Flu Vaccination Clinics\nFree for all hospital staff\nMon 19 Oct 07:30 to 10:00, Staff Restaurant\nWed 21 Oct 12:00 to 14:00, Education Centre Room 3\nFri 23 Oct 19:00 to 21:00, Emergency Department Seminar Room\nBring your staff ID badge. Last year 78% of staff were vaccinated. Help us reach 85%!"
+    },
+    {
+      "kind": "flyer",
+      "text": "Cycle to Work Week, 2 to 6 November\nFree bike checks in the basement car park, Tuesday 8am to 10am\nBreakfast for everyone who cycles in, Wednesday from 7:30am\nSave up to 42% on a new bike through the Cycle Scheme\nNew showers and 60 secure racks on Level -1\nQuestions? Email green.team@ashbournepartners.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "Music on the Concourse\nFree lunchtime recitals at Central Station, under the clock\nThursdays at 12:30, October to December, approx. 40 minutes\n15 Oct: Chopin and Satie, piano\n22 Oct: Brass quintet\n29 Oct: Songs from the shows\n5 Nov: Spanish guitar, Sofía Ibáñez\nDonations to Hospital Radio welcome"
+    },
+    {
+      "kind": "flyer",
+      "text": "Hospital Radio 1287 AM needs you!\nWe broadcast to 640 beds, 24 hours a day.\nVolunteers needed for evening request shows, 7pm to 9pm.\nNo experience needed, full training given.\nOpen evening Thursday 5 November at 6:30pm, Studio, Block F, Level -1.\nCall 07700 900611 or just drop in."
+    },
+    {
+      "kind": "flyer",
+      "text": "Farewell Drinks for Graham!\nAfter 31 years in Accounts, Graham Whitlock is retiring.\nFriday 30 October from 5:30 pm, The Signal Box bar, opposite the station\nThe collection for his gift closes Wednesday. So far: £415.50 from 47 people.\nCards on Desk 3.18. RSVP to Nadia by 27 Oct."
+    },
+    {
+      "kind": "flyer",
+      "text": "NOW OPEN in the Outpatients Atrium\nBean & Leaf Café\nOpen 7am to 7pm, 7 days a week\nGrand opening offer: 2 hot drinks for £4 until 31 October\nFreshly made sandwiches from £3.50\nHospital staff save 15% every day with ID\nLoyalty card: collect 9 stamps and your 10th coffee is free"
+    },
+    {
+      "kind": "flyer",
+      "text": "Car Sharing for Staff, Hospital Universitario del Sur\nSave up to €90 a month on fuel and parking\nMembers get a reserved space in Car Park P2, 50 spaces available\nRegister by 15 November on intranet page 4471 or at the Mobility Office, Building C, Room 012\nWe match you by postcode and shift pattern: 08:00, 15:00 and 22:00 starts"
+    },
+    {
+      "kind": "flyer",
+      "text": "Wellbeing Day, 3rd Floor Atrium\nThursday 12 November, 10:00 to 15:00\nFree blood pressure and cholesterol checks, 10 minutes each\nDesk posture tips from a physiotherapist\nHealthy smoothie bar, $2 a cup, all proceeds to charity\nChair massages, 15 min for $10\nRaffle tickets $1, prizes worth over $500"
+    },
+    {
+      "kind": "flyer",
+      "text": "Park & Fly Saver\nBook online 7 days ahead and pay from £39.99 for a week\nFree shuttle to Terminals 1 and 2 every 10 minutes, 24 hours\nUse code AUTUMN15 for 15% off stays between 1 and 30 November\nLong Stay Car Park 4, off Junction 9\nCall 01632 960655"
+    },
+    {
+      "kind": "flyer",
+      "text": "Children's Ward Bake Sale\nFriday 16 October, 11am to 2pm, Main Entrance\nCupcakes 80p, brownies £1.20, slices of cake £1.50\nTea and coffee £1\nAll money raised goes to the Ward 2 playroom\nLast year we raised £742! Can you help us beat it?\nBakers, please drop cakes at Ward 2 by 10:30am."
+    },
+    {
+      "kind": "flyer",
+      "text": "Lunch & Learn: Pensions Made Simple\nTuesday 27 October, 12:00 to 1:00 pm\nBoardroom B, 14th floor\nFind out how the 5% employer match works and how much you could have at 65\nPizza for the first 30 people, so please register by Friday\nPresenter: Anil Rao, CFP\nCan't make it? The session will be recorded and posted on the intranet."
+    },
+    {
+      "kind": "form",
+      "text": "STANDARD CLASS ANYTIME RETURN\nFrom HOLLIN VALE To CALDER JUNCTION\nValid 13 OCT 2026 Return within 1 month\nPrice £38.60 Adult\nRoute: ANY PERMITTED\nSeat Coach D Seat 42 Window Facing\nTicket No. 06842 177091 2341\nIssued 12 OCT 2026 by Westmoor Rail"
+    },
+    {
+      "kind": "form",
+      "text": "BOARDING PASS\nName: RINALDI/CHIARA MS\nFlight: NV 1180 Date: 21 OCT\nFrom: Port Halden To: Corrin City\nBoarding 08:15 Gate 27 Seat 4A\nClass: Premium Economy Seq. 012\nGate closes 08:40\nBooking ref QZ7HTB"
+    },
+    {
+      "kind": "form",
+      "text": "VISITOR PASS\nName: Ruth Okoye\nCompany: Kestrel Audit LLP\nVisiting: Martin Fairclough, Floor 7\nDate: 13/10/2026 Time in: 09:12 Time out: 16:40\nBadge No. V-0388\nPlease return this pass to reception when you leave."
+    },
+    {
+      "kind": "form",
+      "text": "New Patient Registration\nSurname: Whitfield First name(s): Eleanor Rose\nDate of birth: 03/06/1989\nAddress: Flat 4, 19 Cobble Row, Lowford LW2 8FN\nMobile: 07700 900734\nGP: Dr S. Banerjee, Elmstead Medical Centre\nHeight: 167 cm Weight: 61 kg\nAllergies: penicillin\nSigned: E. R. Whitfield Date: 12/10/2026"
+    },
+    {
+      "kind": "form",
+      "text": "EXPENSE CLAIM FORM\nEmployee: Daniel Mbeki Employee No. 40217 Dept: Sales\n05/10 Train, return to Corrin City $64.00\n05/10 Taxi, station to client $18.50\n06/10 Hotel, 1 night $142.00\n06/10 Dinner with client (2 people) $87.30\nTotal claimed $311.80\nReceipts attached: 4\nApproved by: L. Sandoval Date: 09/10/2026"
+    },
+    {
+      "kind": "form",
+      "text": "PENALTY CHARGE NOTICE\nPCN No. WB26118842\nLocation: Westbrook Hospital, Car Park A, Bay 52\nContravention: parked without a valid ticket\nObserved 10:41 to 10:49 on 07/10/2026\nCharge £70.00, reduced to £35.00 if paid within 14 days\nOfficer No. 118\nPay online or call 01632 960883"
+    },
+    {
+      "kind": "form",
+      "text": "EXPRESS COACH X9\nTicket type: Return, Adult\nFrom: Airport Coach Station\nTo: Eastholm Bus Station\nOutward: 03.11.2026 14:00 Seat 17\nReturn: open, valid 3 months\nPrice: €32.00\nBooking No. X9-5517204"
+    },
+    {
+      "kind": "form",
+      "text": "BLOOD TEST REQUEST\nPatient: Okafor, Chidi Hospital No. R5590214 DOB 17/02/1966\nTests: FBC, U&E, LFT, HbA1c\nClinical details: type 2 diabetes, annual review\nFasting: No\nRequesting clinician: Dr P. Varga, bleep 4421\nDate requested: 06/10/2026 Priority: Routine\nPhlebotomy: Mon to Fri 08:00 to 16:30, Level 1"
+    },
+    {
+      "kind": "form",
+      "text": "ANNUAL LEAVE REQUEST\nName: Amaka Eze Team: Analytics\nDates: 12/11/2026 to 13/11/2026\nNumber of days: 2\nLeave entitlement this year: 27 days\nTaken so far: 20.5 days\nRemaining after this request: 4.5 days\nManager approval: Colin Ward Date: 14/10/2026"
+    },
+    {
+      "kind": "form",
+      "text": "NORTHPORT FERRIES Boarding Card\nSailing: Northport to Kerrow Isle\nDate: Sat 17 Oct 2026 Depart 14:30\nVehicle lane 6, Deck 3\nPassengers: 2 adults, 1 child\nBooking ref NFT-58H2K\nPlease remain in your vehicle until directed. Check-in closes at 14:00."
+    },
+    {
+      "kind": "form",
+      "text": "INCIDENT REPORT FORM\nRef No. IR-2026-0447\nDate: 09/10/2026 Time: 15:20\nLocation: Stairwell B, between Floors 2 and 3\nDescription: Employee slipped on a wet step and twisted left ankle. First aid given, ice pack applied. No hospital visit needed.\nReported by: J. Huang, First Aider\nWet floor sign was not in place. Action: cleaners to place signs while mopping."
+    },
+    {
+      "kind": "form",
+      "text": "PATIENT TRANSPORT BOOKING\nPatient: Mrs Gwen Pritchard, age 84\nPick-up address: 7 Glebe Cottages, Hollins HL4 2RB\nDestination: Westbrook Hospital, Eye Clinic\nAppointment: 23/10/2026 at 11:15\nPick-up window: 09:30 to 10:15\nMobility: walks with frame, 1 escort\nBooking No. PTS-773018\nCall 01632 960361 if no longer needed"
+    },
+    {
+      "kind": "form",
+      "text": "MONTHLY TRANSIT PASS\nZones 1 to 3\nValid 11/01/2026 to 11/30/2026\nCard No. 6012 4488 0153\nHolder photo ID required\nFare paid $98.00 Reduced fare: No\nLost or stolen passes can be replaced once a year for $5. Call 555-0126."
+    },
+    {
+      "kind": "form",
+      "text": "Delegate Registration, Health Informatics Summit 2026\nName: Dr Farah Siddiqui\nOrganisation: Westbrook Hospital NHS Trust\nDays attending: 18 and 19 November\nWorkshop choice: B2 Interoperability, 14:00 to 15:30\nDietary needs: vegetarian\nFee: £295 + VAT £59.00 = £354.00\nInvoice No. HIS-1183"
+    },
+    {
+      "kind": "form",
+      "text": "LEFT LUGGAGE, Central Station\nTicket No. 004719\nItems: 2 (1 suitcase, 1 rucksack)\nDeposited: 13/10/2026 10:25\nRate £7.50 per item per 24 hours\nPaid: £15.00\nCollect by: 14/10/2026 10:25\nOpen 07:00 to 23:00. Items not collected within 30 days may be disposed of."
+    },
+    {
+      "kind": "page",
+      "text": "Going home after your operation\nMost patients can go home 1 to 2 days after keyhole surgery. You should not drive for at least 7 days, or until you can do an emergency stop without pain.\nKeep the wound dry for the first 48 hours. After that you may shower, but avoid baths and swimming for 2 weeks.\nIf your temperature rises above 38°C or the wound becomes red and hot, call the ward on 01632 960807."
+    },
+    {
+      "kind": "page",
+      "text": "Chapter 4\nWhen the new terminal opened on 14 May 1962, it handled 310,000 passengers in its first year. By 1975 that figure had reached 2.1 million, and the original departure hall, built for 400 people at a time, was regularly overflowing onto the forecourt.\nThe runway was extended twice, first to 2,440 metres in 1968 and then to 3,050 metres in 1981, so that larger jets could fly direct to the coast.\n58"
+    },
+    {
+      "kind": "page",
+      "text": "The station's great clock was installed in 1889 and has stopped only three times since: during the storm of 1908, for repairs in 1956, and for 11 hours when the clocks went back in 1971 and nobody remembered to wind it.\nIts four faces are each 2.4 metres across, and the minute hand weighs approx. 18 kg. Today it is wound electrically, but a porter still checks it against the radio signal every morning at 6:00.\n124 The Railway at Calder Junction"
+    },
+    {
+      "kind": "page",
+      "text": "Section 6: Working Hours\nThe standard working week is 37.5 hours, Monday to Friday. Core hours are 10:00 to 16:00; outside these you may start and finish at times agreed with your manager, as long as you work your contracted hours over each 4-week period.\nOvertime must be approved in advance and is paid at 1.5 times your hourly rate, or 2 times on bank holidays.\nPage 14 of 52"
+    },
+    {
+      "kind": "page",
+      "text": "What happens during an MRI scan?\nThe scanner is a large tube that is open at both ends. You will lie on a bed that slides into the tube, and the scan usually takes 20 to 45 minutes. The machine makes loud knocking noises, so we will give you headphones or earplugs.\nPlease remove all metal objects, including jewellery, hair clips and watches. Tell us before your appointment if you have a pacemaker or any metal in your body.\nRadiology Department, Ground Floor, Tel 01632 960552"
+    },
+    {
+      "kind": "page",
+      "text": "Marisol had been at Gate 31 for nearly five hours when the screen changed again. Delayed, it said, as it had said at 2:15, at 4:40 and at 6:05. She had read the same magazine twice, eaten a $14 sandwich and learned the names of the three cleaners on the evening shift.\nAt 7:20 a voice came over the speakers, cheerful and apologetic, and 200 people stood up at once.\n87"
+    },
+    {
+      "kind": "page",
+      "text": "Assisted travel\nIf you need help getting on or off a train, we can meet you at the station entrance and take you to your seat. Book at least 2 hours before your journey by calling 01632 960129, open 6am to 11pm every day.\nRamps are carried on every train, and wheelchair spaces are in Coach A on 4-coach trains and Coach D on 8-coach trains. Assistance is free of charge."
+    },
+    {
+      "kind": "page",
+      "text": "Normal adult resting heart rate is 60 to 100 beats per minute. Values below 60 (bradycardia) are common in trained athletes and are not in themselves a cause for concern.\nBody temperature is normally 36.1°C to 37.2°C. A temperature of 38°C or above is generally regarded as a fever, and a reading below 35°C indicates hypothermia.\nTable 3.2 Normal observations in adults\nFundamentals of Nursing Care 41"
+    },
+    {
+      "kind": "page",
+      "text": "Your fire safety duties\nAll staff must complete fire safety training within 2 weeks of starting, and every 12 months after that. The online course takes about 25 minutes.\nThe alarm is tested every Monday at 11:00 for no more than 30 seconds. If it sounds at any other time, or for longer, leave at once by the nearest exit.\nKnow your nearest exit, your assembly point and your Fire Marshal. Fire Marshals wear a yellow hi-vis vest."
+    },
+    {
+      "kind": "page",
+      "text": "In the spring of 1874 Dr Ada Pemberton opened a dispensary in two rented rooms above a saddler's shop on Tanner Street. In its first year it treated 1,912 patients, most of them children, for a fee of 1d a visit or nothing at all.\nBy 1890 the dispensary had become the Tanner Street Hospital, with 48 beds, 6 nurses and its own operating theatre.\nThe Founding of Westbrook, page 23"
+    },
+    {
+      "kind": "page",
+      "text": "Getting around\nThe city's metro has 4 lines and runs from 6:00 to 0:30, and until 2:00 on Fridays and Saturdays. A single ticket costs €2.10 and is valid for 60 minutes, including changes. A 10-trip card costs €17.50.\nBuses and trams use the same tickets. Validate your ticket in the yellow machine as you board, as inspectors can fine you €80 on the spot.\nFrom the airport, the A1 express bus reaches the centre in about 35 minutes."
+    },
+    {
+      "kind": "page",
+      "text": "Clean hands save lives\nWashing your hands properly is the most effective way to stop germs spreading between patients on a ward.\nUse soap and water for at least 20 seconds, or alcohol hand rub when your hands look clean. Remember the 5 moments: before touching a patient, before a clean procedure, after body fluid exposure, after touching a patient and after touching their surroundings.\nLeaflet IPC-04, version 3, review date 10/2028"
+    },
+    {
+      "kind": "page",
+      "text": "Chairman's Statement\n2025 was a year of steady growth for the Group. Revenue rose 8.4% to £61.3 million and operating profit increased to £7.9 million, from £6.8 million in 2024.\nWe opened new offices in Corrin City and Port Halden, bringing our headcount to 1,240, and we reduced our carbon emissions per employee by 12%.\nThe Board is recommending a final dividend of 4.2p per share, making 6.5p for the year.\nAnnual Report 2025 | 9"
+    },
+    {
+      "kind": "page",
+      "text": "Night on Ward 9 was never quiet. At 2:10 the man in Bed 4 called out for his wife, and Nurse Adeyemi sat with him until he slept again. At 3:30 the drip in Bed 7 began to beep, and at 4:15 the new admission from A&E arrived with a temperature of 39.2°C.\nBy 6:00 the windows had turned grey, and Femi wrote the last of the notes with a coffee gone cold beside her.\n212"
+    },
+    {
+      "kind": "page",
+      "text": "Your rights if your flight is delayed\nIf your flight is delayed by 2 hours or more, the airline must offer you food and drink, and a way to make 2 phone calls or send 2 emails.\nIf you are delayed overnight, it must also provide a hotel room and transport to it. For arrival delays of 3 hours or more you may be entitled to compensation of €250 to €600, depending on the distance of the flight.\nKeep all your receipts and claim as soon as you can."
+    }
+  ]
+}

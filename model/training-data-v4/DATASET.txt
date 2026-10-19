@@ -1,0 +1,10 @@
+category v4 = v3 + mined hard negatives
+built    2026-09-10
+rows     6385 train · 522 valid
+refusals 16.0%   (v3 13.2% shipped · v2 16.1% measured worse and was dropped)
+added    204 hard negatives in train, 22 held into valid
+mined    only sentences the v3 adapter named a category for above 0.80 — the 286 it already
+         refused were left out, because a row teaching what is already known just shifts the
+         refusal share, which is exactly what v2 did
+holdout  the 100 no-skill bench messages and the 308 real questions are excluded by construction
+seq      256

@@ -1,0 +1,605 @@
+{
+  "batch": "o05",
+  "texts": [
+    {
+      "kind": "receipt",
+      "text": "GLENCAIRN VILLAGE STORE\nMain Street, Glencairn, Perthshire PH9 4RT\nTel 01632 960118\nPorridge oats 1kg £1.65\nSmoked haddock 2 fillets £5.40\nTattie scones x4 £1.20\nMidge repellent 100ml £6.95\n2 x Ginger beer 500ml £2.50\nTOTAL £17.70\nCash £20.00 Change £2.30\n14/08/2026 10:12 Till 1"
+    },
+    {
+      "kind": "receipt",
+      "text": "CAFFI'R BONT\nStryd Fawr, Llanfair Dyffryn\nTable 4 Covers 3\nBara brith & butter £2.75\nWelsh rarebit £6.50\nCawl with bread £7.95\nPot of tea for two £3.80\nTOTAL £21.00\nPaid by card ****5129\nDiolch! 26/07/2026 13:48 Order #2271"
+    },
+    {
+      "kind": "receipt",
+      "text": "STRATHMORE GARAGE, ACHNACRAIG\nPump 2 Diesel\n42.15 L @ 156.9p/L\nFuel total £66.13\nKindling net £4.00\nTOTAL £70.13\nContactless VISA ****3306\n03.11.2026 16:40 Trans 004418\nThank you, drive safely on the single-track roads"
+    },
+    {
+      "kind": "receipt",
+      "text": "D. PRITCHARD & SONS\nAgricultural Merchants, Cwm Eithin, Ceredigion SA48 2LP\nFencing staples 5kg £18.40\nBaler twine 2 @ £24.99 £49.98\nWellington boots size 9 £32.00\nSheep marker spray 3 @ £7.15 £21.45\nTOTAL £121.83\nCharged to account No. 40217\nVAT No. GB 612 4409 75\n09/04/2026 11:05 Served by Gethin"
+    },
+    {
+      "kind": "receipt",
+      "text": "ALLT DUBH DISTILLERY SHOP\nIsle of Corran PA62 7XL\nTour & tasting 2 @ £18.00 £36.00\n12 year old single malt 70cl £58.00\nNosing glass £8.50\nWhisky fudge 150g £4.25\nTOTAL £106.75\nPaid €124.30 at 1 GBP = 1.1644 EUR\n21/09/2026 15:22 Receipt 7781"
+    },
+    {
+      "kind": "receipt",
+      "text": "TIGH NA MARA B&B\nShore Road, Port Alasdair IV51 3NE\nGuest: Mrs H. Lindqvist, Room 3\n3 nights @ £85.00 £255.00\nPacked lunch 2 @ £7.50 £15.00\nLaundry £6.00\nTotal £276.00\nDeposit paid -£85.00\nBalance due £191.00\nCheck-out 12 May 2026 Tel 01632 960286"
+    },
+    {
+      "kind": "receipt",
+      "text": "THE HARBOUR FRYER, LOCHBAY\nHaddock supper 2 @ £9.80 £19.60\nBlack pudding supper £7.40\nPickled onion 2 @ £0.60 £1.20\nCan of juice x3 £3.30\nTOTAL £31.50\nOrder #64 Collect 18:35\nTel 01632 960247\nFri 16/10/2026"
+    },
+    {
+      "kind": "receipt",
+      "text": "SIOP Y LLAN / VILLAGE SHOP & POST OFFICE\nPentre Isaf, Powys SY21 9QX\nDaily newspaper £1.90\nWelsh cakes x6 £2.40\nHouse coal 20kg £12.75\n1st class stamps x8 £13.20\nSUBTOTAL £30.25\nCashback £20.00\nCard total £50.25\n02/02/2026 08:51 Till 2 Op. Nia"
+    },
+    {
+      "kind": "receipt",
+      "text": "CROFTER'S LOOM, ISLE OF TARSAY\nOnline order No. HT-20931\nShip to: Ms. A. Okafor, Portland, OR 97214, USA\nTweed scarf, heather $68.00\nWool throw 130 x 180 cm $214.00\nShipping (airmail, 7–10 days) $32.50\nTOTAL USD $314.50\nPaid 05/27/2026 by PayPal\nThank you for supporting island weavers!"
+    },
+    {
+      "kind": "receipt",
+      "text": "McLEISH MOTORS, STRATHCULLEN\nInvoice 3318 Date 28/09/2026\nVehicle: pickup, reg. SV64 PLN, 81,240 miles\nLabour 2.5 hrs @ £48.00 £120.00\nBrake pads, front pair £64.80\nBrake fluid 1L £11.20\nSubtotal £196.00\nVAT 20% £39.20\nTOTAL £235.20\nPayment due within 30 days"
+    },
+    {
+      "kind": "receipt",
+      "text": "BRYN GLAS FARM SHOP\nLamb mince 500g £5.20\nFree-range eggs x12 £3.60\nHeather honey 340g £7.95\nLeeks 3 for £1.50\nTOTAL £18.25\nCard ****7720 approved\n17/10/2026 12:03\nOpen Tue–Sat 9–5, Tel 01632 960391"
+    },
+    {
+      "kind": "receipt",
+      "text": "THE STAG'S REST, GLEN ARDMORE\nTab 12, 2 guests\n2 x Pint of heavy @ £4.60 £9.20\nMalt whisky 25ml £5.50\nLemonade £2.10\nVenison pie £16.95\nCranachan £7.25\nSubtotal £41.00\nGratuity £4.00\nPaid by card £45.00\n31/12/2026 20:47"
+    },
+    {
+      "kind": "receipt",
+      "text": "ACHNASHEE CAMPSITE\nPitch 14 (tent), 2 nights @ £14.00 £28.00\nAdults 2 x 2 nights @ £6.50 £26.00\nShower tokens 4 @ £1.00 £4.00\nTOTAL £58.00\nCash £60.00 Change £2.00\nArrive 06/08/2026, depart 08/08/2026\nQuiet hours 22:00–07:00, please"
+    },
+    {
+      "kind": "receipt",
+      "text": "SIOP HAEARN MORGAN, IRONMONGERS\nParaffin 4L £11.60\nFirelighters x2 £3.90\nAA batteries 8-pack £5.99\nSubtotal £21.49\nPensioner discount 10% -£2.15\nTOTAL £19.34\nCash £20.00 Change £0.66\nThu 19/11/2026 14:26\nDiolch yn fawr"
+    },
+    {
+      "kind": "receipt",
+      "text": "ISLE OF SKERRA BAKEHOUSE\nBere bannocks x4 £3.20\nOatcakes 2 @ £2.85 £5.70\nRhubarb tart 1/2 £4.50\nCoffee 2 @ £2.80 £5.60\nTOTAL £19.00\nCash £20.00 Change £1.00\n24.03.2026 08:12 No. 0457"
+    },
+    {
+      "kind": "notice",
+      "text": "ROAD CLOSURE\nThe B8812 between Inverlarig and Camas Ruadh will be closed from 08:00 on Monday 14 September to 18:00 on Friday 18 September 2026 for resurfacing.\nDiversion via the A881 adds approx. 11 miles to the journey.\nEmergency vehicle access will be maintained at all times.\nEnquiries: Roads Department, Tel 01632 960504, ref. RC/2026/117"
+    },
+    {
+      "kind": "notice",
+      "text": "DIM PARCIO / NO PARKING\nMynediad fferm 24 awr / Farm access 24 hours\nVehicles left in this gateway will be removed at the owner's expense.\nGate in use daily from 05:30, including Sundays.\nContact T. Llewelyn on 07700 900215."
+    },
+    {
+      "kind": "notice",
+      "text": "HILL SAFETY: SGÙRR NAN CAORACH\nSummit 1,042 m. Allow 6 to 8 hours for the 17 km round trip.\nWeather on the ridge can change within 30 minutes, and temperatures may fall below 0 °C even in May.\nCarry a map, compass, torch and spare food; there is no mobile signal beyond the second bridge.\nIn an emergency call 999, ask for Police, then Mountain Rescue.\nCar park grid ref. NG 4471 2283"
+    },
+    {
+      "kind": "notice",
+      "text": "NEUADD Y PENTREF / VILLAGE HALL, LLANGYNOG FACH\nHire charges from 1 April 2026:\nMain hall £14.00 per hour\nCommittee room £8.50 per hour\nKitchen £10.00 per booking\nBookings: Mrs Eirlys Hopkin, 01632 960733\nKey from No. 4 Tan-y-Bryn after 9am."
+    },
+    {
+      "kind": "notice",
+      "text": "BOIL WATER NOTICE\nResidents served by private supply PWS-0419 (Kilbrannan, Torrisdale Mains and Achadh nan Darach): a sample taken on 02/06/2026 failed the E. coli test.\nBoil all water for drinking, brushing teeth and preparing food for at least 1 minute until further notice.\nBottled water is available at the Community Hall, 10:00–16:00 daily, up to 6 litres per household.\nHelpline 01632 960880 (24 hours)"
+    },
+    {
+      "kind": "notice",
+      "text": "SERVICE ALERT, ISSUED 07:15\nDue to forecast gusts of up to 55 mph, the 09:30 and 11:00 sailings from Ardcarra to Eilean Fada are cancelled.\nThe 13:30 sailing is under review, with the next update at 11:30.\nVehicle bookings will be moved to the next available sailing free of charge.\nSound of Barrach Ferries, info line 01632 960612"
+    },
+    {
+      "kind": "notice",
+      "text": "CLOSED FOR STOCKTAKING\nThursday 29 October 2026\nFuel pumps open 8am–6pm as usual (card only).\nPrescriptions may be collected from the post office counter, 9am–1pm.\nSorry for any inconvenience. Morag & Iain, Glenbrae Stores"
+    },
+    {
+      "kind": "notice",
+      "text": "PLEASE CLOSE THE GATE\nEwes and lambs on the hill from March to June.\nDogs must be kept on a lead. Max. fine £1,000.\nFootpath No. 27 continues 400 yds along the field edge to the stile.\nDiolch / Thank you, Cefn Coch Farm"
+    },
+    {
+      "kind": "notice",
+      "text": "CAPEL BETHESDA\nServices: Sunday 10:30 (Welsh) and 18:00 (bilingual)\nGymanfa Ganu: Sunday 8 November 2026 at 2.30pm, tea to follow\nRoof fund raised so far: £3,418 of £5,000 (68%)\nMinister: Parch. Dafydd ab Owain, 01632 960574"
+    },
+    {
+      "kind": "notice",
+      "text": "MOBILE LIBRARY, ROUTE 4 (TUESDAYS, FORTNIGHTLY)\nInverfeoch Primary 09:40–10:20\nCamuslinn shop 10:35–11:05\nTorran Mains road end 11:25–12:00\nNext visits: 6 Oct, 20 Oct, 3 Nov and 17 Nov 2026\nNo fines for under-16s; adults 10p per day overdue."
+    },
+    {
+      "kind": "notice",
+      "text": "RECYCLING POINT\nGlass (all colours): green bank\nCans and foil: blue bank\nPaper and card: grey bank\nNo black bags. Fly-tipping fine up to £500.\nBanks emptied every 2nd Wednesday; next on 21/10/2026.\nReport a full bank: 01632 960159 or bins@glenbraecc.org.uk"
+    },
+    {
+      "kind": "notice",
+      "text": "CORRAN BOTHY\nBuilt 1874 as a shepherd's house, restored in 2019 by volunteers.\nSleeps 6 on the platform. Please stay no more than 3 nights.\nCarry out all rubbish and burn only wood you have brought: the nearest trees are 5 km away.\nUse the spade by the door; dig 15 cm deep and at least 30 m from water.\nPlease sign the log book on the shelf."
+    },
+    {
+      "kind": "notice",
+      "text": "SWYDDFA'R POST / POST OFFICE, BWLCH ISAF\nAr agor / Open\nMon–Fri 09:00–12:30 & 13:30–17:30\nSat 09:00–12:00\nAr gau / Closed: Sunday\nLast collection 16:15 (Sat 11:45)\nCash withdrawals up to £300 per day"
+    },
+    {
+      "kind": "notice",
+      "text": "DANGER: TIDAL CAUSEWAY\nThe causeway to Eilean Glas floods 2 hours either side of high water.\nSafe crossing today, Sat 17 Oct: 06:10–09:40 and 18:30–22:05.\nDo not cross if there is water on the road. It can reach 1.5 m deep in 20 minutes.\nCoastguard: 999. Times are posted daily by the Harbour Master."
+    },
+    {
+      "kind": "notice",
+      "text": "SCHOOL BUS STOP\nPick-up 08:05, drop-off 15:50 (Fri 12:55)\nPassing place: do not park within 20 m.\nSpeed limit 20 mph when the lights flash.\nTransport enquiries: Dunvarran Council Office, 01632 960921"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr MacAskill,\nRe: Croft 7, Achadh Mòr, annual rent\nThe rent for the year from 28 May 2026 will be £186.00, unchanged from last year. Please pay by standing order to account 20417738, sort code 80-22-61, quoting reference C7-ACHM.\nIf you intend to apply for the croft house grant, the closing date is 30 November 2026.\nYours sincerely,\nCatriona Nicolson\nFactor, Strath Ardle Estate"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your stay at Bwthyn Glan-yr-Afon, 3–10 July\nHi Priya,\nThanks for booking! The balance of £420 (£560 less your £140 deposit) is due by 3 June. Check-in is from 4pm; the key safe code is 2719 and the Wi-Fi password is on the fridge.\nThe village shop is 4 miles away and closes at 5.30pm on Saturdays, so do stock up on the way.\nCofion cynnes,\nSioned"
+    },
+    {
+      "kind": "letter",
+      "text": "Ysgol Gynradd Cwm Eithin\n14 September 2026\nDear Parents and Carers,\nOur Year 5 and 6 residential trip to the outdoor centre at Llyn Gwyrdd will run from Wednesday 7 to Friday 9 October. The cost is £96 per pupil, which can be paid in three instalments of £32.\nPlease return the first payment and the medical form by Friday 25 September.\nYours faithfully,\nMrs A. Rees-Jenkins, Headteacher"
+    },
+    {
+      "kind": "letter",
+      "text": "From: orders@balnacoilfuels.co.uk\nSubject: Coal delivery, order 55120\nDear Mrs Fraser,\nYour order of 10 bags of house coal (50 kg each, £23.40 per bag) will be delivered on Thursday 22 October between 8am and 1pm. The total of £234.00 includes delivery.\nPlease leave the yard gate open, as our lorry is 2.4 m wide.\nKind regards,\nAlasdair, Balnacoil Fuels"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr and Mrs Pugh,\nOur records show that Fflur (Border Collie, microchip 826098100447120) is due her annual booster on 12/11/2026.\nThe vaccination costs £52.50, or £47.25 for members of our Pet Health Club (10% off). Please book online or ring 01632 960340.\nYours sincerely,\nTegwen Vaughan BVSc MRCVS"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Ewan,\nThe weather here has been wild, 3 days of gales and the boat not running since Tuesday. Your grandfather has cut 1 1/2 tons of peat already and says it is the best year since 1998.\nI enclose £20 for your 16th birthday. Don't spend it all at once!\nWe hope to see you at the end of July. The 14:10 ferry is the one that meets the bus.\nLove from Granny and Grandad"
+    },
+    {
+      "kind": "letter",
+      "text": "To: planning@dunvarrancouncil.gov.uk\nSubject: Objection to application 26/01183/FUL, wind turbine at Cnoc Bàn\nDear Sir or Madam,\nI object to the proposed 77 m turbine, which would stand 410 m from my house at 3 Druim Cottages. The noise assessment assumes a wind speed of 5 m/s, but readings at the hill farm averaged 8.2 m/s last winter.\nPlease acknowledge receipt of this email.\nYours faithfully,\nCalum Morrison"
+    },
+    {
+      "kind": "letter",
+      "text": "Hi Mairi,\nWe're back home in Columbus, Ohio, and still talking about the trip! The whole two weeks came to about $4,800 for the two of us, and it was worth every cent.\nI mailed a check for $150 toward the ceilidh band fund on September 30. Let me know if it hasn't arrived by October 20 and I'll cancel it.\nOur neighbor wants to visit next summer. Do you have the cottage free for 7 nights from July 11?\nWarmly,\nBarbara"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Member,\nAnnual subscriptions for 2027 are £15 (juniors £7.50) and fall due on 1 January. You can pay by bank transfer to sort code 80-19-44, account 31175502, using your membership number as the reference.\nThe Ben Corrach Hill Race will be held on Saturday 6 March 2027, starting at 11:00 from the village hall. The route is 14.5 km with 960 m of ascent.\nYours in running,\nFiona Grant, Treasurer, Strathcullen Hill Runners"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear walker,\nStag stalking takes place on Inverfeoch Estate from 1 July to 20 October, Monday to Friday. On those days please keep to the main track to the loch and avoid the corries on the east side.\nIf you plan a route beyond the track, ring the stalker on 07700 900638 before 8am and we will tell you where we are going that day.\nThere is no stalking on Saturdays or Sundays. Thank you for your help.\nInverfeoch Estate Office"
+    },
+    {
+      "kind": "letter",
+      "text": "Dunvarran Council\nCouncil Tax 2026/27, Account No. 0081146-3\nProperty: Tigh an Uillt, Camuslinn, Band D\nDear Ms Sutherland,\nThe charge for the year 1 April 2026 to 31 March 2027 is £1,512.00. This will be collected in 10 monthly instalments of £151.20, starting on 1 May 2026.\nIf you live alone, you may be entitled to a 25% single person discount.\nRevenues Section, Tel 01632 960470"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr Hughes,\nThank you for your application to join Llyn Du Angling Association. Your season permit for 2026 is enclosed, number 0147.\nThe season runs from 3 March to 17 October. The bag limit is 4 trout per day, minimum size 25 cm, and it is fly only on the upper lake.\nYour payment of £85.00 (£60.00 season permit plus £25.00 joining fee) has been received with thanks.\nTight lines,\nRhodri Bowen, Secretary"
+    },
+    {
+      "kind": "letter",
+      "text": "From: lostproperty@glenbuses.co.uk\nSubject: Lost property ref. LP-3071\nHello Mr Duncan,\nA brown leather wallet matching your description was handed in by the driver of the 16:45 service from Inverlarig on 8 October.\nIt can be collected from our Achnacraig depot, Monday to Friday 9:00–16:30. Please bring photo ID and quote the reference above. Items are kept for 28 days.\nRegards,\nKirsty, Customer Services"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Neighbour,\nAt present 147 households in the glen have broadband speeds of under 2.3 Mbps. The community council has been offered a full-fibre connection of up to 900 Mbps if at least 60% of homes sign up.\nEach household could claim a voucher worth up to £4,500 towards the cost. Please return the enclosed slip by 30 November, or email fibre@glenbraecc.org.uk.\nYours sincerely,\nHamish Ross, Chair, Glenbrae Community Council"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr and Mrs Jenkins,\nOn behalf of the committee, thank you for lending your field for the 112th Cwm Eithin Agricultural Show. We welcomed 1,180 visitors and 346 entries, and raised £6,240 for the air ambulance.\nWe have booked a contractor to roll the field on 14 September and will repair the gateway at our own cost.\nDiolch o galon,\nGwenllian Price, Show Secretary"
+    },
+    {
+      "kind": "menu",
+      "text": "THE GLEN ARDMORE HOTEL: BAR MENU\nCullen skink, crusty bread £7.50\nHaggis, neeps & tatties £13.95\nVenison burger, red onion jam £16.50\nHot-smoked salmon salad £14.25\nClootie dumpling & custard £6.75\nFood served 12:00–14:30 & 17:30–20:30\nPlease tell us about any allergies."
+    },
+    {
+      "kind": "menu",
+      "text": "CAFFI'R GORLAN\nCawl cennin (leek soup) & bara £6.20\nWelsh rarebit on sourdough £7.40\nHam, egg & chips £9.80\nWelsh cakes (3) £2.40\nBara brith, buttered £2.60\nPaned / mug of tea £1.90\nAr agor 9.30–4.30, closed Mondays"
+    },
+    {
+      "kind": "menu",
+      "text": "THE CREEL HOUSE, PORT RUADH\nLangoustines, garlic butter (1/2 kilo) £24.00\nHand-dived scallops, black pudding £19.50\nMoules marinière, frites £15.00\nCatch of the day, market price\nCrème brûlée £7.00\nHouse white: bottle £26.00, glass 175ml £6.50\nLast orders 21:00"
+    },
+    {
+      "kind": "menu",
+      "text": "MACRAE'S CHIP VAN\nFish supper £9.50\nSingle fish £7.00\nHaggis supper £7.80\nPizza crunch supper £8.20\nChips, small £2.80 / large £3.60\nCurry sauce or gravy £1.20\nTue Lochside 17:00, Thu Glenbrae 17:30, Fri Achnacraig 18:00\nCash or card. Tel 07700 900447"
+    },
+    {
+      "kind": "menu",
+      "text": "THE RED KITE INN: SUNDAY LUNCH\nServed 12–3pm\nRoast Welsh lamb, mint sauce £17.95\nRoast topside of beef, Yorkshire pudding £16.95\nLeek & cheese nut roast (v) £14.50\nChildren's roast (under 12s) £8.95\n2 courses £21.50 / 3 courses £25.95\nBooking advised: 01632 960468"
+    },
+    {
+      "kind": "menu",
+      "text": "BURNS SUPPER\nSaturday 23 January 2027, Kilbrannan Village Hall\nCock-a-leekie soup\nHaggis, neeps and tatties with whisky sauce\nCranachan with toasted oats and raspberries\nTea, coffee and tablet\nTickets £28 (members £24), bar from 7pm\nPiper at 7.30pm prompt"
+    },
+    {
+      "kind": "menu",
+      "text": "BUNLOCH DISTILLERY CAFÉ\nTasting flight, 3 x 15ml £18.00 / €21.00\nDram of the day 25ml £6.00 / €7.00\nDriver's flight, 3 x 5cl to take home £9.00 / €10.50\nHot chocolate & cream £3.80 / €4.40\nShortbread (2) £2.20 / €2.60\nEuros accepted at the till; change given in sterling."
+    },
+    {
+      "kind": "menu",
+      "text": "CROFT KITCHEN BREAKFAST VAN\nBacon roll £3.50\nLorne sausage roll £3.80\nEgg roll £3.00\nAdd a tattie scone +£0.90\nPorridge with heather honey £3.20\nTea £1.60, coffee £2.20\nOpen 7.30am–11am, cash or card"
+    },
+    {
+      "kind": "menu",
+      "text": "SPICE OF ABERDWYN, TAKEAWAY\nChicken tikka masala £10.95\nLamb rogan josh £11.50\nSaag paneer (v) £8.95\nTarka dal (v) £6.50\nPilau rice £3.20\nPeshwari naan £3.40\nFree delivery over £20 within 5 miles\nOrder on 01632 960519, 5pm–10.30pm, closed Tuesdays"
+    },
+    {
+      "kind": "menu",
+      "text": "TŶ TE MELIN WEN\nAfternoon tea for 2 £36.00\nCream tea: 2 scones, clotted cream & jam £7.25\nTeisen lap (moist fruit cake), slice £2.95\nToasted teacake £2.40\nPot of tea £2.60, refills free\nGluten-free scones available on request"
+    },
+    {
+      "kind": "menu",
+      "text": "LA COCINA DE ELENA, ABERDWYN\nPatatas bravas £5.50\nPimientos de Padrón £6.00\nCroquetas de jamón (4) £6.50\nAlbóndigas en salsa £7.25\nCalamares fritos £7.95\nAny 3 tapas £17.50\nPiña colada £8.50\nMon–Sat from 17:00"
+    },
+    {
+      "kind": "menu",
+      "text": "THE OYSTERCATCHER BAR: ON TAP\nHeather ale 4.2% £4.60 pint / £2.40 half\nIsland stout 5.0% £4.90 pint / £2.55 half\nDry cider 6.5% £4.80 pint / £2.50 half\nGin of the month & tonic £7.50\nSoft drinks from £2.00\nOver-18s only after 9pm. ID may be requested."
+    },
+    {
+      "kind": "menu",
+      "text": "STRATHCULLEN PRIMARY: LUNCH MENU, WEEK 2\nMon: Macaroni cheese, garlic bread / apple crumble\nTue: Chicken curry & rice / yoghurt\nWed: Mince & tatties / shortbread\nThu: Roast dinner / fruit salad\nFri: Fish fingers, chips & peas / ice cream\n£2.65 per day. Free for P1 to P5."
+    },
+    {
+      "kind": "menu",
+      "text": "HUFEN IÂ GLAN-Y-MÔR / ICE CREAM\n1 scoop £2.50\n2 scoops £4.00\n3 scoops £5.20\nWaffle cone +£0.80\nFlavours: Welsh honey, salted caramel, bara brith, mint choc chip, raspberry sorbet (vegan)\nDog ice cream pot £1.50"
+    },
+    {
+      "kind": "menu",
+      "text": "FIRE & DOUGH PIZZA, SHOW FIELD\nMargherita 10\" £8.00 / 12\" £10.00\nPepperoni 10\" £9.50 / 12\" £11.50\nSmoked venison & chilli 10\" £11.00 / 12\" £13.00\nGarlic bread £4.00\nAny 2 x 12\" for £20.00\nOrders taken until 19:30"
+    },
+    {
+      "kind": "timetable",
+      "text": "ARDCARRA – EILEAN FADA FERRY\nSummer timetable, 1 April to 18 October 2026\nDepart Ardcarra: 07:30 09:30 11:30 13:30 15:30 17:30\nDepart Eilean Fada: 08:15 10:15 12:15 14:15 16:15 18:15\nSundays: first sailing 10:30 from Ardcarra\nCrossing approx. 25 minutes\nFares: adult £3.80, child £1.90, car £14.60 single"
+    },
+    {
+      "kind": "timetable",
+      "text": "POSTBUS ROUTE 22: GLENBRAE – INVERLARIG\nMonday to Saturday\nGlenbrae Post Office dep. 07:45 13:10\nAchnacraig School 08:05 13:30\nCamas Ruadh road end 08:20 13:45\nInverlarig Square arr. 08:40 14:05\nRequest stops: please wave clearly.\nSingle fare £2.10, return £3.80"
+    },
+    {
+      "kind": "timetable",
+      "text": "RHEILFFORDD DYFFRYN GWYN / VALLEY STEAM RAILWAY\nTrains daily, 25 July to 31 August 2026\nDep. Llanfair Uchaf 10:00 11:45 13:30 15:15\nArr. Pont Gwyn 10:40 12:25 14:10 15:55\nDep. Pont Gwyn 10:55 12:40 14:25 16:10\nArr. Llanfair Uchaf 11:35 13:20 15:05 16:50\nReturn fare: adult £16.00, child £8.00, dog £1.50"
+    },
+    {
+      "kind": "timetable",
+      "text": "TIDE TIMES, PORT RUADH, OCTOBER 2026\nThu 15 HW 05:42 4.6 m, LW 11:58 0.9 m, HW 18:03 4.8 m\nFri 16 HW 06:21 4.7 m, LW 12:37 0.8 m, HW 18:44 4.9 m\nSat 17 HW 07:02 4.7 m, LW 13:19 0.8 m, HW 19:27 4.8 m\nSun 18 HW 07:46 4.5 m, LW 14:04 1.0 m, HW 20:13 4.6 m\nHeights in metres above chart datum. Times are BST."
+    },
+    {
+      "kind": "timetable",
+      "text": "CANOLFAN HAMDDEN BRO EITHIN: POOL TIMES\nMon 07:00–08:30 Lane swim\nMon 16:00–18:00 Lessons (book at reception)\nTue 18:30–20:00 Public swim\nWed 10:00–11:00 Aqua aerobics, £4.20\nSat 13:00–16:00 Family fun, inflatable from 14:00\nSun Closed\nAdult swim £3.90, junior £2.60"
+    },
+    {
+      "kind": "timetable",
+      "text": "FÈIS EILEAN GLAS 2026: PROGRAMME\nFri 19:30 Opening concert, village hall\nSat 10:00 Fiddle workshop (ages 8+)\nSat 14:00 Gaelic song with Ealasaid NicLeòid\nSat 20:00 Ceilidh dance, £10 / £5 under-16s\nSun 12:00 Closing session, The Oystercatcher Bar\nWeekend pass £22"
+    },
+    {
+      "kind": "timetable",
+      "text": "THURSDAY SHOPPING BUS, BALNACOIL TO DUNVARRAN\nBalnacoil Church 09:15\nTorran Mains 09:30\nKilbrannan Hall 09:50\nDunvarran Market Square arr. 10:35\nReturn from Dunvarran 13:30\nBook by 4pm Wednesday on 01632 960305\nFree with a concessionary card; others £3.50 return"
+    },
+    {
+      "kind": "timetable",
+      "text": "PARISH OF CWM EITHIN: SERVICES, NOVEMBER 2026\nSun 1 Nov 10:00 St Tudno's, Holy Communion\nSun 8 Nov 10:50 Remembrance at the war memorial\nSun 15 Nov 11:15 Llanfair Uchaf, Morning Prayer\nSun 22 Nov 18:00 Capel Bethesda, joint evening service\nSun 29 Nov 10:00 St Tudno's, Advent carols\nVicar: Rev. Siân Gwilym, 01632 960652"
+    },
+    {
+      "kind": "timetable",
+      "text": "GLENBRAE MEDICAL PRACTICE: CLINICS\nMon 08:30–12:00 GP surgery (Dr Rennie)\nTue 14:00–16:30 Nurse clinic, bloods & dressings\nWed 09:00–12:00 GP surgery (Dr Okonkwo)\nThu 10:00–12:00 Baby clinic, health visitor\nFri 08:30–12:00 GP surgery\nOut of hours: call 111\nRepeat prescriptions: allow 48 hours. Tel 01632 960098"
+    },
+    {
+      "kind": "timetable",
+      "text": "LLANGYNOG FACH MART: SALE DAY, TUE 22 SEPTEMBER\nRing 1 09:30 Store lambs (approx. 2,400 head)\nRing 2 10:00 Draft ewes, Welsh Mountain (approx. 1,150)\nRing 1 12:30 Breeding rams (68 entries)\nRing 2 13:00 Store cattle (approx. 140)\nCommission 3.5% + VAT\nMart office 01632 960715"
+    },
+    {
+      "kind": "timetable",
+      "text": "ISLAND AIR SERVICE, WINTER TIMETABLE\nDep. Corran 08:20, arr. Dunvarran 08:52\nDep. Dunvarran 09:15, arr. Corran 09:47\nDep. Corran 15:40, arr. Dunvarran 16:12\nDep. Dunvarran 16:35, arr. Corran 17:07\nMon–Fri only. Check-in closes 30 minutes before departure.\nBaggage allowance 15 kg; the aircraft seats 8."
+    },
+    {
+      "kind": "timetable",
+      "text": "FISH VAN ROUNDS, J. MOWAT & SON\nTue: Lochside 10:00, Camuslinn 11:15, Torran 12:30\nWed: Glenbrae 09:30, Balnacoil 11:00\nFri: Achnacraig 10:00, Kilbrannan 11:30, Inverlarig 14:00\nPre-orders by text: 07700 900874\nFresh haddock £14.50/kg, kippers £3.20 a pair"
+    },
+    {
+      "kind": "timetable",
+      "text": "DUNVARRAN – ARDCARRA, MONDAYS TO SATURDAYS\nDunvarran 06:52 11:08 17:24\nStrathcullen 07:19 11:35 17:51\nLoch Venna (x) 07:41 11:57 18:13\nArdcarra 08:30 12:46 19:02\nx Request stop: tell the conductor or signal the driver clearly.\nSundays: 11:08 from Dunvarran only."
+    },
+    {
+      "kind": "timetable",
+      "text": "CWM EITHIN SHOW: PROGRAMME, SAT 15 AUGUST 2026\n09:00 Judging: Welsh Mountain sheep, rings 1 and 2\n10:30 Young handlers (under 16)\n11:30 Sheepdog trials, top field\n13:00 Vintage tractor parade\n14:00 Grand parade of champions\n16:30 Tug of war, £50 to the winning team\nGates open 8am. Adults £8, children free"
+    },
+    {
+      "kind": "timetable",
+      "text": "DRYSTANE DYKING WEEKEND, TORRAN MAINS\nSat 09:00 Welcome & safety talk\nSat 09:30–12:30 Stripping out an old dyke\nSat 13:30–16:30 Founding stones & batter frames\nSun 09:00–12:00 Hearting and throughs\nSun 13:00–15:30 Copes and finishing\nCost £140 incl. lunch both days. Max. 10 people."
+    },
+    {
+      "kind": "recipe",
+      "text": "WELSH CAKES (makes about 20)\n225g self-raising flour\n110g salted butter, cubed\n85g caster sugar, plus extra to dust\n50g currants\n1 large egg, beaten\nRub the butter into the flour, then stir in the sugar and currants and add the egg to make a stiff dough.\nRoll out to 5mm thick and cut into 6cm rounds.\nCook on a greased bakestone over a medium heat for 2 to 3 minutes each side."
+    },
+    {
+      "kind": "recipe",
+      "text": "CULLEN SKINK (serves 4)\n2 undyed smoked haddock fillets, approx. 350g\n1 onion, finely chopped\n25g butter\n500ml whole milk\n350g floury potatoes, diced\nPoach the haddock in the milk for 4 minutes, then lift it out and flake it, discarding the skin.\nSoften the onion in the butter, add the potatoes and the milk, and simmer for 15 minutes until tender.\nMash about a third of the potatoes into the soup, return the fish and season with black pepper."
+    },
+    {
+      "kind": "recipe",
+      "text": "BARA BRITH\n225g mixed dried fruit\n250ml cold strong tea\n100g dark brown sugar\n1 egg, beaten\n225g self-raising flour\n1 tsp mixed spice\nSoak the fruit and sugar in the tea overnight.\nStir in the egg, flour and spice, and spoon into a lined 900g (2lb) loaf tin.\nBake at 160 °C / fan 140 °C / gas 3 for about 1 hour, until a skewer comes out clean."
+    },
+    {
+      "kind": "recipe",
+      "text": "CRANACHAN (serves 4)\n50g pinhead oatmeal\n300ml double cream\n1 1/2 tbsp heather honey\n2 tbsp whisky\n300g raspberries\nToast the oatmeal in a dry pan for 3 to 4 minutes until it smells nutty, then leave to cool.\nWhip the cream to soft peaks and fold in the honey, whisky and most of the oatmeal.\nLayer with the raspberries in 4 glasses and chill for 1 hour."
+    },
+    {
+      "kind": "recipe",
+      "text": "CLOOTIE DUMPLING\n350g self-raising flour\n150g shredded suet\n150g sultanas, 100g currants\n125g soft brown sugar\n2 tsp mixed spice, 1 tsp ground ginger\n2 tbsp black treacle\nAbout 300ml milk\nMix to a soft dough, then wrap in a scalded, floured cloth, leaving room to swell.\nSimmer on a saucer in a large pan of water for 3 1/2 to 4 hours, topping up as needed.\nDry the skin in a low oven at 120 °C for 15 minutes before serving."
+    },
+    {
+      "kind": "recipe",
+      "text": "CAWL (serves 6)\n1kg lamb neck on the bone\n2 leeks, sliced\n3 carrots, 1 swede and 4 potatoes, diced\n1.5 litres cold water\nHandful of parsley, chopped\nCover the lamb with the water, bring to the boil, skim, and simmer for 1 1/2 hours.\nLift out the lamb, take the meat off the bone and return it with the root vegetables. Cook for 30 minutes more.\nAdd the leeks for the final 10 minutes, then the parsley. Cawl is even better the next day."
+    },
+    {
+      "kind": "recipe",
+      "text": "SCOTTISH SHORTBREAD (American measures)\n1 cup (2 sticks) salted butter, softened\n1/2 cup granulated sugar\n2 cups all-purpose flour\n1/4 cup rice flour or cornstarch\nPreheat the oven to 325 °F. Cream the butter and sugar until pale, then work in both flours.\nPress into an 8 x 8 inch pan, prick all over with a fork and mark into 16 squares.\nBake 35 to 40 minutes, until pale golden. Sprinkle with sugar while warm."
+    },
+    {
+      "kind": "recipe",
+      "text": "OATCAKES (makes 16)\n225g medium oatmeal\n1/4 tsp bicarbonate of soda\n1/2 tsp salt\n25g butter or bacon fat, melted\nAbout 100ml hot water\nMix the oatmeal, soda and salt, then add the fat and enough water to make a firm dough.\nRoll out thinly on a board dusted with oatmeal and cut into rounds or farls.\nBake at 180 °C / gas 4 for 20 to 25 minutes, turning once."
+    },
+    {
+      "kind": "recipe",
+      "text": "GLAMORGAN SAUSAGES (makes 8)\n150g fresh white breadcrumbs\n125g Caerphilly cheese, grated\n1 small leek, very finely chopped\n1 tbsp chopped parsley, 1/2 tsp mustard powder\n2 eggs, separated\nMix the crumbs, cheese, leek, parsley and mustard, then bind with the yolks.\nShape into 8 sausages, dip in the beaten whites, then roll in more crumbs.\nChill for 30 minutes, then fry in oil for 8 to 10 minutes, turning, until golden."
+    },
+    {
+      "kind": "recipe",
+      "text": "STOVIES (serves 4)\n1kg floury potatoes, thickly sliced\n2 onions, sliced\n2 tbsp beef dripping\n300g leftover roast beef, chopped\n250ml beef stock\nMelt the dripping in a heavy pan and soften the onions for 10 minutes.\nAdd the potatoes, beef and stock, season well, cover tightly and cook on a low heat for 45 minutes.\nStir once or twice so the bottom catches a little. Serve with oatcakes and beetroot."
+    },
+    {
+      "kind": "recipe",
+      "text": "TABLET (makes 36 pieces)\n1kg caster sugar\n125g butter\n397g tin condensed milk\n250ml whole milk\nHeat the sugar, butter and milk gently until the sugar dissolves, then add the condensed milk.\nBoil, stirring all the time, until it reaches 115 °C (soft ball), about 20 to 25 minutes.\nTake off the heat and beat for 5 minutes until grainy, then pour into a greased 20 x 30 cm tin.\nCut into 36 squares when nearly set."
+    },
+    {
+      "kind": "recipe",
+      "text": "LAVERBREAD CAKES WITH COCKLES (serves 2)\n200g laverbread\n2 tbsp fine oatmeal\n4 rashers back bacon\n100g cooked cockles\nBlack pepper and a squeeze of lemon\nMix the laverbread with half the oatmeal and shape into 4 small cakes, then coat in the rest.\nFry the bacon until crisp, then fry the cakes in the fat for 2 minutes a side.\nWarm the cockles in the pan for 1 minute and serve on top."
+    },
+    {
+      "kind": "recipe",
+      "text": "SCOTCH BROTH (serves 6)\n500g neck of mutton or lamb\n75g pearl barley, 50g dried split peas (soaked)\n2 litres water\n1 onion, 2 carrots, 1/2 small turnip, 1 leek, all diced\n2 tbsp chopped parsley\nSimmer the meat, barley and peas in the water for 1 hour, skimming now and then.\nAdd the vegetables and cook for 45 minutes more.\nLift out the meat, shred it back into the pot and finish with the parsley."
+    },
+    {
+      "kind": "recipe",
+      "text": "VENISON CASSEROLE (serves 6)\n1.2kg diced venison shoulder\n2 tbsp plain flour, seasoned\n200g smoked bacon lardons\n12 shallots, peeled\n300ml red wine, 400ml beef stock\n2 tbsp redcurrant jelly, 4 juniper berries, crushed\nToss the venison in the flour and brown it in batches.\nFry the lardons and shallots, add the wine and let it bubble for 2 minutes.\nAdd the stock, jelly and juniper, then cover and cook at 150 °C for 2 1/2 hours."
+    },
+    {
+      "kind": "recipe",
+      "text": "CREMPOG (WELSH PANCAKES), makes 12\n225g plain flour\n1 tsp bicarbonate of soda\n50g caster sugar\n50g melted butter\n2 eggs\n300ml buttermilk\nWhisk everything to a thick batter and rest it for 20 minutes.\nDrop tablespoons onto a hot buttered bakestone and cook for 1 to 2 minutes until bubbles appear, then turn.\nServe warm in a pile, spread with salted butter."
+    },
+    {
+      "kind": "label",
+      "text": "HEATHER HONEY\nStrathcullen Apiaries, Strathcullen PH17 4QB\nNet weight 340g\nBest before end 09/2028\nLot 26/114\nHoney may crystallise naturally; warm gently below 40 °C to restore.\nNot suitable for infants under 12 months.\nProduce of Scotland"
+    },
+    {
+      "kind": "label",
+      "text": "ALLT DUBH\nSingle Malt Scotch Whisky\nAged 15 Years\nDistilled 2010, bottled 2025\nCask No. 1172, bottle 203 of 612\n70cl 46% vol.\nNon chill-filtered, natural colour\nIsle of Corran Distillers, Isle of Corran PA62 7XL"
+    },
+    {
+      "kind": "label",
+      "text": "GWLÂN CYMREIG / PURE WELSH WOOL\nDouble knit, 100% wool\n100g, approx. 220m (240 yds)\nNeedles 4mm (UK 8 / US 6)\nHand wash 30 °C, dry flat\nShade: Mynydd Grey, dye lot 4471\nSpun at Melin Wen, Ceredigion"
+    },
+    {
+      "kind": "label",
+      "text": "CAWS BRYN GLAS\nFarmhouse cheese, Cheddar style\nMade with unpasteurised cow's milk\nNet 200g\nUse by 14.11.2026\nKeep refrigerated at 0–5 °C\nIngredients: cow's milk, salt, starter cultures, vegetarian rennet\nBryn Glas Farm, Cwm Eithin SA48 2NE"
+    },
+    {
+      "kind": "label",
+      "text": "GLENBRAE PHARMACY, MAIN STREET, GLENBRAE\nTel 01632 960176\n21 Amoxicillin 500mg capsules\nTake ONE capsule THREE times a day until all taken.\nSpace the doses evenly through the day.\nMr G. Ellis-Pryce 21/10/26\nRx No. 4471906\nKeep out of the reach and sight of children."
+    },
+    {
+      "kind": "label",
+      "text": "KALE 'HIGHLAND CURLY'\nBrassica oleracea\nSow April–June, 1.5cm deep, in rows 45cm apart.\nThin to 60cm. Harvest from October onwards; flavour improves after frost.\nContents approx. 300 seeds\nPacked for 2027. Lot K-0926\nGlen Seeds, Strathcullen"
+    },
+    {
+      "kind": "label",
+      "text": "EWE NUTS 18\nHigh-energy compound feed for ewes\nNet 25kg\nProtein 18.0%, Oil 4.0%, Fibre 9.5%, Ash 8.0%, Copper 10 mg/kg\nFeed 0.25–0.75kg per head per day, building up over the last 6 weeks of pregnancy.\nBest before 31/03/2027. Batch 26-1187\nDyffryn Feeds Ltd, Llanfair Uchaf"
+    },
+    {
+      "kind": "label",
+      "text": "OAK-SMOKED SALMON\nSliced, 200g\nFarmed in Scotland, smoked over oak for 12 hours\nIngredients: salmon (FISH) 97%, salt, demerara sugar\nPer 100g: energy 778kJ/186kcal\nKeep refrigerated below 5 °C. Once opened, eat within 2 days.\nUse by 06 NOV 2026\nCorran Smokehouse, Isle of Corran PA62 7XN"
+    },
+    {
+      "kind": "label",
+      "text": "SHORTBREAD FINGERS\nPure butter, 300g (approx. 16 fingers)\nIngredients: wheat flour, butter (MILK) 32%, sugar, rice flour, salt\nPer 100g: energy 2,155kJ / 515kcal, fat 27.2g, of which saturates 17.5g, carbohydrate 61.3g, sugars 21.0g, protein 5.6g\nBest before 28.02.2027\nBaked by MacInnes of Balnacoil, Est. 1931"
+    },
+    {
+      "kind": "label",
+      "text": "KILN-DRIED BIRCH LOGS\nApprox. 0.08 m³, about 40 logs per net\nMoisture content below 20%\nReady to Burn certified, No. RTB-6117\nStore under cover, off the ground.\nHilltop Fuelwood, Torran Mains, 07700 900503"
+    },
+    {
+      "kind": "label",
+      "text": "HAND-WOVEN ISLAND TWEED JACKET\nSize: chest 42\" (107 cm), regular\nShell 100% pure new wool\nLining 100% viscose\nDry clean only. Do not tumble dry.\nWoven on the Isle of Tarsay, tailored in Glasgow\nStyle No. TJ-114, colour Peat Bog"
+    },
+    {
+      "kind": "label",
+      "text": "BRAMBLE JELLY\nHand-made in small batches at Achadh nan Darach\n227g\nIngredients: sugar, wild brambles, lemon juice, pectin\nPrepared with 45g fruit per 100g. Total sugar content 62g per 100g.\nOnce opened, keep refrigerated and use within 4 weeks.\nBest before 10/2027"
+    },
+    {
+      "kind": "label",
+      "text": "FFYNNON ARIAN NATURAL MINERAL WATER\nStill, 500ml\nTypical analysis (mg/l): calcium 12.0, magnesium 3.4, potassium 0.6, sodium 8.1, bicarbonate 41, nitrate 1.2\npH at source 7.2. Dry residue at 180 °C: 74 mg/l\nBottled at source, Mynydd Arian, Powys\nBest before 30.09.2028"
+    },
+    {
+      "kind": "label",
+      "text": "FROM: Crofter's Loom, Isle of Tarsay HS9 8RW, Scotland\nTO: Mr. D. Alvarez, 4410 Larkspur Ave, Santa Fe, NM 87505, USA\nContents: 1 tweed scarf (wool), value £54.00\nReason for export: sale of goods\nWeight 0.62 kg\nTracking No. LT 4410 9283 7GB\nDate of posting 12/10/2026"
+    },
+    {
+      "kind": "label",
+      "text": "6 FREE RANGE EGGS, LARGE\nTan-y-Bryn Farm, Llangynog Fach\nPacked on 05/10/26\nBest before 02/11/26\nProducer code 1UK54321\nKeep refrigerated after purchase. Cook thoroughly.\nAverage weight 63–73g"
+    },
+    {
+      "kind": "flyer",
+      "text": "CEILIDH!\nKilbrannan Village Hall\nSaturday 7 November 2026, 8pm till late\nMusic from The Cairn Ramblers\nAdults £10, under-16s £5, family ticket £25\nBring your own bottle. Stovies served at 10pm.\nAll proceeds to the hall roof fund"
+    },
+    {
+      "kind": "flyer",
+      "text": "GLEN ARDMORE SHEEPDOG TRIALS\nSunday 23 August 2026, from 8.30am\nOpen, Novice and Nursery classes\nEntries £12 per dog, close 16 August\nPrize fund over £1,200\nBurger van, tea tent and bottle stall\nEntries to Mrs J. Cameron, 01632 960827"
+    },
+    {
+      "kind": "flyer",
+      "text": "EISTEDDFOD GADEIRIOL CWM EITHIN\nDydd Sadwrn / Saturday, 10 October 2026, 10am\nNeuadd y Pentref\nSolo under 8: 1st £10, 2nd £6, 3rd £4\nRecitation, open: 1st £25\nChair for the best poem on the theme \"Y Cwm\" (The Valley)\nEntry forms by 26 September from Mrs E. Hopkin, 01632 960733"
+    },
+    {
+      "kind": "flyer",
+      "text": "DUNVARRAN FARMERS' MARKET\n2nd Saturday of the month, 9am–1pm, Market Square\nNext markets: 10 Oct, 14 Nov, 12 Dec 2026\nLocal lamb, venison, cheese, eggs, bread and preserves\nOver 25 stalls. Free parking behind the church\nStallholder enquiries: market@dunvarranfm.org.uk"
+    },
+    {
+      "kind": "flyer",
+      "text": "YOGA FOR STIFF FARMERS\nNeuadd y Pentref, Llangynog Fach\nWednesdays 7.30–8.30pm from 4 November 2026\n£6 per class or £30 for 6 weeks\nMats provided. No experience needed.\nBook with Elin on 07700 900156"
+    },
+    {
+      "kind": "flyer",
+      "text": "IONNSAICH GÀIDHLIG! / LEARN GAELIC!\nBeginners: Mondays 19:00–20:30, Glenbrae School\nImprovers: Thursdays 19:00–20:30\n10 weeks from 11 January 2027, £45 (concessions £25)\nFàilte oirbh! All welcome.\nContact Mòrag on 07700 900592"
+    },
+    {
+      "kind": "flyer",
+      "text": "LOST DOG: MOSS\nBlack and white collie, 4 years old, very shy\nLast seen 11 October near the Camuslinn road end, wearing a red collar\nMicrochipped. Please do not chase her.\nIf you see her, ring 07700 900349 at any time\n£200 reward for her safe return"
+    },
+    {
+      "kind": "flyer",
+      "text": "COFFEE MORNING\nSaturday 31 October 2026, 10am–12 noon\nCapel Bethesda vestry\nTea or coffee and a Welsh cake £2.50\nCake stall, tombola and raffle (1st prize: hamper worth £75)\nIn aid of the air ambulance. Last year we raised £812. Diolch!"
+    },
+    {
+      "kind": "flyer",
+      "text": "DARK SKY WALK: GWYLIO'R SÊR\nFriday 20 November 2026, 7pm\nMeet at Llyn Gwyrdd car park (grid ref. SN 7723 6614)\n2 hours, 3 km on level tracks\nBring a torch with a red light and warm clothes; it can be -3 °C by the water.\n£8 adults, £4 children. Cancelled if cloud cover is over 70%."
+    },
+    {
+      "kind": "flyer",
+      "text": "STRATHCULLEN HIGHLAND GAMES\nSaturday 1 August 2026, gates 10am\nHeavy events: caber, hammer, stone put, 56lb weight over the bar\nPiping and Highland dancing competitions\nHill race at 2pm, 8 km\nAdults £10, children £3, under-5s free\nParking £5 per car in the field by the school"
+    },
+    {
+      "kind": "flyer",
+      "text": "QUIZ NIGHT AT THE STAG'S REST\nThursday 12 November 2026, 8pm\nTeams of up to 6, £2 per person\nCash prize £50 + a bottle of malt\nPicture round, music round and a Gaelic round\nHalf the takings to the mountain rescue team"
+    },
+    {
+      "kind": "flyer",
+      "text": "SEA KAYAK TRIPS FROM PORT RUADH\nHalf day (3 hrs) £55 per person\nFull day (6 hrs) with lunch £95\nSeals almost guaranteed; otters and sea eagles often seen\nAll kit provided, min. age 12\nBook at least 24 hours ahead: 07700 900765, paddle@portruadhkayak.co.uk"
+    },
+    {
+      "kind": "flyer",
+      "text": "PLANT SALE\nSunday 17 May 2026, 2pm–4pm, Tan-y-Bryn garden\nHardy perennials from £2, vegetable plugs 6 for £1.50\nTeas in the barn, £3 with bara brith\nProceeds to Llangynog Fach playground fund (target £8,000)"
+    },
+    {
+      "kind": "flyer",
+      "text": "CAR BOOT SALE\nSaturday 5 September 2026\nAchnacraig Park, 9am to 1pm\nSellers £8 per car, £12 per van, setting up from 7.30am\nBuyers 50p, children free\nHot food and toilets on site. No pitches booked in advance."
+    },
+    {
+      "kind": "flyer",
+      "text": "CÔR MEIBION DYFFRYN GWYN\nMale Voice Choir: Christmas Concert\nFriday 11 December 2026, 7.30pm, Capel Bethesda\nWith soprano Lowri Ann Price and the Ysgol Cwm Eithin choir\nTickets £12, children £5, from Siop y Llan or 01632 960318\nMince pies and mulled wine at the interval"
+    },
+    {
+      "kind": "form",
+      "text": "SOUND OF BARRACH FERRIES\nTicket No. 0447218\nArdcarra to Eilean Fada, single\nSailing 15:30, Wed 14/10/2026\n1 adult £3.80\n1 car under 5 m £14.60\nTotal £18.40\nValid for the date shown only. Keep this ticket for inspection."
+    },
+    {
+      "kind": "form",
+      "text": "LLYN DU ANGLING ASSOCIATION: DAY TICKET\nTicket No. 2093\nName: G. Atherton\nDate: 18/07/2026\nWater: Upper lake (fly only)\nFee paid £12.00\nBag limit 4 trout, min. size 25 cm\nPlease fill in the catch return and post it in the box at the boathouse."
+    },
+    {
+      "kind": "form",
+      "text": "GRAND DRAW, GLEN ARDMORE SHINTY CLUB\nTicket No. 01784\n£1 per ticket, book of 5 £5\n1st prize £250, 2nd prize £100, 3rd prize hamper\nDraw at the club dinner, Saturday 5 December 2026\nName: J. Mackenzie Tel: 07700 900183\nPromoter: D. Munro, Glen Ardmore Shinty Club"
+    },
+    {
+      "kind": "form",
+      "text": "PAY & DISPLAY, LLYN GWYRDD CAR PARK\nTariff: up to 2 hrs £2.00, up to 4 hrs £3.50, all day £5.00\nPaid £3.50\nIssued 10:42 18/08/2026\nExpires 14:42 18/08/2026\nMachine 03, Ticket 22841\nDisplay on the dashboard, face up."
+    },
+    {
+      "kind": "form",
+      "text": "STRATHCULLEN HILL RUNNERS: MEMBERSHIP FORM 2027\nName: Ruaridh Campbell\nDate of birth: 14/03/1991\nAddress: 2 Mill Cottages, Strathcullen PH17 4QD\nPhone: 07700 900417\nMembership type: Senior (£15)\nEmergency contact: Isla Campbell, 07700 900418\nSigned: R. Campbell Date: 02/01/2027"
+    },
+    {
+      "kind": "form",
+      "text": "DELIVERY NOTE No. DN-7730\nD. Pritchard & Sons, Cwm Eithin\nDeliver to: Cefn Coch Farm, Llangynog Fach\nDate: 12/02/2026\n20 x Ewe nuts 18, 25kg bags\n4 x Mineral buckets, 22.5kg\n2 x Rolls stock fencing, 100m\nReceived in good condition. Signed: E. Morgan\nDriver: Gethin"
+    },
+    {
+      "kind": "form",
+      "text": "TRAIN TICKET\nStandard class, Off-Peak Return\nFrom: Dunvarran To: Ardcarra\nValid out 16 Oct 2026, return within 1 month\nAdult 1, Railcard: Senior\nPrice £24.70\nTicket No. 70417 32918 Route: Any permitted"
+    },
+    {
+      "kind": "form",
+      "text": "CWM EITHIN SHOW 2026: ENTRY FORM, HANDICRAFTS & PRODUCE\nExhibitor No. 117\nName: Mrs Bethan Lloyd, 3 Heol y Felin, Cwm Eithin\nClass 41: 4 Welsh cakes, £0.50\nClass 44: Jar of bramble jelly, £0.50\nClass 52: Hand-knitted socks, £1.00\nTotal entry fees £2.00\nExhibits staged by 9.30am on Saturday 15 August"
+    },
+    {
+      "kind": "form",
+      "text": "GLENBRAE HOSTEL: BOOKING CONFIRMATION\nRef. GBH-26-0913\nGuest: Mr Tomás Ibáñez\nArrive Fri 9 October 2026, depart Sun 11 October (2 nights)\n4-bed dorm, 2 beds @ £24.50 per night\nTotal £98.00, paid in full\nReception open 17:00–22:00. Door code sent on the day."
+    },
+    {
+      "kind": "form",
+      "text": "LIVESTOCK MOVEMENT LICENCE\nLicence No. AML1-883104\nDeparture: Cefn Coch Farm, CPH 54/117/0042\nDestination: Llangynog Fach Mart, CPH 54/120/8001\nDate of movement: 22/09/2026, depart 06:45\nSpecies: Sheep. Number: 86 (ewes 80, rams 6)\nHaulier: own transport. Signed: E. Morgan"
+    },
+    {
+      "kind": "form",
+      "text": "TOURING THEATRE: \"THE HERRING GIRLS\"\nStrathcullen Village Hall\nThursday 26 November 2026, 7.30pm\nRow C, Seat 14\nAdult £14.00 (concession £11.00)\nTicket No. 0219, issued 02/11/2026\nNo refunds unless the performance is cancelled."
+    },
+    {
+      "kind": "form",
+      "text": "LLYFRGELL / LIBRARY: APPLICATION FOR MEMBERSHIP\nName: Siân Ellis\nAddress: Ty'n Llwyn, Bwlch Isaf, Powys SY22 4PL\nDate of birth: 07/09/1958\nPhone: 01632 960226\nEmail: sian.ellis@tynllwyn.co.uk\nPreferred language: Cymraeg\nCard No. issued: 2071 4430 9915"
+    },
+    {
+      "kind": "form",
+      "text": "BOAT HIRE AGREEMENT, LOCH VENNA\nBoat No. 6, 14 ft with 4 hp outboard\nHirer: Mr P. Sandström\nOut 09:15, due back 13:15 (4 hours)\nHire £60.00, fuel £8.00, deposit £50.00 (refundable)\nTotal paid £118.00\nLife jackets: 2 issued. Do not land on the islands (nesting birds, 1 April–31 July)."
+    },
+    {
+      "kind": "form",
+      "text": "BEN CORRACH HILL RACE: ENTRY\nRace No. 147\nSaturday 6 March 2027, 11:00 start\nName: Ailsa Brodie, F40\nClub: Unattached\nEntry fee £12.00 + unattached levy £2.00 = £14.00\nKit check: full waterproof body cover, map, compass, whistle\nSummit cut-off 12:45\nI declare I am fit to take part. Signed: A. Brodie"
+    },
+    {
+      "kind": "form",
+      "text": "GIFT VOUCHER\nTigh na Mara B&B, Port Alasdair\nThis voucher entitles Mr and Mrs Okonjo to 2 nights' bed and breakfast for two.\nValue £170.00\nVoucher No. TNM-0081\nValid until 31/12/2027, excluding July and August\nBook on 01632 960286 quoting the voucher number."
+    },
+    {
+      "kind": "page",
+      "text": "The slate quarry above Llanfair Uchaf opened in 1798 and at its peak in 1882 employed 1,240 men. Blocks were lowered down a series of 7 inclines to the mill, where they were split by hand into slates as thin as 1/4 inch.\nA good splitter could produce 700 roofing slates in a day. The work was paid by the \"bargain\", a section of rock let to a team of 4 or 5 men each month.\nThe last block was raised in 1969. Today the inclines form part of a 6 km waymarked trail."
+    },
+    {
+      "kind": "page",
+      "text": "Caisteal Dubh stands on a rocky promontory 30 m above the loch. Built in the late 1400s, it was a stronghold of the MacRuaraidhs until 1746, when government troops burnt the roof and garrisoned the tower for 6 years.\nThe walls are up to 2.4 m thick at the base. A narrow stair in the north-east corner still climbs to the second floor, but visitors are asked not to go beyond the rope.\nThe site is open daily from April to October, 10:00 to 17:00. Admission is free."
+    },
+    {
+      "kind": "page",
+      "text": "The pine marten was almost lost from Britain by the 1920s, surviving only in the remote north-west Highlands. Since then it has spread back across much of Scotland, and a small population was released in mid-Wales between 2015 and 2017.\nMartens weigh 1.5 to 2.2 kg and are mostly active at dusk. In this forest you are most likely to see one at the feeding table by Hide 2, between 9pm and 11pm in June and July."
+    },
+    {
+      "kind": "page",
+      "text": "Chapter 9\nThe bus left Glenbrae at 07:45 every morning except Sunday, and Morven had missed it twice that week. She ran the last 200 yards with her bag thumping against her hip and the driver, old Lachie, already pulling the door shut.\n\"You'll be the death of me,\" he said, punching her ticket. \"That's £2.10, same as yesterday.\"\nShe sat at the back, where the heater worked, and watched the loch turn from black to pewter as the light came up behind Sgùrr nan Caorach."
+    },
+    {
+      "kind": "page",
+      "text": "The Crofters Holdings (Scotland) Act of 1886 gave crofters security of tenure, fair rents and the right to compensation for improvements. It followed years of unrest, including the \"Battle of the Braes\" on Skye in 1882.\nMost crofts are small, often 2 to 5 hectares of in-bye land with a share in the common grazing on the hill. Today there are about 21,000 crofts, home to some 33,000 people."
+    },
+    {
+      "kind": "page",
+      "text": "Gaelic place names describe the land. Beinn means a mountain, often a rounded one, while sgùrr is a steep, rocky peak. Allt is a burn, loch a lake and eilean an island.\nColours appear everywhere: dubh (black), bàn (white or fair), ruadh (red), glas (grey-green) and buidhe (yellow). So Eilean Glas is the grey-green island and Allt Dubh the black burn.\nOn the map of this area, about 4 in every 5 names are Gaelic in origin."
+    },
+    {
+      "kind": "page",
+      "text": "Route 12: Loch Venna and the Falls of Allt Ruadh\nDistance 9.5 km (6 miles). Ascent 310 m. Time 3 to 3 1/2 hours.\nFrom the car park (NN 2148 6630) follow the forestry track east for 2 km to a junction marked by a green post. Turn left and climb steadily to the footbridge below the falls, which drop 28 m in two leaps.\nCross the bridge and return along the north shore of the loch, boggy in places, to rejoin the track 800 m from the start."
+    },
+    {
+      "kind": "page",
+      "text": "Welsh is spoken by around 538,000 people, about 18% of the population of Wales, according to the 2021 census. In some parts of the north-west the figure is above 60%.\nHere are a few words to start you off: bore da (good morning), diolch (thank you), croeso (welcome) and iechyd da (cheers).\nPob lwc! Good luck!"
+    },
+    {
+      "kind": "page",
+      "text": "At Allt Dubh we mash 1.2 tonnes of malted barley at a time, mixed with hot water at 63.5 °C. The sweet liquid, called wort, is cooled and pumped to one of 6 wooden washbacks.\nFermentation takes 72 hours and produces a wash of about 8% alcohol. It is then distilled twice, first in the 8,000-litre wash still and then in the smaller spirit still.\nOnly the middle cut, between roughly 72% and 64% abv, is kept and filled into casks."
+    },
+    {
+      "kind": "page",
+      "text": "St Tudno's Church was rebuilt in 1867 on the site of a medieval chapel, reusing the 14th-century font and part of the east wall. The bell, cast in 1712, hangs in a small double bellcote above the west door.\nInside, look for the memorial to the 23 men of the parish who died in the First World War, and the window of 1921 showing St Tudno with a coracle.\nThe church is open daily from 9am until dusk. Donations towards its upkeep, which costs over £7,500 a year, are gratefully received."
+    },
+    {
+      "kind": "page",
+      "text": "At the height of the herring boom in 1907, more than 1,000 boats fished from the ports of the north and east coasts, and the harbour at Port Ruadh handled up to 40,000 barrels a season.\nThe fish were gutted and packed by teams of 3 women, two gutters and one packer, who followed the fleet from Shetland to Yarmouth. A skilled gutter could clean 60 herring a minute.\nBy 1950 the shoals had moved and the curing yards stood empty."
+    },
+    {
+      "kind": "page",
+      "text": "Llyn Arian reservoir was completed in 1904 to supply water to the towns of the coast, 74 miles away. The dam is 44 m high and 357 m long, built of local stone by a workforce that reached 1,400 at its peak.\nThe reservoir holds about 9,100 million litres. Water flows to the coast entirely by gravity, falling 52 m over the length of the aqueduct.\nRemains of the navvies' village, including the foundations of the school and hospital, can be seen beside the lower car park."
+    },
+    {
+      "kind": "page",
+      "text": "Golden eagle (Aquila chrysaetos)\nLength 75–90 cm; wingspan 1.9–2.3 m. Dark brown with a golden-buff nape. Young birds show white patches in the wings and a white tail with a black band.\nScotland holds about 508 pairs (2015 survey), mostly in the Highlands and Islands. Nests, called eyries, are on crags or in old Scots pines, and 1 or 2 eggs are laid in March or April.\nCompare the white-tailed eagle, which is larger, with a short, wedge-shaped white tail as an adult."
+    },
+    {
+      "kind": "page",
+      "text": "My grandmother cooked on a range that burned peat, and she never once weighed anything. When I asked how much oatmeal went into her oatcakes, she said \"enough\", and when I pressed her, \"about a cupful, more or less\".\nThe recipes in this book are my attempt to pin those quantities down. I have tested each one at least 3 times, and I give oven temperatures for fan, conventional and gas.\nWhere a recipe calls for 1 tsp of bicarbonate of soda, please measure it level; a heaped spoon will make your scones taste soapy."
+    },
+    {
+      "kind": "page",
+      "text": "The Strathcullen branch opened on 1 June 1891, linking the glen to the main line at Dunvarran, 18 miles away. At first there were 4 trains each way on weekdays, and a return fare cost 1s 9d.\nPassenger services ended in 1960, but goods traffic, mostly timber and sheep, continued until 1964.\nThe station building at Strathcullen survives as the village hall. A 3 km stretch of the old trackbed between the hall and the viaduct is now a level path suitable for wheelchairs."
+    }
+  ]
+}

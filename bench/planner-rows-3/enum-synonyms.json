@@ -1,0 +1,387 @@
+{
+ "columnMath.operation": {
+  "add up": "sum",
+  "total": "sum",
+  "lowest": "min",
+  "smallest": "min",
+  "biggest": "max",
+  "mean": "average"
+ },
+ "filterRows.operator": {
+  "over": ">",
+  "greater than": ">",
+  "at least": ">=",
+  "is not": "!=",
+  "below": "<",
+  "equal to": "=",
+  "equals": "=",
+  "no more than": "<="
+ },
+ "groupBy.operation": {
+  "total": "sum",
+  "average": "mean",
+  "how many": "count",
+  "lowest": "min"
+ },
+ "pivotRows.operation": {
+  "total": "sum",
+  "average": "mean",
+  "highest": "max"
+ },
+ "sortRows.direction": {
+  "cheapest first": "ascending",
+  "highest first": "descending",
+  "newest first": "descending",
+  "smallest to largest": "ascending",
+  "reverse alphabetical": "descending",
+  "largest to smallest": "descending",
+  "lowest first": "ascending"
+ },
+ "toCsv.delimiter": {
+  "semicolons": ";",
+  "tab-separated": "\t",
+  "pipe-delimited": "|",
+  "comma-separated": ",",
+  "tsv": "\t",
+  "tab-delimited": "\t",
+  "pipe between columns": "|",
+  "commas": ","
+ },
+ "toMarkdownTable.align": {
+  "center aligned": "centre",
+  "centered": "centre"
+ },
+ "formatJson.style": {
+  "minify": "minified",
+  "onto one line": "minified",
+  "readable": "pretty",
+  "compact": "minified",
+  "strip the whitespace": "minified"
+ },
+ "parseCsv.delimiter": {
+  "semicolon-delimited": ";",
+  "pipe-separated": "|",
+  "tab-separated": "\t",
+  "comma delimited": ",",
+  "semicolons": ";",
+  "pipe": "|",
+  "semicolon-separated": ";",
+  "tsv": "\t",
+  "tab-delimited": "\t"
+ },
+ "sortObjectKeys.direction": {
+  "z to a": "descending",
+  "a to z": "ascending",
+  "reverse alphabetical": "descending",
+  "a-z": "ascending"
+ },
+ "hashText.algorithm": {
+  "sha512": "SHA-512",
+  "sha1": "SHA-1",
+  "sha384": "SHA-384",
+  "sha 256": "SHA-256"
+ },
+ "hexEncode.separator": {
+  "colons": ":",
+  "dashes": "-",
+  "a space between each byte": " ",
+  "no separators": "",
+  "hyphens": "-",
+  "colon separators": ":",
+  "colon-separated": ":",
+  "space separated": " ",
+  "no spaces": ""
+ },
+ "urlEncode.scope": {
+  "whole address": "full",
+  "parameter value": "component",
+  "complete link": "full",
+  "path segment": "component",
+  "whole url": "full",
+  "entire url": "full",
+  "query parameter": "component"
+ },
+ "generateRandomString.charset": {
+  "numbers": "digits",
+  "no look-alike characters": "unambiguous",
+  "punctuation": "symbols",
+  "easy to read aloud": "unambiguous"
+ },
+ "generatePalette.scheme": {
+  "sit next to": "analogous",
+  "opposite colour": "complementary",
+  "lighter versions": "tints"
+ },
+ "numberToWords.style": {
+  "cheque": "currency",
+  "as money": "currency",
+  "amount of money": "currency",
+  "cash amount": "currency"
+ },
+ "addDuration.unit": {
+  "year": "years",
+  "month": "months"
+ },
+ "dateRangeList.unit": {
+  "weekly": "weeks",
+  "monthly": "months",
+  "day by day": "days",
+  "each month": "months",
+  "every week": "weeks",
+  "week by week": "weeks",
+  "each day": "days"
+ },
+ "durationToText.style": {
+  "spelled out in full": "long",
+  "compact": "short",
+  "abbreviated": "short"
+ },
+ "expandRecurrence.every": {
+  "annual": "year",
+  "daily": "day"
+ },
+ "nextWeekday.direction": {
+  "last": "previous",
+  "most recent": "previous",
+  "this past": "previous",
+  "just gone": "previous"
+ },
+ "nextWeekday.weekday": {
+  "fri": "Friday",
+  "thurs": "Thursday"
+ },
+ "unixToIso.unit": {
+  "ms": "milliseconds",
+  "millis": "milliseconds"
+ },
+ "splitBill.currency": {
+  "euros": "€",
+  "rupees": "₹",
+  "yen": "¥",
+  "dollars": "$",
+  "pounds": "£"
+ },
+ "fileSizeHuman.base": {
+  "powers of 1024": "binary",
+  "mib": "binary",
+  "si units": "decimal",
+  "base 10": "decimal",
+  "kib": "binary",
+  "1024-based": "binary"
+ },
+ "compoundInterest.frequency": {
+  "twice a year": "semi-annually",
+  "every week": "weekly",
+  "once a year": "annually",
+  "half-yearly": "semi-annually"
+ },
+ "generateCalendarGrid.startOn": {
+  "mon-start": "Monday",
+  "start on sun": "Sunday"
+ },
+ "areaOf.shape": {
+  "rectangular": "rectangle",
+  "circular": "circle",
+  "oval": "ellipse",
+  "elliptical": "ellipse",
+  "triangular": "triangle"
+ },
+ "perimeterOf.shape": {
+  "rectangular": "rectangle",
+  "circular": "circle",
+  "regular polygon": "regularPolygon",
+  "regular octagon": "regularPolygon",
+  "triangular": "triangle",
+  "regular hexagon": "regularPolygon"
+ },
+ "volumeOf.solid": {
+  "cylindrical": "cylinder",
+  "ball": "sphere",
+  "cuboid": "box",
+  "conical": "cone",
+  "spherical": "sphere"
+ },
+ "sleepCycleTimes.direction": {
+  "go to bed at": "sleep",
+  "alarm goes off at": "wake",
+  "lights out at": "sleep",
+  "get up at": "wake",
+  "be up by": "wake",
+  "hit the hay at": "sleep",
+  "falling asleep": "sleep"
+ },
+ "splitTimes.unit": {
+  "mile": "miles",
+  "kilometres": "km",
+  "kilometers": "km",
+  "kilometre": "km"
+ },
+ "sortList.direction": {
+  "largest first": "descending",
+  "z to a": "descending",
+  "smallest to biggest": "ascending",
+  "reverse alphabetical": "descending",
+  "a to z": "ascending",
+  "highest first": "descending"
+ },
+ "sortList.by": {
+  "by number": "numeric",
+  "alphabetically": "alphabetical",
+  "numerically": "numeric"
+ },
+ "fibonacci.mode": {
+  "list the first": "sequence",
+  "at position": "nth",
+  "as a list": "sequence",
+  "every fibonacci number": "sequence"
+ },
+ "formatCurrency.style": {
+  "dollar sign": "symbol",
+  "rupee sign": "symbol",
+  "euro sign": "symbol"
+ },
+ "formatNumber.style": {
+  "no commas": "plain",
+  "thousands separators": "standard",
+  "short form": "compact",
+  "as a %": "percent",
+  "percentage": "percent"
+ },
+ "toOrdinal.style": {
+  "spell out": "words",
+  "written out in full": "words",
+  "in digits": "short",
+  "spelled-out": "words",
+  "in letters": "words"
+ },
+ "budgetSplit.preset": {
+  "fifty thirty twenty": "50/30/20",
+  "60-20-20": "60/20/20",
+  "50-30-20": "50/30/20",
+  "70-20-10": "70/20/10",
+  "seventy twenty ten": "70/20/10",
+  "sixty twenty twenty": "60/20/20"
+ },
+ "findOutliers.method": {
+  "standard deviations": "zscore",
+  "z-score": "zscore",
+  "interquartile range": "iqr",
+  "z score": "zscore",
+  "tukey fences": "iqr",
+  "box plot rule": "iqr"
+ },
+ "movingAverage.type": {
+  "unweighted": "simple",
+  "wma": "weighted",
+  "sma": "simple",
+  "recent points count more": "weighted",
+  "equal weight": "simple"
+ },
+ "rankValues.direction": {
+  "lowest first": "ascending",
+  "highest first": "descending",
+  "smallest first": "ascending"
+ },
+ "rankValues.method": {
+  "1223": "dense",
+  "1224": "competition",
+  "no gaps": "dense"
+ },
+ "convertCase.style": {
+  "all caps": "upper",
+  "screaming_snake_case": "constant",
+  "capitalise each word": "title",
+  "upper camel case": "pascal",
+  "kebab-case": "kebab",
+  "pascalcase": "pascal",
+  "lowercase": "lower",
+  "camelcase": "camel"
+ },
+ "escapeHtml.direction": {
+  "decode": "unescape",
+  "html-encode": "escape",
+  "reverse the escaping": "unescape",
+  "encode": "escape",
+  "escaped": "escape"
+ },
+ "extractIpAddresses.version": {
+  "version 4": "v4",
+  "either kind": "both",
+  "version 6": "v6",
+  "ipv4 and ipv6": "both",
+  "ipv4": "v4",
+  "ipv6": "v6"
+ },
+ "diffText.by": {
+  "lines": "line",
+  "word-level": "word",
+  "words": "word"
+ },
+ "extractListItems.type": {
+  "bullet points": "bulleted",
+  "bullets": "bulleted",
+  "ordered list": "numbered",
+  "whatever kind": "any",
+  "dot points": "bulleted"
+ },
+ "extractNgrams.unit": {
+  "letter pairs": "characters",
+  "word bigrams": "words",
+  "letters": "characters",
+  "word pairs": "words",
+  "chars": "characters"
+ },
+ "maskSensitive.style": {
+  "asterisks": "stars",
+  "star out": "stars",
+  "partly visible": "partial",
+  "placeholders": "label",
+  "partially": "partial",
+  "labels": "label"
+ },
+ "padText.align": {
+  "center": "centre",
+  "in the middle": "centre",
+  "centered": "centre",
+  "right-align": "right",
+  "centred": "centre",
+  "left-justify": "left"
+ },
+ "reverseText.by": {
+  "word order": "words",
+  "letter by letter": "characters",
+  "line order": "lines",
+  "word by word": "words",
+  "letters": "characters"
+ },
+ "slugify.separator": {
+  "underscores": "_",
+  "hyphens": "-",
+  "dashes": "-",
+  "hyphenated": "-",
+  "underscore": "_",
+  "hyphen separated": "-"
+ },
+ "sortLines.by": {
+  "longest line first": "length",
+  "by number": "numeric",
+  "short to long": "length",
+  "numerically": "numeric"
+ },
+ "sortLines.direction": {
+  "shortest first": "ascending",
+  "z to a": "descending",
+  "longest line first": "descending",
+  "biggest first": "descending",
+  "reverse alphabetical": "descending",
+  "short to long": "ascending"
+ },
+ "truncateText.unit": {
+  "chars": "characters",
+  "letters": "characters"
+ },
+ "formatCitation.style": {
+  "modern language association": "MLA",
+  "american psychological association": "APA"
+ }
+}

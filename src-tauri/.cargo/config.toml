@@ -1,0 +1,9 @@
+# `cargo run` (and so `npm run dev`) goes through a runner that signs the app
+# with this Mac's development certificate under a fixed identifier, so macOS
+# keeps its Screen Recording and Input Monitoring permissions across rebuilds.
+# See scripts/dev-sign-run.sh.
+# The path is the program itself, not an argument to `sh`: cargo resolves a
+# runner's program against this folder, and an argument against wherever the
+# binary's own package is — which, for pigeon-core's tests, has no scripts/.
+[target.aarch64-apple-darwin]
+runner = ["scripts/dev-sign-run.sh"]

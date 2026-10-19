@@ -1,0 +1,8 @@
+{
+  "bundle": {
+    "resources": {
+      "../pack/patch.nest": "patch.nest",
+      "../pack/host-api.json": "host-api.json"
+    }
+  }
+}

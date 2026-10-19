@@ -1,0 +1,1056 @@
+{
+  "batch": "f04",
+  "domain": "rivers, lakes, mountains, islands and parks",
+  "cases": [
+    {
+      "question": "how long is the Varrow River",
+      "passage": "The Varrow River is a river in the northern uplands that flows east into the Gullan Estuary. It rises on the slopes of Carrick Fell at an elevation of 610 metres. The river is 142 kilometres long and drains a basin of about 1,900 square kilometres. Its largest tributary is the Mossburn, which joins it at Edderton.",
+      "sentence": 3,
+      "quote": "The river is 142 kilometres long",
+      "looking_for": "the length of the river"
+    },
+    {
+      "question": "what is the deepest lake in Ostmere county",
+      "passage": "Lake Fennick is a freshwater lake and the deepest lake in Ostmere County, reaching 88 metres at its lowest point. It covers an area of 6.4 square kilometres. The lake is fed by the Pell Water and drains south through the Annick Burn. Brown trout were introduced in 1874.",
+      "sentence": 1,
+      "quote": "the deepest lake in Ostmere County",
+      "looking_for": "the name of the county's deepest lake"
+    },
+    {
+      "question": "who is the warden of Harrowdene National Park",
+      "passage": "Harrowdene National Park is a protected area of moorland and ancient oak woodland covering 412 square kilometres. It was designated in 1961 after a campaign led by the naturalist Edith Calloway. The park is managed by the Harrowdene Park Authority, whose chief warden since 2019 has been Tomas Leverett. Around 1.3 million people visit each year.",
+      "sentence": 3,
+      "quote": "whose chief warden since 2019 has been Tomas Leverett",
+      "looking_for": "the name of the current chief warden"
+    },
+    {
+      "question": "who is the current warden of Kestle Moor park",
+      "passage": "Kestle Moor Country Park is a public park of heathland and wetland on the edge of Branlow. It opened in 1978 on land given to the borough by the Dunmore family. Its first warden was Harold Pinchbeck, who held the post until his retirement in 1996. The park holds a visitor centre, two bird hides and a waymarked trail of 9 kilometres.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the person who is warden now"
+    },
+    {
+      "question": "how high is Mount Calvany",
+      "passage": "Mount Calvany is a mountain in the Serrin Range. Its summit stands at 2,847 metres above sea level, making it the third highest peak in the range. The first recorded ascent was made in 1859 by the surveyor Anton Rieger and two local guides. A hut maintained by the Serrin Alpine Club stands at 2,210 metres on the eastern ridge.",
+      "sentence": 2,
+      "quote": "Its summit stands at 2,847 metres above sea level",
+      "looking_for": "the height of the summit"
+    },
+    {
+      "question": "who first climbed Mount Orvel",
+      "passage": "Mount Orvel is a 3,102 metre peak in the Halden Alps. It is known for the steep north face that rises above the Orvel Glacier. The mountain was first climbed on 14 August 1864 by Lucien Marchetti and Paul Ebner. The north face itself was not climbed until 1931, by a Viennese party led by Rudolf Gansl.",
+      "sentence": 3,
+      "quote": "first climbed on 14 August 1864 by Lucien Marchetti and Paul Ebner",
+      "looking_for": "the names of the first people to climb it"
+    },
+    {
+      "question": "what is the highest peak in the Dunvarra Hills",
+      "passage": "The Dunvarra Hills are a range of rounded granite hills in the south west of the region. They extend for about 40 kilometres between the towns of Pellick and Arnmouth. The second highest summit, Carn Ruadh, reaches 812 metres and carries a trig pillar. The hills were designated an area of outstanding beauty in 1972.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the highest summit in the hills"
+    },
+    {
+      "question": "how big is Tessel Island",
+      "passage": "Tessel Island is an island in the Brannic Sea, lying 11 kilometres off the mainland coast. It has an area of 34 square kilometres and a population of about 1,150. The main settlement is Port Aven, on the sheltered eastern shore. A ferry runs from Corran Quay twice a day in summer.",
+      "sentence": 2,
+      "quote": "It has an area of 34 square kilometres",
+      "looking_for": "the area of the island"
+    },
+    {
+      "question": "what is the population of Mallow Island",
+      "passage": "Mallow Island is the largest of the Fenner Isles, with an area of 58 square kilometres. It was settled by fishing families from the mainland in the 1700s. The island's population peaked at 2,400 in 1881 before emigration reduced it sharply. Today it is reached by a causeway that is covered at high tide.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of people living on the island now"
+    },
+    {
+      "question": "when was Brannock Forest Park established",
+      "passage": "Brannock Forest Park is a forest park in the Ellery valley, covering 210 square kilometres of conifer plantation and native woodland. It was established in 1947 by the Forestry Board as the first forest park in the region. Its visitor centre at Glenmorran opened in 1983. The park contains the Brannock Falls, which drop 38 metres in two stages.",
+      "sentence": 2,
+      "quote": "It was established in 1947 by the Forestry Board",
+      "looking_for": "the year the forest park was established"
+    },
+    {
+      "question": "what river flows through Corley",
+      "passage": "The Tamber is the river that flows through the market town of Corley. It rises in the Wendle Hills and runs 64 kilometres to join the Ouseley at Hatchford. Corley grew up at the lowest point where the river could be forded. A stone bridge of nine arches was built across it in 1412.",
+      "sentence": 1,
+      "quote": "The Tamber is the river that flows through the market town of Corley",
+      "looking_for": "the name of the river through the town"
+    },
+    {
+      "question": "where is Lake Ostmere",
+      "passage": "Lake Ostmere is a glacial lake in the Rendle District, lying between the villages of Ashby Rendle and Holme. It is 4.2 kilometres long and up to 61 metres deep. The lake supplies drinking water to the city of Garrowby, 50 kilometres to the south. Sailing on the lake has been permitted since 1990.",
+      "sentence": 1,
+      "quote": "a glacial lake in the Rendle District",
+      "looking_for": "the location of the lake"
+    },
+    {
+      "question": "how deep is Lake Sorrel",
+      "passage": "Lake Sorrel is a reservoir in the upper Kinnock valley. It was created in 1934 when the Sorrel Dam was completed across the river. The lake has a surface area of 3.8 square kilometres. At the dam wall it reaches a maximum depth of 47 metres. Two drowned farmsteads can be seen when the water is low.",
+      "sentence": 4,
+      "quote": "it reaches a maximum depth of 47 metres",
+      "looking_for": "the maximum depth of the lake"
+    },
+    {
+      "question": "how deep is Pellow Water",
+      "passage": "Pellow Water is a small lake in the Ferrin Hills. It has a surface area of 0.9 square kilometres and lies 302 metres above sea level. The lake is drained by Pellow Beck, which falls 120 metres in its first kilometre. It is a breeding site for the black throated diver.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the depth of the lake"
+    },
+    {
+      "question": "who designed Carrow Gardens park",
+      "passage": "Carrow Gardens is a public park in the centre of Wexley. It was laid out between 1868 and 1872 to designs by the landscape architect Margaret Huxtable. The land was bought for the town by the mill owner Joseph Carrow, after whom the park is named. Its bandstand, added in 1901, is a listed structure.",
+      "sentence": 2,
+      "quote": "to designs by the landscape architect Margaret Huxtable",
+      "looking_for": "the name of the park's designer"
+    },
+    {
+      "question": "who designed Fennimore Park",
+      "passage": "Fennimore Park is a public park of 28 hectares in the eastern suburbs of Holcastle. The land was given to the city in 1889 by Lady Agnes Fennimore in memory of her husband. It opened to the public in 1891 with a lake, a glasshouse and a cricket ground. The glasshouse was restored in 2008 by the conservation architect Pieter Vos.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the person who designed the park"
+    },
+    {
+      "question": "how many isles make up the Corran archipelago",
+      "passage": "The Corran archipelago is a group of islands off the west coast. It consists of 23 islands, of which only five are inhabited. The largest island, Corran Mor, has an area of 41 square kilometres. The islands were sold by the Crown in 1798 to the Macrae family.",
+      "sentence": 2,
+      "quote": "It consists of 23 islands",
+      "looking_for": "the number of islands in the group"
+    },
+    {
+      "question": "what is the longest river in Ardellan",
+      "passage": "Ardellan is a province of rolling farmland and low hills. Its principal towns are Merrow, Oskby and the provincial seat at Laverick. The longest river in the province is the Dorne, which runs 188 kilometres from the Teller Hills to the sea. The Wend, at 96 kilometres, is the second longest and joins the Dorne at Oskby.",
+      "sentence": 3,
+      "quote": "The longest river in the province is the Dorne",
+      "looking_for": "the name of the province's longest river"
+    },
+    {
+      "question": "what is the longest river in Vessany",
+      "passage": "Vessany is a mountainous region on the northern border. Its rivers are short and fast, and many are dammed for hydroelectric power. The Kell, which flows through the regional capital, is 71 kilometres long. The largest lake is Lake Imra, which is 19 kilometres long.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the region's longest river"
+    },
+    {
+      "question": "what is Mount Hessary",
+      "passage": "Mount Hessary is a dormant volcano on the island of Lorn, rising to 1,604 metres. Its last eruption, in 1712, buried the village of Sandal under ash. The crater holds a small lake, Loch an Tobair. The volcano is monitored by the Lorn Geological Survey.",
+      "sentence": 1,
+      "quote": "a dormant volcano on the island of Lorn",
+      "looking_for": "what kind of thing the mountain is"
+    },
+    {
+      "question": "when did Mount Tolva last erupt",
+      "passage": "Mount Tolva is a stratovolcano in the Ressin Arc and the highest point on the island of Caddan. It has erupted at least eleven times since records began in 1640. The most recent eruption began on 3 March 1987 and lasted for six weeks. A large eruption in 1802 destroyed the harbour town of Ferro.",
+      "sentence": 3,
+      "quote": "The most recent eruption began on 3 March 1987",
+      "looking_for": "the date of the latest eruption"
+    },
+    {
+      "question": "when did Mount Arrach last erupt",
+      "passage": "Mount Arrach is an active volcano on the north coast of Velland. Its largest known eruption, in 1631, sent ash as far as the mainland. The volcano has a summit crater 900 metres wide. An observatory was built on its southern flank in 1954.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the date of the most recent eruption"
+    },
+    {
+      "question": "who owns Gorran Island",
+      "passage": "Gorran Island is a private island in the Sound of Marle. It was owned by the Lindsay family for over two hundred years until 1952. Since 2004 it has been owned by the Gorran Island Trust, a charity that manages it for wildlife. The island's only building is a former lighthouse keeper's cottage.",
+      "sentence": 3,
+      "quote": "Since 2004 it has been owned by the Gorran Island Trust",
+      "looking_for": "the name of the island's current owner"
+    },
+    {
+      "question": "who owns Selsey Holm island",
+      "passage": "Selsey Holm is a tidal island at the mouth of the Brede estuary. It was bought in 1911 by the shipping magnate Arthur Pendle, who built a summer house there. The island was requisitioned by the navy during the war. It is now uninhabited and visited mainly by birdwatchers.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the island's present owner"
+    },
+    {
+      "question": "what is the source of the River Glenn",
+      "passage": "The River Glenn is a river in the eastern lowlands, 77 kilometres long. It rises from a spring at Glennhead Moss on the flank of Cold Pike. The river flows south past Thirle and Upper Ashworth before entering the sea at Glenmouth. Its water was once used to power seventeen corn mills.",
+      "sentence": 2,
+      "quote": "It rises from a spring at Glennhead Moss",
+      "looking_for": "the place where the river rises"
+    },
+    {
+      "question": "where does the Osk river meet the sea",
+      "passage": "The Osk is a river that drains much of the Harwick plateau. From its source at Osk Tarn it flows for 112 kilometres. It passes through the towns of Linley and Brayford, where it is joined by the Calder Brook. The river reaches the sea at Oskmouth through a wide tidal estuary. Salmon numbers have recovered since a weir at Brayford was removed in 2011.",
+      "sentence": 4,
+      "quote": "The river reaches the sea at Oskmouth",
+      "looking_for": "the place where the river reaches the sea"
+    },
+    {
+      "question": "which national park is Mount Ellery in",
+      "passage": "Mount Ellery is the highest mountain in Kestrel Ranges National Park, at 1,988 metres. The park was established in 1936 and covers 1,240 square kilometres. The mountain's slopes are home to the rare Ellery snow skink. A ski field operated on the southern slopes from 1958 to 1994.",
+      "sentence": 1,
+      "quote": "the highest mountain in Kestrel Ranges National Park",
+      "looking_for": "the name of the park containing the mountain"
+    },
+    {
+      "question": "when was Torvan national park founded",
+      "passage": "Torvan National Park is a national park in the central highlands, known for its canyons and hot springs. The area was first proposed for protection by the geologist Ida Brenner in 1902. The park was formally created by act of parliament on 9 May 1921. It was enlarged in 1965 to include the Ashkar Plateau. Its headquarters are in the town of Vell.",
+      "sentence": 3,
+      "quote": "The park was formally created by act of parliament on 9 May 1921",
+      "looking_for": "the date the park was created"
+    },
+    {
+      "question": "when was Ravensgill park opened",
+      "passage": "Ravensgill Park is a municipal park in the valley of the Raven Beck. The land was bought by the town council in 1903 for 4,000 pounds. Work on the paths, ponds and rock garden was carried out by unemployed men during the 1920s. The park's café was rebuilt in 2015.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the date the park opened to the public"
+    },
+    {
+      "question": "how tall is Ballan Falls",
+      "passage": "Ballan Falls is a waterfall on the Ballan Water in the Strone Forest. It has a total drop of 64 metres, falling in a single unbroken plunge. The falls are reached by a 3 kilometre path from the car park at Inverballan. In hard winters the falls freeze completely.",
+      "sentence": 2,
+      "quote": "It has a total drop of 64 metres",
+      "looking_for": "the height of the waterfall"
+    },
+    {
+      "question": "how long is Lake Morvenna",
+      "passage": "Lake Morvenna is a long, narrow lake in the Askel Mountains. It is 23 kilometres long and nowhere more than 1.5 kilometres wide. The lake lies 420 metres above sea level and is fed by eleven streams. A steamer service ran on the lake from 1886 to 1939.",
+      "sentence": 2,
+      "quote": "It is 23 kilometres long",
+      "looking_for": "the length of the lake"
+    },
+    {
+      "question": "what is the largest lake in Calder",
+      "passage": "Lough Fallan is the largest lake in the county of Calder, with an area of 44 square kilometres. It is fed mainly by the River Ure and drains north through the Fallan Cut. The lake has several wooded islands, the largest of which is Inish Corra. Eels from the lake were exported to the city markets until the 1960s.",
+      "sentence": 1,
+      "quote": "the largest lake in the county of Calder",
+      "looking_for": "the name of the county's largest lake"
+    },
+    {
+      "question": "Inchmorran island population",
+      "passage": "Inchmorran is an inhabited island in the Firth of Carran. It is 6 kilometres long and 2 kilometres wide. At the most recent census the island had a population of 312. Its population was over 1,000 in the early nineteenth century. The island is served by a vehicle ferry from Ardcarran.",
+      "sentence": 3,
+      "quote": "At the most recent census the island had a population of 312",
+      "looking_for": "the number of people living on the island"
+    },
+    {
+      "question": "who named Lake Wennick",
+      "passage": "Lake Wennick is a large lake on the plateau of the northern territory. It was named in 1846 by the explorer Charles Abernathy after his patron, the banker Hugh Wennick. The first person to map its full shoreline was the surveyor Ellen Strand in 1871. The lake is shallow and saline, and its size varies with the seasons.",
+      "sentence": 2,
+      "quote": "It was named in 1846 by the explorer Charles Abernathy",
+      "looking_for": "the name of the person who named the lake"
+    },
+    {
+      "question": "who named the Cardew river",
+      "passage": "The Cardew is a river in the coastal plain that flows into Cardew Bay. The first European to travel its length was the trader Simon Hollis in 1798. The river was surveyed by naval officers in 1823, who charted its lower reaches. Its name is recorded on maps from 1830 onward.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the person who named the river"
+    },
+    {
+      "question": "who manages Wildmere nature reserve",
+      "passage": "Wildmere is a nature reserve of reed beds and open water on the Fenley Levels. It is managed by the Fenley Wildlife Trust, which bought the site in 1992. Before that it was a gravel pit operated by Haldane Aggregates. The reserve is home to bitterns, marsh harriers and otters.",
+      "sentence": 2,
+      "quote": "It is managed by the Fenley Wildlife Trust",
+      "looking_for": "the name of the organisation managing the reserve"
+    },
+    {
+      "question": "who manages Coldharbour Marshes",
+      "passage": "Coldharbour Marshes is an area of grazing marsh beside the Lune estuary. It was drained for farming by the Coldharbour estate in the 1760s. In 1998 the marshes were designated a site of special scientific interest. A survey by Lune University in 2014 recorded 140 species of bird.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the body that manages the marshes"
+    },
+    {
+      "question": "how many visitors does Elmstead Country Park get",
+      "passage": "Elmstead Country Park is a country park on the outskirts of Barnford. It covers 160 hectares of meadow, woodland and lakes around the former Elmstead Hall. The park receives around 450,000 visitors a year. The hall itself burned down in 1926 and only its stables survive.",
+      "sentence": 3,
+      "quote": "The park receives around 450,000 visitors a year",
+      "looking_for": "the number of visitors each year"
+    },
+    {
+      "question": "what is the Skarra Glacier",
+      "passage": "The Skarra Glacier is a valley glacier on the eastern flank of the Torsk Massif. It is 14 kilometres long and has retreated about 1.2 kilometres since 1900. Meltwater from its snout feeds the Skarra River. The glacier was first studied by the Varnholm Polar Institute in 1911.",
+      "sentence": 1,
+      "quote": "a valley glacier on the eastern flank of the Torsk Massif",
+      "looking_for": "what the glacier is and where"
+    },
+    {
+      "question": "how much has the Linnet glacier retreated",
+      "passage": "The Linnet Glacier is the largest glacier in the Vorrin Mountains. It covers about 38 square kilometres and is up to 260 metres thick. Since measurements began in 1928, its snout has retreated 2.6 kilometres. A hut at its foot is used by researchers each summer.",
+      "sentence": 3,
+      "quote": "its snout has retreated 2.6 kilometres",
+      "looking_for": "the distance the glacier has retreated"
+    },
+    {
+      "question": "what is the highest mountain on Tessaly island",
+      "passage": "Ben Corrach is the highest mountain on the island of Tessaly, rising to 784 metres. Its summit is a broad plateau of shattered granite. The mountain was used as a signal station during the wars of the 1800s. A path from Kilbrae reaches the top in about three hours.",
+      "sentence": 1,
+      "quote": "the highest mountain on the island of Tessaly",
+      "looking_for": "the name of the island's highest mountain"
+    },
+    {
+      "question": "how tall is Ben Lurgan",
+      "passage": "Ben Lurgan is a mountain at the head of Glen Ausk, above the village of Craigend. It is a popular hill walk and is often climbed together with its neighbour Meall Odhar, which is 891 metres high. The mountain's north corrie holds snow well into June. Its name means the shank in the old language.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the height of the mountain"
+    },
+    {
+      "question": "what is the area of Drummond Forest",
+      "passage": "Drummond Forest is an ancient forest in the Hareby district. It was a royal hunting forest from the twelfth century until 1640. The forest today covers 5,700 hectares, about half its medieval extent. It is managed by the Drummond Conservators, a body created by statute in 1878.",
+      "sentence": 3,
+      "quote": "The forest today covers 5,700 hectares",
+      "looking_for": "the area of the forest"
+    },
+    {
+      "question": "what river does the Lyne flow into",
+      "passage": "The Lyne is a river in the Barrowdale district. It rises on Lyne Fell and flows south east for 38 kilometres. Below the village of Ashgill it joins the River Teal, of which it is the largest tributary. The Lyne's own main tributary is the Snaith Beck.",
+      "sentence": 3,
+      "quote": "it joins the River Teal",
+      "looking_for": "the name of the river it flows into"
+    },
+    {
+      "question": "how many lakes are in Varden Lakes National Park",
+      "passage": "Varden Lakes National Park is a national park in the far north, protecting a landscape of forest and open water. The park contains more than 260 lakes, the largest being Lake Ottra. It was established in 1979 and covers 2,100 square kilometres. Canoeing routes link many of the lakes.",
+      "sentence": 2,
+      "quote": "The park contains more than 260 lakes",
+      "looking_for": "the number of lakes in the park"
+    },
+    {
+      "question": "how many lakes are in the Selbrook Lakes",
+      "passage": "The Selbrook Lakes are a chain of lakes in the Tarran valley formed by glacial erosion. The largest, Upper Selbrook, is 3 kilometres long. The lakes are linked by the Selbrook River, which flows 27 kilometres through them. They have been a resort for anglers since the 1850s.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of lakes in the chain"
+    },
+    {
+      "question": "when was Hallin Reservoir built",
+      "passage": "Hallin Reservoir is a reservoir in the Fold Hills supplying water to the city of Bradmoor. It was built between 1891 and 1897 by the Bradmoor Corporation Waterworks. The dam is 34 metres high and 420 metres long. A road across the dam was closed to traffic in 1979.",
+      "sentence": 2,
+      "quote": "It was built between 1891 and 1897",
+      "looking_for": "the years the reservoir was built"
+    },
+    {
+      "question": "how tall is the Corve dam",
+      "passage": "Corve Water is a reservoir formed by damming the River Corve in 1958. The reservoir holds 46 million cubic metres of water. Its concrete dam is 71 metres high, the tallest in the region. The village of Corvedale was abandoned when the valley was flooded. Its church tower was demolished in 1957 for safety.",
+      "sentence": 3,
+      "quote": "Its concrete dam is 71 metres high",
+      "looking_for": "the height of the dam"
+    },
+    {
+      "question": "where is the Isle of Brennan",
+      "passage": "The Isle of Brennan is an island in the Narrow Sea between the mainland and the Holm Isles. It has an area of 88 square kilometres and a population of 4,600. The island's capital is Ardbrennan, a fishing port on the north coast. Brennan has its own parliament, the Brennan Moot, which first met in 1312.",
+      "sentence": 1,
+      "quote": "an island in the Narrow Sea between the mainland and the Holm Isles",
+      "looking_for": "the location of the island"
+    },
+    {
+      "question": "what is the capital of the Isle of Ravel",
+      "passage": "The Isle of Ravel is a self governing island in the Western Approaches. It has an area of 120 square kilometres and a population of 18,300. Its capital and largest town is Port Maddock, on the east coast. The island's former capital, Kirkravel, lost its status in 1869.",
+      "sentence": 3,
+      "quote": "Its capital and largest town is Port Maddock",
+      "looking_for": "the name of the island's capital"
+    },
+    {
+      "question": "who owns Larkhill Woods",
+      "passage": "Larkhill Woods is an area of ancient beech woodland on the chalk escarpment above Morley. The woods are owned by the Halverson Trust, which acquired them from the Larkhill estate in 1987. They were planted largely in the 1790s by the third Lord Larkhill. Bluebells carpet the woodland floor each May.",
+      "sentence": 2,
+      "quote": "The woods are owned by the Halverson Trust",
+      "looking_for": "the name of the woods' owner"
+    },
+    {
+      "question": "where does the Brisk river rise",
+      "passage": "The Brisk is a fast flowing river of the western moors, 52 kilometres long. It rises in a peat bog below Cawsand Tor at 470 metres. After leaving the moor it passes through Tavenham and Lydcott. It joins the Tamsin at Brisk Foot.",
+      "sentence": 2,
+      "quote": "It rises in a peat bog below Cawsand Tor",
+      "looking_for": "the place where the river begins"
+    },
+    {
+      "question": "how many species of bird are on Skerrow Island",
+      "passage": "Skerrow Island is a small uninhabited island known for its seabird colonies. Some 37 species of bird breed on the island, including puffins, guillemots and storm petrels. The island was last inhabited in 1931, when its final eleven residents left. It has been a nature reserve since 1956.",
+      "sentence": 2,
+      "quote": "Some 37 species of bird breed on the island",
+      "looking_for": "the number of bird species on the island"
+    },
+    {
+      "question": "when was the first ascent of Pic Varenne",
+      "passage": "Pic Varenne is a 3,560 metre mountain in the Aubrac Alps. Its first ascent was made on 2 September 1871 by the guide Jean Coutet and the English climber Henry Wallis. The normal route follows the south west ridge from the Varenne Hut. A winter ascent was first made in 1903.",
+      "sentence": 2,
+      "quote": "Its first ascent was made on 2 September 1871",
+      "looking_for": "the date of the first ascent"
+    },
+    {
+      "question": "how wide is the Marrow estuary",
+      "passage": "The Marrow estuary is the tidal mouth of the River Marrow, extending 18 kilometres inland from the sea. At its mouth the estuary is 4.5 kilometres wide. Its mudflats support large numbers of wintering waders. The port of Marrowby lies on the north bank.",
+      "sentence": 2,
+      "quote": "At its mouth the estuary is 4.5 kilometres wide",
+      "looking_for": "the width of the estuary"
+    },
+    {
+      "question": "what is the Varrich Water",
+      "passage": "The Varrich Water is a sea loch on the north coast, running 16 kilometres inland. At its head lies the village of Kinvarrich. The loch is used for salmon farming. A ferry crossed it at Ard until a bridge was built in 1972.",
+      "sentence": 1,
+      "quote": "a sea loch on the north coast",
+      "looking_for": "what kind of body of water it is"
+    },
+    {
+      "question": "which river forms the border between Ostland and Berrow",
+      "passage": "The Selwick forms the border between the provinces of Ostland and Berrow for most of its length. It is 98 kilometres long and rises in the Collin Hills. Several fords on the river were the scenes of battles in the 1400s. The river enters the sea at Selwick Haven.",
+      "sentence": 1,
+      "quote": "The Selwick forms the border between the provinces of Ostland and Berrow",
+      "looking_for": "the name of the river on the border"
+    },
+    {
+      "question": "who is head ranger at Thornby Common",
+      "passage": "Thornby Common is an area of open common land of 300 hectares north of Thornby. Commoners still have the right to graze cattle and ponies there. The common is cared for by a team of four rangers, led since 2021 by head ranger Priya Mallick. Her predecessor, Graham Stott, had led the team for 26 years. The common hosts an annual pony fair in October.",
+      "sentence": 3,
+      "quote": "led since 2021 by head ranger Priya Mallick",
+      "looking_for": "the name of the current head ranger"
+    },
+    {
+      "question": "who is the head ranger of Wexcombe Common",
+      "passage": "Wexcombe Common is a stretch of heath and woodland owned by the borough of Wexcombe. Its first head ranger, appointed in 1951, was Albert Rigby, who served until 1980. The ranger service now also looks after three smaller parks in the borough. Heather restoration work began in 2003.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the person who is head ranger now"
+    },
+    {
+      "question": "how many waterfalls are on the Ashen river",
+      "passage": "The Ashen is a short river that falls steeply from the Kerrow plateau to the coast. It is 21 kilometres long and drops 640 metres along its course. There are nine named waterfalls on the river, the highest being Ashen Force at 31 metres. A footpath follows the river for its whole length.",
+      "sentence": 3,
+      "quote": "There are nine named waterfalls on the river",
+      "looking_for": "the number of waterfalls on the river"
+    },
+    {
+      "question": "what is the Holm of Drey",
+      "passage": "The Holm of Drey is a small tidal island off the coast of Sandby, reached on foot at low water. It covers 6 hectares and rises to 22 metres. The ruins of a chapel built around 1150 stand on its summit. Grey seals haul out on its western rocks.",
+      "sentence": 1,
+      "quote": "a small tidal island off the coast of Sandby",
+      "looking_for": "what kind of place it is"
+    },
+    {
+      "question": "how long is the causeway to Lindsey Island",
+      "passage": "Lindsey Island is a tidal island in Hollin Bay. It has been inhabited since at least the seventh century, when a monastery was founded there. The island has a population of about 180. It is joined to the mainland by a causeway 2.4 kilometres long, which is covered at high tide. Tide tables are posted at both ends of the causeway.",
+      "sentence": 4,
+      "quote": "a causeway 2.4 kilometres long",
+      "looking_for": "the length of the causeway"
+    },
+    {
+      "question": "how long is the bridge to Calloway Island",
+      "passage": "Calloway Island is an island in the Upper Firth, 3 kilometres from the mainland at Tarbert Point. It has been linked to the mainland by a road bridge since 1994. Before the bridge opened, a car ferry made the crossing in twelve minutes. The bridge cost 31 million pounds to build.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the length of the bridge"
+    },
+    {
+      "question": "where is the source of the Arn",
+      "passage": "The Arn is the longest river in the Hollin uplands, flowing 131 kilometres to the sea. Its source is a spring called the Arnwell, high on the eastern side of Carn Dearg. The river is tidal below Arnford. Its estuary was once an important port for coal.",
+      "sentence": 2,
+      "quote": "Its source is a spring called the Arnwell",
+      "looking_for": "the location of the river's source"
+    },
+    {
+      "question": "who discovered the Fennel caves",
+      "passage": "The Fennel Caves are a system of limestone caves beneath Fennel Hill. The system has more than 14 kilometres of mapped passages. The caves were discovered in 1893 by two quarrymen, William Rudd and Samuel Hepple, who broke into a chamber while blasting. The first full survey was made by the Northern Caving Club in 1938. The show cave section opened to visitors in 1950.",
+      "sentence": 3,
+      "quote": "discovered in 1893 by two quarrymen, William Rudd and Samuel Hepple",
+      "looking_for": "the names of the people who discovered the caves"
+    },
+    {
+      "question": "who discovered the Morrow caves",
+      "passage": "The Morrow Caves are a series of sea caves on the Kelling coast. They were used by smugglers in the eighteenth century, according to local tradition. The caves were first surveyed in 1962 by the geologist Iris Penhallow. Several of them can only be entered by boat at low tide.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the person who found the caves"
+    },
+    {
+      "question": "how high is Grey Crag",
+      "passage": "Grey Crag is a fell in the Harter Hills. It reaches a height of 638 metres and has a summit cairn. The fell's eastern face is a popular rock climbing crag with routes first recorded in 1912. It is often climbed from the hamlet of Sadgill, 4 kilometres away.",
+      "sentence": 2,
+      "quote": "It reaches a height of 638 metres",
+      "looking_for": "the height of the fell"
+    },
+    {
+      "question": "who founded Pennock Gardens",
+      "passage": "Pennock Gardens is a botanic garden on the south coast, known for its subtropical plants. It was founded in 1834 by Augustus Pennock, a plant collector and merchant. His granddaughter Clara Pennock gave the gardens to the nation in 1949. The gardens are now run by the Pennock Gardens Trust.",
+      "sentence": 2,
+      "quote": "It was founded in 1834 by Augustus Pennock",
+      "looking_for": "the name of the garden's founder"
+    },
+    {
+      "question": "who founded Brackenridge Arboretum",
+      "passage": "Brackenridge Arboretum is a collection of trees on the estate of Brackenridge House. Its oldest trees were planted in the 1820s. The arboretum has been owned since 1972 by the Forestry Board, which opened it to the public. It holds national collections of maples and limes.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the arboretum's founder"
+    },
+    {
+      "question": "what lake does the Tarren flow out of",
+      "passage": "The Tarren flows out of Lake Hollis at its southern end and runs 60 kilometres to the Bay of Corwick. It is navigable for small boats as far as the town of Melby. A canal joins the river at Melby to the Elling Navigation. Its lower valley is a centre of fruit growing.",
+      "sentence": 1,
+      "quote": "The Tarren flows out of Lake Hollis",
+      "looking_for": "the name of the lake it flows from"
+    },
+    {
+      "question": "when was Imber Heath park enlarged",
+      "passage": "Imber Heath National Park is a park of heath, bog and pine forest in the south. It was established in 1957 with an area of 380 square kilometres. The park was enlarged in 2006 to take in the Rushmere valley, bringing it to 512 square kilometres. Its emblem is the sand lizard.",
+      "sentence": 3,
+      "quote": "The park was enlarged in 2006",
+      "looking_for": "the year the park was enlarged"
+    },
+    {
+      "question": "what is the highest point on Kellan island",
+      "passage": "Kellan is an island of the Outer Shoals, 19 kilometres long. Its highest point is Beinn Mhor, at 391 metres. The island's population of 640 lives mostly in the township of Scarp. Peat cutting remains common.",
+      "sentence": 2,
+      "quote": "Its highest point is Beinn Mhor",
+      "looking_for": "the name of the island's highest point"
+    },
+    {
+      "question": "what fish live in Lake Corrisdale",
+      "passage": "Lake Corrisdale is a deep lake in the Corrin Highlands. It is 9 kilometres long and reaches a depth of 140 metres. The lake lies in a basin carved by glaciers during the last ice age. Its fish include arctic char, brown trout and pike. Fishing permits are issued by the Corrisdale Angling Association.",
+      "sentence": 4,
+      "quote": "Its fish include arctic char, brown trout and pike",
+      "looking_for": "the kinds of fish in the lake"
+    },
+    {
+      "question": "when did the Kyle Isles become a park",
+      "passage": "The Kyle Isles are a group of eleven small islands at the entrance to Kyle Sound. None has been inhabited since 1890. The largest, Kyle Mor, has a ruined chapel and a working lighthouse. The islands are an important breeding site for terns and eider ducks. They were declared a marine park in 1999, together with the surrounding waters.",
+      "sentence": 5,
+      "quote": "They were declared a marine park in 1999",
+      "looking_for": "the year the islands became a park"
+    },
+    {
+      "question": "what river feeds Lake Ingram",
+      "passage": "Lake Ingram is a lake in the Barrin valley, 6 kilometres long. It is fed by the Barrin River, which enters at its northern end through a broad delta. The lake drains south into the Cowley Water. A hotel stood on its shore from 1880 to 1960.",
+      "sentence": 2,
+      "quote": "It is fed by the Barrin River",
+      "looking_for": "the name of the river feeding the lake"
+    },
+    {
+      "question": "what is the largest island in the Selk archipelago",
+      "passage": "Hulmsey is the largest island in the Selk archipelago, with an area of 72 square kilometres. The second largest, Brandsey, lies 4 kilometres to its south. The archipelago has a combined population of about 5,000. A bridge between Hulmsey and Brandsey opened in 1988.",
+      "sentence": 1,
+      "quote": "Hulmsey is the largest island in the Selk archipelago",
+      "looking_for": "the name of the largest island"
+    },
+    {
+      "question": "what is the largest island in the Tarrish Isles",
+      "passage": "The Tarrish Isles are a group of low islands in the Tarrish Firth. Six of the islands are inhabited, with a combined population of 2,300. The most populous, Easter Tarr, holds the group's only school and harbour. The islands are known for their dry stone walls and wild flowers.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the biggest island in the group"
+    },
+    {
+      "question": "how old is the Witley Oak",
+      "passage": "The Witley Oak is an ancient oak tree in Witley Chase park. Its trunk has a girth of 11.3 metres, the largest of any tree in the county. The tree is estimated to be about 900 years old. It was propped with iron supports in 1882.",
+      "sentence": 3,
+      "quote": "The tree is estimated to be about 900 years old",
+      "looking_for": "the age of the tree"
+    },
+    {
+      "question": "how many hectares is Bellcote Park",
+      "passage": "Bellcote Park is a deer park surrounding Bellcote Hall. It covers 340 hectares and holds a herd of around 600 fallow deer. The park wall, built in 1710, is 9 kilometres long. It is open to walkers year round.",
+      "sentence": 2,
+      "quote": "It covers 340 hectares",
+      "looking_for": "the area of the park"
+    },
+    {
+      "question": "how many deer are in Hartwell Park",
+      "passage": "Hartwell Park is a medieval deer park enclosed in 1290. It covers 220 hectares around the ruins of Hartwell Castle. Red and fallow deer roam freely, and visitors are asked to keep dogs on leads. The park was bought by the county council in 1967.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of deer in the park"
+    },
+    {
+      "question": "what is the Cleave Gorge",
+      "passage": "The Cleave Gorge is a limestone gorge cut by the River Cleave through the Mendell Hills. It is about 3 kilometres long and its cliffs reach 120 metres. The road through the gorge was built in 1801. The gorge's caves have yielded bones of cave bear and hyena.",
+      "sentence": 1,
+      "quote": "a limestone gorge cut by the River Cleave",
+      "looking_for": "what the gorge is"
+    },
+    {
+      "question": "how high are the cliffs of Ardnoch Head",
+      "passage": "Ardnoch Head is a headland at the northern tip of the Ardnoch peninsula. A lighthouse was built on the headland in 1846 by the engineer Thomas Stirrup. Its sandstone cliffs rise to 107 metres and are home to a large colony of gannets. The headland is owned by the National Coast Trust.",
+      "sentence": 3,
+      "quote": "Its sandstone cliffs rise to 107 metres",
+      "looking_for": "the height of the cliffs"
+    },
+    {
+      "question": "how far is Pellan Island from the mainland",
+      "passage": "Pellan Island is a granite island in the Western Sound. It lies 8 kilometres from the mainland at Cape Lowry. The island is 3 kilometres long and rises to 140 metres. It is owned by the Pellan Trust and has a resident warden.",
+      "sentence": 2,
+      "quote": "It lies 8 kilometres from the mainland",
+      "looking_for": "the distance from the mainland"
+    },
+    {
+      "question": "who is the warden on Fallow Island",
+      "passage": "Fallow Island is a small island in the Merrin Sound managed as a bird observatory. The observatory was founded in 1955 by the ornithologist Ralph Gedge. It records more than 200 species of migrating bird each year. The island's resident warden is Hannah Okafor, who took up the post in 2022. Visitors may stay in the observatory hostel from March to October.",
+      "sentence": 4,
+      "quote": "The island's resident warden is Hannah Okafor",
+      "looking_for": "the name of the island's current warden"
+    },
+    {
+      "question": "who is the warden on Gannet Holm",
+      "passage": "Gannet Holm is a rocky islet in the outer firth, home to one of the largest gannet colonies in the country. The colony numbers about 41,000 pairs. A warden lived on the island each summer from 1950 until 1988, the last being Duncan Frew. Landing is now permitted only with a licence.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the island's current warden"
+    },
+    {
+      "question": "how big is Lake Tarrow",
+      "passage": "Lake Tarrow is the largest natural lake in the southern plains. It has an area of 112 square kilometres but is only 4 metres deep at most. The lake is fed by the Tarrow and the Quill and has no natural outlet. Its water level has fallen by 2 metres since 1950 because of irrigation.",
+      "sentence": 2,
+      "quote": "It has an area of 112 square kilometres",
+      "looking_for": "the size of the lake"
+    },
+    {
+      "question": "when did the Gale river flood",
+      "passage": "The Gale is a river in the eastern lowlands, 84 kilometres long. It passes through the city of Hornsey and enters the sea at Galemouth. The worst flood on record struck in November 1866, when the river rose 6 metres at Hornsey and swept away the old bridge. Flood walls were built along the river in the 1970s.",
+      "sentence": 3,
+      "quote": "The worst flood on record struck in November 1866",
+      "looking_for": "the date of the flood"
+    },
+    {
+      "question": "who first crossed the Tarran Icefield",
+      "passage": "The Tarran Icefield is a large ice field in the Morvane Ranges. It was first crossed in 1938 by a party of four led by the surveyor Nora Lindqvist. The ice field covers about 2,600 square kilometres and feeds 31 glaciers. A research station has operated on its eastern margin since 1974.",
+      "sentence": 2,
+      "quote": "It was first crossed in 1938 by a party of four led by the surveyor Nora Lindqvist",
+      "looking_for": "the name of the first person to cross it"
+    },
+    {
+      "question": "what is Saltmarsh Point",
+      "passage": "Saltmarsh Point is a shingle spit at the mouth of the River Cray, extending 5 kilometres into the sea. It is still growing by about 10 metres a year. A lifeboat station was built at its tip in 1874. The spit is a national nature reserve.",
+      "sentence": 1,
+      "quote": "a shingle spit at the mouth of the River Cray",
+      "looking_for": "what kind of feature it is"
+    },
+    {
+      "question": "what is the speed limit for boats on Lake Wyvenhoe",
+      "passage": "Lake Wyvenhoe is a lake in the Ashworth Hills popular for sailing and rowing. It is 7 kilometres long and has six public landing stages. Powered boats are limited to a speed of 10 knots on the lake. The limit was introduced in 1985 after a fatal collision.",
+      "sentence": 3,
+      "quote": "Powered boats are limited to a speed of 10 knots",
+      "looking_for": "the speed limit for boats"
+    },
+    {
+      "question": "what is the speed limit on Lake Carrigan",
+      "passage": "Lake Carrigan is a reservoir used for water skiing and power boating. Boats must be registered with the Carrigan Water Authority before launching. The authority closed the lake to motor boats for most of 2016 while the dam was repaired. The lake hosts a national water skiing championship each August.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the maximum speed allowed on the lake"
+    },
+    {
+      "question": "what is the Tor of Bellow made of",
+      "passage": "The Tor of Bellow is a rock outcrop on the summit of Bellow Hill. It is made of a coarse pink granite, rich in large feldspar crystals. The tor reaches 19 metres above the surrounding moor. A logan stone on its top could once be rocked by hand.",
+      "sentence": 2,
+      "quote": "a coarse pink granite",
+      "looking_for": "the rock the tor is made of"
+    },
+    {
+      "question": "how many people visit Harland Lakes each year",
+      "passage": "The Harland Lakes are a group of three lakes in a wooded valley north of Pelham. They were created in the 1780s by damming the Harland Brook to ornament the grounds of Harland Court. Around 900,000 people visit the lakes each year. The upper lake is reserved for wildlife.",
+      "sentence": 3,
+      "quote": "Around 900,000 people visit the lakes each year",
+      "looking_for": "the number of visitors per year"
+    },
+    {
+      "question": "when was the Moss Hollow park opened",
+      "passage": "Moss Hollow is a public park on the site of a former clay pit in Ellenbury. The park opened to the public on 1 June 1985 after ten years of restoration. The clay pit had been worked from 1860 until 1971. Its lake is now used for fishing.",
+      "sentence": 2,
+      "quote": "The park opened to the public on 1 June 1985",
+      "looking_for": "the date the park opened"
+    },
+    {
+      "question": "who designed Lorimer Park",
+      "passage": "Lorimer Park is a public park in the north of Castlebury. It covers 42 hectares and includes a boating lake and a rose garden. The land was left to the city in 1880 by the brewer Henry Lorimer. A competition for its design attracted 63 entries. The winning design was by the landscape gardener Alfred Sutcliffe, and the park opened in 1884.",
+      "sentence": 5,
+      "quote": "The winning design was by the landscape gardener Alfred Sutcliffe",
+      "looking_for": "the name of the person who designed the park"
+    },
+    {
+      "question": "what county is Gallow Fell in",
+      "passage": "Gallow Fell is a hill in the county of Westmore, on the border with Ancaster. It rises to 521 metres. Its name refers to a gallows that stood near the summit until 1780. A wind farm was built on its western slopes in 2009.",
+      "sentence": 1,
+      "quote": "a hill in the county of Westmore",
+      "looking_for": "the county the hill is in"
+    },
+    {
+      "question": "what is the old name of Lake Pennith",
+      "passage": "Lake Pennith is a lake on the edge of the Aird Forest. Until 1850 it was known as Black Mere, from the dark peaty colour of its water. It was renamed after the Pennith family, who bought the surrounding estate. The lake is 2 kilometres long.",
+      "sentence": 2,
+      "quote": "it was known as Black Mere",
+      "looking_for": "the earlier name of the lake"
+    },
+    {
+      "question": "what was the old name of Mount Seravin",
+      "passage": "Mount Seravin is a mountain of 2,410 metres in the Callan Range. It was renamed in 1923 in honour of the botanist Lucia Seravin. Lucia Seravin had collected over 3,000 plant specimens on its slopes. The mountain is popular with ski tourers.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the mountain's earlier name"
+    },
+    {
+      "question": "what is the water temperature of the Ellin springs",
+      "passage": "The Ellin Springs are a group of hot springs in the Ellin valley. They have been used for bathing since at least the twelfth century. The water emerges at a temperature of 46 degrees Celsius. A spa hotel was built beside them in 1896.",
+      "sentence": 3,
+      "quote": "The water emerges at a temperature of 46 degrees Celsius",
+      "looking_for": "the temperature of the spring water"
+    },
+    {
+      "question": "where is the Wendle Marsh visitor centre",
+      "passage": "Wendle Marsh is a large wetland nature reserve on the Wendle estuary. It covers 1,800 hectares of reed bed, salt marsh and lagoon. The reserve was established in 1966 by the Society for Bird Protection. Its visitor centre stands at Wendle Staithe, at the northern end of the reserve. A boardwalk leads from there to four hides.",
+      "sentence": 4,
+      "quote": "Its visitor centre stands at Wendle Staithe",
+      "looking_for": "the location of the visitor centre"
+    },
+    {
+      "question": "what is Carrowmoss",
+      "passage": "Carrowmoss is a raised bog in the lowlands west of Duncairn, one of the largest remaining in the region. It covers 640 hectares and its peat is up to 9 metres deep. Peat was cut commercially from 1890 until 1994. The bog is now being rewetted by the Lowland Bog Partnership.",
+      "sentence": 1,
+      "quote": "a raised bog in the lowlands west of Duncairn",
+      "looking_for": "what kind of place it is"
+    },
+    {
+      "question": "which river is the longest tributary of the Draycott",
+      "passage": "The Annet Water is the longest tributary of the River Draycott, joining it at Kilbride after a course of 58 kilometres. It rises in the Caddon Hills. The Annet drains the whole of the Caddon valley. Its own main feeder, the Linn Burn, joins it at Annetfoot.",
+      "sentence": 1,
+      "quote": "the longest tributary of the River Draycott",
+      "looking_for": "the name of the longest tributary"
+    },
+    {
+      "question": "which park are the Wren Steps falls in",
+      "passage": "The Wren Steps are a series of cascades in Coldwater Valley Regional Park. The cascades descend 42 metres over seven rock ledges. A footbridge crosses below the lowest step. The falls are fed by the Wren Brook.",
+      "sentence": 1,
+      "quote": "a series of cascades in Coldwater Valley Regional Park",
+      "looking_for": "the name of the park containing the falls"
+    },
+    {
+      "question": "what is the highest peak in the Callow Range",
+      "passage": "Mount Brecca is the highest peak in the Callow Range, at 2,316 metres. It was first climbed in 1882 by the surveyor Oskar Lind. The neighbouring Mount Fane, at 2,290 metres, is often mistaken for it from the valley. Both peaks lie within the Callow Wilderness.",
+      "sentence": 1,
+      "quote": "Mount Brecca is the highest peak in the Callow Range",
+      "looking_for": "the name of the range's highest peak"
+    },
+    {
+      "question": "how long is Morva Sands",
+      "passage": "Morva Sands is a beach of 6 kilometres on the west coast of the Penroth peninsula. It is backed by dunes rising to 30 metres. The beach is popular with surfers. Lifeguards patrol it from May to September.",
+      "sentence": 1,
+      "quote": "a beach of 6 kilometres",
+      "looking_for": "the length of the beach"
+    },
+    {
+      "question": "which island is Mount Kerris on",
+      "passage": "Mount Kerris is the highest point on the island of Gwennack, at 412 metres. Its slopes are covered with heather and bracken. A cairn on the summit marks a Bronze Age burial. The island lies 30 kilometres off the coast.",
+      "sentence": 1,
+      "quote": "the highest point on the island of Gwennack",
+      "looking_for": "the name of the island the mountain is on"
+    },
+    {
+      "question": "what is the Kelpie Pool",
+      "passage": "The Kelpie Pool is a deep plunge pool below Ardlinn waterfall on the River Ard. It is about 12 metres deep. Local legend says a water horse lives in it. Swimming in the pool is discouraged because of strong currents.",
+      "sentence": 1,
+      "quote": "a deep plunge pool below Ardlinn waterfall",
+      "looking_for": "what the pool is"
+    },
+    {
+      "question": "where is the Quarry Hills country park",
+      "passage": "Quarry Hills Country Park lies on the southern edge of the town of Ashleigh, in the old slate workings of the Ashleigh valley. It was opened in 1974 by the county council. The park covers 180 hectares and has a narrow gauge railway. Its quarry lake is used for diving training.",
+      "sentence": 1,
+      "quote": "lies on the southern edge of the town of Ashleigh",
+      "looking_for": "the location of the country park"
+    },
+    {
+      "question": "what is Oskholm",
+      "passage": "Oskholm is a low coral island in the Southern Reef, rising nowhere more than 4 metres above the sea. It is 2 kilometres long and ringed by a lagoon. About 90 people live in a single village on its western side. The island was claimed by the Crown in 1888.",
+      "sentence": 1,
+      "quote": "a low coral island in the Southern Reef",
+      "looking_for": "what kind of place it is"
+    },
+    {
+      "question": "which lake is the source of the river Vey",
+      "passage": "The Vey rises at Lake Ullin, high in the Marn Hills, and runs 70 kilometres to the sea. Its main tributaries are the Strath and the Cally. The river passes through the city of Veyford. Its estuary is a site of international importance for wildfowl.",
+      "sentence": 1,
+      "quote": "The Vey rises at Lake Ullin",
+      "looking_for": "the name of the lake the river rises from"
+    },
+    {
+      "question": "what is the Tullow Bank",
+      "passage": "The Tullow Bank is a sandbank in the outer firth, exposed at low tide over an area of 9 square kilometres. It is a haul out site for about 1,200 common seals. Ships have run aground on the bank many times, most famously the steamer Orla in 1907. A light buoy marks its northern end.",
+      "sentence": 1,
+      "quote": "a sandbank in the outer firth",
+      "looking_for": "what kind of feature it is"
+    },
+    {
+      "question": "how high is the Pikestone",
+      "passage": "The Pikestone is a sea stack 64 metres high off the coast of Hellay. It was first climbed in 1966 by a party from the Hellay Climbing Club. The stack is separated from the cliffs by a channel 40 metres wide. Fulmars and kittiwakes nest on its ledges.",
+      "sentence": 1,
+      "quote": "a sea stack 64 metres high",
+      "looking_for": "the height of the sea stack"
+    },
+    {
+      "question": "what river flows out of Lake Annock",
+      "passage": "The River Selle flows out of Lake Annock and carries its water 45 kilometres east to the Larrow. A weir at the outflow controls the level of the lake. The Selle valley is noted for its water meadows. The river was made navigable as far as Sellbridge in 1760.",
+      "sentence": 1,
+      "quote": "The River Selle flows out of Lake Annock",
+      "looking_for": "the name of the river leaving the lake"
+    },
+    {
+      "question": "how deep is Lake Vennor",
+      "passage": "Lake Vennor is a crater lake occupying the caldera of an extinct volcano. It is 210 metres deep, the deepest lake in the country. The lake is almost perfectly circular and 2.8 kilometres across. Its water is a deep blue colour because of its depth and clarity.",
+      "sentence": 2,
+      "quote": "It is 210 metres deep",
+      "looking_for": "the depth of the lake"
+    },
+    {
+      "question": "who owns the Isle of Sarne",
+      "passage": "The Isle of Sarne is an island of 14 square kilometres in the Lissan Channel. It is owned by the Sarne Community Trust, which bought it from a private landowner in 2001. The previous owner, the businessman Cecil Varley, had held it since 1974. About 80 people live on the island.",
+      "sentence": 2,
+      "quote": "It is owned by the Sarne Community Trust",
+      "looking_for": "the name of the island's owner"
+    },
+    {
+      "question": "when was Mount Kessan national park created",
+      "passage": "Mount Kessan National Park protects the mountain and the forests around its base. It was created in 1912, making it one of the oldest parks in the country. The mountain itself rises to 2,980 metres. Its forests were heavily logged before 1900.",
+      "sentence": 2,
+      "quote": "It was created in 1912",
+      "looking_for": "the year the park was created"
+    },
+    {
+      "question": "what is the population of Hesketh Island",
+      "passage": "Hesketh Island is an island in the Bay of Callis, connected to the mainland by a ferry. It has a population of 1,740 according to the 2021 census. The island's population fell steadily from a peak of 3,900 in 1901. Its main village is Kirkhesketh.",
+      "sentence": 2,
+      "quote": "It has a population of 1,740",
+      "looking_for": "the number of people on the island"
+    },
+    {
+      "question": "how long is the River Cale",
+      "passage": "The Cale is a river in the north east, a tributary of the Dorran. It is 37 kilometres long from its source at Cale Head to its mouth at Dorran Bridge. The Cale valley was once the centre of the region's lead mining. Some 400 miners worked there in 1850.",
+      "sentence": 2,
+      "quote": "It is 37 kilometres long",
+      "looking_for": "the length of the river"
+    },
+    {
+      "question": "when did the Mallen landslide happen",
+      "passage": "The Mallen landslide was a major landslip on the eastern face of Mallen Crag. It occurred on the night of 17 February 1903, after weeks of heavy rain. About 2 million tonnes of rock fell into the Mallen valley, blocking the river. A lake formed behind the debris and remained until 1911.",
+      "sentence": 2,
+      "quote": "It occurred on the night of 17 February 1903",
+      "looking_for": "the date of the landslide"
+    },
+    {
+      "question": "where is Lake Drummore",
+      "passage": "Lake Drummore is a freshwater lake known for its population of arctic char. It lies at the head of Glen Drummore, 14 kilometres north of the village of Inverlarig. The lake is 8 kilometres long. A hydroelectric scheme raised its level by 6 metres in 1955.",
+      "sentence": 2,
+      "quote": "It lies at the head of Glen Drummore",
+      "looking_for": "the location of the lake"
+    },
+    {
+      "question": "who runs Kitto Point park",
+      "passage": "Kitto Point is a coastal park on a wooded headland above the harbour of Polgarrow. It is run by the National Coast Trust, which took it over from the town council in 1997. The park has a ruined artillery battery from the 1890s. Its woods are mostly holm oak planted in the 1800s.",
+      "sentence": 2,
+      "quote": "It is run by the National Coast Trust",
+      "looking_for": "the name of the body that runs the park"
+    },
+    {
+      "question": "how many people climb Mount Varo each year",
+      "passage": "Mount Varo is the most climbed peak in the Sarren Hills. About 120,000 people reach its summit each year, most by the tourist path from Varo Bridge. The mountain rises to 1,085 metres. A summit café operated from 1898 until 1968.",
+      "sentence": 2,
+      "quote": "About 120,000 people reach its summit each year",
+      "looking_for": "the number of people climbing it yearly"
+    },
+    {
+      "question": "when was Tarrock Island abandoned",
+      "passage": "Tarrock Island is an island in the outer sound, once home to a crofting community. Its last residents left on 29 August 1936, when the community asked to be moved to the mainland. At its height in 1851 the island had 168 people. It is now owned by a conservation charity.",
+      "sentence": 2,
+      "quote": "Its last residents left on 29 August 1936",
+      "looking_for": "the date the island was abandoned"
+    },
+    {
+      "question": "what rock is Mount Pellow made of",
+      "passage": "Mount Pellow is a prominent peak at the western end of the Aske Range. The mountain is made almost entirely of quartzite, which gives its summit a pale grey colour. It rises to 1,420 metres. The quartzite was quarried on its lower slopes until 1958.",
+      "sentence": 2,
+      "quote": "made almost entirely of quartzite",
+      "looking_for": "the rock the mountain is made of"
+    },
+    {
+      "question": "who is the chair of the Fernlee Park authority",
+      "passage": "The Fernlee Park Authority is the body that manages Fernlee National Park. Its chair since 2023 has been Margaret Osei, a former farmer from the Fernlee valley. The authority has 18 members, nine appointed by local councils. Its first chair was Sir Lionel Hythe, who served from 1951 to 1962.",
+      "sentence": 2,
+      "quote": "Its chair since 2023 has been Margaret Osei",
+      "looking_for": "the name of the current chair"
+    },
+    {
+      "question": "how many lochs are on Ulvinsay",
+      "passage": "Ulvinsay is a low, boggy island in the northern isles. It has more than 400 freshwater lochs, which cover nearly a quarter of its surface. The largest is Loch Grenn, 3 kilometres long. About 1,900 people live on the island.",
+      "sentence": 2,
+      "quote": "It has more than 400 freshwater lochs",
+      "looking_for": "the number of lochs on the island"
+    },
+    {
+      "question": "when was Kittiwake Bay marine park set up",
+      "passage": "Kittiwake Bay Marine Park protects the waters and seabed of Kittiwake Bay and its offshore reefs. It was set up in 1993 following a campaign by local divers and fishermen. The park covers 74 square kilometres of sea. Commercial trawling has been banned within it since 2001.",
+      "sentence": 2,
+      "quote": "It was set up in 1993",
+      "looking_for": "the year the marine park was set up"
+    },
+    {
+      "question": "how tall is the Grey Man of Skellan",
+      "passage": "The Grey Man of Skellan is a natural rock pillar on the moor above Skellan. It stands 14 metres tall and is made of gritstone. The pillar has been climbed since the 1890s. Its name comes from its resemblance to a hooded figure.",
+      "sentence": 2,
+      "quote": "It stands 14 metres tall",
+      "looking_for": "the height of the rock pillar"
+    },
+    {
+      "question": "who is Lake Hardwick named after",
+      "passage": "Lake Hardwick is a lake in the interior of the southern territory. It is named after Admiral James Hardwick, who sponsored the expedition that reached it in 1839. The expedition itself was led by the naturalist Peter Coombe. The lake is fed by seasonal rivers.",
+      "sentence": 2,
+      "quote": "It is named after Admiral James Hardwick",
+      "looking_for": "the person the lake is named after"
+    },
+    {
+      "question": "how many kilometres of paths are in Hollinwood Park",
+      "passage": "Hollinwood Park is a country park in the hills above Cresswick. It was created in 1971 from the grounds of Hollinwood House. The park has 26 kilometres of waymarked paths and two lakes. Its rangers lead guided walks every Sunday.",
+      "sentence": 3,
+      "quote": "The park has 26 kilometres of waymarked paths",
+      "looking_for": "the length of the park's paths"
+    },
+    {
+      "question": "when did Lake Ardrey last freeze over",
+      "passage": "Lake Ardrey is a shallow lake in the central plain, popular for skating in cold winters. Records of the lake freezing go back to 1740. It last froze over completely in January 2010, when skating races were held on it. The longest freeze on record lasted 61 days in the winter of 1895.",
+      "sentence": 3,
+      "quote": "It last froze over completely in January 2010",
+      "looking_for": "the date the lake last froze"
+    },
+    {
+      "question": "what is the tallest tree in Halswood Forest",
+      "passage": "Halswood Forest is a mixed forest of oak, beech and conifer in the Crane Vale. It covers 3,200 hectares and is managed for timber and recreation. The forest's oldest tree is the King's Oak, thought to be 800 years old. Its tallest tree is a Douglas fir known as the Halswood Giant, measured at 62 metres in 2019. The forest has a visitor centre at Halswood Lodge.",
+      "sentence": 4,
+      "quote": "Its tallest tree is a Douglas fir known as the Halswood Giant",
+      "looking_for": "the name of the forest's tallest tree"
+    },
+    {
+      "question": "what is the area of Lake Corvan",
+      "passage": "Lake Corvan is a lake on the border between the provinces of Hessel and Marr. It is 31 kilometres long and up to 7 kilometres wide. The lake has a surface area of 154 square kilometres, the largest in either province. Its deepest point is 96 metres.",
+      "sentence": 3,
+      "quote": "The lake has a surface area of 154 square kilometres",
+      "looking_for": "the surface area of the lake"
+    },
+    {
+      "question": "when was Gorse Hill country park opened",
+      "passage": "Gorse Hill Country Park is a park of heath and woodland on a sandstone ridge. The land was a military training area from 1915 to 1968. It opened as a country park in 1974, after the army handed it to the county council. A memorial to soldiers who trained there was unveiled in 2014.",
+      "sentence": 3,
+      "quote": "It opened as a country park in 1974",
+      "looking_for": "the year the park opened"
+    },
+    {
+      "question": "who first swam the length of Lake Ostwick",
+      "passage": "Lake Ostwick is a large lake in the northern lake district. It is 11 kilometres long and is the second largest lake in the district. The water is cold even in summer, rarely rising above 16 degrees Celsius. Swimming the length of the lake has become a popular challenge. The first person known to have swum it was the schoolteacher Agnes Boyle, in 1911.",
+      "sentence": 5,
+      "quote": "The first person known to have swum it was the schoolteacher Agnes Boyle",
+      "looking_for": "the name of the first person to swim it"
+    },
+    {
+      "question": "how many campsites are in Glenvarrie Forest Park",
+      "passage": "Glenvarrie Forest Park is a forest park in the hills north of the Lorry Firth. It was established in 1952 and covers 190 square kilometres. The park has four campsites, the largest being at Loch Varrie. More than 50 kilometres of forest roads are open to cyclists.",
+      "sentence": 3,
+      "quote": "The park has four campsites",
+      "looking_for": "the number of campsites in the park"
+    },
+    {
+      "question": "where does the Harle river end",
+      "passage": "The Harle is a river of the central lowlands. It rises on Brown Law in the Pentle Hills and is 66 kilometres long. It flows north through the towns of Westby Harle and Dunmere Bridge. The river ends at its confluence with the Ashet at Harlefoot. Its lower course was straightened in the 1830s to reduce flooding.",
+      "sentence": 4,
+      "quote": "The river ends at its confluence with the Ashet at Harlefoot",
+      "looking_for": "the place where the river ends"
+    },
+    {
+      "question": "when did Corrie Isle get electricity",
+      "passage": "Corrie Isle is a small island in the inner isles, 5 kilometres long. It has a population of about 60 people. Most of them live in the village of Balcorrie on the east coast. The island has a primary school, a shop and a post office. Its pier was rebuilt in 1987. Mains electricity reached the island in 1958, by an undersea cable.",
+      "sentence": 6,
+      "quote": "Mains electricity reached the island in 1958",
+      "looking_for": "the year the island got electricity"
+    },
+    {
+      "question": "how many bridges cross the Quenby in Quenbury",
+      "passage": "The Quenby is a river of the southern lowlands, 49 kilometres long. It flows through the city of Quenbury, where it is tidal. Eleven bridges cross the river within the city, the oldest dating from 1342. A flood barrier at its mouth was completed in 1991.",
+      "sentence": 3,
+      "quote": "Eleven bridges cross the river within the city",
+      "looking_for": "the number of bridges across the river"
+    },
+    {
+      "question": "how much water does Lake Tallan hold",
+      "passage": "Lake Tallan is a reservoir in the Brenn Hills built to supply the city of Hessington. Construction began in 1928 and the dam was finished in 1935. The reservoir is 5 kilometres long and flooded the hamlet of Tallan End. When full it holds 62 million cubic metres of water. Walking is permitted on the shore path.",
+      "sentence": 4,
+      "quote": "When full it holds 62 million cubic metres of water",
+      "looking_for": "the volume of water the reservoir holds"
+    },
+    {
+      "question": "what is the highest summit on Cragsay",
+      "passage": "Cragsay is a mountainous island off the north west coast. It is 20 kilometres long and 12 kilometres wide. The island has a population of around 250, most of whom live in the township of Ord. Its mountains are known as the Cragsay Hills. The highest summit is Sgurr Fionn, which reaches 812 metres.",
+      "sentence": 5,
+      "quote": "The highest summit is Sgurr Fionn",
+      "looking_for": "the name of the island's highest summit"
+    },
+    {
+      "question": "how old is the rock at Morrin Head",
+      "passage": "Morrin Head is a headland of folded rock on the east coast. Its cliffs show some of the finest examples of rock folding in the country. The rocks are about 420 million years old and were laid down as sediment in an ancient ocean. Geology students visit the headland in large numbers each spring.",
+      "sentence": 3,
+      "quote": "The rocks are about 420 million years old",
+      "looking_for": "the age of the rock"
+    },
+    {
+      "question": "who is the current owner of Larch Island",
+      "passage": "Larch Island is a wooded island in Lake Ammer, 400 metres from the shore. It was bought in 1902 by the industrialist Gustav Brenner, who built a summer villa on it. Brenner's heirs sold the villa's contents at auction in 1960. The island can be visited by boat from Ammerdorf in summer.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the island's current owner"
+    },
+    {
+      "question": "how many people visit Lake Sedge each year",
+      "passage": "Lake Sedge is a lake in the eastern forest, surrounded by reed beds. It has an area of 3 square kilometres and is no more than 5 metres deep. The lake is home to more than 200 species of bird, including the great crested grebe. A car park and picnic area were opened on the north shore in 1999.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of yearly visitors"
+    },
+    {
+      "question": "when was Mount Halvar first climbed",
+      "passage": "Mount Halvar is a 4,012 metre peak in the Stenn Range, notorious for its avalanches. The first attempt on the mountain was made in 1888 by a party led by Erich Holtz, who turned back below the summit ridge. A second attempt in 1891 ended when two climbers were killed. The mountain's north face remains one of the hardest routes in the range.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the date of the first successful ascent"
+    },
+    {
+      "question": "how long is the River Tolley",
+      "passage": "The Tolley is a river of the western uplands and a tributary of the Wenlow. Its catchment covers 320 square kilometres. The river is fed by more than forty streams, the longest being the 14 kilometre Brent Brook. Salmon run up the Tolley each autumn.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the length of the river"
+    },
+    {
+      "question": "when was Lake Hennet formed",
+      "passage": "Lake Hennet is a lake in the upper Hennet valley. It is 3 kilometres long and 40 metres deep. The lake was first described in writing by the traveller Ann Coyle in 1774. Its outflow powers a small hydroelectric station built in 1931.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the time the lake was formed"
+    },
+    {
+      "question": "what is the highest waterfall in Kettlemoor park",
+      "passage": "Kettlemoor National Park contains dozens of waterfalls on the rivers that drain its moorland plateau. The best known is Ludd Force, a broad fall of 14 metres on the River Ludd. Ludd Force is visited by more than 200,000 people each year. Many of the park's falls are in deep wooded gorges.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the park's highest waterfall"
+    },
+    {
+      "question": "what is the area of Brigsay",
+      "passage": "Brigsay is an island in the Farran Isles, lying north of the main island of Farra. It is 7 kilometres long from north to south. The island has a population of about 90, who live mostly from fishing and sheep farming. Its highest hill is 156 metres.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the area of the island"
+    },
+    {
+      "question": "who holds the record for swimming Lake Brannan",
+      "passage": "Lake Brannan is a lake of 9 kilometres in the Morran Hills, where an open water swim is held each summer. The swim was first held in 1978 and now attracts about 800 swimmers. Last year's race was won by Ellie Marchant in a time of 2 hours 11 minutes. The water temperature on race day is usually about 15 degrees Celsius.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the person holding the record"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+PIGEON-SEAL-V1
+d7076912d1c9786ca76231a2a77cef475b7fafbe4950a8ecc430af171422993c  code/skills/index.js
+150e1f00b2f3b1ebec42c447bc0046ebf082debbd20cbfe93a65a71613b6fcf2  pigeon.json
+5e72a79dfd60a7015457c7021d23064a460040e04191a6a15453da2007077bc9  prompts/planner.json

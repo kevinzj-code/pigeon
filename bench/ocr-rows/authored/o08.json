@@ -1,0 +1,605 @@
+{
+  "batch": "o08",
+  "texts": [
+    {
+      "kind": "receipt",
+      "text": "KESTREL FOODS\n418 Wellesley Ave, Port Carrick ON L7R 2M4\n(905) 555-0148\n2% Milk 4L $6.49\nSourdough loaf $4.99\nOld cheddar 400 g $7.79\nPaper towels 6 rolls $8.99 H\nSubtotal $28.26\nHST 13% $1.17\nTotal $29.43\nInterac debit ****2205\n2026-03-14 18:22 Lane 3"
+    },
+    {
+      "kind": "receipt",
+      "text": "Lantern & Loon Coffee\nOrder #4471 Counter\nLarge double-double 2.35\nMaple dip doughnut x2 3.18\nBreakfast sandwich, egg & cheese 5.49\nOat milk London Fog 5.25\nSubtotal 16.27\nHST 2.12\nTotal 18.39\nPaid Visa tap\nOct 3, 2026 7:41 AM"
+    },
+    {
+      "kind": "receipt",
+      "text": "Northshore Home & Hardware\n1190 Dufferin Rd, Port Carrick\nDeck screws #8 x 2 1/2 in, 1 lb $12.97\nSnow brush 24 in $14.99\nWasher fluid -40°C 3.78 L x2 $9.96\nIce melter 10 kg $16.49\nSubtotal $54.41\nHST 13% $7.07\nTotal $61.48\nMastercard ****7730 Auth 318842\n11/22/2026 4:06 PM Reg 02"
+    },
+    {
+      "kind": "receipt",
+      "text": "Chez Mirabelle Bistro\nTable 12, Server: Annick\nSoupe à l'oignon 9.50\nTourtière with greens 22.00\nSteak frites 31.00\nPouding chômeur 8.50\nHouse red, 2 glasses 24.00\nSubtotal 95.00\nHST 12.35\nTotal 107.35\nTip 18% 19.32 Paid 126.67 Amex"
+    },
+    {
+      "kind": "receipt",
+      "text": "MAPLEGATE PHARMACY\n77 King St W, Unit 4\nRx #2208417 Amoxicillin 500 mg x21\nDispensing fee $11.99\nDrug cost $14.36\nInsurance paid -$20.28\nYou pay $6.07\nLip balm SPF 15 $4.29 H\nHST $0.56\nTotal $10.92\n2026/01/09 13:15"
+    },
+    {
+      "kind": "receipt",
+      "text": "PORTAGE FUELS #118\n3305 Lakeshore Blvd E\nPump 6 Regular\n42.315 L @ 154.9¢/L\nFuel total $65.55\nCar wash Deluxe $15.82\nTOTAL $81.37\nTaxes included, HST No. 814527790 RT0001\nRewards points earned: 81\nFeb 14/26 06:58"
+    },
+    {
+      "kind": "receipt",
+      "text": "Bramble & Quill Books\nUsed: The Long Portage (pb) $7.50\nNew: Prairie Birds Field Guide $26.95\nNew: Moose on the Loose (hc) $19.99\nMember discount 10% -$5.44\nSubtotal $49.00\nGST 5% $2.45\nTotal $51.45\nCash $60.00 Change $8.55\n14.08.2026 15:37"
+    },
+    {
+      "kind": "receipt",
+      "text": "Sparkle Valet Cleaners\nTicket No. 05518\nShirts laundered, 5 @ 3.25 16.25\nWool coat 24.00\nDuvet, queen 32.50\nSubtotal 72.75\nHST 9.46\nTotal 82.21\nReady Thurs. Nov 5 after 3 pm"
+    },
+    {
+      "kind": "receipt",
+      "text": "Carrick Memorial Arena Snack Bar\nPoutine regular x2 $15.00\nHot chocolate x3 $7.50\nBag of popcorn $4.50\nBottled water $2.75\nSubtotal $29.75\nHST $3.87\nTotal $33.62\nGo Lakers! Game day 2026-12-19"
+    },
+    {
+      "kind": "receipt",
+      "text": "City of Port Carrick Parking\nLot 14, Harbourfront\nEntry 09:12 Exit 13:47\nDuration 4 h 35 min\nRate $3.50/hr, daily max. $18.00\nAmount $17.50\nHST included $2.01\nPaid by credit card\nReceipt 0049-221837"
+    },
+    {
+      "kind": "receipt",
+      "text": "St. Anne's Farmers' Market, Stall 22\nHoneycrisp apples 3 lb $6.75\nWild blueberries 1 pint $7.00\nTourtière, frozen $18.00\nWildflower honey 500 g $12.50\nTotal $44.25\nPaid cash, thank you! Merci!"
+    },
+    {
+      "kind": "receipt",
+      "text": "VOLTA ELECTRONICS\nStore 031, 2600 Sheppard Ave\nUSB-C cable 2 m 19.99\nWireless mouse 34.99\nExt. warranty 2 yr 9.99\nEnvironmental fee 0.70\nSubtotal 65.67\nHST 8.54\nTotal 74.21\nReturns within 30 days with receipt\nVisa ****0391 11:08 2026-04-27"
+    },
+    {
+      "kind": "receipt",
+      "text": "Boulangerie Saint-Rémi\nBaguette tradition 2 x 3.75 7.50\nCroissants au beurre 6 x 2.40 14.40\nTarte au sucre 8 in 16.00\nTotal 37.90\nNo tax on basic groceries\nDebit 2026.05.30 08:12"
+    },
+    {
+      "kind": "receipt",
+      "text": "Hotel Lakeview Port Carrick\nGuest: M. Okafor Room 614\nNov 10 Room $189.00\nNov 10 Municipal accommodation tax 4% $7.56\nNov 11 Room $189.00\nNov 11 Municipal accommodation tax 4% $7.56\nNov 11 Restaurant $46.80\nHST $57.19\nBalance due $497.11"
+    },
+    {
+      "kind": "receipt",
+      "text": "Ridgeview Ski & Board Rentals\nAdult ski package, 2 days x $42.00 $84.00\nYouth snowboard, 1 day $35.00\nHelmet x2 $16.00\nDamage waiver $8.00\nSubtotal $143.00\nHST $18.59\nTotal $161.59\nDeposit held on card ****6614\nDue back Sun 4:00 PM"
+    },
+    {
+      "kind": "notice",
+      "text": "SNOW ROUTE\nNo parking when 5 cm or more of snow has fallen\nTow-away zone, fine $150\nBy-law 2019-114, City of Port Carrick\nInfo: 311 or (905) 555-0119"
+    },
+    {
+      "kind": "notice",
+      "text": "Riverside Aquatic Centre / Centre aquatique Riverside\nPool closed Mon. Aug 24 to Sun. Sep 6, 2026 for annual maintenance.\nFermé du lundi 24 août au dimanche 6 septembre 2026 pour l'entretien annuel.\nLane swim resumes Mon. Sep 7 at 6:30 a.m."
+    },
+    {
+      "kind": "notice",
+      "text": "NOTICE TO RESIDENTS\nElevator B will be out of service on Tuesday, March 3 from 9:00 to 15:00 for its annual inspection.\nPlease use Elevator A. Move-in bookings for that day have been cancelled.\nThank you for your patience. Property Management, 455 Bayview Cres., Suite 101, ext. 204"
+    },
+    {
+      "kind": "notice",
+      "text": "DANGER, THIN ICE\nIce thickness is not monitored on Heron Pond.\nMinimum 15 cm of clear ice for walking, 20 cm for groups, 25 cm for snowmobiles.\nIn an emergency call 911. Nearest access: Gate 3, Kinsella Park."
+    },
+    {
+      "kind": "notice",
+      "text": "STORE HOURS\nMon–Wed 9:00 a.m. – 6:00 p.m.\nThu–Fri 9:00 a.m. – 9:00 p.m.\nSaturday 10:00 a.m. – 5:00 p.m.\nSunday & holidays CLOSED\nClosed Thanksgiving Monday, Oct. 12\nFergus & Daughters Outfitters"
+    },
+    {
+      "kind": "notice",
+      "text": "SERVICE CHANGE\nRoute 22 Harbour Loop is detoured from Jan. 5 to Feb. 27, 2026 due to watermain work on Cobourg Street.\nStops #4418, #4419 and #4420 are temporarily closed. Please use the temporary stop at Cobourg & Ross.\nPCT Customer Service 905-555-0180, 7 a.m.–10 p.m. daily"
+    },
+    {
+      "kind": "notice",
+      "text": "Holiday collection schedule\nChristmas Day, Fri. Dec. 25: collection moves to Sat. Dec. 26\nNew Year's Day, Fri. Jan. 1: collection moves to Sat. Jan. 2\nGreen bins and blue boxes out by 7 a.m. Max. 3 bags, 20 kg each.\nChristmas trees collected Jan. 11–15. Remove all tinsel and lights."
+    },
+    {
+      "kind": "notice",
+      "text": "PERMIT PARKING ONLY\nZone 7B, 6 p.m. to 8 a.m.\nVisitors: 2 hr max. 8 a.m.–6 p.m.\nViolators ticketed $75 and towed at owner's expense\nTow: Arrow Towing (905) 555-0163"
+    },
+    {
+      "kind": "notice",
+      "text": "BOIL WATER ADVISORY\nResidents of Elm Ridge (postal codes L7S 1A0 to L7S 1K9) must boil tap water for at least 1 minute before drinking it or using it to brush teeth.\nThis advisory is in effect from 2026-07-18 until further notice.\nUpdates: Public Health line 905-555-0127"
+    },
+    {
+      "kind": "notice",
+      "text": "Library fines are gone!\nAs of September 1, Port Carrick Public Library no longer charges overdue fines on any item.\nLost items are still billed at replacement cost plus a $5.00 processing fee.\nBorrow up to 50 items at once, with 21-day loans and 3 renewals."
+    },
+    {
+      "kind": "notice",
+      "text": "OUTDOOR RINK RULES\nRink open 9 a.m. to 10 p.m., weather permitting\nShinny 12+: 6 p.m.–8 p.m. only\nHelmets recommended for all skaters, required under 10\nNo sticks or pucks during public skate\nReport ice conditions: 311\nGrandview Park Community Rink"
+    },
+    {
+      "kind": "notice",
+      "text": "ROAD WORK AHEAD\nGristmill Line closed between 3rd Concession and Fallowfield Rd.\nDetour via Hwy 26. Expect delays of 15–20 min.\nWork hours 7:00–19:00, Apr. 13 to Jun. 30\nContractor: Brennan Civil Ltd., 1-800-555-0144"
+    },
+    {
+      "kind": "notice",
+      "text": "IN CASE OF FIRE\nPull the nearest alarm and leave by the closest exit.\nDo not use elevators.\nAssembly point: north parking lot, Row C.\nFire Warden, Floor 3: Priya Raman, ext. 3317\nMaximum occupancy of this room: 240 persons"
+    },
+    {
+      "kind": "notice",
+      "text": "LOST CAT\nName: Biscuit, orange tabby, 4 yrs, about 5 kg\nWearing a green collar, microchip #985 112 004 337 106\nLast seen Oct. 2 near Lansdowne & 7th Ave.\nREWARD $200\nPlease call or text Hélène: 613-555-0158"
+    },
+    {
+      "kind": "notice",
+      "text": "Gallery 4 is closed for installation.\nThe exhibition Lake Country: Paintings 1910–1940 opens Saturday, May 16, 2026.\nMembers' preview Friday, May 15, 6–9 p.m. (RSVP by May 8)\nAdmission free with a $12 day pass."
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Ms. Tremblay,\nThis letter is to inform you that the monthly rent for Unit 1207 at 88 Fairhaven Drive will increase from $1,845.00 to $1,890.00 effective February 1, 2027. This represents an increase of 2.4%.\nIf you have any questions, please contact the office at (905) 555-0175 between 9 a.m. and 5 p.m.\nSincerely,\nGordon Pelletier, Property Manager"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Peewee A tournament, Jan 16–18\nHi everyone,\nOur team is entered in the Port Carrick Winter Classic at Carrick Memorial Arena. First game is Friday at 6:15 p.m. on Rink 2, so please have players dressed by 5:45.\nThe registration cost is $1,320, which works out to $88 per family for our 15 players. Please send e-transfers to the team treasurer by Jan. 9.\nGo Lakers!\nCoach Denise"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Customer,\nOur records show a past-due balance of $214.63 on account 5520-81147-03 for service at 12 Wren Court.\nTo avoid a late payment charge of 1.5% per month, please pay by March 31, 2026. You can pay online, by telephone banking or at any branch.\nIf you have already paid, please disregard this notice. For payment arrangements, call 1-888-555-0136, Monday to Friday, 8:00 to 20:00.\nPort Carrick Hydro"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr. and Mrs. Dubois,\nThank you for your generous gift of $250.00 to the Harbourside Food Bank on December 3, 2026. Your donation will provide about 750 meals to families in our community this winter.\nAn official receipt for income tax purposes is enclosed (Receipt No. 2026-04182).\nCharitable registration number 81234 5678 RR0001\nWith gratitude,\nSiobhan Wallace, Executive Director"
+    },
+    {
+      "kind": "letter",
+      "text": "From: Glenview Public School Office\nSubject: Picture day and early dismissal\nDear Families, Picture Day is Thursday, October 1, and retakes will be on November 12. Students will be dismissed at 2:10 p.m. instead of 3:25 p.m. on Friday, October 9, for a staff professional development afternoon.\nPlease send lunches in labelled containers; the microwave program will be paused for the first 3 weeks of term.\nThank you, Mrs. A. Kowalczyk, Principal"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mateo,\nWe are pleased to offer you the position of Junior Analyst with Corriveau Logistics Inc., starting Monday, June 1, 2026. Your starting salary will be $58,500 per year, paid bi-weekly, with 3 weeks of paid vacation and enrolment in our group benefits plan after a 90-day probation period.\nPlease sign and return this letter by May 15. Your first day begins at 8:30 a.m. at our office, 2045 Industrial Pkwy, Suite 300.\nKind regards,\nLorraine Fitzgerald, Human Resources"
+    },
+    {
+      "kind": "letter",
+      "text": "Hi neighbours on Birchmount Crescent!\nWe're hosting our annual street party on Saturday, August 15 from 4 p.m. until dusk. The road will be closed from #12 to #48 (permit #SP-2026-0331).\nPlease bring a dish to share and your own chairs. We'll have a barbecue going and $5 raffle tickets in support of the Grandview Park playground fund.\nQuestions? Knock at #27 or text Ahmed at 905-555-0191.\nCheers, the Hassan family"
+    },
+    {
+      "kind": "letter",
+      "text": "Re: Claim No. HO-26-0074418, water damage, 63 Ashdale Ave.\nDear Mr. Leung,\nWe have reviewed your claim dated April 2, 2026. The approved amount for repairs to the basement is $8,640.00, less your deductible of $1,000.00, for a total payment of $7,640.00.\nPayment will be sent by direct deposit within 5 to 7 business days.\nYours truly,\nClaims Department, Northern Shield Mutual"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your reservation on Sat., Nov. 21\nBonjour Mme Gagnon,\nWe are so sorry that your table for 6 at 7:30 p.m. was not ready when you arrived. As an apology, please accept a $75 gift card (code MIRA-5528-3071), valid until Nov. 21, 2027.\nWe hope to welcome you back soon.\nAnnick Roy, Manager, Chez Mirabelle Bistro"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Property Owner,\nThe 2026 final property tax bill for roll number 2104 030 118 04500 is enclosed. Your total annual taxes are $4,912.36, less the interim billing of $2,401.50, leaving a balance of $2,510.86.\nThe balance is payable in two instalments: $1,255.43 due July 30 and $1,255.43 due September 30.\nRevenue Services, City of Port Carrick, 905-555-0112"
+    },
+    {
+      "kind": "letter",
+      "text": "Hi Darren,\nThanks for the quote. Just to confirm what we discussed: 2 egress windows at $1,450 each and the window well covers at $185 each, so $3,270 before HST.\nWe'd like to book the week of September 14. The side gate will be unlocked if we're not home.\nTalk soon,\nJenna"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Owen and Priya,\nThis is a friendly reminder that Maple (canine, 6 yrs) is due for her annual exam and rabies booster on or before 2026-11-30.\nBook online or call Harbour Animal Hospital at 905-555-0153. Our hours are 8 a.m. to 7 p.m. weekdays and 9 a.m. to 1 p.m. Saturdays.\nBring this card for 10% off a bag of food."
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Booking confirmed, Loon Cove Cottage\nHello Mr. Bergeron,\nYour stay at Loon Cove Cottage is confirmed for July 11 to July 18, 2026 (7 nights) for 2 adults and 3 children. The total is $2,450.00; your deposit of $500.00 has been received, and the balance of $1,950.00 is due by June 11.\nCheck-in is after 4 p.m. and check-out by 10 a.m. The lake can still be chilly in early July, about 19 °C!\nWarm regards, Fiona at Muskeg Lake Rentals"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Raymond,\nYour annual membership at Kingsway Athletic Club (No. 00731) expires on 31/12/2026. Renew before 15/12/2026 and pay $540.00 plus HST instead of the regular $612.00, a saving of $72.00.\nYour locker rental ($60/yr) can be added at the front desk.\nYours in fitness,\nThe Member Services Team"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Field trip to the Science Centre, Wed. May 20\nHello families,\nGrade 4 will be visiting the Port Carrick Science Centre on Wednesday, May 20. The bus leaves at 9:15 and returns by 2:45. The cost is $18.50 per student, payable online by May 13.\nWe need 4 parent volunteers. If you can help, reply to this email or send a note in the agenda.\nMerci!\nMme Chantal Ouellet, Room 112"
+    },
+    {
+      "kind": "menu",
+      "text": "LA BELLE FRITE\nClassic poutine Small 7.50 / Large 10.25\nSmoked meat poutine 14.95\nPulled pork poutine 13.50\nVeggie poutine, mushroom gravy 11.75\nAdd extra curds 2.50\nHot dog steamé 3.25\nSpruce beer 2.75\nAll prices plus tax"
+    },
+    {
+      "kind": "menu",
+      "text": "Lakeshore Diner, breakfast served 6 a.m. to 11:30 a.m.\nLumberjack: 3 eggs, bacon, sausage, peameal, home fries, toast $17.99\nPancake stack (3) with real maple syrup $11.49\nWestern sandwich on rye $9.25\nEggs Benedict on peameal bacon $15.75\nBottomless coffee $2.99\nAdd a fruit cup $3.50\nKids 10 & under: 1 egg, toast, bacon $6.95"
+    },
+    {
+      "kind": "menu",
+      "text": "SAKURA HARBOUR SUSHI\nLunch specials 11:30–14:30\nA. Salmon teriyaki bento $16.95\nB. California roll (8 pc) + miso soup $12.50\nC. Chef's nigiri 7 pc + 1 roll $21.00\nD. Spicy tuna don $17.25\nGreen tea free with any special\nAdd gyoza (5 pc) $6.00"
+    },
+    {
+      "kind": "menu",
+      "text": "Taco Norte Truck\nAl pastor taco $4.50\nBaja fish taco $5.25\nCarnitas taco $4.75\nAny 3 tacos $13.00\nElote (street corn) $6.00\nHorchata 16 oz $4.50\nJalapeño margarita mocktail $6.50\nCash, debit, tap. Find us @taconortepc"
+    },
+    {
+      "kind": "menu",
+      "text": "Today's soup: roasted squash & ginger, cup $5.50, bowl $8.00\nGrilled cheese with aged cheddar & apple $9.75\nButter tarts $3.25 each or 6 for $17.00\nNanaimo bars $3.75\nMaple latte 12 oz $5.25, 16 oz $5.95\nOat or almond milk +$0.75"
+    },
+    {
+      "kind": "menu",
+      "text": "The Rusty Anchor Pub\nFish & chips, 1 pc $18.00 / 2 pc $24.00\nPickerel sandwich with tartar sauce $19.50\nBison burger 6 oz with fries $21.00\nCaesar salad $12.00, add chicken $6.00\nPints: local lager 20 oz $8.50, IPA $9.25\nCaesar (the drink!) $10.75\nWing night Wednesdays: $1 wings after 5 p.m."
+    },
+    {
+      "kind": "menu",
+      "text": "Winterlude Menu, 3 courses $65 per person\nWine pairing +$38\nFirst: Arctic char crudo with sea buckthorn, or celeriac velouté\nMain: Venison loin with juniper jus, or pan-seared halibut in beurre blanc\nDessert: Sugar pie with crème fraîche, or ice wine sorbet\nTaxes and 18% gratuity added for parties of 8+"
+    },
+    {
+      "kind": "menu",
+      "text": "Giuseppe's Pizzeria, since 1984\nMargherita 12 in $15.99 / 16 in $21.99\nCanadian (pepperoni, bacon, mushroom) 12 in $17.99 / 16 in $24.49\nHawaiian 12 in $16.99 / 16 in $23.49\nExtra toppings $1.75 each\nGarlic fingers with donair sauce $8.50\nFree delivery over $30 within 5 km\nCall 905-555-0137"
+    },
+    {
+      "kind": "menu",
+      "text": "Pearl Moon Bubble Tea\nClassic milk tea M $5.50 L $6.25\nBrown sugar boba M $6.25 L $7.00\nMango slush M $5.75 L $6.50\nTaro milk tea M $5.95 L $6.75\nSugar: 0%, 25%, 50%, 75%, 100%\nIce: none, less, regular\nExtra pearls or jelly +$0.80"
+    },
+    {
+      "kind": "menu",
+      "text": "Cabane à sucre Beaulieu, sugaring-off menu, March 7 to April 19\nAll-you-can-eat meal: pea soup, ham, baked beans, oreilles de crisse, omelette, pancakes, maple taffy on snow\nAdults $34.00\nChildren 6 to 12 $17.00\nUnder 6 free\nReservations required: 450-555-0102"
+    },
+    {
+      "kind": "menu",
+      "text": "Dairy Barn Scoops\nKiddie 1 scoop $3.75\nSingle 2 scoops $5.50\nDouble 3 scoops $7.25\nWaffle cone +$1.50\nFlavours today: maple walnut, blueberry cheesecake, butter pecan, black cherry\nDip cone, chocolate or butterscotch $5.95\nOpen daily 12–9 p.m. until Labour Day"
+    },
+    {
+      "kind": "menu",
+      "text": "Golden Dragon Combos (served with egg roll)\nNo. 1 Chicken balls, sweet & sour sauce, fried rice $13.95\nNo. 2 Ginger beef, chow mein $15.45\nNo. 3 Lemon chicken, steamed rice $14.25\nNo. 4 Szechuan shrimp, fried rice $16.75\nFamily dinner for 4: 6 dishes + 4 egg rolls $64.00\nPickup 10% off on orders over $40"
+    },
+    {
+      "kind": "menu",
+      "text": "Weekend Brunch, Sat & Sun 10–2\nShakshuka with grilled sourdough 16\nSmoked salmon bagel, capers, red onion, cream cheese 15\nFrench toast, brioche, berry compote 14\nBreakfast poutine, hollandaise, poached egg 17\nMimosa 9 | Caesar 11 | Fresh-pressed OJ 5"
+    },
+    {
+      "kind": "menu",
+      "text": "Kids' Menu (ages 12 and under), includes a drink & a scoop of ice cream\nMini burger & fries $8.99\nChicken fingers (3) & fries $8.99\nMac 'n' cheese $7.49\nGrilled cheese & cucumber sticks $7.49\nSpaghetti, tomato sauce $7.99\nDrinks: milk, apple juice, chocolate milk"
+    },
+    {
+      "kind": "menu",
+      "text": "Spice Route Kitchen, Take-out\nButter chicken with basmati rice $17.50\nChana masala (vegan) $14.00\nLamb rogan josh $19.25\nPalak paneer $15.50\nGarlic naan $3.50 · Plain naan $2.75\nMango lassi $5.00\nSpice level: mild, medium, hot, Indian hot"
+    },
+    {
+      "kind": "timetable",
+      "text": "Route 9 Kingsway, Weekdays\nDowntown Terminal 6:05 6:35 7:05 7:35 8:05\nKingsway & Pine 6:14 6:44 7:14 7:44 8:14\nCarrick Mall 6:22 6:52 7:22 7:52 8:22\nNorthgate Loop 6:31 7:01 7:31 8:01 8:31\nEffective Sept. 6, 2026"
+    },
+    {
+      "kind": "timetable",
+      "text": "Gull Island Ferry Schedule, Victoria Day to Thanksgiving\nDeparts Bay St. Docks: 8:00, 9:30, 11:00, 12:30, 14:00, 15:30, 17:00, 18:30\nDeparts Gull Island Dock: 8:20, 9:50, 11:20, 12:50, 14:20, 15:50, 17:20, 18:50\nCrossing approx. 15 min\nAdult return $9.50, senior $6.00, child (2–14) $4.50"
+    },
+    {
+      "kind": "timetable",
+      "text": "Train 643 Port Carrick → Kingsford\nPort Carrick dep. 07:10\nFallowfield 07:31\nAshby Junction 08:02\nMarlowe 08:40\nKingsford arr. 09:25\nRuns daily except Dec. 25; Economy and Business class\nWi-Fi on board"
+    },
+    {
+      "kind": "timetable",
+      "text": "Kingsway Athletic Club, Group Fitness, Fall 2026\nMon 6:00 a.m. Spin (45 min), Studio B\nMon 12:10 p.m. Express Core (30 min), Studio A\nTue 7:00 p.m. Yoga Flow (60 min), Studio A\nWed 6:00 a.m. HIIT (45 min), Studio B\nThu 5:30 p.m. Aqua Fit (50 min), Pool\nSat 9:00 a.m. Zumba (60 min), Gym 2\nBook up to 7 days ahead on the app"
+    },
+    {
+      "kind": "timetable",
+      "text": "Public Skating, Carrick Memorial Arena, Rink 1\nMonday 11:30–1:00\nWednesday 3:30–5:00 (parent & tot)\nFriday 7:00–8:30 (adults only, 18+)\nSaturday 1:00–2:30\nSunday 1:00–2:30 and 6:00–7:30\nAdmission: adult $4.00, child $2.50, family $10.00\nSkate rentals $5.00"
+    },
+    {
+      "kind": "timetable",
+      "text": "Waste collection, Zone C (Riverside), 2026\nCollection day: Tuesday\nGreen bin & garbage: Jan 13, Jan 27, Feb 10, Feb 24, Mar 10, Mar 24\nGreen bin & recycling: Jan 6, Jan 20, Feb 3, Feb 17, Mar 3, Mar 17, Mar 31\nYard waste collection begins Apr 7"
+    },
+    {
+      "kind": "timetable",
+      "text": "Harbour Express Airport Shuttle\nLeaves Union Station 5:00, 6:00, 7:00, 8:30, 10:00, 11:30, 13:00, 14:30, 16:00, 17:30, 19:00\nStops at Lakeview Hotel (+8 min) and Convention Centre (+15 min)\nArrives Terminal 1 about 45 min after leaving Union Station\nOne way $24.00, return $42.00\nTickets online or from the driver (card only)"
+    },
+    {
+      "kind": "timetable",
+      "text": "Glenview Public School Bell Times 2026–27\nEntry bell 8:45\nPeriod 1 8:50–9:40\nPeriod 2 9:40–10:30\nNutrition break 10:30–11:10\nPeriod 3 11:10–12:00\nPeriod 4 12:00–12:50\nNutrition break 12:50–1:30\nPeriod 5 1:30–2:20\nPeriod 6 2:20–3:20\nDismissal 3:25"
+    },
+    {
+      "kind": "timetable",
+      "text": "Riverside Aquatic Centre, Lane Swim\nMon/Wed/Fri 6:30–8:30 a.m., 12:00–1:30 p.m.\nTue/Thu 7:00–9:00 p.m.\nSat 8:00–10:00 a.m.\nSun closed for lessons until 3:00 p.m., lane swim 3:00–5:00 p.m.\nPool temperature 27.5 °C\nDrop-in $6.25, 10-visit pass $56.25"
+    },
+    {
+      "kind": "timetable",
+      "text": "Port Carrick Rec Hockey, Division B, Week 7\nThu Nov 12 8:15 p.m. Pucks Deep vs. Zamboni Drivers, Rink 2\nThu Nov 12 9:30 p.m. Beer League Heroes vs. North Stars, Rink 2\nSun Nov 15 10:00 p.m. Frozen Toes vs. Moose Mavericks, Rink 1\nSun Nov 15 11:15 p.m. Hat Trick Club vs. Snowbirds, Rink 1\nStandings: Snowbirds 11 pts, North Stars 10, Frozen Toes 8"
+    },
+    {
+      "kind": "timetable",
+      "text": "Prairie & Lakes Planning Conference, Day 2, Thursday 22 October 2026\n08:00 Registration and coffee, Main Lobby\n09:00 Keynote: Building Winter Cities, Hall A\n10:15 Break\n10:30 Workshops (rooms 201–206)\n12:00 Lunch, Hall C\n13:30 Panel: Transit after 2030\n15:00 Walking tour of the Harbourfront (meet at Door 4)\n17:30 Reception"
+    },
+    {
+      "kind": "timetable",
+      "text": "Harbour Line LRT, weekend service\nFirst train from Bayfront 6:00 a.m. Sat, 7:00 a.m. Sun\nLast train from Bayfront 1:30 a.m. Sat, 11:30 p.m. Sun\nTrains every 8 min from 10 a.m. to 7 p.m., every 15 min at other times\nBayfront to Uptown approx. 22 min, 11 stations"
+    },
+    {
+      "kind": "timetable",
+      "text": "Roxy Cinema 6, showtimes Fri Oct 16 to Thu Oct 22\nThe Last Portage (PG) 1:10 4:00 6:50 9:35\nMoose Lake Murders (14A) 7:15 9:50\nPaws & Claws 2 (G) 11:00 a.m. 1:30 3:45\nNorthern Static (18A) 10:15 p.m.\nTuesday all seats $8.50\nTimes subject to change"
+    },
+    {
+      "kind": "timetable",
+      "text": "Port Carrick Public Library, branch hours\nCentral: Mon–Thu 9:00–20:30, Fri 9:00–18:00, Sat 9:00–17:00, Sun 13:00–17:00\nRiverside: Tue & Thu 12:00–20:00, Wed & Sat 10:00–17:00\nElm Ridge: Mon, Wed & Fri 10:00–18:00, Sat 10:00–16:00\nAll branches closed Mon. Sept. 7 (Labour Day)"
+    },
+    {
+      "kind": "timetable",
+      "text": "Ridgeview Ski Hill Lift Hours, 2026–27 season\nMon–Thu 10:00–21:00 (night skiing from 16:30)\nFri 10:00–22:00\nSat–Sun & holidays 8:30–21:00\nChristmas break Dec. 19 to Jan. 4: 8:30–22:00 daily\nSnow report updated 6:30 a.m. at 1-866-555-0129\nLift ticket adult $64, youth (6–17) $48, under 6 free"
+    },
+    {
+      "kind": "recipe",
+      "text": "Grandma Lise's Butter Tarts (makes 12)\n1/2 cup packed brown sugar\n1/2 cup corn syrup\n1/4 cup butter, melted\n1 egg, beaten\n1 tsp vanilla\n1/3 cup raisins (optional)\n12 unbaked 3 in tart shells\nMix the filling and spoon into shells 2/3 full. Bake at 425°F (220°C) for 12 to 15 minutes until bubbly.\nDon't overfill!"
+    },
+    {
+      "kind": "recipe",
+      "text": "Tourtière (serves 8)\n1 lb ground pork and 1/2 lb ground beef\n1 onion, finely chopped\n1 1/2 tsp salt, 1/2 tsp cinnamon, 1/4 tsp ground cloves\n1 cup water and 1 medium potato, grated\nPastry for a 9 in double-crust pie\nSimmer meat, onion, spices and water for 30 min, then stir in the potato. Cool, fill the pie, cut vents and bake at 400°F for 35 to 40 min until golden.\nFreezes well for up to 3 months."
+    },
+    {
+      "kind": "recipe",
+      "text": "Nanaimo Bars, 9 x 9 in pan (24 squares)\nBase: 1/2 cup butter, 1/4 cup sugar, 5 tbsp cocoa, 1 egg, 1 1/4 cups graham crumbs, 1 cup coconut, 1/2 cup chopped walnuts\nMiddle: 1/2 cup butter, 2 tbsp custard powder, 3 tbsp milk, 2 cups icing sugar\nTop: 4 oz semi-sweet chocolate melted with 2 tbsp butter\nChill each layer 20 min before adding the next. Cut with a hot knife."
+    },
+    {
+      "kind": "recipe",
+      "text": "Soupe aux pois / Yellow Pea Soup\n2 cups dried yellow peas, soaked overnight\n1 ham hock (about 1 1/2 lb)\n10 cups water\n1 onion, 2 carrots, 2 stalks celery, diced\n2 bay leaves, 1 tsp dried savory\nSimmer everything for 2 1/2 to 3 hours, stirring now and then. Remove the hock, shred the meat and return it to the pot. Season to taste.\nServes 6 to 8"
+    },
+    {
+      "kind": "recipe",
+      "text": "Pan Bannock\n3 cups flour\n1 tbsp baking powder\n1 tsp salt\n1/4 cup melted lard or butter\n1 1/4 cups water\nStir to a soft dough; don't over-mix. Press into a greased 10 in cast iron pan, about 3/4 in thick. Cook over medium-low heat 12 to 15 min per side.\nServe warm with jam."
+    },
+    {
+      "kind": "recipe",
+      "text": "Maple-Glazed Salmon, serves 4\n4 salmon fillets, about 150 g each\n60 mL maple syrup\n30 mL soy sauce\n15 mL Dijon mustard\n1 clove garlic, minced\nWhisk the glaze, brush it over the fillets and bake at 200 °C for 12 to 14 min, basting once.\nCook to an internal temp. of 63 °C"
+    },
+    {
+      "kind": "recipe",
+      "text": "Blueberry Grunt (6 servings)\n4 cups wild blueberries\n1/2 cup sugar\n1/2 cup water\n1 tbsp lemon juice\nDumplings: 1 1/2 cups flour, 2 tsp baking powder, 1/2 tsp salt, 1 tbsp sugar, 2 tbsp butter, 3/4 cup milk\nSimmer berries, sugar, water and lemon for 5 min in a 10 in pan. Drop dumplings on top, cover tightly and cook 15 min without lifting the lid."
+    },
+    {
+      "kind": "recipe",
+      "text": "The Classic Caesar\nRim a 12 oz glass with celery salt\nFill with ice\n1 1/2 oz vodka\n4 oz clam-tomato juice\n2 dashes Worcestershire sauce\n2 dashes hot sauce\nPinch of salt and pepper\nGarnish with a celery stalk and a lime wedge"
+    },
+    {
+      "kind": "recipe",
+      "text": "Poutine Gravy (enough for 4 poutines)\n3 tbsp butter\n3 tbsp flour\n2 cups beef stock\n1 cup chicken stock\n1 tbsp ketchup, 1 tsp Worcestershire, 1/2 tsp pepper\nCook butter and flour 4 to 5 min until peanut-butter brown. Whisk in stocks and seasonings, then simmer 10 min. Pour hot over fries and 2 cups fresh cheese curds."
+    },
+    {
+      "kind": "recipe",
+      "text": "Sunday Buttermilk Pancakes (about 14)\n2 cups all-purpose flour\n2 tbsp sugar\n2 tsp baking powder, 1 tsp baking soda, 1/2 tsp salt\n2 eggs\n2 cups buttermilk\n1/4 cup melted butter\nCombine wet into dry; small lumps are fine. Ladle 1/4 cup per pancake onto a griddle at 375°F. Flip when the bubbles pop.\nFrom the kitchen of Marg Whitfield"
+    },
+    {
+      "kind": "recipe",
+      "text": "Saskatoon Berry Pie\n4 cups Saskatoon berries\n3/4 cup sugar\n3 tbsp cornstarch\n2 tbsp lemon juice\n1 tbsp butter, in bits\nPastry for a 9 in double crust\nToss berries with sugar, cornstarch and lemon. Fill the crust, dot with butter, cover and vent. Bake at 425°F for 15 min, then at 350°F for 40 to 45 min.\nCool 3 hours before slicing."
+    },
+    {
+      "kind": "recipe",
+      "text": "Game Day Slow Cooker Chili (serves 10)\n2 lb lean ground beef, browned\n2 cans (540 mL each) red kidney beans, drained\n1 can (796 mL) diced tomatoes\n1 green pepper and 1 large onion, chopped\n3 tbsp chili powder, 2 tsp cumin, 1 tsp oregano\nCook on LOW 8 hours or HIGH 4 hours. Top with sour cream and old cheddar."
+    },
+    {
+      "kind": "recipe",
+      "text": "Date Squares (Matrimonial Cake)\nFilling: 2 cups chopped dates, 1 cup water, 1/4 cup brown sugar, 1 tbsp lemon juice\nCrumb: 1 1/2 cups rolled oats, 1 1/2 cups flour, 1 cup brown sugar, 1/2 tsp baking soda, 3/4 cup butter\nPress half the crumb into an 8 x 8 in pan, spread the filling and top with the remaining crumb. Bake at 350°F for 30 to 35 min. Cut into 16 squares."
+    },
+    {
+      "kind": "recipe",
+      "text": "Maple Taffy on Snow\n1 cup pure maple syrup\nClean packed snow or crushed ice in a 9 x 13 in pan\nHeat the syrup to 112 °C (234 °F) on a candy thermometer, about 8 to 10 min. Pour in thin lines over the snow, wait 10 seconds and roll up with a popsicle stick.\nAdult supervision required: hot syrup burns!"
+    },
+    {
+      "kind": "recipe",
+      "text": "No-Knead Crusty Bread\n500 g all-purpose flour\n375 mL lukewarm water (about 38 °C)\n10 g salt\n2 g instant yeast (1/2 tsp)\nMix until shaggy, cover and rest 12 to 18 hours at room temperature. Shape, let rise 1 1/2 hours, then bake in a preheated Dutch oven at 230 °C, 30 min lid on and 15 min lid off.\nMakes 1 loaf, about 800 g"
+    },
+    {
+      "kind": "label",
+      "text": "PURE MAPLE SYRUP / SIROP D'ÉRABLE PUR\nCanada Grade A, Amber, Rich Taste / Ambré, goût riche\n500 mL\nProduct of Canada / Produit du Canada\nBottled by Érablière Fontaine, St-Rémi-des-Bois QC J0L 2B4\nRefrigerate after opening. Réfrigérer après ouverture.\nLot 26-0412 Best before 2028-04"
+    },
+    {
+      "kind": "label",
+      "text": "FRESH CHEESE CURDS / FROMAGE EN GRAINS\nSqueaky fresh! Best enjoyed within 3 days of packaging.\nIngredients: pasteurized milk, bacterial culture, salt, microbial enzyme\nNet 450 g\nBest before 2026 OC 14\nKeep refrigerated at 0–4 °C\nLaiterie Grandbois, 1180 ch. du Rang 3"
+    },
+    {
+      "kind": "label",
+      "text": "Nutrition Facts / Valeur nutritive\nPer 1 cup (250 mL) / pour 1 tasse (250 mL)\nCalories 110\nFat / Lipides 2.5 g 3 %\nCarbohydrate / Glucides 12 g\nSugars / Sucres 12 g 12 %\nProtein / Protéines 9 g\nCalcium 300 mg 23 %\nSodium 120 mg 5 %\n*5% or less is a little, 15% or more is a lot"
+    },
+    {
+      "kind": "label",
+      "text": "Cold & Sinus Daytime, 24 caplets\nEach caplet contains acetaminophen 325 mg, phenylephrine HCl 5 mg\nAdults and children 12 years and over: take 2 caplets every 4 to 6 hours. Do not exceed 12 caplets in 24 hours.\nDIN 02412345\nStore at 15–30 °C. Keep out of reach of children.\nExp. 2028/03 Lot B44721"
+    },
+    {
+      "kind": "label",
+      "text": "Made in Canada / Fabriqué au Canada\nCA 41758\n80% Merino wool / laine mérinos\n20% Nylon\nHand wash cold, 30 °C max.\nLay flat to dry. Do not bleach. Do not tumble dry.\nSize M / Taille M"
+    },
+    {
+      "kind": "label",
+      "text": "NORTHERN ROAST CO.\nLakeshore Blend, medium-dark\nWhole bean, 340 g (12 oz)\nNotes: dark chocolate, toasted pecan, molasses\nRoasted on 09/15/2026\nBest within 6 weeks of roasting\nFair Trade · Organic\nRoasted in Port Carrick, ON at 18 Mill St."
+    },
+    {
+      "kind": "label",
+      "text": "FROM: Harbourline Outfitters, 220 Water St, Port Carrick ON L7R 1B6\nTO: Ms. Joanne Kiviaq, 41 Ptarmigan Rd, Whitecap NT X0E 2R5\nWeight 3.4 kg Dims 40 x 30 x 20 cm\nService: Expedited Parcel\nTracking 7023 4410 9958 2671\nShip date 2026-11-02\nRef. Order #HL-88412"
+    },
+    {
+      "kind": "label",
+      "text": "Kestrel Foods Meat Dept.\nChicken breast, boneless skinless\nPacked on 2026 NO 03\nBest before 2026 NO 07\nNet weight 0.874 kg\n$/kg 17.61\nPrice $15.39\nKeep refrigerated\nCook to 74 °C (165 °F)"
+    },
+    {
+      "kind": "label",
+      "text": "Harrow Bench Estate, Vidal Icewine 2024\nHand-picked at −10 °C on the night of January 14, 2025, then pressed while still frozen. Aromas of apricot, honey and candied lemon.\nServe chilled at 6 to 8 °C.\n375 mL · 10.5% alc./vol.\nContains sulphites / Contient des sulfites\nProduct of Canada"
+    },
+    {
+      "kind": "label",
+      "text": "Rx 4471905 MAPLEGATE PHARMACY 905-555-0124\nKOWALSKI, DANIEL\nTake 1 tablet by mouth twice daily with food for 10 days\nCephalexin 500 mg Qty: 20\nDr. S. Mehta\nRefills: 0\nFilled 2026-03-02 Discard after 2027-03-02"
+    },
+    {
+      "kind": "label",
+      "text": "Pierogi, potato & cheddar, 907 g (2 lb), about 30 pieces\nBoil: add frozen pierogi to boiling water and cook 5 to 7 min until they float.\nPan-fry: thaw, then fry in butter over medium heat 4 to 5 min per side.\nKeep frozen at −18 °C. Do not refreeze once thawed.\nBaba Olena's Kitchen, Port Carrick ON"
+    },
+    {
+      "kind": "label",
+      "text": "Model: KH-1500 Portable Space Heater\n120 V ~ 60 Hz 12.5 A 1500 W\nSerial No. 26K0815533\nDo not cover. Keep 1 m (3 ft) from curtains, furniture and bedding.\nPlug directly into a wall outlet; do not use an extension cord.\nMade in China for Kestrel Home Ltd., Port Carrick, ON"
+    },
+    {
+      "kind": "label",
+      "text": "Scarlet Runner Beans, 25 seeds, approx. 30 g\nSow outdoors after last frost (mid-May in zone 5b), 2.5 cm deep, 15 cm apart\nDays to maturity: 65 to 70\nClimbs to 2.5 m; give it a trellis\nPacked for 2027 · Lot SRB-0611\nGreenmantle Seed Co., Port Carrick ON"
+    },
+    {
+      "kind": "label",
+      "text": "Raw Wildflower Honey / Miel de fleurs sauvages\nNet 500 g\nUnpasteurized. May crystallize; warm gently to liquefy.\nDo not feed honey to infants under 1 year.\nCanada No. 1, White\nFrom the hives of Bellamy Apiaries, RR 2, Ashby ON\nPhone 705-555-0186\nLot 0926"
+    },
+    {
+      "kind": "label",
+      "text": "WARNING: Child Restraint System\nFor use by children weighing 10 to 18 kg (22 to 40 lb) and 65 to 100 cm (26 to 39 in) tall\nForward-facing only. Use the tether strap at all times.\nModel CS-220 · Manufactured 2026/06/18\nExpires 10 years after date of manufacture\nComplies with all applicable Canada Motor Vehicle Safety Standards"
+    },
+    {
+      "kind": "flyer",
+      "text": "MULTI-FAMILY YARD SALE\nSaturday, May 23, 8 a.m. to 1 p.m.\n41–59 Larchmere Crescent\nKids' bikes, hockey gear, books, a 16 ft canoe, furniture and much more!\nEverything under $20 except the canoe ($450 OBO)\nRain date: Sunday, May 24"
+    },
+    {
+      "kind": "flyer",
+      "text": "PORT CARRICK MINOR HOCKEY\nRegistration for 2026–27 is now open!\nU7 and U9: $395 · U11 to U18: $575\nEarly bird: save $50 before June 15\nEquipment swap at Carrick Memorial Arena, Sat. Aug. 29, 9–noon\nRegister at the arena office or call 905-555-0169"
+    },
+    {
+      "kind": "flyer",
+      "text": "Harbourfront Summer Concert Series\nThursdays at 7:30 p.m., Bandshell at Kinsella Park\nJuly 9: The Spruce Needles (folk)\nJuly 16: Marie-Ève Paquin Trio (jazz)\nJuly 23: Ten Mile Portage (country)\nJuly 30: Les Grands Vents (Acadian)\nFree admission. Bring a lawn chair! Food trucks from 6 p.m.\nRain location: Carrick Community Centre, Hall B"
+    },
+    {
+      "kind": "flyer",
+      "text": "GIUSEPPE'S PIZZERIA DEALS\n2 large 3-topping pizzas + 10 wings + 2 L pop $44.99\nLarge 1-topping, pick-up only $12.99\nTuesday: 2-for-1 medium pizzas\nCoupon code PC2026, expires Dec. 31, 2026\nCall 905-555-0137, open 11 a.m. to 2 a.m."
+    },
+    {
+      "kind": "flyer",
+      "text": "MATH & FRENCH TUTORING\nGrades 3 to 12, Ontario curriculum\nCertified teacher, 15 years' experience\n$45/hour or 5 sessions for $200\nIn person at the Riverside branch library or online\nCall Mme Lévesque at 905-555-0122"
+    },
+    {
+      "kind": "flyer",
+      "text": "Shrove Tuesday Pancake Supper\nSt. Columba's Church Hall, 112 Elgin Street\nTuesday, February 17, 2026, 5:00 to 7:00 p.m.\nPancakes, sausages, fruit and real maple syrup\nAdults $12, children 5–12 $6, under 5 free, family max. $35\nAll proceeds to the Harbourside Food Bank"
+    },
+    {
+      "kind": "flyer",
+      "text": "OUTDOOR BOOTCAMP, 6 WEEKS\nStarts Mon., Apr. 20 · Mon/Wed 6:15 a.m. at Grandview Park\nAll fitness levels welcome\n$180 for 12 classes or $18 drop-in\nFirst class FREE!\nBring a mat, water and layers (it's still 5 °C at dawn!)\nCoach Tyrell Banks · 289-555-0143"
+    },
+    {
+      "kind": "flyer",
+      "text": "OPEN MIC NIGHT\nEvery Wednesday at The Rusty Anchor Pub\nSign-up 7:30 p.m., music 8:00 p.m. to midnight\n3 songs or 15 minutes per act\nHouse PA, drum kit & keyboard provided\nHalf-price nachos ($8.50) for performers\n19+ with ID"
+    },
+    {
+      "kind": "flyer",
+      "text": "SNOW REMOVAL 2026–27\nResidential driveways, season contract Nov. 15 to Apr. 15\nSingle driveway $425 · Double $575 · Add walkway $95\nPlowed when snowfall reaches 5 cm, 24/7\nSalting available on request\nBook before Oct. 31 and save 10%\nNorthfield Property Services 905-555-0176"
+    },
+    {
+      "kind": "flyer",
+      "text": "St. Anne's Farmers' Market is back!\nEvery Saturday, May 2 to October 31, 8 a.m. to 1 p.m.\nOver 40 local vendors: produce, meat, cheese, baking, crafts\nLive music at 10:30 · Kids' corner\nFree parking in the St. Anne's lot (Beaumont St.)\nNow accepting debit & credit at most stalls"
+    },
+    {
+      "kind": "flyer",
+      "text": "GRAND OPENING!\nPearl Moon Bubble Tea, 1876 Kingsway, Unit 3\nSaturday, March 28, 11 a.m.\nFirst 100 customers get a FREE medium drink\nBuy one, get one 50% off all weekend\nStamp card: buy 9 drinks, the 10th is free\nFollow @pearlmoonpc"
+    },
+    {
+      "kind": "flyer",
+      "text": "Give blood, give life\nDonor clinic at the Carrick Community Centre, Hall A\nThursday, June 11, 2026, 1:00 to 7:30 p.m.\nBook a time at 1-888-555-0110\nBring photo ID. Eat a meal and drink 500 mL of water before you donate.\nEvery donation can help up to 3 patients."
+    },
+    {
+      "kind": "flyer",
+      "text": "Responsible Babysitter Available!\nHi, I'm Aanya, 15, certified in first aid and CPR (2026)\nEvenings and weekends in the Elm Ridge area\n$15/hour for 1 to 2 kids, $18/hour for 3 or more\nReferences available\nText 905-555-0198 (parents welcome to call first)"
+    },
+    {
+      "kind": "flyer",
+      "text": "5K FUN RUN & 1K KIDS' DASH\nSunday, September 20, 2026 · Harbourfront Trail\nKids' dash 8:30 a.m. · 5K start 9:00 a.m.\nEntry $35 (adults), $15 (under 14), includes T-shirt\nRaising $25,000 for the Port Carrick Hospice\nChip timing · Medals for all finishers\nRace kit pick-up Sat. Sept. 19, 12–5 p.m."
+    },
+    {
+      "kind": "flyer",
+      "text": "CHARITY CAR WASH\nGrade 12 Grad Committee, Lakeview Secondary School\nSaturday, June 6, 10 a.m.–3 p.m., at Portage Fuels on Lakeshore Blvd. E\nCars $10, trucks & SUVs $15, interior vacuum +$5\nHelp us reach our goal of $3,000 for Grad Night!"
+    },
+    {
+      "kind": "form",
+      "text": "PORT CARRICK LAKERS vs. KINGSFORD KNIGHTS\nCarrick Memorial Arena\nSat. Jan. 23, 2027 · 7:05 p.m.\nSection 104 Row G Seat 12\nAdult $28.50 incl. HST\nTicket No. 0004418823\nDoors open 6:00 p.m. No re-entry."
+    },
+    {
+      "kind": "form",
+      "text": "PARKING INFRACTION NOTICE No. PC 2047731\nDate 2026-02-11 Time 14:52\nLocation: 300 block Wellesley Ave, north side\nPlate CRTK 418, Ontario\nInfraction: Park on a designated snow route during a snow event, code 207\nSet fine $150.00\nEarly payment within 15 days $100.00\nOfficer badge #3314"
+    },
+    {
+      "kind": "form",
+      "text": "Fall Program Registration, City of Port Carrick Recreation\nParticipant: Léa Morin\nDate of birth: 2018/04/09\nProgram: Learn to Skate, Level 2, Course #47215\nLocation: Carrick Memorial Arena, Rink 2, Saturdays 9:00–9:45\nFee: $96.00 (8 weeks)\nEmergency contact: Simon Morin, 905-555-0152\nAllergies: peanuts"
+    },
+    {
+      "kind": "form",
+      "text": "LAKESHORE RAIL e-TICKET\nPassenger: GREGOIRE/ANNE MS\nTrain 643 Port Carrick → Kingsford\nDate 2026-08-14, dep. 07:10, arr. 09:25\nCar 3, Seat 7A, Economy\nFare $52.00 + HST $6.76 = $58.76\nBooking ref. QK7R2M\nPresent this ticket with valid photo ID"
+    },
+    {
+      "kind": "form",
+      "text": "Repair Order No. 19873\nCustomer: Bryce Halvorsen, 905-555-0105\nItem: 21-speed hybrid bicycle, blue\nWork: tune-up, replace rear tire 700 x 38c, adjust brakes\nLabour $65.00\nParts $42.95\nSubtotal $107.95, HST $14.03, Total $121.98\nPromised: Fri. May 8, after 4 p.m."
+    },
+    {
+      "kind": "form",
+      "text": "BOARDING PASS, Northern Arc Air\nName: OYELARAN/TOBI MR\nFlight NA 412 Port Carrick to Halifax\nDate 03NOV26 Boarding 06:15 Departure 06:45\nGate 12 Seat 14C Zone 3\nSeq. 087\nGate closes 15 minutes before departure"
+    },
+    {
+      "kind": "form",
+      "text": "Patient Information, Bayview Family Dentistry\nName: Ravindra Pillai\nAddress: 9 Oriole Court, Port Carrick ON L7S 2K1\nPhone: 289-555-0117\nDate of last visit: approx. 2023\nInsurance: Lakeland Life, Plan 30418, ID 7718 2290 01\nMedications: none\nReason for visit: cleaning and check-up, sensitivity on lower left"
+    },
+    {
+      "kind": "form",
+      "text": "50/50 DRAW, Port Carrick Lakers Booster Club\nTicket No. 004417 to 004421 (5 tickets for $10)\nDraw at the end of the 2nd period, Sat. Feb. 6, 2027\nWinner takes 50% of the pot\nLicence No. M802115\nMust be 18+ to purchase"
+    },
+    {
+      "kind": "form",
+      "text": "Provincial Park Camping Permit\nCampground: Heron Lake, Site 84 (electrical)\nArrive 2026-07-24, depart 2026-07-27, 3 nights\nVehicle permit: 1, plate BXRT 662\nOccupants: 4\nNightly fee $52.25 × 3 = $156.75\nReservation fee $13.00\nTotal paid $169.75\nDisplay on dashboard. Quiet hours 23:00–07:00."
+    },
+    {
+      "kind": "form",
+      "text": "ROXY CINEMA 6\nThe Last Portage (PG)\nFri Oct 16, 2026 6:50 PM\nAuditorium 4, Seat F9\nGeneral admission $14.25\nPopcorn combo $11.50\nTotal $25.75 (HST incl.)\nTrans. 22-118804"
+    },
+    {
+      "kind": "form",
+      "text": "Change of Address Request\nAccount no. 5520-81147-03\nName: Wendell Abernathy\nOld address: 12 Wren Court, Port Carrick ON L7R 4G2\nNew address: Apt. 805, 300 Ferryman Quay, Port Carrick ON L7R 1C8\nEffective date: 15-09-2026\nPhone: (905) 555-0108\nSignature on file"
+    },
+    {
+      "kind": "form",
+      "text": "Les Grands Vents, Acadian Kitchen Party Tour\nCarrick Grand Theatre, 45 Market Square\nSaturday, 21 November 2026, doors 7 p.m., show 8 p.m.\nOrchestra Left, Row K, Seat 103\nPrice $59.00 + service fee $6.75 + facility fee $3.00\nTotal $68.75\nOrder #CGT-551902"
+    },
+    {
+      "kind": "form",
+      "text": "EXPENSE CLAIM, Corriveau Logistics Inc.\nEmployee: Mateo Silva, Emp. No. 2291\nTrip: Kingsford client visit, Oct. 5–6, 2026\nMileage 312 km @ $0.68/km $212.16\nHotel 1 night $164.00\nMeals $57.40\nParking $18.00\nTotal claimed $451.56\nApproved by: L. Fitzgerald"
+    },
+    {
+      "kind": "form",
+      "text": "GULL ISLAND FERRY\nAdult return x2 $19.00\nChild return x1 $4.50\nBicycle $3.00\nTotal $26.50\nValid on date of issue only: 2026-07-04\nTicket 3 of 3 · Booth 2"
+    },
+    {
+      "kind": "form",
+      "text": "APPOINTMENT CARD\nHarbour Physiotherapy & Sports Injury Clinic\nPatient: Colm Ferreira\nMon. 2026-11-09 at 4:15 p.m. with Kayla (PT)\nThu. 2026-11-12 at 4:15 p.m. with Kayla (PT)\nPlease give 24 hours' notice of cancellation or a $40 fee applies.\n905-555-0131 · 700 Kingsway, Suite 2"
+    },
+    {
+      "kind": "page",
+      "text": "A Short History of the Harbourfront\nPort Carrick grew up around a sawmill built at the mouth of the Carrick River in 1834. By 1871 the town had 6,200 residents, three shipyards and a rail spur to the grain elevators.\nThe great fire of 12 May 1898 destroyed 41 buildings along Water Street. The stone customs house, finished in 1902, is one of the few landmarks from the rebuilding still standing today.\nWalking tour stops 1 to 9 are marked with bronze plaques."
+    },
+    {
+      "kind": "page",
+      "text": "Chapter 7\nThe snow had started again by the time Marguerite reached the end of Concession 9. She counted the fence posts out of habit, the way her father had taught her: forty-two from the culvert to the mailbox, and every one of them leaning a little more toward the lake than last winter.\nThe kitchen light was on. It was 4:15 on a December afternoon, which meant it was already almost dark, and somebody was home who shouldn't have been.\n112"
+    },
+    {
+      "kind": "page",
+      "text": "Protect yourself from the cold\nWhen the wind chill is −28 or colder, exposed skin can freeze in 10 to 30 minutes. Cover your nose, ears, cheeks and fingers.\nDress in layers and keep dry. Wet clothing loses most of its warmth, so change out of damp layers quickly.\nWatch for signs of hypothermia: shivering, confusion, slurred speech and drowsiness. Call 911 if someone shows signs of severe hypothermia.\nPublic Health, Port Carrick Region · 905-555-0127 · Rev. 11/2025"
+    },
+    {
+      "kind": "page",
+      "text": "2.3 The Canadian Shield\nThe Canadian Shield covers roughly half of Canada's land area. Its rocks are among the oldest on Earth, some more than 2.5 billion years old.\nGlaciers scraped much of the soil away, leaving thousands of lakes. For this reason farming is limited, but the region is rich in minerals such as nickel, gold and copper.\nCheck your understanding: Name 2 reasons the Shield is thinly populated.\n48"
+    },
+    {
+      "kind": "page",
+      "text": "Exploring Kinsella Park\nKinsella Park's 14 km of trails wind through mixed forest and along the shore of Heron Pond. The Lookout Loop (3.2 km) is the most popular and takes about 1 hour at an easy pace.\nDogs are welcome on a leash no longer than 2 m. Please pack out what you pack in; there are no garbage cans past the trailhead.\nParking: $2.50/hr or $12 per day, free after 6 p.m. and all day on Mondays."
+    },
+    {
+      "kind": "page",
+      "text": "4. Setting the clock\nPress and hold CLOCK for 3 seconds until the hour digits flash. Use UP and DOWN to set the hour, then press CLOCK again to set the minutes.\nThe clock uses 24-hour time (00:00 to 23:59). To switch to 12-hour time, press and hold CLOCK and TIMER together for 5 seconds.\nNote: After a power failure of more than 30 seconds, the clock must be reset.\nEN-12"
+    },
+    {
+      "kind": "page",
+      "text": "From the Community Association\nOur fall general meeting will be held on Tuesday, November 17, 2026 at 7 p.m. in the Riverside library meeting room. All members in good standing may vote. Membership is $10 per household per year.\nThank you to the 63 volunteers who helped plant 1,200 tulip bulbs along Birchmount Crescent and in Larchmere Park in October.\nNewsletter submissions for the winter issue are due by December 1.\nPage 3"
+    },
+    {
+      "kind": "page",
+      "text": "Saskatoon berries\nOn the Prairies, the Saskatoon berry is as much a part of summer as long evenings. The berries look like blueberries but are actually closer to apples, with a nutty, almond-like flavour from their small seeds.\nThey ripen in early July. A good bush will give 4 to 5 kg in a season, and the berries freeze beautifully: spread them on a tray for 2 hours, then bag them.\nSee page 214 for Saskatoon Berry Pie."
+    },
+    {
+      "kind": "page",
+      "text": "What goes in the blue box?\nRinse all containers. Lids on, labels can stay. Flatten cardboard to no larger than 75 cm x 75 cm.\nYES: newspapers, flyers, boxboard, cans, glass jars, plastic bottles and tubs marked 1, 2, 4 and 5.\nNO: plastic bags, foam (#6), coffee cups, batteries or electronics.\nNot sure? Use the Sort It Out search on the city website or call 311."
+    },
+    {
+      "kind": "page",
+      "text": "\"You're late,\" said Mrs. Fournier, without looking up from the till.\n\"The 7:40 bus never came,\" Danny said. \"I walked from Kingsway.\"\n\"In this?\" She nodded at the window, where the thermometer read −31 °C. \"Your ears will fall off. Hang up your coat and start on the bread order. Two hundred dinner rolls for the Legion by noon, and six dozen tea biscuits.\"\nHe looked at the clock: 8:52. Three hours. It could be done.\n37"
+    },
+    {
+      "kind": "page",
+      "text": "Your rights as a tenant\nYour landlord must give you at least 90 days' written notice before a rent increase, and rent can normally be raised only once every 12 months.\nA landlord may enter your unit for repairs only with 24 hours' written notice, between 8 a.m. and 8 p.m., unless there is an emergency.\nFor free advice, contact the Port Carrick Tenant Help Line at 905-555-0189, Monday to Friday, 9:30 to 4:30.\nThis leaflet is general information, not legal advice."
+    },
+    {
+      "kind": "page",
+      "text": "Common Loon (Gavia immer)\nLength 66 to 91 cm, wingspan about 1.3 m, weight 2.2 to 7.6 kg\nThe loon's haunting call carries across northern lakes on summer nights. It needs a long runway of open water, up to 400 m, to take off, which is why loons are seldom seen on small ponds.\nLoons can dive to 60 m and stay under for more than a minute. Look for them from May to October; they spend the winter on the coast.\np. 31"
+    },
+    {
+      "kind": "page",
+      "text": "Room 3: Winter on the Lake\nIn the 1920s, ice harvesting was one of Port Carrick's busiest winter trades. Crews cut blocks about 60 cm square and 45 cm thick from the frozen lake, each weighing roughly 150 kg, and stored them in sawdust in icehouses along the shore.\nThe ice saw on display (no. 1987.44.2) was donated by the Lachance family, who ran an ice business on Water Street from 1911 to 1958.\nPlease do not touch the objects."
+    },
+    {
+      "kind": "page",
+      "text": "Smoke and carbon monoxide alarms save lives\nOntario law requires a working smoke alarm on every storey of your home and outside all sleeping areas.\nTest alarms monthly by pressing the test button. Replace batteries once a year, and replace the whole alarm every 10 years, or as the manufacturer recommends.\nFailing to comply can result in a ticket of $360 or a fine of up to $50,000 for individuals.\nPort Carrick Fire & Emergency Services · Station 1, 15 Front St."
+    },
+    {
+      "kind": "page",
+      "text": "The 1957 Lakers\nNobody gave the 1957 Lakers much of a chance. They had lost 9 of their first 14 games, and their best defenceman, Ernie Valois, was playing with two cracked ribs.\nBut on March 22, in front of 3,100 fans packed into an arena built for 2,400, they beat Kingsford 4–3 in double overtime to win the Lakeshore Senior A title. Goalie Walt Kubiak made 46 saves.\nThe trophy is still on display in the arena lobby."
+    }
+  ]
+}

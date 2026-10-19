@@ -1,0 +1,9070 @@
+{
+ "rows": [
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "I'm a PE teacher with 12 kids: Amy, Ben, Cal, Dee, Eli, Fay, Gus, Hal, Ivy, Jon, Kit, Lou. Split them in that order into consecutive groups of 4.",
+   "input": {
+    "items": [
+     "Amy",
+     "Ben",
+     "Cal",
+     "Dee",
+     "Eli",
+     "Fay",
+     "Gus",
+     "Hal",
+     "Ivy",
+     "Jon",
+     "Kit",
+     "Lou"
+    ],
+    "size": 4
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "chunk 1 2 3 4 5 6 7 8 9 10 into batches of 5",
+   "input": {
+    "items": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "size": 5
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "can you break a, b, c, d, e, f, g into sets of 2?",
+   "input": {
+    "items": [
+     "a",
+     "b",
+     "c",
+     "d",
+     "e",
+     "f",
+     "g"
+    ],
+    "size": 2
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "pointed",
+   "message": "split the list below into chunks of 6",
+   "input": {
+    "size": 6
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "Batch these SKUs in groups of three: A100, A101, A102, A103, A104, A105, A106",
+   "input": {
+    "items": [
+     "A100",
+     "A101",
+     "A102",
+     "A103",
+     "A104",
+     "A105",
+     "A106"
+    ],
+    "size": 3
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "We pack orders 5 to a box. Orders: 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011 — chunk them up.",
+   "input": {
+    "items": [
+     1001,
+     1002,
+     1003,
+     1004,
+     1005,
+     1006,
+     1007,
+     1008,
+     1009,
+     1010,
+     1011
+    ],
+    "size": 5
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "pointed",
+   "message": "chunk my playlist into blocks of 10 songs",
+   "input": {
+    "size": 10
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "Paginate these results, 3 per page: apple, pear, plum, fig, kiwi, lime, date",
+   "input": {
+    "items": [
+     "apple",
+     "pear",
+     "plum",
+     "fig",
+     "kiwi",
+     "lime",
+     "date"
+    ],
+    "size": 3
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "Split red, orange, yellow, green, blue, indigo, violet into groups of two.",
+   "input": {
+    "items": [
+     "red",
+     "orange",
+     "yellow",
+     "green",
+     "blue",
+     "indigo",
+     "violet"
+    ],
+    "size": 2
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "groups of 3 please — 10, 20, 30, 40, 50, 60, 70, 80, 90",
+   "input": {
+    "items": [
+     10,
+     20,
+     30,
+     40,
+     50,
+     60,
+     70,
+     80,
+     90
+    ],
+    "size": 3
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "pointed",
+   "message": "Could you split this list into pieces of 8 items each?",
+   "input": {
+    "size": 8
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "nurse here, chunk this list into groups of 4: bed 1, bed 2, bed 3, bed 4, bed 5, bed 6, bed 7, bed 8, bed 9",
+   "input": {
+    "items": [
+     "bed 1",
+     "bed 2",
+     "bed 3",
+     "bed 4",
+     "bed 5",
+     "bed 6",
+     "bed 7",
+     "bed 8",
+     "bed 9"
+    ],
+    "size": 4
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "split Mon, Tue, Wed, Thu, Fri, Sat, Sun into chunks of 2",
+   "input": {
+    "items": [
+     "Mon",
+     "Tue",
+     "Wed",
+     "Thu",
+     "Fri",
+     "Sat",
+     "Sun"
+    ],
+    "size": 2
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "For my reading group I'd like these books split into sets of 3: Dune, Emma, Ulysses, Beloved, Rebecca, Persuasion",
+   "input": {
+    "items": [
+     "Dune",
+     "Emma",
+     "Ulysses",
+     "Beloved",
+     "Rebecca",
+     "Persuasion"
+    ],
+    "size": 3
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "pointed",
+   "message": "break my list of email addresses into batches of 50",
+   "input": {
+    "size": 50
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "chunk [5, 10, 15, 20, 25, 30, 35] into groups of size 2",
+   "input": {
+    "items": [
+     5,
+     10,
+     15,
+     20,
+     25,
+     30,
+     35
+    ],
+    "size": 2
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "I can only send invites 4 at a time. Chunk tom@x.io, ann@x.io, raj@x.io, lee@x.io, kim@x.io, sam@x.io into batches of 4?",
+   "input": {
+    "items": [
+     "tom@x.io",
+     "ann@x.io",
+     "raj@x.io",
+     "lee@x.io",
+     "kim@x.io",
+     "sam@x.io"
+    ],
+    "size": 4
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "cut Zed, Nova, Rook, Echo, Blaze, Frost into consecutive chunks of 3, keep the order",
+   "input": {
+    "items": [
+     "Zed",
+     "Nova",
+     "Rook",
+     "Echo",
+     "Blaze",
+     "Frost"
+    ],
+    "size": 3
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "Please split these postcodes into lots of 2: SW1, N7, E14, W2, SE10",
+   "input": {
+    "items": [
+     "SW1",
+     "N7",
+     "E14",
+     "W2",
+     "SE10"
+    ],
+    "size": 2
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "pointed",
+   "message": "chunk this array into pieces of size 25",
+   "input": {
+    "size": 25
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "take x, y, z, w, v, u, t, s and give me groups of 4",
+   "input": {
+    "items": [
+     "x",
+     "y",
+     "z",
+     "w",
+     "v",
+     "u",
+     "t",
+     "s"
+    ],
+    "size": 4
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "split 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24 into chunks of 6",
+   "input": {
+    "items": [
+     2,
+     4,
+     6,
+     8,
+     10,
+     12,
+     14,
+     16,
+     18,
+     20,
+     22,
+     24
+    ],
+    "size": 6
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "pointed",
+   "message": "Split the following names into groups of 5, in order.",
+   "input": {
+    "size": 5
+   }
+  },
+  {
+   "skill": "chunkList",
+   "mode": "full",
+   "message": "Accountant here: split invoice numbers INV-01, INV-02, INV-03, INV-04, INV-05 into groups of 2 for review",
+   "input": {
+    "items": [
+     "INV-01",
+     "INV-02",
+     "INV-03",
+     "INV-04",
+     "INV-05"
+    ],
+    "size": 2
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "how many times does each item appear in this list: red, blue, red, green, blue, red",
+   "input": {
+    "items": [
+     "red",
+     "blue",
+     "red",
+     "green",
+     "blue",
+     "red"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "how often does each item appear in cat, dog, cat, bird, dog, cat?",
+   "input": {
+    "items": [
+     "cat",
+     "dog",
+     "cat",
+     "bird",
+     "dog",
+     "cat"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "Survey answers: yes, no, yes, yes, maybe, no. How many times does each answer appear in the list?",
+   "input": {
+    "items": [
+     "yes",
+     "no",
+     "yes",
+     "yes",
+     "maybe",
+     "no"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "pointed",
+   "message": "tally the names on the sign-up sheet I'm pasting",
+   "input": {}
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "Shop owner here. Today's sales list was latte, mocha, latte, tea, latte, mocha, tea, latte — count how many of each item.",
+   "input": {
+    "items": [
+     "latte",
+     "mocha",
+     "latte",
+     "tea",
+     "latte",
+     "mocha",
+     "tea",
+     "latte"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "frequency of each value: 3, 7, 3, 3, 9, 7, 1",
+   "input": {
+    "items": [
+     3,
+     7,
+     3,
+     3,
+     9,
+     7,
+     1
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "count how many of each item in this list, ignoring case: Apple, apple, APPLE, pear, Pear",
+   "input": {
+    "items": [
+     "Apple",
+     "apple",
+     "APPLE",
+     "pear",
+     "Pear"
+    ],
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "pointed",
+   "message": "ranked count of the ballots I'll paste in",
+   "input": {}
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "class votes for the trip: zoo, museum, zoo, beach, zoo, beach, museum, zoo — tally them",
+   "input": {
+    "items": [
+     "zoo",
+     "museum",
+     "zoo",
+     "beach",
+     "zoo",
+     "beach",
+     "museum",
+     "zoo"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "how many of each dice roll: 6, 2, 6, 4, 6, 2, 1, 5, 6",
+   "input": {
+    "items": [
+     6,
+     2,
+     6,
+     4,
+     6,
+     2,
+     1,
+     5,
+     6
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "which item appears most often in this list? blue, green, blue, blue, red, green",
+   "input": {
+    "items": [
+     "blue",
+     "green",
+     "blue",
+     "blue",
+     "red",
+     "green"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "pointed",
+   "message": "count up each item in my grocery list, most common first",
+   "input": {}
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "Bird survey: robin, wren, robin, sparrow, wren, robin, robin. Give me counts per species.",
+   "input": {
+    "items": [
+     "robin",
+     "wren",
+     "robin",
+     "sparrow",
+     "wren",
+     "robin",
+     "robin"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "count each letter's occurrences in this list: A, B, a, C, b, A, ignoring case",
+   "input": {
+    "items": [
+     "A",
+     "B",
+     "a",
+     "C",
+     "b",
+     "A"
+    ],
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "Could you count how many times each error code occurs in this list: E42, E17, E42, E99, E17, E42",
+   "input": {
+    "items": [
+     "E42",
+     "E17",
+     "E42",
+     "E99",
+     "E17",
+     "E42"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "pointed",
+   "message": "count how many times each item shows up in the order list I'll send",
+   "input": {}
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "nurse — blood types on the ward today: O, A, O, B, AB, O, A. count each type",
+   "input": {
+    "items": [
+     "O",
+     "A",
+     "O",
+     "B",
+     "AB",
+     "O",
+     "A"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "count occurrences of each item: go, stop, go, go, wait, stop",
+   "input": {
+    "items": [
+     "go",
+     "stop",
+     "go",
+     "go",
+     "wait",
+     "stop"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "my kid rolled 1, 3, 3, 5, 1, 3, 2 — how many times did each number come up?",
+   "input": {
+    "items": [
+     1,
+     3,
+     3,
+     5,
+     1,
+     3,
+     2
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "pointed",
+   "message": "tally the responses below, and ignore case",
+   "input": {
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "Count each entry in: london, paris, london, rome, paris, london",
+   "input": {
+    "items": [
+     "london",
+     "paris",
+     "london",
+     "rome",
+     "paris",
+     "london"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "Make a frequency count of each item in Mon, Tue, Mon, Fri, Mon, Tue",
+   "input": {
+    "items": [
+     "Mon",
+     "Tue",
+     "Mon",
+     "Fri",
+     "Mon",
+     "Tue"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "sign-in list: Raj, Mia, Raj, Leo, Mia, Raj — how many times does each name appear?",
+   "input": {
+    "items": [
+     "Raj",
+     "Mia",
+     "Raj",
+     "Leo",
+     "Mia",
+     "Raj"
+    ]
+   }
+  },
+  {
+   "skill": "countItems",
+   "mode": "full",
+   "message": "how many times does each tag appear in this list: python, js, python, rust, js, python, go",
+   "input": {
+    "items": [
+     "python",
+     "js",
+     "python",
+     "rust",
+     "js",
+     "python",
+     "go"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "remove repeats: 4, 8, 4, 15, 16, 8, 23, 42",
+   "input": {
+    "items": [
+     4,
+     8,
+     4,
+     15,
+     16,
+     8,
+     23,
+     42
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "I've got a guest list with duplicates — Sam, Alex, Sam, Jo, Alex, Priya. Can you give me each name once?",
+   "input": {
+    "items": [
+     "Sam",
+     "Alex",
+     "Sam",
+     "Jo",
+     "Alex",
+     "Priya"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "pointed",
+   "message": "dedupe my mailing list",
+   "input": {}
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "unique values only please: 10, 10, 20, 30, 20, 40",
+   "input": {
+    "items": [
+     10,
+     10,
+     20,
+     30,
+     20,
+     40
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "dedupe these names, case doesn't matter: Ann, ann, Bob, BOB, Cy",
+   "input": {
+    "items": [
+     "Ann",
+     "ann",
+     "Bob",
+     "BOB",
+     "Cy"
+    ],
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "Make this list unique: cat, dog, cat, fish, dog, cat",
+   "input": {
+    "items": [
+     "cat",
+     "dog",
+     "cat",
+     "fish",
+     "dog",
+     "cat"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "pointed",
+   "message": "dedupe the list of SKUs I'm about to paste",
+   "input": {}
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "teacher here — the sign-up list has Ella, Finn, Ella, Gita, Finn. remove the duplicates?",
+   "input": {
+    "items": [
+     "Ella",
+     "Finn",
+     "Ella",
+     "Gita",
+     "Finn"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "deduplicate: alpha, beta, gamma, alpha, delta, beta",
+   "input": {
+    "items": [
+     "alpha",
+     "beta",
+     "gamma",
+     "alpha",
+     "delta",
+     "beta"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "each item once please — milk, eggs, bread, milk, eggs, butter",
+   "input": {
+    "items": [
+     "milk",
+     "eggs",
+     "bread",
+     "milk",
+     "eggs",
+     "butter"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "pointed",
+   "message": "remove any repeated invoice numbers from my list",
+   "input": {}
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "Can you drop the duplicate postcodes: SW1A, EC1, SW1A, N1, EC1",
+   "input": {
+    "items": [
+     "SW1A",
+     "EC1",
+     "SW1A",
+     "N1",
+     "EC1"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "keep only the first occurrence of each: 7, 3, 7, 9, 3, 1",
+   "input": {
+    "items": [
+     7,
+     3,
+     7,
+     9,
+     3,
+     1
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "remove duplicates from this list of cities, case doesn't matter: Paris, paris, Oslo, OSLO, Rome",
+   "input": {
+    "items": [
+     "Paris",
+     "paris",
+     "Oslo",
+     "OSLO",
+     "Rome"
+    ],
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "pointed",
+   "message": "dedupe the list below, case-insensitive",
+   "input": {
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "I scanned some barcodes twice by mistake: 501, 502, 501, 503, 502. Give me each one once, in order.",
+   "input": {
+    "items": [
+     501,
+     502,
+     501,
+     503,
+     502
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "remove duplicate songs from my playlist: Hey Jude, Yesterday, Hey Jude, Help",
+   "input": {
+    "items": [
+     "Hey Jude",
+     "Yesterday",
+     "Hey Jude",
+     "Help"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "dedupe ab, cd, ab, ef, cd, gh",
+   "input": {
+    "items": [
+     "ab",
+     "cd",
+     "ab",
+     "ef",
+     "cd",
+     "gh"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "pointed",
+   "message": "clean the duplicates out of my contact list",
+   "input": {}
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "nurse rota had repeats: Kim, Lee, Kim, Ana, Lee. Unique names in the original order please.",
+   "input": {
+    "items": [
+     "Kim",
+     "Lee",
+     "Kim",
+     "Ana",
+     "Lee"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "Filter out duplicates: 1.5, 2.5, 1.5, 3.5",
+   "input": {
+    "items": [
+     1.5,
+     2.5,
+     1.5,
+     3.5
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "list each fruit once — apple, kiwi, apple, mango, kiwi",
+   "input": {
+    "items": [
+     "apple",
+     "kiwi",
+     "apple",
+     "mango",
+     "kiwi"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "these ids came through twice: u1, u2, u1, u3, u2, u4 — dedupe them keeping order",
+   "input": {
+    "items": [
+     "u1",
+     "u2",
+     "u1",
+     "u3",
+     "u2",
+     "u4"
+    ]
+   }
+  },
+  {
+   "skill": "dedupeList",
+   "mode": "full",
+   "message": "How do I remove duplicate entries from north, south, north, east, west, south?",
+   "input": {
+    "items": [
+     "north",
+     "south",
+     "north",
+     "east",
+     "west",
+     "south"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "which of these are in list one but not list two? list one: 1, 2, 3, 4, 5; list two: 2, 4",
+   "input": {
+    "first": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "second": [
+     2,
+     4
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "what's missing from the second list? first: apples, pears, plums; second: apples, plums",
+   "input": {
+    "first": [
+     "apples",
+     "pears",
+     "plums"
+    ],
+    "second": [
+     "apples",
+     "plums"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "I invited Ana, Ben, Cara, Dev and only Ana, Dev replied. Who's on the invite list but not the reply list?",
+   "input": {
+    "first": [
+     "Ana",
+     "Ben",
+     "Cara",
+     "Dev"
+    ],
+    "second": [
+     "Ana",
+     "Dev"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "difference between list A (red, green, blue) and list B (green, yellow)",
+   "input": {
+    "first": [
+     "red",
+     "green",
+     "blue"
+    ],
+    "second": [
+     "green",
+     "yellow"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "pointed",
+   "message": "compare my two lists and tell me what's in one but not the other",
+   "input": {}
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "items only in one list: [10, 20, 30] vs [20, 30, 40]",
+   "input": {
+    "first": [
+     10,
+     20,
+     30
+    ],
+    "second": [
+     20,
+     30,
+     40
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "find what differs between these two lists, ignoring case: Cat, Dog, Fox and cat, dog",
+   "input": {
+    "first": [
+     "Cat",
+     "Dog",
+     "Fox"
+    ],
+    "second": [
+     "cat",
+     "dog"
+    ],
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "list differences please — 5, 6, 7, 8 and 6, 8, 9",
+   "input": {
+    "first": [
+     5,
+     6,
+     7,
+     8
+    ],
+    "second": [
+     6,
+     8,
+     9
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "Which of these numbers are in the first list but not the second: 7, 8, 9, 10 versus 8, 10",
+   "input": {
+    "first": [
+     7,
+     8,
+     9,
+     10
+    ],
+    "second": [
+     8,
+     10
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "shop owner: stock list is pens, ink, tape, glue; sold-out list is ink, glue. what's in the first list but not the second?",
+   "input": {
+    "first": [
+     "pens",
+     "ink",
+     "tape",
+     "glue"
+    ],
+    "second": [
+     "ink",
+     "glue"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "find the difference between list one [x, y, z] and list two [y]",
+   "input": {
+    "first": [
+     "x",
+     "y",
+     "z"
+    ],
+    "second": [
+     "y"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "pointed",
+   "message": "what's in my old list but not my new one?",
+   "input": {}
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "pointed",
+   "message": "diff these two guest lists for me",
+   "input": {}
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "pointed",
+   "message": "show me which entries differ between the two lists I'll paste",
+   "input": {}
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "pointed",
+   "message": "which items are only on one of my two lists, ignoring case",
+   "input": {
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "pointed",
+   "message": "spot the differences between the two lists of IDs below",
+   "input": {}
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "Two playlists: Rock, Jazz, Soul and Jazz, Pop. What's on one list but not the other?",
+   "input": {
+    "first": [
+     "Rock",
+     "Jazz",
+     "Soul"
+    ],
+    "second": [
+     "Jazz",
+     "Pop"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "set difference of the lists 100, 200, 300 and 200, 300, 400",
+   "input": {
+    "first": [
+     100,
+     200,
+     300
+    ],
+    "second": [
+     200,
+     300,
+     400
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "nurse: morning med list aspirin, insulin, warfarin; evening list insulin, metformin. which meds are on only one of the lists?",
+   "input": {
+    "first": [
+     "aspirin",
+     "insulin",
+     "warfarin"
+    ],
+    "second": [
+     "insulin",
+     "metformin"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "list A: north, east, south. list B: east, west. what's in A but not B, and B but not A?",
+   "input": {
+    "first": [
+     "north",
+     "east",
+     "south"
+    ],
+    "second": [
+     "east",
+     "west"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "My wishlist is Hades, Celeste, Doom and my friend's list is Doom, Tunic. Which games are in only one of the lists?",
+   "input": {
+    "first": [
+     "Hades",
+     "Celeste",
+     "Doom"
+    ],
+    "second": [
+     "Doom",
+     "Tunic"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "Which postcodes from list 1 (E1, E2, E3) are missing from list 2 (E2, E3)?",
+   "input": {
+    "first": [
+     "E1",
+     "E2",
+     "E3"
+    ],
+    "second": [
+     "E2",
+     "E3"
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "first list: 3, 6, 9, 12. second list: 6, 12, 18. show the difference both ways",
+   "input": {
+    "first": [
+     3,
+     6,
+     9,
+     12
+    ],
+    "second": [
+     6,
+     12,
+     18
+    ]
+   }
+  },
+  {
+   "skill": "differenceLists",
+   "mode": "full",
+   "message": "what's on the first list and not the second — Tom, Ann, Raj vs Ann",
+   "input": {
+    "first": [
+     "Tom",
+     "Ann",
+     "Raj"
+    ],
+    "second": [
+     "Ann"
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "flatten [[1, 2], [3, 4], [5]]",
+   "input": {
+    "items": [
+     [
+      1,
+      2
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      5
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "make [1, [2, [3, [4]]]] one flat list",
+   "input": {
+    "items": [
+     1,
+     [
+      2,
+      [
+       3,
+       [
+        4
+       ]
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "flatten this list one level only: [[a, b], [c, [d, e]]]",
+   "input": {
+    "items": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      "c",
+      [
+       "d",
+       "e"
+      ]
+     ]
+    ],
+    "depth": 1
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "I have nested arrays [[10, 20], [30], [40, 50, 60]] — turn them into one list",
+   "input": {
+    "items": [
+     [
+      10,
+      20
+     ],
+     [
+      30
+     ],
+     [
+      40,
+      50,
+      60
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "pointed",
+   "message": "flatten the nested array I'm about to send",
+   "input": {}
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "un-nest [[\"x\"], [\"y\", [\"z\"]]] two levels deep",
+   "input": {
+    "items": [
+     [
+      "x"
+     ],
+     [
+      "y",
+      [
+       "z"
+      ]
+     ]
+    ],
+    "depth": 2
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "flatten [[\"red\", \"blue\"], [\"green\"]]",
+   "input": {
+    "items": [
+     [
+      "red",
+      "blue"
+     ],
+     [
+      "green"
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "pointed",
+   "message": "flatten my deeply layered array — I'll paste it next",
+   "input": {}
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "dev here: need [[1], [2], [3]] as a flat array",
+   "input": {
+    "items": [
+     [
+      1
+     ],
+     [
+      2
+     ],
+     [
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "turn [[\"Mon\", \"Tue\"], [\"Wed\"]] into a single flat list",
+   "input": {
+    "items": [
+     [
+      "Mon",
+      "Tue"
+     ],
+     [
+      "Wed"
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "pointed",
+   "message": "can you un-nest this array, just one level",
+   "input": {
+    "depth": 1
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "flatten [0, [1, [2, [3, [4, [5]]]]]] completely",
+   "input": {
+    "items": [
+     0,
+     [
+      1,
+      [
+       2,
+       [
+        3,
+        [
+         4,
+         [
+          5
+         ]
+        ]
+       ]
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "Flatten [[2.5, 3.5], [4.5]] for me",
+   "input": {
+    "items": [
+     [
+      2.5,
+      3.5
+     ],
+     [
+      4.5
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "pointed",
+   "message": "collapse these nested lists into one flat list",
+   "input": {}
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "merge the sublists in [[7, 8], [9], [10, 11]] into one flat list",
+   "input": {
+    "items": [
+     [
+      7,
+      8
+     ],
+     [
+      9
+     ],
+     [
+      10,
+      11
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "flatten [[[1, 2]], [[3]]] by 2 levels",
+   "input": {
+    "items": [
+     [
+      [
+       1,
+       2
+      ]
+     ],
+     [
+      [
+       3
+      ]
+     ]
+    ],
+    "depth": 2
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "I've got groups [[Ann, Bo], [Cy, Di], [Ed]] — flatten them into one list of names",
+   "input": {
+    "items": [
+     [
+      "Ann",
+      "Bo"
+     ],
+     [
+      "Cy",
+      "Di"
+     ],
+     [
+      "Ed"
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "pointed",
+   "message": "flatten the nested array I'm sending, 3 levels deep",
+   "input": {
+    "depth": 3
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "flatten [[100], [200, [300]]] one level",
+   "input": {
+    "items": [
+     [
+      100
+     ],
+     [
+      200,
+      [
+       300
+      ]
+     ]
+    ],
+    "depth": 1
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "unnest this list: [[a], [b, c], [d, [e]]]",
+   "input": {
+    "items": [
+     [
+      "a"
+     ],
+     [
+      "b",
+      "c"
+     ],
+     [
+      "d",
+      [
+       "e"
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "teacher here, I have table groups [[1, 2, 3], [4, 5], [6]] — flatten into one list",
+   "input": {
+    "items": [
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "Flatten [1, [2, 3], [[4]]] fully please",
+   "input": {
+    "items": [
+     1,
+     [
+      2,
+      3
+     ],
+     [
+      [
+       4
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "can you flatten [[true, false], [true]]",
+   "input": {
+    "items": [
+     [
+      true,
+      false
+     ],
+     [
+      true
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "flattenList",
+   "mode": "full",
+   "message": "squash [[\"x\", \"y\"], [[\"z\"]]] into a flat list",
+   "input": {
+    "items": [
+     [
+      "x",
+      "y"
+     ],
+     [
+      [
+       "z"
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "which names are on both lists? Amy, Bo, Cy and Bo, Cy, Di",
+   "input": {
+    "first": [
+     "Amy",
+     "Bo",
+     "Cy"
+    ],
+    "second": [
+     "Bo",
+     "Cy",
+     "Di"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "what do list one (1, 2, 3, 4) and list two (3, 4, 5) share?",
+   "input": {
+    "first": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "second": [
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "find the overlap between my two lists: milk, eggs, flour and flour, sugar, eggs",
+   "input": {
+    "first": [
+     "milk",
+     "eggs",
+     "flour"
+    ],
+    "second": [
+     "flour",
+     "sugar",
+     "eggs"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "items common to both lists: red, blue and blue, green",
+   "input": {
+    "first": [
+     "red",
+     "blue"
+    ],
+    "second": [
+     "blue",
+     "green"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "intersect [5, 10, 15] with [10, 15, 20]",
+   "input": {
+    "first": [
+     5,
+     10,
+     15
+    ],
+    "second": [
+     10,
+     15,
+     20
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "which students are in both the chess club list and the drama list? chess: Ali, Bea, Cal; drama: Bea, Dan, Cal",
+   "input": {
+    "first": [
+     "Ali",
+     "Bea",
+     "Cal"
+    ],
+    "second": [
+     "Bea",
+     "Dan",
+     "Cal"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "pointed",
+   "message": "what's on both of the lists I'll paste?",
+   "input": {}
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "pointed",
+   "message": "intersect my two customer lists",
+   "input": {}
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "pointed",
+   "message": "show which items my two lists share, ignoring case",
+   "input": {
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "pointed",
+   "message": "find the overlap between the two guest lists I'll share",
+   "input": {}
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "pointed",
+   "message": "get the common items of list A and list B below",
+   "input": {}
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "pointed",
+   "message": "list the matches between my two lists, I'll paste them",
+   "input": {}
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "shared items between the lists 2, 4, 6, 8 and 4, 8, 12",
+   "input": {
+    "first": [
+     2,
+     4,
+     6,
+     8
+    ],
+    "second": [
+     4,
+     8,
+     12
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "Hotel guest list: Kim, Ray, Sue. Restaurant booking list: Ray, Tim, Sue. Who appears on both lists?",
+   "input": {
+    "first": [
+     "Kim",
+     "Ray",
+     "Sue"
+    ],
+    "second": [
+     "Ray",
+     "Tim",
+     "Sue"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "intersection of [apple, kiwi, fig] and [fig, kiwi, lime]",
+   "input": {
+    "first": [
+     "apple",
+     "kiwi",
+     "fig"
+    ],
+    "second": [
+     "fig",
+     "kiwi",
+     "lime"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "what's on both lists ignoring case: BOB, Ann, cy and bob, ANN",
+   "input": {
+    "first": [
+     "BOB",
+     "Ann",
+     "cy"
+    ],
+    "second": [
+     "bob",
+     "ANN"
+    ],
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "what numbers are in both 11, 22, 33 and 22, 33, 44?",
+   "input": {
+    "first": [
+     11,
+     22,
+     33
+    ],
+    "second": [
+     22,
+     33,
+     44
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "Which skills are on both my CV list (python, sql, excel) and the job list (sql, excel, tableau)?",
+   "input": {
+    "first": [
+     "python",
+     "sql",
+     "excel"
+    ],
+    "second": [
+     "sql",
+     "excel",
+     "tableau"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "gamer here: my friends list is Zed, Ivy, Rex; my clan list is Rex, Ivy, Ash. who's on both lists?",
+   "input": {
+    "first": [
+     "Zed",
+     "Ivy",
+     "Rex"
+    ],
+    "second": [
+     "Rex",
+     "Ivy",
+     "Ash"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "nurse here — allergy list penicillin, latex, nuts and med list latex, nuts, ibuprofen. which items are on both lists?",
+   "input": {
+    "first": [
+     "penicillin",
+     "latex",
+     "nuts"
+    ],
+    "second": [
+     "latex",
+     "nuts",
+     "ibuprofen"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "keep only items in both lists: 1, 3, 5, 7 and 3, 7, 9",
+   "input": {
+    "first": [
+     1,
+     3,
+     5,
+     7
+    ],
+    "second": [
+     3,
+     7,
+     9
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "overlap between the lists [mon, tue, wed] and [tue, thu]",
+   "input": {
+    "first": [
+     "mon",
+     "tue",
+     "wed"
+    ],
+    "second": [
+     "tue",
+     "thu"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "find matches in both lists — list 1: A12, B34, C56; list 2: B34, D78",
+   "input": {
+    "first": [
+     "A12",
+     "B34",
+     "C56"
+    ],
+    "second": [
+     "B34",
+     "D78"
+    ]
+   }
+  },
+  {
+   "skill": "intersectLists",
+   "mode": "full",
+   "message": "common to both lists? 0.5, 1, 1.5 and 1, 2",
+   "input": {
+    "first": [
+     0.5,
+     1,
+     1.5
+    ],
+    "second": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "pair these people up with seed 3: Ann, Ben, Cat, Dan, Eve, Fay",
+   "input": {
+    "items": [
+     "Ann",
+     "Ben",
+     "Cat",
+     "Dan",
+     "Eve",
+     "Fay"
+    ],
+    "seed": 3
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "random pairs for the class, seed 11: Liam, Noah, Emma, Olivia",
+   "input": {
+    "items": [
+     "Liam",
+     "Noah",
+     "Emma",
+     "Olivia"
+    ],
+    "seed": 11
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "split these 6 players into random teams of 3 with seed 5: A, B, C, D, E, F",
+   "input": {
+    "items": [
+     "A",
+     "B",
+     "C",
+     "D",
+     "E",
+     "F"
+    ],
+    "seed": 5,
+    "groupSize": 3
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "draw partners for the dance from Kim, Lee, Max, Ned, seed 20",
+   "input": {
+    "items": [
+     "Kim",
+     "Lee",
+     "Max",
+     "Ned"
+    ],
+    "seed": 20
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "pointed",
+   "message": "pair up the names below randomly, seed 4",
+   "input": {
+    "seed": 4
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "Teacher here. Pair up Ava, Ben, Cole, Dina, Eli, Faye, Gus, Hana as random lab partners using seed 8",
+   "input": {
+    "items": [
+     "Ava",
+     "Ben",
+     "Cole",
+     "Dina",
+     "Eli",
+     "Faye",
+     "Gus",
+     "Hana"
+    ],
+    "seed": 8
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "make random teams of 4 out of Zed, Nova, Rook, Echo, Blaze, Frost, Ash, Vex, seed 99",
+   "input": {
+    "items": [
+     "Zed",
+     "Nova",
+     "Rook",
+     "Echo",
+     "Blaze",
+     "Frost",
+     "Ash",
+     "Vex"
+    ],
+    "seed": 99,
+    "groupSize": 4
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "pointed",
+   "message": "pair up my team for coffee roulette, seed 12",
+   "input": {
+    "seed": 12
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "seed 0 — randomly pair Mia, Leo, Zoe, Max",
+   "input": {
+    "items": [
+     "Mia",
+     "Leo",
+     "Zoe",
+     "Max"
+    ],
+    "seed": 0
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "random buddy pairs for the trip: Sam, Tia, Uma, Vic, Wes, Xia (seed 77)",
+   "input": {
+    "items": [
+     "Sam",
+     "Tia",
+     "Uma",
+     "Vic",
+     "Wes",
+     "Xia"
+    ],
+    "seed": 77
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "pointed",
+   "message": "draw random teams of 3 from the names I'll paste, seed 6",
+   "input": {
+    "seed": 6,
+    "groupSize": 3
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "Can you pair up Raj, Priya, Arun, Meena at random? Use seed 2026.",
+   "input": {
+    "items": [
+     "Raj",
+     "Priya",
+     "Arun",
+     "Meena"
+    ],
+    "seed": 2026
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "draw random doubles pairs from Jo, Kat, Lu, Mo — seed 15",
+   "input": {
+    "items": [
+     "Jo",
+     "Kat",
+     "Lu",
+     "Mo"
+    ],
+    "seed": 15
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "draw Ann, Bea, Cam, Dot, Eve, Flo, Gil, Hal, Ike into random teams of 3, seed 31",
+   "input": {
+    "items": [
+     "Ann",
+     "Bea",
+     "Cam",
+     "Dot",
+     "Eve",
+     "Flo",
+     "Gil",
+     "Hal",
+     "Ike"
+    ],
+    "seed": 31,
+    "groupSize": 3
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "pointed",
+   "message": "pair the volunteers off randomly with seed 50",
+   "input": {
+    "seed": 50
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "nurse rota: pair Kim, Lee, Ana, Ben, Cy, Di randomly for night shifts, seed 7",
+   "input": {
+    "items": [
+     "Kim",
+     "Lee",
+     "Ana",
+     "Ben",
+     "Cy",
+     "Di"
+    ],
+    "seed": 7
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "make random study pairs: Tom, Ann, Joe, Sue, seed 101",
+   "input": {
+    "items": [
+     "Tom",
+     "Ann",
+     "Joe",
+     "Sue"
+    ],
+    "seed": 101
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "pointed",
+   "message": "random partners for everyone in my class list, seed 3",
+   "input": {
+    "seed": 3
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "pair up red, blue, green, yellow randomly with seed 44",
+   "input": {
+    "items": [
+     "red",
+     "blue",
+     "green",
+     "yellow"
+    ],
+    "seed": 44
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "pair up the cooking class at random: Ada, Ben, Cy, Dee, Eve, Fin, seed 13",
+   "input": {
+    "items": [
+     "Ada",
+     "Ben",
+     "Cy",
+     "Dee",
+     "Eve",
+     "Fin"
+    ],
+    "seed": 13
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "Randomly pair the finalists Ali, Bo, Cyd, Dax, seed 8",
+   "input": {
+    "items": [
+     "Ali",
+     "Bo",
+     "Cyd",
+     "Dax"
+    ],
+    "seed": 8
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "please draw random pairs among Pip, Quinn, Rory, Sid, Tess, Uli using seed 64",
+   "input": {
+    "items": [
+     "Pip",
+     "Quinn",
+     "Rory",
+     "Sid",
+     "Tess",
+     "Uli"
+    ],
+    "seed": 64
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "pointed",
+   "message": "split the team below into random groups of 4, seed 21",
+   "input": {
+    "seed": 21,
+    "groupSize": 4
+   }
+  },
+  {
+   "skill": "pairUp",
+   "mode": "full",
+   "message": "random pairs of 2 from Hugo, Iris, Jack, Kara, seed 9",
+   "input": {
+    "items": [
+     "Hugo",
+     "Iris",
+     "Jack",
+     "Kara"
+    ],
+    "seed": 9,
+    "groupSize": 2
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "pick a random winner from Ana, Ben, Cara, Dev with seed 12",
+   "input": {
+    "items": [
+     "Ana",
+     "Ben",
+     "Cara",
+     "Dev"
+    ],
+    "seed": 12
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "choose 2 at random from pizza, sushi, tacos, curry, seed 5",
+   "input": {
+    "items": [
+     "pizza",
+     "sushi",
+     "tacos",
+     "curry"
+    ],
+    "seed": 5,
+    "count": 2
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "seed 30: pick one restaurant from Nandos, Wagamama, Pizza Express",
+   "input": {
+    "items": [
+     "Nandos",
+     "Wagamama",
+     "Pizza Express"
+    ],
+    "seed": 30
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "pointed",
+   "message": "pick a random name from my list, seed 8",
+   "input": {
+    "seed": 8
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "randomly pick 3 raffle tickets from the list 101, 102, 103, 104, 105, 106 with seed 77",
+   "input": {
+    "items": [
+     101,
+     102,
+     103,
+     104,
+     105,
+     106
+    ],
+    "seed": 77,
+    "count": 3
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "which chore do I do today? dishes, laundry, hoovering — pick one at random, seed 4",
+   "input": {
+    "items": [
+     "dishes",
+     "laundry",
+     "hoovering"
+    ],
+    "seed": 4
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "pointed",
+   "message": "draw 5 random entries from my spreadsheet column, seed 19",
+   "input": {
+    "seed": 19,
+    "count": 5
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "teacher here: pick a random student to answer from Leo, Mia, Noah, Ivy, seed 21",
+   "input": {
+    "items": [
+     "Leo",
+     "Mia",
+     "Noah",
+     "Ivy"
+    ],
+    "seed": 21
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "pick 4 with repeats allowed from red, green, blue, seed 2",
+   "input": {
+    "items": [
+     "red",
+     "green",
+     "blue"
+    ],
+    "seed": 2,
+    "count": 4,
+    "allowRepeats": true
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "randomly pick 2 snacks from the list crisps, apples, popcorn, flapjacks with seed 100",
+   "input": {
+    "items": [
+     "crisps",
+     "apples",
+     "popcorn",
+     "flapjacks"
+    ],
+    "seed": 100,
+    "count": 2
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "pointed",
+   "message": "choose one at random from the options below with seed 33",
+   "input": {
+    "seed": 33
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "gamer here, pick a random map from Dust, Mirage, Inferno, Nuke using seed 9",
+   "input": {
+    "items": [
+     "Dust",
+     "Mirage",
+     "Inferno",
+     "Nuke"
+    ],
+    "seed": 9
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "Select two random prize winners from Kim, Lee, Ray, Sue, Tom. Seed 64.",
+   "input": {
+    "items": [
+     "Kim",
+     "Lee",
+     "Ray",
+     "Sue",
+     "Tom"
+    ],
+    "seed": 64,
+    "count": 2
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "pick a random card from A, K, Q, J with seed 3",
+   "input": {
+    "items": [
+     "A",
+     "K",
+     "Q",
+     "J"
+    ],
+    "seed": 3
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "pointed",
+   "message": "pick 3 random questions from my quiz bank, seed 45",
+   "input": {
+    "seed": 45,
+    "count": 3
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "seed 7, choose one random dinner: chili, risotto, stir fry, lasagne",
+   "input": {
+    "items": [
+     "chili",
+     "risotto",
+     "stir fry",
+     "lasagne"
+    ],
+    "seed": 7
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "Randomly choose 1 of Paris, Rome, Lisbon for our holiday (seed 2024)",
+   "input": {
+    "items": [
+     "Paris",
+     "Rome",
+     "Lisbon"
+    ],
+    "seed": 2024,
+    "count": 1
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "pick 6 random items from 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 with repetition allowed, seed 88",
+   "input": {
+    "items": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "seed": 88,
+    "count": 6,
+    "allowRepeats": true
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "pointed",
+   "message": "randomly pick a winner from the entries below, seed 1000",
+   "input": {
+    "seed": 1000
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "nurse: pick a random bay to audit from Bay A, Bay B, Bay C, seed 6",
+   "input": {
+    "items": [
+     "Bay A",
+     "Bay B",
+     "Bay C"
+    ],
+    "seed": 6
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "pick a random song: Help, Yesterday, Let It Be — seed 14",
+   "input": {
+    "items": [
+     "Help",
+     "Yesterday",
+     "Let It Be"
+    ],
+    "seed": 14
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "draw one name out of a hat: Zara, Yusuf, Xena, seed 55",
+   "input": {
+    "items": [
+     "Zara",
+     "Yusuf",
+     "Xena"
+    ],
+    "seed": 55
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "pointed",
+   "message": "pick 2 random items from my list using seed 10",
+   "input": {
+    "seed": 10,
+    "count": 2
+   }
+  },
+  {
+   "skill": "pickRandom",
+   "mode": "full",
+   "message": "choose a random colour from cyan, magenta, yellow with seed 23",
+   "input": {
+    "items": [
+     "cyan",
+     "magenta",
+     "yellow"
+    ],
+    "seed": 23
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "list every number from 3 to 12",
+   "input": {
+    "from": 3,
+    "to": 12
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "count from 5 to 50 in steps of 5",
+   "input": {
+    "from": 5,
+    "to": 50,
+    "step": 5
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "give me the numbers 100 down to 90",
+   "input": {
+    "from": 100,
+    "to": 90
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "even numbers from 2 to 20 in steps of 2",
+   "input": {
+    "from": 2,
+    "to": 20,
+    "step": 2
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "sequence from 0 to 1 in steps of 0.1",
+   "input": {
+    "from": 0,
+    "to": 1,
+    "step": 0.1
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "count down from 20 to 0 by 4",
+   "input": {
+    "from": 20,
+    "to": 0,
+    "step": -4
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "nurse here, list the numbers 0 to 23",
+   "input": {
+    "from": 0,
+    "to": 23
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "I need a list of the numbers 1 through 31 for a calendar",
+   "input": {
+    "from": 1,
+    "to": 31
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "list the years from 1990 to 2000",
+   "input": {
+    "from": 1990,
+    "to": 2000
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "count from -5 to 5",
+   "input": {
+    "from": -5,
+    "to": 5
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "range 10 to 100 step 10",
+   "input": {
+    "from": 10,
+    "to": 100,
+    "step": 10
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "teacher: write out 7 to 70 counting in steps of 7",
+   "input": {
+    "from": 7,
+    "to": 70,
+    "step": 7
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "list from 1.5 to 3 by 0.25",
+   "input": {
+    "from": 1.5,
+    "to": 3,
+    "step": 0.25
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "all the numbers between 40 and 50 please",
+   "input": {
+    "from": 40,
+    "to": 50
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "count backwards from 12 to 1",
+   "input": {
+    "from": 12,
+    "to": 1
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "list 1000 to 1010",
+   "input": {
+    "from": 1000,
+    "to": 1010
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "odd numbers from 1 to 19, step 2",
+   "input": {
+    "from": 1,
+    "to": 19,
+    "step": 2
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "every 15 minutes from 0 to 60, just the numbers",
+   "input": {
+    "from": 0,
+    "to": 60,
+    "step": 15
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "list all numbers from 25 down to 5 in steps of 5",
+   "input": {
+    "from": 25,
+    "to": 5,
+    "step": -5
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "make a list of 0 to 9",
+   "input": {
+    "from": 0,
+    "to": 9
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "pointed",
+   "message": "list the numbers up to 30 in steps of 3",
+   "input": {
+    "to": 30,
+    "step": 3
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "Count 50 to 100 in 25s",
+   "input": {
+    "from": 50,
+    "to": 100,
+    "step": 25
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "list the integers from 8 to 16",
+   "input": {
+    "from": 8,
+    "to": 16
+   }
+  },
+  {
+   "skill": "rangeList",
+   "mode": "full",
+   "message": "seat numbers 101 to 120 please",
+   "input": {
+    "from": 101,
+    "to": 120
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "shuffle Ann, Ben, Cy, Dee with seed 10",
+   "input": {
+    "items": [
+     "Ann",
+     "Ben",
+     "Cy",
+     "Dee"
+    ],
+    "seed": 10
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "randomize the order of 1, 2, 3, 4, 5, 6 using seed 77",
+   "input": {
+    "items": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "seed": 77
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "seed 5: mix up the batting order — Root, Stokes, Brook, Pope",
+   "input": {
+    "items": [
+     "Root",
+     "Stokes",
+     "Brook",
+     "Pope"
+    ],
+    "seed": 5
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "pointed",
+   "message": "shuffle my reading list, seed 12",
+   "input": {
+    "seed": 12
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "put these quiz questions in a random order with seed 3: Q1, Q2, Q3, Q4, Q5",
+   "input": {
+    "items": [
+     "Q1",
+     "Q2",
+     "Q3",
+     "Q4",
+     "Q5"
+    ],
+    "seed": 3
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "teacher here — shuffle the presentation order for Liam, Ava, Zoe, Max, Eli using seed 2025",
+   "input": {
+    "items": [
+     "Liam",
+     "Ava",
+     "Zoe",
+     "Max",
+     "Eli"
+    ],
+    "seed": 2025
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "pointed",
+   "message": "scramble the order of the songs below, seed 40",
+   "input": {
+    "seed": 40
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "random order for red, orange, yellow, green please, seed 8",
+   "input": {
+    "items": [
+     "red",
+     "orange",
+     "yellow",
+     "green"
+    ],
+    "seed": 8
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "shuffle the list A, 2, 3, 4, 5, 6, 7 with seed 1",
+   "input": {
+    "items": [
+     "A",
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "seed": 1
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "DJ here: shuffle Track 1, Track 2, Track 3, Track 4 with seed 404",
+   "input": {
+    "items": [
+     "Track 1",
+     "Track 2",
+     "Track 3",
+     "Track 4"
+    ],
+    "seed": 404
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "pointed",
+   "message": "randomly reorder my to-do list, seed 6",
+   "input": {
+    "seed": 6
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "mix up the speaking order: Ada, Grace, Alan, Linus — seed 19",
+   "input": {
+    "items": [
+     "Ada",
+     "Grace",
+     "Alan",
+     "Linus"
+    ],
+    "seed": 19
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "can you shuffle 10, 20, 30, 40, 50 (seed 0)?",
+   "input": {
+    "items": [
+     10,
+     20,
+     30,
+     40,
+     50
+    ],
+    "seed": 0
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "seed 88 — shuffle north, south, east, west",
+   "input": {
+    "items": [
+     "north",
+     "south",
+     "east",
+     "west"
+    ],
+    "seed": 88
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "pointed",
+   "message": "jumble the list of chores I'm pasting, seed 15",
+   "input": {
+    "seed": 15
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "shuffle the running order of our bands Kites, Moss, Tide, Haze, seed 23",
+   "input": {
+    "items": [
+     "Kites",
+     "Moss",
+     "Tide",
+     "Haze"
+    ],
+    "seed": 23
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "randomise the seating plan: Kim, Lee, Max, Ned, Oli, Pam — seed 64",
+   "input": {
+    "items": [
+     "Kim",
+     "Lee",
+     "Max",
+     "Ned",
+     "Oli",
+     "Pam"
+    ],
+    "seed": 64
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "shuffle this list of words with seed 31: cat, chat, gato, Katze",
+   "input": {
+    "items": [
+     "cat",
+     "chat",
+     "gato",
+     "Katze"
+    ],
+    "seed": 31
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "pointed",
+   "message": "random order for the names I'll paste, seed 72",
+   "input": {
+    "seed": 72
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "nurse — shuffle the bay check order Bay 1, Bay 2, Bay 3, Bay 4 with seed 9",
+   "input": {
+    "items": [
+     "Bay 1",
+     "Bay 2",
+     "Bay 3",
+     "Bay 4"
+    ],
+    "seed": 9
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "shuffle x, y, z using seed 13",
+   "input": {
+    "items": [
+     "x",
+     "y",
+     "z"
+    ],
+    "seed": 13
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "please randomize the turn order for Mario, Luigi, Peach, Toad with seed 50",
+   "input": {
+    "items": [
+     "Mario",
+     "Luigi",
+     "Peach",
+     "Toad"
+    ],
+    "seed": 50
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "Seed 7. Shuffle the interview slots: Mon, Tue, Wed, Thu",
+   "input": {
+    "items": [
+     "Mon",
+     "Tue",
+     "Wed",
+     "Thu"
+    ],
+    "seed": 7
+   }
+  },
+  {
+   "skill": "shuffleList",
+   "mode": "full",
+   "message": "mix up 0.1, 0.2, 0.3, 0.4 into a random order, seed 21",
+   "input": {
+    "items": [
+     0.1,
+     0.2,
+     0.3,
+     0.4
+    ],
+    "seed": 21
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "sort pear, apple, fig, banana alphabetically",
+   "input": {
+    "items": [
+     "pear",
+     "apple",
+     "fig",
+     "banana"
+    ],
+    "by": "alphabetical"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "put 42, 7, 19, 3, 88 in numeric order",
+   "input": {
+    "items": [
+     42,
+     7,
+     19,
+     3,
+     88
+    ],
+    "by": "numeric"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "order these largest to smallest: 5, 12, 1, 30",
+   "input": {
+    "items": [
+     5,
+     12,
+     1,
+     30
+    ],
+    "by": "numeric",
+    "direction": "descending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "pointed",
+   "message": "put my spice list in alphabetical order",
+   "input": {
+    "by": "alphabetical"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "natural sort file1, file10, file2, file20",
+   "input": {
+    "items": [
+     "file1",
+     "file10",
+     "file2",
+     "file20"
+    ],
+    "by": "natural"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "sort Zoe, adam, Mike, bella A to Z",
+   "input": {
+    "items": [
+     "Zoe",
+     "adam",
+     "Mike",
+     "bella"
+    ],
+    "by": "alphabetical",
+    "direction": "ascending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "teacher: put the class names in reverse alphabetical order — Yusuf, Ama, Kofi, Bea",
+   "input": {
+    "items": [
+     "Yusuf",
+     "Ama",
+     "Kofi",
+     "Bea"
+    ],
+    "by": "alphabetical",
+    "direction": "descending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "pointed",
+   "message": "sort the numbers below from high to low",
+   "input": {
+    "by": "numeric",
+    "direction": "descending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "sort this list of numbers ascending: 9.99, 4.5, 12, 0.99",
+   "input": {
+    "items": [
+     9.99,
+     4.5,
+     12,
+     0.99
+    ],
+    "by": "numeric",
+    "direction": "ascending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "chapter 10, chapter 2, chapter 1 — sort in natural order",
+   "input": {
+    "items": [
+     "chapter 10",
+     "chapter 2",
+     "chapter 1"
+    ],
+    "by": "natural"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "sort Tokyo, Berlin, Lima, Accra in alphabetical order",
+   "input": {
+    "items": [
+     "Tokyo",
+     "Berlin",
+     "Lima",
+     "Accra"
+    ],
+    "by": "alphabetical"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "pointed",
+   "message": "order my playlist titles A to Z",
+   "input": {
+    "direction": "ascending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "sort 300, 15, 2000, 45 from smallest to largest",
+   "input": {
+    "items": [
+     300,
+     15,
+     2000,
+     45
+    ],
+    "by": "numeric",
+    "direction": "ascending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "sort this list of file names naturally: img12.png, img3.png, img100.png",
+   "input": {
+    "items": [
+     "img12.png",
+     "img3.png",
+     "img100.png"
+    ],
+    "by": "natural"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "reverse sort: kiwi, mango, apple",
+   "input": {
+    "items": [
+     "kiwi",
+     "mango",
+     "apple"
+    ],
+    "direction": "descending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "pointed",
+   "message": "please sort the list I'll paste, descending",
+   "input": {
+    "direction": "descending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "nurse here, sort bed numbers 14, 3, 22, 9 lowest first",
+   "input": {
+    "items": [
+     14,
+     3,
+     22,
+     9
+    ],
+    "by": "numeric",
+    "direction": "ascending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "can you sort Smith, Jones, Patel, Brown alphabetically?",
+   "input": {
+    "items": [
+     "Smith",
+     "Jones",
+     "Patel",
+     "Brown"
+    ],
+    "by": "alphabetical"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "sort v1.10, v1.2, v1.9 in natural order",
+   "input": {
+    "items": [
+     "v1.10",
+     "v1.2",
+     "v1.9"
+    ],
+    "by": "natural"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "sort highest first please: 67, 89, 54, 92",
+   "input": {
+    "items": [
+     67,
+     89,
+     54,
+     92
+    ],
+    "by": "numeric",
+    "direction": "descending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "pointed",
+   "message": "put the names in this list in order",
+   "input": {}
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "sort z, b, y, a descending",
+   "input": {
+    "items": [
+     "z",
+     "b",
+     "y",
+     "a"
+    ],
+    "direction": "descending"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "accountant: sort these invoice totals numerically 1200, 350, 9800, 75",
+   "input": {
+    "items": [
+     1200,
+     350,
+     9800,
+     75
+    ],
+    "by": "numeric"
+   }
+  },
+  {
+   "skill": "sortList",
+   "mode": "full",
+   "message": "sort the list Wed, Mon, Fri, Tue alphabetically",
+   "input": {
+    "items": [
+     "Wed",
+     "Mon",
+     "Fri",
+     "Tue"
+    ],
+    "by": "alphabetical"
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "merge Ann, Ben and Ben, Cy into one list without repeats",
+   "input": {
+    "first": [
+     "Ann",
+     "Ben"
+    ],
+    "second": [
+     "Ben",
+     "Cy"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "combine 1, 2, 3 with 3, 4, 5, no duplicates",
+   "input": {
+    "first": [
+     1,
+     2,
+     3
+    ],
+    "second": [
+     3,
+     4,
+     5
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "union of [red, green] and [green, blue]",
+   "input": {
+    "first": [
+     "red",
+     "green"
+    ],
+    "second": [
+     "green",
+     "blue"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "pointed",
+   "message": "merge my two contact lists, dropping duplicates",
+   "input": {}
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "join list A (tea, coffee) and list B (coffee, juice) with each item once",
+   "input": {
+    "first": [
+     "tea",
+     "coffee"
+    ],
+    "second": [
+     "coffee",
+     "juice"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "two guest lists — Kim, Lee, Max and Max, Ned. merge them into one list, no repeats",
+   "input": {
+    "first": [
+     "Kim",
+     "Lee",
+     "Max"
+    ],
+    "second": [
+     "Max",
+     "Ned"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "pointed",
+   "message": "combine the two lists below into one without duplicates",
+   "input": {}
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "merge both lists into one with no repeats: 10, 20 and 20, 30, 40",
+   "input": {
+    "first": [
+     10,
+     20
+    ],
+    "second": [
+     20,
+     30,
+     40
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "combine the lists Apple, Pear and apple, PLUM ignoring case",
+   "input": {
+    "first": [
+     "Apple",
+     "Pear"
+    ],
+    "second": [
+     "apple",
+     "PLUM"
+    ],
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "pointed",
+   "message": "union my two tag lists, case-insensitive",
+   "input": {
+    "ignoreCase": true
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "teacher: merge the period 1 list Ava, Eli with the period 2 list Eli, Mo into one roster without repeats",
+   "input": {
+    "first": [
+     "Ava",
+     "Eli"
+    ],
+    "second": [
+     "Eli",
+     "Mo"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "combine both lists, each item once: mon, tue and tue, wed",
+   "input": {
+    "first": [
+     "mon",
+     "tue"
+    ],
+    "second": [
+     "tue",
+     "wed"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "merge the inventory lists bolts, nuts, screws and nuts, washers, deduplicated",
+   "input": {
+    "first": [
+     "bolts",
+     "nuts",
+     "screws"
+    ],
+    "second": [
+     "nuts",
+     "washers"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "pointed",
+   "message": "combine both of my shopping lists, no doubles",
+   "input": {}
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "union [1.5, 2.5] and [2.5, 3.5]",
+   "input": {
+    "first": [
+     1.5,
+     2.5
+    ],
+    "second": [
+     2.5,
+     3.5
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "join these two lists with no duplicates: x, y and y, z",
+   "input": {
+    "first": [
+     "x",
+     "y"
+    ],
+    "second": [
+     "y",
+     "z"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "My playlist is Help, Yesterday and yours is Yesterday, Something — merge them into one list without repeats",
+   "input": {
+    "first": [
+     "Help",
+     "Yesterday"
+    ],
+    "second": [
+     "Yesterday",
+     "Something"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "combine the skill lists python, sql and sql, rust, go into one list",
+   "input": {
+    "first": [
+     "python",
+     "sql"
+    ],
+    "second": [
+     "sql",
+     "rust",
+     "go"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "pointed",
+   "message": "merge list A and list B for me, dropping repeats",
+   "input": {}
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "nurse: combine the day shift list Ana, Ben with the night list Ben, Cy, no repeats",
+   "input": {
+    "first": [
+     "Ana",
+     "Ben"
+    ],
+    "second": [
+     "Ben",
+     "Cy"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "merge the lists 100, 200 and 300, 100 and drop duplicates",
+   "input": {
+    "first": [
+     100,
+     200
+    ],
+    "second": [
+     300,
+     100
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "union of the lists a, b, c and c, d",
+   "input": {
+    "first": [
+     "a",
+     "b",
+     "c"
+    ],
+    "second": [
+     "c",
+     "d"
+    ]
+   }
+  },
+  {
+   "skill": "unionLists",
+   "mode": "pointed",
+   "message": "union the two email lists I'll send",
+   "input": {}
+  },
+  {
+   "skill": "unionLists",
+   "mode": "full",
+   "message": "combine the lists Rome, Oslo and Oslo, Kyiv into one, each city once",
+   "input": {
+    "first": [
+     "Rome",
+     "Oslo"
+    ],
+    "second": [
+     "Oslo",
+     "Kyiv"
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip [Ann, Ben, Cy] with [90, 85, 77]",
+   "input": {
+    "lists": [
+     [
+      "Ann",
+      "Ben",
+      "Cy"
+     ],
+     [
+      90,
+      85,
+      77
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "pair each name with its score: Dee, Eli and 60, 72",
+   "input": {
+    "lists": [
+     [
+      "Dee",
+      "Eli"
+     ],
+     [
+      60,
+      72
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "line up 1, 2, 3 with a, b, c position by position",
+   "input": {
+    "lists": [
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      "a",
+      "b",
+      "c"
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "pointed",
+   "message": "zip my lists of dates and temperatures, pasting them next",
+   "input": {}
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "combine the lists [Mon, Tue, Wed], [9, 10, 11] and [rain, sun, fog] position by position",
+   "input": {
+    "lists": [
+     [
+      "Mon",
+      "Tue",
+      "Wed"
+     ],
+     [
+      9,
+      10,
+      11
+     ],
+     [
+      "rain",
+      "sun",
+      "fog"
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip names [Kim, Lee] and ages [34, 29] into records with fields name and age",
+   "input": {
+    "lists": [
+     [
+      "Kim",
+      "Lee"
+     ],
+     [
+      34,
+      29
+     ]
+    ],
+    "names": [
+     "name",
+     "age"
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip [x, y, z] and [1, 2, 3] only if the lengths match",
+   "input": {
+    "lists": [
+     [
+      "x",
+      "y",
+      "z"
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    "strict": true
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "pointed",
+   "message": "match the products with their prices from the two lists I'll paste",
+   "input": {}
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip together the cities Paris, Rome and the countries France, Italy",
+   "input": {
+    "lists": [
+     [
+      "Paris",
+      "Rome"
+     ],
+     [
+      "France",
+      "Italy"
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "teacher: match students Ava, Ben, Cal to grades A, B, C position by position",
+   "input": {
+    "lists": [
+     [
+      "Ava",
+      "Ben",
+      "Cal"
+     ],
+     [
+      "A",
+      "B",
+      "C"
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip the lists 0.5, 1.5 and 2, 3",
+   "input": {
+    "lists": [
+     [
+      0.5,
+      1.5
+     ],
+     [
+      2,
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "pointed",
+   "message": "zip the lists I'll send next into rows",
+   "input": {}
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip [SKU1, SKU2, SKU3] with [4.99, 2.50, 7.25]",
+   "input": {
+    "lists": [
+     [
+      "SKU1",
+      "SKU2",
+      "SKU3"
+     ],
+     [
+      4.99,
+      2.5,
+      7.25
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "combine first names Jo, Al and surnames Smith, Khan into rows",
+   "input": {
+    "lists": [
+     [
+      "Jo",
+      "Al"
+     ],
+     [
+      "Smith",
+      "Khan"
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip [1, 2, 3] and [4, 5, 6] strictly — refuse if the lengths differ",
+   "input": {
+    "lists": [
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      4,
+      5,
+      6
+     ]
+    ],
+    "strict": true
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "pointed",
+   "message": "combine the questions list and the answers list I'll paste, position by position",
+   "input": {}
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip [a, b] and [true, false]",
+   "input": {
+    "lists": [
+     [
+      "a",
+      "b"
+     ],
+     [
+      true,
+      false
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "make records from names Leo, Mia and scores 88, 93 with field names player and points",
+   "input": {
+    "lists": [
+     [
+      "Leo",
+      "Mia"
+     ],
+     [
+      88,
+      93
+     ]
+    ],
+    "names": [
+     "player",
+     "points"
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "pointed",
+   "message": "zip the two arrays from my spreadsheet into pairs",
+   "input": {}
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip the list red, green, blue with the list #f00, #0f0, #00f",
+   "input": {
+    "lists": [
+     [
+      "red",
+      "green",
+      "blue"
+     ],
+     [
+      "#f00",
+      "#0f0",
+      "#00f"
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "nurse: combine patients Bed 1, Bed 2 with meds aspirin, insulin position by position",
+   "input": {
+    "lists": [
+     [
+      "Bed 1",
+      "Bed 2"
+     ],
+     [
+      "aspirin",
+      "insulin"
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip together [10, 20, 30], [a, b, c], [true, false, true]",
+   "input": {
+    "lists": [
+     [
+      10,
+      20,
+      30
+     ],
+     [
+      "a",
+      "b",
+      "c"
+     ],
+     [
+      true,
+      false,
+      true
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "full",
+   "message": "zip Mon, Tue, Wed with 8, 6, 7 element by element",
+   "input": {
+    "lists": [
+     [
+      "Mon",
+      "Tue",
+      "Wed"
+     ],
+     [
+      8,
+      6,
+      7
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "zipLists",
+   "mode": "pointed",
+   "message": "please zip the lists of names and emails I'll share",
+   "input": {}
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "Got a layover at CDG on Friday — which airport is that exactly?",
+   "input": {
+    "query": "CDG"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "travelling next week — which airports serve Barcelona?",
+   "input": {
+    "query": "Barcelona"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "AMS airport?",
+   "input": {
+    "query": "AMS"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "what city is the airport code YYZ in",
+   "input": {
+    "query": "YYZ"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "airports near Chicago",
+   "input": {
+    "query": "Chicago"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "decode the airport code DXB for me",
+   "input": {
+    "query": "DXB"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "my boarding pass says SFO, which airport is that?",
+   "input": {
+    "query": "SFO"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "find the airport for Lisbon",
+   "input": {
+    "query": "Lisbon"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "what does the airport code MAN stand for",
+   "input": {
+    "query": "MAN"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "list the airports serving New York",
+   "input": {
+    "query": "New York"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "IATA code lookup: HND",
+   "input": {
+    "query": "HND"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "which airport has the code BKK",
+   "input": {
+    "query": "BKK"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "pointed",
+   "message": "what airport is the code on my luggage tag?",
+   "input": {}
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "which airports are there in Sydney",
+   "input": {
+    "query": "Sydney"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "tell me about the airport ORD",
+   "input": {
+    "query": "ORD"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "is MEL an airport code? which one?",
+   "input": {
+    "query": "MEL"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "Flying into Ireland — what airports serve Dublin?",
+   "input": {
+    "query": "Dublin"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "nurse flying to a conference — which airport is EDI?",
+   "input": {
+    "query": "EDI"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "where is LAX airport",
+   "input": {
+    "query": "LAX"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "pointed",
+   "message": "look up the airport code printed on my ticket",
+   "input": {}
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "my flight lands at ATL — what's the full airport name?",
+   "input": {
+    "query": "ATL"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "what airports are in Rome?",
+   "input": {
+    "query": "Rome"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "Which airport uses the IATA code ICN?",
+   "input": {
+    "query": "ICN"
+   }
+  },
+  {
+   "skill": "airportCodeLookup",
+   "mode": "full",
+   "message": "airport lookup for Toronto",
+   "input": {
+    "query": "Toronto"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "capital of Portugal?",
+   "input": {
+    "query": "Portugal"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "what's the currency in Thailand",
+   "input": {
+    "query": "Thailand"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "ISO code for Germany",
+   "input": {
+    "query": "Germany"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "I'm moving to Kenya — what's the capital and the currency there?",
+   "input": {
+    "query": "Kenya"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "tell me the capital and ISO codes of Peru",
+   "input": {
+    "query": "Peru"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "country info for Canada",
+   "input": {
+    "query": "Canada"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "what is the capital city of Australia",
+   "input": {
+    "query": "Australia"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "which currency do they use in Poland",
+   "input": {
+    "query": "Poland"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "look up the country Vietnam",
+   "input": {
+    "query": "Vietnam"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "what's the two-letter ISO code for Mexico",
+   "input": {
+    "query": "Mexico"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "facts about Iceland: capital, currency, codes",
+   "input": {
+    "query": "Iceland"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "Egypt's capital?",
+   "input": {
+    "query": "Egypt"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "teacher here, I need the capital of Chile for a quiz",
+   "input": {
+    "query": "Chile"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "what money does Morocco use",
+   "input": {
+    "query": "Morocco"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "what's the three-letter ISO country code of Spain",
+   "input": {
+    "query": "Spain"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "capital and currency of South Korea",
+   "input": {
+    "query": "South Korea"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "pointed",
+   "message": "what's the capital of the country I'm visiting?",
+   "input": {}
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "Ghana — capital?",
+   "input": {
+    "query": "Ghana"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "country details for Norway",
+   "input": {
+    "query": "Norway"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "which city is the capital of Turkey",
+   "input": {
+    "query": "Turkey"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "currency of Argentina please",
+   "input": {
+    "query": "Argentina"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "tell me about Greece as a country",
+   "input": {
+    "query": "Greece"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "full",
+   "message": "Sweden: ISO code and capital",
+   "input": {
+    "query": "Sweden"
+   }
+  },
+  {
+   "skill": "countryLookup",
+   "mode": "pointed",
+   "message": "tell me the capital of my partner's home country",
+   "input": {}
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "what currency is AUD",
+   "input": {
+    "code": "AUD"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "what does the code EUR mean",
+   "input": {
+    "code": "EUR"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "how many decimal places does BHD use",
+   "input": {
+    "code": "BHD"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "symbol for the USD",
+   "input": {
+    "code": "USD"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "what's THB",
+   "input": {
+    "code": "THB"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "my invoice says CAD — what currency is that?",
+   "input": {
+    "code": "CAD"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "currency code MXN, what is it?",
+   "input": {
+    "code": "MXN"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "what's the symbol for KRW",
+   "input": {
+    "code": "KRW"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "decimals for JOD",
+   "input": {
+    "code": "JOD"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "which currency has the code SEK",
+   "input": {
+    "code": "SEK"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "tell me about the currency code BRL",
+   "input": {
+    "code": "BRL"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "accountant here — what currency is PLN?",
+   "input": {
+    "code": "PLN"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "What is HKD?",
+   "input": {
+    "code": "HKD"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "what does CNY stand for",
+   "input": {
+    "code": "CNY"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "is ISK a currency? which one?",
+   "input": {
+    "code": "ISK"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "Look up currency code TRY",
+   "input": {
+    "code": "TRY"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "pointed",
+   "message": "what currency is the code on my receipt?",
+   "input": {}
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "symbol and decimals for NZD",
+   "input": {
+    "code": "NZD"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "what currency code is DKK",
+   "input": {
+    "code": "DKK"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "traveller here: my card statement shows CZK, what currency is that",
+   "input": {
+    "code": "CZK"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "currency name for SGD",
+   "input": {
+    "code": "SGD"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "how many minor units does CLP have",
+   "input": {
+    "code": "CLP"
+   }
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "pointed",
+   "message": "look up the currency code from my bank statement",
+   "input": {}
+  },
+  {
+   "skill": "currencyLookup",
+   "mode": "full",
+   "message": "explain the currency code AED",
+   "input": {
+    "code": "AED"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "what language is fr",
+   "input": {
+    "query": "fr"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "two-letter code for Japanese",
+   "input": {
+    "query": "Japanese"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "ISO 639-1 code for Arabic",
+   "input": {
+    "query": "Arabic"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "which language uses the code ko",
+   "input": {
+    "query": "ko"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "my app's locale is set to it — which language does that code mean?",
+   "input": {
+    "query": "it"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "what's the language code for Hindi",
+   "input": {
+    "query": "Hindi"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "what does the language code nl mean",
+   "input": {
+    "query": "nl"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "developer here, what language is the locale code pl",
+   "input": {
+    "query": "pl"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "I'm learning Greek; what's its two-letter ISO language code?",
+   "input": {
+    "query": "Greek"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "which language is ru",
+   "input": {
+    "query": "ru"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "what's the iso language code for Turkish",
+   "input": {
+    "query": "Turkish"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "subtitle track labelled he — which language?",
+   "input": {
+    "query": "he"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "find the two-letter code for Welsh",
+   "input": {
+    "query": "Welsh"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "what language is cy",
+   "input": {
+    "query": "cy"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "pointed",
+   "message": "what language is the two-letter code in my file?",
+   "input": {}
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "language lookup: es",
+   "input": {
+    "query": "es"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "which language has the two-letter code uk",
+   "input": {
+    "query": "uk"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "Vietnamese — two-letter ISO 639-1 code please",
+   "input": {
+    "query": "Vietnamese"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "translator here: what's the 639-1 code for Thai",
+   "input": {
+    "query": "Thai"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "the browser header says no; what language code is that?",
+   "input": {
+    "query": "no"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "what's the two-letter language code for Indonesian",
+   "input": {
+    "query": "Indonesian"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "lang code ga — which language?",
+   "input": {
+    "query": "ga"
+   }
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "pointed",
+   "message": "look up the language code in my subtitle file",
+   "input": {}
+  },
+  {
+   "skill": "languageCodeLookup",
+   "mode": "full",
+   "message": "Hungarian's ISO 639-1 language code?",
+   "input": {
+    "query": "Hungarian"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "what's the symbol for potassium",
+   "input": {
+    "query": "potassium"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "atomic mass of oxygen",
+   "input": {
+    "query": "oxygen"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "which element has atomic number 79",
+   "input": {
+    "query": "79"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "look up Fe on the periodic table",
+   "input": {
+    "query": "Fe"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "element Ne — what is it",
+   "input": {
+    "query": "Ne"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "chemistry homework: which group is sodium in?",
+   "input": {
+    "query": "sodium"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "which element has 8 protons in its nucleus",
+   "input": {
+    "query": "8"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "balloons use helium — what's its symbol and atomic mass?",
+   "input": {
+    "query": "helium"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "uranium: give me its symbol, mass and group",
+   "input": {
+    "query": "uranium"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "symbol Pb means which element",
+   "input": {
+    "query": "Pb"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "info on element 29",
+   "input": {
+    "query": "29"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "what element is Hg",
+   "input": {
+    "query": "Hg"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "nitrogen's atomic number",
+   "input": {
+    "query": "nitrogen"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "periodic table lookup: Zn",
+   "input": {
+    "query": "Zn"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "mass of a chlorine atom",
+   "input": {
+    "query": "chlorine"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "what group is argon in",
+   "input": {
+    "query": "argon"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "teacher: details for element 6",
+   "input": {
+    "query": "6"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "what's Ag on the periodic table",
+   "input": {
+    "query": "Ag"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "silicon on the periodic table — what number is it?",
+   "input": {
+    "query": "silicon"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "Sn is tin I think? check the periodic table entry for Sn",
+   "input": {
+    "query": "Sn"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "for a science fair, look up element 92 on the periodic table",
+   "input": {
+    "query": "92"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "pointed",
+   "message": "check the periodic table for the element named on my homework sheet",
+   "input": {}
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "element info for lithium",
+   "input": {
+    "query": "lithium"
+   }
+  },
+  {
+   "skill": "periodicTableLookup",
+   "mode": "full",
+   "message": "what is the atomic mass of Cu",
+   "input": {
+    "query": "Cu"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "missed call from +33, which country is that?",
+   "input": {
+    "query": "+33"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "the code on Japan's phone numbers — what is it when dialling from abroad?",
+   "input": {
+    "query": "Japan"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "whose country code is +61",
+   "input": {
+    "query": "+61"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "what's the international code to phone Spain",
+   "input": {
+    "query": "Spain"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "+49 is which country",
+   "input": {
+    "query": "+49"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "I got a text from +234 — where's that from?",
+   "input": {
+    "query": "+234"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "country calling code for Ireland",
+   "input": {
+    "query": "Ireland"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "phone prefix +353 belongs to which country",
+   "input": {
+    "query": "+353"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "what country uses +7",
+   "input": {
+    "query": "+7"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "international dialling code for South Africa",
+   "input": {
+    "query": "South Africa"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "my mum's number starts +91 — which country is that dialling code?",
+   "input": {
+    "query": "+91"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "which country is the phone code 52",
+   "input": {
+    "query": "52"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "how do I dial Italy — what's its country code for phoning?",
+   "input": {
+    "query": "Italy"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "+82 — which country?",
+   "input": {
+    "query": "+82"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "what's the phone code for New Zealand",
+   "input": {
+    "query": "New Zealand"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "calling prefix for Egypt",
+   "input": {
+    "query": "Egypt"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "a +27 number keeps ringing me, what country is that",
+   "input": {
+    "query": "+27"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "telephone country code of Sweden",
+   "input": {
+    "query": "Sweden"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "pointed",
+   "message": "I've got an unknown international prefix on a voicemail — look up its country for me",
+   "input": {}
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "whose dialling code is 64",
+   "input": {
+    "query": "64"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "what dialling code does Greece use",
+   "input": {
+    "query": "Greece"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "my supplier's phone number starts +86, which country's dialling code is that?",
+   "input": {
+    "query": "+86"
+   }
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "pointed",
+   "message": "what country is the code on that missed call?",
+   "input": {}
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "mode": "full",
+   "message": "phone code lookup: Portugal",
+   "input": {
+    "query": "Portugal"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "what's the current time in Europe/Paris",
+   "input": {
+    "zone": "Europe/Paris"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "current UTC offset for America/Chicago",
+   "input": {
+    "zone": "America/Chicago"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "time now in Sydney",
+   "input": {
+    "zone": "Sydney"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "what time is it in Dubai",
+   "input": {
+    "zone": "Dubai"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "my mum's in Lagos — what time is it there?",
+   "input": {
+    "zone": "Lagos"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "what is the UTC offset in Asia/Dhaka right now",
+   "input": {
+    "zone": "Asia/Dhaka"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "what time will it be in Asia/Singapore at 2026-09-05T14:00:00Z",
+   "input": {
+    "zone": "Asia/Singapore",
+    "at": "2026-09-05T14:00:00Z"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "current time in Los Angeles",
+   "input": {
+    "zone": "Los Angeles"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "time zone offset for Berlin",
+   "input": {
+    "zone": "Berlin"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "local time in Mumbai, Asia/Kolkata zone",
+   "input": {
+    "zone": "Asia/Kolkata"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "gamer here: what time is it in Seoul now",
+   "input": {
+    "zone": "Seoul"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "offset for America/Sao_Paulo",
+   "input": {
+    "zone": "America/Sao_Paulo"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "current time in Hong Kong",
+   "input": {
+    "zone": "Hong Kong"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "timezone lookup for Europe/Madrid at 2026-12-25T09:00:00Z — what's the offset?",
+   "input": {
+    "zone": "Europe/Madrid",
+    "at": "2026-12-25T09:00:00Z"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "what's the time over in Toronto",
+   "input": {
+    "zone": "Toronto"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "Cairo time now?",
+   "input": {
+    "zone": "Cairo"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "time and offset in Australia/Perth",
+   "input": {
+    "zone": "Australia/Perth"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "pointed",
+   "message": "what time zone is my client in, and what time is it there?",
+   "input": {}
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "nurse on nights — what time is it in Asia/Manila right now",
+   "input": {
+    "zone": "Asia/Manila"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "UTC offset in Mexico City",
+   "input": {
+    "zone": "Mexico City"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "what time is it in Africa/Nairobi",
+   "input": {
+    "zone": "Africa/Nairobi"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "what time is it right now in Asia/Tehran?",
+   "input": {
+    "zone": "Asia/Tehran"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "what was the offset in America/New_York on 2026-01-15T12:00:00Z",
+   "input": {
+    "zone": "America/New_York",
+    "at": "2026-01-15T12:00:00Z"
+   }
+  },
+  {
+   "skill": "timezoneLookup",
+   "mode": "full",
+   "message": "time in Honolulu please",
+   "input": {
+    "zone": "Honolulu"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "capital of Texas?",
+   "input": {
+    "query": "Texas"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "what state is WA",
+   "input": {
+    "query": "WA"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "postal abbreviation for Massachusetts",
+   "input": {
+    "query": "Massachusetts"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "what's the capital of Florida",
+   "input": {
+    "query": "Florida"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "look up the state of Oregon",
+   "input": {
+    "query": "Oregon"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "which state uses the abbreviation MI",
+   "input": {
+    "query": "MI"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "tell me about the US state Vermont",
+   "input": {
+    "query": "Vermont"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "state capital of Nevada",
+   "input": {
+    "query": "Nevada"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "what is NC short for",
+   "input": {
+    "query": "NC"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "abbreviation for Pennsylvania",
+   "input": {
+    "query": "Pennsylvania"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "info on the US state of Georgia",
+   "input": {
+    "query": "Georgia"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "US state lookup: AZ",
+   "input": {
+    "query": "AZ"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "teacher: capital of Kentucky for a geography quiz",
+   "input": {
+    "query": "Kentucky"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "what does the code MN stand for as a state",
+   "input": {
+    "query": "MN"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "what's the capital of New Mexico",
+   "input": {
+    "query": "New Mexico"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "Ohio — capital and abbreviation?",
+   "input": {
+    "query": "Ohio"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "which US state is OK",
+   "input": {
+    "query": "OK"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "state info: Colorado",
+   "input": {
+    "query": "Colorado"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "moving to Tennessee — what's the capital there?",
+   "input": {
+    "query": "Tennessee"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "pointed",
+   "message": "look up the US state on this address label",
+   "input": {}
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "what is the two-letter code for Louisiana",
+   "input": {
+    "query": "Louisiana"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "capital city of Alaska",
+   "input": {
+    "query": "Alaska"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "which US state goes by the postal code ME",
+   "input": {
+    "query": "ME"
+   }
+  },
+  {
+   "skill": "usStateLookup",
+   "mode": "full",
+   "message": "look up the US state Iowa",
+   "input": {
+    "query": "Iowa"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up who won the 2022 World Cup",
+   "input": {
+    "question": "who won the 2022 World Cup"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up on the web how tall Mount Kilimanjaro is",
+   "input": {
+    "question": "how tall Mount Kilimanjaro is"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up when the Eiffel Tower was built",
+   "input": {
+    "question": "when the Eiffel Tower was built"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up what year the Berlin Wall fell",
+   "input": {
+    "question": "what year the Berlin Wall fell"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up who wrote the novel Middlemarch",
+   "input": {
+    "question": "who wrote the novel Middlemarch"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up who founded Wikipedia",
+   "input": {
+    "question": "who founded Wikipedia"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "what is the population of Canada right now",
+   "input": {
+    "question": "population of Canada"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up the boiling point of ethanol",
+   "input": {
+    "question": "boiling point of ethanol"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up the current CEO of Nintendo",
+   "input": {
+    "question": "current CEO of Nintendo"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up the tallest building in Africa",
+   "input": {
+    "question": "tallest building in Africa"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "who was Grace Hopper? look it up on the web",
+   "input": {
+    "question": "Grace Hopper"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "web lookup: who painted The Night Watch",
+   "input": {
+    "question": "who painted The Night Watch"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up the Rosetta Stone",
+   "input": {
+    "question": "Rosetta Stone"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "nurse here, quick web lookup: what year was the NHS founded",
+   "input": {
+    "question": "what year was the NHS founded"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up when the first iPhone came out",
+   "input": {
+    "question": "when the first iPhone came out"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up how long the Great Wall of China is",
+   "input": {
+    "question": "how long the Great Wall of China is"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up who directed Spirited Away",
+   "input": {
+    "question": "who directed Spirited Away"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up the speed of sound at sea level on the web",
+   "input": {
+    "question": "speed of sound at sea level"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "find a quick answer: who invented the telephone",
+   "input": {
+    "question": "who invented the telephone"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "pointed",
+   "message": "answer the question I'm about to paste using the web",
+   "input": {}
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up the deepest lake in the world",
+   "input": {
+    "question": "deepest lake in the world"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "who is the prime minister of Japan",
+   "input": {
+    "question": "prime minister of Japan"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "web answer please: how many moons does Neptune have",
+   "input": {
+    "question": "how many moons does Neptune have"
+   }
+  },
+  {
+   "skill": "webAnswer",
+   "mode": "full",
+   "message": "look up the Marshall Plan",
+   "input": {
+    "question": "Marshall Plan"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search the web for vegan lasagne recipes",
+   "input": {
+    "query": "vegan lasagne recipes"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "find web pages about the Mars rover Perseverance",
+   "input": {
+    "query": "Mars rover Perseverance"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "google cheap flights to Lisbon",
+   "input": {
+    "query": "cheap flights to Lisbon"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search online for reviews of the Framework laptop",
+   "input": {
+    "query": "reviews of the Framework laptop"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "find links on how to repot an orchid",
+   "input": {
+    "query": "how to repot an orchid"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "web search: Python asyncio tutorial",
+   "input": {
+    "query": "Python asyncio tutorial"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search for articles about Great Barrier Reef bleaching",
+   "input": {
+    "query": "Great Barrier Reef bleaching"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search for pages on the history of Bath Abbey",
+   "input": {
+    "query": "history of Bath Abbey"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "can you search the internet for knitting patterns for beginners",
+   "input": {
+    "query": "knitting patterns for beginners"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "find me pages on the Rosetta mission",
+   "input": {
+    "query": "Rosetta mission"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "teacher here — search the web for photosynthesis worksheets",
+   "input": {
+    "query": "photosynthesis worksheets"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search the web: best hiking trails in Snowdonia",
+   "input": {
+    "query": "best hiking trails in Snowdonia"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search the web for websites about sourdough starters",
+   "input": {
+    "query": "sourdough starters"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "dev here: search online for Rust borrow checker explained",
+   "input": {
+    "query": "Rust borrow checker explained"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "web results for electric bike conversion kits",
+   "input": {
+    "query": "electric bike conversion kits"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "pointed",
+   "message": "run a web search for the phrase below",
+   "input": {}
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search for links about Frida Kahlo",
+   "input": {
+    "query": "Frida Kahlo"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "look up web pages on the history of the Silk Road",
+   "input": {
+    "query": "history of the Silk Road"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search the internet for retirement villages near Bristol",
+   "input": {
+    "query": "retirement villages near Bristol"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search online for guides to the Japan rail pass",
+   "input": {
+    "query": "guides to the Japan rail pass"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search the web for nurse practitioner jobs in Leeds",
+   "input": {
+    "query": "nurse practitioner jobs in Leeds"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "search online: how to descale a kettle",
+   "input": {
+    "query": "how to descale a kettle"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "find pages about the Apollo 11 landing",
+   "input": {
+    "query": "Apollo 11 landing"
+   }
+  },
+  {
+   "skill": "webSearch",
+   "mode": "full",
+   "message": "do a web search for gluten free bakeries in Brighton",
+   "input": {
+    "query": "gluten free bakeries in Brighton"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Gym A costs £50 to join and £20 a month, Gym B is £0 to join and £30 a month. After how many months does Gym A break even?",
+   "input": {
+    "fixedA": 50,
+    "perUnitA": 20,
+    "fixedB": 0,
+    "perUnitB": 30,
+    "nameA": "Gym A",
+    "nameB": "Gym B"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "printer X is $120 with $0.03 per page, printer Y is $60 with $0.05 per page — break-even page count?",
+   "input": {
+    "fixedA": 120,
+    "perUnitA": 0.03,
+    "fixedB": 60,
+    "perUnitB": 0.05,
+    "nameA": "printer X",
+    "nameB": "printer Y"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Should I buy a coffee machine for 300 and pay 0.40 a cup, or keep buying cafe coffee at 3.20 a cup with 0 up front? Where's the break-even?",
+   "input": {
+    "fixedA": 300,
+    "perUnitA": 0.4,
+    "fixedB": 0,
+    "perUnitB": 3.2
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "break-even distance for two taxi firms: £5 flat plus £2 per mile vs £0 flat and £3 per mile",
+   "input": {
+    "fixedA": 5,
+    "perUnitA": 2,
+    "fixedB": 0,
+    "perUnitB": 3
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Plan A: 40 setup + 1.5 per unit. Plan B: 10 setup + 2.5 per unit. Where do they break even?",
+   "input": {
+    "fixedA": 40,
+    "perUnitA": 1.5,
+    "fixedB": 10,
+    "perUnitB": 2.5,
+    "nameA": "Plan A",
+    "nameB": "Plan B"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "shop owner here: card reader A has a 99 fee and 1.75 per transaction, reader B a 29 fee and 2.5 per transaction. After how many transactions does A pay off?",
+   "input": {
+    "fixedA": 99,
+    "perUnitA": 1.75,
+    "fixedB": 29,
+    "perUnitB": 2.5
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "pointed",
+   "message": "work out the break-even point between my two phone contracts",
+   "input": {}
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "car hire: 45 a day with 0.2 per mile, or 25 a day with 0.35 per mile. break-even mileage?",
+   "input": {
+    "fixedA": 45,
+    "perUnitA": 0.2,
+    "fixedB": 25,
+    "perUnitB": 0.35
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "break even: bus pass 60 up front and 0 per ride vs single tickets 0 up front and 2.75 each — how many rides?",
+   "input": {
+    "fixedA": 60,
+    "perUnitA": 0,
+    "fixedB": 0,
+    "perUnitB": 2.75,
+    "nameA": "bus pass",
+    "nameB": "single tickets"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Compare: solar panels 8000 upfront and 20 a month, grid only 0 upfront and 120 a month. Break-even in months?",
+   "input": {
+    "fixedA": 8000,
+    "perUnitA": 20,
+    "fixedB": 0,
+    "perUnitB": 120,
+    "nameA": "solar panels",
+    "nameB": "grid only"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "freelancer: a software licence is 600 once plus 5 per project, versus a subscription at 0 plus 25 per project — when does the licence win?",
+   "input": {
+    "fixedA": 600,
+    "perUnitA": 5,
+    "fixedB": 0,
+    "perUnitB": 25,
+    "nameA": "licence",
+    "nameB": "subscription"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Electric car 32000 and 0.05 per km vs petrol car 25000 and 0.12 per km, where's the break even?",
+   "input": {
+    "fixedA": 32000,
+    "perUnitA": 0.05,
+    "fixedB": 25000,
+    "perUnitB": 0.12,
+    "nameA": "Electric car",
+    "nameB": "petrol car"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Option 1 is 200 plus 8 each, option 2 is 350 plus 5 each — break-even quantity please",
+   "input": {
+    "fixedA": 200,
+    "perUnitA": 8,
+    "fixedB": 350,
+    "perUnitB": 5,
+    "nameA": "Option 1",
+    "nameB": "option 2"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "potter here: buy a kiln for 1500 + 2 per firing, or rent kiln time at 0 + 17 per firing. break even?",
+   "input": {
+    "fixedA": 1500,
+    "perUnitA": 2,
+    "fixedB": 0,
+    "perUnitB": 17
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Two film plans: 0 setup and 0.99 per film vs 9.99 setup and 0 per film. Where's the break-even point?",
+   "input": {
+    "fixedA": 0,
+    "perUnitA": 0.99,
+    "fixedB": 9.99,
+    "perUnitB": 0
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "pointed",
+   "message": "we're torn between leasing and buying the van — at what mileage does one overtake the other on cost?",
+   "input": {
+    "nameA": "leasing",
+    "nameB": "buying"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "teacher: whiteboard pens at 0 setup and 1.2 each, or a refill station for 45 and 0.3 per pen. break even?",
+   "input": {
+    "fixedA": 0,
+    "perUnitA": 1.2,
+    "fixedB": 45,
+    "perUnitB": 0.3
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Meal kit A: 15 joining fee, 6.5 per meal; kit B: 0 joining fee, 8 per meal. Break-even number of meals?",
+   "input": {
+    "fixedA": 15,
+    "perUnitA": 6.5,
+    "fixedB": 0,
+    "perUnitB": 8
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "cloud server: reserved is 1000 upfront then 0.02 an hour, on-demand is 0 upfront then 0.1 an hour — break-even hours?",
+   "input": {
+    "fixedA": 1000,
+    "perUnitA": 0.02,
+    "fixedB": 0,
+    "perUnitB": 0.1,
+    "nameA": "reserved",
+    "nameB": "on-demand"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Hiring a plumber: 80 call-out plus 40 an hour, or 0 call-out and 55 an hour. Break-even hours?",
+   "input": {
+    "fixedA": 80,
+    "perUnitA": 40,
+    "fixedB": 0,
+    "perUnitB": 55
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "When does buying a 250 bike that costs 0.5 a day to run beat paying 3 per day for bike share with 0 up front?",
+   "input": {
+    "fixedA": 250,
+    "perUnitA": 0.5,
+    "fixedB": 0,
+    "perUnitB": 3
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Membership 120 with 4 per class vs drop-in 0 with 12 per class: break-even number of classes",
+   "input": {
+    "fixedA": 120,
+    "perUnitA": 4,
+    "fixedB": 0,
+    "perUnitB": 12,
+    "nameA": "Membership",
+    "nameB": "drop-in"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "Supplier A: 500 tooling + 1.1 per part. Supplier B: 0 tooling + 1.6 per part. When does A pay off?",
+   "input": {
+    "fixedA": 500,
+    "perUnitA": 1.1,
+    "fixedB": 0,
+    "perUnitB": 1.6,
+    "nameA": "Supplier A",
+    "nameB": "Supplier B"
+   }
+  },
+  {
+   "skill": "breakEvenComparison",
+   "mode": "full",
+   "message": "break even: machine one 2000 fixed and 0.8 variable, machine two 1200 fixed and 1.3 variable",
+   "input": {
+    "fixedA": 2000,
+    "perUnitA": 0.8,
+    "fixedB": 1200,
+    "perUnitB": 1.3,
+    "nameA": "machine one",
+    "nameB": "machine two"
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "payoffs: +50 with probability 0.2, -10 with probability 0.8. Expected value?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 50,
+      "probability": 0.2
+     },
+     {
+      "value": -10,
+      "probability": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "a raffle ticket wins 500 at 1% and 0 at 99% — what's it worth on average?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 500,
+      "probability": 1
+     },
+     {
+      "value": 0,
+      "probability": 99
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "expected profit: 30% chance of 1000, 50% chance of 200, 20% chance of -400",
+   "input": {
+    "outcomes": [
+     {
+      "value": 1000,
+      "probability": 30
+     },
+     {
+      "value": 200,
+      "probability": 50
+     },
+     {
+      "value": -400,
+      "probability": 20
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "pointed",
+   "message": "what's the expected value of the outcomes in my table?",
+   "input": {}
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "expected value of a dice game: +25 with probability 0.17, -5 with probability 0.83",
+   "input": {
+    "outcomes": [
+     {
+      "value": 25,
+      "probability": 0.17
+     },
+     {
+      "value": -5,
+      "probability": 0.83
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "Investor here: a startup returns 100,000 with 0.1 probability and 0 with 0.9 probability. EV?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 100000,
+      "probability": 0.1
+     },
+     {
+      "value": 0,
+      "probability": 0.9
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "average payout if 60% of the time I get 15 and 40% of the time I get 40",
+   "input": {
+    "outcomes": [
+     {
+      "value": 15,
+      "probability": 60
+     },
+     {
+      "value": 40,
+      "probability": 40
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "expected value: 0.25 chance of 80, 0.25 chance of 40, 0.5 chance of 0",
+   "input": {
+    "outcomes": [
+     {
+      "value": 80,
+      "probability": 0.25
+     },
+     {
+      "value": 40,
+      "probability": 0.25
+     },
+     {
+      "value": 0,
+      "probability": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "pointed",
+   "message": "work out the expected value for these scenarios I'm about to list",
+   "input": {}
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "Shop owner: a promo earns 2000 with 70% likelihood or makes -500 with 30% likelihood. What's the expected value?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 2000,
+      "probability": 70
+     },
+     {
+      "value": -500,
+      "probability": 30
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "game show: probability 0.5 of 10000, probability 0.5 of 2000 — expected winnings?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 10000,
+      "probability": 0.5
+     },
+     {
+      "value": 2000,
+      "probability": 0.5
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "insurance: 0.02 chance of a 5000 claim, 0.98 chance of 0 — expected cost?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 5000,
+      "probability": 0.02
+     },
+     {
+      "value": 0,
+      "probability": 0.98
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "expected value of +200 at 0.4 and -100 at 0.6",
+   "input": {
+    "outcomes": [
+     {
+      "value": 200,
+      "probability": 0.4
+     },
+     {
+      "value": -100,
+      "probability": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "probability-weighted average outcome: 3 at 50%, 7 at 25%, 11 at 25%",
+   "input": {
+    "outcomes": [
+     {
+      "value": 3,
+      "probability": 50
+     },
+     {
+      "value": 7,
+      "probability": 25
+     },
+     {
+      "value": 11,
+      "probability": 25
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "pointed",
+   "message": "expected value of my poker hand outcomes please",
+   "input": {}
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "If the deal closes (65%) we make 12000, if not (35%) the result is -3000. Expected value?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 12000,
+      "probability": 65
+     },
+     {
+      "value": -3000,
+      "probability": 35
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "expected return: 5% chance of 2,000, 95% chance of -20",
+   "input": {
+    "outcomes": [
+     {
+      "value": 2000,
+      "probability": 5
+     },
+     {
+      "value": -20,
+      "probability": 95
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "crop yield: 0.6 probability of 400 tonnes, 0.3 of 250 tonnes, 0.1 of 50 tonnes. expected yield?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 400,
+      "probability": 0.6
+     },
+     {
+      "value": 250,
+      "probability": 0.3
+     },
+     {
+      "value": 50,
+      "probability": 0.1
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "expected value of a spinner: 10 with probability 0.5, 20 with 0.3, 50 with 0.2",
+   "input": {
+    "outcomes": [
+     {
+      "value": 10,
+      "probability": 0.5
+     },
+     {
+      "value": 20,
+      "probability": 0.3
+     },
+     {
+      "value": 50,
+      "probability": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "pointed",
+   "message": "Can you give me the expected value of the bets listed below?",
+   "input": {}
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "a scratchcard pays 1 at 0.3, 5 at 0.05, 0 at 0.65 — expected prize?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 1,
+      "probability": 0.3
+     },
+     {
+      "value": 5,
+      "probability": 0.05
+     },
+     {
+      "value": 0,
+      "probability": 0.65
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "Expected gain: 45% for +80, 55% for -60",
+   "input": {
+    "outcomes": [
+     {
+      "value": 80,
+      "probability": 45
+     },
+     {
+      "value": -60,
+      "probability": 55
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "gamer here: a loot box gives 100 coins at 0.7, 500 coins at 0.25, 2000 coins at 0.05. What's the expected value per box?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 100,
+      "probability": 0.7
+     },
+     {
+      "value": 500,
+      "probability": 0.25
+     },
+     {
+      "value": 2000,
+      "probability": 0.05
+     }
+    ]
+   }
+  },
+  {
+   "skill": "expectedValue",
+   "mode": "full",
+   "message": "nurse: shift bonus of 150 with probability 0.4, otherwise 0 at 0.6 — expected bonus?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 150,
+      "probability": 0.4
+     },
+     {
+      "value": 0,
+      "probability": 0.6
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "Should I take the job? Pros: higher salary (4), remote work (3). Cons: long hours (3), no pension (2).",
+   "input": {
+    "pros": [
+     {
+      "text": "higher salary",
+      "weight": 4
+     },
+     {
+      "text": "remote work",
+      "weight": 3
+     }
+    ],
+    "cons": [
+     {
+      "text": "long hours",
+      "weight": 3
+     },
+     {
+      "text": "no pension",
+      "weight": 2
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "weigh these: pros — cheaper rent 5, bigger kitchen 2; cons — noisy street 3",
+   "input": {
+    "pros": [
+     {
+      "text": "cheaper rent",
+      "weight": 5
+     },
+     {
+      "text": "bigger kitchen",
+      "weight": 2
+     }
+    ],
+    "cons": [
+     {
+      "text": "noisy street",
+      "weight": 3
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "getting a dog? pros: companionship 5, exercise 3; cons: cost 4, less travel 2",
+   "input": {
+    "pros": [
+     {
+      "text": "companionship",
+      "weight": 5
+     },
+     {
+      "text": "exercise",
+      "weight": 3
+     }
+    ],
+    "cons": [
+     {
+      "text": "cost",
+      "weight": 4
+     },
+     {
+      "text": "less travel",
+      "weight": 2
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "pointed",
+   "message": "total up the weighted pros and cons in my notes",
+   "input": {}
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "moving to Leeds. pros: family nearby (weight 5), lower costs (weight 3). cons: new job hunt (weight 4).",
+   "input": {
+    "pros": [
+     {
+      "text": "family nearby",
+      "weight": 5
+     },
+     {
+      "text": "lower costs",
+      "weight": 3
+     }
+    ],
+    "cons": [
+     {
+      "text": "new job hunt",
+      "weight": 4
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "unweighted pros: fun, social, healthy. cons: expensive, early mornings. Should I join the rowing club?",
+   "input": {
+    "pros": [
+     "fun",
+     "social",
+     "healthy"
+    ],
+    "cons": [
+     "expensive",
+     "early mornings"
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "Tally my pros and cons: pro faster laptop 3, pro lighter 2, con pricey 4, con fewer ports 1",
+   "input": {
+    "pros": [
+     {
+      "text": "faster laptop",
+      "weight": 3
+     },
+     {
+      "text": "lighter",
+      "weight": 2
+     }
+    ],
+    "cons": [
+     {
+      "text": "pricey",
+      "weight": 4
+     },
+     {
+      "text": "fewer ports",
+      "weight": 1
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "pointed",
+   "message": "weigh the arguments for and against that I'm pasting",
+   "input": {}
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "retiree here, selling the house — pros: cash freed up (5), less upkeep (4); cons: leaving the garden (3), moving stress (3)",
+   "input": {
+    "pros": [
+     {
+      "text": "cash freed up",
+      "weight": 5
+     },
+     {
+      "text": "less upkeep",
+      "weight": 4
+     }
+    ],
+    "cons": [
+     {
+      "text": "leaving the garden",
+      "weight": 3
+     },
+     {
+      "text": "moving stress",
+      "weight": 3
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "pros: flexible (2.5), quick (1.5). cons: risky (3). which way does it balance?",
+   "input": {
+    "pros": [
+     {
+      "text": "flexible",
+      "weight": 2.5
+     },
+     {
+      "text": "quick",
+      "weight": 1.5
+     }
+    ],
+    "cons": [
+     {
+      "text": "risky",
+      "weight": 3
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "student thinking about a gap year: pros travel 4, savings 2. cons falling behind 3, cost 3",
+   "input": {
+    "pros": [
+     {
+      "text": "travel",
+      "weight": 4
+     },
+     {
+      "text": "savings",
+      "weight": 2
+     }
+    ],
+    "cons": [
+     {
+      "text": "falling behind",
+      "weight": 3
+     },
+     {
+      "text": "cost",
+      "weight": 3
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "pointed",
+   "message": "add up the pros and cons list below and tell me which way it leans",
+   "input": {}
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "teacher here — pros of the new timetable: longer lunch 2, fewer periods 3; cons: later finish 4",
+   "input": {
+    "pros": [
+     {
+      "text": "longer lunch",
+      "weight": 2
+     },
+     {
+      "text": "fewer periods",
+      "weight": 3
+     }
+    ],
+    "cons": [
+     {
+      "text": "later finish",
+      "weight": 4
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "pros: better schools 5, safer area 4. cons: longer commute 3, higher council tax 2. score it",
+   "input": {
+    "pros": [
+     {
+      "text": "better schools",
+      "weight": 5
+     },
+     {
+      "text": "safer area",
+      "weight": 4
+     }
+    ],
+    "cons": [
+     {
+      "text": "longer commute",
+      "weight": 3
+     },
+     {
+      "text": "higher council tax",
+      "weight": 2
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "Pros: cheap, close. Cons: small. Which side of my pros and cons wins?",
+   "input": {
+    "pros": [
+     "cheap",
+     "close"
+    ],
+    "cons": [
+     "small"
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "pointed",
+   "message": "balance the pros and cons from our team meeting, using the weights we gave",
+   "input": {}
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "Buying an e-bike — pros: no fuel 3, exercise 2, parking 2; cons: price 4, rain 2",
+   "input": {
+    "pros": [
+     {
+      "text": "no fuel",
+      "weight": 3
+     },
+     {
+      "text": "exercise",
+      "weight": 2
+     },
+     {
+      "text": "parking",
+      "weight": 2
+     }
+    ],
+    "cons": [
+     {
+      "text": "price",
+      "weight": 4
+     },
+     {
+      "text": "rain",
+      "weight": 2
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "weighted pros and cons: pro own boss 5; con unstable income 4; con no sick pay 2",
+   "input": {
+    "pros": [
+     {
+      "text": "own boss",
+      "weight": 5
+     }
+    ],
+    "cons": [
+     {
+      "text": "unstable income",
+      "weight": 4
+     },
+     {
+      "text": "no sick pay",
+      "weight": 2
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "Nurse considering night shifts. Pros: extra pay 4, quieter wards 2. Cons: sleep disruption 5.",
+   "input": {
+    "pros": [
+     {
+      "text": "extra pay",
+      "weight": 4
+     },
+     {
+      "text": "quieter wards",
+      "weight": 2
+     }
+    ],
+    "cons": [
+     {
+      "text": "sleep disruption",
+      "weight": 5
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "pros of switching banks: better interest 3, nicer app 1. cons: hassle 2. which way does it lean?",
+   "input": {
+    "pros": [
+     {
+      "text": "better interest",
+      "weight": 3
+     },
+     {
+      "text": "nicer app",
+      "weight": 1
+     }
+    ],
+    "cons": [
+     {
+      "text": "hassle",
+      "weight": 2
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "pointed",
+   "message": "rate whether my pros outweigh my cons for the new car, list to follow",
+   "input": {}
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "Pros: 2 extra days off (weight 3). Cons: pay cut (weight 4), longer days (weight 2).",
+   "input": {
+    "pros": [
+     {
+      "text": "2 extra days off",
+      "weight": 3
+     }
+    ],
+    "cons": [
+     {
+      "text": "pay cut",
+      "weight": 4
+     },
+     {
+      "text": "longer days",
+      "weight": 2
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "sum up pros vs cons: pro great view 2, pro balcony 1, con fourth floor no lift 3",
+   "input": {
+    "pros": [
+     {
+      "text": "great view",
+      "weight": 2
+     },
+     {
+      "text": "balcony",
+      "weight": 1
+     }
+    ],
+    "cons": [
+     {
+      "text": "fourth floor no lift",
+      "weight": 3
+     }
+    ]
+   }
+  },
+  {
+   "skill": "prosConsScore",
+   "mode": "full",
+   "message": "Should we open a second shop? pros: more sales 5, brand reach 2. cons: staffing 4, rent 3.",
+   "input": {
+    "pros": [
+     {
+      "text": "more sales",
+      "weight": 5
+     },
+     {
+      "text": "brand reach",
+      "weight": 2
+     }
+    ],
+    "cons": [
+     {
+      "text": "staffing",
+      "weight": 4
+     },
+     {
+      "text": "rent",
+      "weight": 3
+     }
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "Choose between Toyota and Honda on price (weight 3) and reliability (weight 5). Toyota scores 7 and 9, Honda 8 and 7.",
+   "input": {
+    "options": [
+     "Toyota",
+     "Honda"
+    ],
+    "criteria": [
+     "price",
+     "reliability"
+    ],
+    "weights": [
+     3,
+     5
+    ],
+    "scores": [
+     [
+      7,
+      9
+     ],
+     [
+      8,
+      7
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "Weighted decision: rank Leeds, York, Bath on course (4), city (2), cost (3). Scores: Leeds 8, 7, 6; York 7, 8, 7; Bath 9, 6, 5.",
+   "input": {
+    "options": [
+     "Leeds",
+     "York",
+     "Bath"
+    ],
+    "criteria": [
+     "course",
+     "city",
+     "cost"
+    ],
+    "weights": [
+     4,
+     2,
+     3
+    ],
+    "scores": [
+     [
+      8,
+      7,
+      6
+     ],
+     [
+      7,
+      8,
+      7
+     ],
+     [
+      9,
+      6,
+      5
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "decision matrix: options Red, Blue; criteria speed, cost; weights 2, 1; scores Red 6, 9 and Blue 8, 5",
+   "input": {
+    "options": [
+     "Red",
+     "Blue"
+    ],
+    "criteria": [
+     "speed",
+     "cost"
+    ],
+    "weights": [
+     2,
+     1
+    ],
+    "scores": [
+     [
+      6,
+      9
+     ],
+     [
+      8,
+      5
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "pointed",
+   "message": "help me rank our suppliers on price, quality and delivery, weighted 5, 3, 2",
+   "input": {
+    "criteria": [
+     "price",
+     "quality",
+     "delivery"
+    ],
+    "weights": [
+     5,
+     3,
+     2
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "We're choosing a venue: Hall A or Hall B. Criteria capacity (weight 4), price (weight 3). Hall A scores 9 and 4, Hall B scores 6 and 8.",
+   "input": {
+    "options": [
+     "Hall A",
+     "Hall B"
+    ],
+    "criteria": [
+     "capacity",
+     "price"
+    ],
+    "weights": [
+     4,
+     3
+    ],
+    "scores": [
+     [
+      9,
+      4
+     ],
+     [
+      6,
+      8
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "weighted decision matrix: Python vs Go vs Rust on learning, speed, ecosystem with weights 3, 4, 3: Python 9 5 10, Go 7 8 7, Rust 4 10 6",
+   "input": {
+    "options": [
+     "Python",
+     "Go",
+     "Rust"
+    ],
+    "criteria": [
+     "learning",
+     "speed",
+     "ecosystem"
+    ],
+    "weights": [
+     3,
+     4,
+     3
+    ],
+    "scores": [
+     [
+      9,
+      5,
+      10
+     ],
+     [
+      7,
+      8,
+      7
+     ],
+     [
+      4,
+      10,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "Which holiday, Spain or Greece? weights: weather 5, cost 4. Spain scores 8, 6. Greece scores 9, 5.",
+   "input": {
+    "options": [
+     "Spain",
+     "Greece"
+    ],
+    "criteria": [
+     "weather",
+     "cost"
+    ],
+    "weights": [
+     5,
+     4
+    ],
+    "scores": [
+     [
+      8,
+      6
+     ],
+     [
+      9,
+      5
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "help me choose a textbook: Book X and Book Y on clarity weighted 3 and price weighted 1; X gets 8 and 5, Y gets 6 and 9",
+   "input": {
+    "options": [
+     "Book X",
+     "Book Y"
+    ],
+    "criteria": [
+     "clarity",
+     "price"
+    ],
+    "weights": [
+     3,
+     1
+    ],
+    "scores": [
+     [
+      8,
+      5
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "pointed",
+   "message": "weighted decision matrix for my two job offers — salary weight 4, commute weight 2",
+   "input": {
+    "criteria": [
+     "salary",
+     "commute"
+    ],
+    "weights": [
+     4,
+     2
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "Compare Laptop Pro and Laptop Air on battery (5) and screen (3): Pro scores 6 and 5, Air scores 8 and 9",
+   "input": {
+    "options": [
+     "Laptop Pro",
+     "Laptop Air"
+    ],
+    "criteria": [
+     "battery",
+     "screen"
+    ],
+    "weights": [
+     5,
+     3
+    ],
+    "scores": [
+     [
+      6,
+      5
+     ],
+     [
+      8,
+      9
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "Pick a phone: Pixel, iPhone, Galaxy. Camera weight 5, battery weight 3, price weight 2. Pixel 9, 7, 7; iPhone 9, 8, 4; Galaxy 8, 8, 6.",
+   "input": {
+    "options": [
+     "Pixel",
+     "iPhone",
+     "Galaxy"
+    ],
+    "criteria": [
+     "Camera",
+     "battery",
+     "price"
+    ],
+    "weights": [
+     5,
+     3,
+     2
+    ],
+    "scores": [
+     [
+      9,
+      7,
+      7
+     ],
+     [
+      9,
+      8,
+      4
+     ],
+     [
+      8,
+      8,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "Matrix please: options North site, South site; criteria access, rent; weights 1, 2; North site 7, 3; South site 5, 8",
+   "input": {
+    "options": [
+     "North site",
+     "South site"
+    ],
+    "criteria": [
+     "access",
+     "rent"
+    ],
+    "weights": [
+     1,
+     2
+    ],
+    "scores": [
+     [
+      7,
+      3
+     ],
+     [
+      5,
+      8
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "accountant choosing software: Xero vs Sage on cost (2), features (3), support (1). Xero 6, 9, 7; Sage 8, 6, 8",
+   "input": {
+    "options": [
+     "Xero",
+     "Sage"
+    ],
+    "criteria": [
+     "cost",
+     "features",
+     "support"
+    ],
+    "weights": [
+     2,
+     3,
+     1
+    ],
+    "scores": [
+     [
+      6,
+      9,
+      7
+     ],
+     [
+      8,
+      6,
+      8
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "pointed",
+   "message": "rank Paris, Rome and Vienna for our trip using the weights and scores I'll send",
+   "input": {
+    "options": [
+     "Paris",
+     "Rome",
+     "Vienna"
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "weighted decision matrix for an oven: Gas or Electric. Criteria control (4), running cost (2). Gas 9, 5; Electric 6, 8.",
+   "input": {
+    "options": [
+     "Gas",
+     "Electric"
+    ],
+    "criteria": [
+     "control",
+     "running cost"
+    ],
+    "weights": [
+     4,
+     2
+    ],
+    "scores": [
+     [
+      9,
+      5
+     ],
+     [
+      6,
+      8
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "Weighted scores please — options: Mon, Wed. Criteria: attendance 3, convenience 2. Mon 5, 9. Wed 8, 6.",
+   "input": {
+    "options": [
+     "Mon",
+     "Wed"
+    ],
+    "criteria": [
+     "attendance",
+     "convenience"
+    ],
+    "weights": [
+     3,
+     2
+    ],
+    "scores": [
+     [
+      5,
+      9
+     ],
+     [
+      8,
+      6
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "Choose a gym: FitHub, IronWorks. location weight 3, price weight 3, classes weight 1. FitHub 8 5 9, IronWorks 6 9 4.",
+   "input": {
+    "options": [
+     "FitHub",
+     "IronWorks"
+    ],
+    "criteria": [
+     "location",
+     "price",
+     "classes"
+    ],
+    "weights": [
+     3,
+     3,
+     1
+    ],
+    "scores": [
+     [
+      8,
+      5,
+      9
+     ],
+     [
+      6,
+      9,
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "decide between keep and sell for my old car on cost (5) and convenience (4); keep scores 3, 9; sell scores 8, 4",
+   "input": {
+    "options": [
+     "keep",
+     "sell"
+    ],
+    "criteria": [
+     "cost",
+     "convenience"
+    ],
+    "weights": [
+     5,
+     4
+    ],
+    "scores": [
+     [
+      3,
+      9
+     ],
+     [
+      8,
+      4
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "pointed",
+   "message": "build a weighted decision matrix for the candidates I interviewed",
+   "input": {}
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "two contractors, Ace and Bolt, judged on quality weight 6 and speed weight 4. Ace: 9, 5. Bolt: 6, 9.",
+   "input": {
+    "options": [
+     "Ace",
+     "Bolt"
+    ],
+    "criteria": [
+     "quality",
+     "speed"
+    ],
+    "weights": [
+     6,
+     4
+    ],
+    "scores": [
+     [
+      9,
+      5
+     ],
+     [
+      6,
+      9
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "Rank Alpha, Beta, Gamma by cost (weight 2) and risk (weight 3): Alpha 5 and 8, Beta 7 and 6, Gamma 9 and 3.",
+   "input": {
+    "options": [
+     "Alpha",
+     "Beta",
+     "Gamma"
+    ],
+    "criteria": [
+     "cost",
+     "risk"
+    ],
+    "weights": [
+     2,
+     3
+    ],
+    "scores": [
+     [
+      5,
+      8
+     ],
+     [
+      7,
+      6
+     ],
+     [
+      9,
+      3
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "weighted decision: study in the library or at home? focus weighs 5, comfort weighs 2. library scores 9, 4. home scores 5, 9.",
+   "input": {
+    "options": [
+     "library",
+     "home"
+    ],
+    "criteria": [
+     "focus",
+     "comfort"
+    ],
+    "weights": [
+     5,
+     2
+    ],
+    "scores": [
+     [
+      9,
+      4
+     ],
+     [
+      5,
+      9
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "help me choose a school for my kid: Oakfield, Brookside. criteria: distance 4, results 5, clubs 1. Oakfield 9, 6, 5; Brookside 5, 9, 8.",
+   "input": {
+    "options": [
+     "Oakfield",
+     "Brookside"
+    ],
+    "criteria": [
+     "distance",
+     "results",
+     "clubs"
+    ],
+    "weights": [
+     4,
+     5,
+     1
+    ],
+    "scores": [
+     [
+      9,
+      6,
+      5
+     ],
+     [
+      5,
+      9,
+      8
+     ]
+    ]
+   }
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "mode": "full",
+   "message": "help me choose between two vendors, V1 and V2, on uptime (5) and price (5): V1 got 9 and 4, V2 got 7 and 8.",
+   "input": {
+    "options": [
+     "V1",
+     "V2"
+    ],
+    "criteria": [
+     "uptime",
+     "price"
+    ],
+    "weights": [
+     5,
+     5
+    ],
+    "scores": [
+     [
+      9,
+      4
+     ],
+     [
+      7,
+      8
+     ]
+    ]
+   }
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "airportCodeLookup",
+    "countryLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "mode": "full",
+     "message": "quick question, look up the airport LIS for my trip",
+     "input": {
+      "query": "LIS"
+     }
+    },
+    {
+     "skill": "countryLookup",
+     "mode": "full",
+     "message": "quick question, look up the country Portugal for my trip",
+     "input": {
+      "query": "Portugal"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "countryLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "mode": "full",
+     "message": "I'm flying out next month, tell me about the airport NBO",
+     "input": {
+      "query": "NBO"
+     }
+    },
+    {
+     "skill": "countryLookup",
+     "mode": "full",
+     "message": "I'm flying out next month, tell me about the country Kenya",
+     "input": {
+      "query": "Kenya"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "mode": "full",
+     "message": "in my travel app settings I see FRA — which airport is that code?",
+     "input": {
+      "query": "FRA"
+     }
+    },
+    {
+     "skill": "languageCodeLookup",
+     "mode": "full",
+     "message": "in my travel app settings I see fr — which language is that code?",
+     "input": {
+      "query": "fr"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "mode": "full",
+     "message": "decode this code from my notes: MAD, it's an airport",
+     "input": {
+      "query": "MAD"
+     }
+    },
+    {
+     "skill": "languageCodeLookup",
+     "mode": "full",
+     "message": "decode this code from my notes: ms, it's a language",
+     "input": {
+      "query": "ms"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "mode": "full",
+     "message": "look up the airport code for Mexico City",
+     "input": {
+      "query": "Mexico City"
+     }
+    },
+    {
+     "skill": "phoneRegionLookup",
+     "mode": "full",
+     "message": "look up the dialling code for Mexico",
+     "input": {
+      "query": "Mexico"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "mode": "full",
+     "message": "quick one for my travel notes: which airport has the code DEL?",
+     "input": {
+      "query": "DEL"
+     }
+    },
+    {
+     "skill": "phoneRegionLookup",
+     "mode": "full",
+     "message": "quick one for my travel notes: which country has the dialling code +45?",
+     "input": {
+      "query": "+45"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "mode": "full",
+     "message": "for my trip to Egypt, find the airport serving Cairo",
+     "input": {
+      "query": "Cairo"
+     }
+    },
+    {
+     "skill": "phoneRegionLookup",
+     "mode": "full",
+     "message": "for my trip to Egypt, find the dialling code for Egypt",
+     "input": {
+      "query": "Egypt"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "currencyLookup"
+   ],
+   "rows": [
+    {
+     "skill": "countryLookup",
+     "mode": "full",
+     "message": "tell me about the currency of Hungary",
+     "input": {
+      "query": "Hungary"
+     }
+    },
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "tell me about the currency code HUF",
+     "input": {
+      "code": "HUF"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "currencyLookup"
+   ],
+   "rows": [
+    {
+     "skill": "countryLookup",
+     "mode": "full",
+     "message": "For my holiday budget, what currency does Vietnam use?",
+     "input": {
+      "query": "Vietnam"
+     }
+    },
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "For my holiday budget, what currency is VND?",
+     "input": {
+      "code": "VND"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "countryLookup",
+     "mode": "full",
+     "message": "for a form I'm filling in, what is the ISO country code for Denmark?",
+     "input": {
+      "query": "Denmark"
+     }
+    },
+    {
+     "skill": "languageCodeLookup",
+     "mode": "full",
+     "message": "for a form I'm filling in, what is the ISO language code for Danish?",
+     "input": {
+      "query": "Danish"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "countryLookup",
+     "mode": "full",
+     "message": "two-letter code for Sweden as a country",
+     "input": {
+      "query": "Sweden"
+     }
+    },
+    {
+     "skill": "languageCodeLookup",
+     "mode": "full",
+     "message": "two-letter code for Swedish as a language",
+     "input": {
+      "query": "Swedish"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "phoneRegionLookup"
+   ],
+   "rows": [
+    {
+     "skill": "countryLookup",
+     "mode": "full",
+     "message": "for my contacts sheet, what's the capital of Nigeria?",
+     "input": {
+      "query": "Nigeria"
+     }
+    },
+    {
+     "skill": "phoneRegionLookup",
+     "mode": "full",
+     "message": "for my contacts sheet, what's the dialling code of Nigeria?",
+     "input": {
+      "query": "Nigeria"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "phoneRegionLookup"
+   ],
+   "rows": [
+    {
+     "skill": "countryLookup",
+     "mode": "full",
+     "message": "quick lookup for Colombia: capital and currency please",
+     "input": {
+      "query": "Colombia"
+     }
+    },
+    {
+     "skill": "phoneRegionLookup",
+     "mode": "full",
+     "message": "quick lookup for Colombia: phone dialling code please",
+     "input": {
+      "query": "Colombia"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "formatCurrency"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "what is the symbol for CHF",
+     "input": {
+      "code": "CHF"
+     }
+    },
+    {
+     "skill": "formatCurrency",
+     "mode": "full",
+     "message": "write 250 in CHF with the symbol",
+     "input": {
+      "amount": 250,
+      "currency": "CHF",
+      "style": "symbol"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "formatCurrency"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "currency help: what symbol and decimals does GBP use?",
+     "input": {
+      "code": "GBP"
+     }
+    },
+    {
+     "skill": "formatCurrency",
+     "mode": "full",
+     "message": "currency help: write 42.5 using the GBP symbol and decimals",
+     "input": {
+      "amount": 42.5,
+      "currency": "GBP"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "I keep seeing SEK in a spreadsheet — which currency is that?",
+     "input": {
+      "code": "SEK"
+     }
+    },
+    {
+     "skill": "languageCodeLookup",
+     "mode": "full",
+     "message": "I keep seeing sv in a spreadsheet — which language is that?",
+     "input": {
+      "query": "sv"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "on the settings page it says ZAR — what currency code is that?",
+     "input": {
+      "code": "ZAR"
+     }
+    },
+    {
+     "skill": "languageCodeLookup",
+     "mode": "full",
+     "message": "on the settings page it says zu — what language code is that?",
+     "input": {
+      "query": "zu"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "decode KES for me, it's a currency code",
+     "input": {
+      "code": "KES"
+     }
+    },
+    {
+     "skill": "languageCodeLookup",
+     "mode": "full",
+     "message": "decode sw for me, it's a language code",
+     "input": {
+      "query": "sw"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "unicodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "invoice question: what symbol and name go with the currency code EUR?",
+     "input": {
+      "code": "EUR"
+     }
+    },
+    {
+     "skill": "unicodeLookup",
+     "mode": "full",
+     "message": "invoice question: what code point and name go with the symbol €?",
+     "input": {
+      "query": "€"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "unicodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "tell me about the INR currency code",
+     "input": {
+      "code": "INR"
+     }
+    },
+    {
+     "skill": "unicodeLookup",
+     "mode": "full",
+     "message": "tell me about the ₹ character code point",
+     "input": {
+      "query": "₹"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "usStateLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "filling in an address form, what does CAD stand for here — a currency code?",
+     "input": {
+      "code": "CAD"
+     }
+    },
+    {
+     "skill": "usStateLookup",
+     "mode": "full",
+     "message": "filling in an address form, what does CA stand for here — a US state code?",
+     "input": {
+      "query": "CA"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "usStateLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "mode": "full",
+     "message": "my receipt shows the abbreviation AUD; which currency is that?",
+     "input": {
+      "code": "AUD"
+     }
+    },
+    {
+     "skill": "usStateLookup",
+     "mode": "full",
+     "message": "my receipt shows the abbreviation AL; which US state is that?",
+     "input": {
+      "query": "AL"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dedupeList",
+    "shuffleList"
+   ],
+   "rows": [
+    {
+     "skill": "dedupeList",
+     "mode": "full",
+     "message": "take my list Ann, Bo, Ann, Cy and remove the repeats",
+     "input": {
+      "items": [
+       "Ann",
+       "Bo",
+       "Ann",
+       "Cy"
+      ]
+     }
+    },
+    {
+     "skill": "shuffleList",
+     "mode": "full",
+     "message": "take my list Ann, Bo, Ann, Cy and shuffle it with seed 4",
+     "input": {
+      "items": [
+       "Ann",
+       "Bo",
+       "Ann",
+       "Cy"
+      ],
+      "seed": 4
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dedupeList",
+    "shuffleList"
+   ],
+   "rows": [
+    {
+     "skill": "dedupeList",
+     "mode": "full",
+     "message": "for the raffle, dedupe the names Kim, Lee, Kim, Max",
+     "input": {
+      "items": [
+       "Kim",
+       "Lee",
+       "Kim",
+       "Max"
+      ]
+     }
+    },
+    {
+     "skill": "shuffleList",
+     "mode": "full",
+     "message": "for the raffle, shuffle the names Kim, Lee, Kim, Max using seed 9",
+     "input": {
+      "items": [
+       "Kim",
+       "Lee",
+       "Kim",
+       "Max"
+      ],
+      "seed": 9
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dedupeList",
+    "sortList"
+   ],
+   "rows": [
+    {
+     "skill": "dedupeList",
+     "mode": "full",
+     "message": "tidy this list: pear, fig, pear, apple — remove duplicates",
+     "input": {
+      "items": [
+       "pear",
+       "fig",
+       "pear",
+       "apple"
+      ]
+     }
+    },
+    {
+     "skill": "sortList",
+     "mode": "full",
+     "message": "tidy this list: pear, fig, pear, apple — sort alphabetically",
+     "input": {
+      "items": [
+       "pear",
+       "fig",
+       "pear",
+       "apple"
+      ],
+      "by": "alphabetical"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dedupeList",
+    "sortList"
+   ],
+   "rows": [
+    {
+     "skill": "dedupeList",
+     "mode": "full",
+     "message": "please dedupe 9, 3, 9, 1, 3",
+     "input": {
+      "items": [
+       9,
+       3,
+       9,
+       1,
+       3
+      ]
+     }
+    },
+    {
+     "skill": "sortList",
+     "mode": "full",
+     "message": "please sort 9, 3, 9, 1, 3 numerically",
+     "input": {
+      "items": [
+       9,
+       3,
+       9,
+       1,
+       3
+      ],
+      "by": "numeric"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "languageCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "rows": [
+    {
+     "skill": "languageCodeLookup",
+     "mode": "full",
+     "message": "saw this on a form: pt — which language code is that?",
+     "input": {
+      "query": "pt"
+     }
+    },
+    {
+     "skill": "phoneRegionLookup",
+     "mode": "full",
+     "message": "saw this on a form: +351 — which dialling code is that?",
+     "input": {
+      "query": "+351"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "languageCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "rows": [
+    {
+     "skill": "languageCodeLookup",
+     "mode": "full",
+     "message": "look up the code for Korean, the language",
+     "input": {
+      "query": "Korean"
+     }
+    },
+    {
+     "skill": "phoneRegionLookup",
+     "mode": "full",
+     "message": "look up the code for Korea, the phone one",
+     "input": {
+      "query": "Korea"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pairUp",
+    "shuffleList"
+   ],
+   "rows": [
+    {
+     "skill": "pairUp",
+     "mode": "full",
+     "message": "Ana, Ben, Cal, Dee — pair them up at random, seed 6",
+     "input": {
+      "items": [
+       "Ana",
+       "Ben",
+       "Cal",
+       "Dee"
+      ],
+      "seed": 6
+     }
+    },
+    {
+     "skill": "shuffleList",
+     "mode": "full",
+     "message": "Ana, Ben, Cal, Dee — put them in a random order, seed 6",
+     "input": {
+      "items": [
+       "Ana",
+       "Ben",
+       "Cal",
+       "Dee"
+      ],
+      "seed": 6
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pairUp",
+    "shuffleList"
+   ],
+   "rows": [
+    {
+     "skill": "pairUp",
+     "mode": "full",
+     "message": "for the quiz night, draw teams of 2 from Jo, Kai, Lin, Mo with seed 30",
+     "input": {
+      "items": [
+       "Jo",
+       "Kai",
+       "Lin",
+       "Mo"
+      ],
+      "seed": 30,
+      "groupSize": 2
+     }
+    },
+    {
+     "skill": "shuffleList",
+     "mode": "full",
+     "message": "for the quiz night, shuffle the running order of Jo, Kai, Lin, Mo with seed 30",
+     "input": {
+      "items": [
+       "Jo",
+       "Kai",
+       "Lin",
+       "Mo"
+      ],
+      "seed": 30
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pairUp",
+    "shuffleList"
+   ],
+   "rows": [
+    {
+     "skill": "pairUp",
+     "mode": "full",
+     "message": "draw random teams of 3 from Zed, Ash, Ivy, Rex, Fox, Kit, seed 12",
+     "input": {
+      "items": [
+       "Zed",
+       "Ash",
+       "Ivy",
+       "Rex",
+       "Fox",
+       "Kit"
+      ],
+      "seed": 12,
+      "groupSize": 3
+     }
+    },
+    {
+     "skill": "shuffleList",
+     "mode": "full",
+     "message": "draw a random order for Zed, Ash, Ivy, Rex, Fox, Kit, seed 12",
+     "input": {
+      "items": [
+       "Zed",
+       "Ash",
+       "Ivy",
+       "Rex",
+       "Fox",
+       "Kit"
+      ],
+      "seed": 12
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pickRandom",
+    "randomNumber"
+   ],
+   "rows": [
+    {
+     "skill": "pickRandom",
+     "mode": "full",
+     "message": "for a board game, pick a random one from 2, 4, 6, 8, 10, 12 with seed 8",
+     "input": {
+      "items": [
+       2,
+       4,
+       6,
+       8,
+       10,
+       12
+      ],
+      "seed": 8
+     }
+    },
+    {
+     "skill": "randomNumber",
+     "mode": "full",
+     "message": "for a board game, pick a random whole number from 2 to 12 with seed 8",
+     "input": {
+      "min": 2,
+      "max": 12,
+      "seed": 8,
+      "whole": true
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pickRandom",
+    "randomNumber"
+   ],
+   "rows": [
+    {
+     "skill": "pickRandom",
+     "mode": "full",
+     "message": "draw a raffle winner from tickets 10, 20, 30, 40, seed 3",
+     "input": {
+      "items": [
+       10,
+       20,
+       30,
+       40
+      ],
+      "seed": 3
+     }
+    },
+    {
+     "skill": "randomNumber",
+     "mode": "full",
+     "message": "draw a raffle number between 10 and 40, seed 3",
+     "input": {
+      "min": 10,
+      "max": 40,
+      "seed": 3
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "sortList",
+    "sortRows"
+   ],
+   "rows": [
+    {
+     "skill": "sortList",
+     "mode": "full",
+     "message": "sort this list of scores highest first: 72, 95, 88",
+     "input": {
+      "items": [
+       72,
+       95,
+       88
+      ],
+      "by": "numeric",
+      "direction": "descending"
+     }
+    },
+    {
+     "skill": "sortRows",
+     "mode": "full",
+     "message": "sort this table of scores highest first: name,score / Ann,72 / Bo,95 / Cy,88",
+     "input": {
+      "table": {
+       "headers": [
+        "name",
+        "score"
+       ],
+       "rows": [
+        {
+         "name": "Ann",
+         "score": 72
+        },
+        {
+         "name": "Bo",
+         "score": 95
+        },
+        {
+         "name": "Cy",
+         "score": 88
+        }
+       ]
+      },
+      "column": "score",
+      "direction": "descending"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "sortList",
+    "sortRows"
+   ],
+   "rows": [
+    {
+     "skill": "sortList",
+     "mode": "full",
+     "message": "sort Paris, Oslo, Rome alphabetically",
+     "input": {
+      "items": [
+       "Paris",
+       "Oslo",
+       "Rome"
+      ],
+      "by": "alphabetical"
+     }
+    },
+    {
+     "skill": "sortRows",
+     "mode": "full",
+     "message": "sort the rows by city alphabetically: city,pop / Paris,2.1 / Oslo,0.7 / Rome,2.8",
+     "input": {
+      "table": {
+       "headers": [
+        "city",
+        "pop"
+       ],
+       "rows": [
+        {
+         "city": "Paris",
+         "pop": 2.1
+        },
+        {
+         "city": "Oslo",
+         "pop": 0.7
+        },
+        {
+         "city": "Rome",
+         "pop": 2.8
+        }
+       ]
+      },
+      "column": "city"
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "sortList",
+    "sortRows"
+   ],
+   "rows": [
+    {
+     "skill": "sortList",
+     "mode": "full",
+     "message": "sort this list of prices low to high: 4.5, 2, 9",
+     "input": {
+      "items": [
+       4.5,
+       2,
+       9
+      ],
+      "by": "numeric",
+      "direction": "ascending"
+     }
+    },
+    {
+     "skill": "sortRows",
+     "mode": "full",
+     "message": "sort the table rows by price low to high: item,price / tea,4.5 / pen,2 / mug,9",
+     "input": {
+      "table": {
+       "headers": [
+        "item",
+        "price"
+       ],
+       "rows": [
+        {
+         "item": "tea",
+         "price": 4.5
+        },
+        {
+         "item": "pen",
+         "price": 2
+        },
+        {
+         "item": "mug",
+         "price": 9
+        }
+       ]
+      },
+      "column": "price",
+      "direction": "ascending"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+  "batch": "o03",
+  "texts": [
+    {
+      "kind": "receipt",
+      "text": "THE GOLDEN HADDOCK\n3 Marine Parade, Sandmere-on-Sea SM2 4LP\nTel 01632 960238\n1 x Large cod & chips £11.40\n2 x Small haddock & chips @ £8.20 £16.40\n1 x Mushy peas £1.90\n2 x Curry sauce @ £1.60 £3.20\n1 x Can of cola £1.50\nTOTAL £34.40\nCard ending 6031\n14/08/2026 18:52 Till 1"
+    },
+    {
+      "kind": "receipt",
+      "text": "Sandmere Town Council\nBeach Hut Hire Receipt No. 004812\nHut 27, East Promenade\nHire period: 1 week, Sat 22 Aug to Fri 28 Aug 2026\nWeekly rate £185.00\nKey deposit (refundable) £20.00\nAmount paid £205.00\nPaid by: debit card\nKeys to be returned to the kiosk by 5pm on departure."
+    },
+    {
+      "kind": "receipt",
+      "text": "Scoops on the Boardwalk\n1104 Ocean Walk, Driftwood Beach\n(843) 555-0162\n2 Waffle cone double @ 6.75 13.50\n1 Kids cup single 3.95\n1 Root beer float 5.25\nExtra sprinkles 0.50\nSubtotal 23.20\nTax 6% 1.39\nTotal 24.59\nVISA ****2205 08/09/2026 4:48 PM"
+    },
+    {
+      "kind": "receipt",
+      "text": "Chiringuito La Ola\nPaseo Marítimo 18, Playa Corvina\nTable 4 Covers 3\n2 Sangría jug 1L @ €14.50 €29.00\n1 Seafood paella for 2 €32.00\n1 Mixed salad €8.50\n2 Mineral water @ €2.20 €4.40\nTOTAL €73.90\nIVA 10% included\n16/07/2026 14:37 Ticket no. 2291"
+    },
+    {
+      "kind": "receipt",
+      "text": "Pirate Cove Adventure Golf\nMarine Drive, Kittiwake Bay\n2 Adult rounds @ £7.50 £15.00\n2 Child rounds (under 12) @ £5.50 £11.00\nFamily discount 10% -£2.60\nTotal £23.40\nCash £25.00\nChange £1.60\nScorecards and pencils at the hut. Game no. 5527\nTue 11 Aug 2026 15:06"
+    },
+    {
+      "kind": "receipt",
+      "text": "SEASPRAY GUEST HOUSE\n12 Cliff Terrace, Kittiwake Bay KB3 9RE\nGuest: Mr and Mrs O. Lindqvist Room 5\nArrival 03/09/2026 Departure 07/09/2026\n4 nights B&B @ £96.00 £384.00\nPacked lunch x2 @ £8.50 £17.00\nParking permit 4 days @ £3.00 £12.00\nTotal £413.00\nDeposit paid £96.00\nBalance settled £317.00\nThank you, Brenda and Huw"
+    },
+    {
+      "kind": "receipt",
+      "text": "Breakline Surf Rentals\n22 Pier Avenue, Driftwood Beach\nRental agreement #R-30418\nSoft-top board 8 ft, 3 days @ $25.00 $75.00\nWetsuit 3/2 mm, 3 days @ $12.00 $36.00\nLeash and wax $6.00\nSubtotal $117.00\nDamage waiver $9.00\nTotal $126.00\nDue back 07/21 by 6:00 PM"
+    },
+    {
+      "kind": "receipt",
+      "text": "North Pier Car Park\nPay and Display\nArrived 10:14\nExpires 14:14\nDuration 4 hrs\nTariff £1.80 per hour\nPaid £7.20\nTicket 0098341 Machine 06\nDisplay clearly on dashboard\nSat 01/08/2026"
+    },
+    {
+      "kind": "receipt",
+      "text": "Kittiwake Rock & Fudge Co.\n7 Harbour Steps, Kittiwake Bay\nStick of rock, mint x4 @ £1.75 £7.00\nFudge, clotted cream 250g £4.95\nFudge, sea salt caramel 250g £4.95\nGift tin £3.50\nMultibuy fudge 2 for £9.00 -£0.90\nTOTAL £19.50\nContactless VISA ****7714\n22/07/26 12:41 Assistant: Kerry"
+    },
+    {
+      "kind": "receipt",
+      "text": "Bluewater Boat Trips\nSeal-spotting cruise 11:30 (approx. 90 min)\n2 Adults @ £18.00 £36.00\n1 Child (5-15) @ £9.00 £9.00\n1 Infant (under 5) Free\nTotal £45.00\nBooking ref SEAL-6620\nPlease board 15 minutes before departure from Jetty B."
+    },
+    {
+      "kind": "receipt",
+      "text": "SUPERMERCADO MAREA\nAvda. del Faro 41, Cala Serena\nWater 6 x 1.5L €2.94\nSun cream SPF 50 200ml €12.95\nBaguette €0.85\nSerrano ham 100g €3.40\nPeaches 1.2kg @ €2.30/kg €2.76\nTOTAL €22.90\nCash €30.00\nChange €7.10\n18/08/2026 10:05 Till 3"
+    },
+    {
+      "kind": "receipt",
+      "text": "Gelato Bellini\n14 The Esplanade, Sandmere-on-Sea\nOrder #417\nKnickerbocker glory £7.95\n2 scoops tub, pistachio & lemon £4.20\nAffogato £4.60\nBabyccino £0.90\nTotal £17.65\nincl. VAT 20% £2.94\nCash £20.00 Change £2.35\n29/07/2026 16:22"
+    },
+    {
+      "kind": "receipt",
+      "text": "Kittiwake Bay Lifeboat Gift Shop\nLifeboat keyring £3.50\nTea towel, harbour map £6.00\nChildren's sou'wester hat £8.99\nDonation £5.00\nTotal £23.49\nGift Aid on donation: Yes\nPaid by card ending 3398\n02/09/2026 11:17 Receipt 1840"
+    },
+    {
+      "kind": "receipt",
+      "text": "Captain Rudy's Crab Shack\n455 Dune Road, Driftwood Beach\nServer: Marisol Table 9\n1 Steamed crab bucket 1 1/2 lb 34.00\n2 Hush puppies @ 4.50 9.00\n1 Shrimp basket 16.75\n3 Sweet tea @ 2.75 8.25\nSubtotal 68.00\nTax 7.5% 5.10\nTotal 73.10\nCheck #3381 06/28/2026 7:12 PM"
+    },
+    {
+      "kind": "receipt",
+      "text": "DECKCHAIR & SUNBED HIRE\nSouth Beach, Sandmere-on-Sea\n2 Deckchairs, all day @ £4.00 £8.00\n1 Windbreak £5.00\n1 Sunlounger, half day (from 1pm) £6.50\nTotal £19.50\nValid today only: 19/08/2026\nChairs must be returned to the stack by 6.30pm. Ticket 07731"
+    },
+    {
+      "kind": "notice",
+      "text": "BEACH SAFETY\nRed and yellow flags: lifeguarded area, swim between the flags.\nRed flag: danger, do not enter the water.\nBlack and white chequered flags: zone for surfboards and kayaks.\nLifeguards on duty daily 10:00 to 18:00, 23 May to 27 September 2026.\nIn an emergency call 999 and ask for the Coastguard."
+    },
+    {
+      "kind": "notice",
+      "text": "DANGER: FAST RISING TIDES\nThe causeway to Gull Rock is covered by the sea for approx. 4 hours around each high tide.\nCheck the tide table before crossing. Today's safe crossing times are shown on the board at the slipway.\nDo not attempt to cross if water is over the path. Last year 37 people were rescued from this spot.\nSandmere Coastguard Rescue Team"
+    },
+    {
+      "kind": "notice",
+      "text": "DOGS ON THE BEACH\nFrom 1 May to 30 September dogs are not permitted on Main Beach between the pier and the lifeguard tower.\nDogs are welcome all year on North Beach beyond groyne no. 14.\nPlease clean up after your dog. Maximum penalty £1,000.\nKittiwake Bay Town Council, Environmental Services 01632 960517"
+    },
+    {
+      "kind": "notice",
+      "text": "NOTICE\nThe end of the Albion Pier will be closed from Monday 14 September to Friday 2 October 2026 for repairs to the decking.\nThe amusement hall, café and toilets at the pier entrance stay open 9am to 9pm as usual.\nAngling permits bought for these dates will be refunded at the kiosk.\nWe apologise for any inconvenience."
+    },
+    {
+      "kind": "notice",
+      "text": "BOARDWALK RULES\nBicycles permitted 5:00 AM to 10:00 AM only, May 15 through September 15.\nNo glass containers. No alcohol. No fires.\nSkateboards and scooters prohibited at all times.\nViolations subject to fines of $50 to $250 per Ord. No. 2019-14.\nDriftwood Beach Police Dept. non-emergency (843) 555-0118"
+    },
+    {
+      "kind": "notice",
+      "text": "SWIMMING POOL\nOpen daily 09:00 to 19:30, lifeguard on duty 10:00 to 18:00\nWater temperature today 26 °C\nShower before entering. No diving: depth 1.20 m to 1.80 m.\nChildren under 12 must be with an adult at all times.\nSunbeds may not be reserved with towels before 09:00. Towels left unattended will be removed by staff.\nHotel Brisa del Mar, Reception ext. 9"
+    },
+    {
+      "kind": "notice",
+      "text": "MARINE PARADE NEWS & GIFTS\nSummer opening hours\nMon to Sat 7am to 9pm\nSun 8am to 8pm\nBuckets, spades and crabbing lines inside\nBait available: frozen squid and mackerel\nSorry, no more than 3 school children at a time"
+    },
+    {
+      "kind": "notice",
+      "text": "SEAFRONT CAR PARK CHARGES\nUp to 1 hour £2.00\nUp to 2 hours £3.60\nUp to 4 hours £6.40\nAll day (until 8pm) £11.00\nOvernight 8pm to 8am £3.00\nCoaches: £25.00 per day, bays 41 to 46 only\nPay by coin, card or call 01632 960884 quoting location 4417\nCharges apply every day including bank holidays."
+    },
+    {
+      "kind": "notice",
+      "text": "JELLYFISH WARNING\nSeveral Portuguese man o' war have been found on this beach since 8 August.\nDo not touch them, even if they appear dead: the tentacles can still sting.\nIf stung, rinse with sea water, not fresh water, and seek first aid at the lifeguard hut.\nReport sightings to the Beach Office on 01632 960305."
+    },
+    {
+      "kind": "notice",
+      "text": "LOST CHILDREN POINT\nIf you become separated from your child, go straight to the Lifeguard Tower opposite the Clock Tower café.\nLost children will be taken there and looked after by staff.\nGive each child a wristband with your mobile number: free from the tower or the Tourist Information Centre.\nOpen 10am to 6pm daily in July and August."
+    },
+    {
+      "kind": "notice",
+      "text": "FIREWORKS ON THE BAY\nWednesdays 5, 12, 19 and 26 August 2026 at 9.45pm\nBest viewed from the Esplanade and West Cliff gardens\nThe promenade between the pier and the bandstand will close to traffic from 8pm to 11pm.\nExtra buses on route 5 until 11.30pm.\nIf the weather is poor, check our page after 4pm for a decision."
+    },
+    {
+      "kind": "notice",
+      "text": "BATHING WATER QUALITY\nSandmere Main Beach: rated Excellent (2022 to 2025)\nShort-term pollution may occur after heavy rain. Advice against bathing will be posted here when needed.\nLatest sample taken 10/08/2026: E. coli 18 cfu/100ml, intestinal enterococci 9 cfu/100ml.\nFor daily updates text SANDMERE to 07700 900214."
+    },
+    {
+      "kind": "notice",
+      "text": "CLOSED FOR THE SEASON\nThe Sandpiper Kiosk is now closed until the spring.\nThank you to all our customers for a fantastic 2026 summer: 41,000 ice creams served!\nWe reopen on Friday 2 April 2027 at 10am.\nGift vouchers can still be bought online or by calling 07700 900583."
+    },
+    {
+      "kind": "notice",
+      "text": "RIP CURRENTS\nIf caught in a rip current, don't fight it. Swim parallel to the shore, then swim back at an angle.\nIf you can't escape, float or tread water and wave for help.\nNo lifeguard on duty after 5:30 PM or before 9:00 AM.\nBeach access #22, mile marker 7.5\nEmergency: 911"
+    },
+    {
+      "kind": "notice",
+      "text": "PLAYA DE LAS DUNAS, CALA SERENA\nBlue Flag beach 2026\nSunbed and umbrella hire: €12.00 per day, €7.00 after 15:00\nSmoking is not permitted on the sand. Fine up to €300.\nDogs are allowed only at the dog beach, 400 m to the east.\nFirst aid post open 11:00 to 19:00, June to September."
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Ms Okonkwo,\nThank you for booking Gull's Rest, 4 Fisherman's Row, for 7 nights from Saturday 15 August 2026. Your deposit of £150.00 has been received and the balance of £545.00 is due by 15 July.\nCheck-in is from 4pm and check-out by 10am. The key safe code will be sent 48 hours before you arrive.\nKind regards,\nPippa Treloar\nSeaside Cottages Kittiwake Bay, 01632 960749"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Gran,\nWe arrived on Tuesday after a 6-hour drive and the weather has been glorious ever since, 27° yesterday! The caravan is right above the beach and Oscar has already found 3 crabs and a starfish in the rock pools.\nWe're going on the steam train to Polgarrow on Friday and coming back on the 4.15pm.\nLots of love,\nJess, Tom and the boys xx"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your stay at the Grand Esplanade Hotel, ref. GE-58204\nDear Mr Fairweather,\nThank you for your email of 2 September. I am very sorry that the sea-view room you booked was not available on your arrival and that you were moved to a room at the rear of the hotel.\nAs an apology we have refunded the difference of £35.00 per night for 3 nights, £105.00 in total, to your card ending 0912. It should appear within 5 working days.\nYours sincerely,\nDelia Marchbank, Front of House Manager"
+    },
+    {
+      "kind": "letter",
+      "text": "From: Sandpiper Shores Rentals <stay@sandpipershores.example>\nSubject: Check-in details for Unit 3B, 7/18 to 7/25\nHi Marcus,\nYour unit is ready! The door code is the last 4 digits of your booking number, 4471. Parking is in space #14 under the building; a second car can park in the overflow lot on 3rd Street for $10/day.\nBeach chairs and an umbrella are in the storage closet. Check-out is 10:00 AM on Saturday, and please run the dishwasher before you leave.\nQuestions? Text Gloria at 555-0139.\nEnjoy the beach!"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Hut Holder,\nLicence renewal 2027: Hut no. 112, West Promenade\nYour annual licence expires on 31 March 2027. The renewal fee for 2027/28 is £642.00, an increase of 3.5% on last year's fee of £620.29.\nPlease pay by 28 February 2027 using the reference BH112-27. Licences not renewed by this date may be offered to the next applicant on the waiting list, which currently has 286 names.\nYours faithfully,\nSeafront Services Manager"
+    },
+    {
+      "kind": "letter",
+      "text": "Hello,\nI'd like to book a table for 8 people on Saturday 29 August at 7.30pm, ideally on the terrace if the weather is fine. Two of our party are vegetarian and one has a nut allergy.\nIt's my parents' 40th wedding anniversary, so if it's possible to have a small cake brought out at the end, I'd be very grateful. I'm happy to pay a deposit.\nMany thanks,\nRhian Pugh\n07700 900361"
+    },
+    {
+      "kind": "letter",
+      "text": "Olá Sophie and Mark,\nWelcome to Praia do Mirante! The apartment is on the 2nd floor, no. 2D. The keys are in the lockbox by the door, code 1958.\nThe Wi-Fi network is CasaGaivota and the password is on the fridge. The beach is 250 m down the steps; the bakery on the corner opens at 7:30 and the pastéis de nata are €1.20 each.\nTourist tax is €2 per adult per night, so €28.00 for your 7 nights. You can leave it in cash on the table.\nBoas férias,\nJoão"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr Abernethy,\nLost property: ref. LP/2026/0381\nThank you for reporting the loss of a navy rucksack on the 10:40 land train from the Pier to Seal Point on 19 August. I am pleased to tell you that a bag matching your description has been handed in.\nIt can be collected from the Tourist Information Centre, 1 Marine Parade, Monday to Saturday 9.30am to 5pm. Please bring photo ID. Items are held for 28 days.\nYours sincerely,\nG. Penhallow, Visitor Services"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Parents and Carers,\nYear 3 trip to Kittiwake Bay Aquarium, Thursday 24 September 2026\nThe coach will leave school at 8.45am and return at approx. 3.30pm. The cost is £14.50 per child, which covers travel and entry. Please pay through the school app by Friday 11 September.\nChildren will need a packed lunch, a waterproof coat and comfortable shoes. No money or phones, please.\nMrs A. Rowntree, Year 3 Teacher"
+    },
+    {
+      "kind": "letter",
+      "text": "Re: Mackerel trip on the 21st\nHi Dave,\nThat's fine for 6 of you on the Morning Star. We'll leave the harbour at 06:30 sharp and should be back by 10:30, tide permitting. It's £40 each including rods and bait, £240 for the boat, cash or bank transfer.\nBring warm layers, it's colder out there than you'd think even in July, and you're welcome to take home what you catch.\nCheers,\nSkipper Rob"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Resident,\nYour 2026 Seasonal Beach Parking Permit is enclosed. Permit No. 08812 is valid from May 22, 2026 through September 7, 2026 for the vehicle listed on your application.\nPlease hang the permit from your rear-view mirror. Permits are not transferable. A replacement costs $35.00 and requires the original permit or a police report.\nSincerely,\nOffice of the Town Clerk, Seabright Shores"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Hannah and Olu,\nThank you for visiting Clifftop Barn on Sunday. As promised, here is our quote for Saturday 18 September 2027: venue hire £4,200.00, wedding breakfast for 90 guests at £68.50 per head £6,165.00, evening buffet for 120 guests at £16.00 per head £1,920.00, total £12,285.00.\nA deposit of 25%, £3,071.25, would secure the date. We are holding it for you until 30 November.\nWarm wishes,\nLowenna"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your airport transfer, booking TRF-77215\nDear Mr and Mrs Haddad,\nYour driver will meet you in the arrivals hall at 15:20 on Thursday 3 September holding a sign with your name. The journey to Hotel Brisa del Mar, Cala Serena takes approx. 45 minutes.\nYour return pick-up is at 07:05 on Thursday 10 September from the hotel entrance. If your flight is delayed, please call our 24-hour line on +44 7700 900427.\nKind regards,\nSolTransfers Customer Care"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mrs Whitlock,\nI write to confirm your rooms for the fortnight commencing Saturday 4th August. The terms are 9 guineas per week for full board for yourself, your husband and the two children, with a reduction of 10s. if you take your midday meal out.\nBreakfast is served at 8.30 and dinner at 6 sharp. I regret no dogs.\nYours truly,\nE. Pengelly (Mrs)"
+    },
+    {
+      "kind": "letter",
+      "text": "Hi all,\nQuick reminder that the beach clean-up is this Sunday, 6 September, meeting at the slipway by the café at 9am. Last month 23 of us collected 41 kg of litter in 2 hours, including 312 bottle tops!\nGloves, bags and litter pickers are provided. Kids are very welcome but need an adult with them.\nCoffee and bacon rolls afterwards at the Shell Hut, courtesy of Mo.\nThanks, Bryony"
+    },
+    {
+      "kind": "menu",
+      "text": "THE CLOCK TOWER CAFÉ\nBreakfast served 8am to 11.30am\nFull English (2 eggs, bacon, sausage, beans, tomato, toast) £10.50\nVeggie breakfast (v) £9.75\nBacon or sausage bap £5.25\nEggs Benedict £8.95\nPorridge with honey and berries £5.50\nPot of tea for one £2.60\nCappuccino £3.30\nPlease order at the counter and tell us your table number."
+    },
+    {
+      "kind": "menu",
+      "text": "MAIN COURSES\nWhole grilled sea bass, samphire, lemon butter £21.50\nBeer-battered haddock, triple-cooked chips, mushy peas £17.95\nMoules marinière, frites £16.50\nCrab linguine, chilli, parsley £19.00\nCatch of the day: please ask your server\nSides £4.25 each: green salad, buttered new potatoes, onion rings\nA discretionary service charge of 10% is added to tables of 6 or more."
+    },
+    {
+      "kind": "menu",
+      "text": "SOFT SERVE & SCOOPS\nSmall cone £2.80\nLarge cone £3.60\n99 with flake £3.40\n1 scoop tub £3.20\n2 scoops tub £4.50\n3 scoops tub £5.80\nToppings 50p: sprinkles, sauce, mini marshmallows\nToday's flavours: salted caramel, mint choc chip, clotted cream vanilla, mango sorbet (vg)"
+    },
+    {
+      "kind": "menu",
+      "text": "Dune Road Clam Bar\nRAW BAR\nLittleneck clams, half dozen $14\nOysters on the half shell, dozen $28\nPeel 'n' eat shrimp, 1/2 lb $16\nBASKETS (served with fries & slaw)\nFried clam strips $18\nFish & chips $19\nLobster roll, 4 oz, warm with butter or cold with mayo $32\nMarket price items subject to change"
+    },
+    {
+      "kind": "menu",
+      "text": "TAPAS\nPatatas bravas €4.50\nGambas al ajillo €9.80\nPimientos de Padrón €5.20\nCalamares a la romana €8.90\nCroquetas de jamón (6 uds.) €7.50\nTortilla española €4.80\nPan con tomate €3.00\nJarra de sangría 1 L €14.00\nPrices include IVA. Ask staff about allergens."
+    },
+    {
+      "kind": "menu",
+      "text": "LITTLE SHIPMATES MENU\nFor under-12s, £7.95 including a drink and an ice lolly\nFish fingers, chips and peas\nMini cheese and tomato pizza\nChicken goujons, mash and beans\nPasta with tomato sauce (v)\nDrinks: apple juice, orange squash or 200ml milk\nColouring sheet and crayons available, just ask!"
+    },
+    {
+      "kind": "menu",
+      "text": "THE ANCHOR INN, HARBOUR BAR\nCask ales, pint / half\nKittiwake Gold 4.1% £4.90 / £2.50\nBreakwater Bitter 3.8% £4.60 / £2.35\nSmugglers' Porter 5.2% £5.30 / £2.70\nLager, pint £5.40\nCider, Orchard Dry 6.0% pint £5.10\nHouse wine 175ml £5.75, bottle £21.00\nSoft drinks from £2.20"
+    },
+    {
+      "kind": "menu",
+      "text": "CREAM TEAS\nServed 2pm to 5pm daily\nCream tea for one £7.50\nTwo scones, clotted cream, strawberry jam and a pot of tea\nCream tea for two £14.00\nChildren's cream tea (1 scone, squash) £4.25\nAdd a glass of prosecco £6.95\nGluten-free scones available on request\nJam first or cream first? We don't mind!"
+    },
+    {
+      "kind": "menu",
+      "text": "LA PALAPA TACOS\nFish taco (beer-battered cod, chipotle mayo) $5.50\nShrimp taco (grilled, mango salsa) $6.25\nCarnitas taco $4.75\nVeggie taco (black beans, corn, queso fresco) $4.25\n3 tacos + chips & salsa $16.00\nElote (street corn) $5.00\nHorchata or jamaica, 16 oz $4.00\nCash & card accepted. Follow us @lapalapatacos"
+    },
+    {
+      "kind": "menu",
+      "text": "Hotel Belvédère, Restaurant Les Mouettes\nMenu du jour €29.50\nSoupe de poissons, rouille et croûtons\nOr Salade niçoise\nDorade royale grillée, fenouil braisé\nOr Suprême de volaille, sauce aux morilles\nCrème brûlée à la lavande\nOr Assiette de fromages (supplement €4.00)\nService compris. Wine by the glass from €5.50."
+    },
+    {
+      "kind": "menu",
+      "text": "PROMENADE KIOSK No. 3\nHot dog £4.20\nCheeseburger £5.60\nChips, regular £2.90 / large £3.80\nDoughnuts, bag of 5 £3.00\nCandyfloss £2.50\nSlush, regular £2.40\nTea £1.80, coffee £2.30, hot chocolate £2.60\nCard payments over £5 only"
+    },
+    {
+      "kind": "menu",
+      "text": "WHITE WINE 175ml / 250ml / bottle\nPicpoul de Pinet, France £6.80 / £9.20 / £26.00\nAlbariño, Rías Baixas, Spain £7.40 / £10.10 / £29.00\nSauvignon Blanc, Marlborough, NZ £7.20 / £9.80 / £28.00\nROSÉ\nCôtes de Provence £7.60 / £10.40 / £30.00\nSPARKLING, 125ml / bottle\nProsecco DOC £7.00 / £32.00\nEnglish sparkling brut £9.50 / £45.00"
+    },
+    {
+      "kind": "menu",
+      "text": "BEACH SHACK PIZZA (12 inch, sourdough)\nMargherita (v) £10.00\nPepperoni & hot honey £13.00\nNduja, ricotta, rocket £13.50\nCrab & samphire £15.00\nRoasted veg & goat's cheese (v) £12.50\nVegan cheese available, +£1.50\nGarlic dough balls x8 £5.00\nOrder at hatch 2 and we'll text you when it's ready."
+    },
+    {
+      "kind": "menu",
+      "text": "Sunrise Diner, open 6 AM to 2 PM\nTwo eggs any style, home fries, toast $9.95\nShort stack (3 pancakes) $8.50, add blueberries $1.50\nBelgian waffle with strawberries & whipped cream $11.25\nWestern omelette $12.75\nCrab cake Benedict $17.50\nScrapple side $3.95\nBottomless coffee $2.95\nBreakfast served until close!"
+    },
+    {
+      "kind": "menu",
+      "text": "BAR LA DUNA, COCKTAILS\nMojito €9.00\nPiña colada €9.50\nAperol spritz €8.50\nCaipiriña €9.00\nTinto de verano €5.50\nMocktails: virgin mojito, tropical sunset €6.00\nHappy hour 18:00 to 20:00: 2 cocktails for €14.00\nBeer 33 cl €3.50, 50 cl €5.00"
+    },
+    {
+      "kind": "timetable",
+      "text": "SEAFRONT LAND TRAIN\nRuns daily 26 May to 30 September\nPier 10:00 10:40 11:20 then every 40 mins until 17:20\nClock Tower 10:08 10:48 11:28\nCrazy Golf 10:15 10:55 11:35\nSeal Point 10:25 11:05 11:45\nLast train back from Seal Point 17:45\nFares: adult £3.50, child £2.00, family £10.00"
+    },
+    {
+      "kind": "timetable",
+      "text": "HIGH AND LOW WATER, KITTIWAKE BAY\nAugust 2026, times in BST\nSat 15 HW 06:12 5.4m LW 12:31 0.9m HW 18:40 5.6m\nSun 16 HW 06:55 5.6m LW 13:14 0.7m HW 19:21 5.8m\nMon 17 HW 07:36 5.7m LW 13:55 0.6m HW 20:01 5.9m\nTue 18 HW 08:16 5.7m LW 14:35 0.6m HW 20:40 5.8m\nWed 19 HW 08:57 5.6m LW 15:16 0.8m HW 21:20 5.6m\nHeights above chart datum. Do not rely on these times for navigation."
+    },
+    {
+      "kind": "timetable",
+      "text": "Route 5 Seafront Shuttle, Monday to Saturday\nRailway Station 08:05 08:35 09:05 09:35\nTown Centre, Bridge St 08:11 08:41 09:11 09:41\nClock Tower 08:16 08:46 09:16 09:46\nAlbion Pier 08:20 08:50 09:20 09:50\nWestcliff Gardens 08:27 08:57 09:27 09:57\nThen at these minutes past each hour until 18:35\nOpen-top bus runs on this route in fine weather, July and August"
+    },
+    {
+      "kind": "timetable",
+      "text": "BOAT TRIPS FROM THE HARBOUR\nBay cruise, 45 mins: 10:30, 12:00, 13:30, 15:00, 16:30\nSeal Island trip, 1 1/2 hrs: 11:00, 14:00\nSunset cruise with fizz, 2 hrs: Fri and Sat 19:30\nMackerel fishing, 2 hrs: 08:00 and 17:30\nAll trips weather permitting. Tickets from the blue kiosk on the quay or call 07700 900612."
+    },
+    {
+      "kind": "timetable",
+      "text": "Beach Trolley, Route B, Summer Schedule\nEffective June 1 to Labor Day\nWeekdays 7:00 AM to 11:00 PM, every 20 minutes\nWeekends 7:00 AM to 1:00 AM, every 15 minutes\nFare $2.00, seniors and children 6 to 12 $1.00, under 6 free\nDay pass $5.00\nStops: Bay Plaza, 9th St Pier, Boardwalk Ave, Lighthouse Park, Inlet Marina"
+    },
+    {
+      "kind": "timetable",
+      "text": "ALBION PIER OPENING HOURS 2026\nMarch and October 10am to 5pm\nApril to June 10am to 8pm\nJuly and August 9am to 11pm\nSeptember 10am to 7pm\nNovember to February, weekends only 11am to 4pm\nClosed 25 and 26 December\nLast admission to the rides 30 minutes before closing"
+    },
+    {
+      "kind": "timetable",
+      "text": "WATER TAXI: CALA SERENA TO ISLA DE LAS GAVIOTAS\nDeparts Cala Serena harbour: 09:30, 11:00, 12:30, 14:00, 15:30, 17:00\nDeparts Isla de las Gaviotas: 10:15, 11:45, 13:15, 14:45, 16:15, 18:00\nCrossing approx. 25 minutes\nReturn ticket: adult €16.00, child (4 to 11) €8.00\nLast boat back 18:00, do not miss it!"
+    },
+    {
+      "kind": "timetable",
+      "text": "LIFEGUARD ROTA, WEEK 33\nMon 10 Aug Tower 1: Kemi, Josh Tower 2: Ffion, Raúl\nTue 11 Aug Tower 1: Ffion, Raúl Tower 2: Kemi, Josh\nWed 12 Aug Tower 1: Callum, Josh Tower 2: Kemi, Isla\nThu 13 Aug Tower 1: Isla, Raúl Tower 2: Callum, Ffion\nFri 14 Aug Tower 1: Kemi, Callum Tower 2: Josh, Isla\nShifts 09:45 to 18:15, breaks staggered every 2 hours"
+    },
+    {
+      "kind": "timetable",
+      "text": "Branch line: Kittiwake Bay to Penmorrow Junction\nKittiwake Bay d 06:48 08:02 09:15 11:15 13:15 15:15 17:40\nGullsands d 06:53 08:07 09:20 11:20 13:20 15:20 17:45\nTrevanion Halt d 07:01 08:15 09:28 11:28 13:28 15:28 17:53\nPenmorrow Junction a 07:12 08:26 09:39 11:39 13:39 15:39 18:04\nTrevanion Halt is a request stop: tell the conductor if you wish to alight.\nBicycles: 2 spaces per train, reservation advised."
+    },
+    {
+      "kind": "timetable",
+      "text": "SPLASHZONE LEISURE POOL, SUMMER HOLIDAY SESSIONS\nMon to Fri 09:00 to 10:30 Lane swimming (adults)\nMon to Fri 11:00 to 12:30 Fun session with inflatable\nMon to Fri 13:30 to 15:30 Wave machine session\nMon to Fri 16:00 to 17:00 Parent and toddler\nSat and Sun 10:00 to 16:00 Family fun, waves every 30 min\nWristband colour changes each session. Under-8s must be within arm's reach of an adult."
+    },
+    {
+      "kind": "timetable",
+      "text": "BANDSTAND CONCERTS, AUGUST 2026\nSun 2 Aug 2.30pm Kittiwake Silver Band\nSun 9 Aug 2.30pm The Dune Tones (swing and jazz)\nSun 16 Aug 2.30pm Westcliff Ukulele Club\nSun 23 Aug 2.30pm Penmorrow Male Voice Choir\nSun 30 Aug 7pm Bank Holiday Proms with fireworks\nDeckchairs £2 each, all proceeds to the Bandstand Restoration Fund"
+    },
+    {
+      "kind": "timetable",
+      "text": "Whale Watch Departures, Seabright Shores Marina\nMay 1 to June 30: daily 10:00 AM\nJuly 1 to Aug 31: daily 9:00 AM, 1:30 PM, 5:30 PM (sunset)\nSept 1 to Oct 15: Fri, Sat, Sun 10:00 AM\nTrip length approx. 3 1/2 hours\nAdults $62, seniors 65+ $56, kids 3 to 12 $38\nCheck in at Dock C 30 minutes before departure."
+    },
+    {
+      "kind": "timetable",
+      "text": "BUS 21 PLAYA CORVINA TO AIRPORT\nDaily from 1 June to 30 September\nPlaya Corvina, Paseo Marítimo 06:00 07:30 09:00 then every 90 minutes until 21:00\nPuerto Deportivo +6 min\nEstación de Autobuses +18 min\nAeropuerto, Terminal 1 +40 min\nSingle €3.80, return €6.50, card payment on board\nLarge luggage in the hold, max. 2 bags per passenger"
+    },
+    {
+      "kind": "timetable",
+      "text": "MINI CLUB DAILY PROGRAMME (ages 4 to 12)\n10:00 Welcome and face painting\n10:45 Treasure hunt in the gardens\n11:30 Pool games (bring swimwear and sun cream)\n12:30 Lunch with the team\n14:00 Rest time: films in the club room\n15:30 Arts and crafts: shell frames\n16:30 Mini disco rehearsal\n21:00 Mini disco at the amphitheatre\nSign in at reception, room no. required"
+    },
+    {
+      "kind": "timetable",
+      "text": "ROCKPOOL RAMBLES WITH A RANGER\nThu 6 Aug 10:30, Fri 7 Aug 11:15, Sat 8 Aug 12:00\nWed 26 Aug 09:45, Thu 27 Aug 10:30, Fri 28 Aug 11:15\nMeet at the steps below the coastguard lookout\nEach ramble lasts approx. 1 1/2 hours and starts 1 hour before low tide\n£4 per child, adults free. Wellies or old trainers essential.\nBook on 01632 960156"
+    },
+    {
+      "kind": "recipe",
+      "text": "Seaside Crab Toasts (serves 4)\n200g white crab meat\n50g brown crab meat\n3 tbsp mayonnaise\n1/2 lemon, juice and zest\nPinch of cayenne pepper\n4 thick slices sourdough\nMix the white and brown meat with the mayonnaise, lemon and cayenne. Season to taste.\nToast the bread, pile on the crab and serve straight away with a few watercress leaves."
+    },
+    {
+      "kind": "recipe",
+      "text": "New England Clam Chowder\nServes 6. Prep 20 min, cook 40 min\n2 lb littleneck clams, scrubbed\n4 slices bacon, diced\n1 medium onion, chopped\n3 cups diced potatoes (about 1 lb)\n2 cups whole milk\n1 cup heavy cream\n2 tbsp butter\nSteam the clams in 1 cup of water until they open, about 8 minutes. Remove the meat, chop it, and strain the broth.\nCook the bacon until crisp, add the onion and butter, then the potatoes and broth. Simmer 15 minutes, stir in the milk, cream and clams, and heat gently without boiling."
+    },
+    {
+      "kind": "recipe",
+      "text": "Clotted Cream Fudge\nMakes approx. 36 pieces\n450g caster sugar\n227g tub clotted cream\n100ml whole milk\n1 tsp vanilla extract\nLine a 20cm square tin. Heat the sugar, cream and milk gently until the sugar dissolves, then boil, stirring, until it reaches 116°C on a sugar thermometer.\nTake off the heat, add the vanilla and beat for 5 to 10 minutes until thick and grainy. Pour into the tin and leave to set for 2 hours before cutting."
+    },
+    {
+      "kind": "recipe",
+      "text": "Paella de Marisco (serves 4)\n300g bomba rice\n1.2 litres hot fish stock\nPinch of saffron (approx. 20 strands)\n12 raw king prawns\n500g mussels, cleaned\n200g squid rings\n1 red pepper, 2 garlic cloves, 2 tomatoes\n4 tbsp olive oil\nFry the pepper, garlic and grated tomato in the oil for 10 min. Stir in the rice, then the stock and saffron.\nDo not stir again. Cook 12 min, add the seafood and cook 8 min more until the mussels open. Rest 5 min under a cloth."
+    },
+    {
+      "kind": "recipe",
+      "text": "Barbecued Mackerel with Gooseberry Sauce\n4 whole mackerel, gutted\n2 tbsp olive oil, salt\nFor the sauce: 250g gooseberries, 30g sugar, 15g butter\nSlash the fish 3 times on each side, rub with oil and salt, and grill over hot coals for 4 to 5 minutes a side.\nSimmer the gooseberries with the sugar and 2 tbsp water for 8 minutes until soft, then beat in the butter.\nServe with new potatoes. Serves 4."
+    },
+    {
+      "kind": "recipe",
+      "text": "Boardwalk Fresh-Squeezed Lemonade\nMakes 1/2 gallon (8 cups)\n1 1/2 cups fresh lemon juice (8 to 10 lemons)\n1 cup sugar\n6 cups water (1 hot, 5 cold)\nIce and lemon slices to serve\nStir the sugar into the hot water until dissolved to make a syrup. Let cool.\nCombine the syrup, lemon juice and cold water in a pitcher. Chill for 1 hour and serve over ice."
+    },
+    {
+      "kind": "recipe",
+      "text": "Cream Tea Scones\nMakes 10. Oven 220°C (200°C fan), gas mark 7\n450g self-raising flour\n2 tsp baking powder\nPinch of salt\n100g cold butter, cubed\n50g caster sugar\n2 eggs plus milk to make 225ml\nRub the butter into the flour, baking powder and salt, then stir in the sugar. Keep 1 tbsp of the egg mix for glazing and stir in the rest to a soft dough.\nPat out to 3cm thick, stamp out with a 6cm cutter, brush the tops and bake for 12 to 15 minutes until golden."
+    },
+    {
+      "kind": "recipe",
+      "text": "Sardinhas Assadas (grilled sardines)\nServes 4 as a starter\n12 fresh sardines, whole, not gutted\nCoarse sea salt\n4 slices rustic bread\n2 tbsp olive oil, 1 lemon\nSalt the sardines generously 30 minutes before cooking.\nGrill over very hot charcoal for 2 to 3 minutes each side until the skin blisters.\nServe 3 sardines on each slice of bread to catch the juices, with lemon and a drizzle of oil."
+    },
+    {
+      "kind": "recipe",
+      "text": "Strawberry & Yoghurt Ice Lollies\nMakes 6 (each approx. 80ml)\n300g strawberries, hulled\n150g Greek yoghurt\n2 tbsp honey\nSqueeze of lime\nBlitz the strawberries with the honey and lime. Ripple through the yoghurt with a spoon; don't over-mix.\nPour into moulds, push in the sticks and freeze for at least 6 hours. Dip the moulds in warm water for 10 seconds to release."
+    },
+    {
+      "kind": "recipe",
+      "text": "Crispy Beer Batter for Fish\nEnough for 4 fillets (about 150g each)\n200g plain flour, plus extra for dusting\n1 tsp baking powder\n1/2 tsp salt\n330ml very cold lager\nSunflower oil for deep frying, heated to 180°C\nWhisk the flour, baking powder and salt with the lager until just smooth; a few lumps are fine.\nPat the fish dry, dust in flour, dip in the batter and fry for 6 to 8 minutes until deep golden. Drain on kitchen paper."
+    },
+    {
+      "kind": "recipe",
+      "text": "Gazpacho Andaluz\nServes 4, no cooking\n1 kg ripe tomatoes\n1 green pepper\n1/2 cucumber, peeled\n1 small garlic clove\n50g day-old bread\n80ml extra virgin olive oil\n2 tbsp sherry vinegar, salt\nRoughly chop the vegetables and soak the bread in water for 5 minutes, then squeeze it out.\nBlend everything until very smooth, sieve if you like, and chill for at least 3 hours. Serve at about 6°C with diced cucumber on top."
+    },
+    {
+      "kind": "recipe",
+      "text": "Maryland-Style Crab Cakes\nMakes 8 cakes, about 3 oz each\n1 lb lump crabmeat, picked over\n1/3 cup mayonnaise\n1 egg\n1 tsp Dijon mustard\n1 tsp seafood seasoning\n1/2 cup crushed saltine crackers\nGently fold everything together, keeping the lumps whole. Shape into 8 cakes and chill for 30 minutes.\nBroil 4 to 5 minutes per side until golden, or pan-fry in 2 tbsp butter. Serve with lemon wedges and tartar sauce."
+    },
+    {
+      "kind": "recipe",
+      "text": "Beach Hut Rum Punch\nServes 10\nRemember: 1 of sour, 2 of sweet, 3 of strong, 4 of weak\n250ml fresh lime juice\n500ml sugar syrup\n750ml golden rum\n1 litre pineapple and orange juice, mixed\nA few dashes of aromatic bitters, grated nutmeg\nStir everything together in a large jug with plenty of ice. Garnish with orange slices and serve within the hour."
+    },
+    {
+      "kind": "recipe",
+      "text": "Moules Marinière\nServes 2 as a main, 4 as a starter\n1 kg live mussels, scrubbed and debearded\n1 shallot, finely chopped\n2 garlic cloves, sliced\n25g butter\n150ml dry white wine\nHandful of chopped parsley\nThrow away any mussels that stay open when tapped. Soften the shallot and garlic in the butter for 3 minutes.\nAdd the wine and mussels, cover and steam over a high heat for 4 to 5 minutes, shaking the pan, until they open. Scatter with parsley and serve with crusty bread."
+    },
+    {
+      "kind": "recipe",
+      "text": "Toffee Apples\nMakes 8\n8 small eating apples\n8 wooden sticks\n400g golden caster sugar\n1 tsp vinegar\n4 tbsp golden syrup\n100ml water\nPush a stick firmly into each apple. Heat the sugar and water until dissolved, then add the vinegar and syrup.\nBoil without stirring to 150°C (hard crack). Dip and twist each apple, then stand on baking paper to set for 10 minutes."
+    },
+    {
+      "kind": "label",
+      "text": "SUNSHIELD KIDS\nSun Lotion SPF 50+\nUVA protection 5 stars\nVery high protection. Water resistant for 80 minutes.\nApply generously 15 minutes before sun exposure and reapply every 2 hours and after swimming or towelling.\nKeep babies and young children out of direct sunlight.\n200ml\nBatch 6L0429 Use within 12 months of opening"
+    },
+    {
+      "kind": "label",
+      "text": "Kittiwake Rock & Fudge Co.\nSea Salt Caramel Fudge\nIngredients: sugar, sweetened condensed milk (milk, sugar), glucose syrup, butter (milk) 12%, sea salt 0.8%, emulsifier (soya lecithin).\nFor allergens, see ingredients in bold.\nNet weight 250g\nBest before: 14 NOV 2026\nTypical values per 100g: energy 1,824kJ / 436kcal, fat 13.2g, of which saturates 8.1g, sugars 71.4g, salt 1.1g\nMade by hand in Kittiwake Bay KB1 2HS"
+    },
+    {
+      "kind": "label",
+      "text": "SEASIDE FUN BUCKET & SPADE SET\n6 pieces: bucket, spade, rake, watering can and 2 sand moulds\nSuitable for ages 3+\nWARNING: Not suitable for children under 36 months. Small parts. Choking hazard.\nAdult supervision recommended at all times near water.\nItem no. 30417 Made in China\nKeep packaging for future reference."
+    },
+    {
+      "kind": "label",
+      "text": "Gullsands Smokehouse\nOak-Smoked Kippers\n2 whole kippers, approx. 400g\nProduce of the UK, smoked in Gullsands\nKeep refrigerated 0°C to 5°C. Once opened consume within 2 days.\nSuitable for home freezing: freeze on day of purchase and use within 1 month.\nWARNING: may contain small bones\nUse by 21 AUG\n£6.95"
+    },
+    {
+      "kind": "label",
+      "text": "AGUA MINERAL NATURAL FUENTE SERENA\n1.5 L\nMineral composition (mg/l): bicarbonates 182.6, calcium 41.3, magnesium 7.9, sodium 9.2, sulphates 14.5\nDry residue at 180 °C: 198 mg/l\nStore in a cool, dry place away from sunlight.\nBest before: 03/2028 Lot L2614B\nEnvase reciclable"
+    },
+    {
+      "kind": "label",
+      "text": "Pelican Pops\nReal Fruit Mango Chili Paleta\nNet wt 3.5 fl oz (104 mL)\nIngredients: mango, water, cane sugar, lime juice, chili powder, salt.\nNutrition per bar: 90 calories, 0g fat, 22g carbs, 19g sugars\nKeep frozen. Made in Seabright Shores."
+    },
+    {
+      "kind": "label",
+      "text": "WETSUIT CARE\n3/2mm full suit, size M (chest 96 to 101cm, height 175 to 180cm)\nRinse in fresh water after every use.\nDo not machine wash. Do not tumble dry. Do not iron.\nDry inside out, away from direct sunlight, on a wide hanger.\nNeoprene 85%, nylon 15%\nStyle no. WS-3218"
+    },
+    {
+      "kind": "label",
+      "text": "Cool Aloe After Sun Gel\nWith 98% aloe vera\nSoothes and cools skin after sun exposure.\nDirections: smooth a generous amount over the skin as needed. For extra cooling, store in the fridge.\nNot a sunscreen. For external use only. Avoid contact with eyes.\n300ml\nDistributed by Coastline Health Ltd, Unit 9, Brinkley Park, KB4 7QT"
+    },
+    {
+      "kind": "label",
+      "text": "CRAB CATCHER KIT\nIncludes 10m orange line on a winder, bait bag, 2 weights and a net bucket\nHow to use: put bacon or fish heads in the bait bag, lower to the bottom, wait 5 minutes and lift slowly.\nPlease be kind to crabs! Keep them in seawater in the shade and return them within 30 minutes.\nNot suitable for children under 5 years. Barcode 5 012345 678900"
+    },
+    {
+      "kind": "label",
+      "text": "Almazara Los Olivos\nACEITE DE OLIVA VIRGEN EXTRA\nExtra virgin olive oil: superior category olive oil obtained directly from olives and solely by mechanical means.\nHarvest 2025/2026. Acidity ≤ 0.3%\nStore away from light and heat.\n500 ml\nBest before 31.12.2027 Lot 25-118"
+    },
+    {
+      "kind": "label",
+      "text": "FROZEN BLACK LUGWORM\nApprox. 20 worms, 150g\nKeep frozen at -18°C. Once thawed, do not refreeze.\nFor use as fishing bait only. Not for human or animal consumption.\nPacked by Tackle Den, 5 Quay Street, Kittiwake Bay\nPack date 02/08/26 Lot 0947\n£4.50"
+    },
+    {
+      "kind": "label",
+      "text": "Old Lighthouse Bitter\nBrewed by the Harbour Brewing Co., Kittiwake Bay\n4.2% ABV 500ml 2.1 UK units\nIngredients: water, malted barley, wheat, hops, yeast. Contains barley and wheat (gluten).\nBest before end: 09/2027\nDo not drink if pregnant or trying to conceive.\nStore upright in a cool place."
+    },
+    {
+      "kind": "label",
+      "text": "Inlet Bay Seafood Co.\nWild-Caught Sea Scallops, U/10\nNet wt 1 lb (454 g)\nProduct of USA\nKeep frozen at 0°F or below. Thaw in the refrigerator overnight.\nCook to an internal temperature of 145°F.\nPacked on 07/14/2026 Lot 26195A\nPerishable: keep frozen"
+    },
+    {
+      "kind": "label",
+      "text": "INSTANT BARBECUE\nBurns for approx. 1 hour\nUse outdoors only, on a level, non-flammable surface at least 1m from anything that can burn.\nDo not use on grass, on wooden tables or on beaches where local byelaws ban barbecues.\nLight all 4 corners of the paper. Cook when the flames have died down, after about 15 minutes.\nAllow to cool for 3 hours before disposing. Never bury on the beach.\nWeight 1.1kg"
+    },
+    {
+      "kind": "label",
+      "text": "Brightsands Dairy\nClotted Cream Vanilla Ice Cream\n1 litre\nIngredients: whole milk, clotted cream (milk) 18%, sugar, skimmed milk powder, egg yolk, vanilla extract, stabilisers (locust bean gum, guar gum).\nAllergy advice: contains milk and egg.\nStore at -18°C. Do not refreeze once thawed.\nBest before: see lid"
+    },
+    {
+      "kind": "flyer",
+      "text": "GRAND SANDCASTLE COMPETITION\nSunday 16 August 2026, South Beach (below the Clock Tower)\nRegistration 10am, building 10.30am to 12.30pm, judging 1pm\nCategories: under 8s, 8 to 12, families, grown-ups\nEntry £3 per team, max. 5 per team\n1st prize in each category: £50 voucher for the Albion Pier arcades\nBring your own buckets and spades! In aid of the Kittiwake Bay Lifeboat."
+    },
+    {
+      "kind": "flyer",
+      "text": "KITTIWAKE BAY SEAFOOD FESTIVAL\nSat 12 and Sun 13 September 2026, 10am to 6pm, on the Harbour\nCookery demos on the hour from 11am, 30+ food and drink stalls\nLive music on the quay from 2pm, crab racing for kids at 3.30pm\nFree entry. Park and ride from the Leisure Centre every 15 minutes, £2.50 return.\nwww.kittiwakebayseafood.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "LEARN TO SURF THIS SUMMER!\nBreakline Surf School, 22 Pier Avenue\nGroup lessons (ages 8+): 2 hours, $65 per person\nPrivate lesson: 1 1/2 hours, $120\nKids Surf Camp: Mon to Fri, 9 AM to 12 PM, $295 per week\nAll boards and wetsuits included. Certified instructors.\nBook online or call (843) 555-0174\nUse code WAVES10 for 10% off your first lesson"
+    },
+    {
+      "kind": "flyer",
+      "text": "LIVE AT THE PIER PAVILION\nSeaside Summer Comedy Night\nFriday 21 August, doors 7pm, show 8pm\nHeadliner: Gwen Tolliver (as heard on radio)\nPlus 3 support acts and your host Barry Quaile\nTickets £16 / £13 concessions, plus £1.50 booking fee\nBox office 01632 960690\nAge guidance 16+"
+    },
+    {
+      "kind": "flyer",
+      "text": "SUNRISE YOGA ON THE BEACH\nEvery Tuesday and Thursday, 6.30am to 7.30am\nMeet by lifeguard tower 2, North Beach\nAll levels welcome, bring a towel or mat\n£8 drop-in or £50 for a 7-class card\nClasses run until 24 September, weather permitting. Check @yogabythebay by 6am for cancellations."
+    },
+    {
+      "kind": "flyer",
+      "text": "SUNSET CATAMARAN CRUISE\nCala Serena harbour, daily at 18:00\n3 hours sailing along the coast with a swim stop at Cala Azul\nOpen bar (sangría, beer, soft drinks) and paella dinner included\nAdults €65, children 4 to 12 €35\nBook at the marina kiosk or at your hotel reception. 10% off for bookings made before 12:00!"
+    },
+    {
+      "kind": "flyer",
+      "text": "LOST ON NORTH BEACH\nGold wedding ring, engraved inside 'R & T 14.06.1998'\nLost on Sunday 9 August between groynes 11 and 13, near the beach huts\nHuge sentimental value. £200 reward\nPlease call Tessa on 07700 900558 or hand it in to the Tourist Information Centre\nThank you for looking!"
+    },
+    {
+      "kind": "flyer",
+      "text": "THE GOLDEN HADDOCK, now delivering!\nOrder 4pm to 9.30pm, Tuesday to Sunday\nFree delivery within 3 miles on orders over £20\nMEAL DEAL: 2 cod & chips + 2 cans £22.50\nFAMILY FEAST: 2 large, 2 small, 4 sides £39.95\nMondays in the shop: OAP special, small fish & chips & tea £8.50\nTel 01632 960238, 3 Marine Parade"
+    },
+    {
+      "kind": "flyer",
+      "text": "Westcliff Art Society\nSUMMER EXHIBITION\nPaintings, prints, ceramics and photography by 42 local artists\nSaturday 25 July to Sunday 9 August 2026\nOpen daily 10am to 5pm, the Old Lifeboat House, Harbour Road\nFree admission. Most works for sale, from £25.\nPrivate view Friday 24 July 6pm to 8pm, all welcome."
+    },
+    {
+      "kind": "flyer",
+      "text": "SEABRIGHT SHORES 4TH OF JULY CELEBRATION\nSaturday, July 4, 2026\n10:00 AM Bike and pet parade along Ocean Ave\n12:00 PM Watermelon eating contest at the Pier\n2:00 PM to 6:00 PM Live music, Bay Plaza bandshell\n9:15 PM Fireworks over the ocean\nFree shuttle from the high school lot every 10 minutes. No personal fireworks on the beach."
+    },
+    {
+      "kind": "flyer",
+      "text": "HOLIDAY APARTMENT TO LET\n2 bedrooms, sleeps 4, sea views from the balcony\n1st floor, 50 m from the beach, with parking for 1 car\nLow season £450/week, mid £620/week, high (July & August) £895/week\nShort breaks from £220 for 3 nights, October to March\nSorry, no pets or smokers. Call Alun on 07700 900275 or email alun@seaviewflat.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "5K BEACH FUN RUN\nSunday 4 October 2026, 9.30am\nStart and finish at the Albion Pier, out along the sand to Seal Point and back\nAdults £15, under 16s £7 (must run with an adult)\nEvery finisher gets a medal and a free 99 ice cream\nEnter online by 27 September or on the day from 8.30am.\nRaising money for Sandmere Hospice. Last year 312 runners raised £9,480!"
+    },
+    {
+      "kind": "flyer",
+      "text": "NOCHE FLAMENCA\nLive flamenco show every Thursday at 21:30\nRestaurante El Faro, Paseo Marítimo 52, Playa Corvina\nShow + 3-course dinner €48, show + 1 drink €22\nChildren under 10 half price\nLimited seats, reserve at the bar or by email: reservas@elfaro.example\nDuración aprox. 75 minutos"
+    },
+    {
+      "kind": "flyer",
+      "text": "CLOSING DOWN SALE\nSeashells & Souvenirs, 18 The Esplanade\nAfter 31 years on the seafront, we're retiring!\nEverything must go: up to 70% off\nPostcards 5 for £1, beach towels now £6 (were £14)\nShelves, display units and the till also for sale\nLast day of trading Saturday 31 October 2026\nThank you for all your custom since 1995."
+    },
+    {
+      "kind": "flyer",
+      "text": "SMUGGLERS & SHIPWRECKS GHOST WALK\nDiscover the dark side of Kittiwake Bay's past by lantern light\nEvery Friday and Saturday, 8.45pm, July to October\nMeet at the Anchor Inn, Harbour Road. Walk lasts approx. 90 minutes.\nAdults £12, under 14s £7, family ticket (2 + 2) £34\nNot suitable for under 8s. Wear sturdy shoes, the cobbles are uneven!\nBooking essential: 07700 900816"
+    },
+    {
+      "kind": "form",
+      "text": "BEACH HUT BOOKING FORM\nName: Mrs Priya Venkatesan\nAddress: 27 Larkspur Road, Daventon DV6 3JN\nTelephone: 07700 900447\nHut requested: No. 27, East Promenade\nDates: from 22/08/2026 to 28/08/2026\nWeekly rate: £185.00\nKey deposit enclosed: £20.00\nSigned: P. Venkatesan Date: 03/06/2026\nOffice use: Approved by JT, receipt no. 004812"
+    },
+    {
+      "kind": "form",
+      "text": "ALBION PIER ANGLING PERMIT\nPermit no. 2026/1173\nType: Day ticket, adult\nValid: Sunday 23 August 2026, 06:00 to 22:00\nFee paid: £6.00\nMax. 2 rods per angler. No casting from the upper deck.\nAll fish under the minimum size must be returned.\nThis permit must be shown on request to pier staff."
+    },
+    {
+      "kind": "form",
+      "text": "PS DUCHESS OF GULLSANDS\nAfternoon cruise: Kittiwake Bay to Penmorrow and back\nDate 27/08/2026 Depart 14:15 Return approx. 17:45\n1 Adult £28.00\n1 Senior (60+) £25.00\nTotal £53.00\nTicket no. DG-041926\nBoard from the Albion Pier landing stage 20 minutes before sailing."
+    },
+    {
+      "kind": "form",
+      "text": "INCIDENT REPORT, Beach Patrol\nDate: 07/12/2026 Time: 2:40 PM\nLocation: Lifeguard Stand 6, 14th Ave access\nType: Minor first aid (jellyfish sting)\nPatient: Female, age 9, accompanied by parent\nTreatment: Rinsed with seawater, vinegar applied, ice pack\nOutcome: Released to parent at 2:55 PM\nGuard: R. Castellanos #118"
+    },
+    {
+      "kind": "form",
+      "text": "HOTEL BRISA DEL MAR **** REGISTRATION CARD\nRoom no. 412\nSurname: Dąbrowski\nFirst name: Tomasz\nNationality: Polish\nArrival: 03/09/2026 Departure: 10/09/2026\nAdults: 2 Children: 1 (age 7)\nBoard: Half board\nVehicle registration: none\nSignature: T. Dąbrowski"
+    },
+    {
+      "kind": "form",
+      "text": "BIKE HIRE AGREEMENT No. 2187\nSeafront Cycles, 9 Promenade Road\nHirer: Daniel Okafor\nBikes: 2 x adult hybrid (frames 18 and 21), 1 x child 20 in wheel, 1 tag-along\nOut: 09:30 Due back: 17:00, Wed 19 Aug\nRate: £18 per adult bike, £12 child bike, £10 tag-along = £58.00\nDeposit held: £100.00 on card ending 5560\nHelmets supplied: 3"
+    },
+    {
+      "kind": "form",
+      "text": "KITTIWAKE BAY REGATTA GRAND RAFFLE\nTicket no. 00417\nPrice £1, or a book of 5 for £4\nDraw at the Regatta Prize-Giving, Harbour Green, Saturday 29 August 2026 at 5pm\n1st prize: weekend for 2 at the Seaspray Guest House\nName: K. Moyo Tel: 07700 900129"
+    },
+    {
+      "kind": "form",
+      "text": "KITTIWAKE BAY AQUARIUM\nE-TICKET\nFamily (2 adults + 2 children) £52.00\nVisit date: Mon 31 Aug 2026, entry slot 11:30\nOrder no. KBA-662815\nPenguin feeding 12:00 and 15:00, rockpool talk 13:30\nShow this ticket on your phone or printed at the entrance. Re-entry permitted on the same day."
+    },
+    {
+      "kind": "form",
+      "text": "DECKCHAIR ATTENDANT TIMESHEET\nName: Leo Farrant Week ending: 16/08/2026\nMon 08:30 to 17:00, 8.5 hrs\nTue 08:30 to 17:00, 8.5 hrs\nWed 08:30 to 13:00, 4.5 hrs\nThu off\nFri 09:00 to 18:00, 9 hrs\nSat 09:00 to 18:00, 9 hrs\nTotal 39.5 hrs @ £12.60 = £497.70\nSigned by supervisor: M. Quint"
+    },
+    {
+      "kind": "form",
+      "text": "OCEANSIDE CAMPGROUND REGISTRATION\nSite #47 (tent, no hookup)\nName: Jordan & Casey Whitfield\nArrive: 06/26/2026 Depart: 06/29/2026 (3 nights)\nAdults 2, Children 2, Vehicles 1\nSite fee $38.00 x 3 = $114.00\nExtra vehicle $0.00\nTotal paid $114.00\nQuiet hours 10 PM to 7 AM. Check-out by 11 AM."
+    },
+    {
+      "kind": "form",
+      "text": "JET SKI HIRE: PARTICIPANT DECLARATION\nName: Andrés Molina Ruiz Age: 34\nSession: 30 minutes, 16:30 Date: 14/07/2026\nCan you swim 50 metres? Yes\nDo you have any medical conditions we should know about? No\nI confirm I have received the safety briefing and will stay inside the marked zone at all times.\nSigned: A. Molina Ruiz\nPrice €70.00 Paid: cash"
+    },
+    {
+      "kind": "form",
+      "text": "LOST PROPERTY RECORD\nRef: LP/2026/0381\nDate found: 19/08/2026 Time: 11:05\nFound by: Land train driver (Steve)\nWhere: Seal Point stop, rear carriage\nItem: Navy rucksack containing towel, sunglasses, 2 books, child's swimsuit\nStored: TIC shelf B\nClaimed: 20/08/2026 by D. Abernethy, ID checked"
+    },
+    {
+      "kind": "form",
+      "text": "PIER PAVILION THEATRE\nSummer Spectacular 2026\nThu 13 Aug 2026 7.30pm\nStalls Row K Seat 14\nAdult £24.50\nBooking fee £1.50\nTotal £26.00\nRef PPT-38104\nPlease arrive 15 minutes before the performance. No refunds or exchanges."
+    },
+    {
+      "kind": "form",
+      "text": "SANDY HOLLOW HOLIDAY PARK, ARRIVAL FORM\nPitch no. C14\nLead guest: Mr S. Achterberg\nParty: 2 adults, 3 children (ages 4, 9 and 12)\nPets: 1 dog (Biscuit)\nArrival: Fri 7 Aug Departure: Fri 14 Aug\nElectric hook-up: Yes (16 amp)\nPitch fee 7 nights @ £42.00 = £294.00\nDog £3.00 per night = £21.00\nTotal £315.00, paid in full"
+    },
+    {
+      "kind": "form",
+      "text": "MINI CLUB REGISTRATION\nChild's name: Lucía Fernández Age: 6\nRoom no.: 237\nParent/guardian: Elena Fernández Mobile: +44 7700 900934\nAllergies: none Medication: none\nSun cream may be applied by staff: Yes\nDays booked: 18, 19, 20 and 21 July, morning sessions 10:00 to 13:00\nCollected by: parent only"
+    },
+    {
+      "kind": "page",
+      "text": "THE ALBION PIER\nOpened on 21 June 1871, the Albion Pier originally stretched 1,140 feet into the bay and cost £23,000 to build. Paddle steamers called at its landing stage three times a day in summer, bringing day-trippers from as far as Penmorrow.\nA storm in January 1953 destroyed the outer 300 feet, and the pier was shortened to its present 840 feet. The cast-iron kiosks at the entrance are original and were restored in 2009.\nAdmission to the pier is free; the arcade and rides are open from Easter to October."
+    },
+    {
+      "kind": "page",
+      "text": "What lives in a rock pool?\nLook under seaweed and in shady cracks. You may find shore crabs, which can be green, orange or even purple, and grow up to 8cm across the shell. Beadlet anemones look like blobs of red jelly when the tide is out, but open up into a ring of up to 192 tentacles underwater.\nRemember the rock pool code: lift rocks gently, put everything back where you found it, and never take living creatures home.\nPage 6"
+    },
+    {
+      "kind": "page",
+      "text": "Chapter 4\nThe 7.52 from Penmorrow was late, as it was every Saturday in August, and by the time Nell stepped onto the platform at Kittiwake Bay the sun was already high over the harbour.\nShe had £14 in her purse, a borrowed suitcase with a broken clasp, and an address on the back of a bus ticket: Flat 3, 11 Gull Terrace. Mrs Varga had said on the phone that she couldn't miss it. It was the only house on the street painted the colour of a strawberry ice.\nNell missed it twice."
+    },
+    {
+      "kind": "page",
+      "text": "A Short History of the Driftwood Beach Boardwalk\nThe first boardwalk, just 8 feet wide and 1 mile long, was built in 1896 so that hotel guests would not track sand into the lobbies. It was laid in sections and taken up every winter.\nToday's boardwalk runs 2.6 miles from the Inlet to 27th Street and is 40 feet wide at its widest point. More than 4 million visitors walk it each year.\nTip: the boards are numbered every 100 feet, which makes them handy for meeting friends."
+    },
+    {
+      "kind": "page",
+      "text": "Coast Path Walk 3: Kittiwake Bay to Seal Point\nDistance 4.2 miles (6.8 km) one way. Allow 2 1/2 hours. Moderate, with 2 steep climbs and 146 steps down to Porth Gull cove.\nFrom the harbour, follow the acorn signs up Chapel Hill past the coastguard lookout. After 1.5 km the path levels out along the cliff top; look out for gannets diving and, from August, grey seal pups on the beach below.\nReturn by the land train from Seal Point (last train 17:45) or bus 5."
+    },
+    {
+      "kind": "page",
+      "text": "CALA SERENA\nOnce a quiet fishing village of 600 people, Cala Serena now welcomes some 250,000 visitors a year. The old town, with its whitewashed houses and the 16th-century Iglesia de San Telmo, sits on a headland between two beaches.\nPlaya de las Dunas, to the east, is long and sandy with lifeguards from June to September. Cala Chica, to the west, is a small cove reached by 84 steps and is popular with snorkellers.\nMarket day is Wednesday, 8:00 to 14:00, in the Plaza Mayor."
+    },
+    {
+      "kind": "page",
+      "text": "BATHING. Bathing is permitted from the machines on the South Sands between the hours of 6 a.m. and 8 p.m. Charges: bathing machine, 6d.; towel, 1d.; costume, 2d. Mixed bathing is allowed at the east end of the sands only.\nThe Corporation employs a boatman, who is in attendance during bathing hours. Visitors are earnestly requested not to bathe within one hour of a meal, nor to swim beyond the line of buoys.\n112 KITTIWAKE BAY AND DISTRICT"
+    },
+    {
+      "kind": "page",
+      "text": "Staying safe in the sun\nThe sun is strongest between 11am and 3pm from March to October. Spend time in the shade during these hours, especially with babies and young children.\nUse a sunscreen of at least SPF 30 with 4 or 5 star UVA protection. Most people use too little: an adult needs about 6 to 8 teaspoons to cover the whole body.\nReapply every 2 hours and straight after swimming, even if the bottle says water resistant.\nDrink plenty of water. A hat and sunglasses with the CE mark help too."
+    },
+    {
+      "kind": "page",
+      "text": "Pip the puffin lived on a rock called Little Teacup, 3 miles out to sea. Every morning she counted her brothers and sisters: 1, 2, 3, 4, and her, 5.\nOne stormy night, the wind blew so hard that when Pip woke up, she counted only 4. 'Where is Wren?' she cried. The waves were as tall as the lighthouse and the sky was the colour of porridge.\n'Don't worry,' said Grandpa Puffin. 'We'll find her before the tide turns at half past 2.'"
+    },
+    {
+      "kind": "page",
+      "text": "Welcome to Sandy Hollow\nReception is open 8am to 8pm in July and August and 9am to 5pm at other times. Out of hours, call the duty warden on 07700 900350.\nCheck-in is from 3pm and check-out by 10am. Please keep to the 5 mph speed limit on the park, as children play on the roads.\nThe indoor pool is open 9am to 7pm; under-12s must be with an adult. The clubhouse serves food from 12 noon to 9pm, and live entertainment starts at 8.30pm every night.\nPage 2"
+    },
+    {
+      "kind": "page",
+      "text": "Sea Fishing from the Pier\nMackerel arrive in large numbers from late May. Use a string of 6 feathers and a 4 oz lead, cast as far as you can and retrieve with a jerky motion. On a good day you can fill a bucket in an hour, but please take only what you will eat.\nMinimum sizes apply to many species: bass must be at least 42 cm and plaice 27 cm. Bass caught in February and March must be returned.\nNight fishing on the Albion Pier is allowed on Fridays and Saturdays until 2am, permit required."
+    },
+    {
+      "kind": "page",
+      "text": "Hurricane Season: June 1 to November 30\nIf an evacuation order is issued for Seabright Shores, all visitors must leave the island. Follow the blue evacuation route signs to Highway 17; the drawbridge will lock down for outbound traffic only.\nYour emergency kit should include water (1 gallon per person per day for at least 3 days), non-perishable food, medications, a flashlight, a battery radio and copies of important documents.\nSign up for alerts: text SHORESALERT to 555-0190."
+    },
+    {
+      "kind": "page",
+      "text": "Understanding the tides\nThere are 2 high tides and 2 low tides roughly every 24 hours and 50 minutes, so each day the tides are about 50 minutes later than the day before.\nSpring tides, with the highest highs and lowest lows, come a day or two after a full or new moon. Neap tides, with the smallest range, fall in between. At Kittiwake Bay the range on a spring tide can be over 5 m.\nThe water rises fastest in the middle 2 hours of the flood. Always know when the tide turns before you walk out."
+    },
+    {
+      "kind": "page",
+      "text": "Posidonia: the meadows under the sea\nThe dark patches you see from the boat at Cala Serena are not rocks but meadows of Posidonia oceanica, a seagrass found only in the Mediterranean. A single meadow can be thousands of years old.\nOne square metre of Posidonia can produce up to 20 litres of oxygen a day, and its roots hold the sand in place, protecting the beaches from erosion.\nPlease help protect it: boats must anchor only on sand or use the 32 buoys provided, at €15 per night."
+    },
+    {
+      "kind": "page",
+      "text": "Hotel Information\nBreakfast is served in the Bay Room from 7.30am to 10am (8am to 10.30am on Sundays).\nBeach towels can be borrowed from reception for a £10 deposit, refunded when you hand them back. Please do not take room towels to the beach.\nLate check-out until 1pm can be arranged for £25, subject to availability.\nFor room service dial 22, reception 0, and for an outside line dial 9 followed by the number.\nWi-Fi: GrandEsplanade_Guest, no password needed."
+    }
+  ]
+}

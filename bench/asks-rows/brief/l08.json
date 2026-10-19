@@ -1,0 +1,355 @@
+{
+ "batch": "l08",
+ "skills": [
+  {
+   "skill": "syllableCount",
+   "category": "text",
+   "does": "Count the syllables — the beats — in a word or a text.",
+   "examples": [
+    "how many syllables in beautiful",
+    "syllable count for this line",
+    "how many syllables is extraordinary"
+   ]
+  },
+  {
+   "skill": "toAscii",
+   "category": "text",
+   "does": "Strip accents and convert a text to plain ASCII.",
+   "examples": [
+    "convert café to ascii",
+    "strip the accents from Münster Straße",
+    "make this ascii safe"
+   ]
+  },
+  {
+   "skill": "tokenizeSentences",
+   "category": "text",
+   "does": "Break a passage at its full stops into separate sentences.",
+   "examples": [
+    "split this into sentences",
+    "break the paragraph into sentences",
+    "split sentences with an abbreviation"
+   ]
+  },
+  {
+   "skill": "tokenizeWords",
+   "category": "text",
+   "does": "Break a sentence at its spaces into separate words.",
+   "examples": [
+    "split this into words",
+    "tokenise keeping the apostrophe",
+    "split into lowercase word tokens"
+   ]
+  },
+  {
+   "skill": "trimLines",
+   "category": "text",
+   "does": "Remove the leading and trailing spaces from every line of a text, leaving the lines themselves in place.",
+   "examples": [
+    "trim the spaces off each line",
+    "tidy an indented list",
+    "trim lines and drop the empty ones"
+   ]
+  },
+  {
+   "skill": "truncateText",
+   "category": "text",
+   "does": "Cut text off at a maximum length and end it with an ellipsis.",
+   "examples": [
+    "shorten this to 20 characters",
+    "cut this down to 5 words",
+    "truncate a string already short enough"
+   ]
+  },
+  {
+   "skill": "wordFrequency",
+   "category": "text",
+   "does": "Which words repeat most in a text — each distinct word ranked by how often it recurs.",
+   "examples": [
+    "what words come up most in this text",
+    "most common words including the small ones",
+    "word counts for a repeated phrase"
+   ]
+  },
+  {
+   "skill": "wrapText",
+   "category": "text",
+   "does": "Hard-wrap text to a maximum line width, breaking lines at a set number of characters.",
+   "examples": [
+    "wrap this at 20 characters",
+    "hard wrap at 30 columns",
+    "wrap with an indent"
+   ]
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "category": "validation",
+   "does": "Rewrite a phone number in E.164, international or national form.",
+   "examples": [
+    "format this phone number",
+    "normalise this us number to e164",
+    "write this indian number in international form"
+   ]
+  },
+  {
+   "skill": "passwordStrength",
+   "category": "validation",
+   "does": "Estimate how much entropy a password has and flag predictable patterns.",
+   "examples": [
+    "how strong is the password password",
+    "check this password strength",
+    "is 123456 a strong password"
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "category": "validation",
+   "does": "Check whether a date actually exists on the calendar.",
+   "examples": [
+    "is 2026-02-29 a real date",
+    "check that 2024-02-29 exists",
+    "is 31 april a valid date"
+   ]
+  },
+  {
+   "skill": "validateEmail",
+   "category": "validation",
+   "does": "Say whether an email address is written correctly.",
+   "examples": [
+    "is ana@example.com a valid email",
+    "check jo.patel+work@company.co.uk",
+    "is this email valid: no-at-sign.com"
+   ]
+  },
+  {
+   "skill": "validateHexColor",
+   "category": "validation",
+   "does": "Test a hex colour code and expand #abc shorthand.",
+   "examples": [
+    "is #FF5733 a valid hex colour",
+    "check the shorthand #abc",
+    "is #12345 valid"
+   ]
+  },
+  {
+   "skill": "validateIban",
+   "category": "validation",
+   "does": "Test an IBAN bank number against its own checksum.",
+   "examples": [
+    "is this iban valid",
+    "check this german iban",
+    "validate this french account number"
+   ]
+  },
+  {
+   "skill": "validateIpAddress",
+   "category": "validation",
+   "does": "Test an IP address and say whether it is IPv4, IPv6 or neither.",
+   "examples": [
+    "is 192.168.1.1 a valid ip",
+    "check 8.8.8.8",
+    "is 256.1.1.1 valid"
+   ]
+  },
+  {
+   "skill": "validateIsbn",
+   "category": "validation",
+   "does": "Check an ISBN-10 or ISBN-13 book number against its check digit.",
+   "examples": [
+    "is 9780306406157 a valid isbn",
+    "check this isbn-10",
+    "validate an isbn with dashes"
+   ]
+  },
+  {
+   "skill": "validateJson",
+   "category": "validation",
+   "does": "Check whether some JSON parses, and say exactly where the error is if it does not.",
+   "examples": [
+    "is this json valid: {\"a\":1}",
+    "check this json array",
+    "why will this json not parse"
+   ]
+  },
+  {
+   "skill": "validateJsonSchema",
+   "category": "validation",
+   "does": "Check whether a JSON document matches a JSON Schema.",
+   "examples": [
+    "does this json match the schema",
+    "validate this data against my schema",
+    "check the age is in range"
+   ]
+  },
+  {
+   "skill": "validateLuhn",
+   "category": "validation",
+   "does": "Check a card number against the Luhn checksum.",
+   "examples": [
+    "is 4539578763621486 a valid card number",
+    "check this number passes luhn",
+    "validate a number with a typo"
+   ]
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "category": "validation",
+   "does": "Say whether a phone number has the right shape for its country.",
+   "examples": [
+    "is this a valid phone number",
+    "check this us number",
+    "validate +91 98765 43210"
+   ]
+  },
+  {
+   "skill": "validateUrl",
+   "category": "validation",
+   "does": "Say whether a web address is well formed, and split out its host and path.",
+   "examples": [
+    "is https://example.com/docs a valid url",
+    "break this url into its parts",
+    "check www.example.org without a protocol"
+   ]
+  },
+  {
+   "skill": "validateUuid",
+   "category": "validation",
+   "does": "Test a UUID and say which version it is.",
+   "examples": [
+    "is this a valid uuid",
+    "check this v7 identifier",
+    "is the nil uuid valid"
+   ]
+  },
+  {
+   "skill": "checkTitleCase",
+   "category": "writing",
+   "does": "Check a title against title-case rules and show which words were wrong.",
+   "examples": [
+    "put this in title case",
+    "title case a tale of two cities",
+    "is this title correctly capitalised"
+   ]
+  },
+  {
+   "skill": "countWordTargets",
+   "category": "writing",
+   "does": "Check a draft against a word count target and say how far off it is.",
+   "examples": [
+    "is my 450 word draft close to 500 words",
+    "how far off 1000 words am I",
+    "am I over the 250 word limit"
+   ]
+  },
+  {
+   "skill": "extractHeadings",
+   "category": "writing",
+   "does": "Pull the heading structure out of a markdown document as a plain outline.",
+   "examples": [
+    "get the headings out of this markdown",
+    "outline this document",
+    "find the headings, ignoring code fences"
+   ]
+  },
+  {
+   "skill": "findLongSentences",
+   "category": "writing",
+   "does": "Spot the sentences that run on past a word limit.",
+   "examples": [
+    "find the long sentences in this",
+    "are any of my sentences too long",
+    "check this paragraph for long sentences"
+   ]
+  },
+  {
+   "skill": "findRepeatedWords",
+   "category": "writing",
+   "does": "Spot a word used again too soon after itself.",
+   "examples": [
+    "find repeated words in this text",
+    "am I repeating myself",
+    "check for word repetition"
+   ]
+  },
+  {
+   "skill": "formatCitation",
+   "category": "writing",
+   "does": "Assemble a reference in APA, MLA or Chicago style from details you provide.",
+   "examples": [
+    "format this as an APA reference",
+    "make an MLA citation for this book",
+    "APA reference with two authors"
+   ]
+  },
+  {
+   "skill": "generateTableOfContents",
+   "category": "writing",
+   "does": "Build a linked table of contents to sit at the top of a document.",
+   "examples": [
+    "make a table of contents for this markdown",
+    "build a contents list",
+    "table of contents down to level two only"
+   ]
+  },
+  {
+   "skill": "markdownToHtml",
+   "category": "writing",
+   "does": "Convert Markdown into HTML.",
+   "examples": [
+    "convert this markdown to html",
+    "markdown list to html",
+    "turn this link into html"
+   ]
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "category": "writing",
+   "does": "Turn your own indented notes into markdown headings and bullets.",
+   "examples": [
+    "turn this outline into markdown",
+    "convert my indented notes to markdown",
+    "outline to markdown with two heading levels"
+   ]
+  },
+  {
+   "skill": "paragraphStats",
+   "category": "writing",
+   "does": "Break a document into paragraphs and report the word and sentence count of each.",
+   "examples": [
+    "break this document into paragraph stats",
+    "how long is each paragraph",
+    "paragraph breakdown of a single block"
+   ]
+  },
+  {
+   "skill": "pluralize",
+   "category": "writing",
+   "does": "Make one English word into many — its plural.",
+   "examples": [
+    "what is the plural of child",
+    "pluralize city",
+    "plural of knife"
+   ]
+  },
+  {
+   "skill": "singularize",
+   "category": "writing",
+   "does": "Cut a plural English word back to one of the thing.",
+   "examples": [
+    "what is the singular of children",
+    "singularize cities",
+    "singular form of knives"
+   ]
+  },
+  {
+   "skill": "spellCheck",
+   "category": "writing",
+   "does": "Find words that are not in the dictionary and suggest corrections.",
+   "examples": [
+    "spell check this sentence",
+    "check my spelling",
+    "find spelling mistakes"
+   ]
+  }
+ ]
+}

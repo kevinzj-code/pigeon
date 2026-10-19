@@ -1,0 +1,6421 @@
+{
+ "rows": [
+  {
+   "skill": "addBusinessDays",
+   "message": "our supplier ships 7 working days after the order goes in on 2026-10-05 — which date is that?",
+   "input": {
+    "date": "2026-10-05",
+    "days": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "Payroll needs 3 business days' notice before 18 December 2026, so what's the latest date I can submit?",
+   "input": {
+    "date": "2026-12-18",
+    "days": -3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "if I start 2026-11-02, what's the date after ten working days?",
+   "input": {
+    "date": "2026-11-02",
+    "days": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "If I hand in my notice on 14 September 2026 and owe twenty working days, when is my last day?",
+   "input": {
+    "date": "2026-09-14",
+    "days": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "skip the weekends: 15 business days after 2027-01-04?",
+   "input": {
+    "date": "2027-01-04",
+    "days": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "Count forward 8 working days from Friday 2 October 2026 and tell me the date.",
+   "input": {
+    "date": "2026-10-02",
+    "days": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "need the date 4 business days before 2026-12-01 pls",
+   "input": {
+    "date": "2026-12-01",
+    "days": -4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "The refund lands within 5 working days of 21/09/2026. Which day at the latest?",
+   "input": {
+    "date": "2026-09-21",
+    "days": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "working days: start 2026-09-07, add 30, but treat 2026-09-14 as a holiday",
+   "input": {
+    "date": "2026-09-07",
+    "days": 30,
+    "holidays": [
+     "2026-09-14"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "As an accountant I need the filing date 12 business days after 30 September 2026.",
+   "input": {
+    "date": "2026-09-30",
+    "days": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "what's 2 working days before Monday 2026-11-30",
+   "input": {
+    "date": "2026-11-30",
+    "days": -2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "delivery is 9 business days from 2026-09-03, excluding the holiday on 2026-09-07 — what date?",
+   "input": {
+    "date": "2026-09-03",
+    "days": 9,
+    "holidays": [
+     "2026-09-07"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "the courier said fifteen working days from 1st Oct 2026 – when's that",
+   "input": {
+    "date": "2026-10-01",
+    "days": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "go back 25 working days from 2026-12-31",
+   "input": {
+    "date": "2026-12-31",
+    "days": -25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "add 40 business days to the 5th of January 2027, ignoring Saturdays and Sundays",
+   "input": {
+    "date": "2027-01-05",
+    "days": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "my builder quoted 11 working days starting 2026-10-19; what date do they finish?",
+   "input": {
+    "date": "2026-10-19",
+    "days": 11
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "Kindly calculate the date falling 6 business days prior to 2026-11-20.",
+   "input": {
+    "date": "2026-11-20",
+    "days": -6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "add 5 working days to the date on this invoice",
+   "input": {
+    "days": 5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "what's the date 10 business days after my start date?",
+   "input": {
+    "days": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "count 3 working days back from the deadline in the email below",
+   "input": {
+    "days": -3
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "bank holidays on 2026-12-25 and 2026-12-28: what's 4 working days after 2026-12-23?",
+   "input": {
+    "date": "2026-12-23",
+    "days": 4,
+    "holidays": [
+     "2026-12-25",
+     "2026-12-28"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "Nurse rota question — 7 working days after 2026-10-12, weekends off, lands on which date?",
+   "input": {
+    "date": "2026-10-12",
+    "days": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "a parcel posted 2026-09-25 takes 3 business days. arrival date?",
+   "input": {
+    "date": "2026-09-25",
+    "days": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "Which date is sixty... sorry, 16 working days after 2026-11-09?",
+   "input": {
+    "date": "2026-11-09",
+    "days": 16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "what date is 90 days on from 2026-10-03? that's when my visa runs out",
+   "input": {
+    "from": "2026-10-03",
+    "amount": 90,
+    "unit": "days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "what's the date 2 years after 2026-03-15? need it for a warranty",
+   "input": {
+    "from": "2026-03-15",
+    "amount": 2,
+    "unit": "years"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "add 3 months to 2026-11-30",
+   "input": {
+    "from": "2026-11-30",
+    "amount": 3,
+    "unit": "months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "Baby's due 40 weeks after 2026-01-10. Which date is that?",
+   "input": {
+    "from": "2026-01-10",
+    "amount": 40,
+    "unit": "weeks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "what was the date 6 months before 2026-09-01?",
+   "input": {
+    "from": "2026-09-01",
+    "amount": -6,
+    "unit": "months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "probation ends twelve weeks after I start on 5 October 2026 – date?",
+   "input": {
+    "from": "2026-10-05",
+    "amount": 12,
+    "unit": "weeks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "what's 45 days before 2027-02-14",
+   "input": {
+    "from": "2027-02-14",
+    "amount": -45,
+    "unit": "days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "What date is 18 months after 1 April 2026? It's for my lease.",
+   "input": {
+    "from": "2026-04-01",
+    "amount": 18,
+    "unit": "months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "When is 100 days from 2026-09-10?",
+   "input": {
+    "from": "2026-09-10",
+    "amount": 100,
+    "unit": "days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "five years on from 2026-06-20 what date",
+   "input": {
+    "from": "2026-06-20",
+    "amount": 5,
+    "unit": "years"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "Medication course: what date is 21 days after 2026-09-08?",
+   "input": {
+    "from": "2026-09-08",
+    "amount": 21,
+    "unit": "days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "Tickets go on sale 8 weeks before 2026-12-12 — on what date?",
+   "input": {
+    "from": "2026-12-12",
+    "amount": -8,
+    "unit": "weeks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "add 30 days to the date on my receipt",
+   "input": {
+    "amount": 30,
+    "unit": "days"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "addDuration",
+   "message": "go back 10 years from 2026-04-01",
+   "input": {
+    "from": "2026-04-01",
+    "amount": -10,
+    "unit": "years"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "what date will it be 14 days after 2026-09-15, when my free trial ends?",
+   "input": {
+    "from": "2026-09-15",
+    "amount": 14,
+    "unit": "days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "28 days after 2026-02-01 is what?",
+   "input": {
+    "from": "2026-02-01",
+    "amount": 28,
+    "unit": "days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "Please work out the date 4 months after 31 October 2026.",
+   "input": {
+    "from": "2026-10-31",
+    "amount": 4,
+    "unit": "months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "add 7 years to 2026-08-19 for my passport expiry",
+   "input": {
+    "from": "2026-08-19",
+    "amount": 7,
+    "unit": "years"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "date that is 1000 days after 2026-01-01",
+   "input": {
+    "from": "2026-01-01",
+    "amount": 1000,
+    "unit": "days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "what's 6 weeks after my surgery date",
+   "input": {
+    "amount": 6,
+    "unit": "weeks"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "addDuration",
+   "message": "Gardening: what date is 10 weeks after sowing on 2026-03-20?",
+   "input": {
+    "from": "2026-03-20",
+    "amount": 10,
+    "unit": "weeks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "three days prior to 1 Oct 2026 — which date is it?",
+   "input": {
+    "from": "2026-10-01",
+    "amount": -3,
+    "unit": "days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "add 2 weeks to Christmas Eve 2026",
+   "input": {
+    "from": "2026-12-24",
+    "amount": 2,
+    "unit": "weeks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "addDuration",
+   "message": "how about 9 months after 2026-07-04, what day's that",
+   "input": {
+    "from": "2026-07-04",
+    "amount": 9,
+    "unit": "months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "my grandad was born 12 March 1941, how old is he",
+   "input": {
+    "birthDate": "1941-03-12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "age of a patient with DOB 1987-11-30?",
+   "input": {
+    "birthDate": "1987-11-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "I was born on 4 July 1995. What's my age?",
+   "input": {
+    "birthDate": "1995-07-04"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "how old will my daughter, born 2019-08-22, be on 2027-01-01",
+   "input": {
+    "birthDate": "2019-08-22",
+    "onDate": "2027-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "dob 02/06/2001 — age now?",
+   "input": {
+    "birthDate": "2001-06-02"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "Please calculate the age of an applicant born 15 January 2008 as of 1 September 2026.",
+   "input": {
+    "birthDate": "2008-01-15",
+    "onDate": "2026-09-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "how many years old is a cat born 2015-05-05",
+   "input": {
+    "birthDate": "2015-05-05"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "work out my age from my birthday",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "how old is the patient? the dob is on the chart",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "age on 2030-12-31 for someone born 1999-12-31",
+   "input": {
+    "birthDate": "1999-12-31",
+    "onDate": "2030-12-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "born 1978-02-14, age?",
+   "input": {
+    "birthDate": "1978-02-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "My son's birthday is 9 Oct 2012; how old is he now?",
+   "input": {
+    "birthDate": "2012-10-09"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "what age was Mum on 1 June 2000 if she was born 1952-07-19",
+   "input": {
+    "birthDate": "1952-07-19",
+    "onDate": "2000-06-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "Teacher here: a pupil born 2016-11-03 — what age are they on 2026-09-01?",
+   "input": {
+    "birthDate": "2016-11-03",
+    "onDate": "2026-09-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "how old is a person whose date of birth is 1 Jan 1970",
+   "input": {
+    "birthDate": "1970-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "Calculate age. DOB 1990-10-10.",
+   "input": {
+    "birthDate": "1990-10-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "is someone born 2008-09-02 18 yet? how old are they",
+   "input": {
+    "birthDate": "2008-09-02"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "how old would Grandma be, she was born 23 April 1930",
+   "input": {
+    "birthDate": "1930-04-23"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "birthday's 2003-03-03, how many years old am I",
+   "input": {
+    "birthDate": "2003-03-03"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "a player born 2005-06-30 — what's his age on 2026-12-01?",
+   "input": {
+    "birthDate": "2005-06-30",
+    "onDate": "2026-12-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "age in years for birth date 1985-08-08",
+   "input": {
+    "birthDate": "1985-08-08"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "figure out how old my dog is from his birth date",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "my wife was born 5/12/1989 (UK format), how old is she",
+   "input": {
+    "birthDate": "1989-12-05"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "How old is somebody who was born on the 30th of November 1964?",
+   "input": {
+    "birthDate": "1964-11-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "how many working days from 2026-10-01 to 2026-10-31?",
+   "input": {
+    "from": "2026-10-01",
+    "to": "2026-10-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "I'm on contract 14 September 2026 until 18 December 2026 — how many business days is that?",
+   "input": {
+    "from": "2026-09-14",
+    "to": "2026-12-18"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "count weekdays between 2026-11-02 and 2026-11-27",
+   "input": {
+    "from": "2026-11-02",
+    "to": "2026-11-27"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "business days from 2027-01-04 till 2027-03-31, counting the start day",
+   "input": {
+    "from": "2027-01-04",
+    "to": "2027-03-31",
+    "includeStart": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "Working days left between 2026-09-01 and 2026-12-24?",
+   "input": {
+    "from": "2026-09-01",
+    "to": "2026-12-24"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "number of mon-fri days between 5 Oct 2026 and 16 Oct 2026",
+   "input": {
+    "from": "2026-10-05",
+    "to": "2026-10-16"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "the project runs 2026-09-07 to 2026-10-30; how many working days do we have",
+   "input": {
+    "from": "2026-09-07",
+    "to": "2026-10-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "how many working days between the two dates in this contract",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "how many business days lie between the dates below?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "workdays between 1/12/2026 and 22/12/2026",
+   "input": {
+    "from": "2026-12-01",
+    "to": "2026-12-22"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "Shop owner here — how many business days from 2026-11-16 to 2026-12-11?",
+   "input": {
+    "from": "2026-11-16",
+    "to": "2026-12-11"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "business days between 2026-12-21 and 2027-01-08, including the first day",
+   "input": {
+    "from": "2026-12-21",
+    "to": "2027-01-08",
+    "includeStart": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "How many working days are there from March 1 2027 to April 30 2027?",
+   "input": {
+    "from": "2027-03-01",
+    "to": "2027-04-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "freelancer, invoice period 2026-10-05 → 2026-10-23, how many billable working days",
+   "input": {
+    "from": "2026-10-05",
+    "to": "2026-10-23"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "count the business days from 2026-09-28 through 2026-10-09",
+   "input": {
+    "from": "2026-09-28",
+    "to": "2026-10-09"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "work days between 2026-09-14 and 2026-09-25?",
+   "input": {
+    "from": "2026-09-14",
+    "to": "2026-09-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "how many mon–fri days lie between 2026-11-09 and 2027-02-05",
+   "input": {
+    "from": "2026-11-09",
+    "to": "2027-02-05"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "Working days only: from 2026-10-12 to 2026-11-06, how many?",
+   "input": {
+    "from": "2026-10-12",
+    "to": "2026-11-06"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "Business-day count please, 2026-09-21 to 2026-12-18, include the start date.",
+   "input": {
+    "from": "2026-09-21",
+    "to": "2026-12-18",
+    "includeStart": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "count the working days in this date range",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "my notice period runs from 2026-09-15 to 2026-10-13 – how many working days is it",
+   "input": {
+    "from": "2026-09-15",
+    "to": "2026-10-13"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "how many weekdays from 1 February 2027 to 28 February 2027",
+   "input": {
+    "from": "2027-02-01",
+    "to": "2027-02-28"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "number of business days between 2027-06-01 and 2027-06-30",
+   "input": {
+    "from": "2027-06-01",
+    "to": "2027-06-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "Our sprint is 2026-10-19 to 2026-11-13. Working days in it?",
+   "input": {
+    "from": "2026-10-19",
+    "to": "2026-11-13"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "what time is 09:00 London time in New York?",
+   "input": {
+    "time": "09:00",
+    "from": "Europe/London",
+    "to": "America/New_York"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 10am Vancouver time to Kolkata time on 2026-10-14 for our standup",
+   "input": {
+    "time": "10:00",
+    "from": "America/Vancouver",
+    "to": "Asia/Kolkata",
+    "date": "2026-10-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 18:30 Paris time to Dubai time",
+   "input": {
+    "time": "18:30",
+    "from": "Europe/Paris",
+    "to": "Asia/Dubai"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "If it's 7pm in Toronto, what time is it in London?",
+   "input": {
+    "time": "19:00",
+    "from": "America/Toronto",
+    "to": "Europe/London"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "4:15pm Denver → Tokyo on 2026-11-02",
+   "input": {
+    "time": "16:15",
+    "from": "America/Denver",
+    "to": "Asia/Tokyo",
+    "date": "2026-11-02"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "Mum's in Lagos, I'm in Dublin: convert 20:00 Lagos time to Dublin time for me?",
+   "input": {
+    "time": "20:00",
+    "from": "Africa/Lagos",
+    "to": "Europe/Dublin"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "dev here: convert 13:00 America/New_York to Europe/Madrid for 2026-12-01",
+   "input": {
+    "time": "13:00",
+    "from": "America/New_York",
+    "to": "Europe/Madrid",
+    "date": "2026-12-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "what's 6am in Auckland in London time",
+   "input": {
+    "time": "06:00",
+    "from": "Pacific/Auckland",
+    "to": "Europe/London"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "Kick-off is 21:00 UTC. What time is that in Bangkok?",
+   "input": {
+    "time": "21:00",
+    "from": "UTC",
+    "to": "Asia/Bangkok"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 11am Rome time to Manila time for a webinar on 2026-09-22",
+   "input": {
+    "time": "11:00",
+    "from": "Europe/Rome",
+    "to": "Asia/Manila",
+    "date": "2026-09-22"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 08:45 Istanbul time to Chicago time",
+   "input": {
+    "time": "08:45",
+    "from": "Europe/Istanbul",
+    "to": "America/Chicago"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 23:00 Cairo time to Jakarta time",
+   "input": {
+    "time": "23:00",
+    "from": "Africa/Cairo",
+    "to": "Asia/Jakarta"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "Can you tell me what 2pm in São Paulo is in Paris?",
+   "input": {
+    "time": "14:00",
+    "from": "America/Sao_Paulo",
+    "to": "Europe/Paris"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "3:30pm Shanghai time = what time in Berlin on 2026-10-30",
+   "input": {
+    "time": "15:30",
+    "from": "Asia/Shanghai",
+    "to": "Europe/Berlin",
+    "date": "2026-10-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert this meeting time from London to Tokyo time",
+   "input": {
+    "from": "Europe/London",
+    "to": "Asia/Tokyo"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert the time on the invite below from Dubai time to Kolkata time",
+   "input": {
+    "from": "Asia/Dubai",
+    "to": "Asia/Kolkata"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 05:40 Johannesburg time to Amsterdam time — that's when I land",
+   "input": {
+    "time": "05:40",
+    "from": "Africa/Johannesburg",
+    "to": "Europe/Amsterdam"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 22:10 Mexico City time to London time, it's when my flight leaves",
+   "input": {
+    "time": "22:10",
+    "from": "America/Mexico_City",
+    "to": "Europe/London"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 9:30am Los Angeles time to Singapore time please",
+   "input": {
+    "time": "09:30",
+    "from": "America/Los_Angeles",
+    "to": "Asia/Singapore"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "Gamer here: convert 8pm Sydney time on 2026-11-20 to UK time",
+   "input": {
+    "time": "20:00",
+    "from": "Australia/Sydney",
+    "to": "Europe/London",
+    "date": "2026-11-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "what's 07:00 Tokyo time in UTC?",
+   "input": {
+    "time": "07:00",
+    "from": "Asia/Tokyo",
+    "to": "UTC"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "Convert 17:45 from Europe/Berlin to America/New_York.",
+   "input": {
+    "time": "17:45",
+    "from": "Europe/Berlin",
+    "to": "America/New_York"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "If I phone Honolulu at 9am Dublin time, what time is it there?",
+   "input": {
+    "time": "09:00",
+    "from": "Europe/Dublin",
+    "to": "Pacific/Honolulu"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 12:00 Lima time to Madrid time",
+   "input": {
+    "time": "12:00",
+    "from": "America/Lima",
+    "to": "Europe/Madrid"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days left until 2026-12-25?",
+   "input": {
+    "to": "2026-12-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "days to go until my exam on 2026-11-18",
+   "input": {
+    "to": "2026-11-18"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how long till Halloween 2026",
+   "input": {
+    "to": "2026-10-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "Countdown to 1 January 2027 please",
+   "input": {
+    "to": "2027-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days since 2026-06-15",
+   "input": {
+    "to": "2026-06-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days until our baby's due date, 2027-02-03",
+   "input": {
+    "to": "2027-02-03"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many sleeps till 24 December 2026",
+   "input": {
+    "to": "2026-12-24"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days till my holiday on 2026-10-17?",
+   "input": {
+    "to": "2026-10-17"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days until my birthday",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how long till the deadline in this email",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many weeks and days until 2027-05-01",
+   "input": {
+    "to": "2027-05-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "time left until the 2026-09-30 tax deadline?",
+   "input": {
+    "to": "2026-09-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "I retire on 31 March 2028 — how many days until then?",
+   "input": {
+    "to": "2028-03-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days has it been since I quit smoking on 2026-03-01",
+   "input": {
+    "to": "2026-03-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "countdown to 2026-10-09 please, how many days",
+   "input": {
+    "to": "2026-10-09"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "How many days until the 15th of September 2026?",
+   "input": {
+    "to": "2026-09-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "the shop opens on 2026-11-27 — how many days from today?",
+   "input": {
+    "to": "2026-11-27"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "days until New Year's Eve 2026",
+   "input": {
+    "to": "2026-12-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "How long has it been since 2026-01-20?",
+   "input": {
+    "to": "2026-01-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days are left till 2026-09-20",
+   "input": {
+    "to": "2026-09-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "semester starts 2027-01-15; how many days until it begins?",
+   "input": {
+    "to": "2027-01-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days until our anniversary",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "Days since the 4th of July 2026?",
+   "input": {
+    "to": "2026-07-04"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countdownTo",
+   "message": "count the days from now till the date in the message below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "currentTime",
+   "message": "I need the exact current time, please",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "today's date in full, please — I'm filling in a form",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "current hour in Dubai?",
+   "input": {
+    "zone": "Asia/Dubai"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "clock check — current time in Seoul?",
+   "input": {
+    "zone": "Asia/Seoul"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "tell me the date and time",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "What's the current time in Paris?",
+   "input": {
+    "zone": "Europe/Paris"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "what time is it now in Manila",
+   "input": {
+    "zone": "Asia/Manila"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "Remind me of the current date — I keep losing track this week",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "current time in UTC",
+   "input": {
+    "zone": "UTC"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "time now in Lagos?",
+   "input": {
+    "zone": "Africa/Lagos"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "Which year are we in at the moment?",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "hey what's the time",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "Could you tell me the current date?",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "current time in Singapore please, I'm calling a client",
+   "input": {
+    "zone": "Asia/Singapore"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "current date and time in Kolkata?",
+   "input": {
+    "zone": "Asia/Kolkata"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "what month are we in",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "Madrid: current time please",
+   "input": {
+    "zone": "Europe/Madrid"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "give me the current date and time in Bangkok",
+   "input": {
+    "zone": "Asia/Bangkok"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "what's the time where I am",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "Show me the current time in Europe/Warsaw.",
+   "input": {
+    "zone": "Europe/Warsaw"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "whats the date",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "Current local time please.",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "Lima — current time?",
+   "input": {
+    "zone": "America/Lima"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "currentTime",
+   "message": "what's today's date, I've lost track",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list every date from 2026-10-01 to 2026-10-07",
+   "input": {
+    "from": "2026-10-01",
+    "to": "2026-10-07"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "give me all the dates between 2026-12-20 and 2026-12-31",
+   "input": {
+    "from": "2026-12-20",
+    "to": "2026-12-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "every week from 2026-09-07 to 2026-11-30, list the dates",
+   "input": {
+    "from": "2026-09-07",
+    "to": "2026-11-30",
+    "unit": "weeks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list the weekdays from 2026-11-02 to 2026-11-13",
+   "input": {
+    "from": "2026-11-02",
+    "to": "2026-11-13",
+    "weekdaysOnly": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "dates every 2 weeks between 2026-09-04 and 2026-12-25",
+   "input": {
+    "from": "2026-09-04",
+    "to": "2026-12-25",
+    "step": 2,
+    "unit": "weeks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "the 15th of each month from 2026-09-15 to 2027-03-15",
+   "input": {
+    "from": "2026-09-15",
+    "to": "2027-03-15",
+    "unit": "months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list each day from 1 Nov 2026 to 10 Nov 2026",
+   "input": {
+    "from": "2026-11-01",
+    "to": "2026-11-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "Teacher here: list every school weekday from 2026-09-07 to 2026-09-18.",
+   "input": {
+    "from": "2026-09-07",
+    "to": "2026-09-18",
+    "weekdaysOnly": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "every 3 days from 2026-10-01 to 2026-10-31",
+   "input": {
+    "from": "2026-10-01",
+    "to": "2026-10-31",
+    "step": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list all the dates between the start and end of this booking",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list every day in the date range below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "monthly dates 2026-01-31 to 2026-06-30",
+   "input": {
+    "from": "2026-01-31",
+    "to": "2026-06-30",
+    "unit": "months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "all the dates 2027-02-25 through 2027-03-03, listed",
+   "input": {
+    "from": "2027-02-25",
+    "to": "2027-03-03"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "weekly from Friday 2026-09-04 to 2026-10-30 — what are the dates?",
+   "input": {
+    "from": "2026-09-04",
+    "to": "2026-10-30",
+    "unit": "weeks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "dates for every 4 weeks from 2026-09-01 to 2027-02-01",
+   "input": {
+    "from": "2026-09-01",
+    "to": "2027-02-01",
+    "step": 4,
+    "unit": "weeks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "I need a list of each weekday between 2026-12-14 and 2026-12-24 for my rota",
+   "input": {
+    "from": "2026-12-14",
+    "to": "2026-12-24",
+    "weekdaysOnly": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "every 10 days from 2026-09-10 to 2026-12-10",
+   "input": {
+    "from": "2026-09-10",
+    "to": "2026-12-10",
+    "step": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list the dates every 3 months from 2026-01-01 to 2026-12-31",
+   "input": {
+    "from": "2026-01-01",
+    "to": "2026-12-31",
+    "step": 3,
+    "unit": "months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "Could you list all dates from 2026-09-28 to 2026-10-04?",
+   "input": {
+    "from": "2026-09-28",
+    "to": "2026-10-04"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "dates between 2026-11-25 and 2026-12-05 pls",
+   "input": {
+    "from": "2026-11-25",
+    "to": "2026-12-05"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "each month from 2026-09-01 until 2027-08-01, list the dates",
+   "input": {
+    "from": "2026-09-01",
+    "to": "2027-08-01",
+    "unit": "months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list the dates in this range, weekdays only",
+   "input": {
+    "weekdaysOnly": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "every 2 months from 2026-10-10 to 2027-06-10",
+   "input": {
+    "from": "2026-10-10",
+    "to": "2027-06-10",
+    "step": 2,
+    "unit": "months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "spell out every date from 30 December 2026 to 3 January 2027",
+   "input": {
+    "from": "2026-12-30",
+    "to": "2027-01-03"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "which day of the week was 20 July 1969?",
+   "input": {
+    "date": "1969-07-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "my wedding's on 2027-06-12 — is that a Saturday?",
+   "input": {
+    "date": "2027-06-12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what weekday does 2026-12-31 fall on",
+   "input": {
+    "date": "2026-12-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "the party is 7 Nov 2026, what day is that",
+   "input": {
+    "date": "2026-11-07"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what day of the week will 1 January 2030 be",
+   "input": {
+    "date": "2030-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "give me the name of the day for 15/10/2026",
+   "input": {
+    "date": "2026-10-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "Born on 1988-03-22 — what day of the week was that?",
+   "input": {
+    "date": "1988-03-22"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "Was 11 September 2001 a Tuesday?",
+   "input": {
+    "date": "2001-09-11"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "tell me the weekday for 2027-04-01",
+   "input": {
+    "date": "2027-04-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what day of the week is my birthday this year",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "which day of the week is the date on this ticket",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "Nurse here — what day of the week is 2026-11-26, Thursday or Friday?",
+   "input": {
+    "date": "2026-11-26"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what day did Christmas 1999 fall on",
+   "input": {
+    "date": "1999-12-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "Find the day of the week for 2026-09-19 please.",
+   "input": {
+    "date": "2026-09-19"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what day of the week is Valentine's Day 2027",
+   "input": {
+    "date": "2027-02-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "which day is 3rd March 2026",
+   "input": {
+    "date": "2026-03-03"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "Halloween 2027 lands on what day?",
+   "input": {
+    "date": "2027-10-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "day name for 2026-08-08?",
+   "input": {
+    "date": "2026-08-08"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "Is New Year's Day 2028 a Monday?",
+   "input": {
+    "date": "2028-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "the concert on 2026-10-24 — what day of the week?",
+   "input": {
+    "date": "2026-10-24"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what weekday was 1 May 1995",
+   "input": {
+    "date": "1995-05-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "What day of the week does 29 February 2028 fall on?",
+   "input": {
+    "date": "2028-02-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what day of the week is the date in the message below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "school trip 2026-09-25: which day of the week is that?",
+   "input": {
+    "date": "2026-09-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "which day of the year is 4 July 2027?",
+   "input": {
+    "date": "2027-07-04"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "day number for 2027-03-15 in the year",
+   "input": {
+    "date": "2027-03-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "how far through 2026 are we on 2026-10-10, as a day number?",
+   "input": {
+    "date": "2026-10-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "Julian day-of-year for 2025-12-31",
+   "input": {
+    "date": "2025-12-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "what day of the year is 2027-08-20, and how many days of 2027 remain",
+   "input": {
+    "date": "2027-08-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "what's the day count within the year for 18 May 2026?",
+   "input": {
+    "date": "2026-05-18"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "for a lab log I need the day-of-year of 2026-09-03",
+   "input": {
+    "date": "2026-09-03"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "Which day of 2028 is 2028-02-29?",
+   "input": {
+    "date": "2028-02-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "how many days are left in the year after 2026-11-30, and what day number is it",
+   "input": {
+    "date": "2026-11-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "what day of the year is my birthday",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "give me the day-of-year number for the date in this log line",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "nth day of the year: 2027-01-31?",
+   "input": {
+    "date": "2027-01-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "what day of the year does Bonfire Night 2026 fall on",
+   "input": {
+    "date": "2026-11-05"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "days left in the year on 2026-09-21, and its day number",
+   "input": {
+    "date": "2026-09-21"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "Day of year for 7 Aug 2027 please",
+   "input": {
+    "date": "2027-08-07"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "which number day in 2027 is 2027-12-25?",
+   "input": {
+    "date": "2027-12-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "Is 2026-04-10 the 100th day of the year?",
+   "input": {
+    "date": "2026-04-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "what's the ordinal day number of 2026-10-01 within the year",
+   "input": {
+    "date": "2026-10-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "how far into the year is 2027-06-01, in days?",
+   "input": {
+    "date": "2027-06-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "gardener's log: day of the year for 22 March 2027",
+   "input": {
+    "date": "2027-03-22"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "what's the day-of-year of 2026-02-28",
+   "input": {
+    "date": "2026-02-28"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "day of year 2023-07-19?",
+   "input": {
+    "date": "2023-07-19"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "How much of 2026 is left on 2026-08-15, and which day of the year is it?",
+   "input": {
+    "date": "2026-08-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "day number of New Year's Eve 2027 within its year",
+   "input": {
+    "date": "2027-12-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "how many days from 2026-09-05 to 2026-10-20?",
+   "input": {
+    "from": "2026-09-05",
+    "to": "2026-10-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "days between my two flights, 2026-11-03 and 2026-11-29",
+   "input": {
+    "from": "2026-11-03",
+    "to": "2026-11-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "How long is it, in days, from 14 Feb 2027 to 1 June 2027?",
+   "input": {
+    "from": "2027-02-14",
+    "to": "2027-06-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "count the days from 2026-12-24 to 2027-01-06 counting both ends",
+   "input": {
+    "from": "2026-12-24",
+    "to": "2027-01-06",
+    "inclusive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "number of days separating 2025-05-10 and 2026-05-10",
+   "input": {
+    "from": "2025-05-10",
+    "to": "2026-05-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "I started the job on 2024-02-12 and left on 2026-08-28 – how many days between them?",
+   "input": {
+    "from": "2024-02-12",
+    "to": "2026-08-28"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "a hospital stay from 2026-09-02 to 2026-09-19 inclusive, how many days?",
+   "input": {
+    "from": "2026-09-02",
+    "to": "2026-09-19",
+    "inclusive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "how many days apart are 2026-10-31 and 2026-12-25?",
+   "input": {
+    "from": "2026-10-31",
+    "to": "2026-12-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "how many days between the two dates in this text",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "count the days between the dates below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "days from 1/3/2026 to 1/9/2026 (UK dates)",
+   "input": {
+    "from": "2026-03-01",
+    "to": "2026-09-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "Gap in days between 2019-06-30 and 2026-06-30?",
+   "input": {
+    "from": "2019-06-30",
+    "to": "2026-06-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "how many days did the 2026-07-01 to 2026-08-15 summer camp last, both days counted",
+   "input": {
+    "from": "2026-07-01",
+    "to": "2026-08-15",
+    "inclusive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "between 2027-03-08 and 2027-03-29, how many days?",
+   "input": {
+    "from": "2027-03-08",
+    "to": "2027-03-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "days from 2026-10-02 till 2026-10-16",
+   "input": {
+    "from": "2026-10-02",
+    "to": "2026-10-16"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "The loan runs from 2025-11-15 to 2026-11-15 — how many days between those dates?",
+   "input": {
+    "from": "2025-11-15",
+    "to": "2026-11-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "how many days separate 2000-01-01 and 2026-01-01",
+   "input": {
+    "from": "2000-01-01",
+    "to": "2026-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "My leave runs 2026-12-18 to 2027-01-04. Days?",
+   "input": {
+    "from": "2026-12-18",
+    "to": "2027-01-04"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "Number of days from 5 September 2026 to 5 October 2026",
+   "input": {
+    "from": "2026-09-05",
+    "to": "2026-10-05"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "how many days elapsed between 2026-02-10 and 2026-04-20",
+   "input": {
+    "from": "2026-02-10",
+    "to": "2026-04-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "count days 2026-11-11 → 2027-02-11",
+   "input": {
+    "from": "2026-11-11",
+    "to": "2027-02-11"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "how many days long was the trip in my itinerary",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "days between 2026-09-09 and 2026-09-30, inclusive",
+   "input": {
+    "from": "2026-09-09",
+    "to": "2026-09-30",
+    "inclusive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysBetween",
+   "message": "how many calendar days from 2027-05-01 to 2027-07-31?",
+   "input": {
+    "from": "2027-05-01",
+    "to": "2027-07-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "how many days are there in month 4 of 2034?",
+   "input": {
+    "month": 4,
+    "year": 2034
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "length of 2/2030 in days",
+   "input": {
+    "month": 2,
+    "year": 2030
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "days in the 11th month of 2025?",
+   "input": {
+    "month": 11,
+    "year": 2025
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "how long is month 9 in 2031, in days",
+   "input": {
+    "month": 9,
+    "year": 2031
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "is 2/2032 28 or 29 days long",
+   "input": {
+    "month": 2,
+    "year": 2032
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "Payroll: number of days in month 6 of 2025",
+   "input": {
+    "month": 6,
+    "year": 2025
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "how many days does month ten have in 2029?",
+   "input": {
+    "month": 10,
+    "year": 2029
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "landlord pro-rating rent — how many days in month 3 of 2030?",
+   "input": {
+    "month": 3,
+    "year": 2030
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "days in month 12, year 2024",
+   "input": {
+    "month": 12,
+    "year": 2024
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "count the days in month five of 2033",
+   "input": {
+    "month": 5,
+    "year": 2033
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "how many days in the second month of 2100",
+   "input": {
+    "month": 2,
+    "year": 2100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "Month 7 of 2030: how many days?",
+   "input": {
+    "month": 7,
+    "year": 2030
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "February is month 2 — how many days does it have in 2031?",
+   "input": {
+    "month": 2,
+    "year": 2031
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "how many days are in the month on this invoice",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "how many days long is month 1 of 2032",
+   "input": {
+    "month": 1,
+    "year": 2032
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "I'm a nurse planning a rota; how many days in month 8, 2029?",
+   "input": {
+    "month": 8,
+    "year": 2029
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "days in 4/2025?",
+   "input": {
+    "month": 4,
+    "year": 2025
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "September 2029 is month 9; days in it?",
+   "input": {
+    "month": 9,
+    "year": 2029
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "number of days in month eleven of 2030",
+   "input": {
+    "month": 11,
+    "year": 2030
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "month 10 2031 how many days",
+   "input": {
+    "month": 10,
+    "year": 2031
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "the 6th month of 2032 has how many days?",
+   "input": {
+    "month": 6,
+    "year": 2032
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "How many days were there in month 2 of 1900?",
+   "input": {
+    "month": 2,
+    "year": 1900
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "does month 3 of 2029 have 31 days",
+   "input": {
+    "month": 3,
+    "year": 2029
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "daysInMonth",
+   "message": "days in the 12th month of 2033, please",
+   "input": {
+    "month": 12,
+    "year": 2033
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "turn 7265 seconds into hours and minutes",
+   "input": {
+    "seconds": 7265
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "my run took 2843 seconds — make that readable",
+   "input": {
+    "seconds": 2843
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "convert 86400 seconds to a human-friendly duration",
+   "input": {
+    "seconds": 86400
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "what's 12,345 seconds in days, hours and minutes?",
+   "input": {
+    "seconds": 12345
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "render 500 seconds as plain words, long style",
+   "input": {
+    "seconds": 500,
+    "style": "long"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "format 3,600,000 seconds as a duration with at most 3 units",
+   "input": {
+    "seconds": 3600000,
+    "maxUnits": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "the job ran for 4521.5 seconds, express it as h m s",
+   "input": {
+    "seconds": 4521.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "make the seconds value in this log readable",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "durationToText",
+   "message": "the stopwatch reading below is in seconds — turn it into a readable duration",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "durationToText",
+   "message": "how long is 1,000,000 seconds in days and hours?",
+   "input": {
+    "seconds": 1000000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "show 7322 seconds using long unit names",
+   "input": {
+    "seconds": 7322,
+    "style": "long"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "a video is 754 seconds long, give it as minutes and seconds",
+   "input": {
+    "seconds": 754
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "Gamer stat: 432000 seconds played. Put that in days.",
+   "input": {
+    "seconds": 432000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "spell out 3725 seconds in long form, just 2 units",
+   "input": {
+    "seconds": 3725,
+    "style": "long",
+    "maxUnits": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "Express 59 seconds as a duration",
+   "input": {
+    "seconds": 59
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "uptime is 1209600 seconds — readable version please",
+   "input": {
+    "seconds": 1209600
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "seconds to words: 9999",
+   "input": {
+    "seconds": 9999
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "turn 31536000 seconds into years and days",
+   "input": {
+    "seconds": 31536000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "How many hours and minutes is 20700 seconds?",
+   "input": {
+    "seconds": 20700
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "Converting a timer: 615 seconds → readable short form",
+   "input": {
+    "seconds": 615,
+    "style": "short"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "describe 2,592,000 seconds as a duration, up to four units",
+   "input": {
+    "seconds": 2592000,
+    "maxUnits": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "how long is that many seconds in hours? the number's in the report",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "durationToText",
+   "message": "make 4000 seconds human-readable",
+   "input": {
+    "seconds": 4000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "durationToText",
+   "message": "the podcast is 3184 seconds; what's that as h/m/s",
+   "input": {
+    "seconds": 3184
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "list the next 6 dates of a monthly meeting starting 2026-10-05",
+   "input": {
+    "start": "2026-10-05",
+    "every": "month",
+    "count": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "every 3 days from 2026-09-10, give me 10 dates",
+   "input": {
+    "start": "2026-09-10",
+    "every": "day",
+    "interval": 3,
+    "count": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "bin collection every fortnight starting 2026-09-04 — list the next twelve dates",
+   "input": {
+    "start": "2026-09-04",
+    "every": "week",
+    "interval": 2,
+    "count": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "my injection is every 12 weeks from 2026-09-15 — list the next four",
+   "input": {
+    "start": "2026-09-15",
+    "every": "week",
+    "interval": 12,
+    "count": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "quarterly reviews: every 3 months from 2027-01-15, five dates",
+   "input": {
+    "start": "2027-01-15",
+    "every": "month",
+    "interval": 3,
+    "count": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "list a yearly check-up date every year from 2026-11-20, 5 times",
+   "input": {
+    "start": "2026-11-20",
+    "every": "year",
+    "count": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "every 28 days starting 2026-09-08 until 2027-03-01",
+   "input": {
+    "start": "2026-09-08",
+    "every": "day",
+    "interval": 28,
+    "until": "2027-03-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "Rent is due monthly on the 15th, starting 2026-09-15, through 2027-02-15 — list the due dates",
+   "input": {
+    "start": "2026-09-15",
+    "every": "month",
+    "until": "2027-02-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "weekly piano lessons from 2026-09-16, list 10 sessions",
+   "input": {
+    "start": "2026-09-16",
+    "every": "week",
+    "count": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "list the repeat dates for the schedule in this email",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "every fortnight from my first payday, list six dates",
+   "input": {
+    "every": "week",
+    "interval": 2,
+    "count": 6
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "a dose every 2 days from 2026-09-02, seven doses",
+   "input": {
+    "start": "2026-09-02",
+    "every": "day",
+    "interval": 2,
+    "count": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "every 6 months from 2026-12-01, 4 dates",
+   "input": {
+    "start": "2026-12-01",
+    "every": "month",
+    "interval": 6,
+    "count": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "every year from 2026-06-14, list our next 3 anniversary dates",
+   "input": {
+    "start": "2026-06-14",
+    "every": "year",
+    "count": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "every 10 days beginning 2026-09-20, show 8 occurrences",
+   "input": {
+    "start": "2026-09-20",
+    "every": "day",
+    "interval": 10,
+    "count": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "The club meets every 4 weeks from 2026-09-29 until 2027-06-30. Dates please.",
+   "input": {
+    "start": "2026-09-29",
+    "every": "week",
+    "interval": 4,
+    "until": "2027-06-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "monthly invoices from 2026-09-30, first five dates",
+   "input": {
+    "start": "2026-09-30",
+    "every": "month",
+    "count": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "Payday every 4 weeks starting 2026-09-25 — list the next 13 pay dates",
+   "input": {
+    "start": "2026-09-25",
+    "every": "week",
+    "interval": 4,
+    "count": 13
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "repeat every 7 days from 2026-10-01, 9 times",
+   "input": {
+    "start": "2026-10-01",
+    "every": "day",
+    "interval": 7,
+    "count": 9
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "Teacher: weekly spelling tests from 2026-09-11 until 2026-12-11, what dates?",
+   "input": {
+    "start": "2026-09-11",
+    "every": "week",
+    "until": "2026-12-11"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "my plant needs feeding every 14 days from 2026-09-05; next 6 dates",
+   "input": {
+    "start": "2026-09-05",
+    "every": "day",
+    "interval": 14,
+    "count": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "a renewal that repeats every year from 2026-02-28 — list four dates",
+   "input": {
+    "start": "2026-02-28",
+    "every": "year",
+    "count": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "when do the repeats fall for the recurring booking below?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "every 5 weeks from 2026-10-20, give me 7 dates",
+   "input": {
+    "start": "2026-10-20",
+    "every": "week",
+    "interval": 5,
+    "count": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "write 2027-03-08 as DD.MM.YYYY for a German form",
+   "input": {
+    "date": "2027-03-08",
+    "format": "DD.MM.YYYY"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "I need 5 October 2026 in the style MM/DD/YYYY",
+   "input": {
+    "date": "2026-10-05",
+    "format": "MM/DD/YYYY"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "change 2026-12-01 to D MMMM YYYY",
+   "input": {
+    "date": "2026-12-01",
+    "format": "D MMMM YYYY"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "display 2027-01-09 with the weekday: DDDD D MMMM YYYY",
+   "input": {
+    "date": "2027-01-09",
+    "format": "DDDD D MMMM YYYY"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "I need 2026-09-30 written in the date format YYYYMMDD",
+   "input": {
+    "date": "2026-09-30",
+    "format": "YYYYMMDD"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "this one needs to be DD/MM/YY — reformat the date for me",
+   "input": {
+    "format": "DD/MM/YY"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatDate",
+   "message": "rewrite the date below in D MMM YYYY layout",
+   "input": {
+    "format": "D MMM YYYY"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatDate",
+   "message": "Teacher: show 2026-10-12 as DDDD so the kids see the day name",
+   "input": {
+    "date": "2026-10-12",
+    "format": "DDDD"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "how would 2027-07-04 look as MMMM D, YYYY",
+   "input": {
+    "date": "2027-07-04",
+    "format": "MMMM D, YYYY"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "the spreadsheet wants DD-MM-YYYY; convert 2027-11-02 to that layout",
+   "input": {
+    "date": "2027-11-02",
+    "format": "DD-MM-YYYY"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "for a filename, give me 2026-09-15 as YYYY_MM_DD",
+   "input": {
+    "date": "2026-09-15",
+    "format": "YYYY_MM_DD"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "21/10/2026 needs to be YYYY-MM-DD, can you convert the layout",
+   "input": {
+    "date": "2026-10-21",
+    "format": "YYYY-MM-DD"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "convert 2026-08-31 to MMM D for a short label",
+   "input": {
+    "date": "2026-08-31",
+    "format": "MMM D"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "rewrite 3 June 2027 as DD/MM",
+   "input": {
+    "date": "2027-06-03",
+    "format": "DD/MM"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "put my birth date into MM/DD/YYYY",
+   "input": {
+    "format": "MM/DD/YYYY"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatDate",
+   "message": "can you lay out 2026-12-24 as DDDD D MMM",
+   "input": {
+    "date": "2026-12-24",
+    "format": "DDDD D MMM"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "date formatting: 2027-02-01 in MM.DD.YYYY",
+   "input": {
+    "date": "2027-02-01",
+    "format": "MM.DD.YYYY"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "turn 2026-10-31 into the format D/M/YYYY",
+   "input": {
+    "date": "2026-10-31",
+    "format": "D/M/YYYY"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "show 9 Sept 2026 as YYYY/MM/DD for the database",
+   "input": {
+    "date": "2026-09-09",
+    "format": "YYYY/MM/DD"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "reformat the date in this sentence as DD MMMM YYYY",
+   "input": {
+    "format": "DD MMMM YYYY"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatDate",
+   "message": "write 2026-04-05 in the layout MMMM YYYY",
+   "input": {
+    "date": "2026-04-05",
+    "format": "MMMM YYYY"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "for the invitation, 2027-05-22 written as DDDD, D MMMM",
+   "input": {
+    "date": "2027-05-22",
+    "format": "DDDD, D MMMM"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "2026-07-19 as DD/MM/YYYY plz, it's for a UK visa form",
+   "input": {
+    "date": "2026-07-19",
+    "format": "DD/MM/YYYY"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatDate",
+   "message": "express 2026-01-02 as YY-MM-DD",
+   "input": {
+    "date": "2026-01-02",
+    "format": "YY-MM-DD"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "does 2032 have 366 days?",
+   "input": {
+    "year": 2032
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "will February 2030 have a 29th?",
+   "input": {
+    "year": 2030
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "Is 2100 going to be a leap year or not?",
+   "input": {
+    "year": 2100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "how many days are in the year 2031",
+   "input": {
+    "year": 2031
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "quick q: leap year check for 1996",
+   "input": {
+    "year": 1996
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "Was 1800 a leap year? my history teacher says no",
+   "input": {
+    "year": 1800
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "tell me if 2044 counts as a leap year",
+   "input": {
+    "year": 2044
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "leap-year status of 2400?",
+   "input": {
+    "year": 2400
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "my kid was born on 29 Feb — is 2036 a leap year, so she gets a real birthday?",
+   "input": {
+    "year": 2036
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "2027: 365 or 366 days?",
+   "input": {
+    "year": 2027
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "Was 1600 a leap year with a February 29th?",
+   "input": {
+    "year": 1600
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "check whether 2052 is a leap year please",
+   "input": {
+    "year": 2052
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "how long is year 2029 in days",
+   "input": {
+    "year": 2029
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "is there a leap day in 2038",
+   "input": {
+    "year": 2038
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "Accountant here: is 2040 a leap year for our day-count?",
+   "input": {
+    "year": 2040
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "checking 1988: leap year or not?",
+   "input": {
+    "year": 1988
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "is 2048 a leap year with 29 days in February",
+   "input": {
+    "year": 2048
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "number of days in 2035",
+   "input": {
+    "year": 2035
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "Is 1700 a leap year in the Gregorian calendar?",
+   "input": {
+    "year": 1700
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "is 2030 a leap yr",
+   "input": {
+    "year": 2030
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "1984 — leap year or common year?",
+   "input": {
+    "year": 1984
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "Does 2060 count as a leap year?",
+   "input": {
+    "year": 2060
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "Tell me how many days 2045 has and whether it's leap",
+   "input": {
+    "year": 2045
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isLeapYear",
+   "message": "is 2096 leap",
+   "input": {
+    "year": 2096
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is 2027-05-01 a weekend?",
+   "input": {
+    "date": "2027-05-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "does my birthday, 2026-10-10, land on a weekend",
+   "input": {
+    "date": "2026-10-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "Is 26 December 2026 a working day or weekend?",
+   "input": {
+    "date": "2026-12-26"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is 2026-09-19 a Saturday or Sunday, i.e. weekend?",
+   "input": {
+    "date": "2026-09-19"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "Will the delivery on 2026-11-21 be on a weekend?",
+   "input": {
+    "date": "2026-11-21"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "weekend check: 2027-01-02",
+   "input": {
+    "date": "2027-01-02"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "Is New Year's Day 2027 on a weekend?",
+   "input": {
+    "date": "2027-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "can I book the hall on 2026-10-03 — is it a weekend day?",
+   "input": {
+    "date": "2026-10-03"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is 4 Dec 2026 a weekend or a workday?",
+   "input": {
+    "date": "2026-12-04"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is my flight date a weekend",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "does the date on this form fall on a weekend?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "Nurse shift on 2026-12-12 — weekend rate or weekday?",
+   "input": {
+    "date": "2026-12-12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is 2026-09-07 a business day or weekend",
+   "input": {
+    "date": "2026-09-07"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is 1 August 2027 a weekend?",
+   "input": {
+    "date": "2027-08-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "weekday or weekend: 2026-10-31",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "the market is on 2027-03-06, is that a weekend?",
+   "input": {
+    "date": "2027-03-06"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is 2026-12-24 a work day",
+   "input": {
+    "date": "2026-12-24"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "tell me if 2026-11-29 is a weekend — I'm planning a trip",
+   "input": {
+    "date": "2026-11-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "Does 14/02/2027 fall at the weekend?",
+   "input": {
+    "date": "2027-02-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is 2026-09-12 a saturday or sunday",
+   "input": {
+    "date": "2026-09-12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "weekend? 2028-02-29",
+   "input": {
+    "date": "2028-02-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "Is Easter Monday 2027 (2027-03-29) a weekend day?",
+   "input": {
+    "date": "2027-03-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is 2026-10-21 a weekend or a weekday please",
+   "input": {
+    "date": "2026-10-21"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is the party date in the invite below on a weekend",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "what's the epoch time for 2027-03-15?",
+   "input": {
+    "date": "2027-03-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "unix time of 2026-12-31 23:59",
+   "input": {
+    "date": "2026-12-31",
+    "time": "23:59"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "convert 1 January 2030 to a unix timestamp",
+   "input": {
+    "date": "2030-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "epoch seconds at 2026-10-05 14:00 UTC",
+   "input": {
+    "date": "2026-10-05",
+    "time": "14:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "I'm a developer: give me the Unix timestamp for 2025-07-20 06:15:30",
+   "input": {
+    "date": "2025-07-20",
+    "time": "06:15:30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "timestamp in seconds since 1970 for 2026-11-11",
+   "input": {
+    "date": "2026-11-11"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "my cron job needs 2027-01-01 at midnight as epoch seconds",
+   "input": {
+    "date": "2027-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "what number is 2026-09-21 12:00 in unix time?",
+   "input": {
+    "date": "2026-09-21",
+    "time": "12:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "convert 2000-01-01 00:00 to epoch",
+   "input": {
+    "date": "2000-01-01",
+    "time": "00:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "convert the date in this log to a unix timestamp",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "give me the epoch for my start date",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "Unix timestamp please: 2026-10-31 18:45",
+   "input": {
+    "date": "2026-10-31",
+    "time": "18:45"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "2026-08-15 as a unix time",
+   "input": {
+    "date": "2026-08-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "epoch value for 3 March 2027 at 07:00",
+   "input": {
+    "date": "2027-03-03",
+    "time": "07:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "what's 2026-12-25 in seconds since the epoch",
+   "input": {
+    "date": "2026-12-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "For an API call I need the unix time of 2026-09-30 at 17:30",
+   "input": {
+    "date": "2026-09-30",
+    "time": "17:30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "turn 2024-02-29 into an epoch timestamp",
+   "input": {
+    "date": "2024-02-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "the epoch number for 2026-11-01 10:10:10",
+   "input": {
+    "date": "2026-11-01",
+    "time": "10:10:10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "Convert 2026-10-10 to Unix.",
+   "input": {
+    "date": "2026-10-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "unix seconds for 1999-12-31 23:59:59",
+   "input": {
+    "date": "1999-12-31",
+    "time": "23:59:59"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "how is 2027-06-01 08:00 written as an epoch timestamp",
+   "input": {
+    "date": "2027-06-01",
+    "time": "08:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "get the unix timestamp for the date and time below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "Epoch for the 4th of May 2026?",
+   "input": {
+    "date": "2026-05-04"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "posix time of 2026-09-15 at 09:00",
+   "input": {
+    "date": "2026-09-15",
+    "time": "09:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "which week number is 2026-10-20 in?",
+   "input": {
+    "date": "2026-10-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "ISO week of 3 March 2027?",
+   "input": {
+    "date": "2027-03-03"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "what calendar week does 2026-12-28 belong to",
+   "input": {
+    "date": "2026-12-28"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "KW for 2026-09-09? (German calendar week)",
+   "input": {
+    "date": "2026-09-09"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "Sprints here follow ISO weeks — what's the number for 2026-11-16?",
+   "input": {
+    "date": "2026-11-16"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "week of the year for 15 August 2027",
+   "input": {
+    "date": "2027-08-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "Teacher: what week number does 2027-01-11 fall in?",
+   "input": {
+    "date": "2027-01-11"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "which ISO week contains 2026-09-30, and what Monday does it start on",
+   "input": {
+    "date": "2026-09-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "what week number is the delivery date in this order",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "ISO week for the date on my timesheet",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "week no. for 2027-04-22",
+   "input": {
+    "date": "2027-04-22"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "2028-01-01 falls in which numbered week?",
+   "input": {
+    "date": "2028-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "wk number 2026-11-03?",
+   "input": {
+    "date": "2026-11-03"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "ISO-8601 week for 2026-12-31",
+   "input": {
+    "date": "2026-12-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "my diary uses ISO weeks — which one holds 2026-09-14?",
+   "input": {
+    "date": "2026-09-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "payroll asks for the week number of 2026-10-09",
+   "input": {
+    "date": "2026-10-09"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "Which week of 2027 is 2027-07-07?",
+   "input": {
+    "date": "2027-07-07"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "iso week number and start date for 2026-09-22",
+   "input": {
+    "date": "2026-09-22"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "calendar week of 2026-08-31?",
+   "input": {
+    "date": "2026-08-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "in which numbered week does 2026-11-27 sit",
+   "input": {
+    "date": "2026-11-27"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "week number for my exam on 2027-05-17",
+   "input": {
+    "date": "2027-05-17"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "what ISO week was 2024-12-30",
+   "input": {
+    "date": "2024-12-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "which calendar week is the date below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "isoWeek",
+   "message": "Gamer here: the event's on 2026-10-28; what week number is that?",
+   "input": {
+    "date": "2026-10-28"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "UTC offsets for Paris and Tokyo right now",
+   "input": {
+    "zones": [
+     "Europe/Paris",
+     "Asia/Tokyo"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "show the current time and offset in Berlin and Singapore",
+   "input": {
+    "zones": [
+     "Europe/Berlin",
+     "Asia/Singapore"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "list the offsets for New York and Los Angeles",
+   "input": {
+    "zones": [
+     "America/New_York",
+     "America/Los_Angeles"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "what are the UTC offsets of Seoul and Lagos today?",
+   "input": {
+    "zones": [
+     "Asia/Seoul",
+     "Africa/Lagos"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "compare the time and UTC offset in Madrid and Manila",
+   "input": {
+    "zones": [
+     "Europe/Madrid",
+     "Asia/Manila"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "Team across Europe/Dublin, Africa/Nairobi, Asia/Jakarta, Asia/Seoul — show each local time and offset",
+   "input": {
+    "zones": [
+     "Europe/Dublin",
+     "Africa/Nairobi",
+     "Asia/Jakarta",
+     "Asia/Seoul"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "offset from UTC for Kathmandu and Delhi",
+   "input": {
+    "zones": [
+     "Asia/Kathmandu",
+     "Asia/Kolkata"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "show the local time in each of the zones below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "what's the offset for every zone in my list?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "compare the time zones in this spreadsheet column",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "times and offsets for Rome and Shanghai right now",
+   "input": {
+    "zones": [
+     "Europe/Rome",
+     "Asia/Shanghai"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "what's the UTC offset in Bangkok and in Cairo",
+   "input": {
+    "zones": [
+     "Asia/Bangkok",
+     "Africa/Cairo"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "side by side: local time in Athens and Karachi",
+   "input": {
+    "zones": [
+     "Europe/Athens",
+     "Asia/Karachi"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "Show me Europe/Warsaw, Asia/Manila, America/Bogota and UTC offsets together",
+   "input": {
+    "zones": [
+     "Europe/Warsaw",
+     "Asia/Manila",
+     "America/Bogota"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "list the current UTC offsets for Asia/Hong_Kong, Asia/Taipei, Asia/Seoul",
+   "input": {
+    "zones": [
+     "Asia/Hong_Kong",
+     "Asia/Taipei",
+     "Asia/Seoul"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "how many hours apart are Lima and Madrid? show both offsets",
+   "input": {
+    "zones": [
+     "America/Lima",
+     "Europe/Madrid"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "how far ahead of UTC are Dubai and Riyadh",
+   "input": {
+    "zones": [
+     "Asia/Dubai",
+     "Asia/Riyadh"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "Gamer: our clan is in Chicago and Auckland — show everyone's local time",
+   "input": {
+    "zones": [
+     "America/Chicago",
+     "Pacific/Auckland"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "list the time in Lisbon and Johannesburg",
+   "input": {
+    "zones": [
+     "Europe/Lisbon",
+     "Africa/Johannesburg"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "make a table of the time in Asia/Karachi, Asia/Dubai, Europe/Moscow, Asia/Singapore with UTC offsets",
+   "input": {
+    "zones": [
+     "Asia/Karachi",
+     "Asia/Dubai",
+     "Europe/Moscow",
+     "Asia/Singapore"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "show the local time and UTC offset for Sydney and Honolulu",
+   "input": {
+    "zones": [
+     "Australia/Sydney",
+     "Pacific/Honolulu"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "what time and offset is it in Europe/Athens, Africa/Cairo and Asia/Jakarta?",
+   "input": {
+    "zones": [
+     "Europe/Athens",
+     "Africa/Cairo",
+     "Asia/Jakarta"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "current UTC offsets for London and Toronto, please",
+   "input": {
+    "zones": [
+     "Europe/London",
+     "America/Toronto"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "message": "show the local time and UTC offset in Asia/Kolkata, Asia/Shanghai and Europe/Berlin",
+   "input": {
+    "zones": [
+     "Asia/Kolkata",
+     "Asia/Shanghai",
+     "Europe/Berlin"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "merge [1,5], [3,8], [10,12]",
+   "input": {
+    "intervals": [
+     [
+      1,
+      5
+     ],
+     [
+      3,
+      8
+     ],
+     [
+      10,
+      12
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "my shifts run 9-13, 12-17 and 18-20; merge the overlapping ranges",
+   "input": {
+    "intervals": [
+     [
+      9,
+      13
+     ],
+     [
+      12,
+      17
+     ],
+     [
+      18,
+      20
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "collapse these intervals: [0,4] [2,6] [7,9] [8,11]",
+   "input": {
+    "intervals": [
+     [
+      0,
+      4
+     ],
+     [
+      2,
+      6
+     ],
+     [
+      7,
+      9
+     ],
+     [
+      8,
+      11
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "Overlapping bookings 14 to 16, 15 to 18, 20 to 22 — merge them into the fewest blocks",
+   "input": {
+    "intervals": [
+     [
+      14,
+      16
+     ],
+     [
+      15,
+      18
+     ],
+     [
+      20,
+      22
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "merge intervals (5,10), (10,15), (20,25) but don't join ones that only touch",
+   "input": {
+    "intervals": [
+     [
+      5,
+      10
+     ],
+     [
+      10,
+      15
+     ],
+     [
+      20,
+      25
+     ]
+    ],
+    "touchingCounts": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "union of the ranges 100-200, 150-250, 300-350",
+   "input": {
+    "intervals": [
+     [
+      100,
+      200
+     ],
+     [
+      150,
+      250
+     ],
+     [
+      300,
+      350
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "merge the overlapping intervals in this list",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "merge my meeting slots below where the intervals overlap",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "squash the ranges in the attached data into non-overlapping ones",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "can you merge my intervals?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "flatten these overlapping time blocks",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "tidy up the overlapping page ranges from my notes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "intervals [1,3],[2,4],[6,8],[7,9] — merge overlapping",
+   "input": {
+    "intervals": [
+     [
+      1,
+      3
+     ],
+     [
+      2,
+      4
+     ],
+     [
+      6,
+      8
+     ],
+     [
+      7,
+      9
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "Merge [[0,10],[5,7],[12,15]] please",
+   "input": {
+    "intervals": [
+     [
+      0,
+      10
+     ],
+     [
+      5,
+      7
+     ],
+     [
+      12,
+      15
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "combine ranges 1-2, 2-3, 3-4 into one if they touch",
+   "input": {
+    "intervals": [
+     [
+      1,
+      2
+     ],
+     [
+      2,
+      3
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    "touchingCounts": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "Developer here: merge intervals [[30,40],[10,20],[15,35]]",
+   "input": {
+    "intervals": [
+     [
+      30,
+      40
+     ],
+     [
+      10,
+      20
+     ],
+     [
+      15,
+      35
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "page ranges 1-10, 5-15, 40-45: which spans do they cover after merging?",
+   "input": {
+    "intervals": [
+     [
+      1,
+      10
+     ],
+     [
+      5,
+      15
+     ],
+     [
+      40,
+      45
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "Combine overlapping ranges: 2 to 6, 4 to 9, 11 to 13.",
+   "input": {
+    "intervals": [
+     [
+      2,
+      6
+     ],
+     [
+      4,
+      9
+     ],
+     [
+      11,
+      13
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "Merge the hour blocks 8-11, 10-12 and 13-15 into continuous blocks",
+   "input": {
+    "intervals": [
+     [
+      8,
+      11
+     ],
+     [
+      10,
+      12
+     ],
+     [
+      13,
+      15
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "consolidate intervals 50-60, 55-70, 70-80",
+   "input": {
+    "intervals": [
+     [
+      50,
+      60
+     ],
+     [
+      55,
+      70
+     ],
+     [
+      70,
+      80
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "Simplify these spans by merging overlapping intervals: [3,7], [1,4], [9,10], [6,8]",
+   "input": {
+    "intervals": [
+     [
+      3,
+      7
+     ],
+     [
+      1,
+      4
+     ],
+     [
+      9,
+      10
+     ],
+     [
+      6,
+      8
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "merge 0-1, 1-2, 5-6 — treat touching ranges as separate",
+   "input": {
+    "intervals": [
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      2
+     ],
+     [
+      5,
+      6
+     ]
+    ],
+    "touchingCounts": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "what are the merged intervals for [12,18], [16,22], [25,30]?",
+   "input": {
+    "intervals": [
+     [
+      12,
+      18
+     ],
+     [
+      16,
+      22
+     ],
+     [
+      25,
+      30
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mergeIntervals",
+   "message": "Teacher's timetable: lessons 9-10, 9.5-11, 13-14. Merge the overlaps.",
+   "input": {
+    "intervals": [
+     [
+      9,
+      10
+     ],
+     [
+      9.5,
+      11
+     ],
+     [
+      13,
+      14
+     ]
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "find the date of next Thursday for me",
+   "input": {
+    "weekday": "Thursday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "date of the following Wednesday please",
+   "input": {
+    "weekday": "Wednesday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "When was the previous Saturday?",
+   "input": {
+    "weekday": "Saturday",
+    "direction": "previous"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "the first Monday after 2026-10-15",
+   "input": {
+    "weekday": "Monday",
+    "from": "2026-10-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "which date was the Friday before 2026-12-25",
+   "input": {
+    "weekday": "Friday",
+    "direction": "previous",
+    "from": "2026-12-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "Nurse: when's my next Sunday shift, date-wise?",
+   "input": {
+    "weekday": "Sunday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "the coming Saturday — what date?",
+   "input": {
+    "weekday": "Saturday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "date of the most recent Tuesday",
+   "input": {
+    "weekday": "Tuesday",
+    "direction": "previous"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "Wednesday after 2027-01-01, what date is it",
+   "input": {
+    "weekday": "Wednesday",
+    "from": "2027-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "find the next Thursday after 2026-11-20",
+   "input": {
+    "weekday": "Thursday",
+    "from": "2026-11-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "upcoming Monday's date?",
+   "input": {
+    "weekday": "Monday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "When is the next Friday after 31 October 2026?",
+   "input": {
+    "weekday": "Friday",
+    "from": "2026-10-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "what date was last Sunday",
+   "input": {
+    "weekday": "Sunday",
+    "direction": "previous"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "the Tuesday before 2026-10-01 — which date?",
+   "input": {
+    "weekday": "Tuesday",
+    "direction": "previous",
+    "from": "2026-10-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "I'm free on the next Saturday — what's its date?",
+   "input": {
+    "weekday": "Saturday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "the last Thursday before 2026-12-25 — what date?",
+   "input": {
+    "weekday": "Thursday",
+    "direction": "previous",
+    "from": "2026-12-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "most recent Friday before 2027-02-14",
+   "input": {
+    "weekday": "Friday",
+    "direction": "previous",
+    "from": "2027-02-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "next Wednesday falls on which date?",
+   "input": {
+    "weekday": "Wednesday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "Sunday following 2026-09-20?",
+   "input": {
+    "weekday": "Sunday",
+    "from": "2026-09-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "which date was the Monday just gone",
+   "input": {
+    "weekday": "Monday",
+    "direction": "previous"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "the first Saturday after New Year's Day 2027",
+   "input": {
+    "weekday": "Saturday",
+    "from": "2027-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "Teacher: half term starts on 2026-10-26 — what's the date of the Friday after?",
+   "input": {
+    "weekday": "Friday",
+    "from": "2026-10-26"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "what was the date of the last Thursday before 2026-09-10?",
+   "input": {
+    "weekday": "Thursday",
+    "direction": "previous",
+    "from": "2026-09-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "next Monday after 2026-12-31 please",
+   "input": {
+    "weekday": "Monday",
+    "from": "2026-12-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "turn Sept 5th into an ISO date",
+   "input": {
+    "text": "Sept 5th"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "parse the date Jan 3 2027 for me",
+   "input": {
+    "text": "Jan 3 2027"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "normalise 12/25/2026 to ISO",
+   "input": {
+    "text": "12/25/2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "the form says 25.12.2026 — give me the ISO version",
+   "input": {
+    "text": "25.12.2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "read 'Oct 4, 2026' as a proper date",
+   "input": {
+    "text": "Oct 4, 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "1st March — what's that as an ISO date?",
+   "input": {
+    "text": "1st March"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "can you parse March 1st 2027 into a standard date for my database",
+   "input": {
+    "text": "March 1st 2027"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "11-04-2026: what ISO date is that?",
+   "input": {
+    "text": "11-04-2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "4th July as an ISO date please",
+   "input": {
+    "text": "4th July"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "the receipt reads 2 Feb 27 — read it as a date",
+   "input": {
+    "text": "2 Feb 27"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "Nov. 30 → full ISO date?",
+   "input": {
+    "text": "Nov. 30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "parse 30 November into a full date",
+   "input": {
+    "text": "30 November"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "June 9th, 2027 — normalise it to ISO",
+   "input": {
+    "text": "June 9th, 2027"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "DEC 24 2026 in ISO format please",
+   "input": {
+    "text": "DEC 24 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "what's 24 dec as an ISO date",
+   "input": {
+    "text": "24 dec"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "31/12 — make that a full ISO date",
+   "input": {
+    "text": "31/12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "turn the date in this email into ISO format",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDate",
+   "message": "parse the messy date below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDate",
+   "message": "parse the date written on this note into yyyy-mm-dd",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDate",
+   "message": "normalise the date from my spreadsheet cell",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDate",
+   "message": "read the handwritten date in the caption below as ISO",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDate",
+   "message": "clean up this date string into a standard date",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDate",
+   "message": "Developer: parse '3 Jan 2027' into ISO 8601",
+   "input": {
+    "text": "3 Jan 2027"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDate",
+   "message": "my passport says 9 Oct 2031; ISO date please",
+   "input": {
+    "text": "9 Oct 2031"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "Parse 2h 15m and give me the total seconds",
+   "input": {
+    "text": "2h 15m"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "total seconds for 1 hour 20 minutes",
+   "input": {
+    "text": "1 hour 20 minutes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "3d 4h — what's that in seconds",
+   "input": {
+    "text": "3d 4h"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "my recipe says 90 mins; convert that duration to seconds",
+   "input": {
+    "text": "90 mins"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "45m30s to seconds please",
+   "input": {
+    "text": "45m30s"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "convert 2 weeks 3 days into total seconds",
+   "input": {
+    "text": "2 weeks 3 days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "1.5 hours is how many seconds?",
+   "input": {
+    "text": "1.5 hours"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "the timer reads 3 hrs 10 min — in seconds?",
+   "input": {
+    "text": "3 hrs 10 min"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "12 minutes 40 seconds as a seconds total",
+   "input": {
+    "text": "12 minutes 40 seconds"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "parse '7h45m' for my timesheet",
+   "input": {
+    "text": "7h45m"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "how many seconds does 2 days, 6 hours come to",
+   "input": {
+    "text": "2 days, 6 hours"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "36 hours → seconds",
+   "input": {
+    "text": "36 hours"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "Gamer: cooldown is 3 h 5 m 2 s, how many seconds is that?",
+   "input": {
+    "text": "3 h 5 m 2 s"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "10 hours 5 minutes expressed in seconds",
+   "input": {
+    "text": "10 hours 5 minutes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "read 4d as a duration in seconds",
+   "input": {
+    "text": "4d"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "flight time 7h 5m — seconds?",
+   "input": {
+    "text": "7h 5m"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "seconds in 1w?",
+   "input": {
+    "text": "1w"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "total up this duration in seconds",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "how many seconds is the duration written below?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "parse the run time in my notes into seconds",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "convert the video length on this page to seconds",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "read the duration in this ticket as seconds",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "what's that duration in seconds — the one in the log",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseDuration",
+   "message": "a 5 min plank — convert the duration to seconds",
+   "input": {
+    "text": "5 min"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "when's in 6 weeks?",
+   "input": {
+    "phrase": "in 6 weeks"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "what was the date 3 days ago",
+   "input": {
+    "phrase": "3 days ago"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "last Friday — what date was that?",
+   "input": {
+    "phrase": "last Friday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "In 45 days I start a new job. What date is that?",
+   "input": {
+    "phrase": "In 45 days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "the day before yesterday's date?",
+   "input": {
+    "phrase": "the day before yesterday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "a year from now, which date will it be",
+   "input": {
+    "phrase": "a year from now"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "6 months ago, what date was it",
+   "input": {
+    "phrase": "6 months ago"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "If I go in a fortnight, what's the date then?",
+   "input": {
+    "phrase": "in a fortnight"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "next Thursday falls on?",
+   "input": {
+    "phrase": "next Thursday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "date for 8 weeks from now",
+   "input": {
+    "phrase": "8 weeks from now"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "90 days ago it was which date?",
+   "input": {
+    "phrase": "90 days ago"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "in 2 years, what date",
+   "input": {
+    "phrase": "in 2 years"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "2 weeks ago, which date was that?",
+   "input": {
+    "phrase": "2 weeks ago"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "Counting from today, in 75 days — what's the calendar date?",
+   "input": {
+    "phrase": "in 75 days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "4 days from now is what day and date?",
+   "input": {
+    "phrase": "4 days from now"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "my parcel arrives in 5 days, so on which date?",
+   "input": {
+    "phrase": "in 5 days"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "what was yesterday's date",
+   "input": {
+    "phrase": "yesterday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "last Tuesday, which day of the month was it?",
+   "input": {
+    "phrase": "last Tuesday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "Nurse: follow-up is in 1 week — what date do I book?",
+   "input": {
+    "phrase": "in 1 week"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "20 days ago — which date?",
+   "input": {
+    "phrase": "20 days ago"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "convert the relative date in my reminder to a calendar date",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "booking opens in 3 months; which date is that?",
+   "input": {
+    "phrase": "in 3 months"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "tomorrow's date?",
+   "input": {
+    "phrase": "tomorrow"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseRelativeDate",
+   "message": "work out the real date for the relative time in this text",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long ago, in words, was 2026-06-01",
+   "input": {
+    "date": "2026-06-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "2026-03-14 — how long ago is that roughly?",
+   "input": {
+    "date": "2026-03-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "Put 2025-12-25 in 'x ago' terms",
+   "input": {
+    "date": "2025-12-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how far off is 2027-01-01 in plain words",
+   "input": {
+    "date": "2027-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how far off is 2026-10-20, in plain words?",
+   "input": {
+    "date": "2026-10-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long ago was my last dentist visit on 2026-02-10, roughly",
+   "input": {
+    "date": "2026-02-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long ago was 2024-09-01 in plain words?",
+   "input": {
+    "date": "2024-09-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "is 2026-12-05 far off? say it in words",
+   "input": {
+    "date": "2026-12-05"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "time since 2026-08-15, human-style",
+   "input": {
+    "date": "2026-08-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "New Year's Day 2026 — how long ago was that in words?",
+   "input": {
+    "date": "2026-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long ago did I move in — 2023-05-20",
+   "input": {
+    "date": "2023-05-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "2027-05-01 is how far away, roughly?",
+   "input": {
+    "date": "2027-05-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "relative time for 2026-08-31",
+   "input": {
+    "date": "2026-08-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long ago was my last oil change, 2026-04-02?",
+   "input": {
+    "date": "2026-04-02"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long ago was the date on this receipt",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "say how far off the event date below is",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how far off is 2026-09-08, in words like 'in N days'",
+   "input": {
+    "date": "2026-09-08"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long ago, roughly, was 2020-03-23",
+   "input": {
+    "date": "2020-03-23"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long has it been since 2026-07-29, in words",
+   "input": {
+    "date": "2026-07-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "When's 2026-11-11 from now, in plain English?",
+   "input": {
+    "date": "2026-11-11"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "'x days ago' format for 2026-08-25",
+   "input": {
+    "date": "2026-08-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long ago was 1 January 2000 in words",
+   "input": {
+    "date": "2000-01-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long ago was my last login, per this log line",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how far away is the 2028-07-14 launch, roughly",
+   "input": {
+    "date": "2028-07-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "what is 1700000000 in human time?",
+   "input": {
+    "unix": 1700000000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "unix timestamp 1609459200 — readable form please",
+   "input": {
+    "unix": 1609459200
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "turn 1767225600 into a readable date and time",
+   "input": {
+    "unix": 1767225600
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "the log says ts=1791234567 — what date is that unix timestamp?",
+   "input": {
+    "unix": 1791234567
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "1735689600000 ms — what date is that?",
+   "input": {
+    "unix": 1735689600000,
+    "unit": "milliseconds"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "Unix 2147483647, which date does that land on?",
+   "input": {
+    "unix": 2147483647
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "decode the unix timestamp 1234567890",
+   "input": {
+    "unix": 1234567890
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "what time does unix 1800000000 correspond to",
+   "input": {
+    "unix": 1800000000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "convert 1672531199 seconds since epoch to ISO",
+   "input": {
+    "unix": 1672531199,
+    "unit": "seconds"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "Developer here: 1696118400000 (milliseconds) → ISO date",
+   "input": {
+    "unix": 1696118400000,
+    "unit": "milliseconds"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "convert the timestamp in this JSON to a date",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "make the unix timestamp in the log below human-readable",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "unix timestamp 946684800 — when was that?",
+   "input": {
+    "unix": 946684800
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "readable date for unix time 1777777777",
+   "input": {
+    "unix": 1777777777
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "1600000000 is what date?",
+   "input": {
+    "unix": 1600000000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "translate unix timestamp 1761955200 into calendar time",
+   "input": {
+    "unix": 1761955200
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "ISO date for 1750000000, it's in seconds",
+   "input": {
+    "unix": 1750000000,
+    "unit": "seconds"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "what calendar date is 1599999999",
+   "input": {
+    "unix": 1599999999
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "turn epoch millis 1704067200000 into a date",
+   "input": {
+    "unix": 1704067200000,
+    "unit": "milliseconds"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "timestamp 1888888888: date and time please",
+   "input": {
+    "unix": 1888888888
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "the API returned unix timestamp 1785000000 — what's that in real time?",
+   "input": {
+    "unix": 1785000000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "convert unix -86400 to a date",
+   "input": {
+    "unix": -86400
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "epoch 1500000000 → date",
+   "input": {
+    "unix": 1500000000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unixToIso",
+   "message": "what date is 1690000000 in UTC?",
+   "input": {
+    "unix": 1690000000
+   },
+   "mode": "full"
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "businessDaysBetween",
+    "daysBetween"
+   ],
+   "rows": [
+    {
+     "skill": "businessDaysBetween",
+     "message": "how many working days between 2026-10-05 and 2026-11-13",
+     "input": {
+      "from": "2026-10-05",
+      "to": "2026-11-13"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "daysBetween",
+     "message": "how many days between 2026-10-05 and 2026-11-13",
+     "input": {
+      "from": "2026-10-05",
+      "to": "2026-11-13"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "businessDaysBetween",
+    "daysBetween"
+   ],
+   "rows": [
+    {
+     "skill": "businessDaysBetween",
+     "message": "count the business days from 3 Nov 2026 to 4 Dec 2026",
+     "input": {
+      "from": "2026-11-03",
+      "to": "2026-12-04"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "daysBetween",
+     "message": "count the days from 3 Nov 2026 to 4 Dec 2026",
+     "input": {
+      "from": "2026-11-03",
+      "to": "2026-12-04"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "addDuration",
+    "daysBetween"
+   ],
+   "rows": [
+    {
+     "skill": "addDuration",
+     "message": "what date is 60 days after 2026-10-01",
+     "input": {
+      "from": "2026-10-01",
+      "amount": 60,
+      "unit": "days"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "daysBetween",
+     "message": "how many days after 2026-10-01 is 2026-11-30",
+     "input": {
+      "from": "2026-10-01",
+      "to": "2026-11-30"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "addDuration",
+    "daysBetween"
+   ],
+   "rows": [
+    {
+     "skill": "addDuration",
+     "message": "count 30 days forward from 2026-12-01 — what date?",
+     "input": {
+      "from": "2026-12-01",
+      "amount": 30,
+      "unit": "days"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "daysBetween",
+     "message": "count the days forward from 2026-12-01 to 2026-12-31",
+     "input": {
+      "from": "2026-12-01",
+      "to": "2026-12-31"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "addDuration",
+    "daysBetween"
+   ],
+   "rows": [
+    {
+     "skill": "addDuration",
+     "message": "from 2026-11-02, what date is 21 days later?",
+     "input": {
+      "from": "2026-11-02",
+      "amount": 21,
+      "unit": "days"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "daysBetween",
+     "message": "from 2026-11-02, how many days until 2026-11-23?",
+     "input": {
+      "from": "2026-11-02",
+      "to": "2026-11-23"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfWeek",
+    "nextWeekday"
+   ],
+   "rows": [
+    {
+     "skill": "dayOfWeek",
+     "message": "tell me which day of the week 2026-10-16 is",
+     "input": {
+      "date": "2026-10-16"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "nextWeekday",
+     "message": "tell me which date the friday after 2026-10-16 is",
+     "input": {
+      "weekday": "Friday",
+      "from": "2026-10-16"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfWeek",
+    "nextWeekday"
+   ],
+   "rows": [
+    {
+     "skill": "dayOfWeek",
+     "message": "what day does 2026-12-05 fall on",
+     "input": {
+      "date": "2026-12-05"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "nextWeekday",
+     "message": "what date does the next monday fall on after 2026-12-05",
+     "input": {
+      "weekday": "Monday",
+      "from": "2026-12-05"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfWeek",
+    "nextWeekday"
+   ],
+   "rows": [
+    {
+     "skill": "dayOfWeek",
+     "message": "tell me the weekday of 2027-01-20",
+     "input": {
+      "date": "2027-01-20"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "nextWeekday",
+     "message": "tell me the date of the previous sunday before 2027-01-20",
+     "input": {
+      "weekday": "Sunday",
+      "direction": "previous",
+      "from": "2027-01-20"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfYear",
+    "isWeekend"
+   ],
+   "rows": [
+    {
+     "skill": "dayOfYear",
+     "message": "what's the day number in the year for 2026-10-24",
+     "input": {
+      "date": "2026-10-24"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "isWeekend",
+     "message": "is 2026-10-24 a weekend day",
+     "input": {
+      "date": "2026-10-24"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfYear",
+    "isWeekend"
+   ],
+   "rows": [
+    {
+     "skill": "dayOfYear",
+     "message": "for 2027-05-08, give me the day of the year",
+     "input": {
+      "date": "2027-05-08"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "isWeekend",
+     "message": "for 2027-05-08, give me whether it's a weekend day",
+     "input": {
+      "date": "2027-05-08"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfYear",
+    "isWeekend"
+   ],
+   "rows": [
+    {
+     "skill": "dayOfYear",
+     "message": "2026-12-19: day-of-year number?",
+     "input": {
+      "date": "2026-12-19"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "isWeekend",
+     "message": "2026-12-19: weekend or working day?",
+     "input": {
+      "date": "2026-12-19"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysBetween",
+    "daysInMonth"
+   ],
+   "rows": [
+    {
+     "skill": "daysBetween",
+     "message": "how many days from 2029-04-01 to 2029-04-30",
+     "input": {
+      "from": "2029-04-01",
+      "to": "2029-04-30"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "daysInMonth",
+     "message": "how many days in month 4 of 2029",
+     "input": {
+      "month": 4,
+      "year": 2029
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysBetween",
+    "daysInMonth"
+   ],
+   "rows": [
+    {
+     "skill": "daysBetween",
+     "message": "count the days from 1 June 2031 to 30 June 2031",
+     "input": {
+      "from": "2031-06-01",
+      "to": "2031-06-30"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "daysInMonth",
+     "message": "count the days in month 6 of 2031",
+     "input": {
+      "month": 6,
+      "year": 2031
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysBetween",
+    "daysInMonth"
+   ],
+   "rows": [
+    {
+     "skill": "daysBetween",
+     "message": "how many days long is the stretch 2025-11-01 to 2025-12-01",
+     "input": {
+      "from": "2025-11-01",
+      "to": "2025-12-01"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "daysInMonth",
+     "message": "how many days long is month 11 of 2025",
+     "input": {
+      "month": 11,
+      "year": 2025
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysInMonth",
+    "generateCalendarGrid"
+   ],
+   "rows": [
+    {
+     "skill": "daysInMonth",
+     "message": "how many days are in month 3 of 2031",
+     "input": {
+      "month": 3,
+      "year": 2031
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateCalendarGrid",
+     "message": "draw the calendar for month 3 of 2031",
+     "input": {
+      "year": 2031,
+      "month": 3
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysInMonth",
+    "generateCalendarGrid"
+   ],
+   "rows": [
+    {
+     "skill": "daysInMonth",
+     "message": "month 8 of 2029: how many days in it?",
+     "input": {
+      "month": 8,
+      "year": 2029
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateCalendarGrid",
+     "message": "month 8 of 2029: print a calendar of it",
+     "input": {
+      "year": 2029,
+      "month": 8
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysInMonth",
+    "generateCalendarGrid"
+   ],
+   "rows": [
+    {
+     "skill": "daysInMonth",
+     "message": "the 12th month of 2030 — show how many days",
+     "input": {
+      "month": 12,
+      "year": 2030
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateCalendarGrid",
+     "message": "the 12th month of 2030 — show it as a calendar",
+     "input": {
+      "year": 2030,
+      "month": 12
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "expandRecurrence",
+    "parseRelativeDate"
+   ],
+   "rows": [
+    {
+     "skill": "expandRecurrence",
+     "message": "every 4 weeks, starting today — what are the dates?",
+     "input": {
+      "start": "today",
+      "every": "week",
+      "interval": 4
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "parseRelativeDate",
+     "message": "in 4 weeks, starting today — what's the date?",
+     "input": {
+      "phrase": "in 4 weeks"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "expandRecurrence",
+    "parseRelativeDate"
+   ],
+   "rows": [
+    {
+     "skill": "expandRecurrence",
+     "message": "a dose every 3 days starting today: which dates?",
+     "input": {
+      "start": "today",
+      "every": "day",
+      "interval": 3
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "parseRelativeDate",
+     "message": "a dose in 3 days, counting from today: which date?",
+     "input": {
+      "phrase": "in 3 days"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "expandRecurrence",
+    "parseRelativeDate"
+   ],
+   "rows": [
+    {
+     "skill": "expandRecurrence",
+     "message": "a reminder every 2 weeks from tomorrow — when does it fall?",
+     "input": {
+      "start": "tomorrow",
+      "every": "week",
+      "interval": 2
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "parseRelativeDate",
+     "message": "a reminder in 2 weeks — when does it fall?",
+     "input": {
+      "phrase": "in 2 weeks"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "isoToUnix",
+    "unixToIso"
+   ],
+   "rows": [
+    {
+     "skill": "isoToUnix",
+     "message": "turn 2026-10-07 into unix time",
+     "input": {
+      "date": "2026-10-07"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "unixToIso",
+     "message": "turn 1791331200 unix time into a date",
+     "input": {
+      "unix": 1791331200
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "isoToUnix",
+    "unixToIso"
+   ],
+   "rows": [
+    {
+     "skill": "isoToUnix",
+     "message": "turn 2027-02-02 into a unix timestamp, please",
+     "input": {
+      "date": "2027-02-02"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "unixToIso",
+     "message": "turn unix timestamp 1801526400 into a readable time, please",
+     "input": {
+      "unix": 1801526400
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "listTimezoneOffsets",
+    "timezoneLookup"
+   ],
+   "rows": [
+    {
+     "skill": "listTimezoneOffsets",
+     "message": "current time and UTC offset in Seoul and Bangkok",
+     "input": {
+      "zones": [
+       "Asia/Seoul",
+       "Asia/Bangkok"
+      ]
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "timezoneLookup",
+     "message": "current time and UTC offset in Seoul",
+     "input": {
+      "zone": "Asia/Seoul"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "listTimezoneOffsets",
+    "timezoneLookup"
+   ],
+   "rows": [
+    {
+     "skill": "listTimezoneOffsets",
+     "message": "what's the offset for Rome and New York",
+     "input": {
+      "zones": [
+       "Europe/Rome",
+       "America/New_York"
+      ]
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "timezoneLookup",
+     "message": "what's the offset for Rome",
+     "input": {
+      "zone": "Europe/Rome"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "listTimezoneOffsets",
+    "timezoneLookup"
+   ],
+   "rows": [
+    {
+     "skill": "listTimezoneOffsets",
+     "message": "time and UTC offset for Sydney and Lagos",
+     "input": {
+      "zones": [
+       "Australia/Sydney",
+       "Africa/Lagos"
+      ]
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "timezoneLookup",
+     "message": "time and UTC offset for Sydney",
+     "input": {
+      "zone": "Australia/Sydney"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseDate",
+    "parseRelativeDate"
+   ],
+   "rows": [
+    {
+     "skill": "parseDate",
+     "message": "please turn Oct 9 into a proper calendar date for me",
+     "input": {
+      "text": "Oct 9"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "parseRelativeDate",
+     "message": "please turn next friday into a proper calendar date for me",
+     "input": {
+      "phrase": "next friday"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseDate",
+    "parseRelativeDate"
+   ],
+   "rows": [
+    {
+     "skill": "parseDate",
+     "message": "convert 4 Dec into an exact date for my diary",
+     "input": {
+      "text": "4 Dec"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "parseRelativeDate",
+     "message": "convert 10 days ago into an exact date for my diary",
+     "input": {
+      "phrase": "10 days ago"
+     },
+     "mode": "full"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+  "batch": "o06",
+  "texts": [
+    {
+      "kind": "receipt",
+      "text": "MOLONEY'S FOODSTORE\n14 Main Street, Castlecorran\nBrown soda loaf €3.20\nMilk 2L x2 €4.38\nRashers 300g €3.95\nWestern Clarion €2.80\nBarmbrack €4.50\nTOTAL €18.83\nCash €20.00\nChange €1.17\n04/03/2026 08:51 Till 1"
+    },
+    {
+      "kind": "receipt",
+      "text": "DEVANEY HARDWARE & FARM SUPPLIES\nBridge Street, Castlecorran · VAT Reg. 3345127KH\nQty 2 Galvanised gate hinge €11.90\nQty 1 Fencing staples 1kg €6.75\nQty 3 Baling twine roll €14.97\nQty 1 Wellingtons size 9 €24.00\nSubtotal €57.62\nFarm account discount 10% -€5.76\nTotal €51.86\nPaid by card ****6083\nDate: 03 Feb 2026 14:52"
+    },
+    {
+      "kind": "receipt",
+      "text": "THE WEIGHBRIDGE BAR\nMarket Square, Castlecorran\nTable 6 · Server: Órla\n2 x Pint stout €11.40\n1 x Glass white wine €7.50\n1 x Toasted special €8.95\n2 x Crisps cheese & onion €3.00\nSubtotal €30.85\nTip €3.00\nTotal €33.85\n28/11/2025 21:37"
+    },
+    {
+      "kind": "receipt",
+      "text": "FLANAGAN'S PHARMACY\nChurch Street, Castlecorran · 01632 960388\nIbuprofen 200mg x24 €3.49\nThroat lozenges €5.25\nSun cream SPF 50 €14.99\nVitamin D3 1000 IU €9.50\nItems: 4\nTotal €33.23\nCard €33.23\nThank you, get well soon!\nReceipt No. 004817 · 16.05.2026 11:03"
+    },
+    {
+      "kind": "receipt",
+      "text": "P. J. GARVEY, FAMILY BUTCHER\nBarrack Street, Castlecorran\nLamb chops 0.850 kg @ €16.00/kg €13.60\nRound steak mince 1.200 kg @ €9.50/kg €11.40\nBlack pudding 1 €3.80\nSpiced beef 0.400 kg @ €22.00/kg €8.80\nTOTAL €37.60\nCash €40.00 Change €2.40\nSat 20 Dec 2025 10:21"
+    },
+    {
+      "kind": "receipt",
+      "text": "THE BLUE TEAPOT CAFÉ\nFair Green, Castlecorran\nOrder #217 · Eat in\nFlat white x2 €7.60\nScone with jam & cream €3.95\nCarrot cake €4.75\nHot chocolate €3.80\nTotal €20.10\nVisa contactless €20.10\n07/08/2026 16:42 · Staff: Ciarán"
+    },
+    {
+      "kind": "receipt",
+      "text": "CORRAN ROAD SERVICE STATION\nKilbrack Road, Castlecorran\nPump 3 Diesel 42.18 L @ €1.689 = €71.24\nCar wash Premium €12.00\nScreenwash 5L €6.50\nTotal €89.74\nPaid Mastercard ****0932\nAuth code 448172\n22-01-2026 07:58"
+    },
+    {
+      "kind": "receipt",
+      "text": "ST. BRIGID'S CHARITY SHOP\nAbbey Road, Castlecorran\nWool coat €15.00\nPaperback novels 3 @ €2.00 €6.00\nTeapot €4.00\nJigsaw 1000 pc €3.50\nTotal €28.50\nTendered €30.00\nChange €1.50\nEvery euro supports the Castlecorran Hospice at Home service.\n05/06/2026"
+    },
+    {
+      "kind": "receipt",
+      "text": "CORRAN ARMS HOTEL\nThe Mall, Castlecorran · Tel 01632 960550\nGuest: Mr D. Halloran · Room 12\nArrived 14/07/2026 · Departed 16/07/2026\nRoom 2 nights @ €115.00 €230.00\nDinner 14/07 €48.50\nBar €21.00\nTotal charges €299.50\nDeposit paid -€50.00\nBalance due €249.50\nInvoice No. CA-30971"
+    },
+    {
+      "kind": "receipt",
+      "text": "O'DOWD'S NEWSAGENT & POST OFFICE\nStamps national x6 @ €1.65 €9.90\nPadded envelope A4 €1.20\nWestern Clarion €2.80\nPhone top-up €20.00\nBiro pack of 4 €2.35\nTotal €36.25\nCash €40.00 Change €3.75\nDate 09/10/2025 12:30 · Trans 6620"
+    },
+    {
+      "kind": "receipt",
+      "text": "CASTLECORRAN CO-OP MART\nSale of 2 store bullocks, Thursday 12 March 2026\nLot 47 · 2 head · 1,064 kg total @ €3.15/kg = €3,351.60\nLess commission 3% -€100.55\nLess levy -€4.00\nNet to seller €3,247.05\nPaid by cheque No. 018234\nSeller: M. Kilbride, Lisdarra"
+    },
+    {
+      "kind": "receipt",
+      "text": "SORRENTO TAKEAWAY\nOrder 63 · Collection 18:45\n1 Fish & chips €12.50\n1 Snack box €9.00\n2 Battered sausage €5.60\n1 Curry sauce €2.20\n1 Can orange €1.80\nTotal €31.10\nPaid cash\nFri 30 Jan 2026"
+    },
+    {
+      "kind": "receipt",
+      "text": "GLENMULLEN GARDEN CENTRE\nArdnagh Road, Castlecorran\nCompost 70L x2 €17.00\nRose bush 'Peace' €12.99\nSeed potatoes 2kg €4.50\nTotal €34.49\nSterling tendered £30.00 @ 1.17 = €35.10\nChange in euro €0.61\n25/04/2026 15:16 Till 1"
+    },
+    {
+      "kind": "receipt",
+      "text": "SPOTLESS DRY CLEANERS\nUnit 4, Fair Green Centre, Castlecorran\nTicket No. 3391\n2-piece suit €16.00\nShirts x3 @ €3.50 €10.50\nDuvet (double) €22.00\nTotal €48.50\nPaid in advance €48.50\nReady Wed 18/02 after 2 p.m."
+    },
+    {
+      "kind": "receipt",
+      "text": "CASSIDY'S SUPERMARKET\nTea bags 160 €5.49\nButter 454g €3.99\nFree-range eggs x12 €4.29\nBananas 1.05 kg @ €1.69/kg €1.77\nCheddar 200g €3.15\nTotal €18.69\nPoints earned 18\nDebit card €18.69\nThanks for shopping local! 11.11.2025 18:02"
+    },
+    {
+      "kind": "notice",
+      "text": "CASTLECORRAN COUNTY COUNCIL\nNOTICE OF ROAD CLOSURE\nThe L-4127 Lisdarra Road will be closed between its junctions with Bridge Street and Kilbrack Cross from 07:00 on Monday 4 May 2026 to 19:00 on Friday 15 May 2026 to allow for watermain replacement works.\nDiversion: via the R318 and Ardnagh village (approx. 6 km).\nLocal access will be maintained at all times.\nEnquiries: Roads Section, 01632 960470.\nRef. RC/26/0148"
+    },
+    {
+      "kind": "notice",
+      "text": "TIDY TOWNS VOLUNTEERS WANTED\nJoin us every Saturday at 10 a.m. at the Market House steps. Gloves, pickers and bags supplied, tea and biscuits after.\nLast year we came 2nd in our category with 312 marks, just 4 behind Kilbrack!\nContact Breda on 07700 900341."
+    },
+    {
+      "kind": "notice",
+      "text": "St. Colmcille's Church, Castlecorran\nMass times from 1 September:\nSaturday vigil 7.30 p.m.\nSunday 9.00 a.m. and 11.30 a.m.\nWeekdays 10.00 a.m. (except Thursday)\nConfessions Saturday after 7.30 p.m. Mass\nParish office 01632 960119 · Mon–Fri 9.30–12.30"
+    },
+    {
+      "kind": "notice",
+      "text": "CLOSED FOR STOCKTAKING\nThursday 2nd and Friday 3rd January.\nReopening Saturday 4th January at 9 a.m.\nHappy New Year to all our customers from Mary, Tom and all the staff at Garvey's."
+    },
+    {
+      "kind": "notice",
+      "text": "FAIR GREEN CAR PARK\nPay & Display 08:00–18:00 Mon–Sat\n€1.00 per hour · Maximum stay 3 hours\nSundays and public holidays free\nFixed charge notice €40.00, rising to €60.00 if unpaid after 28 days.\nPermit holders: bays 1–24 only.\nCastlecorran Municipal District, Ref. PD-0092"
+    },
+    {
+      "kind": "notice",
+      "text": "CASTLECORRAN BRANCH LIBRARY\nOpening hours\nTue & Thu 10:00–13:00, 14:00–20:00\nWed & Fri 10:00–13:00, 14:00–17:00\nSat 10:00–13:00\nClosed Sunday, Monday and bank holidays\nBook drop available 24 hours at the side door.\nTel. 01632 960705 · castlecorran.library@example.ie"
+    },
+    {
+      "kind": "notice",
+      "text": "NOTICE TO DOG OWNERS\nDogs must be kept on a lead at all times in the Town Park and on the River Walk.\nFouling is an offence under the Litter Pollution Act; on-the-spot fines of up to €150 apply.\nFree bags are available from the dispensers at gates 1, 2 and 4.\nReport stray dogs to the warden: 07700 900287."
+    },
+    {
+      "kind": "notice",
+      "text": "FLANAGAN'S PHARMACY\nChristmas & New Year opening hours\n24 Dec 9am–4pm\n25 & 26 Dec Closed\n27 Dec–30 Dec 9am–6pm\n31 Dec 9am–4pm\n1 Jan Closed\nOut of hours: CorranDoc 01632 960999"
+    },
+    {
+      "kind": "notice",
+      "text": "SCOIL MHUIRE NATIONAL SCHOOL\nEnrolment for September 2027 is now open.\nApplication forms are available from the school office (Mon–Fri, 9:15 a.m.–2:30 p.m.) or at the Open Morning on Saturday 21 November from 10:30 to 12:00.\nClosing date for applications: Friday 29 January 2027.\nRoll No. 18452P"
+    },
+    {
+      "kind": "notice",
+      "text": "BIN COLLECTION CHANGES OVER EASTER\nDue to the bank holiday on Monday 6 April, all collections that week will move one day later.\nMonday's route will be collected on Tuesday, Tuesday's on Wednesday, and so on, with Friday's moving to Saturday 11 April.\nPlease have your bin out by 7 a.m. Customer care: 01632 960633."
+    },
+    {
+      "kind": "notice",
+      "text": "BOIL WATER NOTICE\nCustomers supplied by the Glenmullen water scheme, including Lisdarra, Carnmore and the Kilbrack Road area, should boil all water used for drinking, brushing teeth and making ice until further notice.\nBring water to a rolling boil and allow to cool. Bottled water is available at the Fire Station, Bridge Street, from 2 p.m. to 8 p.m. daily.\nUpdates: 01632 960812\nIssued 14/09/2026 at 16:30."
+    },
+    {
+      "kind": "notice",
+      "text": "LOST — BLACK & WHITE COLLIE\nAnswers to \"Bran\", 4 years old, wearing a red collar, microchipped.\nLast seen near the GAA grounds on Sunday 8 March around 6 pm.\nVery nervous, please do not chase.\n€200 reward for safe return.\nPlease ring Aoife on 07700 900618."
+    },
+    {
+      "kind": "notice",
+      "text": "NOTICE TO CUSTOMERS\nWe accept sterling at a rate of £1 = €1.15.\nChange is given in euro only.\nNo £50 notes, sorry.\nCheques over €100 require a bank card.\nManagement, Devaney Hardware"
+    },
+    {
+      "kind": "notice",
+      "text": "CASTLECORRAN CO-OP MART\nWeekly sales\nCattle: every Thursday, 11:00 sharp\nSheep: every Tuesday, 18:30\nCalves: first Saturday of the month, 10:30\nWeighing from 8 a.m. on sale days. All animals must be tagged and accompanied by passports.\nSales line: 07700 900155"
+    },
+    {
+      "kind": "notice",
+      "text": "CASTLECORRAN COMMUNITY CENTRE\nHall hire rates 2026\nMain hall (seats 220): €45 per hour / €300 per day\nMeeting room 2: €15 per hour\nKitchen use: €20 per booking\nCommunity groups receive a 25% discount.\nBookings: Pádraig Ó Ceallaigh, 01632 960244, Mon–Fri 9.30 a.m. to 1 p.m."
+    },
+    {
+      "kind": "letter",
+      "text": "Castlecorran County Council\nPlanning Ref. 26/412\n14 April 2026\nDear Mr and Mrs Brennan,\nFurther to your application for permission to construct a single-storey extension of 28 sq m to the rear of 7 Abbey Road, the Planning Authority requires further information before a decision can be made.\nPlease submit revised drawings at a scale of 1:100 showing the ridge height and the distance to the boundary with No. 9 within 6 months of the date of this letter.\nYours faithfully,\nGráinne Lacey, Senior Executive Officer"
+    },
+    {
+      "kind": "letter",
+      "text": "From: Maureen Fitzpatrick <maureen.fitz@example.com>\nSent: Tuesday, June 9, 2026 8:14 PM\nSubject: Our trip in August\nHi Seán, we've booked our flights! We land at 6:40 a.m. on Saturday, August 15 and we'll pick up the rental car at the airport, so no need to collect us. The car is costing $612 for 10 days, which Jim says is robbery. Could you recommend a B&B near Castlecorran for the first 3 nights? Our budget is about $150 a night.\nLove to Úna and the kids,\nMaureen"
+    },
+    {
+      "kind": "letter",
+      "text": "Castlecorran GAA Club\nDear Member,\nYour membership for 2026 is now due. The rates remain unchanged: adult €80, student €40, family €150 and juvenile €25.\nPayment can be made at the clubhouse on Tuesday or Thursday evenings between 7 and 9 p.m., or online using the reference CGAA-2026 and your member number.\nMembership must be paid by 31 March for players to be registered for the league.\nIs mise le meas,\nDeclan Murtagh, Treasurer"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Order No. 55821 — delivery update\nDear Ms Keane,\nThank you for your order of 9 March. Unfortunately the oak dresser (item code OD-180) is delayed at the workshop and will now be delivered on Thursday 26 March between 8 a.m. and 1 p.m.\nAs an apology we have refunded the €45.00 delivery charge to your card ending 2210. The balance of €1,150.00 was paid in full on 9 March.\nKind regards,\nEoin, Corran Furniture"
+    },
+    {
+      "kind": "letter",
+      "text": "CONLON & REDDAN SOLICITORS\n3 The Mall, Castlecorran\nOur ref: CR/PK/2291\n22 October 2025\nDear Mrs Kinsella,\nRe: Estate of the late Patrick Kinsella\nWe enclose a cheque for €8,437.50, being your one-quarter share of the residue of €33,750.00 as set out in the enclosed statement. Kindly sign and return the receipt within 14 days.\nYours sincerely,\nAnne Reddan"
+    },
+    {
+      "kind": "letter",
+      "text": "14 Elm Grove, Leeds\n3rd May 1961\nDear Mammy,\nI am keeping well and the work at the mill is steady, 6 days a week. I am sending £5 in this letter, and there will be another £3 at the end of the month for the rates. Tell Daddy the new bicycle cost me £12 10s but it saves the 9d bus fare every day.\nYour loving son,\nMichael"
+    },
+    {
+      "kind": "letter",
+      "text": "Scoil Mhuire N.S., Castlecorran\n11 September 2026\nDear Parents,\nThe school tour for 5th and 6th class will take place on Friday 2 October. The bus leaves at 8:30 a.m. sharp and returns at approx. 5:00 p.m.\nThe cost is €28 per pupil, which covers transport and entry to the adventure centre. Please return the consent slip with payment by Friday 25 September.\nPupils should bring a packed lunch, a raincoat and a change of socks.\nMs Nic Ghearailt, Principal"
+    },
+    {
+      "kind": "letter",
+      "text": "From: bookings@riversidecottages.example\nTo: h.dunne@example.ie\nDate: 3 Feb 2026, 10:22\nHi Helen, I'm delighted to confirm Cottage No. 3 for 7 nights from Saturday 18 July to Saturday 25 July 2026, sleeping 6.\nThe total is €1,260 (€180 per night), and a deposit of 25% (€315) secures the booking. The balance of €945 is due by 18 June.\nCheck-in from 4 p.m., check-out by 10 a.m. Dogs welcome for €30 per stay.\nBest wishes, Dervla"
+    },
+    {
+      "kind": "letter",
+      "text": "Sir,\nI write regarding the proposed closure of the Castlecorran post office counter at 2 p.m. on weekdays from 1 March. For many of the 400 or so pensioners in this parish, the post office is the only place to collect payments, and the 23 km round trip to Kilbrack is beyond many of them.\nI would urge readers to attend the public meeting in the Market House on Wednesday 18 February at 8 p.m.\nYours etc.,\nT. Ó Briain, Lisdarra"
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Rota for week beginning 13/04\nHi all,\nPlease find the rota for next week below. Niamh is off Tuesday and Wednesday, so Colm will open at 7:00 both days.\nMon 07:00–15:00 Colm, 12:00–20:00 Niamh\nTue 07:00–15:00 Colm, 12:00–20:00 Aidan\nWed 07:00–15:00 Colm, 12:00–20:00 Aidan\nThanks, Róisín"
+    },
+    {
+      "kind": "letter",
+      "text": "Castlecorran Credit Union Ltd\nMember No. 40217\nDear Ms Delaney,\nWe are pleased to confirm that your loan application for €6,500 has been approved. The loan will be repaid over 36 months at a variable rate of 7.5% APR, with monthly repayments of approx. €202.\nPlease call to the office on Main Street with photo ID and proof of address to sign the agreement.\nYours sincerely,\nLoans Officer"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Bridie and all at the Blue Teapot,\nJust a note to say thank you for the beautiful cake for Dad's 90th on Saturday. All 45 guests were asking where it came from, and there wasn't a crumb left by 10 o'clock!\nI've enclosed a cheque for the balance of €65. Please put us down for the christening on 3 May too.\nWith many thanks,\nCatherine Ruane"
+    },
+    {
+      "kind": "letter",
+      "text": "From: Corran Veterinary Clinic\nSubject: Reminder — Rex is due his booster\nDear Mr Quigley,\nOur records show that Rex (Labrador, 6 yrs) is due his annual booster vaccination on or before 30/11/2026.\nThe vaccination costs €55, or €45 if booked before 15/11. Appointments are available Mon–Sat; call 01632 960905 or reply to this email.\nKind regards,\nSinéad, Reception"
+    },
+    {
+      "kind": "letter",
+      "text": "5 Fair View, Castlecorran\n2 December 2025\nDear Sir or Madam,\nAccount No. 7731 0482 19\nI was billed €384.62 for the period 01/10/2025 to 30/11/2025, based on an estimated reading of 48,516. My actual meter reading today is 46,902, so I have been over-estimated by 1,614 units.\nPlease issue a corrected bill and confirm in writing.\nYours faithfully,\nNoel Sheridan"
+    },
+    {
+      "kind": "letter",
+      "text": "From: Dana Whitcomb <dwhitcomb@example.com>\nSubject: Re: Genealogy research — Castlecorran\nHi Mr. Hennessy, thank you for the parish records. I'm thrilled to finally see my great-grandmother's baptism, dated April 4, 1889. Your fee of $240 plus $18.50 for postage of the certified copies came to $258.50, which I've wired to your account today.\nI'll be in Ireland from September 10–24 and would love to meet you and visit the old homestead, if your schedule allows. My cell is 555-0137.\nBest regards,\nDana"
+    },
+    {
+      "kind": "menu",
+      "text": "THE BLUE TEAPOT — BREAKFAST\nServed 8:00 to 11:30\nFull Irish (2 rashers, 2 sausages, egg, black & white pudding, toast) €12.50\nSmall Irish €9.50\nPorridge with honey or brown sugar €5.20\nScrambled eggs on brown soda €7.95\nToasted sandwich of the day €6.75\nPot of tea €2.80 · Coffee €3.20\nGluten-free bread available, please ask."
+    },
+    {
+      "kind": "menu",
+      "text": "THE WEIGHBRIDGE BAR — LUNCH MENU\n12:30 to 3:00 p.m. daily\nSoup of the day with homemade brown bread €6.50\nBeef & stout stew €16.95\nBacon & cabbage, parsley sauce €15.50\nFish of the day, ask your server €18.00\nChicken Caesar salad €13.95\nKids' menu €8.00 (under 12s)\nPlease inform staff of any allergies."
+    },
+    {
+      "kind": "menu",
+      "text": "SORRENTO TAKEAWAY\nFish & chips (cod) €12.50 · (haddock) €13.00\nSnack box (2 pcs chicken & chips) €9.00\nBurger, plain €6.50 · with cheese €7.20\nBattered sausage €2.80\nChips: small €3.50 / large €4.80\nCurry, garlic or gravy sauce €2.20\nOpen 5 p.m. to midnight, Fri & Sat until 2 a.m.\nPhone orders 01632 960321"
+    },
+    {
+      "kind": "menu",
+      "text": "CORRAN ARMS HOTEL\nDinner menu · 2 courses €34 · 3 courses €40\nStarters: Chowder of smoked haddock & mussels; Goat's cheese tartlet, red onion relish\nMains: Roast sirloin of beef, Yorkshire pudding; Pan-fried hake, lemon & caper butter; Wild mushroom risotto (V)\nDesserts: Apple crumble & custard; Whiskey cheesecake; Selection of Irish cheeses (€4 supplement)\nServed 6 p.m. to 9.30 p.m."
+    },
+    {
+      "kind": "menu",
+      "text": "SPICE ROUTE INDIAN TAKEAWAY\n1 Onion bhaji (4 pcs) €5.50\n2 Vegetable samosa (2 pcs) €5.00\n14 Chicken tikka masala €14.50\n17 Lamb rogan josh €15.95\n22 Chana masala (V) €11.50\n30 Pilau rice €3.80 · Naan €3.50\nFree poppadoms on orders over €30\nTel. 01632 960456 · Closed Mondays"
+    },
+    {
+      "kind": "menu",
+      "text": "CHRISTMAS PARTY MENU 2025\nCorran Arms Hotel · €42.50 per person\nCream of vegetable soup or Chicken liver pâté with toasted brioche\nRoast turkey & ham with cranberry stuffing, or Baked salmon with herb crust\nChristmas pudding with brandy sauce, or Chocolate fudge cake\nTea or coffee and mince pies\nAvailable from 28 November to 23 December. Groups of 10+ receive a complimentary glass of prosecco on arrival.\nDeposit of €10 pp to confirm."
+    },
+    {
+      "kind": "menu",
+      "text": "HEFFERNAN'S BAKERY\nBrown soda loaf €3.20\nWhite sliced pan €2.10\nBarmbrack €4.50 (with butter, slice €2.40)\nApple tart, whole €9.00 / slice €2.50\nCream doughnut €1.95\nSausage roll €2.20 · 3 for €6.00\nOrders taken for christenings, communions & birthdays."
+    },
+    {
+      "kind": "menu",
+      "text": "THE BEAN MACHINE · coffee van at Fair Green\nEspresso €2.50\nAmericano €3.00\nLatte / Cappuccino / Flat white €3.60\nMocha €3.90\nOat or soy milk +€0.40\nExtra shot +€0.50\nToasties from €5.50\nMon–Fri 7:30–14:00 · Sat 9:00–13:00\nLoyalty card: 9th coffee free!"
+    },
+    {
+      "kind": "menu",
+      "text": "NAPOLI PIZZERIA\nMargherita 10\" €11.00 / 14\" €15.00\nPepperoni 10\" €12.50 / 14\" €16.50\nQuattro formaggi 10\" €13.00 / 14\" €17.50\nPiccante (chilli, nduja, jalapeños) 10\" €13.50 / 14\" €18.00\nGarlic bread with cheese €5.50\nTiramisù €6.00\nDelivery within 5 km €3.00 · Free over €35"
+    },
+    {
+      "kind": "menu",
+      "text": "CASTLECORRAN GOLF CLUB\nSunday lunch, 12:30–4:00 p.m.\nRoast of the day with seasonal vegetables €19.50\nSalmon darne, hollandaise €21.00\nVegetable lasagne €16.00\nChildren's portion €10.00\nHomemade dessert €6.50\nMembers receive 10% off on production of membership card.\nBooking advised: 01632 960877"
+    },
+    {
+      "kind": "menu",
+      "text": "FIRST HOLY COMMUNION MENU\nSaturday 16 May 2026 · Heffernan's Function Room\nAdults €29.00 · Children (under 12) €14.50\nMelon & berries or Vegetable soup\nRoast chicken & ham, stuffing, mash & gravy\nBeef lasagne with garlic bread & salad\nSherry trifle or Ice cream sundae\nTea, coffee & a slice of communion cake"
+    },
+    {
+      "kind": "menu",
+      "text": "SCOOPS ICE CREAM PARLOUR\n1 scoop €3.00 · 2 scoops €4.80 · 3 scoops €6.20\nToday's flavours: vanilla, honeycomb, salted caramel, raspberry ripple, mint choc chip, Irish coffee\nWaffle cone +€0.80\nSprinkles, flake or sauce €0.50 each\nMilkshakes (regular 12 oz / large 16 oz) €4.50 / €5.50\nOpen daily 12–8 pm, June to September"
+    },
+    {
+      "kind": "menu",
+      "text": "CRÊPE CORNER · Castlecorran Farmers' Market, Fridays 9–2\nSugar & lemon €4.00\nChocolate & banana €5.50\nHam, cheese & egg galette €7.50\nGoat's cheese, spinach & walnut €8.00\nAdd whipped cream €1.00\nCafé au lait €3.20\nCash or card · Allergen list on request"
+    },
+    {
+      "kind": "menu",
+      "text": "BAR FOOD from 5 p.m.\nChicken wings (6) with blue cheese dip €9.50\nSteak sandwich on ciabatta, onions & chips €17.50\nBeer-battered fish goujons €11.00\nLoaded fries €7.50\nCheese board for 2 €16.00\nMulligan's Lounge, Barrack Street · Kitchen closes 9 p.m."
+    },
+    {
+      "kind": "menu",
+      "text": "LUCKY STAR CHINESE TAKEAWAY\n3. Spring rolls (4) €5.20\n9. Salt & chilli chicken €12.00\n18. Sweet & sour pork €12.50\n26. Kung po king prawns €14.80\n33. Singapore noodles €11.20\n45. Curry chips €5.00\nSet meal for 2 (A) €32.00\nOpen Tue–Sun 4:30 p.m.–11 p.m."
+    },
+    {
+      "kind": "timetable",
+      "text": "COUNTY LINK ROUTE 421\nCastlecorran – Ardnagh – Kilbrack\nMon–Sat\nCastlecorran, Market Sq. 07:10 09:40 13:15 17:30\nArdnagh, Church 07:25 09:55 13:30 17:45\nKilbrack, Hospital 07:48 10:18 13:53 18:08\nKilbrack, Bus Station 07:55 10:25 14:00 18:15\nNo service Sundays or public holidays.\nAdult single €4.50, return €7.00. Free Travel Pass accepted."
+    },
+    {
+      "kind": "timetable",
+      "text": "CASTLECORRAN STATION — DEPARTURES TO DUBLIN\nWeekdays\n06:05 (arrives 08:12)\n07:40 (arrives 09:41)\n10:15 (arrives 12:20)\n14:30 (arrives 16:38)\n18:05 (arrives 20:10)\nSaturdays: 07:40, 12:15 and 17:50 only\nSundays: 09:30 and 16:45\nTickets from the booking office (open 05:45–19:00) or online."
+    },
+    {
+      "kind": "timetable",
+      "text": "CORRAN LEISURE CENTRE — POOL TIMES\nMonday 7:00–9:00 adult lanes · 15:30–18:00 public\nTuesday 7:00–9:00 adult lanes · 18:00–19:30 aqua aerobics\nWednesday 10:00–12:00 parent & toddler · 16:00–20:00 public\nThursday 7:00–9:00 adult lanes · 19:00–21:00 club training\nFriday 15:30–20:00 public\nSaturday 10:00–17:00 family swim\nAdult €6.50 · Child €4.00 · Family (2+3) €17.00"
+    },
+    {
+      "kind": "timetable",
+      "text": "CASTLECORRAN ROUTE B — COLLECTION DAYS 2026\nGeneral waste (black): Thu 8 Jan, 5 Feb, 5 Mar, 2 Apr, 30 Apr\nRecycling (green): Thu 15 Jan, 12 Feb, 12 Mar, 9 Apr, 7 May\nFood waste (brown): every Thursday\nGlass: bring to the bottle bank at the Fair Green car park.\nBins out by 7 a.m. on the morning of collection, please."
+    },
+    {
+      "kind": "timetable",
+      "text": "CASTLECORRAN GAA — SENIOR FOOTBALL FIXTURES\nSun 19 Apr 3:00 pm Castlecorran v Kilbrack (home)\nSun 3 May 2:30 pm Ardnagh v Castlecorran (away)\nSat 16 May 7:00 pm Castlecorran v Glenmullen Gaels (home)\nSun 31 May 3:30 pm Lisdarra v Castlecorran (away)\nAdmission €10, OAPs & students €5, U-16 free\nBus to away games leaves the clubhouse 90 minutes before throw-in."
+    },
+    {
+      "kind": "timetable",
+      "text": "DR. M. LYNCH & DR. A. OKAFOR — SURGERY HOURS\nMonday 9:00–13:00, 14:00–18:00\nTuesday 9:00–13:00, 14:00–20:00 (late clinic)\nWednesday 9:00–13:00\nThursday 9:00–13:00, 14:00–18:00\nFriday 9:00–13:00, 14:00–17:00\nBlood tests: Tue & Thu 9:00–10:30 by appointment\nAppointments: 01632 960262 · Out of hours: CorranDoc 01632 960999"
+    },
+    {
+      "kind": "timetable",
+      "text": "CASTLECORRAN SUMMER FESTIVAL — SATURDAY 25 JULY\n11:00 Vintage tractor run leaves the Mart yard\n12:30 Pet show, Fair Green (entry €2)\n14:00 Children's sports, Town Park\n15:30 Tug-of-war final\n18:00 Céilí on the Square with the Corran Céilí Band\n21:30 Fireworks over the river"
+    },
+    {
+      "kind": "timetable",
+      "text": "SCOIL MHUIRE — SCHOOL DAY\n8:50 Doors open\n9:10 Classes begin\n10:45–11:00 Small break\n12:30–13:00 Lunch\n13:40 Infants go home\n14:50 Home time, 1st to 6th class\nHomework club Mon–Thu 15:00–16:00, €5 per session"
+    },
+    {
+      "kind": "timetable",
+      "text": "RURAL LINK — THURSDAY MARKET BUS\nCarnmore Cross dep. 09:20\nLisdarra village 09:35\nGlenmullen school 09:50\nCastlecorran, Fair Green arr. 10:15\nReturn from Fair Green 13:30\nFares: €3 each way, free with Travel Pass. Please book by 5 p.m. on Wednesday: 07700 900472."
+    },
+    {
+      "kind": "timetable",
+      "text": "AIRPORT EXPRESS — CASTLECORRAN TO DUBLIN AIRPORT\nDep. Corran Arms Hotel 03:30, 06:00, 09:00, 12:00, 15:00, 18:00\nJourney time approx. 2 h 35 min\nSingle €22 · Return €35 · Student single €18\nLuggage: 1 hold bag up to 23 kg plus 1 small bag\nBook at corranexpress.example or pay the driver (card only)."
+    },
+    {
+      "kind": "timetable",
+      "text": "FITCORRAN GYM — CLASS TIMETABLE (from 5 January)\nMon 06:45 Spin · 19:00 Bootcamp\nTue 09:30 Pilates · 18:30 Kettlebells\nWed 06:45 Spin · 19:30 Yoga\nThu 09:30 Over-60s strength · 18:30 HIIT\nFri 07:00 Circuits\nSat 09:00 Parkrun warm-up (meet at gate 2)\nClasses €8, or 10 for €65. Book on the app."
+    },
+    {
+      "kind": "timetable",
+      "text": "THE ABBEY CINEMA — WHAT'S ON 12–18 JUNE\nHarvest Moon Road (12A) 1 h 52 min: 14:00, 18:15, 20:45\nMoonbeam Bay (G) 1 h 34 min: 11:00, 13:30, 16:00\nNight Shift (15A) 2 h 08 min: 21:00 only\nTuesday: all tickets €6\nAdult €9.50 · Child €7.00 · Family €28.00\nBox office 01632 960199"
+    },
+    {
+      "kind": "timetable",
+      "text": "CORRAN HERITAGE CENTRE\nGuided tours of the Old Gaol, April–October\nDaily at 10:30, 12:00, 14:00 and 15:30\nLast admission 16:15\nTours last approx. 50 minutes and include the 1847 famine exhibition.\nAdults €8 · Seniors €6 · Children €4 · Family €20\nGroups of 15 or more, please book: 01632 960733"
+    },
+    {
+      "kind": "timetable",
+      "text": "LEAVING CERT MOCKS — FEBRUARY 2026\nMon 9 Feb 09:30 English Paper 1 (2 h 50 min)\nMon 9 Feb 14:00 Geography (2 h 50 min)\nTue 10 Feb 09:30 Maths Paper 1 (2 h 30 min)\nTue 10 Feb 14:00 Irish Paper 1 (2 h 20 min)\nWed 11 Feb 09:30 English Paper 2 (3 h 20 min)\nStudents must be seated 10 minutes before each exam."
+    },
+    {
+      "kind": "timetable",
+      "text": "LATE BUS TO KILBRACK — DECEMBER WEEKENDS\nFri & Sat, 5 Dec to 20 Dec 2025\nCastlecorran, Market Sq. 22:00 23:30 01:00\nArdnagh, Church 22:15 23:45 01:15\nKilbrack, Main St. 22:40 00:10 01:40\nFare €5 flat; under-18s must travel with an adult after 23:00."
+    },
+    {
+      "kind": "recipe",
+      "text": "BROWN SODA BREAD\nMakes 1 loaf · Oven 200°C (180°C fan)\n350 g wholemeal flour\n100 g plain flour\n1 tsp bread soda\n1 tsp salt\n400 ml buttermilk\nMix the dry ingredients, then stir in the buttermilk to make a soft, wet dough. Turn into a greased 2 lb loaf tin and bake for 45–50 minutes, until it sounds hollow when tapped underneath."
+    },
+    {
+      "kind": "recipe",
+      "text": "IRISH STEW (serves 4–6)\n1 kg lamb neck chops\n4 large potatoes, peeled and cut in chunks\n3 carrots, sliced\n2 onions, chopped\n750 ml lamb or chicken stock\nFresh thyme and parsley\nLayer the meat and vegetables in a heavy pot, season well and pour over the stock. Cover and simmer gently for 1 1/2 hours, or cook at 160°C for 2 hours. Scatter with parsley to serve."
+    },
+    {
+      "kind": "recipe",
+      "text": "BARMBRACK\n375 g mixed dried fruit\n250 ml cold tea\n1 egg, beaten\n175 g soft brown sugar\n225 g self-raising flour\n1 tsp mixed spice\nSoak the fruit in the tea overnight. Next day mix in the remaining ingredients and spoon into a lined 900 g loaf tin. Bake at 170°C for 1 hour 15 minutes. Leave to cool before slicing; it keeps for up to 5 days in a tin."
+    },
+    {
+      "kind": "recipe",
+      "text": "COLCANNON\nServes 4 · Prep 15 min · Cook 25 min\n2 lb floury potatoes\n1/2 head savoy cabbage, finely shredded\n4 scallions, chopped\n1/2 cup whole milk\n4 tbsp butter\nBoil the potatoes until tender, about 20 minutes. Meanwhile, cook the cabbage in a little butter for 5 minutes. Warm the milk with the scallions, then mash everything together and season with salt and pepper."
+    },
+    {
+      "kind": "recipe",
+      "text": "GRANNY NOLAN'S APPLE TART\nPastry: 225 g plain flour, 110 g cold butter, 1 egg yolk, 2–3 tbsp cold water\nFilling: 3 large Bramley apples, peeled and sliced; 75 g caster sugar; 4 cloves\nLine a 23 cm enamel plate with half the pastry, pile on the apples, sprinkle with sugar and add the cloves. Cover with the rest of the pastry, crimp the edges and cut 2 slits. Bake at 200°C for 15 minutes, then 180°C for 25–30 minutes."
+    },
+    {
+      "kind": "recipe",
+      "text": "SEAFOOD CHOWDER (serves 6)\n50 g butter\n1 leek and 2 sticks celery, diced\n2 medium potatoes, diced\n1 litre fish stock\n500 g mixed fish (salmon, smoked haddock, cod)\n150 ml cream\nSoften the vegetables in the butter for 8–10 minutes, add the stock and simmer for 15 minutes. Add the fish and cook for 5 minutes more, then stir in the cream. Serve with brown bread."
+    },
+    {
+      "kind": "recipe",
+      "text": "BOXTY PANCAKES\nMakes 12\n1 cup grated raw potato, squeezed dry\n1 cup leftover mashed potato\n1 1/4 cups all-purpose flour\n1 tsp baking soda\n1 1/2 cups buttermilk\nCombine all ingredients into a thick batter. Fry spoonfuls in a buttered skillet over medium heat, 3 to 4 minutes per side, until golden. Keep warm in a 200°F oven."
+    },
+    {
+      "kind": "recipe",
+      "text": "OVERNIGHT PINHEAD PORRIDGE\nFor 2: 80 g pinhead oatmeal, 600 ml water, pinch of salt\nBring the oats and water to the boil, simmer for 2 minutes, then cover and leave overnight.\nIn the morning add 100 ml milk and reheat gently for 5–6 minutes, stirring.\nServe with brown sugar, a drizzle of cream or a spoonful of stewed rhubarb."
+    },
+    {
+      "kind": "recipe",
+      "text": "BUTTERMILK SCONES\nMakes 10 · 220°C / Gas 7\n450 g plain flour\n1 level tsp bread soda\n1 tsp salt\n50 g butter, cubed\n1 egg\n300 ml buttermilk\nRub the butter into the flour, soda and salt. Whisk the egg into the buttermilk and add most of it, mixing to a soft dough. Pat out 2.5 cm thick, cut into rounds and bake for 12–15 minutes."
+    },
+    {
+      "kind": "recipe",
+      "text": "MULLED WINE (makes approx. 10 glasses)\n2 bottles (75 cl) red wine\n1 orange, sliced and studded with 8 cloves\n2 cinnamon sticks\n3 star anise\n100 g demerara sugar\n150 ml brandy (optional)\nHeat everything except the brandy in a large pan, without letting it boil, for 20 minutes. Stir in the brandy just before serving in warmed glasses."
+    },
+    {
+      "kind": "recipe",
+      "text": "DUBLIN CODDLE\n8 pork sausages\n8 rashers, cut in 2 cm pieces\n2 onions, sliced\n1 kg potatoes, cut in thick slices\n500 ml ham stock\nBrown the sausages and rashers lightly. Layer with the onions and potatoes in a casserole, season with black pepper and add the stock. Cover and cook at 150°C for 2 1/2 hours."
+    },
+    {
+      "kind": "recipe",
+      "text": "RHUBARB CRUMBLE\n600 g rhubarb, cut in 3 cm lengths\n75 g sugar and the zest of 1 orange\nTopping: 150 g flour, 100 g butter, 75 g brown sugar, 40 g oats\nPut the rhubarb, sugar and zest in a 1.5 litre dish. Rub the butter into the flour, stir in the sugar and oats and scatter over the fruit. Bake at 190°C for 35 minutes. Serve with crème fraîche or custard."
+    },
+    {
+      "kind": "recipe",
+      "text": "CHICKEN & HAM PIE\nServes 6 · 375°F\n1 1/2 lb cooked chicken, in bite-size pieces\n8 oz cooked ham, cubed\n1 onion, diced\n3 tbsp butter, 3 tbsp flour\n1 1/4 cups chicken broth\n1/2 cup heavy cream\n1 sheet puff pastry\nMake a sauce with the butter, flour, broth and cream. Fold in the meat and onion, pour into a 9-inch pie dish, top with pastry and bake 30 to 35 minutes."
+    },
+    {
+      "kind": "recipe",
+      "text": "POTATO FARLS\nMakes 8 farls\n500 g warm mashed potato\n25 g melted butter\n1/2 tsp salt\n110 g plain flour\nKnead together lightly and divide in 2. Roll each piece into a round 5 mm thick and cut into quarters. Cook on a dry, hot griddle for 3 minutes each side until speckled brown."
+    },
+    {
+      "kind": "recipe",
+      "text": "IRISH COFFEE (serves 1)\n35 ml Irish whiskey\n1 tsp brown sugar\n120 ml hot strong coffee\n30 ml lightly whipped double cream\nWarm a stemmed glass with hot water. Add the sugar and coffee and stir until dissolved, then add the whiskey. Pour the cream over the back of a spoon so that it floats on top. Do not stir."
+    },
+    {
+      "kind": "label",
+      "text": "CORRAN VALLEY RAW HONEY\nWildflower · Produced in Co. Corran\nNet weight 340 g\nBest before: 08/2028\nBatch No. HN-2611\nNot suitable for infants under 12 months.\nProduced by J. & M. Tierney, Glenmullen, Castlecorran. Tel 07700 900519"
+    },
+    {
+      "kind": "label",
+      "text": "GLENMULLEN FARMHOUSE CHEDDAR\nMature · Aged 14 months\nIngredients: pasteurised cow's MILK, salt, starter culture, vegetarian rennet\nTypical values per 100 g: Energy 1,724 kJ / 412 kcal · Fat 34.6 g · of which saturates 21.7 g · Protein 25.4 g · Salt 1.8 g\nKeep refrigerated at 0–5°C.\nWeight 0.284 kg · €17.50/kg · Price €4.97\nUse by 21.03.2026"
+    },
+    {
+      "kind": "label",
+      "text": "FLANAGAN'S PHARMACY · 01632 960388\nAmoxicillin 500 mg capsules\nQty: 21\nTake ONE capsule THREE times a day for 7 days. Complete the course.\nPatient: Ms Eileen Corcoran\nDr. A. Okafor · 23/02/2026 · Rx No. 118420\nKeep out of the sight and reach of children."
+    },
+    {
+      "kind": "label",
+      "text": "CORRAN KNITWEAR\n65% Polyester / 35% Cotton\nMade in Portugal\nMachine wash 40°C\nDo not tumble dry\nCool iron\nSize: L (EU 42 / UK 14)\nStyle No. 4471-B · Lot 0926"
+    },
+    {
+      "kind": "label",
+      "text": "HOMEMADE BLACKCURRANT JAM\nMade with 45 g fruit per 100 g\nTotal sugar content 62 g per 100 g\nIngredients: blackcurrants, sugar, lemon juice\nOnce opened, keep refrigerated and use within 4 weeks.\nNet wt 227 g (8 oz)\nCastlecorran Country Market · €4.20"
+    },
+    {
+      "kind": "label",
+      "text": "CARROT 'AUTUMN KING'\nApprox. 800 seeds\nSow March–June, 1 cm deep, in rows 30 cm apart.\nThin seedlings to 7–8 cm apart.\nHarvest August–November, 16–20 weeks after sowing.\nPacked for season 2026 · Lot No. 26C-114\nGlenmullen Garden Centre · €2.49"
+    },
+    {
+      "kind": "label",
+      "text": "CORRAN CO-OP 18-6-12 GRASS FERTILISER\nNet weight 50 kg\nNitrogen (N) 18% · Phosphorus (P) 6% · Potassium (K) 12%\nApply 250–375 kg per hectare (2–3 bags per acre) in spring.\nStore in a dry place, away from drains.\nBatch 2604/17 · Date of manufacture 14.04.2026"
+    },
+    {
+      "kind": "label",
+      "text": "P. J. GARVEY, FAMILY BUTCHER\nIrish dry-aged sirloin steak\nPacked 12/03/26 · Use by 17/03/26\nNet wt 0.640 kg\n€/kg 28.50\nPrice €18.24\nBorn, reared & slaughtered in Ireland\nCook thoroughly. Keep refrigerated below 5°C."
+    },
+    {
+      "kind": "label",
+      "text": "CORRAN DISTILLERY · HEDGEROW GIN\nDistilled with sloe, elderflower and bog myrtle from the Glenmullen hills.\n70 cl · 41.3% vol\nBottle No. 0384 of 1,200\nBatch 07 · Bottled 09/2025\nPlease enjoy responsibly."
+    },
+    {
+      "kind": "label",
+      "text": "FREE RANGE EGGS\n6 large eggs · Class A\nPacking centre IE 2731\nBest before 28 OCT\nKeep refrigerated after purchase.\nFrom the Tierney family farm, Lisdarra. Our 1,400 hens roam 2.5 hectares of pasture.\nPrice €3.10"
+    },
+    {
+      "kind": "label",
+      "text": "CORRAN COURIERS\nPRIORITY · Parcel 1 of 2\nTo: Ms Áine Mulcahy, 22 Willow Park, Castlecorran\nRef. CC-77310-264\nWeight 4.6 kg\nCollected 05/11/2025 16:20\nSignature required on delivery.\nSender: Devaney Hardware, Bridge Street, Castlecorran"
+    },
+    {
+      "kind": "label",
+      "text": "FRESH LINEN FABRIC CONDITIONER\n1.5 L · 60 washes (25 ml per wash)\nIngredients: >5% but <15% cationic surfactants; perfume\nKeep out of reach of children. If swallowed, rinse mouth and call a doctor.\nMade for Cassidy's Supermarket, Castlecorran\nBarcode 5 391234 567891"
+    },
+    {
+      "kind": "label",
+      "text": "HEFFERNAN'S BAKERY\nWholemeal Soda Bread · 600 g\nIngredients: wholemeal wheat flour (55%), buttermilk (MILK), wheat flour, bread soda, salt\nAllergens shown in CAPITALS.\nBaked today: Tue 10/03\nBest within 3 days\n€3.20"
+    },
+    {
+      "kind": "label",
+      "text": "CORRAN DAIRIES WHOLE MILK\n2 litres · 3.5% fat\nPasteurised & homogenised\nPer 250 ml glass: 160 kcal, 8.3 g protein, 300 mg calcium (38% RI)\nUse by 14 FEB\nLot 045 · 03:12\nReturn or recycle the bottle."
+    },
+    {
+      "kind": "label",
+      "text": "FIRE EXTINGUISHER SERVICE RECORD\nType: CO2 · 2 kg\nSerial No. FX-55820-K\nLocation: Kitchen, Castlecorran Community Centre\nServiced 18/01/2026 by T. Rooney (Tech. No. 412)\nNext service due 01/2027\nPressure test due 2031\nDo not remove this label."
+    },
+    {
+      "kind": "flyer",
+      "text": "CASTLECORRAN FARMERS' MARKET\nEvery Friday, 9 a.m. – 2 p.m., Fair Green\nOver 20 stalls: organic veg, farmhouse cheese, fresh fish from Kilbrack pier, cakes, crafts & plants\nHot food, live music & free parking\nNew traders welcome, pitch fee €15 per week\nFind us on Facebook or ring Nuala on 07700 900264"
+    },
+    {
+      "kind": "flyer",
+      "text": "TABLE QUIZ IN AID OF CASTLECORRAN HOSPICE AT HOME\nFriday 6 November 2026 at 9 p.m.\nThe Weighbridge Bar, Market Square\n€40 per table of 4\nSpot prizes, raffle & finger food\n1st prize: €400 · 2nd: €200 · 3rd: hamper\nAll welcome! Last year we raised €6,870."
+    },
+    {
+      "kind": "flyer",
+      "text": "SET DANCING CLASSES\nBeginners & improvers welcome, no partner needed!\nTuesdays from 13 January, 8–10 p.m.\nCastlecorran Community Centre\n€8 per night or €60 for the 10-week course\nTeacher: Bríd Ní Mhurchú\nInfo: 07700 900703 · setdancing.corran@example.ie"
+    },
+    {
+      "kind": "flyer",
+      "text": "FITCORRAN GYM IS NOW OPEN!\nUnit 7, Kilbrack Road Business Park\nOpening offer: join before 31 January and pay just €29 a month (normally €39)\nNo joining fee · Free induction · Classes included\nOpen 6 a.m. to 10 p.m. weekdays, 8 a.m. to 6 p.m. weekends\nPh. 01632 960590"
+    },
+    {
+      "kind": "flyer",
+      "text": "CORRAN PLAYERS present\n\"A WEDDING IN LISDARRA\"\nA comedy in three acts by Tomás Breathnach\nMarket House Theatre, 18–21 March 2026 at 8 p.m.\nTickets €15 / concessions €12\nBooking at O'Dowd's Newsagent or 01632 960168\nRunning time approx. 2 hrs 10 mins incl. interval"
+    },
+    {
+      "kind": "flyer",
+      "text": "GIANT CAR BOOT SALE\nSunday 10 May 2026, 9 a.m. to 1 p.m.\nCastlecorran GAA grounds\nSellers €10 per car / €15 per van, set up from 7:30 a.m.\nBuyers free · Tea, coffee & home baking\nProceeds to the under-12s trip to the Féile"
+    },
+    {
+      "kind": "flyer",
+      "text": "NOW OPEN · THE GREEN DOOR BAKERY & CAFÉ\n2 Church Street, Castlecorran\nSourdough, pastries & specialty coffee\n20% off everything this week, 1st–7th September\nFree cookie with every coffee for kids under 10\nMon–Sat 8:00–17:00 · Sun 10:00–15:00"
+    },
+    {
+      "kind": "flyer",
+      "text": "FREE HEALTH CHECKS\nBlood pressure, cholesterol & blood sugar\nWednesday 14 October, 10 a.m.–4 p.m.\nCastlecorran Community Centre\nNo appointment needed, takes approx. 15 minutes\nOver-50s especially welcome\nOrganised by Corran Community Health Forum with Flanagan's Pharmacy"
+    },
+    {
+      "kind": "flyer",
+      "text": "VINTAGE TRACTOR & CAR RUN\nSunday 23 August 2026\nRegistration 11:00 at the Mart yard, run departs 12:30 sharp\nApprox. 35 km route via Ardnagh and Glenmullen\nEntry: tractors €20, cars €25, includes BBQ on return\nAll proceeds to Castlecorran First Responders\nEnquiries: Mattie 07700 900812"
+    },
+    {
+      "kind": "flyer",
+      "text": "MUSIC LESSONS\nTin whistle, fiddle, button accordion & piano\nAll ages from 6 years\nLessons 30 min €18 / 45 min €25\nGrade exams prepared\nContact Ms Eimear Gallagher, 3 Willow Park\nTel. 07700 900390"
+    },
+    {
+      "kind": "flyer",
+      "text": "SPOOKTACULAR HALLOWEEN DISCO!\nFor ages 5–12 · Friday 30 October 2026\n6:00–8:00 p.m. · Castlecorran Community Centre\n€5 per child, includes a goody bag\nPrizes for the best costume\nParents must collect children at 8 p.m. sharp.\nOrganised by Scoil Mhuire Parents' Association"
+    },
+    {
+      "kind": "flyer",
+      "text": "CORRAN TO THE BORDER CHARITY CYCLE\nSaturday 13 June 2026 · 100 km or 50 km routes\nStart: Market Square 08:00\nEntry €40 / £35, includes jersey, food stops and medal\nRaising funds for the Children's Ward, Kilbrack General Hospital\nRegister by 1 June at corrancycle.example"
+    },
+    {
+      "kind": "flyer",
+      "text": "PHONE FIXED WHILE YOU WAIT\nScreen repairs from €49\nBattery replacements from €39\nCharging ports, cameras & water damage\nAll major brands, tablets & laptops\n3-month warranty on all repairs\nCorran Mobile, 9 Bridge Street · 07700 900911"
+    },
+    {
+      "kind": "flyer",
+      "text": "BINGO EVERY SUNDAY NIGHT\nDoors open 7:30 p.m. · Eyes down 8:30 p.m.\nSt. Colmcille's Parish Hall\nBooks €10 (12 games) · Extra books €5\nJackpot this week: €1,500 on 52 numbers or less\nSnowball €340\nProceeds to the parish restoration fund"
+    },
+    {
+      "kind": "flyer",
+      "text": "CASTLECORRAN SUMMER SPORTS CAMP\nAges 6–13 · 6–10 July 2026\n10:00 a.m. to 2:00 p.m. daily, Town Park\nFootball, hurling, athletics, rounders & more\n€65 per child · €55 for each additional sibling\nBring a packed lunch, water & sun cream\nRegister: Sarah, 07700 900156"
+    },
+    {
+      "kind": "form",
+      "text": "CASTLECORRAN GAA CLUB DRAW\nTicket No. 004217\nPrice €10\n1st prize: €5,000 cash\n2nd prize: 2 nights for 2 at the Corran Arms Hotel\nDraw takes place Friday 18 December 2026 at 9 p.m. in the clubhouse\nName: Siobhán Daly · Tel. 07700 900428"
+    },
+    {
+      "kind": "form",
+      "text": "COUNTY LINK\nRoute 421 · Castlecorran > Kilbrack\nAdult return €7.00\nIssued 14/05/2026 07:08\nValid for return until 14/06/2026\nTicket No. 21-449318 · Driver 077\nRetain ticket for inspection."
+    },
+    {
+      "kind": "form",
+      "text": "CASTLECORRAN TENNIS CLUB — MEMBERSHIP APPLICATION 2026\nName: Conor Phelan\nAddress: 15 Ardnagh Road, Castlecorran\nDate of birth: 02/09/1988\nMobile: 07700 900577\nEmail: conor.phelan@example.ie\nMembership type: Adult €120 [ ] Family €220 [X] Junior €50 [ ]\nSigned: C. Phelan Date: 06/03/2026"
+    },
+    {
+      "kind": "form",
+      "text": "THE ABBEY CINEMA\nMoonbeam Bay (G)\nScreen 2 · Row D · Seat 7\nSat 13/06/2026 13:30\nChild €7.00\nBooking ref. AB7731Q\nDoors 15 minutes before start. No refunds."
+    },
+    {
+      "kind": "form",
+      "text": "DOG LICENCE APPLICATION\nOwner: Áine Mulcahy, 22 Willow Park, Castlecorran\nBreed: Border collie · Sex: F · Colour: black & white\nAge: 4 yrs · Microchip No. 372141405553210\nLicence type: Individual (1 year) €20\nPayment: card · Receipt No. DL-26-0815\nDate issued: 19/01/2026"
+    },
+    {
+      "kind": "form",
+      "text": "CORRAN ARTS FESTIVAL\nAn Evening of Song with The Lisdarra Singers\nSt. Colmcille's Church, Castlecorran\nSaturday 17 October 2026 · 8:00 p.m.\nUnreserved seating · €18.00 incl. €1.00 booking fee\nTicket 0193 of 350"
+    },
+    {
+      "kind": "form",
+      "text": "CORRAN MOTORS — JOB CARD No. 8814\nCustomer: B. Kearns · Reg. 182-C-4417\nVehicle: 2018 hatchback, 1.6 diesel\nMileage: 142,380 km\nWork: full service, front brake pads & discs, wiper blades\nParts €186.40 · Labour 2.5 hrs @ €60 = €150.00\nTotal €336.40 incl. VAT\nDate in: 09/02/2026 · Ready: 10/02/2026"
+    },
+    {
+      "kind": "form",
+      "text": "DELIVERY DOCKET No. 30472\nFrom: Corran Co-op Stores, Mart Road\nTo: Kilbride farm, Lisdarra\nDate: 27/03/2026\n3 t ground limestone\n20 x 25 kg calf nuts\n10 x 50 kg 18-6-12 fertiliser\nReceived in good order: M. Kilbride\nDriver: P. Hession · Vehicle 09-C-3318"
+    },
+    {
+      "kind": "form",
+      "text": "CASTLECORRAN → DUBLIN\nStandard Class · Off-peak Single\nAdult €24.99\nTravel date: 21 Oct 2026\nDepart 10:15 · Coach C · Seat 42\nTicket No. 7720 3381 0094\nNot valid on any other service."
+    },
+    {
+      "kind": "form",
+      "text": "APPOINTMENT CARD\nDr. M. Lynch & Dr. A. Okafor, The Surgery, Abbey Road\nPatient: Mr P. Hession\nYour next appointment is on Tue 3 Nov at 9:20 a.m. with Nurse Clarke.\nPlease bring your repeat prescription and fast from midnight for your blood test.\nIf you cannot attend, please give 24 hours' notice: 01632 960262."
+    },
+    {
+      "kind": "form",
+      "text": "CASTLECORRAN GAA CLUB LOTTO\nDraw date: Monday 9 March 2026\nNumbers: 04 11 19 27\nJackpot €7,200\nEntry €2 · 3 entries for €5\nSeller: Declan M. · Envelope No. 115"
+    },
+    {
+      "kind": "form",
+      "text": "SKIP HIRE ORDER FORM\nName: Michelle Foley\nDelivery address: 41 The Glebe, Castlecorran\nSkip size: 6 cubic yard\nHire period: 7 days from 02/06/2026\nWaste type: mixed household, no plasterboard or tyres\nPrice €265.00 incl. VAT\nPermit for public road required? No\nCustomer signature: M. Foley"
+    },
+    {
+      "kind": "form",
+      "text": "CASTLECORRAN GAA — SENIOR FOOTBALL\nCastlecorran v Glenmullen Gaels\nSaturday 16 May 2026 · Throw-in 7:00 pm\nAdmission: Adult €10.00\nTicket No. 2216 · Gate B\nPlease retain until the end of the match."
+    },
+    {
+      "kind": "form",
+      "text": "CASTLECORRAN CREDIT UNION — LODGEMENT\nMember No. 40217\nDate: 30/04/2026\nNotes: 3 x €50 = €150.00; 4 x €20 = €80.00; 1 x €10 = €10.00\nCoins: €7.40\nCheques: 1 = €125.00\nTotal lodged €372.40\nSignature: R. Delaney · Teller 03"
+    },
+    {
+      "kind": "form",
+      "text": "GUEST REGISTRATION · CORRAN ARMS HOTEL\nName: Mr Daniel Halloran\nArrival: 14/07/2026 · Nights: 2\nRoom 12 · Double · €115.00 per night, B&B\nCar Reg.: 222-D-10583\nDeposit €50.00 by card ending 6630\nSigned: D. Halloran"
+    },
+    {
+      "kind": "page",
+      "text": "- 42 -\nThe fair of Castlecorran was granted by charter in 1612 and was held on the Fair Green on the 12th of each month until the opening of the mart in 1958. On a good day as many as 1,500 cattle and 3,000 sheep changed hands, and the town's 23 public houses opened at 6 a.m. to serve the dealers.\nPrices were struck with a slap of the hand, and a \"luck penny\" of a shilling or two was returned to the buyer for every beast sold."
+    },
+    {
+      "kind": "page",
+      "text": "WHAT GOES IN YOUR GREEN BIN?\nClean, dry and loose: paper, cardboard, food tins, drinks cans, plastic bottles and tubs.\nPlease do not include glass, nappies, food waste or textiles. Contaminated bins will be tagged and left uncollected.\nDid you know? Last year the town's households sent 1,846 tonnes of material for recycling, 12% more than in 2024.\nPage 2 of 4"
+    },
+    {
+      "kind": "page",
+      "text": "CHAPTER 7\nThe rain had followed Nora all the way from Kilbrack, and by the time the bus pulled into Market Square at a quarter past six she was soaked to the knees. Her aunt's shop was shuttered, the sign still reading \"Back in 10 mins\" as it had in 1987.\nShe knocked twice, waited, and knocked again. Somewhere above her a window scraped open.\n\"You're three days early,\" said a voice she had not heard in eleven years.\n103"
+    },
+    {
+      "kind": "page",
+      "text": "CASTLECORRAN HERITAGE TRAIL\nStop 4: The Market House (1784)\nBuilt by the Corran estate at a cost of £1,120, the Market House served as courthouse, grain store and, from 1922, the town's first cinema. Note the 3 blocked arches on the ground floor, once open to the street for the butter market.\nWalk 200 m down Bridge Street to Stop 5, the Old Gaol."
+    },
+    {
+      "kind": "page",
+      "text": "HOW TO TAKE YOUR BLOOD PRESSURE AT HOME\n1. Sit quietly for 5 minutes with your back supported and feet flat on the floor.\n2. Rest your arm on a table so the cuff is level with your heart.\n3. Take 2 readings, 1 minute apart, and write down both.\nA normal reading is below 120/80 mmHg. If your reading is above 140/90 on 2 separate days, contact your GP."
+    },
+    {
+      "kind": "page",
+      "text": "PARISH NEWSLETTER · 15 March 2026\nThe Lenten collection for the Missions raised €4,265 last weekend. Thank you to all who contributed.\nThe First Holy Communion will take place on Saturday 16 May at 11 a.m. Parents' meeting in the parish hall on Tuesday 24 March at 7.30 p.m.\nLotto results: numbers 3, 14, 22, 29. No jackpot winner; next week's jackpot is €7,400."
+    },
+    {
+      "kind": "page",
+      "text": "CASTLECORRAN AND AROUND\nGetting there: Castlecorran lies 142 km (88 miles) northwest of Dublin. Buses run 6 times daily from the capital, and the trip takes about 2 1/2 hours.\nWhere to stay: The Corran Arms on The Mall has 24 rooms from $135 a night, including a hearty Irish breakfast. For something cozier, try one of the farmhouse B&Bs along the Ardnagh Road, most around $90."
+    },
+    {
+      "kind": "page",
+      "text": "WHY SAVE WITH YOUR CREDIT UNION?\nYour savings are protected up to €100,000 under the Deposit Guarantee Scheme.\nLast year members received a dividend of 0.5% on shares and a 10% interest rebate on loans.\nLoans from €500 to €75,000 for cars, home improvements, education and holidays.\nCastlecorran Credit Union Ltd is regulated by the Central Bank of Ireland. Reg. No. 412CU."
+    },
+    {
+      "kind": "page",
+      "text": "\"Forty-two pounds,\" said the auctioneer, \"forty-two, do I hear forty-five?\"\nMichael kept his hands deep in his pockets. The heifer was worth fifty if she was worth a penny, but old Kilbride had the look of a man who would bid all day out of spite.\n\"Forty-five, at the back. Forty-eight? Forty-eight, thank you, sir.\"\nIt was the 14th of October 1953, and the rain had not stopped since Michaelmas.\n88"
+    },
+    {
+      "kind": "page",
+      "text": "QUICK START GUIDE · Model CK-200 Electric Kettle\n1. Fill to between the MIN (0.5 L) and MAX (1.7 L) marks.\n2. Place on the base and press the switch down; the light will come on.\n3. The kettle switches off automatically when boiled, in approx. 3 minutes at full capacity.\nDescale every 4 weeks in hard water areas. Never immerse the kettle or base in water.\nRated 220–240 V ~ 50 Hz, 2,200 W"
+    },
+    {
+      "kind": "page",
+      "text": "57\nThe 1976 county final remains the greatest day in the club's history. Before a crowd of 9,412 in Kilbrack, Castlecorran trailed by 1-2 to 0-7 at half-time, but a second goal from the young Dónal Keogh turned the game, and the final score was Castlecorran 2-9, Lisdarra 1-10.\nThe cup was carried back over the Corran bridge at midnight by a parade of 40 tractors."
+    },
+    {
+      "kind": "page",
+      "text": "HOME ENERGY UPGRADE GRANTS\nAttic insulation: up to €1,500\nCavity wall insulation: up to €1,700\nHeat pump (whole house): up to €6,500\nSolar PV panels: up to €1,800\nGrants are available to homes built and occupied before 2011. Works must not start until your grant is approved, and claims must be submitted within 8 months.\nFree advice clinic: Castlecorran Library, first Tuesday of each month, 2–5 p.m."
+    },
+    {
+      "kind": "page",
+      "text": "The new doctor was a Spaniard, a Dr. Íñigo Peña from Salamanca, and for the first month half the town found reasons to visit him. Mrs Garvey went 3 times with the same sore elbow.\nHe took his coffee black at the Blue Teapot at 8.15 every morning and tipped the girl 50 cent, which was talked about for weeks.\n\"He'll not last the winter,\" said Father Duggan. He lasted 31 years.\n214"
+    },
+    {
+      "kind": "page",
+      "text": "FIRE SAFETY IN THE HOME\nFit at least one smoke alarm on every floor and test it once a week by pressing the button.\nChange the batteries every 12 months, or fit a 10-year sealed alarm.\nNever leave cooking unattended, and keep a fire blanket within 2 metres of the cooker.\nPlan your escape route and make sure everyone knows it. In an emergency, get out, stay out and call 112 or 999.\nCastlecorran Fire Station, Bridge Street"
+    },
+    {
+      "kind": "page",
+      "text": "3.2 The River Corran\nThe River Corran rises at 410 m on the slopes of Slieve Darra and flows 64 km south-east to join the Shannon below Kilbrack. Its catchment of 518 km² drains much of the county's farmland.\nExercise 3.2\na) Calculate the average fall of the river per kilometre. (Answer to 1 decimal place.)\nb) Name 2 towns on the river shown on the map in Fig. 3.4."
+    }
+  ]
+}

@@ -1,0 +1,1355 @@
+{
+ "rows": [
+  {
+   "skill": "expectedValue",
+   "message": "Raffle at the church fete: a fifth of the tickets win 10 and the other four fifths win 0. Expected value of one ticket?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 10,
+      "probability": 0.2
+     },
+     {
+      "value": 0,
+      "probability": 0.8
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "a fifth"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "four fifths"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "my sales rep closes 3 out of 8 pitches for a 400 commission, the other 5 out of 8 earn 0. what's the expected value of a pitch?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 400,
+      "probability": 0.375
+     },
+     {
+      "value": 0,
+      "probability": 0.625
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "3 out of 8"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "5 out of 8"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Spinner with five equal slices: two fifths of it pays 50 points, a fifth pays 100, and the remaining two fifths pay 10. What's the expected value per spin?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 50,
+      "probability": 0.4
+     },
+     {
+      "value": 100,
+      "probability": 0.2
+     },
+     {
+      "value": 10,
+      "probability": 0.4
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "two fifths"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a fifth"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "two fifths"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Board game deck: an eighth of the cards are worth 16, three eighths are worth 8 and half are worth 2. Expected value of a draw?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 16,
+      "probability": 0.125
+     },
+     {
+      "value": 8,
+      "probability": 0.375
+     },
+     {
+      "value": 2,
+      "probability": 0.5
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "an eighth"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "three eighths"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "half"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Startup bet - three fifths chance it makes 2000, two fifths chance it makes -500. what's the expected value",
+   "input": {
+    "outcomes": [
+     {
+      "value": 2000,
+      "probability": 0.6
+     },
+     {
+      "value": -500,
+      "probability": 0.4
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "three fifths"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "two fifths"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Each cast, seven eighths of the time I land 0 and an eighth of the time I land a fish I'd value at 24. Expected value per cast?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 0,
+      "probability": 0.875
+     },
+     {
+      "value": 24,
+      "probability": 0.125
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "seven eighths"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "an eighth"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Courier here. I'm on time 4 out of 5 days for a 15 bonus and late 1 out of 5 days, which costs me -30. Expected value per day?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 15,
+      "probability": 0.8
+     },
+     {
+      "value": -30,
+      "probability": 0.2
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "4 out of 5"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "1 out of 5"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Teacher here. Quiz bonus: a fifth of students get 5 marks, three fifths get 2, and one fifth get 0. What is the expected bonus per student?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 5,
+      "probability": 0.2
+     },
+     {
+      "value": 2,
+      "probability": 0.6
+     },
+     {
+      "value": 0,
+      "probability": 0.2
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "a fifth"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "three fifths"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "one fifth"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "loot crate odds: five eighths common worth 1, a quarter rare worth 10, an eighth legendary worth 80. EV of a crate?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 1,
+      "probability": 0.625
+     },
+     {
+      "value": 10,
+      "probability": 0.25
+     },
+     {
+      "value": 80,
+      "probability": 0.125
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "five eighths"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "an eighth"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "expected value if 7 out of 8 times I get +3 and 1 out of 8 times I get -20",
+   "input": {
+    "outcomes": [
+     {
+      "value": 3,
+      "probability": 0.875
+     },
+     {
+      "value": -20,
+      "probability": 0.125
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "7 out of 8"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "1 out of 8"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Bake sale maths: four fifths of Saturdays we sell out for 120 profit, and a fifth of Saturdays we only make 40. What's the expected value of a Saturday?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 120,
+      "probability": 0.8
+     },
+     {
+      "value": 40,
+      "probability": 0.2
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "four fifths"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a fifth"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Work out the expected payout for me: three eighths chance the claim pays 1000, five eighths chance it pays 200.",
+   "input": {
+    "outcomes": [
+     {
+      "value": 1000,
+      "probability": 0.375
+     },
+     {
+      "value": 200,
+      "probability": 0.625
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "three eighths"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "five eighths"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "A game I made up: 2 out of 5 rolls score 6, 2 out of 5 score 3, and 1 out of 5 scores 12. Expected value of a roll?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 6,
+      "probability": 0.4
+     },
+     {
+      "value": 3,
+      "probability": 0.4
+     },
+     {
+      "value": 12,
+      "probability": 0.2
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "2 out of 5"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "2 out of 5"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "1 out of 5"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Farmer here - three fifths of seasons yield 900 crates, a fifth yield 400, and the last fifth yield 100. Expected yield per season?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 900,
+      "probability": 0.6
+     },
+     {
+      "value": 400,
+      "probability": 0.2
+     },
+     {
+      "value": 100,
+      "probability": 0.2
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "three fifths"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "a fifth"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "a fifth"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Option A pays 60 with three eighths probability, 20 with three eighths probability and 0 with a quarter probability. Expected value of option A?",
+   "input": {
+    "outcomes": [
+     {
+      "value": 60,
+      "probability": 0.375
+     },
+     {
+      "value": 20,
+      "probability": 0.375
+     },
+     {
+      "value": 0,
+      "probability": 0.25
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "three eighths"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "three eighths"
+    },
+    {
+     "field": "outcomes.2.probability",
+     "rule": "fraction",
+     "from": "a quarter"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "claw machine at the arcade: one eighth of goes win a toy worth 32, seven eighths win 0. whats the expected value of a go",
+   "input": {
+    "outcomes": [
+     {
+      "value": 32,
+      "probability": 0.125
+     },
+     {
+      "value": 0,
+      "probability": 0.875
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "one eighth"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "seven eighths"
+    }
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "message": "Expected value of a bid: we win 3 out of 8 tenders worth 5000 each and lose the other 5 out of 8, worth 0.",
+   "input": {
+    "outcomes": [
+     {
+      "value": 5000,
+      "probability": 0.375
+     },
+     {
+      "value": 0,
+      "probability": 0.625
+     }
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "outcomes.0.probability",
+     "rule": "fraction",
+     "from": "3 out of 8"
+    },
+    {
+     "field": "outcomes.1.probability",
+     "rule": "fraction",
+     "from": "5 out of 8"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "convert a marathon into miles for me? my sister is running one in april",
+   "input": {
+    "from": "km",
+    "to": "mi",
+    "amount": 42.195
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "Convert a half marathon to feet for my physics homework.",
+   "input": {
+    "from": "km",
+    "to": "ft",
+    "amount": 21.0975
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "what's half a dozen feet in centimetres",
+   "input": {
+    "amount": 6,
+    "from": "ft",
+    "to": "cm"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "a couple of miles is how many kilometres?",
+   "input": {
+    "from": "mi",
+    "to": "km",
+    "amount": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "Our garden fence runs a score of yards. What is that in metres?",
+   "input": {
+    "from": "yd",
+    "to": "m",
+    "amount": 20
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a score"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "How many inches are in a dozen feet? Building shelves this weekend.",
+   "input": {
+    "from": "ft",
+    "to": "in",
+    "amount": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "convertLength",
+   "message": "marathon distance in yards please",
+   "input": {
+    "from": "km",
+    "to": "yd",
+    "amount": 42.195
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "marathon"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "how many hours are there in a fortnight",
+   "input": {
+    "from": "d",
+    "to": "h",
+    "amount": 14
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a fortnight"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "Nurse on nights - a couple of days off is how many hours?",
+   "input": {
+    "from": "d",
+    "to": "h",
+    "amount": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "Retiree with time on my hands - convert a century into hours",
+   "input": {
+    "from": "yr",
+    "to": "h",
+    "amount": 100
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a century"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "a decade in weeks?",
+   "input": {
+    "from": "yr",
+    "to": "wk",
+    "amount": 10
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a decade"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "Convert a dozen hours to minutes for my timesheet.",
+   "input": {
+    "from": "h",
+    "to": "min",
+    "amount": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "Convert the duration of a year into seconds for my science project",
+   "input": {
+    "from": "d",
+    "to": "s",
+    "amount": 365
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a year"
+    }
+   ]
+  },
+  {
+   "skill": "convertTime",
+   "message": "a score of years - how many weeks is that?",
+   "input": {
+    "from": "yr",
+    "to": "wk",
+    "amount": 20
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "amount",
+     "rule": "quantity",
+     "from": "a score"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "If I run a marathon in four hours, what's my pace per km?",
+   "input": {
+    "timeSeconds": 14400,
+    "distanceKm": 42.195
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Half marathon at six minutes per kilometre - what finish time does that give me?",
+   "input": {
+    "paceSecondsPerKm": 360,
+    "distanceKm": 21.0975
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "Retired and planning to walk a marathon at ten minutes a km. How long will I be out on the course?",
+   "input": {
+    "paceSecondsPerKm": 600,
+    "distanceKm": 42.195
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "what pace per km did I average? finished the half marathon in two hours",
+   "input": {
+    "timeSeconds": 7200,
+    "distanceKm": 21.0975
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "paceCalculate",
+   "message": "gamer turned runner here. a marathon at five minutes per kilometre, what's the finish time?",
+   "input": {
+    "paceSecondsPerKm": 300,
+    "distanceKm": 42.195
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distanceKm",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Give me split times for a marathon in four hours",
+   "input": {
+    "time": "4:00:00",
+    "distance": 42.195
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "a marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "split times for a half marathon finished in two hours",
+   "input": {
+    "time": "2:00:00",
+    "distance": 21.0975
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "a half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "half marathon, target ninety minutes - what split times do I need?",
+   "input": {
+    "time": "1:30:00",
+    "distance": 21.0975
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "My goal is a five hour marathon. What split times should I hit each kilometre?",
+   "input": {
+    "time": "5:00:00",
+    "distance": 42.195
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "marathon"
+    }
+   ]
+  },
+  {
+   "skill": "splitTimes",
+   "message": "Work out the split times for a half marathon in a hundred minutes.",
+   "input": {
+    "time": "1:40:00",
+    "distance": 21.0975
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "distance",
+     "rule": "quantity",
+     "from": "a half marathon"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "a dozen eggs for four dollars - price per egg?",
+   "input": {
+    "price": 4,
+    "unit": "egg",
+    "quantity": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "Shop owner: I buy a gross of pens for twenty pounds. What's the unit price per pen?",
+   "input": {
+    "price": 20,
+    "unit": "pen",
+    "quantity": 144
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a gross"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "half a dozen doughnuts cost nine euros, what's the unit price",
+   "input": {
+    "price": 9,
+    "quantity": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "What's the price per glove if a pair costs fifteen?",
+   "input": {
+    "price": 15,
+    "unit": "glove",
+    "quantity": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a pair"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "A score of tea lights for five quid - unit price per candle?",
+   "input": {
+    "price": 5,
+    "unit": "candle",
+    "quantity": 20
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a score"
+    }
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "message": "a couple of pineapples for three, so the cost per pineapple is?",
+   "input": {
+    "price": 3,
+    "unit": "pineapple",
+    "quantity": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "quantity",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "My pancake recipe makes one serving: ½ cup flour, ¼ cup milk, an egg. Scale it up for a dozen.",
+   "input": {
+    "ingredients": [
+     "½ cup flour",
+     "¼ cup milk",
+     "an egg"
+    ],
+    "factor": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "scale this up for a couple of loaves: ¾ cup water, ½ tsp yeast, ¼ tsp salt",
+   "input": {
+    "ingredients": [
+     "¾ cup water",
+     "½ tsp yeast",
+     "¼ tsp salt"
+    ],
+    "factor": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Feeding half a dozen people from a recipe for one - scale ⅓ cup rice and ½ cup stock.",
+   "input": {
+    "ingredients": [
+     "⅓ cup rice",
+     "½ cup stock"
+    ],
+    "factor": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "The recipe serves one; scale it for a score of guests: ¼ cup oats, ⅛ tsp cinnamon, ½ cup milk",
+   "input": {
+    "ingredients": [
+     "¼ cup oats",
+     "⅛ tsp cinnamon",
+     "½ cup milk"
+    ],
+    "factor": 20
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "quantity",
+     "from": "a score"
+    }
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Batch-cooking a fortnight of lunches from a single-portion recipe. Scale it: ½ cup lentils, ¼ onion, ⅓ cup chopped tomatoes",
+   "input": {
+    "ingredients": [
+     "½ cup lentils",
+     "¼ onion",
+     "⅓ cup chopped tomatoes"
+    ],
+    "factor": 14
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "factor",
+     "rule": "quantity",
+     "from": "a fortnight"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "pick a couple of names for the bake rota from Priya, Tom, Una, Vic and Wes, seed seven",
+   "input": {
+    "items": [
+     "Priya",
+     "Tom",
+     "Una",
+     "Vic",
+     "Wes"
+    ],
+    "seed": 7,
+    "count": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "Choose half a dozen winners for the school tombola from Amir, Beth, Chloe, Dan, Ella, Finn, Gus, Hana. Use seed forty.",
+   "input": {
+    "items": [
+     "Amir",
+     "Beth",
+     "Chloe",
+     "Dan",
+     "Ella",
+     "Finn",
+     "Gus",
+     "Hana"
+    ],
+    "seed": 40,
+    "count": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "randomly pick a pair of chores for me from dishes, laundry, hoovering, bins - seed three",
+   "input": {
+    "items": [
+     "dishes",
+     "laundry",
+     "hoovering",
+     "bins"
+    ],
+    "seed": 3,
+    "count": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a pair of"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "Pick a dozen colours at random with repeats allowed from red, blue, green, yellow. Seed nine.",
+   "input": {
+    "items": [
+     "red",
+     "blue",
+     "green",
+     "yellow"
+    ],
+    "seed": 9,
+    "allowRepeats": true,
+    "count": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "message": "Movie night! Pick a couple of films at random from Alien, Heat, Jaws, Big and Up with seed eleven",
+   "input": {
+    "items": [
+     "Alien",
+     "Heat",
+     "Jaws",
+     "Big",
+     "Up"
+    ],
+    "seed": 11,
+    "count": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "count",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "for my email, a passphrase: half a dozen words with hyphens between them",
+   "input": {
+    "separator": "-",
+    "words": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "I need a short passphrase, just a couple of words, nothing else",
+   "input": {
+    "words": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "a couple of"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Generate a passphrase with a dozen words for my backup drive, joined with underscores.",
+   "input": {
+    "separator": "_",
+    "words": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "a dozen"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "passphrase - a pair of words, capitalised, with a number on the end",
+   "input": {
+    "capitalise": true,
+    "number": true,
+    "words": 2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "a pair of"
+    }
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "message": "Setting up my kid's tablet. Could you create a passphrase from half a dozen random words, capitalised?",
+   "input": {
+    "capitalise": true,
+    "words": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "words",
+     "rule": "quantity",
+     "from": "half a dozen"
+    }
+   ]
+  }
+ ]
+}

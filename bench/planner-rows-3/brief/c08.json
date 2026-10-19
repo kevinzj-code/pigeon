@@ -1,0 +1,122 @@
+{
+ "task": "stackDiscounts, translate declines, languageCodeLookup, declines",
+ "skills": [
+  {
+   "name": "stackDiscounts",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "stackDiscounts \u2014 Take one discount off after another \u2014 an extra 15% off an already reduced price \u2014 and show the real saving.\n  needs: price: number, discounts: array\n  e.g. \"stack 20% and 10% off 100\" \u2192 {\"price\":100,\"discounts\":[20,10]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "price",
+     "discounts"
+    ],
+    "properties": {
+     "price": {
+      "type": "number",
+      "label": "price",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "What is the starting price?"
+     },
+     "discounts": {
+      "type": "array",
+      "label": "discounts %",
+      "minItems": 1,
+      "maxItems": 10,
+      "items": {
+       "type": "number"
+      },
+      "prompt": "Which discount percentages apply?"
+     }
+    }
+   },
+   "examples": [
+    "stack 20% and 10% off 100",
+    "apply a single 10% discount to 50",
+    "three discounts on 200",
+    "two 5% discounts on 80",
+    "half price then 10% off 100",
+    "an extra 15 percent off something already 30 percent off, on 200",
+    "apply 10 then 5 percent off 80"
+   ]
+  },
+  {
+   "name": "applyDiscount",
+   "category": "finance",
+   "needsNetwork": false,
+   "card": "applyDiscount \u2014 Take a single percentage or amount off one price and show what you save.\n  needs: price: number\n  optional: percent: number, amount: number\n  e.g. \"25% off a 80 jacket\" \u2192 {\"price\":80,\"percent\":25}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "price"
+    ],
+    "properties": {
+     "price": {
+      "type": "number",
+      "label": "price",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "What is the original price?"
+     },
+     "percent": {
+      "type": "number",
+      "label": "discount %",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "a percentage off"
+     },
+     "amount": {
+      "type": "number",
+      "label": "amount off",
+      "minimum": 0,
+      "description": "a fixed amount off"
+     }
+    }
+   },
+   "examples": [
+    "25% off a 80 jacket",
+    "take a tenner off 45.50",
+    "what is 15 percent off 19.99",
+    "half price on 120",
+    "a 30 discount on a 25 item",
+    "reduce a 60 price by 15 percent",
+    "knock 20 percent off 149"
+   ]
+  },
+  {
+   "name": "languageCodeLookup",
+   "category": "reference",
+   "needsNetwork": false,
+   "card": "languageCodeLookup \u2014 Look up what a two-letter language code stands for, or find the code for a language \u2014 ISO 639-1.\n  needs: query: string\n  e.g. \"what language is code ta\" \u2192 {\"query\":\"ta\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "language or code",
+      "minLength": 1,
+      "prompt": "Which language or code should I look up?"
+     }
+    }
+   },
+   "examples": [
+    "what language is code ta",
+    "what is the code for Portuguese",
+    "which language is de",
+    "iso code for Swahili",
+    "what does zh mean",
+    "which language has the iso code sv",
+    "which iso code is finnish"
+   ]
+  }
+ ],
+ "stackDiscounts_rows": 16,
+ "translate_declines": 60,
+ "languageCodeLookup_rows": 30,
+ "declines": 220
+}

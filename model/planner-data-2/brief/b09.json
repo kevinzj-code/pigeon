@@ -1,0 +1,1557 @@
+{
+ "batch": "b09",
+ "categories": [
+  "writing",
+  "developer",
+  "organising"
+ ],
+ "skills": [
+  {
+   "name": "checkTitleCase",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "checkTitleCase \u2014 Check a title against title-case rules and show which words were wrong.\n  needs: text: string\n  e.g. \"put this in title case\" \u2192 {\"text\":\"the lord of the rings\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "title",
+      "minLength": 1,
+      "maxLength": 500,
+      "prompt": "Which title should I check?"
+     }
+    }
+   },
+   "examples": [
+    "put this in title case",
+    "title case a tale of two cities",
+    "is this title correctly capitalised",
+    "fix the capitals in this heading",
+    "title case gone with the wind"
+   ]
+  },
+  {
+   "name": "countWordTargets",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "countWordTargets \u2014 Check a draft against a word count target and say how far off it is.\n  needs: text: string, target: integer\n  optional: tolerance: number\n  e.g. \"is my 450 word draft close to 500 words\" \u2192 {\"text\":\"word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word\",\"target\":500}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text",
+     "target"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "prompt": "Which draft should I count?"
+     },
+     "target": {
+      "type": "integer",
+      "label": "word target",
+      "exclusiveMinimum": 0,
+      "prompt": "What is the word count target?"
+     },
+     "tolerance": {
+      "type": "number",
+      "label": "tolerance %",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 10,
+      "description": "how many percent over or under still counts as on target"
+     }
+    }
+   },
+   "examples": [
+    "is my 450 word draft close to 500 words",
+    "how far off 1000 words am I",
+    "am I over the 250 word limit",
+    "check my draft against 800 words exactly",
+    "progress towards 2000 words with a 5% tolerance"
+   ]
+  },
+  {
+   "name": "extractHeadings",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "extractHeadings \u2014 Pull the heading structure out of a markdown document as a plain outline.\n  needs: markdown: string\n  e.g. \"get the headings out of this markdown\" \u2192 {\"markdown\":\"# Title\\n\\nSome text.\\n\\n## Section one\\n\\n## Section two\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "markdown"
+    ],
+    "properties": {
+     "markdown": {
+      "type": "string",
+      "label": "markdown",
+      "minLength": 1,
+      "prompt": "Which markdown should I read?"
+     }
+    }
+   },
+   "examples": [
+    "get the headings out of this markdown",
+    "outline this document",
+    "find the headings, ignoring code fences",
+    "does this document skip heading levels",
+    "extract a single heading"
+   ]
+  },
+  {
+   "name": "findLongSentences",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "findLongSentences \u2014 Spot the sentences that run on past a word limit.\n  needs: text: string\n  optional: threshold: integer\n  e.g. \"find the long sentences in this\" \u2192 {\"text\":\"This is short. This sentence, on the other hand, goes on for a considerable length and contains a great many words indeed.\",\"threshold\":15}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 100000,
+      "prompt": "Which text should I check?"
+     },
+     "threshold": {
+      "type": "integer",
+      "label": "max words per sentence",
+      "minimum": 5,
+      "maximum": 200,
+      "default": 25
+     }
+    }
+   },
+   "examples": [
+    "find the long sentences in this",
+    "are any of my sentences too long",
+    "check this paragraph for long sentences",
+    "which sentences should I split up",
+    "sentence length check on this draft"
+   ]
+  },
+  {
+   "name": "findRepeatedWords",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "findRepeatedWords \u2014 Spot a word used again too soon after itself.\n  needs: text: string\n  optional: window: integer, minLength: integer\n  e.g. \"find repeated words in this text\" \u2192 {\"text\":\"The report says the report is late because the report was delayed.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 100000,
+      "prompt": "Which text should I check?"
+     },
+     "window": {
+      "type": "integer",
+      "label": "max words apart",
+      "minimum": 2,
+      "maximum": 500,
+      "default": 50,
+      "description": "how close two uses have to be to count as a repeat"
+     },
+     "minLength": {
+      "type": "integer",
+      "label": "min word length",
+      "minimum": 1,
+      "maximum": 20,
+      "default": 4
+     }
+    }
+   },
+   "examples": [
+    "find repeated words in this text",
+    "am I repeating myself",
+    "check for word repetition",
+    "spot repeated words only when they are very close together",
+    "find words I have used twice"
+   ]
+  },
+  {
+   "name": "formatCitation",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "formatCitation \u2014 Assemble a reference in APA, MLA or Chicago style from details you provide.\n  needs: authors: array, title: string, year: integer\n  optional: style: string, container: string, publisher: string, volume: string, pages: string, url: string\n  e.g. \"format this as an APA reference\" \u2192 {\"authors\":[\"Jane Smith\"],\"title\":\"On measurement\",\"year\":2024,\"container\":\"Journal of Things\",\"volume\":\"12\",\"pages\":\"3-19\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "authors",
+     "title",
+     "year"
+    ],
+    "properties": {
+     "authors": {
+      "type": "array",
+      "label": "authors",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1,
+      "prompt": "Who are the authors?"
+     },
+     "title": {
+      "type": "string",
+      "label": "title",
+      "minLength": 1,
+      "prompt": "What is the title?"
+     },
+     "year": {
+      "type": "integer",
+      "label": "year",
+      "prompt": "What year was it published?"
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "APA",
+       "MLA",
+       "Chicago"
+      ],
+      "default": "APA"
+     },
+     "container": {
+      "type": "string",
+      "label": "journal, book or site",
+      "description": "the journal, book or site it appeared in"
+     },
+     "publisher": {
+      "type": "string",
+      "label": "publisher"
+     },
+     "volume": {
+      "type": "string",
+      "label": "volume"
+     },
+     "pages": {
+      "type": "string",
+      "label": "pages"
+     },
+     "url": {
+      "type": "string",
+      "label": "url"
+     }
+    }
+   },
+   "examples": [
+    "format this as an APA reference",
+    "make an MLA citation for this book",
+    "APA reference with two authors",
+    "chicago style citation for a book",
+    "APA citation with a url"
+   ]
+  },
+  {
+   "name": "generateTableOfContents",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "generateTableOfContents \u2014 Build a linked table of contents to sit at the top of a document.\n  needs: markdown: string\n  optional: maxLevel: integer, numbered: boolean\n  e.g. \"make a table of contents for this markdown\" \u2192 {\"markdown\":\"# Title\\n\\nSome text.\\n\\n## First part\\n\\n## Second part\\n\\n### A detail\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "markdown"
+    ],
+    "properties": {
+     "markdown": {
+      "type": "string",
+      "label": "markdown",
+      "minLength": 1,
+      "maxLength": 200000,
+      "prompt": "Which Markdown should I build a contents list from?"
+     },
+     "maxLevel": {
+      "type": "integer",
+      "label": "deepest heading level",
+      "minimum": 1,
+      "maximum": 6,
+      "default": 3
+     },
+     "numbered": {
+      "type": "boolean",
+      "label": "numbered",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "make a table of contents for this markdown",
+    "build a contents list",
+    "table of contents down to level two only",
+    "numbered table of contents",
+    "contents from headings with punctuation"
+   ]
+  },
+  {
+   "name": "markdownToHtml",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "markdownToHtml \u2014 Convert Markdown into HTML.\n  needs: markdown: string\n  e.g. \"convert this markdown to html\" \u2192 {\"markdown\":\"# Title\\n\\nSome **bold** text.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "markdown"
+    ],
+    "properties": {
+     "markdown": {
+      "type": "string",
+      "label": "markdown",
+      "minLength": 1,
+      "maxLength": 200000,
+      "prompt": "Which Markdown should I convert?"
+     }
+    }
+   },
+   "examples": [
+    "convert this markdown to html",
+    "markdown list to html",
+    "turn this link into html",
+    "convert a numbered list and a quote",
+    "markdown with inline code to html"
+   ]
+  },
+  {
+   "name": "outlineToMarkdown",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "outlineToMarkdown \u2014 Turn your own indented notes into markdown headings and bullets.\n  needs: outline: string\n  optional: headingLevels: integer\n  e.g. \"turn this outline into markdown\" \u2192 {\"outline\":\"Introduction\\n  Background\\n  Aims\\nMethod\\n  Sampling\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "outline"
+    ],
+    "properties": {
+     "outline": {
+      "type": "string",
+      "label": "outline",
+      "minLength": 1,
+      "maxLength": 20000,
+      "prompt": "Which outline should I convert?"
+     },
+     "headingLevels": {
+      "type": "integer",
+      "label": "heading levels",
+      "minimum": 0,
+      "maximum": 6,
+      "default": 1,
+      "description": "how many outline levels become headings rather than bullets"
+     }
+    }
+   },
+   "examples": [
+    "turn this outline into markdown",
+    "convert my indented notes to markdown",
+    "outline to markdown with two heading levels",
+    "make markdown from a flat list",
+    "convert an outline using tabs"
+   ]
+  },
+  {
+   "name": "paragraphStats",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "paragraphStats \u2014 Break a document into paragraphs and report the word and sentence count of each.\n  needs: text: string\n  e.g. \"break this document into paragraph stats\" \u2192 {\"text\":\"First paragraph here. It has two sentences.\\n\\nSecond one is shorter.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which document should I break down?"
+     }
+    }
+   },
+   "examples": [
+    "break this document into paragraph stats",
+    "how long is each paragraph",
+    "paragraph breakdown of a single block",
+    "which paragraph is longest",
+    "stats for a document with extra blank lines"
+   ]
+  },
+  {
+   "name": "pluralize",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "pluralize \u2014 Make one English word into many \u2014 its plural.\n  needs: word: string\n  optional: count: integer\n  e.g. \"what is the plural of child\" \u2192 {\"word\":\"child\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "word"
+    ],
+    "properties": {
+     "word": {
+      "type": "string",
+      "label": "word",
+      "minLength": 1,
+      "maxLength": 60,
+      "prompt": "Which word should I make plural?"
+     },
+     "count": {
+      "type": "integer",
+      "label": "count",
+      "description": "pick the form that agrees with this number"
+     }
+    }
+   },
+   "examples": [
+    "what is the plural of child",
+    "pluralize city",
+    "plural of knife",
+    "what is the plural of sheep",
+    "plural of box for 1 item"
+   ]
+  },
+  {
+   "name": "singularize",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "singularize \u2014 Cut a plural English word back to one of the thing.\n  needs: word: string\n  e.g. \"what is the singular of children\" \u2192 {\"word\":\"children\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "word"
+    ],
+    "properties": {
+     "word": {
+      "type": "string",
+      "label": "word",
+      "minLength": 1,
+      "maxLength": 60,
+      "prompt": "Which word should I make singular?"
+     }
+    }
+   },
+   "examples": [
+    "what is the singular of children",
+    "singularize cities",
+    "singular form of knives",
+    "what is the singular of buses",
+    "singularize analyses"
+   ]
+  },
+  {
+   "name": "spellCheck",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "spellCheck \u2014 Find words that are not in the dictionary and suggest corrections.\n  needs: text: string\n  optional: suggestions: integer\n  e.g. \"spell check this sentence\" \u2192 {\"text\":\"teh quick brown fox\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 50000,
+      "prompt": "Which text should I check?"
+     },
+     "suggestions": {
+      "type": "integer",
+      "label": "suggestions per word",
+      "minimum": 0,
+      "maximum": 10,
+      "default": 3
+     }
+    }
+   },
+   "examples": [
+    "spell check this sentence",
+    "check my spelling",
+    "find spelling mistakes",
+    "are there any typos here",
+    "check these two commonly misspelled words",
+    "any misspelt words in this",
+    "find the typos in this paragraph"
+   ]
+  },
+  {
+   "name": "compareSemver",
+   "category": "developer",
+   "needsNetwork": false,
+   "card": "compareSemver \u2014 Say which of two version numbers is the newer.\n  needs: a: string, b: string\n  e.g. \"is 2.11.5 newer than 2.9.0\" \u2192 {\"a\":\"2.11.5\",\"b\":\"2.9.0\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "a",
+     "b"
+    ],
+    "properties": {
+     "a": {
+      "type": "string",
+      "label": "first version",
+      "minLength": 1,
+      "prompt": "Which is the first version?"
+     },
+     "b": {
+      "type": "string",
+      "label": "second version",
+      "minLength": 1,
+      "prompt": "Which is the second version?"
+     }
+    }
+   },
+   "examples": [
+    "is 2.11.5 newer than 2.9.0",
+    "compare 1.0.0 and 1.0.1",
+    "which is newer, 1.0.0 or 1.0.0-beta",
+    "compare two identical versions",
+    "is 10.0.0 newer than 9.9.9"
+   ]
+  },
+  {
+   "name": "cronToText",
+   "category": "developer",
+   "needsNetwork": false,
+   "card": "cronToText \u2014 Explain what a cron schedule expression means in plain English.\n  needs: expression: string\n  e.g. \"what does this cron expression mean\" \u2192 {\"expression\":\"0 9 * * 1-5\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "expression"
+    ],
+    "properties": {
+     "expression": {
+      "type": "string",
+      "label": "cron expression",
+      "minLength": 1,
+      "prompt": "Which cron expression should I explain?"
+     }
+    }
+   },
+   "examples": [
+    "what does this cron expression mean",
+    "explain this cron schedule",
+    "when does this cron run",
+    "translate this crontab line",
+    "what schedule is this cron"
+   ]
+  },
+  {
+   "name": "escapeRegex",
+   "category": "developer",
+   "needsNetwork": false,
+   "card": "escapeRegex \u2014 Escape special characters so text matches literally inside a regex pattern.\n  needs: text: string\n  e.g. \"escape this for a regex: a.b\" \u2192 {\"text\":\"a.b\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I escape?"
+     }
+    }
+   },
+   "examples": [
+    "escape this for a regex: a.b",
+    "make this string regex-safe",
+    "escape a path for a pattern",
+    "escape a string with brackets",
+    "escape plain text that needs nothing",
+    "make this safe to drop into a regex pattern: c++",
+    "escape the special characters for a regular expression: (a|b)"
+   ]
+  },
+  {
+   "name": "httpStatusLookup",
+   "category": "developer",
+   "needsNetwork": false,
+   "card": "httpStatusLookup \u2014 Look up what an HTTP status code means.\n  needs: code: integer\n  e.g. \"what does http 404 mean\" \u2192 {\"code\":404}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "code"
+    ],
+    "properties": {
+     "code": {
+      "type": "integer",
+      "label": "status code",
+      "minimum": 100,
+      "maximum": 599,
+      "prompt": "Which status code?"
+     }
+    }
+   },
+   "examples": [
+    "what does http 404 mean",
+    "what is a 503",
+    "meaning of status 200",
+    "what is http 429",
+    "explain a 301 redirect"
+   ]
+  },
+  {
+   "name": "jwtDecode",
+   "category": "developer",
+   "needsNetwork": false,
+   "card": "jwtDecode \u2014 Decode the header and claims inside a JSON Web Token.\n  needs: token: string\n  e.g. \"decode this jwt\" \u2192 {\"token\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkFuYSIsImlhdCI6MTUxNjIzOTAyMn0.c2lnbmF0dXJl\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "token"
+    ],
+    "properties": {
+     "token": {
+      "type": "string",
+      "label": "token",
+      "minLength": 1,
+      "prompt": "Which JWT should I decode?"
+     }
+    }
+   },
+   "examples": [
+    "decode this jwt",
+    "what is inside this token",
+    "read the claims in this jwt",
+    "decode a token with an expiry",
+    "decode a jwt that has no signature part"
+   ]
+  },
+  {
+   "name": "mimeTypeLookup",
+   "category": "developer",
+   "needsNetwork": false,
+   "card": "mimeTypeLookup \u2014 Look up the MIME type for a file extension, or which extensions use a MIME type.\n  needs: query: string\n  e.g. \"what mime type is a png\" \u2192 {\"query\":\"png\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "extension or mime type",
+      "minLength": 1,
+      "prompt": "Which extension, filename or MIME type?"
+     }
+    }
+   },
+   "examples": [
+    "what mime type is a png",
+    "mime type for report.pdf",
+    "which extensions use image/jpeg",
+    "what is a .woff2 file",
+    "mime type for a gguf model file"
+   ]
+  },
+  {
+   "name": "parseSemver",
+   "category": "developer",
+   "needsNetwork": false,
+   "card": "parseSemver \u2014 Split one version number into major, minor, patch and pre-release.\n  needs: version: string\n  e.g. \"break down version 2.11.5\" \u2192 {\"version\":\"2.11.5\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "version"
+    ],
+    "properties": {
+     "version": {
+      "type": "string",
+      "label": "version",
+      "minLength": 1,
+      "prompt": "Which version number?"
+     }
+    }
+   },
+   "examples": [
+    "break down version 2.11.5",
+    "parse v1.0.0-beta.2",
+    "what are the parts of 0.1.0",
+    "parse a version with build metadata",
+    "parse 10.4.0-rc.1"
+   ]
+  },
+  {
+   "name": "testRegex",
+   "category": "developer",
+   "needsNetwork": false,
+   "card": "testRegex \u2014 Run a regex pattern over sample text and show every hit it makes.\n  needs: pattern: string, text: string\n  optional: flags: string\n  e.g. \"test this regex against my text\" \u2192 {\"pattern\":\"\\\\d+\",\"text\":\"a1 b22 c333\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "pattern",
+     "text"
+    ],
+    "properties": {
+     "pattern": {
+      "type": "string",
+      "label": "pattern",
+      "minLength": 1,
+      "maxLength": 500,
+      "prompt": "Which regular expression should I test?"
+     },
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 20000,
+      "prompt": "Which text should I test it against?"
+     },
+     "flags": {
+      "type": "string",
+      "label": "flags",
+      "maxLength": 8,
+      "default": "g"
+     }
+    }
+   },
+   "examples": [
+    "test this regex against my text",
+    "what does this pattern capture",
+    "check a regex that finds nothing",
+    "test a case insensitive pattern",
+    "try a regex with a repeat count",
+    "try this regex on my text and list what it catches",
+    "which parts of this text does the regex match"
+   ]
+  },
+  {
+   "name": "unicodeLookup",
+   "category": "developer",
+   "needsNetwork": false,
+   "card": "unicodeLookup \u2014 Look up a character by symbol, code point or name, with its encodings.\n  needs: query: string\n  e.g. \"look up the character A\" \u2192 {\"query\":\"A\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "character or code",
+      "minLength": 1,
+      "prompt": "Which character, code point or name should I look up?"
+     }
+    }
+   },
+   "examples": [
+    "look up the character A",
+    "what is U+1F54A",
+    "unicode info for \u00e9",
+    "what is this arrow character",
+    "find the snowman character"
+   ]
+  },
+  {
+   "name": "budgetSplit",
+   "category": "organising",
+   "needsNetwork": false,
+   "card": "budgetSplit \u2014 Divide an income into budget categories by percentage, using 50/30/20 or ratios you set.\n  needs: income: number\n  optional: preset: string, ratios: array, labels: array\n  e.g. \"split 3000 a month using 50/30/20\" \u2192 {\"income\":3000}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "income"
+    ],
+    "properties": {
+     "income": {
+      "type": "number",
+      "label": "amount to divide",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "How much is there to divide?"
+     },
+     "preset": {
+      "type": "string",
+      "label": "budget rule",
+      "enum": [
+       "50/30/20",
+       "70/20/10",
+       "60/20/20"
+      ],
+      "default": "50/30/20"
+     },
+     "ratios": {
+      "type": "array",
+      "label": "percentages",
+      "items": {
+       "type": "number"
+      },
+      "description": "your own percentages, which must add to 100"
+     },
+     "labels": {
+      "type": "array",
+      "label": "category names",
+      "items": {
+       "type": "string"
+      },
+      "description": "a name for each of your own ratios"
+     }
+    }
+   },
+   "examples": [
+    "split 3000 a month using 50/30/20",
+    "budget 2450 with the 70/20/10 rule",
+    "split 1000 my own way 40 40 20",
+    "divide 3333.33 into 50/30/20",
+    "split 5000 sixty twenty twenty"
+   ]
+  },
+  {
+   "name": "findCommonMeetingHours",
+   "category": "organising",
+   "needsNetwork": false,
+   "card": "findCommonMeetingHours \u2014 Find the hours when everyone is inside their working day, across time zones.\n  needs: participants: array\n  optional: workStart: integer, workEnd: integer, on: string\n  e.g. \"when can London and New York meet\" \u2192 {\"participants\":[\"Europe/London\",\"America/New_York\"],\"on\":\"2026-09-01\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "participants"
+    ],
+    "properties": {
+     "participants": {
+      "type": "array",
+      "label": "time zones",
+      "minItems": 1,
+      "maxItems": 20,
+      "prompt": "Which time zones are people in?"
+     },
+     "workStart": {
+      "type": "integer",
+      "label": "work starts (hour)",
+      "minimum": 0,
+      "maximum": 23,
+      "default": 9
+     },
+     "workEnd": {
+      "type": "integer",
+      "label": "work ends (hour)",
+      "minimum": 1,
+      "maximum": 24,
+      "default": 17
+     },
+     "on": {
+      "type": "string",
+      "label": "date",
+      "description": "the date to use for daylight saving - today by default"
+     }
+    }
+   },
+   "examples": [
+    "when can London and New York meet",
+    "common working hours for London and Berlin",
+    "can London and Tokyo find a meeting time",
+    "meeting slot for three offices",
+    "working hours for one person"
+   ]
+  },
+  {
+   "name": "habitCompletionRate",
+   "category": "organising",
+   "needsNetwork": false,
+   "card": "habitCompletionRate \u2014 Work out how many days you kept a habit, as a percentage of the days in the period.\n  needs: dates: array, from: string, to: string\n  e.g. \"how often did I keep this habit\" \u2192 {\"dates\":[\"2026-08-01\",\"2026-08-02\",\"2026-08-03\"],\"from\":\"2026-08-01\",\"to\":\"2026-08-10\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "dates",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "dates": {
+      "type": "array",
+      "label": "days done",
+      "minItems": 0,
+      "maxItems": 3650,
+      "items": {
+       "type": "string"
+      },
+      "prompt": "Which days was it done?"
+     },
+     "from": {
+      "type": "string",
+      "label": "start date",
+      "prompt": "What is the first day of the period?"
+     },
+     "to": {
+      "type": "string",
+      "label": "end date",
+      "prompt": "And the last day?"
+     }
+    }
+   },
+   "examples": [
+    "how often did I keep this habit",
+    "what is my completion rate this week",
+    "habit rate for a month",
+    "did I do it every day",
+    "completion rate ignoring days outside the period",
+    "on what share of days did I keep the streak going",
+    "how consistent was I with this over the month"
+   ]
+  },
+  {
+   "name": "prioritizeTasks",
+   "category": "organising",
+   "needsNetwork": false,
+   "card": "prioritizeTasks \u2014 Rank tasks by importance, urgency and how much effort they take.\n  needs: tasks: array\n  e.g. \"prioritise these tasks\" \u2192 {\"tasks\":[{\"task\":\"file taxes\",\"importance\":5,\"urgency\":5,\"effort\":3},{\"task\":\"tidy desk\",\"importance\":1,\"urgency\":2,\"effort\":1},{\"task\":\"write report\",\"importance\":4,\"urgency\":3,\"effort\":2},{\"task\":\"reply to email\",\"importance\":2,\"urgency\":5,\"effort\":1}]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "tasks"
+    ],
+    "properties": {
+     "tasks": {
+      "type": "array",
+      "label": "tasks",
+      "minItems": 1,
+      "maxItems": 200,
+      "prompt": "What are the tasks, with their importance, urgency and effort?"
+     }
+    }
+   },
+   "examples": [
+    "prioritise these tasks",
+    "what should I do first",
+    "rank my to do list",
+    "order these jobs by priority",
+    "prioritise two equally scored tasks"
+   ]
+  },
+  {
+   "name": "rotateAssignments",
+   "category": "organising",
+   "needsNetwork": false,
+   "card": "rotateAssignments \u2014 Build a rota that shares tasks evenly between people over several rounds.\n  needs: people: array, tasks: array\n  optional: rounds: integer\n  e.g. \"make a rota for these chores\" \u2192 {\"people\":[\"Ana\",\"Bo\",\"Cy\"],\"tasks\":[\"dishes\",\"bins\",\"hoover\"],\"rounds\":3}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "people",
+     "tasks"
+    ],
+    "properties": {
+     "people": {
+      "type": "array",
+      "label": "people",
+      "minItems": 1,
+      "maxItems": 100,
+      "items": {
+       "type": "string"
+      },
+      "prompt": "Who is on the rota?"
+     },
+     "tasks": {
+      "type": "array",
+      "label": "tasks",
+      "minItems": 1,
+      "maxItems": 100,
+      "items": {
+       "type": "string"
+      },
+      "prompt": "Which tasks are being shared?"
+     },
+     "rounds": {
+      "type": "integer",
+      "label": "rounds",
+      "minimum": 1,
+      "maximum": 100,
+      "default": 4
+     }
+    }
+   },
+   "examples": [
+    "make a rota for these chores",
+    "rotate two jobs between two people",
+    "share one task between three people",
+    "rota with more tasks than people",
+    "weekly rota for four weeks"
+   ]
+  },
+  {
+   "name": "streakCount",
+   "category": "organising",
+   "needsNetwork": false,
+   "card": "streakCount \u2014 Count the days done in a row from a list of dates \u2014 the current and longest streak.\n  needs: dates: array\n  optional: asOf: string\n  e.g. \"how long is my streak\" \u2192 {\"dates\":[\"2026-08-28\",\"2026-08-29\",\"2026-08-30\",\"2026-09-01\"],\"asOf\":\"2026-09-01\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "dates"
+    ],
+    "properties": {
+     "dates": {
+      "type": "array",
+      "label": "dates",
+      "minItems": 1,
+      "maxItems": 3650,
+      "items": {
+       "type": "string"
+      },
+      "prompt": "Which dates should I count?"
+     },
+     "asOf": {
+      "type": "string",
+      "label": "count back from",
+      "description": "the day to count the current streak back from - today by default"
+     }
+    }
+   },
+   "examples": [
+    "how long is my streak",
+    "what is my current run of days",
+    "did I break my streak",
+    "count my streak counting yesterday",
+    "streak from a single day"
+   ]
+  },
+  {
+   "name": "timeBlockSchedule",
+   "category": "organising",
+   "needsNetwork": false,
+   "card": "timeBlockSchedule \u2014 Lay tasks out as time blocks through the day, with breaks between them.\n  needs: tasks: array, start: string\n  optional: breakMinutes: integer\n  e.g. \"block out my morning\" \u2192 {\"tasks\":[{\"task\":\"writing\",\"minutes\":90},{\"task\":\"email\",\"minutes\":30},{\"task\":\"review\",\"minutes\":60}],\"start\":\"09:00\",\"breakMinutes\":15}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "tasks",
+     "start"
+    ],
+    "properties": {
+     "tasks": {
+      "type": "array",
+      "label": "tasks",
+      "minItems": 1,
+      "maxItems": 50,
+      "prompt": "Which tasks, and how long does each take?"
+     },
+     "start": {
+      "type": "string",
+      "label": "start time",
+      "prompt": "What time do you start?"
+     },
+     "breakMinutes": {
+      "type": "integer",
+      "label": "break (minutes)",
+      "minimum": 0,
+      "maximum": 240,
+      "default": 0
+     }
+    }
+   },
+   "examples": [
+    "block out my morning",
+    "schedule these tasks back to back",
+    "time block a single task",
+    "plan an afternoon with short breaks",
+    "block out four short tasks"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "compareSemver",
+    "parseSemver"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "compareSemver \u2014 Say which of two version numbers is the newer.\n  needs: a: string, b: string\n  e.g. \"is 2.11.5 newer than 2.9.0\" \u2192 {\"a\":\"2.11.5\",\"b\":\"2.9.0\"}",
+    "parseSemver \u2014 Split one version number into major, minor, patch and pre-release.\n  needs: version: string\n  e.g. \"break down version 2.11.5\" \u2192 {\"version\":\"2.11.5\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "a",
+      "b"
+     ],
+     "properties": {
+      "a": {
+       "type": "string",
+       "label": "first version",
+       "minLength": 1,
+       "prompt": "Which is the first version?"
+      },
+      "b": {
+       "type": "string",
+       "label": "second version",
+       "minLength": 1,
+       "prompt": "Which is the second version?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "version"
+     ],
+     "properties": {
+      "version": {
+       "type": "string",
+       "label": "version",
+       "minLength": 1,
+       "prompt": "Which version number?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "escapeRegex",
+    "testRegex"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "escapeRegex \u2014 Escape special characters so text matches literally inside a regex pattern.\n  needs: text: string\n  e.g. \"escape this for a regex: a.b\" \u2192 {\"text\":\"a.b\"}",
+    "testRegex \u2014 Run a regex pattern over sample text and show every hit it makes.\n  needs: pattern: string, text: string\n  optional: flags: string\n  e.g. \"test this regex against my text\" \u2192 {\"pattern\":\"\\\\d+\",\"text\":\"a1 b22 c333\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I escape?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "pattern",
+      "text"
+     ],
+     "properties": {
+      "pattern": {
+       "type": "string",
+       "label": "pattern",
+       "minLength": 1,
+       "maxLength": 500,
+       "prompt": "Which regular expression should I test?"
+      },
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 20000,
+       "prompt": "Which text should I test it against?"
+      },
+      "flags": {
+       "type": "string",
+       "label": "flags",
+       "maxLength": 8,
+       "default": "g"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractHeadings",
+    "generateTableOfContents"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "extractHeadings \u2014 Pull the heading structure out of a markdown document as a plain outline.\n  needs: markdown: string\n  e.g. \"get the headings out of this markdown\" \u2192 {\"markdown\":\"# Title\\n\\nSome text.\\n\\n## Section one\\n\\n## Section two\"}",
+    "generateTableOfContents \u2014 Build a linked table of contents to sit at the top of a document.\n  needs: markdown: string\n  optional: maxLevel: integer, numbered: boolean\n  e.g. \"make a table of contents for this markdown\" \u2192 {\"markdown\":\"# Title\\n\\nSome text.\\n\\n## First part\\n\\n## Second part\\n\\n### A detail\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "markdown"
+     ],
+     "properties": {
+      "markdown": {
+       "type": "string",
+       "label": "markdown",
+       "minLength": 1,
+       "prompt": "Which markdown should I read?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "markdown"
+     ],
+     "properties": {
+      "markdown": {
+       "type": "string",
+       "label": "markdown",
+       "minLength": 1,
+       "maxLength": 200000,
+       "prompt": "Which Markdown should I build a contents list from?"
+      },
+      "maxLevel": {
+       "type": "integer",
+       "label": "deepest heading level",
+       "minimum": 1,
+       "maximum": 6,
+       "default": 3
+      },
+      "numbered": {
+       "type": "boolean",
+       "label": "numbered",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractHeadings",
+    "outlineToMarkdown"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "extractHeadings \u2014 Pull the heading structure out of a markdown document as a plain outline.\n  needs: markdown: string\n  e.g. \"get the headings out of this markdown\" \u2192 {\"markdown\":\"# Title\\n\\nSome text.\\n\\n## Section one\\n\\n## Section two\"}",
+    "outlineToMarkdown \u2014 Turn your own indented notes into markdown headings and bullets.\n  needs: outline: string\n  optional: headingLevels: integer\n  e.g. \"turn this outline into markdown\" \u2192 {\"outline\":\"Introduction\\n  Background\\n  Aims\\nMethod\\n  Sampling\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "markdown"
+     ],
+     "properties": {
+      "markdown": {
+       "type": "string",
+       "label": "markdown",
+       "minLength": 1,
+       "prompt": "Which markdown should I read?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "outline"
+     ],
+     "properties": {
+      "outline": {
+       "type": "string",
+       "label": "outline",
+       "minLength": 1,
+       "maxLength": 20000,
+       "prompt": "Which outline should I convert?"
+      },
+      "headingLevels": {
+       "type": "integer",
+       "label": "heading levels",
+       "minimum": 0,
+       "maximum": 6,
+       "default": 1,
+       "description": "how many outline levels become headings rather than bullets"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "findLongSentences",
+    "findRepeatedWords"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "findLongSentences \u2014 Spot the sentences that run on past a word limit.\n  needs: text: string\n  optional: threshold: integer\n  e.g. \"find the long sentences in this\" \u2192 {\"text\":\"This is short. This sentence, on the other hand, goes on for a considerable length and contains a great many words indeed.\",\"threshold\":15}",
+    "findRepeatedWords \u2014 Spot a word used again too soon after itself.\n  needs: text: string\n  optional: window: integer, minLength: integer\n  e.g. \"find repeated words in this text\" \u2192 {\"text\":\"The report says the report is late because the report was delayed.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I check?"
+      },
+      "threshold": {
+       "type": "integer",
+       "label": "max words per sentence",
+       "minimum": 5,
+       "maximum": 200,
+       "default": 25
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I check?"
+      },
+      "window": {
+       "type": "integer",
+       "label": "max words apart",
+       "minimum": 2,
+       "maximum": 500,
+       "default": 50,
+       "description": "how close two uses have to be to count as a repeat"
+      },
+      "minLength": {
+       "type": "integer",
+       "label": "min word length",
+       "minimum": 1,
+       "maximum": 20,
+       "default": 4
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "httpStatusLookup",
+    "unicodeLookup"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "httpStatusLookup \u2014 Look up what an HTTP status code means.\n  needs: code: integer\n  e.g. \"what does http 404 mean\" \u2192 {\"code\":404}",
+    "unicodeLookup \u2014 Look up a character by symbol, code point or name, with its encodings.\n  needs: query: string\n  e.g. \"look up the character A\" \u2192 {\"query\":\"A\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "code"
+     ],
+     "properties": {
+      "code": {
+       "type": "integer",
+       "label": "status code",
+       "minimum": 100,
+       "maximum": 599,
+       "prompt": "Which status code?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "character or code",
+       "minLength": 1,
+       "prompt": "Which character, code point or name should I look up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pluralize",
+    "singularize"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "pluralize \u2014 Make one English word into many \u2014 its plural.\n  needs: word: string\n  optional: count: integer\n  e.g. \"what is the plural of child\" \u2192 {\"word\":\"child\"}",
+    "singularize \u2014 Cut a plural English word back to one of the thing.\n  needs: word: string\n  e.g. \"what is the singular of children\" \u2192 {\"word\":\"children\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "word"
+     ],
+     "properties": {
+      "word": {
+       "type": "string",
+       "label": "word",
+       "minLength": 1,
+       "maxLength": 60,
+       "prompt": "Which word should I make plural?"
+      },
+      "count": {
+       "type": "integer",
+       "label": "count",
+       "description": "pick the form that agrees with this number"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "word"
+     ],
+     "properties": {
+      "word": {
+       "type": "string",
+       "label": "word",
+       "minLength": 1,
+       "maxLength": 60,
+       "prompt": "Which word should I make singular?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "prioritizeTasks",
+    "sortLines"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "prioritizeTasks \u2014 Rank tasks by importance, urgency and how much effort they take.\n  needs: tasks: array\n  e.g. \"prioritise these tasks\" \u2192 {\"tasks\":[{\"task\":\"file taxes\",\"importance\":5,\"urgency\":5,\"effort\":3},{\"task\":\"tidy desk\",\"importance\":1,\"urgency\":2,\"effort\":1},{\"task\":\"write report\",\"importance\":4,\"urgency\":3,\"effort\":2},{\"task\":\"reply to email\",\"importance\":2,\"urgency\":5,\"effort\":1}]}",
+    "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "tasks"
+     ],
+     "properties": {
+      "tasks": {
+       "type": "array",
+       "label": "tasks",
+       "minItems": 1,
+       "maxItems": 200,
+       "prompt": "What are the tasks, with their importance, urgency and effort?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "length"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "singularize",
+    "stemWords"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "singularize \u2014 Cut a plural English word back to one of the thing.\n  needs: word: string\n  e.g. \"what is the singular of children\" \u2192 {\"word\":\"children\"}",
+    "stemWords \u2014 Reduce words to their stems so different forms of the same word group together.\n  needs: text: string\n  e.g. \"stem running runs and runner\" \u2192 {\"text\":\"running runs runner\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "word"
+     ],
+     "properties": {
+      "word": {
+       "type": "string",
+       "label": "word",
+       "minLength": 1,
+       "maxLength": 60,
+       "prompt": "Which word should I make singular?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which words should I stem?"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,7513 @@
+{
+ "rows": [
+  {
+   "skill": "formatPhoneNumber",
+   "message": "format +1 415 555 0132 as e.164 for our crm import",
+   "input": {
+    "number": "+1 415 555 0132"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "can you put 0044 7700 900123 in proper international format please",
+   "input": {
+    "number": "0044 7700 900123"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "I'm a nurse updating patient contacts. Rewrite +353 87 123 4567 in the standard format.",
+   "input": {
+    "number": "+353 87 123 4567"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "format 07700 900456 for me, it's a UK mobile so assume +44",
+   "input": {
+    "number": "07700 900456",
+    "region": "+44"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "e164 version of +61 2 9374 4000?",
+   "input": {
+    "number": "+61 2 9374 4000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "Our shop's landline is +49 30 901820. Write it in international phone format for the website.",
+   "input": {
+    "number": "+49 30 901820"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "reformat +81 3-1234-5678 into international form",
+   "input": {
+    "number": "+81 3-1234-5678"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "national format for +33 6 12 34 56 78",
+   "input": {
+    "number": "+33 6 12 34 56 78"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "give me the e.164 form of (212) 555-0187, country code 1",
+   "input": {
+    "number": "(212) 555-0187",
+    "region": "1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "Please standardise this phone number: +34 612 345 678.",
+   "input": {
+    "number": "+34 612 345 678"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "show +27 21 555 0199 in national phone number format",
+   "input": {
+    "number": "+27 21 555 0199"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "clean 0061 412 345 678 into a proper format for my contacts list",
+   "input": {
+    "number": "0061 412 345 678"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "need +971 50 123 4567 as e164 asap",
+   "input": {
+    "number": "+971 50 123 4567"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "My gran gave me her number as 01632 960001. It is a UK one, +44. Can you format it properly?",
+   "input": {
+    "number": "01632 960001",
+    "region": "+44"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "convert +52 55 1234 5678 to international notation",
+   "input": {
+    "number": "+52 55 1234 5678"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "how do i write +64 9 123 4567 in e.164",
+   "input": {
+    "number": "+64 9 123 4567"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "format the phone number +1-604-555-0143 in e.164, no dashes",
+   "input": {
+    "number": "+1-604-555-0143"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "standardize +39 06 1234 5678 for our customer database",
+   "input": {
+    "number": "+39 06 1234 5678"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "rewrite 9876543210 with the +91 code in international style",
+   "input": {
+    "number": "9876543210",
+    "region": "+91"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "I'll paste a customer's number, please format it for me",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "can you rewrite a mobile number in e164 for me",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "put my work number into international format",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "I need a landline written out the national way",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "message": "format a number into e.164 assuming country code +49",
+   "input": {
+    "region": "+49"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "how guessable is Tr0ub4dor&3",
+   "input": {
+    "password": "Tr0ub4dor&3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "rate the entropy of correct horse battery staple",
+   "input": {
+    "password": "correct horse battery staple"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "Is qwerty123 too weak for my router admin page?",
+   "input": {
+    "password": "qwerty123"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "my kid wants minecraft2015 as her password, is that ok",
+   "input": {
+    "password": "minecraft2015"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "Check how strong the password Summer2026! is before I set it for the shop till.",
+   "input": {
+    "password": "Summer2026!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "entropy estimate for the password zX9#pL2&wQ",
+   "input": {
+    "password": "zX9#pL2&wQ"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "would P@ssw0rd pass a strength check",
+   "input": {
+    "password": "P@ssw0rd"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "How secure is the passphrase purple-elephant-dances-quietly?",
+   "input": {
+    "password": "purple-elephant-dances-quietly"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "test strength: iloveyou",
+   "input": {
+    "password": "iloveyou"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "is letmein predictable as a login?",
+   "input": {
+    "password": "letmein"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "I'm a teacher setting up class logins. Is Maths2026 weak?",
+   "input": {
+    "password": "Maths2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "score this password for me: 7h!sIsN0tE@sy",
+   "input": {
+    "password": "7h!sIsN0tE@sy"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "how many bits of entropy does abc123abc123 have",
+   "input": {
+    "password": "abc123abc123"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "does the password dragon1 have predictable patterns",
+   "input": {
+    "password": "dragon1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "Strength of my new wifi key, Gr33nT3a&Biscuits?",
+   "input": {
+    "password": "Gr33nT3a&Biscuits"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "rate Welcome1 as a password please",
+   "input": {
+    "password": "Welcome1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "how crackable is 19871987",
+   "input": {
+    "password": "19871987"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "Retiree here. Is MyDogRex a sensible password or too simple?",
+   "input": {
+    "password": "MyDogRex"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "my password is football!!, rate how secure it is",
+   "input": {
+    "password": "football!!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "I made up a new password, is it any good against cracking",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "my laptop login needs a passphrase, how good is the one I've chosen",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "can you check whether my new password is easy to guess",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "estimate the entropy of a password, I'll type it next",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "passwordStrength",
+   "message": "is my email password predictable? checking before I keep it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateDate",
+   "message": "does 2027-02-29 exist",
+   "input": {
+    "date": "2027-02-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "Is 30 February 2025 a real day?",
+   "input": {
+    "date": "30 February 2025"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "my passport form says 1990-06-31, is that even a date",
+   "input": {
+    "date": "1990-06-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "check whether 2028-02-29 is on the calendar",
+   "input": {
+    "date": "2028-02-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "is 31/09/2026 an actual date on the calendar",
+   "input": {
+    "date": "31/09/2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "check if 29 February 1900 was a real date",
+   "input": {
+    "date": "29 February 1900"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "Does April 31 2026 actually exist?",
+   "input": {
+    "date": "April 31 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "nurse here, a chart says DOB 2001-13-05. is that possible",
+   "input": {
+    "date": "2001-13-05"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "can you confirm 2026-11-31 isn't a real date",
+   "input": {
+    "date": "2026-11-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "is 15/08/2026 a real calendar date",
+   "input": {
+    "date": "15/08/2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "Real date or typo: 2024-02-30?",
+   "input": {
+    "date": "2024-02-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "does 31 June 2026 exist on the calendar",
+   "input": {
+    "date": "31 June 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "I'm booking a venue for 2026-09-31. Does that day exist?",
+   "input": {
+    "date": "2026-09-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "valid calendar date? 2000-02-29",
+   "input": {
+    "date": "2000-02-29"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "check 1 January 2027 is a proper date",
+   "input": {
+    "date": "1 January 2027"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "Is 2026-04-00 a date at all",
+   "input": {
+    "date": "2026-04-00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "quick check that 12/25/2026 is real",
+   "input": {
+    "date": "12/25/2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "my invoice is dated 2025-02-28, can you check that date exists",
+   "input": {
+    "date": "2025-02-28"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateDate",
+   "message": "is the date on this form real",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateDate",
+   "message": "check whether my birthday as written exists on the calendar",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateDate",
+   "message": "I typed a date into the spreadsheet, can you see if it actually exists",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateDate",
+   "message": "does the deadline date I was given exist",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateDate",
+   "message": "verify the date from the ticket is a real calendar day",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateDate",
+   "message": "the date printed on the receipt looks odd, is it a real date",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "is sam.oneil@example.org written correctly",
+   "input": {
+    "email": "sam.oneil@example.org"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "check priya@@gmail.com for me",
+   "input": {
+    "email": "priya@@gmail.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "Is info@my-bakery.co.uk a properly formed address?",
+   "input": {
+    "email": "info@my-bakery.co.uk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "is tom.smith@school a valid email address",
+   "input": {
+    "email": "tom.smith@school"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "validate the address kev_99@mail.example.net",
+   "input": {
+    "email": "kev_99@mail.example.net"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "customer typed jane.doe@example,com. is that right?",
+   "input": {
+    "email": "jane.doe@example,com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "I'm signing parents up for the newsletter: is mum123@hotmail.co correct?",
+   "input": {
+    "email": "mum123@hotmail.co"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "does first.last@sub.domain.example.com look like a proper email",
+   "input": {
+    "email": "first.last@sub.domain.example.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "check bob@example..com",
+   "input": {
+    "email": "bob@example..com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "is user+tag@example.io a valid email address",
+   "input": {
+    "email": "user+tag@example.io"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "email ok? hello@world",
+   "input": {
+    "email": "hello@world"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "Can you tell me if a.b.c@company.travel is a valid email?",
+   "input": {
+    "email": "a.b.c@company.travel"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "valid or not: noreply@example.com",
+   "input": {
+    "email": "noreply@example.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "the form rejected maria@ejemplo.es, is it actually wrong",
+   "input": {
+    "email": "maria@ejemplo.es"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "john smith@example.com has a space in it, is that still a valid email",
+   "input": {
+    "email": "john smith@example.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "check the spelling of support@acme-tools.com as an email",
+   "input": {
+    "email": "support@acme-tools.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "Teacher here. Is student2026@school.edu formatted right?",
+   "input": {
+    "email": "student2026@school.edu"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "is test@localhost.localdomain valid email syntax",
+   "input": {
+    "email": "test@localhost.localdomain"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "validate email: x@y.z",
+   "input": {
+    "email": "x@y.z"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "is my work email address written correctly",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "check the email address a customer left on the order",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "can you see if the email I typed is valid",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "I'll paste an email address, tell me if it's well formed",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateEmail",
+   "message": "is this person's email right? it bounced",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "is #00FF7F a proper hex code",
+   "input": {
+    "color": "#00FF7F"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "check #ffffff as a colour code for me",
+   "input": {
+    "color": "#ffffff"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "Designer here: does #1E90FF count as a valid colour code?",
+   "input": {
+    "color": "#1E90FF"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "expand the shorthand #f0c to six digits",
+   "input": {
+    "color": "#f0c"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "is #12AB34CD a valid hex color with transparency",
+   "input": {
+    "color": "#12AB34CD"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "my CSS has #zz9900, is that a legit colour",
+   "input": {
+    "color": "#zz9900"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "validate hex colour 7FFFD4 without the hash",
+   "input": {
+    "color": "7FFFD4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "does #C0C0C0 pass as a hex color?",
+   "input": {
+    "color": "#C0C0C0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "Quick one: is #abcd a valid colour code or not",
+   "input": {
+    "color": "#abcd"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "brand guide says the red is #D62828, can you check the hex is valid",
+   "input": {
+    "color": "#D62828"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "is ##336699 ok as a colour",
+   "input": {
+    "color": "##336699"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "what does #09f expand to as a hex colour",
+   "input": {
+    "color": "#09f"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "check whether #FFA50 is a complete hex code",
+   "input": {
+    "color": "#FFA50"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "Is #800080 written right as a colour?",
+   "input": {
+    "color": "#800080"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "test the colour code #FAFAD2",
+   "input": {
+    "color": "#FAFAD2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "modding my game HUD, is #39ff14 a real hex value",
+   "input": {
+    "color": "#39ff14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "is #ABCDEF1 a valid hex colour code, it has seven characters",
+   "input": {
+    "color": "#ABCDEF1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "is #000 valid shorthand, and what's the long version",
+   "input": {
+    "color": "#000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "something's off with a hex colour in my stylesheet, can you check it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "check a colour code from our brand guide",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "can you expand a three digit hex colour for me",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "validate the hex code I copied from Figma",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "is my colour code written properly",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateHexColor",
+   "message": "tell me if the hex value on this button is valid",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIban",
+   "message": "check the iban FR14 2004 1010 0505 0001 3M02 606 before I pay for the cottage",
+   "input": {
+    "iban": "FR14 2004 1010 0505 0001 3M02 606"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "is ES91 2100 0418 4502 0005 1332 a real iban",
+   "input": {
+    "iban": "ES91 2100 0418 4502 0005 1332"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "A supplier sent IT60 X054 2811 1010 0000 0123 456 as their bank number. Does the checksum work?",
+   "input": {
+    "iban": "IT60 X054 2811 1010 0000 0123 456"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "validate BE68539007547034",
+   "input": {
+    "iban": "BE68539007547034"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "does CH93 0076 2011 6238 5295 7 pass the iban check",
+   "input": {
+    "iban": "CH93 0076 2011 6238 5295 7"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "accountant here, verify IBAN AT61 1904 3002 3457 3201",
+   "input": {
+    "iban": "AT61 1904 3002 3457 3201"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "iban ok? IE29 AIBK 9311 5212 3456 78",
+   "input": {
+    "iban": "IE29 AIBK 9311 5212 3456 78"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "Can you check PL61 1090 1014 0000 0712 1981 2874 is a valid account number?",
+   "input": {
+    "iban": "PL61 1090 1014 0000 0712 1981 2874"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "my landlord's iban is SE45 5000 0000 0583 9825 7466, can you make sure it checks out",
+   "input": {
+    "iban": "SE45 5000 0000 0583 9825 7466"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "test the checksum on DK50 0040 0440 1162 43",
+   "input": {
+    "iban": "DK50 0040 0440 1162 43"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "NO93 8601 1117 947 valid iban?",
+   "input": {
+    "iban": "NO93 8601 1117 947"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "is FI21 1234 5600 0007 85 correctly typed as an iban",
+   "input": {
+    "iban": "FI21 1234 5600 0007 85"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "check GB33 BUKB 2020 1555 5555 55, is this iban genuine",
+   "input": {
+    "iban": "GB33 BUKB 2020 1555 5555 55"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "I think I mistyped a digit: DE89 3704 0044 0532 0130 01. Does that iban still pass its checksum?",
+   "input": {
+    "iban": "DE89 3704 0044 0532 0130 01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "Verify this IBAN before the transfer: PT50 0002 0123 1234 5678 9015 4",
+   "input": {
+    "iban": "PT50 0002 0123 1234 5678 9015 4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "Does NL02 ABNA 0123 4567 89 pass validation as an iban?",
+   "input": {
+    "iban": "NL02 ABNA 0123 4567 89"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "please check iban LU28 0019 4006 4475 0000",
+   "input": {
+    "iban": "LU28 0019 4006 4475 0000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "client's IBAN GB29 NWBK 6016 1331 9268 19, is it legit",
+   "input": {
+    "iban": "GB29 NWBK 6016 1331 9268 19"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIban",
+   "message": "can you validate the iban on my invoice",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIban",
+   "message": "check my tenant's bank number, it's an iban",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIban",
+   "message": "does the iban the supplier emailed me check out",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIban",
+   "message": "I need to verify an international bank account number before paying",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIban",
+   "message": "is the IBAN on this form typed correctly",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIban",
+   "message": "run the checksum on an iban I'll give you",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "my DHCP lease shows 10.0.0.256, can that be a real ip address",
+   "input": {
+    "address": "10.0.0.256"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "check whether 172.16.254.1 is ipv4 or ipv6",
+   "input": {
+    "address": "172.16.254.1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "Is 2001:db8::1 a valid IP address?",
+   "input": {
+    "address": "2001:db8::1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "my router shows 192.168.0.300, is that even a real address",
+   "input": {
+    "address": "192.168.0.300"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "validate the ip 127.0.0.1",
+   "input": {
+    "address": "127.0.0.1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "is fe80::1ff:fe23:4567:890a an ipv6 address",
+   "input": {
+    "address": "fe80::1ff:fe23:4567:890a"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "does 0.0.0.0 count as a valid ip address",
+   "input": {
+    "address": "0.0.0.0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "test 203.0.113.45 as an ip address",
+   "input": {
+    "address": "203.0.113.45"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "what kind of ip is ::ffff:192.0.2.128",
+   "input": {
+    "address": "::ffff:192.0.2.128"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "Could you check 1.2.3 is a valid IP for me?",
+   "input": {
+    "address": "1.2.3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "is 255.255.255.255 a legit ipv4",
+   "input": {
+    "address": "255.255.255.255"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "ip check: 10.10.10.10",
+   "input": {
+    "address": "10.10.10.10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "is 2001:0db8:85a3:0000:0000:8a2e:0370:7334 valid",
+   "input": {
+    "address": "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "Our printer is set to 192.168.1.01. Is that a properly written IP?",
+   "input": {
+    "address": "192.168.1.01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "is 300.1.2.3 a real ip address",
+   "input": {
+    "address": "300.1.2.3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "gamer here, server ip 45.33.32.156, valid or not",
+   "input": {
+    "address": "45.33.32.156"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "is abc.def.ghi.jkl an IP address",
+   "input": {
+    "address": "abc.def.ghi.jkl"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "classify 2606:4700:4700::1111 as ipv4, ipv6 or neither",
+   "input": {
+    "address": "2606:4700:4700::1111"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "is the ip address in our firewall log valid",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "check whether my server's ip is ipv4 or ipv6",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "can you validate an ip address I copied from the router",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "tell me if the address on this config line is a real ip",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "is my laptop's ip address written right",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIpAddress",
+   "message": "validate the IP my ISP gave me",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "is 978-0-14-044913-6 a valid isbn",
+   "input": {
+    "isbn": "978-0-14-044913-6"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "check the isbn 0-306-40615-2",
+   "input": {
+    "isbn": "0-306-40615-2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "Librarian here: does ISBN 0198526636 pass the check digit test?",
+   "input": {
+    "isbn": "0198526636"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "verify book number 9781861972712",
+   "input": {
+    "isbn": "9781861972712"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "isbn 080442957X, is it right",
+   "input": {
+    "isbn": "080442957X"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "My student copied 978 1 4028 9462 6 from a textbook. Is the ISBN valid?",
+   "input": {
+    "isbn": "978 1 4028 9462 6"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "is 9780140449136 a real book number",
+   "input": {
+    "isbn": "9780140449136"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "check digit ok for isbn 0-19-852663-7?",
+   "input": {
+    "isbn": "0-19-852663-7"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "can you validate ISBN-13 9783161484100",
+   "input": {
+    "isbn": "9783161484100"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "does 1234567890 work as an isbn-10",
+   "input": {
+    "isbn": "1234567890"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "is ISBN 978-3-16-148410-0 correctly formed",
+   "input": {
+    "isbn": "978-3-16-148410-0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "bookseller check: 0-7432-7356-7 isbn valid?",
+   "input": {
+    "isbn": "0-7432-7356-7"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "test isbn 9780262033848",
+   "input": {
+    "isbn": "9780262033848"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "Is 0-596-52068-9 a valid ISBN 10?",
+   "input": {
+    "isbn": "0-596-52068-9"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "the barcode says 9780000000002, valid isbn?",
+   "input": {
+    "isbn": "9780000000002"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "verify the isbn on my order, 978-1-56619-909-4",
+   "input": {
+    "isbn": "978-1-56619-909-4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "the publisher listed 0306406153 as the isbn, does the check digit match",
+   "input": {
+    "isbn": "0306406153"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "I'm cataloguing donated books. Does 9780439708180 have the right check digit?",
+   "input": {
+    "isbn": "9780439708180"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "is the isbn on the back of this book valid",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "check an isbn for me, I'll paste it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "does my book's isbn pass the check digit test",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "validate the ISBN from the publisher's email",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "can you check whether a 13-digit isbn is real",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateIsbn",
+   "message": "verify the isbn on the library record",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJson",
+   "message": "is {\"name\": \"Ana\", \"age\": 30} valid json",
+   "input": {
+    "text": "{\"name\": \"Ana\", \"age\": 30}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "does [1, 2, 3,] parse as json",
+   "input": {
+    "text": "[1, 2, 3,]"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "why won't this json parse: {\"a\": 1 \"b\": 2}",
+   "input": {
+    "text": "{\"a\": 1 \"b\": 2}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "check my config json: {\"debug\": true, \"port\": 8080}",
+   "input": {
+    "text": "{\"debug\": true, \"port\": 8080}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "Is {'key': 'value'} valid JSON?",
+   "input": {
+    "text": "{'key': 'value'}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "validate this json: null",
+   "input": {
+    "text": "null"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "does {\"items\": []} parse as json",
+   "input": {
+    "text": "{\"items\": []}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "Developer here, my API returns {\"ok\":true,} and the client chokes. Is that valid JSON?",
+   "input": {
+    "text": "{\"ok\":true,}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "json syntax check on [\"red\", \"green\", \"blue\"]",
+   "input": {
+    "text": "[\"red\", \"green\", \"blue\"]"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "is {\"price\": 12.5} valid json",
+   "input": {
+    "text": "{\"price\": 12.5}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "parse check please: {\"a\": {\"b\": [1, 2]}}",
+   "input": {
+    "text": "{\"a\": {\"b\": [1, 2]}}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "where is the json error in {\"name\": \"Sam\", \"tags\": [\"x\", \"y\"}",
+   "input": {
+    "text": "{\"name\": \"Sam\", \"tags\": [\"x\", \"y\"}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "is true on its own valid json",
+   "input": {
+    "text": "true"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "{\"user\": \"kim\", \"active\": false} is that valid json?",
+   "input": {
+    "text": "{\"user\": \"kim\", \"active\": false}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "will [{\"id\": 1}, {\"id\": 2}] parse as json",
+   "input": {
+    "text": "[{\"id\": 1}, {\"id\": 2}]"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "Is {name: \"Ana\"} valid JSON without quotes on the key?",
+   "input": {
+    "text": "{name: \"Ana\"}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "find the json error in {\"a\":1,,\"b\":2}",
+   "input": {
+    "text": "{\"a\":1,,\"b\":2}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "does the json [] parse",
+   "input": {
+    "text": "[]"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJson",
+   "message": "is the json in my config file valid",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJson",
+   "message": "check whether the api response json parses",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJson",
+   "message": "tell me where my json is broken",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJson",
+   "message": "validate the json I'm about to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJson",
+   "message": "my package.json won't load, can you find the error in it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJson",
+   "message": "does the json from the webhook parse ok",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "does {\"age\": 17} satisfy the schema {\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\", \"minimum\": 18}}}",
+   "input": {
+    "schema": "{\"type\": \"object\", \"properties\": {\"age\": {\"type\": \"integer\", \"minimum\": 18}}}",
+    "data": "{\"age\": 17}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "validate {\"name\": \"Kim\"} against {\"type\": \"object\", \"required\": [\"name\", \"email\"]}",
+   "input": {
+    "schema": "{\"type\": \"object\", \"required\": [\"name\", \"email\"]}",
+    "data": "{\"name\": \"Kim\"}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "Schema: {\"type\": \"array\", \"items\": {\"type\": \"string\"}}. Data: [\"a\", \"b\", 3]. Does the data conform?",
+   "input": {
+    "schema": "{\"type\": \"array\", \"items\": {\"type\": \"string\"}}",
+    "data": "[\"a\", \"b\", 3]"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "check that \"hello\" matches the schema {\"type\": \"string\", \"maxLength\": 3}",
+   "input": {
+    "schema": "{\"type\": \"string\", \"maxLength\": 3}",
+    "data": "\"hello\""
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "is {\"status\": \"done\"} allowed by the schema {\"type\": \"object\", \"properties\": {\"status\": {\"enum\": [\"open\", \"closed\"]}}}",
+   "input": {
+    "schema": "{\"type\": \"object\", \"properties\": {\"status\": {\"enum\": [\"open\", \"closed\"]}}}",
+    "data": "{\"status\": \"done\"}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "my API test: does {\"id\": \"42\"} fit the schema {\"properties\": {\"id\": {\"type\": \"integer\"}}}",
+   "input": {
+    "schema": "{\"properties\": {\"id\": {\"type\": \"integer\"}}}",
+    "data": "{\"id\": \"42\"}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "run {\"price\": -5} through the json schema {\"properties\": {\"price\": {\"type\": \"number\", \"minimum\": 0}}}",
+   "input": {
+    "schema": "{\"properties\": {\"price\": {\"type\": \"number\", \"minimum\": 0}}}",
+    "data": "{\"price\": -5}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "Does the document [1, 2, 3] match the schema {\"type\": \"array\", \"maxItems\": 2}?",
+   "input": {
+    "schema": "{\"type\": \"array\", \"maxItems\": 2}",
+    "data": "[1, 2, 3]"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "against the json schema {\"type\": \"boolean\"}, is true a valid document",
+   "input": {
+    "schema": "{\"type\": \"boolean\"}",
+    "data": "true"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "validate {\"email\": \"a@b.co\", \"age\": 30} against my schema {\"type\": \"object\", \"required\": [\"email\"], \"additionalProperties\": false, \"properties\": {\"email\": {\"type\": \"string\"}}}",
+   "input": {
+    "schema": "{\"type\": \"object\", \"required\": [\"email\"], \"additionalProperties\": false, \"properties\": {\"email\": {\"type\": \"string\"}}}",
+    "data": "{\"email\": \"a@b.co\", \"age\": 30}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "json schema check: schema {\"type\": \"number\", \"multipleOf\": 5}, data 12",
+   "input": {
+    "schema": "{\"type\": \"number\", \"multipleOf\": 5}",
+    "data": "12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "does {\"tags\": []} pass the schema {\"properties\": {\"tags\": {\"type\": \"array\", \"minItems\": 1}}}",
+   "input": {
+    "schema": "{\"properties\": {\"tags\": {\"type\": \"array\", \"minItems\": 1}}}",
+    "data": "{\"tags\": []}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "Teacher building a quiz app: does {\"q\": \"2+2\", \"a\": 4} conform to the schema {\"type\": \"object\", \"required\": [\"q\", \"a\"]}?",
+   "input": {
+    "schema": "{\"type\": \"object\", \"required\": [\"q\", \"a\"]}",
+    "data": "{\"q\": \"2+2\", \"a\": 4}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "is the number 7 valid under the schema {\"type\": \"string\"}",
+   "input": {
+    "schema": "{\"type\": \"string\"}",
+    "data": "7"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "schema conformance check: {\"x\": 1, \"y\": 2} vs schema {\"type\": \"object\", \"maxProperties\": 1}",
+   "input": {
+    "schema": "{\"type\": \"object\", \"maxProperties\": 1}",
+    "data": "{\"x\": 1, \"y\": 2}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "validate the payload {\"qty\": 2.5} with the schema {\"properties\": {\"qty\": {\"type\": \"integer\"}}}",
+   "input": {
+    "schema": "{\"properties\": {\"qty\": {\"type\": \"integer\"}}}",
+    "data": "{\"qty\": 2.5}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "does {\"country\": \"FR\"} meet the schema {\"properties\": {\"country\": {\"type\": \"string\", \"minLength\": 3}}}",
+   "input": {
+    "schema": "{\"properties\": {\"country\": {\"type\": \"string\", \"minLength\": 3}}}",
+    "data": "{\"country\": \"FR\"}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "check {\"start\": \"2026-01-01\"} against the schema {\"type\": \"object\", \"required\": [\"start\", \"end\"]}",
+   "input": {
+    "schema": "{\"type\": \"object\", \"required\": [\"start\", \"end\"]}",
+    "data": "{\"start\": \"2026-01-01\"}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "does my config match the json schema {\"type\": \"object\", \"required\": [\"port\"]}",
+   "input": {
+    "schema": "{\"type\": \"object\", \"required\": [\"port\"]}"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "validate the api response against our json schema",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "check whether {\"user\": \"ana\"} matches the json schema I use for signups",
+   "input": {
+    "data": "{\"user\": \"ana\"}"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "is my order json valid against the openapi schema",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "run my test data through the json schema in the repo",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "message": "does a document I have conform to the schema {\"type\": \"array\"}",
+   "input": {
+    "schema": "{\"type\": \"array\"}"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "does 4111 1111 1111 1111 pass the luhn check",
+   "input": {
+    "number": "4111 1111 1111 1111"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "luhn test on 79927398713",
+   "input": {
+    "number": "79927398713"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "is 5500 0000 0000 0004 a valid card number",
+   "input": {
+    "number": "5500 0000 0000 0004"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "Shop owner here, a customer read out 6011 0009 9013 9424. Does the card checksum work?",
+   "input": {
+    "number": "6011 0009 9013 9424"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "check digit verification for card 378282246310005",
+   "input": {
+    "number": "378282246310005"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "is 1234 5678 9012 3456 a real card number or made up",
+   "input": {
+    "number": "1234 5678 9012 3456"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "run luhn on 49927398716",
+   "input": {
+    "number": "49927398716"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "my IMEI is 490154203237518, does it pass mod 10",
+   "input": {
+    "number": "490154203237518"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "validate the card 4012-8888-8888-1881 with the Luhn algorithm",
+   "input": {
+    "number": "4012-8888-8888-1881"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "mod 10 check: 3530111333300000",
+   "input": {
+    "number": "3530111333300000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "does 5105105105105100 have a valid luhn digit",
+   "input": {
+    "number": "5105105105105100"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "Typed 4242 4242 4242 4241 in by hand. Did I get the card check digit wrong?",
+   "input": {
+    "number": "4242 4242 4242 4241"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "is 30569309025904 luhn valid",
+   "input": {
+    "number": "30569309025904"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "check card number 6304 0000 0000 0000 for typos",
+   "input": {
+    "number": "6304 0000 0000 0000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "Accountant here: does the account ref 8763 satisfy luhn?",
+   "input": {
+    "number": "8763"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "would 0000000000 pass a luhn checksum",
+   "input": {
+    "number": "0000000000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "verify 371449635398431 against the card checksum",
+   "input": {
+    "number": "371449635398431"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "is the number 18 luhn-valid",
+   "input": {
+    "number": "18"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "does the card number on this form pass luhn",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "luhn check the number I'm about to type",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "verify my card number isn't mistyped before I submit",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "can you run the luhn mod 10 test on a reference number",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "is the IMEI on my phone box luhn-valid",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateLuhn",
+   "message": "check the card digits a customer gave over the phone",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "is +1 202 555 0143 a properly shaped US number",
+   "input": {
+    "number": "+1 202 555 0143"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "does +44 7911 123456 look like a real UK mobile",
+   "input": {
+    "number": "+44 7911 123456"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "check whether +61 4 1234 5678 is a valid Australian phone number",
+   "input": {
+    "number": "+61 4 1234 5678"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "Customer gave 020 7946 0321 as their phone, we're UK (+44). Is it valid?",
+   "input": {
+    "number": "020 7946 0321",
+    "region": "+44"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "is +33 1 23 45 67 89 the right length for France",
+   "input": {
+    "number": "+33 1 23 45 67 89"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "validate phone +81 90-1234-5678",
+   "input": {
+    "number": "+81 90-1234-5678"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "Is +49 1512 3456789 a real german number?",
+   "input": {
+    "number": "+49 1512 3456789"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "+353 1 234 5678, valid phone number?",
+   "input": {
+    "number": "+353 1 234 5678"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "does +86 138 0013 8000 have the right number of digits",
+   "input": {
+    "number": "+86 138 0013 8000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "check 555-0199 is a valid phone number with country code +1",
+   "input": {
+    "number": "555-0199",
+    "region": "+1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "is +7 495 123 45 67 a valid phone number",
+   "input": {
+    "number": "+7 495 123 45 67"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "Nurse here, next of kin listed as +44 1632 96. Is that a real phone number?",
+   "input": {
+    "number": "+44 1632 96"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "would +55 11 91234 5678 pass as a brazilian mobile",
+   "input": {
+    "number": "+55 11 91234 5678"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "check +1 (416) 555-0198 is a valid Canadian phone",
+   "input": {
+    "number": "+1 (416) 555-0198"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "is +34 91 123 4567 shaped right for Spain",
+   "input": {
+    "number": "+34 91 123 4567"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "valid phone? +971 4 123 4567",
+   "input": {
+    "number": "+971 4 123 4567"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "verify the contact number +27 82 123 4567",
+   "input": {
+    "number": "+27 82 123 4567"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "is 98765 43210 a proper mobile if the code is +91",
+   "input": {
+    "number": "98765 43210",
+    "region": "+91"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "the phone number on this booking looks short, does it have the right shape",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "check my mum's mobile number has the right shape",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "can you validate a UK phone number for me, country code +44",
+   "input": {
+    "region": "+44"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "does the number the client left look like a real phone number",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "verify a phone number from our signup form",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "message": "is my office number the right length for its country",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "is https://shop.example.co.uk/basket?id=7 a well formed url",
+   "input": {
+    "url": "https://shop.example.co.uk/basket?id=7"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "split http://localhost:3000/api/users into host and path",
+   "input": {
+    "url": "http://localhost:3000/api/users"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "is htps://example.com a valid web address",
+   "input": {
+    "url": "htps://example.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "Is example dot com a url?",
+   "input": {
+    "url": "example dot com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "validate the link https://docs.python.org/3/library/json.html",
+   "input": {
+    "url": "https://docs.python.org/3/library/json.html"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "what's the host and path of the url https://news.bbc.co.uk/sport/football",
+   "input": {
+    "url": "https://news.bbc.co.uk/sport/football"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "teacher here, is https://classroom.google.com/c/abc123 a proper URL",
+   "input": {
+    "url": "https://classroom.google.com/c/abc123"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "does mailto:help@example.com count as a valid url",
+   "input": {
+    "url": "mailto:help@example.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "check http://192.168.1.10:8080/admin is a well formed url",
+   "input": {
+    "url": "http://192.168.1.10:8080/admin"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "is https://my site.com/page valid as a link",
+   "input": {
+    "url": "https://my site.com/page"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "url sanity check: https://example.org/path/to/page#section",
+   "input": {
+    "url": "https://example.org/path/to/page#section"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "is file:///Users/kim/notes.txt a valid url",
+   "input": {
+    "url": "file:///Users/kim/notes.txt"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "Parse https://api.github.com/repos/owner/name and tell me if it's valid",
+   "input": {
+    "url": "https://api.github.com/repos/owner/name"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "would ftp.example.net work as a web address without http",
+   "input": {
+    "url": "ftp.example.net"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "port 99999 in https://example.com:99999, is that url well formed",
+   "input": {
+    "url": "https://example.com:99999"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "valid link? https://t.co/AbC123",
+   "input": {
+    "url": "https://t.co/AbC123"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "validate www.my-shop.store/products?page=2 as a url",
+   "input": {
+    "url": "www.my-shop.store/products?page=2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "my podcast host gave me https://feeds.example.fm/show.rss, is that a well-formed url",
+   "input": {
+    "url": "https://feeds.example.fm/show.rss"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "is the url in my email signature well formed",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "check a url before I put it on the poster",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "can you break down the web address I'm about to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "is the link the customer sent well formed",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "validate the website address on our flyer",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUrl",
+   "message": "split the url from the report into host and path",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "is 123e4567-e89b-12d3-a456-426614174000 a valid uuid",
+   "input": {
+    "uuid": "123e4567-e89b-12d3-a456-426614174000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "which uuid version is f47ac10b-58cc-4372-a567-0e02b2c3d479",
+   "input": {
+    "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "check the uuid 00000000-0000-0000-0000-000000000000",
+   "input": {
+    "uuid": "00000000-0000-0000-0000-000000000000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "Is 6ba7b810-9dad-11d1-80b4-00c04fd430c8 a real UUID?",
+   "input": {
+    "uuid": "6ba7b810-9dad-11d1-80b4-00c04fd430c8"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "validate the uuid 3F2504E0-4F89-41D3-9A0C-0305E82C3301",
+   "input": {
+    "uuid": "3F2504E0-4F89-41D3-9A0C-0305E82C3301"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "uuid ok? 550e8400-e29b-41d4-a716-44665544000",
+   "input": {
+    "uuid": "550e8400-e29b-41d4-a716-44665544000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "is 018f3c4a-7b2e-7c1d-9a3b-2f4e5d6c7b8a a v7 uuid",
+   "input": {
+    "uuid": "018f3c4a-7b2e-7c1d-9a3b-2f4e5d6c7b8a"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "Our logs show request id 9b2c1e4a-3d5f-4a6b-8c7d-1e2f3a4b5c6d. Is it a proper uuid?",
+   "input": {
+    "uuid": "9b2c1e4a-3d5f-4a6b-8c7d-1e2f3a4b5c6d"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "what uuid version is a8098c1a-f86e-11da-bd1a-00112444be1e",
+   "input": {
+    "uuid": "a8098c1a-f86e-11da-bd1a-00112444be1e"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "is not-a-uuid-at-all valid as a uuid",
+   "input": {
+    "uuid": "not-a-uuid-at-all"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "check {e0e3b1c2-5f6a-4d7b-8c9d-0e1f2a3b4c5d} as a uuid",
+   "input": {
+    "uuid": "{e0e3b1c2-5f6a-4d7b-8c9d-0e1f2a3b4c5d}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "developer here: is 7d444840-9dc0-11d1-b245-5ffdce74fad2 a well formed uuid",
+   "input": {
+    "uuid": "7d444840-9dc0-11d1-b245-5ffdce74fad2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "does c9bf9e57-1685-4c89-bafb-ff5af830be8a look like a valid v4 uuid",
+   "input": {
+    "uuid": "c9bf9e57-1685-4c89-bafb-ff5af830be8a"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "is 1b4e28ba-2fa1-11d2-883f-0016d3cca427 a valid identifier, and which version",
+   "input": {
+    "uuid": "1b4e28ba-2fa1-11d2-883f-0016d3cca427"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "Validate the UUID 21f7f8de-8051-5b89-8680-0195ef798b6a.",
+   "input": {
+    "uuid": "21f7f8de-8051-5b89-8680-0195ef798b6a"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "uuid check: zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzzz",
+   "input": {
+    "uuid": "zzzzzzzz-zzzz-zzzz-zzzz-zzzzzzzzzzzz"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "is e4eaaaf2-d142-11e1-b3e4-080027620cdd a time-based uuid",
+   "input": {
+    "uuid": "e4eaaaf2-d142-11e1-b3e4-080027620cdd"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "tell me if 5f0c7c3a8e2b4d1f9a6b3c2d1e0f4a5b is a uuid without dashes",
+   "input": {
+    "uuid": "5f0c7c3a8e2b4d1f9a6b3c2d1e0f4a5b"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "the ids in our database should be uuids, can you check one is valid",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "which uuid version is the token I'll paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "check the uuid from the error log",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "validate the uuid in my api request",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "is the session id a proper uuid",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "validateUuid",
+   "message": "tell me the version of a uuid from our logs",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "cereal: 375g box at £2.15 or 750g box at £3.95, which is better value per gram",
+   "input": {
+    "options": [
+     {
+      "name": "375g box",
+      "price": 2.15,
+      "quantity": 375
+     },
+     {
+      "name": "750g box",
+      "price": 3.95,
+      "quantity": 750
+     }
+    ],
+    "unit": "g"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "Rice is £1.60 for 1kg, £6.50 for 5kg or £11 for 10kg. Which bag is best value?",
+   "input": {
+    "options": [
+     {
+      "name": "1kg",
+      "price": 1.6,
+      "quantity": 1
+     },
+     {
+      "name": "5kg",
+      "price": 6.5,
+      "quantity": 5
+     },
+     {
+      "name": "10kg",
+      "price": 11,
+      "quantity": 10
+     }
+    ],
+    "unit": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "nappies: small pack of 40 for 9.99 or big pack of 96 for 21.50, which works out cheaper each",
+   "input": {
+    "options": [
+     {
+      "name": "small pack",
+      "price": 9.99,
+      "quantity": 40
+     },
+     {
+      "name": "big pack",
+      "price": 21.5,
+      "quantity": 96
+     }
+    ],
+    "unit": "nappy"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "compare olive oil: 250ml at 2.40, 500ml at 4.25, 750ml at 5.90",
+   "input": {
+    "options": [
+     {
+      "name": "250ml",
+      "price": 2.4,
+      "quantity": 250
+     },
+     {
+      "name": "500ml",
+      "price": 4.25,
+      "quantity": 500
+     },
+     {
+      "name": "750ml",
+      "price": 5.9,
+      "quantity": 750
+     }
+    ],
+    "unit": "ml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "Shop owner restocking: supplier A sells 12 cans for £5.40, supplier B 24 cans for £10.20. Who's cheaper per can?",
+   "input": {
+    "options": [
+     {
+      "name": "supplier A",
+      "price": 5.4,
+      "quantity": 12
+     },
+     {
+      "name": "supplier B",
+      "price": 10.2,
+      "quantity": 24
+     }
+    ],
+    "unit": "can"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "better value per roll? 9 rolls for £4.50 or 24 rolls for £11",
+   "input": {
+    "options": [
+     {
+      "name": "9 rolls",
+      "price": 4.5,
+      "quantity": 9
+     },
+     {
+      "name": "24 rolls",
+      "price": 11,
+      "quantity": 24
+     }
+    ],
+    "unit": "roll"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "coffee pods: the 10-pack is $4.99 and the 50-pack is $22.49. which is cheaper per pod",
+   "input": {
+    "options": [
+     {
+      "name": "10-pack",
+      "price": 4.99,
+      "quantity": 10
+     },
+     {
+      "name": "50-pack",
+      "price": 22.49,
+      "quantity": 50
+     }
+    ],
+    "unit": "pod"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "dog food: 2kg bag £8.99, 12kg bag £39.99. best value per kg?",
+   "input": {
+    "options": [
+     {
+      "name": "2kg bag",
+      "price": 8.99,
+      "quantity": 2
+     },
+     {
+      "name": "12kg bag",
+      "price": 39.99,
+      "quantity": 12
+     }
+    ],
+    "unit": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "which is the better value: 80 sheets for 1.20, 200 sheets for 2.75 or 500 sheets for 5.50",
+   "input": {
+    "options": [
+     {
+      "name": "80 sheets",
+      "price": 1.2,
+      "quantity": 80
+     },
+     {
+      "name": "200 sheets",
+      "price": 2.75,
+      "quantity": 200
+     },
+     {
+      "name": "500 sheets",
+      "price": 5.5,
+      "quantity": 500
+     }
+    ],
+    "unit": "sheet"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "student budget: is pasta better value at 0.5kg for 0.75 or 3kg for 4.20",
+   "input": {
+    "options": [
+     {
+      "name": "0.5kg",
+      "price": 0.75,
+      "quantity": 0.5
+     },
+     {
+      "name": "3kg",
+      "price": 4.2,
+      "quantity": 3
+     }
+    ],
+    "unit": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "is the 4 pint milk at £1.55 better value than 2 pints at £0.95",
+   "input": {
+    "options": [
+     {
+      "name": "4 pint",
+      "price": 1.55,
+      "quantity": 4
+     },
+     {
+      "name": "2 pints",
+      "price": 0.95,
+      "quantity": 2
+     }
+    ],
+    "unit": "pint"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "which washing powder is better value: 30 washes for £6, 60 washes for £11 or 90 washes for £15.50",
+   "input": {
+    "options": [
+     {
+      "name": "30 washes",
+      "price": 6,
+      "quantity": 30
+     },
+     {
+      "name": "60 washes",
+      "price": 11,
+      "quantity": 60
+     },
+     {
+      "name": "90 washes",
+      "price": 15.5,
+      "quantity": 90
+     }
+    ],
+    "unit": "wash"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "batteries: a pack of 4 for 3.49 or a pack of 12 for 8.99, which costs less each?",
+   "input": {
+    "options": [
+     {
+      "name": "pack of 4",
+      "price": 3.49,
+      "quantity": 4
+     },
+     {
+      "name": "pack of 12",
+      "price": 8.99,
+      "quantity": 12
+     }
+    ],
+    "unit": "battery"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "which printer ink is better value per ml: standard cartridge 8ml at £15 or XL cartridge 21ml at £29",
+   "input": {
+    "options": [
+     {
+      "name": "standard cartridge",
+      "price": 15,
+      "quantity": 8
+     },
+     {
+      "name": "XL cartridge",
+      "price": 29,
+      "quantity": 21
+     }
+    ],
+    "unit": "ml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "compare value for money: bulk bag of 25 kg flour at 18 vs 1.5 kg bag at 1.40",
+   "input": {
+    "options": [
+     {
+      "name": "bulk bag",
+      "price": 18,
+      "quantity": 25
+     },
+     {
+      "name": "1.5 kg bag",
+      "price": 1.4,
+      "quantity": 1.5
+     }
+    ],
+    "unit": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "which ticket bundle is cheaper per ride, 10 rides for 16 or 40 rides for 58",
+   "input": {
+    "options": [
+     {
+      "name": "10 rides",
+      "price": 16,
+      "quantity": 10
+     },
+     {
+      "name": "40 rides",
+      "price": 58,
+      "quantity": 40
+     }
+    ],
+    "unit": "ride"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "eggs: 6 eggs at 1.80 or a tray of 30 at 7.50, which is cheaper per egg",
+   "input": {
+    "options": [
+     {
+      "name": "6 eggs",
+      "price": 1.8,
+      "quantity": 6
+     },
+     {
+      "name": "tray of 30",
+      "price": 7.5,
+      "quantity": 30
+     }
+    ],
+    "unit": "egg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "best value per litre: 1 litre at 1.10, 2 litres at 1.95, 4 litres at 3.60",
+   "input": {
+    "options": [
+     {
+      "name": "1 litre",
+      "price": 1.1,
+      "quantity": 1
+     },
+     {
+      "name": "2 litres",
+      "price": 1.95,
+      "quantity": 2
+     },
+     {
+      "name": "4 litres",
+      "price": 3.6,
+      "quantity": 4
+     }
+    ],
+    "unit": "litre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "which of these pack sizes gives the most for my money",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "compare the prices per kilo on the bags I listed",
+   "input": {
+    "unit": "kg"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "rank the cereal boxes in my basket by value for money",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "which size of shampoo is better value for money? I'll give you the prices",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "is the family pack or the regular one cheaper per unit? prices to follow",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "comparePrices",
+   "message": "work out which bundle is the best value, sizes and prices below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "how much is 150g of caster sugar in cups",
+   "input": {
+    "amount": 150,
+    "from": "g",
+    "to": "cups",
+    "ingredient": "caster sugar"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "convert 1.5 cups of milk to ml for me",
+   "input": {
+    "amount": 1.5,
+    "from": "cups",
+    "to": "ml",
+    "ingredient": "milk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "my baking recipe wants 200 ml of cream, how many cups is that",
+   "input": {
+    "amount": 200,
+    "from": "ml",
+    "to": "cups",
+    "ingredient": "cream"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "convert 2 tbsp of honey to grams",
+   "input": {
+    "amount": 2,
+    "from": "tbsp",
+    "to": "g",
+    "ingredient": "honey"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "American recipe, 2.5 cups of plain flour. What's that in grams?",
+   "input": {
+    "amount": 2.5,
+    "from": "cups",
+    "to": "g",
+    "ingredient": "plain flour"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "recipe conversion: how many teaspoons of oil is 30 ml",
+   "input": {
+    "amount": 30,
+    "from": "ml",
+    "to": "tsp",
+    "ingredient": "oil"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "my recipe needs 100 grams of butter but I only have measuring spoons, how many tablespoons?",
+   "input": {
+    "amount": 100,
+    "from": "g",
+    "to": "tbsp",
+    "ingredient": "butter"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "convert 500 g of rolled oats to cups for flapjacks",
+   "input": {
+    "amount": 500,
+    "from": "g",
+    "to": "cups",
+    "ingredient": "rolled oats"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "convert 4 tbsp of cocoa powder to grams for brownies",
+   "input": {
+    "amount": 4,
+    "from": "tbsp",
+    "to": "g",
+    "ingredient": "cocoa powder"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "what's 1 cup of rice in grams",
+   "input": {
+    "amount": 1,
+    "from": "cup",
+    "to": "g",
+    "ingredient": "rice"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "the frosting recipe calls for 350g of icing sugar, what is that in cups",
+   "input": {
+    "amount": 350,
+    "from": "g",
+    "to": "cups",
+    "ingredient": "icing sugar"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "cooking measure: 6 teaspoons of milk in ml",
+   "input": {
+    "amount": 6,
+    "from": "tsp",
+    "to": "ml",
+    "ingredient": "milk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "pancake recipe: 75 g of maple syrup, how many tablespoons",
+   "input": {
+    "amount": 75,
+    "from": "g",
+    "to": "tbsp",
+    "ingredient": "maple syrup"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "cook here, I need 3 cups of stock in millilitres",
+   "input": {
+    "amount": 3,
+    "from": "cups",
+    "to": "ml",
+    "ingredient": "stock"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "how many grams does half a cup of chocolate chips weigh",
+   "input": {
+    "amount": 0.5,
+    "from": "cup",
+    "to": "g",
+    "ingredient": "chocolate chips"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "how many ml is 1 tablespoon of olive oil",
+   "input": {
+    "amount": 1,
+    "from": "tbsp",
+    "to": "ml",
+    "ingredient": "olive oil"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "2 cups of brown sugar in grams for a crumble",
+   "input": {
+    "amount": 2,
+    "from": "cups",
+    "to": "g",
+    "ingredient": "brown sugar"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "bread recipe: 120 ml of water in cups",
+   "input": {
+    "amount": 120,
+    "from": "ml",
+    "to": "cups",
+    "ingredient": "water"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "250 ml of yoghurt, how many grams is that",
+   "input": {
+    "amount": 250,
+    "from": "ml",
+    "to": "g",
+    "ingredient": "yoghurt"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "convert 8 tbsp of salt to grams",
+   "input": {
+    "amount": 8,
+    "from": "tbsp",
+    "to": "g",
+    "ingredient": "salt"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "4 cups of breadcrumbs to grams",
+   "input": {
+    "amount": 4,
+    "from": "cups",
+    "to": "g",
+    "ingredient": "breadcrumbs"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "how many cups is 1 litre of milk",
+   "input": {
+    "amount": 1,
+    "from": "l",
+    "to": "cups",
+    "ingredient": "milk"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "convert my flour amount to grams",
+   "input": {
+    "to": "g",
+    "ingredient": "flour"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "message": "how many cups is the butter in this recipe",
+   "input": {
+    "to": "cups",
+    "ingredient": "butter"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "fuel for 420 km at 6.8 L/100km with petrol at 1.72 a litre",
+   "input": {
+    "distance": 420,
+    "price": 1.72,
+    "litresPer100km": 6.8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "how much petrol money for a 250 mile drive, car does 40 mpg, £6.50 a gallon",
+   "input": {
+    "distance": 250,
+    "price": 6.5,
+    "milesPerGallon": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "Road trip to the coast: 180 km each way, 5.9 litres per 100km, diesel 1.65. What's it cost return?",
+   "input": {
+    "distance": 180,
+    "price": 1.65,
+    "litresPer100km": 5.9,
+    "returnTrip": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "cost of driving 95 miles at 28 mpg if gas is $3.45 a gallon",
+   "input": {
+    "distance": 95,
+    "price": 3.45,
+    "milesPerGallon": 28
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "my van does 9.5 l/100km. fuel cost of 1,200 km at 1.58 per litre?",
+   "input": {
+    "distance": 1200,
+    "price": 1.58,
+    "litresPer100km": 9.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "Commuting 35 km to work and back, car uses 7 L/100km, fuel 1.80. Daily fuel cost?",
+   "input": {
+    "distance": 35,
+    "price": 1.8,
+    "litresPer100km": 7,
+    "returnTrip": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "petrol for 600 km, 8.2 litres per 100 km, 1.69 per litre",
+   "input": {
+    "distance": 600,
+    "price": 1.69,
+    "litresPer100km": 8.2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "gas cost: 410 miles, 31 mpg, $3.89/gal",
+   "input": {
+    "distance": 410,
+    "price": 3.89,
+    "milesPerGallon": 31
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "We're driving 75 miles to grandma's and back, the car gets 45 mpg and fuel is £7.10 a gallon",
+   "input": {
+    "distance": 75,
+    "price": 7.1,
+    "milesPerGallon": 45,
+    "returnTrip": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "planning a 2,400 km road trip: car uses 6 l per 100 km, petrol is 1.75. total fuel cost?",
+   "input": {
+    "distance": 2400,
+    "price": 1.75,
+    "litresPer100km": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "trip of 130 km, consumption 5.2 L/100km, price 2.05 a litre. fuel cost?",
+   "input": {
+    "distance": 130,
+    "price": 2.05,
+    "litresPer100km": 5.2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "fuel cost for a 500 mile journey at 52 mpg with diesel at £6.90 per gallon",
+   "input": {
+    "distance": 500,
+    "price": 6.9,
+    "milesPerGallon": 52
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "taxi driver here: 280 km shift, 6.5 l/100km, fuel 1.62. what's the fuel spend",
+   "input": {
+    "distance": 280,
+    "price": 1.62,
+    "litresPer100km": 6.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "estimate the fuel for a 90 km trip there and back at 4.8 l/100km, 1.90 per litre",
+   "input": {
+    "distance": 90,
+    "price": 1.9,
+    "litresPer100km": 4.8,
+    "returnTrip": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "Camper van, 14 litres per 100km, 860 km tour, fuel at 1.55: cost?",
+   "input": {
+    "distance": 860,
+    "price": 1.55,
+    "litresPer100km": 14
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "fuel cost for 66 miles at 38 mpg, 3.20 a gallon",
+   "input": {
+    "distance": 66,
+    "price": 3.2,
+    "milesPerGallon": 38
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "I drive 1,000 miles a month at 25 mpg and gas costs $4.10. Monthly fuel cost?",
+   "input": {
+    "distance": 1000,
+    "price": 4.1,
+    "milesPerGallon": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "price of petrol for 320 km if my hatchback uses 5.5 L per 100 km and it's 1.84 a litre",
+   "input": {
+    "distance": 320,
+    "price": 1.84,
+    "litresPer100km": 5.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "fuel cost from london to edinburgh, 400 miles, 45 mpg, petrol £6.80 per gallon",
+   "input": {
+    "distance": 400,
+    "price": 6.8,
+    "milesPerGallon": 45
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "One-way drive of 55 km at 6.1 L/100km, fuel 1.70, how much will it cost?",
+   "input": {
+    "distance": 55,
+    "price": 1.7,
+    "litresPer100km": 6.1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "driving 210 miles each way at 35 mpg, gas $3.60. round trip fuel cost?",
+   "input": {
+    "distance": 210,
+    "price": 3.6,
+    "milesPerGallon": 35,
+    "returnTrip": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "fuel for 75 km at 12 l/100km, diesel 1.60",
+   "input": {
+    "distance": 75,
+    "price": 1.6,
+    "litresPer100km": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "what will the fuel cost for our trip, car does 6 l/100km",
+   "input": {
+    "litresPer100km": 6
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "message": "fuel cost of the drive to my sister's at 7 L/100km, petrol 1.79",
+   "input": {
+    "price": 1.79,
+    "litresPer100km": 7
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "double: 200g butter, 150g sugar, 3 eggs",
+   "input": {
+    "ingredients": [
+     "200g butter",
+     "150g sugar",
+     "3 eggs"
+    ],
+    "factor": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "scale this recipe by 3 for 12 people: 1 kg chicken, 2 tbsp curry paste, 400 ml coconut milk",
+   "input": {
+    "ingredients": [
+     "1 kg chicken",
+     "2 tbsp curry paste",
+     "400 ml coconut milk"
+    ],
+    "factor": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "scale these by 2.5 for the bake sale: 250 g flour, 125 g butter, 1 tsp baking powder",
+   "input": {
+    "ingredients": [
+     "250 g flour",
+     "125 g butter",
+     "1 tsp baking powder"
+    ],
+    "factor": 2.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "cut this in half please: 4 cups stock, 2 onions, 1 cup lentils",
+   "input": {
+    "ingredients": [
+     "4 cups stock",
+     "2 onions",
+     "1 cup lentils"
+    ],
+    "factor": 0.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "triple my pancake batter: 1 cup milk, 1 egg, 125 g flour",
+   "input": {
+    "ingredients": [
+     "1 cup milk",
+     "1 egg",
+     "125 g flour"
+    ],
+    "factor": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Make 1.5 times this: 600 g mince, 2 tins tomatoes, 1 tbsp oregano",
+   "input": {
+    "ingredients": [
+     "600 g mince",
+     "2 tins tomatoes",
+     "1 tbsp oregano"
+    ],
+    "factor": 1.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "scale by 0.75: 300 ml cream, 100 g sugar, 4 egg yolks",
+   "input": {
+    "ingredients": [
+     "300 ml cream",
+     "100 g sugar",
+     "4 egg yolks"
+    ],
+    "factor": 0.75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "multiply by 4: 2 tsp salt, 1 tsp pepper, 3 tbsp oil",
+   "input": {
+    "ingredients": [
+     "2 tsp salt",
+     "1 tsp pepper",
+     "3 tbsp oil"
+    ],
+    "factor": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Party of 20, I need 5x the dough: 500 g flour, 7 g yeast, 300 ml water",
+   "input": {
+    "ingredients": [
+     "500 g flour",
+     "7 g yeast",
+     "300 ml water"
+    ],
+    "factor": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "make half of this cookie recipe: 225 g butter, 2 eggs, 350 g chocolate chips",
+   "input": {
+    "ingredients": [
+     "225 g butter",
+     "2 eggs",
+     "350 g chocolate chips"
+    ],
+    "factor": 0.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "school canteen needs this recipe times 10: 2 kg potatoes, 500 ml milk, 50 g butter",
+   "input": {
+    "ingredients": [
+     "2 kg potatoes",
+     "500 ml milk",
+     "50 g butter"
+    ],
+    "factor": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "double the marinade: 3 tbsp soy sauce, 2 cloves garlic, 1 tbsp honey",
+   "input": {
+    "ingredients": [
+     "3 tbsp soy sauce",
+     "2 cloves garlic",
+     "1 tbsp honey"
+    ],
+    "factor": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "can you scale 1 cup rice, 2 cups water by 3",
+   "input": {
+    "ingredients": [
+     "1 cup rice",
+     "2 cups water"
+    ],
+    "factor": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "Scale my granola up by a factor of 6: 3 cups oats, 1 cup nuts, 0.5 cup honey",
+   "input": {
+    "ingredients": [
+     "3 cups oats",
+     "1 cup nuts",
+     "0.5 cup honey"
+    ],
+    "factor": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "I only want a quarter of: 8 eggs, 400 g sugar, 200 ml oil",
+   "input": {
+    "ingredients": [
+     "8 eggs",
+     "400 g sugar",
+     "200 ml oil"
+    ],
+    "factor": 0.25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "1.25x please: 2 cups flour, 1 cup sugar, 1 cup buttermilk",
+   "input": {
+    "ingredients": [
+     "2 cups flour",
+     "1 cup sugar",
+     "1 cup buttermilk"
+    ],
+    "factor": 1.25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "triple for the church supper: 2 lb ham, 1 cup mustard glaze",
+   "input": {
+    "ingredients": [
+     "2 lb ham",
+     "1 cup mustard glaze"
+    ],
+    "factor": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "times 2 on this smoothie: 1 banana, 200 ml milk, 1 tbsp peanut butter",
+   "input": {
+    "ingredients": [
+     "1 banana",
+     "200 ml milk",
+     "1 tbsp peanut butter"
+    ],
+    "factor": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "double the recipe I'm about to paste",
+   "input": {
+    "factor": 2
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "scale my lasagne ingredients by 1.5",
+   "input": {
+    "factor": 1.5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "scale the bread recipe below down to half",
+   "input": {
+    "factor": 0.5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "multiply every amount in my ingredient list by 4",
+   "input": {
+    "factor": 4
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "triple the ingredients for my chilli",
+   "input": {
+    "factor": 3
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "scaleRecipe",
+   "message": "I need 2.5 times the soup recipe from my notes",
+   "input": {
+    "factor": 2.5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "basket: 2 books at £7.99 and a mug at £12, delivery is £3.95",
+   "input": {
+    "items": [
+     {
+      "price": 7.99,
+      "quantity": 2
+     },
+     {
+      "price": 12
+     }
+    ],
+    "shipping": 3.95
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "order total: 3 x 4.50 and 1 x 20, postage 2.99, free over 30",
+   "input": {
+    "items": [
+     {
+      "price": 4.5,
+      "quantity": 3
+     },
+     {
+      "price": 20,
+      "quantity": 1
+     }
+    ],
+    "shipping": 2.99,
+    "freeShippingOver": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "How much will I pay for 4 t-shirts at $15 each plus $6 shipping and 8% sales tax?",
+   "input": {
+    "items": [
+     {
+      "price": 15,
+      "quantity": 4
+     }
+    ],
+    "shipping": 6,
+    "taxRate": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "Total up 5 packs of seeds at 2.25 each and a trowel at 9.50, with 4.50 delivery unless I spend 25",
+   "input": {
+    "items": [
+     {
+      "price": 2.25,
+      "quantity": 5
+     },
+     {
+      "price": 9.5
+     }
+    ],
+    "shipping": 4.5,
+    "freeShippingOver": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "online order: items at 19.99, 24.99 and 5, shipping 3.50, VAT 20%",
+   "input": {
+    "items": [
+     {
+      "price": 19.99
+     },
+     {
+      "price": 24.99
+     },
+     {
+      "price": 5
+     }
+    ],
+    "shipping": 3.5,
+    "taxRate": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "what's my checkout total? 2 x £18 jeans, free delivery over £40, otherwise £4.99",
+   "input": {
+    "items": [
+     {
+      "price": 18,
+      "quantity": 2
+     }
+    ],
+    "shipping": 4.99,
+    "freeShippingOver": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "order total for 6 notebooks at 1.75 and 2 pens at 0.80 plus 3 postage",
+   "input": {
+    "items": [
+     {
+      "price": 1.75,
+      "quantity": 6
+     },
+     {
+      "price": 0.8,
+      "quantity": 2
+     }
+    ],
+    "shipping": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "Cart: 1 laptop bag at 45 and 2 cables at 8.99. Shipping 5.95, tax 7.5%, but don't tax the shipping.",
+   "input": {
+    "items": [
+     {
+      "price": 45,
+      "quantity": 1
+     },
+     {
+      "price": 8.99,
+      "quantity": 2
+     }
+    ],
+    "shipping": 5.95,
+    "taxRate": 7.5,
+    "taxOnShipping": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "shop owner checking an order total: 10 units at 3.20, 4 units at 12.50, carriage 15",
+   "input": {
+    "items": [
+     {
+      "price": 3.2,
+      "quantity": 10
+     },
+     {
+      "price": 12.5,
+      "quantity": 4
+     }
+    ],
+    "shipping": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "how short of free shipping am I with 2 items at 14? free delivery from 35, shipping otherwise 4",
+   "input": {
+    "items": [
+     {
+      "price": 14,
+      "quantity": 2
+     }
+    ],
+    "shipping": 4,
+    "freeShippingOver": 35
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "total for 3 candles at £8.50 and postage at £3.20",
+   "input": {
+    "items": [
+     {
+      "price": 8.5,
+      "quantity": 3
+     }
+    ],
+    "shipping": 3.2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "basket of 12 at 0.99 each, 10% tax, no shipping",
+   "input": {
+    "items": [
+     {
+      "price": 0.99,
+      "quantity": 12
+     }
+    ],
+    "taxRate": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "price up this order: 2 at 29.99, 1 at 9.99, delivery 0",
+   "input": {
+    "items": [
+     {
+      "price": 29.99,
+      "quantity": 2
+     },
+     {
+      "price": 9.99,
+      "quantity": 1
+     }
+    ],
+    "shipping": 0
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "I'm ordering 7 bags of compost at 6.50 each, delivery 12 but free above 50. final cost?",
+   "input": {
+    "items": [
+     {
+      "price": 6.5,
+      "quantity": 7
+     }
+    ],
+    "shipping": 12,
+    "freeShippingOver": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "sum my order: headphones 49.99, 2 x 7.50 cases, shipping 4.99, sales tax 6%",
+   "input": {
+    "items": [
+     {
+      "price": 49.99
+     },
+     {
+      "price": 7.5,
+      "quantity": 2
+     }
+    ],
+    "shipping": 4.99,
+    "taxRate": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "Order for the school: 30 workbooks at 4.25 and shipping of 18",
+   "input": {
+    "items": [
+     {
+      "price": 4.25,
+      "quantity": 30
+     }
+    ],
+    "shipping": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "grand total with 21% vat on 3 items at €16 plus €5 postage",
+   "input": {
+    "items": [
+     {
+      "price": 16,
+      "quantity": 3
+     }
+    ],
+    "shipping": 5,
+    "taxRate": 21
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "what does it come to: 4 x 2.60, 2 x 11, delivery 3.75, free from 40",
+   "input": {
+    "items": [
+     {
+      "price": 2.6,
+      "quantity": 4
+     },
+     {
+      "price": 11,
+      "quantity": 2
+     }
+    ],
+    "shipping": 3.75,
+    "freeShippingOver": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "total my basket with £3.99 delivery",
+   "input": {
+    "shipping": 3.99
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "work out the order total including 20% tax",
+   "input": {
+    "taxRate": 20
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "how much will everything in my cart cost with shipping",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "add postage of 4.50 to my order and tell me the total",
+   "input": {
+    "shipping": 4.5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "am I over the £50 free delivery line with what's in my basket",
+   "input": {
+    "freeShippingOver": 50
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "shippingTotal",
+   "message": "total the items on this invoice with 8% sales tax",
+   "input": {
+    "taxRate": 8
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "splitBill",
+   "message": "dinner came to £126.40, add 12.5% service and split between 5",
+   "input": {
+    "bill": 126.4,
+    "tipPercent": 12.5,
+    "people": 5,
+    "currency": "£"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "split $88 with a 20% tip among 4 friends",
+   "input": {
+    "bill": 88,
+    "tipPercent": 20,
+    "people": 4,
+    "currency": "$"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "Bill's €59.60 for 3 of us, plus 10% tip. What's each share?",
+   "input": {
+    "bill": 59.6,
+    "tipPercent": 10,
+    "people": 3,
+    "currency": "€"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "tip 18% on a 42.50 tab, just me",
+   "input": {
+    "bill": 42.5,
+    "tipPercent": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "how much each if 6 of us share a 230 bill with 15% gratuity",
+   "input": {
+    "bill": 230,
+    "tipPercent": 15,
+    "people": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "we owe ¥12,000 for karaoke, split 4 ways, no tip",
+   "input": {
+    "bill": 12000,
+    "people": 4,
+    "currency": "¥"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "Restaurant total 74.30. Add a 20 percent tip and divide by two.",
+   "input": {
+    "bill": 74.3,
+    "tipPercent": 20,
+    "people": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "work out a 15% tip on ₹2,400 split 3 ways",
+   "input": {
+    "bill": 2400,
+    "tipPercent": 15,
+    "people": 3,
+    "currency": "₹"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "Our team lunch was 312.75; 8 people; tip 10%.",
+   "input": {
+    "bill": 312.75,
+    "tipPercent": 10,
+    "people": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "add 22% tip to 65 and split between 2",
+   "input": {
+    "bill": 65,
+    "tipPercent": 22,
+    "people": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "pub tab 97.20 between 6 mates, tip 5%",
+   "input": {
+    "bill": 97.2,
+    "tipPercent": 5,
+    "people": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "brunch for four came to 51, plus 18 percent tip. each person pays?",
+   "input": {
+    "bill": 51,
+    "tipPercent": 18,
+    "people": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "family meal $143.80, 20% tip, 2 adults paying",
+   "input": {
+    "bill": 143.8,
+    "tipPercent": 20,
+    "people": 2,
+    "currency": "$"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "what does each of 3 pay on a £45 bill with 12% service",
+   "input": {
+    "bill": 45,
+    "tipPercent": 12,
+    "people": 3,
+    "currency": "£"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "Bill = 210, tip = 15%, people = 7",
+   "input": {
+    "bill": 210,
+    "tipPercent": 15,
+    "people": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "Split the 66.60 curry bill 3 ways, 10% on top",
+   "input": {
+    "bill": 66.6,
+    "tipPercent": 10,
+    "people": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "taxi fare 38 plus 15% tip shared by 2",
+   "input": {
+    "bill": 38,
+    "tipPercent": 15,
+    "people": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "hen do dinner, £480 for 12 with 10% service, how much each",
+   "input": {
+    "bill": 480,
+    "tipPercent": 10,
+    "people": 12,
+    "currency": "£"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "tip 25% on 19.90",
+   "input": {
+    "bill": 19.9,
+    "tipPercent": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "How much is a 20% tip on a $54 bill, and what's each share for 2 of us?",
+   "input": {
+    "bill": 54,
+    "tipPercent": 20,
+    "people": 2,
+    "currency": "$"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "our meal was 152 between 4 with a 12.5% tip, what do we each owe",
+   "input": {
+    "bill": 152,
+    "tipPercent": 12.5,
+    "people": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "splitBill",
+   "message": "add a 12% tip to our tab and share it between 5",
+   "input": {
+    "tipPercent": 12,
+    "people": 5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "splitBill",
+   "message": "what's the tip on our bill at 20 percent",
+   "input": {
+    "tipPercent": 20
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "splitBill",
+   "message": "divide tonight's restaurant bill between 6 of us",
+   "input": {
+    "people": 6
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "a £120 coat is 25% off, then another 10% off at the till. final price?",
+   "input": {
+    "price": 120,
+    "discounts": [
+     25,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "$80 shoes, 30% sale plus a 15% coupon on top",
+   "input": {
+    "price": 80,
+    "discounts": [
+     30,
+     15
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "Black Friday: 40% off then an extra 20% off 250. real saving?",
+   "input": {
+    "price": 250,
+    "discounts": [
+     40,
+     20
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "apply 15% then 5% to 64.99",
+   "input": {
+    "price": 64.99,
+    "discounts": [
+     15,
+     5
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "staff discount 10% on top of a 20% sale, item was 45",
+   "input": {
+    "price": 45,
+    "discounts": [
+     20,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "is 50% then 50% off 100 the same as free?",
+   "input": {
+    "price": 100,
+    "discounts": [
+     50,
+     50
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "€300 sofa: 20% off, then another 10%, then 5% for paying cash",
+   "input": {
+    "price": 300,
+    "discounts": [
+     20,
+     10,
+     5
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "how much do I pay for a 59 game with 25% off and a 10% loyalty discount stacked",
+   "input": {
+    "price": 59,
+    "discounts": [
+     25,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "Teacher discount 15% after the 30% clearance on a £36 book",
+   "input": {
+    "price": 36,
+    "discounts": [
+     30,
+     15
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "stacked discounts of 12% and 8% on 1,500",
+   "input": {
+    "price": 1500,
+    "discounts": [
+     12,
+     8
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "what's 70 after 35% off and then a further 10%",
+   "input": {
+    "price": 70,
+    "discounts": [
+     35,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "double discount: 20% and 20% on 99.99. is that 40% off?",
+   "input": {
+    "price": 99.99,
+    "discounts": [
+     20,
+     20
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "take 60% off 85 then another 25% off",
+   "input": {
+    "price": 85,
+    "discounts": [
+     60,
+     25
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "Retailer here: a £18 item gets a 10% markdown then 33% off clearance, stacked. What's the final price?",
+   "input": {
+    "price": 18,
+    "discounts": [
+     10,
+     33
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "my £540 bike is 15% off and I have an extra 12% voucher",
+   "input": {
+    "price": 540,
+    "discounts": [
+     15,
+     12
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "knock 10 percent off 300, then 10 percent again, then 10 percent once more",
+   "input": {
+    "price": 300,
+    "discounts": [
+     10,
+     10,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "price after 5% and then 2% off 1,250",
+   "input": {
+    "price": 1250,
+    "discounts": [
+     5,
+     2
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "sale 45% plus extra 20% with code, original 129",
+   "input": {
+    "price": 129,
+    "discounts": [
+     45,
+     20
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "Clearance at 50%, then 30% at checkout, on a £90 dress",
+   "input": {
+    "price": 90,
+    "discounts": [
+     50,
+     30
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "an extra 20 percent off something already marked down 40 percent, list price 75",
+   "input": {
+    "price": 75,
+    "discounts": [
+     40,
+     20
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "cumulative discount on 49.50: 10% and 25%",
+   "input": {
+    "price": 49.5,
+    "discounts": [
+     10,
+     25
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "stack two coupons, 15% and 5%, on a 360 phone. what do I end up paying",
+   "input": {
+    "price": 360,
+    "discounts": [
+     15,
+     5
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "stack 30% and 10% off the jacket I'm looking at",
+   "input": {
+    "discounts": [
+     30,
+     10
+    ]
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "what's the real saving with 25% off plus 15% extra on that tv",
+   "input": {
+    "discounts": [
+     25,
+     15
+    ]
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "what's the price per kg of a 2.5 kg bag of potatoes at 3.20",
+   "input": {
+    "price": 3.2,
+    "quantity": 2.5,
+    "unit": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "per-litre cost of a 5 litre tub of paint at £27.50",
+   "input": {
+    "price": 27.5,
+    "quantity": 5,
+    "unit": "litre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "what does each nappy cost in a pack of 64 for 14.99",
+   "input": {
+    "price": 14.99,
+    "quantity": 64,
+    "unit": "nappy"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "Cost per egg: 15 eggs for 3.75",
+   "input": {
+    "price": 3.75,
+    "quantity": 15,
+    "unit": "egg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "per metre price of 25 m of garden hose for 19.99",
+   "input": {
+    "price": 19.99,
+    "quantity": 25,
+    "unit": "m"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "I pay $64 for 8 gallons. price per gallon?",
+   "input": {
+    "price": 64,
+    "quantity": 8,
+    "unit": "gallon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "how much is it per tablet, 90 tablets for 6.30",
+   "input": {
+    "price": 6.3,
+    "quantity": 90,
+    "unit": "tablet"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "price per gram of a 400 g coffee bag at 5.60",
+   "input": {
+    "price": 5.6,
+    "quantity": 400,
+    "unit": "g"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "Restaurant supplier: 12.5 kg of rice for £21. Price per kg?",
+   "input": {
+    "price": 21,
+    "quantity": 12.5,
+    "unit": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "what's the cost per can in a 24-can crate at 13.20",
+   "input": {
+    "price": 13.2,
+    "quantity": 24,
+    "unit": "can"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "unit cost per sheet: 500 sheets at 4.99",
+   "input": {
+    "price": 4.99,
+    "quantity": 500,
+    "unit": "sheet"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "work out the per-litre price of 1.75 litres of juice for 2.80",
+   "input": {
+    "price": 2.8,
+    "quantity": 1.75,
+    "unit": "litre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "petrol was 85.40 for 52 litres, what was the price per litre",
+   "input": {
+    "price": 85.4,
+    "quantity": 52,
+    "unit": "litre"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "how much a slice? loaf of 22 slices for 1.45",
+   "input": {
+    "price": 1.45,
+    "quantity": 22,
+    "unit": "slice"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "1.2 kg of cheese costs 10.80. per kg?",
+   "input": {
+    "price": 10.8,
+    "quantity": 1.2,
+    "unit": "kg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "per pound price for 3 lb of apples at $4.47",
+   "input": {
+    "price": 4.47,
+    "quantity": 3,
+    "unit": "lb"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "Gym membership 540 for 12 months, cost per month?",
+   "input": {
+    "price": 540,
+    "quantity": 12,
+    "unit": "month"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "per-roll cost: 16 rolls of toilet paper for 7.50",
+   "input": {
+    "price": 7.5,
+    "quantity": 16,
+    "unit": "roll"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "what's the price per capsule if 30 capsules cost 8.25",
+   "input": {
+    "price": 8.25,
+    "quantity": 30,
+    "unit": "capsule"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "shampoo is 3.50 for a 200 ml bottle, what's the unit price per ml",
+   "input": {
+    "price": 3.5,
+    "quantity": 200,
+    "unit": "ml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "box of 40 tea bags at 1.60, cost per bag?",
+   "input": {
+    "price": 1.6,
+    "quantity": 40,
+    "unit": "bag"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "per TB price on an 8 TB drive at 159",
+   "input": {
+    "price": 159,
+    "quantity": 8,
+    "unit": "TB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "what's the price per kilo of the bag I'm holding, it costs 4.50",
+   "input": {
+    "price": 4.5,
+    "unit": "kg"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "unitPrice",
+   "message": "per-unit cost of this multipack",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "my son's homework working: 12 * 7 = 84, 84 - 9 = 75, 75 / 5 = 15. is every step right?",
+   "input": {
+    "steps": [
+     "12 * 7 = 84",
+     "84 - 9 = 75",
+     "75 / 5 = 15"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "check each step: 3 + 4 = 7, 7 * 6 = 42, 42 - 2 = 41",
+   "input": {
+    "steps": [
+     "3 + 4 = 7",
+     "7 * 6 = 42",
+     "42 - 2 = 41"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "Where did I go wrong? 250 * 0.2 = 50, 250 - 50 = 210",
+   "input": {
+    "steps": [
+     "250 * 0.2 = 50",
+     "250 - 50 = 210"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "verify my working line by line: 18 / 3 = 6, 6 + 11 = 17, 17 * 2 = 34",
+   "input": {
+    "steps": [
+     "18 / 3 = 6",
+     "6 + 11 = 17",
+     "17 * 2 = 34"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "is 45 + 38 = 83 right",
+   "input": {
+    "steps": [
+     "45 + 38 = 83"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "Teacher marking: 9 * 9 = 81, 81 + 19 = 100, 100 / 4 = 24. Which line is the first mistake?",
+   "input": {
+    "steps": [
+     "9 * 9 = 81",
+     "81 + 19 = 100",
+     "100 / 4 = 24"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "accountant double-checking my working: 1250 * 1.2 = 1500, 1500 - 300 = 1200",
+   "input": {
+    "steps": [
+     "1250 * 1.2 = 1500",
+     "1500 - 300 = 1200"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "find the wrong step in this working: (4 + 6) * 3 = 30, 30 / 4 = 7",
+   "input": {
+    "steps": [
+     "(4 + 6) * 3 = 30",
+     "30 / 4 = 7"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "is the step 0.1 + 0.2 = 0.3 correct in my working?",
+   "input": {
+    "steps": [
+     "0.1 + 0.2 = 0.3"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "step check please: 2 * 2 * 2 * 2 * 2 = 32, 32 * 3 = 96",
+   "input": {
+    "steps": [
+     "2 * 2 * 2 * 2 * 2 = 32",
+     "32 * 3 = 96"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "can you check each step, 144 / 12 = 12 then 12 * 11 = 132",
+   "input": {
+    "steps": [
+     "144 / 12 = 12",
+     "12 * 11 = 132"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "Homework working to check line by line: 56 - 19 = 37, 37 + 28 = 65, 65 * 2 = 120",
+   "input": {
+    "steps": [
+     "56 - 19 = 37",
+     "37 + 28 = 65",
+     "65 * 2 = 120"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "first wrong line? 7 * 8 = 54, 54 + 6 = 60",
+   "input": {
+    "steps": [
+     "7 * 8 = 54",
+     "54 + 6 = 60"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "costing a menu: 3.5 * 4 = 14, 14 + 2.25 = 16.25. is my arithmetic right?",
+   "input": {
+    "steps": [
+     "3.5 * 4 = 14",
+     "14 + 2.25 = 16.25"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "check my long division working: 1000 / 8 = 125, 125 * 8 = 1000",
+   "input": {
+    "steps": [
+     "1000 / 8 = 125",
+     "125 * 8 = 1000"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "Is my working correct? 0.15 * 80 = 12, then 80 - 12 = 68",
+   "input": {
+    "steps": [
+     "0.15 * 80 = 12",
+     "80 - 12 = 68"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "mark each line: 6 * (2 + 3) = 30, 30 - 5 = 25, 25 / 5 = 6",
+   "input": {
+    "steps": [
+     "6 * (2 + 3) = 30",
+     "30 - 5 = 25",
+     "25 / 5 = 6"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "spot the slip in 99 + 1 = 100, 100 * 100 = 1000",
+   "input": {
+    "steps": [
+     "99 + 1 = 100",
+     "100 * 100 = 1000"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "look over each step of my maths homework working for mistakes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "go through my calculation line by line and tell me where it breaks",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "is every step of my sum right? pasting it now",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "mark each step of my student's worked answer for errors",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "I did this by hand, can you verify each line of the arithmetic",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkArithmeticSteps",
+   "message": "which step of my working is the first one that's wrong",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "shuffle these spanish words: perro, gato, casa, libro, mesa",
+   "input": {
+    "cards": [
+     "perro",
+     "gato",
+     "casa",
+     "libro",
+     "mesa"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "put my capitals flashcards in a random study order: Paris, Madrid, Rome, Berlin, Lisbon, Vienna",
+   "input": {
+    "cards": [
+     "Paris",
+     "Madrid",
+     "Rome",
+     "Berlin",
+     "Lisbon",
+     "Vienna"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "mix up these vocab cards with seed 7: ubiquitous, ephemeral, laconic, gregarious",
+   "input": {
+    "cards": [
+     "ubiquitous",
+     "ephemeral",
+     "laconic",
+     "gregarious"
+    ],
+    "seed": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "Randomise my anatomy flashcards: femur, tibia, fibula, patella, humerus",
+   "input": {
+    "cards": [
+     "femur",
+     "tibia",
+     "fibula",
+     "patella",
+     "humerus"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "study order please for these cards: mitosis, meiosis, osmosis, diffusion",
+   "input": {
+    "cards": [
+     "mitosis",
+     "meiosis",
+     "osmosis",
+     "diffusion"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "shuffle my element cards: H, He, Li, Be, B, C, N, O",
+   "input": {
+    "cards": [
+     "H",
+     "He",
+     "Li",
+     "Be",
+     "B",
+     "C",
+     "N",
+     "O"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "nursing exam prep, jumble these cards: tachycardia, bradycardia, hypotension, hypertension",
+   "input": {
+    "cards": [
+     "tachycardia",
+     "bradycardia",
+     "hypotension",
+     "hypertension"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "randomise my french verb flashcards: être, avoir, aller, faire, venir",
+   "input": {
+    "cards": [
+     "être",
+     "avoir",
+     "aller",
+     "faire",
+     "venir"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "shuffle the deck 1914, 1939, 1066, 1776, 1815 so I can test myself on dates",
+   "input": {
+    "cards": [
+     "1914",
+     "1939",
+     "1066",
+     "1776",
+     "1815"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "give me a random study order for my kanji cards 日, 月, 火, 水, 木",
+   "input": {
+    "cards": [
+     "日",
+     "月",
+     "火",
+     "水",
+     "木"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "Shuffle my times tables cards: 7x8, 6x9, 12x11, 8x8 using seed 2026",
+   "input": {
+    "cards": [
+     "7x8",
+     "6x9",
+     "12x11",
+     "8x8"
+    ],
+    "seed": 2026
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "scramble these flashcards: noun, verb, adjective, adverb, pronoun, preposition",
+   "input": {
+    "cards": [
+     "noun",
+     "verb",
+     "adjective",
+     "adverb",
+     "pronoun",
+     "preposition"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "can you mix my GCSE chemistry cards: ionic bond, covalent bond, metallic bond, electrolysis",
+   "input": {
+    "cards": [
+     "ionic bond",
+     "covalent bond",
+     "metallic bond",
+     "electrolysis"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "shuffle my physics cards: alpha particle, beta particle, gamma ray",
+   "input": {
+    "cards": [
+     "alpha particle",
+     "beta particle",
+     "gamma ray"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "shuffle my 4 cards: cat, dog, owl, fox",
+   "input": {
+    "cards": [
+     "cat",
+     "dog",
+     "owl",
+     "fox"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "random order for revising these cards: Pythagoras, Euclid, Archimedes, Hypatia, Thales",
+   "input": {
+    "cards": [
+     "Pythagoras",
+     "Euclid",
+     "Archimedes",
+     "Hypatia",
+     "Thales"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "Can you shuffle the flash cards Mercury, Venus, Earth, Mars, Jupiter with seed 99?",
+   "input": {
+    "cards": [
+     "Mercury",
+     "Venus",
+     "Earth",
+     "Mars",
+     "Jupiter"
+    ],
+    "seed": 99
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "shuffle my driving theory flashcards: stopping distance, give way, box junction, red route",
+   "input": {
+    "cards": [
+     "stopping distance",
+     "give way",
+     "box junction",
+     "red route"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "shuffle the vocab cards I made last night",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "put my revision deck in a random order",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "randomise my flash cards with seed 5",
+   "input": {
+    "seed": 5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "mix the order of the cards I'm about to list",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "give me a shuffled study order for my biology term cards",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "flashcardShuffle",
+   "message": "scramble my deck so I don't memorise the order",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "my grades: A in Calculus (4 credits), B in History (3 credits), A- in Chemistry (4 credits). GPA?",
+   "input": {
+    "courses": [
+     {
+      "grade": "A",
+      "credits": 4
+     },
+     {
+      "grade": "B",
+      "credits": 3
+     },
+     {
+      "grade": "A-",
+      "credits": 4
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "gpa for B+ 3 credits, B 3 credits, C+ 2 credits",
+   "input": {
+    "courses": [
+     {
+      "grade": "B+",
+      "credits": 3
+     },
+     {
+      "grade": "B",
+      "credits": 3
+     },
+     {
+      "grade": "C+",
+      "credits": 2
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "Semester results: A 3cr, A 3cr, B- 4cr, D 1cr. grade point average?",
+   "input": {
+    "courses": [
+     {
+      "grade": "A",
+      "credits": 3
+     },
+     {
+      "grade": "A",
+      "credits": 3
+     },
+     {
+      "grade": "B-",
+      "credits": 4
+     },
+     {
+      "grade": "D",
+      "credits": 1
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "I got an A- in a 4 credit class and a C in a 3 credit class, what's my gpa",
+   "input": {
+    "courses": [
+     {
+      "grade": "A-",
+      "credits": 4
+     },
+     {
+      "grade": "C",
+      "credits": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "work out the GPA: English B+ (3), Maths A (5), Art A- (2)",
+   "input": {
+    "courses": [
+     {
+      "grade": "B+",
+      "credits": 3
+     },
+     {
+      "grade": "A",
+      "credits": 5
+     },
+     {
+      "grade": "A-",
+      "credits": 2
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "parent here. my daughter has A, A, B+ and B, all 3 credits each. GPA please",
+   "input": {
+    "courses": [
+     {
+      "grade": "A",
+      "credits": 3
+     },
+     {
+      "grade": "A",
+      "credits": 3
+     },
+     {
+      "grade": "B+",
+      "credits": 3
+     },
+     {
+      "grade": "B",
+      "credits": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "grade point average with C 4 credits, F 3 credits, B 3 credits",
+   "input": {
+    "courses": [
+     {
+      "grade": "C",
+      "credits": 4
+     },
+     {
+      "grade": "F",
+      "credits": 3
+     },
+     {
+      "grade": "B",
+      "credits": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "cumulative gpa: A 3 hrs, A 4 hrs, B+ 3 hrs",
+   "input": {
+    "courses": [
+     {
+      "grade": "A",
+      "credits": 3
+     },
+     {
+      "grade": "A",
+      "credits": 4
+     },
+     {
+      "grade": "B+",
+      "credits": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "calculate my gpa: Physics A (4), Lab B (1), Writing B- (3)",
+   "input": {
+    "courses": [
+     {
+      "grade": "A",
+      "credits": 4
+     },
+     {
+      "grade": "B",
+      "credits": 1
+     },
+     {
+      "grade": "B-",
+      "credits": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "compute grade point average for D+ 3 credits and C- 3 credits",
+   "input": {
+    "courses": [
+     {
+      "grade": "D+",
+      "credits": 3
+     },
+     {
+      "grade": "C-",
+      "credits": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "What's my GPA if I get a B in all four of my 3-credit classes?",
+   "input": {
+    "courses": [
+     {
+      "grade": "B",
+      "credits": 3
+     },
+     {
+      "grade": "B",
+      "credits": 3
+     },
+     {
+      "grade": "B",
+      "credits": 3
+     },
+     {
+      "grade": "B",
+      "credits": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "transcript: Biology A 4 credits, Psych B+ 3 credits, Spanish A- 3 credits, PE A 1 credit. my gpa?",
+   "input": {
+    "courses": [
+     {
+      "grade": "A",
+      "credits": 4
+     },
+     {
+      "grade": "B+",
+      "credits": 3
+     },
+     {
+      "grade": "A-",
+      "credits": 3
+     },
+     {
+      "grade": "A",
+      "credits": 1
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "gpa: A 2 credits, C+ 3 credits",
+   "input": {
+    "courses": [
+     {
+      "grade": "A",
+      "credits": 2
+     },
+     {
+      "grade": "C+",
+      "credits": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "Can you compute my term GPA? Statistics B (3 credits), Economics A- (3 credits), Ethics A (2 credits).",
+   "input": {
+    "courses": [
+     {
+      "grade": "B",
+      "credits": 3
+     },
+     {
+      "grade": "A-",
+      "credits": 3
+     },
+     {
+      "grade": "A",
+      "credits": 2
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "nursing school courses: Anatomy B+ 4 credits, Pharmacology A 3 credits. what's the gpa",
+   "input": {
+    "courses": [
+     {
+      "grade": "B+",
+      "credits": 4
+     },
+     {
+      "grade": "A",
+      "credits": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "grades A, B, C at 3, 4 and 5 credits respectively. gpa?",
+   "input": {
+    "courses": [
+     {
+      "grade": "A",
+      "credits": 3
+     },
+     {
+      "grade": "B",
+      "credits": 4
+     },
+     {
+      "grade": "C",
+      "credits": 5
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "work out my average grade points: B- in a 2-credit seminar, A- in a 4-credit lecture",
+   "input": {
+    "courses": [
+     {
+      "grade": "B-",
+      "credits": 2
+     },
+     {
+      "grade": "A-",
+      "credits": 4
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "gpa for one course, an A- worth 3 credits",
+   "input": {
+    "courses": [
+     {
+      "grade": "A-",
+      "credits": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "calculate my gpa from my transcript",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "what's my grade point average this semester, grades below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "work out the gpa for my son's report card",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "I'll list my courses and credit hours, give me my GPA",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "figure out my cumulative gpa from these classes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "gpaCalculate",
+   "message": "what GPA do my grades this year come to",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "I'm at 68% with 60% of the course done; what score do I need on the rest to finish with a 70 grade?",
+   "input": {
+    "current": 68,
+    "completed": 60,
+    "target": 70
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "current grade 85, 75 percent of the module complete, aiming for 88 overall. what's needed on the remaining work",
+   "input": {
+    "current": 85,
+    "completed": 75,
+    "target": 88
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "Student here: my grade is 55 after 40% of the year. What do I need on the final assessments for a 65 overall?",
+   "input": {
+    "current": 55,
+    "completed": 40,
+    "target": 65
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "I've done 80% of the course at 92; what score on the rest keeps me at 90",
+   "input": {
+    "current": 92,
+    "completed": 80,
+    "target": 90
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "score so far 74, completed 50%, target 80. what do I need?",
+   "input": {
+    "current": 74,
+    "completed": 50,
+    "target": 80
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "My son's grade is 61 percent with 65 percent of coursework marked. What score does he need on the rest to reach 70?",
+   "input": {
+    "current": 61,
+    "completed": 65,
+    "target": 70
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "need a 75 overall; currently 71 with 85% of the grade decided. what on the final?",
+   "input": {
+    "current": 71,
+    "completed": 85,
+    "target": 75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "grade needed: current 48, done 30, goal 50",
+   "input": {
+    "current": 48,
+    "completed": 30,
+    "target": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "At 82% with 90% of the course behind me, what score on the final bit gets me an 85% grade?",
+   "input": {
+    "current": 82,
+    "completed": 90,
+    "target": 85
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "how high must I score on the remaining coursework? I have 66 with 45% complete and want 72",
+   "input": {
+    "current": 66,
+    "completed": 45,
+    "target": 72
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "teacher here: pupil sits at 39 with 70% assessed, pass mark 40. what do they need on the rest",
+   "input": {
+    "current": 39,
+    "completed": 70,
+    "target": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "what do I need on the final to keep a 93? I've got 95 on 75% of the class",
+   "input": {
+    "current": 95,
+    "completed": 75,
+    "target": 93
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "my grade is 58% so far and 50% of the course is done. what do I need on the final to get 60?",
+   "input": {
+    "current": 58,
+    "completed": 50,
+    "target": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "Uni module: 63 after 70 percent, aiming for a first (70). what do I need?",
+   "input": {
+    "current": 63,
+    "completed": 70,
+    "target": 70
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "what score on the rest gets me to 80? I'm at 77 with 60% of marks in",
+   "input": {
+    "current": 77,
+    "completed": 60,
+    "target": 80
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "target grade 85, current 79, course 55% complete. score needed on the rest?",
+   "input": {
+    "current": 79,
+    "completed": 55,
+    "target": 85
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "nursing course: 72% so far over 80% of the assessments, need 75 to progress. what's needed on the final part?",
+   "input": {
+    "current": 72,
+    "completed": 80,
+    "target": 75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "I'm on 88 with 25% completed; to end at 90 what do I need from here",
+   "input": {
+    "current": 88,
+    "completed": 25,
+    "target": 90
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "currently 45%, 66% of the term done, want a final grade of 50%. what score do I need?",
+   "input": {
+    "current": 45,
+    "completed": 66,
+    "target": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "with a 91 after 85% of the course, what must the final be for a 92 overall",
+   "input": {
+    "current": 91,
+    "completed": 85,
+    "target": 92
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "Holding a 70 average across 40% of the semester. What's needed to finish at 75?",
+   "input": {
+    "current": 70,
+    "completed": 40,
+    "target": 75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "what do I need on what's left to get a 65, sitting on 60 with 90% done",
+   "input": {
+    "current": 60,
+    "completed": 90,
+    "target": 65
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "what do I need on the final exam to finish with 80%, I'm at 76",
+   "input": {
+    "current": 76,
+    "target": 80
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "gradeNeeded",
+   "message": "what score do I need on the rest of the course to reach 70 overall",
+   "input": {
+    "target": 70
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "my answers were B, C, A, D and the right ones are B, A, A, D. grade it",
+   "input": {
+    "answers": [
+     "B",
+     "C",
+     "A",
+     "D"
+    ],
+    "key": [
+     "B",
+     "A",
+     "A",
+     "D"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "grade: student said 4, 9, 16, 25; correct is 4, 9, 15, 25",
+   "input": {
+    "answers": [
+     "4",
+     "9",
+     "16",
+     "25"
+    ],
+    "key": [
+     "4",
+     "9",
+     "15",
+     "25"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "Spelling test. Answers: recieve, necessary, seperate. Key: receive, necessary, separate.",
+   "input": {
+    "answers": [
+     "recieve",
+     "necessary",
+     "seperate"
+    ],
+    "key": [
+     "receive",
+     "necessary",
+     "separate"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "score this quiz. given: true, false, true; correct: true, true, true",
+   "input": {
+    "answers": [
+     "true",
+     "false",
+     "true"
+    ],
+    "key": [
+     "true",
+     "true",
+     "true"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "check my capitals answers Canberra, Ottawa, Sydney against the key Canberra, Ottawa, Wellington",
+   "input": {
+    "answers": [
+     "Canberra",
+     "Ottawa",
+     "Sydney"
+    ],
+    "key": [
+     "Canberra",
+     "Ottawa",
+     "Wellington"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "my pupil wrote cat, Dog, BIRD and the answers are cat, dog, bird. mark it ignoring case",
+   "input": {
+    "answers": [
+     "cat",
+     "Dog",
+     "BIRD"
+    ],
+    "key": [
+     "cat",
+     "dog",
+     "bird"
+    ],
+    "caseSensitive": false
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "mark strictly with matching case: answers Paris, london; key Paris, London",
+   "input": {
+    "answers": [
+     "Paris",
+     "london"
+    ],
+    "key": [
+     "Paris",
+     "London"
+    ],
+    "caseSensitive": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "how many did I get right: answers 1945, 1066, 1492 vs key 1945, 1066, 1493",
+   "input": {
+    "answers": [
+     "1945",
+     "1066",
+     "1492"
+    ],
+    "key": [
+     "1945",
+     "1066",
+     "1493"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "Grade the vocab test: answers el perro, la casa, el gato; correct el perro, la mesa, el gato",
+   "input": {
+    "answers": [
+     "el perro",
+     "la casa",
+     "el gato"
+    ],
+    "key": [
+     "el perro",
+     "la mesa",
+     "el gato"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "Quiz marking for my trivia night. Team answers: Mars, Jupiter, Pluto. Answer key: Mars, Saturn, Pluto.",
+   "input": {
+    "answers": [
+     "Mars",
+     "Jupiter",
+     "Pluto"
+    ],
+    "key": [
+     "Mars",
+     "Saturn",
+     "Pluto"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "score a, b, c, d, a when the correct answers are a, b, d, d, a",
+   "input": {
+    "answers": [
+     "a",
+     "b",
+     "c",
+     "d",
+     "a"
+    ],
+    "key": [
+     "a",
+     "b",
+     "d",
+     "d",
+     "a"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "check the answers H2O, CO2, NaCl against the key H2O, CO2, NaOH",
+   "input": {
+    "answers": [
+     "H2O",
+     "CO2",
+     "NaCl"
+    ],
+    "key": [
+     "H2O",
+     "CO2",
+     "NaOH"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "score answers: photosynthesis, mitochondria, ribosome. key: photosynthesis, nucleus, ribosome",
+   "input": {
+    "answers": [
+     "photosynthesis",
+     "mitochondria",
+     "ribosome"
+    ],
+    "key": [
+     "photosynthesis",
+     "nucleus",
+     "ribosome"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "nurse training quiz: given 120/80, 37, 72; expected 120/80, 37.5, 72",
+   "input": {
+    "answers": [
+     "120/80",
+     "37",
+     "72"
+    ],
+    "key": [
+     "120/80",
+     "37.5",
+     "72"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "compare my answers 7, 12, 30 with the answer key 7, 12, 35 and give me the score",
+   "input": {
+    "answers": [
+     "7",
+     "12",
+     "30"
+    ],
+    "key": [
+     "7",
+     "12",
+     "35"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "mark the times tables test: 56, 63, 48, 81 versus key 56, 64, 48, 81",
+   "input": {
+    "answers": [
+     "56",
+     "63",
+     "48",
+     "81"
+    ],
+    "key": [
+     "56",
+     "64",
+     "48",
+     "81"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "grade these answers ignoring extra spaces: new  york, los angeles; key new york, los angeles",
+   "input": {
+    "answers": [
+     "new  york",
+     "los angeles"
+    ],
+    "key": [
+     "new york",
+     "los angeles"
+    ],
+    "ignoreSpacing": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "question by question score: answers yes, no, no, yes; key yes, yes, no, yes",
+   "input": {
+    "answers": [
+     "yes",
+     "no",
+     "no",
+     "yes"
+    ],
+    "key": [
+     "yes",
+     "yes",
+     "no",
+     "yes"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "I'll send the key next, grade my quiz answers question by question",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "grade my students' test against the answer sheet",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "score these answers, the key is A, B, C, D",
+   "input": {
+    "key": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ]
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "my answers are B, D, A and the key is in the book, score them for me",
+   "input": {
+    "answers": [
+     "B",
+     "D",
+     "A"
+    ]
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "check how many of my quiz answers match the correct ones",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "gradeQuiz",
+   "message": "work out the score for the pub quiz sheets against the answers",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "I have a 384-page novel to read at 30 pages a day. make me a schedule",
+   "input": {
+    "totalPages": 384,
+    "pagesPerDay": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Book club in 14 days, 420 pages. Daily reading plan?",
+   "input": {
+    "totalPages": 420,
+    "days": 14
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "plan my reading: 250 pages over 10 days",
+   "input": {
+    "totalPages": 250,
+    "days": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "set up a daily reading schedule for 612 pages, 40 a day, starting 2026-09-07",
+   "input": {
+    "totalPages": 612,
+    "pagesPerDay": 40,
+    "startDate": "2026-09-07"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "textbook is 180 pages and the exam is in 6 days. how many pages per day?",
+   "input": {
+    "totalPages": 180,
+    "days": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "reading plan for a 95 page report at 15 pages per day",
+   "input": {
+    "totalPages": 95,
+    "pagesPerDay": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "My son has 220 pages of his set book to finish in a week, can you plan it out",
+   "input": {
+    "totalPages": 220,
+    "days": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Help me pace War and Peace: 1,225 pages, 50 a day.",
+   "input": {
+    "totalPages": 1225,
+    "pagesPerDay": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "I read 25 pages a day; schedule out a 330-page biography",
+   "input": {
+    "totalPages": 330,
+    "pagesPerDay": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "split 512 pages across 16 days",
+   "input": {
+    "totalPages": 512,
+    "days": 16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Daily target to get through 140 pages in 5 days, starting 2026-10-01",
+   "input": {
+    "totalPages": 140,
+    "days": 5,
+    "startDate": "2026-10-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "nurse revising: 300 pages of notes, 12 pages per day, from 2026-09-14",
+   "input": {
+    "totalPages": 300,
+    "pagesPerDay": 12,
+    "startDate": "2026-09-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "retiree with a 700-page history book, 35 pages each day. how long, and what's the plan",
+   "input": {
+    "totalPages": 700,
+    "pagesPerDay": 35
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "schedule 88 pages over 4 days",
+   "input": {
+    "totalPages": 88,
+    "days": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "I've 456 pages left and 19 days till the deadline; give me a daily plan",
+   "input": {
+    "totalPages": 456,
+    "days": 19
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "260 pages, 18 per day. set out my reading days",
+   "input": {
+    "totalPages": 260,
+    "pagesPerDay": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "break a 1,000 page fantasy book into 45 page days",
+   "input": {
+    "totalPages": 1000,
+    "pagesPerDay": 45
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "make a reading timetable: 150 pages, done in 3 days",
+   "input": {
+    "totalPages": 150,
+    "days": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "teacher assigning 64 pages, 8 pages a night. what's the schedule",
+   "input": {
+    "totalPages": 64,
+    "pagesPerDay": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "how many days for 275 pages at 25 a day, with dates",
+   "input": {
+    "totalPages": 275,
+    "pagesPerDay": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "spread 333 pages over 9 days starting 2026-12-01",
+   "input": {
+    "totalPages": 333,
+    "days": 9,
+    "startDate": "2026-12-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "plan 48 pages across 2 days",
+   "input": {
+    "totalPages": 48,
+    "days": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "pace this novel for me, I can manage 20 pages each day",
+   "input": {
+    "pagesPerDay": 20
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "I need to finish my textbook in 10 days, plan the daily pages",
+   "input": {
+    "days": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "I learned the krebs cycle today, give me a spaced repetition review schedule",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "spaced repetition dates from 2026-09-10",
+   "input": {
+    "date": "2026-09-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "review schedule at 1, 3, 7 and 21 days after 2026-10-05",
+   "input": {
+    "date": "2026-10-05",
+    "intervals": [
+     1,
+     3,
+     7,
+     21
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "Studied French verbs on 2026-09-03. Plan my review days please.",
+   "input": {
+    "date": "2026-09-03"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "when do I revisit today's anatomy notes using spaced repetition",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "give me review dates 2, 5, 12 and 30 days out",
+   "input": {
+    "intervals": [
+     2,
+     5,
+     12,
+     30
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "set up spaced reviews for a topic I learned on 15 September 2026",
+   "input": {
+    "date": "15 September 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "nurse exam: learned drug doses yesterday, when are my spaced reviews",
+   "input": {
+    "date": "yesterday"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "Make me a spaced repetition calendar starting 2026-11-02",
+   "input": {
+    "date": "2026-11-02"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "what days should I review my guitar chords if I learned them on 2026-09-20",
+   "input": {
+    "date": "2026-09-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "intervals of 1, 2, 4, 8, 16 days. give me the review dates",
+   "input": {
+    "intervals": [
+     1,
+     2,
+     4,
+     8,
+     16
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "I'm learning Japanese kana from today. spaced repetition schedule?",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "review plan after cramming the periodic table on 2026-09-01",
+   "input": {
+    "date": "2026-09-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "my students had this lesson on 2026-09-04, when should they review it with spaced repetition",
+   "input": {
+    "date": "2026-09-04"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "spaced repetition with reviews at 3, 10 and 30 days starting 2026-10-12",
+   "input": {
+    "date": "2026-10-12",
+    "intervals": [
+     3,
+     10,
+     30
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "work out my revision dates for history I first studied on 2026-08-28",
+   "input": {
+    "date": "2026-08-28"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "plan reviews 1 day, 7 days and 28 days after today",
+   "input": {
+    "intervals": [
+     1,
+     7,
+     28
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "After learning a new piano piece today, what are my spaced review dates?",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "spacing schedule for memorising a poem I started on 2026-09-15",
+   "input": {
+    "date": "2026-09-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "vocab learned 2026-10-01; review days at 1, 4, 9, 20",
+   "input": {
+    "date": "2026-10-01",
+    "intervals": [
+     1,
+     4,
+     9,
+     20
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "when are my next reviews for the vocab I learned this morning",
+   "input": {},
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "spaced review dates please, first learned on 3 October 2026",
+   "input": {
+    "date": "3 October 2026"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "Teacher here: set review points 2, 7 and 14 days after 2026-09-21 for my class",
+   "input": {
+    "date": "2026-09-21",
+    "intervals": [
+     2,
+     7,
+     14
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "when should I re-study the sql joins topic using spaced repetition",
+   "input": {},
+   "mode": "full"
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "formatPhoneNumber",
+    "validatePhoneNumber"
+   ],
+   "rows": [
+    {
+     "skill": "formatPhoneNumber",
+     "message": "format +44 7700 900321 for our records",
+     "input": {
+      "number": "+44 7700 900321"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validatePhoneNumber",
+     "message": "validate +44 7700 900321 for our records",
+     "input": {
+      "number": "+44 7700 900321"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "formatPhoneNumber",
+    "validatePhoneNumber"
+   ],
+   "rows": [
+    {
+     "skill": "formatPhoneNumber",
+     "message": "write +1 312 555 0176 in e.164",
+     "input": {
+      "number": "+1 312 555 0176"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validatePhoneNumber",
+     "message": "is +1 312 555 0176 a valid number",
+     "input": {
+      "number": "+1 312 555 0176"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "splitBill",
+    "splitEvenly"
+   ],
+   "rows": [
+    {
+     "skill": "splitBill",
+     "message": "split the 120 bill 3 ways plus 10% tip",
+     "input": {
+      "bill": 120,
+      "tipPercent": 10,
+      "people": 3
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "splitEvenly",
+     "message": "split the 120 lottery winnings 3 ways evenly",
+     "input": {
+      "amount": 120,
+      "parts": 3
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "splitBill",
+    "splitEvenly"
+   ],
+   "rows": [
+    {
+     "skill": "splitBill",
+     "message": "divide £75 between 5 people with a 12% tip",
+     "input": {
+      "bill": 75,
+      "tipPercent": 12,
+      "people": 5,
+      "currency": "£"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "splitEvenly",
+     "message": "divide £75 of club funds between 5 people exactly",
+     "input": {
+      "amount": 75,
+      "parts": 5
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "splitBill",
+    "splitEvenly"
+   ],
+   "rows": [
+    {
+     "skill": "splitBill",
+     "message": "share a 64.80 bar tab 6 ways after adding 20% tip",
+     "input": {
+      "bill": 64.8,
+      "tipPercent": 20,
+      "people": 6
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "splitEvenly",
+     "message": "share 64.80 6 ways in equal parts",
+     "input": {
+      "amount": 64.8,
+      "parts": 6
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateDate",
+    "validateJsonSchema"
+   ],
+   "rows": [
+    {
+     "skill": "validateDate",
+     "message": "is 2026-06-31 valid as a calendar day",
+     "input": {
+      "date": "2026-06-31"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateJsonSchema",
+     "message": "is {\"day\": \"2026-06-31\"} valid against the schema {\"type\": \"object\"}",
+     "input": {
+      "schema": "{\"type\": \"object\"}",
+      "data": "{\"day\": \"2026-06-31\"}"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateDate",
+    "validateJsonSchema"
+   ],
+   "rows": [
+    {
+     "skill": "validateDate",
+     "message": "check the birthday 1999-02-29 is a real day",
+     "input": {
+      "date": "1999-02-29"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateJsonSchema",
+     "message": "check the birthday {\"born\": \"1999-02-29\"} fits the schema {\"required\": [\"born\"]}",
+     "input": {
+      "schema": "{\"required\": [\"born\"]}",
+      "data": "{\"born\": \"1999-02-29\"}"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validateIpAddress"
+   ],
+   "rows": [
+    {
+     "skill": "validateEmail",
+     "message": "the signup form logged kim@mailhost, can you check it is a valid email",
+     "input": {
+      "email": "kim@mailhost"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateIpAddress",
+     "message": "the signup form logged 8.8.4.4, can you check it is a valid ip",
+     "input": {
+      "address": "8.8.4.4"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validateIpAddress"
+   ],
+   "rows": [
+    {
+     "skill": "validateEmail",
+     "message": "validate the email ops@lan before I whitelist it in the firewall",
+     "input": {
+      "email": "ops@lan"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateIpAddress",
+     "message": "validate the ip 10.1.1.1 before I whitelist it in the firewall",
+     "input": {
+      "address": "10.1.1.1"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validatePhoneNumber"
+   ],
+   "rows": [
+    {
+     "skill": "validateEmail",
+     "message": "the customer contact field says jo@shop.uk, is that a valid email",
+     "input": {
+      "email": "jo@shop.uk"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validatePhoneNumber",
+     "message": "the customer contact field says +447700900888, is that a valid phone",
+     "input": {
+      "number": "+447700900888"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validatePhoneNumber"
+   ],
+   "rows": [
+    {
+     "skill": "validateEmail",
+     "message": "please check whether the guest left a valid email on the booking: sam@hotel",
+     "input": {
+      "email": "sam@hotel"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validatePhoneNumber",
+     "message": "please check whether the guest left a valid phone on the booking: +15551234567",
+     "input": {
+      "number": "+15551234567"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validateUrl"
+   ],
+   "rows": [
+    {
+     "skill": "validateEmail",
+     "message": "is help@acme.io a valid email",
+     "input": {
+      "email": "help@acme.io"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateUrl",
+     "message": "is https://acme.io/help a valid url",
+     "input": {
+      "url": "https://acme.io/help"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validateUrl"
+   ],
+   "rows": [
+    {
+     "skill": "validateEmail",
+     "message": "before I print the flyer, check the email info@bakery.example is well formed",
+     "input": {
+      "email": "info@bakery.example"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateUrl",
+     "message": "before I print the flyer, check the link https://bakery.example/menu is well formed",
+     "input": {
+      "url": "https://bakery.example/menu"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIban",
+    "validateIsbn"
+   ],
+   "rows": [
+    {
+     "skill": "validateIban",
+     "message": "a client asked me to check whether DE75512108001245126199 is a valid iban",
+     "input": {
+      "iban": "DE75512108001245126199"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateIsbn",
+     "message": "a client asked me to check whether 9781402894626 is a valid isbn",
+     "input": {
+      "isbn": "9781402894626"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIban",
+    "validateIsbn"
+   ],
+   "rows": [
+    {
+     "skill": "validateIban",
+     "message": "before I file it, does the iban FR7630006000011234567890189 pass its checksum test",
+     "input": {
+      "iban": "FR7630006000011234567890189"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateIsbn",
+     "message": "before I file it, does the isbn 0306406152 pass its checksum test",
+     "input": {
+      "isbn": "0306406152"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIban",
+    "validateLuhn"
+   ],
+   "rows": [
+    {
+     "skill": "validateIban",
+     "message": "the payment form flagged AT611904300234573201, does that iban pass its check",
+     "input": {
+      "iban": "AT611904300234573201"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateLuhn",
+     "message": "the payment form flagged 4539148803436467, does that card pass its check",
+     "input": {
+      "number": "4539148803436467"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIban",
+    "validateLuhn"
+   ],
+   "rows": [
+    {
+     "skill": "validateIban",
+     "message": "before paying, please run the checksum on the iban CH9300762011623852957 for me",
+     "input": {
+      "iban": "CH9300762011623852957"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateLuhn",
+     "message": "before paying, please run the checksum on the card 6011000990139424 for me",
+     "input": {
+      "number": "6011000990139424"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validatePhoneNumber"
+   ],
+   "rows": [
+    {
+     "skill": "validateIpAddress",
+     "message": "the contact sheet lists 1.1.1.1, is that a valid ip",
+     "input": {
+      "address": "1.1.1.1"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validatePhoneNumber",
+     "message": "the contact sheet lists +441632960123, is that a valid phone",
+     "input": {
+      "number": "+441632960123"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validatePhoneNumber"
+   ],
+   "rows": [
+    {
+     "skill": "validateIpAddress",
+     "message": "a form field holds 9.9.9.9, please check it is a valid ip before I save it",
+     "input": {
+      "address": "9.9.9.9"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validatePhoneNumber",
+     "message": "a form field holds +12025550173, please check it is a valid phone before I save it",
+     "input": {
+      "number": "+12025550173"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validateUrl"
+   ],
+   "rows": [
+    {
+     "skill": "validateIpAddress",
+     "message": "is 203.0.113.9 a valid ip",
+     "input": {
+      "address": "203.0.113.9"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateUrl",
+     "message": "is http://203.0.113.9/status a valid url",
+     "input": {
+      "url": "http://203.0.113.9/status"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validateUrl"
+   ],
+   "rows": [
+    {
+     "skill": "validateIpAddress",
+     "message": "check the server ip 10.0.0.1 is valid",
+     "input": {
+      "address": "10.0.0.1"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateUrl",
+     "message": "check the server url http://10.0.0.1/admin is valid",
+     "input": {
+      "url": "http://10.0.0.1/admin"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validateUuid"
+   ],
+   "rows": [
+    {
+     "skill": "validateIpAddress",
+     "message": "the request id column in our access log has 10.4.4.4 in it, is that a valid ip",
+     "input": {
+      "address": "10.4.4.4"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateUuid",
+     "message": "the request id column in our access log has 0f8fad5b-d9cb-469f-a165-70867728950e in it, is that a valid uuid",
+     "input": {
+      "uuid": "0f8fad5b-d9cb-469f-a165-70867728950e"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validateUuid"
+   ],
+   "rows": [
+    {
+     "skill": "validateIpAddress",
+     "message": "for the audit report, tell me if ::1 is valid and which ip version it is",
+     "input": {
+      "address": "::1"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateUuid",
+     "message": "for the audit report, tell me if 6fa459ea-ee8a-3ca4-894e-db77e160355e is valid and which uuid version it is",
+     "input": {
+      "uuid": "6fa459ea-ee8a-3ca4-894e-db77e160355e"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIsbn",
+    "validateLuhn"
+   ],
+   "rows": [
+    {
+     "skill": "validateIsbn",
+     "message": "does 9780316769488 pass the isbn check digit test",
+     "input": {
+      "isbn": "9780316769488"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateLuhn",
+     "message": "does 4716108999716531 pass the luhn check digit test",
+     "input": {
+      "number": "4716108999716531"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIsbn",
+    "validateLuhn"
+   ],
+   "rows": [
+    {
+     "skill": "validateIsbn",
+     "message": "the scanner read 9781603090575, is that a valid isbn",
+     "input": {
+      "isbn": "9781603090575"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateLuhn",
+     "message": "the scanner read 5555555555554444, is that a valid card number",
+     "input": {
+      "number": "5555555555554444"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateJson",
+    "validateJsonSchema"
+   ],
+   "rows": [
+    {
+     "skill": "validateJson",
+     "message": "is {\"id\": 5, \"tags\": [\"a\"]} valid json",
+     "input": {
+      "text": "{\"id\": 5, \"tags\": [\"a\"]}"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateJsonSchema",
+     "message": "is {\"id\": 5, \"tags\": [\"a\"]} valid against the schema {\"required\": [\"name\"]}",
+     "input": {
+      "schema": "{\"required\": [\"name\"]}",
+      "data": "{\"id\": 5, \"tags\": [\"a\"]}"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateJson",
+    "validateJsonSchema"
+   ],
+   "rows": [
+    {
+     "skill": "validateJson",
+     "message": "check {\"port\": \"80\"} parses as json",
+     "input": {
+      "text": "{\"port\": \"80\"}"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "validateJsonSchema",
+     "message": "check {\"port\": \"80\"} matches the json schema {\"type\": \"array\"}",
+     "input": {
+      "schema": "{\"type\": \"array\"}",
+      "data": "{\"port\": \"80\"}"
+     },
+     "mode": "full"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+[package]
+name = "pigeon-core"
+version = "0.1.0"
+description = "Reads and checks a .pigeon file exactly as the format spec says. No Tauri, no model."
+authors = ["Kevin Jackson"]
+edition = "2021"
+rust-version = "1.77.2"
+license = "Apache-2.0"
+
+[features]
+# The fixture builders (a store-mode ZIP writer, a GGUF header writer, the
+# RFC 8032 test key). On for this crate's own tests; a host turns it on for its
+# tests only.
+test-support = ["chat-template"]
+# Renders a base's own chat template (Jinja), which is what `prompt_check`
+# compares against (spec §8.6). Optional: a host whose engine renders the
+# template itself does not need a second Jinja.
+chat-template = ["dep:minijinja", "dep:minijinja-contrib"]
+
+[dependencies]
+# Nothing here that the Pigeon app did not already have: this crate is the
+# app's own reader, lifted. No tauri, no async runtime, no network.
+serde = { version = "1", features = ["derive"] }
+# preserve_order: an output_schema's properties keep the order the file gives
+# them, which is the order a grammar built from it makes the model write (D88).
+serde_json = { version = "1", features = ["preserve_order"] }
+sha2 = "0.10"
+# Ed25519 verification of a seal (seal.rs).
+ring = "0.17"
+# Memory-maps an opened .pigeon read-only (blob.rs).
+libc = "0.2"
+minijinja = { version = "2", optional = true, features = ["json"] }
+# Python's string methods (`.startswith`, `.split`, `.strip`), which chat
+# templates are written against.
+minijinja-contrib = { version = "2", optional = true, features = ["pycompat"] }
+
+[[bin]]
+# The conformance kit's adapter: `pigeon-kit <case_dir>` prints one JSON object.
+name = "pigeon-kit"
+path = "src/bin/pigeon-kit.rs"
+required-features = ["test-support"]
+
+[[test]]
+name = "conformance"
+path = "tests/conformance.rs"
+required-features = ["test-support"]
+
+[[test]]
+# prompt_check over real Pigeons and real bases; skipped unless both folders
+# are given (see the file).
+name = "real_pigeons"
+path = "tests/real_pigeons.rs"
+required-features = ["chat-template"]

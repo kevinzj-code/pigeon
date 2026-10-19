@@ -1,0 +1,2097 @@
+{
+ "task": "co-listed minimal pairs",
+ "pairs": [
+  {
+   "twins": [
+    "extractEmails",
+    "extractUrls"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractEmails \u2014 List the email addresses written somewhere in a text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the emails out of this: contact ana@example.com or sales@shop.co.uk\" \u2192 {\"text\":\"contact ana@example.com or sales@shop.co.uk\"}",
+    "extractUrls \u2014 List the web addresses appearing in a block of text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the links from: see https://example.com/docs and www.other.org\" \u2192 {\"text\":\"see https://example.com/docs and www.other.org\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractHeadings",
+    "generateTableOfContents"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractHeadings \u2014 Pull the heading structure out of a markdown document as a plain outline.\n  needs: markdown: string\n  e.g. \"get the headings out of this markdown\" \u2192 {\"markdown\":\"# Title\\n\\nSome text.\\n\\n## Section one\\n\\n## Section two\"}",
+    "generateTableOfContents \u2014 Build a linked table of contents to sit at the top of a document.\n  needs: markdown: string\n  optional: maxLevel: integer, numbered: boolean\n  e.g. \"make a table of contents for this markdown\" \u2192 {\"markdown\":\"# Title\\n\\nSome text.\\n\\n## First part\\n\\n## Second part\\n\\n### A detail\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "markdown"
+     ],
+     "properties": {
+      "markdown": {
+       "type": "string",
+       "label": "markdown",
+       "minLength": 1,
+       "prompt": "Which markdown should I read?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "markdown"
+     ],
+     "properties": {
+      "markdown": {
+       "type": "string",
+       "label": "markdown",
+       "minLength": 1,
+       "maxLength": 200000,
+       "prompt": "Which Markdown should I build a contents list from?"
+      },
+      "maxLevel": {
+       "type": "integer",
+       "label": "deepest heading level",
+       "minimum": 1,
+       "maximum": 6,
+       "default": 3
+      },
+      "numbered": {
+       "type": "boolean",
+       "label": "numbered",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractMentions",
+    "extractTimes"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractMentions \u2014 Gather the @handles somebody was tagged as.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"who is mentioned in this post\" \u2192 {\"text\":\"thanks @ana and @bo for the help\"}",
+    "extractTimes \u2014 Pull every clock time out of a text and give each in 24-hour form.\n  needs: text: string\n  e.g. \"get the times from this message\" \u2192 {\"text\":\"the meeting is 9:30am and lunch at 1pm\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractNumbers",
+    "sum"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractNumbers \u2014 Take the plain figures out of a text, thousands separators and decimals handled.\n  needs: text: string\n  e.g. \"get the numbers from: we sold 1,250 units at \u00a33.99 each\" \u2192 {\"text\":\"we sold 1,250 units at \u00a33.99 each\"}",
+    "sum \u2014 Add a list of numbers up to one final total.\n  needs: values: array\n  e.g. \"add up 1250, 3400 and 890\" \u2192 {\"values\":[1250,3400,890]}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "values"
+     ],
+     "properties": {
+      "values": {
+       "type": "array",
+       "label": "numbers",
+       "items": {
+        "type": "number"
+       },
+       "minItems": 1,
+       "prompt": "Which numbers should I add up?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractTimes",
+    "listTimezoneOffsets"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractTimes \u2014 Pull every clock time out of a text and give each in 24-hour form.\n  needs: text: string\n  e.g. \"get the times from this message\" \u2192 {\"text\":\"the meeting is 9:30am and lunch at 1pm\"}",
+    "listTimezoneOffsets \u2014 Show the local time and UTC offset in several time zones at once.\n  needs: zones: array\n  optional: at: string\n  e.g. \"show the time in London Tokyo and New York\" \u2192 {\"zones\":[\"Europe/London\",\"Asia/Tokyo\",\"America/New_York\"]}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "zones"
+     ],
+     "properties": {
+      "zones": {
+       "type": "array",
+       "label": "time zones",
+       "minItems": 1,
+       "maxItems": 25,
+       "items": {
+        "type": "string"
+       },
+       "prompt": "Which time zones should I list?"
+      },
+      "at": {
+       "type": "string",
+       "label": "timestamp",
+       "description": "an ISO timestamp to ask about instead of now"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractUrls",
+    "validateUrl"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "extractUrls \u2014 List the web addresses appearing in a block of text.\n  needs: text: string\n  optional: unique: boolean\n  e.g. \"get the links from: see https://example.com/docs and www.other.org\" \u2192 {\"text\":\"see https://example.com/docs and www.other.org\"}",
+    "validateUrl \u2014 Say whether a web address is well formed, and split out its host and path.\n  needs: url: string\n  e.g. \"is https://example.com/docs a valid url\" \u2192 {\"url\":\"https://example.com/docs\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "url"
+     ],
+     "properties": {
+      "url": {
+       "type": "string",
+       "label": "url",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "filterRows",
+    "sortRows"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "filterRows \u2014 Drop the rows of a table that fail a condition.\n  needs: table: object, column: string, operator: string, value: undefined\n  e.g. \"keep only rows where amount is over 100\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80}]},\"column\":\"amount\",\"operator\":\">\",\"value\":100}",
+    "sortRows \u2014 Reorder the rows of a table by a column, changing nothing else.\n  needs: table: object, column: string\n  optional: direction: string, then: string\n  e.g. \"sort by amount, biggest first\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80},{\"name\":\"Cy\",\"amount\":200}]},\"column\":\"amount\",\"direction\":\"descending\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "table",
+      "column",
+      "operator",
+      "value"
+     ],
+     "properties": {
+      "table": {
+       "type": "object",
+       "label": "table",
+       "prompt": "Which table should I filter?"
+      },
+      "column": {
+       "type": "string",
+       "label": "column",
+       "prompt": "Which column should I filter on?"
+      },
+      "operator": {
+       "type": "string",
+       "label": "comparison",
+       "enum": [
+        "=",
+        "!=",
+        ">",
+        ">=",
+        "<",
+        "<=",
+        "contains",
+        "starts with"
+       ],
+       "prompt": "Which comparison? (=, !=, >, >=, <, <=, contains, starts with)"
+      },
+      "value": {
+       "label": "compare to",
+       "prompt": "What should I compare it to?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "table",
+      "column"
+     ],
+     "properties": {
+      "table": {
+       "type": "object",
+       "label": "table",
+       "prompt": "Which table should I sort?"
+      },
+      "column": {
+       "type": "string",
+       "label": "sort by column",
+       "prompt": "Which column should I sort by?"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "then": {
+       "type": "string",
+       "label": "then by column",
+       "description": "a second column, used to break ties"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "findLongSentences",
+    "findRepeatedWords"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "findLongSentences \u2014 Spot the sentences that run on past a word limit.\n  needs: text: string\n  optional: threshold: integer\n  e.g. \"find the long sentences in this\" \u2192 {\"text\":\"This is short. This sentence, on the other hand, goes on for a considerable length and contains a great many words indeed.\",\"threshold\":15}",
+    "findRepeatedWords \u2014 Spot a word used again too soon after itself.\n  needs: text: string\n  optional: window: integer, minLength: integer\n  e.g. \"find repeated words in this text\" \u2192 {\"text\":\"The report says the report is late because the report was delayed.\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I check?"
+      },
+      "threshold": {
+       "type": "integer",
+       "label": "max words per sentence",
+       "minimum": 5,
+       "maximum": 200,
+       "default": 25
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I check?"
+      },
+      "window": {
+       "type": "integer",
+       "label": "max words apart",
+       "minimum": 2,
+       "maximum": 500,
+       "default": 50,
+       "description": "how close two uses have to be to count as a repeat"
+      },
+      "minLength": {
+       "type": "integer",
+       "label": "min word length",
+       "minimum": 1,
+       "maximum": 20,
+       "default": 4
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "findLongestWord",
+    "wordFrequency"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "findLongestWord \u2014 Find the longest word in a text \u2014 the biggest word, and any that tie with it.\n  needs: text: string\n  optional: top: integer\n  e.g. \"what is the longest word in this sentence\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\"}",
+    "wordFrequency \u2014 Which words repeat most in a text \u2014 each distinct word ranked by how often it recurs.\n  needs: text: string\n  optional: limit: integer, removeStopWords: boolean\n  e.g. \"what words come up most in this text\" \u2192 {\"text\":\"the cat sat on the mat the cat purred\",\"limit\":2}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I search?"
+      },
+      "top": {
+       "type": "integer",
+       "label": "how many words",
+       "minimum": 1,
+       "maximum": 20,
+       "default": 1
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I count?"
+      },
+      "limit": {
+       "type": "integer",
+       "label": "how many words",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 5
+      },
+      "removeStopWords": {
+       "type": "boolean",
+       "label": "skip stop words",
+       "default": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateRandomString",
+    "generateUuid"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "generateRandomString \u2014 Generate a random string of a given length from a character set you choose.\n  optional: length: integer, charset: string\n  e.g. \"generate a random string\" \u2192 {}",
+    "generateUuid \u2014 Generate a UUID \u2014 a GUID, a v4 random identifier \u2014 one or several.\n  optional: count: integer, uppercase: boolean\n  e.g. \"generate a uuid\" \u2192 {}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "properties": {
+      "length": {
+       "type": "integer",
+       "label": "length",
+       "minimum": 1,
+       "maximum": 512,
+       "default": 16
+      },
+      "charset": {
+       "type": "string",
+       "label": "character set",
+       "enum": [
+        "alphanumeric",
+        "letters",
+        "digits",
+        "hex",
+        "unambiguous",
+        "symbols"
+       ],
+       "default": "alphanumeric"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "properties": {
+      "count": {
+       "type": "integer",
+       "label": "how many",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 1
+      },
+      "uppercase": {
+       "type": "boolean",
+       "label": "uppercase",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateSchedule",
+    "timeBlockSchedule"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "generateSchedule \u2014 Divide a stretch of time into even slots, with optional breaks between them.\n  needs: start: string, end: string\n  optional: slots: integer, slotMinutes: integer, breakMinutes: integer\n  e.g. \"split 9am to noon into three slots\" \u2192 {\"start\":\"09:00\",\"end\":\"12:00\",\"slots\":3}",
+    "timeBlockSchedule \u2014 Lay tasks out as time blocks through the day, with breaks between them.\n  needs: tasks: array, start: string\n  optional: breakMinutes: integer\n  e.g. \"block out my morning\" \u2192 {\"tasks\":[{\"task\":\"writing\",\"minutes\":90},{\"task\":\"email\",\"minutes\":30},{\"task\":\"review\",\"minutes\":60}],\"start\":\"09:00\",\"breakMinutes\":15}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "start",
+      "end"
+     ],
+     "properties": {
+      "start": {
+       "type": "string",
+       "label": "start time",
+       "prompt": "What time does it start?"
+      },
+      "end": {
+       "type": "string",
+       "label": "end time",
+       "prompt": "What time does it end?"
+      },
+      "slots": {
+       "type": "integer",
+       "label": "number of slots",
+       "minimum": 1,
+       "maximum": 100,
+       "description": "how many slots to divide the time into"
+      },
+      "slotMinutes": {
+       "type": "integer",
+       "label": "slot length (minutes)",
+       "minimum": 1,
+       "maximum": 1440,
+       "description": "how long each slot should be"
+      },
+      "breakMinutes": {
+       "type": "integer",
+       "label": "break (minutes)",
+       "minimum": 0,
+       "maximum": 240,
+       "default": 0
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "tasks",
+      "start"
+     ],
+     "properties": {
+      "tasks": {
+       "type": "array",
+       "label": "tasks",
+       "minItems": 1,
+       "maxItems": 50,
+       "prompt": "Which tasks, and how long does each take?"
+      },
+      "start": {
+       "type": "string",
+       "label": "start time",
+       "prompt": "What time do you start?"
+      },
+      "breakMinutes": {
+       "type": "integer",
+       "label": "break (minutes)",
+       "minimum": 0,
+       "maximum": 240,
+       "default": 0
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateUuid",
+    "validateUuid"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "generateUuid \u2014 Generate a UUID \u2014 a GUID, a v4 random identifier \u2014 one or several.\n  optional: count: integer, uppercase: boolean\n  e.g. \"generate a uuid\" \u2192 {}",
+    "validateUuid \u2014 Test a UUID and say which version it is.\n  needs: uuid: string\n  e.g. \"is this a valid uuid\" \u2192 {\"uuid\":\"550e8400-e29b-41d4-a716-446655440000\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "properties": {
+      "count": {
+       "type": "integer",
+       "label": "how many",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 1
+      },
+      "uppercase": {
+       "type": "boolean",
+       "label": "uppercase",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "uuid"
+     ],
+     "properties": {
+      "uuid": {
+       "type": "string",
+       "label": "uuid",
+       "minLength": 1,
+       "prompt": "Which UUID should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "hexDecode",
+    "morseDecode"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "hexDecode \u2014 Read hex byte values back as the characters they stand for.\n  needs: hex: string\n  e.g. \"decode 506967656f6e\" \u2192 {\"hex\":\"506967656f6e\"}",
+    "morseDecode \u2014 Read dots and dashes back as the words they spell.\n  needs: morse: string\n  e.g. \"decode ... --- ...\" \u2192 {\"morse\":\"... --- ...\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "hex"
+     ],
+     "properties": {
+      "hex": {
+       "type": "string",
+       "label": "hex",
+       "minLength": 2,
+       "prompt": "Which hex should I decode?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "morse"
+     ],
+     "properties": {
+      "morse": {
+       "type": "string",
+       "label": "morse",
+       "minLength": 1,
+       "prompt": "Which Morse should I decode?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "removeDuplicateLines"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}",
+    "removeDuplicateLines \u2014 Remove repeated lines from a text, keeping the first time each one appeared.\n  needs: text: string\n  optional: ignoreCase: boolean, ignoreSpacing: boolean\n  e.g. \"remove the duplicate lines\" \u2192 {\"text\":\"apple\\nbanana\\napple\\ncherry\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I join?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "separator",
+       "default": ", "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": true
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each line",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I deduplicate?"
+      },
+      "ignoreCase": {
+       "type": "boolean",
+       "label": "ignore case",
+       "default": false
+      },
+      "ignoreSpacing": {
+       "type": "boolean",
+       "label": "ignore spacing",
+       "default": false,
+       "description": "treat lines differing only in spacing as the same"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "sortLines"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}",
+    "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I join?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "separator",
+       "default": ", "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": true
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each line",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "length"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "joinLines",
+    "trimLines"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "joinLines \u2014 Join the lines of a text into one line, separated by a delimiter you choose.\n  needs: text: string\n  optional: delimiter: string, skipBlank: boolean, trim: boolean\n  e.g. \"join these lines with commas\" \u2192 {\"text\":\"apple\\nbanana\\ncherry\"}",
+    "trimLines \u2014 Remove the leading and trailing spaces from every line of a text, leaving the lines themselves in place.\n  needs: text: string\n  optional: dropBlank: boolean\n  e.g. \"trim the spaces off each line\" \u2192 {\"text\":\"  one  \\n  two\\nthree   \"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I join?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "separator",
+       "default": ", "
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank lines",
+       "default": true
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each line",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "prompt": "Which text should I trim?"
+      },
+      "dropBlank": {
+       "type": "boolean",
+       "label": "drop blank lines",
+       "default": false,
+       "description": "also remove lines that end up empty"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "languageCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "languageCodeLookup \u2014 Look up what a two-letter language code stands for, or find the code for a language \u2014 ISO 639-1.\n  needs: query: string\n  e.g. \"what language is code ta\" \u2192 {\"query\":\"ta\"}",
+    "phoneRegionLookup \u2014 Find which country an international dialling code belongs to, or the code for a country.\n  needs: query: string\n  e.g. \"what country is +44\" \u2192 {\"query\":\"+44\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "language or code",
+       "minLength": 1,
+       "prompt": "Which language or code should I look up?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "dialling code or country",
+       "minLength": 1,
+       "prompt": "Which dialling code or country?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseCsv",
+    "parseMarkdownTable"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "parseCsv \u2014 Read CSV text into rows and columns, detecting the header line.\n  needs: text: string\n  optional: delimiter: string, hasHeader: boolean\n  e.g. \"parse this csv: name,amount\nAna,120\nBo,80\" \u2192 {\"text\":\"name,amount\\nAna,120\\nBo,80\"}",
+    "parseMarkdownTable \u2014 Read an existing markdown table back into rows of data.\n  needs: text: string\n  e.g. \"parse this markdown table\" \u2192 {\"text\":\"| name | age |\\n| --- | --- |\\n| Ana | 34 |\\n| Bo | 28 |\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "csv",
+       "minLength": 1,
+       "prompt": "Which CSV text should I read?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "delimiter",
+       "enum": [
+        ",",
+        ";",
+        "\t",
+        "|"
+       ],
+       "default": ","
+      },
+      "hasHeader": {
+       "type": "boolean",
+       "label": "has header row",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "markdown table",
+       "minLength": 1,
+       "prompt": "Which Markdown table should I parse?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseKeyValue",
+    "parseMarkdownTable"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "parseKeyValue \u2014 Read key/value or INI-style settings text into structured data.\n  needs: text: string\n  optional: separator: string\n  e.g. \"parse these key value pairs\" \u2192 {\"text\":\"a=1\\nb=2\"}",
+    "parseMarkdownTable \u2014 Read an existing markdown table back into rows of data.\n  needs: text: string\n  e.g. \"parse this markdown table\" \u2192 {\"text\":\"| name | age |\\n| --- | --- |\\n| Ana | 34 |\\n| Bo | 28 |\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which settings text should I read?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "description": "the character between key and value \u2014 = and : are both recognised by default"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "markdown table",
+       "minLength": 1,
+       "prompt": "Which Markdown table should I parse?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseKeyValue",
+    "validateJson"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "parseKeyValue \u2014 Read key/value or INI-style settings text into structured data.\n  needs: text: string\n  optional: separator: string\n  e.g. \"parse these key value pairs\" \u2192 {\"text\":\"a=1\\nb=2\"}",
+    "validateJson \u2014 Check whether some JSON parses, and say exactly where the error is if it does not.\n  needs: text: string\n  e.g. \"is this json valid: {\"a\":1}\" \u2192 {\"text\":\"{\\\"a\\\":1}\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which settings text should I read?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "description": "the character between key and value \u2014 = and : are both recognised by default"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "json",
+       "minLength": 1,
+       "prompt": "Which JSON should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseQueryString",
+    "urlEncode"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "parseQueryString \u2014 Break a link\u2019s ?key=value pairs apart and say what each holds.\n  needs: query: string\n  e.g. \"parse this query string\" \u2192 {\"query\":\"?name=Ana&age=34\"}",
+    "urlEncode \u2014 Percent-escape text so it survives inside a web address.\n  needs: text: string\n  optional: scope: string\n  e.g. \"url encode \"hello world\"\" \u2192 {\"text\":\"hello world\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "query"
+     ],
+     "properties": {
+      "query": {
+       "type": "string",
+       "label": "query string",
+       "minLength": 1,
+       "prompt": "Which query string or URL?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I encode?"
+      },
+      "scope": {
+       "type": "string",
+       "label": "whole url or part",
+       "enum": [
+        "component",
+        "full"
+       ],
+       "default": "component"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "parseSemver",
+    "splitEvenly"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "parseSemver \u2014 Split one version number into major, minor, patch and pre-release.\n  needs: version: string\n  e.g. \"break down version 2.11.5\" \u2192 {\"version\":\"2.11.5\"}",
+    "splitEvenly \u2014 Split an amount into equal parts, assigning the leftover pennies so the parts add back up.\n  needs: amount: number, parts: integer\n  optional: decimals: integer\n  e.g. \"split 100 three ways\" \u2192 {\"amount\":100,\"parts\":3}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "version"
+     ],
+     "properties": {
+      "version": {
+       "type": "string",
+       "label": "version",
+       "minLength": 1,
+       "prompt": "Which version number?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "amount",
+      "parts"
+     ],
+     "properties": {
+      "amount": {
+       "type": "number",
+       "label": "amount",
+       "carry": true,
+       "prompt": "What amount should I split?"
+      },
+      "parts": {
+       "type": "integer",
+       "label": "parts",
+       "minimum": 1,
+       "prompt": "Into how many parts?"
+      },
+      "decimals": {
+       "type": "integer",
+       "label": "decimal places",
+       "minimum": 0,
+       "maximum": 6,
+       "default": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pickRandom",
+    "randomNumber"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "pickRandom \u2014 Pick one or more items at random from a list, from a seed so the pick can be repeated.\n  needs: items: array, seed: integer\n  optional: count: integer, allowRepeats: boolean\n  e.g. \"pick one of these at random with seed 7\" \u2192 {\"items\":[\"tea\",\"coffee\",\"water\"],\"seed\":7}",
+    "randomNumber \u2014 Pick a random number in a range, from a seed so the same draw can be repeated.\n  needs: min: number, max: number, seed: integer\n  optional: count: integer, whole: boolean, unique: boolean\n  e.g. \"pick a number between 1 and 100 with seed 7\" \u2192 {\"min\":1,\"max\":100,\"seed\":7}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "items",
+      "seed"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 1,
+       "prompt": "Which list should I pick from?"
+      },
+      "seed": {
+       "type": "integer",
+       "label": "repeatable seed",
+       "minimum": 0,
+       "prompt": "Which seed? Any whole number \u2014 the same seed always picks the same thing."
+      },
+      "count": {
+       "type": "integer",
+       "label": "how many",
+       "minimum": 1,
+       "maximum": 1000,
+       "default": 1
+      },
+      "allowRepeats": {
+       "type": "boolean",
+       "label": "allow repeats",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "min",
+      "max",
+      "seed"
+     ],
+     "properties": {
+      "min": {
+       "type": "number",
+       "label": "lowest",
+       "prompt": "What is the lowest it can be?"
+      },
+      "max": {
+       "type": "number",
+       "label": "highest",
+       "prompt": "What is the highest it can be?"
+      },
+      "seed": {
+       "type": "integer",
+       "label": "repeatable seed",
+       "minimum": 0,
+       "prompt": "Which seed? Any whole number \u2014 the same seed always gives the same numbers."
+      },
+      "count": {
+       "type": "integer",
+       "label": "how many",
+       "minimum": 1,
+       "maximum": 1000,
+       "default": 1
+      },
+      "whole": {
+       "type": "boolean",
+       "label": "whole numbers only",
+       "default": true
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "no repeats",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pluralize",
+    "singularize"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "pluralize \u2014 Make one English word into many \u2014 its plural.\n  needs: word: string\n  optional: count: integer\n  e.g. \"what is the plural of child\" \u2192 {\"word\":\"child\"}",
+    "singularize \u2014 Cut a plural English word back to one of the thing.\n  needs: word: string\n  e.g. \"what is the singular of children\" \u2192 {\"word\":\"children\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "word"
+     ],
+     "properties": {
+      "word": {
+       "type": "string",
+       "label": "word",
+       "minLength": 1,
+       "maxLength": 60,
+       "prompt": "Which word should I make plural?"
+      },
+      "count": {
+       "type": "integer",
+       "label": "count",
+       "description": "pick the form that agrees with this number"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "word"
+     ],
+     "properties": {
+      "word": {
+       "type": "string",
+       "label": "word",
+       "minLength": 1,
+       "maxLength": 60,
+       "prompt": "Which word should I make singular?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "prioritizeTasks",
+    "sortLines"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "prioritizeTasks \u2014 Rank tasks by importance, urgency and how much effort they take.\n  needs: tasks: array\n  e.g. \"prioritise these tasks\" \u2192 {\"tasks\":[{\"task\":\"file taxes\",\"importance\":5,\"urgency\":5,\"effort\":3},{\"task\":\"tidy desk\",\"importance\":1,\"urgency\":2,\"effort\":1},{\"task\":\"write report\",\"importance\":4,\"urgency\":3,\"effort\":2},{\"task\":\"reply to email\",\"importance\":2,\"urgency\":5,\"effort\":1}]}",
+    "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "tasks"
+     ],
+     "properties": {
+      "tasks": {
+       "type": "array",
+       "label": "tasks",
+       "minItems": 1,
+       "maxItems": 200,
+       "prompt": "What are the tasks, with their importance, urgency and effort?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "length"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "singularize",
+    "stemWords"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "singularize \u2014 Cut a plural English word back to one of the thing.\n  needs: word: string\n  e.g. \"what is the singular of children\" \u2192 {\"word\":\"children\"}",
+    "stemWords \u2014 Reduce words to their stems so different forms of the same word group together.\n  needs: text: string\n  e.g. \"stem running runs and runner\" \u2192 {\"text\":\"running runs runner\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "word"
+     ],
+     "properties": {
+      "word": {
+       "type": "string",
+       "label": "word",
+       "minLength": 1,
+       "maxLength": 60,
+       "prompt": "Which word should I make singular?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which words should I stem?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "sortLines",
+    "sortList"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}",
+    "sortList \u2014 Put a list of items in order \u2014 alphabetically, numerically, or in natural order where numbers inside names count.\n  needs: items: array\n  optional: by: string, direction: string\n  e.g. \"sort this list alphabetically\" \u2192 {\"items\":[\"cherry\",\"apple\",\"banana\"]}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which lines should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "length"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "caseSensitive": {
+       "type": "boolean",
+       "label": "match case",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "items"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 1,
+       "prompt": "Which list should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "natural"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "sortList",
+    "sortRows"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "sortList \u2014 Put a list of items in order \u2014 alphabetically, numerically, or in natural order where numbers inside names count.\n  needs: items: array\n  optional: by: string, direction: string\n  e.g. \"sort this list alphabetically\" \u2192 {\"items\":[\"cherry\",\"apple\",\"banana\"]}",
+    "sortRows \u2014 Reorder the rows of a table by a column, changing nothing else.\n  needs: table: object, column: string\n  optional: direction: string, then: string\n  e.g. \"sort by amount, biggest first\" \u2192 {\"table\":{\"headers\":[\"name\",\"amount\"],\"rows\":[{\"name\":\"Ana\",\"amount\":120},{\"name\":\"Bo\",\"amount\":80},{\"name\":\"Cy\",\"amount\":200}]},\"column\":\"amount\",\"direction\":\"descending\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "items"
+     ],
+     "properties": {
+      "items": {
+       "type": "array",
+       "label": "list",
+       "minItems": 1,
+       "prompt": "Which list should I sort?"
+      },
+      "by": {
+       "type": "string",
+       "label": "sort by",
+       "enum": [
+        "alphabetical",
+        "numeric",
+        "natural"
+       ],
+       "default": "alphabetical"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "table",
+      "column"
+     ],
+     "properties": {
+      "table": {
+       "type": "object",
+       "label": "table",
+       "prompt": "Which table should I sort?"
+      },
+      "column": {
+       "type": "string",
+       "label": "sort by column",
+       "prompt": "Which column should I sort by?"
+      },
+      "direction": {
+       "type": "string",
+       "label": "order",
+       "enum": [
+        "ascending",
+        "descending"
+       ],
+       "default": "ascending"
+      },
+      "then": {
+       "type": "string",
+       "label": "then by column",
+       "description": "a second column, used to break ties"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "splitLines",
+    "wrapText"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "splitLines \u2014 Split one line into separate lines wherever a delimiter appears.\n  needs: text: string\n  optional: delimiter: string, trim: boolean, skipBlank: boolean\n  e.g. \"split this comma separated list onto lines\" \u2192 {\"text\":\"apple, banana, cherry\"}",
+    "wrapText \u2014 Hard-wrap text to a maximum line width, breaking lines at a set number of characters.\n  needs: text: string\n  optional: width: integer, indent: string\n  e.g. \"wrap this at 20 characters\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\",\"width\":20}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I split?"
+      },
+      "delimiter": {
+       "type": "string",
+       "label": "split on",
+       "default": ",",
+       "minLength": 1
+      },
+      "trim": {
+       "type": "boolean",
+       "label": "trim each piece",
+       "default": true
+      },
+      "skipBlank": {
+       "type": "boolean",
+       "label": "skip blank pieces",
+       "default": true
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I wrap?"
+      },
+      "width": {
+       "type": "integer",
+       "label": "line width",
+       "minimum": 10,
+       "maximum": 400,
+       "default": 72
+      },
+      "indent": {
+       "type": "string",
+       "label": "indent",
+       "default": ""
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "tokenizeSentences",
+    "tokenizeWords"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "tokenizeSentences \u2014 Break a passage at its full stops into separate sentences.\n  needs: text: string\n  e.g. \"split this into sentences\" \u2192 {\"text\":\"Hello there. How are you? I am well.\"}",
+    "tokenizeWords \u2014 Break a sentence at its spaces into separate words.\n  needs: text: string\n  optional: lowercase: boolean, unique: boolean\n  e.g. \"split this into words\" \u2192 {\"text\":\"The quick brown fox\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I split?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I split?"
+      },
+      "lowercase": {
+       "type": "boolean",
+       "label": "lowercase",
+       "default": false
+      },
+      "unique": {
+       "type": "boolean",
+       "label": "remove duplicates",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validateIpAddress"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "validateEmail \u2014 Say whether an email address is written correctly.\n  needs: email: string\n  e.g. \"is ana@example.com a valid email\" \u2192 {\"email\":\"ana@example.com\"}",
+    "validateIpAddress \u2014 Test an IP address and say whether it is IPv4, IPv6 or neither.\n  needs: address: string\n  e.g. \"is 192.168.1.1 a valid ip\" \u2192 {\"address\":\"192.168.1.1\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "email"
+     ],
+     "properties": {
+      "email": {
+       "type": "string",
+       "label": "email address",
+       "minLength": 1,
+       "prompt": "Which email address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "address"
+     ],
+     "properties": {
+      "address": {
+       "type": "string",
+       "label": "ip address",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validatePhoneNumber"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "validateEmail \u2014 Say whether an email address is written correctly.\n  needs: email: string\n  e.g. \"is ana@example.com a valid email\" \u2192 {\"email\":\"ana@example.com\"}",
+    "validatePhoneNumber \u2014 Say whether a phone number has the right shape for its country.\n  needs: number: string\n  optional: region: string\n  e.g. \"is this a valid phone number\" \u2192 {\"number\":\"+44 20 7946 0958\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "email"
+     ],
+     "properties": {
+      "email": {
+       "type": "string",
+       "label": "email address",
+       "minLength": 1,
+       "prompt": "Which email address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "number"
+     ],
+     "properties": {
+      "number": {
+       "type": "string",
+       "label": "phone number",
+       "minLength": 1,
+       "prompt": "Which phone number should I check?"
+      },
+      "region": {
+       "type": "string",
+       "label": "default dialling code",
+       "description": "the dialling code to assume when the number has no + prefix"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateEmail",
+    "validateUrl"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "validateEmail \u2014 Say whether an email address is written correctly.\n  needs: email: string\n  e.g. \"is ana@example.com a valid email\" \u2192 {\"email\":\"ana@example.com\"}",
+    "validateUrl \u2014 Say whether a web address is well formed, and split out its host and path.\n  needs: url: string\n  e.g. \"is https://example.com/docs a valid url\" \u2192 {\"url\":\"https://example.com/docs\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "email"
+     ],
+     "properties": {
+      "email": {
+       "type": "string",
+       "label": "email address",
+       "minLength": 1,
+       "prompt": "Which email address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "url"
+     ],
+     "properties": {
+      "url": {
+       "type": "string",
+       "label": "url",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIban",
+    "validateLuhn"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "validateIban \u2014 Test an IBAN bank number against its own checksum.\n  needs: iban: string\n  e.g. \"is this iban valid\" \u2192 {\"iban\":\"GB82 WEST 1234 5698 7654 32\"}",
+    "validateLuhn \u2014 Check a card number against the Luhn checksum.\n  needs: number: string\n  e.g. \"is 4539578763621486 a valid card number\" \u2192 {\"number\":\"4539578763621486\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "iban"
+     ],
+     "properties": {
+      "iban": {
+       "type": "string",
+       "label": "iban",
+       "minLength": 1,
+       "prompt": "Which IBAN should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "number"
+     ],
+     "properties": {
+      "number": {
+       "type": "string",
+       "label": "number",
+       "minLength": 2,
+       "prompt": "Which number should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validatePhoneNumber"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "validateIpAddress \u2014 Test an IP address and say whether it is IPv4, IPv6 or neither.\n  needs: address: string\n  e.g. \"is 192.168.1.1 a valid ip\" \u2192 {\"address\":\"192.168.1.1\"}",
+    "validatePhoneNumber \u2014 Say whether a phone number has the right shape for its country.\n  needs: number: string\n  optional: region: string\n  e.g. \"is this a valid phone number\" \u2192 {\"number\":\"+44 20 7946 0958\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "address"
+     ],
+     "properties": {
+      "address": {
+       "type": "string",
+       "label": "ip address",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "number"
+     ],
+     "properties": {
+      "number": {
+       "type": "string",
+       "label": "phone number",
+       "minLength": 1,
+       "prompt": "Which phone number should I check?"
+      },
+      "region": {
+       "type": "string",
+       "label": "default dialling code",
+       "description": "the dialling code to assume when the number has no + prefix"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validateUrl"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "validateIpAddress \u2014 Test an IP address and say whether it is IPv4, IPv6 or neither.\n  needs: address: string\n  e.g. \"is 192.168.1.1 a valid ip\" \u2192 {\"address\":\"192.168.1.1\"}",
+    "validateUrl \u2014 Say whether a web address is well formed, and split out its host and path.\n  needs: url: string\n  e.g. \"is https://example.com/docs a valid url\" \u2192 {\"url\":\"https://example.com/docs\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "address"
+     ],
+     "properties": {
+      "address": {
+       "type": "string",
+       "label": "ip address",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "url"
+     ],
+     "properties": {
+      "url": {
+       "type": "string",
+       "label": "url",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIpAddress",
+    "validateUuid"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "validateIpAddress \u2014 Test an IP address and say whether it is IPv4, IPv6 or neither.\n  needs: address: string\n  e.g. \"is 192.168.1.1 a valid ip\" \u2192 {\"address\":\"192.168.1.1\"}",
+    "validateUuid \u2014 Test a UUID and say which version it is.\n  needs: uuid: string\n  e.g. \"is this a valid uuid\" \u2192 {\"uuid\":\"550e8400-e29b-41d4-a716-446655440000\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "address"
+     ],
+     "properties": {
+      "address": {
+       "type": "string",
+       "label": "ip address",
+       "minLength": 1,
+       "prompt": "Which address should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "uuid"
+     ],
+     "properties": {
+      "uuid": {
+       "type": "string",
+       "label": "uuid",
+       "minLength": 1,
+       "prompt": "Which UUID should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "validateIsbn",
+    "validateLuhn"
+   ],
+   "minimal_pairs": 2,
+   "cards": [
+    "validateIsbn \u2014 Check an ISBN-10 or ISBN-13 book number against its check digit.\n  needs: isbn: string\n  e.g. \"is 9780306406157 a valid isbn\" \u2192 {\"isbn\":\"9780306406157\"}",
+    "validateLuhn \u2014 Check a card number against the Luhn checksum.\n  needs: number: string\n  e.g. \"is 4539578763621486 a valid card number\" \u2192 {\"number\":\"4539578763621486\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "isbn"
+     ],
+     "properties": {
+      "isbn": {
+       "type": "string",
+       "label": "isbn",
+       "minLength": 9,
+       "prompt": "Which ISBN should I check?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "number"
+     ],
+     "properties": {
+      "number": {
+       "type": "string",
+       "label": "number",
+       "minLength": 2,
+       "prompt": "Which number should I check?"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

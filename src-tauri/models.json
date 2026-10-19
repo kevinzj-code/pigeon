@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "llama_cpp": {
+    "build": "961e4b2",
+    "spdx": "MIT",
+    "notice": "llama.cpp-MIT.txt"
+  },
+  "models": [
+    {
+      "id": "category",
+      "role": "category",
+      "name": "Qwen3-VL 2B Instruct",
+      "quant": "Q4_K_M",
+      "file": "Qwen3VL-2B-Instruct-Q4_K_M.gguf",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF/resolve/52d6c8ffea26cc873ac5ad116f8631268d7eb503/Qwen3VL-2B-Instruct-Q4_K_M.gguf",
+      "bytes": 1107409952,
+      "sha256": "089d75c52f4b7ffc56ba998ffc50aae89fcafc755f9e7208aacca281dca6c2ae",
+      "resident_mb": 2150,
+      "licence": {
+        "spdx": "Apache-2.0",
+        "holder": "Qwen team, Alibaba Cloud",
+        "notice": "Qwen-Apache-2.0.txt"
+      },
+      "adapter": {
+        "note": "describes the adapter in the bundled Patch pack only; the pack's own models.category.adapter_sha256 is the authority",
+        "file": "pigeon-category.lora.gguf",
+        "bytes": 34892416,
+        "sha256": "ed667c493b8f411dc892be44c928492f915de57c8ad4ce6d8381cf7efbc5315c"
+      },
+      "tasks": [
+        {
+          "file": "transcript-clean.lora.gguf",
+          "bytes": 19938880,
+          "sha256": "3ccc4d6ecbd51e1f4d57efc8d60abb3dd837801e43245f7f14060ae88abeb635"
+        }
+      ]
+    }
+  ],
+  "picture": {
+    "id": "picture",
+    "name": "Qwen3-VL 2B Instruct",
+    "quant": "Q4_K_M",
+    "file": "Qwen3VL-2B-Instruct-Q4_K_M.gguf",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF/resolve/52d6c8ffea26cc873ac5ad116f8631268d7eb503/Qwen3VL-2B-Instruct-Q4_K_M.gguf",
+    "bytes": 1107409952,
+    "sha256": "089d75c52f4b7ffc56ba998ffc50aae89fcafc755f9e7208aacca281dca6c2ae",
+    "resident_mb": 2150,
+    "licence": {
+      "spdx": "Apache-2.0",
+      "holder": "Qwen team, Alibaba Cloud",
+      "notice": "Qwen-Apache-2.0.txt"
+    },
+    "projector": {
+      "file": "mmproj-Qwen3VL-2B-Instruct-Q8_0.gguf",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF/resolve/52d6c8ffea26cc873ac5ad116f8631268d7eb503/mmproj-Qwen3VL-2B-Instruct-Q8_0.gguf",
+      "bytes": 445053216,
+      "sha256": "f9a68fabba69c3b81e153367b2c7521030b0fa8bb0de400c9599c8e6725f9c82"
+    }
+  },
+  "embedding": {
+    "id": "embedding",
+    "name": "nomic-embed-text v1.5",
+    "quant": "Q8_0",
+    "file": "nomic-embed-text-v1.5.Q8_0.gguf",
+    "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5-GGUF/resolve/main/nomic-embed-text-v1.5.Q8_0.gguf",
+    "bytes": 146146432,
+    "sha256": "3e24342164b3d94991ba9692fdc0dd08e3fd7362e0aacc396a9a5c54a544c3b7",
+    "resident_mb": 250,
+    "licence": {
+      "spdx": "Apache-2.0",
+      "holder": "Nomic AI",
+      "notice": "Nomic-Apache-2.0.txt"
+    },
+    "dims": 768,
+    "pooling": "mean",
+    "document_prefix": "search_document: ",
+    "query_prefix": "search_query: "
+  }
+}

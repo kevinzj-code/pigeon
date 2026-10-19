@@ -1,0 +1,7325 @@
+{
+ "rows": [
+  {
+   "skill": "checkTitleCase",
+   "message": "check the title case of my blog headline: why every gardener needs a compost bin",
+   "input": {
+    "text": "why every gardener needs a compost bin"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "Is 'The Art Of War In The Modern Office' correct title case?",
+   "input": {
+    "text": "The Art Of War In The Modern Office"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "does my chapter heading follow title case rules? a night at the harbour",
+   "input": {
+    "text": "a night at the harbour"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "title-case check: return of the forgotten king",
+   "input": {
+    "text": "return of the forgotten king"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "I'm marking essays and one student titled theirs 'the causes Of the first world war'. Which words are wrong under title case?",
+   "input": {
+    "text": "the causes Of the first world war"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "capitalisation rules check please: How To Bake Bread Without A Recipe",
+   "input": {
+    "text": "How To Bake Bread Without A Recipe"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "my podcast episode is called 'ten things nobody tells you about retirement' - is the capitalization ok for a title?",
+   "input": {
+    "text": "ten things nobody tells you about retirement"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "which words in \"Strategies for Managing Remote Teams\" break title case",
+   "input": {
+    "text": "Strategies for Managing Remote Teams"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "headline title case check: Local Bakery Wins National award",
+   "input": {
+    "text": "Local Bakery Wins National award"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "need proper title capitals on the menu heading 'sunday roast and all the trimmings'",
+   "input": {
+    "text": "sunday roast and all the trimmings"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "Proofread the capitals in this song title for me: dancing in the kitchen at midnight",
+   "input": {
+    "text": "dancing in the kitchen at midnight"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "Should 'Of' be capitalised in 'Pride Of The Valley'? Check the whole title.",
+   "input": {
+    "text": "Pride Of The Valley"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "is 'A Beginners Guide to Sourdough' properly title cased",
+   "input": {
+    "text": "A Beginners Guide to Sourdough"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "Report heading, quarterly sales review for the north region. Does it meet title case?",
+   "input": {
+    "text": "quarterly sales review for the north region"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "game guide section header 'Defeating The Final Boss Without Magic' - are the capitals right by title case rules?",
+   "input": {
+    "text": "Defeating The Final Boss Without Magic"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "Could you tell me whether my slide title, \"Our Plans for the Year Ahead\", uses correct title capitalisation?",
+   "input": {
+    "text": "Our Plans for the Year Ahead"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "title case audit on the hobbit an unexpected journey",
+   "input": {
+    "text": "the hobbit an unexpected journey"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "quick one, is \"When the Rain Comes In\" capitalised properly as a title",
+   "input": {
+    "text": "When the Rain Comes In"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "is my essay title in proper title case?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "check the capitals in my newsletter headline against title case",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "which words in my chapter title shouldn't be capitalised",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "can you check this heading for title case errors",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "title capitalisation check on my book cover please",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "checkTitleCase",
+   "message": "my boss says my presentation title has capitalisation mistakes, can you check it against title case rules?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "My abstract has a 30 word target. Word count it and say how far off: We surveyed 200 nurses about night shifts. Most reported poor sleep and higher stress. Rotating schedules made it worse. We recommend fixed shifts where possible.",
+   "input": {
+    "text": "We surveyed 200 nurses about night shifts. Most reported poor sleep and higher stress. Rotating schedules made it worse. We recommend fixed shifts where possible.",
+    "target": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "target 50 words, how close is this bio? Sam is a primary school teacher from Leeds who loves hiking, baking and terrible puns. She has taught for twelve years and still gets excited about phonics.",
+   "input": {
+    "text": "Sam is a primary school teacher from Leeds who loves hiking, baking and terrible puns. She has taught for twelve years and still gets excited about phonics.",
+    "target": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "word count vs a target of 25: The meeting has moved to Thursday at 3pm. Please bring your laptops and the updated budget figures. Coffee will be provided.",
+   "input": {
+    "text": "The meeting has moved to Thursday at 3pm. Please bring your laptops and the updated budget figures. Coffee will be provided.",
+    "target": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "how close is my word count to the 40 word target? Handmade in Cornwall, our beeswax candles burn clean and slow. Each one is poured by hand in small batches.",
+   "input": {
+    "text": "Handmade in Cornwall, our beeswax candles burn clean and slow. Each one is poured by hand in small batches.",
+    "target": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "Measure this against a 20 word target with 5% tolerance: The library will close early on Friday for staff training. Normal hours resume on Saturday morning.",
+   "input": {
+    "text": "The library will close early on Friday for staff training. Normal hours resume on Saturday morning.",
+    "target": 20,
+    "tolerance": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "my teacher wants a 35 word summary, how far off is my word count? The story follows a young girl who finds a hidden door in her grandmother's house. Behind it is a garden that only appears at night. She must decide whether to stay.",
+   "input": {
+    "text": "The story follows a young girl who finds a hidden door in her grandmother's house. Behind it is a garden that only appears at night. She must decide whether to stay.",
+    "target": 35
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "Grant application box allows 45 words. Is my answer under, over or on target?\n\nOur community garden gives isolated older residents a reason to meet weekly. Volunteers grow vegetables that go to the local food bank, and we run free workshops for schools in the spring.",
+   "input": {
+    "text": "Our community garden gives isolated older residents a reason to meet weekly. Volunteers grow vegetables that go to the local food bank, and we run free workshops for schools in the spring.",
+    "target": 45
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "how many words short of 60 is this? Dear hiring manager, I am writing to apply for the junior developer role. I have built two web apps in my spare time and recently finished a coding bootcamp.",
+   "input": {
+    "text": "Dear hiring manager, I am writing to apply for the junior developer role. I have built two web apps in my spare time and recently finished a coding bootcamp.",
+    "target": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "Word count check, target 15 words give or take 20%: Sunday market haul with fresh figs and the best goat cheese in town.",
+   "input": {
+    "text": "Sunday market haul with fresh figs and the best goat cheese in town.",
+    "target": 15,
+    "tolerance": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "word count this paragraph against a 70 word target:\nPatients should fast for eight hours before the procedure. Water is allowed up to two hours beforehand. Please arrive thirty minutes early to complete paperwork and bring a list of current medications. A friend or relative must drive you home afterwards, as sedation affects reaction times for the rest of the day.",
+   "input": {
+    "text": "Patients should fast for eight hours before the procedure. Water is allowed up to two hours beforehand. Please arrive thirty minutes early to complete paperwork and bring a list of current medications. A friend or relative must drive you home afterwards, as sedation affects reaction times for the rest of the day.",
+    "target": 70
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "Wedding speech opening: target is 55 words. Is my count close? \"Good evening everyone. For those who don't know me, I'm Emma's little brother, which means I have twenty five years of embarrassing stories. Don't worry, I'll only tell three.\"",
+   "input": {
+    "text": "Good evening everyone. For those who don't know me, I'm Emma's little brother, which means I have twenty five years of embarrassing stories. Don't worry, I'll only tell three.",
+    "target": 55
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "Within 10 percent of a 28 word count target? Text: Our shop will be closed on Monday for stocktaking. Online orders placed over the weekend will ship on Tuesday. Thank you for your patience.",
+   "input": {
+    "text": "Our shop will be closed on Monday for stocktaking. Online orders placed over the weekend will ship on Tuesday. Thank you for your patience.",
+    "target": 28,
+    "tolerance": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "word count target 12, does this hit it? \"Quick reminder: rent is due on the first of every month.\"",
+   "input": {
+    "text": "Quick reminder: rent is due on the first of every month.",
+    "target": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "Assignment brief says 90 words for the reflection. Where am I at?\nThis week I learned how to take a blood pressure reading properly. At first I kept placing the cuff too low, which gave high readings. My mentor showed me how to find the brachial artery first. By Friday I could do it confidently on my own.",
+   "input": {
+    "text": "This week I learned how to take a blood pressure reading properly. At first I kept placing the cuff too low, which gave high readings. My mentor showed me how to find the brachial artery first. By Friday I could do it confidently on my own.",
+    "target": 90
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "game review word target is 33. how far over or under am I? Gorgeous art and a great soundtrack, but the second half drags. Boss fights are clever.",
+   "input": {
+    "text": "Gorgeous art and a great soundtrack, but the second half drags. Boss fights are clever.",
+    "target": 33
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "Newsletter slot has a 22 word target. How far off is my count? The car park behind the church hall will be resurfaced next week, so please use the side street instead.",
+   "input": {
+    "text": "The car park behind the church hall will be resurfaced next week, so please use the side street instead.",
+    "target": 22
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "word count target of 18, allowing 15% either side - am I on target? text = Bring water, sunscreen and a packed lunch. The bus leaves school at 8.30 sharp.",
+   "input": {
+    "text": "Bring water, sunscreen and a packed lunch. The bus leaves school at 8.30 sharp.",
+    "target": 18,
+    "tolerance": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "For the 100-word story contest, is this close enough? \"The lighthouse keeper counted ships every night. One evening, a ship sailed past with no lights and no crew. He wrote it down anyway. The next morning, the logbook page was blank.\"",
+   "input": {
+    "text": "The lighthouse keeper counted ships every night. One evening, a ship sailed past with no lights and no crew. He wrote it down anyway. The next morning, the logbook page was blank.",
+    "target": 100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "is my cover letter close to the 400 word limit?",
+   "input": {
+    "target": 400
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "how far is my essay from 1500 words",
+   "input": {
+    "target": 1500
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "check this blog post against a 750 word target",
+   "input": {
+    "target": 750
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "My dissertation chapter needs to be 3,000 words give or take 10%. How far off is it?",
+   "input": {
+    "target": 3000,
+    "tolerance": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "my personal statement has a 650 word cap, am I near it with the draft below?",
+   "input": {
+    "target": 650
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "countWordTargets",
+   "message": "compare my speech to a 300 word target",
+   "input": {
+    "target": 300
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "list just the headings from this markdown:\n\n# Setup Guide\n\n## Install\n\nRun the installer.\n\n## Configure\n\n### Network\n\n### Storage",
+   "input": {
+    "markdown": "# Setup Guide\n\n## Install\n\nRun the installer.\n\n## Configure\n\n### Network\n\n### Storage"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "what headings are in my travel notes?\n# Trip Notes\n## Day 1\nArrived late.\n## Day 2\n### Morning\n### Evening",
+   "input": {
+    "markdown": "# Trip Notes\n## Day 1\nArrived late.\n## Day 2\n### Morning\n### Evening"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "Pull out the heading structure of this recipe file, nothing else:\n\n# Recipes\n\n## Soups\n\n### Leek and potato\n\n## Desserts\n\n### Apple crumble",
+   "input": {
+    "markdown": "# Recipes\n\n## Soups\n\n### Leek and potato\n\n## Desserts\n\n### Apple crumble"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "I'm reviewing our docs. Can you list the headings of this markdown page so I can see how it's organised?\n\n# API Reference\n\n## Authentication\n\n## Endpoints\n\n### GET /users\n\n### POST /users\n\n## Errors",
+   "input": {
+    "markdown": "# API Reference\n\n## Authentication\n\n## Endpoints\n\n### GET /users\n\n### POST /users\n\n## Errors"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "Heading outline please\n\n# Ward Handover\n\n## Bay A\n\nAll stable.\n\n## Bay B\n\n### Bed 4\n\nNeeds obs hourly.",
+   "input": {
+    "markdown": "# Ward Handover\n\n## Bay A\n\nAll stable.\n\n## Bay B\n\n### Bed 4\n\nNeeds obs hourly."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "which headings and subheadings does this lesson plan markdown have\n# Lesson Plan\n## Starter\n## Main Activity\n### Group Work\n## Plenary",
+   "input": {
+    "markdown": "# Lesson Plan\n## Starter\n## Main Activity\n### Group Work\n## Plenary"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "My supervisor wants to see only the structure of my thesis, the headings and their levels. Here is the markdown:\n\n# Thesis\n\n## Introduction\n\n## Literature Review\n\n### Early Studies\n\n### Recent Work\n\n## Method",
+   "input": {
+    "markdown": "# Thesis\n\n## Introduction\n\n## Literature Review\n\n### Early Studies\n\n### Recent Work\n\n## Method"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "extract the headings from this changelog\n\n## Changelog\n\n### Added\n\n- dark mode\n\n### Fixed\n\n- login bug",
+   "input": {
+    "markdown": "## Changelog\n\n### Added\n\n- dark mode\n\n### Fixed\n\n- login bug"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "Show me the markdown headings in our shop policies page.\n\n# Shop Policies\n\n## Returns\n\nWithin 30 days.\n\n## Shipping\n\n## Gift Cards",
+   "input": {
+    "markdown": "# Shop Policies\n\n## Returns\n\nWithin 30 days.\n\n## Shipping\n\n## Gift Cards"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "headings only from my D&D campaign notes pls\n\n# Campaign Notes\n\n## Session 1\n\n### The Tavern\n\n## Session 2\n\n### The Crypt\n\n### The Boss",
+   "input": {
+    "markdown": "# Campaign Notes\n\n## Session 1\n\n### The Tavern\n\n## Session 2\n\n### The Crypt\n\n### The Boss"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "What are the section headings in this?\n\n# Budget 2026\n\n## Income\n\n## Fixed Costs\n\n## Savings Goals",
+   "input": {
+    "markdown": "# Budget 2026\n\n## Income\n\n## Fixed Costs\n\n## Savings Goals"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "Give me the headings from the onboarding markdown below.\n\n# Onboarding\n\nWelcome!\n\n## Week One\n\n### Laptop setup\n\n### Meet the team\n\n## Week Two",
+   "input": {
+    "markdown": "# Onboarding\n\nWelcome!\n\n## Week One\n\n### Laptop setup\n\n### Meet the team\n\n## Week Two"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "pull the # and ## headings out of my garden plan\n# Garden Plan\n## Front Bed\n## Back Lawn\n### Shed Corner\n## Veg Patch",
+   "input": {
+    "markdown": "# Garden Plan\n## Front Bed\n## Back Lawn\n### Shed Corner\n## Veg Patch"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "Could you list the headings in these minutes? Just the heading lines.\n\n# Meeting Minutes\n\n## Attendees\n\n## Decisions\n\n## Actions",
+   "input": {
+    "markdown": "# Meeting Minutes\n\n## Attendees\n\n## Decisions\n\n## Actions"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "need the heading skeleton of my novel draft, what levels are used:\n\n# Novel Draft\n\n## Part One\n\n### Chapter 1\n\n### Chapter 2\n\n## Part Two\n\n### Chapter 3",
+   "input": {
+    "markdown": "# Novel Draft\n\n## Part One\n\n### Chapter 1\n\n### Chapter 2\n\n## Part Two\n\n### Chapter 3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "Strip everything but the headings from this FAQ markdown\n\n# FAQ\n\n## Billing\n\n### How do I pay?\n\n### Can I get a refund?\n\n## Accounts",
+   "input": {
+    "markdown": "# FAQ\n\n## Billing\n\n### How do I pay?\n\n### Can I get a refund?\n\n## Accounts"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "does this runbook jump heading levels anywhere? list its headings\n\n# Runbook\n\n## Alerts\n\n#### Disk full\n\n## Rollback",
+   "input": {
+    "markdown": "# Runbook\n\n## Alerts\n\n#### Disk full\n\n## Rollback"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "revision time - what are the heading levels in my study notes?\n\n# Study Notes\n\n## Cells\n\n### Mitochondria\n\n### Nucleus\n\n## Genetics",
+   "input": {
+    "markdown": "# Study Notes\n\n## Cells\n\n### Mitochondria\n\n### Nucleus\n\n## Genetics"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "list the headings in my README",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "pull out every markdown heading from the doc I am about to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "what is the heading structure of my blog post markdown?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "show me only the headings of this markdown file",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "Can you extract the heading levels from my project wiki page?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "extractHeadings",
+   "message": "which headings does my markdown report use",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "flag any sentences over 20 words: The committee met on Tuesday. After a long discussion about the budget, the timeline, the staffing levels and the concerns raised by several parents at the last open evening, they agreed to postpone the decision until spring.",
+   "input": {
+    "text": "The committee met on Tuesday. After a long discussion about the budget, the timeline, the staffing levels and the concerns raised by several parents at the last open evening, they agreed to postpone the decision until spring.",
+    "threshold": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "Which sentences are too long here? Our app saves your progress automatically. If you lose signal on the train or in a lift, your changes are stored on your phone and uploaded later when you reconnect.",
+   "input": {
+    "text": "Our app saves your progress automatically. If you lose signal on the train or in a lift, your changes are stored on your phone and uploaded later when you reconnect."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "my essay feels wordy. find the long sentences, anything over 30 words, in this paragraph:\n\nThe industrial revolution transformed Britain. Factories drew workers from the countryside into rapidly growing towns where housing was cramped, sanitation was poor, and disease spread quickly, leading reformers such as Edwin Chadwick to campaign for public health laws that would eventually reshape the modern city.",
+   "input": {
+    "text": "The industrial revolution transformed Britain. Factories drew workers from the countryside into rapidly growing towns where housing was cramped, sanitation was poor, and disease spread quickly, leading reformers such as Edwin Chadwick to campaign for public health laws that would eventually reshape the modern city.",
+    "threshold": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "Spot the run-on sentences in my discharge note: Patient is stable. She was admitted with chest pain which settled after rest and medication and her bloods and ECG were normal so the team agreed she could go home with a follow up in clinic next week and advice to return if symptoms recur.",
+   "input": {
+    "text": "Patient is stable. She was admitted with chest pain which settled after rest and medication and her bloods and ECG were normal so the team agreed she could go home with a follow up in clinic next week and advice to return if symptoms recur."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "flag sentences that are too long in my school newsletter, max 15 words: Sports day is on Friday. Please send your child in with a water bottle, sun cream, a hat and a packed lunch because the canteen will be closed all day.",
+   "input": {
+    "text": "Sports day is on Friday. Please send your child in with a water bottle, sun cream, a hat and a packed lunch because the canteen will be closed all day.",
+    "threshold": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "find long sentences over 12 words in our shop blurb. We open at nine. Fresh bread is baked every morning using flour from a mill just down the road from our shop. Pastries sell out fast.",
+   "input": {
+    "text": "We open at nine. Fresh bread is baked every morning using flour from a mill just down the road from our shop. Pastries sell out fast.",
+    "threshold": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "flag sentences that are too long in my cover letter: I am applying for the role of assistant manager. Over the past six years I have worked in retail, hospitality and customer service, and in each role I trained new staff and handled complaints.",
+   "input": {
+    "text": "I am applying for the role of assistant manager. Over the past six years I have worked in retail, hospitality and customer service, and in each role I trained new staff and handled complaints."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "plain english check, find sentences longer than 25 words:\nThe tenant must pay rent on the first day of each month. Should the tenant fail to pay within fourteen days of the due date, the landlord may, after giving written notice in accordance with the terms set out in clause nine, begin proceedings to recover the outstanding sum.",
+   "input": {
+    "text": "The tenant must pay rent on the first day of each month. Should the tenant fail to pay within fourteen days of the due date, the landlord may, after giving written notice in accordance with the terms set out in clause nine, begin proceedings to recover the outstanding sum.",
+    "threshold": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "Find the long sentences in my museum audio guide script, I have to read it aloud. \"Welcome to the museum. This gallery holds over two hundred paintings collected by a local merchant family across three generations and donated to the town in 1921 on the condition that entry would always be free.\"",
+   "input": {
+    "text": "Welcome to the museum. This gallery holds over two hundred paintings collected by a local merchant family across three generations and donated to the town in 1921 on the condition that entry would always be free."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "find long sentences over 18 words in these walking directions: Turn left at the church. Keep going past the pub and the old post office until you reach a gate with a blue sign, then follow the footpath across two fields to the river.",
+   "input": {
+    "text": "Turn left at the church. Keep going past the pub and the old post office until you reach a gate with a blue sign, then follow the footpath across two fields to the river.",
+    "threshold": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "which sentences are too long in my product description? This jacket is waterproof. It has taped seams, a detachable hood, two zipped hand pockets and adjustable cuffs so it works on a muddy hillside as well as a rainy commute.",
+   "input": {
+    "text": "This jacket is waterproof. It has taped seams, a detachable hood, two zipped hand pockets and adjustable cuffs so it works on a muddy hillside as well as a rainy commute."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "find sentences longer than 10 words in this text: I like tea. My grandmother taught me to make it properly with loose leaves and a warmed pot. Biscuits help.",
+   "input": {
+    "text": "I like tea. My grandmother taught me to make it properly with loose leaves and a warmed pot. Biscuits help.",
+    "threshold": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "Accessibility guidelines say keep sentences under 20 words. Check this help text: To reset your password, open the app, tap the menu in the top corner, choose settings, then account, then security, and finally press the reset button and follow the email we send you.",
+   "input": {
+    "text": "To reset your password, open the app, tap the menu in the top corner, choose settings, then account, then security, and finally press the reset button and follow the email we send you.",
+    "threshold": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "find the long sentences in my patch notes. Fixed a crash. Players with more than fifty items in their inventory who switched zones during a boss fight on a slow connection could lose their save.",
+   "input": {
+    "text": "Fixed a crash. Players with more than fifty items in their inventory who switched zones during a boss fight on a slow connection could lose their save."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "Which sentences are too long in my minutes? Limit is 22 words.\n\nThe meeting opened at 7pm. Members discussed the proposal to replace the hall roof, the cost of which has risen sharply since the original quote was obtained last year from a contractor in the next village.",
+   "input": {
+    "text": "The meeting opened at 7pm. Members discussed the proposal to replace the hall roof, the cost of which has risen sharply since the original quote was obtained last year from a contractor in the next village.",
+    "threshold": 22
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "Which sentences should I break up in this abstract? Sleep matters. We followed 300 shift workers for a year and found that those with irregular rotas reported more errors, more sick days and lower job satisfaction than colleagues on fixed patterns, even after adjusting for age.",
+   "input": {
+    "text": "Sleep matters. We followed 300 shift workers for a year and found that those with irregular rotas reported more errors, more sick days and lower job satisfaction than colleagues on fixed patterns, even after adjusting for age."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "long sentence scan, limit forty words: The village fete raised money for the school roof. Stalls included cakes, plants, a tombola and a dog show judged by the vicar, who declared every single entrant a winner and handed out rosettes until the box ran out halfway through the afternoon, much to the delight of the children.",
+   "input": {
+    "text": "The village fete raised money for the school roof. Stalls included cakes, plants, a tombola and a dog show judged by the vicar, who declared every single entrant a winner and handed out rosettes until the box ran out halfway through the afternoon, much to the delight of the children.",
+    "threshold": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "long sentences here? which ones are too long: Rain is forecast. The match may be moved indoors to the sports hall if the pitch is waterlogged by midday and the referee agrees that conditions are unsafe for the players.",
+   "input": {
+    "text": "Rain is forecast. The match may be moved indoors to the sports hall if the pitch is waterlogged by midday and the referee agrees that conditions are unsafe for the players."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "my report has some long sentences, please flag the ones that are too long",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "which sentences in my essay go over 35 words?",
+   "input": {
+    "threshold": 35
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "check my blog post for overly long sentences",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "Can you flag run-on sentences in the chapter I am pasting next?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "sentences over 20 words in my grant application - which are they?",
+   "input": {
+    "threshold": 20
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "findLongSentences",
+   "message": "my editor says some of my sentences are too long, can you find them in my draft",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "do I repeat any words too close together here? The garden was lovely. The garden had roses, and the garden path led to a lovely bench.",
+   "input": {
+    "text": "The garden was lovely. The garden had roses, and the garden path led to a lovely bench."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "Check my paragraph for repeated words close together: Our team works hard. Our team believes in quality, and our team always delivers on time.",
+   "input": {
+    "text": "Our team works hard. Our team believes in quality, and our team always delivers on time."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "find repeated words within 10 words of each other: She opened the door slowly, then closed the door and opened the window instead.",
+   "input": {
+    "text": "She opened the door slowly, then closed the door and opened the window instead.",
+    "window": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "find repeated words in my film review: I really liked the film. The acting was really good and the ending was really surprising.",
+   "input": {
+    "text": "I really liked the film. The acting was really good and the ending was really surprising."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "find repeated words but ignore words shorter than 5 letters: The project timeline slipped because the project budget was cut and the project manager left.",
+   "input": {
+    "text": "The project timeline slipped because the project budget was cut and the project manager left.",
+    "minLength": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "my students overuse words. Find close repeats in: The character is brave. The character shows bravery when the character faces the dragon.",
+   "input": {
+    "text": "The character is brave. The character shows bravery when the character faces the dragon."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "repeated words check close together in this product copy: Soft cotton. Soft colours. A soft fit that feels soft all day.",
+   "input": {
+    "text": "Soft cotton. Soft colours. A soft fit that feels soft all day."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "Any repeated words close together in my opening line? Night fell over the city, and the city lights flickered as night deepened.",
+   "input": {
+    "text": "Night fell over the city, and the city lights flickered as night deepened."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "look for any word used twice within 5 words: Please please send the report report by Friday.",
+   "input": {
+    "text": "Please please send the report report by Friday.",
+    "window": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "Spot repeated words in my email. \"Thanks for the update. Thanks also for the quick update on the update schedule.\"",
+   "input": {
+    "text": "Thanks for the update. Thanks also for the quick update on the update schedule."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "check for repeated words close together: The results were significant. Significant changes followed, and the significant drop in costs surprised everyone.",
+   "input": {
+    "text": "The results were significant. Significant changes followed, and the significant drop in costs surprised everyone."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "Find nearby repeats, words of 3 letters or more, within 15 words: The cat sat on the mat. The cat then saw another cat.",
+   "input": {
+    "text": "The cat sat on the mat. The cat then saw another cat.",
+    "minLength": 3,
+    "window": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "Repeated word check on this speech intro:\n\nToday we celebrate. Today we remember. Today we look forward to tomorrow.",
+   "input": {
+    "text": "Today we celebrate. Today we remember. Today we look forward to tomorrow."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "does this ward note repeat itself? Patient comfortable. Patient eating well. Patient mobilising with frame, patient family visited.",
+   "input": {
+    "text": "Patient comfortable. Patient eating well. Patient mobilising with frame, patient family visited."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "word repetition within 20 words? The recipe needs butter. Melt the butter, then add sugar to the butter and stir.",
+   "input": {
+    "text": "The recipe needs butter. Melt the butter, then add sugar to the butter and stir.",
+    "window": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "find the repeated words in my game review: It was a great game with great graphics and a great story.",
+   "input": {
+    "text": "It was a great game with great graphics and a great story."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "Which words are repeated too close together in this abstract? Climate data shows warming. This data, combined with ocean data, suggests faster warming.",
+   "input": {
+    "text": "Climate data shows warming. This data, combined with ocean data, suggests faster warming."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "spot repeated words in this sentence please: We went to the the shop and and bought milk.",
+   "input": {
+    "text": "We went to the the shop and and bought milk."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "find words I repeat too close together in my essay",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "check my cover letter for repeated words",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "Does my story overuse any words? Check the chapter below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "flag any word repeated within 8 words in my speech",
+   "input": {
+    "window": 8
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "flag repeated words in my blog post that sit too close together",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "message": "spot words I have used too often in my newsletter",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "APA reference please: Maria Lopez, \"Urban Bees and City Gardens\", 2021, published by Green Leaf Press",
+   "input": {
+    "authors": [
+     "Maria Lopez"
+    ],
+    "title": "Urban Bees and City Gardens",
+    "year": 2021,
+    "publisher": "Green Leaf Press"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "Can you cite this in MLA? Author: Tom Reed. Title: The Quiet Coast. Year 2018. Publisher: Harbour Books.",
+   "input": {
+    "authors": [
+     "Tom Reed"
+    ],
+    "title": "The Quiet Coast",
+    "year": 2018,
+    "style": "MLA",
+    "publisher": "Harbour Books"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "Chicago citation for a journal article by Ana Silva and Ben Ochoa, \"Sleep and Shift Work\", Journal of Nursing Practice, volume 14, pages 22-35, 2020",
+   "input": {
+    "authors": [
+     "Ana Silva",
+     "Ben Ochoa"
+    ],
+    "title": "Sleep and Shift Work",
+    "year": 2020,
+    "style": "Chicago",
+    "container": "Journal of Nursing Practice",
+    "volume": "14",
+    "pages": "22-35"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "I'm writing my dissertation and need a reference in APA for: Priya Shah, Learning Through Play, 2019, Oak Tree Publishing",
+   "input": {
+    "authors": [
+     "Priya Shah"
+    ],
+    "title": "Learning Through Play",
+    "year": 2019,
+    "publisher": "Oak Tree Publishing"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "make a citation for a web article, \"How to Prune Roses\" by Helen Park, 2023, https://example.com/roses",
+   "input": {
+    "authors": [
+     "Helen Park"
+    ],
+    "title": "How to Prune Roses",
+    "year": 2023,
+    "url": "https://example.com/roses"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "MLA works cited entry: James Okafor, \"Rivers of Memory\", 2015",
+   "input": {
+    "authors": [
+     "James Okafor"
+    ],
+    "title": "Rivers of Memory",
+    "year": 2015,
+    "style": "MLA"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "format a bibliography entry in Chicago style - authors Lucy Grant, Omar Haddad and Chen Wei; title Coastal Erosion in Norfolk; 2022; Earth Science Review, vol 8, pp 101-118",
+   "input": {
+    "authors": [
+     "Lucy Grant",
+     "Omar Haddad",
+     "Chen Wei"
+    ],
+    "title": "Coastal Erosion in Norfolk",
+    "year": 2022,
+    "style": "Chicago",
+    "container": "Earth Science Review",
+    "volume": "8",
+    "pages": "101-118"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "Reference for my essay: Daniel Moore wrote \"A Short History of Bread\" in 2012. APA please.",
+   "input": {
+    "authors": [
+     "Daniel Moore"
+    ],
+    "title": "A Short History of Bread",
+    "year": 2012
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "need an APA style reference: Sarah Kim & Leo Brandt (2024). Remote Teams That Work. Published in Management Today, volume 31.",
+   "input": {
+    "authors": [
+     "Sarah Kim",
+     "Leo Brandt"
+    ],
+    "title": "Remote Teams That Work",
+    "year": 2024,
+    "container": "Management Today",
+    "volume": "31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "Cite in MLA format: \"Starlight Over Lagos\" by Ngozi Eze, 2017, from Riverbank Press",
+   "input": {
+    "authors": [
+     "Ngozi Eze"
+    ],
+    "title": "Starlight Over Lagos",
+    "year": 2017,
+    "style": "MLA",
+    "publisher": "Riverbank Press"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "how do I reference this in Chicago? Peter Hall, The Railway Age, 1998",
+   "input": {
+    "authors": [
+     "Peter Hall"
+    ],
+    "title": "The Railway Age",
+    "year": 1998,
+    "style": "Chicago"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "Build an APA citation. Authors: Emma Clarke, Raj Patel. Title: Vaccines in Rural Clinics. Journal: Public Health Notes. Year: 2016. Pages 45-60.",
+   "input": {
+    "authors": [
+     "Emma Clarke",
+     "Raj Patel"
+    ],
+    "title": "Vaccines in Rural Clinics",
+    "year": 2016,
+    "container": "Public Health Notes",
+    "pages": "45-60"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "reference list entry for a blog post: Kai Tanaka, \"Building a Tiny Game Engine\", 2025, https://example.dev/engine, MLA style",
+   "input": {
+    "authors": [
+     "Kai Tanaka"
+    ],
+    "title": "Building a Tiny Game Engine",
+    "year": 2025,
+    "style": "MLA",
+    "url": "https://example.dev/engine"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "My teacher wants Chicago. The book is Mountains and Men by Grace Fischer, Alpine House, 2003.",
+   "input": {
+    "authors": [
+     "Grace Fischer"
+    ],
+    "title": "Mountains and Men",
+    "year": 2003,
+    "style": "Chicago",
+    "publisher": "Alpine House"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "turn these details into an APA reference: Oliver Twist-Brown, Money Habits for Students, 2020, Penny Books",
+   "input": {
+    "authors": [
+     "Oliver Twist-Brown"
+    ],
+    "title": "Money Habits for Students",
+    "year": 2020,
+    "publisher": "Penny Books"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "Please write the MLA citation for an article titled \"Coral Under Pressure\" by Isla Ford in Marine Letters, volume 7, 2019, pages 12-19.",
+   "input": {
+    "authors": [
+     "Isla Ford"
+    ],
+    "title": "Coral Under Pressure",
+    "year": 2019,
+    "style": "MLA",
+    "container": "Marine Letters",
+    "volume": "7",
+    "pages": "12-19"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "quick APA ref - Hannah Berg, The Midwife Handbook, 2011",
+   "input": {
+    "authors": [
+     "Hannah Berg"
+    ],
+    "title": "The Midwife Handbook",
+    "year": 2011
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "Footnote style Chicago citation for \"Tea and Empire\" (2009) by Victor Lane and Rosa Mendes",
+   "input": {
+    "authors": [
+     "Victor Lane",
+     "Rosa Mendes"
+    ],
+    "title": "Tea and Empire",
+    "year": 2009,
+    "style": "Chicago"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "Write a works cited line in MLA for Noah Ellis, Pixels and Play, 2021, Arcade Press",
+   "input": {
+    "authors": [
+     "Noah Ellis"
+    ],
+    "title": "Pixels and Play",
+    "year": 2021,
+    "style": "MLA",
+    "publisher": "Arcade Press"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "cite this book in MLA for my essay",
+   "input": {
+    "style": "MLA"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "turn the article I read into an APA reference",
+   "input": {
+    "style": "APA"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "how should I write the Chicago reference for the book I used",
+   "input": {
+    "style": "Chicago"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "format my reference list entry for this journal paper",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "formatCitation",
+   "message": "can you build a citation for the website I used in my report",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "add a table of contents to the top of this manual:\n\n# User Manual\n\n## Getting Started\n\n## Daily Use\n\n### Cleaning\n\n## Troubleshooting",
+   "input": {
+    "markdown": "# User Manual\n\n## Getting Started\n\n## Daily Use\n\n### Cleaning\n\n## Troubleshooting"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "contents list with links for my coursework please\n# Coursework\n## Aims\n## Method\n### Survey\n### Interviews\n## Findings",
+   "input": {
+    "markdown": "# Coursework\n## Aims\n## Method\n### Survey\n### Interviews\n## Findings"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "Make a linked TOC for our staff handbook, only down to level 2.\n\n# Handbook\n\n## Holidays\n\n## Sick Leave\n\n## Expenses\n\n### Travel\n\n### Meals",
+   "input": {
+    "markdown": "# Handbook\n\n## Holidays\n\n## Sick Leave\n\n## Expenses\n\n### Travel\n\n### Meals",
+    "maxLevel": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "numbered table of contents for my cookbook markdown:\n\n# Cookbook\n\n## Breakfast\n\n### Pancakes\n\n## Dinner\n\n### Curry\n\n#### Spice mix",
+   "input": {
+    "markdown": "# Cookbook\n\n## Breakfast\n\n### Pancakes\n\n## Dinner\n\n### Curry\n\n#### Spice mix",
+    "numbered": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "generate a table of contents from these release notes\n\n# Release Notes\n\n## Version 3\n\n## Version 2\n\n## Version 1",
+   "input": {
+    "markdown": "# Release Notes\n\n## Version 3\n\n## Version 2\n\n## Version 1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "I want clickable contents at the start of my field guide. Here's the markdown:\n\n# Field Guide\n\n## Birds\n\n### Owls\n\n### Finches\n\n## Mammals\n\n### Bats",
+   "input": {
+    "markdown": "# Field Guide\n\n## Birds\n\n### Owls\n\n### Finches\n\n## Mammals\n\n### Bats"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "table of contents for the club rules doc, include headings to level 3, numbered:\n\n# Club Rules\n\n## Membership\n\n## Fees\n\n## Conduct\n\n### On the Pitch\n\n### In the Bar",
+   "input": {
+    "markdown": "# Club Rules\n\n## Membership\n\n## Fees\n\n## Conduct\n\n### On the Pitch\n\n### In the Bar",
+    "maxLevel": 3,
+    "numbered": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "Could you create a table of contents for this care plan?\n\n# Care Plan\n\n## Medication\n\n## Mobility\n\n### Transfers\n\n## Diet",
+   "input": {
+    "markdown": "# Care Plan\n\n## Medication\n\n## Mobility\n\n### Transfers\n\n## Diet"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "table of contents for my game walkthrough, top level only (level 1 headings and ## ones, so max level 2)\n\n# Walkthrough\n\n## Act One\n\n### The Forest\n\n### The Village\n\n## Act Two\n\n### The Castle",
+   "input": {
+    "markdown": "# Walkthrough\n\n## Act One\n\n### The Forest\n\n### The Village\n\n## Act Two\n\n### The Castle",
+    "maxLevel": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "build me a contents section with anchor links for this tenancy pack\n# Tenancy Pack\n## Your Rights\n## Your Duties\n### Rent\n### Repairs\n## Leaving",
+   "input": {
+    "markdown": "# Tenancy Pack\n## Your Rights\n## Your Duties\n### Rent\n### Repairs\n## Leaving"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "Please put a table of contents on my lab report.\n\n# Lab Report\n\n## Hypothesis\n\n## Apparatus\n\n## Results\n\n### Table 1\n\n## Conclusion",
+   "input": {
+    "markdown": "# Lab Report\n\n## Hypothesis\n\n## Apparatus\n\n## Results\n\n### Table 1\n\n## Conclusion"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "holiday itinerary needs a numbered table of contents please\n\n# Itinerary\n\n## Rome\n\n### Day 1\n\n### Day 2\n\n## Florence\n\n### Day 3",
+   "input": {
+    "markdown": "# Itinerary\n\n## Rome\n\n### Day 1\n\n### Day 2\n\n## Florence\n\n### Day 3",
+    "numbered": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "Generate a linked table of contents for the style guide below; go down to heading level 3.\n\n# Style Guide\n\n## Voice\n\n## Grammar\n\n### Commas\n\n### Dashes\n\n## Formatting",
+   "input": {
+    "markdown": "# Style Guide\n\n## Voice\n\n## Grammar\n\n### Commas\n\n### Dashes\n\n## Formatting",
+    "maxLevel": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "README needs a table of contents including the #### headings, so depth 4:\n\n# Developer Docs\n\n## Install\n\n## Usage\n\n### CLI\n\n#### Flags\n\n## Contributing",
+   "input": {
+    "markdown": "# Developer Docs\n\n## Install\n\n## Usage\n\n### CLI\n\n#### Flags\n\n## Contributing",
+    "maxLevel": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "make a table of contents with links for our wedding plan doc\n\n# Wedding Plan\n\n## Venue\n\n## Guests\n\n## Food\n\n### Starters\n\n### Cake",
+   "input": {
+    "markdown": "# Wedding Plan\n\n## Venue\n\n## Guests\n\n## Food\n\n### Starters\n\n### Cake"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "Table of contents for the annual report, numbered sections, max level 2.\n\n# Annual Report\n\n## Chair Statement\n\n## Finances\n\n### Income\n\n### Spending\n\n## Outlook",
+   "input": {
+    "markdown": "# Annual Report\n\n## Chair Statement\n\n## Finances\n\n### Income\n\n### Spending\n\n## Outlook",
+    "numbered": true,
+    "maxLevel": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "create a linked table of contents for my revision notes markdown\n\n# Revision Notes\n\n## Algebra\n\n### Quadratics\n\n## Geometry\n\n### Circles\n\n#### Theorems",
+   "input": {
+    "markdown": "# Revision Notes\n\n## Algebra\n\n### Quadratics\n\n## Geometry\n\n### Circles\n\n#### Theorems"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "I need a table of contents with links for the shop wiki page:\n\n# Shop Wiki\n\n## Opening Up\n\n## Till\n\n### Refunds\n\n## Closing Down",
+   "input": {
+    "markdown": "# Shop Wiki\n\n## Opening Up\n\n## Till\n\n### Refunds\n\n## Closing Down"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "add a table of contents to my README",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "my thesis chapters need numbered contents with links at the top",
+   "input": {
+    "numbered": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "can you make a linked contents list for the doc I am pasting?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "build a contents list with links, down to heading level 2, for my wiki markdown",
+   "input": {
+    "maxLevel": 2
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "put a linked table of contents at the start of my markdown guide",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "message": "I need a table of contents for my long markdown report",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "turn this markdown into html:\n\n## Opening hours\n\nMon to Fri, **9 till 5**.",
+   "input": {
+    "markdown": "## Opening hours\n\nMon to Fri, **9 till 5**."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "html version of my shopping list please\n- eggs\n- milk\n- *fresh* bread",
+   "input": {
+    "markdown": "- eggs\n- milk\n- *fresh* bread"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "Convert to HTML: See [our site](https://example.com) for details.",
+   "input": {
+    "markdown": "See [our site](https://example.com) for details."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "I run a leisure centre website. Can you render this markdown notice as HTML?\n\n# Notice\n\nThe pool is closed on **Sunday**.",
+   "input": {
+    "markdown": "# Notice\n\nThe pool is closed on **Sunday**."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "markdown to html for these recipe steps\n\n1. Preheat oven\n2. Mix flour\n3. Bake for 20 minutes",
+   "input": {
+    "markdown": "1. Preheat oven\n2. Mix flour\n3. Bake for 20 minutes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "What HTML does this markdown blockquote become?\n\n> Be kind, for everyone you meet is fighting a hard battle.",
+   "input": {
+    "markdown": "> Be kind, for everyone you meet is fighting a hard battle."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "render as html: Run `npm install` then `npm start`.",
+   "input": {
+    "markdown": "Run `npm install` then `npm start`."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "Need the HTML for my patch notes, written in markdown:\n\n### Patch 1.2\n\n- fixed jump bug\n- *new* map",
+   "input": {
+    "markdown": "### Patch 1.2\n\n- fixed jump bug\n- *new* map"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "convert this markdown line to HTML for the pharmacy leaflet: **Warning:** do not exceed the stated dose.",
+   "input": {
+    "markdown": "**Warning:** do not exceed the stated dose."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "Can I get this menu markdown as HTML?\n\n# Menu\n\n## Mains\n\n- Fish pie\n- Veggie lasagne",
+   "input": {
+    "markdown": "# Menu\n\n## Mains\n\n- Fish pie\n- Veggie lasagne"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "md to html please\n\nHello *team*,\n\nThe meeting is **cancelled**.",
+   "input": {
+    "markdown": "Hello *team*,\n\nThe meeting is **cancelled**."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "turn my homework markdown into HTML for the class page\n\n## Homework\n\n1. Read chapter 4\n2. Answer questions 1 to 5",
+   "input": {
+    "markdown": "## Homework\n\n1. Read chapter 4\n2. Answer questions 1 to 5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "Convert this markdown table to HTML:\n\n| Item | Price |\n|---|---|\n| Tea | 2.50 |",
+   "input": {
+    "markdown": "| Item | Price |\n|---|---|\n| Tea | 2.50 |"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "Make this markdown link into html: Visit the [booking page](https://example.org/book) to reserve.",
+   "input": {
+    "markdown": "Visit the [booking page](https://example.org/book) to reserve."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "I'm building a portfolio. Translate this markdown bio into HTML:\n\n# About me\n\nI teach *piano* and **guitar** in Bristol.",
+   "input": {
+    "markdown": "# About me\n\nI teach *piano* and **guitar** in Bristol."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "html output for this fenced markdown code block\n\n```\nprint(\"hi\")\n```",
+   "input": {
+    "markdown": "```\nprint(\"hi\")\n```"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "Convert my markdown checklist into HTML\n\n- [ ] buy paint\n- [x] sand walls",
+   "input": {
+    "markdown": "- [ ] buy paint\n- [x] sand walls"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "markdown → html: ## Rules\n\nNo running. No *diving*. **No glass.**",
+   "input": {
+    "markdown": "## Rules\n\nNo running. No *diving*. **No glass.**"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "my project readme is in markdown, I need it as html",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "turn the markdown I wrote for my blog into html",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "I need the HTML version of this markdown file",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "can you render my markdown notes as html?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "markdown to html for the newsletter draft I am about to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "markdownToHtml",
+   "message": "convert this md into html for the website",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "turn my indented notes into markdown:\nIntroduction\n  Why this matters\nResults\n  Survey\n  Interviews",
+   "input": {
+    "outline": "Introduction\n  Why this matters\nResults\n  Survey\n  Interviews"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "Convert this to-do outline into markdown headings and bullets\n\nKitchen\n  fix tap\n  paint walls\nGarden\n  mow lawn",
+   "input": {
+    "outline": "Kitchen\n  fix tap\n  paint walls\nGarden\n  mow lawn"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "outline → markdown please\nDay 1\n  Museum\n  Lunch by the river\nDay 2\n  Hike",
+   "input": {
+    "outline": "Day 1\n  Museum\n  Lunch by the river\nDay 2\n  Hike"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "I teach maths. Make this indented scheme of work into markdown, top level as headings:\nUnit 1\n  Fractions\n    adding\n    simplifying\nUnit 2\n  Decimals",
+   "input": {
+    "outline": "Unit 1\n  Fractions\n    adding\n    simplifying\nUnit 2\n  Decimals",
+    "headingLevels": 1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "markdown from my handover outline\nPatient A\n  obs stable\n  meds given\nPatient B\n  awaiting scan",
+   "input": {
+    "outline": "Patient A\n  obs stable\n  meds given\nPatient B\n  awaiting scan"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "turn this planning outline into markdown, first two levels as headings\nQ1 goals\n  hire two devs\n  ship v2\nQ2 goals\n  launch app",
+   "input": {
+    "outline": "Q1 goals\n  hire two devs\n  ship v2\nQ2 goals\n  launch app",
+    "headingLevels": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "Convert my tab-indented chapter outline to markdown:\nChapter 1\n\tThe storm\n\tThe shipwreck\nChapter 2\n\tThe island",
+   "input": {
+    "outline": "Chapter 1\n\tThe storm\n\tThe shipwreck\nChapter 2\n\tThe island"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "Make markdown out of this shop outline please\nStock\n  reorder flour\nStaff\n  rota for May\n  training",
+   "input": {
+    "outline": "Stock\n  reorder flour\nStaff\n  rota for May\n  training"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "Can you convert the outline of my talk into markdown? Keep it all as bullets, zero heading levels.\nTalk\n  Opening joke\n  Main point\n    example one\n    example two\n  Close",
+   "input": {
+    "outline": "Talk\n  Opening joke\n  Main point\n    example one\n    example two\n  Close",
+    "headingLevels": 0
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "outline to md for my boss guide\nBoss strategy\n  Phase 1\n    dodge left\n  Phase 2\n    heal first",
+   "input": {
+    "outline": "Boss strategy\n  Phase 1\n    dodge left\n  Phase 2\n    heal first"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "Please change this indented budget outline into markdown headings and bullet points.\nBudget\n  rent\n  food\nSavings\n  holiday fund",
+   "input": {
+    "outline": "Budget\n  rent\n  food\nSavings\n  holiday fund"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "Course outline below, make it markdown with 1 heading level\nWeek 1\n  intro to Python\nWeek 2\n  loops\n  functions",
+   "input": {
+    "outline": "Week 1\n  intro to Python\nWeek 2\n  loops\n  functions",
+    "headingLevels": 1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "turn my wedding planning outline into markdown\nWedding\n  venue\n  catering\n    menu tasting\nHoneymoon\n  flights",
+   "input": {
+    "outline": "Wedding\n  venue\n  catering\n    menu tasting\nHoneymoon\n  flights"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "Convert this research proposal outline to markdown, two heading levels:\nBackground\n  history\n  previous studies\nAims\n  primary\n  secondary",
+   "input": {
+    "outline": "Background\n  history\n  previous studies\nAims\n  primary\n  secondary",
+    "headingLevels": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "markdown version of my week outline\nMonday\n  emails\n  team call\nTuesday\n  client visit",
+   "input": {
+    "outline": "Monday\n  emails\n  team call\nTuesday\n  client visit"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "my garden ideas are an indented outline - make it markdown\nGarden ideas\n  raised beds\n  pond\n    pump\n  shed",
+   "input": {
+    "outline": "Garden ideas\n  raised beds\n  pond\n    pump\n  shed"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "Could you turn this launch plan outline into markdown?\nProduct\n  features\n  pricing\nMarketing\n  social\n  email",
+   "input": {
+    "outline": "Product\n  features\n  pricing\nMarketing\n  social\n  email"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "outline into markdown bullets and headings:\nLesson\n  starter\n  main task\n  plenary",
+   "input": {
+    "outline": "Lesson\n  starter\n  main task\n  plenary"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "change my tab indented outline into markdown headings",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "convert the outline of my essay into markdown headings",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "make markdown from my meeting notes outline, three heading levels",
+   "input": {
+    "headingLevels": 3
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "I have an indented outline for a talk, can you change it into markdown?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "outline to markdown for the plan I am pasting next",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "message": "my book outline needs to become markdown headings and bullets",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "word and sentence count for each paragraph please:\n\nWe moved house in May. The boxes are still everywhere.\n\nThe kids love their new school. They have already made friends.\n\nWork is busy.",
+   "input": {
+    "text": "We moved house in May. The boxes are still everywhere.\n\nThe kids love their new school. They have already made friends.\n\nWork is busy."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "How many words and sentences are in each paragraph of this email?\n\nThank you for your order. It will ship on Monday.\n\nIf anything is wrong, reply to this email and we will fix it quickly.",
+   "input": {
+    "text": "Thank you for your order. It will ship on Monday.\n\nIf anything is wrong, reply to this email and we will fix it quickly."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "per-paragraph stats on my ward note:\n\nThe patient was admitted overnight.\n\nObservations were stable. Pain was managed with paracetamol. She slept well.\n\nPlan: review bloods at noon.",
+   "input": {
+    "text": "The patient was admitted overnight.\n\nObservations were stable. Pain was managed with paracetamol. She slept well.\n\nPlan: review bloods at noon."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "Break my chapter opening down paragraph by paragraph, words and sentences in each.\n\nChapter one opens in a storm. The ship is sinking.\n\nOur hero wakes on a beach. He is alone. He is hungry. He has no idea where he is.",
+   "input": {
+    "text": "Chapter one opens in a storm. The ship is sinking.\n\nOur hero wakes on a beach. He is alone. He is hungry. He has no idea where he is."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "paragraph breakdown of our About page\n\nOur bakery opened in 2009.\n\nWe bake everything by hand, every morning, using local flour.\n\nCome and say hello.",
+   "input": {
+    "text": "Our bakery opened in 2009.\n\nWe bake everything by hand, every morning, using local flour.\n\nCome and say hello."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "Which paragraph in my discussion section is longest? Give me paragraph stats for each one.\n\nThe results were mixed. Some groups improved.\n\nOthers did not. We think the sample was too small.\n\nFurther work is needed. A larger trial is planned. Funding has been requested.",
+   "input": {
+    "text": "The results were mixed. Some groups improved.\n\nOthers did not. We think the sample was too small.\n\nFurther work is needed. A larger trial is planned. Funding has been requested."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "paragraph stats please, words and sentences per paragraph in this flyer:\n\nDear neighbours, the street party is on Saturday.\n\nPlease bring a chair and a dish to share. Music starts at two.",
+   "input": {
+    "text": "Dear neighbours, the street party is on Saturday.\n\nPlease bring a chair and a dish to share. Music starts at two."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "stats for each paragraph of my game guide intro\n\nLevel one is easy. You learn to jump.\n\nLevel two adds enemies. Timing matters now.\n\nLevel three is brutal.",
+   "input": {
+    "text": "Level one is easy. You learn to jump.\n\nLevel two adds enemies. Timing matters now.\n\nLevel three is brutal."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "My careers adviser says my paragraphs are uneven. Can you show the word count and sentence count of each paragraph?\n\nI have worked in finance for ten years.\n\nIn my last role I led a team of six. We cut month-end close from ten days to four.\n\nI am now looking for a new challenge.",
+   "input": {
+    "text": "I have worked in finance for ten years.\n\nIn my last role I led a team of six. We cut month-end close from ten days to four.\n\nI am now looking for a new challenge."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "paragraph-level word counts for my travel blog post:\n\nRome was hot. We walked everywhere.\n\nFlorence was calmer. The galleries were amazing. We ate far too much gelato.",
+   "input": {
+    "text": "Rome was hot. We walked everywhere.\n\nFlorence was calmer. The galleries were amazing. We ate far too much gelato."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "Gardening handout: give me paragraph stats, words and sentences for each paragraph.\n\nWater the tomatoes daily.\n\nFeed them weekly once the first flowers appear. Pinch out side shoots.\n\nHarvest when red.",
+   "input": {
+    "text": "Water the tomatoes daily.\n\nFeed them weekly once the first flowers appear. Pinch out side shoots.\n\nHarvest when red."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "break this policy into paragraphs and give the word count of each\n\nThis policy covers annual leave.\n\nStaff receive twenty five days per year. Requests need two weeks notice.\n\nUnused days do not roll over.",
+   "input": {
+    "text": "This policy covers annual leave.\n\nStaff receive twenty five days per year. Requests need two weeks notice.\n\nUnused days do not roll over."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "how long is every paragraph here, in words and sentences?\n\nThe bridge was built in 1890. It is made of iron.\n\nIt closed for repairs in 2015 and reopened two years later.",
+   "input": {
+    "text": "The bridge was built in 1890. It is made of iron.\n\nIt closed for repairs in 2015 and reopened two years later."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "Split this welcome note into paragraphs and count the words and sentences of each one:\n\nWelcome to the team!\n\nYour laptop will arrive on Monday. Your manager will meet you at ten.\n\nLunch is on us.",
+   "input": {
+    "text": "Welcome to the team!\n\nYour laptop will arrive on Monday. Your manager will meet you at ten.\n\nLunch is on us."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "how long is each paragraph of my product review, in words?\n\nPros: cheap, light, fast.\n\nCons: the battery is weak. The screen scratches easily. Support is slow.",
+   "input": {
+    "text": "Pros: cheap, light, fast.\n\nCons: the battery is weak. The screen scratches easily. Support is slow."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "For each paragraph in this club notice, how many sentences and words?\n\nOur club meets on Thursdays.\n\nNew members are welcome. The first session is free. Bring trainers.",
+   "input": {
+    "text": "Our club meets on Thursdays.\n\nNew members are welcome. The first session is free. Bring trainers."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "I'm checking a sales summary for balance. Break it into paragraphs with word and sentence counts:\n\nSales rose in spring.\n\nSummer was flat. Autumn dipped slightly because of the roadworks outside the shop.\n\nWinter looks strong.",
+   "input": {
+    "text": "Sales rose in spring.\n\nSummer was flat. Autumn dipped slightly because of the roadworks outside the shop.\n\nWinter looks strong."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "per paragraph word count + sentence count:\n\nThe experiment failed twice.\n\nOn the third attempt we cooled the sample first. It worked.",
+   "input": {
+    "text": "The experiment failed twice.\n\nOn the third attempt we cooled the sample first. It worked."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "give me the word and sentence count of each paragraph in my essay",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "paragraph by paragraph stats for my cover letter",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "which paragraph of my report has the most words? break it down per paragraph",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "how many sentences and words are in each paragraph of my article",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "Can you break my blog post into paragraphs with word counts?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "paragraphStats",
+   "message": "per-paragraph length breakdown of the chapter I am about to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "pluralize",
+   "message": "plural of mouse?",
+   "input": {
+    "word": "mouse"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "What's the plural form of 'cactus'?",
+   "input": {
+    "word": "cactus"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "how do you pluralise potato",
+   "input": {
+    "word": "potato"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "I need the plural of goose for a quiz",
+   "input": {
+    "word": "goose"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "make \"wolf\" plural",
+   "input": {
+    "word": "wolf"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "I always get this wrong in reports. What is the plural of criterion?",
+   "input": {
+    "word": "criterion"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "plural of tooth please",
+   "input": {
+    "word": "tooth"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "my son asked me what the plural of octopus is. help?",
+   "input": {
+    "word": "octopus"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "pluralise the word \"family\"",
+   "input": {
+    "word": "family"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "plural of leaf when there are 3",
+   "input": {
+    "word": "leaf",
+    "count": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "plural form of man",
+   "input": {
+    "word": "man"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "Is the plural of hero \"heros\" or \"heroes\"? Give me the correct plural of hero.",
+   "input": {
+    "word": "hero"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "For my shop sign: plural of dress",
+   "input": {
+    "word": "dress"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "I have 2 of them, what is the plural of ox",
+   "input": {
+    "word": "ox",
+    "count": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "what does fungus become in the plural",
+   "input": {
+    "word": "fungus"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "quick, plural of person",
+   "input": {
+    "word": "person"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "Could you tell me the plural of the noun \"index\"?",
+   "input": {
+    "word": "index"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "How should I write the plural of baby for a nursery newsletter?",
+   "input": {
+    "word": "baby"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "plural of deer",
+   "input": {
+    "word": "deer"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "what is the correct form of \"apple\" for 1 apple",
+   "input": {
+    "word": "apple",
+    "count": 1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "Plural of phenomenon, please.",
+   "input": {
+    "word": "phenomenon"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "one woman, two ... ? give me the plural of woman",
+   "input": {
+    "word": "woman"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pluralize",
+   "message": "what is the plural of this word",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "pluralize",
+   "message": "make the word I give you plural",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "singularize",
+   "message": "singular of mice?",
+   "input": {
+    "word": "mice"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "What's the singular form of 'cacti'?",
+   "input": {
+    "word": "cacti"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "turn geese into the singular",
+   "input": {
+    "word": "geese"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "make \"wolves\" singular",
+   "input": {
+    "word": "wolves"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "I keep writing criteria for one thing. What is the singular of criteria?",
+   "input": {
+    "word": "criteria"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "singular of teeth please",
+   "input": {
+    "word": "teeth"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "what is the singular word for feet",
+   "input": {
+    "word": "feet"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "turn \"potatoes\" into the singular",
+   "input": {
+    "word": "potatoes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "For a label on one jar, what is the singular of berries?",
+   "input": {
+    "word": "berries"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "just one of the women - what is the singular",
+   "input": {
+    "word": "women"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "singular noun for phenomena, please",
+   "input": {
+    "word": "phenomena"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "My student wrote \"a data\". What is the actual singular of data?",
+   "input": {
+    "word": "data"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "Could you give me the singular of the noun \"indices\"?",
+   "input": {
+    "word": "indices"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "what is fungi in the singular",
+   "input": {
+    "word": "fungi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "depluralise leaves",
+   "input": {
+    "word": "leaves"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "singular of dice?",
+   "input": {
+    "word": "dice"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "Changing a menu item to just one: singular of oysters",
+   "input": {
+    "word": "oysters"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "what is the singular of people",
+   "input": {
+    "word": "people"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "one of the oxen is called a what? singular please",
+   "input": {
+    "word": "oxen"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "singular version of \"boxes\"",
+   "input": {
+    "word": "boxes"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "what's the singular of stimuli",
+   "input": {
+    "word": "stimuli"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "Please give me the singular for \"parties\".",
+   "input": {
+    "word": "parties"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "singularize",
+   "message": "what is the singular of this word",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "singularize",
+   "message": "make the plural word I give you singular",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "any spelling errors here? I recieved your letter on wensday.",
+   "input": {
+    "text": "I recieved your letter on wensday."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "check the spelling of: The resturant was definately worth the wait.",
+   "input": {
+    "text": "The resturant was definately worth the wait."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "Please proofread for misspellings - \"Our new collegue starts tommorow.\"",
+   "input": {
+    "text": "Our new collegue starts tommorow."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "spellcheck my shop sign: Fresh vegtables and fruite daily",
+   "input": {
+    "text": "Fresh vegtables and fruite daily"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "I am a nurse writing a handover. Can you catch any misspelled words? Pateint has a temprature and complains of nausia.",
+   "input": {
+    "text": "Pateint has a temprature and complains of nausia."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "misspelt words in this? We had a wonderfull time at the begining of the holliday.",
+   "input": {
+    "text": "We had a wonderfull time at the begining of the holliday."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "spelling check, 1 suggestion per word only: Plese send the docuemnts by Friday.",
+   "input": {
+    "text": "Plese send the docuemnts by Friday.",
+    "suggestions": 1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "Does this have spelling mistakes? 'The goverment anounced new rules.'",
+   "input": {
+    "text": "The goverment anounced new rules."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "Run a spell check on my essay intro:\n\nShakespere wrote many plays. His most famus tragedy is Hamlet.",
+   "input": {
+    "text": "Shakespere wrote many plays. His most famus tragedy is Hamlet."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "spell check these two words and give 5 suggestions each: accomodate seperate",
+   "input": {
+    "text": "accomodate seperate",
+    "suggestions": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "can u spell check this text msg - see u at the libary at fore",
+   "input": {
+    "text": "see u at the libary at fore"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "Check my cover letter line for spelling: I am a highly motivted and reliabel worker.",
+   "input": {
+    "text": "I am a highly motivted and reliabel worker."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "spelling mistakes in my recipe? Add the suger and stirr untill smooth.",
+   "input": {
+    "text": "Add the suger and stirr untill smooth."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "Is anything misspelled in \"Thier dog barked all nite\"?",
+   "input": {
+    "text": "Thier dog barked all nite"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "spell-check this patch note: Fixed a bugg where the invetory would dissapear.",
+   "input": {
+    "text": "Fixed a bugg where the invetory would dissapear."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "Mark any incorrectly spelled words, no suggestions needed (0): The commitee will meet tomorow.",
+   "input": {
+    "text": "The commitee will meet tomorow.",
+    "suggestions": 0
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "look for spelling errors in my newsletter: Thank you to all the volenteers who helpped at the fair.",
+   "input": {
+    "text": "Thank you to all the volenteers who helpped at the fair."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "proof the spelling: Your apointment is confirmd for Tuesday.",
+   "input": {
+    "text": "Your apointment is confirmd for Tuesday."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "check spelling in my essay before I hand it in",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "can you catch the spelling mistakes in my report",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "look for misspelled words in the email I am about to send",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "check my cover letter for spelling errors, 2 suggestions each",
+   "input": {
+    "suggestions": 2
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "is my blog post spelled correctly?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "spellCheck",
+   "message": "proofread the spelling in my notes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "which version is later, 3.4.1 or 3.10.0?",
+   "input": {
+    "a": "3.4.1",
+    "b": "3.10.0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "compare versions 0.9.12 and 0.10.1, which one is the later release",
+   "input": {
+    "a": "0.9.12",
+    "b": "0.10.1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "my lockfile has 4.17.21 and the registry has 4.17.3 - which one is newer?",
+   "input": {
+    "a": "4.17.21",
+    "b": "4.17.3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "semver compare: 2.0.0-rc.1 vs 2.0.0",
+   "input": {
+    "a": "2.0.0-rc.1",
+    "b": "2.0.0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "Should I upgrade? I am on 1.8.4 and the latest release is 1.12.0. Which is the newer version?",
+   "input": {
+    "a": "1.8.4",
+    "b": "1.12.0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "which is newer, 5.1.0 or 5.0.9 - for my changelog",
+   "input": {
+    "a": "5.1.0",
+    "b": "5.0.9"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "does 7.2.0-beta.3 come before or after 7.2.0-beta.11?",
+   "input": {
+    "a": "7.2.0-beta.3",
+    "b": "7.2.0-beta.11"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "Our plugin needs 2.3.0 and the server runs 2.2.15. Which version is newer?",
+   "input": {
+    "a": "2.3.0",
+    "b": "2.2.15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "compare versions 12.1.4 and 12.1.40",
+   "input": {
+    "a": "12.1.4",
+    "b": "12.1.40"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "Which release is more recent: 3.0.0-alpha or 3.0.0-beta?",
+   "input": {
+    "a": "3.0.0-alpha",
+    "b": "3.0.0-beta"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "is 1.0.0+build.5 the same version as 1.0.0+build.9?",
+   "input": {
+    "a": "1.0.0+build.9",
+    "b": "1.0.0+build.5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "game launcher shows 0.31.2 installed, patch notes mention 0.31.10. which is newer",
+   "input": {
+    "a": "0.31.2",
+    "b": "0.31.10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "Is version 6.0.1 greater than 6.0.0-rc.4?",
+   "input": {
+    "a": "6.0.1",
+    "b": "6.0.0-rc.4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "tell me which semantic version wins: 2.9.9 vs 3.0.0",
+   "input": {
+    "a": "2.9.9",
+    "b": "3.0.0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "are 4.2.0 and 4.2.0 equal versions or is one newer?",
+   "input": {
+    "a": "4.2.0",
+    "b": "4.2.0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "Comparing two app builds for the release notes: is 8.14.0 newer than 8.9.3?",
+   "input": {
+    "a": "8.14.0",
+    "b": "8.9.3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "which version is newer, 1.2.3-rc.2 or 1.2.3-rc.10",
+   "input": {
+    "a": "1.2.3-rc.2",
+    "b": "1.2.3-rc.10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "v2.4.0 or v2.4.1 - which is newest?",
+   "input": {
+    "a": "v2.4.0",
+    "b": "v2.4.1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "Is 15.0.0 more recent than 9.12.7 in semver terms?",
+   "input": {
+    "a": "15.0.0",
+    "b": "9.12.7"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "npm says 0.0.9 and docs say 0.0.10, which one is actually newer?",
+   "input": {
+    "a": "0.0.9",
+    "b": "0.0.10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "order these two versions, oldest first: 5.5.0 and 5.4.12",
+   "input": {
+    "a": "5.5.0",
+    "b": "5.4.12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "We ship 1.9.0 today; QA has a 1.10.0-beta build. Compare the two versions - is the beta ahead?",
+   "input": {
+    "a": "1.10.0-beta",
+    "b": "1.9.0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "is 3.2.0 newer than the version I have installed?",
+   "input": {
+    "a": "3.2.0"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "compareSemver",
+   "message": "which of my two package versions is the newer one?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cronToText",
+   "message": "explain this crontab entry in plain English: 30 2 * * *",
+   "input": {
+    "expression": "30 2 * * *"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "when will */15 * * * * fire?",
+   "input": {
+    "expression": "*/15 * * * *"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "what does the cron 0 0 1 * * actually do",
+   "input": {
+    "expression": "0 0 1 * *"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "Our backup job is scheduled as \"0 3 * * 0\". Can you put that cron into words?",
+   "input": {
+    "expression": "0 3 * * 0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "cron schedule 45 17 * * 1-5 in English please",
+   "input": {
+    "expression": "45 17 * * 1-5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "I inherited a server with this cron line and no comments: 0 */6 * * *. What is the schedule?",
+   "input": {
+    "expression": "0 */6 * * *"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "describe 0 9,13,17 * * * as a cron schedule",
+   "input": {
+    "expression": "0 9,13,17 * * *"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "How often does 5 4 * * 6 run in cron?",
+   "input": {
+    "expression": "5 4 * * 6"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "human readable version of the cron expression 0 12 15 * *",
+   "input": {
+    "expression": "0 12 15 * *"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "cron: 0 8 * 1 1 - explain",
+   "input": {
+    "expression": "0 8 * 1 1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "Can you decode this cron timing for me? 15 10 * * 2,4",
+   "input": {
+    "expression": "15 10 * * 2,4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "my reminder bot uses \"0 18 * * 5\" as its cron. When does that go off?",
+   "input": {
+    "expression": "0 18 * * 5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "turn the cron expression 0 0 * * * into a sentence",
+   "input": {
+    "expression": "0 0 * * *"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "what time does cron 30 6 * * 1 trigger",
+   "input": {
+    "expression": "30 6 * * 1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "Explain the crontab expression 0 22 * * 1-4",
+   "input": {
+    "expression": "0 22 * * 1-4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "plain english for cron 0 */2 * * 1-5 please",
+   "input": {
+    "expression": "0 */2 * * 1-5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "Read this cron for me: 10 0 1 1 *",
+   "input": {
+    "expression": "10 0 1 1 *"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "the CI pipeline runs on 0 4 * * 1. what does that cron mean in normal words",
+   "input": {
+    "expression": "0 4 * * 1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cronToText",
+   "message": "I don't understand the cron line in my config file, can you explain it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cronToText",
+   "message": "what does my crontab line mean in plain English?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cronToText",
+   "message": "when does the cron job I am about to paste run",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cronToText",
+   "message": "put my cron expression into words",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cronToText",
+   "message": "translate the cron timing from our deploy script",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cronToText",
+   "message": "can you read the cron string from our backup job for me",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "regex-escape this: $5.00",
+   "input": {
+    "text": "$5.00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "escape special regex characters in example.com",
+   "input": {
+    "text": "example.com"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "I want to match the literal string \"[draft]\" in a pattern. Escape it for me.",
+   "input": {
+    "text": "[draft]"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "Need a literal regex for (optional) - escape it please",
+   "input": {
+    "text": "(optional)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "make *.txt safe to use literally in a regular expression",
+   "input": {
+    "text": "*.txt"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "regex escape the question marks in: what? really?!",
+   "input": {
+    "text": "what? really?!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "Can you backslash-escape this for a regex? 1+1=2",
+   "input": {
+    "text": "1+1=2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "escape ERROR [db] for a regex so I can grep logs for it exactly",
+   "input": {
+    "text": "ERROR [db]"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "regex literal for C:\\Users\\kim please, escaped",
+   "input": {
+    "text": "C:\\Users\\kim"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "escape the metacharacters in ^start|end$",
+   "input": {
+    "text": "^start|end$"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "Please escape {name} so my regex matches the braces literally",
+   "input": {
+    "text": "{name}"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "escape this price string for a regular expression: £9.99 (sale)",
+   "input": {
+    "text": "£9.99 (sale)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "escape v1.2.3 for a regex so the dots match literally",
+   "input": {
+    "text": "v1.2.3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "escape regex specials: a/b/c?x=1",
+   "input": {
+    "text": "a/b/c?x=1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "what is the regex-escaped form of node.js",
+   "input": {
+    "text": "node.js"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "Escape the special characters in \"Q&A (beta)\" for a regex pattern.",
+   "input": {
+    "text": "Q&A (beta)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "turn hello.world* into a literal regex",
+   "input": {
+    "text": "hello.world*"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "escape for use in a regex: [1-5]+",
+   "input": {
+    "text": "[1-5]+"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "escape my search string for a regex",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "escape the filename I give you so it works literally in a regex",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "escape the special characters in my text so the regex matches it literally",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "I need the URL from my config escaped for a regular expression",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "regex escape the string below please",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "escapeRegex",
+   "message": "can you escape this snippet for a pattern match",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "what is http status 418",
+   "input": {
+    "code": 418
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "my API keeps returning 422, what does that status code mean?",
+   "input": {
+    "code": 422
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "HTTP 502 meaning",
+   "input": {
+    "code": 502
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "Got a 401 from the server when logging in. What is that status?",
+   "input": {
+    "code": 401
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "explain status code 204",
+   "input": {
+    "code": 204
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "what does a 307 response code mean",
+   "input": {
+    "code": 307
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "The website shows error 500. What does that HTTP status mean?",
+   "input": {
+    "code": 500
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "status 409, what is it?",
+   "input": {
+    "code": 409
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "Can you look up HTTP code 451 for me?",
+   "input": {
+    "code": 451
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "what's a 304 not-something in http",
+   "input": {
+    "code": 304
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "meaning of http response 201",
+   "input": {
+    "code": 201
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "I keep seeing 403 in our nginx logs - what does that status code mean?",
+   "input": {
+    "code": 403
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "http code 100 means what",
+   "input": {
+    "code": 100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "Look up status code 504 please",
+   "input": {
+    "code": 504
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "what does HTTP status 410 tell the client",
+   "input": {
+    "code": 410
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "my game launcher failed with HTTP 408, what is that",
+   "input": {
+    "code": 408
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "define http status 302",
+   "input": {
+    "code": 302
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "Uploading a file gave me HTTP status 413. Meaning?",
+   "input": {
+    "code": 413
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "what is a 405 http error",
+   "input": {
+    "code": 405
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "HTTP status code 206 - what does it signify?",
+   "input": {
+    "code": 206
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "is 511 a real http status code? what does it mean",
+   "input": {
+    "code": 511
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "webhook returned 400. what is that http status",
+   "input": {
+    "code": 400
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "what does the http status code in my error log mean?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "httpStatusLookup",
+   "message": "look up the HTTP status my server just returned",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "what claims are in this JWT? eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MiIsIm5hbWUiOiJSYXZpIiwicm9sZSI6ImFkbWluIn0.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI0MiIsIm5hbWUiOiJSYXZpIiwicm9sZSI6ImFkbWluIn0.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "when does this token expire? eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzc3IiwiZXhwIjoxNzY3MjI1NjAwfQ.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyXzc3IiwiZXhwIjoxNzY3MjI1NjAwfQ.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "Decode the JSON web token our login API returned:\neyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoLmV4YW1wbGUuY29tIiwiYXVkIjoic2hvcCIsInN1YiI6IjkifQ.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhdXRoLmV4YW1wbGUuY29tIiwiYXVkIjoic2hvcCIsInN1YiI6IjkifQ.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "decode this jwt and show the header and payload: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJudXJzZTAxIiwic2NvcGUiOiJyZWFkOmNoYXJ0cyJ9.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJudXJzZTAxIiwic2NvcGUiOiJyZWFkOmNoYXJ0cyJ9.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "Which signing algorithm does this jwt use? eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMsInBsYW4iOiJwcm8ifQ.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOjMsInBsYW4iOiJwcm8ifQ.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "jwt payload please - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnYW1lciIsImlhdCI6MTcwMDAwMDAwMH0.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnYW1lciIsImlhdCI6MTcwMDAwMDAwMH0.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "Our frontend gets this JWT. Can you decode it and tell me what user it belongs to? eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFteUBleGFtcGxlLmNvbSIsImFkbWluIjpmYWxzZX0.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFteUBleGFtcGxlLmNvbSIsImFkbWluIjpmYWxzZX0.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "inspect token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3IiwiZXhwIjoxNzAwMDAzNjAwLCJpYXQiOjE3MDAwMDAwMDB9.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3IiwiZXhwIjoxNzAwMDAzNjAwLCJpYXQiOjE3MDAwMDAwMDB9.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "Decode this JWT so I can check the tenant claim: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnQiOiJhY21lIiwic3ViIjoiODgifQ.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnQiOiJhY21lIiwic3ViIjoiODgifQ.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJraWQiLCJsZXZlbCI6MTJ9.c2ln <- what's inside this jwt",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJraWQiLCJsZXZlbCI6MTJ9.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "Could you read the payload of this JSON Web Token for me? \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVGVhY2hlciBKbyIsInN1YiI6InQ1In0.c2ln\"",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiVGVhY2hlciBKbyIsInN1YiI6InQ1In0.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "what scope does this access token grant? eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhcGkiLCJzY29wZSI6IndyaXRlIn0.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhcGkiLCJzY29wZSI6IndyaXRlIn0.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "Debugging auth. Is there a not-before claim in this jwt? eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ4MSIsIm5iZiI6MTc2MDAwMDAwMH0.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ4MSIsIm5iZiI6MTc2MDAwMDAwMH0.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "decode jwt: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoidmlld2VyIiwic3ViIjoiNTUifQ.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoidmlld2VyIiwic3ViIjoiNTUifQ.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "My nephew set up my account and left me this token. What does it say inside? eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyZXRpcmVlIiwibGFuZyI6ImVuIn0.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJyZXRpcmVlIiwibGFuZyI6ImVuIn0.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "Base64-decode the parts of this JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjaGVmIiwia2l0Y2hlbiI6Im5vcnRoIn0.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJjaGVmIiwia2l0Y2hlbiI6Im5vcnRoIn0.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "quick look at the claims in eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhY2N0IiwibGVkZ2VyIjoiMjAyNiJ9.c2ln please",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhY2N0IiwibGVkZ2VyIjoiMjAyNiJ9.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "Unpack this token and list its claims - eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ciIsImNvdW50cnkiOiJQVCJ9.c2ln",
+   "input": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0ciIsImNvdW50cnkiOiJQVCJ9.c2ln"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "this jwt has alg none and an empty signature, decode it anyway: eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiJhbm9uIn0.",
+   "input": {
+    "token": "eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJzdWIiOiJhbm9uIn0."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "what user id is in the jwt my app stored in local storage",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "what claims does my access token contain?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "unpack the json web token I copied from the browser",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "when does my session jwt expire",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "jwtDecode",
+   "message": "read the expiry out of my login token (it's a JWT)",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "what's the MIME type of an .flac audio file",
+   "input": {
+    "query": "flac"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "what MIME type should I serve a .webp image with",
+   "input": {
+    "query": "webp"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "Which file extensions map to application/json?",
+   "input": {
+    "query": "application/json"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "mime for mp4",
+   "input": {
+    "query": "mp4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "I'm uploading invoice.csv to S3, what MIME type should it have?",
+   "input": {
+    "query": "invoice.csv"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "which file extension goes with the mime type text/markdown",
+   "input": {
+    "query": "text/markdown"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "MIME type of a .docx document",
+   "input": {
+    "query": "docx"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "Our nginx is serving .wasm files wrong. What is the right MIME type for wasm?",
+   "input": {
+    "query": "wasm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "what mime type is a .7z archive",
+   "input": {
+    "query": "7z"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "which extensions use the mime type audio/mpeg",
+   "input": {
+    "query": "audio/mpeg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "Content-Type for a zip archive?",
+   "input": {
+    "query": "zip"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "mime type lookup: notes.yaml",
+   "input": {
+    "query": "notes.yaml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "MIME type for a .mov video?",
+   "input": {
+    "query": "mov"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "which extensions does application/octet-stream cover?",
+   "input": {
+    "query": "application/octet-stream"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "mime type for an mkv video",
+   "input": {
+    "query": "mkv"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "Email attachment is budget.xlsx - what mime type is that?",
+   "input": {
+    "query": "budget.xlsx"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "what is the mimetype of a .json file",
+   "input": {
+    "query": "json"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "which extensions belong to image/gif",
+   "input": {
+    "query": "image/gif"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "Content type header for an .avif picture",
+   "input": {
+    "query": "avif"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "mimetype for .otf font",
+   "input": {
+    "query": "otf"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "lookup mime: text/csv - which extensions?",
+   "input": {
+    "query": "text/csv"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "my game mod ships a .ogg file - mime type?",
+   "input": {
+    "query": "ogg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "what MIME type should my uploaded file have?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "message": "look up the content type for the file extension I give you",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "split 4.7.2 into major, minor and patch",
+   "input": {
+    "version": "4.7.2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "What is the major version of 13.2.0?",
+   "input": {
+    "version": "13.2.0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "pull apart v3.0.0-alpha.4 - what is the pre-release part?",
+   "input": {
+    "version": "v3.0.0-alpha.4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "Our build tag is 2.5.1+20260901. Which piece is the build metadata?",
+   "input": {
+    "version": "2.5.1+20260901"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "decompose version 0.14.9",
+   "input": {
+    "version": "0.14.9"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "what minor version is 6.18.3?",
+   "input": {
+    "version": "6.18.3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "Read this semver for me: 1.0.0-rc.3+exp.sha.5114f85",
+   "input": {
+    "version": "1.0.0-rc.3+exp.sha.5114f85"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "patch number of 9.4.27?",
+   "input": {
+    "version": "9.4.27"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "Is 2.0.0-beta a pre-release? break the version into its parts",
+   "input": {
+    "version": "2.0.0-beta"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "release tag v12.0.1 - give me the major, minor and patch numbers",
+   "input": {
+    "version": "v12.0.1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "My game says build 1.4.0-hotfix.2. Can you split that version into its components?",
+   "input": {
+    "version": "1.4.0-hotfix.2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "semver breakdown of 3.11.0",
+   "input": {
+    "version": "3.11.0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "tell me major/minor/patch for 0.0.7",
+   "input": {
+    "version": "0.0.7"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "Parse the version string 5.2.0-preview.1 into fields.",
+   "input": {
+    "version": "5.2.0-preview.1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "in 8.1.12 which number is the major, minor and patch?",
+   "input": {
+    "version": "8.1.12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "break up 7.0.0+build.88 into major minor patch and metadata",
+   "input": {
+    "version": "7.0.0+build.88"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "Can you split version 22.3.1 for my release spreadsheet?",
+   "input": {
+    "version": "22.3.1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "pre-release label in 4.0.0-rc.2?",
+   "input": {
+    "version": "4.0.0-rc.2"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "decode version number 1.9.3 into its pieces",
+   "input": {
+    "version": "1.9.3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "Is the patch level of 3.3.10 really ten? split it for me",
+   "input": {
+    "version": "3.3.10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "components of semver 0.2.0-dev",
+   "input": {
+    "version": "0.2.0-dev"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "show major, minor, patch for v2.8.6",
+   "input": {
+    "version": "v2.8.6"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "split the version number of my app into major, minor and patch",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "parseSemver",
+   "message": "what is the pre-release tag in our current release version?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "testRegex",
+   "message": "run the regex \\d{3}-\\d{4} over: call 555-1234 or 555-9876",
+   "input": {
+    "pattern": "\\d{3}-\\d{4}",
+    "text": "call 555-1234 or 555-9876"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "what does [A-Z]\\w+ match in \"Alice met Bob in Paris\"?",
+   "input": {
+    "pattern": "[A-Z]\\w+",
+    "text": "Alice met Bob in Paris"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "Test the pattern ^#\\w+ with flags gm against:\n#todo buy milk\nnote\n#done call mum",
+   "input": {
+    "pattern": "^#\\w+",
+    "flags": "gm",
+    "text": "#todo buy milk\nnote\n#done call mum"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "I wrote \\b\\w+@\\w+\\.com\\b to catch emails. Try it on this: contact amy@shop.com or bo@mail.com today",
+   "input": {
+    "pattern": "\\b\\w+@\\w+\\.com\\b",
+    "text": "contact amy@shop.com or bo@mail.com today"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "test the regex colou?r against: color, colour, colr",
+   "input": {
+    "pattern": "colou?r",
+    "text": "color, colour, colr"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "regex test, case-insensitive (flags gi): pattern cat, text: Cat CAT cat dog",
+   "input": {
+    "pattern": "cat",
+    "flags": "gi",
+    "text": "Cat CAT cat dog"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "Which bits of \"order #123, order #4567\" does #(\\d+) pick up?",
+   "input": {
+    "pattern": "#(\\d+)",
+    "text": "order #123, order #4567"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "apply the regex \\d+(\\.\\d+)? to \"it costs 4.50 or 12\"",
+   "input": {
+    "pattern": "\\d+(\\.\\d+)?",
+    "text": "it costs 4.50 or 12"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "Does ^\\d{5}$ match the postcode 90210?",
+   "input": {
+    "pattern": "^\\d{5}$",
+    "text": "90210"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "I teach a coding club. Test the regex (ha)+ against \"hahaha he ha\" and show the matches",
+   "input": {
+    "pattern": "(ha)+",
+    "text": "hahaha he ha"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "pattern [aeiou] on the word \"rhythm\" - any hits?",
+   "input": {
+    "pattern": "[aeiou]",
+    "text": "rhythm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "Run the regex \\$\\d+ against my notes: lunch $12, taxi $30, tip 5",
+   "input": {
+    "pattern": "\\$\\d+",
+    "text": "lunch $12, taxi $30, tip 5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "what matches does \\b[A-Z]{2,}\\b give on \"the NHS and BBC said OK\"",
+   "input": {
+    "pattern": "\\b[A-Z]{2,}\\b",
+    "text": "the NHS and BBC said OK"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "test regex ERROR.* against this log line: 10:02 ERROR disk full",
+   "input": {
+    "pattern": "ERROR.*",
+    "text": "10:02 ERROR disk full"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "Check my date regex \\d{4}-\\d{2}-\\d{2} on \"due 2026-10-01, paid 2026-10-05\"",
+   "input": {
+    "pattern": "\\d{4}-\\d{2}-\\d{2}",
+    "text": "due 2026-10-01, paid 2026-10-05"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "see what \\bthe\\b catches in: the other theme is the best",
+   "input": {
+    "pattern": "\\bthe\\b",
+    "text": "the other theme is the best"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "Try the pattern x{2,3} on xx xxx xxxx and list the matches",
+   "input": {
+    "pattern": "x{2,3}",
+    "text": "xx xxx xxxx"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "regex matches for [0-9]+kg in \"bag 20kg, case 5kg, box 3 lb\"",
+   "input": {
+    "pattern": "[0-9]+kg",
+    "text": "bag 20kg, case 5kg, box 3 lb"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "testRegex",
+   "message": "run my regex \\d+ over the log file I paste next",
+   "input": {
+    "pattern": "\\d+"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "testRegex",
+   "message": "test the pattern ^[A-Z] against my list of names",
+   "input": {
+    "pattern": "^[A-Z]"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "testRegex",
+   "message": "what does my email regex match in my sample data?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "testRegex",
+   "message": "test my regex \\w+@\\w+ on the contact list I'm pasting",
+   "input": {
+    "pattern": "\\w+@\\w+"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "testRegex",
+   "message": "show every match my pattern makes on the sample below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "testRegex",
+   "message": "regex check: does my pattern catch anything in the paragraph I have?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "what is the unicode code point of €",
+   "input": {
+    "query": "€"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "tell me about U+00E9",
+   "input": {
+    "query": "U+00E9"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "Which character is called EM DASH, and what are its encodings?",
+   "input": {
+    "query": "EM DASH"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "unicode lookup for ß with its utf-8 bytes",
+   "input": {
+    "query": "ß"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "look up U+2603 in unicode",
+   "input": {
+    "query": "U+2603"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "what's the name of this symbol: ¶",
+   "input": {
+    "query": "¶"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "Unicode details for the heart ♥ please",
+   "input": {
+    "query": "♥"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "find the character named BLACK STAR",
+   "input": {
+    "query": "BLACK STAR"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "What code point is ñ? I need it for a Spanish worksheet.",
+   "input": {
+    "query": "ñ"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "unicode lookup: U+1F600",
+   "input": {
+    "query": "U+1F600"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "my game font shows a box for → , what unicode character is it?",
+   "input": {
+    "query": "→"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "show the UTF-16 encoding of ©",
+   "input": {
+    "query": "©"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "look up the unicode character NO-BREAK SPACE",
+   "input": {
+    "query": "NO-BREAK SPACE"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "unicode code point and name for the degree sign °",
+   "input": {
+    "query": "°"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "What is U+00A3 called?",
+   "input": {
+    "query": "U+00A3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "character lookup for ∞",
+   "input": {
+    "query": "∞"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "Could you tell me the code point and name for ü?",
+   "input": {
+    "query": "ü"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "unicode name and hex for ✓",
+   "input": {
+    "query": "✓"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "look up the character GREEK SMALL LETTER PI",
+   "input": {
+    "query": "GREEK SMALL LETTER PI"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "what is codepoint U+0041",
+   "input": {
+    "query": "U+0041"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "Pasted text has a weird ‽ in it. What unicode character is that?",
+   "input": {
+    "query": "‽"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "encodings for the yen sign ¥",
+   "input": {
+    "query": "¥"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "what unicode character is the weird symbol in my document",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "unicodeLookup",
+   "message": "look up the code point of the emoji I am about to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "I take home £2,200 a month. How should that break down under 50/30/20?",
+   "input": {
+    "income": 2200
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "apply the 70/20/10 rule to my 1800 paycheck",
+   "input": {
+    "income": 1800,
+    "preset": "70/20/10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "budget categories for $4,500 using 60/20/20 please",
+   "input": {
+    "income": 4500,
+    "preset": "60/20/20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "First job! Salary is 1650 after tax. Budget it into needs, wants and savings the 50/30/20 way.",
+   "input": {
+    "income": 1650
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "budget 2750 with my own percentages: rent 45, bills 25, fun 10, savings 20",
+   "input": {
+    "income": 2750,
+    "ratios": [
+     45,
+     25,
+     10,
+     20
+    ],
+    "labels": [
+     "rent",
+     "bills",
+     "fun",
+     "savings"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "budget split for a 3,900 monthly income into needs, wants and savings",
+   "input": {
+    "income": 3900
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "Budget €1,200 of student loan money 60/20/20 for the term.",
+   "input": {
+    "income": 1200,
+    "preset": "60/20/20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "my pension is 1450 a month, can you do a 70/20/10 budget split on it",
+   "input": {
+    "income": 1450,
+    "preset": "70/20/10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "budget 5200 as 50 percent housing, 30 percent living and 20 percent investing",
+   "input": {
+    "income": 5200,
+    "ratios": [
+     50,
+     30,
+     20
+    ],
+    "labels": [
+     "housing",
+     "living",
+     "investing"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "What would a 50/30/20 budget look like for $6,100?",
+   "input": {
+    "income": 6100
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "Our shop pays me 2,050 a month. Budget it 60/20/20.",
+   "input": {
+    "income": 2050,
+    "preset": "60/20/20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "budget 950 by percentage: 70 essentials, 30 extras",
+   "input": {
+    "income": 950,
+    "ratios": [
+     70,
+     30
+    ],
+    "labels": [
+     "essentials",
+     "extras"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "budget split 2600",
+   "input": {
+    "income": 2600
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "Budget split for my 3,250 wage: 55% bills, 25% spending, 20% savings.",
+   "input": {
+    "income": 3250,
+    "ratios": [
+     55,
+     25,
+     20
+    ],
+    "labels": [
+     "bills",
+     "spending",
+     "savings"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "freelance month came in at 4,780 - split it with the 70/20/10 rule",
+   "input": {
+    "income": 4780,
+    "preset": "70/20/10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "how should a nurse on 2,350 a month divide it using fifty thirty twenty",
+   "input": {
+    "income": 2350
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "Budget split for £800 pocket money: spend 40, save 40 and give 20 percent",
+   "input": {
+    "income": 800,
+    "ratios": [
+     40,
+     40,
+     20
+    ],
+    "labels": [
+     "spend",
+     "save",
+     "give"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "needs/wants/savings budget for 2,999.50",
+   "input": {
+    "income": 2999.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "I just got a bonus of 1,500. Split it 60/20/20 into categories.",
+   "input": {
+    "income": 1500,
+    "preset": "60/20/20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "what does 70/20/10 give me on 3,600?",
+   "input": {
+    "income": 3600,
+    "preset": "70/20/10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "teacher salary 2,480 per month, 50/30/20 breakdown please",
+   "input": {
+    "income": 2480
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "Make a budget from 4,000: 35% mortgage, 15% food, 30% other, 20% savings",
+   "input": {
+    "income": 4000,
+    "ratios": [
+     35,
+     15,
+     30,
+     20
+    ],
+    "labels": [
+     "mortgage",
+     "food",
+     "other",
+     "savings"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "50/30/20 budget on the money I earn each month",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "budgetSplit",
+   "message": "budget my take-home pay with the 70/20/10 method",
+   "input": {
+    "preset": "70/20/10"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "find common working hours for a call between Sydney and Vancouver",
+   "input": {
+    "participants": [
+     "Sydney",
+     "Vancouver"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "find a time when Berlin, Toronto and Dubai are all in office hours",
+   "input": {
+    "participants": [
+     "Berlin",
+     "Toronto",
+     "Dubai"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "Our team is in Europe/Paris and America/Chicago. When can we meet during working hours?",
+   "input": {
+    "participants": [
+     "Europe/Paris",
+     "America/Chicago"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "common working hours for Singapore and Madrid if the day runs 8 to 18",
+   "input": {
+    "participants": [
+     "Singapore",
+     "Madrid"
+    ],
+    "workStart": 8,
+    "workEnd": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "meeting time for a standup with devs in Lagos, Lisbon and Sao Paulo?",
+   "input": {
+    "participants": [
+     "Lagos",
+     "Lisbon",
+     "Sao Paulo"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "when can Auckland and Dublin meet in office hours",
+   "input": {
+    "participants": [
+     "Auckland",
+     "Dublin"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "I run a small online shop. Is there a meeting time inside working hours for my supplier in Hong Kong and accountant in Denver?",
+   "input": {
+    "participants": [
+     "Hong Kong",
+     "Denver"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "meeting hours that work for Asia/Seoul and Europe/Warsaw on 2026-12-01",
+   "input": {
+    "participants": [
+     "Asia/Seoul",
+     "Europe/Warsaw"
+    ],
+    "on": "2026-12-01"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "Can New York, Mexico City and Vancouver find a common meeting hour if everyone works 10 till 18?",
+   "input": {
+    "participants": [
+     "New York",
+     "Mexico City",
+     "Vancouver"
+    ],
+    "workStart": 10,
+    "workEnd": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "common working window for Nairobi and Stockholm",
+   "input": {
+    "participants": [
+     "Nairobi",
+     "Stockholm"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "family call: when can Manila and Chicago meet, both working 9-17?",
+   "input": {
+    "participants": [
+     "Manila",
+     "Chicago"
+    ],
+    "workStart": 9,
+    "workEnd": 17
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "Which hours work for Istanbul, Cairo and Johannesburg offices together?",
+   "input": {
+    "participants": [
+     "Istanbul",
+     "Cairo",
+     "Johannesburg"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "meeting overlap Tokyo + Bangkok",
+   "input": {
+    "participants": [
+     "Tokyo",
+     "Bangkok"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "when can America/Los_Angeles and Europe/London meet in working hours on 2026-11-02?",
+   "input": {
+    "participants": [
+     "America/Los_Angeles",
+     "Europe/London"
+    ],
+    "on": "2026-11-02"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "Is there any hour when Sydney, Singapore and Berlin are all inside the working day?",
+   "input": {
+    "participants": [
+     "Sydney",
+     "Singapore",
+     "Berlin"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "overlapping work hours for Toronto and Lagos, assuming 7 to 15",
+   "input": {
+    "participants": [
+     "Toronto",
+     "Lagos"
+    ],
+    "workStart": 7,
+    "workEnd": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "Our guild needs a meeting time in working hours for Seoul and Paris",
+   "input": {
+    "participants": [
+     "Seoul",
+     "Paris"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "find shared business hours: Dubai, London, New York",
+   "input": {
+    "participants": [
+     "Dubai",
+     "London",
+     "New York"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "meeting window across Auckland and Tokyo working hours",
+   "input": {
+    "participants": [
+     "Auckland",
+     "Tokyo"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "common hours between Madrid and Mexico City for a weekly sync",
+   "input": {
+    "participants": [
+     "Madrid",
+     "Mexico City"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "when can Lisbon, Stockholm, Istanbul and Dubai all meet in working hours?",
+   "input": {
+    "participants": [
+     "Lisbon",
+     "Stockholm",
+     "Istanbul",
+     "Dubai"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "common working hours for Denver and Hong Kong on 2027-01-15",
+   "input": {
+    "participants": [
+     "Denver",
+     "Hong Kong"
+    ],
+    "on": "2027-01-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "find a meeting time that suits everyone on my team across their time zones",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "message": "common working hours across the time zones of my team",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "meditation habit completion rate: did it on 2026-08-02, 2026-08-03, 2026-08-05 and 2026-08-09, period 2026-08-01 to 2026-08-10",
+   "input": {
+    "dates": [
+     "2026-08-02",
+     "2026-08-03",
+     "2026-08-05",
+     "2026-08-09"
+    ],
+    "from": "2026-08-01",
+    "to": "2026-08-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "gym days: 2026-09-01, 2026-09-03, 2026-09-05. Period 2026-09-01 to 2026-09-07. completion rate?",
+   "input": {
+    "dates": [
+     "2026-09-01",
+     "2026-09-03",
+     "2026-09-05"
+    ],
+    "from": "2026-09-01",
+    "to": "2026-09-07"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Between 2026-07-01 and 2026-07-14 I practised piano on 2026-07-01, 2026-07-02, 2026-07-04, 2026-07-07, 2026-07-08, 2026-07-11 and 2026-07-13. What is my habit completion rate?",
+   "input": {
+    "dates": [
+     "2026-07-01",
+     "2026-07-02",
+     "2026-07-04",
+     "2026-07-07",
+     "2026-07-08",
+     "2026-07-11",
+     "2026-07-13"
+    ],
+    "from": "2026-07-01",
+    "to": "2026-07-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "habit rate for walking 10k steps: done 2026-08-20, 2026-08-21, 2026-08-24, 2026-08-25 out of 2026-08-20 to 2026-08-26",
+   "input": {
+    "dates": [
+     "2026-08-20",
+     "2026-08-21",
+     "2026-08-24",
+     "2026-08-25"
+    ],
+    "from": "2026-08-20",
+    "to": "2026-08-26"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Habit tracker export: 2026-06-03, 2026-06-10, 2026-06-17, 2026-06-24. Period 2026-06-01 to 2026-06-30. Give me the completion rate.",
+   "input": {
+    "dates": [
+     "2026-06-03",
+     "2026-06-10",
+     "2026-06-17",
+     "2026-06-24"
+    ],
+    "from": "2026-06-01",
+    "to": "2026-06-30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "vitamins habit: took them on 2026-08-11 and 2026-08-12 only. Completion rate for 2026-08-10 to 2026-08-16?",
+   "input": {
+    "dates": [
+     "2026-08-11",
+     "2026-08-12"
+    ],
+    "from": "2026-08-10",
+    "to": "2026-08-16"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Reading habit: from 2026-05-01 to 2026-05-05 I read on 2026-05-01, 2026-05-02, 2026-05-03, 2026-05-04, 2026-05-05. what is my completion rate?",
+   "input": {
+    "dates": [
+     "2026-05-01",
+     "2026-05-02",
+     "2026-05-03",
+     "2026-05-04",
+     "2026-05-05"
+    ],
+    "from": "2026-05-01",
+    "to": "2026-05-05"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "percentage of days I kept up journaling - 2026-08-01 through 2026-08-08, journaled 2026-08-02, 2026-08-04, 2026-08-06, 2026-08-08",
+   "input": {
+    "dates": [
+     "2026-08-02",
+     "2026-08-04",
+     "2026-08-06",
+     "2026-08-08"
+    ],
+    "from": "2026-08-01",
+    "to": "2026-08-08"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "My patient did her physio exercises on 2026-09-02, 2026-09-03 and 2026-09-06. Period 2026-09-01 to 2026-09-07. What share of days did she manage?",
+   "input": {
+    "dates": [
+     "2026-09-02",
+     "2026-09-03",
+     "2026-09-06"
+    ],
+    "from": "2026-09-01",
+    "to": "2026-09-07"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "habit completion % for no-sugar days: 2026-07-20, 2026-07-22, 2026-07-23 between 2026-07-20 and 2026-07-26",
+   "input": {
+    "dates": [
+     "2026-07-20",
+     "2026-07-22",
+     "2026-07-23"
+    ],
+    "from": "2026-07-20",
+    "to": "2026-07-26"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Did Spanish on Duolingo 2026-08-25, 2026-08-26, 2026-08-27, 2026-08-29, 2026-08-30. From 2026-08-25 to 2026-08-31, what percentage of days did I keep the habit?",
+   "input": {
+    "dates": [
+     "2026-08-25",
+     "2026-08-26",
+     "2026-08-27",
+     "2026-08-29",
+     "2026-08-30"
+    ],
+    "from": "2026-08-25",
+    "to": "2026-08-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "how well did I keep my 6am wake-up habit? Managed 2026-04-01, 2026-04-02, 2026-04-08. The period runs 2026-04-01 to 2026-04-10.",
+   "input": {
+    "dates": [
+     "2026-04-01",
+     "2026-04-02",
+     "2026-04-08"
+    ],
+    "from": "2026-04-01",
+    "to": "2026-04-10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Over 2026-03-01 to 2026-03-31 I ran on 2026-03-02, 2026-03-09, 2026-03-16, 2026-03-23, 2026-03-30. Completion rate?",
+   "input": {
+    "dates": [
+     "2026-03-02",
+     "2026-03-09",
+     "2026-03-16",
+     "2026-03-23",
+     "2026-03-30"
+    ],
+    "from": "2026-03-01",
+    "to": "2026-03-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "flossing habit days: 2026-08-28, 2026-08-29, 2026-08-30, 2026-08-31; period 2026-08-25 to 2026-08-31. completion rate?",
+   "input": {
+    "dates": [
+     "2026-08-28",
+     "2026-08-29",
+     "2026-08-30",
+     "2026-08-31"
+    ],
+    "from": "2026-08-25",
+    "to": "2026-08-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Class kept a reading log. Pupil read 2026-09-14, 2026-09-15, 2026-09-17. Term week is 2026-09-14 to 2026-09-18. Completion percentage?",
+   "input": {
+    "dates": [
+     "2026-09-14",
+     "2026-09-15",
+     "2026-09-17"
+    ],
+    "from": "2026-09-14",
+    "to": "2026-09-18"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Calculate my habit success rate: did it 2026-02-01, 2026-02-02, 2026-02-03, 2026-02-10 in the range 2026-02-01 to 2026-02-14",
+   "input": {
+    "dates": [
+     "2026-02-01",
+     "2026-02-02",
+     "2026-02-03",
+     "2026-02-10"
+    ],
+    "from": "2026-02-01",
+    "to": "2026-02-14"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "water intake habit hit on 2026-08-15 and 2026-08-17 - completion rate for 2026-08-15 to 2026-08-18?",
+   "input": {
+    "dates": [
+     "2026-08-15",
+     "2026-08-17"
+    ],
+    "from": "2026-08-15",
+    "to": "2026-08-18"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "I logged guitar practice 2026-01-05, 2026-01-06, 2026-01-12, 2026-01-13, 2026-01-19. Over 2026-01-05 to 2026-01-25 how often did I keep the habit, as a percentage?",
+   "input": {
+    "dates": [
+     "2026-01-05",
+     "2026-01-06",
+     "2026-01-12",
+     "2026-01-13",
+     "2026-01-19"
+    ],
+    "from": "2026-01-05",
+    "to": "2026-01-25"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "what percentage of days did I keep my habit last month? I have the dates in my tracker",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "work out my habit completion rate from the dates in my log",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "how consistent was I with my yoga habit, using the days I ticked off?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "completion rate for my reading habit from 2026-08-01 to 2026-08-31 using my log",
+   "input": {
+    "from": "2026-08-01",
+    "to": "2026-08-31"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "what share of days did I stick to my diet? dates are in my app",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "habit rate for the days I went running, period below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "rank these by priority: fix boiler (importance 5, urgency 5, effort 3), book dentist (importance 3, urgency 2, effort 1), clean garage (importance 2, urgency 1, effort 4)",
+   "input": {
+    "tasks": [
+     {
+      "task": "fix boiler",
+      "importance": 5,
+      "urgency": 5,
+      "effort": 3
+     },
+     {
+      "task": "book dentist",
+      "importance": 3,
+      "urgency": 2,
+      "effort": 1
+     },
+     {
+      "task": "clean garage",
+      "importance": 2,
+      "urgency": 1,
+      "effort": 4
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "Which should I tackle first? essay: importance 4, urgency 5, effort 4. laundry: importance 2, urgency 3, effort 1.",
+   "input": {
+    "tasks": [
+     {
+      "task": "essay",
+      "importance": 4,
+      "urgency": 5,
+      "effort": 4
+     },
+     {
+      "task": "laundry",
+      "importance": 2,
+      "urgency": 3,
+      "effort": 1
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "Order my shop jobs by priority - restock shelves imp 4 urg 4 eff 2; update website imp 3 urg 2 eff 3; do VAT return imp 5 urg 4 eff 3",
+   "input": {
+    "tasks": [
+     {
+      "task": "restock shelves",
+      "importance": 4,
+      "urgency": 4,
+      "effort": 2
+     },
+     {
+      "task": "update website",
+      "importance": 3,
+      "urgency": 2,
+      "effort": 3
+     },
+     {
+      "task": "do VAT return",
+      "importance": 5,
+      "urgency": 4,
+      "effort": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "I have three things on my plate today. Ward round notes (importance 5, urgency 4, effort 2), order supplies (importance 3, urgency 3, effort 1), update rota (importance 2, urgency 2, effort 2). What order should I do them in?",
+   "input": {
+    "tasks": [
+     {
+      "task": "Ward round notes",
+      "importance": 5,
+      "urgency": 4,
+      "effort": 2
+     },
+     {
+      "task": "order supplies",
+      "importance": 3,
+      "urgency": 3,
+      "effort": 1
+     },
+     {
+      "task": "update rota",
+      "importance": 2,
+      "urgency": 2,
+      "effort": 2
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "prioritize: deploy hotfix 5/5/2, write docs 3/1/3, code review 4/3/1 (importance/urgency/effort)",
+   "input": {
+    "tasks": [
+     {
+      "task": "deploy hotfix",
+      "importance": 5,
+      "urgency": 5,
+      "effort": 2
+     },
+     {
+      "task": "write docs",
+      "importance": 3,
+      "urgency": 1,
+      "effort": 3
+     },
+     {
+      "task": "code review",
+      "importance": 4,
+      "urgency": 3,
+      "effort": 1
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "help me rank: pay credit card (importance 5, urgency 5, effort 1) and plan birthday party (importance 3, urgency 2, effort 4)",
+   "input": {
+    "tasks": [
+     {
+      "task": "pay credit card",
+      "importance": 5,
+      "urgency": 5,
+      "effort": 1
+     },
+     {
+      "task": "plan birthday party",
+      "importance": 3,
+      "urgency": 2,
+      "effort": 4
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "Marking (importance 4, urgency 5, effort 3), lesson plans (importance 5, urgency 3, effort 4), emails to parents (importance 2, urgency 4, effort 1) - put these in priority order please",
+   "input": {
+    "tasks": [
+     {
+      "task": "Marking",
+      "importance": 4,
+      "urgency": 5,
+      "effort": 3
+     },
+     {
+      "task": "lesson plans",
+      "importance": 5,
+      "urgency": 3,
+      "effort": 4
+     },
+     {
+      "task": "emails to parents",
+      "importance": 2,
+      "urgency": 4,
+      "effort": 1
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "what comes first? grind dungeon importance 2 urgency 1 effort 5, finish quest importance 4 urgency 3 effort 2",
+   "input": {
+    "tasks": [
+     {
+      "task": "grind dungeon",
+      "importance": 2,
+      "urgency": 1,
+      "effort": 5
+     },
+     {
+      "task": "finish quest",
+      "importance": 4,
+      "urgency": 3,
+      "effort": 2
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "Prioritise my month-end jobs. Reconcile accounts: importance 5, urgency 5, effort 4. Chase invoices: importance 4, urgency 4, effort 2. File receipts: importance 2, urgency 2, effort 1. Update forecast: importance 3, urgency 2, effort 3.",
+   "input": {
+    "tasks": [
+     {
+      "task": "Reconcile accounts",
+      "importance": 5,
+      "urgency": 5,
+      "effort": 4
+     },
+     {
+      "task": "Chase invoices",
+      "importance": 4,
+      "urgency": 4,
+      "effort": 2
+     },
+     {
+      "task": "File receipts",
+      "importance": 2,
+      "urgency": 2,
+      "effort": 1
+     },
+     {
+      "task": "Update forecast",
+      "importance": 3,
+      "urgency": 2,
+      "effort": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "rank by importance urgency and effort - renew passport 4,3,2 ; mow lawn 1,2,2",
+   "input": {
+    "tasks": [
+     {
+      "task": "renew passport",
+      "importance": 4,
+      "urgency": 3,
+      "effort": 2
+     },
+     {
+      "task": "mow lawn",
+      "importance": 1,
+      "urgency": 2,
+      "effort": 2
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "Can you sort these by priority? prep dinner party (importance 3, urgency 4, effort 4), buy wine (importance 2, urgency 4, effort 1), clean kitchen (importance 3, urgency 3, effort 2)",
+   "input": {
+    "tasks": [
+     {
+      "task": "prep dinner party",
+      "importance": 3,
+      "urgency": 4,
+      "effort": 4
+     },
+     {
+      "task": "buy wine",
+      "importance": 2,
+      "urgency": 4,
+      "effort": 1
+     },
+     {
+      "task": "clean kitchen",
+      "importance": 3,
+      "urgency": 3,
+      "effort": 2
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "priority order for: revise maths importance 5 urgency 4 effort 3, revise french importance 3 urgency 4 effort 3, tidy room importance 1 urgency 1 effort 1",
+   "input": {
+    "tasks": [
+     {
+      "task": "revise maths",
+      "importance": 5,
+      "urgency": 4,
+      "effort": 3
+     },
+     {
+      "task": "revise french",
+      "importance": 3,
+      "urgency": 4,
+      "effort": 3
+     },
+     {
+      "task": "tidy room",
+      "importance": 1,
+      "urgency": 1,
+      "effort": 1
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "Using importance, urgency, effort scores, rank: call plumber 4 5 1, sort pension 5 2 3",
+   "input": {
+    "tasks": [
+     {
+      "task": "call plumber",
+      "importance": 4,
+      "urgency": 5,
+      "effort": 1
+     },
+     {
+      "task": "sort pension",
+      "importance": 5,
+      "urgency": 2,
+      "effort": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "which job do I do first, fix login bug (importance 5, urgency 5, effort 2) or refactor tests (importance 3, urgency 1, effort 3)?",
+   "input": {
+    "tasks": [
+     {
+      "task": "fix login bug",
+      "importance": 5,
+      "urgency": 5,
+      "effort": 2
+     },
+     {
+      "task": "refactor tests",
+      "importance": 3,
+      "urgency": 1,
+      "effort": 3
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "triage my list: book flights - importance 4, urgency 5, effort 2; pack - importance 3, urgency 2, effort 2; get currency - importance 2, urgency 3, effort 1",
+   "input": {
+    "tasks": [
+     {
+      "task": "book flights",
+      "importance": 4,
+      "urgency": 5,
+      "effort": 2
+     },
+     {
+      "task": "pack",
+      "importance": 3,
+      "urgency": 2,
+      "effort": 2
+     },
+     {
+      "task": "get currency",
+      "importance": 2,
+      "urgency": 3,
+      "effort": 1
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "Rank my chores. Hoover: importance 2, urgency 2, effort 2. Bins: importance 3, urgency 5, effort 1.",
+   "input": {
+    "tasks": [
+     {
+      "task": "Hoover",
+      "importance": 2,
+      "urgency": 2,
+      "effort": 2
+     },
+     {
+      "task": "Bins",
+      "importance": 3,
+      "urgency": 5,
+      "effort": 1
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "priority ranking please for grant report (importance 5, urgency 3, effort 5), team lunch booking (importance 1, urgency 3, effort 1)",
+   "input": {
+    "tasks": [
+     {
+      "task": "grant report",
+      "importance": 5,
+      "urgency": 3,
+      "effort": 5
+     },
+     {
+      "task": "team lunch booking",
+      "importance": 1,
+      "urgency": 3,
+      "effort": 1
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "what should come top of my list: order stock importance 4 urgency 4 effort 2, repaint sign importance 2 urgency 1 effort 3, train new hire importance 5 urgency 3 effort 4",
+   "input": {
+    "tasks": [
+     {
+      "task": "order stock",
+      "importance": 4,
+      "urgency": 4,
+      "effort": 2
+     },
+     {
+      "task": "repaint sign",
+      "importance": 2,
+      "urgency": 1,
+      "effort": 3
+     },
+     {
+      "task": "train new hire",
+      "importance": 5,
+      "urgency": 3,
+      "effort": 4
+     }
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "sort my task list so the most important and urgent things come first",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "I have too many tasks this week, which ones should I do first?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "prioritise the jobs in my notes app",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "order my work tasks by priority, scores below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "Help me triage my list of chores by importance, urgency and effort",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "prioritizeTasks",
+   "message": "what is the most urgent thing on my task list",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "Make a chore rota for Mia, Leo and Zara covering dishes, laundry and bathroom",
+   "input": {
+    "people": [
+     "Mia",
+     "Leo",
+     "Zara"
+    ],
+    "tasks": [
+     "dishes",
+     "laundry",
+     "bathroom"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "rotate the jobs cooking and washing up between Tom and Priya for 6 weeks",
+   "input": {
+    "people": [
+     "Tom",
+     "Priya"
+    ],
+    "tasks": [
+     "cooking",
+     "washing up"
+    ],
+    "rounds": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "Weekend shop rota please: staff are Dee, Raj, Ola and Ken; tasks are till, stockroom and floor. 4 rounds.",
+   "input": {
+    "people": [
+     "Dee",
+     "Raj",
+     "Ola",
+     "Ken"
+    ],
+    "tasks": [
+     "till",
+     "stockroom",
+     "floor"
+    ],
+    "rounds": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "I have three kids, Amy, Ben and Cal. Share feeding the cat, setting the table and taking out recycling evenly over 3 weeks.",
+   "input": {
+    "people": [
+     "Amy",
+     "Ben",
+     "Cal"
+    ],
+    "tasks": [
+     "feeding the cat",
+     "setting the table",
+     "taking out recycling"
+    ],
+    "rounds": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "build a rota: people Sam, Jo; jobs hoovering, dusting, mopping",
+   "input": {
+    "people": [
+     "Sam",
+     "Jo"
+    ],
+    "tasks": [
+     "hoovering",
+     "dusting",
+     "mopping"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "Nursing night shift rota for Grace, Femi and Hana across obs, meds and admissions, 5 nights",
+   "input": {
+    "people": [
+     "Grace",
+     "Femi",
+     "Hana"
+    ],
+    "tasks": [
+     "obs",
+     "meds",
+     "admissions"
+    ],
+    "rounds": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "rotate who does the school run between Dad, Mum and Gran for 2 weeks",
+   "input": {
+    "people": [
+     "Dad",
+     "Mum",
+     "Gran"
+    ],
+    "tasks": [
+     "school run"
+    ],
+    "rounds": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "Flatmates Kai, Lou, Max and Nia need a rota for kitchen, bins, hallway and bathroom over 8 weeks.",
+   "input": {
+    "people": [
+     "Kai",
+     "Lou",
+     "Max",
+     "Nia"
+    ],
+    "tasks": [
+     "kitchen",
+     "bins",
+     "hallway",
+     "bathroom"
+    ],
+    "rounds": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "make a rota sharing standup host and note taker between Ana, Bilal and Chen, 6 rounds",
+   "input": {
+    "people": [
+     "Ana",
+     "Bilal",
+     "Chen"
+    ],
+    "tasks": [
+     "standup host",
+     "note taker"
+    ],
+    "rounds": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "Class jobs rota: Ella, Finn, Gus, Ivy. Jobs: board monitor, plant waterer.",
+   "input": {
+    "people": [
+     "Ella",
+     "Finn",
+     "Gus",
+     "Ivy"
+    ],
+    "tasks": [
+     "board monitor",
+     "plant waterer"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "make a rota so Pete and Rosa take turns mowing and weeding for 4 weeks",
+   "input": {
+    "people": [
+     "Pete",
+     "Rosa"
+    ],
+    "tasks": [
+     "mowing",
+     "weeding"
+    ],
+    "rounds": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "D&D group snacks rota: Liam, Noor, Owen bring drinks, crisps, pizza - 3 sessions",
+   "input": {
+    "people": [
+     "Liam",
+     "Noor",
+     "Owen"
+    ],
+    "tasks": [
+     "drinks",
+     "crisps",
+     "pizza"
+    ],
+    "rounds": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "Food bank volunteers: rotate sorting and packing between Bea, Carl, Dev and Eve over 10 rounds",
+   "input": {
+    "people": [
+     "Bea",
+     "Carl",
+     "Dev",
+     "Eve"
+    ],
+    "tasks": [
+     "sorting",
+     "packing"
+    ],
+    "rounds": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "rota for on-call between Iris, Jay, Kim, Lena and Moe, single task on-call, 5 weeks",
+   "input": {
+    "people": [
+     "Iris",
+     "Jay",
+     "Kim",
+     "Lena",
+     "Moe"
+    ],
+    "tasks": [
+     "on-call"
+    ],
+    "rounds": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "Kitchen duties for Ade and Bo: prep, grill, wash. Rotate them evenly.",
+   "input": {
+    "people": [
+     "Ade",
+     "Bo"
+    ],
+    "tasks": [
+     "prep",
+     "grill",
+     "wash"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "make a cleaning rota for Uma, Vic and Wes: fridge, oven, floors, windows, 4 rounds",
+   "input": {
+    "people": [
+     "Uma",
+     "Vic",
+     "Wes"
+    ],
+    "tasks": [
+     "fridge",
+     "oven",
+     "floors",
+     "windows"
+    ],
+    "rounds": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "church coffee rota for Alan, Beth and Cora: making coffee and washing cups, rotate over 12 Sundays",
+   "input": {
+    "people": [
+     "Alan",
+     "Beth",
+     "Cora"
+    ],
+    "tasks": [
+     "making coffee",
+     "washing cups"
+    ],
+    "rounds": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "Please rotate dog walks, morning and evening, between Nate and Olive for 7 days",
+   "input": {
+    "people": [
+     "Nate",
+     "Olive"
+    ],
+    "tasks": [
+     "morning",
+     "evening"
+    ],
+    "rounds": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "make a rota for my team, Hal, Ines and Jude, sharing code review, release notes and triage",
+   "input": {
+    "people": [
+     "Hal",
+     "Ines",
+     "Jude"
+    ],
+    "tasks": [
+     "code review",
+     "release notes",
+     "triage"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "make a chore rota for me and my flatmates",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "rotate the household jobs between my kids",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "set up a fair rota for my staff with the tasks below",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "rota for Ali, Bex and Cam please, tasks to follow",
+   "input": {
+    "people": [
+     "Ali",
+     "Bex",
+     "Cam"
+    ]
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "rotateAssignments",
+   "message": "share the cleaning jobs evenly between the people in my house over 4 weeks",
+   "input": {
+    "rounds": 4
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "streakCount",
+   "message": "streak check: I ran on 2026-08-25, 2026-08-26, 2026-08-27, 2026-08-29, 2026-08-30, 2026-08-31 and 2026-09-01",
+   "input": {
+    "dates": [
+     "2026-08-25",
+     "2026-08-26",
+     "2026-08-27",
+     "2026-08-29",
+     "2026-08-30",
+     "2026-08-31",
+     "2026-09-01"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "What is my longest streak? Days done: 2026-07-01, 2026-07-02, 2026-07-03, 2026-07-04, 2026-07-10, 2026-07-11",
+   "input": {
+    "dates": [
+     "2026-07-01",
+     "2026-07-02",
+     "2026-07-03",
+     "2026-07-04",
+     "2026-07-10",
+     "2026-07-11"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "what's my meditation streak? 2026-08-29, 2026-08-30, 2026-08-31, 2026-09-01",
+   "input": {
+    "dates": [
+     "2026-08-29",
+     "2026-08-30",
+     "2026-08-31",
+     "2026-09-01"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "Counting back from 2026-08-15, what is my current streak? Done 2026-08-12, 2026-08-13, 2026-08-14, 2026-08-15.",
+   "input": {
+    "dates": [
+     "2026-08-12",
+     "2026-08-13",
+     "2026-08-14",
+     "2026-08-15"
+    ],
+    "asOf": "2026-08-15"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "Duolingo days: 2026-08-20, 2026-08-21, 2026-08-22, 2026-08-24. current and longest streak?",
+   "input": {
+    "dates": [
+     "2026-08-20",
+     "2026-08-21",
+     "2026-08-22",
+     "2026-08-24"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "My son practised trumpet on 2026-08-30 and 2026-08-31. Is his streak still alive?",
+   "input": {
+    "dates": [
+     "2026-08-30",
+     "2026-08-31"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "streak for my no-spend challenge - 2026-08-10, 2026-08-11, 2026-08-12, 2026-08-13, 2026-08-14, 2026-08-20",
+   "input": {
+    "dates": [
+     "2026-08-10",
+     "2026-08-11",
+     "2026-08-12",
+     "2026-08-13",
+     "2026-08-14",
+     "2026-08-20"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "longest run of days from this log: 2026-06-01, 2026-06-03, 2026-06-04, 2026-06-05, 2026-06-07",
+   "input": {
+    "dates": [
+     "2026-06-01",
+     "2026-06-03",
+     "2026-06-04",
+     "2026-06-05",
+     "2026-06-07"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "Streak as of 2026-08-31 for these gym dates: 2026-08-28, 2026-08-29, 2026-08-30, 2026-08-31",
+   "input": {
+    "dates": [
+     "2026-08-28",
+     "2026-08-29",
+     "2026-08-30",
+     "2026-08-31"
+    ],
+    "asOf": "2026-08-31"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "how long was my journaling streak? 2026-05-10, 2026-05-11, 2026-05-12, 2026-05-13, 2026-05-14, 2026-05-15",
+   "input": {
+    "dates": [
+     "2026-05-10",
+     "2026-05-11",
+     "2026-05-12",
+     "2026-05-13",
+     "2026-05-14",
+     "2026-05-15"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "Did my reading streak survive? I read 2026-08-27, 2026-08-28 and 2026-08-30.",
+   "input": {
+    "dates": [
+     "2026-08-27",
+     "2026-08-28",
+     "2026-08-30"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "count my streaks for step goal days 2026-08-01, 2026-08-02, 2026-08-05, 2026-08-06, 2026-08-07, 2026-08-08",
+   "input": {
+    "dates": [
+     "2026-08-01",
+     "2026-08-02",
+     "2026-08-05",
+     "2026-08-06",
+     "2026-08-07",
+     "2026-08-08"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "Patient logged blood sugar on 2026-08-26, 2026-08-27, 2026-08-28, 2026-08-29, 2026-08-30, 2026-08-31, 2026-09-01. What is her logging streak?",
+   "input": {
+    "dates": [
+     "2026-08-26",
+     "2026-08-27",
+     "2026-08-28",
+     "2026-08-29",
+     "2026-08-30",
+     "2026-08-31",
+     "2026-09-01"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "login streak for my game: 2026-08-31, 2026-09-01",
+   "input": {
+    "dates": [
+     "2026-08-31",
+     "2026-09-01"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "what is the best streak in 2026-04-01, 2026-04-02, 2026-04-03, 2026-04-15, 2026-04-16",
+   "input": {
+    "dates": [
+     "2026-04-01",
+     "2026-04-02",
+     "2026-04-03",
+     "2026-04-15",
+     "2026-04-16"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "As of 2026-07-20, how long is my current streak of sober days? 2026-07-14, 2026-07-15, 2026-07-16, 2026-07-17, 2026-07-18, 2026-07-19, 2026-07-20",
+   "input": {
+    "dates": [
+     "2026-07-14",
+     "2026-07-15",
+     "2026-07-16",
+     "2026-07-17",
+     "2026-07-18",
+     "2026-07-19",
+     "2026-07-20"
+    ],
+    "asOf": "2026-07-20"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "streak length for 2026-03-03, 2026-03-04, 2026-03-05?",
+   "input": {
+    "dates": [
+     "2026-03-03",
+     "2026-03-04",
+     "2026-03-05"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "I study every day before exams. Dates done: 2026-08-22, 2026-08-23, 2026-08-24, 2026-08-25, 2026-08-27, 2026-08-28. Current streak and longest?",
+   "input": {
+    "dates": [
+     "2026-08-22",
+     "2026-08-23",
+     "2026-08-24",
+     "2026-08-25",
+     "2026-08-27",
+     "2026-08-28"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "plant watering streak: 2026-08-14, 2026-08-15, 2026-08-16",
+   "input": {
+    "dates": [
+     "2026-08-14",
+     "2026-08-15",
+     "2026-08-16"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "streakCount",
+   "message": "what is my current streak from the dates in my habit app",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "streakCount",
+   "message": "count my longest streak of workout days from my log",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "streakCount",
+   "message": "how many days in a row have I kept it up? dates are in my calendar",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "streakCount",
+   "message": "streak count as of 2026-08-31 for my reading log",
+   "input": {
+    "asOf": "2026-08-31"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "streakCount",
+   "message": "did I break my running streak? check the dates I tracked",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "time block my day from 08:30: emails 30 minutes, report 120 minutes, gym 60 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "emails",
+      "minutes": 30
+     },
+     {
+      "task": "report",
+      "minutes": 120
+     },
+     {
+      "task": "gym",
+      "minutes": 60
+     }
+    ],
+    "start": "08:30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "time block my study session from 14:00 with 10 minute breaks: maths 45 minutes, physics 45 minutes, chemistry 30 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "maths",
+      "minutes": 45
+     },
+     {
+      "task": "physics",
+      "minutes": 45
+     },
+     {
+      "task": "chemistry",
+      "minutes": 30
+     }
+    ],
+    "start": "14:00",
+    "breakMinutes": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "block out my shop opening tasks from 7am: unlock and lights 10 minutes, bake bread 90 minutes, stock shelves 40 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "unlock and lights",
+      "minutes": 10
+     },
+     {
+      "task": "bake bread",
+      "minutes": 90
+     },
+     {
+      "task": "stock shelves",
+      "minutes": 40
+     }
+    ],
+    "start": "07:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "time block my morning from 09:15 - standup 15 minutes, coding 150 minutes, lunch 45 minutes - with 5 minute breaks",
+   "input": {
+    "tasks": [
+     {
+      "task": "standup",
+      "minutes": 15
+     },
+     {
+      "task": "coding",
+      "minutes": 150
+     },
+     {
+      "task": "lunch",
+      "minutes": 45
+     }
+    ],
+    "start": "09:15",
+    "breakMinutes": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "My night shift starts at 19:00. Time block it: handover 30 minutes, med round 60 minutes, obs 45 minutes.",
+   "input": {
+    "tasks": [
+     {
+      "task": "handover",
+      "minutes": 30
+     },
+     {
+      "task": "med round",
+      "minutes": 60
+     },
+     {
+      "task": "obs",
+      "minutes": 45
+     }
+    ],
+    "start": "19:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "plan my Saturday in time blocks from 10:00 with 15 minute breaks: laundry 40 minutes, shopping 90 minutes, cooking 60 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "laundry",
+      "minutes": 40
+     },
+     {
+      "task": "shopping",
+      "minutes": 90
+     },
+     {
+      "task": "cooking",
+      "minutes": 60
+     }
+    ],
+    "start": "10:00",
+    "breakMinutes": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "block out my evening with the kids from 18:30: dinner 45 minutes, homework help 30 minutes, bath time 20 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "dinner",
+      "minutes": 45
+     },
+     {
+      "task": "homework help",
+      "minutes": 30
+     },
+     {
+      "task": "bath time",
+      "minutes": 20
+     }
+    ],
+    "start": "18:30"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "lay my lesson out as time blocks from 13:10: register 5 minutes, starter 10 minutes, main task 30 minutes, plenary 10 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "register",
+      "minutes": 5
+     },
+     {
+      "task": "starter",
+      "minutes": 10
+     },
+     {
+      "task": "main task",
+      "minutes": 30
+     },
+     {
+      "task": "plenary",
+      "minutes": 10
+     }
+    ],
+    "start": "13:10"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "block out my morning from 06:00 with 20 minute breaks: run 40 minutes, stretch 15 minutes, breakfast 25 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "run",
+      "minutes": 40
+     },
+     {
+      "task": "stretch",
+      "minutes": 15
+     },
+     {
+      "task": "breakfast",
+      "minutes": 25
+     }
+    ],
+    "start": "06:00",
+    "breakMinutes": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "time block my month-end close from 08:00: bank rec 90 minutes, accruals 60 minutes, review 45 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "bank rec",
+      "minutes": 90
+     },
+     {
+      "task": "accruals",
+      "minutes": 60
+     },
+     {
+      "task": "review",
+      "minutes": 45
+     }
+    ],
+    "start": "08:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "time block my gaming night from 20:00: ranked matches 90 minutes, raid 120 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "ranked matches",
+      "minutes": 90
+     },
+     {
+      "task": "raid",
+      "minutes": 120
+     }
+    ],
+    "start": "20:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "Lay out my revision day from 09:00 with 10 minute breaks - history 50 minutes, english 50 minutes, biology 50 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "history",
+      "minutes": 50
+     },
+     {
+      "task": "english",
+      "minutes": 50
+     },
+     {
+      "task": "biology",
+      "minutes": 50
+     }
+    ],
+    "start": "09:00",
+    "breakMinutes": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "time block my day from 11:00: client call 30 minutes, proposal writing 100 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "client call",
+      "minutes": 30
+     },
+     {
+      "task": "proposal writing",
+      "minutes": 100
+     }
+    ],
+    "start": "11:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "Retired and want structure - time block my morning from 9:30 with 15 minute breaks: gardening 60 minutes, walk 45 minutes, reading 30 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "gardening",
+      "minutes": 60
+     },
+     {
+      "task": "walk",
+      "minutes": 45
+     },
+     {
+      "task": "reading",
+      "minutes": 30
+     }
+    ],
+    "start": "09:30",
+    "breakMinutes": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "time block prep for dinner service from 15:00: chop veg 45 minutes, make sauces 60 minutes, set tables 20 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "chop veg",
+      "minutes": 45
+     },
+     {
+      "task": "make sauces",
+      "minutes": 60
+     },
+     {
+      "task": "set tables",
+      "minutes": 20
+     }
+    ],
+    "start": "15:00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "time block my afternoon from 16:00: packing 60 minutes then cleaning 90 minutes with a 30 minute break",
+   "input": {
+    "tasks": [
+     {
+      "task": "packing",
+      "minutes": 60
+     },
+     {
+      "task": "cleaning",
+      "minutes": 90
+     }
+    ],
+    "start": "16:00",
+    "breakMinutes": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "Plan a writing block from 05:45: draft 90 minutes, edit 45 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "draft",
+      "minutes": 90
+     },
+     {
+      "task": "edit",
+      "minutes": 45
+     }
+    ],
+    "start": "05:45"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "time block my afternoon before the talk, from 12:30 with 5 minute breaks: slides 75 minutes, rehearsal 30 minutes, travel 40 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "slides",
+      "minutes": 75
+     },
+     {
+      "task": "rehearsal",
+      "minutes": 30
+     },
+     {
+      "task": "travel",
+      "minutes": 40
+     }
+    ],
+    "start": "12:30",
+    "breakMinutes": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "schedule these back-to-back from 10:45: inbox 25 minutes, invoices 35 minutes, calls 50 minutes",
+   "input": {
+    "tasks": [
+     {
+      "task": "inbox",
+      "minutes": 25
+     },
+     {
+      "task": "invoices",
+      "minutes": 35
+     },
+     {
+      "task": "calls",
+      "minutes": 50
+     }
+    ],
+    "start": "10:45"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "time block my afternoon starting at 13:00",
+   "input": {
+    "start": "13:00"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "schedule my to-do list into blocks from 09:00 with 10 minute breaks",
+   "input": {
+    "start": "09:00",
+    "breakMinutes": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "lay out the tasks below as time blocks from 08:00",
+   "input": {
+    "start": "08:00"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "make me a time-blocked plan for tomorrow from 07:30 using my task list",
+   "input": {
+    "start": "07:30"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "message": "block out my study tasks starting 15:30",
+   "input": {
+    "start": "15:30"
+   },
+   "mode": "pointed"
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "compareSemver",
+    "parseSemver"
+   ],
+   "rows": [
+    {
+     "skill": "compareSemver",
+     "message": "for my release notes, which is newer: 4.2.0 or 4.10.1?",
+     "input": {
+      "a": "4.2.0",
+      "b": "4.10.1"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "parseSemver",
+     "message": "for my release notes, what are the parts of 4.10.1?",
+     "input": {
+      "version": "4.10.1"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "compareSemver",
+    "parseSemver"
+   ],
+   "rows": [
+    {
+     "skill": "compareSemver",
+     "message": "check version 2.0.0-beta.3 against 2.0.0 - which is later?",
+     "input": {
+      "a": "2.0.0-beta.3",
+      "b": "2.0.0"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "parseSemver",
+     "message": "check version 2.0.0-beta.3 - which is the pre-release part?",
+     "input": {
+      "version": "2.0.0-beta.3"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "compareSemver",
+    "parseSemver"
+   ],
+   "rows": [
+    {
+     "skill": "compareSemver",
+     "message": "our server runs v7.3.12 and the client runs v7.4.0; which version is newer?",
+     "input": {
+      "a": "v7.3.12",
+      "b": "v7.4.0"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "parseSemver",
+     "message": "our server runs v7.3.12; what is the major, minor and patch of that version?",
+     "input": {
+      "version": "v7.3.12"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "escapeRegex",
+    "testRegex"
+   ],
+   "rows": [
+    {
+     "skill": "escapeRegex",
+     "message": "escape 1+1=2 for use in a regex pattern",
+     "input": {
+      "text": "1+1=2"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "testRegex",
+     "message": "test 1+1=2 as a regex pattern against 11=2",
+     "input": {
+      "pattern": "1+1=2",
+      "text": "11=2"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "escapeRegex",
+    "testRegex"
+   ],
+   "rows": [
+    {
+     "skill": "escapeRegex",
+     "message": "regex question: escape v2.1 so it matches only literally",
+     "input": {
+      "text": "v2.1"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "testRegex",
+     "message": "regex question: test v2.1 so I see what it matches in v2x1 v2.1",
+     "input": {
+      "pattern": "v2.1",
+      "text": "v2x1 v2.1"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractHeadings",
+    "generateTableOfContents"
+   ],
+   "rows": [
+    {
+     "skill": "extractHeadings",
+     "message": "list the headings in this markdown:\n\n# Guide\n\n## Setup\n\n## Usage\n\n### Options",
+     "input": {
+      "markdown": "# Guide\n\n## Setup\n\n## Usage\n\n### Options"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateTableOfContents",
+     "message": "make a linked table of contents for this markdown:\n\n# Guide\n\n## Setup\n\n## Usage\n\n### Options",
+     "input": {
+      "markdown": "# Guide\n\n## Setup\n\n## Usage\n\n### Options"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractHeadings",
+    "generateTableOfContents"
+   ],
+   "rows": [
+    {
+     "skill": "extractHeadings",
+     "message": "pull the heading outline from my trip notes markdown\n\n# Trip Notes\n\n## Day One\n\n## Day Two\n\n### Evening",
+     "input": {
+      "markdown": "# Trip Notes\n\n## Day One\n\n## Day Two\n\n### Evening"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateTableOfContents",
+     "message": "put a table of contents at the top of my trip notes markdown\n\n# Trip Notes\n\n## Day One\n\n## Day Two\n\n### Evening",
+     "input": {
+      "markdown": "# Trip Notes\n\n## Day One\n\n## Day Two\n\n### Evening"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractHeadings",
+    "generateTableOfContents"
+   ],
+   "rows": [
+    {
+     "skill": "extractHeadings",
+     "message": "for the policy doc below, show me just its headings and levels\n\n# Policy\n\n## Scope\n\n## Rules\n\n### Exceptions",
+     "input": {
+      "markdown": "# Policy\n\n## Scope\n\n## Rules\n\n### Exceptions"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateTableOfContents",
+     "message": "for the policy doc below, build a clickable contents list for the top\n\n# Policy\n\n## Scope\n\n## Rules\n\n### Exceptions",
+     "input": {
+      "markdown": "# Policy\n\n## Scope\n\n## Rules\n\n### Exceptions"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractHeadings",
+    "outlineToMarkdown"
+   ],
+   "rows": [
+    {
+     "skill": "extractHeadings",
+     "message": "get the headings out of my markdown notes:\n# Plan\n## Week 1\n## Week 2",
+     "input": {
+      "markdown": "# Plan\n## Week 1\n## Week 2"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "outlineToMarkdown",
+     "message": "turn my indented notes into markdown headings:\nPlan\n  Week 1\n  Week 2",
+     "input": {
+      "outline": "Plan\n  Week 1\n  Week 2"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractHeadings",
+    "outlineToMarkdown"
+   ],
+   "rows": [
+    {
+     "skill": "extractHeadings",
+     "message": "list the heading structure of my recipe book markdown\n# Recipe Book\n## Soups\n## Bakes",
+     "input": {
+      "markdown": "# Recipe Book\n## Soups\n## Bakes"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "outlineToMarkdown",
+     "message": "convert my recipe book outline into markdown\nRecipe Book\n  Soups\n  Bakes",
+     "input": {
+      "outline": "Recipe Book\n  Soups\n  Bakes"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractHeadings",
+    "outlineToMarkdown"
+   ],
+   "rows": [
+    {
+     "skill": "extractHeadings",
+     "message": "which headings does my talk markdown have?\n# Talk\n## Opening\n## Main Point\n## Close",
+     "input": {
+      "markdown": "# Talk\n## Opening\n## Main Point\n## Close"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "outlineToMarkdown",
+     "message": "make markdown headings from my talk outline\nTalk\n  Opening\n  Main Point\n  Close",
+     "input": {
+      "outline": "Talk\n  Opening\n  Main Point\n  Close"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "findLongSentences",
+    "findRepeatedWords"
+   ],
+   "rows": [
+    {
+     "skill": "findLongSentences",
+     "message": "flag sentences that are too long in this notice: The hall is booked for Friday. Because the caretaker needs the keys back early and the cleaners arrive at six and the alarm must be set before anyone leaves, we will start setting up the hall straight after lunch on Friday.",
+     "input": {
+      "text": "The hall is booked for Friday. Because the caretaker needs the keys back early and the cleaners arrive at six and the alarm must be set before anyone leaves, we will start setting up the hall straight after lunch on Friday."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "findRepeatedWords",
+     "message": "flag repeated words that sit too close together in this notice: The hall is booked for Friday. Because the caretaker needs the keys back early and the cleaners arrive at six and the alarm must be set before anyone leaves, we will start setting up the hall straight after lunch on Friday.",
+     "input": {
+      "text": "The hall is booked for Friday. Because the caretaker needs the keys back early and the cleaners arrive at six and the alarm must be set before anyone leaves, we will start setting up the hall straight after lunch on Friday."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "findLongSentences",
+    "findRepeatedWords"
+   ],
+   "rows": [
+    {
+     "skill": "findLongSentences",
+     "message": "long sentences check on my garden blog intro: Our garden is small. The garden gets sun all afternoon, and in the garden we grow tomatoes, beans and a surprising amount of mint that spreads across the whole garden every single summer without fail.",
+     "input": {
+      "text": "Our garden is small. The garden gets sun all afternoon, and in the garden we grow tomatoes, beans and a surprising amount of mint that spreads across the whole garden every single summer without fail."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "findRepeatedWords",
+     "message": "repeated words check on my garden blog intro: Our garden is small. The garden gets sun all afternoon, and in the garden we grow tomatoes, beans and a surprising amount of mint that spreads across the whole garden every single summer without fail.",
+     "input": {
+      "text": "Our garden is small. The garden gets sun all afternoon, and in the garden we grow tomatoes, beans and a surprising amount of mint that spreads across the whole garden every single summer without fail."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "httpStatusLookup",
+    "unicodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "httpStatusLookup",
+     "message": "my log shows a weird code: what does http code 410 mean",
+     "input": {
+      "code": 410
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "unicodeLookup",
+     "message": "my log shows a weird code: what does unicode code U+0410 mean",
+     "input": {
+      "query": "U+0410"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "httpStatusLookup",
+    "unicodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "httpStatusLookup",
+     "message": "decoding a support ticket - look up http status 204 for me",
+     "input": {
+      "code": 204
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "unicodeLookup",
+     "message": "decoding a support ticket - look up unicode character U+2022 for me",
+     "input": {
+      "query": "U+2022"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pluralize",
+    "singularize"
+   ],
+   "rows": [
+    {
+     "skill": "pluralize",
+     "message": "plural of cactus for my plant shop sign",
+     "input": {
+      "word": "cactus"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "singularize",
+     "message": "singular of cacti for my plant shop sign",
+     "input": {
+      "word": "cacti"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "pluralize",
+    "singularize"
+   ],
+   "rows": [
+    {
+     "skill": "pluralize",
+     "message": "quick grammar check for my kids' bedtime story: plural of mouse?",
+     "input": {
+      "word": "mouse"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "singularize",
+     "message": "quick grammar check for my kids' bedtime story: singular of mice?",
+     "input": {
+      "word": "mice"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "prioritizeTasks",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "prioritizeTasks",
+     "message": "rank these by priority:\npay rent importance 5 urgency 5 effort 1\nwash car importance 1 urgency 1 effort 2",
+     "input": {
+      "tasks": [
+       {
+        "task": "pay rent",
+        "importance": 5,
+        "urgency": 5,
+        "effort": 1
+       },
+       {
+        "task": "wash car",
+        "importance": 1,
+        "urgency": 1,
+        "effort": 2
+       }
+      ]
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "sort these lines alphabetically:\npay rent importance 5 urgency 5 effort 1\nwash car importance 1 urgency 1 effort 2",
+     "input": {
+      "text": "pay rent importance 5 urgency 5 effort 1\nwash car importance 1 urgency 1 effort 2"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "prioritizeTasks",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "prioritizeTasks",
+     "message": "sort my to-do list by priority: call vet (importance 4, urgency 5, effort 1), paint fence (importance 2, urgency 1, effort 4)",
+     "input": {
+      "tasks": [
+       {
+        "task": "call vet",
+        "importance": 4,
+        "urgency": 5,
+        "effort": 1
+       },
+       {
+        "task": "paint fence",
+        "importance": 2,
+        "urgency": 1,
+        "effort": 4
+       }
+      ]
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "sort my to-do list alphabetically:\ncall vet\npaint fence\nbuy stamps",
+     "input": {
+      "text": "call vet\npaint fence\nbuy stamps"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "prioritizeTasks",
+    "sortLines"
+   ],
+   "rows": [
+    {
+     "skill": "prioritizeTasks",
+     "message": "what order should my work tasks go in by importance, urgency and effort? report 5 4 3, emails 2 4 1, filing 1 1 2",
+     "input": {
+      "tasks": [
+       {
+        "task": "report",
+        "importance": 5,
+        "urgency": 4,
+        "effort": 3
+       },
+       {
+        "task": "emails",
+        "importance": 2,
+        "urgency": 4,
+        "effort": 1
+       },
+       {
+        "task": "filing",
+        "importance": 1,
+        "urgency": 1,
+        "effort": 2
+       }
+      ]
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "sortLines",
+     "message": "what order should my work tasks go in by length, shortest first?\nreport\nemails\nfiling",
+     "input": {
+      "text": "report\nemails\nfiling",
+      "by": "length",
+      "direction": "ascending"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "singularize",
+    "stemWords"
+   ],
+   "rows": [
+    {
+     "skill": "singularize",
+     "message": "for my search index, what's the singular of berries",
+     "input": {
+      "word": "berries"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "stemWords",
+     "message": "for my search index, what's the stem of berries",
+     "input": {
+      "text": "berries"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "singularize",
+    "stemWords"
+   ],
+   "rows": [
+    {
+     "skill": "singularize",
+     "message": "reduce libraries to its singular for the glossary",
+     "input": {
+      "word": "libraries"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "stemWords",
+     "message": "reduce libraries to its stem for the glossary",
+     "input": {
+      "text": "libraries"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "singularize",
+    "stemWords"
+   ],
+   "rows": [
+    {
+     "skill": "singularize",
+     "message": "NLP homework: give the singular of studies",
+     "input": {
+      "word": "studies"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "stemWords",
+     "message": "NLP homework: give the stems of studies, studying, studied",
+     "input": {
+      "text": "studies, studying, studied"
+     },
+     "mode": "full"
+    }
+   ]
+  }
+ ]
+}

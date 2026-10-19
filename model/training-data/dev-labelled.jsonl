@@ -1,0 +1,182 @@
+{"text":"3 miles in metres","category":"conversion","skill":"convertLength"}
+{"text":"220 fahrenheit as celsius","category":"conversion","skill":"convertTemperature"}
+{"text":"750 MB in GiB","category":"conversion","skill":"convertDataSize"}
+{"text":"how many radians is 45 deg","category":"conversion","skill":"convertAngle"}
+{"text":"write 200 in base 7","category":"conversion","skill":"convertBase"}
+{"text":"turn CDXLIV into arabic digits","category":"conversion","skill":"convertRomanNumeral"}
+{"text":"how do you write 305 on a cheque","category":"conversion","skill":"numberToWords"}
+{"text":"read this csv into columns","category":"data","skill":"parseCsv"}
+{"text":"order the table by price descending","category":"data","skill":"sortRows"}
+{"text":"render those rows as a markdown table","category":"data","skill":"toMarkdownTable"}
+{"text":"tidy this json so it is readable","category":"data","skill":"formatJson"}
+{"text":"assemble a query string for page=2 and sort=asc","category":"data","skill":"buildQueryString"}
+{"text":"turn this nested object into dot paths","category":"data","skill":"flattenJson"}
+{"text":"totals per department from these rows","category":"data","skill":"groupBy"}
+{"text":"read this md table as data","category":"data","skill":"parseMarkdownTable"}
+{"text":"cross-tab sales by month and product","category":"data","skill":"pivotRows"}
+{"text":"put these json keys in order","category":"data","skill":"sortObjectKeys"}
+{"text":"expand these dotted keys back into objects","category":"data","skill":"unflattenJson"}
+{"text":"how many days between 12 july 2026 and christmas","category":"dates","skill":"daysBetween"}
+{"text":"how long until 25 december","category":"dates","skill":"countdownTo"}
+{"text":"when is the next thursday","category":"dates","skill":"nextWeekday"}
+{"text":"born 1985-03-12, how old are they now","category":"dates","skill":"ageFromDate"}
+{"text":"9am in berlin is what time in tokyo on 2026-05-05","category":"dates","skill":"convertTimezone"}
+{"text":"what date is in a fortnight","category":"dates","skill":"parseRelativeDate"}
+{"text":"how much time has passed since 2026-08-20","category":"dates","skill":"timeAgo"}
+{"text":"express 7500 seconds as hours and minutes","category":"dates","skill":"durationToText"}
+{"text":"three working days on from 2026-11-02","category":"dates","skill":"addBusinessDays"}
+{"text":"which numbered day of 2026 is 1 august","category":"dates","skill":"dayOfYear"}
+{"text":"does 2100 have a leap day","category":"dates","skill":"isLeapYear"}
+{"text":"epoch value for 2027-01-01 midnight","category":"dates","skill":"isoToUnix"}
+{"text":"clock times right now in Paris Delhi and Chicago","category":"dates","skill":"listTimezoneOffsets"}
+{"text":"turn 1700000000 into a readable date","category":"dates","skill":"unixToIso"}
+{"text":"score these three options against my criteria","category":"decisions","skill":"weightedDecisionMatrix"}
+{"text":"average payout if I win 500 a fifth of the time","category":"decisions","skill":"expectedValue"}
+{"text":"resize 1600x900 to fit 400 wide","category":"design","skill":"scaleDimensions"}
+{"text":"colour on the other side of the wheel from #3366FF","category":"design","skill":"complementaryColor"}
+{"text":"give me hsl for #1E90FF","category":"design","skill":"convertColor"}
+{"text":"give me tints and shades of #556B2F","category":"design","skill":"generatePalette"}
+{"text":"halfway colour between #FF0000 and #FFFF00","category":"design","skill":"mixColors"}
+{"text":"2.25rem in px please","category":"design","skill":"remToPx"}
+{"text":"which version wins, 3.0.0-rc.1 or 3.0.0","category":"developer","skill":"compareSemver"}
+{"text":"make c++ safe to drop into a pattern","category":"developer","skill":"escapeRegex"}
+{"text":"show me the payload of this bearer token","category":"developer","skill":"jwtDecode"}
+{"text":"split 4.2.1+build9 into parts","category":"developer","skill":"parseSemver"}
+{"text":"code point for the pound sign","category":"developer","skill":"unicodeLookup"}
+{"text":"make this text safe for a query string","category":"encoding","skill":"urlEncode"}
+{"text":"un-base64 this blob","category":"encoding","skill":"base64Decode"}
+{"text":"these 1s and 0s spell what","category":"encoding","skill":"binaryDecode"}
+{"text":"move every letter on by 5","category":"encoding","skill":"caesarShift"}
+{"text":"unpack this compressed blob","category":"encoding","skill":"decompressText"}
+{"text":"random 12 char token please","category":"encoding","skill":"generateRandomString"}
+{"text":"sha512 digest of this phrase","category":"encoding","skill":"hashText"}
+{"text":"give me the hex bytes for this word","category":"encoding","skill":"hexEncode"}
+{"text":"put my name into dots and dashes","category":"encoding","skill":"morseEncode"}
+{"text":"dinner 132.40, 18% tip, 5 people","category":"everyday","skill":"splitBill"}
+{"text":"how many grams is a cup of caster sugar","category":"everyday","skill":"convertCookingMeasure"}
+{"text":"which pack size is better value","category":"everyday","skill":"comparePrices"}
+{"text":"whats my basket come to with postage","category":"everyday","skill":"shippingTotal"}
+{"text":"how big is 3400000 bytes in readable units","category":"files","skill":"fileSizeHuman"}
+{"text":"how many words and bytes in this","category":"files","skill":"textFileStats"}
+{"text":"reduce 249 by 30%","category":"finance","skill":"applyDiscount"}
+{"text":"add 20 percent vat onto 480","category":"finance","skill":"applyTax"}
+{"text":"what does 2500 become after 8 years at 3.5","category":"finance","skill":"compoundInterest"}
+{"text":"costs me 8, sells for 14, whats the margin","category":"finance","skill":"markupMargin"}
+{"text":"how long till I have 3000 putting 120 aside monthly","category":"finance","skill":"savingsGoal"}
+{"text":"do these two phrases use the same letters","category":"games","skill":"checkAnagram"}
+{"text":"ask the 8 ball if I should go","category":"games","skill":"magicEightBall"}
+{"text":"rearrange the letters of tarps","category":"games","skill":"solveAnagram"}
+{"text":"roll 3d6 seed 12","category":"generation","skill":"rollDice"}
+{"text":"pick a number from 1 to 20, seed 9","category":"generation","skill":"randomNumber"}
+{"text":"turn my packing list into tick boxes","category":"generation","skill":"generateChecklist"}
+{"text":"need three paragraphs of dummy copy","category":"generation","skill":"loremIpsum"}
+{"text":"how much carpet for a 4.5 by 3.2 m room","category":"geometry","skill":"areaOf"}
+{"text":"great circle miles between these coordinates","category":"geometry","skill":"haversineDistance"}
+{"text":"ladder length if the wall is 8 and the base is 6","category":"geometry","skill":"pythagorean"}
+{"text":"body mass index at 1.8m and 82 kilos","category":"health","skill":"bmiCalculate"}
+{"text":"how long would a half marathon take at 6 min km","category":"health","skill":"paceCalculate"}
+{"text":"kilometre splits to break 45 minutes over 10k","category":"health","skill":"splitTimes"}
+{"text":"score this test paper against the correct responses","category":"learning","skill":"gradeQuiz"}
+{"text":"reorder my deck for revision","category":"learning","skill":"flashcardShuffle"}
+{"text":"I am on 65 with 40% left, what do I need for a 70","category":"learning","skill":"gradeNeeded"}
+{"text":"set revision dates starting today","category":"learning","skill":"spacedRepetitionSchedule"}
+{"text":"strip the repeats out of this list","category":"lists","skill":"dedupeList"}
+{"text":"tally how many of each appear","category":"lists","skill":"countItems"}
+{"text":"deal these 12 names into groups of four","category":"lists","skill":"chunkList"}
+{"text":"squash this nested array flat","category":"lists","skill":"flattenList"}
+{"text":"draw partners for these six, seed 3","category":"lists","skill":"pairUp"}
+{"text":"jumble this playlist up, seed 4","category":"lists","skill":"shuffleList"}
+{"text":"pair each name with its score","category":"lists","skill":"zipLists"}
+{"text":"whats 340 divided by 8 plus 12","category":"math","skill":"evaluateExpression"}
+{"text":"price went 25 to 31, whats the increase","category":"math","skill":"percentChange"}
+{"text":"round 88.4567 to 3 dp","category":"math","skill":"roundTo"}
+{"text":"total these figures for me: 45 62 18 9","category":"math","skill":"sum"}
+{"text":"read 4.5k as a plain number","category":"math","skill":"parseNumber"}
+{"text":"write 45.5 as pounds sterling","category":"math","skill":"formatCurrency"}
+{"text":"share 750 between shares of 5 3 and 2","category":"math","skill":"allocateProportionally"}
+{"text":"give me fibonacci up to the 12th","category":"math","skill":"fibonacci"}
+{"text":"highest number dividing 84 and 126","category":"math","skill":"gcd"}
+{"text":"smallest number both 8 and 14 go into","category":"math","skill":"lcm"}
+{"text":"if 5 maps to 8, what maps to 40","category":"math","skill":"ratioSolve"}
+{"text":"divide my 2800 salary into budget categories","category":"organising","skill":"budgetSplit"}
+{"text":"what percentage of days did I manage it","category":"organising","skill":"habitCompletionRate"}
+{"text":"fair rota for four flatmates and three chores","category":"organising","skill":"rotateAssignments"}
+{"text":"lay my tasks out from 9am with 10 min gaps","category":"organising","skill":"timeBlockSchedule"}
+{"text":"what is the capital of Portugal","category":"reference","skill":"countryLookup"}
+{"text":"which airport is CDG","category":"reference","skill":"airportCodeLookup"}
+{"text":"tell me about magnesium","category":"reference","skill":"periodicTableLookup"}
+{"text":"offset from utc in Auckland","category":"reference","skill":"timezoneLookup"}
+{"text":"mean and spread of 12 19 22 8 31","category":"statistics","skill":"describeNumbers"}
+{"text":"do these two columns move together","category":"statistics","skill":"correlation"}
+{"text":"anything way off in this set","category":"statistics","skill":"findOutliers"}
+{"text":"best fit line for this scatter","category":"statistics","skill":"linearRegression"}
+{"text":"p95 of these latencies","category":"statistics","skill":"percentile"}
+{"text":"order these from best to worst","category":"statistics","skill":"rankValues"}
+{"text":"how many words in this sentence right here","category":"text","skill":"countWords"}
+{"text":"make \"Annual Report 2026\" a url slug","category":"text","skill":"slugify"}
+{"text":"swap every instance of teh for the","category":"text","skill":"replaceText"}
+{"text":"list the links in that message","category":"text","skill":"extractUrls"}
+{"text":"how many characters is this tweet","category":"text","skill":"countCharacters"}
+{"text":"how many lines does this file have","category":"text","skill":"countLines"}
+{"text":"break this sentence into individual words","category":"text","skill":"tokenizeWords"}
+{"text":"strip the filler words out of this query","category":"text","skill":"removeStopWords"}
+{"text":"how long would this take someone to read","category":"text","skill":"readingTime"}
+{"text":"strip the indentation off every line","category":"text","skill":"trimLines"}
+{"text":"put these lines in alphabetical order","category":"text","skill":"sortLines"}
+{"text":"join these lines into one comma separated line","category":"text","skill":"joinLines"}
+{"text":"what changed between the old and new version","category":"text","skill":"diffText"}
+{"text":"guess the language of this snippet","category":"text","skill":"detectLanguage"}
+{"text":"make these angle brackets safe for html","category":"text","skill":"escapeHtml"}
+{"text":"list every price mentioned here","category":"text","skill":"extractCurrencyAmounts"}
+{"text":"list the tags used in this tweet","category":"text","skill":"extractHashtags"}
+{"text":"grab the bullets from this","category":"text","skill":"extractListItems"}
+{"text":"split this into two word runs","category":"text","skill":"extractNgrams"}
+{"text":"what times are mentioned","category":"text","skill":"extractTimes"}
+{"text":"which of these entries are basically the same","category":"text","skill":"findNearDuplicates"}
+{"text":"anything rude in this message","category":"text","skill":"flagProfanity"}
+{"text":"does this read as happy or unhappy","category":"text","skill":"lexiconSentiment"}
+{"text":"stick numbers on each line","category":"text","skill":"numberLines"}
+{"text":"strip the smileys out","category":"text","skill":"removeEmoji"}
+{"text":"how much vocabulary do these share","category":"text","skill":"similarityJaccard"}
+{"text":"cut these words back to their roots","category":"text","skill":"stemWords"}
+{"text":"drop the formatting marks from this","category":"text","skill":"stripMarkdown"}
+{"text":"flatten the accents in this name","category":"text","skill":"toAscii"}
+{"text":"is this address written correctly: jo@example","category":"validation","skill":"validateEmail"}
+{"text":"this config is being rejected, what is malformed","category":"validation","skill":"validateJson"}
+{"text":"tidy this number into international format","category":"validation","skill":"formatPhoneNumber"}
+{"text":"is #GG0011 a real colour code","category":"validation","skill":"validateHexColor"}
+{"text":"is 10.0.0.256 usable","category":"validation","skill":"validateIpAddress"}
+{"text":"does this payload conform to my schema","category":"validation","skill":"validateJsonSchema"}
+{"text":"is +44 7700 900 the right shape","category":"validation","skill":"validatePhoneNumber"}
+{"text":"build an APA reference from these details","category":"writing","skill":"formatCitation"}
+{"text":"how long is each paragraph in my draft","category":"writing","skill":"paragraphStats"}
+{"text":"capitalise this headline properly","category":"writing","skill":"checkTitleCase"}
+{"text":"am I overusing any words here","category":"writing","skill":"findRepeatedWords"}
+{"text":"render this md as html","category":"writing","skill":"markdownToHtml"}
+{"text":"plural of cactus","category":"writing","skill":"pluralize"}
+{"text":"any misspellings in this paragraph","category":"writing","skill":"spellCheck"}
+{"text":"write me a poem about the sea","category":"none","skill":null}
+{"text":"i had a really rough day today","category":"none","skill":null}
+{"text":"what should i name my cat","category":"none","skill":null}
+{"text":"brainstorm ideas for a birthday party","category":"none","skill":null}
+{"text":"why do cats knead blankets","category":"none","skill":null}
+{"text":"give me a metaphor for burnout","category":"none","skill":null}
+{"text":"rewrite this so it sounds less formal","category":"none","skill":null}
+{"text":"is it worth learning rust in 2026","category":"none","skill":null}
+{"text":"what is the difference between affect and effect","category":"none","skill":null}
+{"text":"describe the smell of rain on hot pavement","category":"none","skill":null}
+{"text":"how many people does it take to change a lightbulb","category":"none","skill":null}
+{"text":"talk me through a breathing exercise","category":"none","skill":null}
+{"text":"what are some good podcasts about history","category":"none","skill":null}
+{"text":"the colour palette in that film was gorgeous","category":"none","skill":null}
+{"text":"hash browns or fried, which is better","category":"none","skill":null}
+{"text":"the sentiment in the room was tense","category":"none","skill":null}
+{"text":"i want to pick up the pace at work","category":"none","skill":null}
+{"text":"my rota at work is a nightmare","category":"none","skill":null}
+{"text":"he is in his prime right now","category":"none","skill":null}
+{"text":"i keep a list of things i am grateful for","category":"none","skill":null}
+{"text":"my bank keeps sending me letters about nothing","category":"none","skill":null}
+{"text":"i cannot spell to save my life","category":"none","skill":null}
+{"text":"what a difference a year makes","category":"none","skill":null}
+{"text":"that airport was chaos yesterday","category":"none","skill":null}
+{"text":"the interest rate news is depressing","category":"none","skill":null}

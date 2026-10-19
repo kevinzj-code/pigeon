@@ -1,0 +1,2013 @@
+{
+  "pairs": [
+    {
+      "twins": [
+        "extractEmails",
+        "extractUrls"
+      ],
+      "rows": [
+        {
+          "skill": "extractEmails",
+          "message": "from this email signature, list the email addresses: Dana Lee | dana@leedesign.com | https://leedesign.com",
+          "input": {
+            "text": "Dana Lee | dana@leedesign.com | https://leedesign.com"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "extractUrls",
+          "message": "from this email signature, list the website links: Dana Lee | dana@leedesign.com | https://leedesign.com",
+          "input": {
+            "text": "Dana Lee | dana@leedesign.com | https://leedesign.com"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractEmails",
+        "extractUrls"
+      ],
+      "rows": [
+        {
+          "skill": "extractEmails",
+          "message": "any email addresses in this flyer text? Visit www.fairfieldfete.org or email fete@fairfield.org",
+          "input": {
+            "text": "Visit www.fairfieldfete.org or email fete@fairfield.org"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "extractUrls",
+          "message": "any web links in this flyer text? Visit www.fairfieldfete.org or email fete@fairfield.org",
+          "input": {
+            "text": "Visit www.fairfieldfete.org or email fete@fairfield.org"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractHeadings",
+        "generateTableOfContents"
+      ],
+      "rows": [
+        {
+          "skill": "extractHeadings",
+          "message": "outline the markdown headings for my thesis chapter\n# Methods\n## Sampling\n## Analysis",
+          "input": {
+            "markdown": "# Methods\n## Sampling\n## Analysis"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "generateTableOfContents",
+          "message": "table of contents from the markdown headings for my thesis chapter\n# Methods\n## Sampling\n## Analysis",
+          "input": {
+            "markdown": "# Methods\n## Sampling\n## Analysis"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractHeadings",
+        "generateTableOfContents"
+      ],
+      "rows": [
+        {
+          "skill": "extractHeadings",
+          "message": "list the headings in this markdown as a plain outline, not a table of contents:\n# Intro\n## Goals\n## Risks",
+          "input": {
+            "markdown": "# Intro\n## Goals\n## Risks"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "generateTableOfContents",
+          "message": "list the headings in this markdown as a table of contents with links:\n# Intro\n## Goals\n## Risks",
+          "input": {
+            "markdown": "# Intro\n## Goals\n## Risks"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractMentions",
+        "extractTimes"
+      ],
+      "rows": [
+        {
+          "skill": "extractMentions",
+          "message": "which @handles are mentioned in this chat message? \"standup moved to 10:15, cc @raj @mei\"",
+          "input": {
+            "text": "standup moved to 10:15, cc @raj @mei"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "extractTimes",
+          "message": "which clock times are mentioned in this chat message? \"standup moved to 10:15, cc @raj @mei\"",
+          "input": {
+            "text": "standup moved to 10:15, cc @raj @mei"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractMentions",
+        "extractTimes"
+      ],
+      "rows": [
+        {
+          "skill": "extractMentions",
+          "message": "get the @handles mentioned in this post, not the clock times: drinks at 7pm with @tolu and @benji!",
+          "input": {
+            "text": "drinks at 7pm with @tolu and @benji!"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "extractTimes",
+          "message": "get the clock times mentioned in this post, not the @handles: drinks at 7pm with @tolu and @benji!",
+          "input": {
+            "text": "drinks at 7pm with @tolu and @benji!"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractNumbers",
+        "sum"
+      ],
+      "rows": [
+        {
+          "skill": "extractNumbers",
+          "message": "list the numbers in this text, don't total them: 12 apples, 7 pears, 30 plums",
+          "input": {
+            "text": "12 apples, 7 pears, 30 plums"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "sum",
+          "message": "total the numbers in this text, don't list them: 12 apples, 7 pears, 30 plums",
+          "input": {
+            "values": [
+              12,
+              7,
+              30
+            ]
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractNumbers",
+        "sum"
+      ],
+      "rows": [
+        {
+          "skill": "extractNumbers",
+          "message": "list the numbers in this text, no adding up: 4 pizzas, 6 sodas, 2 cakes",
+          "input": {
+            "text": "4 pizzas, 6 sodas, 2 cakes"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "sum",
+          "message": "add up the numbers in this text, no list: 4 pizzas, 6 sodas, 2 cakes",
+          "input": {
+            "values": [
+              4,
+              6,
+              2
+            ]
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractTimes",
+        "listTimezoneOffsets"
+      ],
+      "rows": [
+        {
+          "skill": "extractTimes",
+          "message": "give me the clock times in this itinerary in 24-hour form: London 9:40am, Tokyo 6:05pm",
+          "input": {
+            "text": "London 9:40am, Tokyo 6:05pm"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "listTimezoneOffsets",
+          "message": "give me the clock time in London and Tokyo, 24-hour form",
+          "input": {
+            "zones": [
+              "Europe/London",
+              "Asia/Tokyo"
+            ]
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractTimes",
+        "listTimezoneOffsets"
+      ],
+      "rows": [
+        {
+          "skill": "extractTimes",
+          "message": "what are the clock times in this flight plan: London 9:40, Tokyo 18:05",
+          "input": {
+            "text": "London 9:40, Tokyo 18:05"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "listTimezoneOffsets",
+          "message": "what are the clock times right now in London and Tokyo for my flight plan",
+          "input": {
+            "zones": [
+              "Europe/London",
+              "Asia/Tokyo"
+            ]
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractUrls",
+        "validateUrl"
+      ],
+      "rows": [
+        {
+          "skill": "extractUrls",
+          "message": "find the ftp address in this text: see ftp://files.example.org/pub",
+          "input": {
+            "text": "see ftp://files.example.org/pub"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateUrl",
+          "message": "is the ftp link in this text valid? see ftp://files.example.org/pub",
+          "input": {
+            "url": "ftp://files.example.org/pub"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "extractUrls",
+        "validateUrl"
+      ],
+      "rows": [
+        {
+          "skill": "extractUrls",
+          "message": "find the ftp address in this text: see ftp://files.myschool.org/maths",
+          "input": {
+            "text": "see ftp://files.myschool.org/maths"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateUrl",
+          "message": "is the ftp link in this text valid? see ftp://files.myschool.org/maths",
+          "input": {
+            "url": "ftp://files.myschool.org/maths"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "filterRows",
+        "sortRows"
+      ],
+      "rows": [
+        {
+          "skill": "filterRows",
+          "message": "filter the rows of this table to score over 50, don't sort them: name,score / Ali,72 / Bea,41",
+          "input": {
+            "table": {
+              "headers": [
+                "name",
+                "score"
+              ],
+              "rows": [
+                {
+                  "name": "Ali",
+                  "score": 72
+                },
+                {
+                  "name": "Bea",
+                  "score": 41
+                }
+              ]
+            },
+            "column": "score",
+            "operator": ">",
+            "value": 50
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "sortRows",
+          "message": "sort the rows of this table by score, don't filter any out: name,score / Ali,72 / Bea,41",
+          "input": {
+            "table": {
+              "headers": [
+                "name",
+                "score"
+              ],
+              "rows": [
+                {
+                  "name": "Ali",
+                  "score": 72
+                },
+                {
+                  "name": "Bea",
+                  "score": 41
+                }
+              ]
+            },
+            "column": "score"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "filterRows",
+        "sortRows"
+      ],
+      "rows": [
+        {
+          "skill": "filterRows",
+          "message": "filter the rows of this table to dept sales, don't sort them: name,dept / Jo,sales / Sam,ops / Kim,sales",
+          "input": {
+            "table": {
+              "headers": [
+                "name",
+                "dept"
+              ],
+              "rows": [
+                {
+                  "name": "Jo",
+                  "dept": "sales"
+                },
+                {
+                  "name": "Sam",
+                  "dept": "ops"
+                },
+                {
+                  "name": "Kim",
+                  "dept": "sales"
+                }
+              ]
+            },
+            "column": "dept",
+            "operator": "=",
+            "value": "sales"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "sortRows",
+          "message": "sort the rows of this table by dept, don't filter any out: name,dept / Jo,sales / Sam,ops / Kim,sales",
+          "input": {
+            "table": {
+              "headers": [
+                "name",
+                "dept"
+              ],
+              "rows": [
+                {
+                  "name": "Jo",
+                  "dept": "sales"
+                },
+                {
+                  "name": "Sam",
+                  "dept": "ops"
+                },
+                {
+                  "name": "Kim",
+                  "dept": "sales"
+                }
+              ]
+            },
+            "column": "dept"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "findLongSentences",
+        "findRepeatedWords"
+      ],
+      "rows": [
+        {
+          "skill": "findLongSentences",
+          "message": "are any sentences too long in this paragraph? I really really like it. It was a long and winding sentence that went on.",
+          "input": {
+            "text": "I really really like it. It was a long and winding sentence that went on."
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "findRepeatedWords",
+          "message": "are any words repeated in this paragraph? I really really like it. It was a long and winding sentence that went on.",
+          "input": {
+            "text": "I really really like it. It was a long and winding sentence that went on."
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "findLongSentences",
+        "findRepeatedWords"
+      ],
+      "rows": [
+        {
+          "skill": "findLongSentences",
+          "message": "long sentences or repeated words? check for long sentences: Sales rose. Sales rose again in March.",
+          "input": {
+            "text": "Sales rose. Sales rose again in March."
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "findRepeatedWords",
+          "message": "long sentences or repeated words? check for repeated words: Sales rose. Sales rose again in March.",
+          "input": {
+            "text": "Sales rose. Sales rose again in March."
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "findLongestWord",
+        "wordFrequency"
+      ],
+      "rows": [
+        {
+          "skill": "findLongestWord",
+          "message": "in this text which word is longest, not most common: the cat chased the other cat round the extraordinary garden",
+          "input": {
+            "text": "the cat chased the other cat round the extraordinary garden"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "wordFrequency",
+          "message": "in this text which word is most common, not longest: the cat chased the other cat round the extraordinary garden",
+          "input": {
+            "text": "the cat chased the other cat round the extraordinary garden"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "findLongestWord",
+        "wordFrequency"
+      ],
+      "rows": [
+        {
+          "skill": "findLongestWord",
+          "message": "which word is the longest in my tweet, not the most frequent: so so so excited for the championship tonight",
+          "input": {
+            "text": "so so so excited for the championship tonight"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "wordFrequency",
+          "message": "which word is the most frequent in my tweet, not the longest: so so so excited for the championship tonight",
+          "input": {
+            "text": "so so so excited for the championship tonight"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "generateRandomString",
+        "generateUuid"
+      ],
+      "rows": [
+        {
+          "skill": "generateRandomString",
+          "message": "make a random string for my test user id",
+          "input": {},
+          "mode": "full"
+        },
+        {
+          "skill": "generateUuid",
+          "message": "generate a random uuid for my test user id",
+          "input": {},
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "generateRandomString",
+        "generateUuid"
+      ],
+      "rows": [
+        {
+          "skill": "generateRandomString",
+          "message": "I need a random string of 12 digits for a test, not a uuid",
+          "input": {
+            "length": 12,
+            "charset": "digits"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "generateUuid",
+          "message": "I need a random uuid for a test, not just a string of digits",
+          "input": {},
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "generateSchedule",
+        "timeBlockSchedule"
+      ],
+      "rows": [
+        {
+          "skill": "generateSchedule",
+          "message": "block out my afternoon from 2pm to 6pm into four even slots with 15 minute breaks",
+          "input": {
+            "start": "14:00",
+            "end": "18:00",
+            "slots": 4,
+            "breakMinutes": 15
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "timeBlockSchedule",
+          "message": "block out my afternoon from 2pm into slots with 15 minute breaks: reading 45 min, laundry 30 min",
+          "input": {
+            "tasks": [
+              {
+                "task": "reading",
+                "minutes": 45
+              },
+              {
+                "task": "laundry",
+                "minutes": 30
+              }
+            ],
+            "start": "14:00",
+            "breakMinutes": 15
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "generateSchedule",
+        "timeBlockSchedule"
+      ],
+      "rows": [
+        {
+          "skill": "generateSchedule",
+          "message": "block my afternoon from 1pm to 5pm into four even slots with 10 minute breaks",
+          "input": {
+            "start": "13:00",
+            "end": "17:00",
+            "slots": 4,
+            "breakMinutes": 10
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "timeBlockSchedule",
+          "message": "block my afternoon from 1pm into slots with 10 minute breaks: essay 60 min, reading 45 min",
+          "input": {
+            "tasks": [
+              {
+                "task": "essay",
+                "minutes": 60
+              },
+              {
+                "task": "reading",
+                "minutes": 45
+              }
+            ],
+            "start": "13:00",
+            "breakMinutes": 10
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "generateUuid",
+        "validateUuid"
+      ],
+      "rows": [
+        {
+          "skill": "generateUuid",
+          "message": "this uuid 123e4567-e89b-12d3-a456-426614174000 came out wrong, make a valid uuid to replace it",
+          "input": {},
+          "mode": "full"
+        },
+        {
+          "skill": "validateUuid",
+          "message": "did this uuid come out right? 123e4567-e89b-12d3-a456-426614174000 I generated it",
+          "input": {
+            "uuid": "123e4567-e89b-12d3-a456-426614174000"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "generateUuid",
+        "validateUuid"
+      ],
+      "rows": [
+        {
+          "skill": "generateUuid",
+          "message": "this uuid I generated earlier is wrong: f47ac10b-58cc-4372-a567-0e02b2c3d479 - generate a valid one now",
+          "input": {},
+          "mode": "full"
+        },
+        {
+          "skill": "validateUuid",
+          "message": "is this uuid right? f47ac10b-58cc-4372-a567-0e02b2c3d479 I generated it earlier",
+          "input": {
+            "uuid": "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "hexDecode",
+        "morseDecode"
+      ],
+      "rows": [
+        {
+          "skill": "hexDecode",
+          "message": "decode this hex message from my nephew: 6869",
+          "input": {
+            "hex": "6869"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "morseDecode",
+          "message": "decode this morse message from my nephew: .... ..",
+          "input": {
+            "morse": ".... .."
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "hexDecode",
+        "morseDecode"
+      ],
+      "rows": [
+        {
+          "skill": "hexDecode",
+          "message": "my kid sent a secret code, is it hex or morse? decode the hex: 7069",
+          "input": {
+            "hex": "7069"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "morseDecode",
+          "message": "my kid sent a secret code, is it hex or morse? decode the morse: .--. ..",
+          "input": {
+            "morse": ".--. .."
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "joinLines",
+        "removeDuplicateLines"
+      ],
+      "rows": [
+        {
+          "skill": "joinLines",
+          "message": "join these lines into one line, duplicates and all:\nmilk\neggs\nmilk",
+          "input": {
+            "text": "milk\neggs\nmilk"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "removeDuplicateLines",
+          "message": "remove duplicate lines but don't join them into one line:\nmilk\neggs\nmilk",
+          "input": {
+            "text": "milk\neggs\nmilk"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "joinLines",
+        "removeDuplicateLines"
+      ],
+      "rows": [
+        {
+          "skill": "joinLines",
+          "message": "guest list has duplicate lines - join the lines into one, comma separated:\nAva\nLeo\nAva\nMia",
+          "input": {
+            "text": "Ava\nLeo\nAva\nMia",
+            "delimiter": ", "
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "removeDuplicateLines",
+          "message": "guest list has duplicate lines - remove the duplicates, don't join the lines:\nAva\nLeo\nAva\nMia",
+          "input": {
+            "text": "Ava\nLeo\nAva\nMia"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "joinLines",
+        "sortLines"
+      ],
+      "rows": [
+        {
+          "skill": "joinLines",
+          "message": "join these lines into one line, no need to sort them:\nzara\nadam\nmolly",
+          "input": {
+            "text": "zara\nadam\nmolly"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "sortLines",
+          "message": "sort these lines, no need to join them into one line:\nzara\nadam\nmolly",
+          "input": {
+            "text": "zara\nadam\nmolly"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "joinLines",
+        "sortLines"
+      ],
+      "rows": [
+        {
+          "skill": "joinLines",
+          "message": "join the lines into one line with a pipe, don't sort them a to z:\nbeta\nalpha\ngamma",
+          "input": {
+            "text": "beta\nalpha\ngamma",
+            "delimiter": "|"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "sortLines",
+          "message": "sort the lines a to z, don't join them into one line:\nbeta\nalpha\ngamma",
+          "input": {
+            "text": "beta\nalpha\ngamma",
+            "by": "alphabetical"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "joinLines",
+        "trimLines"
+      ],
+      "rows": [
+        {
+          "skill": "joinLines",
+          "message": "join these lines into one, don't trim the spaces:\n   apples  \n  pears",
+          "input": {
+            "text": "   apples  \n  pears",
+            "trim": false
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "trimLines",
+          "message": "trim the spaces off these lines, don't join them:\n   apples  \n  pears",
+          "input": {
+            "text": "   apples  \n  pears"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "joinLines",
+        "trimLines"
+      ],
+      "rows": [
+        {
+          "skill": "joinLines",
+          "message": "join each padded line in this list into one rather than trimming:\n  red \n green  \n blue",
+          "input": {
+            "text": "  red \n green  \n blue",
+            "trim": false
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "trimLines",
+          "message": "trim each padded line in this list rather than joining them:\n  red \n green  \n blue",
+          "input": {
+            "text": "  red \n green  \n blue"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "languageCodeLookup",
+        "phoneRegionLookup"
+      ],
+      "rows": [
+        {
+          "skill": "languageCodeLookup",
+          "message": "for my travel app's phone screen, what's the language code for Greek?",
+          "input": {
+            "query": "Greek"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "phoneRegionLookup",
+          "message": "for my travel app, what's the phone dialling code for Greece?",
+          "input": {
+            "query": "Greece"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "languageCodeLookup",
+        "phoneRegionLookup"
+      ],
+      "rows": [
+        {
+          "skill": "languageCodeLookup",
+          "message": "saw ko next to the language picker on a form - which language does that code belong to?",
+          "input": {
+            "query": "ko"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "phoneRegionLookup",
+          "message": "saw +82 next to the language picker on a form - which country does that code belong to?",
+          "input": {
+            "query": "+82"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "parseCsv",
+        "parseMarkdownTable"
+      ],
+      "rows": [
+        {
+          "skill": "parseCsv",
+          "message": "parse this csv into rows: name,qty\npens,4\npads,2",
+          "input": {
+            "text": "name,qty\npens,4\npads,2"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "parseMarkdownTable",
+          "message": "parse this markdown table into rows: | name | qty |\n| --- | --- |\n| pens | 4 |",
+          "input": {
+            "text": "| name | qty |\n| --- | --- |\n| pens | 4 |"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "parseCsv",
+        "parseMarkdownTable"
+      ],
+      "rows": [
+        {
+          "skill": "parseCsv",
+          "message": "read this csv into rows of data:\ncity,temp\nOslo,4\nRome,19",
+          "input": {
+            "text": "city,temp\nOslo,4\nRome,19"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "parseMarkdownTable",
+          "message": "read this markdown table into rows of data:\n| city | temp |\n| --- | --- |\n| Oslo | 4 |\n| Rome | 19 |",
+          "input": {
+            "text": "| city | temp |\n| --- | --- |\n| Oslo | 4 |\n| Rome | 19 |"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "parseKeyValue",
+        "parseMarkdownTable"
+      ],
+      "rows": [
+        {
+          "skill": "parseKeyValue",
+          "message": "parse these key value settings, not a markdown table:\nport=8080\nhost=local",
+          "input": {
+            "text": "port=8080\nhost=local"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "parseMarkdownTable",
+          "message": "parse this markdown table, not key value settings:\n| port | host |\n| --- | --- |\n| 8080 | local |",
+          "input": {
+            "text": "| port | host |\n| --- | --- |\n| 8080 | local |"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "parseKeyValue",
+        "parseMarkdownTable"
+      ],
+      "rows": [
+        {
+          "skill": "parseKeyValue",
+          "message": "read these settings into data, they're key=value lines, not a markdown table:\ntheme=dark\nlang=en",
+          "input": {
+            "text": "theme=dark\nlang=en"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "parseMarkdownTable",
+          "message": "read these settings into data, they're in a markdown table:\n| theme | lang |\n| --- | --- |\n| dark | en |",
+          "input": {
+            "text": "| theme | lang |\n| --- | --- |\n| dark | en |"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "parseKeyValue",
+        "validateJson"
+      ],
+      "rows": [
+        {
+          "skill": "parseKeyValue",
+          "message": "valid json? no idea, just read the key=value pairs: port=8080",
+          "input": {
+            "text": "port=8080"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateJson",
+          "message": "valid json? key=value pairs: port=8080",
+          "input": {
+            "text": "port=8080"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "parseKeyValue",
+        "validateJson"
+      ],
+      "rows": [
+        {
+          "skill": "parseKeyValue",
+          "message": "valid json or not? read these key value settings:\nport: 8080\ndebug: true",
+          "input": {
+            "text": "port: 8080\ndebug: true"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateJson",
+          "message": "valid json or not? check these key value settings:\nport: 8080\ndebug: true",
+          "input": {
+            "text": "port: 8080\ndebug: true"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "parseQueryString",
+        "urlEncode"
+      ],
+      "rows": [
+        {
+          "skill": "parseQueryString",
+          "message": "what does each key hold in this percent encoded query string: ?q=red%20shoes&size=9",
+          "input": {
+            "query": "?q=red%20shoes&size=9"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "urlEncode",
+          "message": "percent encode the value each key will hold in this query string: red shoes & socks",
+          "input": {
+            "text": "red shoes & socks"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "parseQueryString",
+        "urlEncode"
+      ],
+      "rows": [
+        {
+          "skill": "parseQueryString",
+          "message": "what does the q key hold in this percent encoded query string: ?q=blue%20hats&page=2",
+          "input": {
+            "query": "?q=blue%20hats&page=2"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "urlEncode",
+          "message": "percent encode the text the q key will hold in this query string: blue hats & scarves",
+          "input": {
+            "text": "blue hats & scarves"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "parseSemver",
+        "splitEvenly"
+      ],
+      "rows": [
+        {
+          "skill": "parseSemver",
+          "message": "this number 3.7.2 - split it into its parts",
+          "input": {
+            "version": "3.7.2"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "splitEvenly",
+          "message": "this number 1.20 - split it into 3 parts",
+          "input": {
+            "amount": 1.2,
+            "parts": 3
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "parseSemver",
+        "splitEvenly"
+      ],
+      "rows": [
+        {
+          "skill": "parseSemver",
+          "message": "here's a number, 2.5.0 - split it into its parts",
+          "input": {
+            "version": "2.5.0"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "splitEvenly",
+          "message": "here's a number, 2.50 - split it into 5 parts",
+          "input": {
+            "amount": 2.5,
+            "parts": 5
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "pickRandom",
+        "randomNumber"
+      ],
+      "rows": [
+        {
+          "skill": "pickRandom",
+          "message": "pick one random number from these, seed 9: 5, 12, 40, 77",
+          "input": {
+            "items": [
+              5,
+              12,
+              40,
+              77
+            ],
+            "seed": 9
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "randomNumber",
+          "message": "pick one random number from 5 to 77, seed 9",
+          "input": {
+            "min": 5,
+            "max": 77,
+            "seed": 9
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "pickRandom",
+        "randomNumber"
+      ],
+      "rows": [
+        {
+          "skill": "pickRandom",
+          "message": "pick one random number out of 3, 17 and 25 with seed 4",
+          "input": {
+            "items": [
+              3,
+              17,
+              25
+            ],
+            "seed": 4
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "randomNumber",
+          "message": "pick one random number from 3 to 25 with seed 4",
+          "input": {
+            "min": 3,
+            "max": 25,
+            "seed": 4
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "pluralize",
+        "singularize"
+      ],
+      "rows": [
+        {
+          "skill": "pluralize",
+          "message": "for my kid's spelling homework, what's the plural of mouse?",
+          "input": {
+            "word": "mouse"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "singularize",
+          "message": "for my kid's spelling homework, what's the singular of mice?",
+          "input": {
+            "word": "mice"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "pluralize",
+        "singularize"
+      ],
+      "rows": [
+        {
+          "skill": "pluralize",
+          "message": "plural or singular? give me the plural form of cactus",
+          "input": {
+            "word": "cactus"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "singularize",
+          "message": "plural or singular? give me the singular form of cacti",
+          "input": {
+            "word": "cacti"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "prioritizeTasks",
+        "sortLines"
+      ],
+      "rows": [
+        {
+          "skill": "prioritizeTasks",
+          "message": "sort my task lines by priority this morning",
+          "input": {},
+          "mode": "pointed"
+        },
+        {
+          "skill": "sortLines",
+          "message": "rank my task lines by length this morning",
+          "input": {
+            "by": "length"
+          },
+          "mode": "pointed"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "prioritizeTasks",
+        "sortLines"
+      ],
+      "rows": [
+        {
+          "skill": "prioritizeTasks",
+          "message": "sort my task lines by priority this afternoon",
+          "input": {},
+          "mode": "pointed"
+        },
+        {
+          "skill": "sortLines",
+          "message": "rank my task lines by length this afternoon",
+          "input": {
+            "by": "length"
+          },
+          "mode": "pointed"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "singularize",
+        "stemWords"
+      ],
+      "rows": [
+        {
+          "skill": "singularize",
+          "message": "cut berries back to one berry, not its stem",
+          "input": {
+            "word": "berries"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "stemWords",
+          "message": "cut berries back to its stem, not to one berry",
+          "input": {
+            "text": "berries"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "singularize",
+        "stemWords"
+      ],
+      "rows": [
+        {
+          "skill": "singularize",
+          "message": "cut stories back to one story rather than its stem",
+          "input": {
+            "word": "stories"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "stemWords",
+          "message": "cut stories back to its stem rather than one story",
+          "input": {
+            "text": "stories"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "sortLines",
+        "sortList"
+      ],
+      "rows": [
+        {
+          "skill": "sortLines",
+          "message": "sort this list alphabetically by line:\npear\napple\nfig",
+          "input": {
+            "text": "pear\napple\nfig",
+            "by": "alphabetical"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "sortList",
+          "message": "sort the items in this list alphabetically: pear, apple, fig",
+          "input": {
+            "items": [
+              "pear",
+              "apple",
+              "fig"
+            ],
+            "by": "alphabetical"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "sortLines",
+        "sortList"
+      ],
+      "rows": [
+        {
+          "skill": "sortLines",
+          "message": "sort this list alphabetically, it's one item per line:\nplum\nkiwi\ndate",
+          "input": {
+            "text": "plum\nkiwi\ndate",
+            "by": "alphabetical"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "sortList",
+          "message": "sort this list of items alphabetically: plum, kiwi, date",
+          "input": {
+            "items": [
+              "plum",
+              "kiwi",
+              "date"
+            ],
+            "by": "alphabetical"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "sortList",
+        "sortRows"
+      ],
+      "rows": [
+        {
+          "skill": "sortList",
+          "message": "sort this list of people alphabetically by name: Zoe, Amir, Kate",
+          "input": {
+            "items": [
+              "Zoe",
+              "Amir",
+              "Kate"
+            ],
+            "by": "alphabetical"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "sortRows",
+          "message": "sort this table of people alphabetically by name: name,age / Zoe,31 / Amir,25",
+          "input": {
+            "table": {
+              "headers": [
+                "name",
+                "age"
+              ],
+              "rows": [
+                {
+                  "name": "Zoe",
+                  "age": 31
+                },
+                {
+                  "name": "Amir",
+                  "age": 25
+                }
+              ]
+            },
+            "column": "name"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "sortList",
+        "sortRows"
+      ],
+      "rows": [
+        {
+          "skill": "sortList",
+          "message": "sort this list of cities alphabetically by city: Leeds, Bath, York",
+          "input": {
+            "items": [
+              "Leeds",
+              "Bath",
+              "York"
+            ],
+            "by": "alphabetical"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "sortRows",
+          "message": "sort this list of rows alphabetically by city: city,pop / Leeds,800 / Bath,90",
+          "input": {
+            "table": {
+              "headers": [
+                "city",
+                "pop"
+              ],
+              "rows": [
+                {
+                  "city": "Leeds",
+                  "pop": 800
+                },
+                {
+                  "city": "Bath",
+                  "pop": 90
+                }
+              ]
+            },
+            "column": "city"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "splitLines",
+        "wrapText"
+      ],
+      "rows": [
+        {
+          "skill": "splitLines",
+          "message": "split this comma list at the commas, don't wrap it at 10 characters: red, green, blue, yellow",
+          "input": {
+            "text": "red, green, blue, yellow",
+            "delimiter": ","
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "wrapText",
+          "message": "wrap this comma list at 10 characters, don't split it at the commas: red, green, blue, yellow",
+          "input": {
+            "text": "red, green, blue, yellow",
+            "width": 10
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "splitLines",
+        "wrapText"
+      ],
+      "rows": [
+        {
+          "skill": "splitLines",
+          "message": "break this line at every semicolon rather than wrapping it at a width: eggs; flour; sugar; butter",
+          "input": {
+            "text": "eggs; flour; sugar; butter",
+            "delimiter": ";"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "wrapText",
+          "message": "break this line at a width of 12 rather than at every semicolon: eggs; flour; sugar; butter",
+          "input": {
+            "text": "eggs; flour; sugar; butter",
+            "width": 12
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "tokenizeSentences",
+        "tokenizeWords"
+      ],
+      "rows": [
+        {
+          "skill": "tokenizeSentences",
+          "message": "tokenize this into sentences, not words: I came. I saw. I left early.",
+          "input": {
+            "text": "I came. I saw. I left early."
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "tokenizeWords",
+          "message": "tokenize this into words, not sentences: I came. I saw. I left early.",
+          "input": {
+            "text": "I came. I saw. I left early."
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "tokenizeSentences",
+        "tokenizeWords"
+      ],
+      "rows": [
+        {
+          "skill": "tokenizeSentences",
+          "message": "tokenise this passage into separate sentences, then I'll do words: Rain fell. We stayed in.",
+          "input": {
+            "text": "Rain fell. We stayed in."
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "tokenizeWords",
+          "message": "tokenise this passage into separate words, then I'll do sentences: Rain fell. We stayed in.",
+          "input": {
+            "text": "Rain fell. We stayed in."
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateEmail",
+        "validateIpAddress"
+      ],
+      "rows": [
+        {
+          "skill": "validateEmail",
+          "message": "is this a valid email address: admin@10.0.0.5",
+          "input": {
+            "email": "admin@10.0.0.5"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateIpAddress",
+          "message": "is this a valid ip address: 10.0.0.5",
+          "input": {
+            "address": "10.0.0.5"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateEmail",
+        "validateIpAddress"
+      ],
+      "rows": [
+        {
+          "skill": "validateEmail",
+          "message": "the login field takes an email or an ip - is this email valid: ops@server.net",
+          "input": {
+            "email": "ops@server.net"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateIpAddress",
+          "message": "the login field takes an email or an ip - is this ip valid: 300.1.1.1",
+          "input": {
+            "address": "300.1.1.1"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateEmail",
+        "validatePhoneNumber"
+      ],
+      "rows": [
+        {
+          "skill": "validateEmail",
+          "message": "contact card says email priya@clinic.co.uk, phone +44 7700 900123 - is the email valid?",
+          "input": {
+            "email": "priya@clinic.co.uk"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validatePhoneNumber",
+          "message": "contact card says email priya@clinic.co.uk, phone +44 7700 900123 - is the phone number valid?",
+          "input": {
+            "number": "+44 7700 900123"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateEmail",
+        "validatePhoneNumber"
+      ],
+      "rows": [
+        {
+          "skill": "validateEmail",
+          "message": "sign-up form asks for email and phone number - is this email valid: tom@bakery.io",
+          "input": {
+            "email": "tom@bakery.io"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validatePhoneNumber",
+          "message": "sign-up form asks for email and phone number - is this phone number valid: +447700900123",
+          "input": {
+            "number": "+447700900123"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateEmail",
+        "validateUrl"
+      ],
+      "rows": [
+        {
+          "skill": "validateEmail",
+          "message": "is the email in my bio valid? hello@mybakery.com",
+          "input": {
+            "email": "hello@mybakery.com"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateUrl",
+          "message": "is the url in my bio valid? mybakery.com/menu",
+          "input": {
+            "url": "mybakery.com/menu"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateEmail",
+        "validateUrl"
+      ],
+      "rows": [
+        {
+          "skill": "validateEmail",
+          "message": "my business card has an email and a url - is the email valid? jo@studio-k.net",
+          "input": {
+            "email": "jo@studio-k.net"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateUrl",
+          "message": "my business card has an email and a url - is the url valid? https://studio-k.net",
+          "input": {
+            "url": "https://studio-k.net"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateIban",
+        "validateLuhn"
+      ],
+      "rows": [
+        {
+          "skill": "validateIban",
+          "message": "the account number on my bank statement - is its checksum ok? GB29NWBK60161331926819",
+          "input": {
+            "iban": "GB29NWBK60161331926819"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateLuhn",
+          "message": "the card number on my bank statement - is its checksum ok? 5105105105105100",
+          "input": {
+            "number": "5105105105105100"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateIban",
+        "validateLuhn"
+      ],
+      "rows": [
+        {
+          "skill": "validateIban",
+          "message": "validate the iban number on this invoice: FR1420041010050500013M02606",
+          "input": {
+            "iban": "FR1420041010050500013M02606"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateLuhn",
+          "message": "validate the card number on this invoice: 5555555555554444",
+          "input": {
+            "number": "5555555555554444"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateIpAddress",
+        "validatePhoneNumber"
+      ],
+      "rows": [
+        {
+          "skill": "validateIpAddress",
+          "message": "the ip phone on my desk shows 10.0.0.300 as its address - is that a valid ip?",
+          "input": {
+            "address": "10.0.0.300"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validatePhoneNumber",
+          "message": "the ip phone on my desk shows +442079460018 as its number - is that a valid phone number?",
+          "input": {
+            "number": "+442079460018"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateIpAddress",
+        "validatePhoneNumber"
+      ],
+      "rows": [
+        {
+          "skill": "validateIpAddress",
+          "message": "my ip phone's settings list 10.0.0.300 - valid ip address?",
+          "input": {
+            "address": "10.0.0.300"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validatePhoneNumber",
+          "message": "my ip phone's settings list +442079460018 - valid phone number?",
+          "input": {
+            "number": "+442079460018"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateIpAddress",
+        "validateUrl"
+      ],
+      "rows": [
+        {
+          "skill": "validateIpAddress",
+          "message": "is this server address a valid ip, not a url: 10.1.2.3",
+          "input": {
+            "address": "10.1.2.3"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateUrl",
+          "message": "is this server address a valid url, not just an ip: http://10.1.2.3/admin",
+          "input": {
+            "url": "http://10.1.2.3/admin"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateIpAddress",
+        "validateUrl"
+      ],
+      "rows": [
+        {
+          "skill": "validateIpAddress",
+          "message": "check the address in my nginx config is a valid ip, not a url: 10.20.30.40",
+          "input": {
+            "address": "10.20.30.40"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateUrl",
+          "message": "check the address in my nginx config is a valid url, not an ip: https://api.myapp.dev/v1",
+          "input": {
+            "url": "https://api.myapp.dev/v1"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateIpAddress",
+        "validateUuid"
+      ],
+      "rows": [
+        {
+          "skill": "validateIpAddress",
+          "message": "check this id is a valid ip address, not a uuid: fe80::1",
+          "input": {
+            "address": "fe80::1"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateUuid",
+          "message": "check this id is a valid uuid, not an ip address: 3f2504e0-4f89-11d3-9a0c-0305e82c3301",
+          "input": {
+            "uuid": "3f2504e0-4f89-11d3-9a0c-0305e82c3301"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateIpAddress",
+        "validateUuid"
+      ],
+      "rows": [
+        {
+          "skill": "validateIpAddress",
+          "message": "is this a valid uuid or ip address? I think ip: fe80::1",
+          "input": {
+            "address": "fe80::1"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateUuid",
+          "message": "is this a valid uuid or ip address? I think uuid: 3f2504e0-4f89-11d3-9a0c-0305e82c3301",
+          "input": {
+            "uuid": "3f2504e0-4f89-11d3-9a0c-0305e82c3301"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateIsbn",
+        "validateLuhn"
+      ],
+      "rows": [
+        {
+          "skill": "validateIsbn",
+          "message": "check the check digit on this isbn, not a card number: 0306406152",
+          "input": {
+            "isbn": "0306406152"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateLuhn",
+          "message": "check the check digit on this card number, not an isbn: 4012888888881881",
+          "input": {
+            "number": "4012888888881881"
+          },
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "twins": [
+        "validateIsbn",
+        "validateLuhn"
+      ],
+      "rows": [
+        {
+          "skill": "validateIsbn",
+          "message": "is the checksum digit right on this isbn number? 0306406152",
+          "input": {
+            "isbn": "0306406152"
+          },
+          "mode": "full"
+        },
+        {
+          "skill": "validateLuhn",
+          "message": "is the checksum digit right on this card number? 4012888888881881",
+          "input": {
+            "number": "4012888888881881"
+          },
+          "mode": "full"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1377 @@
+{
+ "batch": "b10",
+ "categories": [
+  "design",
+  "statistics",
+  "files"
+ ],
+ "skills": [
+  {
+   "name": "aspectRatio",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "aspectRatio \u2014 Reduce a width by a height to its screen ratio, like 16:9.\n  needs: width: number, height: number\n  e.g. \"what aspect ratio is 1920 by 1080\" \u2192 {\"width\":1920,\"height\":1080}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "width",
+     "height"
+    ],
+    "properties": {
+     "width": {
+      "type": "number",
+      "label": "width",
+      "exclusiveMinimum": 0,
+      "prompt": "What is the width?"
+     },
+     "height": {
+      "type": "number",
+      "label": "height",
+      "exclusiveMinimum": 0,
+      "prompt": "What is the height?"
+     }
+    }
+   },
+   "examples": [
+    "what aspect ratio is 1920 by 1080",
+    "aspect ratio of 1024x768",
+    "ratio for a square image",
+    "aspect ratio of a phone video",
+    "ratio of an unusual size",
+    "reduce 3840 by 2160 to its simplest ratio",
+    "what ratio is a 1200 by 800 image"
+   ]
+  },
+  {
+   "name": "complementaryColor",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "complementaryColor \u2014 Find the colour opposite a given one on the colour wheel.\n  needs: color: string\n  e.g. \"what is the complement of #2C6E8C\" \u2192 {\"color\":\"#2C6E8C\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "color"
+    ],
+    "properties": {
+     "color": {
+      "type": "string",
+      "label": "colour",
+      "minLength": 3,
+      "prompt": "Which colour?"
+     }
+    }
+   },
+   "examples": [
+    "what is the complement of #2C6E8C",
+    "opposite colour to red",
+    "complement of this orange",
+    "find the opposite of green",
+    "complement of a grey"
+   ]
+  },
+  {
+   "name": "contrastRatio",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "contrastRatio \u2014 Work out the contrast ratio between two colours and whether it meets WCAG AA or AAA.\n  needs: foreground: string, background: string\n  optional: largeText: boolean\n  e.g. \"contrast between black text and white background\" \u2192 {\"foreground\":\"#000000\",\"background\":\"#FFFFFF\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "foreground",
+     "background"
+    ],
+    "properties": {
+     "foreground": {
+      "type": "string",
+      "label": "text colour",
+      "minLength": 3,
+      "prompt": "Which colour is the text?"
+     },
+     "background": {
+      "type": "string",
+      "label": "background colour",
+      "minLength": 3,
+      "prompt": "Which colour is behind it?"
+     },
+     "largeText": {
+      "type": "boolean",
+      "label": "large text",
+      "default": false,
+      "description": "18pt or 14pt bold and above"
+     }
+    }
+   },
+   "examples": [
+    "contrast between black text and white background",
+    "is this text readable on that background",
+    "check contrast of grey on white",
+    "contrast for light grey on white",
+    "check contrast for large heading text"
+   ]
+  },
+  {
+   "name": "convertColor",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "convertColor \u2014 Convert a colour between hex, RGB and HSL.\n  needs: color: string\n  e.g. \"convert #FF5733 to rgb\" \u2192 {\"color\":\"#FF5733\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "color"
+    ],
+    "properties": {
+     "color": {
+      "type": "string",
+      "label": "colour",
+      "minLength": 3,
+      "prompt": "Which colour? (hex, rgb() or hsl())"
+     }
+    }
+   },
+   "examples": [
+    "convert #FF5733 to rgb",
+    "what is rgb(44, 110, 140) in hex",
+    "convert the shorthand #abc",
+    "turn hsl(120, 100%, 50%) into hex",
+    "convert black to every format"
+   ]
+  },
+  {
+   "name": "darkenColor",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "darkenColor \u2014 Shade a colour towards black by a percentage.\n  needs: color: string\n  optional: by: number\n  e.g. \"darken #2C6E8C by 20%\" \u2192 {\"color\":\"#2C6E8C\",\"by\":20}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "color"
+    ],
+    "properties": {
+     "color": {
+      "type": "string",
+      "label": "colour",
+      "minLength": 3,
+      "prompt": "Which colour?"
+     },
+     "by": {
+      "type": "number",
+      "label": "darken by %",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 10
+     }
+    }
+   },
+   "examples": [
+    "darken #2C6E8C by 20%",
+    "make this colour 10% darker",
+    "darken white by 50%",
+    "darken a colour past black",
+    "darken by nothing"
+   ]
+  },
+  {
+   "name": "generatePalette",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "generatePalette \u2014 Build a colour palette around a base colour \u2014 analogous, triadic, complementary or tints and shades.\n  needs: color: string\n  optional: scheme: string, count: integer\n  e.g. \"build an analogous palette from #2C6E8C\" \u2192 {\"color\":\"#2C6E8C\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "color"
+    ],
+    "properties": {
+     "color": {
+      "type": "string",
+      "label": "base colour",
+      "minLength": 3,
+      "prompt": "Which colour should the palette be built around?"
+     },
+     "scheme": {
+      "type": "string",
+      "label": "scheme",
+      "enum": [
+       "analogous",
+       "triadic",
+       "complementary",
+       "split-complementary",
+       "tetradic",
+       "tints",
+       "shades"
+      ],
+      "default": "analogous"
+     },
+     "count": {
+      "type": "integer",
+      "label": "colours (tints/shades)",
+      "minimum": 2,
+      "maximum": 10,
+      "default": 5,
+      "description": "only used for tints and shades"
+     }
+    }
+   },
+   "examples": [
+    "build an analogous palette from #2C6E8C",
+    "triadic palette for this blue",
+    "complementary pair for #FF5733",
+    "five tints of this colour",
+    "four shades of this colour"
+   ]
+  },
+  {
+   "name": "lightenColor",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "lightenColor \u2014 Tint a colour towards white by a percentage.\n  needs: color: string\n  optional: by: number\n  e.g. \"lighten #2C6E8C by 20%\" \u2192 {\"color\":\"#2C6E8C\",\"by\":20}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "color"
+    ],
+    "properties": {
+     "color": {
+      "type": "string",
+      "label": "colour",
+      "minLength": 3,
+      "prompt": "Which colour?"
+     },
+     "by": {
+      "type": "number",
+      "label": "lighten by %",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 10
+     }
+    }
+   },
+   "examples": [
+    "lighten #2C6E8C by 20%",
+    "make this colour 10% lighter",
+    "lighten black by 50%",
+    "lighten a colour past white",
+    "lighten by nothing"
+   ]
+  },
+  {
+   "name": "mixColors",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "mixColors \u2014 Blend two colours together in a proportion you choose.\n  needs: a: string, b: string\n  optional: weight: number\n  e.g. \"mix red and blue evenly\" \u2192 {\"a\":\"#FF0000\",\"b\":\"#0000FF\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "a",
+     "b"
+    ],
+    "properties": {
+     "a": {
+      "type": "string",
+      "label": "first colour",
+      "minLength": 3,
+      "prompt": "Which is the first colour?"
+     },
+     "b": {
+      "type": "string",
+      "label": "second colour",
+      "minLength": 3,
+      "prompt": "Which is the second colour?"
+     },
+     "weight": {
+      "type": "number",
+      "label": "first colour %",
+      "minimum": 0,
+      "maximum": 100,
+      "default": 50,
+      "description": "how much of the first colour, as a percentage"
+     }
+    }
+   },
+   "examples": [
+    "mix red and blue evenly",
+    "blend these two brand colours",
+    "mix 25% white into this colour",
+    "mix with none of the first colour",
+    "blend black and white"
+   ]
+  },
+  {
+   "name": "nearestNamedColor",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "nearestNamedColor \u2014 Find the closest CSS colour name to a colour \u2014 what you would call it in words.\n  needs: color: string\n  e.g. \"what colour name is closest to #556B2F\" \u2192 {\"color\":\"#556B2F\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "color"
+    ],
+    "properties": {
+     "color": {
+      "type": "string",
+      "label": "colour",
+      "minLength": 3,
+      "prompt": "Which colour?"
+     }
+    }
+   },
+   "examples": [
+    "what colour name is closest to #556B2F",
+    "closest css colour to #2C6E8C",
+    "what would you call rgb(255, 87, 51)",
+    "name for #FFFFFF",
+    "nearest colour name to #123456",
+    "give me a name for this shade of pink"
+   ]
+  },
+  {
+   "name": "pxToRem",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "pxToRem \u2014 Restate a pixel measurement in rem, against the root font size.\n  needs: px: number\n  optional: base: number\n  e.g. \"what is 24px in rem\" \u2192 {\"px\":24}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "px"
+    ],
+    "properties": {
+     "px": {
+      "type": "number",
+      "label": "pixels",
+      "carry": true,
+      "prompt": "How many pixels?"
+     },
+     "base": {
+      "type": "number",
+      "label": "root font size (px)",
+      "exclusiveMinimum": 0,
+      "default": 16,
+      "description": "the root font size"
+     }
+    }
+   },
+   "examples": [
+    "what is 24px in rem",
+    "convert 16px to rem",
+    "13px in rem at a 16px root",
+    "convert 20px with a 10px root font size",
+    "what is 1px in rem"
+   ]
+  },
+  {
+   "name": "remToPx",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "remToPx \u2014 Work out how many pixels a rem value comes to on screen.\n  needs: rem: number\n  optional: base: number\n  e.g. \"what is 1.5rem in pixels\" \u2192 {\"rem\":1.5}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "rem"
+    ],
+    "properties": {
+     "rem": {
+      "type": "number",
+      "label": "rem",
+      "carry": true,
+      "prompt": "How many rem?"
+     },
+     "base": {
+      "type": "number",
+      "label": "root font size (px)",
+      "exclusiveMinimum": 0,
+      "default": 16,
+      "description": "the root font size"
+     }
+    }
+   },
+   "examples": [
+    "what is 1.5rem in pixels",
+    "convert 1rem to px",
+    "0.875rem in pixels",
+    "convert 2rem with a 10px root",
+    "what is 1.1rem in px"
+   ]
+  },
+  {
+   "name": "scaleDimensions",
+   "category": "design",
+   "needsNetwork": false,
+   "card": "scaleDimensions \u2014 Resize a width and height to fit a target, keeping the same proportions.\n  needs: width: number, height: number\n  optional: targetWidth: number, targetHeight: number, scale: number\n  e.g. \"resize 1920x1080 to 800 wide\" \u2192 {\"width\":1920,\"height\":1080,\"targetWidth\":800}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "width",
+     "height"
+    ],
+    "properties": {
+     "width": {
+      "type": "number",
+      "label": "width",
+      "exclusiveMinimum": 0,
+      "prompt": "What is the current width?"
+     },
+     "height": {
+      "type": "number",
+      "label": "height",
+      "exclusiveMinimum": 0,
+      "prompt": "What is the current height?"
+     },
+     "targetWidth": {
+      "type": "number",
+      "label": "target width",
+      "exclusiveMinimum": 0
+     },
+     "targetHeight": {
+      "type": "number",
+      "label": "target height",
+      "exclusiveMinimum": 0
+     },
+     "scale": {
+      "type": "number",
+      "label": "scale factor",
+      "exclusiveMinimum": 0
+     }
+    }
+   },
+   "examples": [
+    "resize 1920x1080 to 800 wide",
+    "scale 4000x3000 to fit in 1000x1000",
+    "halve these dimensions",
+    "make this 600 tall keeping the ratio",
+    "fit a portrait image in a 500x500 box"
+   ]
+  },
+  {
+   "name": "correlation",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "correlation \u2014 Measure how strongly two sets of numbers move together, as a correlation coefficient.\n  needs: x: array, y: array\n  e.g. \"how correlated are these two series\" \u2192 {\"x\":[1,2,3,4,5],\"y\":[2,4,6,8,10]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "x",
+     "y"
+    ],
+    "properties": {
+     "x": {
+      "type": "array",
+      "label": "first set",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 3,
+      "prompt": "What is the first set of numbers?"
+     },
+     "y": {
+      "type": "array",
+      "label": "second set",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 3,
+      "prompt": "What is the second set?"
+     }
+    }
+   },
+   "examples": [
+    "how correlated are these two series",
+    "correlation between hours studied and score",
+    "are these inversely related",
+    "correlation of two unrelated series",
+    "weak positive correlation"
+   ]
+  },
+  {
+   "name": "cumulativeSum",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "cumulativeSum \u2014 Build a running total as you go, showing the sum after each number.\n  needs: values: array\n  optional: asPercent: boolean\n  e.g. \"running total of 10 20 30\" \u2192 {\"values\":[10,20,30]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "Which numbers should I total up?"
+     },
+     "asPercent": {
+      "type": "boolean",
+      "label": "as percentages",
+      "default": false,
+      "description": "report each running total as a share of the final total"
+     }
+    }
+   },
+   "examples": [
+    "running total of 10 20 30",
+    "cumulative sum of my monthly savings",
+    "running total as percentages",
+    "cumulative total with a negative",
+    "running total of a single value",
+    "add these up as I go along: 5 10 15",
+    "give me the running tally of 100 250 75"
+   ]
+  },
+  {
+   "name": "describeNumbers",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "describeNumbers \u2014 Summarise a list of numbers \u2014 its mean, median, mode, minimum, maximum, range and spread.\n  needs: values: array\n  optional: sample: boolean\n  e.g. \"summarise 4, 8, 15, 16, 23, 42\" \u2192 {\"values\":[4,8,15,16,23,42]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "Which numbers should I summarise?"
+     },
+     "sample": {
+      "type": "boolean",
+      "label": "treat as sample",
+      "default": false,
+      "description": "treat the values as a sample rather than the whole population"
+     }
+    }
+   },
+   "examples": [
+    "summarise 4, 8, 15, 16, 23, 42",
+    "mean and median of 10 20 30 40",
+    "stats for my test scores 88 92 79 92 85",
+    "sample standard deviation of 2 4 4 4 5 5 7 9",
+    "describe a single value 7",
+    "mean and spread of these values: 5 9 12 4 20",
+    "give me the average, median and range for 3 7 7 10 18"
+   ]
+  },
+  {
+   "name": "findOutliers",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "findOutliers \u2014 Spot the values sitting way off from the rest of a set.\n  needs: values: array\n  optional: method: string, threshold: number\n  e.g. \"find the outliers in these numbers\" \u2192 {\"values\":[10,12,11,13,12,90]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 4,
+      "prompt": "Which numbers?"
+     },
+     "method": {
+      "type": "string",
+      "label": "method",
+      "enum": [
+       "iqr",
+       "zscore"
+      ],
+      "default": "iqr"
+     },
+     "threshold": {
+      "type": "number",
+      "label": "z-score cutoff",
+      "exclusiveMinimum": 0,
+      "default": 3,
+      "description": "z-score cutoff, when using zscore"
+     }
+    }
+   },
+   "examples": [
+    "find the outliers in these numbers",
+    "any outliers in this data",
+    "spot unusual values by z-score",
+    "find outliers at both ends",
+    "outliers in response times",
+    "is anything way out of line in 8 9 10 11 50",
+    "which of these readings is off from the rest"
+   ]
+  },
+  {
+   "name": "histogramBins",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "histogramBins \u2014 Bucket numbers into a number of equal-width ranges and count how many fall in each.\n  needs: values: array\n  optional: bins: integer\n  e.g. \"bin these numbers into 5 groups\" \u2192 {\"values\":[1,2,3,4,5,6,7,8,9,10]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 2,
+      "prompt": "Which numbers?"
+     },
+     "bins": {
+      "type": "integer",
+      "label": "number of bins",
+      "minimum": 2,
+      "maximum": 50,
+      "default": 5
+     }
+    }
+   },
+   "examples": [
+    "bin these numbers into 5 groups",
+    "histogram of these scores in 4 bins",
+    "distribution of these ages in 3 bins",
+    "bin values that are all the same",
+    "histogram with two bins",
+    "sort these readings into four equal-width bands",
+    "sort these numbers into 3 equal-width buckets"
+   ]
+  },
+  {
+   "name": "linearRegression",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "linearRegression \u2014 Fit a straight line through a set of points and give its slope, intercept and fit.\n  needs: x: array, y: array\n  optional: predictAt: number\n  e.g. \"fit a line through these points\" \u2192 {\"x\":[1,2,3,4,5],\"y\":[2,4,6,8,10]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "x",
+     "y"
+    ],
+    "properties": {
+     "x": {
+      "type": "array",
+      "label": "x values",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 3,
+      "prompt": "What are the x values?"
+     },
+     "y": {
+      "type": "array",
+      "label": "y values",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 3,
+      "prompt": "What are the y values?"
+     },
+     "predictAt": {
+      "type": "number",
+      "label": "predict at x",
+      "description": "an x value to predict y for"
+     }
+    }
+   },
+   "examples": [
+    "fit a line through these points",
+    "trend line for these sales figures",
+    "predict the value at x = 10",
+    "fit a declining trend",
+    "regression through noisy points"
+   ]
+  },
+  {
+   "name": "movingAverage",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "movingAverage \u2014 Smooth a series of numbers by averaging over a sliding window.\n  needs: values: array, window: integer\n  optional: type: string\n  e.g. \"3 point moving average of these numbers\" \u2192 {\"values\":[1,2,3,4,5],\"window\":3}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values",
+     "window"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 2,
+      "prompt": "Which numbers?"
+     },
+     "window": {
+      "type": "integer",
+      "label": "window size",
+      "minimum": 2,
+      "prompt": "How many points should each average cover?"
+     },
+     "type": {
+      "type": "string",
+      "label": "average type",
+      "enum": [
+       "simple",
+       "weighted"
+      ],
+      "default": "simple"
+     }
+    }
+   },
+   "examples": [
+    "3 point moving average of these numbers",
+    "smooth these sales figures over 4 months",
+    "moving average of a noisy series",
+    "weighted moving average favouring recent points",
+    "moving average of a flat series"
+   ]
+  },
+  {
+   "name": "percentile",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "percentile \u2014 Find the value at a given percentile in a set of numbers.\n  needs: values: array, percentile: number\n  e.g. \"what is the 90th percentile of these response times\" \u2192 {\"values\":[12,15,18,22,30,45,60,90,120,300],\"percentile\":90}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values",
+     "percentile"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "Which numbers?"
+     },
+     "percentile": {
+      "type": "number",
+      "label": "percentile",
+      "minimum": 0,
+      "maximum": 100,
+      "prompt": "Which percentile? (0\u2013100)"
+     }
+    }
+   },
+   "examples": [
+    "what is the 90th percentile of these response times",
+    "median of 1 2 3 4 5",
+    "25th percentile of these scores",
+    "p99 of this latency sample",
+    "the maximum as a percentile"
+   ]
+  },
+  {
+   "name": "quartiles",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "quartiles \u2014 Split a set of numbers into quartiles and give the interquartile range.\n  needs: values: array\n  e.g. \"quartiles of 1 through 8\" \u2192 {\"values\":[1,2,3,4,5,6,7,8]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 2,
+      "prompt": "Which numbers?"
+     }
+    }
+   },
+   "examples": [
+    "quartiles of 1 through 8",
+    "interquartile range of these scores",
+    "quartiles for a skewed set",
+    "q1 and q3 of these times",
+    "quartiles of two values"
+   ]
+  },
+  {
+   "name": "rankValues",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "rankValues \u2014 Put numbers in order and give each its rank position.\n  needs: values: array\n  optional: labels: array, direction: string, method: string\n  e.g. \"rank these scores\" \u2192 {\"values\":[90,70,85]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "Which numbers should I rank?"
+     },
+     "labels": {
+      "type": "array",
+      "label": "names",
+      "items": {
+       "type": "string"
+      },
+      "description": "a name for each value"
+     },
+     "direction": {
+      "type": "string",
+      "label": "order",
+      "enum": [
+       "descending",
+       "ascending"
+      ],
+      "default": "descending"
+     },
+     "method": {
+      "type": "string",
+      "label": "tie method",
+      "enum": [
+       "dense",
+       "ordinal",
+       "competition"
+      ],
+      "default": "competition"
+     }
+    }
+   },
+   "examples": [
+    "rank these scores",
+    "rank these with a tie",
+    "rank teams by points",
+    "rank smallest first",
+    "dense ranking with a tie",
+    "put these from best to worst: 72 95 88",
+    "order these results highest first"
+   ]
+  },
+  {
+   "name": "weightedAverage",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "weightedAverage \u2014 Average a set of values where some count for more than others.\n  needs: values: array, weights: array\n  e.g. \"weighted average of 80 and 90 where the second counts double\" \u2192 {\"values\":[80,90],\"weights\":[1,2]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values",
+     "weights"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "values",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "Which values?"
+     },
+     "weights": {
+      "type": "array",
+      "label": "weights",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "What weight does each one carry?"
+     }
+    }
+   },
+   "examples": [
+    "weighted average of 80 and 90 where the second counts double",
+    "my grades 72 85 91 with credits 10 20 30",
+    "weighted average where all weights are equal",
+    "average price weighted by quantity",
+    "weighted score with a zero weight"
+   ]
+  },
+  {
+   "name": "zScores",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "zScores \u2014 Standardise a set of numbers \u2014 how many standard deviations each value sits from the mean.\n  needs: values: array\n  optional: sample: boolean\n  e.g. \"z-scores for these test results\" \u2192 {\"values\":[70,80,90]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 2,
+      "prompt": "Which numbers?"
+     },
+     "sample": {
+      "type": "boolean",
+      "label": "treat as sample",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "z-scores for these test results",
+    "how unusual is each of these",
+    "standardise these two values",
+    "sample z-scores for this data",
+    "which value is furthest from the mean"
+   ]
+  },
+  {
+   "name": "fileExtensionInfo",
+   "category": "files",
+   "needsNetwork": false,
+   "card": "fileExtensionInfo \u2014 Say what kind of file an extension is and which media type it uses.\n  needs: query: string\n  e.g. \"what kind of file is .csv\" \u2192 {\"query\":\".csv\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "query"
+    ],
+    "properties": {
+     "query": {
+      "type": "string",
+      "label": "extension or filename",
+      "minLength": 1,
+      "prompt": "Which file extension or filename?"
+     }
+    }
+   },
+   "examples": [
+    "what kind of file is .csv",
+    "what is a json file",
+    "file type for report.md",
+    "what does the yml extension mean",
+    "is html a text file"
+   ]
+  },
+  {
+   "name": "fileSizeHuman",
+   "category": "files",
+   "needsNetwork": false,
+   "card": "fileSizeHuman \u2014 Turn a number of bytes into a readable file size like 1.4 MB.\n  needs: bytes: number\n  optional: base: string, decimals: integer\n  e.g. \"how big is 1500000 bytes\" \u2192 {\"bytes\":1500000}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "bytes"
+    ],
+    "properties": {
+     "bytes": {
+      "type": "number",
+      "label": "bytes",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "How many bytes?"
+     },
+     "base": {
+      "type": "string",
+      "label": "decimal or binary",
+      "enum": [
+       "decimal",
+       "binary"
+      ],
+      "default": "decimal"
+     },
+     "decimals": {
+      "type": "integer",
+      "label": "decimal places",
+      "minimum": 0,
+      "maximum": 4,
+      "default": 1
+     }
+    }
+   },
+   "examples": [
+    "how big is 1500000 bytes",
+    "make 1073741824 bytes readable in binary units",
+    "what is 512 bytes as a file size",
+    "human readable size of 2500000000 bytes",
+    "how big is an empty file"
+   ]
+  },
+  {
+   "name": "textFileStats",
+   "category": "files",
+   "needsNetwork": false,
+   "card": "textFileStats \u2014 Count the lines, words and bytes in a piece of text and describe its line endings.\n  needs: text: string\n  e.g. \"stats for this text\" \u2192 {\"text\":\"hello world\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 2000000,
+      "prompt": "Which text should I measure?"
+     }
+    }
+   },
+   "examples": [
+    "stats for this text",
+    "count the lines in this file",
+    "file stats with a blank line",
+    "what line endings does this use",
+    "byte count for accented text"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "aspectRatio",
+    "fractionSimplify"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "aspectRatio \u2014 Reduce a width by a height to its screen ratio, like 16:9.\n  needs: width: number, height: number\n  e.g. \"what aspect ratio is 1920 by 1080\" \u2192 {\"width\":1920,\"height\":1080}",
+    "fractionSimplify \u2014 Reduce a fraction like 6/8 to its lowest terms.\n  needs: fraction: string\n  e.g. \"simplify 6/8\" \u2192 {\"fraction\":\"6/8\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "width",
+      "height"
+     ],
+     "properties": {
+      "width": {
+       "type": "number",
+       "label": "width",
+       "exclusiveMinimum": 0,
+       "prompt": "What is the width?"
+      },
+      "height": {
+       "type": "number",
+       "label": "height",
+       "exclusiveMinimum": 0,
+       "prompt": "What is the height?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "fraction"
+     ],
+     "properties": {
+      "fraction": {
+       "type": "string",
+       "label": "fraction",
+       "minLength": 3,
+       "prompt": "Which fraction should I simplify? Write it as 6/8."
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "complementaryColor",
+    "nearestNamedColor"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "complementaryColor \u2014 Find the colour opposite a given one on the colour wheel.\n  needs: color: string\n  e.g. \"what is the complement of #2C6E8C\" \u2192 {\"color\":\"#2C6E8C\"}",
+    "nearestNamedColor \u2014 Find the closest CSS colour name to a colour \u2014 what you would call it in words.\n  needs: color: string\n  e.g. \"what colour name is closest to #556B2F\" \u2192 {\"color\":\"#556B2F\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertColor",
+    "mixColors"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "convertColor \u2014 Convert a colour between hex, RGB and HSL.\n  needs: color: string\n  e.g. \"convert #FF5733 to rgb\" \u2192 {\"color\":\"#FF5733\"}",
+    "mixColors \u2014 Blend two colours together in a proportion you choose.\n  needs: a: string, b: string\n  optional: weight: number\n  e.g. \"mix red and blue evenly\" \u2192 {\"a\":\"#FF0000\",\"b\":\"#0000FF\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour? (hex, rgb() or hsl())"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "a",
+      "b"
+     ],
+     "properties": {
+      "a": {
+       "type": "string",
+       "label": "first colour",
+       "minLength": 3,
+       "prompt": "Which is the first colour?"
+      },
+      "b": {
+       "type": "string",
+       "label": "second colour",
+       "minLength": 3,
+       "prompt": "Which is the second colour?"
+      },
+      "weight": {
+       "type": "number",
+       "label": "first colour %",
+       "minimum": 0,
+       "maximum": 100,
+       "default": 50,
+       "description": "how much of the first colour, as a percentage"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "darkenColor",
+    "lightenColor"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "darkenColor \u2014 Shade a colour towards black by a percentage.\n  needs: color: string\n  optional: by: number\n  e.g. \"darken #2C6E8C by 20%\" \u2192 {\"color\":\"#2C6E8C\",\"by\":20}",
+    "lightenColor \u2014 Tint a colour towards white by a percentage.\n  needs: color: string\n  optional: by: number\n  e.g. \"lighten #2C6E8C by 20%\" \u2192 {\"color\":\"#2C6E8C\",\"by\":20}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      },
+      "by": {
+       "type": "number",
+       "label": "darken by %",
+       "minimum": 0,
+       "maximum": 100,
+       "default": 10
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      },
+      "by": {
+       "type": "number",
+       "label": "lighten by %",
+       "minimum": 0,
+       "maximum": 100,
+       "default": 10
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "darkenColor",
+    "nearestNamedColor"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "darkenColor \u2014 Shade a colour towards black by a percentage.\n  needs: color: string\n  optional: by: number\n  e.g. \"darken #2C6E8C by 20%\" \u2192 {\"color\":\"#2C6E8C\",\"by\":20}",
+    "nearestNamedColor \u2014 Find the closest CSS colour name to a colour \u2014 what you would call it in words.\n  needs: color: string\n  e.g. \"what colour name is closest to #556B2F\" \u2192 {\"color\":\"#556B2F\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      },
+      "by": {
+       "type": "number",
+       "label": "darken by %",
+       "minimum": 0,
+       "maximum": 100,
+       "default": 10
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generatePalette",
+    "lightenColor"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "generatePalette \u2014 Build a colour palette around a base colour \u2014 analogous, triadic, complementary or tints and shades.\n  needs: color: string\n  optional: scheme: string, count: integer\n  e.g. \"build an analogous palette from #2C6E8C\" \u2192 {\"color\":\"#2C6E8C\"}",
+    "lightenColor \u2014 Tint a colour towards white by a percentage.\n  needs: color: string\n  optional: by: number\n  e.g. \"lighten #2C6E8C by 20%\" \u2192 {\"color\":\"#2C6E8C\",\"by\":20}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "base colour",
+       "minLength": 3,
+       "prompt": "Which colour should the palette be built around?"
+      },
+      "scheme": {
+       "type": "string",
+       "label": "scheme",
+       "enum": [
+        "analogous",
+        "triadic",
+        "complementary",
+        "split-complementary",
+        "tetradic",
+        "tints",
+        "shades"
+       ],
+       "default": "analogous"
+      },
+      "count": {
+       "type": "integer",
+       "label": "colours (tints/shades)",
+       "minimum": 2,
+       "maximum": 10,
+       "default": 5,
+       "description": "only used for tints and shades"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "color"
+     ],
+     "properties": {
+      "color": {
+       "type": "string",
+       "label": "colour",
+       "minLength": 3,
+       "prompt": "Which colour?"
+      },
+      "by": {
+       "type": "number",
+       "label": "lighten by %",
+       "minimum": 0,
+       "maximum": 100,
+       "default": 10
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

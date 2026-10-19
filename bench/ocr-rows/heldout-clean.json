@@ -1,0 +1,484 @@
+{
+  "texts": [
+    {
+      "kind": "receipt",
+      "text": "Harbour Lane Grocers\n14 Harbour Lane, Fenwick FN3 2QT\nTel 01632 960412\n2 x Semi-skimmed milk 1L £2.30\nWholemeal loaf £1.45\nFree range eggs x6 £2.10\nCheddar 400g £3.75\nBananas 0.82kg £0.94\nTOTAL £10.54\nCard ending 4417 approved\n12/03/2026 09:42 Till 2"
+    },
+    {
+      "kind": "receipt",
+      "text": "Copper Kettle Cafe\nTable 7 Covers 2\nFlat white 3.40\nEnglish breakfast tea 2.60\nAvocado toast 8.95\nBlueberry muffin 3.20\nSubtotal 18.15\nService 12.5% 2.27\nTotal 20.42\nThank you for visiting! Order #10293"
+    },
+    {
+      "kind": "receipt",
+      "text": "Millbrook Hardware Co.\n2210 Elm Street, Cedar Falls\n(319) 555-0143\nWood screws 1-5/8 in, box of 100 $6.49\nPainter's tape 2 in $8.99\nSandpaper assorted 5-pack $4.25\nSUBTOTAL $19.73\nSales tax 7.25% $1.43\nTOTAL $21.16\nVISA ****8812 AUTH 004719\n04/18/2026 3:17 PM"
+    },
+    {
+      "kind": "receipt",
+      "text": "Greenway Pharmacy\nUnit 3, Abbey Parade, Lowford LW2 7HD\nParacetamol 500mg x32 £1.29\nHand cream 75ml £4.50\nPlasters assorted x40 £2.99\nMultibuy 3 for 2 saving -£1.29\nBalance due £7.49\nCash £10.00\nChange £2.51\nVAT No. GB 284 7716 30\n27.05.2026 17:08 Ref 55821"
+    },
+    {
+      "kind": "receipt",
+      "text": "Northgate Service Station\nPump 4 Unleaded\n38.62 L @ 147.9p/L\nFuel total £57.12\nScreenwash 5L £3.99\nTOTAL £61.11\nLoyalty points earned 61\n21/06/2026 07:55\nTransaction 0083114"
+    },
+    {
+      "kind": "receipt",
+      "text": "Luigi's Trattoria\n418 Mission Avenue\nServer: Dana Table 12\n2 Margherita pizza @ 14.50 29.00\n1 Caesar salad 11.25\n1 Tiramisu 7.75\n3 Sparkling water @ 3.00 9.00\nSubtotal 57.00\nTax 8.875% 5.06\nTotal 62.06\nSuggested tip 18% 10.26\nCheck #2047 05/09/2026 8:31 PM"
+    },
+    {
+      "kind": "receipt",
+      "text": "The Reading Room\nRefund receipt\nThe Quiet Orchard (paperback) £9.99\nISBN 978-0-00-741922-6\nRefund to card ending 2290 £9.99\nReason: duplicate gift\nAuthorised by: M. Patel\n03/01/2026 11:20\nKeep this receipt for your records."
+    },
+    {
+      "kind": "receipt",
+      "text": "Bright Wash Launderette\n52 Station Road, Hollins HL4 9BX\nService wash 8kg £12.00\nDuvet king size £15.50\nFabric conditioner £0.80\nTotal paid £28.30\nReady for collection Thurs 14 May after 4pm\nTicket no. 3318"
+    },
+    {
+      "kind": "receipt",
+      "text": "Riverside Cars Ltd\nLicence no. 0447\nPickup: Kingsway Station 22:14\nDrop-off: 9 Larch Close 22:37\nDistance 7.4 miles\nFare £18.60\nTip £2.00\nTotal £20.60\nPaid by card. Call 01632 960871 for lost property."
+    },
+    {
+      "kind": "receipt",
+      "text": "Saturday Farmers Market Stall 21\nHoney 12 oz jar $9.00\nHeirloom tomatoes 2.3 lb @ $4.50/lb $10.35\nSourdough boule $7.00\nFresh basil bunch $3.00\nTotal $29.35\nPaid cash\nThanks! See you on 08/15"
+    },
+    {
+      "kind": "receipt",
+      "text": "City Centre Car Park, Level 2\nEntry 08:12 26/02/2026\nExit 13:47 26/02/2026\nDuration 5 hr 35 min\nTariff 4-6 hours £9.50\nPaid £9.50 contactless\nReceipt 77-40192\nVAT included at 20%"
+    },
+    {
+      "kind": "receipt",
+      "text": "Volt & Wire Electronics\nUSB-C cable 2m £7.99\nWall charger 30W £19.99\nScreen protector £6.49\n10% student discount -£3.45\nTotal £31.02\nVAT @ 20% included £5.17\nReturns within 28 days with receipt\n15/09/2026 14:02 Assistant: Tom"
+    },
+    {
+      "kind": "notice",
+      "text": "PLEASE NOTE\nThis library will close early at 4:30pm on Friday 19 December for staff training. Normal opening hours resume on Saturday 20 December from 9:00am.\nBooks may be returned using the drop box by the main entrance.\nEnquiries: 01632 960245"
+    },
+    {
+      "kind": "notice",
+      "text": "NO PARKING\nVehicles left in this bay between 8am and 6pm Monday to Saturday will be clamped. Release fee £120.\nPermit holders only. Bays 14 to 22."
+    },
+    {
+      "kind": "notice",
+      "text": "Platform 3 is closed for resurfacing works from 22:00 on 6 March until 05:30 on 9 March. Please use the footbridge to reach Platform 2, where all northbound services will depart.\nStep-free access is available via the lift at the Station Road entrance.\nWe apologise for any inconvenience."
+    },
+    {
+      "kind": "notice",
+      "text": "WATER SUPPLY INTERRUPTION\nTo allow us to replace a section of main on Orchard Way, the water supply to houses numbered 1 to 47 will be turned off on Tuesday 11 August between 9:30am and 3:00pm.\nBottled water will be available from the community hall. For updates call 0808 157 0214 or quote reference WS-88213."
+    },
+    {
+      "kind": "notice",
+      "text": "Gym rules\n1. Wipe down equipment after use.\n2. Return weights to the racks.\n3. Maximum 30 minutes on cardio machines when others are waiting.\n4. Under 16s must be supervised at all times.\n5. Report faulty equipment to reception, ext. 204."
+    },
+    {
+      "kind": "notice",
+      "text": "ATTENTION RESIDENTS\nThe parking garage will be power washed on Wednesday, October 7, from 7:00 AM to 5:00 PM. All vehicles must be moved by 6:45 AM or they will be towed at the owner's expense.\nQuestions? Contact the management office at (617) 555-0129, Suite 101."
+    },
+    {
+      "kind": "notice",
+      "text": "Fire assembly point B\nIn the event of a fire alarm, leave the building by the nearest exit and gather here. Do not use the lifts. Do not return until told it is safe by a fire marshal.\nBuilding 4, East Wing, floors 1 to 3."
+    },
+    {
+      "kind": "notice",
+      "text": "Opening hours\nMonday to Friday 7:30am - 6:00pm\nSaturday 8:00am - 4:00pm\nSunday 10:00am - 2:00pm\nBank holidays closed\nLast orders 30 minutes before closing."
+    },
+    {
+      "kind": "notice",
+      "text": "Wet floor. Caution.\nThis area was cleaned at 14:15. Please take care and use the handrail on the stairs to the left.\nCleaning schedule displayed on the noticeboard, room G.08."
+    },
+    {
+      "kind": "notice",
+      "text": "Lost cat\nHave you seen Biscuit? Ginger tabby, white paws, about 4 years old, wearing a blue collar. Last seen near Willow Crescent on the evening of Sunday 3 May.\nHe is microchipped and very friendly but may be nervous of strangers.\nPlease call Sarah on 07700 900318. Reward offered."
+    },
+    {
+      "kind": "notice",
+      "text": "Swimming pool timetable change\nFrom Monday 2 November, the early lane swim will start at 6:15am instead of 6:30am. Family fun sessions move to Sunday afternoons from 1:00pm to 3:00pm.\nAdult membership remains £34.50 per month."
+    },
+    {
+      "kind": "notice",
+      "text": "Speed limit 20 mph\nSchool zone. Children crossing between 8:15-9:00am and 3:00-3:45pm.\nFixed penalty £100 and 3 points."
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mrs Okafor,\nThank you for your letter of 14 February regarding the repair to the boiler at 23 Fenwick Road. Our engineer has confirmed that the replacement part, reference BX-4470, will arrive on 2 March, and an appointment has been booked for 9:00am on 4 March.\nIf this time is not convenient, please call our customer team on 01632 960550 quoting job number 118392.\nYours sincerely,\nPeter Lindqvist\nService Manager"
+    },
+    {
+      "kind": "letter",
+      "text": "From: Jordan Reyes\nTo: Facilities Team\nSubject: Room booking for 22 April\nHi all, could we book the large meeting room on the third floor from 10:00 to 12:30 on Wednesday 22 April? We are expecting 14 people and will need the projector and a conference phone.\nThanks,\nJordan"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Parents and Carers,\nYear 6 will visit the Science Museum on Thursday 18 June. The coach will leave school at 8:45am and return at approximately 4:15pm. The cost of the trip is £18.50, which should be paid through the school app by Friday 5 June.\nChildren will need a packed lunch, a drink and a waterproof coat.\nKind regards,\nMrs A. Whitfield\nHead of Year 6"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Mr. Castellano,\nWe are pleased to confirm your reservation at the Pinecrest Lodge for 3 nights, arriving Friday, July 10, 2026 and departing Monday, July 13. Your confirmation number is PL-662918. Check-in begins at 3:00 PM and check-out is at 11:00 AM.\nThe total for your stay is $642.75, including taxes. A deposit of $150.00 has been charged to your card.\nWe look forward to welcoming you.\nGuest Services"
+    },
+    {
+      "kind": "letter",
+      "text": "Hi Priya,\nJust a quick reminder that the invoice for March, number INV-2026-0317, for £1,240.00 is now 14 days overdue. Could you let me know when we can expect payment? Our bank details are on page 2 of the invoice.\nMany thanks,\nOwen"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Dr Hallam,\nYour patient, Mr Graham Fielding, date of birth 09/11/1958, attended the clinic on 21 January. His blood pressure was 148/92 and his HbA1c was 52 mmol/mol. I have increased his dose of amlodipine from 5mg to 10mg once daily.\nI would be grateful if you could arrange a review in 6 weeks.\nYours sincerely,\nDr K. Mensah\nConsultant Physician"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Applicant,\nThank you for applying for the post of Library Assistant (ref. LA/26/044). We would like to invite you to an interview on Tuesday 9 June at 2:30pm at Central Library, 1 Market Square.\nThe interview will last approximately 45 minutes and will include a short written exercise. Please bring photo ID and proof of your right to work in the UK.\nPlease confirm your attendance by email or by calling 01632 960733."
+    },
+    {
+      "kind": "letter",
+      "text": "Subject: Your order #48-1173 has shipped\nGood news! Your order left our warehouse on 3 September and should arrive within 2 to 4 working days.\nTracking number: QX 5520 1847 GB\nItems: 1 x linen duvet cover (double), 2 x pillowcases\nOrder total: £64.97"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Neighbour,\nWe are planning to have some work done to our kitchen at number 41 from Monday 16 March for about 3 weeks. Builders will usually be on site between 8:00am and 5:00pm, Monday to Friday.\nWe are sorry for any noise or disruption. If you have any concerns, please knock or call us on 07700 900542.\nBest wishes,\nHelen and Mark"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Member,\nYour annual subscription of £45 will be renewed automatically on 1 October 2026. If you would like to change your payment method or cancel your membership, please contact us at least 10 days before this date.\nMembership no. 004-2219\nAllotment plot: 17B"
+    },
+    {
+      "kind": "letter",
+      "text": "From: Lucy Tran\nSent: 12 May 2026 16:48\nSubject: Re: Quarterly figures\nThanks Sam. I've checked the spreadsheet and the Q1 total should be 18,430 units, not 18,340. The two middle digits look swapped in row 27. Could you correct it before the meeting at 10am tomorrow?\nLucy"
+    },
+    {
+      "kind": "letter",
+      "text": "Dear Ms Abernathy,\nWe have received your claim, reference CLM-0092-117, for water damage at your property on 28 August. A loss adjuster will contact you within 5 working days to arrange a visit.\nPlease keep any damaged items and receipts until the visit has taken place.\nYours faithfully,\nClaims Department\nHollybrook Insurance"
+    },
+    {
+      "kind": "menu",
+      "text": "The Anchor Inn\nStarters\nSoup of the day with crusty bread 6.50\nPrawn cocktail 8.95\nGarlic mushrooms on toast 7.25\nMains\nBeer-battered haddock, chips and peas 16.95\nSteak and ale pie 15.50\n8oz sirloin steak 24.00\nPlease tell us about any allergies."
+    },
+    {
+      "kind": "menu",
+      "text": "Sunrise Diner Breakfast\nTwo eggs any style, hash browns, toast $9.49\nButtermilk pancakes (3) $8.25\nAdd blueberries or bacon $2.00\nVeggie omelette $10.75\nCoffee, free refills $2.50\nServed daily 6 AM to 11:30 AM"
+    },
+    {
+      "kind": "menu",
+      "text": "Coffee regular / large\nEspresso 2.20 / 2.60\nAmericano 2.80 / 3.20\nLatte 3.30 / 3.70\nCappuccino 3.30 / 3.70\nMocha 3.60 / 4.00\nOat, soya or almond milk +40p\nExtra shot +60p"
+    },
+    {
+      "kind": "menu",
+      "text": "Golden Lotus Takeaway\n12. Sweet and sour chicken 7.80\n15. Beef in black bean sauce 8.40\n23. Vegetable chow mein 6.90\n31. Special fried rice 6.50\n40. Salt and pepper chips 4.20\nFree prawn crackers on orders over £25\nTel 01632 960187. Open 5pm to 11pm, closed Tuesdays."
+    },
+    {
+      "kind": "menu",
+      "text": "Sunday Lunch\nServed 12 noon until 4pm\nRoast topside of beef 18.50\nRoast chicken breast 16.95\nNut roast (v) 14.50\nAll served with Yorkshire pudding, roast potatoes, seasonal vegetables and gravy.\nChildren's portion 9.95"
+    },
+    {
+      "kind": "menu",
+      "text": "Pizza\nMargherita 10\nPepperoni 12\nFour cheese 12.50\nNduja and honey 13.50\nMushroom and truffle 13\nGluten-free base available +2\n12-inch only. Ask about our 2 for £22 deal Monday to Thursday."
+    },
+    {
+      "kind": "menu",
+      "text": "Bar snacks\nNachos with salsa and sour cream $11\nChicken wings, 10 pieces $14\nLoaded fries $9\nSoft pretzel with mustard $7\nHappy hour 4 PM - 6 PM: all draft beers $5"
+    },
+    {
+      "kind": "menu",
+      "text": "Afternoon tea for two £39.00\nA selection of finger sandwiches: egg and cress, smoked salmon, cucumber, ham and mustard\nFreshly baked scones with clotted cream and strawberry jam\nLemon drizzle, chocolate eclairs and Victoria sponge\nA pot of tea or coffee each\nAdd a glass of prosecco for £8.50 per person."
+    },
+    {
+      "kind": "menu",
+      "text": "Kids menu £6.95\nIncludes a main, a drink and a scoop of ice cream\nFish fingers, chips and beans\nMini cheeseburger and fries\nPasta with tomato sauce\nChicken goujons and mash\nFor children aged 10 and under"
+    },
+    {
+      "kind": "menu",
+      "text": "Daily specials Thursday 9 April\nSeared scallops with pea puree 12.50\nLamb rump, dauphinoise potatoes 22.00\nRisotto of wild mushroom (v) 15.75\nSticky toffee pudding 7.00\nAll prices include VAT. A discretionary service charge of 10% will be added to tables of 6 or more."
+    },
+    {
+      "kind": "menu",
+      "text": "Smoothies 16 oz / 24 oz\nGreen Machine: spinach, kale, apple, ginger $6.95 / $8.95\nBerry Blast: strawberry, blueberry, banana $6.50 / $8.50\nTropical: mango, pineapple, coconut milk $6.75 / $8.75\nAdd protein powder $1.25"
+    },
+    {
+      "kind": "menu",
+      "text": "Fish and chips\nCod regular 9.20 large 11.40\nHaddock regular 9.80 large 12.10\nScampi 8.60\nChips small 3.10 large 4.20\nMushy peas 1.60\nCurry sauce 1.50\nOpen Tues-Sat 11:30-14:00 and 16:30-21:00"
+    },
+    {
+      "kind": "timetable",
+      "text": "Bus 42 Fenwick - Lowford\nMonday to Friday\nFenwick Bus Station 06:45 07:30 08:15 09:00\nHigh Street 06:52 07:37 08:22 09:07\nRoyal Hospital 07:05 07:50 08:35 09:20\nLowford Market Square 07:18 08:03 08:48 09:33\nServices run every 45 minutes until 18:45."
+    },
+    {
+      "kind": "timetable",
+      "text": "Departures\n10:12 Kingsmere Platform 4 On time\n10:20 Ashby Vale Platform 1 Expected 10:26\n10:35 Port Ellis Platform 6 On time\n10:41 Northbridge Platform 2 Cancelled\n10:58 Westhaven Platform 3 On time"
+    },
+    {
+      "kind": "timetable",
+      "text": "Ferry timetable summer 2026\nDepart Port Ellis 07:00 09:30 12:00 14:30 17:00\nArrive Calder Island 07:55 10:25 12:55 15:25 17:55\nCrossing time approx. 55 minutes\nFoot passenger single £6.40, return £11.20\nCar and driver single £38.00"
+    },
+    {
+      "kind": "timetable",
+      "text": "Week 12 timetable, Class 9C\nMonday: Maths 09:00, English 10:00, Science 11:20, PE 13:30\nTuesday: History 09:00, French 10:00, Maths 11:20, Art 13:30\nWednesday: Science 09:00, Geography 10:00, English 11:20, Music 13:30\nBreak 10:55-11:15, lunch 12:20-13:20"
+    },
+    {
+      "kind": "timetable",
+      "text": "Route 7 Crosstown Weekday Schedule\nWestgate Transit Center 5:40a 6:10a 6:40a 7:10a\nMaple & 4th 5:48a 6:18a 6:48a 7:18a\nCity College 5:59a 6:29a 6:59a 7:29a\nRiverside Mall 6:12a 6:42a 7:12a 7:42a\nFare $1.75, transfers free for 90 minutes"
+    },
+    {
+      "kind": "timetable",
+      "text": "Conference programme, Day 1, Thursday 24 September\n08:30 Registration and coffee\n09:15 Welcome, Hall A\n09:30 Keynote: Rivers and resilience\n10:45 Break\n11:15 Parallel sessions 1A-1D\n12:45 Lunch, Level 2\n14:00 Panel discussion\n15:30 Close of day"
+    },
+    {
+      "kind": "timetable",
+      "text": "Leisure centre classes\nMon 18:00 Spin (45 min) Studio 1\nMon 19:00 Yoga (60 min) Studio 2\nWed 07:00 Bootcamp (30 min) Sports hall\nWed 12:15 Pilates (45 min) Studio 2\nFri 17:30 Zumba (60 min) Studio 1\nBook up to 7 days in advance on 01632 960612."
+    },
+    {
+      "kind": "timetable",
+      "text": "Bin collections 2026, Zone C\nGeneral waste (black bin): every other Tuesday from 6 January\nRecycling (blue bin): every other Tuesday from 13 January\nGarden waste (brown bin): every Friday, March to November, £52 per year\nPlease put bins out by 7:00am on the day of collection."
+    },
+    {
+      "kind": "timetable",
+      "text": "Flight departures\nQV 1427 Westhaven 06:55 Gate 12 Boarding\nQV 1503 Port Ellis 07:20 Gate 8 Delayed 07:50\nNB 0389 Northbridge 07:45 Gate 21 On time\nQV 1611 Calder 08:10 Gate 3 Gate closing\nQV 1702 Westhaven 08:35 Gate 14 On time"
+    },
+    {
+      "kind": "timetable",
+      "text": "Medication schedule\n08:00 Lisinopril 10mg, 1 tablet with breakfast\n13:00 Metformin 500mg, 1 tablet with lunch\n18:00 Metformin 500mg, 1 tablet with evening meal\n22:00 Atorvastatin 20mg, 1 tablet at bedtime\nNext prescription due 14/11/2026"
+    },
+    {
+      "kind": "timetable",
+      "text": "Tide times, Saltmarsh Bay, Saturday 18 July\nHigh water 04:12 5.3m\nLow water 10:31 0.9m\nHigh water 16:44 5.6m\nLow water 23:02 0.7m\nSunrise 05:01, sunset 21:22\nTimes are BST."
+    },
+    {
+      "kind": "timetable",
+      "text": "Tram service, Sundays and public holidays\nFirst tram from Central Square 07:30, last tram 23:10\nTrams every 12 minutes between 09:00 and 19:00, otherwise every 20 minutes\nJourney time to Harbourside 18 minutes\nAdult day ticket £5.20, child £2.60"
+    },
+    {
+      "kind": "recipe",
+      "text": "Lemon drizzle cake\nServes 8. Oven 180°C / 160°C fan / gas 4\n225g unsalted butter, softened\n225g caster sugar\n4 eggs\n225g self-raising flour\nZest of 1 lemon\nFor the drizzle: juice of 1 1/2 lemons and 85g caster sugar\nBake in a 2lb loaf tin for 45-50 minutes. Pour the drizzle over while the cake is still warm."
+    },
+    {
+      "kind": "recipe",
+      "text": "Grandma's pancakes\n1 1/2 cups all-purpose flour\n3 1/2 tsp baking powder\n1 tbsp sugar\n1/4 tsp salt\n1 1/4 cups milk\n1 egg\n3 tbsp melted butter\nMix the dry ingredients, then whisk in the rest. Cook 1/4 cup at a time on a hot griddle, about 2 minutes per side. Makes 8."
+    },
+    {
+      "kind": "recipe",
+      "text": "Tomato soup\nPrep 10 min, cook 35 min, serves 4\n1 tbsp olive oil\n1 onion, chopped\n2 garlic cloves, crushed\n2 x 400g tins chopped tomatoes\n500ml vegetable stock\n1 tsp sugar\nSoften the onion in the oil for 8 minutes, add the garlic for 1 minute, then add the tomatoes, stock and sugar. Simmer for 25 minutes and blend until smooth."
+    },
+    {
+      "kind": "recipe",
+      "text": "Chocolate chip cookies\nPreheat oven to 375°F.\n2 1/4 cups flour, 1 tsp baking soda, 1 tsp salt\n1 cup butter, 3/4 cup sugar, 3/4 cup brown sugar\n2 eggs, 2 tsp vanilla\n2 cups chocolate chips\nBake 9 to 11 minutes until golden. Cool on the sheet for 2 minutes. Makes about 5 dozen."
+    },
+    {
+      "kind": "recipe",
+      "text": "Overnight oats\n50g rolled oats\n150ml milk or oat drink\n2 tbsp natural yoghurt\n1 tsp chia seeds\n1 tsp honey\nStir everything together in a jar, cover and chill for at least 6 hours. Top with berries in the morning. 312 kcal per serving."
+    },
+    {
+      "kind": "recipe",
+      "text": "Chicken curry (serves 4)\n600g chicken thighs, diced\n2 onions, sliced\n3 tbsp curry paste\n400ml coconut milk\n200g spinach\nBrown the chicken in batches. Fry the onions for 10 minutes, stir in the paste for 2 minutes, then return the chicken and add the coconut milk. Simmer for 20 minutes and wilt in the spinach.\nFreezes for up to 3 months."
+    },
+    {
+      "kind": "recipe",
+      "text": "Banana bread\n3 ripe bananas, mashed\n1/3 cup melted butter\n3/4 cup sugar\n1 egg, beaten\n1 tsp vanilla\n1 tsp baking soda\nPinch of salt\n1 1/2 cups flour\nBake at 350°F in a 9 x 5 inch loaf pan for 55 to 60 minutes."
+    },
+    {
+      "kind": "recipe",
+      "text": "Scones\n350g self-raising flour, 1/4 tsp salt, 1 tsp baking powder\n85g butter, cubed\n3 tbsp caster sugar\n175ml milk\n1 tsp vanilla extract, squeeze of lemon juice\nRub the butter into the flour until it looks like fine crumbs. Add the sugar, then the warm milk, and bring together. Cut into 8 rounds with a 5cm cutter.\nBake at 220°C / 200°C fan for 10 minutes."
+    },
+    {
+      "kind": "recipe",
+      "text": "Vinaigrette\n3 tbsp extra virgin olive oil\n1 tbsp white wine vinegar\n1 tsp Dijon mustard\n1/2 tsp honey\nSalt and pepper\nShake in a jar until combined. Keeps in the fridge for 1 week."
+    },
+    {
+      "kind": "recipe",
+      "text": "Guacamole\n2 ripe avocados\n1/2 small red onion, finely diced\n1 jalapeño, seeded and minced\n2 tbsp chopped cilantro\nJuice of 1 lime\n1/2 tsp kosher salt\nMash the avocados with a fork and fold in the rest. Serve within 2 hours. Serves 4 as a dip."
+    },
+    {
+      "kind": "recipe",
+      "text": "Shortbread\n125g butter\n55g caster sugar, plus extra to finish\n180g plain flour\nBeat the butter and sugar together until smooth. Stir in the flour to get a smooth paste. Roll out to 1cm thick and cut into 12 fingers.\nChill for 20 minutes, then bake at 190°C / gas 5 for 15-20 minutes until pale golden."
+    },
+    {
+      "kind": "recipe",
+      "text": "Roast vegetables\nOven 200°C / 180°C fan\n2 red peppers, 1 courgette, 1 red onion, 300g butternut squash\n3 tbsp olive oil, 1 tsp dried thyme\nCut everything into 3cm chunks, toss with the oil and thyme, and roast for 35-40 minutes, turning halfway. Serves 4, 180 kcal each."
+    },
+    {
+      "kind": "label",
+      "text": "Ingredients: Wheat flour (with calcium, iron, niacin, thiamin), water, rapeseed oil, yeast, salt, sugar, emulsifier (E471), preservative (calcium propionate).\nAllergy advice: for allergens, see ingredients in bold.\nBest before 18 OCT 2026\nNet weight 800g\nStore in a cool, dry place."
+    },
+    {
+      "kind": "label",
+      "text": "Nutrition Facts\nServing size 1 cup (240mL)\nServings per container about 8\nCalories 110\nTotal Fat 2.5g 3%\nSodium 105mg 5%\nTotal Carbohydrate 12g 4%\nTotal Sugars 12g\nProtein 8g\nVitamin D 2.5mcg 10%"
+    },
+    {
+      "kind": "label",
+      "text": "Paracetamol 500mg tablets\n16 tablets\nAdults and children aged 16 years and over: take 1 or 2 tablets every 4 to 6 hours as needed. Do not take more than 8 tablets in 24 hours.\nDo not take with any other paracetamol-containing products.\nPL 21880/0047 Batch B3301 Exp 09/2028"
+    },
+    {
+      "kind": "label",
+      "text": "Machine wash 40°C\nDo not tumble dry\nIron on low heat\nDo not dry clean\n100% cotton\nMade in Portugal\nStyle 5521-08 Size M"
+    },
+    {
+      "kind": "label",
+      "text": "Organic Whole Milk\n1/2 gallon (1.89 L)\nKeep refrigerated at or below 40°F\nSell by: OCT 22\nPlant 41-2207\nPasteurized, homogenized\nVitamin D added"
+    },
+    {
+      "kind": "label",
+      "text": "Free range medium eggs\nPack of 12\nBest before 03.11.26\nKeep refrigerated after purchase\nPacked by Hillside Farm Eggs, Ruddington Lane, Ashby Vale AV3 6LT\nClass A. Producer code 1UK12345 printed on each egg."
+    },
+    {
+      "kind": "label",
+      "text": "Strawberry jam\nPrepared with 35g of fruit per 100g\nTotal sugar content 60g per 100g\nOnce opened, keep refrigerated and consume within 6 weeks.\n340g e\nLot 2611 BBE 31/12/2027"
+    },
+    {
+      "kind": "label",
+      "text": "Shipping label\nFROM: Pennyworth Crafts, Unit 8, Mill Yard, Fenwick FN1 4RD\nTO: Ms Rachel Doyle, 17 Beech Grove, Lowford LW5 2PA\nWeight 1.42kg\nService: Tracked 48\nParcel ID JD 0014 7720 3361\nDispatched 05/10/2026"
+    },
+    {
+      "kind": "label",
+      "text": "Plant food concentrate\nDilute 10ml in 4.5 litres of water.\nFeed every 7 to 14 days during the growing season, March to September.\nNPK 7-7-7\nKeep out of reach of children.\n1 litre"
+    },
+    {
+      "kind": "label",
+      "text": "Dog food, adult, chicken and rice\n12kg\nFeeding guide per day: 10kg dog 160g; 20kg dog 270g; 30kg dog 365g; 40kg dog 455g\nAlways provide fresh drinking water.\nAnalytical constituents: protein 24%, fat content 12%, crude fibre 2.5%, crude ash 7%"
+    },
+    {
+      "kind": "label",
+      "text": "AA alkaline batteries 1.5V\nPack of 8\nBest before end 2034\nDo not recharge. Do not dispose of in fire. Insert correctly, matching + and - signs.\nModel LR6-8PK"
+    },
+    {
+      "kind": "label",
+      "text": "Extra virgin olive oil\n750ml\nFirst cold pressed\nHarvest 2025/26\nStore away from light and heat.\nBest before 30.06.2027\nL.2209B\nProduct of Greece"
+    },
+    {
+      "kind": "flyer",
+      "text": "SUMMER FAIR\nSaturday 11 July, 12 noon to 4pm\nSt Mary's School Field, Copse Road\nTombola, cake stall, bouncy castle, dog show at 2pm\nEntry £2 adults, children free\nAll proceeds to the PTA. Contact 01632 960930."
+    },
+    {
+      "kind": "flyer",
+      "text": "Garage sale!\nSaturday, May 16, 8 AM - 2 PM\n1149 Sycamore Drive\nFurniture, kids' clothes, books, tools, kitchenware\nEverything must go. Cash only. No early birds please."
+    },
+    {
+      "kind": "flyer",
+      "text": "Piano lessons for all ages\nBeginners to Grade 8. 30, 45 or 60 minute lessons.\n£22 for 30 minutes, £30 for 45 minutes, £38 for 60 minutes.\nDBS checked, 15 years' experience. First lesson half price.\nCall Anna on 07700 900611"
+    },
+    {
+      "kind": "flyer",
+      "text": "Community clean-up day\nJoin your neighbours on Sunday 19 April from 10:00am to 1:00pm to clear litter from Larkfield Park and the canal towpath. Gloves, bags and litter pickers will be provided, along with free tea and biscuits.\nMeet at the park gates on Larkfield Road. Children welcome with an adult."
+    },
+    {
+      "kind": "flyer",
+      "text": "Grand opening\nPedal & Spoke Bike Repairs\nUnit 2, Canal Wharf\nFree safety check for the first 50 customers on Saturday 6 June\n20% off all servicing until 30 June\nOpen Tues to Sat, 9am to 5:30pm"
+    },
+    {
+      "kind": "flyer",
+      "text": "Quiz night\nThursday 26 March, 7:30pm start\nThe Crown, 88 West Street\nTeams of up to 6, £2 per person\nCash prize for the winners, plus a bonus jackpot round worth £75\nBook your table: 01632 960349"
+    },
+    {
+      "kind": "flyer",
+      "text": "Fall Festival\nOctober 17-18, 10 AM to 5 PM\nOak Hollow Farm, 3300 County Road 9\nHayrides, corn maze, pumpkin patch, live music\nAdmission $8, kids under 3 free\nParking $5 per car. Rain or shine!"
+    },
+    {
+      "kind": "flyer",
+      "text": "Babysitter available\nResponsible 17-year-old with a first aid certificate. Evenings and weekends, £9 per hour. References available from 3 local families.\nText Ellie on 07700 900184."
+    },
+    {
+      "kind": "flyer",
+      "text": "Free flu jabs\nWalk-in clinic at Hollins Medical Centre for eligible patients aged 65 and over.\nSaturdays 3, 10 and 17 October, 9:00am to 12:30pm.\nNo appointment needed. Please wear a short-sleeved top."
+    },
+    {
+      "kind": "flyer",
+      "text": "Book swap\nBring a book, take a book!\nFirst Wednesday of every month, 6pm to 8pm\nFenwick Community Library, Room 2\nNext dates: 7 January, 4 February, 4 March\nTea and coffee 50p"
+    },
+    {
+      "kind": "flyer",
+      "text": "Window cleaning\nRegular round, every 4 weeks\nTerraced from £12, semi-detached from £15, detached from £20\nConservatories and gutters quoted separately\nFully insured. Call Dave on 01632 960775 or 07700 900429."
+    },
+    {
+      "kind": "flyer",
+      "text": "Yoga in the park\nEvery Saturday at 9:00am from 2 May to 26 September\nBandstand lawn, Riverside Park\nAll levels welcome. Bring a mat and water.\nPay what you can, suggested £5.\nCancelled if raining; check updates on 07700 900256."
+    },
+    {
+      "kind": "form",
+      "text": "ADMIT ONE\nStarlight Cinema, Screen 3\nThe Long Way North (12A)\nWed 14 Oct 2026 19:45\nRow F Seat 11\nAdult £11.50\nBooking ref 7HQ29K"
+    },
+    {
+      "kind": "form",
+      "text": "Train ticket\nStandard Class Off-Peak Return\nFrom: Ashby Vale To: Kingsmere\nValid out 21 NOV 26, return within 1 month\nRoute: any permitted\nPrice £34.80\nTicket no. 08812 455301 07"
+    },
+    {
+      "kind": "form",
+      "text": "Patient registration form\nSurname: Hartley\nFirst name(s): Joanne Elizabeth\nDate of birth: 27/06/1984\nAddress: 5 Mulberry Court, Fenwick FN2 8JE\nTelephone: 01632 960158\nPrevious GP: Dr S. Rowe, Abbey Practice\nAllergies: penicillin"
+    },
+    {
+      "kind": "form",
+      "text": "Boarding pass\nPassenger: MORALES/DANIEL MR\nFlight QV 2284\nFrom Westhaven to Port Ellis\nDate 03 AUG\nBoarding 14:10 Gate 17\nSeat 23C Zone 3\nGate closes 20 minutes before departure."
+    },
+    {
+      "kind": "form",
+      "text": "Concert ticket\nThe Paper Lanterns, Autumn Tour 2026\nCalder Hall, Friday 30 October\nDoors 7:00pm, show 8:00pm\nStanding, General Admission\nFace value £32.50 + £3.75 booking fee\nNo re-entry. Order 5512-9903"
+    },
+    {
+      "kind": "form",
+      "text": "Employee Time Sheet\nName: Marcus Bell\nEmployee ID: 40718\nWeek ending: 03/27/2026\nMon 8:00-4:30\nTue 8:00-4:30\nWed 8:00-12:00\nThu 7:30-4:00\nFri 8:00-4:30\nTotal hours: 38.0"
+    },
+    {
+      "kind": "form",
+      "text": "Penalty charge notice\nPCN no. FN40921776\nVehicle registration: XY64 PQR\nContravention code 01: parked in a restricted street during prescribed hours\nLocation: Bridge Street, Fenwick\nDate 09/02/2026 Time 11:52\nPenalty £70, reduced to £35 if paid within 14 days"
+    },
+    {
+      "kind": "form",
+      "text": "Library card application\nFull name: Oliver James Brennan\nAddress: Flat 3, 61 Queen's Road, Lowford LW1 3HS\nEmail: o.brennan@example.com\nPhone: 07700 900873\nCard number issued: 2104 6630 0198\nDate: 12/01/2026"
+    },
+    {
+      "kind": "form",
+      "text": "Museum entry\nAdult x2 £16.00\nChild x1 £4.00\nGift Aid declaration: Yes\nValid for one visit on 22/08/2026\nPlease show this ticket at the entrance. Ticket 000481237"
+    },
+    {
+      "kind": "form",
+      "text": "Raffle ticket No. 0347\nWinter Raffle, drawn Friday 11 December at 9pm\nFirst prize: hamper worth £150\nName: K. Osei\nTel: 01632 960503\nTickets £1 each or 6 for £5"
+    },
+    {
+      "kind": "form",
+      "text": "Delivery note\nOrder no. 300-21876\nDeliver to: Kitchen, Bay Tree Bistro, 7 Quay Street\nDate: 18/03/2026\n24 x 1L whole milk\n10 x 2kg plain flour\n6 x 5L sunflower oil\nReceived by: J. Clarke"
+    },
+    {
+      "kind": "form",
+      "text": "Vehicle Service Order\nRO #58214\nCustomer: Angela Brooks\nVehicle: 2019 sedan, mileage 48,215\nOil and filter change $64.95\nTire rotation $24.00\nWiper blades (pair) $32.50\nEstimated total $121.45\nPromised: 4:30 PM 06/11/2026"
+    },
+    {
+      "kind": "page",
+      "text": "Chapter 4\nThe Lighthouse Keeper\nBy the spring of 1887 the light at Gull Point had been burning for thirty-one years, and in all that time it had failed only twice. Thomas Avery kept a careful record of every night in a leather ledger, noting the wind, the weather and the number of ships that passed.\nOn the night of 12 March he wrote just four words: fog, no ships, cold.\n52"
+    },
+    {
+      "kind": "page",
+      "text": "How to take your medicine\nTake one capsule twice a day, in the morning and in the evening, with a glass of water. Swallow the capsule whole; do not crush or chew it.\nIf you forget a dose, take it as soon as you remember, unless it is less than 4 hours until your next dose. Do not take a double dose to make up for a forgotten one.\nPage 3 of 6"
+    },
+    {
+      "kind": "page",
+      "text": "Welcome to Hollins Country Park. The park covers 214 hectares of woodland, meadow and wetland, and is home to more than 90 species of bird. The visitor centre is open daily from 9:30am to 5:00pm, and the café closes at 4:30pm.\nPlease keep dogs on a lead between 1 March and 31 July to protect ground-nesting birds.\nEmergency contact: 01632 960099"
+    },
+    {
+      "kind": "page",
+      "text": "The first railway reached the town in 1846, and within a decade the population had more than doubled, from 4,200 to almost 9,500. New streets of terraced houses spread east along the river, and the old market hall was replaced by a covered market in 1858.\nBy 1901 there were 14 mills employing over 3,000 people.\n118 A Short History of Fenwick"
+    },
+    {
+      "kind": "page",
+      "text": "Getting started\nBefore using your kettle for the first time, fill it to the MAX mark, boil, and discard the water. Repeat this twice.\nNever fill above the MAX mark (1.7 litres) or below the MIN mark (0.5 litres). Always place the kettle on its base before switching on.\nModel KT-2210. 3000W, 220-240V ~ 50Hz.\n4"
+    },
+    {
+      "kind": "page",
+      "text": "Part Two\nShe had not expected the letter to arrive so soon. It was dated the 3rd, postmarked the 5th, and it had reached her on a grey Tuesday morning, the 7th, while the kettle was still coming to the boil. Inside was a single sheet, folded twice, and a cheque for exactly £250.\nShe read it three times before she sat down."
+    },
+    {
+      "kind": "page",
+      "text": "Your bin, your responsibility\nIn 2025, residents in the district recycled 41% of their household waste, up from 37% the year before. Our target for 2027 is 50%.\nPlease rinse cans, bottles and jars before putting them in your blue bin, and flatten cardboard boxes. Plastic bags, nappies and food waste cannot be recycled in the blue bin.\nFor a free replacement bin call 01632 960410."
+    },
+    {
+      "kind": "page",
+      "text": "Frequently asked questions\nCan I change my booking? Yes. Changes made more than 48 hours before your arrival are free of charge. Changes made within 48 hours are subject to a fee of £15.\nWhat time can I check in? Check-in is from 3:00pm. Early check-in from 12 noon may be available for an extra £20, subject to availability."
+    },
+    {
+      "kind": "page",
+      "text": "The common frog (Rana temporaria) is found throughout Britain. Adults measure 6 to 9 cm in length and may live for up to 8 years. Females lay clumps of between 1,000 and 2,000 eggs in shallow ponds, usually in February or March, and tadpoles develop into froglets over about 14 weeks.\nFig. 3.2 Frogspawn in a garden pond\n27"
+    },
+    {
+      "kind": "page",
+      "text": "Your guarantee\nThis product is guaranteed for 2 years from the date of purchase against defects in materials and workmanship. To make a claim, keep your receipt and contact our customer service team on 0808 157 0331 between 8am and 6pm, Monday to Friday.\nThe guarantee does not cover damage caused by misuse, accidents or normal wear and tear."
+    },
+    {
+      "kind": "page",
+      "text": "It was nearly midnight when the 11:10 from Kingsmere finally pulled into the station, forty minutes late. Only three passengers got off: an elderly man with a walking stick, a woman carrying a sleeping child, and Daniel, who stood on the empty platform for a long time, looking at the clock.\nHe had promised to be home by ten.\n89"
+    },
+    {
+      "kind": "page",
+      "text": "Section 2: Eligibility\nYou can apply for a residents' parking permit if you live at an address within Zone F and your vehicle is registered to that address. Each household may hold a maximum of 2 permits.\nThe first permit costs £60 a year and the second costs £95 a year. Visitor permits are sold in books of 10 for £12.50."
+    }
+  ]
+}

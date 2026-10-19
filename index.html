@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Pigeon</title>
+<meta name="description" content="Answers you can check, on your Mac.">
+<!-- No CDN: the fonts ship in the bundle, same as the desktop app. See
+     fonts/OFL.txt for licence and provenance. -->
+<link rel="stylesheet" href="styles/tokens.css">
+<link rel="stylesheet" href="styles/cast.css">
+<link rel="stylesheet" href="styles/app.css">
+</head>
+<body>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<!-- Replies are announced here and nowhere else. The thread cannot be a live
+     region itself — it is rebuilt wholesale on every paint, and a screen reader
+     would re-read the entire conversation each time — so one sentence about the
+     reply that just landed is written here instead. Off screen, never drawn. -->
+<div class="offscreen" id="said" role="status" aria-live="polite"></div>
+<div class="app" id="app">
+  <aside class="list" id="list" aria-label="Chats">
+    <div class="list-head">
+      <label class="search"><span id="searchIcon"></span><input id="listSearch" type="search" placeholder="Search" autocomplete="off" spellcheck="false" aria-label="Search chats, Pigeons and messages"></label>
+      <button class="compose-btn" id="composeBtn" title="New chat (⌘N)" aria-label="New chat"></button>
+      <button class="compose-btn" id="addPigeonBtn" title="Add a Pigeon — import a .pigeon file" aria-label="Add a Pigeon" hidden></button>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Chats or Pigeons">
+      <button role="tab" data-tab="chats" aria-selected="true">Chats</button>
+      <button role="tab" data-tab="pigeons" aria-selected="false">Pigeons</button>
+    </div>
+    <div class="rows" id="rows"></div>
+    <button class="list-foot" id="listFoot" title="What is running behind Pigeon, and where your chats are kept"></button>
+  </aside>
+  <main class="pane" id="pane">
+    <header class="pane-head" id="paneHead"></header>
+    <div class="pane-body">
+      <div id="view" class="view"></div>
+      <button class="jump" id="jumpNew" hidden></button>
+      <div class="drop" id="dropZone" hidden><span>Drop an image to read the text in it</span></div>
+      <div class="suggest" id="toList" role="listbox" aria-label="Pigeons" hidden></div>
+      <aside class="info" id="info" aria-label="Chat details" hidden></aside>
+    </div>
+    <!-- A sent picture, opened: over the conversation, never over the list. -->
+    <div class="lightbox" id="lightbox" role="dialog" aria-label="Picture" hidden><img id="lightboxPic" alt=""><button class="lightbox-x" id="lightboxClose" aria-label="Close">×</button></div>
+  </main>
+</div>
+<script type="module" src="src/app.js"></script>
+</body>
+</html>

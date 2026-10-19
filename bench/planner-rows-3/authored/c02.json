@@ -1,0 +1,2242 @@
+{
+ "rows": [
+  {
+   "skill": "expandRecurrence",
+   "message": "weekly piano lessons starting next monday, list the first 8 dates",
+   "input": {
+    "start": "2026-09-07",
+    "every": "week",
+    "count": 8
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "next monday"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "Bin collection is every second thursday, first one this thursday. Can you list the collection dates until christmas?",
+   "input": {
+    "start": "2026-09-03",
+    "every": "week",
+    "interval": 2,
+    "until": "2026-12-25"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "this thursday"
+    },
+    {
+     "field": "until",
+     "rule": "date",
+     "from": "christmas"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "our sprint retro repeats every 3 weeks and the first one is in 2 weeks. show me the next 5 retro dates",
+   "input": {
+    "start": "2026-09-15",
+    "every": "week",
+    "interval": 3,
+    "count": 5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "in 2 weeks"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "list the dates of a monthly rent reminder repeating from the start of next month, 12 dates",
+   "input": {
+    "start": "2026-10-01",
+    "every": "month",
+    "count": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "start of next month"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "I take an iron tablet every 2 days starting tomorrow. which dates is that through the end of the month?",
+   "input": {
+    "start": "2026-09-02",
+    "every": "day",
+    "interval": 2,
+    "until": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "tomorrow"
+    },
+    {
+     "field": "until",
+     "rule": "date",
+     "from": "the end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "Ward nurse here. Dressing changes every 3 days, beginning the day after tomorrow — list 10 change dates.",
+   "input": {
+    "start": "2026-09-03",
+    "every": "day",
+    "interval": 3,
+    "count": 10
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "anniversary dinner repeats every year on valentine's day — list the recurring dates for the next four years",
+   "input": {
+    "start": "2027-02-14",
+    "every": "year",
+    "count": 4
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "Payday comes every fortnight from next friday. What are the paydays up to new year's eve?",
+   "input": {
+    "start": "2026-09-04",
+    "every": "week",
+    "interval": 2,
+    "until": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "next friday"
+    },
+    {
+     "field": "until",
+     "rule": "date",
+     "from": "new year's eve"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "oil level check every 60 days from halloween, 6 dates pls",
+   "input": {
+    "start": "2026-10-31",
+    "every": "day",
+    "interval": 60,
+    "count": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "raid night repeats every saturday, starting this saturday. list 6 recurring dates for the guild calendar",
+   "input": {
+    "start": "2026-09-05",
+    "every": "week",
+    "count": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "this saturday"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "dental check-ups every 6 months starting tomorrow; I want the next 4 appointment dates",
+   "input": {
+    "start": "2026-09-02",
+    "every": "month",
+    "interval": 6,
+    "count": 4
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "message": "volunteering rota repeats weekly: list the recurring dates from next tuesday until the end of next month",
+   "input": {
+    "start": "2026-09-08",
+    "every": "week",
+    "until": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "start",
+     "rule": "date",
+     "from": "next tuesday"
+    },
+    {
+     "field": "until",
+     "rule": "date",
+     "from": "the end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "write christmas eve as DD/MM/YYYY",
+   "input": {
+    "date": "2026-12-24",
+    "format": "DD/MM/YYYY"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "I need tomorrow's date in MM-DD-YYYY for a US customs form",
+   "input": {
+    "date": "2026-09-02",
+    "format": "MM-DD-YYYY"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "format next friday as DDDD D MMMM",
+   "input": {
+    "date": "2026-09-04",
+    "format": "DDDD D MMMM"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "next friday"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "Teacher here — please put the day after tomorrow in YYYY.MM.DD for the attendance register.",
+   "input": {
+    "date": "2026-09-03",
+    "format": "YYYY.MM.DD"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "halloween in DD-MM-YY please",
+   "input": {
+    "date": "2026-10-31",
+    "format": "DD-MM-YY"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "how would the end of the month look laid out as D MMMM YYYY?",
+   "input": {
+    "date": "2026-09-30",
+    "format": "D MMMM YYYY"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "Could you render new year's day in the layout YYYY/MM/DD?",
+   "input": {
+    "date": "2027-01-01",
+    "format": "YYYY/MM/DD"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "the date in 10 days, formatted DD.MM.YYYY — it goes on a German invoice",
+   "input": {
+    "date": "2026-09-11",
+    "format": "DD.MM.YYYY"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "in 10 days"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "We're sending party invites. Write boxing day out as DDDD, D MMMM YYYY for the card.",
+   "input": {
+    "date": "2026-12-26",
+    "format": "DDDD, D MMMM YYYY"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "boxing day"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "a week from now as MM/DD/YY",
+   "input": {
+    "date": "2026-09-08",
+    "format": "MM/DD/YY"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "a week from now"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "dev q: format yesterday's date as YYYYMMDD so i can name a backup file",
+   "input": {
+    "date": "2026-08-31",
+    "format": "YYYYMMDD"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "message": "Reformat bonfire night as DD MMM YYYY for the club newsletter, ta",
+   "input": {
+    "date": "2026-11-05",
+    "format": "DD MMM YYYY"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "does halloween land on a weekend this year?",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is boxing day a working day or a weekend",
+   "input": {
+    "date": "2026-12-26"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "boxing day"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "Valentine's day — weekend or weekday? Trying to book a table.",
+   "input": {
+    "date": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "payroll runs at the end of the month. is that a weekend?",
+   "input": {
+    "date": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "in 12 days, will it be a weekend",
+   "input": {
+    "date": "2026-09-13"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "in 12 days"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "I run a small bakery and need to plan staffing. Is bonfire night on a weekend?",
+   "input": {
+    "date": "2026-11-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is st patrick's day a working day next year",
+   "input": {
+    "date": "2027-03-17"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "st patrick's day"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "my flight is a fortnight from now - does that fall on a weekend?",
+   "input": {
+    "date": "2026-09-15"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "a fortnight from now"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "is the day after tomorrow a weekend day",
+   "input": {
+    "date": "2026-09-03"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "Quick check: christmas eve, weekend or working day?",
+   "input": {
+    "date": "2026-12-24"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "the contract ends at the end of next month — is that on a weekend",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "message": "US cousin asks: is independence day a weekday next year, or does it fall on the weekend?",
+   "input": {
+    "date": "2027-07-04"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "independence day"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "unix timestamp for tomorrow at 14:30",
+   "input": {
+    "date": "2026-09-02",
+    "time": "14:30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "epoch seconds for new year's day at 00:00",
+   "input": {
+    "date": "2027-01-01",
+    "time": "00:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "I'm setting an expiry in our API. Need the unix timestamp for the end of the year at 23:59:59.",
+   "input": {
+    "date": "2026-12-31",
+    "time": "23:59:59"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of the year"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "convert halloween at 18:00 to unix time",
+   "input": {
+    "date": "2026-10-31",
+    "time": "18:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "what's yesterday as an epoch number",
+   "input": {
+    "date": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "Unix timestamp for next monday 09:00 UTC, please.",
+   "input": {
+    "date": "2026-09-07",
+    "time": "09:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "next monday"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "seeding a test database — give me the unix time of a week from now",
+   "input": {
+    "date": "2026-09-08"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "a week from now"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "boxing day 10:15 as a unix timestamp?",
+   "input": {
+    "date": "2026-12-26",
+    "time": "10:15"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "boxing day"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "in 30 days at 12:00, what would the epoch seconds be",
+   "input": {
+    "date": "2026-10-01",
+    "time": "12:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "in 30 days"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "Turn christmas eve 20:00 into seconds since the unix epoch",
+   "input": {
+    "date": "2026-12-24",
+    "time": "20:00"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "convert 3 days ago to a unix timestamp for my log filter",
+   "input": {
+    "date": "2026-08-29"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "3 days ago"
+    }
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "message": "start of next month, midnight — what's that in unix seconds?",
+   "input": {
+    "date": "2026-10-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "start of next month"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "which week number is bonfire night",
+   "input": {
+    "date": "2026-11-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "iso week of the end of the month?",
+   "input": {
+    "date": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "Planning the sprint board. What ISO week does christmas eve fall in?",
+   "input": {
+    "date": "2026-12-24"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "week of the year for halloween pls",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "what iso week number will it be in 3 weeks",
+   "input": {
+    "date": "2026-09-22"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "in 3 weeks"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "My due date is a fortnight from now. Which week of the year is that?",
+   "input": {
+    "date": "2026-09-15"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "a fortnight from now"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "ISO week number for new year's day, please",
+   "input": {
+    "date": "2027-01-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "Our stock reports go by week number at the warehouse. What week is next thursday?",
+   "input": {
+    "date": "2026-09-03"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "next thursday"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "week number of yesterday?",
+   "input": {
+    "date": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "Which ISO week number contains valentine's day? Our German supplier quotes KW numbers.",
+   "input": {
+    "date": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "tell me the iso week the end of next month sits in",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "message": "iso week for the day after tomorrow, and when does that week start",
+   "input": {
+    "date": "2026-09-03"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "what date is the first monday after christmas",
+   "input": {
+    "weekday": "Monday",
+    "from": "2026-12-25"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "christmas"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "the friday before halloween — what's the date?",
+   "input": {
+    "weekday": "Friday",
+    "direction": "previous",
+    "from": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "I'm off work on boxing day. When's the next wednesday after that?",
+   "input": {
+    "weekday": "Wednesday",
+    "from": "2026-12-26"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "boxing day"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "which saturday comes right after new year's day",
+   "input": {
+    "weekday": "Saturday",
+    "from": "2027-01-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "find the date of the most recent thursday before valentine's day, need to order flowers",
+   "input": {
+    "weekday": "Thursday",
+    "direction": "previous",
+    "from": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "find the tuesday following the end of the month",
+   "input": {
+    "weekday": "Tuesday",
+    "from": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "the end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "Rota question from the ward: the first thursday after the end of next month?",
+   "input": {
+    "weekday": "Thursday",
+    "from": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "the end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "Office party has to be midweek: which date is the last wednesday before christmas eve?",
+   "input": {
+    "weekday": "Wednesday",
+    "direction": "previous",
+    "from": "2026-12-24"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "when is the first friday after bonfire night",
+   "input": {
+    "weekday": "Friday",
+    "from": "2026-11-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "Next sunday after st patrick's day, what date is it?",
+   "input": {
+    "weekday": "Sunday",
+    "from": "2027-03-17"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "st patrick's day"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "what was the last saturday before new year's eve? the party has to be on a saturday",
+   "input": {
+    "weekday": "Saturday",
+    "direction": "previous",
+    "from": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "new year's eve"
+    }
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "message": "give me the date of the tuesday following independence day",
+   "input": {
+    "weekday": "Tuesday",
+    "from": "2027-07-04"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "independence day"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long until halloween, in plain words",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how far away is new year's day",
+   "input": {
+    "date": "2027-01-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how long ago was last thursday?",
+   "input": {
+    "date": "2026-08-27"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "last thursday"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "The kids keep asking. How long is it now until christmas eve?",
+   "input": {
+    "date": "2026-12-24"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how far away is bonfire night, in words",
+   "input": {
+    "date": "2026-11-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "roughly how long until the end of the year?",
+   "input": {
+    "date": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of the year"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "Retired and counting down to the grandkids' visit on valentine's day — how far off is that now?",
+   "input": {
+    "date": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "in words, how much time is left until the end of next month",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "boxing day sales — how long from now is that, roughly, in words",
+   "input": {
+    "date": "2026-12-26"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "boxing day"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "say how long ago last saturday was, plain english",
+   "input": {
+    "date": "2026-08-29"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "last saturday"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "how far away is st patrick's day from now?",
+   "input": {
+    "date": "2027-03-17"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "st patrick's day"
+    }
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "message": "Heading to Boston for independence day. How far off is that from today?",
+   "input": {
+    "date": "2027-07-04"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "independence day"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "I've got 320 pages to get through by the end of the month — split it into a daily reading schedule",
+   "input": {
+    "totalPages": 320,
+    "days": 30
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "days",
+     "from": "the end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "book club meets on halloween and the book is 410 pages. reading plan?",
+   "input": {
+    "totalPages": 410,
+    "days": 61
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "days",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "starting tomorrow, 25 pages a day of a 300 page textbook. make me a reading schedule",
+   "input": {
+    "totalPages": 300,
+    "pagesPerDay": 25,
+    "startDate": "2026-09-02"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startDate",
+     "rule": "date",
+     "from": "tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Law student here. 540 pages of case law to read before christmas — how many pages a day?",
+   "input": {
+    "totalPages": 540,
+    "days": 116
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "days",
+     "from": "christmas"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "reading schedule for 180 pages, 15 a day, starting next monday",
+   "input": {
+    "totalPages": 180,
+    "pagesPerDay": 15,
+    "startDate": "2026-09-07"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startDate",
+     "rule": "date",
+     "from": "next monday"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "I want to finish a 250-page novel by next sunday. pages per day?",
+   "input": {
+    "totalPages": 250,
+    "days": 6
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "days",
+     "from": "next sunday"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Plan my reading: 1,200 pages by the end of the year.",
+   "input": {
+    "totalPages": 1200,
+    "days": 122
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "days",
+     "from": "the end of the year"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "Starting the day after tomorrow I'll read 40 pages a day of a 600 page biography. Schedule please.",
+   "input": {
+    "totalPages": 600,
+    "pagesPerDay": 40,
+    "startDate": "2026-09-03"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startDate",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "The exam is in 3 weeks and I have 420 pages of notes. Spread the reading out for me day by day.",
+   "input": {
+    "totalPages": 420,
+    "days": 22
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "days",
+     "from": "in 3 weeks"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "help me finish this book by friday — what's the daily page plan?",
+   "input": {
+    "days": 4
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "days",
+     "from": "friday"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "700 pages, finish by the end of next month, give me a daily reading plan",
+   "input": {
+    "totalPages": 700,
+    "days": 61
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "days",
+     "rule": "days",
+     "from": "the end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "readingScheduleFromPages",
+   "message": "start in 2 days, 30 pages daily, 450 pages total — map out the reading",
+   "input": {
+    "totalPages": 450,
+    "pagesPerDay": 30,
+    "startDate": "2026-09-03"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "startDate",
+     "rule": "date",
+     "from": "in 2 days"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "I learned the irregular french verbs yesterday — when should I review them?",
+   "input": {
+    "date": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "spaced repetition review dates for anatomy flashcards I'm starting tomorrow",
+   "input": {
+    "date": "2026-09-02"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "I crammed the periodic table 3 days ago. Give me a spaced review schedule counting from then.",
+   "input": {
+    "date": "2026-08-29"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "3 days ago"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "Med student: learned the cranial nerves last friday. Reviews at 1, 3, 7 and 14 days — which dates?",
+   "input": {
+    "date": "2026-08-28",
+    "intervals": [
+     1,
+     3,
+     7,
+     14
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "last friday"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "spaced repetition revision dates for the spanish vocab I'll first study next monday",
+   "input": {
+    "date": "2026-09-07"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "next monday"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "Set up spaced repetition starting on new year's day for my Japanese kanji deck.",
+   "input": {
+    "date": "2027-01-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "studied the tube map a week ago, when are my spaced reviews due",
+   "input": {
+    "date": "2026-08-25"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "a week ago"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "review plan after 2, 5 and 10 days, starting the day after tomorrow",
+   "input": {
+    "date": "2026-09-03",
+    "intervals": [
+     2,
+     5,
+     10
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "Language teacher here. My class learns the new poem this friday; build a spaced repetition timetable for revising it.",
+   "input": {
+    "date": "2026-09-04"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "this friday"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "when should i revise the music theory i learned 2 days ago? spaced repetition style",
+   "input": {
+    "date": "2026-08-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "2 days ago"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "spaced repetition from halloween with gaps of 1, 7 and 30 days",
+   "input": {
+    "date": "2026-10-31",
+    "intervals": [
+     1,
+     7,
+     30
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "spacedRepetitionSchedule",
+   "message": "The chemistry unit starts in 10 days. What review dates would spaced repetition give me from then?",
+   "input": {
+    "date": "2026-09-11"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "in 10 days"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Ran on 2026-08-25, 2026-08-27 and 2026-08-30. What's my habit completion rate from a week ago to yesterday?",
+   "input": {
+    "dates": [
+     "2026-08-25",
+     "2026-08-27",
+     "2026-08-30"
+    ],
+    "from": "2026-08-25",
+    "to": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "a week ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "journaling habit: what's my completion rate from a fortnight ago until today? days done: 2026-08-18, 2026-08-19, 2026-08-21, 2026-08-24, 2026-08-28, 2026-09-01",
+   "input": {
+    "dates": [
+     "2026-08-18",
+     "2026-08-19",
+     "2026-08-21",
+     "2026-08-24",
+     "2026-08-28",
+     "2026-09-01"
+    ],
+    "from": "2026-08-18",
+    "to": "2026-09-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "a fortnight ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "today"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Did yoga yesterday and today, nothing else since last wednesday. My completion rate from last wednesday to today?",
+   "input": {
+    "dates": [
+     "2026-08-31",
+     "2026-09-01"
+    ],
+    "from": "2026-08-26",
+    "to": "2026-09-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "dates.0",
+     "rule": "date",
+     "from": "yesterday"
+    },
+    {
+     "field": "dates.1",
+     "rule": "date",
+     "from": "today"
+    },
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "last wednesday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "today"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "my no-sugar log is below — on what share of days did I keep it up from 10 days ago to yesterday?",
+   "input": {
+    "from": "2026-08-22",
+    "to": "2026-08-31"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "10 days ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Nurse on shifts. I hit my step goal on 2026-08-12, 2026-08-15, 2026-08-20 and 2026-08-29. Completion rate for the period 3 weeks ago to yesterday?",
+   "input": {
+    "dates": [
+     "2026-08-12",
+     "2026-08-15",
+     "2026-08-20",
+     "2026-08-29"
+    ],
+    "from": "2026-08-11",
+    "to": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "3 weeks ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "practised guitar 2026-08-26, 2026-08-28, 2026-08-29, 2026-08-31 — what percentage of days from last wednesday through today did I keep the habit?",
+   "input": {
+    "dates": [
+     "2026-08-26",
+     "2026-08-28",
+     "2026-08-29",
+     "2026-08-31"
+    ],
+    "from": "2026-08-26",
+    "to": "2026-09-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "last wednesday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "today"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "habit %: skipped coffee on 2026-08-22, 2026-08-23, 2026-08-27; period 10 days ago to today",
+   "input": {
+    "dates": [
+     "2026-08-22",
+     "2026-08-23",
+     "2026-08-27"
+    ],
+    "from": "2026-08-22",
+    "to": "2026-09-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "10 days ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "today"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "work out my habit completion rate from a week ago up to today, using the dates in my tracker export",
+   "input": {
+    "from": "2026-08-25",
+    "to": "2026-09-01"
+   },
+   "mode": "pointed",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "a week ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "today"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "I only read before bed on 2026-08-19 and 2026-08-25. From a fortnight ago to yesterday, what's my completion rate? be honest",
+   "input": {
+    "dates": [
+     "2026-08-19",
+     "2026-08-25"
+    ],
+    "from": "2026-08-18",
+    "to": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "a fortnight ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "duolingo days: 2026-08-28, 2026-08-29, 2026-08-30. how consistent was I between 5 days ago and yesterday?",
+   "input": {
+    "dates": [
+     "2026-08-28",
+     "2026-08-29",
+     "2026-08-30"
+    ],
+    "from": "2026-08-27",
+    "to": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "5 days ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Kept my screen curfew yesterday and on 2026-08-29, no other days. Habit completion rate from last thursday to yesterday?",
+   "input": {
+    "dates": [
+     "2026-08-31",
+     "2026-08-29"
+    ],
+    "from": "2026-08-27",
+    "to": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "dates.0",
+     "rule": "date",
+     "from": "yesterday"
+    },
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "last thursday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "habitCompletionRate",
+   "message": "Savings-transfer habit: did it on 2026-08-05, 2026-08-12, 2026-08-19 and 2026-08-26. What's my habit completion rate from 4 weeks ago to today?",
+   "input": {
+    "dates": [
+     "2026-08-05",
+     "2026-08-12",
+     "2026-08-19",
+     "2026-08-26"
+    ],
+    "from": "2026-08-04",
+    "to": "2026-09-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "4 weeks ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "today"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "booking form keeps rejecting next friday — check the date is actually valid",
+   "input": {
+    "date": "2026-09-04"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "next friday"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "validate the end of next month as a date",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "Is the end of the month a valid calendar date? Our script computed it and I don't trust it.",
+   "input": {
+    "date": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "check that valentine's day exists on the calendar as a valid date",
+   "input": {
+    "date": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "check the date in 90 days is a real one",
+   "input": {
+    "date": "2026-11-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "in 90 days"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "validate yesterday's date please",
+   "input": {
+    "date": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "my cron job fires at the end of the year — is that a real calendar date?",
+   "input": {
+    "date": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the end of the year"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "Double-check that the date 6 weeks from now is valid before I submit the visa form.",
+   "input": {
+    "date": "2026-10-13"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "6 weeks from now"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "is the day after tomorrow a valid date",
+   "input": {
+    "date": "2026-09-03"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "Please validate new year's eve as a date for the ticketing system",
+   "input": {
+    "date": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "new year's eve"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "confirm st patrick's day is a valid calendar date",
+   "input": {
+    "date": "2027-03-17"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "st patrick's day"
+    }
+   ]
+  },
+  {
+   "skill": "validateDate",
+   "message": "before it goes in the spreadsheet: is halloween a real, valid date?",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  }
+ ]
+}

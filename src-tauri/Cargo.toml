@@ -1,0 +1,145 @@
+[package]
+name = "pigeon"
+version = "0.1.0"
+description = "Pigeon — the model plans, JS executes, the model phrases."
+authors = ["Kevin Jackson"]
+edition = "2021"
+rust-version = "1.77.2"
+
+# pigeon-core is the reader: no Tauri, no model. pigeon-engine is pigeon-core
+# plus llama.cpp, in this process. pigeon-ffi is the engine as a C library
+# (libpigeon) for hosts that are not this app. They live here until they have
+# their own repo. `cargo test` runs all four.
+[workspace]
+members = ["pigeon-core", "pigeon-engine", "pigeon-ffi"]
+default-members = [".", "pigeon-core", "pigeon-engine", "pigeon-ffi"]
+
+[lib]
+name = "pigeon_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+# No PLUGINS. The webview gets no filesystem, no shell, no dialog and no general
+# network of its own. What it can reach is sixty-seven named commands: a local
+# model, a web search, one file of saved chats and a way to keep an unreadable
+# one aside, an OCR engine, wake, warm, sleep, how long a model may idle, download,
+# cancel, the chat lane's own door, a one-job model's door, a screen capture,
+# describing, importing, removing, running, check-riding and playing a Pigeon, reading what one holds
+# and drawing what it answers, what Patch is, the Developer menu's on and off, the window's light or dark,
+# the menu bar's way of bringing the window back and of putting its own
+# popover away and bringing it back, and the summon bar's four:
+# put me away, bring me back, this is how tall I am, and the pointer is near. Each takes a role, a query, a JSON
+# string, image bytes, a persona's name, an id this shell itself handed out, a
+# height this shell clamps, or nothing at all — never a URL, a host or a path,
+# all of which are built in Rust. That is the house rule ("never widen the webview's
+# capabilities to solve a frontend problem — add a Rust command instead")
+# applied literally, sixty-seven times. The model server is spawned
+# with std::process::Command on a path resolved in engine.rs, not through a
+# shell plugin, for the same reason.
+# tray-icon puts Patch in the menu bar; image-png is what lets his icon be
+# loaded from the bytes compiled into the binary rather than from a path.
+# Neither widens what the webview can reach.
+# macos-private-api is what lets ONE window — the summon bar (bar.rs) — have a
+# see-through webview, so the glass under it and the desktop around Patch show.
+# It is the WebKit switch for "draw no background" and nothing else; the main
+# window and the popover never ask for it. It also rules out the Mac App Store,
+# which a sidecar model server and a screen capture had already done.
+tauri = { version = "2", features = ["tray-icon", "image-png", "macos-private-api"] }
+# The first of two plugins in this app, and scoped as tight as everything else:
+# its own commands are never registered with `invoke_handler`, so the webview
+# never gets a way to call it — only `pigeon.rs`'s own commands wrap it in Rust.
+# Native picker only; no filesystem or shell plugin joins it.
+tauri-plugin-dialog = "2"
+# The second, held the same way: ⌘⇧P is registered from Rust in lib.rs's setup
+# and handled in bar.rs. capabilities/default.json grants none of this plugin's
+# permissions, so no page can register, change or listen for a shortcut.
+tauri-plugin-global-shortcut = "2"
+# The .pigeon reader: the strict ZIP, the GGUF header, the import check with
+# its refusal codes, retrieval, skills, seals. This app's own copies of those
+# modules were lifted into it.
+pigeon-core = { path = "pigeon-core" }
+# The engine: llama.cpp in this process, used only when PIGEON_ENGINE=inprocess
+# (inprocess.rs). Off by default; the server path is unchanged beside it.
+pigeon-engine = { path = "pigeon-engine" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# TLS is present for exactly two things: the first-run model download, whose
+# URLs and hashes are pinned in models.json, and `web_search`'s two hosts,
+# behind the person's consent. Everything else this client speaks is http://
+# to 127.0.0.1. Dropping default-features keeps the build small. rustls rather
+# than the system TLS: it bundles its own roots, so the web tier does not
+# inherit a dependency on whatever OpenSSL the machine happens to have.
+# Until the web tier existed this had NO tls feature at all and that was correct —
+# the only thing it talked to was http://127.0.0.1 — which is why every https
+# request failed at connect the moment one was made.
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
+# The first-run download verifies each weight file against the SHA-256 pinned
+# in models.json before it is renamed into place. A truncated or swapped GGUF
+# loads far enough to crash the engine mid-answer; a hash mismatch is refused
+# up front instead.
+sha2 = "0.10"
+# The access key the model server is started with is random bytes from here
+# (engine.rs); the tests sign fixtures with it. Already in the graph through
+# rustls at 0.17, so this downloads nothing. (Verifying a seal is pigeon-core's.)
+ring = "0.17"
+# The screen capture hands the page a PNG. Encoding one needs real deflate;
+# an uncompressed screenshot would be 23 MB before it was base64'd, which is
+# past what the OCR command will even accept. This is the encoder and nothing
+# else — no image decoding, no formats we do not produce.
+png = "0.17"
+# Already in the graph through tauri (same 1.x, `time` and `macros` already
+# enabled there), so this downloads nothing: `time` for the health poll's
+# sleep, `macros` for probing both roles at once.
+tokio = { version = "1", features = ["time", "macros"] }
+
+# The log file's local time (localtime_r's offset) and this process's memory
+# (proc_pid_rusage), in log.rs. Already in the graph through tauri and the
+# engine, so this downloads nothing.
+libc = "0.2"
+
+# The summon bar's glass and its panel (bar.rs). All three are already in the
+# graph through tauri at these versions, so this downloads nothing; they are
+# named here because bar.rs talks to AppKit itself — a glass view sized to the
+# bar rather than the window, and a window that takes keys without taking the
+# Mac away from the app you were in. Neither is something tauri offers.
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6"
+objc2-app-kit = "0.3"
+objc2-foundation = "0.3"
+
+[dev-dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+# The mock runtime, so the engine can be woken and put to sleep in a test
+# without a window.
+tauri = { version = "2", features = ["test"] }
+# The fixture builders: a store-mode ZIP writer, a GGUF header, the test key.
+pigeon-core = { path = "pigeon-core", features = ["test-support"] }
+
+# libpigeon's release build: the app's, except that a panic unwinds, so the
+# C boundary can catch it and answer with an error (E23) instead of the host's
+# process ending. `cargo build -p pigeon-ffi --profile ffi`.
+[profile.ffi]
+inherits = "release"
+panic = "unwind"
+strip = false
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+panic = "abort"
+strip = true
+
+# The in-process engine in `npm run app`'s debug build runs llama.cpp as the
+# measured release builds do: optimised for size, no debug info. Unoptimised
+# llama.cpp is several times slower, and compiles a different Metal library,
+# which macOS caches separately (its first start takes ~20 s again).
+[profile.dev.package.llama-cpp-sys-2]
+opt-level = "s"
+debug = false
+
+[profile.dev.package.pigeon-engine]
+opt-level = 3

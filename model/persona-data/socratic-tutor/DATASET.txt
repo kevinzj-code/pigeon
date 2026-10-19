@@ -1,0 +1,9 @@
+Socratic Tutor (socratic-tutor) — Lane B persona
+teacher http://127.0.0.1:8110, sampled at 0.9 with a fresh seed per row
+160 train / 20 valid, from 4 question groups
+  stuck-on-a-bug: 45
+  explain-a-concept: 45
+  thinking-it-through: 45
+  not-mine-to-work-out: 45
+repeated openings 4/180
+built 2026-09-09 by scripts/personadata.mjs from model/persona-data/socratic-tutor.plan.json

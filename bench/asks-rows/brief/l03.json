@@ -1,0 +1,395 @@
+{
+ "batch": "l03",
+ "skills": [
+  {
+   "skill": "cronToText",
+   "category": "developer",
+   "does": "Explain what a cron schedule expression means in plain English.",
+   "examples": [
+    "what does this cron expression mean",
+    "explain this cron schedule",
+    "when does this cron run"
+   ]
+  },
+  {
+   "skill": "escapeRegex",
+   "category": "developer",
+   "does": "Escape special characters so text matches literally inside a regex pattern.",
+   "examples": [
+    "escape this for a regex: a.b",
+    "make this string regex-safe",
+    "escape a path for a pattern"
+   ]
+  },
+  {
+   "skill": "httpStatusLookup",
+   "category": "developer",
+   "does": "Look up what an HTTP status code means.",
+   "examples": [
+    "what does http 404 mean",
+    "what is a 503",
+    "meaning of status 200"
+   ]
+  },
+  {
+   "skill": "jwtDecode",
+   "category": "developer",
+   "does": "Decode the header and claims inside a JSON Web Token.",
+   "examples": [
+    "decode this jwt",
+    "what is inside this token",
+    "read the claims in this jwt"
+   ]
+  },
+  {
+   "skill": "mimeTypeLookup",
+   "category": "developer",
+   "does": "Look up the MIME type for a file extension, or which extensions use a MIME type.",
+   "examples": [
+    "what mime type is a png",
+    "mime type for report.pdf",
+    "which extensions use image/jpeg"
+   ]
+  },
+  {
+   "skill": "parseSemver",
+   "category": "developer",
+   "does": "Split one version number into major, minor, patch and pre-release.",
+   "examples": [
+    "break down version 2.11.5",
+    "parse v1.0.0-beta.2",
+    "what are the parts of 0.1.0"
+   ]
+  },
+  {
+   "skill": "testRegex",
+   "category": "developer",
+   "does": "Run a regex pattern over sample text and show every hit it makes.",
+   "examples": [
+    "test this regex against my text",
+    "what does this pattern capture",
+    "check a regex that finds nothing"
+   ]
+  },
+  {
+   "skill": "unicodeLookup",
+   "category": "developer",
+   "does": "Look up a character by symbol, code point or name, with its encodings.",
+   "examples": [
+    "look up the character A",
+    "what is U+1F54A",
+    "unicode info for é"
+   ]
+  },
+  {
+   "skill": "base64Decode",
+   "category": "encoding",
+   "does": "Decode plain base64 back into readable text — un-base64 a string.",
+   "examples": [
+    "decode aGVsbG8gd29ybGQ=",
+    "what does UGlnZW9u say",
+    "decode an accented base64 string"
+   ]
+  },
+  {
+   "skill": "base64Encode",
+   "category": "encoding",
+   "does": "Encode text as base64.",
+   "examples": [
+    "base64 encode hello world",
+    "encode this as base64",
+    "base64 an accented string"
+   ]
+  },
+  {
+   "skill": "binaryDecode",
+   "category": "encoding",
+   "does": "Read a run of 1s and 0s back into the message it spells.",
+   "examples": [
+    "decode this binary",
+    "what does this binary say",
+    "turn these bits back into text"
+   ]
+  },
+  {
+   "skill": "binaryEncode",
+   "category": "encoding",
+   "does": "Write text out as 1s and 0s, eight bits to a byte.",
+   "examples": [
+    "convert A to binary",
+    "turn Hi into binary",
+    "what is hello in binary"
+   ]
+  },
+  {
+   "skill": "caesarShift",
+   "category": "encoding",
+   "does": "Shift every letter along the alphabet by a fixed amount, as a Caesar cipher.",
+   "examples": [
+    "caesar shift hello by 3",
+    "shift khoor back by 3",
+    "shift this by 13"
+   ]
+  },
+  {
+   "skill": "compressText",
+   "category": "encoding",
+   "does": "Squash text down into a shorter base64 string to store or send.",
+   "examples": [
+    "compress this repeated sentence",
+    "compress a short word",
+    "shrink this repeating pattern"
+   ]
+  },
+  {
+   "skill": "decompressText",
+   "category": "encoding",
+   "does": "Unpack a compressed base64 blob back into the text it came from.",
+   "examples": [
+    "decompress this string",
+    "restore this compressed text",
+    "expand this back out"
+   ]
+  },
+  {
+   "skill": "generatePassphrase",
+   "category": "encoding",
+   "does": "Generate a memorable passphrase from random words.",
+   "examples": [
+    "generate a passphrase",
+    "make a memorable password from words",
+    "passphrase with six words separated by dots"
+   ]
+  },
+  {
+   "skill": "generateRandomString",
+   "category": "encoding",
+   "does": "Generate a random string of a given length from a character set you choose.",
+   "examples": [
+    "generate a random string",
+    "make a 32 character random string",
+    "generate a random code people can read out"
+   ]
+  },
+  {
+   "skill": "generateUuid",
+   "category": "encoding",
+   "does": "Generate a UUID — a GUID, a v4 random identifier — one or several.",
+   "examples": [
+    "generate a uuid",
+    "give me a v4 identifier",
+    "make 3 uuids"
+   ]
+  },
+  {
+   "skill": "hashText",
+   "category": "encoding",
+   "does": "Work out the SHA hash of a piece of text.",
+   "examples": [
+    "sha256 of hello",
+    "hash this string",
+    "sha1 of abc"
+   ]
+  },
+  {
+   "skill": "hexDecode",
+   "category": "encoding",
+   "does": "Read hex byte values back as the characters they stand for.",
+   "examples": [
+    "decode 506967656f6e",
+    "what is 68656c6c6f in text",
+    "decode hex written with spaces"
+   ]
+  },
+  {
+   "skill": "hexEncode",
+   "category": "encoding",
+   "does": "Write text out as hexadecimal byte values.",
+   "examples": [
+    "hex encode Pigeon",
+    "convert hello to hex",
+    "hex encode with spaces between bytes"
+   ]
+  },
+  {
+   "skill": "morseDecode",
+   "category": "encoding",
+   "does": "Read dots and dashes back as the words they spell.",
+   "examples": [
+    "decode ... --- ...",
+    "what does this morse say",
+    "decode morse with a word break"
+   ]
+  },
+  {
+   "skill": "morseEncode",
+   "category": "encoding",
+   "does": "Write words out as Morse dots and dashes.",
+   "examples": [
+    "morse code for SOS",
+    "encode hello in morse",
+    "morse for two words"
+   ]
+  },
+  {
+   "skill": "rot13",
+   "category": "encoding",
+   "does": "Apply the ROT13 letter substitution, which is its own reverse.",
+   "examples": [
+    "rot13 this text",
+    "what does Uryyb say in rot13",
+    "rot13 a sentence"
+   ]
+  },
+  {
+   "skill": "urlDecode",
+   "category": "encoding",
+   "does": "Turn %20-style escapes back into readable characters.",
+   "examples": [
+    "decode hello%20world",
+    "what does caf%C3%A9 say",
+    "decode a query string value"
+   ]
+  },
+  {
+   "skill": "urlEncode",
+   "category": "encoding",
+   "does": "Percent-escape text so it survives inside a web address.",
+   "examples": [
+    "url encode \"hello world\"",
+    "encode this for a query string",
+    "percent encode an accented word"
+   ]
+  },
+  {
+   "skill": "comparePrices",
+   "category": "everyday",
+   "does": "Rank several sizes or packs by value for money and say which is cheapest per unit.",
+   "examples": [
+    "which is better value, 500ml for 1.20 or 1.5l for 3.30",
+    "compare three pack sizes",
+    "is the bigger box cheaper per kilo"
+   ]
+  },
+  {
+   "skill": "convertCookingMeasure",
+   "category": "everyday",
+   "does": "Convert a cooking measure between cups, spoons, millilitres and grams, using the ingredient to get weight right.",
+   "examples": [
+    "how many grams is 2 cups of flour",
+    "convert 250g of sugar to cups",
+    "3 tablespoons of butter in grams"
+   ]
+  },
+  {
+   "skill": "fuelCostForTrip",
+   "category": "everyday",
+   "does": "Work out the fuel cost of a journey from distance, consumption and fuel price.",
+   "examples": [
+    "fuel cost for a 500km trip at 7.5 litres per 100km and 1.65 a litre",
+    "how much fuel for 320 km at 6.2 L per 100",
+    "petrol cost for 300 miles at 32 mpg"
+   ]
+  },
+  {
+   "skill": "scaleRecipe",
+   "category": "everyday",
+   "does": "Multiply every ingredient amount in a recipe by a factor, rounded to sensible kitchen fractions.",
+   "examples": [
+    "double this recipe: 2 cups flour, 1 egg, 3/4 tsp salt",
+    "halve these: 1 cup sugar, 2 tbsp butter, 4 eggs",
+    "scale by 1.5: 500 g pasta, 200 ml cream"
+   ]
+  },
+  {
+   "skill": "shippingTotal",
+   "category": "everyday",
+   "does": "Total a basket — items, postage, free-delivery thresholds and tax.",
+   "examples": [
+    "total this order with shipping",
+    "order total with 20 percent tax",
+    "how much is my basket"
+   ]
+  },
+  {
+   "skill": "splitBill",
+   "category": "everyday",
+   "does": "Add a tip to a bill and split it between people, to the exact penny.",
+   "examples": [
+    "split a 84.50 bill four ways with 15% tip",
+    "what is 20% tip on 60",
+    "split 100 between 3 of us"
+   ]
+  },
+  {
+   "skill": "stackDiscounts",
+   "category": "everyday",
+   "does": "Take one discount off after another — an extra 15% off an already reduced price — and show the real saving.",
+   "examples": [
+    "stack 20% and 10% off 100",
+    "apply a single 10% discount to 50",
+    "three discounts on 200"
+   ]
+  },
+  {
+   "skill": "unitPrice",
+   "category": "everyday",
+   "does": "Work out the price per unit — per litre, per kilo, per item — so sizes can be compared.",
+   "examples": [
+    "what is the price per litre of 2.4 litres for 3.60",
+    "price per kilo for 750g at 4.20",
+    "cost per item for a pack of 12 at 5.99"
+   ]
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "category": "files",
+   "does": "Say what kind of file an extension is and which media type it uses.",
+   "examples": [
+    "what kind of file is .csv",
+    "what is a json file",
+    "file type for report.md"
+   ]
+  },
+  {
+   "skill": "fileSizeHuman",
+   "category": "files",
+   "does": "Turn a number of bytes into a readable file size like 1.4 MB.",
+   "examples": [
+    "how big is 1500000 bytes",
+    "make 1073741824 bytes readable in binary units",
+    "what is 512 bytes as a file size"
+   ]
+  },
+  {
+   "skill": "textFileStats",
+   "category": "files",
+   "does": "Count the lines, words and bytes in a piece of text and describe its line endings.",
+   "examples": [
+    "stats for this text",
+    "count the lines in this file",
+    "file stats with a blank line"
+   ]
+  },
+  {
+   "skill": "amortizeLoan",
+   "category": "finance",
+   "does": "Work out the monthly payment and total interest on a loan.",
+   "examples": [
+    "monthly payment on a 200000 mortgage at 5 percent over 30 years",
+    "repayments on a 15000 car loan at 7.5% over 5 years",
+    "amortise 100000 at 3.25 percent over 20 years"
+   ]
+  },
+  {
+   "skill": "applyDiscount",
+   "category": "finance",
+   "does": "Take a single percentage or amount off one price and show what you save.",
+   "examples": [
+    "25% off a 80 jacket",
+    "take a tenner off 45.50",
+    "what is 15 percent off 19.99"
+   ]
+  }
+ ]
+}

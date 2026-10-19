@@ -1,0 +1,719 @@
+{
+ "rows": [
+  {
+   "skill": "stackDiscounts",
+   "message": "The coat was £120, 25% off in the sale, and an extra 10% discount off the reduced price at the till. How much do I save?",
+   "input": {
+    "price": 120,
+    "discounts": [
+     25,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "Shoes priced $85 are 40% off, and there's another 15% off the sale price at the register. How much do I save?",
+   "input": {
+    "price": 85,
+    "discounts": [
+     40,
+     15
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "My store card gives 10% off everything, and the sofa is already marked down 30% from 899. Discount on top of discount, what's the final price?",
+   "input": {
+    "price": 899,
+    "discounts": [
+     30,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "sale price is 20% off a 64.99 jumper and I have a 5% student discount on top — work out what's left after both",
+   "input": {
+    "price": 64.99,
+    "discounts": [
+     20,
+     5
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "A 250 bike is 50% off, then a further 20% off the sale price. Is that really 70% off? How much do I save?",
+   "input": {
+    "price": 250,
+    "discounts": [
+     50,
+     20
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "Shop owner here. Item lists at 1,200, I've given a 15% trade discount and the customer wants another 5% off that. Final price?",
+   "input": {
+    "price": 1200,
+    "discounts": [
+     15,
+     5
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "apply three discounts in a row to a price of 400 dollars, 30% then 10% then 5% off the reduced price each time — how much do I save?",
+   "input": {
+    "price": 400,
+    "discounts": [
+     30,
+     10,
+     5
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "Black Friday: the TV is down 35% from 699, plus an extra 10 percent off at checkout with the app. How much is it after both discounts?",
+   "input": {
+    "price": 699,
+    "discounts": [
+     35,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "two discounts one after the other, 12% then 8%, on a 3,450 invoice — what's the discounted price?",
+   "input": {
+    "price": 3450,
+    "discounts": [
+     12,
+     8
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "Boots priced 140 are 20 percent off, and our club card discount takes 15% off the sale price on top. Is that 35% off?",
+   "input": {
+    "price": 140,
+    "discounts": [
+     20,
+     15
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "the ward's lunch order is priced at 48, with a 25% off sale and then a 10% nurse discount on the sale price — what's the real saving?",
+   "input": {
+    "price": 48,
+    "discounts": [
+     25,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "price 59.50. take 20% off it, and then take another 20% off the new price",
+   "input": {
+    "price": 59.5,
+    "discounts": [
+     20,
+     20
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "A £30 gift is 10% off, then another 10% off the sale price. My grandson says that's 20% off. How much do I save?",
+   "input": {
+    "price": 30,
+    "discounts": [
+     10,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "half off the dress (it was 180) and then a further 15% loyalty discount off the sale price",
+   "input": {
+    "price": 180,
+    "discounts": [
+     50,
+     15
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "Calculate the final cost: list price 2,500, dealer discount 8%, then an early payment discount of 2% off what's left.",
+   "input": {
+    "price": 2500,
+    "discounts": [
+     8,
+     2
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "stackDiscounts",
+   "message": "Wholesale order of 760. The supplier knocks off 10%, then an additional 3% off the discounted total for paying cash. What do I pay?",
+   "input": {
+    "price": 760,
+    "discounts": [
+     10,
+     3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "what's the ISO 639-1 code for Polish?",
+   "input": {
+    "query": "Polish"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "I need the two-letter code for Hindi for a dropdown in our app",
+   "input": {
+    "query": "Hindi"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Welsh — what two letter language code does it use?",
+   "input": {
+    "query": "Welsh"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "setting up a website locale, which language code do I put for Icelandic",
+   "input": {
+    "query": "Icelandic"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "lang code for tagalog?",
+   "input": {
+    "query": "tagalog"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Our subtitles file wants a language tag. What's the ISO code for Yoruba?",
+   "input": {
+    "query": "Yoruba"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "short language code for Korean",
+   "input": {
+    "query": "Korean"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Which two-letter abbreviation stands for Greek in ISO 639?",
+   "input": {
+    "query": "Greek"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Hebrew's language code, please.",
+   "input": {
+    "query": "Hebrew"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "what language code does vietnamese go by",
+   "input": {
+    "query": "vietnamese"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "I'm a translator setting up a CAT tool and it wants the ISO language code for Ukrainian. Which is it?",
+   "input": {
+    "query": "Ukrainian"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Is there an ISO code for Basque? What is it?",
+   "input": {
+    "query": "Basque"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "two letter code amharic",
+   "input": {
+    "query": "amharic"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Filling in a library catalogue record: the book's language is Maori. What's its language code?",
+   "input": {
+    "query": "Maori"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Czech language code — is it cs or cz? Look it up for me.",
+   "input": {
+    "query": "Czech"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "which iso 639 code belongs to Malay",
+   "input": {
+    "query": "Malay"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "My HTML page is in Zulu — which ISO language code goes in the lang attribute?",
+   "input": {
+    "query": "Zulu"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Bengali — which two letters does the ISO standard give it?",
+   "input": {
+    "query": "Bengali"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "need the language code for Turkish for a json translations file",
+   "input": {
+    "query": "Turkish"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "What's Thai's ISO language code?",
+   "input": {
+    "query": "Thai"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Catalan has its own language code, right? What is it?",
+   "input": {
+    "query": "Catalan"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Look up the language code for Irish.",
+   "input": {
+    "query": "Irish"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Persian (Farsi) language code please",
+   "input": {
+    "query": "Persian"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "remind me of hungarian's iso language code",
+   "input": {
+    "query": "hungarian"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Which code represents Romanian in the ISO list of languages?",
+   "input": {
+    "query": "Romanian"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "what's the 2-letter language code for Japanese, ja or jp?",
+   "input": {
+    "query": "Japanese"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Code for Latin as a language, ISO 639-1.",
+   "input": {
+    "query": "Latin"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Does Esperanto have an ISO language code?",
+   "input": {
+    "query": "Esperanto"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Croatian language code for our CMS settings, please",
+   "input": {
+    "query": "Croatian"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "languageCodeLookup",
+   "message": "Scottish Gaelic's two-letter language code?",
+   "input": {
+    "query": "Scottish Gaelic"
+   },
+   "mode": "full"
+  }
+ ],
+ "declines": [
+  "translate 'see you tomorrow' into Polish",
+  "how do you say thank you so much in Hindi",
+  "what's 'bottoms up' in Swahili",
+  "Can you put 'happy birthday, Nain' into Welsh for a card?",
+  "How would I say 'where is the bus station' in Icelandic?",
+  "translate this to Tagalog: I miss you, Lola",
+  "Yoruba for 'welcome home'?",
+  "what is 'I love you' in Korean, and how do I pronounce it",
+  "Write 'good luck with your exams' in Greek.",
+  "Hebrew translation for 'peace be with you', please",
+  "How do I say 'the bill, please' in Vietnamese?",
+  "translate my message into Ukrainian: we are thinking of you and your family",
+  "Is there a Basque word for 'cosy'?",
+  "Say 'happy new year' in Amharic.",
+  "what's the Maori phrase for 'thank you for having us'",
+  "Czech for 'two beers, please'",
+  "Can you turn 'congratulations on the new baby' into Malay?",
+  "teach me to say 'good night' in Zulu",
+  "Translate 'Are you hungry?' to Bengali for my mother-in-law.",
+  "How do Turkish people say 'enjoy your meal'?",
+  "Thai for 'not spicy please' — I'm travelling there next month",
+  "Catalan version of 'open every day except Sunday' for our shop sign",
+  "In Irish, how would you say 'good luck'?",
+  "how do I say 'sorry I'm late' in Persian",
+  "Hungarian for 'where are the toilets'?",
+  "translate 'I'm allergic to peanuts' into Romanian, it's for a restaurant card",
+  "How do you say 'nice to meet you' in Japanese, the polite form",
+  "Latin translation of 'fortune favours the bold'?",
+  "I want a tattoo that says 'family first' in Croatian — what's the wording?",
+  "Nepali word for 'mountain'?",
+  "What does 'je ne sais quoi' mean in English?",
+  "translate 'where's the nearest pharmacy' to Spanish",
+  "please put 'thank you for your patience' into German",
+  "Italian for 'can we see the menu'",
+  "how to say 'I'm a vegetarian' in Portuguese",
+  "what does the Dutch word 'gezellig' translate to in English",
+  "Arabic for 'happy Eid' to write on a cake",
+  "Translate 'long time no see' into Mandarin Chinese.",
+  "how do you write 'thank you, teacher' in Russian",
+  "What's 'good morning' in Finnish?",
+  "Swedish translation please: 'the meeting has moved to Friday'",
+  "could you translate this from Polish for me: 'Dzień dobry, jak się masz?'",
+  "Hindi to English please: 'aap kaise hain'",
+  "my Korean pen pal wrote '보고 싶어' — what does it mean in English?",
+  "say 'merry christmas' in Greek",
+  "Translate the Hebrew engraved on my grandmother's ring: 'ani l'dodi'",
+  "Vietnamese words for 'grandma' and 'grandpa'?",
+  "how do I say 'pleased to meet you' in Swahili",
+  "Ukrainian phrase for 'stay safe'",
+  "Welsh place names: what does 'Aber' mean in English?",
+  "Tagalog for 'take care'",
+  "Turkish: how do I ask 'how much is this?'",
+  "Translate our cafe sign into Thai: 'Ask staff for the wifi code'",
+  "Japanese translation of 'Do you have this in a larger size?'",
+  "how do you say 'happy anniversary, my love' in Portuguese",
+  "Put this into French: 'Our hotel room has no hot water.'",
+  "Spanish for 'my luggage didn't arrive'",
+  "German translation of 'Out of office until Monday' for my email auto-reply",
+  "translate 'it's freezing out there' into Icelandic",
+  "How would a Yoruba speaker say 'congratulations'?",
+  "Write a limerick about a goat who learns to skateboard.",
+  "draft a polite email asking my landlord to fix the boiler",
+  "Compose a toast for my sister's wedding, funny but not embarrassing.",
+  "write a haiku about the first frost",
+  "Can you write a cover letter for a junior barista job?",
+  "Write a bedtime story about a dragon who's scared of the dark.",
+  "Give me three catchy names for a dog-walking business.",
+  "write a tweet announcing our bakery's new opening hours",
+  "Draft a resignation letter that keeps things friendly.",
+  "Help me write a eulogy for my grandad, he loved fishing and terrible jokes.",
+  "Write the opening paragraph of a sci-fi novel set on a generation ship.",
+  "Compose a short apology text to my friend for missing her birthday drinks.",
+  "Write a rap verse about doing the washing up.",
+  "Can you write a LinkedIn post about finishing my apprenticeship?",
+  "write me a sonnet about the number 7 bus",
+  "Draft a complaint to the council about the potholes on our road.",
+  "Write a two-line rhyme for a retirement card.",
+  "Create a short dialogue between a pirate and a librarian.",
+  "Write original song lyrics about a summer road trip.",
+  "pen a thank-you note to my son's nursery teacher",
+  "Write an out-of-office message that's a bit cheeky.",
+  "Make up a riddle whose answer is shadow.",
+  "Draft a speech for a school prize-giving, about five minutes long.",
+  "Write a product blurb for a reusable coffee cup made from bamboo.",
+  "Could you write a short horror story that takes place in a supermarket?",
+  "Write a love letter in the style of a weather forecast.",
+  "Draft a message to the group chat cancelling Saturday's hike because of the rain.",
+  "Come up with a slogan for a window-cleaning company.",
+  "Write an acrostic poem using the word AUTUMN.",
+  "Write a fairy tale where the wolf is the hero.",
+  "draft an email to my team saying the deadline moved, keep it upbeat",
+  "Write a short biography for a jazz trio's website.",
+  "Write a funny wanted poster for a missing garden gnome.",
+  "Help me word a polite no to a wedding invitation.",
+  "Write a motivational quote for the gym wall.",
+  "Turn our holiday into a short travel blog entry — we went to Lisbon and ate far too many custard tarts.",
+  "Write a scene where two detectives argue over a sandwich.",
+  "Draft an advert for my old road bike on a local selling page.",
+  "write a nursery rhyme about brushing teeth",
+  "Write a short persuasive piece on why libraries matter.",
+  "Can you write a welcome message for new members of our book club?",
+  "Write a villanelle about insomnia.",
+  "Compose a jingle for a mobile dog grooming van.",
+  "Write a cheerful birthday message for a colleague I barely know.",
+  "draft a reference letter for my former intern",
+  "Write a short story told entirely through text messages.",
+  "Help me write a dating profile that doesn't sound desperate.",
+  "Write a mock-epic poem about losing the TV remote.",
+  "Write a short obituary for my old laptop, as a joke.",
+  "Create a plot twist for my murder mystery party.",
+  "Write a script for a 30-second radio ad for a garden centre.",
+  "Draft a polite reminder to a client about an overdue invoice.",
+  "Write a fable with a moral about patience.",
+  "Write a postcard from the Moon to Earth.",
+  "Give my fantasy kingdom a name and a short history.",
+  "Should I take the job with the higher salary or the one closer to home?",
+  "how do I tell my flatmate she's too loud without starting a war",
+  "My toddler won't sleep past 5am, any ideas?",
+  "What's a good way to prepare for a job interview at a hospital?",
+  "Is it worth repairing a ten-year-old washing machine or should I just replace it?",
+  "How do I stop procrastinating on my dissertation?",
+  "My tomatoes have yellow leaves, what am I doing wrong?",
+  "any tips for a first-time camper in Scotland in October",
+  "How do I ask for a pay rise without sounding greedy?",
+  "What should I pack for a week in Iceland in winter?",
+  "I keep forgetting people's names. How do I get better at it?",
+  "How do I get my sourdough starter going again after a week in the fridge?",
+  "what's the kindest way to rehome a cat",
+  "My teenager spends all night on his phone. What can I do?",
+  "How do I make friends after moving to a new city at 40?",
+  "Best way to clean a cast iron pan?",
+  "Should I learn Spanish or Italian first?",
+  "How can I be more confident speaking up in meetings?",
+  "Is it rude to bring my own wine to a dinner party?",
+  "How do I stop my dog pulling on the lead?",
+  "what should I look out for when viewing a rented flat",
+  "How do I get over a breakup when we still work together?",
+  "Any advice for a nurse starting night shifts for the first time?",
+  "How do I keep my houseplants alive while I'm away for a month?",
+  "My bread always comes out dense — why?",
+  "I'm thinking of going back to uni at 35. Good idea?",
+  "How do I handle a customer who shouts at my staff?",
+  "How do I keep the kitchen tidy when I cook every night?",
+  "What's a sensible bedtime routine for a seven-year-old?",
+  "How do I say no to extra work without looking lazy?",
+  "tips for getting through my first marathon without hitting the wall?",
+  "Is it OK to tell my boss I'm burnt out?",
+  "How do I make my small garden feel bigger?",
+  "What's the best way to learn Japanese kanji?",
+  "How do I talk to my dad about moving into a care home?",
+  "How do I get rid of fruit flies in the kitchen?",
+  "I want to start a podcast — where do I begin?",
+  "How do I keep a conversation going on a first date?",
+  "Is a dashcam worth having?",
+  "how can I stop overthinking every text I send",
+  "What should I write in a wedding card when I don't know the couple well?",
+  "How do I make my classroom calmer after lunch?",
+  "My neighbour's tree hangs over our fence. What are my options?",
+  "Should I tell my friend her husband is flirting with people online?",
+  "How do I train for a 10k when I hate running?",
+  "Best way to store fresh herbs so they last?",
+  "How do I write a good README for my open-source project?",
+  "How can I support a friend who just lost her job?",
+  "Any tips for haggling at a flea market?",
+  "Is a 20% off coupon worth signing up to a store's mailing list for?",
+  "how do I get my kids to help with chores without nagging",
+  "What's a good warm-up before football training?",
+  "How do I bounce back from a bad performance review?",
+  "How do I choose between two universities that both offered me a place?",
+  "Should I paint my hallway grey or green?",
+  "How do I stop my glasses fogging up when it's cold?",
+  "What's the best way to revise for a history exam with three weeks to go?",
+  "How do I deal with jet lag after flying to Sydney?",
+  "Ideas for a cheap but memorable first anniversary?",
+  "How do I tell a client their logo idea is bad, nicely?",
+  "hey patch, how's your day going",
+  "do you ever get bored?",
+  "I just got engaged!!",
+  "What's your favourite colour?",
+  "tell me a joke about penguins",
+  "I'm so tired today, ugh.",
+  "morning patch, kettle's on",
+  "do you ever sleep, patch?",
+  "cheers, you saved my bacon there",
+  "what would you name a pet hedgehog",
+  "I passed my driving test!",
+  "Who would win a race, a cheetah on a bike or a horse on roller skates?",
+  "You're my favourite app, you know that?",
+  "Can we just chat for a bit?",
+  "I'm bored, entertain me.",
+  "what's the meaning of life, honestly",
+  "Do you like music?",
+  "My cat just knocked my tea over. Again.",
+  "Sing me something.",
+  "Are you a robot?",
+  "Guess what I had for breakfast.",
+  "I think it's going to be a good week.",
+  "Would you rather fly or be invisible?",
+  "lol that's hilarious",
+  "oops, meant to send that to my sister",
+  "Never mind, I figured it out.",
+  "Who made you?",
+  "I'm feeling a bit lonely tonight.",
+  "Tell me something interesting.",
+  "ok cool",
+  "Rate my dinner: fish fingers, beans and a fried egg.",
+  "Do you have a name other than Patch?",
+  "It's my birthday today!",
+  "I miss summer already.",
+  "What's your favourite film?",
+  "hello? anyone there?",
+  "That's not what I asked.",
+  "Can you keep a secret?",
+  "We won the pub quiz tonight!",
+  "You're wrong about that, you know.",
+  "Do you think aliens exist?",
+  "I've had the worst day at work.",
+  "Tell me a fun fact about octopuses.",
+  "brb, making toast",
+  "whats up",
+  "Book me a table for four at an Italian place on Friday.",
+  "set a timer for 12 minutes for the pasta",
+  "Remind me to call the dentist tomorrow at 10.",
+  "Send a text to my mum saying I'm running late.",
+  "play some relaxing jazz",
+  "Order more printer ink from the usual supplier.",
+  "Turn the living room lights down to half.",
+  "Open the spreadsheet I was working on yesterday.",
+  "Delete all my old emails from 2019.",
+  "Convert this PDF into a Word document.",
+  "Call a taxi to the train station.",
+  "Add milk and eggs to my shopping list.",
+  "Schedule a meeting with Priya next Tuesday afternoon.",
+  "Pay my electricity bill.",
+  "Can you take a photo of this receipt?",
+  "Unsubscribe me from that newsletter.",
+  "Back up my phone to the cloud.",
+  "Find my lost earbuds.",
+  "Record a voice memo for me.",
+  "Check my bank balance.",
+  "Log into my work account and download last month's report.",
+  "Post this on Instagram for me.",
+  "Wake me up at 6:30 tomorrow.",
+  "Turn on do not disturb until lunchtime.",
+  "Cancel my gym membership.",
+  "Which discount code should I use at checkout? I don't have any.",
+  "Is this 30% off deal a scam?",
+  "My discount card expired — how do I renew it?",
+  "Why do shops say 'up to 70% off' when hardly anything is?",
+  "Can you get me a student discount on my music subscription?",
+  "Negotiate a better price on my car insurance for me.",
+  "Is it worth learning Latin at school?",
+  "Recommend a good app for learning Korean.",
+  "Why is Hungarian supposed to be so hard to learn?",
+  "Which language should my daughter take for GCSE, French or German?",
+  "Check the grammar in my Spanish homework.",
+  "Find me a Polish conversation partner near Bristol.",
+  "Make my essay sound more academic.",
+  "Summarise today's news headlines.",
+  "Explain how a mortgage offset account works.",
+  "Explain the difference between a virus and bacteria to a ten-year-old.",
+  "What's the plot of Hamlet in a nutshell?",
+  "Explain recursion like I'm five.",
+  "Make this sound less passive-aggressive: as per my last email.",
+  "Proofread my cover letter for tone, not spelling.",
+  "Draw me a picture of a fox in a scarf.",
+  "Generate an image of a castle at sunset.",
+  "Edit the photo so I look less tired.",
+  "Read my palm.",
+  "Come up with a name for my startup, something techy.",
+  "Give me a workout plan for the next four weeks.",
+  "Plan a three-day itinerary for Rome.",
+  "Write a SQL query that finds customers who haven't ordered in a year.",
+  "Fix the bug in my Python function, it keeps returning None.",
+  "What does this error mean: segmentation fault (core dumped)",
+  "Design a logo for my nail salon.",
+  "Create a meal plan for a week of high-protein vegetarian dinners.",
+  "What's my horoscope for today?",
+  "Make me a cup of tea.",
+  "Clear my calendar for Thursday."
+ ]
+}

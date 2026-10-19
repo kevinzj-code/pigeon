@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Pigeon",
+  "version": "0.1.0",
+  "identifier": "mode.airoplane.pigeon",
+  "build": {
+    "beforeDevCommand": "node scripts/dev.mjs",
+    "devUrl": "http://localhost:4173",
+    "beforeBuildCommand": "npm run bundle",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "macOSPrivateApi": true,
+    "windows": [
+      {
+        "title": "Pigeon",
+        "label": "main",
+        "width": 1100,
+        "height": 780,
+        "minWidth": 780,
+        "minHeight": 520,
+        "backgroundColor": "#FFFFFF",
+        "titleBarStyle": "Transparent",
+        "dragDropEnabled": false
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self' pigeon-pack:; worker-src blob:; child-src blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' ipc: http://ipc.localhost"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "fileAssociations": [
+      {
+        "ext": [
+          "pigeon"
+        ],
+        "name": "Pigeon",
+        "description": "A trained Pigeon",
+        "role": "Viewer",
+        "mimeType": "application/x-pigeon+zip"
+      },
+      {
+        "ext": [
+          "nest"
+        ],
+        "name": "Nest",
+        "description": "A flock of Pigeons",
+        "role": "Viewer",
+        "mimeType": "application/x-nest+zip"
+      }
+    ],
+    "externalBin": [
+      "binaries/pigeon-eye"
+    ],
+    "resources": {
+      "licences/": "licences/"
+    },
+    "macOS": {
+      "minimumSystemVersion": "12.3"
+    },
+    "category": "Utility",
+    "copyright": "© 2026 Kevin Jackson",
+    "shortDescription": "Answers you can check, on your Mac.",
+    "longDescription": "Pigeon answers questions with numbers, dates, conversions and lookups, and every figure in a reply comes from code you can check. It runs on your Mac, and nothing you type leaves it.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.png"
+    ]
+  }
+}

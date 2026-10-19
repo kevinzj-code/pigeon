@@ -1,0 +1,1493 @@
+{
+ "batch": "b03",
+ "categories": [
+  "math",
+  "geometry"
+ ],
+ "skills": [
+  {
+   "name": "allocateProportionally",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "allocateProportionally \u2014 Split an amount across shares in proportion to their weights.\n  needs: total: number, weights: array\n  optional: labels: array, decimals: integer\n  e.g. \"share 100 out in equal parts between three\" \u2192 {\"total\":100,\"weights\":[1,1,1]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "total",
+     "weights"
+    ],
+    "properties": {
+     "total": {
+      "type": "number",
+      "label": "amount",
+      "carry": true,
+      "prompt": "What amount should I split?"
+     },
+     "weights": {
+      "type": "array",
+      "label": "weights",
+      "minItems": 1,
+      "maxItems": 100,
+      "items": {
+       "type": "number"
+      },
+      "prompt": "What are the shares?"
+     },
+     "labels": {
+      "type": "array",
+      "label": "names",
+      "items": {
+       "type": "string"
+      },
+      "description": "a name for each share"
+     },
+     "decimals": {
+      "type": "integer",
+      "label": "decimal places",
+      "minimum": 0,
+      "maximum": 6,
+      "default": 2
+     }
+    }
+   },
+   "examples": [
+    "share 100 out in equal parts between three",
+    "allocate 1000 by 50 30 20",
+    "divide 100 in a one to two ratio",
+    "share 10 items between three people",
+    "split 1200 rent by room size"
+   ]
+  },
+  {
+   "name": "evaluateExpression",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "evaluateExpression \u2014 Work out an arithmetic expression exactly. Reads % as a percentage.\n  needs: expression: string\n  optional: decimals: integer\n  e.g. \"what's (18.5 * 12) / 4\" \u2192 {\"expression\":\"(18.5 * 12) / 4\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "expression"
+    ],
+    "properties": {
+     "expression": {
+      "type": "string",
+      "label": "expression",
+      "minLength": 1,
+      "prompt": "What should I work out?"
+     },
+     "decimals": {
+      "type": "integer",
+      "label": "decimal places",
+      "minimum": 0,
+      "maximum": 12,
+      "description": "decimal places to round to"
+     }
+    }
+   },
+   "examples": [
+    "what's (18.5 * 12) / 4",
+    "15% of 240",
+    "what is 2 to the power of 10",
+    "square root of 144",
+    "add up 1250 + 3400 + 890",
+    "a third of 100 to two decimals",
+    "what is 96 divided by 8",
+    "multiply 14 times 6 then subtract 9",
+    "divide 4000 by 10",
+    "what is 20 * 200? then divide by 10",
+    "divide 90 by 4",
+    "take 250 and divide it by 8"
+   ]
+  },
+  {
+   "name": "factorial",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "factorial \u2014 Work out a factorial \u2014 multiply every whole number from 1 up to n together.\n  needs: n: integer\n  e.g. \"what is 10 factorial\" \u2192 {\"n\":10}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "n"
+    ],
+    "properties": {
+     "n": {
+      "type": "integer",
+      "label": "number",
+      "minimum": 0,
+      "maximum": 5000,
+      "prompt": "Factorial of which number?"
+     }
+    }
+   },
+   "examples": [
+    "what is 10 factorial",
+    "work out 5 factorial",
+    "factorial of 0",
+    "how big is 20 factorial",
+    "work out 25 factorial",
+    "what is 1 times 2 times 3 all the way up to 6",
+    "the product of every whole number up to 7"
+   ]
+  },
+  {
+   "name": "fibonacci",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "fibonacci \u2014 Give the nth Fibonacci number, or the first n of them.\n  needs: n: integer\n  optional: mode: string\n  e.g. \"what is the 10th fibonacci number\" \u2192 {\"n\":10}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "n"
+    ],
+    "properties": {
+     "n": {
+      "type": "integer",
+      "label": "position or count",
+      "minimum": 0,
+      "maximum": 1000,
+      "prompt": "Which position in the sequence?"
+     },
+     "mode": {
+      "type": "string",
+      "label": "mode",
+      "enum": [
+       "nth",
+       "sequence"
+      ],
+      "default": "nth"
+     }
+    }
+   },
+   "examples": [
+    "what is the 10th fibonacci number",
+    "first 8 fibonacci numbers",
+    "fibonacci number 1",
+    "the 50th fibonacci number",
+    "fibonacci at position 0"
+   ]
+  },
+  {
+   "name": "formatCurrency",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "formatCurrency \u2014 Write an amount of money the way a currency is normally written, with its symbol and decimal places.\n  needs: amount: number, currency: string\n  optional: style: string\n  e.g. \"write 1234.5 as pounds\" \u2192 {\"amount\":1234.5,\"currency\":\"GBP\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "currency"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "label": "amount",
+      "carry": true,
+      "prompt": "How much?"
+     },
+     "currency": {
+      "type": "string",
+      "label": "currency",
+      "minLength": 3,
+      "maxLength": 3,
+      "prompt": "Which currency? (a three-letter code like GBP)"
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "symbol",
+       "code",
+       "name"
+      ],
+      "default": "symbol"
+     }
+    }
+   },
+   "examples": [
+    "write 1234.5 as pounds",
+    "format 99 as US dollars",
+    "write 5000 yen properly",
+    "show 42.5 euros with the code not the symbol",
+    "format 12.345 kuwaiti dinars"
+   ]
+  },
+  {
+   "name": "formatNumber",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "formatNumber \u2014 Write a number with thousands separators, a set number of decimals, or in compact form like 1.2k.\n  needs: value: number\n  optional: decimals: integer, style: string\n  e.g. \"format 1234567 with thousands separators\" \u2192 {\"value\":1234567}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value"
+    ],
+    "properties": {
+     "value": {
+      "type": "number",
+      "label": "number",
+      "carry": true,
+      "prompt": "Which number should I format?",
+      "description": "for the percent style, a fraction: 0.15 is 15%"
+     },
+     "decimals": {
+      "type": "integer",
+      "label": "decimal places",
+      "minimum": 0,
+      "maximum": 10
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "standard",
+       "compact",
+       "percent",
+       "plain"
+      ],
+      "default": "standard"
+     }
+    }
+   },
+   "examples": [
+    "format 1234567 with thousands separators",
+    "write 1234567 in compact form",
+    "show 0.4567 as a percentage",
+    "format 3.14159 to two decimals",
+    "write 9876.5 without separators"
+   ]
+  },
+  {
+   "name": "fractionSimplify",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "fractionSimplify \u2014 Reduce a fraction like 6/8 to its lowest terms.\n  needs: fraction: string\n  e.g. \"simplify 6/8\" \u2192 {\"fraction\":\"6/8\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "fraction"
+    ],
+    "properties": {
+     "fraction": {
+      "type": "string",
+      "label": "fraction",
+      "minLength": 3,
+      "prompt": "Which fraction should I simplify? Write it as 6/8."
+     }
+    }
+   },
+   "examples": [
+    "simplify 6/8",
+    "reduce 100/250 to lowest terms",
+    "simplify the fraction 7/3",
+    "reduce -4/8",
+    "simplify 9/3"
+   ]
+  },
+  {
+   "name": "gcd",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "gcd \u2014 Find the biggest number that divides them all exactly.\n  needs: values: array\n  e.g. \"greatest common divisor of 48 and 18\" \u2192 {\"values\":[48,18]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "whole numbers",
+      "items": {
+       "type": "integer"
+      },
+      "minItems": 2,
+      "prompt": "Which whole numbers?"
+     }
+    }
+   },
+   "examples": [
+    "greatest common divisor of 48 and 18",
+    "gcd of 100 and 75",
+    "highest common factor of 12 18 and 24",
+    "gcd of 17 and 5",
+    "what divides 270 and 192 evenly"
+   ]
+  },
+  {
+   "name": "isPrime",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "isPrime \u2014 Say whether a whole number is prime, and give a divisor if it is not.\n  needs: value: integer\n  e.g. \"is 97 prime\" \u2192 {\"value\":97}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value"
+    ],
+    "properties": {
+     "value": {
+      "type": "integer",
+      "label": "number",
+      "carry": true,
+      "prompt": "Which whole number?"
+     }
+    }
+   },
+   "examples": [
+    "is 97 prime",
+    "is 91 a prime number",
+    "is 1 prime",
+    "is 7919 prime",
+    "is 2 prime"
+   ]
+  },
+  {
+   "name": "lcm",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "lcm \u2014 Find the smallest number they all go into.\n  needs: values: array\n  e.g. \"lowest common multiple of 4 and 6\" \u2192 {\"values\":[4,6]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "whole numbers",
+      "items": {
+       "type": "integer"
+      },
+      "minItems": 2,
+      "prompt": "Which whole numbers?"
+     }
+    }
+   },
+   "examples": [
+    "lowest common multiple of 4 and 6",
+    "lcm of 3 5 and 7",
+    "when do buses every 12 and 18 minutes coincide",
+    "lcm of 8 and 9",
+    "smallest number divisible by 10 and 25"
+   ]
+  },
+  {
+   "name": "parseNumber",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "parseNumber \u2014 Read a number written any human way \u2014 \"1.2k\", \"$3,400\", \"three quarters of a million\" \u2014 as a plain number.\n  needs: text: string\n  e.g. \"what number is 1.2k\" \u2192 {\"text\":\"1.2k\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "number",
+      "minLength": 1,
+      "prompt": "Which number should I read?"
+     }
+    }
+   },
+   "examples": [
+    "what number is 1.2k",
+    "read $3,400 as a number",
+    "what is twenty five as a number",
+    "convert 2.5m to a plain number",
+    "read three thousand two hundred"
+   ]
+  },
+  {
+   "name": "percentChange",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "percentChange \u2014 Percentage change between two numbers, and the difference in plain terms.\n  needs: from: number, to: number\n  e.g. \"my rent went from 1200 to 1350, what percent increase is that\" \u2192 {\"from\":1200,\"to\":1350}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "from",
+     "to"
+    ],
+    "properties": {
+     "from": {
+      "type": "number",
+      "label": "old value",
+      "prompt": "What was the starting number?"
+     },
+     "to": {
+      "type": "number",
+      "label": "new value",
+      "prompt": "What is the new number?"
+     }
+    }
+   },
+   "examples": [
+    "my rent went from 1200 to 1350, what percent increase is that",
+    "percentage change from 80 to 60",
+    "what percent bigger is 45 than 30",
+    "change from 200 to 200",
+    "sales fell from 12500 to 9800 \u2014 how much is that as a percentage"
+   ]
+  },
+  {
+   "name": "percentOf",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "percentOf \u2014 Take a percentage of a number \u2014 15% of 240, or 20 percent of a bill.\n  needs: percent: number, value: number\n  e.g. \"what is 15% of 240\" \u2192 {\"percent\":15,\"value\":240}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "percent",
+     "value"
+    ],
+    "properties": {
+     "percent": {
+      "type": "number",
+      "label": "percent",
+      "prompt": "What percentage?"
+     },
+     "value": {
+      "type": "number",
+      "label": "of",
+      "carry": true,
+      "prompt": "A percentage of what number?"
+     }
+    }
+   },
+   "examples": [
+    "what is 15% of 240",
+    "20 percent of 85.50",
+    "how much is 7.5% of 1200",
+    "110% of 50",
+    "a third \u2014 33.3% of 900"
+   ]
+  },
+  {
+   "name": "percentageDistribution",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "percentageDistribution \u2014 Split a set of numbers into percentage shares of their total.\n  needs: values: array\n  optional: labels: array, decimals: integer\n  e.g. \"what percentage of the total is each of 30 50 20\" \u2192 {\"values\":[30,50,20]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "values",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "Which values should I break down?"
+     },
+     "labels": {
+      "type": "array",
+      "label": "names",
+      "items": {
+       "type": "string"
+      },
+      "description": "a name for each value"
+     },
+     "decimals": {
+      "type": "integer",
+      "label": "decimal places",
+      "minimum": 0,
+      "maximum": 4,
+      "default": 1
+     }
+    }
+   },
+   "examples": [
+    "what percentage of the total is each of 30 50 20",
+    "break down my spending 450 300 250",
+    "share of the total for 1 1 1",
+    "percentage split of 7 and 3",
+    "distribution of votes 120 80 45 15"
+   ]
+  },
+  {
+   "name": "primeFactors",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "primeFactors \u2014 Break a whole number down into the prime numbers it is made of.\n  needs: value: integer\n  e.g. \"prime factors of 360\" \u2192 {\"value\":360}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value"
+    ],
+    "properties": {
+     "value": {
+      "type": "integer",
+      "label": "number",
+      "carry": true,
+      "minimum": 2,
+      "prompt": "Which whole number should I factor?"
+     }
+    }
+   },
+   "examples": [
+    "prime factors of 360",
+    "factorise 84",
+    "what are the prime factors of 97",
+    "break 1024 into primes",
+    "prime factorisation of 100"
+   ]
+  },
+  {
+   "name": "product",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "product \u2014 Multiply a list of numbers you give together.\n  needs: values: array\n  e.g. \"multiply 12 by 8 by 3\" \u2192 {\"values\":[12,8,3]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "Which numbers should I multiply?"
+     }
+    }
+   },
+   "examples": [
+    "multiply 12 by 8 by 3",
+    "what is 2.5 times 4 times 10",
+    "multiply these dimensions 3 x 4 x 5",
+    "product of a list containing zero",
+    "multiply two negatives",
+    "what is 7 times 9 times 3",
+    "what do 4, 5 and 6 come to multiplied together"
+   ]
+  },
+  {
+   "name": "ratioSolve",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "ratioSolve \u2014 Solve a proportion when one of the four terms is missing.\n  optional: a: number, b: number, c: number, d: number\n  e.g. \"solve this proportion, 3 is to 4 as 9 is to what\" \u2192 {\"a\":3,\"b\":4,\"c\":9}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "a": {
+      "type": "number",
+      "label": "first term",
+      "description": "first term"
+     },
+     "b": {
+      "type": "number",
+      "label": "second term",
+      "description": "second term"
+     },
+     "c": {
+      "type": "number",
+      "label": "third term",
+      "description": "third term"
+     },
+     "d": {
+      "type": "number",
+      "label": "fourth term",
+      "description": "fourth term"
+     }
+    }
+   },
+   "examples": [
+    "solve this proportion, 3 is to 4 as 9 is to what",
+    "solve 2 to 5 equals what to 20",
+    "what to 7 as 6 is to 21",
+    "one to two as fifty to what",
+    "scale a recipe from 4 to 6 servings"
+   ]
+  },
+  {
+   "name": "roundTo",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "roundTo \u2014 Round a number to a number of decimal places or significant figures.\n  needs: value: number, places: integer\n  optional: mode: string\n  e.g. \"round 3.14159 to 2 decimal places\" \u2192 {\"value\":3.14159,\"places\":2}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value",
+     "places"
+    ],
+    "properties": {
+     "value": {
+      "type": "number",
+      "label": "number",
+      "carry": true,
+      "prompt": "Which number should I round?"
+     },
+     "places": {
+      "type": "integer",
+      "label": "places or sig figs",
+      "minimum": 0,
+      "maximum": 15,
+      "prompt": "To how many places?"
+     },
+     "mode": {
+      "type": "string",
+      "label": "round to",
+      "enum": [
+       "decimals",
+       "significant figures"
+      ],
+      "default": "decimals"
+     }
+    }
+   },
+   "examples": [
+    "round 3.14159 to 2 decimal places",
+    "round 1234.5678 to the nearest whole number",
+    "0.000123456 to 3 significant figures",
+    "round 2.5 to 0 decimals",
+    "round 42 to 2 decimals"
+   ]
+  },
+  {
+   "name": "solveQuadratic",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "solveQuadratic \u2014 Solve a quadratic equation \u2014 the roots of ax\u00b2 + bx + c = 0, real or complex.\n  needs: a: number, b: number, c: number\n  e.g. \"solve x^2 - 5x + 6 = 0\" \u2192 {\"a\":1,\"b\":-5,\"c\":6}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "a",
+     "b",
+     "c"
+    ],
+    "properties": {
+     "a": {
+      "type": "number",
+      "label": "x\u00b2 coefficient",
+      "prompt": "What is the x\u00b2 coefficient (a)?"
+     },
+     "b": {
+      "type": "number",
+      "label": "x coefficient",
+      "prompt": "What is the x coefficient (b)?"
+     },
+     "c": {
+      "type": "number",
+      "label": "constant",
+      "prompt": "What is the constant (c)?"
+     }
+    }
+   },
+   "examples": [
+    "solve x^2 - 5x + 6 = 0",
+    "roots of 2x^2 + 4x - 6",
+    "solve x squared plus 2x plus 1",
+    "what are the roots of x^2 + 1",
+    "solve 3x^2 - 2x - 8 = 0",
+    "quadratic formula for a=1 b=-3 c=-10"
+   ]
+  },
+  {
+   "name": "splitEvenly",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "splitEvenly \u2014 Split an amount into equal parts, assigning the leftover pennies so the parts add back up.\n  needs: amount: number, parts: integer\n  optional: decimals: integer\n  e.g. \"split 100 three ways\" \u2192 {\"amount\":100,\"parts\":3}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "parts"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "label": "amount",
+      "carry": true,
+      "prompt": "What amount should I split?"
+     },
+     "parts": {
+      "type": "integer",
+      "label": "parts",
+      "minimum": 1,
+      "prompt": "Into how many parts?"
+     },
+     "decimals": {
+      "type": "integer",
+      "label": "decimal places",
+      "minimum": 0,
+      "maximum": 6,
+      "default": 2
+     }
+    }
+   },
+   "examples": [
+    "split 100 three ways",
+    "divide 60 between 4 people",
+    "split 10 seven ways",
+    "split 0.05 between 2",
+    "split 250 to whole numbers between 3"
+   ]
+  },
+  {
+   "name": "sum",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "sum \u2014 Add a list of numbers up to one final total.\n  needs: values: array\n  e.g. \"add up 1250, 3400 and 890\" \u2192 {\"values\":[1250,3400,890]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "Which numbers should I add up?"
+     }
+    }
+   },
+   "examples": [
+    "add up 1250, 3400 and 890",
+    "what is the total of my expenses 12.50 8.20 45",
+    "sum these negative and positive numbers",
+    "total of a single number",
+    "add up the quarterly figures"
+   ]
+  },
+  {
+   "name": "toOrdinal",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "toOrdinal \u2014 Add the ordinal suffix to a number \u2014 3 becomes 3rd, 42 becomes 42nd.\n  needs: value: integer\n  optional: style: string\n  e.g. \"write 3 as an ordinal\" \u2192 {\"value\":3}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value"
+    ],
+    "properties": {
+     "value": {
+      "type": "integer",
+      "label": "number",
+      "carry": true,
+      "prompt": "Which number?"
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "short",
+       "words"
+      ],
+      "default": "short"
+     }
+    }
+   },
+   "examples": [
+    "write 3 as an ordinal",
+    "what is 21 as an ordinal",
+    "ordinal for 112",
+    "write 2 as an ordinal word",
+    "ordinal of 11",
+    "write 21 as twenty-first style, with its ending",
+    "write 102 with its st nd rd th ending"
+   ]
+  },
+  {
+   "name": "whatPercent",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "whatPercent \u2014 Work out what share one number is of another, as a percentage \u2014 what proportion 18 is of 24, or a score out of a maximum.\n  needs: part: number, whole: number\n  e.g. \"36 out of 240 as a percentage\" \u2192 {\"part\":36,\"whole\":240}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "part",
+     "whole"
+    ],
+    "properties": {
+     "part": {
+      "type": "number",
+      "label": "part",
+      "carry": true,
+      "prompt": "Which number is the part?"
+     },
+     "whole": {
+      "type": "number",
+      "label": "out of",
+      "prompt": "A percentage of what total?"
+     }
+    }
+   },
+   "examples": [
+    "36 out of 240 as a percentage",
+    "i got 47 out of 60, what percent is that",
+    "1 out of 3 as a percentage",
+    "250 out of 200 as a percentage",
+    "what percent of 1500 is 45",
+    "what proportion is 15 of 60, as a percentage",
+    "as a percentage, how much of 24 is 18"
+   ]
+  },
+  {
+   "name": "areaOf",
+   "category": "geometry",
+   "needsNetwork": false,
+   "card": "areaOf \u2014 Work out the space inside a shape \u2014 the area of a rectangle, square, circle, triangle, trapezoid, ellipse or parallelogram.\n  needs: shape: string\n  optional: width: number, height: number, side: number, radius: number, radius2: number, base: number, base2: number\n  e.g. \"area of a rectangle 8 by 5\" \u2192 {\"shape\":\"rectangle\",\"width\":8,\"height\":5}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "shape"
+    ],
+    "properties": {
+     "shape": {
+      "type": "string",
+      "label": "shape",
+      "enum": [
+       "rectangle",
+       "square",
+       "circle",
+       "triangle",
+       "trapezoid",
+       "ellipse",
+       "parallelogram"
+      ],
+      "prompt": "Which shape? (rectangle, square, circle, triangle, trapezoid, ellipse, parallelogram)"
+     },
+     "width": {
+      "type": "number",
+      "label": "width",
+      "exclusiveMinimum": 0
+     },
+     "height": {
+      "type": "number",
+      "label": "height",
+      "exclusiveMinimum": 0
+     },
+     "side": {
+      "type": "number",
+      "label": "side",
+      "exclusiveMinimum": 0
+     },
+     "radius": {
+      "type": "number",
+      "label": "radius",
+      "exclusiveMinimum": 0
+     },
+     "radius2": {
+      "type": "number",
+      "label": "second radius",
+      "exclusiveMinimum": 0
+     },
+     "base": {
+      "type": "number",
+      "label": "base",
+      "exclusiveMinimum": 0
+     },
+     "base2": {
+      "type": "number",
+      "label": "second base",
+      "exclusiveMinimum": 0
+     }
+    }
+   },
+   "examples": [
+    "area of a rectangle 8 by 5",
+    "area of a circle with radius 3",
+    "area of a triangle with base 10 and height 6",
+    "area of a square with 7 metre sides",
+    "area of a trapezoid with parallel sides 4 and 8, height 5"
+   ]
+  },
+  {
+   "name": "distanceBetweenPoints",
+   "category": "geometry",
+   "needsNetwork": false,
+   "card": "distanceBetweenPoints \u2014 Work out the straight-line distance between two points on a plane or in space.\n  needs: x1: number, y1: number, x2: number, y2: number\n  optional: z1: number, z2: number\n  e.g. \"distance between (0,0) and (3,4)\" \u2192 {\"x1\":0,\"y1\":0,\"x2\":3,\"y2\":4}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "x1",
+     "y1",
+     "x2",
+     "y2"
+    ],
+    "properties": {
+     "x1": {
+      "type": "number",
+      "label": "first x",
+      "prompt": "What is the first x?"
+     },
+     "y1": {
+      "type": "number",
+      "label": "first y",
+      "prompt": "What is the first y?"
+     },
+     "x2": {
+      "type": "number",
+      "label": "second x",
+      "prompt": "What is the second x?"
+     },
+     "y2": {
+      "type": "number",
+      "label": "second y",
+      "prompt": "What is the second y?"
+     },
+     "z1": {
+      "type": "number",
+      "label": "first z",
+      "description": "the first z, for a 3D distance"
+     },
+     "z2": {
+      "type": "number",
+      "label": "second z",
+      "description": "the second z"
+     }
+    }
+   },
+   "examples": [
+    "distance between (0,0) and (3,4)",
+    "how far apart are these two points",
+    "distance in 3d space",
+    "distance between identical points",
+    "distance with negative coordinates"
+   ]
+  },
+  {
+   "name": "haversineDistance",
+   "category": "geometry",
+   "needsNetwork": false,
+   "card": "haversineDistance \u2014 Work out the great-circle distance between two points on Earth from their latitude and longitude.\n  needs: lat1: number, lon1: number, lat2: number, lon2: number\n  e.g. \"distance from london to paris\" \u2192 {\"lat1\":51.5074,\"lon1\":-0.1278,\"lat2\":48.8566,\"lon2\":2.3522}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "lat1",
+     "lon1",
+     "lat2",
+     "lon2"
+    ],
+    "properties": {
+     "lat1": {
+      "type": "number",
+      "label": "first latitude",
+      "minimum": -90,
+      "maximum": 90,
+      "prompt": "What is the first latitude?"
+     },
+     "lon1": {
+      "type": "number",
+      "label": "first longitude",
+      "minimum": -180,
+      "maximum": 180,
+      "prompt": "What is the first longitude?"
+     },
+     "lat2": {
+      "type": "number",
+      "label": "second latitude",
+      "minimum": -90,
+      "maximum": 90,
+      "prompt": "What is the second latitude?"
+     },
+     "lon2": {
+      "type": "number",
+      "label": "second longitude",
+      "minimum": -180,
+      "maximum": 180,
+      "prompt": "What is the second longitude?"
+     }
+    }
+   },
+   "examples": [
+    "distance from london to paris",
+    "how far is new york from london",
+    "distance between two nearby points",
+    "distance from sydney to tokyo",
+    "distance between the same point"
+   ]
+  },
+  {
+   "name": "perimeterOf",
+   "category": "geometry",
+   "needsNetwork": false,
+   "card": "perimeterOf \u2014 Work out the distance round the edge of a shape \u2014 its perimeter or circumference, or how much fencing or edging it takes.\n  needs: shape: string\n  optional: width: number, height: number, side: number, sides: integer, radius: number, a: number, b: number, c: number\n  e.g. \"perimeter of a rectangle 8 by 5\" \u2192 {\"shape\":\"rectangle\",\"width\":8,\"height\":5}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "shape"
+    ],
+    "properties": {
+     "shape": {
+      "type": "string",
+      "label": "shape",
+      "enum": [
+       "rectangle",
+       "square",
+       "circle",
+       "triangle",
+       "regularPolygon"
+      ],
+      "prompt": "Which shape? (rectangle, square, circle, triangle, regularPolygon)"
+     },
+     "width": {
+      "type": "number",
+      "label": "width",
+      "exclusiveMinimum": 0
+     },
+     "height": {
+      "type": "number",
+      "label": "height",
+      "exclusiveMinimum": 0
+     },
+     "side": {
+      "type": "number",
+      "label": "side",
+      "exclusiveMinimum": 0
+     },
+     "sides": {
+      "type": "integer",
+      "label": "number of sides",
+      "minimum": 3
+     },
+     "radius": {
+      "type": "number",
+      "label": "radius",
+      "exclusiveMinimum": 0
+     },
+     "a": {
+      "type": "number",
+      "label": "side a",
+      "exclusiveMinimum": 0
+     },
+     "b": {
+      "type": "number",
+      "label": "side b",
+      "exclusiveMinimum": 0
+     },
+     "c": {
+      "type": "number",
+      "label": "side c",
+      "exclusiveMinimum": 0
+     }
+    }
+   },
+   "examples": [
+    "perimeter of a rectangle 8 by 5",
+    "circumference of a circle with radius 3",
+    "perimeter of a square with 7 metre sides",
+    "perimeter of a triangle with sides 3 4 5",
+    "perimeter of a hexagon with 5cm sides",
+    "how much fencing goes round a 10 by 7 plot",
+    "length of the edge of a square with side 6"
+   ]
+  },
+  {
+   "name": "pythagorean",
+   "category": "geometry",
+   "needsNetwork": false,
+   "card": "pythagorean \u2014 Find a missing side of a right-angled triangle \u2014 a ladder's length, a diagonal, a hypotenuse \u2014 from the other two.\n  optional: a: number, b: number, c: number\n  e.g. \"hypotenuse of a triangle with sides 3 and 4\" \u2192 {\"a\":3,\"b\":4}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "a": {
+      "type": "number",
+      "label": "short side",
+      "exclusiveMinimum": 0,
+      "description": "one short side"
+     },
+     "b": {
+      "type": "number",
+      "label": "other short side",
+      "exclusiveMinimum": 0,
+      "description": "the other short side"
+     },
+     "c": {
+      "type": "number",
+      "label": "hypotenuse",
+      "exclusiveMinimum": 0,
+      "description": "the hypotenuse"
+     }
+    }
+   },
+   "examples": [
+    "hypotenuse of a triangle with sides 3 and 4",
+    "find the missing side if the hypotenuse is 13 and one side is 5",
+    "diagonal of a 1920 by 1080 screen",
+    "right triangle with legs 6 and 8",
+    "missing leg with hypotenuse 10 and side 6",
+    "ladder length if the wall is 12 and the base is 5",
+    "diagonal of a 6 by 8 rectangle"
+   ]
+  },
+  {
+   "name": "volumeOf",
+   "category": "geometry",
+   "needsNetwork": false,
+   "card": "volumeOf \u2014 Work out the volume of a cube, box, sphere, cylinder, cone or pyramid.\n  needs: solid: string\n  optional: side: number, width: number, height: number, depth: number, radius: number\n  e.g. \"volume of a cube with 4cm sides\" \u2192 {\"solid\":\"cube\",\"side\":4}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "solid"
+    ],
+    "properties": {
+     "solid": {
+      "type": "string",
+      "label": "solid",
+      "enum": [
+       "cube",
+       "box",
+       "sphere",
+       "cylinder",
+       "cone",
+       "pyramid"
+      ],
+      "prompt": "Which solid? (cube, box, sphere, cylinder, cone, pyramid)"
+     },
+     "side": {
+      "type": "number",
+      "label": "side",
+      "exclusiveMinimum": 0
+     },
+     "width": {
+      "type": "number",
+      "label": "width",
+      "exclusiveMinimum": 0
+     },
+     "height": {
+      "type": "number",
+      "label": "height",
+      "exclusiveMinimum": 0
+     },
+     "depth": {
+      "type": "number",
+      "label": "depth",
+      "exclusiveMinimum": 0
+     },
+     "radius": {
+      "type": "number",
+      "label": "radius",
+      "exclusiveMinimum": 0
+     }
+    }
+   },
+   "examples": [
+    "volume of a cube with 4cm sides",
+    "volume of a box 10 by 5 by 2",
+    "volume of a sphere with radius 3",
+    "volume of a cylinder radius 5 height 10",
+    "volume of a cone radius 3 height 9"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "distanceBetweenPoints",
+    "haversineDistance"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "distanceBetweenPoints \u2014 Work out the straight-line distance between two points on a plane or in space.\n  needs: x1: number, y1: number, x2: number, y2: number\n  optional: z1: number, z2: number\n  e.g. \"distance between (0,0) and (3,4)\" \u2192 {\"x1\":0,\"y1\":0,\"x2\":3,\"y2\":4}",
+    "haversineDistance \u2014 Work out the great-circle distance between two points on Earth from their latitude and longitude.\n  needs: lat1: number, lon1: number, lat2: number, lon2: number\n  e.g. \"distance from london to paris\" \u2192 {\"lat1\":51.5074,\"lon1\":-0.1278,\"lat2\":48.8566,\"lon2\":2.3522}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "x1",
+      "y1",
+      "x2",
+      "y2"
+     ],
+     "properties": {
+      "x1": {
+       "type": "number",
+       "label": "first x",
+       "prompt": "What is the first x?"
+      },
+      "y1": {
+       "type": "number",
+       "label": "first y",
+       "prompt": "What is the first y?"
+      },
+      "x2": {
+       "type": "number",
+       "label": "second x",
+       "prompt": "What is the second x?"
+      },
+      "y2": {
+       "type": "number",
+       "label": "second y",
+       "prompt": "What is the second y?"
+      },
+      "z1": {
+       "type": "number",
+       "label": "first z",
+       "description": "the first z, for a 3D distance"
+      },
+      "z2": {
+       "type": "number",
+       "label": "second z",
+       "description": "the second z"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "lat1",
+      "lon1",
+      "lat2",
+      "lon2"
+     ],
+     "properties": {
+      "lat1": {
+       "type": "number",
+       "label": "first latitude",
+       "minimum": -90,
+       "maximum": 90,
+       "prompt": "What is the first latitude?"
+      },
+      "lon1": {
+       "type": "number",
+       "label": "first longitude",
+       "minimum": -180,
+       "maximum": 180,
+       "prompt": "What is the first longitude?"
+      },
+      "lat2": {
+       "type": "number",
+       "label": "second latitude",
+       "minimum": -90,
+       "maximum": 90,
+       "prompt": "What is the second latitude?"
+      },
+      "lon2": {
+       "type": "number",
+       "label": "second longitude",
+       "minimum": -180,
+       "maximum": 180,
+       "prompt": "What is the second longitude?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "evaluateExpression",
+    "ratioSolve"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "evaluateExpression \u2014 Work out an arithmetic expression exactly. Reads % as a percentage.\n  needs: expression: string\n  optional: decimals: integer\n  e.g. \"what's (18.5 * 12) / 4\" \u2192 {\"expression\":\"(18.5 * 12) / 4\"}",
+    "ratioSolve \u2014 Solve a proportion when one of the four terms is missing.\n  optional: a: number, b: number, c: number, d: number\n  e.g. \"solve this proportion, 3 is to 4 as 9 is to what\" \u2192 {\"a\":3,\"b\":4,\"c\":9}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "expression"
+     ],
+     "properties": {
+      "expression": {
+       "type": "string",
+       "label": "expression",
+       "minLength": 1,
+       "prompt": "What should I work out?"
+      },
+      "decimals": {
+       "type": "integer",
+       "label": "decimal places",
+       "minimum": 0,
+       "maximum": 12,
+       "description": "decimal places to round to"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "properties": {
+      "a": {
+       "type": "number",
+       "label": "first term",
+       "description": "first term"
+      },
+      "b": {
+       "type": "number",
+       "label": "second term",
+       "description": "second term"
+      },
+      "c": {
+       "type": "number",
+       "label": "third term",
+       "description": "third term"
+      },
+      "d": {
+       "type": "number",
+       "label": "fourth term",
+       "description": "fourth term"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "factorial",
+    "product"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "factorial \u2014 Work out a factorial \u2014 multiply every whole number from 1 up to n together.\n  needs: n: integer\n  e.g. \"what is 10 factorial\" \u2192 {\"n\":10}",
+    "product \u2014 Multiply a list of numbers you give together.\n  needs: values: array\n  e.g. \"multiply 12 by 8 by 3\" \u2192 {\"values\":[12,8,3]}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "n"
+     ],
+     "properties": {
+      "n": {
+       "type": "integer",
+       "label": "number",
+       "minimum": 0,
+       "maximum": 5000,
+       "prompt": "Factorial of which number?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "values"
+     ],
+     "properties": {
+      "values": {
+       "type": "array",
+       "label": "numbers",
+       "items": {
+        "type": "number"
+       },
+       "minItems": 1,
+       "prompt": "Which numbers should I multiply?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "isPrime",
+    "primeFactors"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "isPrime \u2014 Say whether a whole number is prime, and give a divisor if it is not.\n  needs: value: integer\n  e.g. \"is 97 prime\" \u2192 {\"value\":97}",
+    "primeFactors \u2014 Break a whole number down into the prime numbers it is made of.\n  needs: value: integer\n  e.g. \"prime factors of 360\" \u2192 {\"value\":360}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "value"
+     ],
+     "properties": {
+      "value": {
+       "type": "integer",
+       "label": "number",
+       "carry": true,
+       "prompt": "Which whole number?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "value"
+     ],
+     "properties": {
+      "value": {
+       "type": "integer",
+       "label": "number",
+       "carry": true,
+       "minimum": 2,
+       "prompt": "Which whole number should I factor?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "percentOf",
+    "whatPercent"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "percentOf \u2014 Take a percentage of a number \u2014 15% of 240, or 20 percent of a bill.\n  needs: percent: number, value: number\n  e.g. \"what is 15% of 240\" \u2192 {\"percent\":15,\"value\":240}",
+    "whatPercent \u2014 Work out what share one number is of another, as a percentage \u2014 what proportion 18 is of 24, or a score out of a maximum.\n  needs: part: number, whole: number\n  e.g. \"36 out of 240 as a percentage\" \u2192 {\"part\":36,\"whole\":240}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "percent",
+      "value"
+     ],
+     "properties": {
+      "percent": {
+       "type": "number",
+       "label": "percent",
+       "prompt": "What percentage?"
+      },
+      "value": {
+       "type": "number",
+       "label": "of",
+       "carry": true,
+       "prompt": "A percentage of what number?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "part",
+      "whole"
+     ],
+     "properties": {
+      "part": {
+       "type": "number",
+       "label": "part",
+       "carry": true,
+       "prompt": "Which number is the part?"
+      },
+      "whole": {
+       "type": "number",
+       "label": "out of",
+       "prompt": "A percentage of what total?"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

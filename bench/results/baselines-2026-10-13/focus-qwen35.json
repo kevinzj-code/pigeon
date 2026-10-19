@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-13T15:16:04.570Z",
+ "engine": "http://127.0.0.1:8271",
+ "set": "bench/focus-heldout.json",
+ "right": 160,
+ "of": 166,
+ "zeroRight": 16,
+ "zeroOf": 20,
+ "off": 0,
+ "bySource": {
+  "constitution": {
+   "right": 44,
+   "of": 46
+  },
+  "authored": {
+   "right": 116,
+   "of": 120
+  }
+ }
+}

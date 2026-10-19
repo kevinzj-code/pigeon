@@ -1,0 +1,6 @@
+category v5
+built    2026-10-03
+rows     7942 train · 500 valid
+refusals 12.9%   (v1 12.6% · v5 adds idiom/real pairs and statement->ask rewrites, valid = v1)
+seq      256
+sha      a37a742127dd6b9c

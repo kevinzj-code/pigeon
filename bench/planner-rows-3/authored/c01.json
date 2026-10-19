@@ -1,0 +1,2078 @@
+{
+ "rows": [
+  {
+   "skill": "addBusinessDays",
+   "message": "invoice terms are 15 working days. if I send it next monday, when's it due?",
+   "input": {
+    "date": "2026-09-07",
+    "days": 15
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "next monday"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "10 business days from tomorrow pls",
+   "input": {
+    "date": "2026-09-02",
+    "days": 10
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "Our courier quotes 4 working days for delivery. I'm ordering on friday — which date should I expect it?",
+   "input": {
+    "date": "2026-09-04",
+    "days": 4
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "friday"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "what's 3 working days before christmas eve? trying to find the last posting date",
+   "input": {
+    "date": "2026-12-24",
+    "days": -3
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "I'm a nurse on a rota. Count 20 working days on from the start of next month, no bank holidays to worry about.",
+   "input": {
+    "date": "2026-10-01",
+    "days": 20
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "start of next month"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "the contractor said 12 business days starting the end of the month - what date does that land on",
+   "input": {
+    "date": "2026-09-30",
+    "days": 12
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "Ten working days after today, skipping 2026-09-07 as a holiday.",
+   "input": {
+    "date": "2026-09-01",
+    "days": 10,
+    "holidays": [
+     "2026-09-07"
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "today"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "landlord wants 5 business days notice. if I hand it in a fortnight from now, which day does it take effect?",
+   "input": {
+    "date": "2026-09-15",
+    "days": 5
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "a fortnight from now"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "Shift 8 working days back from halloween please.",
+   "input": {
+    "date": "2026-10-31",
+    "days": -8
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "refund takes seven business days and I sent it back yesterday; what date will that be?",
+   "input": {
+    "date": "2026-08-31",
+    "days": 7
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "working back 2 business days from boxing day, what date do I get?",
+   "input": {
+    "date": "2026-12-26",
+    "days": -2
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "boxing day"
+    }
+   ]
+  },
+  {
+   "skill": "addBusinessDays",
+   "message": "count 9 working days from today but skip next monday, it's a bank holiday",
+   "input": {
+    "date": "2026-09-01",
+    "days": 9,
+    "holidays": [
+     "2026-09-07"
+    ]
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "today"
+    },
+    {
+     "field": "holidays.0",
+     "rule": "date",
+     "from": "next monday"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "what date is 6 weeks after next friday",
+   "input": {
+    "from": "2026-09-04",
+    "amount": 6,
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "next friday"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "My visa runs 90 days from the day after tomorrow. Which date does it expire?",
+   "input": {
+    "from": "2026-09-03",
+    "amount": 90,
+    "unit": "days"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "add 2 years to today",
+   "input": {
+    "from": "2026-09-01",
+    "amount": 2,
+    "unit": "years"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "today"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "pregnancy is 40 weeks — what date is 40 weeks after last monday?",
+   "input": {
+    "from": "2026-08-31",
+    "amount": 40,
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "last monday"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "what's the date 18 months after yesterday",
+   "input": {
+    "from": "2026-08-31",
+    "amount": 18,
+    "unit": "months"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "christmas plus 100 days — what date is that?",
+   "input": {
+    "from": "2026-12-25",
+    "amount": 100,
+    "unit": "days"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "christmas"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "Our lease renewal falls 6 months after the end of the month. Date please.",
+   "input": {
+    "from": "2026-09-30",
+    "amount": 6,
+    "unit": "months"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "go back 4 weeks from halloween",
+   "input": {
+    "from": "2026-10-31",
+    "amount": -4,
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "30 days after this coming saturday is which date?",
+   "input": {
+    "from": "2026-09-05",
+    "amount": 30,
+    "unit": "days"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "this coming saturday"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "3 years on from new year's day — what's the date?",
+   "input": {
+    "from": "2027-01-01",
+    "amount": 3,
+    "unit": "years"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "Seed packet says harvest after 12 weeks. If I sow a fortnight from now, what date do I harvest?",
+   "input": {
+    "from": "2026-09-15",
+    "amount": 12,
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "a fortnight from now"
+    }
+   ]
+  },
+  {
+   "skill": "addDuration",
+   "message": "subtract 2 months from the start of next month — which date?",
+   "input": {
+    "from": "2026-10-01",
+    "amount": -2,
+    "unit": "months"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "start of next month"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "how old is my nephew if he was born 10 days ago",
+   "input": {
+    "birthDate": "2026-08-22"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "birthDate",
+     "rule": "date",
+     "from": "10 days ago"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "Born 14 March 1988 — how old will I be on christmas?",
+   "input": {
+    "birthDate": "1988-03-14",
+    "onDate": "2026-12-25"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "onDate",
+     "rule": "date",
+     "from": "christmas"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "age on new year's day for someone born 2009-07-30",
+   "input": {
+    "birthDate": "2009-07-30",
+    "onDate": "2027-01-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "onDate",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "my daughter was born 2015-09-04. how old does she turn this friday?",
+   "input": {
+    "birthDate": "2015-09-04",
+    "onDate": "2026-09-04"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "onDate",
+     "rule": "date",
+     "from": "this friday"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "Patient DOB 1953-11-02. What age will they be at the end of the year?",
+   "input": {
+    "birthDate": "1953-11-02",
+    "onDate": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "onDate",
+     "rule": "date",
+     "from": "end of the year"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "how old is a kitten born a fortnight ago",
+   "input": {
+    "birthDate": "2026-08-18"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "birthDate",
+     "rule": "date",
+     "from": "a fortnight ago"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "dob 1999-12-31, how old am I as of tomorrow",
+   "input": {
+    "birthDate": "1999-12-31",
+    "onDate": "2026-09-02"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "onDate",
+     "rule": "date",
+     "from": "tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "calc age: born 1972-02-29, on valentine's day",
+   "input": {
+    "birthDate": "1972-02-29",
+    "onDate": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "onDate",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "The twins were born 3 weeks ago. How old are they exactly?",
+   "input": {
+    "birthDate": "2026-08-11"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "birthDate",
+     "rule": "date",
+     "from": "3 weeks ago"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "grandad was born 1940-10-15. what age will he reach on halloween",
+   "input": {
+    "birthDate": "1940-10-15",
+    "onDate": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "onDate",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "How old would a person born on 1 December 1985 be at the end of next month?",
+   "input": {
+    "birthDate": "1985-12-01",
+    "onDate": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "onDate",
+     "rule": "date",
+     "from": "end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "ageFromDate",
+   "message": "Our puppy was born last sunday. How old is she now?",
+   "input": {
+    "birthDate": "2026-08-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "birthDate",
+     "rule": "date",
+     "from": "last sunday"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "working days between today and christmas",
+   "input": {
+    "from": "2026-09-01",
+    "to": "2026-12-25"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "today"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "christmas"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "How many business days are left from tomorrow to the end of the month?",
+   "input": {
+    "from": "2026-09-02",
+    "to": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "tomorrow"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "business days between next monday and halloween including the start day",
+   "input": {
+    "from": "2026-09-07",
+    "to": "2026-10-31",
+    "includeStart": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "next monday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "I start the new job on 14 September 2026. How many working days do I put in before new year's eve?",
+   "input": {
+    "from": "2026-09-14",
+    "to": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "new year's eve"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "business days from last friday to this friday?",
+   "input": {
+    "from": "2026-08-28",
+    "to": "2026-09-04"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "last friday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "this friday"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "working days between the start of next month and the end of next month for our sprint?",
+   "input": {
+    "from": "2026-10-01",
+    "to": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "start of next month"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "number of working days from yesterday till 30 September",
+   "input": {
+    "from": "2026-08-31",
+    "to": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "Accountant here — how many weekdays fall between boxing day and new year's day?",
+   "input": {
+    "from": "2026-12-26",
+    "to": "2027-01-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "boxing day"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "how many working days do i have between the day after tomorrow and bonfire night",
+   "input": {
+    "from": "2026-09-03",
+    "to": "2026-11-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "Mon–Fri days from 2026-10-05 to christmas eve",
+   "input": {
+    "from": "2026-10-05",
+    "to": "2026-12-24"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "Business days from a week ago to today, counting the first day too.",
+   "input": {
+    "from": "2026-08-25",
+    "to": "2026-09-01",
+    "includeStart": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "a week ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "today"
+    }
+   ]
+  },
+  {
+   "skill": "businessDaysBetween",
+   "message": "The project kicks off next tuesday and must ship by valentine's day. How many working days does the team get?",
+   "input": {
+    "from": "2026-09-08",
+    "to": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "next tuesday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "time zone question: 9:30am in Chicago next monday, what is it in Paris?",
+   "input": {
+    "time": "9:30am",
+    "from": "America/Chicago",
+    "to": "Europe/Paris",
+    "date": "2026-09-07"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "next monday"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "call with Tokyo at 8pm their time on christmas eve — what's that in London?",
+   "input": {
+    "time": "8pm",
+    "from": "Asia/Tokyo",
+    "to": "Europe/London",
+    "date": "2026-12-24"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "Gamer here. Our raid starts 19:00 Berlin time this saturday; what time is that for me in Los Angeles?",
+   "input": {
+    "time": "19:00",
+    "from": "Europe/Berlin",
+    "to": "America/Los_Angeles",
+    "date": "2026-09-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "this saturday"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 07:15 Sydney to Dubai time, end of the month",
+   "input": {
+    "time": "07:15",
+    "from": "Australia/Sydney",
+    "to": "Asia/Dubai",
+    "date": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "If it's 11am in New York on halloween, what time is it in Mumbai?",
+   "input": {
+    "time": "11am",
+    "from": "America/New_York",
+    "to": "Asia/Kolkata",
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 6pm UTC to Singapore time for tomorrow",
+   "input": {
+    "time": "6pm",
+    "from": "UTC",
+    "to": "Asia/Singapore",
+    "date": "2026-09-02"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "Need 2:45pm Toronto converted to Auckland time for new year's eve.",
+   "input": {
+    "time": "2:45pm",
+    "from": "America/Toronto",
+    "to": "Pacific/Auckland",
+    "date": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "new year's eve"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "what is 10am Los Angeles in Hong Kong on valentine's day",
+   "input": {
+    "time": "10am",
+    "from": "America/Los_Angeles",
+    "to": "Asia/Hong_Kong",
+    "date": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "my mum rings at 8.30pm Madrid time on boxing day — convert that to Chicago time for me",
+   "input": {
+    "time": "8.30pm",
+    "from": "Europe/Madrid",
+    "to": "America/Chicago",
+    "date": "2026-12-26"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "boxing day"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "convert 5pm Lagos time to London time a fortnight from now",
+   "input": {
+    "time": "5pm",
+    "from": "Africa/Lagos",
+    "to": "Europe/London",
+    "date": "2026-09-15"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "a fortnight from now"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "Webinar at 4pm Johannesburg time next thursday. Time zone conversion to Sao Paulo, please?",
+   "input": {
+    "time": "4pm",
+    "from": "Africa/Johannesburg",
+    "to": "America/Sao_Paulo",
+    "date": "2026-09-03"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "next thursday"
+    }
+   ]
+  },
+  {
+   "skill": "convertTimezone",
+   "message": "Convert 13:00 Seoul time to Vancouver time the day after tomorrow.",
+   "input": {
+    "time": "13:00",
+    "from": "Asia/Seoul",
+    "to": "America/Vancouver",
+    "date": "2026-09-03"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how long till halloween?",
+   "input": {
+    "to": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "The kids keep asking: how many sleeps until bonfire night?",
+   "input": {
+    "to": "2026-11-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "countdown to new year's eve please",
+   "input": {
+    "to": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "new year's eve"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "My exam is next friday. How many days until then?",
+   "input": {
+    "to": "2026-09-04"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "next friday"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how long ago was last wednesday",
+   "input": {
+    "to": "2026-08-26"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "last wednesday"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "days left till the end of the year?",
+   "input": {
+    "to": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "end of the year"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days to wait until payday at the end of the month",
+   "input": {
+    "to": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days until valentine's day",
+   "input": {
+    "to": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days until st patrick's day? it's for the pub chalkboard",
+   "input": {
+    "to": "2027-03-17"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "st patrick's day"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "We fly out in 6 weeks — how many days until then?",
+   "input": {
+    "to": "2026-10-13"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "in 6 weeks"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "how many days away is boxing day",
+   "input": {
+    "to": "2026-12-26"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "boxing day"
+    }
+   ]
+  },
+  {
+   "skill": "countdownTo",
+   "message": "time remaining until the start of next month?",
+   "input": {
+    "to": "2026-10-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "start of next month"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list every date from today to next sunday",
+   "input": {
+    "from": "2026-09-01",
+    "to": "2026-09-06"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "today"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "next sunday"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list every week's date from next monday to the end of next month",
+   "input": {
+    "from": "2026-09-07",
+    "to": "2026-10-31",
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "next monday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list every weekday date between tomorrow and the end of the month",
+   "input": {
+    "from": "2026-09-02",
+    "to": "2026-09-30",
+    "weekdaysOnly": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "tomorrow"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "dates every 2 weeks from this friday to christmas",
+   "input": {
+    "from": "2026-09-04",
+    "to": "2026-12-25",
+    "step": 2,
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "this friday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "christmas"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list the first of each month from the start of next month to new year's day",
+   "input": {
+    "from": "2026-10-01",
+    "to": "2027-01-01",
+    "unit": "months"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "start of next month"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "print the dates between halloween and bonfire night",
+   "input": {
+    "from": "2026-10-31",
+    "to": "2026-11-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "halloween"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "For my timesheet, list each date from a week ago to today.",
+   "input": {
+    "from": "2026-08-25",
+    "to": "2026-09-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "a week ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "today"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list every third day from tomorrow to the end of next month",
+   "input": {
+    "from": "2026-09-02",
+    "to": "2026-10-31",
+    "step": 3
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "tomorrow"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "Show me each date between christmas eve and new year's day.",
+   "input": {
+    "from": "2026-12-24",
+    "to": "2027-01-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "christmas eve"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "new year's day"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "Nurse rota: list each weekday from next tuesday to 2026-09-30.",
+   "input": {
+    "from": "2026-09-08",
+    "to": "2026-09-30",
+    "weekdaysOnly": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "next tuesday"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "list the dates each week between 1 October 2026 and christmas",
+   "input": {
+    "from": "2026-10-01",
+    "to": "2026-12-25",
+    "unit": "weeks"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "christmas"
+    }
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "message": "what are the dates between yesterday and the day after tomorrow? list them",
+   "input": {
+    "from": "2026-08-31",
+    "to": "2026-09-03"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "yesterday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what day of the week does halloween fall on this year",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "is new year's eve on a weekend this time round?",
+   "input": {
+    "date": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "new year's eve"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "which weekday is bonfire night",
+   "input": {
+    "date": "2026-11-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what day of the week will it be in 100 days?",
+   "input": {
+    "date": "2026-12-10"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "in 100 days"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "boxing day — weekday or weekend?",
+   "input": {
+    "date": "2026-12-26"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "boxing day"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "In 6 weeks my cast comes off. What day of the week will that be?",
+   "input": {
+    "date": "2026-10-13"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "in 6 weeks"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what weekday was it 10 days ago",
+   "input": {
+    "date": "2026-08-22"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "10 days ago"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "Valentine's day next year, what day of the week is that?",
+   "input": {
+    "date": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "Name the weekday for the end of next month.",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "end of next month"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "the filing deadline is the end of the year — which day of the week is that?",
+   "input": {
+    "date": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "end of the year"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "what weekday does st patrick's day land on next year?",
+   "input": {
+    "date": "2027-03-17"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "st patrick's day"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "message": "Which day of the week is a fortnight from now?",
+   "input": {
+    "date": "2026-09-15"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "a fortnight from now"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "what number day of the year is halloween",
+   "input": {
+    "date": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "day of the year for bonfire night?",
+   "input": {
+    "date": "2026-11-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "How far through the year will we be at the end of the month? Give me the day number.",
+   "input": {
+    "date": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "which day of the year is tomorrow",
+   "input": {
+    "date": "2026-09-02"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "Day number in the year for new year's eve, please.",
+   "input": {
+    "date": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "new year's eve"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "I'm logging ordinal day numbers for a lab notebook. What's the day of the year for next friday?",
+   "input": {
+    "date": "2026-09-04"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "next friday"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "how many days of the year are left after christmas eve?",
+   "input": {
+    "date": "2026-12-24"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "what day of the year was last monday",
+   "input": {
+    "date": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "last monday"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "Day-of-year for the start of next month.",
+   "input": {
+    "date": "2026-10-01"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "start of next month"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "ordinal day of the year for boxing day",
+   "input": {
+    "date": "2026-12-26"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "boxing day"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "our launch is in 3 weeks — which day of the year will that be?",
+   "input": {
+    "date": "2026-09-22"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "in 3 weeks"
+    }
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "message": "What's the day-of-year number for valentine's day next year?",
+   "input": {
+    "date": "2027-02-14"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "date",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "days between next monday and christmas eve",
+   "input": {
+    "from": "2026-09-07",
+    "to": "2026-12-24"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "next monday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "christmas eve"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "How many days from halloween to bonfire night?",
+   "input": {
+    "from": "2026-10-31",
+    "to": "2026-11-05"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "halloween"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "bonfire night"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "count the days from 2026-06-15 to the end of the month",
+   "input": {
+    "from": "2026-06-15",
+    "to": "2026-09-30"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "end of the month"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "My contract started on 1 March 2026. How many days is it from then until the end of the year?",
+   "input": {
+    "from": "2026-03-01",
+    "to": "2026-12-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "end of the year"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "days from boxing day to valentine's day, both ends counted",
+   "input": {
+    "from": "2026-12-26",
+    "to": "2027-02-14",
+    "inclusive": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "boxing day"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "valentine's day"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "how many days between last friday and next friday",
+   "input": {
+    "from": "2026-08-28",
+    "to": "2026-09-04"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "last friday"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "next friday"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "I'm travelling from the day after tomorrow until 20 September. How many days is that, counting both?",
+   "input": {
+    "from": "2026-09-03",
+    "to": "2026-09-20",
+    "inclusive": true
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "the day after tomorrow"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "how many days separate new year's day and st patrick's day",
+   "input": {
+    "from": "2027-01-01",
+    "to": "2027-03-17"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "new year's day"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "st patrick's day"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "Days from 4 July 2026 to yesterday?",
+   "input": {
+    "from": "2026-07-04",
+    "to": "2026-08-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "yesterday"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "gap in days between the start of next month and christmas?",
+   "input": {
+    "from": "2026-10-01",
+    "to": "2026-12-25"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "start of next month"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "christmas"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "days between a week ago and christmas",
+   "input": {
+    "from": "2026-08-25",
+    "to": "2026-12-25"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "a week ago"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "christmas"
+    }
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "message": "Teacher here: how many days between tomorrow and halloween?",
+   "input": {
+    "from": "2026-09-02",
+    "to": "2026-10-31"
+   },
+   "mode": "full",
+   "derive": [
+    {
+     "field": "from",
+     "rule": "date",
+     "from": "tomorrow"
+    },
+    {
+     "field": "to",
+     "rule": "date",
+     "from": "halloween"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,677 @@
+[
+  {
+    "outcome": "wrong-skill",
+    "message": "turn CDXLIV into arabic digits",
+    "want": "convertRomanNumeral",
+    "got": "binaryDecode",
+    "wantCategory": "conversion",
+    "gotCategory": "encoding",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "render those rows as a markdown table",
+    "want": "toMarkdownTable",
+    "got": "parseMarkdownTable",
+    "wantCategory": "data",
+    "gotCategory": "data",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "turn this nested object into dot paths",
+    "want": "flattenJson",
+    "got": "unflattenJson",
+    "wantCategory": "data",
+    "gotCategory": "data",
+    "sameCategory": true
+  },
+  {
+    "outcome": "failed",
+    "message": "when is the next thursday",
+    "want": "nextWeekday",
+    "got": "nextWeekday",
+    "wantCategory": "dates",
+    "gotCategory": "dates",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "three working days on from 2026-11-02",
+    "want": "addBusinessDays",
+    "got": "businessDaysBetween",
+    "wantCategory": "dates",
+    "gotCategory": "dates",
+    "sameCategory": true
+  },
+  {
+    "outcome": "declined",
+    "message": "clock times right now in Paris Delhi and Chicago",
+    "want": "listTimezoneOffsets",
+    "got": null,
+    "wantCategory": "dates",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "failed",
+    "message": "give me tints and shades of #556B2F",
+    "want": "generatePalette",
+    "got": "generatePalette",
+    "wantCategory": "design",
+    "gotCategory": "design",
+    "sameCategory": true
+  },
+  {
+    "outcome": "failed",
+    "message": "un-base64 this blob",
+    "want": "base64Decode",
+    "got": "base64Decode",
+    "wantCategory": "encoding",
+    "gotCategory": "encoding",
+    "sameCategory": true
+  },
+  {
+    "outcome": "asked",
+    "message": "these 1s and 0s spell what",
+    "want": "binaryDecode",
+    "got": "binaryDecode",
+    "wantCategory": "encoding",
+    "gotCategory": "encoding",
+    "sameCategory": true
+  },
+  {
+    "outcome": "failed",
+    "message": "unpack this compressed blob",
+    "want": "decompressText",
+    "got": "decompressText",
+    "wantCategory": "encoding",
+    "gotCategory": "encoding",
+    "sameCategory": true
+  },
+  {
+    "outcome": "failed",
+    "message": "sha512 digest of this phrase",
+    "want": "hashText",
+    "got": "hashText",
+    "wantCategory": "encoding",
+    "gotCategory": "encoding",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "whats my basket come to with postage",
+    "want": "shippingTotal",
+    "got": "stackDiscounts",
+    "wantCategory": "everyday",
+    "gotCategory": "everyday",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "reduce 249 by 30%",
+    "want": "applyDiscount",
+    "got": "percentOf",
+    "wantCategory": "finance",
+    "gotCategory": "math",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "rearrange the letters of tarps",
+    "want": "solveAnagram",
+    "got": "wordsFromLetters",
+    "wantCategory": "games",
+    "gotCategory": "games",
+    "sameCategory": true
+  },
+  {
+    "outcome": "declined",
+    "message": "set revision dates starting today",
+    "want": "spacedRepetitionSchedule",
+    "got": null,
+    "wantCategory": "learning",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "declined",
+    "message": "squash this nested array flat",
+    "want": "flattenList",
+    "got": null,
+    "wantCategory": "lists",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "pair each name with its score",
+    "want": "zipLists",
+    "got": "pairUp",
+    "wantCategory": "lists",
+    "gotCategory": "lists",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "whats 340 divided by 8 plus 12",
+    "want": "evaluateExpression",
+    "got": "parseNumber",
+    "wantCategory": "math",
+    "gotCategory": "math",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "what percentage of days did I manage it",
+    "want": "habitCompletionRate",
+    "got": "percentageDistribution",
+    "wantCategory": "organising",
+    "gotCategory": "math",
+    "sameCategory": false
+  },
+  {
+    "outcome": "declined",
+    "message": "lay my tasks out from 9am with 10 min gaps",
+    "want": "timeBlockSchedule",
+    "got": null,
+    "wantCategory": "organising",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "tell me about magnesium",
+    "want": "periodicTableLookup",
+    "got": "webAnswer",
+    "wantCategory": "reference",
+    "gotCategory": "reference",
+    "sameCategory": true
+  },
+  {
+    "outcome": "failed",
+    "message": "offset from utc in Auckland",
+    "want": "timezoneLookup",
+    "got": "timezoneLookup",
+    "wantCategory": "reference",
+    "gotCategory": "reference",
+    "sameCategory": true
+  },
+  {
+    "outcome": "declined",
+    "message": "anything way off in this set",
+    "want": "findOutliers",
+    "got": null,
+    "wantCategory": "statistics",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "declined",
+    "message": "what changed between the old and new version",
+    "want": "diffText",
+    "got": null,
+    "wantCategory": "text",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "failed",
+    "message": "grab the bullets from this",
+    "want": "extractListItems",
+    "got": "extractListItems",
+    "wantCategory": "text",
+    "gotCategory": "text",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "does this read as happy or unhappy",
+    "want": "lexiconSentiment",
+    "got": "readingLevel",
+    "wantCategory": "text",
+    "gotCategory": "text",
+    "sameCategory": true
+  },
+  {
+    "outcome": "asked",
+    "message": "does this payload conform to my schema",
+    "want": "validateJsonSchema",
+    "got": "validateJsonSchema",
+    "wantCategory": "validation",
+    "gotCategory": "validation",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "a 210 minute film runs for how long",
+    "want": "convertTime",
+    "got": "streakCount",
+    "wantCategory": "conversion",
+    "gotCategory": "organising",
+    "sameCategory": false
+  },
+  {
+    "outcome": "asked",
+    "message": "whats changed between these two configs",
+    "want": "diffJson",
+    "got": "diffJson",
+    "wantCategory": "data",
+    "gotCategory": "data",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "pull settings.theme out of this document",
+    "want": "getPath",
+    "got": "parseKeyValue",
+    "wantCategory": "data",
+    "gotCategory": "data",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "what params are in this link",
+    "want": "parseQueryString",
+    "got": "extractUrls",
+    "wantCategory": "data",
+    "gotCategory": "text",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "is 2026-07-04 a saturday",
+    "want": "dayOfWeek",
+    "got": "isWeekend",
+    "wantCategory": "dates",
+    "gotCategory": "dates",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "simplify 2560 by 1440 to a ratio",
+    "want": "aspectRatio",
+    "got": "fractionSimplify",
+    "wantCategory": "design",
+    "gotCategory": "math",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "squash this text down",
+    "want": "compressText",
+    "got": "truncateText",
+    "wantCategory": "encoding",
+    "gotCategory": "text",
+    "sameCategory": false
+  },
+  {
+    "outcome": "declined",
+    "message": "these hex bytes say what",
+    "want": "hexDecode",
+    "got": null,
+    "wantCategory": "encoding",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "what is -.-. --.- in letters",
+    "want": "morseDecode",
+    "got": "wordsFromLetters",
+    "wantCategory": "encoding",
+    "gotCategory": "games",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "extra 15 off an already 30 off item",
+    "want": "stackDiscounts",
+    "got": "applyDiscount",
+    "wantCategory": "everyday",
+    "gotCategory": "finance",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "non-compounding interest on 800 at 6% for 18 months",
+    "want": "simpleInterest",
+    "got": "compoundInterest",
+    "wantCategory": "finance",
+    "gotCategory": "finance",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "tile value of the word zebra",
+    "want": "scrabbleScore",
+    "got": "countOccurrences",
+    "wantCategory": "games",
+    "gotCategory": "text",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "print me a month view of december 2026",
+    "want": "generateCalendarGrid",
+    "got": "daysInMonth",
+    "wantCategory": "generation",
+    "gotCategory": "dates",
+    "sameCategory": false
+  },
+  {
+    "outcome": "asked",
+    "message": "litres in a cylinder 30cm across and 50 tall",
+    "want": "volumeOf",
+    "got": "volumeOf",
+    "wantCategory": "geometry",
+    "gotCategory": "geometry",
+    "sameCategory": true
+  },
+  {
+    "outcome": "declined",
+    "message": "did I get any of these lines wrong",
+    "want": "checkArithmeticSteps",
+    "got": null,
+    "wantCategory": "learning",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "declined",
+    "message": "plan out 420 pages before the end of the month",
+    "want": "readingScheduleFromPages",
+    "got": null,
+    "wantCategory": "learning",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "give me every number from 5 to 40 in fives",
+    "want": "rangeList",
+    "got": "numberLines",
+    "wantCategory": "lists",
+    "gotCategory": "text",
+    "sameCategory": false
+  },
+  {
+    "outcome": "failed",
+    "message": "which entries appear on both lists",
+    "want": "intersectLists",
+    "got": "intersectLists",
+    "wantCategory": "lists",
+    "gotCategory": "lists",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "draw a winner from these entrants, seed 9",
+    "want": "pickRandom",
+    "got": "randomNumber",
+    "wantCategory": "lists",
+    "gotCategory": "generation",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "what proportion is 18 of 24, in percent",
+    "want": "whatPercent",
+    "got": "percentOf",
+    "wantCategory": "math",
+    "gotCategory": "math",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "multiply 1 through 8 together",
+    "want": "factorial",
+    "got": "product",
+    "wantCategory": "math",
+    "gotCategory": "math",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "add the right suffix to 42",
+    "want": "toOrdinal",
+    "got": "parseNumber",
+    "wantCategory": "math",
+    "gotCategory": "math",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "sort my jobs by what matters most",
+    "want": "prioritizeTasks",
+    "got": "sortLines",
+    "wantCategory": "organising",
+    "gotCategory": "text",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "what does the code sv stand for",
+    "want": "languageCodeLookup",
+    "got": "currencyLookup",
+    "wantCategory": "reference",
+    "gotCategory": "reference",
+    "sameCategory": true
+  },
+  {
+    "outcome": "declined",
+    "message": "add these up as I go",
+    "want": "cumulativeSum",
+    "got": null,
+    "wantCategory": "statistics",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "failed",
+    "message": "smooth this over a 5 point window",
+    "want": "movingAverage",
+    "got": "movingAverage",
+    "wantCategory": "statistics",
+    "gotCategory": "statistics",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "standardise this set",
+    "want": "zScores",
+    "got": "quartiles",
+    "wantCategory": "statistics",
+    "gotCategory": "statistics",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "change my heading to title case",
+    "want": "convertCase",
+    "got": "checkTitleCase",
+    "wantCategory": "text",
+    "gotCategory": "writing",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "typical word size in this paragraph",
+    "want": "averageWordLength",
+    "got": "countWords",
+    "wantCategory": "text",
+    "gotCategory": "text",
+    "sameCategory": true
+  },
+  {
+    "outcome": "declined",
+    "message": "which handles are tagged here",
+    "want": "extractMentions",
+    "got": null,
+    "wantCategory": "text",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "declined",
+    "message": "any numbers to call in this signature",
+    "want": "extractPhoneNumbers",
+    "got": null,
+    "wantCategory": "text",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "biggest word in this passage",
+    "want": "findLongestWord",
+    "got": "countWords",
+    "wantCategory": "text",
+    "gotCategory": "text",
+    "sameCategory": true
+  },
+  {
+    "outcome": "failed",
+    "message": "what stands out in this document",
+    "want": "keywordsTfidf",
+    "got": "keywordsTfidf",
+    "wantCategory": "text",
+    "gotCategory": "text",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "hide the private bits in this text",
+    "want": "maskSensitive",
+    "got": "binaryDecode",
+    "wantCategory": "text",
+    "gotCategory": "encoding",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "right justify this in 10 columns",
+    "want": "padText",
+    "got": "wrapText",
+    "wantCategory": "text",
+    "gotCategory": "text",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "break these lines at 40 wide",
+    "want": "wrapText",
+    "got": "splitLines",
+    "wantCategory": "text",
+    "gotCategory": "text",
+    "sameCategory": true
+  },
+  {
+    "outcome": "declined",
+    "message": "does 31 september exist",
+    "want": "validateDate",
+    "got": null,
+    "wantCategory": "validation",
+    "gotCategory": null,
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "give me the outline of this markdown doc",
+    "want": "extractHeadings",
+    "got": "outlineToMarkdown",
+    "wantCategory": "writing",
+    "gotCategory": "writing",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrong-skill",
+    "message": "index the headings in this doc",
+    "want": "generateTableOfContents",
+    "got": "extractHeadings",
+    "wantCategory": "writing",
+    "gotCategory": "writing",
+    "sameCategory": true
+  },
+  {
+    "outcome": "wrongly-answered",
+    "message": "summarise this email for me",
+    "want": "(none)",
+    "got": "extractEmails",
+    "wantCategory": null,
+    "gotCategory": "text",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrongly-answered",
+    "message": "translate good morning into portuguese",
+    "want": "(none)",
+    "got": "languageCodeLookup",
+    "wantCategory": null,
+    "gotCategory": "reference",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrongly-answered",
+    "message": "what is the difference between affect and effect",
+    "want": "(none)",
+    "got": "differenceLists",
+    "wantCategory": null,
+    "gotCategory": "lists",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrongly-answered",
+    "message": "the sentiment in the room was tense",
+    "want": "(none)",
+    "got": "lexiconSentiment",
+    "wantCategory": null,
+    "gotCategory": "text",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrongly-answered",
+    "message": "he is in his prime right now",
+    "want": "(none)",
+    "got": "isPrime",
+    "wantCategory": null,
+    "gotCategory": "math",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrongly-answered",
+    "message": "my bank keeps sending me letters about nothing",
+    "want": "(none)",
+    "got": "webSearch",
+    "wantCategory": null,
+    "gotCategory": "reference",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrongly-answered",
+    "message": "is a table of contents even necessary these days",
+    "want": "(none)",
+    "got": "breakEvenComparison",
+    "wantCategory": null,
+    "gotCategory": "decisions",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrongly-answered",
+    "message": "i cannot spell to save my life",
+    "want": "(none)",
+    "got": "spellCheck",
+    "wantCategory": null,
+    "gotCategory": "writing",
+    "sameCategory": false
+  },
+  {
+    "outcome": "wrongly-answered",
+    "message": "the timezone difference is killing our team",
+    "want": "(none)",
+    "got": "timezoneLookup",
+    "wantCategory": null,
+    "gotCategory": "reference",
+    "sameCategory": false
+  }
+]

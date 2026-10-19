@@ -1,0 +1,3584 @@
+{
+ "date": "2026-10-16T03:41:00.419Z",
+ "engine": "http://127.0.0.1:8151",
+ "letThrough": 305,
+ "ofHoldout": 308,
+ "stopped": 95,
+ "ofNoSkill": 100,
+ "unclear": 0,
+ "meanMs": 169,
+ "rows": [
+  {
+   "message": "3 miles in metres",
+   "set": "holdout",
+   "want": "convertLength",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 202
+  },
+  {
+   "message": "220 fahrenheit as celsius",
+   "set": "holdout",
+   "want": "convertTemperature",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "750 MB in GiB",
+   "set": "holdout",
+   "want": "convertDataSize",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "how many radians is 45 deg",
+   "set": "holdout",
+   "want": "convertAngle",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "write 200 in base 7",
+   "set": "holdout",
+   "want": "convertBase",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "turn CDXLIV into arabic digits",
+   "set": "holdout",
+   "want": "convertRomanNumeral",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "how do you write 305 on a cheque",
+   "set": "holdout",
+   "want": "numberToWords",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 176
+  },
+  {
+   "message": "read this csv into columns",
+   "set": "holdout",
+   "want": "parseCsv",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "order the table by price descending",
+   "set": "holdout",
+   "want": "sortRows",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "render those rows as a markdown table",
+   "set": "holdout",
+   "want": "toMarkdownTable",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "tidy this json so it is readable",
+   "set": "holdout",
+   "want": "formatJson",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "assemble a query string for page=2 and sort=asc",
+   "set": "holdout",
+   "want": "buildQueryString",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 181
+  },
+  {
+   "message": "turn this nested object into dot paths",
+   "set": "holdout",
+   "want": "flattenJson",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 166
+  },
+  {
+   "message": "totals per department from these rows",
+   "set": "holdout",
+   "want": "groupBy",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "read this md table as data",
+   "set": "holdout",
+   "want": "parseMarkdownTable",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "cross-tab sales by month and product",
+   "set": "holdout",
+   "want": "pivotRows",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "put these json keys in order",
+   "set": "holdout",
+   "want": "sortObjectKeys",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "expand these dotted keys back into objects",
+   "set": "holdout",
+   "want": "unflattenJson",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "how many days between 12 july 2026 and christmas",
+   "set": "holdout",
+   "want": "daysBetween",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 181
+  },
+  {
+   "message": "how long until 25 december",
+   "set": "holdout",
+   "want": "countdownTo",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "when is the next thursday",
+   "set": "holdout",
+   "want": "nextWeekday",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 173
+  },
+  {
+   "message": "born 1985-03-12, how old are they now",
+   "set": "holdout",
+   "want": "ageFromDate",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 177
+  },
+  {
+   "message": "9am in berlin is what time in tokyo on 2026-05-05",
+   "set": "holdout",
+   "want": "convertTimezone",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 203
+  },
+  {
+   "message": "what date is in a fortnight",
+   "set": "holdout",
+   "want": "parseRelativeDate",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 188
+  },
+  {
+   "message": "how much time has passed since 2026-08-20",
+   "set": "holdout",
+   "want": "timeAgo",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 184
+  },
+  {
+   "message": "express 7500 seconds as hours and minutes",
+   "set": "holdout",
+   "want": "durationToText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 186
+  },
+  {
+   "message": "three working days on from 2026-11-02",
+   "set": "holdout",
+   "want": "addBusinessDays",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 185
+  },
+  {
+   "message": "which numbered day of 2026 is 1 august",
+   "set": "holdout",
+   "want": "dayOfYear",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 188
+  },
+  {
+   "message": "does 2100 have a leap day",
+   "set": "holdout",
+   "want": "isLeapYear",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 185
+  },
+  {
+   "message": "epoch value for 2027-01-01 midnight",
+   "set": "holdout",
+   "want": "isoToUnix",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 193
+  },
+  {
+   "message": "clock times right now in Paris Delhi and Chicago",
+   "set": "holdout",
+   "want": "listTimezoneOffsets",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 185
+  },
+  {
+   "message": "turn 1700000000 into a readable date",
+   "set": "holdout",
+   "want": "unixToIso",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 186
+  },
+  {
+   "message": "score these three options against my criteria",
+   "set": "holdout",
+   "want": "weightedDecisionMatrix",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 192
+  },
+  {
+   "message": "average payout if I win 500 a fifth of the time",
+   "set": "holdout",
+   "want": "expectedValue",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 187
+  },
+  {
+   "message": "resize 1600x900 to fit 400 wide",
+   "set": "holdout",
+   "want": "scaleDimensions",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 190
+  },
+  {
+   "message": "colour on the other side of the wheel from #3366FF",
+   "set": "holdout",
+   "want": "complementaryColor",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 189
+  },
+  {
+   "message": "give me hsl for #1E90FF",
+   "set": "holdout",
+   "want": "convertColor",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 187
+  },
+  {
+   "message": "give me tints and shades of #556B2F",
+   "set": "holdout",
+   "want": "generatePalette",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 181
+  },
+  {
+   "message": "halfway colour between #FF0000 and #FFFF00",
+   "set": "holdout",
+   "want": "mixColors",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 183
+  },
+  {
+   "message": "2.25rem in px please",
+   "set": "holdout",
+   "want": "remToPx",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 177
+  },
+  {
+   "message": "which version wins, 3.0.0-rc.1 or 3.0.0",
+   "set": "holdout",
+   "want": "compareSemver",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 205
+  },
+  {
+   "message": "make c++ safe to drop into a pattern",
+   "set": "holdout",
+   "want": "escapeRegex",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 195
+  },
+  {
+   "message": "show me the payload of this bearer token",
+   "set": "holdout",
+   "want": "jwtDecode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 188
+  },
+  {
+   "message": "split 4.2.1+build9 into parts",
+   "set": "holdout",
+   "want": "parseSemver",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 182
+  },
+  {
+   "message": "code point for the pound sign",
+   "set": "holdout",
+   "want": "unicodeLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "make this text safe for a query string",
+   "set": "holdout",
+   "want": "urlEncode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 171
+  },
+  {
+   "message": "un-base64 this blob",
+   "set": "holdout",
+   "want": "base64Decode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 172
+  },
+  {
+   "message": "these 1s and 0s spell what",
+   "set": "holdout",
+   "want": "binaryDecode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "move every letter on by 5",
+   "set": "holdout",
+   "want": "caesarShift",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 173
+  },
+  {
+   "message": "unpack this compressed blob",
+   "set": "holdout",
+   "want": "decompressText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 173
+  },
+  {
+   "message": "random 12 char token please",
+   "set": "holdout",
+   "want": "generateRandomString",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 172
+  },
+  {
+   "message": "sha512 digest of this phrase",
+   "set": "holdout",
+   "want": "hashText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "give me the hex bytes for this word",
+   "set": "holdout",
+   "want": "hexEncode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "put my name into dots and dashes",
+   "set": "holdout",
+   "want": "morseEncode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "dinner 132.40, 18% tip, 5 people",
+   "set": "holdout",
+   "want": "splitBill",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 194
+  },
+  {
+   "message": "how many grams is a cup of caster sugar",
+   "set": "holdout",
+   "want": "convertCookingMeasure",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 179
+  },
+  {
+   "message": "which pack size is better value",
+   "set": "holdout",
+   "want": "comparePrices",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 177
+  },
+  {
+   "message": "whats my basket come to with postage",
+   "set": "holdout",
+   "want": "shippingTotal",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 180
+  },
+  {
+   "message": "how big is 3400000 bytes in readable units",
+   "set": "holdout",
+   "want": "fileSizeHuman",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "how many words and bytes in this",
+   "set": "holdout",
+   "want": "textFileStats",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 178
+  },
+  {
+   "message": "reduce 249 by 30%",
+   "set": "holdout",
+   "want": "applyDiscount",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "add 20 percent vat onto 480",
+   "set": "holdout",
+   "want": "applyTax",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 172
+  },
+  {
+   "message": "what does 2500 become after 8 years at 3.5",
+   "set": "holdout",
+   "want": "compoundInterest",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "costs me 8, sells for 14, whats the margin",
+   "set": "holdout",
+   "want": "markupMargin",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 173
+  },
+  {
+   "message": "how long till I have 3000 putting 120 aside monthly",
+   "set": "holdout",
+   "want": "savingsGoal",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "do these two phrases use the same letters",
+   "set": "holdout",
+   "want": "checkAnagram",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 180
+  },
+  {
+   "message": "ask the 8 ball if I should go",
+   "set": "holdout",
+   "want": "magicEightBall",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "rearrange the letters of tarps",
+   "set": "holdout",
+   "want": "solveAnagram",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "throw a couple of dice for me, seed 9",
+   "set": "holdout",
+   "want": "rollDice",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 172
+  },
+  {
+   "message": "pick a number from 1 to 20, seed 9",
+   "set": "holdout",
+   "want": "randomNumber",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "turn my packing list into tick boxes",
+   "set": "holdout",
+   "want": "generateChecklist",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "need three paragraphs of dummy copy",
+   "set": "holdout",
+   "want": "loremIpsum",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 167
+  },
+  {
+   "message": "how much carpet for a 4.5 by 3.2 m room",
+   "set": "holdout",
+   "want": "areaOf",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "great circle miles between these coordinates",
+   "set": "holdout",
+   "want": "haversineDistance",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 179
+  },
+  {
+   "message": "ladder length if the wall is 8 and the base is 6",
+   "set": "holdout",
+   "want": "pythagorean",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "body mass index at 1.8m and 82 kilos",
+   "set": "holdout",
+   "want": "bmiCalculate",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "how long would a half marathon take at 6 min km",
+   "set": "holdout",
+   "want": "paceCalculate",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "kilometre splits to break 45 minutes over 10k",
+   "set": "holdout",
+   "want": "splitTimes",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "score this test paper against the correct responses",
+   "set": "holdout",
+   "want": "gradeQuiz",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "reorder my deck for revision",
+   "set": "holdout",
+   "want": "flashcardShuffle",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 173
+  },
+  {
+   "message": "I am on 65 with 40% left, what do I need for a 70",
+   "set": "holdout",
+   "want": "gradeNeeded",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 198
+  },
+  {
+   "message": "set revision dates starting today",
+   "set": "holdout",
+   "want": "spacedRepetitionSchedule",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 181
+  },
+  {
+   "message": "strip the repeats out of this list",
+   "set": "holdout",
+   "want": "dedupeList",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 179
+  },
+  {
+   "message": "tally how many of each appear",
+   "set": "holdout",
+   "want": "countItems",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 178
+  },
+  {
+   "message": "deal these 12 names into groups of four",
+   "set": "holdout",
+   "want": "chunkList",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "squash this nested array flat",
+   "set": "holdout",
+   "want": "flattenList",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "draw partners for these six, seed 3",
+   "set": "holdout",
+   "want": "pairUp",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "jumble this playlist up, seed 4",
+   "set": "holdout",
+   "want": "shuffleList",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "pair each name with its score",
+   "set": "holdout",
+   "want": "zipLists",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 166
+  },
+  {
+   "message": "whats 340 divided by 8 plus 12",
+   "set": "holdout",
+   "want": "evaluateExpression",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "price went 25 to 31, whats the increase",
+   "set": "holdout",
+   "want": "percentChange",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 173
+  },
+  {
+   "message": "round 88.4567 to 3 dp",
+   "set": "holdout",
+   "want": "roundTo",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "total these figures for me: 45 62 18 9",
+   "set": "holdout",
+   "want": "sum",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "read 4.5k as a plain number",
+   "set": "holdout",
+   "want": "parseNumber",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "write 45.5 as pounds sterling",
+   "set": "holdout",
+   "want": "formatCurrency",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "share 750 between shares of 5 3 and 2",
+   "set": "holdout",
+   "want": "allocateProportionally",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "give me fibonacci up to the 12th",
+   "set": "holdout",
+   "want": "fibonacci",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "highest number dividing 84 and 126",
+   "set": "holdout",
+   "want": "gcd",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 172
+  },
+  {
+   "message": "smallest number both 8 and 14 go into",
+   "set": "holdout",
+   "want": "lcm",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 173
+  },
+  {
+   "message": "if 5 maps to 8, what maps to 40",
+   "set": "holdout",
+   "want": "ratioSolve",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "divide my 2800 salary into budget categories",
+   "set": "holdout",
+   "want": "budgetSplit",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "what percentage of days did I manage it",
+   "set": "holdout",
+   "want": "habitCompletionRate",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 176
+  },
+  {
+   "message": "fair rota for four flatmates and three chores",
+   "set": "holdout",
+   "want": "rotateAssignments",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 178
+  },
+  {
+   "message": "lay my tasks out from 9am with 10 min gaps",
+   "set": "holdout",
+   "want": "timeBlockSchedule",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 181
+  },
+  {
+   "message": "what is the capital of Portugal",
+   "set": "holdout",
+   "want": "countryLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 171
+  },
+  {
+   "message": "which airport is CDG",
+   "set": "holdout",
+   "want": "airportCodeLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "tell me about magnesium",
+   "set": "holdout",
+   "want": "periodicTableLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "offset from utc in Auckland",
+   "set": "holdout",
+   "want": "timezoneLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 171
+  },
+  {
+   "message": "mean and spread of 12 19 22 8 31",
+   "set": "holdout",
+   "want": "describeNumbers",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "do these two columns move together",
+   "set": "holdout",
+   "want": "correlation",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 177
+  },
+  {
+   "message": "anything way off in this set",
+   "set": "holdout",
+   "want": "findOutliers",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 176
+  },
+  {
+   "message": "best fit line for this scatter",
+   "set": "holdout",
+   "want": "linearRegression",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 178
+  },
+  {
+   "message": "p95 of these latencies",
+   "set": "holdout",
+   "want": "percentile",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 178
+  },
+  {
+   "message": "order these from best to worst",
+   "set": "holdout",
+   "want": "rankValues",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 177
+  },
+  {
+   "message": "how many words in this sentence right here",
+   "set": "holdout",
+   "want": "countWords",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 180
+  },
+  {
+   "message": "make \"Annual Report 2026\" a url slug",
+   "set": "holdout",
+   "want": "slugify",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "swap every instance of teh for the",
+   "set": "holdout",
+   "want": "replaceText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 166
+  },
+  {
+   "message": "list the links in that message",
+   "set": "holdout",
+   "want": "extractUrls",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "how many characters is this tweet",
+   "set": "holdout",
+   "want": "countCharacters",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "how many lines does this file have",
+   "set": "holdout",
+   "want": "countLines",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "break this sentence into individual words",
+   "set": "holdout",
+   "want": "tokenizeWords",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "strip the filler words out of this query",
+   "set": "holdout",
+   "want": "removeStopWords",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "how long would this take someone to read",
+   "set": "holdout",
+   "want": "readingTime",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "strip the indentation off every line",
+   "set": "holdout",
+   "want": "trimLines",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "put these lines in alphabetical order",
+   "set": "holdout",
+   "want": "sortLines",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "join these lines into one comma separated line",
+   "set": "holdout",
+   "want": "joinLines",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "what changed between the old and new version",
+   "set": "holdout",
+   "want": "diffText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "guess the language of this snippet",
+   "set": "holdout",
+   "want": "detectLanguage",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "make these angle brackets safe for html",
+   "set": "holdout",
+   "want": "escapeHtml",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "list every price mentioned here",
+   "set": "holdout",
+   "want": "extractCurrencyAmounts",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "list the tags used in this tweet",
+   "set": "holdout",
+   "want": "extractHashtags",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "grab the bullets from this",
+   "set": "holdout",
+   "want": "extractListItems",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "split this into two word runs",
+   "set": "holdout",
+   "want": "extractNgrams",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "what times are mentioned",
+   "set": "holdout",
+   "want": "extractTimes",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "which of these entries are basically the same",
+   "set": "holdout",
+   "want": "findNearDuplicates",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "anything rude in this message",
+   "set": "holdout",
+   "want": "flagProfanity",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "does this read as happy or unhappy",
+   "set": "holdout",
+   "want": "lexiconSentiment",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "stick numbers on each line",
+   "set": "holdout",
+   "want": "numberLines",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "strip the smileys out",
+   "set": "holdout",
+   "want": "removeEmoji",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "how much vocabulary do these share",
+   "set": "holdout",
+   "want": "similarityJaccard",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "cut these words back to their roots",
+   "set": "holdout",
+   "want": "stemWords",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "drop the formatting marks from this",
+   "set": "holdout",
+   "want": "stripMarkdown",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "flatten the accents in this name",
+   "set": "holdout",
+   "want": "toAscii",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "is this address written correctly: jo@example",
+   "set": "holdout",
+   "want": "validateEmail",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "this config is being rejected, what is malformed",
+   "set": "holdout",
+   "want": "validateJson",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "tidy this number into international format",
+   "set": "holdout",
+   "want": "formatPhoneNumber",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 166
+  },
+  {
+   "message": "is #GG0011 a real colour code",
+   "set": "holdout",
+   "want": "validateHexColor",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "is 10.0.0.256 usable",
+   "set": "holdout",
+   "want": "validateIpAddress",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "does this payload conform to my schema",
+   "set": "holdout",
+   "want": "validateJsonSchema",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "is +44 7700 900 the right shape",
+   "set": "holdout",
+   "want": "validatePhoneNumber",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "build an APA reference from these details",
+   "set": "holdout",
+   "want": "formatCitation",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "how long is each paragraph in my draft",
+   "set": "holdout",
+   "want": "paragraphStats",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "capitalise this headline properly",
+   "set": "holdout",
+   "want": "checkTitleCase",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "am I overusing any words here",
+   "set": "holdout",
+   "want": "findRepeatedWords",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "render this md as html",
+   "set": "holdout",
+   "want": "markdownToHtml",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "plural of cactus",
+   "set": "holdout",
+   "want": "pluralize",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "any misspellings in this paragraph",
+   "set": "holdout",
+   "want": "spellCheck",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "put my bin collection dates on a calendar, first thursday, ten of them",
+   "set": "holdout",
+   "want": "expandRecurrence",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "narrow my guesses: _o_se, has an r, no t",
+   "set": "holdout",
+   "want": "wordleFilter",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "tell me about the Antikythera mechanism",
+   "set": "holdout",
+   "want": "webAnswer",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "convert 12 stone to kilograms",
+   "set": "holdout",
+   "want": "convertMass",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "how much is 6 tablespoons in millilitres",
+   "set": "holdout",
+   "want": "convertVolume",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "a 210 minute film runs for how long",
+   "set": "holdout",
+   "want": "convertTime",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "3000 sq ft in square metres",
+   "set": "holdout",
+   "want": "convertArea",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "my car does 45 mpg, whats that in litres per 100",
+   "set": "holdout",
+   "want": "convertFuelEconomy",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 171
+  },
+  {
+   "message": "how many m/s is 90 kph",
+   "set": "holdout",
+   "want": "convertSpeed",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "keep rows where status is open",
+   "set": "holdout",
+   "want": "filterRows",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "total the revenue column",
+   "set": "holdout",
+   "want": "columnMath",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "write these rows back out as csv",
+   "set": "holdout",
+   "want": "toCsv",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "keep just the name and email columns",
+   "set": "holdout",
+   "want": "selectColumns",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "whats changed between these two configs",
+   "set": "holdout",
+   "want": "diffJson",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "pull settings.theme out of this document",
+   "set": "holdout",
+   "want": "getPath",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "turn this .env content into an object",
+   "set": "holdout",
+   "want": "parseKeyValue",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "what params are in this link",
+   "set": "holdout",
+   "want": "parseQueryString",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "update config.timeout to 30 in this json",
+   "set": "holdout",
+   "want": "setPath",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "turn the columns of this table into rows",
+   "set": "holdout",
+   "want": "transposeTable",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "whats the gap between 2026-01-01 and 2026-06-30",
+   "set": "holdout",
+   "want": "daysBetween",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 213
+  },
+  {
+   "message": "push 2026-03-01 forward by 45 days",
+   "set": "holdout",
+   "want": "addDuration",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 171
+  },
+  {
+   "message": "is 2026-07-04 a saturday",
+   "set": "holdout",
+   "want": "dayOfWeek",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "read 4 march 2027 as an iso date",
+   "set": "holdout",
+   "want": "parseDate",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "working days from 2026-02-02 to 2026-02-27",
+   "set": "holdout",
+   "want": "businessDaysBetween",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 177
+  },
+  {
+   "message": "what is the date and time right now",
+   "set": "holdout",
+   "want": "currentTime",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "rewrite 2026-11-14 as DD/MM/YYYY",
+   "set": "holdout",
+   "want": "formatDate",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 180
+  },
+  {
+   "message": "turn 2h 15m into seconds",
+   "set": "holdout",
+   "want": "parseDuration",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "every date from 2026-03-01 up to 2026-03-07",
+   "set": "holdout",
+   "want": "dateRangeList",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 213
+  },
+  {
+   "message": "how long is april 2027",
+   "set": "holdout",
+   "want": "daysInMonth",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 177
+  },
+  {
+   "message": "is new years day 2027 a saturday or sunday",
+   "set": "holdout",
+   "want": "isWeekend",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 180
+  },
+  {
+   "message": "which week number does 2026-06-15 fall in",
+   "set": "holdout",
+   "want": "isoWeek",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 180
+  },
+  {
+   "message": "collapse these date ranges into as few as possible",
+   "set": "holdout",
+   "want": "mergeIntervals",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "at what point does the annual plan pay off",
+   "set": "holdout",
+   "want": "breakEvenComparison",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "help me weigh this up, 3 for and 2 against",
+   "set": "holdout",
+   "want": "prosConsScore",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 178
+  },
+  {
+   "message": "simplify 2560 by 1440 to a ratio",
+   "set": "holdout",
+   "want": "aspectRatio",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 180
+  },
+  {
+   "message": "will white text pass on #767676",
+   "set": "holdout",
+   "want": "contrastRatio",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 177
+  },
+  {
+   "message": "shade #FFAA00 down 30 percent",
+   "set": "holdout",
+   "want": "darkenColor",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 177
+  },
+  {
+   "message": "tint #223344 up by 15 percent",
+   "set": "holdout",
+   "want": "lightenColor",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 180
+  },
+  {
+   "message": "what fraction of a rem is 12px",
+   "set": "holdout",
+   "want": "pxToRem",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "put 30 2 * * 1 into plain english",
+   "set": "holdout",
+   "want": "cronToText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 179
+  },
+  {
+   "message": "what is a 429 telling me",
+   "set": "holdout",
+   "want": "httpStatusLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "content type to serve a .svg with",
+   "set": "holdout",
+   "want": "mimeTypeLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "run this pattern over my sample and show hits",
+   "set": "holdout",
+   "want": "testRegex",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "what does caf%C3%A9 decode to",
+   "set": "holdout",
+   "want": "urlDecode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "b64 this string for me",
+   "set": "holdout",
+   "want": "base64Encode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "show me the bits for the letter Z",
+   "set": "holdout",
+   "want": "binaryEncode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "squash this text down",
+   "set": "holdout",
+   "want": "compressText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "four random words as a password",
+   "set": "holdout",
+   "want": "generatePassphrase",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "need a fresh guid",
+   "set": "holdout",
+   "want": "generateUuid",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 161
+  },
+  {
+   "message": "these hex bytes say what",
+   "set": "holdout",
+   "want": "hexDecode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "what is -.-. --.- in letters",
+   "set": "holdout",
+   "want": "morseDecode",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "apply the 13 letter rotation to this",
+   "set": "holdout",
+   "want": "rot13",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "triple this recipe: 1 cup rice, 2 eggs",
+   "set": "holdout",
+   "want": "scaleRecipe",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 178
+  },
+  {
+   "message": "what does that work out to per litre",
+   "set": "holdout",
+   "want": "unitPrice",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "cost to drive 150 km if I use 9 litres per 100 and fuel is 1.80",
+   "set": "holdout",
+   "want": "fuelCostForTrip",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 212
+  },
+  {
+   "message": "extra 15 off an already 30 off item",
+   "set": "holdout",
+   "want": "stackDiscounts",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 178
+  },
+  {
+   "message": "whats a .webp file",
+   "set": "holdout",
+   "want": "fileExtensionInfo",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "change 400 usd to gbp at 0.79",
+   "set": "holdout",
+   "want": "convertCurrencyFixed",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 180
+  },
+  {
+   "message": "monthly repayment on 12000 over 4 years at 6%",
+   "set": "holdout",
+   "want": "amortizeLoan",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 181
+  },
+  {
+   "message": "22 an hour, whats that yearly",
+   "set": "holdout",
+   "want": "hourlyToSalary",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "52000 a year works out at what per hour",
+   "set": "holdout",
+   "want": "salaryToHourly",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 179
+  },
+  {
+   "message": "non-compounding interest on 800 at 6% for 18 months",
+   "set": "holdout",
+   "want": "simpleInterest",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 171
+  },
+  {
+   "message": "does level read the same both ways",
+   "set": "holdout",
+   "want": "checkPalindrome",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "tile value of the word zebra",
+   "set": "holdout",
+   "want": "scrabbleScore",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 173
+  },
+  {
+   "message": "which words fit from these seven tiles",
+   "set": "holdout",
+   "want": "wordsFromLetters",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "heads or tails, seed 5",
+   "set": "holdout",
+   "want": "flipCoin",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 175
+  },
+  {
+   "message": "print me a month view of december 2026",
+   "set": "holdout",
+   "want": "generateCalendarGrid",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "carve 2pm to 5pm into four sessions",
+   "set": "holdout",
+   "want": "generateSchedule",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "how far from (1,2) to (7,10)",
+   "set": "holdout",
+   "want": "distanceBetweenPoints",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "how much fencing round a 12 by 9 plot",
+   "set": "holdout",
+   "want": "perimeterOf",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "litres in a cylinder 30cm across and 50 tall",
+   "set": "holdout",
+   "want": "volumeOf",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "my measured max is 172, split it into zones",
+   "set": "holdout",
+   "want": "heartRateZones",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "what time should I turn in for a 5:45 alarm",
+   "set": "holdout",
+   "want": "sleepCycleTimes",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "did I get any of these lines wrong",
+   "set": "holdout",
+   "want": "checkArithmeticSteps",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "grade point average from these modules",
+   "set": "holdout",
+   "want": "gpaCalculate",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "plan out 420 pages before the end of the month",
+   "set": "holdout",
+   "want": "readingScheduleFromPages",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "put these items in natural order",
+   "set": "holdout",
+   "want": "sortList",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "give me every number from 5 to 40 in fives",
+   "set": "holdout",
+   "want": "rangeList",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "what is missing from the second list",
+   "set": "holdout",
+   "want": "differenceLists",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "which entries appear on both lists",
+   "set": "holdout",
+   "want": "intersectLists",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "draw a winner from these entrants, seed 9",
+   "set": "holdout",
+   "want": "pickRandom",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 167
+  },
+  {
+   "message": "merge both lists without repeats",
+   "set": "holdout",
+   "want": "unionLists",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "work out 12% of 6500",
+   "set": "holdout",
+   "want": "percentOf",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "what proportion is 18 of 24, in percent",
+   "set": "holdout",
+   "want": "whatPercent",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "divide 475 between 6 of us",
+   "set": "holdout",
+   "want": "splitEvenly",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "multiply 7 by 9 by 3 together",
+   "set": "holdout",
+   "want": "product",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "write 9876543 with commas in it",
+   "set": "holdout",
+   "want": "formatNumber",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "what share of the total is each of 12 30 58",
+   "set": "holdout",
+   "want": "percentageDistribution",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 171
+  },
+  {
+   "message": "multiply 1 through 8 together",
+   "set": "holdout",
+   "want": "factorial",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 174
+  },
+  {
+   "message": "lowest terms for 45/60",
+   "set": "holdout",
+   "want": "fractionSimplify",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "does 221 have any divisors",
+   "set": "holdout",
+   "want": "isPrime",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "which primes multiply to make 990",
+   "set": "holdout",
+   "want": "primeFactors",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "add the right suffix to 42",
+   "set": "holdout",
+   "want": "toOrdinal",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "overlap in working hours for these offices",
+   "set": "holdout",
+   "want": "findCommonMeetingHours",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "sort my jobs by what matters most",
+   "set": "holdout",
+   "want": "prioritizeTasks",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "longest run of consecutive days in this log",
+   "set": "holdout",
+   "want": "streakCount",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "what does SEK mean",
+   "set": "holdout",
+   "want": "currencyLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "what does the code sv stand for",
+   "set": "holdout",
+   "want": "languageCodeLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "where does +351 dial to",
+   "set": "holdout",
+   "want": "phoneRegionLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "which state has the abbreviation OR",
+   "set": "holdout",
+   "want": "usStateLookup",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "average these marks where the exam counts triple",
+   "set": "holdout",
+   "want": "weightedAverage",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "add these up as I go",
+   "set": "holdout",
+   "want": "cumulativeSum",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "bucket these values into six ranges",
+   "set": "holdout",
+   "want": "histogramBins",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "smooth this over a 5 point window",
+   "set": "holdout",
+   "want": "movingAverage",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "give me the iqr of this sample",
+   "set": "holdout",
+   "want": "quartiles",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "standardise this set",
+   "set": "holdout",
+   "want": "zScores",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "which words repeat most in that paragraph",
+   "set": "holdout",
+   "want": "wordFrequency",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "change my heading to title case",
+   "set": "holdout",
+   "want": "convertCase",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "grab the email addresses from this signature",
+   "set": "holdout",
+   "want": "extractEmails",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "what numbers appear in this invoice line",
+   "set": "holdout",
+   "want": "extractNumbers",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "how many sentences in that paragraph",
+   "set": "holdout",
+   "want": "countSentences",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "how often does the word error appear in the log",
+   "set": "holdout",
+   "want": "countOccurrences",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "split that paragraph into separate sentences",
+   "set": "holdout",
+   "want": "tokenizeSentences",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "what reading age is this passage written at",
+   "set": "holdout",
+   "want": "readingLevel",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "tidy up the spacing in this pasted text",
+   "set": "holdout",
+   "want": "normalizeWhitespace",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "get rid of repeated lines in this list",
+   "set": "holdout",
+   "want": "removeDuplicateLines",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "shorten this to fit 100 characters",
+   "set": "holdout",
+   "want": "truncateText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "split that comma list onto separate lines",
+   "set": "holdout",
+   "want": "splitLines",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "typical word size in this paragraph",
+   "set": "holdout",
+   "want": "averageWordLength",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "am I saying the same phrase twice",
+   "set": "holdout",
+   "want": "detectRepetition",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "lift the fenced snippets out of this doc",
+   "set": "holdout",
+   "want": "extractCodeBlocks",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "which dates are mentioned in this note",
+   "set": "holdout",
+   "want": "extractDates",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "pull out any ip addresses from these lines",
+   "set": "holdout",
+   "want": "extractIpAddresses",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "which handles are tagged here",
+   "set": "holdout",
+   "want": "extractMentions",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "any numbers to call in this signature",
+   "set": "holdout",
+   "want": "extractPhoneNumbers",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "biggest word in this passage",
+   "set": "holdout",
+   "want": "findLongestWord",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "scan this for anything personal",
+   "set": "holdout",
+   "want": "flagPii",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "what stands out in this document",
+   "set": "holdout",
+   "want": "keywordsTfidf",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "hide the private bits in this text",
+   "set": "holdout",
+   "want": "maskSensitive",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "right justify this in 10 columns",
+   "set": "holdout",
+   "want": "padText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "write this backwards",
+   "set": "holdout",
+   "want": "reverseText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "how many edits between these two spellings",
+   "set": "holdout",
+   "want": "similarityLevenshtein",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "just the readable text from this markup",
+   "set": "holdout",
+   "want": "stripHtml",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "how many beats in the word incredible",
+   "set": "holdout",
+   "want": "syllableCount",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "break these lines at 40 wide",
+   "set": "holdout",
+   "want": "wrapText",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "is https://example.com/x a proper link",
+   "set": "holdout",
+   "want": "validateUrl",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "does 31 september exist",
+   "set": "holdout",
+   "want": "validateDate",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "how good is hunter2 as a password",
+   "set": "holdout",
+   "want": "passwordStrength",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "does this account number check out",
+   "set": "holdout",
+   "want": "validateIban",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "does this book number check digit work",
+   "set": "holdout",
+   "want": "validateIsbn",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "does this card number pass the checksum",
+   "set": "holdout",
+   "want": "validateLuhn",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "is this string a proper uuid",
+   "set": "holdout",
+   "want": "validateUuid",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "give me the outline of this markdown doc",
+   "set": "holdout",
+   "want": "extractHeadings",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "am I close to my 1500 word target",
+   "set": "holdout",
+   "want": "countWordTargets",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "which sentences run on too long",
+   "set": "holdout",
+   "want": "findLongSentences",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "index the headings in this doc",
+   "set": "holdout",
+   "want": "generateTableOfContents",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "turn my indented notes into markdown",
+   "set": "holdout",
+   "want": "outlineToMarkdown",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "singular form of criteria",
+   "set": "holdout",
+   "want": "singularize",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "what shade of blue is #4682B4 nearest to",
+   "set": "holdout",
+   "want": "nearestNamedColor",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "where does 2x squared minus 7x plus 3 cross zero",
+   "set": "holdout",
+   "want": "solveQuadratic",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 170
+  },
+  {
+   "message": "find me some pages on the Voyager probes",
+   "set": "holdout",
+   "want": "webSearch",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "write me a poem about the sea",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "summarise this email for me",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "i had a really rough day today",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "explain how a diesel engine works",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "what should i name my cat",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "translate good morning into portuguese",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "brainstorm ideas for a birthday party",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "help me word this apology to my landlord",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "why do cats knead blankets",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "what do you think of this opening paragraph",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "give me a metaphor for burnout",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "i keep procrastinating and i do not know why",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "rewrite this so it sounds less formal",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "tell me about the fall of constantinople",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "is it worth learning rust in 2026",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 167
+  },
+  {
+   "message": "my code throws a null pointer, any ideas",
+   "set": "no-skill",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "what is the difference between affect and effect",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "suggest a name for a bakery",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "describe the smell of rain on hot pavement",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "convert me into a morning person",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "how many people does it take to change a lightbulb",
+   "set": "no-skill",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 167
+  },
+  {
+   "message": "what a day it has been",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "talk me through a breathing exercise",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "draft a thank you note to my team",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "what are some good podcasts about history",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "my streak of bad luck finally ended",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "the colour palette in that film was gorgeous",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "i need to compress my schedule this week",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "hash browns or fried, which is better",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "she has a real gift for languages",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "the sentiment in the room was tense",
+   "set": "no-skill",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "shuffle along, nothing to see here",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "i want to pick up the pace at work",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "that regex course was a waste of money",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "my rota at work is a nightmare",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "she got a first in her degree",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "he is in his prime right now",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "the whole project is an anagram of chaos",
+   "set": "no-skill",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "i keep a list of things i am grateful for",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "the morse code scene in that film was inaccurate",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 166
+  },
+  {
+   "message": "my bank keeps sending me letters about nothing",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "is a table of contents even necessary these days",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "i cannot spell to save my life",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "the timezone difference is killing our team",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "what a difference a year makes",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "my password manager keeps logging me out",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "that airport was chaos yesterday",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "chemistry was never my strong subject",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "the interest rate news is depressing",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "i should really schedule more downtime",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "we need to split up before this gets worse",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "my average day starts with coffee and regret",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "he is a real outlier in that family",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "she has her priorities sorted",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "that film does not scale well to a small screen",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "i am trying to convert my brother to jazz",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "the discount store on the corner closed down",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "the tip of the iceberg, honestly",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "tax season always makes me anxious",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "our interest in the project has faded",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "the root of the problem is trust",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "she factored in the weather and cancelled",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "the ratio of talk to action here is grim",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "the whole summer vanished before i noticed",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "my calendar is a wall of blue",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "the countdown to the holidays has begun in my head",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "keep the streak alive, whatever it takes",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "it was a coin toss who would get the job",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "the dice were loaded from the start",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "that outline she gave in the meeting was thin",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "the headings in that report told the whole story",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "lorem ipsum is what my brain feels like today",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "this password policy is driving everyone mad",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "the pattern here is obvious, he never listens",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "the table by the window is always taken",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "the markup on those drinks is criminal",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "wrap it up, we are out of time",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "that speech was a word salad",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 162
+  },
+  {
+   "message": "the two sisters could not be more different",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "he made a hash of the presentation",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "his joke did not survive the retelling",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "quadratic is a word i have not heard since school",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "we walked the perimeter of the park twice",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "the business days drag when the boss is around",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 165
+  },
+  {
+   "message": "binary thinking is what got us into this",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "my morse code is rusty",
+   "set": "no-skill",
+   "said": "YES",
+   "asks": true,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "the url is broken and nobody cares",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "she is a first-rate mechanic",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "why is json so much nicer than xml",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "compose a haiku about a broken umbrella",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "what happened at the battle of hastings",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  },
+  {
+   "message": "give me feedback on my cover letter",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "settle this: pineapple on pizza, yes or no",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 167
+  },
+  {
+   "message": "sketch me an itinerary for three days in kyoto",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 168
+  },
+  {
+   "message": "what is the plot of the odyssey in a nutshell",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 167
+  },
+  {
+   "message": "cheer me up, it has been a long week",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 167
+  },
+  {
+   "message": "recommend a novel for a long flight",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "explain the offside rule like i am five",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 164
+  },
+  {
+   "message": "how do i tell my flatmate the kitchen is a mess",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 169
+  },
+  {
+   "message": "what makes sourdough rise",
+   "set": "no-skill",
+   "said": "NO",
+   "asks": false,
+   "clear": true,
+   "ms": 163
+  }
+ ]
+}

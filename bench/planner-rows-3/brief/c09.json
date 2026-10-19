@@ -1,0 +1,364 @@
+{
+ "task": "rows D94 unblocks",
+ "expectedValue": "about 16 rows with probabilities in fifths and eighths (a fifth, two fifths, three fifths, four fifths, an eighth, three/five/seven eighths, N out of 5 or 8), every outcome stated so the probabilities sum to 1; worked out with the fraction rule",
+ "named_quantities": "about 40 rows across convertLength, convertTime, paceCalculate, splitTimes, unitPrice, scaleRecipe, pickRandom, generatePassphrase where the message has NO digits at all and the number comes from a named quantity (a marathon, a half marathon, a fortnight, a dozen, a couple, an hour\u2026), worked out with the quantity rule",
+ "skills": [
+  {
+   "name": "expectedValue",
+   "category": "decisions",
+   "needsNetwork": false,
+   "card": "expectedValue \u2014 Work out the expected value of a set of outcomes and their probabilities.\n  needs: outcomes: array\n  e.g. \"expected value of a coin flip for 100 or minus 50\" \u2192 {\"outcomes\":[{\"value\":100,\"probability\":0.5},{\"value\":-50,\"probability\":0.5}]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "outcomes"
+    ],
+    "properties": {
+     "outcomes": {
+      "type": "array",
+      "label": "outcomes",
+      "minItems": 1,
+      "maxItems": 50,
+      "prompt": "What are the outcomes and their probabilities?"
+     }
+    }
+   },
+   "examples": [
+    "expected value of a coin flip for 100 or minus 50",
+    "what is the expected value of this lottery",
+    "expected value across three outcomes",
+    "expected payout with percentages",
+    "expected value of a certain outcome"
+   ]
+  },
+  {
+   "name": "convertLength",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertLength \u2014 Convert a distance or length \u2014 millimetres, centimetres, metres, kilometres, inches, feet, yards, miles.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many km is 26.2 miles\" \u2192 {\"amount\":26.2,\"from\":\"miles\",\"to\":\"km\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "length"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "how many km is 26.2 miles",
+    "convert 6 feet to cm",
+    "what is 100 metres in yards",
+    "12 inches in mm",
+    "how far is 5 km in miles"
+   ]
+  },
+  {
+   "name": "convertTime",
+   "category": "conversion",
+   "needsNetwork": false,
+   "card": "convertTime \u2014 Convert a length of time between units \u2014 how long 210 minutes runs to in hours.\n  needs: amount: number, from: string, to: string\n  e.g. \"how many hours is 5400 seconds\" \u2192 {\"amount\":5400,\"from\":\"s\",\"to\":\"h\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "carry": true,
+      "prompt": "How much should I convert?",
+      "label": "duration"
+     },
+     "from": {
+      "type": "string",
+      "prompt": "Converting from which unit?",
+      "label": "from unit"
+     },
+     "to": {
+      "type": "string",
+      "prompt": "Converting to which unit?",
+      "label": "to unit"
+     }
+    }
+   },
+   "examples": [
+    "how many hours is 5400 seconds",
+    "convert 3 days to hours",
+    "90 minutes in seconds",
+    "how many weeks is 100 days",
+    "2.5 hours in minutes",
+    "a 210 minute film is how many hours",
+    "how long is 3 hours in minutes"
+   ]
+  },
+  {
+   "name": "paceCalculate",
+   "category": "health",
+   "needsNetwork": false,
+   "card": "paceCalculate \u2014 Convert between running pace, speed and finish time over a distance.\n  needs: distanceKm: number\n  optional: paceSecondsPerKm: number, timeSeconds: number\n  e.g. \"finish time for a 10k at 5:30 per km\" \u2192 {\"distanceKm\":10,\"paceSecondsPerKm\":330}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "distanceKm"
+    ],
+    "properties": {
+     "distanceKm": {
+      "type": "number",
+      "label": "distance (km)",
+      "exclusiveMinimum": 0,
+      "prompt": "How far, in kilometres?"
+     },
+     "paceSecondsPerKm": {
+      "type": "number",
+      "label": "pace (seconds per km)",
+      "exclusiveMinimum": 0,
+      "description": "seconds per kilometre"
+     },
+     "timeSeconds": {
+      "type": "number",
+      "label": "finish time (seconds)",
+      "exclusiveMinimum": 0,
+      "description": "total finish time in seconds"
+     }
+    }
+   },
+   "examples": [
+    "finish time for a 10k at 5:30 per km",
+    "what pace is a 3 hour marathon",
+    "pace for a 5k in 25 minutes",
+    "half marathon at 6 minutes per km",
+    "finish time for a parkrun at 4:45 per km"
+   ]
+  },
+  {
+   "name": "splitTimes",
+   "category": "health",
+   "needsNetwork": false,
+   "card": "splitTimes \u2014 Work out the pace and split times needed to finish a distance in a target time.\n  needs: distance: number, time: string\n  optional: unit: string\n  e.g. \"split times for a 10k in 50 minutes\" \u2192 {\"distance\":10,\"time\":\"50:00\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "distance",
+     "time"
+    ],
+    "properties": {
+     "distance": {
+      "type": "number",
+      "label": "distance",
+      "minimum": 0.1,
+      "maximum": 1000,
+      "prompt": "How far?"
+     },
+     "time": {
+      "type": "string",
+      "label": "target time",
+      "prompt": "What is the target time? Write it as 50:00 or 1:45:00."
+     },
+     "unit": {
+      "type": "string",
+      "label": "distance unit",
+      "enum": [
+       "km",
+       "miles"
+      ],
+      "default": "km"
+     }
+    }
+   },
+   "examples": [
+    "split times for a 10k in 50 minutes",
+    "what pace do I need for a 5k in 22:30",
+    "pace for 3 miles in 24 minutes",
+    "splits for 4km in 20 minutes",
+    "pace for 2km in 9 minutes"
+   ]
+  },
+  {
+   "name": "unitPrice",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "unitPrice \u2014 Work out the price per unit \u2014 per litre, per kilo, per item \u2014 so sizes can be compared.\n  needs: price: number, quantity: number\n  optional: unit: string\n  e.g. \"what is the price per litre of 2.4 litres for 3.60\" \u2192 {\"price\":3.6,\"quantity\":2.4,\"unit\":\"litre\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "price",
+     "quantity"
+    ],
+    "properties": {
+     "price": {
+      "type": "number",
+      "label": "price",
+      "carry": true,
+      "minimum": 0,
+      "prompt": "What does it cost?"
+     },
+     "quantity": {
+      "type": "number",
+      "label": "quantity",
+      "exclusiveMinimum": 0,
+      "prompt": "How much do you get?"
+     },
+     "unit": {
+      "type": "string",
+      "label": "unit",
+      "default": "unit",
+      "description": "what the quantity is measured in"
+     }
+    }
+   },
+   "examples": [
+    "what is the price per litre of 2.4 litres for 3.60",
+    "price per kilo for 750g at 4.20",
+    "cost per item for a pack of 12 at 5.99",
+    "unit price of 500ml for 1.25",
+    "price per sheet for 240 sheets at 2.40",
+    "what does that work out to per litre: 3.60 for 1.5 litres"
+   ]
+  },
+  {
+   "name": "scaleRecipe",
+   "category": "everyday",
+   "needsNetwork": false,
+   "card": "scaleRecipe \u2014 Multiply every ingredient amount in a recipe by a factor, rounded to sensible kitchen fractions.\n  needs: ingredients: array, factor: number\n  e.g. \"double this recipe: 2 cups flour, 1 egg, 3/4 tsp salt\" \u2192 {\"ingredients\":[\"2 cups flour\",\"1 egg\",\"3/4 tsp salt\"],\"factor\":2}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "ingredients",
+     "factor"
+    ],
+    "properties": {
+     "ingredients": {
+      "type": "array",
+      "label": "ingredients",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1,
+      "prompt": "Which ingredients should I scale? One per line."
+     },
+     "factor": {
+      "type": "number",
+      "label": "multiply by",
+      "exclusiveMinimum": 0,
+      "prompt": "By what factor? (2 to double, 0.5 to halve)"
+     }
+    }
+   },
+   "examples": [
+    "double this recipe: 2 cups flour, 1 egg, 3/4 tsp salt",
+    "halve these: 1 cup sugar, 2 tbsp butter, 4 eggs",
+    "scale by 1.5: 500 g pasta, 200 ml cream",
+    "triple 1\u00bd cups oats and \u2153 cup honey",
+    "double a list with a line that has no amount"
+   ]
+  },
+  {
+   "name": "pickRandom",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "pickRandom \u2014 Pick one or more items at random from a list, from a seed so the pick can be repeated.\n  needs: items: array, seed: integer\n  optional: count: integer, allowRepeats: boolean\n  e.g. \"pick one of these at random with seed 7\" \u2192 {\"items\":[\"tea\",\"coffee\",\"water\"],\"seed\":7}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items",
+     "seed"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 1,
+      "prompt": "Which list should I pick from?"
+     },
+     "seed": {
+      "type": "integer",
+      "label": "repeatable seed",
+      "minimum": 0,
+      "prompt": "Which seed? Any whole number \u2014 the same seed always picks the same thing."
+     },
+     "count": {
+      "type": "integer",
+      "label": "how many",
+      "minimum": 1,
+      "maximum": 1000,
+      "default": 1
+     },
+     "allowRepeats": {
+      "type": "boolean",
+      "label": "allow repeats",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "pick one of these at random with seed 7",
+    "choose a name from the list, seed 1",
+    "pick 2 winners with seed 42",
+    "pick 3 allowing repeats, seed 5",
+    "pick from a one item list"
+   ]
+  },
+  {
+   "name": "generatePassphrase",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "generatePassphrase \u2014 Generate a memorable passphrase from random words.\n  optional: words: integer, separator: string, capitalise: boolean, number: boolean\n  e.g. \"generate a passphrase\" \u2192 {}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "words": {
+      "type": "integer",
+      "label": "number of words",
+      "minimum": 2,
+      "maximum": 12,
+      "default": 5
+     },
+     "separator": {
+      "type": "string",
+      "label": "separator",
+      "maxLength": 3,
+      "default": "-"
+     },
+     "capitalise": {
+      "type": "boolean",
+      "label": "capitalise",
+      "default": false
+     },
+     "number": {
+      "type": "boolean",
+      "label": "add a number",
+      "default": false,
+      "description": "add a two-digit number on the end"
+     }
+    }
+   },
+   "examples": [
+    "generate a passphrase",
+    "make a memorable password from words",
+    "passphrase with six words separated by dots",
+    "generate a capitalised passphrase with a number",
+    "a long passphrase of eight words"
+   ]
+  }
+ ]
+}

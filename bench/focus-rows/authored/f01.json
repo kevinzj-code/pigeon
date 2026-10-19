@@ -1,0 +1,1056 @@
+{
+  "batch": "f01",
+  "domain": "towns, villages and districts",
+  "cases": [
+    {
+      "question": "who is the mayor of Harrowfield",
+      "passage": "Harrowfield is a market town in the Calder Vale district. It received its royal charter in 1384 and grew rich on the wool trade. The current mayor is Odile Fenwright, who was elected in 2023. Her predecessor, Tomas Brack, served two terms.",
+      "sentence": 3,
+      "quote": "The current mayor is Odile Fenwright",
+      "looking_for": "the person who holds the office of mayor now"
+    },
+    {
+      "question": "who is the current mayor of Wendlecombe",
+      "passage": "Wendlecombe is a town on the southern edge of the Ashby Downs. It was granted borough status in 1612. Its first mayor was Gideon Pell, a local tanner who paid for the market cross. The town hall on Market Row dates from 1790.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the present mayor"
+    },
+    {
+      "question": "what county is Lisworth in",
+      "passage": "Lisworth is a village and civil parish in the county of Ormshire. It lies on the Penn Brook, four miles west of the town of Tamsford. The parish church of All Souls was rebuilt in 1866. At the last census the parish had 1,204 residents.",
+      "sentence": 1,
+      "quote": "in the county of Ormshire",
+      "looking_for": "the county the village lies in"
+    },
+    {
+      "question": "population of Grenmouth",
+      "passage": "Grenmouth is a fishing town at the mouth of the River Gren. The harbour was built in 1702 by the engineer Silas Corrow. The town has a population of 8,430 according to the 2021 census. Its lifeboat station has been in service since 1859.",
+      "sentence": 3,
+      "quote": "has a population of 8,430",
+      "looking_for": "the number of people living in the town"
+    },
+    {
+      "question": "when was Ostervik founded",
+      "passage": "Ostervik is a coastal town in the Fjellmark region. It was founded in 1214 as a trading post by merchants from Holmstad. The town received its municipal charter in 1838. Today it has about 12,000 inhabitants.",
+      "sentence": 2,
+      "quote": "It was founded in 1214",
+      "looking_for": "the year the town was founded"
+    },
+    {
+      "question": "Pellbury population",
+      "passage": "Pellbury is a village in the Thrale Valley. In 1851 it had 640 inhabitants, most of them employed at the quarry. The quarry closed in 1931 and several families left for the cities. The village is now known for its annual cheese fair.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the current population of the village"
+    },
+    {
+      "question": "what is Merrowgate",
+      "passage": "Merrowgate is a district of the city of Callenford, lying north of the river. It was a separate village until it was absorbed into the city in 1924. The district is home to the Callenford Botanic Garden. Its main street, Quarry Lane, is lined with Victorian terraces.",
+      "sentence": 1,
+      "quote": "is a district of the city of Callenford",
+      "looking_for": "what kind of place Merrowgate is"
+    },
+    {
+      "question": "what river is Dunhallow on",
+      "passage": "Dunhallow is a small town in the hill country of Carrick West. It stands on the River Arne, at the point where it is joined by the Tullagh stream. The town grew up around a ford used by drovers in the 1600s. A stone bridge replaced the ford in 1771.",
+      "sentence": 2,
+      "quote": "It stands on the River Arne",
+      "looking_for": "the name of the river the town stands on"
+    },
+    {
+      "question": "who founded Saltreach",
+      "passage": "Saltreach is a village on the tidal flats of the Merle estuary. It is known for its salt pans, which were worked until 1950. The village has a primary school and a single public house, the Anchor. It was founded in 1561 by Agnes Wrayburn, who bought the marsh and drained the first pans.",
+      "sentence": 4,
+      "quote": "by Agnes Wrayburn",
+      "looking_for": "the person who founded the village"
+    },
+    {
+      "question": "who is the chair of Fallowmere parish council",
+      "passage": "Fallowmere is a village and civil parish in the Wyre Hollow district. The parish council meets monthly in the village hall. The hall was opened in 1932 by Lady Constance Pryor. The council clerk is Martin Oake, who has held the post since 2015.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who chairs the parish council"
+    },
+    {
+      "question": "how high is Kesterhope above sea level",
+      "passage": "Kesterhope is a village in the uplands of the Ravel Fells. At 412 metres above sea level, it is the highest village in the district. The nearby summit of Grey Crag rises to 761 metres. The village had a lead mine that closed in 1887.",
+      "sentence": 2,
+      "quote": "At 412 metres above sea level",
+      "looking_for": "the elevation of the village"
+    },
+    {
+      "question": "what is the twin town of Bramhurst",
+      "passage": "Bramhurst is a market town in the Lowmere district. It has a population of about 15,000 and a weekly market on Thursdays. Since 1974 the town has been twinned with the French town of Saint-Avrel. A second link with Kolbersdorf was discussed in 2009 but never agreed.",
+      "sentence": 3,
+      "quote": "twinned with the French town of Saint-Avrel",
+      "looking_for": "the town Bramhurst is twinned with"
+    },
+    {
+      "question": "what district is Hollin Cross in",
+      "passage": "Hollin Cross is a hamlet in the Easterdale district, about two miles from the village of Thornby. It consists of a farm, a chapel and six cottages. The chapel was built in 1843 for quarry workers. The hamlet takes its name from a holly-wood cross that once stood at the crossroads.",
+      "sentence": 1,
+      "quote": "is a hamlet in the Easterdale district",
+      "looking_for": "the district the hamlet belongs to"
+    },
+    {
+      "question": "when did Calverley Bridge become a town",
+      "passage": "Calverley Bridge is a town in the Marrow Levels. It was granted town status in 1897 after a petition by its ratepayers. Before that it was a township of the parish of Ashwick. The railway arrived in 1862 and the population tripled within thirty years.",
+      "sentence": 2,
+      "quote": "It was granted town status in 1897",
+      "looking_for": "the year it was made a town"
+    },
+    {
+      "question": "what is the area of Tresswick",
+      "passage": "Tresswick is a coastal village in the parish of Polgarra. The parish of Polgarra, which includes Tresswick and four other villages, covers 48 square kilometres. The village is known for its slate harbour and its regatta. About 900 people live there all year round.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the area of the village itself"
+    },
+    {
+      "question": "what was Northwyn Quay formerly called",
+      "passage": "Northwyn Quay is a district of the port city of Selham. Until 1908 it was known as Pickle Marsh. The name was changed when the new docks opened. The district is now mostly residential, with about 6,000 inhabitants.",
+      "sentence": 2,
+      "quote": "it was known as Pickle Marsh",
+      "looking_for": "the earlier name of the district"
+    },
+    {
+      "question": "what is the capital of the Vellan district",
+      "passage": "Aldmere is the administrative centre of the Vellan district. It lies on a low ridge between the rivers Vell and Sarne. The district council moved its offices there in 1974 from the smaller town of Hessop. Aldmere has a population of 22,500.",
+      "sentence": 1,
+      "quote": "is the administrative centre of the Vellan district",
+      "looking_for": "the town that is the district's seat"
+    },
+    {
+      "question": "what is the capital of the Orrin district",
+      "passage": "The Orrin district is a rural district in the north of Tallow County. Until 1974 its council sat in the town of Brackwater. The district contains 31 parishes and three market towns. Its largest settlement is Felling Green, with about 9,000 people.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the town that is the district's seat now"
+    },
+    {
+      "question": "how far is Ninebarrow from the sea",
+      "passage": "Ninebarrow is a village on the chalk downs of Wessmoor. It lies eleven miles inland from the coast at Sharpe Head. The village takes its name from a group of nine burial mounds on the ridge above it. The tallest of these is about four metres high.",
+      "sentence": 2,
+      "quote": "eleven miles inland from the coast",
+      "looking_for": "the distance from the coast"
+    },
+    {
+      "question": "who is the reeve of Tamarack Falls",
+      "passage": "Tamarack Falls is a rural municipality in the Prairie North region. It was incorporated in 1911 and covers a large area of grain farms. The municipal office is in the hamlet of Orlick. The reeve is Harlan Mossop, first elected in 2018. The previous reeve, Edna Kurtz, served for sixteen years.",
+      "sentence": 4,
+      "quote": "The reeve is Harlan Mossop",
+      "looking_for": "the person who is reeve now"
+    },
+    {
+      "question": "where is Quillon",
+      "passage": "Quillon is a hill village in the Serra Alta region, perched above the valley of the Lisca. It is reached by a single road that climbs from the town of Ferrano. The village has a Romanesque church and a ruined tower. In summer its population doubles with returning emigrants.",
+      "sentence": 1,
+      "quote": "is a hill village in the Serra Alta region",
+      "looking_for": "the location of the village"
+    },
+    {
+      "question": "what is the population of Brindlecote",
+      "passage": "Brindlecote is a village in the Holm district. It was recorded as a settlement of twelve households in 1086. The village now has a population of 2,316. Its primary school takes children from three neighbouring parishes.",
+      "sentence": 3,
+      "quote": "now has a population of 2,316",
+      "looking_for": "the number of residents now"
+    },
+    {
+      "question": "who drew up the plan for Ashenwold",
+      "passage": "Ashenwold is a planned town in the Mere Valley. The Ashenwold Development Corporation was set up in 1946 to build it, with Gerald Thorne as its first chairman. The first residents moved into the Southgate estate in 1951. The town is now home to about 40,000 people.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who designed the town plan"
+    },
+    {
+      "question": "what is Wickerby known for",
+      "passage": "Wickerby is a village in the fen country of the Sedge Fen district. It is best known for its basket weaving, which has been carried on there since the 1700s. The willow beds along the Ouse Drain supply most of the material. A small museum in the old school tells the story of the craft.",
+      "sentence": 2,
+      "quote": "best known for its basket weaving",
+      "looking_for": "what the village is famous for"
+    },
+    {
+      "question": "how many wards does Kettlehurst have",
+      "passage": "Kettlehurst is a borough in the south of the Brannock conurbation. It was formed in 1965 by merging the towns of Kettle and Whinhurst. For elections it is divided into 21 wards, each returning three councillors. The borough's population is about 190,000.",
+      "sentence": 3,
+      "quote": "divided into 21 wards",
+      "looking_for": "the number of electoral wards"
+    },
+    {
+      "question": "population of Fennick Parva",
+      "passage": "Fennick Parva is a hamlet of 84 people in the parish of Fennick Magna, in the Ure district. It has no shop or church, and residents use the facilities in the larger village a mile away. Fennick Magna itself has about 1,100 residents. The two settlements share a village hall built in 1958.",
+      "sentence": 1,
+      "quote": "is a hamlet of 84 people",
+      "looking_for": "the number of people living there"
+    },
+    {
+      "question": "who is the mayor of Corrow Bay",
+      "passage": "Corrow Bay is a seaside town on the Lantern Coast. It became a resort after the railway arrived in 1871. The town's first mayor, Henry Absalom, laid out the promenade in 1885. A statue of him stands outside the pier entrance.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who is mayor now"
+    },
+    {
+      "question": "what is the motto of Raskeld",
+      "passage": "Raskeld is a town in the north of the Hart Riding. Its motto, 'By Loom and Furnace', recalls the textile and iron trades on which it grew. The town's coat of arms was granted in 1903. The iron works closed in 1977, and the last mill in 1989.",
+      "sentence": 2,
+      "quote": "By Loom and Furnace",
+      "looking_for": "the town's motto"
+    },
+    {
+      "question": "when did Lower Tarne get electricity",
+      "passage": "Lower Tarne is a village in the Tarne valley, downstream of Upper Tarne. It is a scattered settlement of farms and cottages along the valley road. The chapel was built in 1824 and the school in 1872. The village was connected to the telephone network in 1931. Mains electricity did not reach it until 1957.",
+      "sentence": 5,
+      "quote": "Mains electricity did not reach it until 1957",
+      "looking_for": "the year electricity arrived"
+    },
+    {
+      "question": "what is the main industry in Gorsby",
+      "passage": "Gorsby is a town in the Cleve district with about 11,000 inhabitants. Coal mining was its main employer until the colliery closed in 1985. Today the largest industry is food processing, led by the Halworth biscuit factory. The town also has a large distribution centre on its eastern edge.",
+      "sentence": 3,
+      "quote": "the largest industry is food processing",
+      "looking_for": "the town's main industry today"
+    },
+    {
+      "question": "what is the main industry in Rendle Moor",
+      "passage": "Rendle Moor is a former mill town in the Coln valley. In the nineteenth century almost every family worked in the cotton mills. The last of the mills, Prospect Mill, closed in 1968 and was converted into flats. The town hall clock was a gift from the mill owner Samuel Rendle.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the town's main industry today"
+    },
+    {
+      "question": "who is the mayor of Lantry",
+      "passage": "Lantry is a commune in the Haut-Velin department. The mayor of Lantry is Josephine Arnaud, re-elected in 2020. The commune covers 14 square kilometres of vineyards and woodland. Its church of Saint-Martin dates from the twelfth century.",
+      "sentence": 2,
+      "quote": "The mayor of Lantry is Josephine Arnaud",
+      "looking_for": "the name of the current mayor"
+    },
+    {
+      "question": "what is the largest town in the Cardle district",
+      "passage": "Pennick is the largest town in the Cardle district, with a population of about 31,000. It lies on the main road between Ashport and Ullerby. The district council is based in the smaller town of Strand Ferry. Pennick's market dates back to 1252.",
+      "sentence": 1,
+      "quote": "Pennick is the largest town in the Cardle district",
+      "looking_for": "the name of the district's biggest town"
+    },
+    {
+      "question": "when did the railway reach Haverleigh",
+      "passage": "Haverleigh is a market town in the Ambrey Vale. Its market charter was granted in 1288. The railway reached the town in 1859, and a cattle market was built beside the station. The line closed to passengers in 1964.",
+      "sentence": 3,
+      "quote": "The railway reached the town in 1859",
+      "looking_for": "the year the railway arrived"
+    },
+    {
+      "question": "which side of the river is Bessamy on",
+      "passage": "Bessamy is a district of the city of Port Allard. It lies on the east bank of the Allard River, opposite the old town. The district grew up around the shipyards in the 1890s. Its population is about 28,000.",
+      "sentence": 2,
+      "quote": "on the east bank of the Allard River",
+      "looking_for": "the side of the river the district is on"
+    },
+    {
+      "question": "population of Strathorrin village",
+      "passage": "Strathorrin is a village in the glen of the same name in the Ardnish district. The glen was home to more than 2,000 people before the clearances of the 1820s. The Ardnish district as a whole has 6,300 residents. The village has a hotel, a shop and a small distillery.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of people in the village now"
+    },
+    {
+      "question": "what is the name of the main square in Velosa",
+      "passage": "Velosa is a town in the Mardena province. It grew up around a bridge over the river Tasca in the twelfth century. The old town is enclosed by walls built in 1340. Its main square is the Piazza dei Tintori, named after the dyers who once worked there. A weekly market is held there every Saturday.",
+      "sentence": 4,
+      "quote": "Its main square is the Piazza dei Tintori",
+      "looking_for": "the name of the main square"
+    },
+    {
+      "question": "who founded Port Elvery",
+      "passage": "Port Elvery is a harbour town on the Corran Firth. It was founded in 1764 by the merchant James Elvery as a port for the export of linen. His son Robert built the town's first church. The harbour was enlarged in 1830.",
+      "sentence": 2,
+      "quote": "by the merchant James Elvery",
+      "looking_for": "the person who founded the town"
+    },
+    {
+      "question": "what kind of place is Throstle Nest",
+      "passage": "Throstle Nest is an inner suburb of the city of Wexcombe, about two miles south of the centre. It was farmland until the 1880s, when terraced houses were built for workers at the Hallam ironworks. The suburb is served by Throstle Nest tram stop. Its population is about 9,800.",
+      "sentence": 1,
+      "quote": "is an inner suburb of the city of Wexcombe",
+      "looking_for": "the kind of place it is"
+    },
+    {
+      "question": "how big is Mirefield",
+      "passage": "Mirefield is a parish in the Lowe district. It contains the village of Mirefield and the hamlets of Oxcote and Brayne. The parish covers 1,830 hectares, mostly of arable farmland. Its population at the 2021 census was 1,077.",
+      "sentence": 3,
+      "quote": "The parish covers 1,830 hectares",
+      "looking_for": "the area of the parish"
+    },
+    {
+      "question": "who is the mayor of Sallowby",
+      "passage": "Sallowby is a town in the Wendle district. In 2024 the town council elected Priya Lomax as deputy mayor. The council meets in the Assembly Rooms on Bridge Street. The town's annual carnival is held in July.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who holds the mayoralty"
+    },
+    {
+      "question": "what are people from Garrowby called",
+      "passage": "Garrowby is a town in the Ellerdale district. People from the town are known as Garrowbians, or more informally as Mudlarks. The nickname comes from the tidal mud of the creek. The town had a population of 7,400 in 2021.",
+      "sentence": 2,
+      "quote": "known as Garrowbians",
+      "looking_for": "the name for people from the town"
+    },
+    {
+      "question": "when was Inchmorrow made a burgh",
+      "passage": "Inchmorrow is a small town on the north shore of Loch Senna. It developed around a ferry crossing and a medieval chapel. The chapel was replaced by a parish church in 1683. Fishing and boatbuilding were the main trades for two centuries. The town was made a burgh of barony in 1704.",
+      "sentence": 5,
+      "quote": "was made a burgh of barony in 1704",
+      "looking_for": "the year it became a burgh"
+    },
+    {
+      "question": "who is the mayor of Kelderhoven",
+      "passage": "Kelderhoven is a municipality in the province of Westerlaan. It consists of the town of Kelderhoven and five villages. Its mayor is Marten de Vries-Oudeman, appointed in 2019. The municipality has about 26,000 inhabitants.",
+      "sentence": 3,
+      "quote": "Its mayor is Marten de Vries-Oudeman",
+      "looking_for": "the person who is mayor"
+    },
+    {
+      "question": "what is Little Sorrell",
+      "passage": "Little Sorrell is a deserted medieval village in the parish of Great Sorrell. Only earthworks and the ruined chancel of its church survive. The village was abandoned in the 1400s after the land was turned over to sheep. The site is now protected as an ancient monument.",
+      "sentence": 1,
+      "quote": "is a deserted medieval village",
+      "looking_for": "what Little Sorrell is"
+    },
+    {
+      "question": "what is the population of Elmthwaite",
+      "passage": "Elmthwaite is a village in the Ravel district, set on a terrace above the River Cawl. The village grew up around a corn mill first recorded in 1302. In 1801 it had 312 inhabitants. The mill closed in 1911, and the building is now a holiday let.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of people living there now"
+    },
+    {
+      "question": "when was Brackenholt founded",
+      "passage": "Brackenholt is a village in the Mardle Hills. It was founded around 1150 as a grange of Fountwell Abbey. The abbey was dissolved in 1538 and its lands were sold to the Garnet family. The Garnets built Brackenholt Hall in 1602.",
+      "sentence": 2,
+      "quote": "It was founded around 1150",
+      "looking_for": "the founding date of the village"
+    },
+    {
+      "question": "population of the Sennet district",
+      "passage": "The Sennet district is a local government district in the east of Corbin County. It was created in 1974 from the borough of Sennet Bridge and two rural districts. Its council offices are in Sennet Bridge, the largest town. The district has a population of 104,300. It covers an area of 520 square kilometres.",
+      "sentence": 4,
+      "quote": "has a population of 104,300",
+      "looking_for": "the number of people in the district"
+    },
+    {
+      "question": "who is the chair of Ullock parish council",
+      "passage": "Ullock is a village and civil parish in the Fell End district. The parish council has seven members and meets in the Reading Room. The chair of the council is Bethan Clewes, elected in May 2024. The clerk is Ian Pryce.",
+      "sentence": 3,
+      "quote": "The chair of the council is Bethan Clewes",
+      "looking_for": "the person who chairs the parish council"
+    },
+    {
+      "question": "what river flows through Hartsmere",
+      "passage": "Hartsmere is a village on the edge of a small lake, the Harts Mere. The village lies three miles south of the River Thole, which forms the district boundary. Its church has a Norman font. Hartsmere has a population of about 700.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the river running through the village"
+    },
+    {
+      "question": "how old is Wrenfold",
+      "passage": "Wrenfold is a village in the Saxby district. It was first recorded in a charter of 956, making it one of the oldest settlements in the county. The church tower was rebuilt in 1490. The village school closed in 1972.",
+      "sentence": 2,
+      "quote": "first recorded in a charter of 956",
+      "looking_for": "how far back the village is recorded"
+    },
+    {
+      "question": "what is the county town of Lessingshire",
+      "passage": "Hollowell is the county town of Lessingshire and its largest settlement. It lies on the River Lessing, about 30 miles from the coast. The town's castle was built in the 1080s. Its cattle market was once the busiest in the region.",
+      "sentence": 1,
+      "quote": "Hollowell is the county town of Lessingshire",
+      "looking_for": "the name of the county town"
+    },
+    {
+      "question": "what is the old name of Kingsferry",
+      "passage": "Kingsferry is a town at the head of the Morva estuary. The town grew around a ferry granted to the crown in the 1200s. Until 1342 the settlement was called Ottersfleet. The ferry was replaced by a toll bridge in 1824.",
+      "sentence": 3,
+      "quote": "the settlement was called Ottersfleet",
+      "looking_for": "the town's former name"
+    },
+    {
+      "question": "who founded Thornmere",
+      "passage": "Thornmere is a village in the Bray Ridge district. Its manor was owned by the Haldane family from 1410 until 1922. The present church was built by Elias Haldane in 1688. The village has a population of about 1,400.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who founded the village"
+    },
+    {
+      "question": "what is the elevation of Cairnloch",
+      "passage": "Cairnloch is a village in the Monadh Ruadh hills. It stands at an elevation of 340 metres, on a shelf above Loch Carran. The village was built in 1772 as a settlement for disbanded soldiers. Its population is about 250.",
+      "sentence": 2,
+      "quote": "It stands at an elevation of 340 metres",
+      "looking_for": "the height of the village above sea level"
+    },
+    {
+      "question": "who is the mayor of Pellow",
+      "passage": "Pellow is a town in the Kerrow district on the Vane Coast. The town was the seat of the Kerrow district council until 2009. Its mayor is chosen each May by the town council from among its members. The mayor for 2025 to 2026 is Ada Rowse, a retired teacher. Pellow has around 9,000 residents.",
+      "sentence": 4,
+      "quote": "The mayor for 2025 to 2026 is Ada Rowse",
+      "looking_for": "the person serving as mayor"
+    },
+    {
+      "question": "population of Fernacombe Abbas",
+      "passage": "Fernacombe Abbas is a village of about 600 people in the Dennet valley. The village takes the second part of its name from the abbey that owned it before 1539. Its church contains a fourteenth-century wall painting. A spring fair has been held on the green since 1460.",
+      "sentence": 1,
+      "quote": "is a village of about 600 people",
+      "looking_for": "the number of people in the village"
+    },
+    {
+      "question": "which region is Valdrena in",
+      "passage": "Valdrena is a small town known for its terraced vineyards and its stone bridge. It has about 3,500 inhabitants and a weekly market. The town lies in the Alta Corvina region, close to the border with Sarvenia. Its wines have been exported since the 1800s.",
+      "sentence": 3,
+      "quote": "lies in the Alta Corvina region",
+      "looking_for": "the region the town is in"
+    },
+    {
+      "question": "which region is Montaso in",
+      "passage": "Montaso is a hill town famous for its truffle market. The town was once the summer residence of the bishops of Carela. It is linked by a mountain road to the coastal city of Belmira, 40 kilometres away. The truffle market is held every Sunday from October to December.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the region the town belongs to"
+    },
+    {
+      "question": "who designed Wyvern Green",
+      "passage": "Wyvern Green is a garden village on the outskirts of Ambersley. It was designed by the architect Clara Moffat and built between 1910 and 1925. The land was bought by the soap maker Joseph Tull, who wanted homes for his workers. The village has about 1,800 homes and a central green.",
+      "sentence": 2,
+      "quote": "designed by the architect Clara Moffat",
+      "looking_for": "the person who designed the village"
+    },
+    {
+      "question": "who paid for Pippin Garden Village",
+      "passage": "Pippin Garden Village is a planned settlement on the edge of Hurlstone. It was designed by the firm of Bowes and Lattimer between 1912 and 1914. Its cottages were built in local brick with steep tiled roofs. The village was given conservation area status in 1977.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person or body that paid for the village"
+    },
+    {
+      "question": "how many villages are in the Tallis district",
+      "passage": "The Tallis district is a rural district in the south of Brennan County. Its council is based in the market town of Morleigh. The district contains 64 villages and hamlets, grouped into 38 parishes. About 58,000 people live there.",
+      "sentence": 3,
+      "quote": "contains 64 villages and hamlets",
+      "looking_for": "the number of villages in the district"
+    },
+    {
+      "question": "what is the nickname of Scarsby",
+      "passage": "Scarsby is a town on the Ridding coalfield. It is nicknamed 'the Crow's Nest' because of its exposed position on a hilltop. The town's mining heritage is celebrated at the Scarsby Pit Museum. Scarsby has about 14,000 inhabitants.",
+      "sentence": 2,
+      "quote": "nicknamed 'the Crow's Nest'",
+      "looking_for": "the town's nickname"
+    },
+    {
+      "question": "what is Halse Common",
+      "passage": "Halse Common is a former mining village in the Ridding coalfield, now part of the town of Scarsby. It grew up in the 1870s around the Halse Colliery, which closed in 1968. Most of its terraced streets were cleared in the 1970s. A memorial to the 1891 pit disaster stands on the common.",
+      "sentence": 1,
+      "quote": "is a former mining village",
+      "looking_for": "what kind of place Halse Common is"
+    },
+    {
+      "question": "when did Ellerwell become a spa town",
+      "passage": "Ellerwell is a town in the Kenmoor hills. A medieval holy well on the site was dedicated to Saint Elfrida. The springs were analysed by the physician Thomas Graye in 1702. Ellerwell became a fashionable spa town after the Pump Room opened in 1768. The spa declined after 1900, and the Pump Room is now a library.",
+      "sentence": 4,
+      "quote": "became a fashionable spa town after the Pump Room opened in 1768",
+      "looking_for": "when the town became a spa"
+    },
+    {
+      "question": "who is mayor of Ludgrove",
+      "passage": "Ludgrove is a town in the Thurle Marsh district. Its town council is led by Owen Sharratt, the council leader since 2022. The council meets in the Corn Exchange. Ludgrove has a population of 18,000.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who is mayor"
+    },
+    {
+      "question": "number of residents in Corrabeg",
+      "passage": "Corrabeg is a village in the west of the Inishvane peninsula. It has a population of 412, many of whom speak the local dialect. The village was once a busy herring port, landing 30,000 barrels in 1880. A ferry runs from the pier to Inishmara twice a day.",
+      "sentence": 2,
+      "quote": "It has a population of 412",
+      "looking_for": "the number of residents"
+    },
+    {
+      "question": "when did Thorsby merge with Avelock",
+      "passage": "Thorsby is a town in the Wenn Valley, five miles north of Avelock. The two towns shared a grammar school from 1611. They were merged into the borough of Thorsby and Avelock in 1936. The combined borough was abolished in 1974.",
+      "sentence": 3,
+      "quote": "merged into the borough of Thorsby and Avelock in 1936",
+      "looking_for": "the year the two towns merged"
+    },
+    {
+      "question": "what is Brisk Hollow famous for",
+      "passage": "Brisk Hollow is a village in the Pelham Wolds. It is famous for its annual wheelbarrow race down Gallows Bank. The race was first recorded in 1782 and attracts thousands of visitors each June. The village has about 300 residents.",
+      "sentence": 2,
+      "quote": "famous for its annual wheelbarrow race",
+      "looking_for": "what the village is famous for"
+    },
+    {
+      "question": "when was Corlett granted city status",
+      "passage": "Corlett is a large town in the Ormond Plain. It was given a royal charter as a borough in 1556. The town's cathedral was consecrated in 1931. Corlett has a population of about 120,000.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year it became a city"
+    },
+    {
+      "question": "where is Danmoor",
+      "passage": "Danmoor is a moorland village in the far north of Beckshire, close to the border with Ellandale. It lies at the head of the Dan Beck valley. The village has a youth hostel and a pub. Sheep farming is the main occupation.",
+      "sentence": 1,
+      "quote": "in the far north of Beckshire",
+      "looking_for": "where the village is located"
+    },
+    {
+      "question": "what towns is Hallowford twinned with",
+      "passage": "Hallowford is a market town on the River Senn. Its market charter was granted by the bishop of Wenmouth in 1227. The town is twinned with Bad Ormsee in Germany and Vireux-le-Bois in France. A friendship link with Okaya-mura was set up in 2012.",
+      "sentence": 3,
+      "quote": "twinned with Bad Ormsee",
+      "looking_for": "the towns Hallowford is twinned with"
+    },
+    {
+      "question": "when was Penhallow chartered",
+      "passage": "Penhallow is a coastal town in the west of the Kerrow district. It received its market charter in 1316 from the lord of the manor, Ralph de Treve. The harbour was built in 1790 and enlarged in 1856. Tin was shipped from the town until 1900.",
+      "sentence": 2,
+      "quote": "received its market charter in 1316",
+      "looking_for": "the year of the town's charter"
+    },
+    {
+      "question": "population of Lindhanger",
+      "passage": "Lindhanger is a commuter village in the Tey valley. Its station opened in 1885 on the line to Calbridge. Large estates of houses were built there in the 1960s and 1970s. The population rose from 900 in 1951 to 6,240 in 2021. The village has two primary schools and a health centre.",
+      "sentence": 4,
+      "quote": "to 6,240 in 2021",
+      "looking_for": "the number of people living there now"
+    },
+    {
+      "question": "who is the lord of the manor of Hurstley",
+      "passage": "Hurstley is a village in the Wynd valley. The manor was held by the Pelling family from 1350 until the last of the line, Margaret Pelling, died in 1911. The manor house was then sold and became a school. The village has about 850 residents.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who holds the lordship now"
+    },
+    {
+      "question": "what is Abbots Wetherell",
+      "passage": "Abbots Wetherell is a market town and civil parish in the Ledby district of Marchshire. It stands on the River Wether, nine miles south of Ledby. The town received a market charter in 1203 from the abbots of Selwood. Its population is about 4,800.",
+      "sentence": 1,
+      "quote": "is a market town and civil parish",
+      "looking_for": "what kind of place it is"
+    },
+    {
+      "question": "Turrock population",
+      "passage": "Turrock is a town on the north bank of the Vessel estuary. It had 21,870 residents at the 2021 census, up from 19,400 a decade earlier. The town grew rapidly after the opening of a paper mill in 1898. The mill now employs about 600 people.",
+      "sentence": 2,
+      "quote": "It had 21,870 residents at the 2021 census",
+      "looking_for": "the number of residents"
+    },
+    {
+      "question": "who is the mayor of Ossiano",
+      "passage": "Ossiano is a comune in the province of Valtera. It lies in the hills above the Lago Morello, at an altitude of 520 metres. Since 2019 its mayor has been Lucia Bertinelli of a local civic list. The comune has about 2,100 inhabitants.",
+      "sentence": 3,
+      "quote": "its mayor has been Lucia Bertinelli",
+      "looking_for": "the person who is mayor now"
+    },
+    {
+      "question": "what is Sallick Dene named after",
+      "passage": "Sallick Dene is a district in the east of the town of Brannock. It is named after the Sallick family, who owned the land until 1890. The houses were built between 1895 and 1914 by the Brannock Freehold Society. The district has its own library and swimming baths.",
+      "sentence": 2,
+      "quote": "named after the Sallick family",
+      "looking_for": "the origin of the district's name"
+    },
+    {
+      "question": "what is Ravenstrand named after",
+      "passage": "Ravenstrand is a fishing village on the Cold Bay coast. Its harbour wall was built in 1823 by the engineer William Stroud. The village has a small herring museum and a lifeboat station. Its best known resident was the painter Ingrid Holm, who lived there from 1902 to 1931.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the origin of the village's name"
+    },
+    {
+      "question": "when did the great flood hit Merrin",
+      "passage": "Merrin is a low-lying town on the Fosse Levels. It is protected by a ring of earth banks first built in the 1600s. The worst flood in its history came in March 1947, when the banks failed and the town was under water for nine days. New defences were completed in 1962.",
+      "sentence": 3,
+      "quote": "The worst flood in its history came in March 1947",
+      "looking_for": "the date of the great flood"
+    },
+    {
+      "question": "what town is Corve Edge part of",
+      "passage": "Corve Edge is a suburb of the town of Mellingham, about a mile and a half west of its centre. It was built as a council estate between 1948 and 1956. The suburb has a population of about 5,500. It is served by two primary schools and a parade of shops.",
+      "sentence": 1,
+      "quote": "is a suburb of the town of Mellingham",
+      "looking_for": "the town the suburb belongs to"
+    },
+    {
+      "question": "when did Brindle Cross get its bypass",
+      "passage": "Brindle Cross is a village at a crossroads on the old coaching road between Ashport and Wexcombe. In the 1700s it had five coaching inns, of which only the Swan survives. The village suffered heavy traffic through the twentieth century. A bypass taking the main road around the village opened in 1989. The old road through the centre is now a quiet lane.",
+      "sentence": 4,
+      "quote": "A bypass taking the main road around the village opened in 1989",
+      "looking_for": "the year the bypass opened"
+    },
+    {
+      "question": "what language do people speak in Tarnovik",
+      "passage": "Tarnovik is a village in the Ossel highlands. Most of its 900 residents speak Ossel, a regional language, at home. The village school teaches in both Ossel and the national language. Tarnovik's wooden church dates from 1712.",
+      "sentence": 2,
+      "quote": "speak Ossel, a regional language, at home",
+      "looking_for": "the language spoken by the villagers"
+    },
+    {
+      "question": "how many houses are there in Mossop End",
+      "passage": "Mossop End is a hamlet in the parish of Kirk Hollin. It lies at the end of a single-track lane, two miles from the nearest main road. The hamlet once had a smithy and a chapel, both now converted to homes. Its name comes from the Mossop family, tenant farmers there in the 1600s. Today Mossop End consists of eleven houses and two working farms.",
+      "sentence": 5,
+      "quote": "consists of eleven houses",
+      "looking_for": "the number of houses in the hamlet"
+    },
+    {
+      "question": "what is the population of Kirk Hollin",
+      "passage": "Kirk Hollin is a parish in the Fell End district containing the village of Kirk Hollin and the hamlet of Mossop End. The parish church of Saint Bega dates from the twelfth century. The parish covers 2,400 hectares of fell and pasture. The village has a pub, the Shepherd's Rest, and a primary school.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of people living in Kirk Hollin"
+    },
+    {
+      "question": "who is the provost of Dunmarrow",
+      "passage": "Dunmarrow is a royal burgh on the east coast of the Ardven peninsula. The provost of Dunmarrow is Callum Rennie, chosen by the community council in 2022. The burgh's charter dates from 1450. Its harbour is used mainly by pleasure boats.",
+      "sentence": 2,
+      "quote": "The provost of Dunmarrow is Callum Rennie",
+      "looking_for": "the person who is provost"
+    },
+    {
+      "question": "where is Fennimore Bay",
+      "passage": "Fennimore Bay is a resort village known for its sandy beach and its pier, built in 1898. It has around 1,900 permanent residents. The village lies on the southern coast of the Tarrow peninsula, twelve miles east of Port Wenna. In summer the population rises to over 10,000.",
+      "sentence": 3,
+      "quote": "lies on the southern coast of the Tarrow peninsula",
+      "looking_for": "where the village is"
+    },
+    {
+      "question": "what is Gilsby Moor",
+      "passage": "Gilsby Moor is an industrial village in the Cottam district that grew up around a brickworks in the 1860s. The brickworks closed in 1981, and the clay pits were flooded to form a nature reserve. The village has about 2,700 residents. Its railway halt closed in 1953.",
+      "sentence": 1,
+      "quote": "is an industrial village in the Cottam district",
+      "looking_for": "what Gilsby Moor is"
+    },
+    {
+      "question": "what is the area of Wenlow",
+      "passage": "Wenlow is a town in the Morn Hills. The town covers an area of 7.4 square kilometres, including the former village of Higher Wenlow. It has a population of about 10,600. Its parish church is one of the largest in the county.",
+      "sentence": 2,
+      "quote": "covers an area of 7.4 square kilometres",
+      "looking_for": "the area of the town"
+    },
+    {
+      "question": "what is the area of Ambrey",
+      "passage": "Ambrey is a market town in the Ambrey Vale. It has a population of 13,200 and is the largest town in the vale. The town's market square is one of the largest in the region. The Ambrey Vale itself covers about 300 square kilometres.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the area of the town itself"
+    },
+    {
+      "question": "who is the mayor of Rhosgarth",
+      "passage": "Rhosgarth is a town in the Teifon valley. It grew rapidly in the 1800s as a centre for slate quarrying. The town mayor for this year is Gwenllian Price, who took office in May. The quarries closed in 1969, though one has reopened as a visitor attraction.",
+      "sentence": 3,
+      "quote": "The town mayor for this year is Gwenllian Price",
+      "looking_for": "the person who is mayor this year"
+    },
+    {
+      "question": "what is the population of Tolbrook",
+      "passage": "Tolbrook is a village in the north of the Hessel district. The village grew around a toll gate on the turnpike road, which operated from 1764 to 1871. The old toll house still stands at the north end of the street. Tolbrook has a population of 1,530 and a primary school. Its nearest town is Hessel, four miles to the south.",
+      "sentence": 4,
+      "quote": "Tolbrook has a population of 1,530",
+      "looking_for": "the number of residents"
+    },
+    {
+      "question": "what is the main street in Glenvoss called",
+      "passage": "Glenvoss is a planned village laid out in 1780 by the Lennick estate. Its main street, Lennick Street, runs for half a mile with a square at each end. The village was built to house weavers moved from the surrounding farms. About 1,100 people live there.",
+      "sentence": 2,
+      "quote": "Its main street, Lennick Street",
+      "looking_for": "the name of the main street"
+    },
+    {
+      "question": "how many people live in Orlow Wick",
+      "passage": "Orlow Wick is a small coastal town of about 3,200 people at the mouth of the Orlow river. It was an important port for the grain trade in the 1700s. The harbour silted up in the 1800s and trade moved to Corrow Bay. The town is now a centre for sailing.",
+      "sentence": 1,
+      "quote": "of about 3,200 people",
+      "looking_for": "the number of people living there"
+    },
+    {
+      "question": "what is the highest point in the Sallow district",
+      "passage": "The Sallow district is a rural district in the west of Brennan County. Its council is based in the town of Sallow Bridge. The district's lowest point is the Sallow marshes, at sea level. The hill country in the north of the district rises above 400 metres and is popular with walkers.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the highest point in the district"
+    },
+    {
+      "question": "when was Morleigh market first held",
+      "passage": "Morleigh is a market town in the Tallis district. It has a population of 9,400 and is the seat of the district council. Its weekly market was first held in 1219 under a grant from the bishop of Wenmouth. The market hall dates from 1834.",
+      "sentence": 3,
+      "quote": "first held in 1219",
+      "looking_for": "the year the market began"
+    },
+    {
+      "question": "who owns Aldersby",
+      "passage": "Aldersby is an estate village on the edge of Fallow Park. The whole village is owned by the Mardale Estate, which rents its forty cottages to estate workers and others. The estate was founded in 1806 by the banker Hugh Corbin. The village has a post office and a cricket ground.",
+      "sentence": 2,
+      "quote": "owned by the Mardale Estate",
+      "looking_for": "the owner of the village"
+    },
+    {
+      "question": "who owns Little Tadmarsh",
+      "passage": "Little Tadmarsh is an estate village built in 1851 by the landowner Edward Pruett to house his farm labourers. Pruett also paid for the school and the almshouses. The cottages are built in a distinctive yellow brick. The village has been a conservation area since 1971.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the current owner of the village"
+    },
+    {
+      "question": "what is the biggest village in Brennan County",
+      "passage": "Stoke Ardley is the largest village in Brennan County, with a population of almost 9,000. It is larger than several of the county's towns but has never sought town status. The village grew around a bobbin mill in the 1800s. It has three churches and a secondary school.",
+      "sentence": 1,
+      "quote": "Stoke Ardley is the largest village in Brennan County",
+      "looking_for": "the name of the largest village"
+    },
+    {
+      "question": "when was Kelby Marsh drained",
+      "passage": "Kelby Marsh is a farming village in the Sedge Fen district. The marsh around it was drained in 1652 by Dutch engineers working for the Earl of Wyke. Before that the village stood on an island reached only by boat. The village church has a leaning tower caused by subsidence.",
+      "sentence": 2,
+      "quote": "drained in 1652",
+      "looking_for": "the year the marsh was drained"
+    },
+    {
+      "question": "what is Pollard's Green",
+      "passage": "Pollard's Green is a conservation area and former village green in the north of the town of Ashport. It was common grazing land until it was enclosed in 1801. A row of Georgian houses faces the green on its west side. The green hosts a fair every August.",
+      "sentence": 1,
+      "quote": "is a conservation area and former village green",
+      "looking_for": "what Pollard's Green is"
+    },
+    {
+      "question": "who leads Gallowmere council",
+      "passage": "Gallowmere is a metropolitan borough with a population of about 310,000. The borough council has 63 councillors elected from 21 wards. The leader of the council is Samira Dhillon, who took the role in 2021. The ceremonial mayor for the year is Frank Ogden.",
+      "sentence": 3,
+      "quote": "The leader of the council is Samira Dhillon",
+      "looking_for": "the person leading the council"
+    },
+    {
+      "question": "which county was Wardley Cross in before 1974",
+      "passage": "Wardley Cross is a village in the Lowe district of Corbin County. Until 1974 it was part of the county of Marchshire. The change came when the county boundaries were redrawn around the new Lowe district. The village has a population of 2,000.",
+      "sentence": 2,
+      "quote": "Until 1974 it was part of the county of Marchshire",
+      "looking_for": "the county it belonged to before 1974"
+    },
+    {
+      "question": "when did Morva get its lifeboat",
+      "passage": "Morva is a fishing village at the mouth of the Morva estuary. The harbour was built in 1820 by the Trelask family. In 1866 eleven fishermen drowned in a storm within sight of the pier. A lifeboat station was opened in 1868 as a result. It is still operated by volunteers today.",
+      "sentence": 4,
+      "quote": "A lifeboat station was opened in 1868",
+      "looking_for": "the year the lifeboat station opened"
+    },
+    {
+      "question": "when did Tregwyn's harbour open",
+      "passage": "Tregwyn is a fishing village on the Kerrow coast. Its first pier was begun in 1795 but washed away in a storm three years later. The village's fish cellars were built in the 1830s. The harbour was used by up to sixty boats at the height of the pilchard fishery.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the harbour opened"
+    },
+    {
+      "question": "what is the population of Lisgarra",
+      "passage": "Lisgarra is a town in Carrick West, ten miles downstream of Dunhallow on the River Arne. Its population is 5,870, making it the second town of the district. The town's linen hall was built in 1789. A bridge of seven arches crosses the river there.",
+      "sentence": 2,
+      "quote": "Its population is 5,870",
+      "looking_for": "the number of people in the town"
+    },
+    {
+      "question": "where is Penwarden",
+      "passage": "Penwarden is a hamlet on the north side of the Tresk estuary, opposite the town of Penhallow. It consists of a farm, a boatyard and a handful of cottages. A passenger ferry ran across the estuary until 1958. The hamlet's name means 'the head of the alder grove'.",
+      "sentence": 1,
+      "quote": "on the north side of the Tresk estuary",
+      "looking_for": "where the hamlet is"
+    },
+    {
+      "question": "what does the name Gelliorwen mean",
+      "passage": "Gelliorwen is a village in the Teifon valley. It grew up around a woollen mill founded in 1790. The name means 'the grove of Orwen', after a local saint. The mill closed in 1964 and is now a craft centre.",
+      "sentence": 3,
+      "quote": "The name means 'the grove of Orwen'",
+      "looking_for": "the meaning of the village's name"
+    },
+    {
+      "question": "when was Ullerby founded",
+      "passage": "Ullerby is a town on the Crane estuary. It was founded as a Viking settlement in the late 800s, as its name suggests. The medieval town walls were built in 1290. The town's population is about 17,000.",
+      "sentence": 2,
+      "quote": "founded as a Viking settlement in the late 800s",
+      "looking_for": "when the town was founded"
+    },
+    {
+      "question": "when was Crane Hythe founded",
+      "passage": "Crane Hythe is a village on the Crane estuary, across the water from Ullerby. Its church was founded in 1180 by the canons of Wyke Priory. The village prospered in the 1500s as a landing place for wool. A ferry still runs to Ullerby in summer.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the village was founded"
+    },
+    {
+      "question": "who is the mayor of Stellbridge",
+      "passage": "Stellbridge is a town on the River Stell in the Morn Hills. It was a centre of the glove-making trade from the 1600s to the 1900s. The town council was formed in 1974 when the old borough was abolished. The current town mayor is Desmond Achebe, serving his second term. His deputy is Lorna Fitch.",
+      "sentence": 4,
+      "quote": "The current town mayor is Desmond Achebe",
+      "looking_for": "the person who is mayor now"
+    },
+    {
+      "question": "what is Ebbsworth",
+      "passage": "Ebbsworth is a new town in the Ledby district, designated in 1967 to take people from the overcrowded city of Wexcombe. It was built around three older villages. The town's shopping centre opened in 1974. Ebbsworth now has a population of about 72,000.",
+      "sentence": 1,
+      "quote": "is a new town in the Ledby district",
+      "looking_for": "what Ebbsworth is"
+    },
+    {
+      "question": "what was the population of Ashport in 1801",
+      "passage": "Ashport is a port city on the Vessel estuary with about 260,000 inhabitants. At the first census in 1801 it had only 7,300 people. The city grew rapidly after the docks opened in 1828. It was granted city status in 1926.",
+      "sentence": 2,
+      "quote": "At the first census in 1801 it had only 7,300 people",
+      "looking_for": "the population in 1801"
+    },
+    {
+      "question": "who was Ledby named after",
+      "passage": "Ledby is the main town of the Ledby district. It stands at the meeting of the rivers Led and Wennet. The town is named after Leddi, a Norse settler recorded in the area in the 900s. Its market charter dates from 1261.",
+      "sentence": 3,
+      "quote": "named after Leddi, a Norse settler",
+      "looking_for": "the person the town is named after"
+    },
+    {
+      "question": "what is the population of the town of Hessel",
+      "passage": "Hessel is a market town and the seat of the Hessel district. The district has a population of 87,000, spread across the town and 40 parishes. Hessel's market place is surrounded by buildings of the 1700s. The town's livestock market moved to a new site in 1998.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of people in the town itself"
+    },
+    {
+      "question": "who paid for Carthew to be built",
+      "passage": "Carthew is a model village in the Kerrow district, laid out for workers at the nearby china clay pits. It was paid for by the clay merchant John Hendra and built between 1872 and 1880. The architect was Silas Treloar of Penhallow. The village has eighty cottages around a central green.",
+      "sentence": 2,
+      "quote": "paid for by the clay merchant John Hendra",
+      "looking_for": "the person who paid for the village"
+    },
+    {
+      "question": "how long is the main street in Sorrowby",
+      "passage": "Sorrowby is a coaching town on the old road to the north. Its broad main street was laid out in the 1200s to hold a cattle market. Many of the buildings along it are former coaching inns. The street, known simply as the Long Street, runs for just over a mile. The town has a population of about 6,000.",
+      "sentence": 4,
+      "quote": "runs for just over a mile",
+      "looking_for": "the length of the main street"
+    },
+    {
+      "question": "when was Corbin Newtown built",
+      "passage": "Corbin Newtown is a planned town built between 1952 and 1970 to rehouse families from the slums of Ashport. It lies eight miles east of the city on former farmland. Its population peaked at 48,000 in 1981. The town centre was rebuilt in 2010.",
+      "sentence": 1,
+      "quote": "is a planned town built between 1952 and 1970",
+      "looking_for": "the years the town was built"
+    },
+    {
+      "question": "how many inhabitants does Ostrelka have",
+      "passage": "Ostrelka is a village in the Ruzena valley, near the source of the river Mira. It is known for its wooden houses and its spring festival. The village has 1,340 inhabitants, about a third of whom commute to the town of Kramov. Its church was rebuilt after a fire in 1886.",
+      "sentence": 3,
+      "quote": "The village has 1,340 inhabitants",
+      "looking_for": "the number of inhabitants"
+    },
+    {
+      "question": "who is the mayor of Kramov",
+      "passage": "Kramov is a town in the Ruzena valley and the largest settlement in the district. The town hall on the main square was rebuilt in 1910 after a fire. A plaque on it lists the town's mayors from 1850 to 1938, the last of whom was Josef Holub. Kramov has about 11,000 inhabitants.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who is mayor now"
+    },
+    {
+      "question": "what is the area of the Cardle district",
+      "passage": "The Cardle district is a local government district in the east of Wessmoor. It covers 412 square kilometres, much of it farmland and forest. Pennick is its largest town, while the council sits in Strand Ferry. The district had 96,500 residents at the last census.",
+      "sentence": 2,
+      "quote": "It covers 412 square kilometres",
+      "looking_for": "the area of the district"
+    },
+    {
+      "question": "when was Brockhallow laid out",
+      "passage": "Brockhallow is a twelfth-century planned town in the Dennet valley, laid out by the lords of Wyke in 1178. Its grid of streets survives almost unchanged. The church of Saint Lawrence was added in 1220. The town now has about 5,000 residents.",
+      "sentence": 1,
+      "quote": "laid out by the lords of Wyke in 1178",
+      "looking_for": "the year the town was laid out"
+    },
+    {
+      "question": "who is the patron saint of Vellacorte",
+      "passage": "Vellacorte is a fishing town on the Vesca coast. Its old harbour is lined with tall painted houses. The town's patron saint is Saint Erasmo, whose feast on 2 June is marked with a procession of boats. The harbour fish market is held every morning except Sunday.",
+      "sentence": 3,
+      "quote": "The town's patron saint is Saint Erasmo",
+      "looking_for": "the town's patron saint"
+    },
+    {
+      "question": "when did Wexcombe become a city",
+      "passage": "Wexcombe is a cathedral city in the Wexe valley with a population of about 140,000. It was granted city status in 1889, after a long campaign by its corporation. The cathedral was completed in 1312. Wexcombe University was founded in 1965.",
+      "sentence": 2,
+      "quote": "granted city status in 1889",
+      "looking_for": "the year it became a city"
+    },
+    {
+      "question": "what is Hob Hill",
+      "passage": "Hob Hill is a small village on the edge of the Kenmoor hills, three miles north of Ellerwell. It grew up in the 1800s as a settlement of quarrymen and their families. The quarry closed in 1927. The village has a chapel and a post office.",
+      "sentence": 1,
+      "quote": "is a small village on the edge of the Kenmoor hills",
+      "looking_for": "what Hob Hill is"
+    },
+    {
+      "question": "what valley is Coldcleugh in",
+      "passage": "Coldcleugh is a former lead-mining village of about 300 people. It lies at the head of Ellendene, a narrow valley in the Pennick Fells. The mines closed in 1896 and many families emigrated. The old smelt mill chimney is a listed structure.",
+      "sentence": 2,
+      "quote": "at the head of Ellendene",
+      "looking_for": "the valley the village is in"
+    },
+    {
+      "question": "what county is Tamsford in",
+      "passage": "Tamsford is a market town in western Ormshire, on the main road to Ledby. It lies four miles east of the village of Lisworth. The town's grammar school was founded in 1553. Tamsford has a population of about 12,000.",
+      "sentence": 1,
+      "quote": "is a market town in western Ormshire",
+      "looking_for": "the county the town is in"
+    },
+    {
+      "question": "when did Carrow Green join the city",
+      "passage": "Carrow Green is a residential district in the west of the city of Ashport. It was a separate parish until 1932, when it was absorbed into the city. Most of its houses were built in the 1930s by the city corporation. The district has a population of about 15,000.",
+      "sentence": 2,
+      "quote": "It was a separate parish until 1932",
+      "looking_for": "the year it became part of the city"
+    },
+    {
+      "question": "when was Hollin Bank founded",
+      "passage": "Hollin Bank is a village in the Easterdale district on the slopes above the River Wenn. Its chapel was founded in 1789 by followers of the preacher Joseph Ardley. The village school opened in 1846 and closed in 1981. The village has about 450 residents.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the village was founded"
+    },
+    {
+      "question": "what is the highest town in Sarvenia",
+      "passage": "Hochmatt is the highest town in Sarvenia, at an altitude of 1,480 metres. It lies at the head of the Upper Senn valley. It was a silver-mining settlement until the 1800s and is now a ski resort. Its population is about 2,400.",
+      "sentence": 1,
+      "quote": "Hochmatt is the highest town in Sarvenia",
+      "looking_for": "the name of the highest town"
+    },
+    {
+      "question": "what was Port Allard called before",
+      "passage": "Port Allard is a city at the mouth of the Allard River. It was known as Fort Saint-Rémy until 1763, when the colony changed hands. The city was incorporated in 1832. Its population is about 410,000.",
+      "sentence": 2,
+      "quote": "known as Fort Saint-Rémy until 1763",
+      "looking_for": "the city's earlier name"
+    },
+    {
+      "question": "how many households are in Inishmara",
+      "passage": "Inishmara is an island village off the Inishvane peninsula. It is reached by a ferry from Corrabeg that runs twice a day. The island has 38 households and a population of about 90. Its school closed in 2004, and children now take the ferry to the mainland.",
+      "sentence": 3,
+      "quote": "The island has 38 households",
+      "looking_for": "the number of households"
+    },
+    {
+      "question": "where is Selham",
+      "passage": "Selham is a port city on the south coast of Ardmoor, at the mouth of the River Sel. It is the third largest city in the region. The docks at Northwyn Quay were opened in 1908. The city has about 230,000 inhabitants.",
+      "sentence": 1,
+      "quote": "on the south coast of Ardmoor",
+      "looking_for": "where the city is"
+    },
+    {
+      "question": "who is the mayor of Ferrano",
+      "passage": "Ferrano is a town in the Serra Alta region, at the foot of the road to Quillon. Its mayor is Davide Rinaldi, elected in 2021 at the head of a civic list. The town has about 6,800 inhabitants. Its main employers are a ceramics works and the regional hospital.",
+      "sentence": 2,
+      "quote": "Its mayor is Davide Rinaldi",
+      "looking_for": "the person who is mayor now"
+    },
+    {
+      "question": "who is the current chair of the Easterdale district council",
+      "passage": "The Easterdale district is a rural district in the north of the Ravel Fells. Its council has 36 members and is based in the town of Easterby. The council's chief executive is Graham Lusk, appointed in 2020. The district has about 51,000 residents.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who chairs the district council"
+    },
+    {
+      "question": "what is grown around Saxeby",
+      "passage": "Saxeby is a village in the Sedge Fen district. The black soil around it is mostly used for growing celery and onions. The village had a sugar beet factory from 1927 until 1991. About 1,900 people live there.",
+      "sentence": 2,
+      "quote": "mostly used for growing celery and onions",
+      "looking_for": "the crops grown around the village"
+    },
+    {
+      "question": "when was the Ledby district created",
+      "passage": "The Ledby district is a local government district in the north of Marchshire. Its main town is Ledby, and it also includes the new town of Ebbsworth. The district has a population of 154,000. It was created in 1974 by merging the borough of Ledby with three rural districts. The council offices moved to Ebbsworth in 1999.",
+      "sentence": 4,
+      "quote": "It was created in 1974",
+      "looking_for": "the year the district was created"
+    },
+    {
+      "question": "what is Panhaven",
+      "passage": "Panhaven is a coastal village in the Ardnish district, built around a sheltered bay. It grew up in the 1700s around salt pans fired by local coal. The salt trade ended in 1880. The village is now a popular stop for walkers on the coastal path.",
+      "sentence": 1,
+      "quote": "is a coastal village in the Ardnish district",
+      "looking_for": "what Panhaven is"
+    },
+    {
+      "question": "what is the population of Brayle",
+      "passage": "Brayle is a market town in the Teifon valley. The town has a population of about 3,600 and serves a wide rural area. It holds a sheep sale every September that draws farmers from across the region. The castle mound at the north end of the town dates from the 1100s.",
+      "sentence": 2,
+      "quote": "has a population of about 3,600",
+      "looking_for": "the number of people living in the town"
+    },
+    {
+      "question": "what are people from Ashport called",
+      "passage": "Ashport is the largest city on the Vessel estuary and the region's main port. Its dockers' union played a large part in the strikes of 1911. People from the city are known as Ashportians, though older residents often call themselves Sand Rats. The city's football club is nicknamed the Gulls.",
+      "sentence": 3,
+      "quote": "known as Ashportians",
+      "looking_for": "what people from the city are called"
+    },
+    {
+      "question": "how far is Omeford from the sea",
+      "passage": "Omeford is an inland port at the tidal limit of the River Ome. Ships of up to 400 tonnes could reach its quays until the 1960s. The river is navigable for a further six miles above the town by small craft. The town has about 8,000 inhabitants.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the distance from the town to the sea"
+    },
+    {
+      "question": "who laid out the town of New Corran",
+      "passage": "New Corran is a planned town on the north shore of the Corran Firth. It was laid out in 1768 by the surveyor Andrew Pirie for the Duke of Arnlee. The duke wanted a fishing port to replace the old village of Kilcorran. The town's grid of wide streets survives intact.",
+      "sentence": 2,
+      "quote": "by the surveyor Andrew Pirie",
+      "looking_for": "the person who laid out the town"
+    },
+    {
+      "question": "what is the smallest town in Brennan County",
+      "passage": "Sele Minster is the smallest town in Brennan County, with just 1,650 residents. It has held a market since 1245 and keeps its town council and mayor. Its minster church is larger than many cathedrals. The town lies on the River Sele, eight miles from Morleigh.",
+      "sentence": 1,
+      "quote": "Sele Minster is the smallest town in Brennan County",
+      "looking_for": "the name of the smallest town"
+    },
+    {
+      "question": "what is the population of Strand Ferry",
+      "passage": "Strand Ferry is a small town on the River Cardle, where a ferry crossed until a bridge was built in 1903. It is the seat of the Cardle district council, though Pennick is much larger. Strand Ferry has a population of about 4,900. Its riverside quay is now a conservation area.",
+      "sentence": 3,
+      "quote": "Strand Ferry has a population of about 4,900",
+      "looking_for": "the number of people in the town"
+    },
+    {
+      "question": "what is Mellingham known for",
+      "passage": "Mellingham is a market town in the Morn Hills. It is known for its pottery, made from the red clay of the Mell valley for at least eight centuries. The town's Thursday market dates from 1310. It has a population of about 21,000.",
+      "sentence": 2,
+      "quote": "known for its pottery",
+      "looking_for": "what the town is known for"
+    },
+    {
+      "question": "what is Tilsey Bottom",
+      "passage": "Tilsey Bottom is a dispersed hamlet in a dry chalk valley in the Wessmoor downs. It has no centre, only farms and cottages strung along a lane for two miles. Its chapel of ease was built in 1874. The hamlet is part of the parish of Ninebarrow.",
+      "sentence": 1,
+      "quote": "is a dispersed hamlet in a dry chalk valley",
+      "looking_for": "what Tilsey Bottom is"
+    },
+    {
+      "question": "when was Callenford founded",
+      "passage": "Callenford is a city on the River Callen with a population of about 180,000. It was founded in 1071 as a castle town by the lord Robert de Callon. Its cathedral was begun in 1120. The university was established in 1834.",
+      "sentence": 2,
+      "quote": "founded in 1071 as a castle town",
+      "looking_for": "the year the city was founded"
+    },
+    {
+      "question": "how many people live in Sharpe Head",
+      "passage": "Sharpe Head is a fishing village of about 750 people on a headland of the Wessmoor coast. Its harbour was rebuilt in 1911 after a storm. Crab and lobster are landed there by a fleet of twelve boats. The coastguard lookout on the headland is still staffed by volunteers.",
+      "sentence": 1,
+      "quote": "is a fishing village of about 750 people",
+      "looking_for": "the number of people living there"
+    },
+    {
+      "question": "who is the current mayor of Ebbingham",
+      "passage": "Ebbingham is a town on the River Ebb in the Hessel district. The town's longest-serving mayor was Florence Tamsett, who held the office for nine terms between 1952 and 1971. The mayor's chain of office was presented by the Ebbingham Brewery in 1902. The town has a population of about 16,000.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who is mayor now"
+    }
+  ]
+}

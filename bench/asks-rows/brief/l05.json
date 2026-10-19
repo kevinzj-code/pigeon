@@ -1,0 +1,395 @@
+{
+ "batch": "l05",
+ "skills": [
+  {
+   "skill": "spacedRepetitionSchedule",
+   "category": "learning",
+   "does": "Work out the review dates for spaced repetition from a starting date.",
+   "examples": [
+    "when should I review this",
+    "spaced repetition schedule doubling each time",
+    "review dates one week and one month out"
+   ]
+  },
+  {
+   "skill": "chunkList",
+   "category": "lists",
+   "does": "Split a list into consecutive groups of a fixed size — deal items into groups of four.",
+   "examples": [
+    "split these into groups of 3",
+    "break this list into pairs",
+    "group 10 items 4 at a time"
+   ]
+  },
+  {
+   "skill": "countItems",
+   "category": "lists",
+   "does": "Count how many times each item appears in a list, ranked most common first.",
+   "examples": [
+    "count how many of each are in this list",
+    "tally these votes",
+    "how many of each number"
+   ]
+  },
+  {
+   "skill": "dedupeList",
+   "category": "lists",
+   "does": "Remove repeated items from a list, keeping the first of each and the original order.",
+   "examples": [
+    "remove the duplicates from this list",
+    "dedupe these numbers",
+    "unique names ignoring case"
+   ]
+  },
+  {
+   "skill": "differenceLists",
+   "category": "lists",
+   "does": "Find what is in one list but not the other, in both directions.",
+   "examples": [
+    "what is in the first list but not the second",
+    "compare these two lists of numbers",
+    "are these two lists the same"
+   ]
+  },
+  {
+   "skill": "flattenList",
+   "category": "lists",
+   "does": "Flatten a list of nested lists into a single flat list.",
+   "examples": [
+    "flatten this nested list",
+    "flatten a list of lists",
+    "flatten only one level deep"
+   ]
+  },
+  {
+   "skill": "intersectLists",
+   "category": "lists",
+   "does": "Keep only the items appearing on both lists.",
+   "examples": [
+    "what is in both of these lists",
+    "which numbers appear in both",
+    "do these two lists overlap at all"
+   ]
+  },
+  {
+   "skill": "pairUp",
+   "category": "lists",
+   "does": "Draw people into random pairs or teams from a seed.",
+   "examples": [
+    "pair these four people up, seed 7",
+    "draw pairs from five names, seed 1",
+    "split six into teams of three, seed 42"
+   ]
+  },
+  {
+   "skill": "pickRandom",
+   "category": "lists",
+   "does": "Pick one or more items at random from a list, from a seed so the pick can be repeated.",
+   "examples": [
+    "pick one of these at random with seed 7",
+    "choose a name from the list, seed 1",
+    "pick 2 winners with seed 42"
+   ]
+  },
+  {
+   "skill": "rangeList",
+   "category": "lists",
+   "does": "Count from one number to another in steps, listing every number on the way.",
+   "examples": [
+    "list the numbers 1 to 5",
+    "count from 0 to 100 in tens",
+    "count down from 10 to 1"
+   ]
+  },
+  {
+   "skill": "shuffleList",
+   "category": "lists",
+   "does": "Jumble any list into a random order from a seed.",
+   "examples": [
+    "shuffle these with seed 7",
+    "randomise this list, seed 1",
+    "shuffle the running order with seed 42"
+   ]
+  },
+  {
+   "skill": "sortList",
+   "category": "lists",
+   "does": "Put a list of items in order — alphabetically, numerically, or in natural order where numbers inside names count.",
+   "examples": [
+    "sort this list alphabetically",
+    "sort these numbers largest first",
+    "sort file names in natural order"
+   ]
+  },
+  {
+   "skill": "unionLists",
+   "category": "lists",
+   "does": "Merge two lists into one, dropping repeats.",
+   "examples": [
+    "combine these two lists",
+    "merge two lists of numbers",
+    "union of two identical lists"
+   ]
+  },
+  {
+   "skill": "zipLists",
+   "category": "lists",
+   "does": "Combine two or more lists position by position — pair each name with its score.",
+   "examples": [
+    "zip these two lists together",
+    "combine names and ages into records",
+    "zip three lists"
+   ]
+  },
+  {
+   "skill": "allocateProportionally",
+   "category": "math",
+   "does": "Split an amount across shares in proportion to their weights.",
+   "examples": [
+    "share 100 out in equal parts between three",
+    "allocate 1000 by 50 30 20",
+    "divide 100 in a one to two ratio"
+   ]
+  },
+  {
+   "skill": "evaluateExpression",
+   "category": "math",
+   "does": "Work out an arithmetic expression exactly. Reads % as a percentage.",
+   "examples": [
+    "what's (18.5 * 12) / 4",
+    "15% of 240",
+    "what is 2 to the power of 10"
+   ]
+  },
+  {
+   "skill": "factorial",
+   "category": "math",
+   "does": "Work out a factorial — multiply every whole number from 1 up to n together.",
+   "examples": [
+    "what is 10 factorial",
+    "work out 5 factorial",
+    "factorial of 0"
+   ]
+  },
+  {
+   "skill": "fibonacci",
+   "category": "math",
+   "does": "Give the nth Fibonacci number, or the first n of them.",
+   "examples": [
+    "what is the 10th fibonacci number",
+    "first 8 fibonacci numbers",
+    "fibonacci number 1"
+   ]
+  },
+  {
+   "skill": "formatCurrency",
+   "category": "math",
+   "does": "Write an amount of money the way a currency is normally written, with its symbol and decimal places.",
+   "examples": [
+    "write 1234.5 as pounds",
+    "format 99 as US dollars",
+    "write 5000 yen properly"
+   ]
+  },
+  {
+   "skill": "formatNumber",
+   "category": "math",
+   "does": "Write a number with thousands separators, a set number of decimals, or in compact form like 1.2k.",
+   "examples": [
+    "format 1234567 with thousands separators",
+    "write 950 in compact form",
+    "show 0.4567 as a percentage"
+   ]
+  },
+  {
+   "skill": "fractionSimplify",
+   "category": "math",
+   "does": "Reduce a fraction like 6/8 to its lowest terms.",
+   "examples": [
+    "simplify 6/8",
+    "reduce 100/250 to lowest terms",
+    "simplify the fraction 7/3"
+   ]
+  },
+  {
+   "skill": "gcd",
+   "category": "math",
+   "does": "Find the biggest number that divides them all exactly.",
+   "examples": [
+    "greatest common divisor of 48 and 18",
+    "gcd of 100 and 75",
+    "highest common factor of 12 18 and 24"
+   ]
+  },
+  {
+   "skill": "isPrime",
+   "category": "math",
+   "does": "Say whether a whole number is prime, and give a divisor if it is not.",
+   "examples": [
+    "is 97 prime",
+    "is 91 a prime number",
+    "is 1 prime"
+   ]
+  },
+  {
+   "skill": "lcm",
+   "category": "math",
+   "does": "Find the smallest number they all go into.",
+   "examples": [
+    "lowest common multiple of 4 and 6",
+    "lcm of 3 5 and 7",
+    "when do buses every 12 and 18 minutes coincide"
+   ]
+  },
+  {
+   "skill": "parseNumber",
+   "category": "math",
+   "does": "Read a number written any human way — \"1.2k\", \"$3,400\", \"three quarters of a million\" — as a plain number.",
+   "examples": [
+    "what number is 1.2k",
+    "read $3,400 as a number",
+    "what is twenty five as a number"
+   ]
+  },
+  {
+   "skill": "percentageDistribution",
+   "category": "math",
+   "does": "Split a set of numbers into percentage shares of their total.",
+   "examples": [
+    "what percentage of the total is each of 30 50 20",
+    "break down my spending 450 300 250",
+    "share of the total for 1 1 1"
+   ]
+  },
+  {
+   "skill": "percentChange",
+   "category": "math",
+   "does": "Percentage change between two numbers, and the difference in plain terms.",
+   "examples": [
+    "my rent went from 1200 to 1350, what percent increase is that",
+    "percentage change from 80 to 60",
+    "what percent bigger is 45 than 30"
+   ]
+  },
+  {
+   "skill": "percentOf",
+   "category": "math",
+   "does": "Take a percentage of a number — 15% of 240, or 20 percent of a bill.",
+   "examples": [
+    "what is 15% of 240",
+    "20 percent of 85.50",
+    "how much is 7.5% of 1200"
+   ]
+  },
+  {
+   "skill": "primeFactors",
+   "category": "math",
+   "does": "Break a whole number down into the prime numbers it is made of.",
+   "examples": [
+    "prime factors of 360",
+    "factorise 84",
+    "what are the prime factors of 97"
+   ]
+  },
+  {
+   "skill": "product",
+   "category": "math",
+   "does": "Multiply a list of numbers you give together.",
+   "examples": [
+    "multiply 12 by 8 by 3",
+    "what is 2.5 times 4 times 10",
+    "multiply these dimensions 3 x 4 x 5"
+   ]
+  },
+  {
+   "skill": "ratioSolve",
+   "category": "math",
+   "does": "Solve a proportion when one of the four terms is missing.",
+   "examples": [
+    "solve this proportion, 3 is to 4 as 9 is to what",
+    "solve 2 to 5 equals what to 20",
+    "what to 7 as 6 is to 21"
+   ]
+  },
+  {
+   "skill": "roundTo",
+   "category": "math",
+   "does": "Round a number to a number of decimal places or significant figures.",
+   "examples": [
+    "round 3.14159 to 2 decimal places",
+    "round 1234.5678 to the nearest whole number",
+    "0.000123456 to 3 significant figures"
+   ]
+  },
+  {
+   "skill": "solveQuadratic",
+   "category": "math",
+   "does": "Solve a quadratic equation — the roots of ax² + bx + c = 0, real or complex.",
+   "examples": [
+    "solve x^2 - 5x + 6 = 0",
+    "roots of 2x^2 + 4x - 6",
+    "solve x squared plus 2x plus 1"
+   ]
+  },
+  {
+   "skill": "splitEvenly",
+   "category": "math",
+   "does": "Split an amount into equal parts, assigning the leftover pennies so the parts add back up.",
+   "examples": [
+    "split 100 three ways",
+    "divide 60 between 4 people",
+    "split 10 seven ways"
+   ]
+  },
+  {
+   "skill": "sum",
+   "category": "math",
+   "does": "Add a list of numbers up to one final total.",
+   "examples": [
+    "add up 1250, 3400 and 890",
+    "what is the total of my expenses 12.50 8.20 45",
+    "sum these negative and positive numbers"
+   ]
+  },
+  {
+   "skill": "toOrdinal",
+   "category": "math",
+   "does": "Add the ordinal suffix to a number — 3 becomes 3rd, 42 becomes 42nd.",
+   "examples": [
+    "write 3 as an ordinal",
+    "what is 21 as an ordinal",
+    "ordinal for 112"
+   ]
+  },
+  {
+   "skill": "whatPercent",
+   "category": "math",
+   "does": "Work out what share one number is of another, as a percentage — what proportion 18 is of 24, or a score out of a maximum.",
+   "examples": [
+    "36 out of 240 as a percentage",
+    "i got 47 out of 60, what percent is that",
+    "1 out of 3 as a percentage"
+   ]
+  },
+  {
+   "skill": "budgetSplit",
+   "category": "organising",
+   "does": "Divide an income into budget categories by percentage, using 50/30/20 or ratios you set.",
+   "examples": [
+    "split 3000 a month using 50/30/20",
+    "budget 2450 with the 70/20/10 rule",
+    "split 1000 my own way 40 40 20"
+   ]
+  },
+  {
+   "skill": "findCommonMeetingHours",
+   "category": "organising",
+   "does": "Find the hours when everyone is inside their working day, across time zones.",
+   "examples": [
+    "when can London and New York meet",
+    "common working hours for London and Berlin",
+    "can London and Tokyo find a meeting time"
+   ]
+  }
+ ]
+}

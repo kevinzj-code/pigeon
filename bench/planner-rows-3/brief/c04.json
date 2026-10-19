@@ -1,0 +1,1335 @@
+{
+ "task": "enum picks",
+ "rules": [
+  "enum"
+ ],
+ "per_skill": 10,
+ "skills": [
+  {
+   "name": "areaOf",
+   "category": "geometry",
+   "needsNetwork": false,
+   "card": "areaOf \u2014 Work out the space inside a shape \u2014 the area of a rectangle, square, circle, triangle, trapezoid, ellipse or parallelogram.\n  needs: shape: string\n  optional: width: number, height: number, side: number, radius: number, radius2: number, base: number, base2: number\n  e.g. \"area of a rectangle 8 by 5\" \u2192 {\"shape\":\"rectangle\",\"width\":8,\"height\":5}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "shape"
+    ],
+    "properties": {
+     "shape": {
+      "type": "string",
+      "label": "shape",
+      "enum": [
+       "rectangle",
+       "square",
+       "circle",
+       "triangle",
+       "trapezoid",
+       "ellipse",
+       "parallelogram"
+      ],
+      "prompt": "Which shape? (rectangle, square, circle, triangle, trapezoid, ellipse, parallelogram)"
+     },
+     "width": {
+      "type": "number",
+      "label": "width",
+      "exclusiveMinimum": 0
+     },
+     "height": {
+      "type": "number",
+      "label": "height",
+      "exclusiveMinimum": 0
+     },
+     "side": {
+      "type": "number",
+      "label": "side",
+      "exclusiveMinimum": 0
+     },
+     "radius": {
+      "type": "number",
+      "label": "radius",
+      "exclusiveMinimum": 0
+     },
+     "radius2": {
+      "type": "number",
+      "label": "second radius",
+      "exclusiveMinimum": 0
+     },
+     "base": {
+      "type": "number",
+      "label": "base",
+      "exclusiveMinimum": 0
+     },
+     "base2": {
+      "type": "number",
+      "label": "second base",
+      "exclusiveMinimum": 0
+     }
+    }
+   },
+   "examples": [
+    "area of a rectangle 8 by 5",
+    "area of a circle with radius 3",
+    "area of a triangle with base 10 and height 6",
+    "area of a square with 7 metre sides",
+    "area of a trapezoid with parallel sides 4 and 8, height 5"
+   ]
+  },
+  {
+   "name": "perimeterOf",
+   "category": "geometry",
+   "needsNetwork": false,
+   "card": "perimeterOf \u2014 Work out the distance round the edge of a shape \u2014 its perimeter or circumference, or how much fencing or edging it takes.\n  needs: shape: string\n  optional: width: number, height: number, side: number, sides: integer, radius: number, a: number, b: number, c: number\n  e.g. \"perimeter of a rectangle 8 by 5\" \u2192 {\"shape\":\"rectangle\",\"width\":8,\"height\":5}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "shape"
+    ],
+    "properties": {
+     "shape": {
+      "type": "string",
+      "label": "shape",
+      "enum": [
+       "rectangle",
+       "square",
+       "circle",
+       "triangle",
+       "regularPolygon"
+      ],
+      "prompt": "Which shape? (rectangle, square, circle, triangle, regularPolygon)"
+     },
+     "width": {
+      "type": "number",
+      "label": "width",
+      "exclusiveMinimum": 0
+     },
+     "height": {
+      "type": "number",
+      "label": "height",
+      "exclusiveMinimum": 0
+     },
+     "side": {
+      "type": "number",
+      "label": "side",
+      "exclusiveMinimum": 0
+     },
+     "sides": {
+      "type": "integer",
+      "label": "number of sides",
+      "minimum": 3
+     },
+     "radius": {
+      "type": "number",
+      "label": "radius",
+      "exclusiveMinimum": 0
+     },
+     "a": {
+      "type": "number",
+      "label": "side a",
+      "exclusiveMinimum": 0
+     },
+     "b": {
+      "type": "number",
+      "label": "side b",
+      "exclusiveMinimum": 0
+     },
+     "c": {
+      "type": "number",
+      "label": "side c",
+      "exclusiveMinimum": 0
+     }
+    }
+   },
+   "examples": [
+    "perimeter of a rectangle 8 by 5",
+    "circumference of a circle with radius 3",
+    "perimeter of a square with 7 metre sides",
+    "perimeter of a triangle with sides 3 4 5",
+    "perimeter of a hexagon with 5cm sides",
+    "how much fencing goes round a 10 by 7 plot",
+    "length of the edge of a square with side 6"
+   ]
+  },
+  {
+   "name": "volumeOf",
+   "category": "geometry",
+   "needsNetwork": false,
+   "card": "volumeOf \u2014 Work out the volume of a cube, box, sphere, cylinder, cone or pyramid.\n  needs: solid: string\n  optional: side: number, width: number, height: number, depth: number, radius: number\n  e.g. \"volume of a cube with 4cm sides\" \u2192 {\"solid\":\"cube\",\"side\":4}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "solid"
+    ],
+    "properties": {
+     "solid": {
+      "type": "string",
+      "label": "solid",
+      "enum": [
+       "cube",
+       "box",
+       "sphere",
+       "cylinder",
+       "cone",
+       "pyramid"
+      ],
+      "prompt": "Which solid? (cube, box, sphere, cylinder, cone, pyramid)"
+     },
+     "side": {
+      "type": "number",
+      "label": "side",
+      "exclusiveMinimum": 0
+     },
+     "width": {
+      "type": "number",
+      "label": "width",
+      "exclusiveMinimum": 0
+     },
+     "height": {
+      "type": "number",
+      "label": "height",
+      "exclusiveMinimum": 0
+     },
+     "depth": {
+      "type": "number",
+      "label": "depth",
+      "exclusiveMinimum": 0
+     },
+     "radius": {
+      "type": "number",
+      "label": "radius",
+      "exclusiveMinimum": 0
+     }
+    }
+   },
+   "examples": [
+    "volume of a cube with 4cm sides",
+    "volume of a box 10 by 5 by 2",
+    "volume of a sphere with radius 3",
+    "volume of a cylinder radius 5 height 10",
+    "volume of a cone radius 3 height 9"
+   ]
+  },
+  {
+   "name": "sleepCycleTimes",
+   "category": "health",
+   "needsNetwork": false,
+   "card": "sleepCycleTimes \u2014 Work out wake or bedtimes a whole number of sleep cycles apart.\n  needs: time: string\n  optional: direction: string, cycleMinutes: integer, fallAsleepMinutes: integer\n  e.g. \"when should I go to bed to wake at 7am\" \u2192 {\"time\":\"07:00\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "time"
+    ],
+    "properties": {
+     "time": {
+      "type": "string",
+      "label": "time",
+      "pattern": "^\\d{1,2}:\\d{2}$",
+      "prompt": "What time? (24-hour, like 07:00)"
+     },
+     "direction": {
+      "type": "string",
+      "label": "time given is",
+      "enum": [
+       "wake",
+       "sleep"
+      ],
+      "default": "wake",
+      "description": "wake = the time given is when you want to get up"
+     },
+     "cycleMinutes": {
+      "type": "integer",
+      "label": "cycle length (minutes)",
+      "minimum": 30,
+      "maximum": 180,
+      "default": 90
+     },
+     "fallAsleepMinutes": {
+      "type": "integer",
+      "label": "minutes to fall asleep",
+      "minimum": 0,
+      "maximum": 120,
+      "default": 14
+     }
+    }
+   },
+   "examples": [
+    "when should I go to bed to wake at 7am",
+    "bedtimes to wake at 06:30",
+    "if I go to sleep now at 23:00 when should I wake",
+    "wake times with a 100 minute cycle",
+    "bedtimes for a 08:00 alarm with no wind-down"
+   ]
+  },
+  {
+   "name": "splitTimes",
+   "category": "health",
+   "needsNetwork": false,
+   "card": "splitTimes \u2014 Work out the pace and split times needed to finish a distance in a target time.\n  needs: distance: number, time: string\n  optional: unit: string\n  e.g. \"split times for a 10k in 50 minutes\" \u2192 {\"distance\":10,\"time\":\"50:00\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "distance",
+     "time"
+    ],
+    "properties": {
+     "distance": {
+      "type": "number",
+      "label": "distance",
+      "minimum": 0.1,
+      "maximum": 1000,
+      "prompt": "How far?"
+     },
+     "time": {
+      "type": "string",
+      "label": "target time",
+      "prompt": "What is the target time? Write it as 50:00 or 1:45:00."
+     },
+     "unit": {
+      "type": "string",
+      "label": "distance unit",
+      "enum": [
+       "km",
+       "miles"
+      ],
+      "default": "km"
+     }
+    }
+   },
+   "examples": [
+    "split times for a 10k in 50 minutes",
+    "what pace do I need for a 5k in 22:30",
+    "pace for 3 miles in 24 minutes",
+    "splits for 4km in 20 minutes",
+    "pace for 2km in 9 minutes"
+   ]
+  },
+  {
+   "name": "sortList",
+   "category": "lists",
+   "needsNetwork": false,
+   "card": "sortList \u2014 Put a list of items in order \u2014 alphabetically, numerically, or in natural order where numbers inside names count.\n  needs: items: array\n  optional: by: string, direction: string\n  e.g. \"sort this list alphabetically\" \u2192 {\"items\":[\"cherry\",\"apple\",\"banana\"]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "items"
+    ],
+    "properties": {
+     "items": {
+      "type": "array",
+      "label": "list",
+      "minItems": 1,
+      "prompt": "Which list should I sort?"
+     },
+     "by": {
+      "type": "string",
+      "label": "sort by",
+      "enum": [
+       "alphabetical",
+       "numeric",
+       "natural"
+      ],
+      "default": "alphabetical"
+     },
+     "direction": {
+      "type": "string",
+      "label": "order",
+      "enum": [
+       "ascending",
+       "descending"
+      ],
+      "default": "ascending"
+     }
+    }
+   },
+   "examples": [
+    "sort this list alphabetically",
+    "sort these numbers largest first",
+    "sort file names in natural order",
+    "order these names z to a",
+    "sort a mixed-case list"
+   ]
+  },
+  {
+   "name": "fibonacci",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "fibonacci \u2014 Give the nth Fibonacci number, or the first n of them.\n  needs: n: integer\n  optional: mode: string\n  e.g. \"what is the 10th fibonacci number\" \u2192 {\"n\":10}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "n"
+    ],
+    "properties": {
+     "n": {
+      "type": "integer",
+      "label": "position or count",
+      "minimum": 0,
+      "maximum": 1000,
+      "prompt": "Which position in the sequence?"
+     },
+     "mode": {
+      "type": "string",
+      "label": "mode",
+      "enum": [
+       "nth",
+       "sequence"
+      ],
+      "default": "nth"
+     }
+    }
+   },
+   "examples": [
+    "what is the 10th fibonacci number",
+    "first 8 fibonacci numbers",
+    "fibonacci number 1",
+    "the 50th fibonacci number",
+    "fibonacci at position 0"
+   ]
+  },
+  {
+   "name": "formatCurrency",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "formatCurrency \u2014 Write an amount of money the way a currency is normally written, with its symbol and decimal places.\n  needs: amount: number, currency: string\n  optional: style: string\n  e.g. \"write 1234.5 as pounds\" \u2192 {\"amount\":1234.5,\"currency\":\"GBP\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "amount",
+     "currency"
+    ],
+    "properties": {
+     "amount": {
+      "type": "number",
+      "label": "amount",
+      "carry": true,
+      "prompt": "How much?"
+     },
+     "currency": {
+      "type": "string",
+      "label": "currency",
+      "minLength": 3,
+      "maxLength": 3,
+      "prompt": "Which currency? (a three-letter code like GBP)"
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "symbol",
+       "code",
+       "name"
+      ],
+      "default": "symbol"
+     }
+    }
+   },
+   "examples": [
+    "write 1234.5 as pounds",
+    "format 99 as US dollars",
+    "write 5000 yen properly",
+    "show 42.5 euros with the code not the symbol",
+    "format 12.345 kuwaiti dinars"
+   ]
+  },
+  {
+   "name": "formatNumber",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "formatNumber \u2014 Write a number with thousands separators, a set number of decimals, or in compact form like 1.2k.\n  needs: value: number\n  optional: decimals: integer, style: string\n  e.g. \"format 1234567 with thousands separators\" \u2192 {\"value\":1234567}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value"
+    ],
+    "properties": {
+     "value": {
+      "type": "number",
+      "label": "number",
+      "carry": true,
+      "prompt": "Which number should I format?",
+      "description": "for the percent style, a fraction: 0.15 is 15%"
+     },
+     "decimals": {
+      "type": "integer",
+      "label": "decimal places",
+      "minimum": 0,
+      "maximum": 10
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "standard",
+       "compact",
+       "percent",
+       "plain"
+      ],
+      "default": "standard"
+     }
+    }
+   },
+   "examples": [
+    "format 1234567 with thousands separators",
+    "write 1234567 in compact form",
+    "show 0.4567 as a percentage",
+    "format 3.14159 to two decimals",
+    "write 9876.5 without separators"
+   ]
+  },
+  {
+   "name": "toOrdinal",
+   "category": "math",
+   "needsNetwork": false,
+   "card": "toOrdinal \u2014 Add the ordinal suffix to a number \u2014 3 becomes 3rd, 42 becomes 42nd.\n  needs: value: integer\n  optional: style: string\n  e.g. \"write 3 as an ordinal\" \u2192 {\"value\":3}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "value"
+    ],
+    "properties": {
+     "value": {
+      "type": "integer",
+      "label": "number",
+      "carry": true,
+      "prompt": "Which number?"
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "short",
+       "words"
+      ],
+      "default": "short"
+     }
+    }
+   },
+   "examples": [
+    "write 3 as an ordinal",
+    "what is 21 as an ordinal",
+    "ordinal for 112",
+    "write 2 as an ordinal word",
+    "ordinal of 11",
+    "write 21 as twenty-first style, with its ending",
+    "write 102 with its st nd rd th ending"
+   ]
+  },
+  {
+   "name": "budgetSplit",
+   "category": "organising",
+   "needsNetwork": false,
+   "card": "budgetSplit \u2014 Divide an income into budget categories by percentage, using 50/30/20 or ratios you set.\n  needs: income: number\n  optional: preset: string, ratios: array, labels: array\n  e.g. \"split 3000 a month using 50/30/20\" \u2192 {\"income\":3000}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "income"
+    ],
+    "properties": {
+     "income": {
+      "type": "number",
+      "label": "amount to divide",
+      "carry": true,
+      "exclusiveMinimum": 0,
+      "prompt": "How much is there to divide?"
+     },
+     "preset": {
+      "type": "string",
+      "label": "budget rule",
+      "enum": [
+       "50/30/20",
+       "70/20/10",
+       "60/20/20"
+      ],
+      "default": "50/30/20"
+     },
+     "ratios": {
+      "type": "array",
+      "label": "percentages",
+      "items": {
+       "type": "number"
+      },
+      "description": "your own percentages, which must add to 100"
+     },
+     "labels": {
+      "type": "array",
+      "label": "category names",
+      "items": {
+       "type": "string"
+      },
+      "description": "a name for each of your own ratios"
+     }
+    }
+   },
+   "examples": [
+    "split 3000 a month using 50/30/20",
+    "budget 2450 with the 70/20/10 rule",
+    "split 1000 my own way 40 40 20",
+    "divide 3333.33 into 50/30/20",
+    "split 5000 sixty twenty twenty"
+   ]
+  },
+  {
+   "name": "findOutliers",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "findOutliers \u2014 Spot the values sitting way off from the rest of a set.\n  needs: values: array\n  optional: method: string, threshold: number\n  e.g. \"find the outliers in these numbers\" \u2192 {\"values\":[10,12,11,13,12,90]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 4,
+      "prompt": "Which numbers?"
+     },
+     "method": {
+      "type": "string",
+      "label": "method",
+      "enum": [
+       "iqr",
+       "zscore"
+      ],
+      "default": "iqr"
+     },
+     "threshold": {
+      "type": "number",
+      "label": "z-score cutoff",
+      "exclusiveMinimum": 0,
+      "default": 3,
+      "description": "z-score cutoff, when using zscore"
+     }
+    }
+   },
+   "examples": [
+    "find the outliers in these numbers",
+    "any outliers in this data",
+    "spot unusual values by z-score",
+    "find outliers at both ends",
+    "outliers in response times",
+    "is anything way out of line in 8 9 10 11 50",
+    "which of these readings is off from the rest"
+   ]
+  },
+  {
+   "name": "movingAverage",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "movingAverage \u2014 Smooth a series of numbers by averaging over a sliding window.\n  needs: values: array, window: integer\n  optional: type: string\n  e.g. \"3 point moving average of these numbers\" \u2192 {\"values\":[1,2,3,4,5],\"window\":3}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values",
+     "window"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 2,
+      "prompt": "Which numbers?"
+     },
+     "window": {
+      "type": "integer",
+      "label": "window size",
+      "minimum": 2,
+      "prompt": "How many points should each average cover?"
+     },
+     "type": {
+      "type": "string",
+      "label": "average type",
+      "enum": [
+       "simple",
+       "weighted"
+      ],
+      "default": "simple"
+     }
+    }
+   },
+   "examples": [
+    "3 point moving average of these numbers",
+    "smooth these sales figures over 4 months",
+    "moving average of a noisy series",
+    "weighted moving average favouring recent points",
+    "moving average of a flat series"
+   ]
+  },
+  {
+   "name": "rankValues",
+   "category": "statistics",
+   "needsNetwork": false,
+   "card": "rankValues \u2014 Put numbers in order and give each its rank position.\n  needs: values: array\n  optional: labels: array, direction: string, method: string\n  e.g. \"rank these scores\" \u2192 {\"values\":[90,70,85]}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "values"
+    ],
+    "properties": {
+     "values": {
+      "type": "array",
+      "label": "numbers",
+      "items": {
+       "type": "number"
+      },
+      "minItems": 1,
+      "prompt": "Which numbers should I rank?"
+     },
+     "labels": {
+      "type": "array",
+      "label": "names",
+      "items": {
+       "type": "string"
+      },
+      "description": "a name for each value"
+     },
+     "direction": {
+      "type": "string",
+      "label": "order",
+      "enum": [
+       "descending",
+       "ascending"
+      ],
+      "default": "descending"
+     },
+     "method": {
+      "type": "string",
+      "label": "tie method",
+      "enum": [
+       "dense",
+       "ordinal",
+       "competition"
+      ],
+      "default": "competition"
+     }
+    }
+   },
+   "examples": [
+    "rank these scores",
+    "rank these with a tie",
+    "rank teams by points",
+    "rank smallest first",
+    "dense ranking with a tie",
+    "put these from best to worst: 72 95 88",
+    "order these results highest first"
+   ]
+  },
+  {
+   "name": "convertCase",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "convertCase \u2014 Change text to another capitalisation \u2014 title case, upper, lower, camelCase, snake_case.\n  needs: text: string, style: string\n  e.g. \"make this title case: the lord of the rings\" \u2192 {\"text\":\"the lord of the rings\",\"style\":\"title\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text",
+     "style"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I change?"
+     },
+     "style": {
+      "type": "string",
+      "label": "case",
+      "enum": [
+       "upper",
+       "lower",
+       "title",
+       "sentence",
+       "camel",
+       "pascal",
+       "snake",
+       "kebab",
+       "constant"
+      ],
+      "prompt": "Which case? (upper, lower, title, sentence, camel, pascal, snake, kebab or constant)"
+     }
+    }
+   },
+   "examples": [
+    "make this title case: the lord of the rings",
+    "convert \"user first name\" to camelCase",
+    "snake case for \"My Long Variable\"",
+    "shout this: keep it down",
+    "fix the capitals: HELLO THERE. HOW ARE YOU?",
+    "change my heading to title case: a tale of two cities",
+    "put this in upper case: quiet please"
+   ]
+  },
+  {
+   "name": "diffText",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "diffText \u2014 Compare two versions of a text and show what was added and removed, by line or by word.\n  needs: before: string, after: string\n  optional: by: string\n  e.g. \"show me the line by line changes\" \u2192 {\"before\":\"apple\\nbanana\\ncherry\",\"after\":\"apple\\nblueberry\\ncherry\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "before",
+     "after"
+    ],
+    "properties": {
+     "before": {
+      "type": "string",
+      "label": "original text",
+      "prompt": "What is the original text?"
+     },
+     "after": {
+      "type": "string",
+      "label": "new text",
+      "prompt": "What is the new text?"
+     },
+     "by": {
+      "type": "string",
+      "label": "compare by",
+      "enum": [
+       "line",
+       "word"
+      ],
+      "default": "line"
+     }
+    }
+   },
+   "examples": [
+    "show me the line by line changes",
+    "diff these two paragraphs by word",
+    "compare the old and new list",
+    "what was deleted from this list",
+    "did anything change",
+    "show me what differs between the earlier draft and the later one",
+    "compare these two drafts line by line"
+   ]
+  },
+  {
+   "name": "escapeHtml",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "escapeHtml \u2014 Make text safe to drop into HTML, turning angle brackets and ampersands into entities \u2014 or turn escaped ones back.\n  needs: text: string\n  optional: direction: string\n  e.g. \"escape this html: <b>bold</b>\" \u2192 {\"text\":\"<b>bold</b>\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text?"
+     },
+     "direction": {
+      "type": "string",
+      "label": "escape or unescape",
+      "enum": [
+       "escape",
+       "unescape"
+      ],
+      "default": "escape"
+     }
+    }
+   },
+   "examples": [
+    "escape this html: <b>bold</b>",
+    "escape an ampersand",
+    "unescape &lt;p&gt;hi&lt;/p&gt;",
+    "escape a quoted attribute",
+    "escape text with nothing special in it",
+    "make these angle brackets safe for a web page",
+    "encode the special characters so html shows them literally"
+   ]
+  },
+  {
+   "name": "extractIpAddresses",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractIpAddresses \u2014 Find the IPv4 and IPv6 addresses in a server log.\n  needs: text: string\n  optional: unique: boolean, version: string\n  e.g. \"get the ip addresses from this log\" \u2192 {\"text\":\"from 192.168.1.10 to 8.8.8.8\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I search?"
+     },
+     "unique": {
+      "type": "boolean",
+      "label": "remove duplicates",
+      "default": true
+     },
+     "version": {
+      "type": "string",
+      "label": "ip version",
+      "enum": [
+       "both",
+       "v4",
+       "v6"
+      ],
+      "default": "both"
+     }
+    }
+   },
+   "examples": [
+    "get the ip addresses from this log",
+    "find the ips in these lines",
+    "extract ipv6 addresses",
+    "ignore a version number that looks like an ip",
+    "any ip addresses here"
+   ]
+  },
+  {
+   "name": "extractListItems",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractListItems \u2014 Pull the bulleted or numbered list items out of a document.\n  needs: text: string\n  optional: type: string\n  e.g. \"get the list items from this note\" \u2192 {\"text\":\"Shopping:\\n- milk\\n- eggs\\n- bread\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I read?"
+     },
+     "type": {
+      "type": "string",
+      "label": "list type",
+      "enum": [
+       "any",
+       "bulleted",
+       "numbered"
+      ],
+      "default": "any"
+     }
+    }
+   },
+   "examples": [
+    "get the list items from this note",
+    "extract the numbered steps",
+    "pull the items from a nested list",
+    "get only the bulleted items",
+    "extract items from a mixed list"
+   ]
+  },
+  {
+   "name": "extractNgrams",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "extractNgrams \u2014 Break text into overlapping runs of n words or characters \u2014 two-word runs, bigrams, trigrams.\n  needs: text: string\n  optional: n: integer, unit: string\n  e.g. \"get the bigrams from this sentence\" \u2192 {\"text\":\"the quick brown fox\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 50000,
+      "prompt": "Which text should I break up?"
+     },
+     "n": {
+      "type": "integer",
+      "label": "n-gram size",
+      "minimum": 1,
+      "maximum": 10,
+      "default": 2
+     },
+     "unit": {
+      "type": "string",
+      "label": "words or characters",
+      "enum": [
+       "words",
+       "characters"
+      ],
+      "default": "words"
+     }
+    }
+   },
+   "examples": [
+    "get the bigrams from this sentence",
+    "trigrams of this text",
+    "single word ngrams",
+    "character bigrams of a word",
+    "bigrams where one repeats",
+    "split this into runs of two words",
+    "give me the three-word sequences in this"
+   ]
+  },
+  {
+   "name": "maskSensitive",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "maskSensitive \u2014 Hide private details in text \u2014 emails, phone numbers, cards \u2014 behind placeholders.\n  needs: text: string\n  optional: style: string, kinds: array\n  e.g. \"redact the personal data in this\" \u2192 {\"text\":\"Contact ana@example.com or call 020 7946 0958.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 100000,
+      "prompt": "Which text should I redact?"
+     },
+     "style": {
+      "type": "string",
+      "label": "mask style",
+      "enum": [
+       "label",
+       "stars",
+       "partial"
+      ],
+      "default": "label"
+     },
+     "kinds": {
+      "type": "array",
+      "label": "kinds to mask",
+      "maxItems": 10,
+      "items": {
+       "type": "string"
+      },
+      "description": "limit the masking to these kinds"
+     }
+    }
+   },
+   "examples": [
+    "redact the personal data in this",
+    "mask this card number with stars",
+    "partially mask the email",
+    "nothing to redact here",
+    "mask only the phone number",
+    "scrub the email and phone number out of this",
+    "blank out the personal information here"
+   ]
+  },
+  {
+   "name": "padText",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "padText \u2014 Pad text out to a fixed width, aligned left, right or centre.\n  needs: text: string, width: integer\n  optional: align: string, fill: string\n  e.g. \"pad \"abc\" to 8 characters\" \u2192 {\"text\":\"abc\",\"width\":8}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text",
+     "width"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "prompt": "Which text should I pad?"
+     },
+     "width": {
+      "type": "integer",
+      "label": "width",
+      "minimum": 1,
+      "maximum": 500,
+      "prompt": "Pad to what width?"
+     },
+     "align": {
+      "type": "string",
+      "label": "align",
+      "enum": [
+       "left",
+       "right",
+       "centre"
+      ],
+      "default": "left"
+     },
+     "fill": {
+      "type": "string",
+      "label": "fill character",
+      "default": " ",
+      "minLength": 1,
+      "maxLength": 1
+     }
+    }
+   },
+   "examples": [
+    "pad \"abc\" to 8 characters",
+    "right align 42 in 6 columns",
+    "centre the word title in 11",
+    "pad with dots to make a table of contents line",
+    "pad text that is already too long"
+   ]
+  },
+  {
+   "name": "reverseText",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "reverseText \u2014 Reverse a text \u2014 by character, by word, or by line.\n  needs: text: string\n  optional: by: string\n  e.g. \"reverse the word stressed\" \u2192 {\"text\":\"stressed\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I reverse?"
+     },
+     "by": {
+      "type": "string",
+      "label": "reverse by",
+      "enum": [
+       "characters",
+       "words",
+       "lines"
+      ],
+      "default": "characters"
+     }
+    }
+   },
+   "examples": [
+    "reverse the word stressed",
+    "reverse this text backwards",
+    "reverse the word order of the quick brown fox",
+    "reverse these lines",
+    "reverse racecar"
+   ]
+  },
+  {
+   "name": "slugify",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "slugify \u2014 Turn a title into a URL-safe slug \u2014 lowercase, hyphens, no accents or punctuation.\n  needs: text: string\n  optional: separator: string, maxLength: integer\n  e.g. \"make a slug from \"Hello, World! A Beginner's Guide\"\" \u2192 {\"text\":\"Hello, World! A Beginner's Guide\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "What should I turn into a slug?"
+     },
+     "separator": {
+      "type": "string",
+      "label": "separator",
+      "enum": [
+       "-",
+       "_"
+      ],
+      "default": "-"
+     },
+     "maxLength": {
+      "type": "integer",
+      "label": "max length",
+      "minimum": 1,
+      "maximum": 200
+     }
+    }
+   },
+   "examples": [
+    "make a slug from \"Hello, World! A Beginner's Guide\"",
+    "url slug for \"Caf\u00e9 M\u00fcnster \u2014 Opening Times\"",
+    "slugify with underscores: My Blog Post",
+    "short slug, max 12 chars, from \"The Complete Guide To Everything\"",
+    "slug for \"  spaced   out   title  \""
+   ]
+  },
+  {
+   "name": "sortLines",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "sortLines \u2014 Put the lines of a text in order \u2014 alphabetically, numerically, or by length.\n  needs: text: string\n  optional: by: string, direction: string, caseSensitive: boolean\n  e.g. \"sort these lines alphabetically\" \u2192 {\"text\":\"cherry\\napple\\nbanana\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which lines should I sort?"
+     },
+     "by": {
+      "type": "string",
+      "label": "sort by",
+      "enum": [
+       "alphabetical",
+       "numeric",
+       "length"
+      ],
+      "default": "alphabetical"
+     },
+     "direction": {
+      "type": "string",
+      "label": "order",
+      "enum": [
+       "ascending",
+       "descending"
+      ],
+      "default": "ascending"
+     },
+     "caseSensitive": {
+      "type": "boolean",
+      "label": "match case",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "sort these lines alphabetically",
+    "sort this list z to a",
+    "sort these numbers properly",
+    "order the lines shortest first",
+    "sort a shopping list"
+   ]
+  },
+  {
+   "name": "truncateText",
+   "category": "text",
+   "needsNetwork": false,
+   "card": "truncateText \u2014 Cut text off at a maximum length and end it with an ellipsis.\n  needs: text: string, limit: integer\n  optional: unit: string, ellipsis: string, breakWords: boolean\n  e.g. \"shorten this to 20 characters\" \u2192 {\"text\":\"The quick brown fox jumps over the lazy dog\",\"limit\":20}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text",
+     "limit"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I shorten?"
+     },
+     "limit": {
+      "type": "integer",
+      "label": "max length",
+      "minimum": 1,
+      "prompt": "Shorten it to how many?"
+     },
+     "unit": {
+      "type": "string",
+      "label": "characters or words",
+      "enum": [
+       "characters",
+       "words"
+      ],
+      "default": "characters"
+     },
+     "ellipsis": {
+      "type": "string",
+      "label": "ellipsis",
+      "default": "\u2026"
+     },
+     "breakWords": {
+      "type": "boolean",
+      "label": "cut mid-word",
+      "default": false,
+      "description": "allow cutting in the middle of a word"
+     }
+    }
+   },
+   "examples": [
+    "shorten this to 20 characters",
+    "cut this down to 5 words",
+    "truncate a string already short enough",
+    "shorten to 10 chars with a custom ellipsis",
+    "truncate mid-word if it has to"
+   ]
+  },
+  {
+   "name": "formatCitation",
+   "category": "writing",
+   "needsNetwork": false,
+   "card": "formatCitation \u2014 Assemble a reference in APA, MLA or Chicago style from details you provide.\n  needs: authors: array, title: string, year: integer\n  optional: style: string, container: string, publisher: string, volume: string, pages: string, url: string\n  e.g. \"format this as an APA reference\" \u2192 {\"authors\":[\"Jane Smith\"],\"title\":\"On measurement\",\"year\":2024,\"container\":\"Journal of Things\",\"volume\":\"12\",\"pages\":\"3-19\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "authors",
+     "title",
+     "year"
+    ],
+    "properties": {
+     "authors": {
+      "type": "array",
+      "label": "authors",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1,
+      "prompt": "Who are the authors?"
+     },
+     "title": {
+      "type": "string",
+      "label": "title",
+      "minLength": 1,
+      "prompt": "What is the title?"
+     },
+     "year": {
+      "type": "integer",
+      "label": "year",
+      "prompt": "What year was it published?"
+     },
+     "style": {
+      "type": "string",
+      "label": "style",
+      "enum": [
+       "APA",
+       "MLA",
+       "Chicago"
+      ],
+      "default": "APA"
+     },
+     "container": {
+      "type": "string",
+      "label": "journal, book or site",
+      "description": "the journal, book or site it appeared in"
+     },
+     "publisher": {
+      "type": "string",
+      "label": "publisher"
+     },
+     "volume": {
+      "type": "string",
+      "label": "volume"
+     },
+     "pages": {
+      "type": "string",
+      "label": "pages"
+     },
+     "url": {
+      "type": "string",
+      "label": "url"
+     }
+    }
+   },
+   "examples": [
+    "format this as an APA reference",
+    "make an MLA citation for this book",
+    "APA reference with two authors",
+    "chicago style citation for a book",
+    "APA citation with a url"
+   ]
+  }
+ ]
+}

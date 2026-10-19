@@ -1,0 +1,6 @@
+transcript repair — boundaries, capitals, paragraphs, split names
+teacher http://127.0.0.1:8110 wrote 240 clean passages; damage is mechanical, so the target is exact
+180 train / 20 valid / 120 holdout (40 passages x 3 levels)
+rejected: none
+built 2026-09-10 by scripts/transcriptdata.mjs
+rebuilt 2026-09-10: fillers now appear in the TARGET too, so the model repunctuates and never deletes

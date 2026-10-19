@@ -1,0 +1,260 @@
+[
+ {
+  "batch": "l02",
+  "skill": "currentTime",
+  "yes": "what's the local time at the moment",
+  "listed": [
+   "listTimezoneOffsets",
+   "timezoneLookup",
+   "airportCodeLookup",
+   "countryLookup",
+   "currencyLookup",
+   "languageCodeLookup",
+   "periodicTableLookup",
+   "phoneRegionLookup",
+   "usStateLookup",
+   "webAnswer",
+   "webSearch",
+   "extractTimes",
+   "convertCurrencyFixed",
+   "formatCurrency",
+   "unicodeLookup"
+  ]
+ },
+ {
+  "batch": "l02",
+  "skill": "weightedDecisionMatrix",
+  "yes": "rank schools on results (weight 3) and distance (weight 2): A 8 and 5, B 6 and 9",
+  "listed": [
+   "rankValues",
+   "weightedAverage",
+   "zScores",
+   "movingAverage",
+   "correlation",
+   "cumulativeSum",
+   "describeNumbers",
+   "findOutliers",
+   "histogramBins",
+   "linearRegression",
+   "percentile",
+   "quartiles"
+  ]
+ },
+ {
+  "batch": "l04",
+  "skill": "checkArithmeticSteps",
+  "yes": "do these numbers add up: 120 - 45 = 75, 75 / 3 = 25",
+  "listed": [
+   "sum",
+   "evaluateExpression",
+   "factorial",
+   "splitEvenly",
+   "gcd",
+   "toOrdinal",
+   "lcm",
+   "percentageDistribution",
+   "parseNumber",
+   "whatPercent",
+   "percentChange",
+   "formatNumber",
+   "fibonacci",
+   "primeFactors",
+   "isPrime",
+   "product",
+   "percentOf",
+   "allocateProportionally",
+   "formatCurrency",
+   "extractNumbers",
+   "ratioSolve",
+   "parseSemver",
+   "splitBill",
+   "currencyLookup"
+  ]
+ },
+ {
+  "batch": "l04",
+  "skill": "gradeQuiz",
+  "yes": "score this spelling test out of three against the key: cat dgo fish, key cat dog fish",
+  "listed": []
+ },
+ {
+  "batch": "l05",
+  "skill": "countItems",
+  "yes": "count how many times each word appears: red blue red green blue red",
+  "listed": [
+   "mixColors",
+   "countOccurrences",
+   "countWords",
+   "removeDuplicateLines",
+   "extractTimes",
+   "wordFrequency",
+   "countCharacters",
+   "extractUrls",
+   "syllableCount",
+   "countLines",
+   "splitLines",
+   "countSentences",
+   "tokenizeWords",
+   "trimLines",
+   "averageWordLength",
+   "numberLines",
+   "detectRepetition",
+   "extractNumbers",
+   "findLongestWord",
+   "convertColor",
+   "joinLines",
+   "sortLines",
+   "extractCurrencyAmounts",
+   "extractDates"
+  ]
+ },
+ {
+  "batch": "l05",
+  "skill": "differenceLists",
+  "yes": "what's on my packing list but not hers: tent, stove, map / tent, map, torch",
+  "listed": []
+ },
+ {
+  "batch": "l05",
+  "skill": "percentChange",
+  "yes": "percentage rise in the price of coffee from 2.80 to 3.40",
+  "listed": [
+   "comparePrices",
+   "applyDiscount",
+   "markupMargin",
+   "applyTax",
+   "salaryToHourly",
+   "hourlyToSalary",
+   "amortizeLoan",
+   "compoundInterest",
+   "convertCurrencyFixed",
+   "savingsGoal",
+   "simpleInterest",
+   "stackDiscounts",
+   "currencyLookup"
+  ]
+ },
+ {
+  "batch": "l05",
+  "skill": "percentOf",
+  "yes": "20 percent tip on a bill of 64.80",
+  "listed": [
+   "splitBill",
+   "stackDiscounts",
+   "shippingTotal",
+   "unitPrice",
+   "comparePrices",
+   "convertCookingMeasure",
+   "fuelCostForTrip",
+   "scaleRecipe",
+   "splitEvenly",
+   "applyDiscount"
+  ]
+ },
+ {
+  "batch": "l06",
+  "skill": "rotateAssignments",
+  "yes": "rotate the night shift between ana, ben and cal for the next six weeks",
+  "listed": []
+ },
+ {
+  "batch": "l06",
+  "skill": "webAnswer",
+  "yes": "when did Marie Curie win her second Nobel prize",
+  "listed": []
+ },
+ {
+  "batch": "l06",
+  "skill": "weightedAverage",
+  "yes": "my final grade if coursework 68 counts 40% and the exam 74 counts 60%",
+  "listed": [
+   "gradeNeeded",
+   "gradeQuiz",
+   "gpaCalculate",
+   "readingScheduleFromPages",
+   "checkArithmeticSteps",
+   "flashcardShuffle",
+   "spacedRepetitionSchedule"
+  ]
+ },
+ {
+  "batch": "l06",
+  "skill": "convertCase",
+  "yes": "convert to all caps: meeting moved to thursday",
+  "listed": [
+   "movingAverage",
+   "removeStopWords",
+   "averageWordLength",
+   "cleanTranscript",
+   "countCharacters",
+   "countLines",
+   "countOccurrences",
+   "countSentences",
+   "countWords",
+   "detectLanguage",
+   "detectRepetition",
+   "diffText",
+   "escapeHtml",
+   "extractCodeBlocks",
+   "extractCurrencyAmounts",
+   "extractDates",
+   "extractEmails",
+   "extractHashtags",
+   "removeEmoji",
+   "findLongestWord",
+   "syllableCount",
+   "joinLines",
+   "removeDuplicateLines",
+   "sortLines"
+  ]
+ },
+ {
+  "batch": "l06",
+  "skill": "countWords",
+  "yes": "how many words is my essay intro: the industrial revolution changed how people lived and worked",
+  "listed": []
+ },
+ {
+  "batch": "l06",
+  "skill": "diffText",
+  "yes": "show the differences between these drafts by word: we will ship friday / we hope to ship friday",
+  "listed": []
+ },
+ {
+  "batch": "l07",
+  "skill": "flagProfanity",
+  "yes": "check this comment for bad language before i post it: that ref was a bloody disgrace",
+  "listed": [
+   "detectLanguage",
+   "extractMentions",
+   "detectRepetition",
+   "numberLines",
+   "averageWordLength",
+   "cleanTranscript",
+   "convertCase",
+   "countCharacters",
+   "countLines",
+   "countOccurrences",
+   "countSentences",
+   "countWords",
+   "diffText",
+   "escapeHtml",
+   "extractDates",
+   "extractTimes",
+   "joinLines",
+   "sortLines",
+   "findLongestWord",
+   "syllableCount",
+   "removeDuplicateLines",
+   "textFileStats",
+   "tokenizeSentences",
+   "wordFrequency"
+  ]
+ },
+ {
+  "batch": "l07",
+  "skill": "lexiconSentiment",
+  "yes": "rate how positive this feedback sounds: engineer was on time, boiler fixed, lovely chap",
+  "listed": []
+ }
+]

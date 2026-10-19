@@ -1,0 +1,146 @@
+{
+ "name": "face-grammar",
+ "version": 1,
+ "how": "Concatenate `head` and the fragment for each named part, in the order eyes, brows, mouth, extras, inside `wrapper`.",
+ "wrapper": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">{parts}</svg>",
+ "head": "<circle cx=\"12\" cy=\"12\" r=\"9\"/>",
+ "order": [
+  "eyes",
+  "brows",
+  "mouth",
+  "extras"
+ ],
+ "parts": {
+  "eyes": {
+   "dots": "<path d=\"M9 9.5v1.5\"/><path d=\"M15 9.5v1.5\"/>",
+   "wide": "<circle cx=\"9\" cy=\"10\" r=\"1.5\"/><circle cx=\"15\" cy=\"10\" r=\"1.5\"/>",
+   "happy": "<path d=\"M7.5 10.5Q9 8 10.5 10.5\"/><path d=\"M13.5 10.5Q15 8 16.5 10.5\"/>",
+   "closed": "<path d=\"M7.5 9.5Q9 11.5 10.5 9.5\"/><path d=\"M13.5 9.5Q15 11.5 16.5 9.5\"/>",
+   "squint": "<path d=\"M7.5 10h3\"/><path d=\"M13.5 10h3\"/>",
+   "up": "<path d=\"M9 9v1.5\"/><path d=\"M15 9v1.5\"/>",
+   "wink": "<path d=\"M7.5 9.5Q9 11.5 10.5 9.5\"/><path d=\"M15 9.5v1.5\"/>",
+   "x": "<path d=\"M7.5 8.5l3 3\"/><path d=\"M10.5 8.5l-3 3\"/><path d=\"M13.5 8.5l3 3\"/><path d=\"M16.5 8.5l-3 3\"/>",
+   "hearts": "<path d=\"M9 11.5Q7 9.5 8 8.5T9 9.5Q10 8 11 8.5T9 11.5\"/><path d=\"M15 11.5Q13 9.5 14 8.5T15 9.5Q16 8 17 8.5T15 11.5\"/>",
+   "spiral": "<path d=\"M10.5 10Q10.5 8.5 9 8.5T7.5 10T9 11.5\"/><path d=\"M16.5 10Q16.5 8.5 15 8.5T13.5 10T15 11.5\"/>",
+   "wobble": "<path d=\"M7.5 10Q9 8.5 10.5 10\"/><path d=\"M13.5 10Q15 11.5 16.5 10\"/>",
+   "shades": "<path d=\"M6.5 9h11\"/><path d=\"M7.5 9v2.5h3V9\"/><path d=\"M13.5 9v2.5h3V9\"/>",
+   "glasses": "<circle cx=\"9\" cy=\"10\" r=\"2\"/><circle cx=\"15\" cy=\"10\" r=\"2\"/><path d=\"M11 10h2\"/>"
+  },
+  "brows": {
+   "angry": "<path d=\"M7 7l3 1.5\"/><path d=\"M17 7l-3 1.5\"/>",
+   "worried": "<path d=\"M7 8l3-1.5\"/><path d=\"M17 8l-3-1.5\"/>",
+   "raised": "<path d=\"M7.5 7.5Q9 6 10.5 7.5\"/><path d=\"M13.5 7.5Q15 6 16.5 7.5\"/>",
+   "cocked": "<path d=\"M7.5 7.3Q9 6.7 10.5 7.3\"/><path d=\"M13.5 7Q15 5 16.5 7\"/>"
+  },
+  "mouth": {
+   "smile": "<path d=\"M8 14Q12 17.5 16 14\"/>",
+   "slight": "<path d=\"M9.5 14.5Q12 16 14.5 14.5\"/>",
+   "grin": "<path d=\"M7.5 13.5h9Q16 18 12 18T7.5 13.5\"/>",
+   "open": "<circle cx=\"12\" cy=\"15.5\" r=\"2\"/>",
+   "gasp": "<ellipse cx=\"12\" cy=\"15.5\" rx=\"2\" ry=\"2.5\"/>",
+   "frown": "<path d=\"M8 16.5Q12 13 16 16.5\"/>",
+   "slightfrown": "<path d=\"M9.5 16Q12 14.5 14.5 16\"/>",
+   "flat": "<path d=\"M9 15.5h6\"/>",
+   "smirk": "<path d=\"M9 15.5Q12 17 15 14.5\"/>",
+   "wavy": "<path d=\"M8.5 15.5q1.5-1.5 3 0t3 0\"/>",
+   "tongue": "<path d=\"M8 14Q12 17.5 16 14\"/><path d=\"M10.5 16v1.5a1.5 1.5 0 0 0 3 0V16\"/>",
+   "teeth": "<path d=\"M7.5 13.5h9\"/><path d=\"M7.5 16.5h9\"/><path d=\"M10.5 13.5v3\"/><path d=\"M13.5 13.5v3\"/>",
+   "zip": "<path d=\"M8 15.5h8\"/><path d=\"M10 14.5v2\"/><path d=\"M14 14.5v2\"/>",
+   "kiss": "<ellipse cx=\"12\" cy=\"15.5\" rx=\"2\" ry=\"1.5\"/>",
+   "pout": "<path d=\"M10.5 16.5q1.5-2 3 0\"/>",
+   "cry": "<path d=\"M9 17Q12 13.5 15 17\"/>"
+  },
+  "extras": {
+   "tears": "<path d=\"M8 12.5L6.5 16\"/><path d=\"M16 12.5L17.5 16\"/>",
+   "tear1": "<path d=\"M16 12.5L17.5 16\"/>",
+   "sweat": "<path d=\"M20 1.5c1.2 1.7 1.9 2.7 1.9 3.4a1.9 1.9 0 0 1-3.8 0c0-.7.7-1.7 1.9-3.4z\"/>",
+   "blush": "<path d=\"M6 13.5h1.5\"/><path d=\"M16.5 13.5H18\"/>",
+   "halo": "<ellipse cx=\"12\" cy=\"1.5\" rx=\"4.5\" ry=\"1.5\"/>",
+   "horns": "<path d=\"M4.5 6.5l1-3 2.5 1.5\"/><path d=\"M19.5 6.5l-1-3-2.5 1.5\"/>",
+   "zzz": "<path d=\"M16.5 3h3l-3 3h3\"/>",
+   "hat": "<path d=\"M8 4.5L12 1l4 3.5\"/>",
+   "bandage": "<path d=\"M13.5 5.5l3 2.5\"/><path d=\"M16.5 5l-3 3\"/>"
+  }
+ },
+ "recipe_schema": {
+  "type": "object",
+  "properties": {
+   "eyes": {
+    "type": "string",
+    "enum": [
+     "closed",
+     "dots",
+     "glasses",
+     "happy",
+     "hearts",
+     "shades",
+     "spiral",
+     "squint",
+     "up",
+     "wide",
+     "wink",
+     "wobble",
+     "x"
+    ]
+   },
+   "mouth": {
+    "type": "string",
+    "enum": [
+     "cry",
+     "flat",
+     "frown",
+     "gasp",
+     "grin",
+     "kiss",
+     "open",
+     "pout",
+     "slight",
+     "slightfrown",
+     "smile",
+     "smirk",
+     "teeth",
+     "tongue",
+     "wavy",
+     "zip"
+    ]
+   },
+   "brows": {
+    "type": [
+     "string",
+     "null"
+    ],
+    "enum": [
+     "angry",
+     "cocked",
+     "raised",
+     "worried",
+     null
+    ]
+   },
+   "extras": {
+    "type": "array",
+    "items": {
+     "type": "string",
+     "enum": [
+      "bandage",
+      "blush",
+      "halo",
+      "hat",
+      "horns",
+      "sweat",
+      "tear1",
+      "tears",
+      "zzz"
+     ]
+    }
+   }
+  },
+  "required": [
+   "eyes",
+   "mouth",
+   "brows",
+   "extras"
+  ],
+  "additionalProperties": false
+ }
+}

@@ -1,0 +1,452 @@
+{
+ "task": "computed dates",
+ "rules": [
+  "date",
+  "days"
+ ],
+ "per_skill": 12,
+ "skills": [
+  {
+   "name": "expandRecurrence",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "expandRecurrence \u2014 List the dates a repeating schedule falls on \u2014 the first Thursday monthly, every fortnight, every 90 days.\n  needs: start: string\n  optional: every: string, interval: integer, count: integer, until: string\n  e.g. \"every fortnight from 2026-09-07, eight times\" \u2192 {\"start\":\"2026-09-07\",\"every\":\"week\",\"interval\":2,\"count\":8}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "start"
+    ],
+    "properties": {
+     "start": {
+      "type": "string",
+      "label": "start date",
+      "minLength": 4,
+      "prompt": "What date does it start on?"
+     },
+     "every": {
+      "type": "string",
+      "label": "repeat unit",
+      "enum": [
+       "day",
+       "week",
+       "month",
+       "year"
+      ],
+      "default": "week"
+     },
+     "interval": {
+      "type": "integer",
+      "label": "repeat interval",
+      "minimum": 1,
+      "maximum": 365,
+      "default": 1
+     },
+     "count": {
+      "type": "integer",
+      "label": "how many dates",
+      "minimum": 1,
+      "maximum": 60,
+      "description": "defaults to 10 without an end date"
+     },
+     "until": {
+      "type": "string",
+      "label": "end date"
+     }
+    }
+   },
+   "examples": [
+    "every fortnight from 2026-09-07, eight times",
+    "the 1st of every month for six months from 2026-10-01",
+    "every 90 days from 2026-01-15, five times",
+    "weekly standups from 2026-09-07 until 2026-10-12",
+    "the 31st monthly from 2026-01-31 for six",
+    "my birthday every year from 2026-03-09, four times"
+   ],
+   "date_fields": [
+    "start",
+    "until"
+   ]
+  },
+  {
+   "name": "formatDate",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "formatDate \u2014 Rewrite a date in a layout you choose, like DD/MM/YYYY or \"D MMMM YYYY\".\n  needs: date: string, format: string\n  e.g. \"format 2026-11-14 as DD/MM/YYYY\" \u2192 {\"date\":\"2026-11-14\",\"format\":\"DD/MM/YYYY\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date",
+     "format"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date should I reformat?",
+      "description": "a date"
+     },
+     "format": {
+      "type": "string",
+      "label": "format",
+      "minLength": 1,
+      "prompt": "What layout? (YYYY, MM, DD, MMMM for the month name, DDDD for the weekday)"
+     }
+    }
+   },
+   "examples": [
+    "format 2026-11-14 as DD/MM/YYYY",
+    "write that date as D MMMM YYYY",
+    "show christmas as DDDD, D MMM",
+    "format as MM-DD-YY for an american form",
+    "reformat 14 nov 2026 as YYYY/MM/DD"
+   ],
+   "date_fields": [
+    "date"
+   ]
+  },
+  {
+   "name": "isWeekend",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "isWeekend \u2014 Say whether a date is a weekend or a working day.\n  needs: date: string\n  e.g. \"is 2026-11-14 a weekend\" \u2192 {\"date\":\"2026-11-14\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date?",
+      "description": "a date"
+     }
+    }
+   },
+   "examples": [
+    "is 2026-11-14 a weekend",
+    "is christmas 2026 on a weekend",
+    "does 2026-07-04 fall on a weekend",
+    "is 2026-06-01 a working day",
+    "is 2026-03-15 a sunday"
+   ],
+   "date_fields": [
+    "date"
+   ]
+  },
+  {
+   "name": "isoToUnix",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "isoToUnix \u2014 Convert a calendar date and clock time to a Unix epoch number.\n  needs: date: string\n  optional: time: string\n  e.g. \"unix timestamp for 2026-09-01\" \u2192 {\"date\":\"2026-09-01\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date?",
+      "description": "a date"
+     },
+     "time": {
+      "type": "string",
+      "label": "utc time",
+      "pattern": "^\\d{1,2}:\\d{2}(:\\d{2})?$",
+      "description": "a 24-hour time \u2014 defaults to midnight"
+     }
+    }
+   },
+   "examples": [
+    "unix timestamp for 2026-09-01",
+    "what is 2026-09-01 09:30 as a timestamp",
+    "epoch seconds for 1970-01-01",
+    "timestamp for christmas 2026 at 08:00",
+    "convert 2001-09-09 01:46:40 to unix"
+   ],
+   "date_fields": [
+    "date"
+   ]
+  },
+  {
+   "name": "isoWeek",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "isoWeek \u2014 Number the week of the year a date sits in, and when that week begins.\n  needs: date: string\n  e.g. \"what iso week is 2026-11-14\" \u2192 {\"date\":\"2026-11-14\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date?",
+      "description": "a date"
+     }
+    }
+   },
+   "examples": [
+    "what iso week is 2026-11-14",
+    "which week of the year is christmas 2026",
+    "iso week for 2000-01-01",
+    "what week is 2026-01-05",
+    "week number for 2026-06-01"
+   ],
+   "date_fields": [
+    "date"
+   ]
+  },
+  {
+   "name": "nextWeekday",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "nextWeekday \u2014 Find the date of the next Monday, Tuesday and so on \u2014 or the most recent one.\n  needs: weekday: string\n  optional: direction: string, from: string\n  e.g. \"when is next tuesday\" \u2192 {\"weekday\":\"Tuesday\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "weekday"
+    ],
+    "properties": {
+     "weekday": {
+      "type": "string",
+      "label": "weekday",
+      "enum": [
+       "Sunday",
+       "Monday",
+       "Tuesday",
+       "Wednesday",
+       "Thursday",
+       "Friday",
+       "Saturday"
+      ],
+      "prompt": "Which day of the week?"
+     },
+     "direction": {
+      "type": "string",
+      "label": "next or previous",
+      "enum": [
+       "next",
+       "previous"
+      ],
+      "default": "next"
+     },
+     "from": {
+      "type": "string",
+      "label": "from date",
+      "description": "a date \u2014 defaults to today"
+     }
+    }
+   },
+   "examples": [
+    "when is next tuesday",
+    "what date is the next friday",
+    "when was last monday",
+    "the sunday after 2026-12-25",
+    "next saturday from 2026-11-14"
+   ],
+   "date_fields": [
+    "weekday",
+    "from"
+   ]
+  },
+  {
+   "name": "timeAgo",
+   "category": "dates",
+   "needsNetwork": false,
+   "card": "timeAgo \u2014 Say how long ago a date was, or how far off it is, in plain words like \"3 days ago\".\n  needs: date: string\n  e.g. \"how long ago was 2026-08-29\" \u2192 {\"date\":\"2026-08-29\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "prompt": "Which date?",
+      "description": "a date"
+     }
+    }
+   },
+   "examples": [
+    "how long ago was 2026-08-29",
+    "how far off is christmas",
+    "when was 2025-09-01 in plain words",
+    "how long ago was yesterday",
+    "how long until 2026-09-15"
+   ],
+   "date_fields": [
+    "date"
+   ]
+  },
+  {
+   "name": "readingScheduleFromPages",
+   "category": "learning",
+   "needsNetwork": false,
+   "card": "readingScheduleFromPages \u2014 Turn a page count into a daily reading schedule.\n  needs: totalPages: integer\n  optional: pagesPerDay: integer, days: integer, startDate: string\n  e.g. \"reading schedule for 60 pages at 20 a day\" \u2192 {\"totalPages\":60,\"pagesPerDay\":20,\"startDate\":\"2026-09-01\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "totalPages"
+    ],
+    "properties": {
+     "totalPages": {
+      "type": "integer",
+      "label": "pages",
+      "minimum": 1,
+      "maximum": 100000,
+      "prompt": "How many pages?"
+     },
+     "pagesPerDay": {
+      "type": "integer",
+      "label": "pages per day",
+      "minimum": 1,
+      "maximum": 10000,
+      "description": "how many pages you read a day"
+     },
+     "days": {
+      "type": "integer",
+      "label": "days available",
+      "minimum": 1,
+      "maximum": 3650,
+      "description": "how many days you have"
+     },
+     "startDate": {
+      "type": "string",
+      "label": "start date",
+      "description": "the first reading day - today by default"
+     }
+    }
+   },
+   "examples": [
+    "reading schedule for 60 pages at 20 a day",
+    "how much should I read a day to finish 100 pages in 4 days",
+    "plan 45 pages at 20 pages a day",
+    "split 300 pages into 100 a day",
+    "read 10 pages at 3 a day"
+   ],
+   "date_fields": [
+    "startDate",
+    "days"
+   ]
+  },
+  {
+   "name": "spacedRepetitionSchedule",
+   "category": "learning",
+   "needsNetwork": false,
+   "card": "spacedRepetitionSchedule \u2014 Work out the review dates for spaced repetition from a starting date.\n  optional: date: string, intervals: array\n  e.g. \"when should I review this\" \u2192 {\"date\":\"2026-09-01\"}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date learned",
+      "description": "the day the material was first learned - today by default"
+     },
+     "intervals": {
+      "type": "array",
+      "label": "review after (days)",
+      "maxItems": 20,
+      "items": {
+       "type": "integer"
+      },
+      "description": "days after the start date to review on"
+     }
+    }
+   },
+   "examples": [
+    "when should I review this",
+    "spaced repetition schedule doubling each time",
+    "review dates one week and one month out",
+    "revision schedule starting in december",
+    "give me a revision plan from today"
+   ],
+   "date_fields": [
+    "date"
+   ]
+  },
+  {
+   "name": "habitCompletionRate",
+   "category": "organising",
+   "needsNetwork": false,
+   "card": "habitCompletionRate \u2014 Work out how many days you kept a habit, as a percentage of the days in the period.\n  needs: dates: array, from: string, to: string\n  e.g. \"how often did I keep this habit\" \u2192 {\"dates\":[\"2026-08-01\",\"2026-08-02\",\"2026-08-03\"],\"from\":\"2026-08-01\",\"to\":\"2026-08-10\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "dates",
+     "from",
+     "to"
+    ],
+    "properties": {
+     "dates": {
+      "type": "array",
+      "label": "days done",
+      "minItems": 0,
+      "maxItems": 3650,
+      "items": {
+       "type": "string"
+      },
+      "prompt": "Which days was it done?"
+     },
+     "from": {
+      "type": "string",
+      "label": "start date",
+      "prompt": "What is the first day of the period?"
+     },
+     "to": {
+      "type": "string",
+      "label": "end date",
+      "prompt": "And the last day?"
+     }
+    }
+   },
+   "examples": [
+    "how often did I keep this habit",
+    "what is my completion rate this week",
+    "habit rate for a month",
+    "did I do it every day",
+    "completion rate ignoring days outside the period",
+    "on what share of days did I keep the streak going",
+    "how consistent was I with this over the month"
+   ],
+   "date_fields": [
+    "from",
+    "to"
+   ]
+  },
+  {
+   "name": "validateDate",
+   "category": "validation",
+   "needsNetwork": false,
+   "card": "validateDate \u2014 Check whether a date actually exists on the calendar.\n  needs: date: string\n  e.g. \"is 2026-02-29 a real date\" \u2192 {\"date\":\"2026-02-29\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "date"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "label": "date",
+      "minLength": 1,
+      "prompt": "Which date should I check?"
+     }
+    }
+   },
+   "examples": [
+    "is 2026-02-29 a real date",
+    "check that 2024-02-29 exists",
+    "is 31 april a valid date",
+    "validate 2026-12-25",
+    "is 03/04/2026 unambiguous"
+   ],
+   "date_fields": [
+    "date"
+   ]
+  }
+ ]
+}

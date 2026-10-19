@@ -1,0 +1,355 @@
+{
+ "batch": "l08",
+ "pairs": [
+  {
+   "skill": "syllableCount",
+   "no": "my daughter said her first three-syllable word today and we all cheered",
+   "yes": "how many syllables are in the word daughter"
+  },
+  {
+   "skill": "syllableCount",
+   "no": "the coach answered in single syllables all evening, clearly still sulking",
+   "yes": "count the syllables in this line: the coach was sulking all evening"
+  },
+  {
+   "skill": "toAscii",
+   "no": "the café down the road finally fixed its sign and the accent is back on the e",
+   "yes": "strip the accent from café and give me plain ascii"
+  },
+  {
+   "skill": "toAscii",
+   "no": "her accent gets stronger every time she goes home to Kraków",
+   "yes": "remove the accent from Kraków so it is plain ascii"
+  },
+  {
+   "skill": "tokenizeSentences",
+   "no": "the judge handed down three sentences before lunch and looked bored doing it",
+   "yes": "split this into separate sentences: the judge sat down. He looked bored. Lunch was late."
+  },
+  {
+   "skill": "tokenizeSentences",
+   "no": "she can't finish a sentence without breaking off to check her phone",
+   "yes": "break this into sentences at the full stops: she called. she checked her phone. typical."
+  },
+  {
+   "skill": "tokenizeWords",
+   "no": "we had words after the match and haven't spoken since",
+   "yes": "split this sentence into words: we haven't spoken since the match"
+  },
+  {
+   "skill": "tokenizeWords",
+   "no": "he never breaks his word, which is more than I can say for his brother",
+   "yes": "break this line into separate words: more than I can say for his brother"
+  },
+  {
+   "skill": "trimLines",
+   "no": "we're trying to trim the budget line by line this quarter",
+   "yes": "trim the extra spaces from the start and end of each line of this text"
+  },
+  {
+   "skill": "trimLines",
+   "no": "the old typewriter leaves a stray space at the start of every line, which is weirdly charming",
+   "yes": "remove the stray spaces at the start and end of every line in this list"
+  },
+  {
+   "skill": "truncateText",
+   "no": "the film was cut short by a fire alarm twenty minutes before the end",
+   "yes": "cut this short at 20 characters with an ellipsis: the film was stopped by a fire alarm"
+  },
+  {
+   "skill": "truncateText",
+   "no": "she trailed off mid-story, three dots and nothing more, as usual",
+   "yes": "truncate this story to 10 words and end it with three dots"
+  },
+  {
+   "skill": "wordFrequency",
+   "no": "the word basically turns up in every sentence my manager says",
+   "yes": "rank the words in my manager's email by how often each one turns up"
+  },
+  {
+   "skill": "wordFrequency",
+   "no": "all we heard from the council this year was the same three words: budget, delay, review",
+   "yes": "rank each word in this council statement by how often it repeats: budget delay review, budget delay"
+  },
+  {
+   "skill": "wrapText",
+   "no": "we wrapped up the meeting early because the projector died",
+   "yes": "wrap these meeting notes at 40 characters: meeting ended early, projector died"
+  },
+  {
+   "skill": "wrapText",
+   "no": "the kids wrapped their presents in newspaper and it looked lovely",
+   "yes": "hard wrap this at 30 columns: the kids wrapped their presents in newspaper"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "no": "my phone number has changed three times this year and nobody can keep up",
+   "yes": "format my new phone number 07700 900123 in international form"
+  },
+  {
+   "skill": "formatPhoneNumber",
+   "no": "she still writes phone numbers the old way, with brackets round the area code",
+   "yes": "rewrite the phone number (415) 555-0132 in e.164 without the brackets"
+  },
+  {
+   "skill": "passwordStrength",
+   "no": "my password is my dog's name and that dog has been gone ten years",
+   "yes": "check the strength of the password rufus2014, my dog's name and a year"
+  },
+  {
+   "skill": "passwordStrength",
+   "no": "her strength of will is frankly terrifying, nothing gets past her",
+   "yes": "rate the strength of this password: nothing2getpast!"
+  },
+  {
+   "skill": "validateDate",
+   "no": "our first date was on the 31st of june, or so he swears",
+   "yes": "is the 31st of june a real date"
+  },
+  {
+   "skill": "validateDate",
+   "no": "the calendar on the fridge is still stuck on february from two years ago",
+   "yes": "check whether 30 february 2027 exists on the calendar"
+  },
+  {
+   "skill": "validateEmail",
+   "no": "my inbox has 4,000 unread emails and I am choosing peace",
+   "yes": "is peace@@inbox.com a correctly written email address"
+  },
+  {
+   "skill": "validateEmail",
+   "no": "he still writes his email address with 'at' and 'dot' spelled out on business cards",
+   "yes": "check this email address is written correctly: sam(at)example(dot)com"
+  },
+  {
+   "skill": "validateHexColor",
+   "no": "we painted the hallway a colour the tin called whisper, which it really isn't",
+   "yes": "is #E1D9C7 a valid hex colour for the hallway"
+  },
+  {
+   "skill": "validateHexColor",
+   "no": "the designer keeps sending hex codes like I can see them in my head",
+   "yes": "check whether the hex code #12ab4 the designer sent is valid"
+  },
+  {
+   "skill": "validateIban",
+   "no": "my bank changed my IBAN when they merged and every direct debit broke",
+   "yes": "check if my bank's new IBAN is valid: GB82 WEST 1234 5698 7654 32"
+  },
+  {
+   "skill": "validateIban",
+   "no": "sending money abroad still means copying a 22-character IBAN and hoping for the best",
+   "yes": "does this 22-character IBAN pass its checksum: DE89 3704 0044 0532 0130 00"
+  },
+  {
+   "skill": "validateIpAddress",
+   "no": "the router's ip address is printed on a sticker I can never find",
+   "yes": "is 192.168.0.256 a valid ip address for the router"
+  },
+  {
+   "skill": "validateIpAddress",
+   "no": "IPv6 was supposed to take over years ago and here we still are",
+   "yes": "is fe80::1 a valid ipv6 address"
+  },
+  {
+   "skill": "validateIsbn",
+   "no": "the old paperbacks in the loft don't even have an ISBN on the back",
+   "yes": "check the isbn on the back of this old paperback: 0-14-044913-5"
+  },
+  {
+   "skill": "validateIsbn",
+   "no": "librarians can recite ISBNs the way other people quote football scores",
+   "yes": "does the isbn 978-0-14-044913-6 pass its check digit"
+  },
+  {
+   "skill": "validateJson",
+   "no": "the json from the supplier broke again and I've been on the phone since nine",
+   "yes": "the supplier json broke again, check whether it parses: {\"id\": 4, }"
+  },
+  {
+   "skill": "validateJson",
+   "no": "half my job is staring at json and wondering who wrote it",
+   "yes": "check this json and tell me where it breaks: [1, 2,, 3]"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "no": "the new schema for the database took three meetings and nobody is happy with it",
+   "yes": "check that {\"age\": -3} matches a schema where age has a minimum of 0"
+  },
+  {
+   "skill": "validateJsonSchema",
+   "no": "every team invents its own json schema and none of them match",
+   "yes": "does this json match my schema: {\"name\":\"x\"} against required name and email"
+  },
+  {
+   "skill": "validateLuhn",
+   "no": "my card number got cloned twice last year so I gave up shopping online",
+   "yes": "does my card number 4111 1111 1111 1112 pass the luhn check"
+  },
+  {
+   "skill": "validateLuhn",
+   "no": "the luhn algorithm came up in a pub quiz and nobody at our table had heard of it",
+   "yes": "run the luhn algorithm on 79927398713"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "no": "that phone number you gave me rang a fish shop in Grimsby",
+   "yes": "is 01472 12345 a valid uk phone number"
+  },
+  {
+   "skill": "validatePhoneNumber",
+   "no": "my mum still keeps phone numbers in a little book by the phone",
+   "yes": "is +44 20 7946 0958 a valid phone number for the uk"
+  },
+  {
+   "skill": "validateUrl",
+   "no": "the url on the poster has a typo so nobody can find the gig",
+   "yes": "is the url on this gig poster valid: htps://gigs.example.com/tonight"
+  },
+  {
+   "skill": "validateUrl",
+   "no": "the link in the newsletter just takes you to a 404 page",
+   "yes": "split the newsletter link into its host and path: https://news.example.org/issue/12/page"
+  },
+  {
+   "skill": "validateUuid",
+   "no": "every record in the old system has a uuid and not one of them means anything to a human",
+   "yes": "which uuid version is 123e4567-e89b-12d3-a456-426614174000"
+  },
+  {
+   "skill": "validateUuid",
+   "no": "the support ticket had a 36-character id and I gave up reading it out",
+   "yes": "is this 36-character id a valid uuid: 550e8400-e29b-41d4-a716-44665544000z"
+  },
+  {
+   "skill": "checkTitleCase",
+   "no": "the title of the report changes every time the director reads it",
+   "yes": "put the report title a review of the year in sales into title case"
+  },
+  {
+   "skill": "checkTitleCase",
+   "no": "she has a fancy title now but she still makes everyone's tea",
+   "yes": "is this title correctly capitalised: She Still Makes Everyone's Tea"
+  },
+  {
+   "skill": "countWordTargets",
+   "no": "the essay limit was 2,000 words and I wrote 2,000 words of waffle",
+   "yes": "my essay is 1,830 words, how far short of the 2,000 word limit is that"
+  },
+  {
+   "skill": "countWordTargets",
+   "no": "every word counts in a wedding speech, my uncle learned that the hard way",
+   "yes": "my wedding speech is 640 words, is that close to a 500 word target"
+  },
+  {
+   "skill": "extractHeadings",
+   "no": "newspaper headings these days are louder than the stories underneath",
+   "yes": "list just the headings in this markdown: # News ## Stories ## Weather"
+  },
+  {
+   "skill": "extractHeadings",
+   "no": "his notes are all headings and no actual content underneath",
+   "yes": "extract the headings from my markdown notes as a plain outline"
+  },
+  {
+   "skill": "findLongSentences",
+   "no": "my professor writes sentences so long you need a nap halfway through",
+   "yes": "find the sentences that run too long in my professor's paragraph"
+  },
+  {
+   "skill": "findLongSentences",
+   "no": "he got a long sentence for fraud and nobody felt sorry for him",
+   "yes": "check this paragraph for any long sentence that runs past 20 words"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "no": "my nan repeats the same story every christmas and we all pretend it's new",
+   "yes": "find words I repeat too soon in this christmas story for my nan"
+  },
+  {
+   "skill": "findRepeatedWords",
+   "no": "the the typo on the wedding invitation went out to two hundred guests",
+   "yes": "spot any repeated words in this invitation: you are are invited to the the wedding"
+  },
+  {
+   "skill": "formatCitation",
+   "no": "the police gave him a citation for parking on the pavement again",
+   "yes": "format an apa citation for Smith, J. (2019) Parking on the Pavement, Routledge"
+  },
+  {
+   "skill": "formatCitation",
+   "no": "my supervisor cares more about the reference list than the actual argument",
+   "yes": "make an mla reference for my supervisor's book: Lee, The Actual Argument, Verso, 2015"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "no": "the contents of the kitchen table are mostly post and a broken lamp",
+   "yes": "build a table of contents for this markdown: # Intro ## Setup ## Usage"
+  },
+  {
+   "skill": "generateTableOfContents",
+   "no": "nobody reads the table of contents in a manual, they just flick to the back",
+   "yes": "make a linked table of contents for the top of my manual"
+  },
+  {
+   "skill": "markdownToHtml",
+   "no": "learned markdown last week and now my shopping lists are full of asterisks",
+   "yes": "convert my markdown shopping list to html: * eggs * milk"
+  },
+  {
+   "skill": "markdownToHtml",
+   "no": "the shop has marked down everything in the window by half",
+   "yes": "turn this markdown into html: **half price** in the window"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "no": "the outline of the hills at sunset was the best part of the holiday",
+   "yes": "turn my holiday outline into markdown headings and bullets"
+  },
+  {
+   "skill": "outlineToMarkdown",
+   "no": "my notes are all indented in a way only I understand",
+   "yes": "convert my indented notes into markdown: trip, then flights and hotel indented under it"
+  },
+  {
+   "skill": "paragraphStats",
+   "no": "the last paragraph of my letter to the landlord was the longest and angriest",
+   "yes": "give me the word and sentence count for each paragraph of my letter to the landlord"
+  },
+  {
+   "skill": "paragraphStats",
+   "no": "she writes in giant paragraphs with no breaks and it hurts my eyes",
+   "yes": "break this document into paragraphs and give the word count of each giant paragraph"
+  },
+  {
+   "skill": "pluralize",
+   "no": "the cactus on my desk is the only plant I haven't killed",
+   "yes": "what's the plural of cactus"
+  },
+  {
+   "skill": "pluralize",
+   "no": "my mother-in-law moves in on friday, wish me luck",
+   "yes": "what's the plural of mother-in-law"
+  },
+  {
+   "skill": "singularize",
+   "no": "the mice in the garage have eaten through a whole bag of bird seed",
+   "yes": "give me the singular of mice"
+  },
+  {
+   "skill": "singularize",
+   "no": "the criteria for the job keep changing every time I apply",
+   "yes": "what's the singular of criteria"
+  },
+  {
+   "skill": "spellCheck",
+   "no": "my spelling was atrocious at school and the teachers never let me forget it",
+   "yes": "check the spelling in this: my teecher never let me forgett it"
+  },
+  {
+   "skill": "spellCheck",
+   "no": "she cast a spell on him the day they met and he's been daft ever since",
+   "yes": "spell check this: she cast a spel on him the day they mett"
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "airoplane-mode-pigeon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Pigeon \u2014 the model plans, JS executes, the model phrases. The smallest of the Airoplane Mode apps.",
+  "type": "module",
+  "scripts": {
+    "dev": "RUSTFLAGS=\"--remap-path-prefix=$HOME=/home\" tauri dev",
+    "build": "RUSTFLAGS=\"--remap-path-prefix=$HOME=/home\" tauri build --config src-tauri/tauri.release.conf.json",
+    "tauri": "tauri",
+    "serve": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "bundle": "node scripts/bundle.mjs",
+    "pack:patch": "node scripts/pack-patch.mjs",
+    "test": "node scripts/test.mjs && npm run test:rust",
+    "calibrate": "node scripts/calibrate.mjs",
+    "sweep": "node scripts/sweep.mjs",
+    "test:rust": "cargo test --quiet --manifest-path src-tauri/Cargo.toml",
+    "test:js": "node scripts/test.mjs",
+    "manifest": "node scripts/manifest.mjs",
+    "bench:planner": "node scripts/plannerbench.mjs",
+    "bench:models": "node scripts/modelbench.mjs",
+    "models": "node scripts/models.mjs",
+    "webcheck": "node scripts/webcheck.mjs",
+    "plannerdata": "node scripts/plannerdata.mjs",
+    "dev:fast": "PIGEON_NO_MODELS=1 RUSTFLAGS=\"--remap-path-prefix=$HOME=/home\" tauri dev",
+    "manifest:models": "node scripts/models-manifest.mjs --check",
+    "dev:engine": "PIGEON_MODELS=rust RUSTFLAGS=\"--remap-path-prefix=$HOME=/home\" tauri dev",
+    "bench:laneb": "node scripts/lanebbench.mjs",
+    "lint:imports": "node scripts/lintimports.mjs",
+    "personadata": "node scripts/personadata.mjs",
+    "personacheck": "node scripts/personacheck.mjs",
+    "app": "sh src-tauri/scripts/dev-app.sh"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4"
+  }
+}

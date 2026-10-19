@@ -1,0 +1,1056 @@
+{
+  "batch": "f05",
+  "domain": "festivals, fairs, races and annual events",
+  "cases": [
+    {
+      "question": "what is the Brannock Lantern Walk",
+      "passage": "The Brannock Lantern Walk is an evening procession of paper lanterns held each November in the market town of Brannock. It was first organised in 1931 by the parish bell ringers. Around 4,000 people now take part, and the route runs for about two miles along the river. The walk ends with a bonfire on Copse Hill.",
+      "sentence": 1,
+      "quote": "an evening procession of paper lanterns",
+      "looking_for": "a description of what the event is"
+    },
+    {
+      "question": "where is the Otterfold Hiring Fair held",
+      "passage": "The Otterfold Hiring Fair is an annual livestock and trade fair held on the common at Otterfold in the Velling valley. It dates from a charter granted in 1408 that allowed farm workers to seek new employers each Michaelmas. The modern fair is run by a volunteer committee of twelve. Its best known event is the shearing contest, won in recent years by Corran Bleddyn.",
+      "sentence": 1,
+      "quote": "held on the common at Otterfold",
+      "looking_for": "the place where the fair is held"
+    },
+    {
+      "question": "what kind of race is the Gullmouth Tray Race",
+      "passage": "The Gullmouth Tray Race is a running race in which waiters carry a tray holding a full glass and a bottle along the harbour wall. Competitors must finish with nothing spilled, or they receive a time penalty of thirty seconds. The race was started in 1977 by the owners of the Anchor Rooms hotel. The fastest time on record is 2 minutes 41 seconds.",
+      "sentence": 1,
+      "quote": "waiters carry a tray holding a full glass",
+      "looking_for": "the type of race it is"
+    },
+    {
+      "question": "what month is the Kestwick Apple Wassail",
+      "passage": "The Kestwick Apple Wassail is a midwinter orchard custom held every January in the cider villages around Kestwick. Participants sing to the oldest tree in each orchard and pour cider on its roots to wish for a good harvest. The custom was revived in 1964 after a gap of nearly forty years. Its present organiser is the Kestwick Orchard Trust.",
+      "sentence": 1,
+      "quote": "held every January",
+      "looking_for": "the month the wassail takes place"
+    },
+    {
+      "question": "what is the Saltreach Kite Festival",
+      "passage": "The Saltreach Kite Festival is a two-day gathering of kite flyers on the dunes north of Saltreach, held on the last weekend of August. It began in 1989 as a club meeting of eleven members. The festival now draws teams from more than twenty countries. The largest kite flown there, a ray named Big Mabel, measured 38 metres across.",
+      "sentence": 1,
+      "quote": "a two-day gathering of kite flyers",
+      "looking_for": "what the festival is"
+    },
+    {
+      "question": "how often is the Dunmarrow Tattoo held",
+      "passage": "The Dunmarrow Tattoo is a military music and pageant event staged every second summer on the castle esplanade at Dunmarrow. Each performance runs for about ninety minutes and ends with a lone piper on the battlements. The first tattoo, in 1952, raised money for a veterans' hospital. Its producer since 2018 has been Ailsa Rennick.",
+      "sentence": 1,
+      "quote": "staged every second summer",
+      "looking_for": "how often the tattoo takes place"
+    },
+    {
+      "question": "what is the Varnholm Midnight Regatta",
+      "passage": "The Varnholm Midnight Regatta is a sailing race around the islands of the Varnholm archipelago, starting at eleven at night on midsummer's eve. Boats must round six marker buoys and return to the harbour at Lissvik. The course is about 34 nautical miles long. The regatta was founded in 1923 by the Lissvik Sailing Society, and the winning crew receives the Silver Gull trophy.",
+      "sentence": 1,
+      "quote": "a sailing race around the islands",
+      "looking_for": "a description of the regatta"
+    },
+    {
+      "question": "what is raced at the Penhallow Goose Fair",
+      "passage": "The Penhallow Goose Fair is an autumn fair in Penhallow whose main event is a race of geese along the high street. It was first recorded in 1587, when it was chiefly a market for selling birds before winter. Today the fair also has a funfair and a ploughing match. Around 15,000 visitors attend over its three days.",
+      "sentence": 1,
+      "quote": "a race of geese along the high street",
+      "looking_for": "the animal that is raced"
+    },
+    {
+      "question": "what is the Morrowdene Book Festival",
+      "passage": "The Morrowdene Book Festival is a ten-day literary festival held each spring in the spa town of Morrowdene. Its programme includes about 300 readings, talks and workshops. The festival was founded in 1994 by the bookseller Hester Quayle. Its director since 2020 has been Tobias Fenwright.",
+      "sentence": 1,
+      "quote": "a ten-day literary festival",
+      "looking_for": "a description of the festival"
+    },
+    {
+      "question": "how long is the Crane Fell Horseshoe race",
+      "passage": "The Crane Fell Horseshoe is a 23-mile fell race over the eleven summits that ring the Crane Fell valley. It climbs a total of about 2,400 metres. The race was first run in 1962 by four members of the Crane Fell climbing club. The men's record of 3 hours 12 minutes was set by Davey Ashburn in 1988.",
+      "sentence": 1,
+      "quote": "a 23-mile fell race",
+      "looking_for": "the distance of the race"
+    },
+    {
+      "question": "when is the Thimbleby Onion Fair",
+      "passage": "The Thimbleby Onion Fair is a street market held on the first Monday of October in the cathedral city of Thimbleby. Growers from the surrounding marsh villages sell plaited strings of onions from stalls along Castle Lane. The fair was first held in 1316. Attendance in recent years has been around 30,000.",
+      "sentence": 1,
+      "quote": "the first Monday of October",
+      "looking_for": "the date the fair is held"
+    },
+    {
+      "question": "how heavy is the stone in the Wendlecombe Stone Chase",
+      "passage": "The Wendlecombe Stone Chase is a cross-country foot race in which runners carry a stone weighing 20 kilograms from the quarry at Holloway Top to the village green. The race is run every Easter Monday and covers about three miles. It was first recorded in 1823. The current record holder is Fergus Tull, who finished in 19 minutes in 2014.",
+      "sentence": 1,
+      "quote": "a stone weighing 20 kilograms",
+      "looking_for": "the weight of the stone carried"
+    },
+    {
+      "question": "what is the Pellingford Mop",
+      "passage": "The Pellingford Mop is a street fair held for three days each October in the centre of Pellingford. It began as a hiring fair where servants seeking work carried a mop or other sign of their trade. Today it is mainly a funfair, with around 120 rides and stalls. The fair is opened each year by the mayor reading the charter of 1554.",
+      "sentence": 1,
+      "quote": "a street fair held for three days each October",
+      "looking_for": "what the mop is"
+    },
+    {
+      "question": "what day is the Mellbury Pancake Dash run",
+      "passage": "The Mellbury Pancake Dash is a race run on Shrove Tuesday by women of the parish, each tossing a pancake in a frying pan as she runs. The course runs 380 metres from the market cross to the church porch. The earliest record of the race dates from 1611. The winner receives a prayer book from the vicar.",
+      "sentence": 1,
+      "quote": "run on Shrove Tuesday",
+      "looking_for": "the day the race is run"
+    },
+    {
+      "question": "what does the Carrow Haven Herring Festival celebrate",
+      "passage": "The Carrow Haven Herring Festival is a harbour festival celebrating the town's fishing history, held over the second weekend of June. It was started in 1985 by the lifeboat crew to raise funds. The main events are a smoked fish market and a rowing race between the old herring drifters. Its patron is the retired skipper Ned Polgrain.",
+      "sentence": 1,
+      "quote": "celebrating the town's fishing history",
+      "looking_for": "what the festival celebrates"
+    },
+    {
+      "question": "how long does the Asterby Folk Gathering last",
+      "passage": "The Asterby Folk Gathering is a five-day festival of traditional music and dance held in late July on farmland outside Asterby. The first gathering, in 1971, had only two hundred people. Attendance now stands at around 18,000. Performers play on six stages, the largest of which is the Barn Stage.",
+      "sentence": 1,
+      "quote": "a five-day festival",
+      "looking_for": "how many days the gathering lasts"
+    },
+    {
+      "question": "what is raced in the Lindenmoor Bathtub Derby",
+      "passage": "The Lindenmoor Bathtub Derby is a race of home-made boats built from old bathtubs, held on the Lindenmoor reservoir each Whit Monday. Crews of two paddle a course of 800 metres around three buoys. The event was started in 1969 by the Lindenmoor Round Table. In 2019 the Derby raised £42,000 for local charities.",
+      "sentence": 1,
+      "quote": "a race of home-made boats built from old bathtubs",
+      "looking_for": "the kind of craft that is raced"
+    },
+    {
+      "question": "where is the Graydon Hill Climb held",
+      "passage": "The Graydon Hill Climb is a motor sport event held on a private estate road at Graydon Hall in the Corlan hills. Cars run one at a time against the clock over a course of 1,100 metres. The first meeting took place in 1905. The outright record of 27.4 seconds was set in 2012 by Mara Kellaway.",
+      "sentence": 1,
+      "quote": "held on a private estate road at Graydon Hall",
+      "looking_for": "the place where the hill climb is held"
+    },
+    {
+      "question": "how often is the Tamsworth Beating of the Bounds held",
+      "passage": "The Tamsworth Beating of the Bounds is a parish custom in which people walk the whole boundary of the old parish of Tamsworth every seven years. The walk covers about 14 miles and takes a full day. At each boundary stone, the youngest walker is lifted and bumped against it so the place will be remembered. The most recent walk took place in 2023 and was led by the rector, Imogen Strand.",
+      "sentence": 1,
+      "quote": "every seven years",
+      "looking_for": "how often the custom takes place"
+    },
+    {
+      "question": "what is the Corvale Glass Fair",
+      "passage": "The Corvale Glass Fair is a trade fair for glassmakers and collectors, held each April in the old furnace halls at Corvale. It was first held in 1958, when twelve local works showed their wares. Around 200 exhibitors now take part. The fair's Golden Gather award goes to the best new piece by a maker under thirty.",
+      "sentence": 1,
+      "quote": "a trade fair for glassmakers and collectors",
+      "looking_for": "what kind of fair it is"
+    },
+    {
+      "question": "what time of year is the Ivelstoke Snowdrop Festival",
+      "passage": "The Ivelstoke Snowdrop Festival is a garden festival held each February, when the snowdrops in the woods of Ivelstoke Abbey are in flower. Visitors follow a marked trail through about 40 acres of woodland. The festival was started in 1997 by the head gardener, Ruth Calloway. It raises money for the upkeep of the abbey ruins.",
+      "sentence": 1,
+      "quote": "a garden festival held each February",
+      "looking_for": "the time of year it is held"
+    },
+    {
+      "question": "what is the Quenby Rush Bearing",
+      "passage": "The Quenby Rush Bearing is a summer church festival in which villagers carry bundles of fresh rushes to lay on the floor of St Aldwyn's church. It is held on the Saturday nearest to 5 August. The custom dates from the time when church floors were bare earth. Children lead the procession carrying rush crosses.",
+      "sentence": 1,
+      "quote": "carry bundles of fresh rushes",
+      "looking_for": "what the custom involves"
+    },
+    {
+      "question": "how far is the Aldersey Swim",
+      "passage": "The Aldersey Swim is an open-water race of 4.2 kilometres across Lake Aldersey from Brenton Pier to the boathouse at Cray. It is held on the first Sunday of September, when the water is warmest. The first swim in 1934 had seven entrants, of whom three finished. The fastest crossing on record is 49 minutes 12 seconds.",
+      "sentence": 1,
+      "quote": "an open-water race of 4.2 kilometres",
+      "looking_for": "the distance of the swim"
+    },
+    {
+      "question": "what is the Hollin Bridge Duck Race",
+      "passage": "The Hollin Bridge Duck Race is a charity event in which several thousand numbered plastic ducks are released into the Hollin Beck and float about 600 metres downstream. It has been held every Boxing Day since 1981. Each duck is sponsored, and the owner of the first duck to cross the line wins a cash prize. In 2022 a record 9,400 ducks were entered.",
+      "sentence": 1,
+      "quote": "several thousand numbered plastic ducks",
+      "looking_for": "what the duck race is"
+    },
+    {
+      "question": "who organises the Ravelsham Show",
+      "passage": "The Ravelsham Show is an agricultural show organised by the Ravelsham and District Farmers' Club, held each July at Coldharbour Park. The first show was held in 1847 and was founded by the landowner Sir Edmund Pryce. It features cattle and sheep classes, a dog show and heavy horse displays. Around 25,000 people attend each year.",
+      "sentence": 1,
+      "quote": "organised by the Ravelsham and District Farmers' Club",
+      "looking_for": "the body that organises the show"
+    },
+    {
+      "question": "what is Cindervale Ember Night",
+      "passage": "Cindervale Ember Night is an autumn fire festival in which burning barrels of tar are carried through the streets of Cindervale. It takes place on the first Saturday of November. Each barrel is carried by one man until he can no longer bear the heat, then handed on. The custom is first mentioned in a town record of 1702.",
+      "sentence": 1,
+      "quote": "burning barrels of tar are carried",
+      "looking_for": "a description of the festival"
+    },
+    {
+      "question": "where is the Glenharrow Games held",
+      "passage": "The Glenharrow Games is a Highland games held each August at the Haugh, a riverside meadow below Glenharrow village. Events include tossing the caber, the hill race and piping contests. The games were first held in 1832 under the patronage of the Laird of Corrie. The heaviest caber, known as the Glenharrow Pine, weighs 61 kilograms.",
+      "sentence": 1,
+      "quote": "at the Haugh, a riverside meadow",
+      "looking_for": "the venue of the games"
+    },
+    {
+      "question": "what do people chase in the Tollbury Cheese Roll",
+      "passage": "The Tollbury Cheese Roll is a downhill race in which competitors chase a round of cheese down the steep slope of Tollbury Edge. The cheese is given a one-second head start and can reach speeds of over 60 miles an hour. The race takes place on the late May bank holiday. The first runner to the bottom wins the cheese, which weighs about 4 kilograms.",
+      "sentence": 1,
+      "quote": "chase a round of cheese",
+      "looking_for": "the thing the runners chase"
+    },
+    {
+      "question": "what is the Ostery Silver Arrow",
+      "passage": "The Ostery Silver Arrow is an archery contest held each June on the butts at Ostery Grammar School, the oldest such contest in the county. It was founded in 1673 under the will of a former pupil, Thomas Ostery. Archers shoot at a distance of 100 yards. The winner keeps the silver arrow for a year and adds a medal to its chain.",
+      "sentence": 1,
+      "quote": "an archery contest held each June",
+      "looking_for": "what kind of contest it is"
+    },
+    {
+      "question": "where is the Fallowmere Marathon run",
+      "passage": "The Fallowmere Marathon is a road race run each October through the lanes and villages of the Fallowmere valley. It was first run in 1982 with 312 finishers. The course record of 2 hours 14 minutes is held by Tomas Rydell. About 3,000 runners now take part.",
+      "sentence": 1,
+      "quote": "through the lanes and villages of the Fallowmere valley",
+      "looking_for": "the place where the marathon is run"
+    },
+    {
+      "question": "who founded the Brindle Cove Shanty Festival",
+      "passage": "The Brindle Cove Shanty Festival is a weekend of sea songs held each May in the harbour pubs of Brindle Cove. It was founded in 1999 by the retired trawlerman Joss Penmarrick and his daughter Lowenna. More than sixty groups now perform, singing in the streets as well as the pubs. The festival's present chair is Garth Tremayne.",
+      "sentence": 2,
+      "quote": "founded in 1999 by the retired trawlerman Joss Penmarrick",
+      "looking_for": "the name of the founder"
+    },
+    {
+      "question": "when did the Hessleford Carnival start",
+      "passage": "The Hessleford Carnival is a street parade and fair held over the first weekend of August in Hessleford. It was first held in 1923 to raise money for the town's new cottage hospital. The parade includes about forty decorated floats and five marching bands. In 1975 the carnival moved from the old fairground to Victoria Park.",
+      "sentence": 2,
+      "quote": "first held in 1923",
+      "looking_for": "the year the carnival began"
+    },
+    {
+      "question": "how many people attend the Wellcross Steam Rally",
+      "passage": "The Wellcross Steam Rally is a gathering of traction engines, steam rollers and other vintage machinery held each September at Wellcross Farm. It draws around 40,000 visitors over three days. The first rally, in 1966, had only nine engines. The rally is run by the Wellcross Steam Preservation Society, which has some 600 members.",
+      "sentence": 2,
+      "quote": "around 40,000 visitors",
+      "looking_for": "the number of visitors"
+    },
+    {
+      "question": "who won the Pelham Downs Gold Cup in 2025",
+      "passage": "The Pelham Downs Gold Cup is a steeplechase run each March over three and a quarter miles at Pelham Downs racecourse. The 2025 running was won by Copper Lantern, ridden by Niamh Garvey. The race was first run in 1904. The most successful horse in its history is Old Trooper, who won it four times.",
+      "sentence": 2,
+      "quote": "won by Copper Lantern",
+      "looking_for": "the winner of the 2025 race"
+    },
+    {
+      "question": "where is the Harbridge Beer Festival held",
+      "passage": "The Harbridge Beer Festival is an annual festival of cask ales and ciders run by volunteers from the local brewers' guild. It is held each November in the Corn Exchange in Harbridge. Around 250 beers are served over four days. The first festival, in 1978, was held in a church hall.",
+      "sentence": 2,
+      "quote": "held each November in the Corn Exchange",
+      "looking_for": "the venue of the beer festival"
+    },
+    {
+      "question": "who is the director of the Calder Mouth Film Festival",
+      "passage": "The Calder Mouth Film Festival is an international festival of short films held each October in the seaside town of Calder Mouth. Its director is Priya Lomond, who was appointed in 2021. The festival was founded in 1988 by the film critic Maurice Dahl. Its top prize, the Silver Tern, is awarded to the best film under fifteen minutes.",
+      "sentence": 2,
+      "quote": "Its director is Priya Lomond",
+      "looking_for": "the name of the current director"
+    },
+    {
+      "question": "how long is the Norreby Canal Marathon",
+      "passage": "The Norreby Canal Marathon is a canoe race along the waterway from Norreby to the sea lock at Halsend. The course is 52 miles long and crosses 31 portages where boats must be carried around locks. It was first raced in 1948 by a group of scouts. Crews usually take between 18 and 30 hours.",
+      "sentence": 2,
+      "quote": "The course is 52 miles long",
+      "looking_for": "the length of the course"
+    },
+    {
+      "question": "when is Tilsey Wake held",
+      "passage": "Tilsey Wake is a village festival whose origins lie in the feast day of the parish church. It is held on the third Sunday of July and the week that follows. Events include a fancy dress parade, a tug of war and a duck race on the brook. The wake was revived in 1952 after a lapse during the war years.",
+      "sentence": 2,
+      "quote": "the third Sunday of July",
+      "looking_for": "the date the wake is held"
+    },
+    {
+      "question": "who organises the Grimsditch Agricultural Show",
+      "passage": "The Grimsditch Agricultural Show is a one-day county show held each August on the Grimsditch showground. It is organised by the Grimsditch Agricultural Society, a charity founded in 1861. The show's president changes each year and in 2025 was the cattle breeder Hugh Merriman. It attracts around 12,000 visitors.",
+      "sentence": 2,
+      "quote": "organised by the Grimsditch Agricultural Society",
+      "looking_for": "the body that organises the show"
+    },
+    {
+      "question": "what is the prize for the Wexley Boat Race",
+      "passage": "The Wexley Boat Race is a rowing race between the crews of Wexley's two rival grammar schools, rowed each spring on the River Wex. The winning crew receives the Wexley Oar, a carved oak blade first presented in 1887. The course is just over two miles long, from Kings Weir to the town bridge. Northgate School leads the series with 71 wins.",
+      "sentence": 2,
+      "quote": "receives the Wexley Oar",
+      "looking_for": "the name of the prize"
+    },
+    {
+      "question": "how many runners are in the Torrin Coast Half Marathon",
+      "passage": "The Torrin Coast Half Marathon is a road race along the cliff road between Torrin and the lighthouse at Gannet Head. Each year about 4,500 runners take part, with places allocated by ballot. The race began in 1983 with just 210 finishers. The course record is 1 hour 2 minutes, set in 2016.",
+      "sentence": 2,
+      "quote": "about 4,500 runners take part",
+      "looking_for": "the number of runners"
+    },
+    {
+      "question": "when was the Ashenby Poetry Festival founded",
+      "passage": "The Ashenby Poetry Festival is a week of readings and workshops held each March in the town of Ashenby. It was founded in 1967 by the poet Clement Varley, who ran it until his death in 1990. The festival awards the Ashenby Prize for a first collection. Its readings take place in the Assembly Rooms and the Quaker meeting house.",
+      "sentence": 2,
+      "quote": "It was founded in 1967",
+      "looking_for": "the year the festival was founded"
+    },
+    {
+      "question": "where is the Kelderwick Horse Fair held now",
+      "passage": "The Kelderwick Fair is a horse fair with a history going back to a charter of 1662. Since 2004 it has been held on Langthwaite Common, two miles outside Kelderwick. Before then the horses were traded in the main street, until the town council closed it to traffic. About 1,200 horses change hands in an average year.",
+      "sentence": 2,
+      "quote": "held on Langthwaite Common",
+      "looking_for": "the place the fair is held now"
+    },
+    {
+      "question": "who is the patron of the Sowerby Moor Sheepdog Trials",
+      "passage": "The Sowerby Moor Sheepdog Trials are a herding competition held each September on the open fell above Sowerby. The patron of the trials is Lady Annis Holgate, whose family has owned the land since 1820. Handlers and dogs must gather five sheep and drive them through three gates and into a pen. The 2024 trials were won by Rhys Pugh and his dog Fly.",
+      "sentence": 2,
+      "quote": "The patron of the trials is Lady Annis Holgate",
+      "looking_for": "the name of the patron"
+    },
+    {
+      "question": "how many stages does the Lowdon Edge Festival have",
+      "passage": "The Lowdon Edge Festival is a rock and pop festival held over three days in June on farmland near Lowdon. Music is played on seven stages, the largest of which holds 30,000 people. The festival was started in 1996 by the promoter Ray Tennick. Around 70,000 people attend each year.",
+      "sentence": 2,
+      "quote": "Music is played on seven stages",
+      "looking_for": "the number of stages"
+    },
+    {
+      "question": "when is the Moorhaven Regatta held",
+      "passage": "The Moorhaven Regatta is a rowing and sailing regatta held on the estuary at Moorhaven. It takes place over the August bank holiday weekend. The first regatta was held in 1838 to mark a royal coronation. Around 300 boats now compete in more than forty races.",
+      "sentence": 2,
+      "quote": "over the August bank holiday weekend",
+      "looking_for": "the date the regatta is held"
+    },
+    {
+      "question": "how old is the Penmarrow Fair",
+      "passage": "The Penmarrow Fair is a street fair held each October in the cathedral town of Penmarrow. It dates from a royal charter granted in 1214, making it one of the oldest fairs in the county. Today the fair fills the market square with about eighty rides and stalls. It was last cancelled in 1940.",
+      "sentence": 2,
+      "quote": "a royal charter granted in 1214",
+      "looking_for": "the age or founding date of the fair"
+    },
+    {
+      "question": "who is the race director of the Gannet Ultra",
+      "passage": "The Gannet Ultra is a 100-mile trail race around the coast of the Isle of Skerrin. The race director is Morven Achlach, who took over from the founder, Alan Brodie, in 2019. Runners have 36 hours to finish. Fewer than half of the starters usually complete the course.",
+      "sentence": 2,
+      "quote": "The race director is Morven Achlach",
+      "looking_for": "the name of the current race director"
+    },
+    {
+      "question": "how many scarecrows are in the Wren Valley Scarecrow Festival",
+      "passage": "The Wren Valley Scarecrow Festival is a village trail of home-made scarecrows held each May in the six villages of the Wren Valley. In a typical year about 220 scarecrows are entered by households, schools and businesses. Visitors vote for their favourite, and the winner receives the Golden Pitchfork. The festival began in 2003 and has raised more than £150,000 for the village halls.",
+      "sentence": 2,
+      "quote": "about 220 scarecrows are entered",
+      "looking_for": "the number of scarecrows entered"
+    },
+    {
+      "question": "what is the top prize at the Halsworth Brass Band Contest",
+      "passage": "The Halsworth Brass Band Contest is a competition for brass bands held each Whit Friday in the streets of Halsworth and the villages around it. The overall winner takes home the Halsworth Shield, a silver trophy first presented in 1884. Bands march between villages and play one test piece at each stop. In 2025 a record 96 bands took part.",
+      "sentence": 2,
+      "quote": "takes home the Halsworth Shield",
+      "looking_for": "the name of the top prize"
+    },
+    {
+      "question": "who won the first Corrigan Memorial race",
+      "passage": "The Corrigan Memorial is a cycle road race held each April on the hill roads around Ballykeel. The first race, in 1957, was won by Seamus Doherty of the Ballykeel Wheelers. It is named after the club founder Patrick Corrigan, who died in a road accident in 1955. The course is about 140 kilometres long.",
+      "sentence": 2,
+      "quote": "was won by Seamus Doherty",
+      "looking_for": "the winner of the first race"
+    },
+    {
+      "question": "how tall is the maypole at Fernhill May Day",
+      "passage": "Fernhill May Day is a spring festival held on the village green at Fernhill on the first Monday of May. Its maypole stands 26 metres high and is said to be the tallest in the county. The day begins with the crowning of the May Queen, chosen from the girls of the village school. Morris sides from across the region dance on the green in the afternoon.",
+      "sentence": 2,
+      "quote": "stands 26 metres high",
+      "looking_for": "the height of the maypole"
+    },
+    {
+      "question": "who is the music director of the Brackwater Proms",
+      "passage": "The Brackwater Proms is a summer season of orchestral concerts held in the Winter Gardens at Brackwater. Its music director is Lucan Ferrars, who conducts the first and last nights. Guest conductors lead the other concerts, and in 2025 they included Sigrid Holm and Arturo Belli. The season was first held in 1931.",
+      "sentence": 2,
+      "quote": "Its music director is Lucan Ferrars",
+      "looking_for": "the name of the music director"
+    },
+    {
+      "question": "how many days does the Calderly Show last",
+      "passage": "The Calderly Show is a horticultural show of fruit, flowers and vegetables organised by the Calderly Horticultural Society. It runs for two days at the end of August in the town's drill hall. The heaviest marrow ever shown there weighed 54 kilograms. The society was formed in 1874.",
+      "sentence": 2,
+      "quote": "It runs for two days",
+      "looking_for": "the length of the show in days"
+    },
+    {
+      "question": "what river is the Sallowford Raft Race on",
+      "passage": "The Sallowford Raft Race is a charity race of home-built rafts held each June. It is run on the River Sallow over a 5-mile course from Bickton Mill to Sallowford Bridge. Teams are often in fancy dress, and many rafts sink before the finish. The race has raised about £300,000 since it began in 1972.",
+      "sentence": 2,
+      "quote": "run on the River Sallow",
+      "looking_for": "the name of the river"
+    },
+    {
+      "question": "how much did the Nettlecombe Fun Run raise in 2024",
+      "passage": "The Nettlecombe Fun Run is a 5-kilometre charity run held each New Year's Day along the seafront at Nettlecombe. In 2024 it raised £38,500 for the local hospice. Runners traditionally wear fancy dress, and prizes are given for the best costume. The first run, in 1986, had 40 entrants.",
+      "sentence": 2,
+      "quote": "it raised £38,500",
+      "looking_for": "the amount raised in 2024"
+    },
+    {
+      "question": "where do people watch the Garron Point Air Show from",
+      "passage": "The Garron Point Air Show is a free two-day flying display held each July over the bay at Garron Point. Crowds gather on the promenade and the cliff top at Garron Head to watch the displays. The show began in 1993 as a single display by the local flying club. Around 150,000 people attend over the weekend.",
+      "sentence": 2,
+      "quote": "on the promenade and the cliff top at Garron Head",
+      "looking_for": "the place where spectators watch"
+    },
+    {
+      "question": "when were the Harlan Mystery Plays last performed",
+      "passage": "The Harlan Mystery Plays are a cycle of medieval religious dramas performed on wagons in the streets of Harlan. They have been staged every four years since their revival in 1951, most recently in 2022. About 500 local people take part as actors, musicians and crew. The original plays were suppressed in 1569.",
+      "sentence": 2,
+      "quote": "most recently in 2022",
+      "looking_for": "the year of the most recent performance"
+    },
+    {
+      "question": "what are the teams called in the Wenlow Shrovetide Game",
+      "passage": "The Wenlow Shrovetide Game is a mass football match played through the streets of Wenlow on Shrove Tuesday and Ash Wednesday. The two teams, the Uppers and the Downers, are made up of whoever was born on each side of the Wenlow Brook. The goals are three miles apart, at the sites of two old mills. The ball is thrown into the crowd at two in the afternoon by a guest of honour.",
+      "sentence": 2,
+      "quote": "the Uppers and the Downers",
+      "looking_for": "the names of the two teams"
+    },
+    {
+      "question": "what is the theme of the 2026 Ellingham Arts Festival",
+      "passage": "The Ellingham Arts Festival is a fortnight of music, theatre and visual art held each June in Ellingham. The theme of the 2026 festival is Rivers and Crossings, chosen by its artistic director, Saoirse Kane. Earlier themes have included Light in 2024 and Harvest in 2025. The festival was founded in 1979.",
+      "sentence": 2,
+      "quote": "Rivers and Crossings",
+      "looking_for": "the theme of the 2026 festival"
+    },
+    {
+      "question": "who runs Stannard Fireworks Night",
+      "passage": "Stannard Fireworks Night is a bonfire and fireworks display held each 5 November on the Stannard recreation ground. It is run by the Stannard Rotary Club, which took it over from the town council in 1991. The bonfire is built over three weeks from donated timber. About 20,000 people watch the display.",
+      "sentence": 2,
+      "quote": "run by the Stannard Rotary Club",
+      "looking_for": "the organisation that runs it"
+    },
+    {
+      "question": "how high do runners climb in the Scarth Pike Race",
+      "passage": "The Scarth Pike Race is a fell race from the village of Ullerby to the summit of Scarth Pike and back. Runners climb about 880 metres to the top in just under three miles. The race has been held at the Ullerby Sports each August since 1880. The record time is 41 minutes 7 seconds.",
+      "sentence": 2,
+      "quote": "climb about 880 metres",
+      "looking_for": "the height of the climb"
+    },
+    {
+      "question": "who started the Fernley Wheelbarrow Race",
+      "passage": "The Fernley Wheelbarrow Race is a pub-to-pub relay in which one team member pushes another in a wheelbarrow through the village of Fernley. It was devised in 1974 by Bert Ollerenshaw, the landlord of the Plough Inn, as a bet with a rival publican. Teams must drink half a pint at each of the seven pubs along the route. The fastest team in the race's history finished in 22 minutes.",
+      "sentence": 2,
+      "quote": "devised in 1974 by Bert Ollerenshaw",
+      "looking_for": "the person who started the race"
+    },
+    {
+      "question": "what does the winner of the Gilderdale Ploughing Match get",
+      "passage": "The Gilderdale Ploughing Match is a contest of horse and tractor ploughing held each October on a different farm in the Gilderdale parish. The champion ploughman receives the Gilderdale Bell, a brass harness bell that has been passed from winner to winner since 1866. Judges mark the straightness of the furrows, the depth and the finish at the ends. Around sixty ploughmen enter each year.",
+      "sentence": 2,
+      "quote": "receives the Gilderdale Bell",
+      "looking_for": "the prize given to the champion"
+    },
+    {
+      "question": "where is the Wyndham Bay Sandcastle Contest",
+      "passage": "The Wyndham Bay Sandcastle Contest is a competition for sand sculptures held each August. It takes place on the north beach at Wyndham Bay at low tide, with entrants given four hours before the sea returns. The winning entry in 2024 was a model of the town's pier. The contest was first held in 1956.",
+      "sentence": 2,
+      "quote": "on the north beach at Wyndham Bay",
+      "looking_for": "the place the contest is held"
+    },
+    {
+      "question": "how many balloons take off at the Halsey Balloon Fiesta",
+      "passage": "The Halsey Balloon Fiesta is a gathering of hot-air balloons held each August in the grounds of Halsey Court. At the dawn mass ascent, around 120 balloons take off together. The fiesta also holds a night glow, in which tethered balloons are lit in time to music. It was first held in 1979 with 27 balloons.",
+      "sentence": 2,
+      "quote": "around 120 balloons take off together",
+      "looking_for": "the number of balloons in the mass ascent"
+    },
+    {
+      "question": "who is the chief arbiter at the Wrentham Chess Congress",
+      "passage": "The Wrentham Chess Congress is a weekend chess tournament held each January at the Wrentham Town Hall. Its chief arbiter is Dennis Okafor, who has controlled the event since 2011. The congress has five sections, from the Open down to a section for players graded under 1200. The 2025 Open was won by the grandmaster Lena Stroud.",
+      "sentence": 2,
+      "quote": "Its chief arbiter is Dennis Okafor",
+      "looking_for": "the name of the chief arbiter"
+    },
+    {
+      "question": "what date is the Porthkellis Blessing of the Waters",
+      "passage": "The Blessing of the Waters is an Epiphany custom at Porthkellis in which the vicar blesses the harbour and throws a wooden cross into the sea. It takes place on 6 January each year, whatever the weather. Swimmers race to recover the cross, and the finder is said to have good luck for the year. The custom was brought to the town by sponge divers in the 1890s.",
+      "sentence": 2,
+      "quote": "on 6 January each year",
+      "looking_for": "the date of the blessing"
+    },
+    {
+      "question": "who makes the Hartlow well dressings",
+      "passage": "The Hartlow Well Dressing is a summer custom in which the village wells are decorated with pictures made of flower petals pressed into clay. The dressings are made by teams from the parish church, the school and the Women's Institute over the week before the blessing. Each picture takes around 2,000 hours of work. The custom at Hartlow was first recorded in 1758.",
+      "sentence": 2,
+      "quote": "teams from the parish church, the school and the Women's Institute",
+      "looking_for": "the people who make the dressings"
+    },
+    {
+      "question": "how many teams entered the Kellingham Tug of War Championship in 2025",
+      "passage": "The Kellingham Tug of War Championship is an open contest for tug of war teams held each July on the Kellingham showground. In 2025 a total of 34 teams of eight pullers took part. The title has been won most often by the Brackley Farmers, with eleven victories. The championship was first held in 1921.",
+      "sentence": 2,
+      "quote": "a total of 34 teams",
+      "looking_for": "the number of teams taking part in 2025"
+    },
+    {
+      "question": "when does the Eldenburg Christmas Market open",
+      "passage": "The Eldenburg Christmas Market is a seasonal market of about 150 wooden chalets set up in the cathedral square at Eldenburg. It opens on the last Thursday of November and closes on 23 December. The market began in 1997 as a twinning project with a town abroad. Its best known stall sells hot spiced wine in souvenir mugs.",
+      "sentence": 2,
+      "quote": "opens on the last Thursday of November",
+      "looking_for": "the opening date of the market"
+    },
+    {
+      "question": "who headlined the Corvedale Jazz Festival in 2025",
+      "passage": "The Corvedale Jazz Festival is a four-day jazz and blues festival held each July in the market town of Corvedale. The 2025 festival was headlined by the saxophonist Delphine Archer and her quintet. It was founded in 1985 by the drummer Kenny Faulds. Concerts take place in pubs, churches and a marquee by the river.",
+      "sentence": 2,
+      "quote": "headlined by the saxophonist Delphine Archer",
+      "looking_for": "the headline act in 2025"
+    },
+    {
+      "question": "how long is the Oakhurst Pilgrimage",
+      "passage": "The Oakhurst Pilgrimage is an annual walk of prayer from the town of Oakhurst to the ruined chapel of St Wenna on Carne Head. The route is about 11 miles long and follows old field paths and lanes. Pilgrims finish at the chapel's holy well, where an open-air service is held at noon. The walk was revived in 1934 by the vicar of Oakhurst.",
+      "sentence": 2,
+      "quote": "about 11 miles long",
+      "looking_for": "the length of the walk"
+    },
+    {
+      "question": "who has won the Durnford Conker Championship the most times",
+      "passage": "The Durnford Conker Championship is a contest of conkers held each October on the village green at Durnford. The record for the most titles is held by Ron Tidbury, who won it seven times between 1972 and 1990. The 2025 champion was Kezia Marsh, a schoolteacher from Lymwell. Conkers and laces are supplied by the organisers to prevent cheating.",
+      "sentence": 2,
+      "quote": "held by Ron Tidbury",
+      "looking_for": "the person with the most titles"
+    },
+    {
+      "question": "how far is the swim in the Brightwell Triathlon",
+      "passage": "The Brightwell Triathlon is a sprint triathlon held each June around Brightwell Lake. Competitors swim 750 metres, cycle 20 kilometres and run 5 kilometres. About 900 athletes take part, in waves of a hundred. The race was first held in 1990.",
+      "sentence": 2,
+      "quote": "swim 750 metres",
+      "looking_for": "the distance of the swim leg"
+    },
+    {
+      "question": "who is the chair of the Lissworth Festival",
+      "passage": "The Lissworth Festival is a summer festival of classical music held in the churches and halls of Lissworth. It was founded in 1948 by the composer Edwin Hale and the singer Marguerite Roux. Its present chair is the banker Oliver Sandys, who succeeded Lady Penelope Arden in 2017. The festival lasts for ten days and ends with a concert in the abbey.",
+      "sentence": 3,
+      "quote": "Its present chair is the banker Oliver Sandys",
+      "looking_for": "the name of the current chair"
+    },
+    {
+      "question": "when was the Marlingford Flower Festival first held",
+      "passage": "The Marlingford Flower Festival is a display of flower arrangements staged in the parish church of Marlingford. More than sixty arrangements are made by local clubs, each on a theme chosen for that year. The festival was first held in 1962 to pay for the repair of the church roof. It now takes place every other year over the late May bank holiday.",
+      "sentence": 3,
+      "quote": "first held in 1962",
+      "looking_for": "the year it was first held"
+    },
+    {
+      "question": "how many people go to the Kirkhaven Folk Festival",
+      "passage": "The Kirkhaven Folk Festival is a weekend of folk music, dance and storytelling held each September in Kirkhaven. Concerts take place in the town hall, three churches and a large marquee on the harbour. The festival attracts about 9,000 visitors, roughly doubling the town's population for the weekend. It was founded in 1980 by members of the Kirkhaven Folk Club.",
+      "sentence": 3,
+      "quote": "about 9,000 visitors",
+      "looking_for": "the number of visitors"
+    },
+    {
+      "question": "who won the Thorsby Fell Race in 2024",
+      "passage": "The Thorsby Fell Race is a short, steep race from the Thorsby show field to the cairn on Thorsby Crag and back. It is one of the oldest fell races in the region, first run in 1868. The 2024 race was won by Isla Garside in 18 minutes 40 seconds. The record of 16 minutes 2 seconds was set by Joe Hartley in 1977.",
+      "sentence": 3,
+      "quote": "won by Isla Garside",
+      "looking_for": "the winner of the 2024 race"
+    },
+    {
+      "question": "where does the Calloway Classic finish",
+      "passage": "The Calloway Classic is a one-day cycle race for professional riders held each spring. It covers about 210 kilometres of hilly roads, including the cobbled climb of Mill Brow. The race starts in the port of Wickstead and finishes on the promenade at Calloway Sands. It was first held in 1964 and was won that year by Brian Lacey.",
+      "sentence": 3,
+      "quote": "finishes on the promenade at Calloway Sands",
+      "looking_for": "the place where the race finishes"
+    },
+    {
+      "question": "how many horses ran in the 2025 Thistledown Derby",
+      "passage": "The Thistledown Derby is a flat race for three-year-old horses run each June at Thistledown racecourse. The race is run over a distance of one mile and four furlongs. In the 2025 running, fourteen horses started, the largest field since 1999. The winner was Saffron Quay, trained by Maeve Collins.",
+      "sentence": 3,
+      "quote": "fourteen horses started",
+      "looking_for": "the number of horses in the 2025 race"
+    },
+    {
+      "question": "who opens the Hayborough Fair",
+      "passage": "The Hayborough Fair is a pleasure fair that fills the streets of Hayborough for four days each September. It has been held under a charter of 1293, which also allowed a weekly market. The fair is opened each year by the mayor, who rides the first roundabout of the evening. Traffic is diverted away from the town centre while it runs.",
+      "sentence": 3,
+      "quote": "opened each year by the mayor",
+      "looking_for": "the person who opens the fair"
+    },
+    {
+      "question": "how heavy was the biggest pumpkin at the Fenmoor Giant Vegetable Show",
+      "passage": "The Fenmoor Giant Vegetable Show is a competition for oversized vegetables held each September in the Fenmoor village hall. Classes include the longest runner bean, the heaviest onion and the tallest leek. The heaviest pumpkin ever shown there weighed 612 kilograms and was grown by Harold Pimm in 2019. The show is run by the Fenmoor Allotment Society.",
+      "sentence": 3,
+      "quote": "weighed 612 kilograms",
+      "looking_for": "the weight of the heaviest pumpkin"
+    },
+    {
+      "question": "when did women first compete in the Harrowby Sculls",
+      "passage": "The Harrowby Sculls is a single sculling race rowed each May on the Harrow Water. It was first contested in 1858 by the oarsmen of three local rowing clubs. Women were first admitted to the race in 1979, when Joan Peverell finished third. The course is 1.8 miles long.",
+      "sentence": 3,
+      "quote": "Women were first admitted to the race in 1979",
+      "looking_for": "the year women first competed"
+    },
+    {
+      "question": "who is the president of the Cresswold Show",
+      "passage": "The Cresswold Show is an agricultural show held each June at Home Farm, Cresswold. It was founded in 1867 by Sir Rupert Kemble to improve local breeds of cattle. The president for 2026 is the sheep farmer Alys Morgan, who succeeds Edward Thane. The show's main ring hosts show jumping and the parade of champions.",
+      "sentence": 3,
+      "quote": "The president for 2026 is the sheep farmer Alys Morgan",
+      "looking_for": "the name of the current president"
+    },
+    {
+      "question": "what is the trophy for the Eskdun Hill Race called",
+      "passage": "The Eskdun Hill Race is a mountain running race held each June from the village of Eskdun to the summit of Black Knowe. The race is 7 miles long with about 700 metres of climbing. The first runner home is given the Black Knowe Quaich, a two-handled silver cup. The race was first held in 1955.",
+      "sentence": 3,
+      "quote": "the Black Knowe Quaich",
+      "looking_for": "the name of the trophy"
+    },
+    {
+      "question": "how many people marched in the first Garstone Pride Parade",
+      "passage": "The Garstone Pride Parade is an annual march and festival held each July in the city of Garstone. The parade route runs from the railway station to Albert Park, where the festival takes place. The first parade, in 1992, had about 300 marchers. Today around 25,000 people march and more than 100,000 watch.",
+      "sentence": 3,
+      "quote": "about 300 marchers",
+      "looking_for": "the number of people at the first parade"
+    },
+    {
+      "question": "where was the first Wilverton Beer Festival held",
+      "passage": "The Wilverton Beer Festival is a four-day festival of real ale held each October. It now fills the Wilverton Leisure Centre, with more than 400 beers on sale. The first festival, in 1974, was held in the upstairs room of the Railway Tavern. It is run entirely by volunteers from the county's ale society.",
+      "sentence": 3,
+      "quote": "the upstairs room of the Railway Tavern",
+      "looking_for": "the venue of the first festival"
+    },
+    {
+      "question": "who wrote down the Tavisham Mummers play",
+      "passage": "The Tavisham Mummers are a group who perform a traditional folk play in the pubs of Tavisham on Boxing Day. The play features Saint George, a Turkish Knight and a quack doctor who brings the slain back to life. The surviving text was written down in 1868 by the schoolmaster Josiah Bunce from the memories of old players. The tradition was revived in 1949.",
+      "sentence": 3,
+      "quote": "written down in 1868 by the schoolmaster Josiah Bunce",
+      "looking_for": "the person who recorded the play's text"
+    },
+    {
+      "question": "how long is the Yelverstone Lantern Procession route",
+      "passage": "The Yelverstone Lantern Procession is a winter parade of large willow and paper lanterns held each December. The lanterns are made in workshops by schools and community groups over the preceding six weeks. The route runs for 1.5 kilometres from the old cattle market to the cathedral green. About 1,500 lanterns are carried each year.",
+      "sentence": 3,
+      "quote": "The route runs for 1.5 kilometres",
+      "looking_for": "the length of the route"
+    },
+    {
+      "question": "who is the artistic director of the Ballinmore Street Arts Festival",
+      "passage": "The Ballinmore Street Arts Festival is a free festival of outdoor theatre, circus and dance held each August. Performances take place on squares and streets across the city centre. Its artistic director is Fionnuala Breen, who previously ran a touring circus. The festival was founded in 2001 by the city council.",
+      "sentence": 3,
+      "quote": "Its artistic director is Fionnuala Breen",
+      "looking_for": "the name of the artistic director"
+    },
+    {
+      "question": "who holds the record for the Brannoch Swim",
+      "passage": "The Brannoch Swim is an open-water race across Loch Brannoch from the pier at Kilmorie to the beach at Ardlas. It is 3 miles long and is held in July, when the water temperature reaches about 15 degrees. The fastest crossing was made in 2011 by Ewan Rourke, who finished in 1 hour 3 minutes. Most swimmers take between two and three hours.",
+      "sentence": 3,
+      "quote": "made in 2011 by Ewan Rourke",
+      "looking_for": "the person who holds the record"
+    },
+    {
+      "question": "when did the Ingleby Show move to Brook Farm",
+      "passage": "The Ingleby Show is a one-day country show held each July. It was founded in 1878 and was held for most of its history in the grounds of Ingleby Hall. In 1996 the show moved to its present site at Brook Farm, outside the village. Its main attractions are the vintage tractor parade and the terrier racing.",
+      "sentence": 3,
+      "quote": "In 1996 the show moved",
+      "looking_for": "the year the show moved"
+    },
+    {
+      "question": "what was the Westermoor Festival originally called",
+      "passage": "The Westermoor Festival is a large music and arts festival held each June at Westermoor Farm. It is now one of the biggest greenfield festivals in the country, with about 150,000 visitors. It was first held in 1971 under the name the Westermoor Pop and Folk Fayre. The farm's owner, Martin Easby, still lives on the site.",
+      "sentence": 3,
+      "quote": "the Westermoor Pop and Folk Fayre",
+      "looking_for": "the festival's original name"
+    },
+    {
+      "question": "how tall is the wicker figure at the Ellerby Burn",
+      "passage": "The Ellerby Burn is a midsummer festival on the moor above Ellerby that ends with the burning of a giant wicker figure. The festival lasts three days and features music, crafts and fire performers. The wicker figure is about 12 metres tall and takes a team of volunteers a month to build. The first burn was held in 1998.",
+      "sentence": 3,
+      "quote": "about 12 metres tall",
+      "looking_for": "the height of the wicker figure"
+    },
+    {
+      "question": "who was the first woman to win the Tannerley Marathon",
+      "passage": "The Tannerley Marathon is a road marathon run each April through the city of Tannerley. It was first run in 1981 and was won that year by Graham Pike. The first woman to win the race was the Norwegian runner Hilde Brekke, in 1984. The current course record is 2 hours 8 minutes.",
+      "sentence": 3,
+      "quote": "the Norwegian runner Hilde Brekke",
+      "looking_for": "the first woman to win the race"
+    },
+    {
+      "question": "where is the Ravensby Dog Show held",
+      "passage": "The Ravensby Dog Show is a championship show for pedigree dogs held over four days each September. Around 18,000 dogs of more than 200 breeds are entered. The show is held at the Northern Exhibition Centre in Ravensby, having outgrown its old home at the town's cattle market in 1987. The top award is Best in Show, judged on the final evening.",
+      "sentence": 3,
+      "quote": "held at the Northern Exhibition Centre",
+      "looking_for": "the venue of the dog show"
+    },
+    {
+      "question": "who is the Cornet at the Hawkshaw Common Riding this year",
+      "passage": "The Hawkshaw Common Riding is a summer festival in which riders follow the bounds of the town's common land on horseback. It is held over a week in June and ends with the Riding of the Marches. The festival is led by the Cornet, a young unmarried man chosen by the town each year. For 2026 the Cornet is Callum Elliot, a joiner aged 24.",
+      "sentence": 4,
+      "quote": "For 2026 the Cornet is Callum Elliot",
+      "looking_for": "the name of this year's Cornet"
+    },
+    {
+      "question": "who is the current chair of the Morrow Bay Regatta",
+      "passage": "The Morrow Bay Regatta is a week of sailing races held each August off the town of Morrow Bay. It is organised by the Morrow Bay Yacht Club, which was founded in 1867. The regatta's first commodore was the shipowner Silas Penhale. The current chair of the regatta committee is Anwen Trevelyan, who was elected in 2023.",
+      "sentence": 4,
+      "quote": "Anwen Trevelyan",
+      "looking_for": "the name of the current chair"
+    },
+    {
+      "question": "when is the Calderbrook Rushcart held",
+      "passage": "The Calderbrook Rushcart is a festival in which a cart piled high with rushes is pulled through the village by teams of men. A rider sits on top of the stack, which can be over four metres tall. The cart visits each pub in the village and stops at the church for a short service. The rushcart is held on the last weekend of August, close to the old feast of St Bartholomew.",
+      "sentence": 4,
+      "quote": "held on the last weekend of August",
+      "looking_for": "the date the rushcart is held"
+    },
+    {
+      "question": "how many people watch the Asholt Bonfire",
+      "passage": "The Asholt Bonfire is a fireworks and bonfire celebration held each November by the Asholt Bonfire Society. Members in costume march through the town carrying flaming torches. The society was formed in 1853 and has about 400 members. Around 60,000 spectators line the streets on the night.",
+      "sentence": 4,
+      "quote": "Around 60,000 spectators",
+      "looking_for": "the number of spectators"
+    },
+    {
+      "question": "who founded the Harwick Literary Festival",
+      "passage": "The Harwick Literary Festival is a week of talks, readings and book signings held each October. Events take place in the old corn exchange and the parish church. About 200 authors take part, and many of the talks sell out within days. The festival was founded in 1983 by the publisher Rosalind Meade and the poet Ivo Strand.",
+      "sentence": 4,
+      "quote": "founded in 1983 by the publisher Rosalind Meade",
+      "looking_for": "the name of the founder"
+    },
+    {
+      "question": "what is the record time for the Velland Coast Run",
+      "passage": "The Velland Coast Run is a 10-mile road race along the coast road from Prior's Bay to Velland harbour. It is held each Easter Sunday and attracts about 2,000 runners. The 2025 race was won by Meg Halloran in 54 minutes 30 seconds. The course record of 47 minutes 9 seconds was set by Dafydd Rhys in 1985.",
+      "sentence": 4,
+      "quote": "47 minutes 9 seconds",
+      "looking_for": "the record time for the course"
+    },
+    {
+      "question": "where are the Cardale Games held",
+      "passage": "The Cardale Games are a traditional sports meeting of wrestling, running and hound trailing. They were first held in 1847 on a field behind the Cardale Arms. In 1905 the games moved to Low Holme, a meadow beside the lake. Since 1972 they have been held at Cardale Park, a purpose-built arena on the edge of town.",
+      "sentence": 4,
+      "quote": "held at Cardale Park",
+      "looking_for": "the current venue of the games"
+    },
+    {
+      "question": "what time does the Harnby Midsummer Run start",
+      "passage": "The Harnby Midsummer Run is a 10-kilometre road race held on the shortest night of the year in Harnby. The course follows the old railway path and the river bank. Runners carry head torches, although the sky rarely grows fully dark. The race starts at ten at night, and the last runners usually finish just before midnight.",
+      "sentence": 4,
+      "quote": "The race starts at ten at night",
+      "looking_for": "the start time of the race"
+    },
+    {
+      "question": "how many sheep are shorn at the Glenmere Shearing",
+      "passage": "The Glenmere Shearing is a sheep shearing competition held each June as part of the Glenmere Show. Shearers compete in junior, intermediate, senior and open classes. The open final is decided over twenty sheep, with points for speed and the quality of the work. In a typical year about 3,000 sheep are shorn over the two days.",
+      "sentence": 4,
+      "quote": "about 3,000 sheep are shorn",
+      "looking_for": "the number of sheep shorn"
+    },
+    {
+      "question": "who headlined the first Ardley Fest",
+      "passage": "The Ardley Fest is a one-day music festival held each June on the playing fields of Ardley. It is run by volunteers, and all profits go to the village school. Tickets are limited to 5,000 each year. The first festival, in 2009, was headlined by the local band the Weather Vanes.",
+      "sentence": 4,
+      "quote": "headlined by the local band the Weather Vanes",
+      "looking_for": "the headline act at the first festival"
+    },
+    {
+      "question": "how far do the pigeons fly in the Halston Long Race",
+      "passage": "The Halston Long Race is a long-distance pigeon race flown each July. Birds are released together at dawn and fly home to their own lofts in the Halston district. Their speed is worked out from the time each bird returns and the distance to its loft. The release point is the coastal town of Lessard, about 520 miles from Halston.",
+      "sentence": 4,
+      "quote": "about 520 miles from Halston",
+      "looking_for": "the distance the birds fly"
+    },
+    {
+      "question": "when did the Bellhaven Carnival begin",
+      "passage": "The Bellhaven Carnival is a week of events held each August, ending with a parade of floats along the seafront. A carnival queen and two princesses are chosen from the town's schools each spring. The parade is led by the town band and the lifeboat on a trailer. The first carnival was held in 1906 to celebrate the opening of the new pier.",
+      "sentence": 4,
+      "quote": "The first carnival was held in 1906",
+      "looking_for": "the year the carnival began"
+    },
+    {
+      "question": "who owns the Vellmont Steam Fair",
+      "passage": "The Vellmont Steam Fair is a fair of vintage fairground rides powered by steam, held each summer at Vellmont. Its centrepiece is a set of gallopers built in 1895. The fair was started in 1978 by the showman Albert Dunning and his sons. Since 2015 it has been owned by the Vellmont Fairground Trust, a charity.",
+      "sentence": 4,
+      "quote": "owned by the Vellmont Fairground Trust",
+      "looking_for": "the current owner of the fair"
+    },
+    {
+      "question": "who won the 2025 Ashworth Cup",
+      "passage": "The Ashworth Cup is a sailing race for wooden dinghies held each September on Ashworth Water. It was first sailed in 1902 for a cup given by the mill owner Henry Ashworth. The course runs twice around the lake, a distance of about 9 miles. Boats must have been built before 1960 to be eligible. The 2025 race was won by Tamsin Hale sailing the dinghy Curlew.",
+      "sentence": 5,
+      "quote": "won by Tamsin Hale",
+      "looking_for": "the winner of the 2025 race"
+    },
+    {
+      "question": "how many people attend the Larkford Show",
+      "passage": "The Larkford Show is a county agricultural show held over two days in July. It was first held in 1799 by the Larkford Agricultural Association. The show moved to its permanent showground at Netherby Park in 1962. Its classes cover cattle, sheep, pigs, poultry, horses and rural crafts. About 85,000 people attend each year.",
+      "sentence": 5,
+      "quote": "About 85,000 people attend",
+      "looking_for": "the number of people attending"
+    },
+    {
+      "question": "who is the chief marshal of the Craydon Parade",
+      "passage": "The Craydon Parade is a civic procession held each June to mark the granting of the town's charter. Guilds, schools and bands march from the guildhall to the castle green. The parade is followed by a fair and a cricket match between the council and the townspeople. It was first held in 1610 and has been cancelled only during wartime. The chief marshal of the parade is the town sergeant, Liam Hobday.",
+      "sentence": 5,
+      "quote": "the town sergeant, Liam Hobday",
+      "looking_for": "the name of the chief marshal"
+    },
+    {
+      "question": "when is the Moss Edge Gala",
+      "passage": "The Moss Edge Gala is a community festival in the former mining village of Moss Edge. It began in 1924 as a day out for the families of miners at the Moss Edge colliery. The pit closed in 1968, but the gala continued under the village welfare committee. It is now the largest event in the village calendar, drawing about 5,000 people. The gala is held on the second Saturday of July.",
+      "sentence": 5,
+      "quote": "the second Saturday of July",
+      "looking_for": "the date the gala is held"
+    },
+    {
+      "question": "who founded the Sarnford Clog Contest",
+      "passage": "The Sarnford Clog Contest is a competition for clog dancers held each March in Sarnford. Dancers perform solo steps on a wooden board in front of three judges. Classes are held for juniors, adults and veterans. The contest's top award is the Golden Clog, first presented in 1932. The contest was founded in 1929 by the dancing master Elijah Brearley.",
+      "sentence": 5,
+      "quote": "founded in 1929 by the dancing master Elijah Brearley",
+      "looking_for": "the person who founded the contest"
+    },
+    {
+      "question": "how far is the Westbay Coast Path Race",
+      "passage": "The Westbay Coast Path Race is a trail race along the cliffs between Westbay and Porth Iddon. It is held each October and is known for its steep steps and muddy descents. The first race, in 1991, had 45 runners. The record time is 2 hours 51 minutes. The course is 21 miles long, with about 1,500 metres of climbing.",
+      "sentence": 5,
+      "quote": "The course is 21 miles long",
+      "looking_for": "the length of the course"
+    },
+    {
+      "question": "how many ice sculptures are at the Harnfell Ice Festival",
+      "passage": "The Harnfell Ice Festival is a winter festival held each February on the frozen lake at Harnfell. Visitors skate, ride sleighs and watch curling matches on the ice. The festival was first held in 1957, when the lake froze unusually thick. It is cancelled in years when the ice is too thin, as happened in 2020. About forty ice sculptures are carved by teams from across the region.",
+      "sentence": 5,
+      "quote": "About forty ice sculptures",
+      "looking_for": "the number of ice sculptures"
+    },
+    {
+      "question": "who won the first Ottermouth Sea Swim",
+      "passage": "The Ottermouth Sea Swim is a 1-mile race across the bay at Ottermouth, held each Boxing Day. Swimmers enter the water from the slipway beside the lifeboat station. Wetsuits are not allowed, and the water is usually about 9 degrees. Around 300 swimmers take part, many in fancy dress. The first swim, in 1952, was won by a local fisherman, Jack Tregarthen.",
+      "sentence": 5,
+      "quote": "won by a local fisherman, Jack Tregarthen",
+      "looking_for": "the winner of the first swim"
+    },
+    {
+      "question": "who is the current director of the Saltbridge Festival",
+      "passage": "The Saltbridge Festival is an arts festival held over two weeks each May in Saltbridge. It presents concerts, plays, exhibitions and talks in about thirty venues. The festival was founded in 1952 by the town's music society. Its first director was the conductor Hugh Pellow, who ran it for twenty years. Later directors included the actor Margot Lisle and the composer Rafe Dunstan. The current director is Juno Okoye, appointed in 2022.",
+      "sentence": 6,
+      "quote": "The current director is Juno Okoye",
+      "looking_for": "the name of the current director"
+    },
+    {
+      "question": "when was the Garrowby Fair last held",
+      "passage": "The Garrowby Fair was an ancient fair held each autumn on the downs above Garrowby. It was chartered in 1251 and was famous for its sheep sales. At its height, more than 50,000 sheep were penned on the hill. The fair declined after the railway reached the district in 1863. Attendance fell to a few hundred by the 1920s. It was last held in 1936.",
+      "sentence": 6,
+      "quote": "It was last held in 1936",
+      "looking_for": "the year of the last fair"
+    },
+    {
+      "question": "who is the current director of the Hollins Bay Festival",
+      "passage": "The Hollins Bay Festival is a summer festival of music and theatre held in the harbour town of Hollins Bay. It was founded in 1965 by the conductor Arthur Grieve. Its longest-serving director was the producer Edith Lanyon, who ran it from 1979 until 2004. The festival is held over two weeks in July.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current director"
+    },
+    {
+      "question": "who owns the Dorrington Fair",
+      "passage": "The Dorrington Fair is a travelling fair that sets up on the Dorrington market place each Whitsun. It was founded in 1889 by the showman Jacob Lusted, whose steam roundabout was its first ride. The fair now has more than sixty rides and stalls. It is opened each year by the town crier.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the current owner of the fair"
+    },
+    {
+      "question": "who holds the course record for the Brathwaite Fell Race",
+      "passage": "The Brathwaite Fell Race is a 9-mile mountain race held each May from the village of Brathwaite. It climbs over Brathwaite Pike and the ridge of High Scar before returning to the village green. The 2025 race was won by Owen Garnett in 1 hour 18 minutes. More than 400 runners took part, a record for the event.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who holds the course record"
+    },
+    {
+      "question": "who is the music director of the Linmouth Choral Festival",
+      "passage": "The Linmouth Choral Festival is a week of choral concerts held each June in Linmouth Minster. Choirs from across the country take part, along with the minster's own choir of boys and men. The 2025 closing concert was conducted by the guest conductor Felix Amberley. The festival was founded in 1934.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the music director"
+    },
+    {
+      "question": "when was the Shepley Fair founded",
+      "passage": "The Shepley Fair is a horse and pleasure fair held each September on Shepley Green. Its charter was renewed in 1792 after a dispute with the lord of the manor. The fair moved to its present site in 1911. About 30,000 people visit over the weekend.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the fair was founded"
+    },
+    {
+      "question": "how long is the Kirkby Moor Rally",
+      "passage": "The Kirkby Moor Rally is a motor rally held each November on forest tracks around Kirkby Moor. Crews tackle twelve special stages over two days. The rally was first held in 1971 and became a round of the national championship in 1984. The 2025 rally was won by Gareth Wynne and his co-driver Sian Lloyd.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the total distance of the rally"
+    },
+    {
+      "question": "how many people attend the Elmbridge Craft Fair",
+      "passage": "The Elmbridge Craft Fair is a three-day show of handmade goods held each November in the Elmbridge Exhibition Hall. More than 250 makers sell pottery, textiles, woodwork and jewellery. The fair was started in 1982 by a group of twelve potters. It is now organised by the Elmbridge Guild of Craftsmen.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of visitors"
+    },
+    {
+      "question": "who won the caber toss at the Glenruthie Games in 2025",
+      "passage": "The Glenruthie Games is a Highland games held each August in the grounds of Glenruthie Castle. Events include the caber toss, the hammer throw, Highland dancing and a hill race. The caber toss was won for six years in a row, from 2012 to 2017, by Ruaridh Munro. The games are opened by the chieftain, who in 2025 was Lady Morag Rattray.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the winner of the caber toss in 2025"
+    },
+    {
+      "question": "where is the Tarnwick Festival held now",
+      "passage": "The Tarnwick Festival is a folk and roots music festival founded in 1977. It was first held in a field belonging to the farmer Bill Askew, just outside Tarnwick. The festival grew quickly and by the 1990s drew crowds of 20,000. It outgrew the field in 1998 and moved to a larger site. It is known for its late-night ceilidhs and its children's parade.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the current venue of the festival"
+    },
+    {
+      "question": "what date is the Weybourne Water Fete",
+      "passage": "The Weybourne Water Fete is a festival held on the river at Weybourne. Its main events are a punt race, a swimming race and a parade of decorated boats. The fete was first held in 1898 to celebrate the opening of the new lock. It is organised by the Weybourne Rowing Club.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the date the fete is held"
+    },
+    {
+      "question": "who founded the Merrow Valley Show",
+      "passage": "The Merrow Valley Show is a country show held each August at Merrow Grange. The show is now owned by the Merrow Valley Agricultural Society, which bought it from the Grange estate in 1988. It features a dog show, a falconry display and a funfair. About 15,000 people attend.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the founder"
+    },
+    {
+      "question": "how tall is the maypole at Thaxford",
+      "passage": "Thaxford May Day is a spring festival held on the first Monday of May on Thaxford green. Dancers plait ribbons around the maypole, which was replaced in 2009 after the old pole rotted. The May Queen is crowned by the previous year's queen and rides in a decorated cart. The day ends with a 3-mile fun run around the parish.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the height of the maypole"
+    },
+    {
+      "question": "who won the first Westray Cycle Classic",
+      "passage": "The Westray Cycle Classic is a one-day road race held each June over the hills of Westray. It was founded in 1962 by the Westray Wheelers cycling club. The race covers about 160 kilometres and includes the climb of Saddle Pass. The 2025 edition was won by Pieter Vaal of the Netherlands.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the winner of the first race"
+    },
+    {
+      "question": "how many floats are in the Brantmoor Carnival parade",
+      "passage": "The Brantmoor Carnival is a summer carnival held over a week each July, ending with a grand parade. The parade route runs for 2 miles from the station to the sea front. The carnival was first held in 1919 to welcome home soldiers. About 40,000 people line the route.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of floats in the parade"
+    },
+    {
+      "question": "who is the chair of the Ellesmoor Food Festival",
+      "passage": "The Ellesmoor Food Festival is a two-day festival of local food and drink held each September in the castle grounds at Ellesmoor. More than 180 producers take part, along with cooking demonstrations by local chefs. It was started in 2002 by the chef Marcus Lowe and the farmer Bethan Price. The festival's main sponsor is the Ellesmoor Building Society.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current chair"
+    },
+    {
+      "question": "when did the Penhale Garland Dance start",
+      "passage": "The Penhale Garland Dance is a spring festival in which couples dance through the streets, in and out of the houses, to the music of the town band. It is held each year on 8 May, unless that falls on a Sunday or Monday. The dance tune is said to be very old, and was first written down in 1802. The festival is the busiest day of the year in Penhale.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the year the dance began"
+    },
+    {
+      "question": "who is the race director of the Sorrel Ridge Ultra",
+      "passage": "The Sorrel Ridge Ultra is a 50-mile trail race along the Sorrel Ridge, held each September. It was created in 2008 by the runner Kit Danvers, who had walked the ridge as a boy. The race has a cut-off of 14 hours, and about 60 percent of starters finish. The 2025 women's race was won by Freya Lund.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the current race director"
+    },
+    {
+      "question": "how many people marched in the 2025 Glendower Day Parade",
+      "passage": "The Glendower Day Parade is a procession of bands, dancers and decorated floats held each March in the city of Caerwen. The first parade, in 2004, had about 1,000 marchers. It is organised by the Glendower Day Trust with support from the city council. The route ends at the castle, where a concert is held in the evening.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of marchers in 2025"
+    },
+    {
+      "question": "what does the winner of the Lodsworth Ferret Race get",
+      "passage": "The Lodsworth Ferret Race is a novelty race in which ferrets run through lengths of drainpipe at the Lodsworth summer fete. Heats are run every half hour through the afternoon, with four ferrets in each. The race was first held in 1983 and is the fete's biggest attraction. In 2019 a ferret named Bandit won six heats in a row.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the prize for winning the race"
+    },
+    {
+      "question": "how long is the Tamsey Raft Race course",
+      "passage": "The Tamsey Raft Race is a charity race of home-made rafts held each August bank holiday on the River Tamsey. Teams start at Polkerry Bridge and paddle downstream to the quay at Tamsey Mouth. The race was first held in 1979 and has raised more than £500,000 for the lifeboat service. Rafts must be built from barrels, timber and rope, with no engines allowed.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the length of the course"
+    },
+    {
+      "question": "who is the patron of the Rookhope Festival",
+      "passage": "The Rookhope Festival is a weekend of brass band music held each May in the village of Rookhope. It was founded in 1951 by the Rookhope Colliery Band to raise money for new instruments. The festival's president is the band's former conductor, Walter Ibbotson. About thirty bands take part in the contest on the Saturday.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the patron"
+    },
+    {
+      "question": "how heavy is the caber at the Kilbrannan Games",
+      "passage": "The Kilbrannan Games is a Highland games held each July on the shore at Kilbrannan. Its caber, known as the Kilbrannan Larch, is just over 6 metres long. The caber was cut from the estate woods in 1979 and has been tossed successfully only fourteen times. Other events include the stone put and the weight over the bar.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the weight of the caber"
+    },
+    {
+      "question": "who won the Pennock Pie Eating Contest in 2025",
+      "passage": "The Pennock Pie Eating Contest is held each September at the Pennock Show, and competitors race to eat a meat and potato pie. Contestants may not use their hands, and the pie must be eaten down to the dish. The record time of 23 seconds was set in 2014 by Danny Hollis. The contest raises money for the village school.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the winner of the 2025 contest"
+    },
+    {
+      "question": "how many people went to the first Tremorna Folk Weekend",
+      "passage": "The Tremorna Folk Weekend is a festival of folk music and dance held each June in the fishing town of Tremorna. It was first held in 1972 in the back room of the Ship Inn. Today the festival draws about 6,000 visitors and fills every pub in the town. The festival's closing concert is held on the harbour wall.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of people at the first festival"
+    },
+    {
+      "question": "what is the record attendance at the Ashbury Show",
+      "passage": "The Ashbury Show is an agricultural show held each August on the Ashbury showground. About 20,000 people attend in a typical year. The show was cancelled in 2001 because of an outbreak of foot-and-mouth disease. Its president for 2026 is the dairy farmer Eleanor Brice.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the highest attendance ever recorded"
+    },
+    {
+      "question": "who started the Castlewood Cider Festival",
+      "passage": "The Castlewood Cider Festival is a weekend celebration of cider and perry held each October in the orchards of Castlewood Farm. Visitors can watch apples being pressed in a horse-drawn mill. The farm has been owned since 1994 by the Hendry family, who also run a cider shop in the village. More than seventy ciders are on sale.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the person who started the festival"
+    },
+    {
+      "question": "what is the trophy for the Fennby Midsummer Race called",
+      "passage": "The Fennby Midsummer Race is a 7-mile road race held on the Saturday nearest midsummer's day. Runners finish at the Fennby Arms, where prizes are presented. The race was first run in 1983. The trophy for the winner was donated by the race's first champion, Ken Tasker.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of the trophy"
+    },
+    {
+      "question": "how many stalls are at the Alverstone Christmas Market",
+      "passage": "The Alverstone Christmas Market is a seasonal market held each December along the high street of Alverstone. It runs over the first two weekends of the month, when the street is closed to traffic. The market raises money for the town's Christmas lights, which cost about £30,000 a year. It was started in 1995 by the Alverstone Chamber of Trade.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the number of stalls"
+    },
+    {
+      "question": "who is this year's Lord of Misrule at the Wellstead Revel",
+      "passage": "The Wellstead Twelfth Night Revel is a midwinter festival held each 6 January in the village of Wellstead. It is led by a Lord of Misrule, chosen by drawing a bean from a cake. The custom was revived in 1977 by the Wellstead Morris Men. The first Lord of Misrule of the revival was the blacksmith Tom Fairley.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the name of this year's Lord of Misrule"
+    },
+    {
+      "question": "what is the course record for the Lochend Hill Race",
+      "passage": "The Lochend Hill Race is a 5-mile mountain race held each June as part of the Lochend Show. The course climbs to the summit of Ben Corrach and returns by the same path. The 2025 race was won by Calum Fraser in 41 minutes 22 seconds, the fastest time for a decade. About 150 runners took part.",
+      "sentence": 0,
+      "quote": null,
+      "looking_for": "the record time for the course"
+    }
+  ]
+}

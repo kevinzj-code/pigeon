@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-16T03:59:53.925Z",
+  "engine": "http://127.0.0.1:8152",
+  "base": null,
+  "chunk": 3000,
+  "rows": 120,
+  "pieces": 120,
+  "wallMs": 499796,
+  "failed": 0,
+  "byLevel": {
+    "light": {
+      "n": 40,
+      "exact": 15,
+      "bF1": 37.32595000907021,
+      "pF1": 26.5,
+      "fabricated": 0,
+      "figuresLost": 0,
+      "truncated": 0,
+      "vetoed": 0,
+      "escaped": 0
+    },
+    "medium": {
+      "n": 40,
+      "exact": 7,
+      "bF1": 36.23232307914306,
+      "pF1": 26,
+      "fabricated": 1,
+      "figuresLost": 0,
+      "truncated": 0,
+      "vetoed": 0,
+      "escaped": 0,
+      "changedSilently": 0
+    },
+    "heavy": {
+      "n": 40,
+      "exact": 9,
+      "bF1": 35.968049334370725,
+      "pF1": 23,
+      "fabricated": 0,
+      "figuresLost": 0,
+      "truncated": 0,
+      "vetoed": 0,
+      "escaped": 0
+    }
+  },
+  "totals": {
+    "fabricated": 1,
+    "vetoed": 0,
+    "escaped": 0,
+    "n": 120
+  },
+  "escapes": []
+}

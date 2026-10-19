@@ -1,0 +1,1831 @@
+{
+ "pairs": [
+  {
+   "twins": [
+    "airportCodeLookup",
+    "countryLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "message": "for my geography homework: which airport is LIM, in Peru?",
+     "input": {
+      "query": "LIM"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countryLookup",
+     "message": "for my geography homework: what currency does Peru use?",
+     "input": {
+      "query": "Peru"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "countryLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "message": "quick one for my geography quiz: what airport is DUB?",
+     "input": {
+      "query": "DUB"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countryLookup",
+     "message": "quick one for my geography quiz: what's the capital of Ireland?",
+     "input": {
+      "query": "Ireland"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "message": "my flight booking just says FRA, which airport code is that?",
+     "input": {
+      "query": "FRA"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "languageCodeLookup",
+     "message": "my airport booking just says fr, which language code is that?",
+     "input": {
+      "query": "fr"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "message": "sorry to bother you, what's the airport code for Athens?",
+     "input": {
+      "query": "Athens"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "languageCodeLookup",
+     "message": "sorry to bother you, what's the language code for Greek?",
+     "input": {
+      "query": "Greek"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "message": "just landed at the airport, my ticket says OPO — which airport and country does that code belong to?",
+     "input": {
+      "query": "OPO"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "phoneRegionLookup",
+     "message": "just landed at the airport, my phone says +351 — which country does that code belong to?",
+     "input": {
+      "query": "+351"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "airportCodeLookup",
+    "phoneRegionLookup"
+   ],
+   "rows": [
+    {
+     "skill": "airportCodeLookup",
+     "message": "booking flights and airport taxis in Kenya — which airports serve Nairobi?",
+     "input": {
+      "query": "Nairobi"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "phoneRegionLookup",
+     "message": "booking flights and airport taxis in Kenya — what's the dialling code for Kenya?",
+     "input": {
+      "query": "Kenya"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "aspectRatio",
+    "fractionSimplify"
+   ],
+   "rows": [
+    {
+     "skill": "aspectRatio",
+     "message": "my laptop screen is 2880 by 1800 — what ratio is that in simplest form?",
+     "input": {
+      "width": 2880,
+      "height": 1800
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "fractionSimplify",
+     "message": "my laptop screen is 2880 by 1800 — simplify 2880/1800 for me",
+     "input": {
+      "fraction": "2880/1800"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "aspectRatio",
+    "fractionSimplify"
+   ],
+   "rows": [
+    {
+     "skill": "aspectRatio",
+     "message": "photo is 1500 by 1000 — what's that as a ratio in lowest terms?",
+     "input": {
+      "width": 1500,
+      "height": 1000
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "fractionSimplify",
+     "message": "photo is 1500 by 1000 — simplify 1500/1000 for me",
+     "input": {
+      "fraction": "1500/1000"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "checkAnagram",
+    "checkPalindrome"
+   ],
+   "rows": [
+    {
+     "skill": "checkAnagram",
+     "message": "for my crossword club: are 'stressed' and 'desserts' anagrams?",
+     "input": {
+      "first": "stressed",
+      "second": "desserts"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "checkPalindrome",
+     "message": "for my crossword club: is 'stressed desserts' a palindrome?",
+     "input": {
+      "text": "stressed desserts"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "checkAnagram",
+    "checkPalindrome"
+   ],
+   "rows": [
+    {
+     "skill": "checkAnagram",
+     "message": "my kid says 'live' is an anagram of 'evil', true?",
+     "input": {
+      "first": "live",
+      "second": "evil"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "checkPalindrome",
+     "message": "my kid says 'live evil' is a palindrome, true?",
+     "input": {
+      "text": "live evil"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "complementaryColor",
+    "nearestNamedColor"
+   ],
+   "rows": [
+    {
+     "skill": "complementaryColor",
+     "message": "designing a poster in #3A7D44, what's its complementary colour?",
+     "input": {
+      "color": "#3A7D44"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "nearestNamedColor",
+     "message": "designing a poster in #3A7D44, what's its closest colour name?",
+     "input": {
+      "color": "#3A7D44"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "complementaryColor",
+    "nearestNamedColor"
+   ],
+   "rows": [
+    {
+     "skill": "complementaryColor",
+     "message": "I painted the fence #4682B4 — which colour is opposite it on the colour wheel, not its closest name?",
+     "input": {
+      "color": "#4682B4"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "nearestNamedColor",
+     "message": "I painted the fence #4682B4 — which colour name is closest to it, not its opposite?",
+     "input": {
+      "color": "#4682B4"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertBase",
+    "convertRomanNumeral"
+   ],
+   "rows": [
+    {
+     "skill": "convertBase",
+     "message": "my dad was born in 1987 — write that number in base 7 instead of roman numerals",
+     "input": {
+      "value": "1987",
+      "fromBase": 10,
+      "toBase": 7
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertRomanNumeral",
+     "message": "my dad was born in 1987 — write that number in roman numerals instead of base 7",
+     "input": {
+      "value": "1987"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertBase",
+    "convertRomanNumeral"
+   ],
+   "rows": [
+    {
+     "skill": "convertBase",
+     "message": "convert the number 49 to base 3 rather than roman numerals",
+     "input": {
+      "value": "49",
+      "fromBase": 10,
+      "toBase": 3
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "convertRomanNumeral",
+     "message": "convert the number 49 to roman numerals rather than base 3",
+     "input": {
+      "value": "49"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertCurrencyFixed",
+    "currencyLookup"
+   ],
+   "rows": [
+    {
+     "skill": "convertCurrencyFixed",
+     "message": "supplier invoice is 25000 HUF, what's that in GBP at 0.0021?",
+     "input": {
+      "amount": 25000,
+      "from": "HUF",
+      "to": "GBP",
+      "rate": 0.0021
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "currencyLookup",
+     "message": "supplier invoice is 25000 HUF, rate 0.0021 to GBP — but which currency is HUF?",
+     "input": {
+      "code": "HUF"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertCurrencyFixed",
+    "currencyLookup"
+   ],
+   "rows": [
+    {
+     "skill": "convertCurrencyFixed",
+     "message": "my client pays 400 SGD, what's that in GBP at 0.58?",
+     "input": {
+      "amount": 400,
+      "from": "SGD",
+      "to": "GBP",
+      "rate": 0.58
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "currencyLookup",
+     "message": "my client pays 400 SGD, rate 0.58 to GBP — but which currency is SGD?",
+     "input": {
+      "code": "SGD"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertTime",
+    "durationToText"
+   ],
+   "rows": [
+    {
+     "skill": "convertTime",
+     "message": "convert 7384 seconds into hours",
+     "input": {
+      "amount": 7384,
+      "from": "s",
+      "to": "h"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "durationToText",
+     "message": "7384 seconds — how many hours and minutes is that, in words?",
+     "input": {
+      "seconds": 7384,
+      "style": "long"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertTime",
+    "durationToText"
+   ],
+   "rows": [
+    {
+     "skill": "convertTime",
+     "message": "convert 98765 seconds into hours",
+     "input": {
+      "amount": 98765,
+      "from": "s",
+      "to": "h"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "durationToText",
+     "message": "convert 98765 seconds into hours and minutes, in words",
+     "input": {
+      "seconds": 98765,
+      "style": "long"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countLines"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "I've counted the lines already — how many characters are in this haiku:\nold pond at dusk\na frog leaps in\nsplash of water",
+     "input": {
+      "text": "old pond at dusk\na frog leaps in\nsplash of water"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countLines",
+     "message": "I've counted the characters already — how many lines are in this haiku:\nold pond at dusk\na frog leaps in\nsplash of water",
+     "input": {
+      "text": "old pond at dusk\na frog leaps in\nsplash of water"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countLines"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "my poem is pasted below — I've got the line count, how many characters is it?",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "countLines",
+     "message": "my poem is pasted below — I've got the character count, how many lines is it?",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "how many characters in: We landed at noon. The bags came later. Nobody smiled.",
+     "input": {
+      "text": "We landed at noon. The bags came later. Nobody smiled."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countSentences",
+     "message": "how many sentences in: We landed at noon. The bags came later. Nobody smiled.",
+     "input": {
+      "text": "We landed at noon. The bags came later. Nobody smiled."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "count the characters in my abstract, not the sentences — pasting it next",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "countSentences",
+     "message": "count the sentences in my abstract, not the characters — pasting it next",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "I've counted the syllables already — how many characters are in 'onomatopoeia'?",
+     "input": {
+      "text": "onomatopoeia"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "I've counted the characters already — how many syllables are in 'onomatopoeia'?",
+     "input": {
+      "text": "onomatopoeia"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countCharacters",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countCharacters",
+     "message": "for my haiku, forget syllables — count the characters in 'autumn moonlight on the lake'",
+     "input": {
+      "text": "autumn moonlight on the lake"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "for my haiku, forget characters — count the syllables in 'autumn moonlight on the lake'",
+     "input": {
+      "text": "autumn moonlight on the lake"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countOccurrences"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "how many lines are in this log:\nWARN disk\nERROR net\nWARN cpu",
+     "input": {
+      "text": "WARN disk\nERROR net\nWARN cpu"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countOccurrences",
+     "message": "how many times does WARN show up in this log:\nWARN disk\nERROR net\nWARN cpu",
+     "input": {
+      "text": "WARN disk\nERROR net\nWARN cpu",
+      "needle": "WARN"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countOccurrences"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the lines in this log, not how often ERROR appears:\nERROR boot\nINFO ok\nERROR disk",
+     "input": {
+      "text": "ERROR boot\nINFO ok\nERROR disk"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countOccurrences",
+     "message": "count how often ERROR appears in this log, not the lines:\nERROR boot\nINFO ok\nERROR disk",
+     "input": {
+      "text": "ERROR boot\nINFO ok\nERROR disk",
+      "needle": "ERROR"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "how many lines does this verse have:\nThe sea is calm. The wind is low.\nWe sail at dawn.",
+     "input": {
+      "text": "The sea is calm. The wind is low.\nWe sail at dawn."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countSentences",
+     "message": "how many sentences does this verse have:\nThe sea is calm. The wind is low.\nWe sail at dawn.",
+     "input": {
+      "text": "The sea is calm. The wind is low.\nWe sail at dawn."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "my teacher says the paragraph below has too many lines and sentences — count the lines",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "countSentences",
+     "message": "my teacher says the paragraph below has too many lines and sentences — count the sentences",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "joinLines"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count all the lines in this shopping list before I join them into one:\nmilk\neggs\nbread",
+     "input": {
+      "text": "milk\neggs\nbread"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "joinLines",
+     "message": "join all the lines in this shopping list into one line with commas:\nmilk\neggs\nbread",
+     "input": {
+      "text": "milk\neggs\nbread",
+      "delimiter": ", "
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "joinLines"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "my guest list is below, one name per line — how many lines is it?",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "joinLines",
+     "message": "my guest list is below, one name per line — join those lines into one line with semicolons",
+     "input": {
+      "delimiter": "; "
+     },
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "removeDuplicateLines"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "how many lines are in this list, duplicate lines included:\nred\nblue\nred\ngreen",
+     "input": {
+      "text": "red\nblue\nred\ngreen"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "removeDuplicateLines",
+     "message": "remove the duplicate lines from this list and keep the other lines:\nred\nblue\nred\ngreen",
+     "input": {
+      "text": "red\nblue\nred\ngreen"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "removeDuplicateLines"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "the mailing list I'm pasting has loads of repeated lines, count all the lines",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "removeDuplicateLines",
+     "message": "the mailing list I'm pasting has loads of repeated lines, strip them",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the lines in my limerick:\nThere once was a cat from Peru\nwho dreamt it was eating a shoe",
+     "input": {
+      "text": "There once was a cat from Peru\nwho dreamt it was eating a shoe"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "count the syllables in my two-line limerick:\nThere once was a cat from Peru\nwho dreamt it was eating a shoe",
+     "input": {
+      "text": "There once was a cat from Peru\nwho dreamt it was eating a shoe"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "song lyric below — forget the syllables, how many lines are there?",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "song lyric below — forget the lines, how many syllables are there?",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "textFileStats"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "how many lines does this file have — just the count, not the line endings:\nport=80\nhost=local\nmode=dev",
+     "input": {
+      "text": "port=80\nhost=local\nmode=dev"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "textFileStats",
+     "message": "how many lines does this file have, and is it windows or unix line endings:\nport=80\nhost=local\nmode=dev",
+     "input": {
+      "text": "port=80\nhost=local\nmode=dev"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countLines",
+    "textFileStats"
+   ],
+   "rows": [
+    {
+     "skill": "countLines",
+     "message": "count the lines in this csv file, just lines:\nid,name\n1,Ana\n2,Bo",
+     "input": {
+      "text": "id,name\n1,Ana\n2,Bo"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "textFileStats",
+     "message": "count the lines in this csv file and say if it has windows or unix line endings:\nid,name\n1,Ana\n2,Bo",
+     "input": {
+      "text": "id,name\n1,Ana\n2,Bo"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countOccurrences",
+     "message": "how often does 'very' come up in: It was very late. I was very tired.",
+     "input": {
+      "text": "It was very late. I was very tired.",
+      "needle": "very"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "countSentences",
+     "message": "how many sentences are in: It was very late. I was very tired.",
+     "input": {
+      "text": "It was very late. I was very tired."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "countSentences"
+   ],
+   "rows": [
+    {
+     "skill": "countOccurrences",
+     "message": "in my cover letter below, how many times does 'passionate' appear?",
+     "input": {
+      "needle": "passionate"
+     },
+     "mode": "pointed"
+    },
+    {
+     "skill": "countSentences",
+     "message": "in my cover letter below, how many sentences appear?",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countOccurrences",
+     "message": "not the syllables — count how often 'la' shows up in 'la la land'",
+     "input": {
+      "text": "la la land",
+      "needle": "la"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "not how often 'la' shows up — count the syllables in 'la la land'",
+     "input": {
+      "text": "la la land"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countOccurrences",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countOccurrences",
+     "message": "forget the syllables — how many times does 'ana' appear in 'banana bandana'?",
+     "input": {
+      "text": "banana bandana",
+      "needle": "ana"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "forget how many times 'ana' appears — how many syllables are in 'banana bandana'?",
+     "input": {
+      "text": "banana bandana"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countSentences",
+     "message": "how many sentences in this: The cat slept. The dog barked.",
+     "input": {
+      "text": "The cat slept. The dog barked."
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "how many syllables in this: The cat slept. The dog barked.",
+     "input": {
+      "text": "The cat slept. The dog barked."
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countSentences",
+    "syllableCount"
+   ],
+   "rows": [
+    {
+     "skill": "countSentences",
+     "message": "my poem's opening stanza is below — I've done the syllables, now count the sentences",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "syllableCount",
+     "message": "my poem's opening stanza is below — I've done the sentences, now count the syllables",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "findLongestWord"
+   ],
+   "rows": [
+    {
+     "skill": "countWords",
+     "message": "I don't need the longest word, just the word count for: Fresh bread baked daily by hand",
+     "input": {
+      "text": "Fresh bread baked daily by hand"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "findLongestWord",
+     "message": "I don't need the word count, just the longest word in: Fresh bread baked daily by hand",
+     "input": {
+      "text": "Fresh bread baked daily by hand"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "findLongestWord"
+   ],
+   "rows": [
+    {
+     "skill": "countWords",
+     "message": "my essay intro is below — skip the longest word, just count the words",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "findLongestWord",
+     "message": "my essay intro is below — skip the word count, just find the longest word",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "wordFrequency"
+   ],
+   "rows": [
+    {
+     "skill": "countWords",
+     "message": "word count please, not word frequency: the rain in spain falls mainly on the plain",
+     "input": {
+      "text": "the rain in spain falls mainly on the plain"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "wordFrequency",
+     "message": "word frequency please, not word count: the rain in spain falls mainly on the plain",
+     "input": {
+      "text": "the rain in spain falls mainly on the plain"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countWords",
+    "wordFrequency"
+   ],
+   "rows": [
+    {
+     "skill": "countWords",
+     "message": "count the words in my speech below",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "wordFrequency",
+     "message": "count which words repeat most in my speech below",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "countryLookup",
+     "message": "on a form I saw NL next to my language — which country code is that?",
+     "input": {
+      "query": "NL"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "languageCodeLookup",
+     "message": "on a form I saw nl next to my country — which language code is that?",
+     "input": {
+      "query": "nl"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "countryLookup",
+    "languageCodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "countryLookup",
+     "message": "pen pal's country is Hungary — what's the capital of Hungary?",
+     "input": {
+      "query": "Hungary"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "languageCodeLookup",
+     "message": "pen pal's country is Hungary — what's the language code for Hungarian?",
+     "input": {
+      "query": "Hungarian"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "formatCurrency"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "message": "what symbol and decimal places does JPY use when you write an amount?",
+     "input": {
+      "code": "JPY"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "formatCurrency",
+     "message": "write 4800 as JPY using the symbol and decimal places that currency uses",
+     "input": {
+      "amount": 4800,
+      "currency": "JPY"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "formatCurrency"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "message": "what symbol and how many decimal places does KWD use when you write an amount?",
+     "input": {
+      "code": "KWD"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "formatCurrency",
+     "message": "write 3.5 as KWD with the symbol and decimal places that currency uses",
+     "input": {
+      "amount": 3.5,
+      "currency": "KWD"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "unicodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "message": "look up KRW — is it the currency with the ₩ character?",
+     "input": {
+      "code": "KRW"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "unicodeLookup",
+     "message": "look up the ₩ sign — is that a currency symbol?",
+     "input": {
+      "query": "₩"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "unicodeLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "message": "what's EUR — which currency symbol character does it use?",
+     "input": {
+      "code": "EUR"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "unicodeLookup",
+     "message": "what's the character € — which currency symbol is it?",
+     "input": {
+      "query": "€"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "usStateLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "message": "on this form, what does CAD stand for?",
+     "input": {
+      "code": "CAD"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "usStateLookup",
+     "message": "on this form, what does CA stand for as a US state?",
+     "input": {
+      "query": "CA"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "currencyLookup",
+    "usStateLookup"
+   ],
+   "rows": [
+    {
+     "skill": "currencyLookup",
+     "message": "planning a road trip budget across the US state border, look up the currency code MXN",
+     "input": {
+      "code": "MXN"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "usStateLookup",
+     "message": "planning a road trip budget across the border, look up the state code NM",
+     "input": {
+      "query": "NM"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "darkenColor",
+    "lightenColor"
+   ],
+   "rows": [
+    {
+     "skill": "darkenColor",
+     "message": "the hover colour #7A3E9D should go 15% darker, not lighter",
+     "input": {
+      "color": "#7A3E9D",
+      "by": 15
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "lightenColor",
+     "message": "the hover colour #7A3E9D should go 15% lighter, not darker",
+     "input": {
+      "color": "#7A3E9D",
+      "by": 15
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "darkenColor",
+    "lightenColor"
+   ],
+   "rows": [
+    {
+     "skill": "darkenColor",
+     "message": "brand teal #008080 is a bit lighter than the print, so darken it by 8%",
+     "input": {
+      "color": "#008080",
+      "by": 8
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "lightenColor",
+     "message": "brand teal #008080 is a bit darker than the print, so lighten it by 8%",
+     "input": {
+      "color": "#008080",
+      "by": 8
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfWeek",
+    "isWeekend"
+   ],
+   "rows": [
+    {
+     "skill": "dayOfWeek",
+     "message": "my wedding is on 12 June 2027 — I know it's a weekend, but which day of the week exactly?",
+     "input": {
+      "date": "2027-06-12"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "isWeekend",
+     "message": "my wedding is on 12 June 2027 — is that a weekend or a working day?",
+     "input": {
+      "date": "2027-06-12"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dayOfWeek",
+    "isWeekend"
+   ],
+   "rows": [
+    {
+     "skill": "dayOfWeek",
+     "message": "the parcel arrives 2026-11-02 and I'm only in at weekends — which day of the week is it?",
+     "input": {
+      "date": "2026-11-02"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "isWeekend",
+     "message": "the parcel arrives 2026-11-02 and I'm only in at weekends — is it a weekend?",
+     "input": {
+      "date": "2026-11-02"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysInMonth",
+    "generateCalendarGrid"
+   ],
+   "rows": [
+    {
+     "skill": "daysInMonth",
+     "message": "for the rota, how many days are in the month of June 2027 — I'll draw the calendar grid myself",
+     "input": {
+      "month": 6,
+      "year": 2027
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateCalendarGrid",
+     "message": "for the rota, draw June 2027 as a grid — I need to see how many days are in the month",
+     "input": {
+      "year": 2027,
+      "month": 6
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "daysInMonth",
+    "generateCalendarGrid"
+   ],
+   "rows": [
+    {
+     "skill": "daysInMonth",
+     "message": "how many days in the month of April 2027? I'll draw the calendar grid myself",
+     "input": {
+      "month": 4,
+      "year": 2027
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "generateCalendarGrid",
+     "message": "draw April 2027 as a grid — I need to see how many days in the month",
+     "input": {
+      "year": 2027,
+      "month": 4
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dedupeList",
+    "shuffleList"
+   ],
+   "rows": [
+    {
+     "skill": "dedupeList",
+     "message": "remove the duplicate names from the raffle list but don't shuffle it: Ana, Ben, Ana, Cal, Dee",
+     "input": {
+      "items": [
+       "Ana",
+       "Ben",
+       "Ana",
+       "Cal",
+       "Dee"
+      ]
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "shuffleList",
+     "message": "shuffle the raffle list with seed 11 but don't remove the duplicate names: Ana, Ben, Ana, Cal, Dee",
+     "input": {
+      "items": [
+       "Ana",
+       "Ben",
+       "Ana",
+       "Cal",
+       "Dee"
+      ],
+      "seed": 11
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "dedupeList",
+    "shuffleList"
+   ],
+   "rows": [
+    {
+     "skill": "dedupeList",
+     "message": "dedupe the team names, don't shuffle them: Owls, Hawks, Owls, Kites",
+     "input": {
+      "items": [
+       "Owls",
+       "Hawks",
+       "Owls",
+       "Kites"
+      ]
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "shuffleList",
+     "message": "shuffle the team names with seed 5, don't dedupe them: Owls, Hawks, Owls, Kites",
+     "input": {
+      "items": [
+       "Owls",
+       "Hawks",
+       "Owls",
+       "Kites"
+      ],
+      "seed": 5
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "diffJson",
+    "diffText"
+   ],
+   "rows": [
+    {
+     "skill": "diffJson",
+     "message": "diff the old and new package.json I'm pasting",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "diffText",
+     "message": "diff the old and new package.json I'm pasting line by line, as plain text",
+     "input": {
+      "by": "line"
+     },
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "diffJson",
+    "diffText"
+   ],
+   "rows": [
+    {
+     "skill": "diffJson",
+     "message": "diff the old and new tsconfig.json I'm pasting, key by key",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "diffText",
+     "message": "diff the old and new tsconfig.json I'm pasting, line by line as plain text",
+     "input": {
+      "by": "line"
+     },
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "diffText",
+    "reverseText"
+   ],
+   "rows": [
+    {
+     "skill": "diffText",
+     "message": "compare 'the cat sat' with 'the cat sat down' word by word — don't reverse it, just compare",
+     "input": {
+      "before": "the cat sat",
+      "after": "the cat sat down",
+      "by": "word"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "reverseText",
+     "message": "reverse 'the cat sat down' word by word — don't show changes, just reverse it",
+     "input": {
+      "text": "the cat sat down",
+      "by": "words"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "diffText",
+    "reverseText"
+   ],
+   "rows": [
+    {
+     "skill": "diffText",
+     "message": "compare my draft below with the old one line by line — don't reverse it, just compare",
+     "input": {
+      "by": "line"
+     },
+     "mode": "pointed"
+    },
+    {
+     "skill": "reverseText",
+     "message": "reverse my draft below line by line — I don't want it compared with the old one",
+     "input": {
+      "by": "lines"
+     },
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractDates"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "pull the amounts out of: paid £340 on 3 March, £120 on 9 April",
+     "input": {
+      "text": "paid £340 on 3 March, £120 on 9 April"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractDates",
+     "message": "pull the dates out of: paid £340 on 3 March, £120 on 9 April",
+     "input": {
+      "text": "paid £340 on 3 March, £120 on 9 April"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractDates"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "pull every price out of the email below",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractDates",
+     "message": "pull every date out of the email below",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractNumbers"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "pull just the money amounts out, not the plain numbers: 3 tickets at $25 each plus a $4 fee",
+     "input": {
+      "text": "3 tickets at $25 each plus a $4 fee"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractNumbers",
+     "message": "pull all the numbers out, not just the money: 3 tickets at $25 each plus a $4 fee",
+     "input": {
+      "text": "3 tickets at $25 each plus a $4 fee"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractCurrencyAmounts",
+    "extractNumbers"
+   ],
+   "rows": [
+    {
+     "skill": "extractCurrencyAmounts",
+     "message": "from my receipt below, pull out just the money amounts, not every figure",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractNumbers",
+     "message": "from my receipt below, pull out every figure, not just the money amounts",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractEmails"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "find the dates, not the email addresses, in: email jo@farm.org by 14 May 2026 or sam@farm.org by 20 May 2026",
+     "input": {
+      "text": "email jo@farm.org by 14 May 2026 or sam@farm.org by 20 May 2026"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractEmails",
+     "message": "find the email addresses, not the dates, in: email jo@farm.org by 14 May 2026 or sam@farm.org by 20 May 2026",
+     "input": {
+      "text": "email jo@farm.org by 14 May 2026 or sam@farm.org by 20 May 2026"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractEmails"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "the newsletter below has dates and email addresses — pull out every date",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractEmails",
+     "message": "the newsletter below has dates and email addresses — pull out every email address",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractTimes"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "this rota text has dates and times in it — extract just the dates: shift on 4 Oct at 06:30, again on 11 Oct at 14:00",
+     "input": {
+      "text": "shift on 4 Oct at 06:30, again on 11 Oct at 14:00"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractTimes",
+     "message": "this rota text has dates and times in it — extract just the times: shift on 4 Oct at 06:30, again on 11 Oct at 14:00",
+     "input": {
+      "text": "shift on 4 Oct at 06:30, again on 11 Oct at 14:00"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractTimes"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "my team's rota text is below with dates and times — extract the dates",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractTimes",
+     "message": "my team's rota text is below with dates and times — extract the times",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractUrls"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "extract the dates written in this text: webinar 2026-10-20 at https://meet.example.com/abc, replay 2026-10-27",
+     "input": {
+      "text": "webinar 2026-10-20 at https://meet.example.com/abc, replay 2026-10-27"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "extractUrls",
+     "message": "extract the links written in this text: webinar 2026-10-20 at https://meet.example.com/abc, replay 2026-10-27",
+     "input": {
+      "text": "webinar 2026-10-20 at https://meet.example.com/abc, replay 2026-10-27"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "extractDates",
+    "extractUrls"
+   ],
+   "rows": [
+    {
+     "skill": "extractDates",
+     "message": "the event page text below has dates and links — extract the dates",
+     "input": {},
+     "mode": "pointed"
+    },
+    {
+     "skill": "extractUrls",
+     "message": "the event page text below has dates and links — extract the links",
+     "input": {},
+     "mode": "pointed"
+    }
+   ]
+  }
+ ]
+}

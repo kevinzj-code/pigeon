@@ -1,0 +1,160 @@
+{"text": "show me 5 ft 10 in centimetres for my passport form", "category": "conversion", "skill": "convertLength", "opening": "show me \u2026 for \u2026"}
+{"text": "can i get the year on my watch, mcmxcix, as a normal number", "category": "conversion", "skill": "convertRomanNumeral", "opening": "can I get\u2026"}
+{"text": "i've got a 2 tb drive, what's that in gib", "category": "conversion", "skill": "convertDataSize", "opening": "I've got \u2026, what's \u2026"}
+{"text": "do the cheque thing for this: 1,275 in words", "category": "conversion", "skill": "numberToWords", "opening": "do the \u2026 thing for this"}
+{"text": "put my running speed of 12 km/h in mph", "category": "conversion", "skill": "convertSpeed", "opening": "put my \u2026 on/in \u2026"}
+{"text": "turn my contacts csv into a markdown table", "category": "data", "skill": "toMarkdownTable", "opening": "turn my \u2026 into \u2026"}
+{"text": "sort out my config json so it's properly indented", "category": "data", "skill": "formatJson", "opening": "sort out my\u2026"}
+{"text": "total the amount column from these rows", "category": "data", "skill": "columnMath", "opening": "\u2026 from these \u2026"}
+{"text": "go through this table and drop rows where paid is no", "category": "data", "skill": "filterRows", "opening": "go through this and\u2026"}
+{"text": "flatten my nested settings json properly", "category": "data", "skill": "flattenJson", "opening": "\u2026 properly"}
+{"text": "plan out every second tuesday from now until march", "category": "dates", "skill": "expandRecurrence", "opening": "plan out\u2026"}
+{"text": "can i get the unix time for 1 jan 2030 at midnight", "category": "dates", "skill": "isoToUnix", "opening": "can I get\u2026"}
+{"text": "i've got a 9am call in new york, what's that in london", "category": "dates", "skill": "convertTimezone", "opening": "I've got \u2026, what's \u2026"}
+{"text": "show me the weekday for my wedding date, 21 june 2028", "category": "dates", "skill": "dayOfWeek", "opening": "show me \u2026 for \u2026"}
+{"text": "put my birthday in dd/mm/yyyy: march 3rd 1992", "category": "dates", "skill": "formatDate", "opening": "put my \u2026 on/in \u2026"}
+{"text": "tell me about 1735689600, what date is that", "category": "dates", "skill": "unixToIso", "opening": "tell me about\u2026"}
+{"text": "go through this and rank the three laptops by my weighted scores", "category": "decisions", "skill": "weightedDecisionMatrix", "opening": "go through this and\u2026"}
+{"text": "plan out when the electric car pays off against the petrol one", "category": "decisions", "skill": "breakEvenComparison", "opening": "plan out\u2026"}
+{"text": "sort out my list of reasons for and against going freelance", "category": "decisions", "skill": "prosConsScore", "opening": "sort out my\u2026"}
+{"text": "do the expected value thing for this bet: 30% win 50, else lose 10", "category": "decisions", "skill": "expectedValue", "opening": "do the \u2026 thing for this"}
+{"text": "can i get a weighted score for these two job offers", "category": "decisions", "skill": "weightedDecisionMatrix", "opening": "can I get\u2026"}
+{"text": "turn my brand blue #1e3a8a into rgb", "category": "design", "skill": "convertColor", "opening": "turn my \u2026 into \u2026"}
+{"text": "show me a palette for my bakery logo around #e07a5f", "category": "design", "skill": "generatePalette", "opening": "show me \u2026 for \u2026"}
+{"text": "i've got 24px headings, what's that in rem", "category": "design", "skill": "pxToRem", "opening": "I've got \u2026, what's \u2026"}
+{"text": "can you lighten my button colour #2a9d8f by 15%", "category": "design", "skill": "lightenColor", "opening": "can you\u2026"}
+{"text": "resize my 1920 by 1080 banner properly to 600 wide", "category": "design", "skill": "scaleDimensions", "opening": "\u2026 properly"}
+{"text": "tell me about http 429, my api keeps throwing it", "category": "developer", "skill": "httpStatusLookup", "opening": "tell me about\u2026"}
+{"text": "show me what this cron line means for my backups: 0 3 * * 1", "category": "developer", "skill": "cronToText", "opening": "show me \u2026 for \u2026"}
+{"text": "go through this log and test my regex \\d{3}-\\d{4} on it", "category": "developer", "skill": "testRegex", "opening": "go through this and\u2026"}
+{"text": "can you tell me which release is newer, 1.12.0 or 1.9.3", "category": "developer", "skill": "compareSemver", "opening": "can you\u2026"}
+{"text": "i've got the character \u00fc, what's its code point", "category": "developer", "skill": "unicodeLookup", "opening": "I've got \u2026, what's \u2026"}
+{"text": "turn my note to the scouts into morse", "category": "encoding", "skill": "morseEncode", "opening": "turn my \u2026 into \u2026"}
+{"text": "can i get a fresh uuid for my new database record", "category": "encoding", "skill": "generateUuid", "opening": "can I get\u2026"}
+{"text": "do the rot13 thing for this spoiler", "category": "encoding", "skill": "rot13", "opening": "do the \u2026 thing for this"}
+{"text": "url encode my search phrase properly: fish & chips", "category": "encoding", "skill": "urlEncode", "opening": "\u2026 properly"}
+{"text": "read the word from these hex values: 48 69", "category": "encoding", "skill": "hexDecode", "opening": "\u2026 from these \u2026"}
+{"text": "sort out the bill for six of us with a 12% tip", "category": "everyday", "skill": "splitBill", "opening": "sort out my\u2026"}
+{"text": "turn my 4-person lasagne recipe into one for 10", "category": "everyday", "skill": "scaleRecipe", "opening": "turn my \u2026 into \u2026"}
+{"text": "i've got 2 cups of flour, what's that in grams", "category": "everyday", "skill": "convertCookingMeasure", "opening": "I've got \u2026, what's \u2026"}
+{"text": "plan out the petrol cost of my 300 mile trip at 50 mpg", "category": "everyday", "skill": "fuelCostForTrip", "opening": "plan out\u2026"}
+{"text": "which is cheapest per kilo from these: 1kg 2.10, 2.5kg 4.80", "category": "everyday", "skill": "comparePrices", "opening": "\u2026 from these \u2026"}
+{"text": "tell me about the .heic files on my phone", "category": "files", "skill": "fileExtensionInfo", "opening": "tell me about\u2026"}
+{"text": "turn my 734003200 byte backup size into something readable", "category": "files", "skill": "fileSizeHuman", "opening": "turn my \u2026 into \u2026"}
+{"text": "can you check my file's line endings and byte count", "category": "files", "skill": "textFileStats", "opening": "can you\u2026"}
+{"text": "i've got a .parquet file, what's that", "category": "files", "skill": "fileExtensionInfo", "opening": "I've got \u2026, what's \u2026"}
+{"text": "do the file type thing for this: .epub", "category": "files", "skill": "fileExtensionInfo", "opening": "do the \u2026 thing for this"}
+{"text": "plan out my savings to hit 3,000 by next august", "category": "finance", "skill": "savingsGoal", "opening": "plan out\u2026"}
+{"text": "i've got 18 an hour, what's that a year", "category": "finance", "skill": "hourlyToSalary", "opening": "I've got \u2026, what's \u2026"}
+{"text": "show me what i'd pay each month for a 9,000 loan at 7%", "category": "finance", "skill": "amortizeLoan", "opening": "show me \u2026 for \u2026"}
+{"text": "can you add 20% vat to my 450 invoice", "category": "finance", "skill": "applyTax", "opening": "can you\u2026"}
+{"text": "sort out what i should charge for a 40% margin on a cost of 12", "category": "finance", "skill": "markupMargin", "opening": "sort out my\u2026"}
+{"text": "make words from these letters: a, e, r, t, h", "category": "games", "skill": "wordsFromLetters", "opening": "\u2026 from these \u2026"}
+{"text": "go through my wordle clues: green a second, grey s and t", "category": "games", "skill": "wordleFilter", "opening": "go through this and\u2026"}
+{"text": "can you check whether dormitory and dirty room are anagrams", "category": "games", "skill": "checkAnagram", "opening": "can you\u2026"}
+{"text": "do the palindrome thing for this: was it a car or a cat i saw", "category": "games", "skill": "checkPalindrome", "opening": "do the \u2026 thing for this"}
+{"text": "show me the anagrams for my surname, petersen", "category": "games", "skill": "solveAnagram", "opening": "show me \u2026 for \u2026"}
+{"text": "can i get a lorem ipsum paragraph for my mockup", "category": "generation", "skill": "loremIpsum", "opening": "can I get\u2026"}
+{"text": "plan out my study afternoon, 1 to 5, in 45 minute slots with breaks", "category": "generation", "skill": "generateSchedule", "opening": "plan out\u2026"}
+{"text": "do the dice thing for this: 3d8 for my fireball", "category": "generation", "skill": "rollDice", "opening": "do the \u2026 thing for this"}
+{"text": "show me a month grid for my fridge, april 2027", "category": "generation", "skill": "generateCalendarGrid", "opening": "show me \u2026 for \u2026"}
+{"text": "turn my errands into checkboxes: bank, post office, gym", "category": "generation", "skill": "generateChecklist", "opening": "turn my \u2026 into \u2026"}
+{"text": "i've got a round table 1.4 m across, what's the area", "category": "geometry", "skill": "areaOf", "opening": "I've got \u2026, what's \u2026"}
+{"text": "can you work out the volume of my 30x40x50 cm fish tank", "category": "geometry", "skill": "volumeOf", "opening": "can you\u2026"}
+{"text": "plan out how much fencing goes round my 12 by 8 m garden", "category": "geometry", "skill": "perimeterOf", "opening": "plan out\u2026"}
+{"text": "go through these coordinates and give the distance: 51.5,-0.12 to 48.85,2.35", "category": "geometry", "skill": "haversineDistance", "opening": "go through this and\u2026"}
+{"text": "show me the diagonal for my 55 by 32 inch screen", "category": "geometry", "skill": "pythagorean", "opening": "show me \u2026 for \u2026"}
+{"text": "show me training zones for my max of 192 bpm", "category": "health", "skill": "heartRateZones", "opening": "show me \u2026 for \u2026"}
+{"text": "plan out my 10k splits for a 50 minute finish", "category": "health", "skill": "splitTimes", "opening": "plan out\u2026"}
+{"text": "can you work out my bmi, 1.75 m and 82 kg", "category": "health", "skill": "bmiCalculate", "opening": "can you\u2026"}
+{"text": "i've got an alarm at 6:15, what's a good bedtime", "category": "health", "skill": "sleepCycleTimes", "opening": "I've got \u2026, what's \u2026"}
+{"text": "turn my parkrun time of 27:30 into minutes per km", "category": "health", "skill": "paceCalculate", "opening": "turn my \u2026 into \u2026"}
+{"text": "work out my gpa from these results: a 3 credits, b+ 4, c 3", "category": "learning", "skill": "gpaCalculate", "opening": "\u2026 from these \u2026"}
+{"text": "plan out 360 pages of my set text over 3 weeks", "category": "learning", "skill": "readingScheduleFromPages", "opening": "plan out\u2026"}
+{"text": "sort out my spaced repetition review dates starting monday", "category": "learning", "skill": "spacedRepetitionSchedule", "opening": "sort out my\u2026"}
+{"text": "go through this sum and find the line i got wrong", "category": "learning", "skill": "checkArithmeticSteps", "opening": "go through this and\u2026"}
+{"text": "i've got 62% so far, what's needed on the exam to reach 70", "category": "learning", "skill": "gradeNeeded", "opening": "I've got \u2026, what's \u2026"}
+{"text": "sort out my guest list so nobody's on it twice", "category": "lists", "skill": "dedupeList", "opening": "sort out my\u2026"}
+{"text": "pick two winners at random from these names: ana, ben, cal, dee", "category": "lists", "skill": "pickRandom", "opening": "\u2026 from these \u2026"}
+{"text": "go through both lists and tell me who's missing from the second", "category": "lists", "skill": "differenceLists", "opening": "go through this and\u2026"}
+{"text": "can you split my 22 students into groups of four", "category": "lists", "skill": "chunkList", "opening": "can you\u2026"}
+{"text": "turn my shopping list into alphabetical order", "category": "lists", "skill": "sortList", "opening": "turn my \u2026 into \u2026"}
+{"text": "tick off each vote as i go and tally them: red, blue, red, green", "category": "lists", "skill": "countItems", "opening": "\u2026 as I go"}
+{"text": "i've got 340 to share 3:2:1 between the kids, what's each", "category": "math", "skill": "allocateProportionally", "opening": "I've got \u2026, what's \u2026"}
+{"text": "can you check if my locker number 1,001 is prime", "category": "math", "skill": "isPrime", "opening": "can you\u2026"}
+{"text": "show me 84/126 cut down to its simplest form", "category": "math", "skill": "fractionSimplify", "opening": "show me \u2026 for \u2026"}
+{"text": "round my measurements properly to 2 decimal places: 3.14159, 2.71828", "category": "math", "skill": "roundTo", "opening": "\u2026 properly"}
+{"text": "what's the percentage change from these two prices: 240 then 276", "category": "math", "skill": "percentChange", "opening": "\u2026 from these \u2026"}
+{"text": "multiply these out as i go: 4, 7, 12", "category": "math", "skill": "product", "opening": "\u2026 as I go"}
+{"text": "sort out my to-dos by urgency and effort", "category": "organising", "skill": "prioritizeTasks", "opening": "sort out my\u2026"}
+{"text": "plan out my morning in time blocks: email, report, gym", "category": "organising", "skill": "timeBlockSchedule", "opening": "plan out\u2026"}
+{"text": "share the bins rota properly between the four of us", "category": "organising", "skill": "rotateAssignments", "opening": "\u2026 properly"}
+{"text": "find my current streak from these dates: 1, 2, 3, 5, 6 october", "category": "organising", "skill": "streakCount", "opening": "\u2026 from these \u2026"}
+{"text": "i've got colleagues in tokyo and denver, what's a shared meeting hour", "category": "organising", "skill": "findCommonMeetingHours", "opening": "I've got \u2026, what's \u2026"}
+{"text": "tell me about the airport code yvr", "category": "reference", "skill": "airportCodeLookup", "opening": "tell me about\u2026"}
+{"text": "tell me about the element with atomic number 29", "category": "reference", "skill": "periodicTableLookup", "opening": "tell me about\u2026"}
+{"text": "can i get the dialling code for portugal", "category": "reference", "skill": "phoneRegionLookup", "opening": "can I get\u2026"}
+{"text": "i've got the language code nb, what's that", "category": "reference", "skill": "languageCodeLookup", "opening": "I've got \u2026, what's \u2026"}
+{"text": "show me the currency and iso code for kazakhstan", "category": "reference", "skill": "countryLookup", "opening": "show me \u2026 for \u2026"}
+{"text": "keep a running total of my sales as i go: 120, 80, 95", "category": "statistics", "skill": "cumulativeSum", "opening": "\u2026 as I go"}
+{"text": "find the outliers from these readings: 12, 14, 13, 41, 12", "category": "statistics", "skill": "findOutliers", "opening": "\u2026 from these \u2026"}
+{"text": "go through my test scores and give me the quartiles", "category": "statistics", "skill": "quartiles", "opening": "go through this and\u2026"}
+{"text": "show me a 3-day moving average for my step counts", "category": "statistics", "skill": "movingAverage", "opening": "show me \u2026 for \u2026"}
+{"text": "can you check if hours studied and marks are correlated", "category": "statistics", "skill": "correlation", "opening": "can you\u2026"}
+{"text": "put my exam scores in rank positions: 88, 92, 75, 92", "category": "statistics", "skill": "rankValues", "opening": "put my \u2026 on/in \u2026"}
+{"text": "go through this and pull out every email address", "category": "text", "skill": "extractEmails", "opening": "go through this and\u2026"}
+{"text": "do the slug thing for this title: my first marathon", "category": "text", "skill": "slugify", "opening": "do the \u2026 thing for this"}
+{"text": "sort out the spacing in my pasted notes", "category": "text", "skill": "normalizeWhitespace", "opening": "sort out my\u2026"}
+{"text": "pull the phone numbers from these email signatures", "category": "text", "skill": "extractPhoneNumbers", "opening": "\u2026 from these \u2026"}
+{"text": "count my words as i go, here's the next bit", "category": "text", "skill": "countWords", "opening": "\u2026 as I go"}
+{"text": "put my product names in upper case", "category": "text", "skill": "convertCase", "opening": "put my \u2026 on/in \u2026"}
+{"text": "tell me about this ip, is 300.1.2.3 even real", "category": "validation", "skill": "validateIpAddress", "opening": "tell me about\u2026"}
+{"text": "go through these addresses and flag the badly formed emails", "category": "validation", "skill": "validateEmail", "opening": "go through this and\u2026"}
+{"text": "can you check my iban gb82 west 1234 5698 7654 32", "category": "validation", "skill": "validateIban", "opening": "can you\u2026"}
+{"text": "format my mobile number properly for international use: 07700 900123", "category": "validation", "skill": "formatPhoneNumber", "opening": "\u2026 properly"}
+{"text": "i've got isbn 978-0-306-40615-7, what's the verdict, is it valid", "category": "validation", "skill": "validateIsbn", "opening": "I've got \u2026, what's \u2026"}
+{"text": "go through my essay and flag sentences over 30 words", "category": "writing", "skill": "findLongSentences", "opening": "go through this and\u2026"}
+{"text": "format my bibliography entry properly in mla", "category": "writing", "skill": "formatCitation", "opening": "\u2026 properly"}
+{"text": "turn my list of nouns into plurals: cactus, sheep, knife", "category": "writing", "skill": "pluralize", "opening": "turn my \u2026 into \u2026"}
+{"text": "do the contents thing for this doc", "category": "writing", "skill": "generateTableOfContents", "opening": "do the \u2026 thing for this"}
+{"text": "put my markdown notes into html", "category": "writing", "skill": "markdownToHtml", "opening": "put my \u2026 on/in \u2026"}
+{"text": "tell me about the origins of the silk road", "category": "none", "skill": null, "opening": "tell me about\u2026"}
+{"text": "tell me about my horoscope for this week", "category": "none", "skill": null, "opening": "tell me about\u2026"}
+{"text": "tell me about good stretches for a stiff back", "category": "none", "skill": null, "opening": "tell me about\u2026"}
+{"text": "tell me about the best time to visit iceland", "category": "none", "skill": null, "opening": "tell me about\u2026"}
+{"text": "show me how to fold a fitted sheet", "category": "none", "skill": null, "opening": "show me \u2026 for \u2026"}
+{"text": "show me some outfit ideas for a summer wedding", "category": "none", "skill": null, "opening": "show me \u2026 for \u2026"}
+{"text": "show me a good comeback for my brother's teasing", "category": "none", "skill": null, "opening": "show me \u2026 for \u2026"}
+{"text": "show me the best way to learn piano for beginners", "category": "none", "skill": null, "opening": "show me \u2026 for \u2026"}
+{"text": "turn my notes into a best man speech", "category": "none", "skill": null, "opening": "turn my \u2026 into \u2026"}
+{"text": "turn my holiday photos into a short story", "category": "none", "skill": null, "opening": "turn my \u2026 into \u2026"}
+{"text": "turn my cv into something that sounds impressive", "category": "none", "skill": null, "opening": "turn my \u2026 into \u2026"}
+{"text": "turn my grocery haul into a meal plan for the week", "category": "none", "skill": null, "opening": "turn my \u2026 into \u2026"}
+{"text": "put my feelings about the breakup into a poem", "category": "none", "skill": null, "opening": "put my \u2026 on/in \u2026"}
+{"text": "put my thoughts on remote work in a blog post", "category": "none", "skill": null, "opening": "put my \u2026 on/in \u2026"}
+{"text": "put my wedding vows in more romantic language", "category": "none", "skill": null, "opening": "put my \u2026 on/in \u2026"}
+{"text": "plan out a three day trip to lisbon", "category": "none", "skill": null, "opening": "plan out\u2026"}
+{"text": "plan out a romantic dinner menu for our anniversary", "category": "none", "skill": null, "opening": "plan out\u2026"}
+{"text": "plan out my career change into nursing", "category": "none", "skill": null, "opening": "plan out\u2026"}
+{"text": "help me apologise properly to my neighbour about the noise", "category": "none", "skill": null, "opening": "\u2026 properly"}
+{"text": "explain photosynthesis properly, my kid has homework", "category": "none", "skill": null, "opening": "\u2026 properly"}
+{"text": "how do i cook rice properly, it always goes mushy", "category": "none", "skill": null, "opening": "\u2026 properly"}
+{"text": "write a story from these three words: fox, lantern, rain", "category": "none", "skill": null, "opening": "\u2026 from these \u2026"}
+{"text": "suggest a gift from these hobbies of my dad's: golf, fishing", "category": "none", "skill": null, "opening": "\u2026 from these \u2026"}
+{"text": "go through this and make it sound friendlier", "category": "none", "skill": null, "opening": "go through this and\u2026"}
+{"text": "go through my cover letter and make it punchier", "category": "none", "skill": null, "opening": "go through this and\u2026"}
+{"text": "go through this poem and tell me what it means", "category": "none", "skill": null, "opening": "go through this and\u2026"}
+{"text": "can i get a recipe for vegan lasagne", "category": "none", "skill": null, "opening": "can I get\u2026"}
+{"text": "can i get a joke about accountants", "category": "none", "skill": null, "opening": "can I get\u2026"}
+{"text": "i've got eggs, spinach and feta, what's for dinner", "category": "none", "skill": null, "opening": "I've got \u2026, what's \u2026"}
+{"text": "i've got a job interview tomorrow, what's a good question to ask", "category": "none", "skill": null, "opening": "I've got \u2026, what's \u2026"}
+{"text": "do the summary thing for this article", "category": "none", "skill": null, "opening": "do the \u2026 thing for this"}
+{"text": "do the translation thing for this menu into spanish", "category": "none", "skill": null, "opening": "do the \u2026 thing for this"}
+{"text": "teach me guitar chords as i go", "category": "none", "skill": null, "opening": "\u2026 as I go"}
+{"text": "correct my french grammar as i go", "category": "none", "skill": null, "opening": "\u2026 as I go"}
+{"text": "sort out my argument with my sister", "category": "none", "skill": null, "opening": "sort out my\u2026"}
+{"text": "sort out my wardrobe for autumn", "category": "none", "skill": null, "opening": "sort out my\u2026"}
+{"text": "can you write a sonnet for our anniversary", "category": "none", "skill": null, "opening": "can you\u2026"}
+{"text": "can you recommend a board game for six players", "category": "none", "skill": null, "opening": "can you\u2026"}
+{"text": "can you explain how rainbows form", "category": "none", "skill": null, "opening": "can you\u2026"}
+{"text": "can you think of names for our rescue greyhound", "category": "none", "skill": null, "opening": "can you\u2026"}

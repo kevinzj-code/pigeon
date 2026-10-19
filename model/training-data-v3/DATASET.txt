@@ -1,0 +1,6 @@
+category v3
+built    2026-09-08
+rows     6181 train · 500 valid
+refusals 13.2%   (v1 12.6% shipped at 248/302 · v2 16.1% measured 236/302 and was dropped)
+seq      256
+sha      728ccab5279efbea

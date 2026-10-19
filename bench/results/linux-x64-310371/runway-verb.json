@@ -1,0 +1,3265 @@
+{
+  "job": {
+    "id": "runway-verb",
+    "hypothesis": "an action-led runway phrase steers the commit along the sibling axis (parse/render, encode/decode) where a topic noun does not",
+    "flags": [],
+    "prompt": "runway-verb",
+    "needs": [
+      "planner",
+      "category"
+    ],
+    "rule": "siblings <= control.siblings - 4 and correct >= control.correct and leaks <= control.leaks",
+    "reads": null,
+    "added": "2026-09-08"
+  },
+  "host": "linux-x64-310371",
+  "head": "58f8252",
+  "dirty": false,
+  "limit": null,
+  "ran": "2026-09-08T17:23:05.629Z",
+  "wallMs": 821917,
+  "record": {
+    "date": "2026-09-08T17:23:05.616Z",
+    "head": "58f8252",
+    "host": "linux-x64-310371",
+    "platform": "linux-x64",
+    "model": "Qwen3.5-2B-Q4_K_M.gguf",
+    "prompt": "runway-verb",
+    "flags": [
+      "--router",
+      "category",
+      "--category-base",
+      "http://127.0.0.1:8101",
+      "--trained",
+      "--min-confidence",
+      "0.80",
+      "--only",
+      "llm+ex",
+      "--runway-auto",
+      "--second-look",
+      "--prompt",
+      "runway-verb"
+    ],
+    "holdout": 308,
+    "noSkill": 100,
+    "configs": {
+      "llm+ex": {
+        "tally": {
+          "answered": 172,
+          "wrong-skill": 33,
+          "declined": 90,
+          "asked": 0,
+          "asked-honest": 94,
+          "network-off": 2,
+          "failed": 2,
+          "wrongly-answered": 15,
+          "error": 0
+        },
+        "correct": 268,
+        "leaks": 15,
+        "siblings": 16,
+        "avgMs": 2014,
+        "misses": [
+          {
+            "outcome": "wrong-skill",
+            "message": "render those rows as a markdown table",
+            "want": "toMarkdownTable",
+            "got": "parseKeyValue"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "turn this nested object into dot paths",
+            "want": "flattenJson",
+            "got": "unflattenJson"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "what date is in a fortnight",
+            "want": "parseRelativeDate",
+            "got": "expandRecurrence"
+          },
+          {
+            "outcome": "declined",
+            "message": "make this text safe for a query string",
+            "want": "urlEncode",
+            "got": null
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "these 1s and 0s spell what",
+            "want": "binaryDecode",
+            "got": "spellCheck"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "whats my basket come to with postage",
+            "want": "shippingTotal",
+            "got": "stackDiscounts"
+          },
+          {
+            "outcome": "declined",
+            "message": "reduce 249 by 30%",
+            "want": "applyDiscount",
+            "got": null
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "rearrange the letters of tarps",
+            "want": "solveAnagram",
+            "got": "wordsFromLetters"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "whats 340 divided by 8 plus 12",
+            "want": "evaluateExpression",
+            "got": "parseNumber"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "what percentage of days did I manage it",
+            "want": "habitCompletionRate",
+            "got": "percentageDistribution"
+          },
+          {
+            "outcome": "failed",
+            "message": "offset from utc in Auckland",
+            "want": "timezoneLookup",
+            "got": "timezoneLookup"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "anything way off in this set",
+            "want": "findOutliers",
+            "got": "sortList"
+          },
+          {
+            "outcome": "declined",
+            "message": "what changed between the old and new version",
+            "want": "diffText",
+            "got": null
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "split this into two word runs",
+            "want": "extractNgrams",
+            "got": "splitLines"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "does this read as happy or unhappy",
+            "want": "lexiconSentiment",
+            "got": "detectRepetition"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "this config is being rejected, what is malformed",
+            "want": "validateJson",
+            "got": "parseKeyValue"
+          },
+          {
+            "outcome": "declined",
+            "message": "am I overusing any words here",
+            "want": "findRepeatedWords",
+            "got": null
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "put my bin collection dates on a calendar, first thursday, ten of them",
+            "want": "expandRecurrence",
+            "got": "extractDates"
+          },
+          {
+            "outcome": "failed",
+            "message": "a 210 minute film runs for how long",
+            "want": "convertTime",
+            "got": "convertTime"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "what params are in this link",
+            "want": "parseQueryString",
+            "got": "extractUrls"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "push 2026-03-01 forward by 45 days",
+            "want": "addDuration",
+            "got": "addBusinessDays"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "is 2026-07-04 a saturday",
+            "want": "dayOfWeek",
+            "got": "isWeekend"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "turn 2h 15m into seconds",
+            "want": "parseDuration",
+            "got": "durationToText"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "simplify 2560 by 1440 to a ratio",
+            "want": "aspectRatio",
+            "got": "fractionSimplify"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "shade #FFAA00 down 30 percent",
+            "want": "darkenColor",
+            "got": "lightenColor"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "run this pattern over my sample and show hits",
+            "want": "testRegex",
+            "got": "extractCodeBlocks"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "squash this text down",
+            "want": "compressText",
+            "got": "truncateText"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "these hex bytes say what",
+            "want": "hexDecode",
+            "got": "hexEncode"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "change 400 usd to gbp at 0.79",
+            "want": "convertCurrencyFixed",
+            "got": "currencyLookup"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "non-compounding interest on 800 at 6% for 18 months",
+            "want": "simpleInterest",
+            "got": "compoundInterest"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "tile value of the word zebra",
+            "want": "scrabbleScore",
+            "got": "countOccurrences"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "print me a month view of december 2026",
+            "want": "generateCalendarGrid",
+            "got": "daysInMonth"
+          },
+          {
+            "outcome": "declined",
+            "message": "did I get any of these lines wrong",
+            "want": "checkArithmeticSteps",
+            "got": null
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "give me every number from 5 to 40 in fives",
+            "want": "rangeList",
+            "got": "numberLines"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "what does the code sv stand for",
+            "want": "languageCodeLookup",
+            "got": "currencyLookup"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "add these up as I go",
+            "want": "cumulativeSum",
+            "got": "sum"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "change my heading to title case",
+            "want": "convertCase",
+            "got": "checkTitleCase"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "hide the private bits in this text",
+            "want": "maskSensitive",
+            "got": "binaryDecode"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "just the readable text from this markup",
+            "want": "stripHtml",
+            "got": "extractHeadings"
+          },
+          {
+            "outcome": "wrong-skill",
+            "message": "index the headings in this doc",
+            "want": "generateTableOfContents",
+            "got": "extractHeadings"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "translate good morning into portuguese",
+            "want": "(none)",
+            "got": "languageCodeLookup"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "shuffle along, nothing to see here",
+            "want": "(none)",
+            "got": "shuffleList"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the whole project is an anagram of chaos",
+            "want": "(none)",
+            "got": "checkAnagram"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "my average day starts with coffee and regret",
+            "want": "(none)",
+            "got": "averageWordLength"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "keep the streak alive, whatever it takes",
+            "want": "(none)",
+            "got": "streakCount"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "it was a coin toss who would get the job",
+            "want": "(none)",
+            "got": "flipCoin"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "lorem ipsum is what my brain feels like today",
+            "want": "(none)",
+            "got": "loremIpsum"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "this password policy is driving everyone mad",
+            "want": "(none)",
+            "got": "passwordStrength"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the table by the window is always taken",
+            "want": "(none)",
+            "got": "prioritizeTasks"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "that speech was a word salad",
+            "want": "(none)",
+            "got": "countWords"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the business days drag when the boss is around",
+            "want": "(none)",
+            "got": "businessDaysBetween"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "binary thinking is what got us into this",
+            "want": "(none)",
+            "got": "binaryDecode"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "my morse code is rusty",
+            "want": "(none)",
+            "got": "morseDecode"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "the url is broken and nobody cares",
+            "want": "(none)",
+            "got": "validateUrl"
+          },
+          {
+            "outcome": "wrongly-answered",
+            "message": "settle this: pineapple on pizza, yes or no",
+            "want": "(none)",
+            "got": "magicEightBall"
+          }
+        ],
+        "outcomes": [
+          {
+            "message": "3 miles in metres",
+            "want": "convertLength",
+            "outcome": "answered",
+            "got": "convertLength",
+            "ms": 2860
+          },
+          {
+            "message": "220 fahrenheit as celsius",
+            "want": "convertTemperature",
+            "outcome": "answered",
+            "got": "convertTemperature",
+            "ms": 2800
+          },
+          {
+            "message": "750 MB in GiB",
+            "want": "convertDataSize",
+            "outcome": "answered",
+            "got": "convertDataSize",
+            "ms": 2813
+          },
+          {
+            "message": "how many radians is 45 deg",
+            "want": "convertAngle",
+            "outcome": "answered",
+            "got": "convertAngle",
+            "ms": 2717
+          },
+          {
+            "message": "write 200 in base 7",
+            "want": "convertBase",
+            "outcome": "answered",
+            "got": "convertBase",
+            "ms": 2770
+          },
+          {
+            "message": "turn CDXLIV into arabic digits",
+            "want": "convertRomanNumeral",
+            "outcome": "answered",
+            "got": "convertRomanNumeral",
+            "ms": 2607
+          },
+          {
+            "message": "how do you write 305 on a cheque",
+            "want": "numberToWords",
+            "outcome": "answered",
+            "got": "numberToWords",
+            "ms": 2403
+          },
+          {
+            "message": "read this csv into columns",
+            "want": "parseCsv",
+            "outcome": "asked-honest",
+            "got": "parseCsv",
+            "ms": 2500
+          },
+          {
+            "message": "order the table by price descending",
+            "want": "sortRows",
+            "outcome": "asked-honest",
+            "got": "sortRows",
+            "ms": 3384
+          },
+          {
+            "message": "render those rows as a markdown table",
+            "want": "toMarkdownTable",
+            "outcome": "wrong-skill",
+            "got": "parseKeyValue",
+            "ms": 2892
+          },
+          {
+            "message": "tidy this json so it is readable",
+            "want": "formatJson",
+            "outcome": "asked-honest",
+            "got": "formatJson",
+            "ms": 2919
+          },
+          {
+            "message": "assemble a query string for page=2 and sort=asc",
+            "want": "buildQueryString",
+            "outcome": "answered",
+            "got": "buildQueryString",
+            "ms": 3082
+          },
+          {
+            "message": "turn this nested object into dot paths",
+            "want": "flattenJson",
+            "outcome": "wrong-skill",
+            "got": "unflattenJson",
+            "ms": 3191
+          },
+          {
+            "message": "totals per department from these rows",
+            "want": "groupBy",
+            "outcome": "asked-honest",
+            "got": "groupBy",
+            "ms": 4077
+          },
+          {
+            "message": "read this md table as data",
+            "want": "parseMarkdownTable",
+            "outcome": "asked-honest",
+            "got": "parseMarkdownTable",
+            "ms": 2704
+          },
+          {
+            "message": "cross-tab sales by month and product",
+            "want": "pivotRows",
+            "outcome": "asked-honest",
+            "got": "pivotRows",
+            "ms": 4827
+          },
+          {
+            "message": "put these json keys in order",
+            "want": "sortObjectKeys",
+            "outcome": "asked-honest",
+            "got": "sortObjectKeys",
+            "ms": 10274
+          },
+          {
+            "message": "expand these dotted keys back into objects",
+            "want": "unflattenJson",
+            "outcome": "asked-honest",
+            "got": "unflattenJson",
+            "ms": 2426
+          },
+          {
+            "message": "how many days between 12 july 2026 and christmas",
+            "want": "daysBetween",
+            "outcome": "answered",
+            "got": "daysBetween",
+            "ms": 2369
+          },
+          {
+            "message": "how long until 25 december",
+            "want": "countdownTo",
+            "outcome": "answered",
+            "got": "countdownTo",
+            "ms": 2340
+          },
+          {
+            "message": "when is the next thursday",
+            "want": "nextWeekday",
+            "outcome": "answered",
+            "got": "nextWeekday",
+            "ms": 2534
+          },
+          {
+            "message": "born 1985-03-12, how old are they now",
+            "want": "ageFromDate",
+            "outcome": "answered",
+            "got": "ageFromDate",
+            "ms": 2161
+          },
+          {
+            "message": "9am in berlin is what time in tokyo on 2026-05-05",
+            "want": "convertTimezone",
+            "outcome": "answered",
+            "got": "convertTimezone",
+            "ms": 2088
+          },
+          {
+            "message": "what date is in a fortnight",
+            "want": "parseRelativeDate",
+            "outcome": "wrong-skill",
+            "got": "expandRecurrence",
+            "ms": 1867
+          },
+          {
+            "message": "how much time has passed since 2026-08-20",
+            "want": "timeAgo",
+            "outcome": "answered",
+            "got": "timeAgo",
+            "ms": 1521
+          },
+          {
+            "message": "express 7500 seconds as hours and minutes",
+            "want": "durationToText",
+            "outcome": "answered",
+            "got": "durationToText",
+            "ms": 1386
+          },
+          {
+            "message": "three working days on from 2026-11-02",
+            "want": "addBusinessDays",
+            "outcome": "answered",
+            "got": "addBusinessDays",
+            "ms": 2719
+          },
+          {
+            "message": "which numbered day of 2026 is 1 august",
+            "want": "dayOfYear",
+            "outcome": "answered",
+            "got": "dayOfYear",
+            "ms": 2919
+          },
+          {
+            "message": "does 2100 have a leap day",
+            "want": "isLeapYear",
+            "outcome": "answered",
+            "got": "isLeapYear",
+            "ms": 2927
+          },
+          {
+            "message": "epoch value for 2027-01-01 midnight",
+            "want": "isoToUnix",
+            "outcome": "answered",
+            "got": "isoToUnix",
+            "ms": 2467
+          },
+          {
+            "message": "clock times right now in Paris Delhi and Chicago",
+            "want": "listTimezoneOffsets",
+            "outcome": "asked-honest",
+            "got": "listTimezoneOffsets",
+            "ms": 2591
+          },
+          {
+            "message": "turn 1700000000 into a readable date",
+            "want": "unixToIso",
+            "outcome": "answered",
+            "got": "unixToIso",
+            "ms": 1615
+          },
+          {
+            "message": "score these three options against my criteria",
+            "want": "weightedDecisionMatrix",
+            "outcome": "asked-honest",
+            "got": "weightedDecisionMatrix",
+            "ms": 2264
+          },
+          {
+            "message": "average payout if I win 500 a fifth of the time",
+            "want": "expectedValue",
+            "outcome": "asked-honest",
+            "got": "expectedValue",
+            "ms": 12590
+          },
+          {
+            "message": "resize 1600x900 to fit 400 wide",
+            "want": "scaleDimensions",
+            "outcome": "answered",
+            "got": "scaleDimensions",
+            "ms": 1844
+          },
+          {
+            "message": "colour on the other side of the wheel from #3366FF",
+            "want": "complementaryColor",
+            "outcome": "answered",
+            "got": "complementaryColor",
+            "ms": 1227
+          },
+          {
+            "message": "give me hsl for #1E90FF",
+            "want": "convertColor",
+            "outcome": "answered",
+            "got": "convertColor",
+            "ms": 1607
+          },
+          {
+            "message": "give me tints and shades of #556B2F",
+            "want": "generatePalette",
+            "outcome": "answered",
+            "got": "generatePalette",
+            "ms": 1818
+          },
+          {
+            "message": "halfway colour between #FF0000 and #FFFF00",
+            "want": "mixColors",
+            "outcome": "answered",
+            "got": "mixColors",
+            "ms": 1784
+          },
+          {
+            "message": "2.25rem in px please",
+            "want": "remToPx",
+            "outcome": "answered",
+            "got": "remToPx",
+            "ms": 1557
+          },
+          {
+            "message": "which version wins, 3.0.0-rc.1 or 3.0.0",
+            "want": "compareSemver",
+            "outcome": "answered",
+            "got": "compareSemver",
+            "ms": 1601
+          },
+          {
+            "message": "make c++ safe to drop into a pattern",
+            "want": "escapeRegex",
+            "outcome": "answered",
+            "got": "escapeRegex",
+            "ms": 1278
+          },
+          {
+            "message": "show me the payload of this bearer token",
+            "want": "jwtDecode",
+            "outcome": "asked-honest",
+            "got": "jwtDecode",
+            "ms": 2802
+          },
+          {
+            "message": "split 4.2.1+build9 into parts",
+            "want": "parseSemver",
+            "outcome": "answered",
+            "got": "parseSemver",
+            "ms": 1446
+          },
+          {
+            "message": "code point for the pound sign",
+            "want": "unicodeLookup",
+            "outcome": "answered",
+            "got": "unicodeLookup",
+            "ms": 1415
+          },
+          {
+            "message": "make this text safe for a query string",
+            "want": "urlEncode",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1084
+          },
+          {
+            "message": "un-base64 this blob",
+            "want": "base64Decode",
+            "outcome": "answered",
+            "got": "base64Decode",
+            "ms": 2945
+          },
+          {
+            "message": "these 1s and 0s spell what",
+            "want": "binaryDecode",
+            "outcome": "wrong-skill",
+            "got": "spellCheck",
+            "ms": 11313
+          },
+          {
+            "message": "move every letter on by 5",
+            "want": "caesarShift",
+            "outcome": "answered",
+            "got": "caesarShift",
+            "ms": 2144
+          },
+          {
+            "message": "unpack this compressed blob",
+            "want": "decompressText",
+            "outcome": "asked-honest",
+            "got": "decompressText",
+            "ms": 3193
+          },
+          {
+            "message": "random 12 char token please",
+            "want": "generateRandomString",
+            "outcome": "answered",
+            "got": "generateRandomString",
+            "ms": 2131
+          },
+          {
+            "message": "sha512 digest of this phrase",
+            "want": "hashText",
+            "outcome": "answered",
+            "got": "hashText",
+            "ms": 2229
+          },
+          {
+            "message": "give me the hex bytes for this word",
+            "want": "hexEncode",
+            "outcome": "answered",
+            "got": "hexEncode",
+            "ms": 1780
+          },
+          {
+            "message": "put my name into dots and dashes",
+            "want": "morseEncode",
+            "outcome": "answered",
+            "got": "morseEncode",
+            "ms": 1925
+          },
+          {
+            "message": "dinner 132.40, 18% tip, 5 people",
+            "want": "splitBill",
+            "outcome": "answered",
+            "got": "splitBill",
+            "ms": 2025
+          },
+          {
+            "message": "how many grams is a cup of caster sugar",
+            "want": "convertCookingMeasure",
+            "outcome": "asked-honest",
+            "got": "convertCookingMeasure",
+            "ms": 2175
+          },
+          {
+            "message": "which pack size is better value",
+            "want": "comparePrices",
+            "outcome": "asked-honest",
+            "got": "comparePrices",
+            "ms": 2709
+          },
+          {
+            "message": "whats my basket come to with postage",
+            "want": "shippingTotal",
+            "outcome": "wrong-skill",
+            "got": "stackDiscounts",
+            "ms": 2656
+          },
+          {
+            "message": "how big is 3400000 bytes in readable units",
+            "want": "fileSizeHuman",
+            "outcome": "answered",
+            "got": "fileSizeHuman",
+            "ms": 1442
+          },
+          {
+            "message": "how many words and bytes in this",
+            "want": "textFileStats",
+            "outcome": "answered",
+            "got": "textFileStats",
+            "ms": 1382
+          },
+          {
+            "message": "reduce 249 by 30%",
+            "want": "applyDiscount",
+            "outcome": "declined",
+            "got": null,
+            "ms": 966
+          },
+          {
+            "message": "add 20 percent vat onto 480",
+            "want": "applyTax",
+            "outcome": "answered",
+            "got": "applyTax",
+            "ms": 2293
+          },
+          {
+            "message": "what does 2500 become after 8 years at 3.5",
+            "want": "compoundInterest",
+            "outcome": "answered",
+            "got": "compoundInterest",
+            "ms": 1595
+          },
+          {
+            "message": "costs me 8, sells for 14, whats the margin",
+            "want": "markupMargin",
+            "outcome": "answered",
+            "got": "markupMargin",
+            "ms": 1733
+          },
+          {
+            "message": "how long till I have 3000 putting 120 aside monthly",
+            "want": "savingsGoal",
+            "outcome": "answered",
+            "got": "savingsGoal",
+            "ms": 1744
+          },
+          {
+            "message": "do these two phrases use the same letters",
+            "want": "checkAnagram",
+            "outcome": "asked-honest",
+            "got": "checkAnagram",
+            "ms": 1452
+          },
+          {
+            "message": "ask the 8 ball if I should go",
+            "want": "magicEightBall",
+            "outcome": "answered",
+            "got": "magicEightBall",
+            "ms": 1523
+          },
+          {
+            "message": "rearrange the letters of tarps",
+            "want": "solveAnagram",
+            "outcome": "wrong-skill",
+            "got": "wordsFromLetters",
+            "ms": 1309
+          },
+          {
+            "message": "throw a couple of dice for me, seed 9",
+            "want": "rollDice",
+            "outcome": "answered",
+            "got": "rollDice",
+            "ms": 1399
+          },
+          {
+            "message": "pick a number from 1 to 20, seed 9",
+            "want": "randomNumber",
+            "outcome": "answered",
+            "got": "randomNumber",
+            "ms": 1427
+          },
+          {
+            "message": "turn my packing list into tick boxes",
+            "want": "generateChecklist",
+            "outcome": "answered",
+            "got": "generateChecklist",
+            "ms": 4164
+          },
+          {
+            "message": "need three paragraphs of dummy copy",
+            "want": "loremIpsum",
+            "outcome": "answered",
+            "got": "loremIpsum",
+            "ms": 1920
+          },
+          {
+            "message": "how much carpet for a 4.5 by 3.2 m room",
+            "want": "areaOf",
+            "outcome": "answered",
+            "got": "areaOf",
+            "ms": 1940
+          },
+          {
+            "message": "great circle miles between these coordinates",
+            "want": "haversineDistance",
+            "outcome": "asked-honest",
+            "got": "haversineDistance",
+            "ms": 2452
+          },
+          {
+            "message": "ladder length if the wall is 8 and the base is 6",
+            "want": "pythagorean",
+            "outcome": "answered",
+            "got": "pythagorean",
+            "ms": 1671
+          },
+          {
+            "message": "body mass index at 1.8m and 82 kilos",
+            "want": "bmiCalculate",
+            "outcome": "answered",
+            "got": "bmiCalculate",
+            "ms": 1660
+          },
+          {
+            "message": "how long would a half marathon take at 6 min km",
+            "want": "paceCalculate",
+            "outcome": "answered",
+            "got": "paceCalculate",
+            "ms": 2068
+          },
+          {
+            "message": "kilometre splits to break 45 minutes over 10k",
+            "want": "splitTimes",
+            "outcome": "answered",
+            "got": "splitTimes",
+            "ms": 1672
+          },
+          {
+            "message": "score this test paper against the correct responses",
+            "want": "gradeQuiz",
+            "outcome": "asked-honest",
+            "got": "gradeQuiz",
+            "ms": 13606
+          },
+          {
+            "message": "reorder my deck for revision",
+            "want": "flashcardShuffle",
+            "outcome": "asked-honest",
+            "got": "flashcardShuffle",
+            "ms": 2663
+          },
+          {
+            "message": "I am on 65 with 40% left, what do I need for a 70",
+            "want": "gradeNeeded",
+            "outcome": "answered",
+            "got": "gradeNeeded",
+            "ms": 4019
+          },
+          {
+            "message": "set revision dates starting today",
+            "want": "spacedRepetitionSchedule",
+            "outcome": "answered",
+            "got": "spacedRepetitionSchedule",
+            "ms": 1708
+          },
+          {
+            "message": "strip the repeats out of this list",
+            "want": "dedupeList",
+            "outcome": "asked-honest",
+            "got": "dedupeList",
+            "ms": 1823
+          },
+          {
+            "message": "tally how many of each appear",
+            "want": "countItems",
+            "outcome": "asked-honest",
+            "got": "countItems",
+            "ms": 1974
+          },
+          {
+            "message": "deal these 12 names into groups of four",
+            "want": "chunkList",
+            "outcome": "asked-honest",
+            "got": "chunkList",
+            "ms": 2152
+          },
+          {
+            "message": "squash this nested array flat",
+            "want": "flattenList",
+            "outcome": "asked-honest",
+            "got": "flattenList",
+            "ms": 2084
+          },
+          {
+            "message": "draw partners for these six, seed 3",
+            "want": "pairUp",
+            "outcome": "asked-honest",
+            "got": "pairUp",
+            "ms": 2114
+          },
+          {
+            "message": "jumble this playlist up, seed 4",
+            "want": "shuffleList",
+            "outcome": "asked-honest",
+            "got": "shuffleList",
+            "ms": 1941
+          },
+          {
+            "message": "pair each name with its score",
+            "want": "zipLists",
+            "outcome": "asked-honest",
+            "got": "zipLists",
+            "ms": 2023
+          },
+          {
+            "message": "whats 340 divided by 8 plus 12",
+            "want": "evaluateExpression",
+            "outcome": "wrong-skill",
+            "got": "parseNumber",
+            "ms": 2706
+          },
+          {
+            "message": "price went 25 to 31, whats the increase",
+            "want": "percentChange",
+            "outcome": "answered",
+            "got": "percentChange",
+            "ms": 2378
+          },
+          {
+            "message": "round 88.4567 to 3 dp",
+            "want": "roundTo",
+            "outcome": "answered",
+            "got": "roundTo",
+            "ms": 2622
+          },
+          {
+            "message": "total these figures for me: 45 62 18 9",
+            "want": "sum",
+            "outcome": "answered",
+            "got": "sum",
+            "ms": 2201
+          },
+          {
+            "message": "read 4.5k as a plain number",
+            "want": "parseNumber",
+            "outcome": "answered",
+            "got": "parseNumber",
+            "ms": 1533
+          },
+          {
+            "message": "write 45.5 as pounds sterling",
+            "want": "formatCurrency",
+            "outcome": "answered",
+            "got": "formatCurrency",
+            "ms": 2140
+          },
+          {
+            "message": "share 750 between shares of 5 3 and 2",
+            "want": "allocateProportionally",
+            "outcome": "answered",
+            "got": "allocateProportionally",
+            "ms": 2842
+          },
+          {
+            "message": "give me fibonacci up to the 12th",
+            "want": "fibonacci",
+            "outcome": "answered",
+            "got": "fibonacci",
+            "ms": 2139
+          },
+          {
+            "message": "highest number dividing 84 and 126",
+            "want": "gcd",
+            "outcome": "answered",
+            "got": "gcd",
+            "ms": 1664
+          },
+          {
+            "message": "smallest number both 8 and 14 go into",
+            "want": "lcm",
+            "outcome": "answered",
+            "got": "lcm",
+            "ms": 1563
+          },
+          {
+            "message": "if 5 maps to 8, what maps to 40",
+            "want": "ratioSolve",
+            "outcome": "answered",
+            "got": "ratioSolve",
+            "ms": 2391
+          },
+          {
+            "message": "divide my 2800 salary into budget categories",
+            "want": "budgetSplit",
+            "outcome": "answered",
+            "got": "budgetSplit",
+            "ms": 1915
+          },
+          {
+            "message": "what percentage of days did I manage it",
+            "want": "habitCompletionRate",
+            "outcome": "wrong-skill",
+            "got": "percentageDistribution",
+            "ms": 8479
+          },
+          {
+            "message": "fair rota for four flatmates and three chores",
+            "want": "rotateAssignments",
+            "outcome": "asked-honest",
+            "got": "rotateAssignments",
+            "ms": 2220
+          },
+          {
+            "message": "lay my tasks out from 9am with 10 min gaps",
+            "want": "timeBlockSchedule",
+            "outcome": "asked-honest",
+            "got": "timeBlockSchedule",
+            "ms": 2326
+          },
+          {
+            "message": "what is the capital of Portugal",
+            "want": "countryLookup",
+            "outcome": "answered",
+            "got": "countryLookup",
+            "ms": 1412
+          },
+          {
+            "message": "which airport is CDG",
+            "want": "airportCodeLookup",
+            "outcome": "answered",
+            "got": "airportCodeLookup",
+            "ms": 1798
+          },
+          {
+            "message": "tell me about magnesium",
+            "want": "periodicTableLookup",
+            "outcome": "answered",
+            "got": "periodicTableLookup",
+            "ms": 1616
+          },
+          {
+            "message": "offset from utc in Auckland",
+            "want": "timezoneLookup",
+            "outcome": "failed",
+            "got": "timezoneLookup",
+            "ms": 1617
+          },
+          {
+            "message": "mean and spread of 12 19 22 8 31",
+            "want": "describeNumbers",
+            "outcome": "answered",
+            "got": "describeNumbers",
+            "ms": 2144
+          },
+          {
+            "message": "do these two columns move together",
+            "want": "correlation",
+            "outcome": "asked-honest",
+            "got": "correlation",
+            "ms": 2178
+          },
+          {
+            "message": "anything way off in this set",
+            "want": "findOutliers",
+            "outcome": "wrong-skill",
+            "got": "sortList",
+            "ms": 2153
+          },
+          {
+            "message": "best fit line for this scatter",
+            "want": "linearRegression",
+            "outcome": "asked-honest",
+            "got": "linearRegression",
+            "ms": 2290
+          },
+          {
+            "message": "p95 of these latencies",
+            "want": "percentile",
+            "outcome": "asked-honest",
+            "got": "percentile",
+            "ms": 2691
+          },
+          {
+            "message": "order these from best to worst",
+            "want": "rankValues",
+            "outcome": "asked-honest",
+            "got": "rankValues",
+            "ms": 1698
+          },
+          {
+            "message": "how many words in this sentence right here",
+            "want": "countWords",
+            "outcome": "asked-honest",
+            "got": "countWords",
+            "ms": 2116
+          },
+          {
+            "message": "make \"Annual Report 2026\" a url slug",
+            "want": "slugify",
+            "outcome": "answered",
+            "got": "slugify",
+            "ms": 2412
+          },
+          {
+            "message": "swap every instance of teh for the",
+            "want": "replaceText",
+            "outcome": "answered",
+            "got": "replaceText",
+            "ms": 2015
+          },
+          {
+            "message": "list the links in that message",
+            "want": "extractUrls",
+            "outcome": "asked-honest",
+            "got": "extractUrls",
+            "ms": 1588
+          },
+          {
+            "message": "how many characters is this tweet",
+            "want": "countCharacters",
+            "outcome": "asked-honest",
+            "got": "countCharacters",
+            "ms": 2320
+          },
+          {
+            "message": "how many lines does this file have",
+            "want": "countLines",
+            "outcome": "answered",
+            "got": "countLines",
+            "ms": 1511
+          },
+          {
+            "message": "break this sentence into individual words",
+            "want": "tokenizeWords",
+            "outcome": "asked-honest",
+            "got": "tokenizeWords",
+            "ms": 1803
+          },
+          {
+            "message": "strip the filler words out of this query",
+            "want": "removeStopWords",
+            "outcome": "answered",
+            "got": "removeStopWords",
+            "ms": 1545
+          },
+          {
+            "message": "how long would this take someone to read",
+            "want": "readingTime",
+            "outcome": "asked-honest",
+            "got": "readingTime",
+            "ms": 2408
+          },
+          {
+            "message": "strip the indentation off every line",
+            "want": "trimLines",
+            "outcome": "answered",
+            "got": "trimLines",
+            "ms": 1591
+          },
+          {
+            "message": "put these lines in alphabetical order",
+            "want": "sortLines",
+            "outcome": "asked-honest",
+            "got": "sortLines",
+            "ms": 1685
+          },
+          {
+            "message": "join these lines into one comma separated line",
+            "want": "joinLines",
+            "outcome": "asked-honest",
+            "got": "joinLines",
+            "ms": 1654
+          },
+          {
+            "message": "what changed between the old and new version",
+            "want": "diffText",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1075
+          },
+          {
+            "message": "guess the language of this snippet",
+            "want": "detectLanguage",
+            "outcome": "asked-honest",
+            "got": "detectLanguage",
+            "ms": 2463
+          },
+          {
+            "message": "make these angle brackets safe for html",
+            "want": "escapeHtml",
+            "outcome": "answered",
+            "got": "escapeHtml",
+            "ms": 13804
+          },
+          {
+            "message": "list every price mentioned here",
+            "want": "extractCurrencyAmounts",
+            "outcome": "answered",
+            "got": "extractCurrencyAmounts",
+            "ms": 1399
+          },
+          {
+            "message": "list the tags used in this tweet",
+            "want": "extractHashtags",
+            "outcome": "asked-honest",
+            "got": "extractHashtags",
+            "ms": 1500
+          },
+          {
+            "message": "grab the bullets from this",
+            "want": "extractListItems",
+            "outcome": "asked-honest",
+            "got": "extractListItems",
+            "ms": 2328
+          },
+          {
+            "message": "split this into two word runs",
+            "want": "extractNgrams",
+            "outcome": "wrong-skill",
+            "got": "splitLines",
+            "ms": 3073
+          },
+          {
+            "message": "what times are mentioned",
+            "want": "extractTimes",
+            "outcome": "answered",
+            "got": "extractTimes",
+            "ms": 2263
+          },
+          {
+            "message": "which of these entries are basically the same",
+            "want": "findNearDuplicates",
+            "outcome": "asked-honest",
+            "got": "findNearDuplicates",
+            "ms": 2716
+          },
+          {
+            "message": "anything rude in this message",
+            "want": "flagProfanity",
+            "outcome": "asked-honest",
+            "got": "flagProfanity",
+            "ms": 2418
+          },
+          {
+            "message": "does this read as happy or unhappy",
+            "want": "lexiconSentiment",
+            "outcome": "wrong-skill",
+            "got": "detectRepetition",
+            "ms": 2953
+          },
+          {
+            "message": "stick numbers on each line",
+            "want": "numberLines",
+            "outcome": "answered",
+            "got": "numberLines",
+            "ms": 1959
+          },
+          {
+            "message": "strip the smileys out",
+            "want": "removeEmoji",
+            "outcome": "answered",
+            "got": "removeEmoji",
+            "ms": 1376
+          },
+          {
+            "message": "how much vocabulary do these share",
+            "want": "similarityJaccard",
+            "outcome": "asked-honest",
+            "got": "similarityJaccard",
+            "ms": 2799
+          },
+          {
+            "message": "cut these words back to their roots",
+            "want": "stemWords",
+            "outcome": "asked-honest",
+            "got": "stemWords",
+            "ms": 1535
+          },
+          {
+            "message": "drop the formatting marks from this",
+            "want": "stripMarkdown",
+            "outcome": "answered",
+            "got": "stripMarkdown",
+            "ms": 2239
+          },
+          {
+            "message": "flatten the accents in this name",
+            "want": "toAscii",
+            "outcome": "answered",
+            "got": "toAscii",
+            "ms": 2251
+          },
+          {
+            "message": "is this address written correctly: jo@example",
+            "want": "validateEmail",
+            "outcome": "answered",
+            "got": "validateEmail",
+            "ms": 1924
+          },
+          {
+            "message": "this config is being rejected, what is malformed",
+            "want": "validateJson",
+            "outcome": "wrong-skill",
+            "got": "parseKeyValue",
+            "ms": 2020
+          },
+          {
+            "message": "tidy this number into international format",
+            "want": "formatPhoneNumber",
+            "outcome": "answered",
+            "got": "formatPhoneNumber",
+            "ms": 1874
+          },
+          {
+            "message": "is #GG0011 a real colour code",
+            "want": "validateHexColor",
+            "outcome": "answered",
+            "got": "validateHexColor",
+            "ms": 1979
+          },
+          {
+            "message": "is 10.0.0.256 usable",
+            "want": "validateIpAddress",
+            "outcome": "answered",
+            "got": "validateIpAddress",
+            "ms": 1948
+          },
+          {
+            "message": "does this payload conform to my schema",
+            "want": "validateJsonSchema",
+            "outcome": "asked-honest",
+            "got": "validateJsonSchema",
+            "ms": 3636
+          },
+          {
+            "message": "is +44 7700 900 the right shape",
+            "want": "validatePhoneNumber",
+            "outcome": "answered",
+            "got": "validatePhoneNumber",
+            "ms": 1975
+          },
+          {
+            "message": "build an APA reference from these details",
+            "want": "formatCitation",
+            "outcome": "asked-honest",
+            "got": "formatCitation",
+            "ms": 2744
+          },
+          {
+            "message": "how long is each paragraph in my draft",
+            "want": "paragraphStats",
+            "outcome": "asked-honest",
+            "got": "paragraphStats",
+            "ms": 2506
+          },
+          {
+            "message": "capitalise this headline properly",
+            "want": "checkTitleCase",
+            "outcome": "asked-honest",
+            "got": "checkTitleCase",
+            "ms": 2420
+          },
+          {
+            "message": "am I overusing any words here",
+            "want": "findRepeatedWords",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1712
+          },
+          {
+            "message": "render this md as html",
+            "want": "markdownToHtml",
+            "outcome": "asked-honest",
+            "got": "markdownToHtml",
+            "ms": 3108
+          },
+          {
+            "message": "plural of cactus",
+            "want": "pluralize",
+            "outcome": "answered",
+            "got": "pluralize",
+            "ms": 2994
+          },
+          {
+            "message": "any misspellings in this paragraph",
+            "want": "spellCheck",
+            "outcome": "asked-honest",
+            "got": "spellCheck",
+            "ms": 1729
+          },
+          {
+            "message": "put my bin collection dates on a calendar, first thursday, ten of them",
+            "want": "expandRecurrence",
+            "outcome": "wrong-skill",
+            "got": "extractDates",
+            "ms": 2296
+          },
+          {
+            "message": "narrow my guesses: _o_se, has an r, no t",
+            "want": "wordleFilter",
+            "outcome": "answered",
+            "got": "wordleFilter",
+            "ms": 1688
+          },
+          {
+            "message": "tell me about the Antikythera mechanism",
+            "want": "webAnswer",
+            "outcome": "network-off",
+            "got": "webAnswer",
+            "ms": 1261
+          },
+          {
+            "message": "convert 12 stone to kilograms",
+            "want": "convertMass",
+            "outcome": "answered",
+            "got": "convertMass",
+            "ms": 1427
+          },
+          {
+            "message": "how much is 6 tablespoons in millilitres",
+            "want": "convertVolume",
+            "outcome": "answered",
+            "got": "convertVolume",
+            "ms": 2100
+          },
+          {
+            "message": "a 210 minute film runs for how long",
+            "want": "convertTime",
+            "outcome": "failed",
+            "got": "convertTime",
+            "ms": 2055
+          },
+          {
+            "message": "3000 sq ft in square metres",
+            "want": "convertArea",
+            "outcome": "answered",
+            "got": "convertArea",
+            "ms": 2038
+          },
+          {
+            "message": "my car does 45 mpg, whats that in litres per 100",
+            "want": "convertFuelEconomy",
+            "outcome": "answered",
+            "got": "convertFuelEconomy",
+            "ms": 2042
+          },
+          {
+            "message": "how many m/s is 90 kph",
+            "want": "convertSpeed",
+            "outcome": "answered",
+            "got": "convertSpeed",
+            "ms": 2012
+          },
+          {
+            "message": "keep rows where status is open",
+            "want": "filterRows",
+            "outcome": "asked-honest",
+            "got": "filterRows",
+            "ms": 3276
+          },
+          {
+            "message": "total the revenue column",
+            "want": "columnMath",
+            "outcome": "asked-honest",
+            "got": "columnMath",
+            "ms": 3355
+          },
+          {
+            "message": "write these rows back out as csv",
+            "want": "toCsv",
+            "outcome": "asked-honest",
+            "got": "toCsv",
+            "ms": 2494
+          },
+          {
+            "message": "keep just the name and email columns",
+            "want": "selectColumns",
+            "outcome": "asked-honest",
+            "got": "selectColumns",
+            "ms": 4284
+          },
+          {
+            "message": "whats changed between these two configs",
+            "want": "diffJson",
+            "outcome": "asked-honest",
+            "got": "diffJson",
+            "ms": 3171
+          },
+          {
+            "message": "pull settings.theme out of this document",
+            "want": "getPath",
+            "outcome": "asked-honest",
+            "got": "getPath",
+            "ms": 2596
+          },
+          {
+            "message": "turn this .env content into an object",
+            "want": "parseKeyValue",
+            "outcome": "asked-honest",
+            "got": "parseKeyValue",
+            "ms": 2450
+          },
+          {
+            "message": "what params are in this link",
+            "want": "parseQueryString",
+            "outcome": "wrong-skill",
+            "got": "extractUrls",
+            "ms": 2780
+          },
+          {
+            "message": "update config.timeout to 30 in this json",
+            "want": "setPath",
+            "outcome": "asked-honest",
+            "got": "setPath",
+            "ms": 2795
+          },
+          {
+            "message": "turn the columns of this table into rows",
+            "want": "transposeTable",
+            "outcome": "asked-honest",
+            "got": "transposeTable",
+            "ms": 5780
+          },
+          {
+            "message": "whats the gap between 2026-01-01 and 2026-06-30",
+            "want": "daysBetween",
+            "outcome": "answered",
+            "got": "daysBetween",
+            "ms": 2403
+          },
+          {
+            "message": "push 2026-03-01 forward by 45 days",
+            "want": "addDuration",
+            "outcome": "wrong-skill",
+            "got": "addBusinessDays",
+            "ms": 2249
+          },
+          {
+            "message": "is 2026-07-04 a saturday",
+            "want": "dayOfWeek",
+            "outcome": "wrong-skill",
+            "got": "isWeekend",
+            "ms": 1669
+          },
+          {
+            "message": "read 4 march 2027 as an iso date",
+            "want": "parseDate",
+            "outcome": "answered",
+            "got": "parseDate",
+            "ms": 1750
+          },
+          {
+            "message": "working days from 2026-02-02 to 2026-02-27",
+            "want": "businessDaysBetween",
+            "outcome": "answered",
+            "got": "businessDaysBetween",
+            "ms": 2288
+          },
+          {
+            "message": "what is the date and time right now",
+            "want": "currentTime",
+            "outcome": "answered",
+            "got": "currentTime",
+            "ms": 1542
+          },
+          {
+            "message": "rewrite 2026-11-14 as DD/MM/YYYY",
+            "want": "formatDate",
+            "outcome": "answered",
+            "got": "formatDate",
+            "ms": 1639
+          },
+          {
+            "message": "turn 2h 15m into seconds",
+            "want": "parseDuration",
+            "outcome": "wrong-skill",
+            "got": "durationToText",
+            "ms": 1612
+          },
+          {
+            "message": "every date from 2026-03-01 up to 2026-03-07",
+            "want": "dateRangeList",
+            "outcome": "answered",
+            "got": "dateRangeList",
+            "ms": 1943
+          },
+          {
+            "message": "how long is april 2027",
+            "want": "daysInMonth",
+            "outcome": "answered",
+            "got": "daysInMonth",
+            "ms": 2075
+          },
+          {
+            "message": "is new years day 2027 a saturday or sunday",
+            "want": "isWeekend",
+            "outcome": "answered",
+            "got": "isWeekend",
+            "ms": 2152
+          },
+          {
+            "message": "which week number does 2026-06-15 fall in",
+            "want": "isoWeek",
+            "outcome": "answered",
+            "got": "isoWeek",
+            "ms": 1706
+          },
+          {
+            "message": "collapse these date ranges into as few as possible",
+            "want": "mergeIntervals",
+            "outcome": "asked-honest",
+            "got": "mergeIntervals",
+            "ms": 1662
+          },
+          {
+            "message": "at what point does the annual plan pay off",
+            "want": "breakEvenComparison",
+            "outcome": "asked-honest",
+            "got": "breakEvenComparison",
+            "ms": 2043
+          },
+          {
+            "message": "help me weigh this up, 3 for and 2 against",
+            "want": "prosConsScore",
+            "outcome": "answered",
+            "got": "prosConsScore",
+            "ms": 2659
+          },
+          {
+            "message": "simplify 2560 by 1440 to a ratio",
+            "want": "aspectRatio",
+            "outcome": "wrong-skill",
+            "got": "fractionSimplify",
+            "ms": 3770
+          },
+          {
+            "message": "will white text pass on #767676",
+            "want": "contrastRatio",
+            "outcome": "answered",
+            "got": "contrastRatio",
+            "ms": 2146
+          },
+          {
+            "message": "shade #FFAA00 down 30 percent",
+            "want": "darkenColor",
+            "outcome": "wrong-skill",
+            "got": "lightenColor",
+            "ms": 2024
+          },
+          {
+            "message": "tint #223344 up by 15 percent",
+            "want": "lightenColor",
+            "outcome": "answered",
+            "got": "lightenColor",
+            "ms": 2126
+          },
+          {
+            "message": "what fraction of a rem is 12px",
+            "want": "pxToRem",
+            "outcome": "answered",
+            "got": "pxToRem",
+            "ms": 1851
+          },
+          {
+            "message": "put 30 2 * * 1 into plain english",
+            "want": "cronToText",
+            "outcome": "answered",
+            "got": "cronToText",
+            "ms": 1729
+          },
+          {
+            "message": "what is a 429 telling me",
+            "want": "httpStatusLookup",
+            "outcome": "answered",
+            "got": "httpStatusLookup",
+            "ms": 1720
+          },
+          {
+            "message": "content type to serve a .svg with",
+            "want": "mimeTypeLookup",
+            "outcome": "answered",
+            "got": "mimeTypeLookup",
+            "ms": 1698
+          },
+          {
+            "message": "run this pattern over my sample and show hits",
+            "want": "testRegex",
+            "outcome": "wrong-skill",
+            "got": "extractCodeBlocks",
+            "ms": 2204
+          },
+          {
+            "message": "what does caf%C3%A9 decode to",
+            "want": "urlDecode",
+            "outcome": "answered",
+            "got": "urlDecode",
+            "ms": 1959
+          },
+          {
+            "message": "b64 this string for me",
+            "want": "base64Encode",
+            "outcome": "answered",
+            "got": "base64Encode",
+            "ms": 1997
+          },
+          {
+            "message": "show me the bits for the letter Z",
+            "want": "binaryEncode",
+            "outcome": "answered",
+            "got": "binaryEncode",
+            "ms": 1903
+          },
+          {
+            "message": "squash this text down",
+            "want": "compressText",
+            "outcome": "wrong-skill",
+            "got": "truncateText",
+            "ms": 1699
+          },
+          {
+            "message": "four random words as a password",
+            "want": "generatePassphrase",
+            "outcome": "answered",
+            "got": "generatePassphrase",
+            "ms": 1753
+          },
+          {
+            "message": "need a fresh guid",
+            "want": "generateUuid",
+            "outcome": "answered",
+            "got": "generateUuid",
+            "ms": 1826
+          },
+          {
+            "message": "these hex bytes say what",
+            "want": "hexDecode",
+            "outcome": "wrong-skill",
+            "got": "hexEncode",
+            "ms": 1834
+          },
+          {
+            "message": "what is -.-. --.- in letters",
+            "want": "morseDecode",
+            "outcome": "answered",
+            "got": "morseDecode",
+            "ms": 2075
+          },
+          {
+            "message": "apply the 13 letter rotation to this",
+            "want": "rot13",
+            "outcome": "answered",
+            "got": "rot13",
+            "ms": 2059
+          },
+          {
+            "message": "triple this recipe: 1 cup rice, 2 eggs",
+            "want": "scaleRecipe",
+            "outcome": "answered",
+            "got": "scaleRecipe",
+            "ms": 1881
+          },
+          {
+            "message": "what does that work out to per litre",
+            "want": "unitPrice",
+            "outcome": "asked-honest",
+            "got": "unitPrice",
+            "ms": 3888
+          },
+          {
+            "message": "cost to drive 150 km if I use 9 litres per 100 and fuel is 1.80",
+            "want": "fuelCostForTrip",
+            "outcome": "answered",
+            "got": "fuelCostForTrip",
+            "ms": 2114
+          },
+          {
+            "message": "extra 15 off an already 30 off item",
+            "want": "stackDiscounts",
+            "outcome": "answered",
+            "got": "stackDiscounts",
+            "ms": 2277
+          },
+          {
+            "message": "whats a .webp file",
+            "want": "fileExtensionInfo",
+            "outcome": "answered",
+            "got": "fileExtensionInfo",
+            "ms": 1297
+          },
+          {
+            "message": "change 400 usd to gbp at 0.79",
+            "want": "convertCurrencyFixed",
+            "outcome": "wrong-skill",
+            "got": "currencyLookup",
+            "ms": 2616
+          },
+          {
+            "message": "monthly repayment on 12000 over 4 years at 6%",
+            "want": "amortizeLoan",
+            "outcome": "answered",
+            "got": "amortizeLoan",
+            "ms": 1921
+          },
+          {
+            "message": "22 an hour, whats that yearly",
+            "want": "hourlyToSalary",
+            "outcome": "answered",
+            "got": "hourlyToSalary",
+            "ms": 2203
+          },
+          {
+            "message": "52000 a year works out at what per hour",
+            "want": "salaryToHourly",
+            "outcome": "answered",
+            "got": "salaryToHourly",
+            "ms": 1553
+          },
+          {
+            "message": "non-compounding interest on 800 at 6% for 18 months",
+            "want": "simpleInterest",
+            "outcome": "wrong-skill",
+            "got": "compoundInterest",
+            "ms": 1825
+          },
+          {
+            "message": "does level read the same both ways",
+            "want": "checkPalindrome",
+            "outcome": "answered",
+            "got": "checkPalindrome",
+            "ms": 1322
+          },
+          {
+            "message": "tile value of the word zebra",
+            "want": "scrabbleScore",
+            "outcome": "wrong-skill",
+            "got": "countOccurrences",
+            "ms": 1216
+          },
+          {
+            "message": "which words fit from these seven tiles",
+            "want": "wordsFromLetters",
+            "outcome": "answered",
+            "got": "wordsFromLetters",
+            "ms": 1038
+          },
+          {
+            "message": "heads or tails, seed 5",
+            "want": "flipCoin",
+            "outcome": "answered",
+            "got": "flipCoin",
+            "ms": 1137
+          },
+          {
+            "message": "print me a month view of december 2026",
+            "want": "generateCalendarGrid",
+            "outcome": "wrong-skill",
+            "got": "daysInMonth",
+            "ms": 1455
+          },
+          {
+            "message": "carve 2pm to 5pm into four sessions",
+            "want": "generateSchedule",
+            "outcome": "answered",
+            "got": "generateSchedule",
+            "ms": 1518
+          },
+          {
+            "message": "how far from (1,2) to (7,10)",
+            "want": "distanceBetweenPoints",
+            "outcome": "answered",
+            "got": "distanceBetweenPoints",
+            "ms": 1445
+          },
+          {
+            "message": "how much fencing round a 12 by 9 plot",
+            "want": "perimeterOf",
+            "outcome": "answered",
+            "got": "perimeterOf",
+            "ms": 1428
+          },
+          {
+            "message": "litres in a cylinder 30cm across and 50 tall",
+            "want": "volumeOf",
+            "outcome": "answered",
+            "got": "volumeOf",
+            "ms": 1616
+          },
+          {
+            "message": "my measured max is 172, split it into zones",
+            "want": "heartRateZones",
+            "outcome": "answered",
+            "got": "heartRateZones",
+            "ms": 1225
+          },
+          {
+            "message": "what time should I turn in for a 5:45 alarm",
+            "want": "sleepCycleTimes",
+            "outcome": "answered",
+            "got": "sleepCycleTimes",
+            "ms": 1198
+          },
+          {
+            "message": "did I get any of these lines wrong",
+            "want": "checkArithmeticSteps",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1285
+          },
+          {
+            "message": "grade point average from these modules",
+            "want": "gpaCalculate",
+            "outcome": "asked-honest",
+            "got": "gpaCalculate",
+            "ms": 2325
+          },
+          {
+            "message": "plan out 420 pages before the end of the month",
+            "want": "readingScheduleFromPages",
+            "outcome": "answered",
+            "got": "readingScheduleFromPages",
+            "ms": 1606
+          },
+          {
+            "message": "put these items in natural order",
+            "want": "sortList",
+            "outcome": "asked-honest",
+            "got": "sortList",
+            "ms": 1324
+          },
+          {
+            "message": "give me every number from 5 to 40 in fives",
+            "want": "rangeList",
+            "outcome": "wrong-skill",
+            "got": "numberLines",
+            "ms": 1107
+          },
+          {
+            "message": "what is missing from the second list",
+            "want": "differenceLists",
+            "outcome": "asked-honest",
+            "got": "differenceLists",
+            "ms": 1278
+          },
+          {
+            "message": "which entries appear on both lists",
+            "want": "intersectLists",
+            "outcome": "asked-honest",
+            "got": "intersectLists",
+            "ms": 2275
+          },
+          {
+            "message": "draw a winner from these entrants, seed 9",
+            "want": "pickRandom",
+            "outcome": "answered",
+            "got": "pickRandom",
+            "ms": 1632
+          },
+          {
+            "message": "merge both lists without repeats",
+            "want": "unionLists",
+            "outcome": "answered",
+            "got": "unionLists",
+            "ms": 1346
+          },
+          {
+            "message": "work out 12% of 6500",
+            "want": "percentOf",
+            "outcome": "answered",
+            "got": "percentOf",
+            "ms": 1745
+          },
+          {
+            "message": "what proportion is 18 of 24, in percent",
+            "want": "whatPercent",
+            "outcome": "answered",
+            "got": "whatPercent",
+            "ms": 1907
+          },
+          {
+            "message": "divide 475 between 6 of us",
+            "want": "splitEvenly",
+            "outcome": "answered",
+            "got": "splitEvenly",
+            "ms": 2141
+          },
+          {
+            "message": "multiply 7 by 9 by 3 together",
+            "want": "product",
+            "outcome": "answered",
+            "got": "product",
+            "ms": 2072
+          },
+          {
+            "message": "write 9876543 with commas in it",
+            "want": "formatNumber",
+            "outcome": "answered",
+            "got": "formatNumber",
+            "ms": 2154
+          },
+          {
+            "message": "what share of the total is each of 12 30 58",
+            "want": "percentageDistribution",
+            "outcome": "answered",
+            "got": "percentageDistribution",
+            "ms": 2069
+          },
+          {
+            "message": "multiply 1 through 8 together",
+            "want": "factorial",
+            "outcome": "answered",
+            "got": "factorial",
+            "ms": 2149
+          },
+          {
+            "message": "lowest terms for 45/60",
+            "want": "fractionSimplify",
+            "outcome": "answered",
+            "got": "fractionSimplify",
+            "ms": 2170
+          },
+          {
+            "message": "does 221 have any divisors",
+            "want": "isPrime",
+            "outcome": "answered",
+            "got": "isPrime",
+            "ms": 2181
+          },
+          {
+            "message": "which primes multiply to make 990",
+            "want": "primeFactors",
+            "outcome": "answered",
+            "got": "primeFactors",
+            "ms": 2347
+          },
+          {
+            "message": "add the right suffix to 42",
+            "want": "toOrdinal",
+            "outcome": "answered",
+            "got": "toOrdinal",
+            "ms": 1946
+          },
+          {
+            "message": "overlap in working hours for these offices",
+            "want": "findCommonMeetingHours",
+            "outcome": "answered",
+            "got": "findCommonMeetingHours",
+            "ms": 2614
+          },
+          {
+            "message": "sort my jobs by what matters most",
+            "want": "prioritizeTasks",
+            "outcome": "asked-honest",
+            "got": "prioritizeTasks",
+            "ms": 3968
+          },
+          {
+            "message": "longest run of consecutive days in this log",
+            "want": "streakCount",
+            "outcome": "asked-honest",
+            "got": "streakCount",
+            "ms": 2461
+          },
+          {
+            "message": "what does SEK mean",
+            "want": "currencyLookup",
+            "outcome": "answered",
+            "got": "currencyLookup",
+            "ms": 1699
+          },
+          {
+            "message": "what does the code sv stand for",
+            "want": "languageCodeLookup",
+            "outcome": "wrong-skill",
+            "got": "currencyLookup",
+            "ms": 1520
+          },
+          {
+            "message": "where does +351 dial to",
+            "want": "phoneRegionLookup",
+            "outcome": "answered",
+            "got": "phoneRegionLookup",
+            "ms": 1679
+          },
+          {
+            "message": "which state has the abbreviation OR",
+            "want": "usStateLookup",
+            "outcome": "answered",
+            "got": "usStateLookup",
+            "ms": 1604
+          },
+          {
+            "message": "average these marks where the exam counts triple",
+            "want": "weightedAverage",
+            "outcome": "answered",
+            "got": "weightedAverage",
+            "ms": 2036
+          },
+          {
+            "message": "add these up as I go",
+            "want": "cumulativeSum",
+            "outcome": "wrong-skill",
+            "got": "sum",
+            "ms": 2419
+          },
+          {
+            "message": "bucket these values into six ranges",
+            "want": "histogramBins",
+            "outcome": "asked-honest",
+            "got": "histogramBins",
+            "ms": 2014
+          },
+          {
+            "message": "smooth this over a 5 point window",
+            "want": "movingAverage",
+            "outcome": "asked-honest",
+            "got": "movingAverage",
+            "ms": 2077
+          },
+          {
+            "message": "give me the iqr of this sample",
+            "want": "quartiles",
+            "outcome": "asked-honest",
+            "got": "quartiles",
+            "ms": 2338
+          },
+          {
+            "message": "standardise this set",
+            "want": "zScores",
+            "outcome": "asked-honest",
+            "got": "zScores",
+            "ms": 1752
+          },
+          {
+            "message": "which words repeat most in that paragraph",
+            "want": "wordFrequency",
+            "outcome": "asked-honest",
+            "got": "wordFrequency",
+            "ms": 1734
+          },
+          {
+            "message": "change my heading to title case",
+            "want": "convertCase",
+            "outcome": "wrong-skill",
+            "got": "checkTitleCase",
+            "ms": 2255
+          },
+          {
+            "message": "grab the email addresses from this signature",
+            "want": "extractEmails",
+            "outcome": "asked-honest",
+            "got": "extractEmails",
+            "ms": 2530
+          },
+          {
+            "message": "what numbers appear in this invoice line",
+            "want": "extractNumbers",
+            "outcome": "asked-honest",
+            "got": "extractNumbers",
+            "ms": 1814
+          },
+          {
+            "message": "how many sentences in that paragraph",
+            "want": "countSentences",
+            "outcome": "asked-honest",
+            "got": "countSentences",
+            "ms": 2323
+          },
+          {
+            "message": "how often does the word error appear in the log",
+            "want": "countOccurrences",
+            "outcome": "answered",
+            "got": "countOccurrences",
+            "ms": 1518
+          },
+          {
+            "message": "split that paragraph into separate sentences",
+            "want": "tokenizeSentences",
+            "outcome": "answered",
+            "got": "tokenizeSentences",
+            "ms": 1820
+          },
+          {
+            "message": "what reading age is this passage written at",
+            "want": "readingLevel",
+            "outcome": "asked-honest",
+            "got": "readingLevel",
+            "ms": 2810
+          },
+          {
+            "message": "tidy up the spacing in this pasted text",
+            "want": "normalizeWhitespace",
+            "outcome": "answered",
+            "got": "normalizeWhitespace",
+            "ms": 1580
+          },
+          {
+            "message": "get rid of repeated lines in this list",
+            "want": "removeDuplicateLines",
+            "outcome": "answered",
+            "got": "removeDuplicateLines",
+            "ms": 1897
+          },
+          {
+            "message": "shorten this to fit 100 characters",
+            "want": "truncateText",
+            "outcome": "asked-honest",
+            "got": "truncateText",
+            "ms": 2233
+          },
+          {
+            "message": "split that comma list onto separate lines",
+            "want": "splitLines",
+            "outcome": "asked-honest",
+            "got": "splitLines",
+            "ms": 1498
+          },
+          {
+            "message": "typical word size in this paragraph",
+            "want": "averageWordLength",
+            "outcome": "asked-honest",
+            "got": "averageWordLength",
+            "ms": 1594
+          },
+          {
+            "message": "am I saying the same phrase twice",
+            "want": "detectRepetition",
+            "outcome": "answered",
+            "got": "detectRepetition",
+            "ms": 2102
+          },
+          {
+            "message": "lift the fenced snippets out of this doc",
+            "want": "extractCodeBlocks",
+            "outcome": "asked-honest",
+            "got": "extractCodeBlocks",
+            "ms": 1573
+          },
+          {
+            "message": "which dates are mentioned in this note",
+            "want": "extractDates",
+            "outcome": "asked-honest",
+            "got": "extractDates",
+            "ms": 2885
+          },
+          {
+            "message": "pull out any ip addresses from these lines",
+            "want": "extractIpAddresses",
+            "outcome": "answered",
+            "got": "extractIpAddresses",
+            "ms": 2043
+          },
+          {
+            "message": "which handles are tagged here",
+            "want": "extractMentions",
+            "outcome": "answered",
+            "got": "extractMentions",
+            "ms": 2231
+          },
+          {
+            "message": "any numbers to call in this signature",
+            "want": "extractPhoneNumbers",
+            "outcome": "asked-honest",
+            "got": "extractPhoneNumbers",
+            "ms": 1632
+          },
+          {
+            "message": "biggest word in this passage",
+            "want": "findLongestWord",
+            "outcome": "asked-honest",
+            "got": "findLongestWord",
+            "ms": 1492
+          },
+          {
+            "message": "scan this for anything personal",
+            "want": "flagPii",
+            "outcome": "asked-honest",
+            "got": "flagPii",
+            "ms": 2312
+          },
+          {
+            "message": "what stands out in this document",
+            "want": "keywordsTfidf",
+            "outcome": "asked-honest",
+            "got": "keywordsTfidf",
+            "ms": 1683
+          },
+          {
+            "message": "hide the private bits in this text",
+            "want": "maskSensitive",
+            "outcome": "wrong-skill",
+            "got": "binaryDecode",
+            "ms": 1285
+          },
+          {
+            "message": "right justify this in 10 columns",
+            "want": "padText",
+            "outcome": "asked-honest",
+            "got": "padText",
+            "ms": 2237
+          },
+          {
+            "message": "write this backwards",
+            "want": "reverseText",
+            "outcome": "asked-honest",
+            "got": "reverseText",
+            "ms": 2184
+          },
+          {
+            "message": "how many edits between these two spellings",
+            "want": "similarityLevenshtein",
+            "outcome": "answered",
+            "got": "similarityLevenshtein",
+            "ms": 2041
+          },
+          {
+            "message": "just the readable text from this markup",
+            "want": "stripHtml",
+            "outcome": "wrong-skill",
+            "got": "extractHeadings",
+            "ms": 2427
+          },
+          {
+            "message": "how many beats in the word incredible",
+            "want": "syllableCount",
+            "outcome": "answered",
+            "got": "syllableCount",
+            "ms": 1242
+          },
+          {
+            "message": "break these lines at 40 wide",
+            "want": "wrapText",
+            "outcome": "asked-honest",
+            "got": "wrapText",
+            "ms": 1702
+          },
+          {
+            "message": "is https://example.com/x a proper link",
+            "want": "validateUrl",
+            "outcome": "answered",
+            "got": "validateUrl",
+            "ms": 1805
+          },
+          {
+            "message": "does 31 september exist",
+            "want": "validateDate",
+            "outcome": "answered",
+            "got": "validateDate",
+            "ms": 1987
+          },
+          {
+            "message": "how good is hunter2 as a password",
+            "want": "passwordStrength",
+            "outcome": "answered",
+            "got": "passwordStrength",
+            "ms": 1667
+          },
+          {
+            "message": "does this account number check out",
+            "want": "validateIban",
+            "outcome": "answered",
+            "got": "validateIban",
+            "ms": 1617
+          },
+          {
+            "message": "does this book number check digit work",
+            "want": "validateIsbn",
+            "outcome": "answered",
+            "got": "validateIsbn",
+            "ms": 1559
+          },
+          {
+            "message": "does this card number pass the checksum",
+            "want": "validateLuhn",
+            "outcome": "answered",
+            "got": "validateLuhn",
+            "ms": 1891
+          },
+          {
+            "message": "is this string a proper uuid",
+            "want": "validateUuid",
+            "outcome": "answered",
+            "got": "validateUuid",
+            "ms": 2332
+          },
+          {
+            "message": "give me the outline of this markdown doc",
+            "want": "extractHeadings",
+            "outcome": "asked-honest",
+            "got": "extractHeadings",
+            "ms": 2345
+          },
+          {
+            "message": "am I close to my 1500 word target",
+            "want": "countWordTargets",
+            "outcome": "asked-honest",
+            "got": "countWordTargets",
+            "ms": 9793
+          },
+          {
+            "message": "which sentences run on too long",
+            "want": "findLongSentences",
+            "outcome": "answered",
+            "got": "findLongSentences",
+            "ms": 1718
+          },
+          {
+            "message": "index the headings in this doc",
+            "want": "generateTableOfContents",
+            "outcome": "wrong-skill",
+            "got": "extractHeadings",
+            "ms": 2474
+          },
+          {
+            "message": "turn my indented notes into markdown",
+            "want": "outlineToMarkdown",
+            "outcome": "asked-honest",
+            "got": "outlineToMarkdown",
+            "ms": 2322
+          },
+          {
+            "message": "singular form of criteria",
+            "want": "singularize",
+            "outcome": "answered",
+            "got": "singularize",
+            "ms": 2150
+          },
+          {
+            "message": "what shade of blue is #4682B4 nearest to",
+            "want": "nearestNamedColor",
+            "outcome": "answered",
+            "got": "nearestNamedColor",
+            "ms": 2021
+          },
+          {
+            "message": "where does 2x squared minus 7x plus 3 cross zero",
+            "want": "solveQuadratic",
+            "outcome": "answered",
+            "got": "solveQuadratic",
+            "ms": 1250
+          },
+          {
+            "message": "find me some pages on the Voyager probes",
+            "want": "webSearch",
+            "outcome": "network-off",
+            "got": "webSearch",
+            "ms": 1292
+          },
+          {
+            "message": "write me a poem about the sea",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1295
+          },
+          {
+            "message": "summarise this email for me",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1156
+          },
+          {
+            "message": "i had a really rough day today",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1208
+          },
+          {
+            "message": "explain how a diesel engine works",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 686
+          },
+          {
+            "message": "what should i name my cat",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1204
+          },
+          {
+            "message": "translate good morning into portuguese",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "languageCodeLookup",
+            "ms": 1222
+          },
+          {
+            "message": "brainstorm ideas for a birthday party",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 784
+          },
+          {
+            "message": "help me word this apology to my landlord",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 664
+          },
+          {
+            "message": "why do cats knead blankets",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 879
+          },
+          {
+            "message": "what do you think of this opening paragraph",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1138
+          },
+          {
+            "message": "give me a metaphor for burnout",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 69
+          },
+          {
+            "message": "i keep procrastinating and i do not know why",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1188
+          },
+          {
+            "message": "rewrite this so it sounds less formal",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 726
+          },
+          {
+            "message": "tell me about the fall of constantinople",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1065
+          },
+          {
+            "message": "is it worth learning rust in 2026",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 988
+          },
+          {
+            "message": "my code throws a null pointer, any ideas",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1160
+          },
+          {
+            "message": "what is the difference between affect and effect",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1193
+          },
+          {
+            "message": "suggest a name for a bakery",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1168
+          },
+          {
+            "message": "describe the smell of rain on hot pavement",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 741
+          },
+          {
+            "message": "convert me into a morning person",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 853
+          },
+          {
+            "message": "how many people does it take to change a lightbulb",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1563
+          },
+          {
+            "message": "what a day it has been",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1384
+          },
+          {
+            "message": "talk me through a breathing exercise",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 854
+          },
+          {
+            "message": "draft a thank you note to my team",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 2066
+          },
+          {
+            "message": "what are some good podcasts about history",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1007
+          },
+          {
+            "message": "my streak of bad luck finally ended",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1165
+          },
+          {
+            "message": "the colour palette in that film was gorgeous",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 742
+          },
+          {
+            "message": "i need to compress my schedule this week",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1210
+          },
+          {
+            "message": "hash browns or fried, which is better",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 871
+          },
+          {
+            "message": "she has a real gift for languages",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 956
+          },
+          {
+            "message": "the sentiment in the room was tense",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 783
+          },
+          {
+            "message": "shuffle along, nothing to see here",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "shuffleList",
+            "ms": 1408
+          },
+          {
+            "message": "i want to pick up the pace at work",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1140
+          },
+          {
+            "message": "that regex course was a waste of money",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 849
+          },
+          {
+            "message": "my rota at work is a nightmare",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 670
+          },
+          {
+            "message": "she got a first in her degree",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 874
+          },
+          {
+            "message": "he is in his prime right now",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 997
+          },
+          {
+            "message": "the whole project is an anagram of chaos",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "checkAnagram",
+            "ms": 1911
+          },
+          {
+            "message": "i keep a list of things i am grateful for",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1707
+          },
+          {
+            "message": "the morse code scene in that film was inaccurate",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 862
+          },
+          {
+            "message": "my bank keeps sending me letters about nothing",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1045
+          },
+          {
+            "message": "is a table of contents even necessary these days",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1380
+          },
+          {
+            "message": "i cannot spell to save my life",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1213
+          },
+          {
+            "message": "the timezone difference is killing our team",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1097
+          },
+          {
+            "message": "what a difference a year makes",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 877
+          },
+          {
+            "message": "my password manager keeps logging me out",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 974
+          },
+          {
+            "message": "that airport was chaos yesterday",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 875
+          },
+          {
+            "message": "chemistry was never my strong subject",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 778
+          },
+          {
+            "message": "the interest rate news is depressing",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1156
+          },
+          {
+            "message": "i should really schedule more downtime",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1192
+          },
+          {
+            "message": "we need to split up before this gets worse",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1003
+          },
+          {
+            "message": "my average day starts with coffee and regret",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "averageWordLength",
+            "ms": 1349
+          },
+          {
+            "message": "he is a real outlier in that family",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 940
+          },
+          {
+            "message": "she has her priorities sorted",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 960
+          },
+          {
+            "message": "that film does not scale well to a small screen",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 677
+          },
+          {
+            "message": "i am trying to convert my brother to jazz",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1208
+          },
+          {
+            "message": "the discount store on the corner closed down",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 867
+          },
+          {
+            "message": "the tip of the iceberg, honestly",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 674
+          },
+          {
+            "message": "tax season always makes me anxious",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 856
+          },
+          {
+            "message": "our interest in the project has faded",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 892
+          },
+          {
+            "message": "the root of the problem is trust",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 856
+          },
+          {
+            "message": "she factored in the weather and cancelled",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 784
+          },
+          {
+            "message": "the ratio of talk to action here is grim",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1183
+          },
+          {
+            "message": "the whole summer vanished before i noticed",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1090
+          },
+          {
+            "message": "my calendar is a wall of blue",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 863
+          },
+          {
+            "message": "the countdown to the holidays has begun in my head",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 991
+          },
+          {
+            "message": "keep the streak alive, whatever it takes",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "streakCount",
+            "ms": 2022
+          },
+          {
+            "message": "it was a coin toss who would get the job",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "flipCoin",
+            "ms": 1632
+          },
+          {
+            "message": "the dice were loaded from the start",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1116
+          },
+          {
+            "message": "that outline she gave in the meeting was thin",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 792
+          },
+          {
+            "message": "the headings in that report told the whole story",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 948
+          },
+          {
+            "message": "lorem ipsum is what my brain feels like today",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "loremIpsum",
+            "ms": 1651
+          },
+          {
+            "message": "this password policy is driving everyone mad",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "passwordStrength",
+            "ms": 1840
+          },
+          {
+            "message": "the pattern here is obvious, he never listens",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 815
+          },
+          {
+            "message": "the table by the window is always taken",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "prioritizeTasks",
+            "ms": 2130
+          },
+          {
+            "message": "the markup on those drinks is criminal",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 804
+          },
+          {
+            "message": "wrap it up, we are out of time",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1473
+          },
+          {
+            "message": "that speech was a word salad",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "countWords",
+            "ms": 2033
+          },
+          {
+            "message": "the two sisters could not be more different",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 862
+          },
+          {
+            "message": "he made a hash of the presentation",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 694
+          },
+          {
+            "message": "his joke did not survive the retelling",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1140
+          },
+          {
+            "message": "quadratic is a word i have not heard since school",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 877
+          },
+          {
+            "message": "we walked the perimeter of the park twice",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 769
+          },
+          {
+            "message": "the business days drag when the boss is around",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "businessDaysBetween",
+            "ms": 3382
+          },
+          {
+            "message": "binary thinking is what got us into this",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "binaryDecode",
+            "ms": 1679
+          },
+          {
+            "message": "my morse code is rusty",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "morseDecode",
+            "ms": 2080
+          },
+          {
+            "message": "the url is broken and nobody cares",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "validateUrl",
+            "ms": 1830
+          },
+          {
+            "message": "she is a first-rate mechanic",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1401
+          },
+          {
+            "message": "why is json so much nicer than xml",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1191
+          },
+          {
+            "message": "compose a haiku about a broken umbrella",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 71
+          },
+          {
+            "message": "what happened at the battle of hastings",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 67
+          },
+          {
+            "message": "give me feedback on my cover letter",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 773
+          },
+          {
+            "message": "settle this: pineapple on pizza, yes or no",
+            "want": "(none)",
+            "outcome": "wrongly-answered",
+            "got": "magicEightBall",
+            "ms": 1674
+          },
+          {
+            "message": "sketch me an itinerary for three days in kyoto",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1310
+          },
+          {
+            "message": "what is the plot of the odyssey in a nutshell",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 719
+          },
+          {
+            "message": "cheer me up, it has been a long week",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1147
+          },
+          {
+            "message": "recommend a novel for a long flight",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1572
+          },
+          {
+            "message": "explain the offside rule like i am five",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 1397
+          },
+          {
+            "message": "how do i tell my flatmate the kitchen is a mess",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 671
+          },
+          {
+            "message": "what makes sourdough rise",
+            "want": "(none)",
+            "outcome": "declined",
+            "got": null,
+            "ms": 672
+          }
+        ]
+      }
+    },
+    "verifier": {
+      "fired": 13,
+      "switched": 0,
+      "switchedRight": 0,
+      "switchedWrong": 0,
+      "rescued": 13,
+      "rescuedRight": 11,
+      "rescuedWrong": 1,
+      "rescuedLeak": 1
+    }
+  }
+}

@@ -1,0 +1,42 @@
+node_modules/
+dist/
+# Patch as the release ships him: built by `npm run pack:patch`, sealed, never committed.
+pack/
+src-tauri/target/
+src-tauri/gen/
+# Built from src-tauri/eye/Eye.swift by build.rs on every machine
+src-tauri/binaries/pigeon-eye-*
+
+# Editor/session scratch — except project skills
+.claude/*
+!.claude/skills/
+.DS_Store
+*.log
+
+# Never commit a model, an adapter or recorded weights — they are large,
+# they are not source, and they are rebuilt by training rather than by git.
+*.gguf
+*.safetensors
+# ...except the one the app actually loads. It is 35 MB and it is the thing that
+# makes the router work; the 70 MB PEFT output stays out, because git keeps every
+# version of a binary forever and that one is recoverable by rerunning the
+# trainer in model/.
+!model/pigeon-category.lora.gguf
+# The first Lane B persona, tracked for the same reason as the adapter above:
+# it is a deliverable, not an artefact of a run. 20 MB, next to the 35 MB that
+# is already here. Its corpus and plan sit in model/persona-data, so it can be
+# rebuilt — but only against the same teacher, which nothing pins.
+!model/socratic-tutor.lora.gguf
+# The second persona, and the transcript tidier the app pins in models.json:
+# a fresh clone needs both, and a test fails without the tidier.
+!model/plain-english-explainer.lora.gguf
+!model/transcript-clean.lora.gguf
+
+# the queue runner's log, written next to the results it produces
+bench/run.out
+
+# Trained adapters: MLX output, rebuilt by rerunning the round script.
+model/*-adapter*/
+
+# Python bytecode from pigeon-ffi/python
+__pycache__/

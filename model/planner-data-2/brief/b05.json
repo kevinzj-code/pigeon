@@ -1,0 +1,1504 @@
+{
+ "batch": "b05",
+ "categories": [
+  "encoding",
+  "games"
+ ],
+ "skills": [
+  {
+   "name": "base64Decode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "base64Decode \u2014 Decode plain base64 back into readable text \u2014 un-base64 a string.\n  needs: base64: string\n  e.g. \"decode aGVsbG8gd29ybGQ=\" \u2192 {\"base64\":\"aGVsbG8gd29ybGQ=\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "base64"
+    ],
+    "properties": {
+     "base64": {
+      "type": "string",
+      "label": "base64",
+      "minLength": 1,
+      "prompt": "Which base64 should I decode?"
+     }
+    }
+   },
+   "examples": [
+    "decode aGVsbG8gd29ybGQ=",
+    "what does UGlnZW9u say",
+    "decode an accented base64 string",
+    "decode url-safe base64 with no padding",
+    "decode QQ==",
+    "decode this base64 blob: UGlnZW9u",
+    "turn base64 back into plain text: aGk="
+   ]
+  },
+  {
+   "name": "base64Encode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "base64Encode \u2014 Encode text as base64.\n  needs: text: string\n  optional: urlSafe: boolean\n  e.g. \"base64 encode hello world\" \u2192 {\"text\":\"hello world\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I encode?"
+     },
+     "urlSafe": {
+      "type": "boolean",
+      "label": "url-safe",
+      "default": false,
+      "description": "use - and _ and drop the padding"
+     }
+    }
+   },
+   "examples": [
+    "base64 encode hello world",
+    "encode this as base64",
+    "base64 an accented string",
+    "url-safe base64 encode",
+    "encode a single character"
+   ]
+  },
+  {
+   "name": "binaryDecode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "binaryDecode \u2014 Read a run of 1s and 0s back into the message it spells.\n  needs: binary: string\n  e.g. \"decode this binary\" \u2192 {\"binary\":\"01000001\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "binary"
+    ],
+    "properties": {
+     "binary": {
+      "type": "string",
+      "label": "binary",
+      "minLength": 1,
+      "prompt": "Which binary digits should I decode?"
+     }
+    }
+   },
+   "examples": [
+    "decode this binary",
+    "what does this binary say",
+    "turn these bits back into text",
+    "decode binary written without spaces",
+    "decode binary that spells an accented letter",
+    "these ones and zeros spell what",
+    "read this string of bits as text"
+   ]
+  },
+  {
+   "name": "binaryEncode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "binaryEncode \u2014 Write text out as 1s and 0s, eight bits to a byte.\n  needs: text: string\n  optional: separator: string\n  e.g. \"convert A to binary\" \u2192 {\"text\":\"A\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I turn into binary?"
+     },
+     "separator": {
+      "type": "string",
+      "label": "byte separator",
+      "maxLength": 1,
+      "default": " ",
+      "description": "what to put between each byte"
+     }
+    }
+   },
+   "examples": [
+    "convert A to binary",
+    "turn Hi into binary",
+    "what is hello in binary",
+    "binary for Pigeon with no spaces",
+    "encode an accented letter as binary"
+   ]
+  },
+  {
+   "name": "caesarShift",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "caesarShift \u2014 Shift every letter along the alphabet by a fixed amount, as a Caesar cipher.\n  needs: text: string, shift: integer\n  e.g. \"caesar shift hello by 3\" \u2192 {\"text\":\"hello\",\"shift\":3}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text",
+     "shift"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text?"
+     },
+     "shift": {
+      "type": "integer",
+      "label": "shift by",
+      "prompt": "Shift by how many letters? (negative to shift back)"
+     }
+    }
+   },
+   "examples": [
+    "caesar shift hello by 3",
+    "shift khoor back by 3",
+    "shift this by 13",
+    "caesar cipher with a shift of 1",
+    "shift a phrase by 5 keeping punctuation"
+   ]
+  },
+  {
+   "name": "compressText",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "compressText \u2014 Squash text down into a shorter base64 string to store or send.\n  needs: text: string\n  e.g. \"compress this repeated sentence\" \u2192 {\"text\":\"the pigeon sat on the pigeon perch. the pigeon sat on the pigeon perch. the pigeon sat on the pigeon perch. \"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 100000,
+      "prompt": "Which text should I compress?"
+     }
+    }
+   },
+   "examples": [
+    "compress this repeated sentence",
+    "compress a short word",
+    "shrink this repeating pattern",
+    "compress a repeated list of names",
+    "make this repeated word smaller",
+    "squash this text down to something shorter",
+    "shrink this block of text"
+   ]
+  },
+  {
+   "name": "decompressText",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "decompressText \u2014 Unpack a compressed base64 blob back into the text it came from.\n  needs: compressed: string\n  e.g. \"decompress this string\" \u2192 {\"compressed\":\"AAAAbDoaDKIDgaTOZTebhAczCdBBCBBAIFBINDzgZTkYzQLohAYHBYPCYXDYfEY9FITFoxGo5Eo/D5FDoTJYnIIHF4zGwA==\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "compressed"
+    ],
+    "properties": {
+     "compressed": {
+      "type": "string",
+      "label": "compressed text",
+      "minLength": 1,
+      "prompt": "Which compressed string should I restore?"
+     }
+    }
+   },
+   "examples": [
+    "decompress this string",
+    "restore this compressed text",
+    "expand this back out",
+    "uncompress this list",
+    "what text does this compressed string hold"
+   ]
+  },
+  {
+   "name": "generatePassphrase",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "generatePassphrase \u2014 Generate a memorable passphrase from random words.\n  optional: words: integer, separator: string, capitalise: boolean, number: boolean\n  e.g. \"generate a passphrase\" \u2192 {}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "words": {
+      "type": "integer",
+      "label": "number of words",
+      "minimum": 2,
+      "maximum": 12,
+      "default": 5
+     },
+     "separator": {
+      "type": "string",
+      "label": "separator",
+      "maxLength": 3,
+      "default": "-"
+     },
+     "capitalise": {
+      "type": "boolean",
+      "label": "capitalise",
+      "default": false
+     },
+     "number": {
+      "type": "boolean",
+      "label": "add a number",
+      "default": false,
+      "description": "add a two-digit number on the end"
+     }
+    }
+   },
+   "examples": [
+    "generate a passphrase",
+    "make a memorable password from words",
+    "passphrase with six words separated by dots",
+    "generate a capitalised passphrase with a number",
+    "a long passphrase of eight words"
+   ]
+  },
+  {
+   "name": "generateRandomString",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "generateRandomString \u2014 Generate a random string of a given length from a character set you choose.\n  optional: length: integer, charset: string\n  e.g. \"generate a random string\" \u2192 {}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "length": {
+      "type": "integer",
+      "label": "length",
+      "minimum": 1,
+      "maximum": 512,
+      "default": 16
+     },
+     "charset": {
+      "type": "string",
+      "label": "character set",
+      "enum": [
+       "alphanumeric",
+       "letters",
+       "digits",
+       "hex",
+       "unambiguous",
+       "symbols"
+      ],
+      "default": "alphanumeric"
+     }
+    }
+   },
+   "examples": [
+    "generate a random string",
+    "make a 32 character random string",
+    "generate a random code people can read out",
+    "random hex string of 12",
+    "a strong random password with symbols"
+   ]
+  },
+  {
+   "name": "generateUuid",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "generateUuid \u2014 Generate a UUID \u2014 a GUID, a v4 random identifier \u2014 one or several.\n  optional: count: integer, uppercase: boolean\n  e.g. \"generate a uuid\" \u2192 {}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "count": {
+      "type": "integer",
+      "label": "how many",
+      "minimum": 1,
+      "maximum": 100,
+      "default": 1
+     },
+     "uppercase": {
+      "type": "boolean",
+      "label": "uppercase",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "generate a uuid",
+    "give me a v4 identifier",
+    "make 3 uuids",
+    "generate 5 unique ids",
+    "a uuid in capitals",
+    "give me a fresh guid",
+    "I need a new unique id"
+   ]
+  },
+  {
+   "name": "hashText",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "hashText \u2014 Work out the SHA hash of a piece of text.\n  needs: text: string\n  optional: algorithm: string\n  e.g. \"sha256 of hello\" \u2192 {\"text\":\"hello\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I hash?"
+     },
+     "algorithm": {
+      "type": "string",
+      "label": "algorithm",
+      "enum": [
+       "SHA-256",
+       "SHA-1",
+       "SHA-384",
+       "SHA-512"
+      ],
+      "default": "SHA-256"
+     }
+    }
+   },
+   "examples": [
+    "sha256 of hello",
+    "hash this string",
+    "sha1 of abc",
+    "sha512 of an empty-ish string",
+    "checksum this identifier"
+   ]
+  },
+  {
+   "name": "hexDecode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "hexDecode \u2014 Read hex byte values back as the characters they stand for.\n  needs: hex: string\n  e.g. \"decode 506967656f6e\" \u2192 {\"hex\":\"506967656f6e\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "hex"
+    ],
+    "properties": {
+     "hex": {
+      "type": "string",
+      "label": "hex",
+      "minLength": 2,
+      "prompt": "Which hex should I decode?"
+     }
+    }
+   },
+   "examples": [
+    "decode 506967656f6e",
+    "what is 68656c6c6f in text",
+    "decode hex written with spaces",
+    "decode hex with a 0x prefix",
+    "decode an accented byte pair",
+    "what text do the hex bytes 48656c6c6f spell out",
+    "turn this hex back into text"
+   ]
+  },
+  {
+   "name": "hexEncode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "hexEncode \u2014 Write text out as hexadecimal byte values.\n  needs: text: string\n  optional: separator: string, uppercase: boolean\n  e.g. \"hex encode Pigeon\" \u2192 {\"text\":\"Pigeon\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I encode?"
+     },
+     "separator": {
+      "type": "string",
+      "label": "byte separator",
+      "enum": [
+       "",
+       " ",
+       ":",
+       "-"
+      ],
+      "default": ""
+     },
+     "uppercase": {
+      "type": "boolean",
+      "label": "uppercase",
+      "default": false
+     }
+    }
+   },
+   "examples": [
+    "hex encode Pigeon",
+    "convert hello to hex",
+    "hex encode with spaces between bytes",
+    "uppercase hex for this text",
+    "hex encode an accented character"
+   ]
+  },
+  {
+   "name": "morseDecode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "morseDecode \u2014 Read dots and dashes back as the words they spell.\n  needs: morse: string\n  e.g. \"decode ... --- ...\" \u2192 {\"morse\":\"... --- ...\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "morse"
+    ],
+    "properties": {
+     "morse": {
+      "type": "string",
+      "label": "morse",
+      "minLength": 1,
+      "prompt": "Which Morse should I decode?"
+     }
+    }
+   },
+   "examples": [
+    "decode ... --- ...",
+    "what does this morse say",
+    "decode morse with a word break",
+    "decode morse numbers",
+    "decode morse using dashes and dots"
+   ]
+  },
+  {
+   "name": "morseEncode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "morseEncode \u2014 Write words out as Morse dots and dashes.\n  needs: text: string\n  e.g. \"morse code for SOS\" \u2192 {\"text\":\"SOS\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I encode?"
+     }
+    }
+   },
+   "examples": [
+    "morse code for SOS",
+    "encode hello in morse",
+    "morse for two words",
+    "encode a number in morse",
+    "morse code with a question mark"
+   ]
+  },
+  {
+   "name": "rot13",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "rot13 \u2014 Apply the ROT13 letter substitution, which is its own reverse.\n  needs: text: string\n  e.g. \"rot13 this text\" \u2192 {\"text\":\"Hello\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text?"
+     }
+    }
+   },
+   "examples": [
+    "rot13 this text",
+    "what does Uryyb say in rot13",
+    "rot13 a sentence",
+    "rot13 leaves numbers alone",
+    "rot13 a spoiler"
+   ]
+  },
+  {
+   "name": "urlDecode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "urlDecode \u2014 Turn %20-style escapes back into readable characters.\n  needs: text: string\n  optional: plusAsSpace: boolean\n  e.g. \"decode hello%20world\" \u2192 {\"text\":\"hello%20world\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which encoded text should I decode?"
+     },
+     "plusAsSpace": {
+      "type": "boolean",
+      "label": "+ means space",
+      "default": false,
+      "description": "treat + as a space, as form submissions do"
+     }
+    }
+   },
+   "examples": [
+    "decode hello%20world",
+    "what does caf%C3%A9 say",
+    "decode a query string value",
+    "decode a form-encoded value with plusses",
+    "decode text that is already plain"
+   ]
+  },
+  {
+   "name": "urlEncode",
+   "category": "encoding",
+   "needsNetwork": false,
+   "card": "urlEncode \u2014 Percent-escape text so it survives inside a web address.\n  needs: text: string\n  optional: scope: string\n  e.g. \"url encode \"hello world\"\" \u2192 {\"text\":\"hello world\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "prompt": "Which text should I encode?"
+     },
+     "scope": {
+      "type": "string",
+      "label": "whole url or part",
+      "enum": [
+       "component",
+       "full"
+      ],
+      "default": "component"
+     }
+    }
+   },
+   "examples": [
+    "url encode \"hello world\"",
+    "encode this for a query string",
+    "percent encode an accented word",
+    "encode a whole url leaving the slashes",
+    "encode text that needs no encoding",
+    "make this text safe for a url query: caf\u00e9 au lait",
+    "percent encode this for a web address: a&b=c"
+   ]
+  },
+  {
+   "name": "checkAnagram",
+   "category": "games",
+   "needsNetwork": false,
+   "card": "checkAnagram \u2014 Check whether two words or phrases use exactly the same letters.\n  needs: first: string, second: string\n  e.g. \"are listen and silent anagrams\" \u2192 {\"first\":\"listen\",\"second\":\"silent\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "first",
+     "second"
+    ],
+    "properties": {
+     "first": {
+      "type": "string",
+      "label": "first word or phrase",
+      "minLength": 1,
+      "maxLength": 200,
+      "prompt": "What is the first word or phrase?"
+     },
+     "second": {
+      "type": "string",
+      "label": "second word or phrase",
+      "minLength": 1,
+      "maxLength": 200,
+      "prompt": "And the second?"
+     }
+    }
+   },
+   "examples": [
+    "are listen and silent anagrams",
+    "is dormitory an anagram of dirty room",
+    "are hello and world anagrams",
+    "check astronomer and moon starer",
+    "is abc an anagram of abcd"
+   ]
+  },
+  {
+   "name": "checkPalindrome",
+   "category": "games",
+   "needsNetwork": false,
+   "card": "checkPalindrome \u2014 Check whether a word or phrase reads the same backwards.\n  needs: text: string\n  optional: strict: boolean\n  e.g. \"is racecar a palindrome\" \u2192 {\"text\":\"racecar\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "text"
+    ],
+    "properties": {
+     "text": {
+      "type": "string",
+      "label": "text",
+      "minLength": 1,
+      "maxLength": 2000,
+      "prompt": "What should I check?"
+     },
+     "strict": {
+      "type": "boolean",
+      "label": "count every character",
+      "default": false,
+      "description": "count spaces, punctuation and capitals as part of the text"
+     }
+    }
+   },
+   "examples": [
+    "is racecar a palindrome",
+    "check if this phrase is a palindrome",
+    "is hello a palindrome",
+    "was it a car or a cat i saw",
+    "check never odd or even strictly",
+    "is noon spelt the same forwards and backwards",
+    "is this phrase the same backwards: never odd or even"
+   ]
+  },
+  {
+   "name": "magicEightBall",
+   "category": "games",
+   "needsNetwork": false,
+   "card": "magicEightBall \u2014 Give a magic eight ball answer to a yes or no question.\n  optional: question: string\n  e.g. \"magic eight ball, will it rain tomorrow\" \u2192 {\"question\":\"will it rain tomorrow\"}",
+   "inputSchema": {
+    "type": "object",
+    "properties": {
+     "question": {
+      "type": "string",
+      "label": "question",
+      "maxLength": 500,
+      "description": "the question you are asking"
+     }
+    }
+   },
+   "examples": [
+    "magic eight ball, will it rain tomorrow",
+    "ask the magic 8 ball",
+    "should I take the job",
+    "eight ball says",
+    "shake the magic eight ball for me"
+   ]
+  },
+  {
+   "name": "scrabbleScore",
+   "category": "games",
+   "needsNetwork": false,
+   "card": "scrabbleScore \u2014 Add up what a word is worth in Scrabble tile values.\n  needs: word: string\n  e.g. \"what does pigeon score in scrabble\" \u2192 {\"word\":\"pigeon\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "word"
+    ],
+    "properties": {
+     "word": {
+      "type": "string",
+      "label": "word",
+      "minLength": 1,
+      "maxLength": 40,
+      "prompt": "Which word should I score?"
+     }
+    }
+   },
+   "examples": [
+    "what does pigeon score in scrabble",
+    "scrabble score for quiz",
+    "how many points is jazz worth",
+    "score the word hello",
+    "points for xylophone",
+    "how much is the word quiz worth in scrabble tiles",
+    "how many points is jazz worth in scrabble"
+   ]
+  },
+  {
+   "name": "solveAnagram",
+   "category": "games",
+   "needsNetwork": false,
+   "card": "solveAnagram \u2014 Rearrange all the letters of a word into the other words they spell.\n  needs: letters: string\n  e.g. \"unscramble listen\" \u2192 {\"letters\":\"listen\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "letters"
+    ],
+    "properties": {
+     "letters": {
+      "type": "string",
+      "label": "letters",
+      "minLength": 2,
+      "maxLength": 9,
+      "prompt": "Which letters should I unscramble?"
+     }
+    }
+   },
+   "examples": [
+    "unscramble listen",
+    "what words can I make from stop",
+    "solve the anagram tea",
+    "anagram of pigeon",
+    "unscramble the letters rat"
+   ]
+  },
+  {
+   "name": "wordleFilter",
+   "category": "games",
+   "needsNetwork": false,
+   "card": "wordleFilter \u2014 Narrow a word list down from green, yellow and grey letter clues.\n  needs: pattern: string\n  optional: present: string, absent: string, limit: integer\n  e.g. \"wordle: green c at the start, k in the middle\" \u2192 {\"pattern\":\"c..k.\"}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "pattern"
+    ],
+    "properties": {
+     "pattern": {
+      "type": "string",
+      "label": "green letters",
+      "minLength": 1,
+      "maxLength": 12,
+      "prompt": "What are the green letters? Use a dot for each unknown, like c..k."
+     },
+     "present": {
+      "type": "string",
+      "label": "yellow letters",
+      "maxLength": 26,
+      "default": ""
+     },
+     "absent": {
+      "type": "string",
+      "label": "grey letters",
+      "maxLength": 26,
+      "default": ""
+     },
+     "limit": {
+      "type": "integer",
+      "label": "max words shown",
+      "minimum": 1,
+      "maximum": 50,
+      "default": 12
+     }
+    }
+   },
+   "examples": [
+    "wordle: green c at the start, k in the middle",
+    "five letters starting cr, no e",
+    "pattern .a.e. with an r somewhere",
+    "what fits s..re with no t or n",
+    "four letters, ends in ing",
+    "green s_a_e, yellow t, grey ru"
+   ]
+  },
+  {
+   "name": "wordsFromLetters",
+   "category": "games",
+   "needsNetwork": false,
+   "card": "wordsFromLetters \u2014 Build every shorter word you can from a pool of letters, using some of them.\n  needs: letters: string\n  optional: minLength: integer, limit: integer\n  e.g. \"what words can I make from pigeon\" \u2192 {\"letters\":\"pigeon\",\"minLength\":4}",
+   "inputSchema": {
+    "type": "object",
+    "required": [
+     "letters"
+    ],
+    "properties": {
+     "letters": {
+      "type": "string",
+      "label": "letters",
+      "minLength": 2,
+      "maxLength": 12,
+      "prompt": "Which letters do you have?"
+     },
+     "minLength": {
+      "type": "integer",
+      "label": "min word length",
+      "minimum": 2,
+      "maximum": 9,
+      "default": 3
+     },
+     "limit": {
+      "type": "integer",
+      "label": "max words shown",
+      "minimum": 1,
+      "maximum": 200,
+      "default": 40
+     }
+    }
+   },
+   "examples": [
+    "what words can I make from pigeon",
+    "words from the letters stop",
+    "make words from cat",
+    "five letter words from crane",
+    "longest words I can spell with tables",
+    "which words of at least four letters fit from these letters: plate",
+    "what four-letter-or-longer words can I spell with the tiles stone"
+   ]
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "base64Decode",
+    "base64Encode"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "base64Decode \u2014 Decode plain base64 back into readable text \u2014 un-base64 a string.\n  needs: base64: string\n  e.g. \"decode aGVsbG8gd29ybGQ=\" \u2192 {\"base64\":\"aGVsbG8gd29ybGQ=\"}",
+    "base64Encode \u2014 Encode text as base64.\n  needs: text: string\n  optional: urlSafe: boolean\n  e.g. \"base64 encode hello world\" \u2192 {\"text\":\"hello world\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "base64"
+     ],
+     "properties": {
+      "base64": {
+       "type": "string",
+       "label": "base64",
+       "minLength": 1,
+       "prompt": "Which base64 should I decode?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I encode?"
+      },
+      "urlSafe": {
+       "type": "boolean",
+       "label": "url-safe",
+       "default": false,
+       "description": "use - and _ and drop the padding"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "binaryDecode",
+    "binaryEncode"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "binaryDecode \u2014 Read a run of 1s and 0s back into the message it spells.\n  needs: binary: string\n  e.g. \"decode this binary\" \u2192 {\"binary\":\"01000001\"}",
+    "binaryEncode \u2014 Write text out as 1s and 0s, eight bits to a byte.\n  needs: text: string\n  optional: separator: string\n  e.g. \"convert A to binary\" \u2192 {\"text\":\"A\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "binary"
+     ],
+     "properties": {
+      "binary": {
+       "type": "string",
+       "label": "binary",
+       "minLength": 1,
+       "prompt": "Which binary digits should I decode?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I turn into binary?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "byte separator",
+       "maxLength": 1,
+       "default": " ",
+       "description": "what to put between each byte"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "binaryEncode",
+    "hexEncode"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "binaryEncode \u2014 Write text out as 1s and 0s, eight bits to a byte.\n  needs: text: string\n  optional: separator: string\n  e.g. \"convert A to binary\" \u2192 {\"text\":\"A\"}",
+    "hexEncode \u2014 Write text out as hexadecimal byte values.\n  needs: text: string\n  optional: separator: string, uppercase: boolean\n  e.g. \"hex encode Pigeon\" \u2192 {\"text\":\"Pigeon\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I turn into binary?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "byte separator",
+       "maxLength": 1,
+       "default": " ",
+       "description": "what to put between each byte"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I encode?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "byte separator",
+       "enum": [
+        "",
+        " ",
+        ":",
+        "-"
+       ],
+       "default": ""
+      },
+      "uppercase": {
+       "type": "boolean",
+       "label": "uppercase",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "checkAnagram",
+    "checkPalindrome"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "checkAnagram \u2014 Check whether two words or phrases use exactly the same letters.\n  needs: first: string, second: string\n  e.g. \"are listen and silent anagrams\" \u2192 {\"first\":\"listen\",\"second\":\"silent\"}",
+    "checkPalindrome \u2014 Check whether a word or phrase reads the same backwards.\n  needs: text: string\n  optional: strict: boolean\n  e.g. \"is racecar a palindrome\" \u2192 {\"text\":\"racecar\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "first",
+      "second"
+     ],
+     "properties": {
+      "first": {
+       "type": "string",
+       "label": "first word or phrase",
+       "minLength": 1,
+       "maxLength": 200,
+       "prompt": "What is the first word or phrase?"
+      },
+      "second": {
+       "type": "string",
+       "label": "second word or phrase",
+       "minLength": 1,
+       "maxLength": 200,
+       "prompt": "And the second?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 2000,
+       "prompt": "What should I check?"
+      },
+      "strict": {
+       "type": "boolean",
+       "label": "count every character",
+       "default": false,
+       "description": "count spaces, punctuation and capitals as part of the text"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "compressText",
+    "decompressText"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "compressText \u2014 Squash text down into a shorter base64 string to store or send.\n  needs: text: string\n  e.g. \"compress this repeated sentence\" \u2192 {\"text\":\"the pigeon sat on the pigeon perch. the pigeon sat on the pigeon perch. the pigeon sat on the pigeon perch. \"}",
+    "decompressText \u2014 Unpack a compressed base64 blob back into the text it came from.\n  needs: compressed: string\n  e.g. \"decompress this string\" \u2192 {\"compressed\":\"AAAAbDoaDKIDgaTOZTebhAczCdBBCBBAIFBINDzgZTkYzQLohAYHBYPCYXDYfEY9FITFoxGo5Eo/D5FDoTJYnIIHF4zGwA==\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "maxLength": 100000,
+       "prompt": "Which text should I compress?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "compressed"
+     ],
+     "properties": {
+      "compressed": {
+       "type": "string",
+       "label": "compressed text",
+       "minLength": 1,
+       "prompt": "Which compressed string should I restore?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generatePassphrase",
+    "generateRandomString"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "generatePassphrase \u2014 Generate a memorable passphrase from random words.\n  optional: words: integer, separator: string, capitalise: boolean, number: boolean\n  e.g. \"generate a passphrase\" \u2192 {}",
+    "generateRandomString \u2014 Generate a random string of a given length from a character set you choose.\n  optional: length: integer, charset: string\n  e.g. \"generate a random string\" \u2192 {}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "properties": {
+      "words": {
+       "type": "integer",
+       "label": "number of words",
+       "minimum": 2,
+       "maximum": 12,
+       "default": 5
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "maxLength": 3,
+       "default": "-"
+      },
+      "capitalise": {
+       "type": "boolean",
+       "label": "capitalise",
+       "default": false
+      },
+      "number": {
+       "type": "boolean",
+       "label": "add a number",
+       "default": false,
+       "description": "add a two-digit number on the end"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "properties": {
+      "length": {
+       "type": "integer",
+       "label": "length",
+       "minimum": 1,
+       "maximum": 512,
+       "default": 16
+      },
+      "charset": {
+       "type": "string",
+       "label": "character set",
+       "enum": [
+        "alphanumeric",
+        "letters",
+        "digits",
+        "hex",
+        "unambiguous",
+        "symbols"
+       ],
+       "default": "alphanumeric"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generatePassphrase",
+    "generateUuid"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "generatePassphrase \u2014 Generate a memorable passphrase from random words.\n  optional: words: integer, separator: string, capitalise: boolean, number: boolean\n  e.g. \"generate a passphrase\" \u2192 {}",
+    "generateUuid \u2014 Generate a UUID \u2014 a GUID, a v4 random identifier \u2014 one or several.\n  optional: count: integer, uppercase: boolean\n  e.g. \"generate a uuid\" \u2192 {}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "properties": {
+      "words": {
+       "type": "integer",
+       "label": "number of words",
+       "minimum": 2,
+       "maximum": 12,
+       "default": 5
+      },
+      "separator": {
+       "type": "string",
+       "label": "separator",
+       "maxLength": 3,
+       "default": "-"
+      },
+      "capitalise": {
+       "type": "boolean",
+       "label": "capitalise",
+       "default": false
+      },
+      "number": {
+       "type": "boolean",
+       "label": "add a number",
+       "default": false,
+       "description": "add a two-digit number on the end"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "properties": {
+      "count": {
+       "type": "integer",
+       "label": "how many",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 1
+      },
+      "uppercase": {
+       "type": "boolean",
+       "label": "uppercase",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateRandomString",
+    "generateUuid"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "generateRandomString \u2014 Generate a random string of a given length from a character set you choose.\n  optional: length: integer, charset: string\n  e.g. \"generate a random string\" \u2192 {}",
+    "generateUuid \u2014 Generate a UUID \u2014 a GUID, a v4 random identifier \u2014 one or several.\n  optional: count: integer, uppercase: boolean\n  e.g. \"generate a uuid\" \u2192 {}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "properties": {
+      "length": {
+       "type": "integer",
+       "label": "length",
+       "minimum": 1,
+       "maximum": 512,
+       "default": 16
+      },
+      "charset": {
+       "type": "string",
+       "label": "character set",
+       "enum": [
+        "alphanumeric",
+        "letters",
+        "digits",
+        "hex",
+        "unambiguous",
+        "symbols"
+       ],
+       "default": "alphanumeric"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "properties": {
+      "count": {
+       "type": "integer",
+       "label": "how many",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 1
+      },
+      "uppercase": {
+       "type": "boolean",
+       "label": "uppercase",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generateUuid",
+    "validateUuid"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (twin across categories)"
+   ],
+   "cards": [
+    "generateUuid \u2014 Generate a UUID \u2014 a GUID, a v4 random identifier \u2014 one or several.\n  optional: count: integer, uppercase: boolean\n  e.g. \"generate a uuid\" \u2192 {}",
+    "validateUuid \u2014 Test a UUID and say which version it is.\n  needs: uuid: string\n  e.g. \"is this a valid uuid\" \u2192 {\"uuid\":\"550e8400-e29b-41d4-a716-446655440000\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "properties": {
+      "count": {
+       "type": "integer",
+       "label": "how many",
+       "minimum": 1,
+       "maximum": 100,
+       "default": 1
+      },
+      "uppercase": {
+       "type": "boolean",
+       "label": "uppercase",
+       "default": false
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "uuid"
+     ],
+     "properties": {
+      "uuid": {
+       "type": "string",
+       "label": "uuid",
+       "minLength": 1,
+       "prompt": "Which UUID should I check?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "hexDecode",
+    "hexEncode"
+   ],
+   "minimal_pairs": 3,
+   "why": [
+    "bench miss (near-twin)"
+   ],
+   "cards": [
+    "hexDecode \u2014 Read hex byte values back as the characters they stand for.\n  needs: hex: string\n  e.g. \"decode 506967656f6e\" \u2192 {\"hex\":\"506967656f6e\"}",
+    "hexEncode \u2014 Write text out as hexadecimal byte values.\n  needs: text: string\n  optional: separator: string, uppercase: boolean\n  e.g. \"hex encode Pigeon\" \u2192 {\"text\":\"Pigeon\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "hex"
+     ],
+     "properties": {
+      "hex": {
+       "type": "string",
+       "label": "hex",
+       "minLength": 2,
+       "prompt": "Which hex should I decode?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I encode?"
+      },
+      "separator": {
+       "type": "string",
+       "label": "byte separator",
+       "enum": [
+        "",
+        " ",
+        ":",
+        "-"
+       ],
+       "default": ""
+      },
+      "uppercase": {
+       "type": "boolean",
+       "label": "uppercase",
+       "default": false
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "hexDecode",
+    "morseDecode"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "hexDecode \u2014 Read hex byte values back as the characters they stand for.\n  needs: hex: string\n  e.g. \"decode 506967656f6e\" \u2192 {\"hex\":\"506967656f6e\"}",
+    "morseDecode \u2014 Read dots and dashes back as the words they spell.\n  needs: morse: string\n  e.g. \"decode ... --- ...\" \u2192 {\"morse\":\"... --- ...\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "hex"
+     ],
+     "properties": {
+      "hex": {
+       "type": "string",
+       "label": "hex",
+       "minLength": 2,
+       "prompt": "Which hex should I decode?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "morse"
+     ],
+     "properties": {
+      "morse": {
+       "type": "string",
+       "label": "morse",
+       "minLength": 1,
+       "prompt": "Which Morse should I decode?"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "twins": [
+    "morseDecode",
+    "morseEncode"
+   ],
+   "minimal_pairs": 2,
+   "why": [
+    "cards"
+   ],
+   "cards": [
+    "morseDecode \u2014 Read dots and dashes back as the words they spell.\n  needs: morse: string\n  e.g. \"decode ... --- ...\" \u2192 {\"morse\":\"... --- ...\"}",
+    "morseEncode \u2014 Write words out as Morse dots and dashes.\n  needs: text: string\n  e.g. \"morse code for SOS\" \u2192 {\"text\":\"SOS\"}"
+   ],
+   "inputSchemas": [
+    {
+     "type": "object",
+     "required": [
+      "morse"
+     ],
+     "properties": {
+      "morse": {
+       "type": "string",
+       "label": "morse",
+       "minLength": 1,
+       "prompt": "Which Morse should I decode?"
+      }
+     }
+    },
+    {
+     "type": "object",
+     "required": [
+      "text"
+     ],
+     "properties": {
+      "text": {
+       "type": "string",
+       "label": "text",
+       "minLength": 1,
+       "prompt": "Which text should I encode?"
+      }
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1 @@
+You are given a MESSAGE and two to four SKILLS. The first skill is the DRAFT choice. Reply with the name of the one skill that does exactly what the message asks, and nothing else. Keep the draft unless another skill clearly fits better.

@@ -1,0 +1,13 @@
+{
+  "id": "message-first",
+  "hypothesis": "a 2B reads left to right; today it reads twenty cards before it learns the question",
+  "flags": [],
+  "prompt": "message-first",
+  "needs": [
+    "planner",
+    "category"
+  ],
+  "rule": "(correct >= control.correct + 4 or siblings <= control.siblings - 4) and leaks <= control.leaks",
+  "reads": null,
+  "added": "2026-09-08"
+}

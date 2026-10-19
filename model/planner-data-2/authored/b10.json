@@ -1,0 +1,7583 @@
+{
+ "rows": [
+  {
+   "skill": "aspectRatio",
+   "message": "my monitor is 2560 x 1440, what ratio is that",
+   "input": {
+    "width": 2560,
+    "height": 1440
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "ratio for 1280x720?",
+   "input": {
+    "width": 1280,
+    "height": 720
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "I'm cropping a banner that's 3000 pixels wide and 1000 tall. What aspect ratio does that work out to?",
+   "input": {
+    "width": 3000,
+    "height": 1000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "Could you tell me the screen ratio of a 1366 by 768 laptop display?",
+   "input": {
+    "width": 1366,
+    "height": 768
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "photo is 4032 wide, 3024 high. ratio pls",
+   "input": {
+    "width": 4032,
+    "height": 3024
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "Work out the aspect ratio of a 2048×1536 tablet screen",
+   "input": {
+    "width": 2048,
+    "height": 1536
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "we're printing posters at 600mm by 900mm — what's that as a ratio like 2:3?",
+   "input": {
+    "width": 600,
+    "height": 900
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "teacher here: the projector says 1024 by 600 native. Which ratio is that, roughly 16:9 or something else?",
+   "input": {
+    "width": 1024,
+    "height": 600
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "express 3440x1440 ultrawide as a w:h ratio",
+   "input": {
+    "width": 3440,
+    "height": 1440
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "Instagram story canvas 1080 wide by 1920 tall, what's the ratio",
+   "input": {
+    "width": 1080,
+    "height": 1920
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "what ratio would a 500 by 500 thumbnail be",
+   "input": {
+    "width": 500,
+    "height": 500
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "Simplify the dimensions 7680 x 4320 into a display ratio, please.",
+   "input": {
+    "width": 7680,
+    "height": 4320
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "gaming at 1680x1050, what aspect ratio is that - 16:10 or 16:9?",
+   "input": {
+    "width": 1680,
+    "height": 1050
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "My canvas is 2,400 px across and 1,800 px down. Which aspect ratio is it?",
+   "input": {
+    "width": 2400,
+    "height": 1800
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "aspect ratio check: 750 wide, 1334 tall (old iphone)",
+   "input": {
+    "width": 750,
+    "height": 1334
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "Need the ratio of a 1200 × 628 social share image for the brief",
+   "input": {
+    "width": 1200,
+    "height": 628
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "a frame 36mm wide and 24mm tall, what's its aspect ratio",
+   "input": {
+    "width": 36,
+    "height": 24
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "What is the width-to-height ratio of a 1600 by 900 window?",
+   "input": {
+    "width": 1600,
+    "height": 900
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "cinema scope footage at 2048 by 858, give me the ratio",
+   "input": {
+    "width": 2048,
+    "height": 858
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "how does 1440 x 900 reduce as a screen ratio",
+   "input": {
+    "width": 1440,
+    "height": 900
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "Turn 2732 by 2048 into an aspect ratio — it's the big iPad.",
+   "input": {
+    "width": 2732,
+    "height": 2048
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "Find the aspect ratio of my screen for me",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "what aspect ratio is the video I'm editing? I'll give you the size",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "retiree here, new telly is 3840 wide and 1600 tall, what ratio is that?",
+   "input": {
+    "width": 3840,
+    "height": 1600
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "aspectRatio",
+   "message": "banner ad 728 by 90 — ratio?",
+   "input": {
+    "width": 728,
+    "height": 90
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "complementary colour for #E07A5F?",
+   "input": {
+    "color": "#E07A5F"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "I'm painting a feature wall in #3D405B and want an accent from the other side of the colour wheel. Which colour is that?",
+   "input": {
+    "color": "#3D405B"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "what sits opposite rgb(200, 30, 90) on the color wheel",
+   "input": {
+    "color": "rgb(200, 30, 90)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "Give me the complement of hsl(45, 90%, 55%) please",
+   "input": {
+    "color": "hsl(45, 90%, 55%)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "opposite hue of #81B29A",
+   "input": {
+    "color": "#81B29A"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "our shop logo is #F2CC8F — which colour would clash nicely as its exact opposite?",
+   "input": {
+    "color": "#F2CC8F"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "Find the complementary color of #0077B6 for my slide deck.",
+   "input": {
+    "color": "#0077B6"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "whats the colour wheel opposite of #ff9f1c",
+   "input": {
+    "color": "#ff9f1c"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "Compute the complement of #6A4C93.",
+   "input": {
+    "color": "#6A4C93"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "art student: need the complementary for rgb(34, 139, 34) for a colour theory exercise",
+   "input": {
+    "color": "rgb(34, 139, 34)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "which colour is directly across the wheel from #c0392b?",
+   "input": {
+    "color": "#c0392b"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "Knitting a scarf in #8E44AD yarn. What's the complementary shade for the stripe?",
+   "input": {
+    "color": "#8E44AD"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "complement of #2a9d8f",
+   "input": {
+    "color": "#2a9d8f"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "Could you show me the opposite colour to hsl(200, 70%, 40%)?",
+   "input": {
+    "color": "hsl(200, 70%, 40%)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "button bg is #FFB703, need its complementary for hover text",
+   "input": {
+    "color": "#FFB703"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "Tell me the complementary hue for #264653, quick",
+   "input": {
+    "color": "#264653"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "For a florist's window display in #F4A261, what's the opposite colour on the wheel?",
+   "input": {
+    "color": "#F4A261"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "get complementary of #abc",
+   "input": {
+    "color": "#abc"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "Which colour complements rgb(255, 99, 71) — the true opposite?",
+   "input": {
+    "color": "rgb(255, 99, 71)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "what's the complementary colour to the one I picked",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "Find the opposite on the colour wheel for my brand colour, I'll paste it in a sec",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "team kit is #1D3557 navy. what's the complementary colour for the away kit?",
+   "input": {
+    "color": "#1D3557"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "complementary of #E63946 for a poster headline",
+   "input": {
+    "color": "#E63946"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "complementaryColor",
+   "message": "Please work out the colour opposite #A8DADC.",
+   "input": {
+    "color": "#A8DADC"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "is #767676 text on #FFFFFF readable enough for WCAG?",
+   "input": {
+    "foreground": "#767676",
+    "background": "#FFFFFF"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "contrast ratio of #FFD166 on #073B4C",
+   "input": {
+    "foreground": "#FFD166",
+    "background": "#073B4C"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "I've got white text, #FFFFFF, sitting on an orange button #F77F00. Is the contrast enough to pass AA?",
+   "input": {
+    "foreground": "#FFFFFF",
+    "background": "#F77F00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "Check whether #555555 lettering on a #EEEEEE panel meets AAA.",
+   "input": {
+    "foreground": "#555555",
+    "background": "#EEEEEE"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "accessibility check: text rgb(100, 100, 100) on background rgb(240, 240, 240)",
+   "input": {
+    "foreground": "rgb(100, 100, 100)",
+    "background": "rgb(240, 240, 240)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "Our headings are 24pt, colour #E76F51 on #FFFFFF. Large text — does it pass AA?",
+   "input": {
+    "foreground": "#E76F51",
+    "background": "#FFFFFF",
+    "largeText": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "how much contrast between #2B2D42 and #8D99AE (text is the first one)",
+   "input": {
+    "foreground": "#2B2D42",
+    "background": "#8D99AE"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "WCAG ratio for #00FF00 text on #000000 bg",
+   "input": {
+    "foreground": "#00FF00",
+    "background": "#000000"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "Would light grey #CCCCCC text be legible on my white #FFFFFF page for older readers?",
+   "input": {
+    "foreground": "#CCCCCC",
+    "background": "#FFFFFF"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "nurse here making a ward poster: #D62828 writing on #FCBF49 card, can people read it?",
+   "input": {
+    "foreground": "#D62828",
+    "background": "#FCBF49"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "Does #6C757D on #F8F9FA meet the AA contrast minimum?",
+   "input": {
+    "foreground": "#6C757D",
+    "background": "#F8F9FA"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "contrast check, big bold title: #3A86FF over #FFFFFF",
+   "input": {
+    "foreground": "#3A86FF",
+    "background": "#FFFFFF",
+    "largeText": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "Compare the contrast of #FFFFFF text against a #2A9D8F teal banner for accessibility",
+   "input": {
+    "foreground": "#FFFFFF",
+    "background": "#2A9D8F"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "is yellow #FFFF00 text on white #FFFFFF as bad as I think? give me the ratio",
+   "input": {
+    "foreground": "#FFFF00",
+    "background": "#FFFFFF"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "Measure the contrast of #333 on #fafafa",
+   "input": {
+    "foreground": "#333",
+    "background": "#fafafa"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "dark mode contrast: body copy #B0B0B0 on #121212 — AA or not?",
+   "input": {
+    "foreground": "#B0B0B0",
+    "background": "#121212"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "Please tell me if hsl(0, 0%, 45%) text passes on a hsl(0, 0%, 100%) background.",
+   "input": {
+    "foreground": "hsl(0, 0%, 45%)",
+    "background": "hsl(0, 0%, 100%)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "link colour #1A73E8 on #FFFFFF, enough contrast?",
+   "input": {
+    "foreground": "#1A73E8",
+    "background": "#FFFFFF"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "Menu board: chalk white #F1FAEE on #1D3557. Ratio?",
+   "input": {
+    "foreground": "#F1FAEE",
+    "background": "#1D3557"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "check the contrast between my text colour and the background I chose",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "does my button's label have enough contrast against its fill? colours to follow",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "WCAG contrast on #9B5DE5 text with a #F15BB5 background",
+   "input": {
+    "foreground": "#9B5DE5",
+    "background": "#F15BB5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "Large 20pt bold label in #808080 on #FFFFFF, does the contrast ratio pass?",
+   "input": {
+    "foreground": "#808080",
+    "background": "#FFFFFF",
+    "largeText": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "contrastRatio",
+   "message": "how readable is #E9C46A type on a #264653 background",
+   "input": {
+    "foreground": "#E9C46A",
+    "background": "#264653"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "what's #3A86FF in rgb",
+   "input": {
+    "color": "#3A86FF"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "I need rgb(255, 190, 11) as a hex code for my CSS file.",
+   "input": {
+    "color": "rgb(255, 190, 11)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "Convert hsl(330, 80%, 60%) to hex and rgb, please.",
+   "input": {
+    "color": "hsl(330, 80%, 60%)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "hex to hsl: #2D6A4F",
+   "input": {
+    "color": "#2D6A4F"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "The printer guy wants RGB numbers but I only have the hex #B5838D. Can you translate it?",
+   "input": {
+    "color": "#B5838D"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "give me the hsl values for rgb(52, 73, 94)",
+   "input": {
+    "color": "rgb(52, 73, 94)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "#f72585 → rgb + hsl",
+   "input": {
+    "color": "#f72585"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "Could you express #FFE5B4 in HSL format?",
+   "input": {
+    "color": "#FFE5B4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "turn rgb(0, 128, 128) into a hex value",
+   "input": {
+    "color": "rgb(0, 128, 128)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "what hex code is hsl(210, 50%, 30%)",
+   "input": {
+    "color": "hsl(210, 50%, 30%)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "Translate the colour #7209B7 into its RGB channels.",
+   "input": {
+    "color": "#7209B7"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "dev here, need #0f0 expanded and converted to rgb()",
+   "input": {
+    "color": "#0f0"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "My paint app shows rgb(233, 196, 106). What's that in hex and HSL?",
+   "input": {
+    "color": "rgb(233, 196, 106)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "convert colour #14213D to hsl",
+   "input": {
+    "color": "#14213D"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "Change hsl(15, 100%, 50%) over to rgb for me.",
+   "input": {
+    "color": "hsl(15, 100%, 50%)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "#9D4EDD in rgb and hsl pls",
+   "input": {
+    "color": "#9D4EDD"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "Which hex corresponds to rgb(244, 162, 97)?",
+   "input": {
+    "color": "rgb(244, 162, 97)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "teacher prepping a lesson: show #E9D8A6 as RGB and HSL",
+   "input": {
+    "color": "#E9D8A6"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "convert this colour code to rgb",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertColor",
+   "message": "what's my brand colour in hsl? I'll send the hex",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertColor",
+   "message": "Please convert the hex code below into RGB values.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "convertColor",
+   "message": "rgba(10, 20, 30, 0.5) to hex?",
+   "input": {
+    "color": "rgba(10, 20, 30, 0.5)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "Write #005F73 out as rgb() and hsl()",
+   "input": {
+    "color": "#005F73"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "convertColor",
+   "message": "swap rgb(148, 210, 189) to hex notation",
+   "input": {
+    "color": "rgb(148, 210, 189)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "make #F4A261 30% darker",
+   "input": {
+    "color": "#F4A261",
+    "by": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "I want a hover state for my button #2A9D8F — darken it by 15 percent.",
+   "input": {
+    "color": "#2A9D8F",
+    "by": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "shade #E76F51 a bit darker",
+   "input": {
+    "color": "#E76F51"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "Could you darken rgb(120, 180, 240) by 25%?",
+   "input": {
+    "color": "rgb(120, 180, 240)",
+    "by": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "take hsl(50, 90%, 60%) down 40% towards black",
+   "input": {
+    "color": "hsl(50, 90%, 60%)",
+    "by": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "Need a deeper version of #FFB4A2 for borders. Darken by 20.",
+   "input": {
+    "color": "#FFB4A2",
+    "by": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "darker #8ECAE6 by 5%",
+   "input": {
+    "color": "#8ECAE6",
+    "by": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "Our café sign is #DDA15E. Give me a shade of it 35% darker for the trim.",
+   "input": {
+    "color": "#DDA15E",
+    "by": 35
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "Please darken #FFFFFF by 75 percent.",
+   "input": {
+    "color": "#FFFFFF",
+    "by": 75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "how would #A2D2FF look if I darkened it by 60%",
+   "input": {
+    "color": "#A2D2FF",
+    "by": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "darken colour #cdb4db",
+   "input": {
+    "color": "#cdb4db"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "For the pressed state, darken #06D6A0 by 12%.",
+   "input": {
+    "color": "#06D6A0",
+    "by": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "shade rgb(255, 200, 87) toward black by half",
+   "input": {
+    "color": "rgb(255, 200, 87)",
+    "by": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "Darken the gold #FFD700 by 10 per cent for text on cream.",
+   "input": {
+    "color": "#FFD700",
+    "by": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "I'm a quilter matching fabric — what's #E0AFA0 darkened 45%?",
+   "input": {
+    "color": "#E0AFA0",
+    "by": 45
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "darken this colour by 20 percent",
+   "input": {
+    "by": 20
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "can you shade my accent colour darker? sending it now",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "hsl(280, 60%, 70%) 18% darker please",
+   "input": {
+    "color": "hsl(280, 60%, 70%)",
+    "by": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "Give me a darker shade of #90BE6D, about 22%.",
+   "input": {
+    "color": "#90BE6D",
+    "by": 22
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "darken #43AA8B by 8%, need it for a footer",
+   "input": {
+    "color": "#43AA8B",
+    "by": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "What does #F9C74F become when darkened by 65%?",
+   "input": {
+    "color": "#F9C74F",
+    "by": 65
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "tone down #FF006E, 28 percent darker",
+   "input": {
+    "color": "#FF006E",
+    "by": 28
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "Darken #577590 slightly for the nav bar, by 7 percent.",
+   "input": {
+    "color": "#577590",
+    "by": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "darkenColor",
+   "message": "shade #c9ada7 towards black 33%",
+   "input": {
+    "color": "#c9ada7",
+    "by": 33
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "make me a colour palette from #E07A5F",
+   "input": {
+    "color": "#E07A5F"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "I'm starting a bakery website and our main colour is #F2CC8F. Could you build a triadic scheme around it?",
+   "input": {
+    "color": "#F2CC8F",
+    "scheme": "triadic"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "split-complementary palette based on #3D5A80",
+   "input": {
+    "color": "#3D5A80",
+    "scheme": "split-complementary"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "Generate a tetradic colour scheme starting from rgb(152, 193, 217).",
+   "input": {
+    "color": "rgb(152, 193, 217)",
+    "scheme": "tetradic"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "give me 7 tints of #293241 for a dashboard",
+   "input": {
+    "color": "#293241",
+    "scheme": "tints",
+    "count": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "Need a set of 3 shades from #EE6C4D for charts.",
+   "input": {
+    "color": "#EE6C4D",
+    "scheme": "shades",
+    "count": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "palette around hsl(160, 50%, 45%), analogous",
+   "input": {
+    "color": "hsl(160, 50%, 45%)",
+    "scheme": "analogous"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "wedding planner here — the bride loves #D8A7B1. Can you build a complementary colour palette from it?",
+   "input": {
+    "color": "#D8A7B1",
+    "scheme": "complementary"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "build palette #6D597A",
+   "input": {
+    "color": "#6D597A"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "Create a colour scheme of six tints based on #355070",
+   "input": {
+    "color": "#355070",
+    "scheme": "tints",
+    "count": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "what colours go with #B56576? triadic please",
+   "input": {
+    "color": "#B56576",
+    "scheme": "triadic"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "Could you derive an analogous palette for my game's UI from #8338EC?",
+   "input": {
+    "color": "#8338EC",
+    "scheme": "analogous"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "10 shades of #FF006E for a heatmap scale",
+   "input": {
+    "color": "#FF006E",
+    "scheme": "shades",
+    "count": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "Put together a split-complementary set of colours around rgb(255, 190, 11).",
+   "input": {
+    "color": "rgb(255, 190, 11)",
+    "scheme": "split-complementary"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "tetradic palette, base #06D6A0",
+   "input": {
+    "color": "#06D6A0",
+    "scheme": "tetradic"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "I run a small flower shop. Our green is #606C38 — what palette of matching colours could I use on the menu cards?",
+   "input": {
+    "color": "#606C38"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "generate a colour palette based on my logo colour",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "build a triadic scheme around the colour I'm about to send",
+   "input": {
+    "scheme": "triadic"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "I'd like a palette of colours built off our brand hex, which I'll paste below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "Four tints of #BC6C25 for a slide theme, please.",
+   "input": {
+    "color": "#BC6C25",
+    "scheme": "tints",
+    "count": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "colour scheme from #283618 — complementary",
+   "input": {
+    "color": "#283618",
+    "scheme": "complementary"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "Suggest an analogous palette from hsl(20, 85%, 55%) for an autumn newsletter.",
+   "input": {
+    "color": "hsl(20, 85%, 55%)",
+    "scheme": "analogous"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "8 shades from #0081A7 so my map legend steps darker",
+   "input": {
+    "color": "#0081A7",
+    "scheme": "shades",
+    "count": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "generatePalette",
+   "message": "Give me a palette of colours that go with #F07167",
+   "input": {
+    "color": "#F07167"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "make #264653 20 percent lighter",
+   "input": {
+    "color": "#264653",
+    "by": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "I need a soft background for a card. Lighten #E76F51 by 70%.",
+   "input": {
+    "color": "#E76F51",
+    "by": 70
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "tint #3A0CA3 a little lighter",
+   "input": {
+    "color": "#3A0CA3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "Could you lighten rgb(40, 60, 90) by 35 per cent?",
+   "input": {
+    "color": "rgb(40, 60, 90)",
+    "by": 35
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "take hsl(220, 70%, 25%) 15% towards white",
+   "input": {
+    "color": "hsl(220, 70%, 25%)",
+    "by": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "lighter version of #6A040F by 40",
+   "input": {
+    "color": "#6A040F",
+    "by": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "Please lighten the navy #001F3F by 60 percent for a hover highlight.",
+   "input": {
+    "color": "#001F3F",
+    "by": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "brighten #9D0208 towards white 25%",
+   "input": {
+    "color": "#9D0208",
+    "by": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "What would #370617 look like lightened by 80%?",
+   "input": {
+    "color": "#370617",
+    "by": 80
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "school newsletter header is #023E8A, I want a paler tint of it, 45% lighter",
+   "input": {
+    "color": "#023E8A",
+    "by": 45
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "lighten colour #7f5539",
+   "input": {
+    "color": "#7f5539"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "Lighten #2B9348 by 12% so the success banner is less harsh.",
+   "input": {
+    "color": "#2B9348",
+    "by": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "tint rgb(90, 24, 154) 30% lighter pls",
+   "input": {
+    "color": "rgb(90, 24, 154)",
+    "by": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "Make the charcoal #36454F lighter by 55 percent for disabled text.",
+   "input": {
+    "color": "#36454F",
+    "by": 55
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "lighten this colour by 10 percent",
+   "input": {
+    "by": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "can you make my header colour lighter? I'll give you the code",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "hsl(350, 65%, 30%) lightened by 18%",
+   "input": {
+    "color": "hsl(350, 65%, 30%)",
+    "by": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "Give me a lighter tint of #774936, roughly 27% towards white.",
+   "input": {
+    "color": "#774936",
+    "by": 27
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "lighten #1B4332 by 6%",
+   "input": {
+    "color": "#1B4332",
+    "by": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "How does #5E548E come out lightened by 90 percent?",
+   "input": {
+    "color": "#5E548E",
+    "by": 90
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "I'm a gardener doing my own leaflet: lighten #386641 by 38% for the box behind the text",
+   "input": {
+    "color": "#386641",
+    "by": 38
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "Lighten #4A4E69 a touch, 9 percent, for the sidebar.",
+   "input": {
+    "color": "#4A4E69",
+    "by": 9
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "tint #22223b toward white by 65%",
+   "input": {
+    "color": "#22223b",
+    "by": 65
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "lightenColor",
+   "message": "lighten #800F2F, 42 percent paler?",
+   "input": {
+    "color": "#800F2F",
+    "by": 42
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "blend #FF5F6D with #FFC371",
+   "input": {
+    "a": "#FF5F6D",
+    "b": "#FFC371"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "What colour do I get if I mix 70% #1E3A8A with #F59E0B?",
+   "input": {
+    "a": "#1E3A8A",
+    "b": "#F59E0B",
+    "weight": 70
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "I'm mixing two paints digitally: rgb(200, 50, 50) and rgb(50, 50, 200), half and half. What colour do I get?",
+   "input": {
+    "a": "rgb(200, 50, 50)",
+    "b": "rgb(50, 50, 200)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "Mix #2EC4B6 and #E71D36 using 30% of the first one.",
+   "input": {
+    "a": "#2EC4B6",
+    "b": "#E71D36",
+    "weight": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "halfway colour between #000000 and #FF9900?",
+   "input": {
+    "a": "#000000",
+    "b": "#FF9900"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "Could you mix hsl(200, 80%, 50%) with hsl(40, 90%, 60%) evenly?",
+   "input": {
+    "a": "hsl(200, 80%, 50%)",
+    "b": "hsl(40, 90%, 60%)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "mix 15% #FFFFFF with #6A0572",
+   "input": {
+    "a": "#FFFFFF",
+    "b": "#6A0572",
+    "weight": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "Two brand colours, #0B132B and #5BC0BE — what does a blend of them look like?",
+   "input": {
+    "a": "#0B132B",
+    "b": "#5BC0BE"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "mix #f4d35e + #ee964b, 60 percent of the yellow one",
+   "input": {
+    "a": "#f4d35e",
+    "b": "#ee964b",
+    "weight": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "Art teacher here: mix #FF0000 and #FFFF00 together so the kids can see the in-between colour.",
+   "input": {
+    "a": "#FF0000",
+    "b": "#FFFF00"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "blend #3C096C with #FF9E00 at 80%",
+   "input": {
+    "a": "#3C096C",
+    "b": "#FF9E00",
+    "weight": 80
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "What's the average of the colours #E0FBFC and #293241?",
+   "input": {
+    "a": "#E0FBFC",
+    "b": "#293241"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "Mix #9B2226 with #E9D8A6, mostly the second — only 25% of the red.",
+   "input": {
+    "a": "#9B2226",
+    "b": "#E9D8A6",
+    "weight": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "mix colours rgb(0, 180, 216) and rgb(255, 255, 255)",
+   "input": {
+    "a": "rgb(0, 180, 216)",
+    "b": "rgb(255, 255, 255)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "I'm a gamer customising my LEDs. Blend #00F5D4 and #9B5DE5 with 40% of the first.",
+   "input": {
+    "a": "#00F5D4",
+    "b": "#9B5DE5",
+    "weight": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "mix these two colours together",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mixColors",
+   "message": "blend my two theme colours 50/50, I'll paste them",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mixColors",
+   "message": "Please blend the colours I list below into one.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "mixColors",
+   "message": "blend #606C38 into #FEFAE0, 90% of the green",
+   "input": {
+    "a": "#606C38",
+    "b": "#FEFAE0",
+    "weight": 90
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "Give me the mix of #023047 and #FB8500",
+   "input": {
+    "a": "#023047",
+    "b": "#FB8500"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "what colour comes out of mixing #8D99AE with #EF233C at 35 percent",
+   "input": {
+    "a": "#8D99AE",
+    "b": "#EF233C",
+    "weight": 35
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "Blend #ccd5ae with #d4a373 for a kitchen wall tester",
+   "input": {
+    "a": "#ccd5ae",
+    "b": "#d4a373"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "mix #22577A and #80ED99 at 55%",
+   "input": {
+    "a": "#22577A",
+    "b": "#80ED99",
+    "weight": 55
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "mixColors",
+   "message": "Could you combine #FFAFCC and #A2D2FF into a single blended colour?",
+   "input": {
+    "a": "#FFAFCC",
+    "b": "#A2D2FF"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "what would you call #4682B5 in plain words",
+   "input": {
+    "color": "#4682B5"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "My client says #FA8071 is 'pinkish' — what's the actual CSS colour name it's closest to?",
+   "input": {
+    "color": "#FA8071"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "I'm describing a dress to my mum over the phone and the shop lists it as #DDA0DE. What's the nearest named colour for that?",
+   "input": {
+    "color": "#DDA0DE"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "named colour for rgb(46, 139, 88)",
+   "input": {
+    "color": "rgb(46, 139, 88)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "What CSS named colour is closest to hsl(39, 100%, 50%)?",
+   "input": {
+    "color": "hsl(39, 100%, 50%)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "what's #7B68EF called",
+   "input": {
+    "color": "#7B68EF"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "Find the closest named colour to #F0E68D for my alt text.",
+   "input": {
+    "color": "#F0E68D"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "colour name for #2F4F50?",
+   "input": {
+    "color": "#2F4F50"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "Writing a product description: which CSS colour name is #D2691F nearest to?",
+   "input": {
+    "color": "#D2691F"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "which html colour name matches rgb(255, 228, 180) most closely",
+   "input": {
+    "color": "rgb(255, 228, 180)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "Tell me the nearest CSS name for #8FBC90.",
+   "input": {
+    "color": "#8FBC90"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "what do people call the colour #B0C4DF",
+   "input": {
+    "color": "#B0C4DF"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "In words, what colour is #800001?",
+   "input": {
+    "color": "#800001"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "closest named color to #5F9EA1, I'm colourblind and want to know what it is",
+   "input": {
+    "color": "#5F9EA1"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "give #DAA521 a CSS colour name",
+   "input": {
+    "color": "#DAA521"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "What named colour is hsl(300, 76%, 72%) nearest to?",
+   "input": {
+    "color": "hsl(300, 76%, 72%)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "what's the proper name of this colour",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "tell me what CSS colour name is nearest to the hex I'm sending",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "label #FF7F51 with a human-friendly colour name",
+   "input": {
+    "color": "#FF7F51"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "Teacher here — a pupil asked what #6B8E24 is called. Nearest colour name?",
+   "input": {
+    "color": "#6B8E24"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "name this colour: #E6E6FB",
+   "input": {
+    "color": "#E6E6FB"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "Which colour name best describes rgb(220, 20, 61)?",
+   "input": {
+    "color": "rgb(220, 20, 61)"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "what would a designer call #708091 in css",
+   "input": {
+    "color": "#708091"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "nearestNamedColor",
+   "message": "Please give me the CSS colour word closest to #FFDAB8.",
+   "input": {
+    "color": "#FFDAB8"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "18px to rem?",
+   "input": {
+    "px": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "My designer handed me a mock-up with 28px headings. How many rem is that?",
+   "input": {
+    "px": 28
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "Express 40px in rem units with a root size of 20px.",
+   "input": {
+    "px": 40,
+    "base": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "how many rems is 12 pixels",
+   "input": {
+    "px": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "convert a 72px hero title into rem for the stylesheet",
+   "input": {
+    "px": 72
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "Could you restate 14px as rem? Our root font is 14px too.",
+   "input": {
+    "px": 14,
+    "base": 14
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "padding is 48 px — in rem please",
+   "input": {
+    "px": 48
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "rem value for 30px when html font-size is 18px",
+   "input": {
+    "px": 30,
+    "base": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "I'm a junior dev, what's 22px expressed in rem?",
+   "input": {
+    "px": 22
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "Turn 64px into rem.",
+   "input": {
+    "px": 64
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "px→rem: 10",
+   "input": {
+    "px": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "What does a 6px border radius come to in rem?",
+   "input": {
+    "px": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "switching our CSS to rem, the gutter is 32px and root is 16px, what rem is that",
+   "input": {
+    "px": 32,
+    "base": 16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "Please convert 15 pixels to rem against a 12px base.",
+   "input": {
+    "px": 15,
+    "base": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "in rem, how big is 36px",
+   "input": {
+    "px": 36
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "Line height 26px — rem equivalent?",
+   "input": {
+    "px": 26
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "convert 120px max-width chunk to rem, root font 10px",
+   "input": {
+    "px": 120,
+    "base": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "How many rem would 9px small print be?",
+   "input": {
+    "px": 9
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "rem for 56 pixels",
+   "input": {
+    "px": 56
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "Tell me 44px in rem — it's the min tap target size on our app.",
+   "input": {
+    "px": 44
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "what's 100px as rems at a 25px root",
+   "input": {
+    "px": 100,
+    "base": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "convert this pixel size to rem for me",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "what's my margin in rem? it's in px, I'll tell you the number",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "pxToRem",
+   "message": "Restate 11.5px in rem please",
+   "input": {
+    "px": 11.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "quick one: a 2.25rem heading, how many px on screen?",
+   "input": {
+    "rem": 2.25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "The theme sets headings at 3rem. How many pixels is that on screen?",
+   "input": {
+    "rem": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "how many pixels is 0.75 rem",
+   "input": {
+    "rem": 0.75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "Our base is 20px. How many pixels does 1.25rem come to?",
+   "input": {
+    "rem": 1.25,
+    "base": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "what's 4rem in pixels, root is 18px",
+   "input": {
+    "rem": 4,
+    "base": 18
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "I inherited a stylesheet full of rem. The sidebar is 15rem wide — what pixel width is that?",
+   "input": {
+    "rem": 15
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "rem to px: 0.5",
+   "input": {
+    "rem": 0.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "Could you tell me the pixel size of 1.75rem?",
+   "input": {
+    "rem": 1.75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "pixels for 6rem at a 12px base",
+   "input": {
+    "rem": 6,
+    "base": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "How big in px is a 2.5rem icon?",
+   "input": {
+    "rem": 2.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "Work out 0.625rem in pixels.",
+   "input": {
+    "rem": 0.625
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "our root is 10px — so how many px is 3.2rem?",
+   "input": {
+    "rem": 3.2,
+    "base": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "8rem to pixels pls",
+   "input": {
+    "rem": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "Teaching CSS tonight: show the class what 1.125rem is in pixels.",
+   "input": {
+    "rem": 1.125
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "what pixel count does 0.3rem give",
+   "input": {
+    "rem": 0.3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "Gap is set to 1.5 rem with a 14px root; pixels?",
+   "input": {
+    "rem": 1.5,
+    "base": 14
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "how wide in px is 40rem",
+   "input": {
+    "rem": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "Please turn 2rem into px given a 24px base font.",
+   "input": {
+    "rem": 2,
+    "base": 24
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "convert this rem value to pixels",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "remToPx",
+   "message": "how many px is the padding in rem I'm about to send",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "remToPx",
+   "message": "px equivalent of 0.9rem?",
+   "input": {
+    "rem": 0.9
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "Font size 1.375rem — what's that in pixels?",
+   "input": {
+    "rem": 1.375
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "5rem in pixels on a 16px root",
+   "input": {
+    "rem": 5,
+    "base": 16
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "remToPx",
+   "message": "How tall is 12rem in px, roughly?",
+   "input": {
+    "rem": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "resize 3000x2000 so it's 1200 wide",
+   "input": {
+    "width": 3000,
+    "height": 2000,
+    "targetWidth": 1200
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "I have a 1080 by 1350 photo and need it 400 tall, same proportions. What width?",
+   "input": {
+    "width": 1080,
+    "height": 1350,
+    "targetHeight": 400
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "Scale 2560x1440 down by 0.25.",
+   "input": {
+    "width": 2560,
+    "height": 1440,
+    "scale": 0.25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "double the size of a 640 x 480 image keeping its proportions",
+   "input": {
+    "width": 640,
+    "height": 480,
+    "scale": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "what height do I get if 1600x900 is shrunk to 320 wide",
+   "input": {
+    "width": 1600,
+    "height": 900,
+    "targetWidth": 320
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "Our product shots are 2400 by 3000. Resize them to 750 high keeping the proportions.",
+   "input": {
+    "width": 2400,
+    "height": 3000,
+    "targetHeight": 750
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "fit 5000x3500 into a 1920 by 1080 frame keeping ratio",
+   "input": {
+    "width": 5000,
+    "height": 3500,
+    "targetWidth": 1920,
+    "targetHeight": 1080
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "Could you scale a 300 × 250 ad up 1.5 times?",
+   "input": {
+    "width": 300,
+    "height": 250,
+    "scale": 1.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "proportional resize: 1024x768 → 600 wide",
+   "input": {
+    "width": 1024,
+    "height": 768,
+    "targetWidth": 600
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "A painting is 90 cm by 60 cm. Scale it down to 30 cm tall keeping the ratio — how wide is the print?",
+   "input": {
+    "width": 90,
+    "height": 60,
+    "targetHeight": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "resize 4096 by 2160 dimensions with a scale factor of 0.33",
+   "input": {
+    "width": 4096,
+    "height": 2160,
+    "scale": 0.33
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "Resize a 1280x1024 screenshot to 500 pixels across, keeping the aspect.",
+   "input": {
+    "width": 1280,
+    "height": 1024,
+    "targetWidth": 500
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "keep proportions and make 800x600 fit inside 200x200",
+   "input": {
+    "width": 800,
+    "height": 600,
+    "targetWidth": 200,
+    "targetHeight": 200
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "scale 1920 x 1200 to 75% of its size",
+   "input": {
+    "width": 1920,
+    "height": 1200,
+    "scale": 0.75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "Etsy wants 2000 pixels wide; my listing photo is 3264 by 2448. What height keeps it in proportion?",
+   "input": {
+    "width": 3264,
+    "height": 2448,
+    "targetWidth": 2000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "resize 720x1280 to 1920 tall proportionally",
+   "input": {
+    "width": 720,
+    "height": 1280,
+    "targetHeight": 1920
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "What would 1500 by 1000 become scaled by 3?",
+   "input": {
+    "width": 1500,
+    "height": 1000,
+    "scale": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "scale my image dimensions down to 800 wide",
+   "input": {
+    "targetWidth": 800
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "resize this picture to fit 1080 by 1080 keeping the ratio, I'll send its size",
+   "input": {
+    "targetWidth": 1080,
+    "targetHeight": 1080
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "Please resize 2048 × 1536 proportionally to 1024 high.",
+   "input": {
+    "width": 2048,
+    "height": 1536,
+    "targetHeight": 1024
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "shrink 6000x4000 raw to 1800 width, same proportions",
+   "input": {
+    "width": 6000,
+    "height": 4000,
+    "targetWidth": 1800
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "Thumbnail time: 1200x630 scaled to 0.4 please",
+   "input": {
+    "width": 1200,
+    "height": 630,
+    "scale": 0.4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "if a 210 by 297 page is enlarged to 420 wide, how tall does it get keeping proportions?",
+   "input": {
+    "width": 210,
+    "height": 297,
+    "targetWidth": 420
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "scaleDimensions",
+   "message": "Fit a 3840x2160 frame into a 1280x1280 box without distortion.",
+   "input": {
+    "width": 3840,
+    "height": 2160,
+    "targetWidth": 1280,
+    "targetHeight": 1280
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "correlation between 3 5 7 9 11 and 10 14 15 20 24",
+   "input": {
+    "x": [
+     3,
+     5,
+     7,
+     9,
+     11
+    ],
+    "y": [
+     10,
+     14,
+     15,
+     20,
+     24
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "I tracked ice cream sales against temperature. Temps: 18, 21, 24, 27, 30. Sales: 120, 150, 160, 210, 260. What's the correlation between them?",
+   "input": {
+    "x": [
+     18,
+     21,
+     24,
+     27,
+     30
+    ],
+    "y": [
+     120,
+     150,
+     160,
+     210,
+     260
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "Pearson r for x = 1, 2, 3, 4 and y = 9, 7, 4, 2",
+   "input": {
+    "x": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "y": [
+     9,
+     7,
+     4,
+     2
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "do these move together? 5 8 2 9 4 / 50 79 25 88 41",
+   "input": {
+    "x": [
+     5,
+     8,
+     2,
+     9,
+     4
+    ],
+    "y": [
+     50,
+     79,
+     25,
+     88,
+     41
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "Could you compute the correlation coefficient of ad spend [200, 400, 600, 800] versus sign-ups [31, 45, 70, 82]?",
+   "input": {
+    "x": [
+     200,
+     400,
+     600,
+     800
+    ],
+    "y": [
+     31,
+     45,
+     70,
+     82
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "teacher: hours of sleep 6 7 8 5 9 vs test marks 62 70 78 55 85 — is there a correlation?",
+   "input": {
+    "x": [
+     6,
+     7,
+     8,
+     5,
+     9
+    ],
+    "y": [
+     62,
+     70,
+     78,
+     55,
+     85
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "how related are rainfall 12, 30, 45, 8, 22 and umbrella sales 3, 9, 14, 2, 6",
+   "input": {
+    "x": [
+     12,
+     30,
+     45,
+     8,
+     22
+    ],
+    "y": [
+     3,
+     9,
+     14,
+     2,
+     6
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "Measure the correlation of 1.2 2.4 3.1 4.8 against 0.5 0.9 1.6 2.0",
+   "input": {
+    "x": [
+     1.2,
+     2.4,
+     3.1,
+     4.8
+    ],
+    "y": [
+     0.5,
+     0.9,
+     1.6,
+     2.0
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "r value for price 10 12 15 18 20 and units sold 95 90 70 60 52?",
+   "input": {
+    "x": [
+     10,
+     12,
+     15,
+     18,
+     20
+    ],
+    "y": [
+     95,
+     90,
+     70,
+     60,
+     52
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "As a nurse I logged patient age 34, 45, 52, 61, 70 and systolic BP 118, 125, 131, 140, 148. What's the correlation?",
+   "input": {
+    "x": [
+     34,
+     45,
+     52,
+     61,
+     70
+    ],
+    "y": [
+     118,
+     125,
+     131,
+     140,
+     148
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "correlate 100, 200, 300 with 7, 3, 8",
+   "input": {
+    "x": [
+     100,
+     200,
+     300
+    ],
+    "y": [
+     7,
+     3,
+     8
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "Is screen time (2, 4, 6, 8, 10 hrs) correlated with steps walked (9000, 7500, 6000, 4200, 3000)?",
+   "input": {
+    "x": [
+     2,
+     4,
+     6,
+     8,
+     10
+    ],
+    "y": [
+     9000,
+     7500,
+     6000,
+     4200,
+     3000
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "how strongly correlated are these: first set 11 13 17 19, second set 2 3 5 6",
+   "input": {
+    "x": [
+     11,
+     13,
+     17,
+     19
+    ],
+    "y": [
+     2,
+     3,
+     5,
+     6
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "Gamer stats — kills 4 10 7 15 2 and wins 1 3 2 5 0. Correlation coefficient?",
+   "input": {
+    "x": [
+     4,
+     10,
+     7,
+     15,
+     2
+    ],
+    "y": [
+     1,
+     3,
+     2,
+     5,
+     0
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "How correlated is my weekly running distance 10, 15, 20, 25 with my resting heart rate 68, 64, 61, 58?",
+   "input": {
+    "x": [
+     10,
+     15,
+     20,
+     25
+    ],
+    "y": [
+     68,
+     64,
+     61,
+     58
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "correlation coefficient: x 0 1 2 3 4 5, y 3 3 4 2 5 3",
+   "input": {
+    "x": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "y": [
+     3,
+     3,
+     4,
+     2,
+     5,
+     3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "what's the correlation between the two columns I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "correlation",
+   "message": "Work out how strongly these two series move together — data attached below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "correlation",
+   "message": "is there any correlation in my spreadsheet's two number columns?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "correlation",
+   "message": "correlation of my sales and staff numbers, I'll send both lists",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "correlation",
+   "message": "Find the correlation between fertiliser grams 5, 10, 15, 20, 25 and tomato yield in kg 1.1, 1.9, 2.6, 3.0, 3.2",
+   "input": {
+    "x": [
+     5,
+     10,
+     15,
+     20,
+     25
+    ],
+    "y": [
+     1.1,
+     1.9,
+     2.6,
+     3.0,
+     3.2
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "pls correlate -2 -1 0 1 2 with 4 1 0 1 4",
+   "input": {
+    "x": [
+     -2,
+     -1,
+     0,
+     1,
+     2
+    ],
+    "y": [
+     4,
+     1,
+     0,
+     1,
+     4
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "Accountant here: invoices sent 40, 55, 62, 70 and late payments 6, 9, 8, 12. Any correlation?",
+   "input": {
+    "x": [
+     40,
+     55,
+     62,
+     70
+    ],
+    "y": [
+     6,
+     9,
+     8,
+     12
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "correlation",
+   "message": "correlation please — study hours 1 3 5 7, quiz scores 4 6 9 10",
+   "input": {
+    "x": [
+     1,
+     3,
+     5,
+     7
+    ],
+    "y": [
+     4,
+     6,
+     9,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "running total for 45 30 25 60",
+   "input": {
+    "values": [
+     45,
+     30,
+     25,
+     60
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "I've been saving each month: 200, 150, 300, 250, 400. Show me the total after each month.",
+   "input": {
+    "values": [
+     200,
+     150,
+     300,
+     250,
+     400
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "Cumulative totals please: 12, 7, 19, 3",
+   "input": {
+    "values": [
+     12,
+     7,
+     19,
+     3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "shop owner: daily takings 340 410 285 520 610, what's the running sum through the week",
+   "input": {
+    "values": [
+     340,
+     410,
+     285,
+     520,
+     610
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "Could you give the running total of 1.5, 2.25, 0.75, 3?",
+   "input": {
+    "values": [
+     1.5,
+     2.25,
+     0.75,
+     3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "cumulative sum of 10, 40, 30, 20, each shown as a percent of the end figure",
+   "input": {
+    "values": [
+     10,
+     40,
+     30,
+     20
+    ],
+    "asPercent": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "cumulative sum of 500 -120 -80 300 -50 for my bank balance changes",
+   "input": {
+    "values": [
+     500,
+     -120,
+     -80,
+     300,
+     -50
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "Pages read per night: 22, 35, 18, 40, 27, 31. Keep a running tally for me.",
+   "input": {
+    "values": [
+     22,
+     35,
+     18,
+     40,
+     27,
+     31
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "show each running total as a share of the whole for sales 5, 15, 25, 55",
+   "input": {
+    "values": [
+     5,
+     15,
+     25,
+     55
+    ],
+    "asPercent": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "cumsum: 3 1 4 1 5 9 2 6",
+   "input": {
+    "values": [
+     3,
+     1,
+     4,
+     1,
+     5,
+     9,
+     2,
+     6
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "Gamer here, XP per level was 1200, 1800, 2500, 3300. Total XP after each level?",
+   "input": {
+    "values": [
+     1200,
+     1800,
+     2500,
+     3300
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "Running total of my receipts: £14.25, £9.75, £22.15, £5",
+   "input": {
+    "values": [
+     14.25,
+     9.75,
+     22.15,
+     5
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "what's the cumulative total of 8, 8, 8, 8, 8",
+   "input": {
+    "values": [
+     8,
+     8,
+     8,
+     8,
+     8
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "Rainfall by week was 12mm, 0mm, 31mm, 7mm. Give me the running total in mm.",
+   "input": {
+    "values": [
+     12,
+     0,
+     31,
+     7
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "cumulative percentage for counts 60 25 10 5 (pareto chart)",
+   "input": {
+    "values": [
+     60,
+     25,
+     10,
+     5
+    ],
+    "asPercent": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "Show the sum after each of these donations: 50, 75, 20, 100, 35.",
+   "input": {
+    "values": [
+     50,
+     75,
+     20,
+     100,
+     35
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "keep a running total of the figures I've got here",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "Could you give me a cumulative sum of my weekly hours? List below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "build a running tally of the expenses I'm about to paste",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "cumulative totals as percent for the column I sent",
+   "input": {
+    "asPercent": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "Track the running total of miles: 3.2 5.0 4.4 6.1",
+   "input": {
+    "values": [
+     3.2,
+     5.0,
+     4.4,
+     6.1
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "accountant needs a cumulative sum (year-to-date) of monthly revenue 12,000 14,500 13,200 15,800",
+   "input": {
+    "values": [
+     12000,
+     14500,
+     13200,
+     15800
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "Cumulative sum, please: 9, 11, 13",
+   "input": {
+    "values": [
+     9,
+     11,
+     13
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "cumulativeSum",
+   "message": "running sum 100 then 90 then 80 then 70",
+   "input": {
+    "values": [
+     100,
+     90,
+     80,
+     70
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "basic stats for 12 15 11 19 23 15",
+   "input": {
+    "values": [
+     12,
+     15,
+     11,
+     19,
+     23,
+     15
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "My kids' reading scores this term were 64, 71, 58, 80, 77. Give me the mean, median and spread.",
+   "input": {
+    "values": [
+     64,
+     71,
+     58,
+     80,
+     77
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "Describe this data set: 3.4, 2.9, 4.1, 3.8, 3.3",
+   "input": {
+    "values": [
+     3.4,
+     2.9,
+     4.1,
+     3.8,
+     3.3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "what's the mean, mode and range of 2 2 3 5 8 8 8 10",
+   "input": {
+    "values": [
+     2,
+     2,
+     3,
+     5,
+     8,
+     8,
+     8,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "Treat 41, 38, 45, 50, 39 as a sample and summarise them with the sample standard deviation.",
+   "input": {
+    "values": [
+     41,
+     38,
+     45,
+     50,
+     39
+    ],
+    "sample": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "shop owner: weekly orders 120, 98, 143, 110, 135, 128 — mean, median and range please",
+   "input": {
+    "values": [
+     120,
+     98,
+     143,
+     110,
+     135,
+     128
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "min, max and mean of 900, 1,250, 780, 1,100",
+   "input": {
+    "values": [
+     900,
+     1250,
+     780,
+     1100
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "Nurse here. Heart rates on my round: 72, 88, 65, 91, 77, 80. Give me the overview — mean, median, spread.",
+   "input": {
+    "values": [
+     72,
+     88,
+     65,
+     91,
+     77,
+     80
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "statistical summary of -4 0 3 7 -1",
+   "input": {
+    "values": [
+     -4,
+     0,
+     3,
+     7,
+     -1
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "Can you crunch the numbers 15, 22, 22, 30, 41 for me — central tendency and spread?",
+   "input": {
+    "values": [
+     15,
+     22,
+     22,
+     30,
+     41
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "golf scores 84 79 91 88 82: how's my average and range looking",
+   "input": {
+    "values": [
+     84,
+     79,
+     91,
+     88,
+     82
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "summarise the delivery times in minutes: 25, 32, 28, 45, 30, 27 — mean and median",
+   "input": {
+    "values": [
+     25,
+     32,
+     28,
+     45,
+     30,
+     27
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "overview stats (sample, not population) for 6 9 11 14",
+   "input": {
+    "values": [
+     6,
+     9,
+     11,
+     14
+    ],
+    "sample": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "Tell me the median and standard deviation of 1000, 1500, 1200, 1800, 1300.",
+   "input": {
+    "values": [
+     1000,
+     1500,
+     1200,
+     1800,
+     1300
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "retiree tracking my blood sugar readings 5.6 6.1 5.9 7.2 6.4 — give me the mean, median and spread",
+   "input": {
+    "values": [
+     5.6,
+     6.1,
+     5.9,
+     7.2,
+     6.4
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "statistics summary for 33, 47, 29, 52, 47, 38, 41: mean, mode, spread",
+   "input": {
+    "values": [
+     33,
+     47,
+     29,
+     52,
+     47,
+     38,
+     41
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "Mean and spread of the prices €4.25, €3.75, €5.15, €4.65",
+   "input": {
+    "values": [
+     4.25,
+     3.75,
+     5.15,
+     4.65
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "summarise these numbers for me",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "Could you give me the mean, median and range of the scores I've pasted below?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "mean, median and standard deviation of my list of sales figures pls",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "what's the average and spread of the readings in my log",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "Describe the sample of survey ratings I'm attaching — sample standard deviation please",
+   "input": {
+    "sample": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "key stats for 70 70 70 85",
+   "input": {
+    "values": [
+     70,
+     70,
+     70,
+     85
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "describeNumbers",
+   "message": "Teacher: class heights in cm 132, 140, 128, 145, 137, 141 — mean, median, min and max",
+   "input": {
+    "values": [
+     132,
+     140,
+     128,
+     145,
+     137,
+     141
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "outliers in 14 15 13 16 14 62",
+   "input": {
+    "values": [
+     14,
+     15,
+     13,
+     16,
+     14,
+     62
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "I logged page load times in ms: 210, 230, 225, 1900, 240, 215. Which ones are outliers?",
+   "input": {
+    "values": [
+     210,
+     230,
+     225,
+     1900,
+     240,
+     215
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Using z-scores, flag any outliers in 50, 52, 49, 51, 48, 95, 50",
+   "input": {
+    "values": [
+     50,
+     52,
+     49,
+     51,
+     48,
+     95,
+     50
+    ],
+    "method": "zscore"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "are there outliers among 3, 4, 4, 5, 5, 6, -20",
+   "input": {
+    "values": [
+     3,
+     4,
+     4,
+     5,
+     5,
+     6,
+     -20
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Accountant: expense claims £45, £52, £48, £610, £50, £47. Is one an outlier?",
+   "input": {
+    "values": [
+     45,
+     52,
+     48,
+     610,
+     50,
+     47
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "z-score outliers with a cutoff of 2 in 10 11 12 10 11 30 12",
+   "input": {
+    "values": [
+     10,
+     11,
+     12,
+     10,
+     11,
+     30,
+     12
+    ],
+    "method": "zscore",
+    "threshold": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Find anomalous readings in 98.6, 98.4, 98.7, 104.2, 98.5, 98.6",
+   "input": {
+    "values": [
+     98.6,
+     98.4,
+     98.7,
+     104.2,
+     98.5,
+     98.6
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "IQR outlier check on 22 25 24 23 26 80 2",
+   "input": {
+    "values": [
+     22,
+     25,
+     24,
+     23,
+     26,
+     80,
+     2
+    ],
+    "method": "iqr"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Which of the daily step counts 8000, 8500, 7900, 21000, 8200 stand out as outliers?",
+   "input": {
+    "values": [
+     8000,
+     8500,
+     7900,
+     21000,
+     8200
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "detect outliers: 1 2 2 3 3 3 4 4 5 40",
+   "input": {
+    "values": [
+     1,
+     2,
+     2,
+     3,
+     3,
+     3,
+     4,
+     4,
+     5,
+     40
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Shop owner here — daily refunds were 2, 3, 1, 2, 19, 3. Is any day an outlier?",
+   "input": {
+    "values": [
+     2,
+     3,
+     1,
+     2,
+     19,
+     3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "flag outliers with z-score threshold 2.5: 70, 72, 71, 69, 120, 73, 70, 71",
+   "input": {
+    "values": [
+     70,
+     72,
+     71,
+     69,
+     120,
+     73,
+     70,
+     71
+    ],
+    "method": "zscore",
+    "threshold": 2.5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Gaming ping in ms 35 38 36 400 37 34 — any outliers?",
+   "input": {
+    "values": [
+     35,
+     38,
+     36,
+     400,
+     37,
+     34
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Please find the outliers among 0.9, 1.1, 1.0, 1.2, 5.6, 0.95",
+   "input": {
+    "values": [
+     0.9,
+     1.1,
+     1.0,
+     1.2,
+     5.6,
+     0.95
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "any outliers in the lab results I'm about to send",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Find the outliers in my sensor data, values below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "use z-scores to flag outliers in my spreadsheet column",
+   "input": {
+    "method": "zscore"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "which of my monthly bills are outliers? list attached",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Could you check the delivery times I pasted for outliers?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "outlier test for 300 310 305 295 299 1 302",
+   "input": {
+    "values": [
+     300,
+     310,
+     305,
+     295,
+     299,
+     1,
+     302
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Do any of these exam marks look like outliers: 61, 67, 64, 66, 12, 63, 65?",
+   "input": {
+    "values": [
+     61,
+     67,
+     64,
+     66,
+     12,
+     63,
+     65
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "spot outliers in 5 7 6 8 7 6 25 26",
+   "input": {
+    "values": [
+     5,
+     7,
+     6,
+     8,
+     7,
+     6,
+     25,
+     26
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "Nurse: temps 36.8, 37.0, 36.9, 39.8, 36.7 — find the outlier",
+   "input": {
+    "values": [
+     36.8,
+     37.0,
+     36.9,
+     39.8,
+     36.7
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "findOutliers",
+   "message": "outliers by IQR in 1200 1250 1190 1230 4000",
+   "input": {
+    "values": [
+     1200,
+     1250,
+     1190,
+     1230,
+     4000
+    ],
+    "method": "iqr"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "histogram of 2 4 4 5 7 8 9 9 10 12 in 3 bins",
+   "input": {
+    "values": [
+     2,
+     4,
+     4,
+     5,
+     7,
+     8,
+     9,
+     9,
+     10,
+     12
+    ],
+    "bins": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "I've got customer ages 23, 35, 41, 29, 52, 61, 33, 47, 38, 26. Bucket them into 4 equal ranges and count each.",
+   "input": {
+    "values": [
+     23,
+     35,
+     41,
+     29,
+     52,
+     61,
+     33,
+     47,
+     38,
+     26
+    ],
+    "bins": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "Frequency table for 1.2 1.5 2.3 2.8 3.1 3.3 4.0 in 2 bins",
+   "input": {
+    "values": [
+     1.2,
+     1.5,
+     2.3,
+     2.8,
+     3.1,
+     3.3,
+     4.0
+    ],
+    "bins": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "bin 55 62 70 71 78 84 90 95 into 5 buckets",
+   "input": {
+    "values": [
+     55,
+     62,
+     70,
+     71,
+     78,
+     84,
+     90,
+     95
+    ],
+    "bins": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "Teacher: group exam results 45, 58, 62, 67, 71, 74, 80, 88, 93 into histogram bins.",
+   "input": {
+    "values": [
+     45,
+     58,
+     62,
+     67,
+     71,
+     74,
+     80,
+     88,
+     93
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "how are 10 12 15 18 20 25 30 spread out? histogram with 6 bins",
+   "input": {
+    "values": [
+     10,
+     12,
+     15,
+     18,
+     20,
+     25,
+     30
+    ],
+    "bins": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "Could you count how many of 300, 320, 410, 450, 500, 520, 600 fall into each of 3 equal-width ranges?",
+   "input": {
+    "values": [
+     300,
+     320,
+     410,
+     450,
+     500,
+     520,
+     600
+    ],
+    "bins": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "histogram buckets for response times 120 135 150 180 210 250 400, 8 bins",
+   "input": {
+    "values": [
+     120,
+     135,
+     150,
+     180,
+     210,
+     250,
+     400
+    ],
+    "bins": 8
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "Distribution of house prices 210000, 245000, 260000, 310000, 330000, 395000 in four bins",
+   "input": {
+    "values": [
+     210000,
+     245000,
+     260000,
+     310000,
+     330000,
+     395000
+    ],
+    "bins": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "make a histogram of 7 3 9 1 5 5 6 2 8",
+   "input": {
+    "values": [
+     7,
+     3,
+     9,
+     1,
+     5,
+     5,
+     6,
+     2,
+     8
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "Gamer: match lengths in minutes 18, 22, 25, 31, 34, 29, 40, 27. Bin them into 3.",
+   "input": {
+    "values": [
+     18,
+     22,
+     25,
+     31,
+     34,
+     29,
+     40,
+     27
+    ],
+    "bins": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "split 0.1 0.4 0.45 0.6 0.9 0.95 into 10 histogram bins",
+   "input": {
+    "values": [
+     0.1,
+     0.4,
+     0.45,
+     0.6,
+     0.9,
+     0.95
+    ],
+    "bins": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "Please bucket the weights 61, 64, 70, 72, 75, 81, 88 kg into a histogram of 2 bins.",
+   "input": {
+    "values": [
+     61,
+     64,
+     70,
+     72,
+     75,
+     81,
+     88
+    ],
+    "bins": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "frequency counts in 5 bins for 14 19 21 26 33 37 42 48",
+   "input": {
+    "values": [
+     14,
+     19,
+     21,
+     26,
+     33,
+     37,
+     42,
+     48
+    ],
+    "bins": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "Nurse here — waiting times 5, 12, 18, 22, 35, 41, 50, 58. Histogram please, 4 bins.",
+   "input": {
+    "values": [
+     5,
+     12,
+     18,
+     22,
+     35,
+     41,
+     50,
+     58
+    ],
+    "bins": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "histogram for -5 -2 0 1 3 6",
+   "input": {
+    "values": [
+     -5,
+     -2,
+     0,
+     1,
+     3,
+     6
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "Bin the order values £12, £18, £25, £33, £47, £52, £60 into 3 ranges",
+   "input": {
+    "values": [
+     12,
+     18,
+     25,
+     33,
+     47,
+     52,
+     60
+    ],
+    "bins": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "make a histogram of my data",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "bucket the sales figures I'm pasting into 6 bins",
+   "input": {
+    "bins": 6
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "Could you show the distribution of my test scores as a histogram? Scores below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "histogram of the column I sent, split into 4 equal ranges",
+   "input": {
+    "bins": 4
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "group my readings into equal-width bins, data attached",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "how many of 3 8 13 18 23 28 33 land in each of 7 bins",
+   "input": {
+    "values": [
+     3,
+     8,
+     13,
+     18,
+     23,
+     28,
+     33
+    ],
+    "bins": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "histogramBins",
+   "message": "Histogram: 100, 150, 175, 200, 260, 300 with two bins",
+   "input": {
+    "values": [
+     100,
+     150,
+     175,
+     200,
+     260,
+     300
+    ],
+    "bins": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "line of best fit for x 1 2 3 4 5 and y 3 5 6 9 11",
+   "input": {
+    "x": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "y": [
+     3,
+     5,
+     6,
+     9,
+     11
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "My bakery sold 40, 46, 55, 61 loaves in weeks 1, 2, 3, 4. Fit a straight line and tell me the slope.",
+   "input": {
+    "x": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "y": [
+     40,
+     46,
+     55,
+     61
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "Run a linear regression of y = 12, 15, 21, 24 on x = 2, 4, 6, 8 and predict y at x = 10.",
+   "input": {
+    "x": [
+     2,
+     4,
+     6,
+     8
+    ],
+    "y": [
+     12,
+     15,
+     21,
+     24
+    ],
+    "predictAt": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "slope and intercept for points (0, 5), (1, 7), (2, 10), (3, 11)",
+   "input": {
+    "x": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "y": [
+     5,
+     7,
+     10,
+     11
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "Could you regress weight 60, 65, 72, 80 against height 160, 168, 175, 183 (height is x)?",
+   "input": {
+    "x": [
+     160,
+     168,
+     175,
+     183
+    ],
+    "y": [
+     60,
+     65,
+     72,
+     80
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "best-fit line: x 10 20 30 40 50, y 95 88 76 70 61 — r squared too",
+   "input": {
+    "x": [
+     10,
+     20,
+     30,
+     40,
+     50
+    ],
+    "y": [
+     95,
+     88,
+     76,
+     70,
+     61
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "Teacher here. Hours revised 1, 2, 4, 5, 7 and grades 52, 58, 66, 71, 80. What's the regression line, and what grade would 6 hours predict?",
+   "input": {
+    "x": [
+     1,
+     2,
+     4,
+     5,
+     7
+    ],
+    "y": [
+     52,
+     58,
+     66,
+     71,
+     80
+    ],
+    "predictAt": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "fit y=mx+c to x: 3 6 9, y: 4 9 13",
+   "input": {
+    "x": [
+     3,
+     6,
+     9
+    ],
+    "y": [
+     4,
+     9,
+     13
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "Accountant: revenue in £k was 210, 225, 241, 260 over years 2021, 2022, 2023, 2024. Fit a trend line and forecast 2026.",
+   "input": {
+    "x": [
+     2021,
+     2022,
+     2023,
+     2024
+    ],
+    "y": [
+     210,
+     225,
+     241,
+     260
+    ],
+    "predictAt": 2026
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "least squares fit through x=1.5,2.5,3.5,4.5 y=2.1,2.9,4.2,4.8",
+   "input": {
+    "x": [
+     1.5,
+     2.5,
+     3.5,
+     4.5
+    ],
+    "y": [
+     2.1,
+     2.9,
+     4.2,
+     4.8
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "What straight line best fits temperature 5, 10, 15, 20, 25 against heating bill 90, 75, 62, 48, 35?",
+   "input": {
+    "x": [
+     5,
+     10,
+     15,
+     20,
+     25
+    ],
+    "y": [
+     90,
+     75,
+     62,
+     48,
+     35
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "regression line for subscribers by month: months 1 2 3 4 5 6, subs 120 180 260 310 390 450. predict month 12",
+   "input": {
+    "x": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "y": [
+     120,
+     180,
+     260,
+     310,
+     390,
+     450
+    ],
+    "predictAt": 12
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "Fit a linear model with x = 0, 2, 4, 6 and y = 1, 0, -2, -3.",
+   "input": {
+    "x": [
+     0,
+     2,
+     4,
+     6
+    ],
+    "y": [
+     1,
+     0,
+     -2,
+     -3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "gradient of the best fit line through x 100 200 300 400, y 7 12 18 22",
+   "input": {
+    "x": [
+     100,
+     200,
+     300,
+     400
+    ],
+    "y": [
+     7,
+     12,
+     18,
+     22
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "Running club: distance 3, 5, 8, 10 km and time 18, 31, 50, 64 min. Fit a regression line and predict a 21 km run.",
+   "input": {
+    "x": [
+     3,
+     5,
+     8,
+     10
+    ],
+    "y": [
+     18,
+     31,
+     50,
+     64
+    ],
+    "predictAt": 21
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "regress 9 11 14 18 on 1 2 3 4",
+   "input": {
+    "x": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "y": [
+     9,
+     11,
+     14,
+     18
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "Plant height over days — days 7, 14, 21, 28 and height 2.0, 4.5, 6.6, 9.1 cm. Fit a line.",
+   "input": {
+    "x": [
+     7,
+     14,
+     21,
+     28
+    ],
+    "y": [
+     2.0,
+     4.5,
+     6.6,
+     9.1
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "do a linear regression on my data points, I'll paste them",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "Could you do a linear regression on the two columns I'm pasting below?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "trend line for my monthly costs and predict month 15 — numbers to follow",
+   "input": {
+    "predictAt": 15
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "what's the slope and intercept of my experiment's readings",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "best fit line for the scatter plot data I sent",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "Linear fit: x 2, 3, 5, 7, 11; y 4, 5, 9, 12, 20. What's y when x is 13?",
+   "input": {
+    "x": [
+     2,
+     3,
+     5,
+     7,
+     11
+    ],
+    "y": [
+     4,
+     5,
+     9,
+     12,
+     20
+    ],
+    "predictAt": 13
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "linearRegression",
+   "message": "simple linear regression x=[10,15,20] y=[30,41,52]",
+   "input": {
+    "x": [
+     10,
+     15,
+     20
+    ],
+    "y": [
+     30,
+     41,
+     52
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "rolling average of 4 6 8 5 7 9 over 2 points",
+   "input": {
+    "values": [
+     4,
+     6,
+     8,
+     5,
+     7,
+     9
+    ],
+    "window": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "I've got daily website visits 120, 135, 128, 160, 155, 170, 165. Give me a 3 day moving average to smooth it.",
+   "input": {
+    "values": [
+     120,
+     135,
+     128,
+     160,
+     155,
+     170,
+     165
+    ],
+    "window": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Compute a 5-period moving average for 10, 12, 11, 15, 14, 18, 17, 20",
+   "input": {
+    "values": [
+     10,
+     12,
+     11,
+     15,
+     14,
+     18,
+     17,
+     20
+    ],
+    "window": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "weighted moving average, window 3: 22 25 24 28 30",
+   "input": {
+    "values": [
+     22,
+     25,
+     24,
+     28,
+     30
+    ],
+    "window": 3,
+    "type": "weighted"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Smooth my weekly weigh-ins 82.4, 82.0, 81.7, 81.9, 81.2 with a two-week moving average.",
+   "input": {
+    "values": [
+     82.4,
+     82.0,
+     81.7,
+     81.9,
+     81.2
+    ],
+    "window": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "shop owner: monthly sales 4200 3900 4500 4800 4400 5100 — 4 month moving avg please",
+   "input": {
+    "values": [
+     4200,
+     3900,
+     4500,
+     4800,
+     4400,
+     5100
+    ],
+    "window": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Could you run a simple moving average with a window of 3 over 1, 3, 2, 5, 4, 6?",
+   "input": {
+    "values": [
+     1,
+     3,
+     2,
+     5,
+     4,
+     6
+    ],
+    "window": 3,
+    "type": "simple"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "7-day moving average for case counts 15 18 22 19 25 30 28 33 31",
+   "input": {
+    "values": [
+     15,
+     18,
+     22,
+     19,
+     25,
+     30,
+     28,
+     33,
+     31
+    ],
+    "window": 7
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Stock closes £101, £103, £99, £104, £107, £106 — 3-day moving average weighted toward recent days.",
+   "input": {
+    "values": [
+     101,
+     103,
+     99,
+     104,
+     107,
+     106
+    ],
+    "window": 3,
+    "type": "weighted"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "moving avg window 2 for 0.5 0.7 0.6 0.9",
+   "input": {
+    "values": [
+     0.5,
+     0.7,
+     0.6,
+     0.9
+    ],
+    "window": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Gamer stats — my scores over the last games 1500, 1620, 1580, 1700, 1650, 1720. Moving average over 3 games?",
+   "input": {
+    "values": [
+     1500,
+     1620,
+     1580,
+     1700,
+     1650,
+     1720
+    ],
+    "window": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Nurse: hourly temps 37.1, 37.4, 37.8, 38.2, 38.0, 37.6. Smooth them with a 2-hour moving average.",
+   "input": {
+    "values": [
+     37.1,
+     37.4,
+     37.8,
+     38.2,
+     38.0,
+     37.6
+    ],
+    "window": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "give me the 4-point moving average of 8, 12, 9, 14, 11, 16, 13",
+   "input": {
+    "values": [
+     8,
+     12,
+     9,
+     14,
+     11,
+     16,
+     13
+    ],
+    "window": 4
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "moving average, window of 6, on 30 32 35 31 36 38 40 37",
+   "input": {
+    "values": [
+     30,
+     32,
+     35,
+     31,
+     36,
+     38,
+     40,
+     37
+    ],
+    "window": 6
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "smooth 1000, 1,400, 1,100, 1,600, 1,300 using a 2 point moving average",
+   "input": {
+    "values": [
+     1000,
+     1400,
+     1100,
+     1600,
+     1300
+    ],
+    "window": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Weighted 4-week moving average on electricity use 310, 295, 330, 340, 325, 350 kWh",
+   "input": {
+    "values": [
+     310,
+     295,
+     330,
+     340,
+     325,
+     350
+    ],
+    "window": 4,
+    "type": "weighted"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "smooth my numbers with a moving average, 3 points per window — pasting them now",
+   "input": {
+    "window": 3
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Could you smooth the sales numbers I'm pasting using a 5-month moving average?",
+   "input": {
+    "window": 5
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "7 day moving average of my step counts, list below",
+   "input": {
+    "window": 7
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "4-period weighted moving average on the prices I sent",
+   "input": {
+    "window": 4,
+    "type": "weighted"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Please give a 2-point moving average for my readings — attached.",
+   "input": {
+    "window": 2
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "3-period moving average: 6, 9, 7, 10",
+   "input": {
+    "values": [
+     6,
+     9,
+     7,
+     10
+    ],
+    "window": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "Rainfall 12, 0, 8, 22, 15, 3, 9 mm. Moving average across 3 days please.",
+   "input": {
+    "values": [
+     12,
+     0,
+     8,
+     22,
+     15,
+     3,
+     9
+    ],
+    "window": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "movingAverage",
+   "message": "sliding window average size 2 over 50 40 60 30",
+   "input": {
+    "values": [
+     50,
+     40,
+     60,
+     30
+    ],
+    "window": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "75th percentile of 10 20 30 40 50 60 70 80",
+   "input": {
+    "values": [
+     10,
+     20,
+     30,
+     40,
+     50,
+     60,
+     70,
+     80
+    ],
+    "percentile": 75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "Our API latencies in ms were 110, 95, 130, 250, 105, 98, 180, 120. What's the 95th percentile?",
+   "input": {
+    "values": [
+     110,
+     95,
+     130,
+     250,
+     105,
+     98,
+     180,
+     120
+    ],
+    "percentile": 95
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "Which value is at the 40th percentile of 3, 9, 1, 7, 5, 11?",
+   "input": {
+    "values": [
+     3,
+     9,
+     1,
+     7,
+     5,
+     11
+    ],
+    "percentile": 40
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "10th percentile for 45 52 61 48 70 66 59",
+   "input": {
+    "values": [
+     45,
+     52,
+     61,
+     48,
+     70,
+     66,
+     59
+    ],
+    "percentile": 10
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "Teacher: test scores 55, 62, 70, 74, 81, 88, 93. Where's the 80th percentile cut?",
+   "input": {
+    "values": [
+     55,
+     62,
+     70,
+     74,
+     81,
+     88,
+     93
+    ],
+    "percentile": 80
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "p50 of 13.6 29.4 22.8 57.5 41.9",
+   "input": {
+    "values": [
+     13.6,
+     29.4,
+     22.8,
+     57.5,
+     41.9
+    ],
+    "percentile": 50
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "Could you find the 60th percentile of house prices 250000, 310000, 275000, 420000, 365000?",
+   "input": {
+    "values": [
+     250000,
+     310000,
+     275000,
+     420000,
+     365000
+    ],
+    "percentile": 60
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "what's the 33rd percentile of 14, 8, 22, 17, 30, 11",
+   "input": {
+    "values": [
+     14,
+     8,
+     22,
+     17,
+     30,
+     11
+    ],
+    "percentile": 33
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "Nurse here — wait times 12, 25, 18, 40, 33, 9, 21 minutes. 85th percentile?",
+   "input": {
+    "values": [
+     12,
+     25,
+     18,
+     40,
+     33,
+     9,
+     21
+    ],
+    "percentile": 85
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "90th percentile for 400 520 610 380 450 700 820 390",
+   "input": {
+    "values": [
+     400,
+     520,
+     610,
+     380,
+     450,
+     700,
+     820,
+     390
+    ],
+    "percentile": 90
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "Give me the 5th percentile of 72, 68, 75, 80, 66, 71.",
+   "input": {
+    "values": [
+     72,
+     68,
+     75,
+     80,
+     66,
+     71
+    ],
+    "percentile": 5
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "gamer: my reaction times 210 190 230 205 250 198 — what's the 20th percentile",
+   "input": {
+    "values": [
+     210,
+     190,
+     230,
+     205,
+     250,
+     198
+    ],
+    "percentile": 20
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "value at percentile 70 among 2, 4, 6, 8, 10, 12, 14",
+   "input": {
+    "values": [
+     2,
+     4,
+     6,
+     8,
+     10,
+     12,
+     14
+    ],
+    "percentile": 70
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "Find the 99th percentile of order sizes £18, £22, £35, £19, £140, £27, £24",
+   "input": {
+    "values": [
+     18,
+     22,
+     35,
+     19,
+     140,
+     27,
+     24
+    ],
+    "percentile": 99
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "Accountant: invoice values 1,200 950 1,480 2,100 1,050 — 30th percentile please",
+   "input": {
+    "values": [
+     1200,
+     950,
+     1480,
+     2100,
+     1050
+    ],
+    "percentile": 30
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "Work out the 65th percentile for 0.12, 0.31, 0.08, 0.27, 0.19",
+   "input": {
+    "values": [
+     0.12,
+     0.31,
+     0.08,
+     0.27,
+     0.19
+    ],
+    "percentile": 65
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "95th percentile of the page response times in my log",
+   "input": {
+    "percentile": 95
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "percentile",
+   "message": "Could you get the 75th percentile of the scores I've pasted below?",
+   "input": {
+    "percentile": 75
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "percentile",
+   "message": "p99 of the latency log I sent",
+   "input": {
+    "percentile": 99
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "percentile",
+   "message": "Find the 10th percentile of the salaries in my list.",
+   "input": {
+    "percentile": 10
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "percentile",
+   "message": "90th percentile of my delivery times, data attached",
+   "input": {
+    "percentile": 90
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "percentile",
+   "message": "percentile 25 for 7, 3, 12, 9, 15, 4",
+   "input": {
+    "values": [
+     7,
+     3,
+     12,
+     9,
+     15,
+     4
+    ],
+    "percentile": 25
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "Heights 150, 162, 171, 158, 166, 180 cm: what's the 55th percentile?",
+   "input": {
+    "values": [
+     150,
+     162,
+     171,
+     158,
+     166,
+     180
+    ],
+    "percentile": 55
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "percentile",
+   "message": "p75 of 30 45 25 60 50",
+   "input": {
+    "values": [
+     30,
+     45,
+     25,
+     60,
+     50
+    ],
+    "percentile": 75
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "quartiles for 3 7 8 12 15 18 21 25",
+   "input": {
+    "values": [
+     3,
+     7,
+     8,
+     12,
+     15,
+     18,
+     21,
+     25
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "I've got delivery times of 22, 35, 28, 41, 30, 26, 38 minutes. Where are Q1, the median and Q3?",
+   "input": {
+    "values": [
+     22,
+     35,
+     28,
+     41,
+     30,
+     26,
+     38
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Work out the IQR of 54, 61, 47, 70, 66, 58, 73, 50",
+   "input": {
+    "values": [
+     54,
+     61,
+     47,
+     70,
+     66,
+     58,
+     73,
+     50
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "split 100 140 120 180 160 200 into quartiles",
+   "input": {
+    "values": [
+     100,
+     140,
+     120,
+     180,
+     160,
+     200
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Teacher here: spelling test marks 9, 14, 11, 17, 19, 13, 16, 12. Can you give me the lower and upper quartile?",
+   "input": {
+    "values": [
+     9,
+     14,
+     11,
+     17,
+     19,
+     13,
+     16,
+     12
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "lower quartile, upper quartile and interquartile range of 2.5 3.1 4.8 5.2 6.7 7.3",
+   "input": {
+    "values": [
+     2.5,
+     3.1,
+     4.8,
+     5.2,
+     6.7,
+     7.3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "What are the quartiles of house prices 310000, 275000, 450000, 390000, 520000?",
+   "input": {
+    "values": [
+     310000,
+     275000,
+     450000,
+     390000,
+     520000
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "box plot numbers (Q1, Q2, Q3) for 18 24 31 27 22 35 29",
+   "input": {
+    "values": [
+     18,
+     24,
+     31,
+     27,
+     22,
+     35,
+     29
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Nurse: patient ages 34, 67, 45, 72, 58, 81, 49, 63 — quartiles please",
+   "input": {
+    "values": [
+     34,
+     67,
+     45,
+     72,
+     58,
+     81,
+     49,
+     63
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Could you find the interquartile range for my weekly spend £85, £120, £95, £140, £110, £160?",
+   "input": {
+    "values": [
+     85,
+     120,
+     95,
+     140,
+     110,
+     160
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "quartile breakdown: 5 9 13 17 21 25 29 33 37",
+   "input": {
+    "values": [
+     5,
+     9,
+     13,
+     17,
+     21,
+     25,
+     29,
+     33,
+     37
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Gamer stats — match scores 1200, 980, 1430, 1100, 1650, 1320. What's the IQR?",
+   "input": {
+    "values": [
+     1200,
+     980,
+     1430,
+     1100,
+     1650,
+     1320
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Give me Q1 and Q3 for -6, -2, 0, 4, 9, 11",
+   "input": {
+    "values": [
+     -6,
+     -2,
+     0,
+     4,
+     9,
+     11
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "how spread is the middle half of 40 44 52 58 61 69 75? quartiles + IQR",
+   "input": {
+    "values": [
+     40,
+     44,
+     52,
+     58,
+     61,
+     69,
+     75
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Accountant: invoice amounts 1,450 2,300 1,900 3,100 2,750 — quartiles and interquartile range",
+   "input": {
+    "values": [
+     1450,
+     2300,
+     1900,
+     3100,
+     2750
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "first and third quartile of 0.42 0.57 0.61 0.38 0.75 0.66",
+   "input": {
+    "values": [
+     0.42,
+     0.57,
+     0.61,
+     0.38,
+     0.75,
+     0.66
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Please compute quartiles for the reaction times 245, 260, 230, 290, 275, 255, 310 ms.",
+   "input": {
+    "values": [
+     245,
+     260,
+     230,
+     290,
+     275,
+     255,
+     310
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "quartiles of my data please",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Could you work out the IQR of the salaries I've listed below?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Q1/Q3 for the column I just pasted",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "quartiles",
+   "message": "find the quartiles of my running times, I'll send them",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "quartiles",
+   "message": "interquartile range for the survey ages attached",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "quartiles",
+   "message": "quartiles: 66, 71, 59, 80, 74",
+   "input": {
+    "values": [
+     66,
+     71,
+     59,
+     80,
+     74
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "quartiles",
+   "message": "Break 12, 19, 23, 8, 30, 27, 15, 21 into quartiles for my stats homework",
+   "input": {
+    "values": [
+     12,
+     19,
+     23,
+     8,
+     30,
+     27,
+     15,
+     21
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank 64 89 72 95 81",
+   "input": {
+    "values": [
+     64,
+     89,
+     72,
+     95,
+     81
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Our sales reps closed 14, 22, 9, 17 deals this month. Can you rank them, highest first?",
+   "input": {
+    "values": [
+     14,
+     22,
+     9,
+     17
+    ],
+    "direction": "descending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Rank the lap times 58.2, 56.9, 60.1, 57.4 from fastest (lowest) to slowest.",
+   "input": {
+    "values": [
+     58.2,
+     56.9,
+     60.1,
+     57.4
+    ],
+    "direction": "ascending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "give ranks to Alice 88, Ben 92, Cara 75, Dev 92",
+   "input": {
+    "values": [
+     88,
+     92,
+     75,
+     92
+    ],
+    "labels": [
+     "Alice",
+     "Ben",
+     "Cara",
+     "Dev"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Teacher: rank my pupils by score — Mia 71, Leo 84, Zoe 66, Sam 90, Ivy 84. Use dense ranking for ties.",
+   "input": {
+    "values": [
+     71,
+     84,
+     66,
+     90,
+     84
+    ],
+    "labels": [
+     "Mia",
+     "Leo",
+     "Zoe",
+     "Sam",
+     "Ivy"
+    ],
+    "method": "dense"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "ranking positions for 300 450 450 200 500, ordinal please",
+   "input": {
+    "values": [
+     300,
+     450,
+     450,
+     200,
+     500
+    ],
+    "method": "ordinal"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Could you put these golf scores in rank order, lowest wins: 72, 68, 75, 70?",
+   "input": {
+    "values": [
+     72,
+     68,
+     75,
+     70
+    ],
+    "direction": "ascending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "shop owner — rank my products by units sold, most first: mugs 120, tees 340, caps 95, bags 210",
+   "input": {
+    "values": [
+     120,
+     340,
+     95,
+     210
+    ],
+    "labels": [
+     "mugs",
+     "tees",
+     "caps",
+     "bags"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank 5, 3, 5, 1, 3 with competition ranking",
+   "input": {
+    "values": [
+     5,
+     3,
+     5,
+     1,
+     3
+    ],
+    "method": "competition"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Which position does each get? 1500, 2200, 1800, 2600 (biggest is 1st)",
+   "input": {
+    "values": [
+     1500,
+     2200,
+     1800,
+     2600
+    ],
+    "direction": "descending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Gamer leaderboard: kills 31, 27, 45, 27, 38 — give me the rankings",
+   "input": {
+    "values": [
+     31,
+     27,
+     45,
+     27,
+     38
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Rank the cities by rainfall, smallest first: Leeds 66, Bath 77, York 62, Hull 69",
+   "input": {
+    "values": [
+     66,
+     77,
+     62,
+     69
+    ],
+    "labels": [
+     "Leeds",
+     "Bath",
+     "York",
+     "Hull"
+    ],
+    "direction": "ascending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank order of 0.82, 0.91, 0.77, 0.88",
+   "input": {
+    "values": [
+     0.82,
+     0.91,
+     0.77,
+     0.88
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Please rank these bids from top to bottom: £1,200, £950, £1,450, £1,100.",
+   "input": {
+    "values": [
+     1200,
+     950,
+     1450,
+     1100
+    ],
+    "direction": "descending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Accountant: rank departments by overspend — Ops 4200, HR 1800, IT 5300, Sales 2900",
+   "input": {
+    "values": [
+     4200,
+     1800,
+     5300,
+     2900
+    ],
+    "labels": [
+     "Ops",
+     "HR",
+     "IT",
+     "Sales"
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "ascending rank for 40 10 30 20",
+   "input": {
+    "values": [
+     40,
+     10,
+     30,
+     20
+    ],
+    "direction": "ascending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Rank 9, 7, 9, 9, 4 using dense ranks, highest first",
+   "input": {
+    "values": [
+     9,
+     7,
+     9,
+     9,
+     4
+    ],
+    "method": "dense",
+    "direction": "descending"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "give a rank to each number in my list, I'll paste it",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Could you rank the team points I've pasted below, highest first?",
+   "input": {
+    "direction": "descending"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "rankValues",
+   "message": "give each of my exam marks a rank position — sending them now",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank my monthly sales numbers smallest to largest, data attached",
+   "input": {
+    "direction": "ascending"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "rankValues",
+   "message": "dense rank the values in my spreadsheet column",
+   "input": {
+    "method": "dense"
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "rankValues",
+   "message": "Rank the quiz results 17, 12, 19, 15 for the pub league",
+   "input": {
+    "values": [
+     17,
+     12,
+     19,
+     15
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "rankValues",
+   "message": "rank positions for 250 175 310",
+   "input": {
+    "values": [
+     250,
+     175,
+     310
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "weighted mean of 70, 85, 90 with weights 1, 2, 3",
+   "input": {
+    "values": [
+     70,
+     85,
+     90
+    ],
+    "weights": [
+     1,
+     2,
+     3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "My coursework is weighted 40 and the exam 60. I got 78 on coursework and 64 on the exam. What's my weighted average?",
+   "input": {
+    "values": [
+     78,
+     64
+    ],
+    "weights": [
+     40,
+     60
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Bought shares at £12 (100 shares), £15 (50 shares) and £10 (150 shares). Weighted average price?",
+   "input": {
+    "values": [
+     12,
+     15,
+     10
+    ],
+    "weights": [
+     100,
+     50,
+     150
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "weighted average: values 3.5 4.0 2.8, weights 2 5 3",
+   "input": {
+    "values": [
+     3.5,
+     4.0,
+     2.8
+    ],
+    "weights": [
+     2,
+     5,
+     3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Could you compute a weighted average GPA from grades 4, 3, 3.7 with credit hours 3, 4, 2?",
+   "input": {
+    "values": [
+     4,
+     3,
+     3.7
+    ],
+    "weights": [
+     3,
+     4,
+     2
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "shop owner: coffee sold 40 cups at £2.85, 25 at £3.25, 10 at £3.65 — average price weighted by cups",
+   "input": {
+    "values": [
+     2.85,
+     3.25,
+     3.65
+    ],
+    "weights": [
+     40,
+     25,
+     10
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Weighted average of a student's scores 88, 72, 81 with weights 15, 35, 50, please",
+   "input": {
+    "values": [
+     88,
+     72,
+     81
+    ],
+    "weights": [
+     15,
+     35,
+     50
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "weighted average of 60 and 100 where 60 has weight 3 and 100 has weight 1",
+   "input": {
+    "values": [
+     60,
+     100
+    ],
+    "weights": [
+     3,
+     1
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Weighted mean temperature: 18°C for 6 hours, 24°C for 4 hours, 15°C for 14 hours",
+   "input": {
+    "values": [
+     18,
+     24,
+     15
+    ],
+    "weights": [
+     6,
+     4,
+     14
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "values 200, 350, 500 weighted 0.2, 0.3, 0.5 — what's the average",
+   "input": {
+    "values": [
+     200,
+     350,
+     500
+    ],
+    "weights": [
+     0.2,
+     0.3,
+     0.5
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Accountant: three loans at rates 4.5, 6.0, 3.25 percent with balances 10000, 5000, 20000. What's the balance-weighted average rate?",
+   "input": {
+    "values": [
+     4.5,
+     6.0,
+     3.25
+    ],
+    "weights": [
+     10000,
+     5000,
+     20000
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Gamer — my K/D was 1.2 over 30 matches, 1.8 over 10 and 0.9 over 20. Weighted average please.",
+   "input": {
+    "values": [
+     1.2,
+     1.8,
+     0.9
+    ],
+    "weights": [
+     30,
+     10,
+     20
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Please weight 55, 65, 75, 85 by 4, 3, 2, 1 and average them.",
+   "input": {
+    "values": [
+     55,
+     65,
+     75,
+     85
+    ],
+    "weights": [
+     4,
+     3,
+     2,
+     1
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "fuel log: weighted average of prices 1.45, 1.52, 1.39 weighted by litres 30, 45, 20",
+   "input": {
+    "values": [
+     1.45,
+     1.52,
+     1.39
+    ],
+    "weights": [
+     30,
+     45,
+     20
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "wtd avg of 12 18 25 using weights 5 1 2",
+   "input": {
+    "values": [
+     12,
+     18,
+     25
+    ],
+    "weights": [
+     5,
+     1,
+     2
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Customer ratings: 5 stars x 120, 4 stars x 45, 3 stars x 20, 1 star x 8. What's the weighted average rating?",
+   "input": {
+    "values": [
+     5,
+     4,
+     3,
+     1
+    ],
+    "weights": [
+     120,
+     45,
+     20,
+     8
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Could you average 92 and 68 with weights 7 and 3?",
+   "input": {
+    "values": [
+     92,
+     68
+    ],
+    "weights": [
+     7,
+     3
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "weighted average of my module marks with their credits",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Work out the weighted average cost from the purchase list I pasted (price and quantity).",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "weighted mean of the scores below using the weights next to them",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "average my portfolio returns weighted by how much I hold — figures to follow",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Can you do a weighted average of the survey results in my sheet?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "weighted average 45, 55 with 9 and 11",
+   "input": {
+    "values": [
+     45,
+     55
+    ],
+    "weights": [
+     9,
+     11
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "weightedAverage",
+   "message": "Weighted average score if test A (82) has weight 25 and test B (74) has weight 75?",
+   "input": {
+    "values": [
+     82,
+     74
+    ],
+    "weights": [
+     25,
+     75
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "z-scores for 12 15 18 21 24",
+   "input": {
+    "values": [
+     12,
+     15,
+     18,
+     21,
+     24
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "My running times this month were 31, 29, 34, 28, 40 minutes. How many standard deviations is each one from my average?",
+   "input": {
+    "values": [
+     31,
+     29,
+     34,
+     28,
+     40
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "Standardize 55, 60, 72, 48, 65 for me.",
+   "input": {
+    "values": [
+     55,
+     60,
+     72,
+     48,
+     65
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "standard scores of 2.4 3.1 2.9 4.5 3.6",
+   "input": {
+    "values": [
+     2.4,
+     3.1,
+     2.9,
+     4.5,
+     3.6
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "Teacher: z-scores for my class's quiz marks 14, 18, 11, 20, 16, 9",
+   "input": {
+    "values": [
+     14,
+     18,
+     11,
+     20,
+     16,
+     9
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "treating 210, 190, 250, 230 as a sample, what are their z scores",
+   "input": {
+    "values": [
+     210,
+     190,
+     250,
+     230
+    ],
+    "sample": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "Could you convert the sales figures 4500, 5200, 3900, 6100, 4800 into z-scores?",
+   "input": {
+    "values": [
+     4500,
+     5200,
+     3900,
+     6100,
+     4800
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "how far from the mean in SDs is each of 88 92 79 95 70",
+   "input": {
+    "values": [
+     88,
+     92,
+     79,
+     95,
+     70
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "Nurse here — z-scores for systolic readings 118, 135, 142, 121, 160 please.",
+   "input": {
+    "values": [
+     118,
+     135,
+     142,
+     121,
+     160
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "z score normalise -3 0 2 5 9",
+   "input": {
+    "values": [
+     -3,
+     0,
+     2,
+     5,
+     9
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "Gamer: my last games' scores were 2400, 3100, 2750, 1900. Standardise them so I can see the good and bad nights.",
+   "input": {
+    "values": [
+     2400,
+     3100,
+     2750,
+     1900
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "Please give the sample z-scores of 7.2, 6.8, 8.1, 7.5, 6.4",
+   "input": {
+    "values": [
+     7.2,
+     6.8,
+     8.1,
+     7.5,
+     6.4
+    ],
+    "sample": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "z-scores: 100, 120",
+   "input": {
+    "values": [
+     100,
+     120
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "Accountant here. z-scores for monthly costs £3,200 £2,950 £4,100 £3,050 £3,600",
+   "input": {
+    "values": [
+     3200,
+     2950,
+     4100,
+     3050,
+     3600
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "compute standard scores for heights 162 175 158 181 169 cm",
+   "input": {
+    "values": [
+     162,
+     175,
+     158,
+     181,
+     169
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "How many standard deviations above or below average is each of 45, 52, 38, 61?",
+   "input": {
+    "values": [
+     45,
+     52,
+     38,
+     61
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "z-scores for 0.15 0.22 0.18 0.40 0.25, sample please",
+   "input": {
+    "values": [
+     0.15,
+     0.22,
+     0.18,
+     0.4,
+     0.25
+    ],
+    "sample": true
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "standardise the data I'm pasting",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "zScores",
+   "message": "Could you give me z-scores for my students' marks? List below.",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "zScores",
+   "message": "z score each value in my spreadsheet column",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "zScores",
+   "message": "standardise the measurements I sent as a sample — z-scores please",
+   "input": {
+    "sample": true
+   },
+   "mode": "pointed"
+  },
+  {
+   "skill": "zScores",
+   "message": "how many SDs from the mean is each of my lap times, sending them now",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "zScores",
+   "message": "z scores of 33 41 37 29",
+   "input": {
+    "values": [
+     33,
+     41,
+     37,
+     29
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "zScores",
+   "message": "Standardise rainfall 54, 61, 47, 80, 66 mm into z-scores",
+   "input": {
+    "values": [
+     54,
+     61,
+     47,
+     80,
+     66
+    ]
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "what type of file is a .avif",
+   "input": {
+    "query": ".avif"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "My printer saved something as scan.tiff — what type of file is that?",
+   "input": {
+    "query": "scan.tiff"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "which media type does a .webp file use?",
+   "input": {
+    "query": ".webp"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "Got an email attachment ending in .odt and I'm not sure what it is. What kind of file?",
+   "input": {
+    "query": ".odt"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "which media type does .svg use",
+   "input": {
+    "query": ".svg"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "Could you tell me what a .tsv extension means?",
+   "input": {
+    "query": ".tsv"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "dev here, content-type for .wasm files?",
+   "input": {
+    "query": ".wasm"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "what's a .mp4 file and its media type",
+   "input": {
+    "query": ".mp4"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "Retiree here: my grandson sent me photos.zip. What sort of file is it?",
+   "input": {
+    "query": "photos.zip"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "identify the file type of notes.txt",
+   "input": {
+    "query": "notes.txt"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "What kind of file has the extension .mkv?",
+   "input": {
+    "query": ".mkv"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "what sort of file is a .pdf, and its media type",
+   "input": {
+    "query": ".pdf"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "Teacher here — pupils keep handing in .docx files. What exactly is that file type?",
+   "input": {
+    "query": ".docx"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "is .xml a text format? what media type",
+   "input": {
+    "query": ".xml"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "what's .flac",
+   "input": {
+    "query": ".flac"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "Please explain the file extension .gif — what kind of file is it?",
+   "input": {
+    "query": ".gif"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "server is serving styles.css — what file type and media type is that?",
+   "input": {
+    "query": "styles.css"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "what type of file is backup.tar",
+   "input": {
+    "query": "backup.tar"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "Tell me about the .mp3 file format — what is it?",
+   "input": {
+    "query": ".mp3"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "what kind of file is the one I'm about to name",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "what's the media type of the file I'm about to name",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "file type of index.js?",
+   "input": {
+    "query": "index.js"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "Gamer question: what kind of file is a .png?",
+   "input": {
+    "query": ".png"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileExtensionInfo",
+   "message": "what does the .wav file extension stand for",
+   "input": {
+    "query": ".wav"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "how big is 3500000 bytes in MB",
+   "input": {
+    "bytes": 3500000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "My backup log says 8589934592 bytes. Can you show that in binary units like GiB?",
+   "input": {
+    "bytes": 8589934592,
+    "base": "binary"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "Convert 2,048 bytes into a human readable file size.",
+   "input": {
+    "bytes": 2048
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "readable size for 734003200 bytes with 2 decimal places",
+   "input": {
+    "bytes": 734003200,
+    "decimals": 2
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "The upload limit error says 52428800 bytes. What's that as a normal file size?",
+   "input": {
+    "bytes": 52428800
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "bytes to KB/MB/GB: 987654321",
+   "input": {
+    "bytes": 987654321
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "Could you express 1,099,511,627,776 bytes in binary units?",
+   "input": {
+    "bytes": 1099511627776,
+    "base": "binary"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "how large is a 45000 byte file",
+   "input": {
+    "bytes": 45000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "Photographer here: a RAW file came out at 26214400 bytes. What size is that in MB?",
+   "input": {
+    "bytes": 26214400
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "make 15728640 bytes readable, binary, 0 decimal places",
+   "input": {
+    "bytes": 15728640,
+    "base": "binary",
+    "decimals": 0
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "My tiny config file is 999 bytes — how big is that in readable units?",
+   "input": {
+    "bytes": 999
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "decimal units please — 4700000000 bytes, how many GB",
+   "input": {
+    "bytes": 4700000000,
+    "base": "decimal"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "Turn 123456789 bytes into something readable with 3 decimals.",
+   "input": {
+    "bytes": 123456789,
+    "decimals": 3
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "the game patch is 18,253,611,008 bytes, how many gigs is that",
+   "input": {
+    "bytes": 18253611008
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "human-friendly size for 65536 bytes",
+   "input": {
+    "bytes": 65536
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "Teacher here — the class video is 1572864000 bytes. Is that more than a gigabyte? Show me the size.",
+   "input": {
+    "bytes": 1572864000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "file size in binary units for 3221225472 bytes",
+   "input": {
+    "bytes": 3221225472,
+    "base": "binary"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "Show 250000 bytes in kB",
+   "input": {
+    "bytes": 250000
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "how many MB is 10485760 bytes?",
+   "input": {
+    "bytes": 10485760
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "readable size of 7340032 bytes to 1 decimal place",
+   "input": {
+    "bytes": 7340032,
+    "decimals": 1
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "what's this byte count as a readable file size",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "how big is my download in MB? I'll give you the bytes",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "Accountant: our archive folder shows 268435456 bytes, readable size please",
+   "input": {
+    "bytes": 268435456
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "fileSizeHuman",
+   "message": "is 500 bytes under a kilobyte? show the file size readable",
+   "input": {
+    "bytes": 500
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "lines, words and bytes in this: roses are red\nviolets are blue",
+   "input": {
+    "text": "roses are red\nviolets are blue"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "Can you give me the line, word and byte counts for: The quick brown fox jumps over the lazy dog.",
+   "input": {
+    "text": "The quick brown fox jumps over the lazy dog."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "file stats please — line one\nline two\nline three",
+   "input": {
+    "text": "line one\nline two\nline three"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "I'm checking a config file before I commit it. Give me its line count, word count and byte size: host=localhost\nport=8080\ndebug=false",
+   "input": {
+    "text": "host=localhost\nport=8080\ndebug=false"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "byte count and word count of: Café au lait, s'il vous plaît",
+   "input": {
+    "text": "Café au lait, s'il vous plaît"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "Measure this text — lines, words, bytes, line endings: Dear Sam,\nThanks for the parcel.\nLove, Gran",
+   "input": {
+    "text": "Dear Sam,\nThanks for the parcel.\nLove, Gran"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "what line endings and how many lines: apples\r\npears\r\nplums",
+   "input": {
+    "text": "apples\r\npears\r\nplums"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "wc this for me — lines, words, bytes: to be or not to be that is the question",
+   "input": {
+    "text": "to be or not to be that is the question"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "Teacher here. Line and word count plus bytes for my pupil's poem: The sea is grey\nThe sky is grey\nMy socks are wet today",
+   "input": {
+    "text": "The sea is grey\nThe sky is grey\nMy socks are wet today"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "Count lines/words/bytes: id,name,qty\n1,bolts,40\n2,nuts,85",
+   "input": {
+    "text": "id,name,qty\n1,bolts,40\n2,nuts,85"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "text stats for: Meeting moved to Thursday at 3pm, please bring the budget sheets.",
+   "input": {
+    "text": "Meeting moved to Thursday at 3pm, please bring the budget sheets."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "Could you tell me the size in bytes and the word count of: naïve résumé façade",
+   "input": {
+    "text": "naïve résumé façade"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "file stats for my shopping list: milk\neggs\nbread\nbutter\njam",
+   "input": {
+    "text": "milk\neggs\nbread\nbutter\njam"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "Nurse handover note — text file stats (lines, words, bytes): Patient stable overnight, obs normal, eating well, review at 10.",
+   "input": {
+    "text": "Patient stable overnight, obs normal, eating well, review at 10."
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "does this use CRLF or LF, and how many lines: first\nsecond\n\nfourth",
+   "input": {
+    "text": "first\nsecond\n\nfourth"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "Give me line count, byte count and line endings for this log: ERROR disk full\nWARN retrying\nINFO done",
+   "input": {
+    "text": "ERROR disk full\nWARN retrying\nINFO done"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "word, line and byte stats: Ship it on Friday 🚀",
+   "input": {
+    "text": "Ship it on Friday 🚀"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "Text stats for my draft tweet, lines, words and bytes: Just finished my first marathon in under four hours!",
+   "input": {
+    "text": "Just finished my first marathon in under four hours!"
+   },
+   "mode": "full"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "count the lines, words and bytes in my essay",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "Could you tell me what line endings the file I'm pasting uses?",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "line, word and byte stats on the paragraph below please",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "how many lines, words and bytes does my cover letter file have",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "byte size and line count of the CSV I just sent",
+   "input": {},
+   "mode": "pointed"
+  },
+  {
+   "skill": "textFileStats",
+   "message": "measure this readme for me — lines, words, bytes",
+   "input": {},
+   "mode": "pointed"
+  }
+ ],
+ "pairs": [
+  {
+   "twins": [
+    "aspectRatio",
+    "fractionSimplify"
+   ],
+   "rows": [
+    {
+     "skill": "aspectRatio",
+     "message": "reduce 2560 x 1600 to its aspect ratio",
+     "input": {
+      "width": 2560,
+      "height": 1600
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "fractionSimplify",
+     "message": "reduce the fraction 2560/1600",
+     "input": {
+      "fraction": "2560/1600"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "aspectRatio",
+    "fractionSimplify"
+   ],
+   "rows": [
+    {
+     "skill": "aspectRatio",
+     "message": "simplify 1440 by 960 to a screen ratio",
+     "input": {
+      "width": 1440,
+      "height": 960
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "fractionSimplify",
+     "message": "simplify 1440/960 to a fraction",
+     "input": {
+      "fraction": "1440/960"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "aspectRatio",
+    "fractionSimplify"
+   ],
+   "rows": [
+    {
+     "skill": "aspectRatio",
+     "message": "reduce 3000 by 2000 to its aspect ratio",
+     "input": {
+      "width": 3000,
+      "height": 2000
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "fractionSimplify",
+     "message": "reduce 3000/2000 to its lowest terms",
+     "input": {
+      "fraction": "3000/2000"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "complementaryColor",
+    "nearestNamedColor"
+   ],
+   "rows": [
+    {
+     "skill": "complementaryColor",
+     "message": "for my logo #4A7C59, give me its complementary colour",
+     "input": {
+      "color": "#4A7C59"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "nearestNamedColor",
+     "message": "for my logo #4A7C59, give me its CSS colour name",
+     "input": {
+      "color": "#4A7C59"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "complementaryColor",
+    "nearestNamedColor"
+   ],
+   "rows": [
+    {
+     "skill": "complementaryColor",
+     "message": "find the complement of rgb(180, 90, 40) for my poster",
+     "input": {
+      "color": "rgb(180, 90, 40)"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "nearestNamedColor",
+     "message": "find the nearest named colour to rgb(180, 90, 40) for my poster",
+     "input": {
+      "color": "rgb(180, 90, 40)"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertColor",
+    "mixColors"
+   ],
+   "rows": [
+    {
+     "skill": "convertColor",
+     "message": "For my website theme, convert #FF8800 to hsl please",
+     "input": {
+      "color": "#FF8800"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "mixColors",
+     "message": "For my website theme, mix #FF8800 with #FFFFFF please",
+     "input": {
+      "a": "#FF8800",
+      "b": "#FFFFFF"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertColor",
+    "mixColors"
+   ],
+   "rows": [
+    {
+     "skill": "convertColor",
+     "message": "In the brand guide, our orange #E85D04 needs converting to rgb",
+     "input": {
+      "color": "#E85D04"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "mixColors",
+     "message": "In the brand guide, our orange #E85D04 needs mixing with #FFBA08",
+     "input": {
+      "a": "#E85D04",
+      "b": "#FFBA08"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "convertColor",
+    "mixColors"
+   ],
+   "rows": [
+    {
+     "skill": "convertColor",
+     "message": "convert rgb(20, 120, 200) to hex for the app",
+     "input": {
+      "color": "rgb(20, 120, 200)"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "mixColors",
+     "message": "mix rgb(20, 120, 200) and rgb(250, 250, 250) for the app",
+     "input": {
+      "a": "rgb(20, 120, 200)",
+      "b": "rgb(250, 250, 250)"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "darkenColor",
+    "lightenColor"
+   ],
+   "rows": [
+    {
+     "skill": "darkenColor",
+     "message": "make #5E60CE 25% darker for the footer",
+     "input": {
+      "color": "#5E60CE",
+      "by": 25
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "lightenColor",
+     "message": "make #5E60CE 25% lighter for the footer",
+     "input": {
+      "color": "#5E60CE",
+      "by": 25
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "darkenColor",
+    "lightenColor"
+   ],
+   "rows": [
+    {
+     "skill": "darkenColor",
+     "message": "darken rgb(120, 80, 200) by 15 percent",
+     "input": {
+      "color": "rgb(120, 80, 200)",
+      "by": 15
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "lightenColor",
+     "message": "lighten rgb(120, 80, 200) by 15 percent",
+     "input": {
+      "color": "rgb(120, 80, 200)",
+      "by": 15
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "darkenColor",
+    "nearestNamedColor"
+   ],
+   "rows": [
+    {
+     "skill": "darkenColor",
+     "message": "give #48BFE3 a darker shade for my slides",
+     "input": {
+      "color": "#48BFE3"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "nearestNamedColor",
+     "message": "give #48BFE3 a colour name for my slides",
+     "input": {
+      "color": "#48BFE3"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "darkenColor",
+    "nearestNamedColor"
+   ],
+   "rows": [
+    {
+     "skill": "darkenColor",
+     "message": "my paint swatch is #A0522E — what's it darkened by 20%?",
+     "input": {
+      "color": "#A0522E",
+      "by": 20
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "nearestNamedColor",
+     "message": "my paint swatch is #A0522E — what's its closest colour name?",
+     "input": {
+      "color": "#A0522E"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "darkenColor",
+    "nearestNamedColor"
+   ],
+   "rows": [
+    {
+     "skill": "darkenColor",
+     "message": "darken the shade rgb(64, 224, 208) a bit",
+     "input": {
+      "color": "rgb(64, 224, 208)"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "nearestNamedColor",
+     "message": "name the shade rgb(64, 224, 208)",
+     "input": {
+      "color": "rgb(64, 224, 208)"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generatePalette",
+    "lightenColor"
+   ],
+   "rows": [
+    {
+     "skill": "generatePalette",
+     "message": "take #2B2D42 and make a palette from it",
+     "input": {
+      "color": "#2B2D42"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "lightenColor",
+     "message": "take #2B2D42 and make it lighter",
+     "input": {
+      "color": "#2B2D42"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generatePalette",
+    "lightenColor"
+   ],
+   "rows": [
+    {
+     "skill": "generatePalette",
+     "message": "for the bakery menu, give me a colour palette based on #D4A373",
+     "input": {
+      "color": "#D4A373"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "lightenColor",
+     "message": "for the bakery menu, give me a lighter version of #D4A373",
+     "input": {
+      "color": "#D4A373"
+     },
+     "mode": "full"
+    }
+   ]
+  },
+  {
+   "twins": [
+    "generatePalette",
+    "lightenColor"
+   ],
+   "rows": [
+    {
+     "skill": "generatePalette",
+     "message": "triadic palette from hsl(10, 70%, 40%) please",
+     "input": {
+      "color": "hsl(10, 70%, 40%)",
+      "scheme": "triadic"
+     },
+     "mode": "full"
+    },
+    {
+     "skill": "lightenColor",
+     "message": "lighten hsl(10, 70%, 40%) by 30% please",
+     "input": {
+      "color": "hsl(10, 70%, 40%)",
+      "by": 30
+     },
+     "mode": "full"
+    }
+   ]
+  }
+ ]
+}

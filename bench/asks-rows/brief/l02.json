@@ -1,0 +1,395 @@
+{
+ "batch": "l02",
+ "skills": [
+  {
+   "skill": "countdownTo",
+   "category": "dates",
+   "does": "Count how long until a date, or how long since one, from today. Takes the one date.",
+   "examples": [
+    "how many days till my sister's wedding on nov 14",
+    "days until christmas",
+    "how long until tomorrow"
+   ]
+  },
+  {
+   "skill": "currentTime",
+   "category": "dates",
+   "does": "Today's date and the current time, in your own time zone.",
+   "examples": [
+    "what is the date today",
+    "what time is it",
+    "what time is it in tokyo"
+   ]
+  },
+  {
+   "skill": "dateRangeList",
+   "category": "dates",
+   "does": "List every date between two dates, optionally stepping by weeks or months.",
+   "examples": [
+    "list the dates from 2026-09-01 to 2026-09-05",
+    "every monday from 2026-09-07 to 2026-09-28",
+    "the first of each month from january to april 2026"
+   ]
+  },
+  {
+   "skill": "dayOfWeek",
+   "category": "dates",
+   "does": "Name the weekday a date lands on — a Monday, a Saturday.",
+   "examples": [
+    "what day of the week is 14 November 2026",
+    "is christmas 2026 a weekday",
+    "what day was 1 January 2000"
+   ]
+  },
+  {
+   "skill": "dayOfYear",
+   "category": "dates",
+   "does": "Which numbered day of the year a date is, and how much of the year is left.",
+   "examples": [
+    "what day of the year is 2026-11-14",
+    "which day of the year is christmas 2026",
+    "day of year for 2024-03-01 in a leap year"
+   ]
+  },
+  {
+   "skill": "daysBetween",
+   "category": "dates",
+   "does": "Count the days from one given date to another. Takes both dates.",
+   "examples": [
+    "how many days between 12 July 2026 and 25 December 2026",
+    "days from 2026-01-01 to 2026-03-01",
+    "how long is my trip if I fly out 3 April and back 17 April, counting both days"
+   ]
+  },
+  {
+   "skill": "daysInMonth",
+   "category": "dates",
+   "does": "Say how many days long a given month is.",
+   "examples": [
+    "how many days in february 2026",
+    "days in february 2028",
+    "how long is september 2026"
+   ]
+  },
+  {
+   "skill": "durationToText",
+   "category": "dates",
+   "does": "Turn a raw number of seconds into readable words like \"1h 30m\".",
+   "examples": [
+    "what is 5400 seconds as a duration",
+    "how long is 90 seconds in words",
+    "express 100000 seconds readably"
+   ]
+  },
+  {
+   "skill": "expandRecurrence",
+   "category": "dates",
+   "does": "List the dates a repeating schedule falls on — the first Thursday monthly, every fortnight, every 90 days.",
+   "examples": [
+    "every fortnight from 2026-09-07, eight times",
+    "the 1st of every month for six months from 2026-10-01",
+    "every 90 days from 2026-01-15, five times"
+   ]
+  },
+  {
+   "skill": "formatDate",
+   "category": "dates",
+   "does": "Rewrite a date in a layout you choose, like DD/MM/YYYY or \"D MMMM YYYY\".",
+   "examples": [
+    "format 2026-11-14 as DD/MM/YYYY",
+    "write that date as D MMMM YYYY",
+    "show christmas as DDDD, D MMM"
+   ]
+  },
+  {
+   "skill": "isLeapYear",
+   "category": "dates",
+   "does": "Say whether a year is a leap year, and how many days it has.",
+   "examples": [
+    "is 2026 a leap year",
+    "is 2028 a leap year",
+    "was 1900 a leap year"
+   ]
+  },
+  {
+   "skill": "isoToUnix",
+   "category": "dates",
+   "does": "Convert a calendar date and clock time to a Unix epoch number.",
+   "examples": [
+    "unix timestamp for 2026-09-01",
+    "what is 2026-09-01 09:30 as a timestamp",
+    "epoch seconds for 1970-01-01"
+   ]
+  },
+  {
+   "skill": "isoWeek",
+   "category": "dates",
+   "does": "Number the week of the year a date sits in, and when that week begins.",
+   "examples": [
+    "what iso week is 2026-11-14",
+    "which week of the year is christmas 2026",
+    "iso week for 2000-01-01"
+   ]
+  },
+  {
+   "skill": "isWeekend",
+   "category": "dates",
+   "does": "Say whether a date is a weekend or a working day.",
+   "examples": [
+    "is 2026-11-14 a weekend",
+    "is christmas 2026 on a weekend",
+    "does 2026-07-04 fall on a weekend"
+   ]
+  },
+  {
+   "skill": "listTimezoneOffsets",
+   "category": "dates",
+   "does": "Show the local time and UTC offset in several time zones at once.",
+   "examples": [
+    "show the time in London Tokyo and New York",
+    "list utc offsets for these zones",
+    "what time is it in Sydney and Los Angeles"
+   ]
+  },
+  {
+   "skill": "mergeIntervals",
+   "category": "dates",
+   "does": "Merge overlapping or touching ranges into the fewest that cover the same ground.",
+   "examples": [
+    "merge these overlapping ranges",
+    "combine ranges that touch",
+    "merge a range fully inside another"
+   ]
+  },
+  {
+   "skill": "nextWeekday",
+   "category": "dates",
+   "does": "Find the date of the next Monday, Tuesday and so on — or the most recent one.",
+   "examples": [
+    "when is next tuesday",
+    "what date is the next friday",
+    "when was last monday"
+   ]
+  },
+  {
+   "skill": "parseDate",
+   "category": "dates",
+   "does": "Read a messy date — \"14 nov\", \"3/4/2026\", \"next Tuesday\" is a different skill — and return it as an ISO date.",
+   "examples": [
+    "what is 14 nov as a date",
+    "parse \"December 25 2026\"",
+    "what date is 2026-07-12"
+   ]
+  },
+  {
+   "skill": "parseDuration",
+   "category": "dates",
+   "does": "Read \"2h 15m\" or \"2 days 4 hours\" and give the total in seconds.",
+   "examples": [
+    "how many seconds is 1h 30m",
+    "convert 2 days 4 hours to seconds",
+    "how long is 45 minutes in seconds"
+   ]
+  },
+  {
+   "skill": "parseRelativeDate",
+   "category": "dates",
+   "does": "Turn a relative date like \"next Tuesday\", \"in 3 weeks\" or \"a month ago\" into a real date.",
+   "examples": [
+    "what date is next tuesday",
+    "what is the date in 3 weeks",
+    "what date was a month ago"
+   ]
+  },
+  {
+   "skill": "timeAgo",
+   "category": "dates",
+   "does": "Say how long ago a date was, or how far off it is, in plain words like \"3 days ago\".",
+   "examples": [
+    "how long ago was 2026-08-29",
+    "how far off is christmas",
+    "when was 2025-09-01 in plain words"
+   ]
+  },
+  {
+   "skill": "unixToIso",
+   "category": "dates",
+   "does": "Turn a Unix timestamp into a readable date and time.",
+   "examples": [
+    "what date is unix timestamp 1788255000",
+    "convert 0 from unix time",
+    "what is 1788255000000 as a date"
+   ]
+  },
+  {
+   "skill": "breakEvenComparison",
+   "category": "decisions",
+   "does": "Find the point at which one option starts to pay off against another.",
+   "examples": [
+    "when does the subscription beat paying per use",
+    "break even between buying and renting",
+    "compare two pricing plans"
+   ]
+  },
+  {
+   "skill": "expectedValue",
+   "category": "decisions",
+   "does": "Work out the expected value of a set of outcomes and their probabilities.",
+   "examples": [
+    "expected value of a coin flip for 100 or minus 50",
+    "what is the expected value of this lottery",
+    "expected value across three outcomes"
+   ]
+  },
+  {
+   "skill": "prosConsScore",
+   "category": "decisions",
+   "does": "Add up weighted pros and cons and show the balance.",
+   "examples": [
+    "weigh up these pros and cons",
+    "score my pros and cons list",
+    "is this decision balanced"
+   ]
+  },
+  {
+   "skill": "weightedDecisionMatrix",
+   "category": "decisions",
+   "does": "Score options against weighted criteria and rank them, from scores you provide.",
+   "examples": [
+    "help me choose between two flats on price and commute",
+    "rank three job offers",
+    "decide between two laptops"
+   ]
+  },
+  {
+   "skill": "aspectRatio",
+   "category": "design",
+   "does": "Reduce a width by a height to its screen ratio, like 16:9.",
+   "examples": [
+    "what aspect ratio is 1920 by 1080",
+    "aspect ratio of 1024x768",
+    "ratio for a square image"
+   ]
+  },
+  {
+   "skill": "complementaryColor",
+   "category": "design",
+   "does": "Find the colour opposite a given one on the colour wheel.",
+   "examples": [
+    "what is the complement of #2C6E8C",
+    "opposite colour to red",
+    "complement of this orange"
+   ]
+  },
+  {
+   "skill": "contrastRatio",
+   "category": "design",
+   "does": "Work out the contrast ratio between two colours and whether it meets WCAG AA or AAA.",
+   "examples": [
+    "contrast between black text and white background",
+    "is this text readable on that background",
+    "check contrast of grey on white"
+   ]
+  },
+  {
+   "skill": "convertColor",
+   "category": "design",
+   "does": "Convert a colour between hex, RGB and HSL.",
+   "examples": [
+    "convert #FF5733 to rgb",
+    "what is rgb(44, 110, 140) in hex",
+    "convert the shorthand #abc"
+   ]
+  },
+  {
+   "skill": "darkenColor",
+   "category": "design",
+   "does": "Shade a colour towards black by a percentage.",
+   "examples": [
+    "darken #2C6E8C by 20%",
+    "make this colour 10% darker",
+    "darken white by 50%"
+   ]
+  },
+  {
+   "skill": "generatePalette",
+   "category": "design",
+   "does": "Build a colour palette around a base colour — analogous, triadic, complementary or tints and shades.",
+   "examples": [
+    "build an analogous palette from #2C6E8C",
+    "triadic palette for this blue",
+    "complementary pair for #FF5733"
+   ]
+  },
+  {
+   "skill": "lightenColor",
+   "category": "design",
+   "does": "Tint a colour towards white by a percentage.",
+   "examples": [
+    "lighten #2C6E8C by 20%",
+    "make this colour 10% lighter",
+    "lighten black by 50%"
+   ]
+  },
+  {
+   "skill": "mixColors",
+   "category": "design",
+   "does": "Blend two colours together in a proportion you choose.",
+   "examples": [
+    "mix red and blue evenly",
+    "blend these two brand colours",
+    "mix 25% white into this colour"
+   ]
+  },
+  {
+   "skill": "nearestNamedColor",
+   "category": "design",
+   "does": "Find the closest CSS colour name to a colour — what you would call it in words.",
+   "examples": [
+    "what colour name is closest to #556B2F",
+    "closest css colour to #2C6E8C",
+    "what would you call rgb(255, 87, 51)"
+   ]
+  },
+  {
+   "skill": "pxToRem",
+   "category": "design",
+   "does": "Restate a pixel measurement in rem, against the root font size.",
+   "examples": [
+    "what is 24px in rem",
+    "convert 16px to rem",
+    "13px in rem at a 16px root"
+   ]
+  },
+  {
+   "skill": "remToPx",
+   "category": "design",
+   "does": "Work out how many pixels a rem value comes to on screen.",
+   "examples": [
+    "what is 1.5rem in pixels",
+    "convert 1rem to px",
+    "0.875rem in pixels"
+   ]
+  },
+  {
+   "skill": "scaleDimensions",
+   "category": "design",
+   "does": "Resize a width and height to fit a target, keeping the same proportions.",
+   "examples": [
+    "resize 1920x1080 to 800 wide",
+    "scale 4000x3000 to fit in 1000x1000",
+    "halve these dimensions"
+   ]
+  },
+  {
+   "skill": "compareSemver",
+   "category": "developer",
+   "does": "Say which of two version numbers is the newer.",
+   "examples": [
+    "is 2.11.5 newer than 2.9.0",
+    "compare 1.0.0 and 1.0.1",
+    "which is newer, 1.0.0 or 1.0.0-beta"
+   ]
+  }
+ ]
+}

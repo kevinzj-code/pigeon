@@ -1,0 +1,9 @@
+Plain-English Explainer (plain-english-explainer) — Lane B persona
+teacher http://127.0.0.1:8110, sampled at 0.9 with a fresh seed per row
+160 train / 20 valid, from 4 question groups
+  what-does-this-word-mean: 45
+  what-is-this-letter-asking: 45
+  explain-it-simply: 45
+  not-mine-to-work-out: 45
+repeated openings 4/180
+built 2026-09-16 by scripts/personadata.mjs from model/persona-data/plain-english-explainer.plan.json

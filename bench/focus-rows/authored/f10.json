@@ -1,0 +1,1056 @@
+{
+ "batch": "f10",
+ "domain": "invented species, inventions, ships and machines",
+ "cases": [
+  {
+   "question": "what is a fenwhistle",
+   "passage": "The fenwhistle is a small songbird of the reed beds of the Ostral lowlands. It is about 13 centimetres long and has a streaked brown back and a pale throat. The species was first described in 1851 by the naturalist Pieter Lunde. Its population is estimated at around 40,000 breeding pairs.",
+   "sentence": 1,
+   "quote": "small songbird of the reed beds",
+   "looking_for": "what kind of animal a fenwhistle is"
+  },
+  {
+   "question": "how long does a corran tortoise live",
+   "passage": "The Corran tortoise is a large land tortoise found only on the island of Corran Mor. Individuals commonly live for more than 150 years, and one captive animal reached 187. Adults weigh up to 180 kilograms and the shell can reach 1.2 metres in length. The species was described in 1809 by the explorer Hugh Tennant.",
+   "sentence": 2,
+   "quote": "commonly live for more than 150 years",
+   "looking_for": "the lifespan of the tortoise"
+  },
+  {
+   "question": "how many vellow hares are left in the wild",
+   "passage": "The vellow hare is a species of hare native to the high steppe of Karsland. It was once common across the whole plateau but declined sharply after 1950. A captive breeding programme was started at Ordeny Zoo in 1988 with 14 animals. The zoo now holds about 60 hares, and 22 have been released onto a fenced reserve.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the number of hares surviving in the wild"
+  },
+  {
+   "question": "where does the amber kestrel nest",
+   "passage": "The amber kestrel is a small falcon with rufous upperparts and a pale amber breast. It breeds in holes in sea cliffs along the coast of the Varrow peninsula. Outside the breeding season it moves inland to hunt over farmland. The species has been protected under the Varrow Wildlife Act since 1962.",
+   "sentence": 2,
+   "quote": "breeds in holes in sea cliffs",
+   "looking_for": "the place where the kestrel nests"
+  },
+  {
+   "question": "what does the glimmer newt eat",
+   "passage": "The glimmer newt is a semi aquatic amphibian of the mountain streams of Halveth. The newt feeds mainly on mayfly larvae, small snails and the eggs of other amphibians. It grows to about 11 centimetres and has luminous yellow spots along its flanks. Its chief predators are trout and the dipper.",
+   "sentence": 2,
+   "quote": "feeds mainly on mayfly larvae",
+   "looking_for": "the diet of the glimmer newt"
+  },
+  {
+   "question": "who discovered the saffron-winged moth",
+   "passage": "The saffron-winged moth is a moth found in the dry oak woods of Teskara. Its forewings are grey, while the hindwings are a deep saffron yellow. It was first collected in 1897 near the village of Brenna. The species was formally named in 1903 by the entomologist Clara Osterholt. Adults fly at night in July and August.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the person who first found the moth"
+  },
+  {
+   "question": "how big is the gorran whale",
+   "passage": "The Gorran whale is a baleen whale of the cold waters of the Skelling Sea. It is named after the whaling port of Gorran, where the first specimen was landed in 1872. Adult females reach a length of 19 metres, while males are slightly smaller. The population is thought to number fewer than 3,000 animals.",
+   "sentence": 3,
+   "quote": "reach a length of 19 metres",
+   "looking_for": "the size of an adult whale"
+  },
+  {
+   "question": "what is the dusk orchid",
+   "passage": "The dusk orchid is a flowering plant of the limestone grasslands of Merrovia. It produces a single spike of dark violet flowers that open only in the evening. The plant is pollinated by hawkmoths. It was first described in 1878 by the botanist Anselm Reiter.",
+   "sentence": 1,
+   "quote": "flowering plant of the limestone grasslands",
+   "looking_for": "what kind of plant the dusk orchid is"
+  },
+  {
+   "question": "how tall does the ashveld cedar grow",
+   "passage": "The Ashveld cedar is an evergreen conifer native to the mountains of the Ashveld range. It grows at altitudes between 1,400 and 2,300 metres. Its timber is fragrant and resistant to rot, and was used for temple building. The oldest known tree is estimated to be 1,100 years old.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the height the tree reaches"
+  },
+  {
+   "question": "how many eggs does a ridgeback plover lay",
+   "passage": "The ridgeback plover is a wading bird of the shingle beaches of Northmark. It nests in a shallow scrape on bare stones above the high tide line. The female lays three or four speckled eggs, which both parents incubate for about 26 days. The chicks can run within hours of hatching.",
+   "sentence": 3,
+   "quote": "lays three or four speckled eggs",
+   "looking_for": "the number of eggs in a clutch"
+  },
+  {
+   "question": "when was the pallid cave crab discovered",
+   "passage": "The pallid cave crab is a blind freshwater crab that lives only in the flooded caves of the Ostrow karst. It was discovered in 1964 by cave divers mapping the Black Sump system. The crab is almost transparent and has no functional eyes. It was formally described in 1971 by the zoologist Teodor Malek.",
+   "sentence": 2,
+   "quote": "discovered in 1964 by cave divers",
+   "looking_for": "the year the crab was discovered"
+  },
+  {
+   "question": "who described the copper-tailed skink",
+   "passage": "The copper-tailed skink is a lizard found on the rocky islets of the Sennor archipelago. Its tail is a bright metallic copper colour in juveniles and fades with age. The first specimens were collected in 1888 by the surgeon of the survey vessel Petrel. The species was described the following year by the herpetologist Amalia Rusk. It is listed as vulnerable.",
+   "sentence": 4,
+   "quote": "described the following year by the herpetologist Amalia Rusk",
+   "looking_for": "the scientist who described the skink"
+  },
+  {
+   "question": "how do lantern beetles attract mates",
+   "passage": "The lantern beetle is a firefly of the humid forests of the Calder basin. Males produce rhythmic green flashes to attract females during summer nights. The species is popular with tourists, and several villages hold lantern walks in its honour. It was first described in 1896 by the naturalist Ruth Calloway.",
+   "sentence": 2,
+   "quote": "Males produce rhythmic green flashes",
+   "looking_for": "how the beetles attract a partner"
+  },
+  {
+   "question": "where is the tessel salmon found",
+   "passage": "The Tessel salmon is a landlocked form of salmon found only in Lake Tessel and its feeder streams. It spawns in gravel beds in the upper Orrin each November. Adults are smaller than sea-going salmon, rarely exceeding 4 kilograms. Fishing for it has been restricted since 1997.",
+   "sentence": 1,
+   "quote": "found only in Lake Tessel and its feeder streams",
+   "looking_for": "where the salmon lives"
+  },
+  {
+   "question": "how much does a highland moorox weigh",
+   "passage": "The highland moorox is a breed of hardy cattle raised in the uplands of Strathcarrow. It has a long shaggy red coat and wide curved horns. Bulls weigh up to 800 kilograms and cows about 500 kilograms. The breed society was founded in 1884 and keeps the herd book.",
+   "sentence": 3,
+   "quote": "Bulls weigh up to 800 kilograms",
+   "looking_for": "the weight of the animal"
+  },
+  {
+   "question": "what colour is a frost finch",
+   "passage": "The frost finch is a small seed-eating bird of the alpine meadows of the Kessin range. The male is pale silvery grey with a white wing bar and a black cap. Females and young birds are browner and streaked. It was named for its habit of feeding on frosty slopes in early spring.",
+   "sentence": 2,
+   "quote": "pale silvery grey with a white wing bar",
+   "looking_for": "the colour of the bird's plumage"
+  },
+  {
+   "question": "when did the dunmore pony become extinct",
+   "passage": "The Dunmore pony is a small horse breed from the island of Dunmore. It was used for carrying peat and seaweed until the 1950s. By 1970 only nine mares and one stallion remained, and a breeding society was formed to save it. There are now about 400 registered ponies.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the year the pony died out"
+  },
+  {
+   "question": "how fast can a sabre hare run",
+   "passage": "The sabre hare is a large hare of the open grasslands of southern Tavria. When chased it can reach speeds of 72 kilometres per hour over short distances. It is named for the long curved black tips of its ears. It feeds on grasses and herbs and is mostly active at dusk.",
+   "sentence": 2,
+   "quote": "reach speeds of 72 kilometres per hour",
+   "looking_for": "the top running speed of the hare"
+  },
+  {
+   "question": "what is a mire puffball",
+   "passage": "The mire puffball is a fungus that grows on wet peat in raised bogs. Its round white fruiting body turns brown and splits open when ripe, releasing a cloud of spores. It was first recorded in 1912 at Carrow Moss. The puffball is not edible.",
+   "sentence": 1,
+   "quote": "fungus that grows on wet peat",
+   "looking_for": "what kind of thing a mire puffball is"
+  },
+  {
+   "question": "who named the ironbark gecko",
+   "passage": "The ironbark gecko is a nocturnal lizard native to the dry woodland of Kessaly. It shelters under the loose bark of ironbark trees during the day. The species was named in 1932 by Edwin Hallgarth, curator of reptiles at the Kessaly Museum. Its eggs are laid in pairs in bark crevices.",
+   "sentence": 3,
+   "quote": "named in 1932 by Edwin Hallgarth",
+   "looking_for": "the person who named the gecko"
+  },
+  {
+   "question": "wingspan of the teshan glasswing",
+   "passage": "The Teshan glasswing is a butterfly with transparent wings found in the cloud forests of Teshan. Its wingspan is about 58 millimetres. Caterpillars feed on the leaves of nightshade plants. It is the only glasswing known from the island.",
+   "sentence": 2,
+   "quote": "Its wingspan is about 58 millimetres",
+   "looking_for": "the width of the butterfly's wings"
+  },
+  {
+   "question": "wingspan of the ember kite",
+   "passage": "The ember kite is a bird of prey of the savannas of Ruvala. Its plumage is dark brown with orange-red patches under the wings, which give it its name. The wingspan is between 1.3 and 1.5 metres. It is often seen following grass fires to catch fleeing insects and lizards.",
+   "sentence": 3,
+   "quote": "between 1.3 and 1.5 metres",
+   "looking_for": "the width of the kite's wingspan"
+  },
+  {
+   "question": "what does the hollow reed toad sound like",
+   "passage": "The hollow reed toad is a toad of the marshes of the Leven delta. It is named for its call, a deep hollow note like air blown across a reed. Males call from floating vegetation on spring nights. The species was described in 1924 from specimens taken near Lake Ansel.",
+   "sentence": 2,
+   "quote": "a deep hollow note like air blown across a reed",
+   "looking_for": "the sound of the toad's call"
+  },
+  {
+   "question": "how long can a stonefin survive without water",
+   "passage": "The stonefin is a small freshwater fish of the seasonal pools of the Dahra plain. When the pools dry out it buries itself in the mud and breathes air. In this state it can survive for up to eight months. It was first described in 1907 by the ichthyologist Bruno Waldner.",
+   "sentence": 3,
+   "quote": "survive for up to eight months",
+   "looking_for": "how long the fish survives out of water"
+  },
+  {
+   "question": "where did pell's rail live",
+   "passage": "Pell's rail was a flightless bird that became extinct in the late nineteenth century. It is known from four skins and a few bones. The species is named after Jonas Pell, the collector who bought the first skin in 1858 at a market in Port Cassel. The last reliable sighting was in 1879.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the place where the rail lived"
+  },
+  {
+   "question": "when was the velling sheep first bred",
+   "passage": "The Velling is a breed of domestic sheep developed for its fine wool. It was first bred in the 1830s by the farmer Agnes Rowntree on her estate at Velling Hall. Velling rams weigh about 90 kilograms. The breed was exported to several countries in the 1880s.",
+   "sentence": 2,
+   "quote": "first bred in the 1830s",
+   "looking_for": "when the breed was developed"
+  },
+  {
+   "question": "where does the slate shrew live",
+   "passage": "The slate shrew is a small insectivorous mammal with dark grey fur. It lives in the scree slopes and boulder fields of the Harrow mountains above 1,800 metres. It weighs about 9 grams. The shrew was first trapped in 1950 by a university expedition.",
+   "sentence": 2,
+   "quote": "lives in the scree slopes and boulder fields",
+   "looking_for": "the habitat where the shrew lives"
+  },
+  {
+   "question": "largest moth in ostral",
+   "passage": "The Ostral emperor is the largest moth found in Ostral, with a wingspan of up to 16 centimetres. Its caterpillars feed on birch and alder. Adults have no working mouthparts and live for only about a week. The moth is protected in all three of the country's provinces.",
+   "sentence": 1,
+   "quote": "the largest moth found in Ostral",
+   "looking_for": "the name of the largest moth"
+  },
+  {
+   "question": "how many glacier gulls are there",
+   "passage": "The glacier gull is a large gull that breeds on the islands of the Frostvik fjords. It has a pale grey back and pink legs. The largest colony, on Hasse Island, was counted in 2015 and held 1,200 pairs. The species feeds on fish and on offal thrown from fishing boats.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the total population of glacier gulls"
+  },
+  {
+   "question": "when do bell crickets sing",
+   "passage": "The bell cricket is a cricket native to the grasslands of Ombria. Males sing mainly in the two hours after sunset in late summer. They produce a clear ringing chirp by rubbing their wings together. The cricket is kept as a pet in small bamboo cages in some villages.",
+   "sentence": 2,
+   "quote": "sing mainly in the two hours after sunset",
+   "looking_for": "the time of day the crickets sing"
+  },
+  {
+   "question": "what is mosswort used for",
+   "passage": "Mosswort is a low creeping herb of damp woodland in the northern provinces of Vesk. Its leaves have a sharp, resinous smell when crushed. It has long been used in folk medicine as a poultice for bruises and sprains. The plant flowers in May with tiny greenish yellow flowers.",
+   "sentence": 3,
+   "quote": "used in folk medicine as a poultice",
+   "looking_for": "what the herb is used for"
+  },
+  {
+   "question": "how many legs does a tarrow centipede have",
+   "passage": "The Tarrow centipede is a large centipede of the leaf litter of the Tarrow hills. It has 23 pairs of legs and grows to about 14 centimetres long. Its bite is painful but not dangerous to people. It was described in 1899 by the naturalist Ivo Klement.",
+   "sentence": 2,
+   "quote": "It has 23 pairs of legs",
+   "looking_for": "the number of legs"
+  },
+  {
+   "question": "lifespan of the blue reef wrasse",
+   "passage": "The blue reef wrasse is a small fish of the coral reefs around the Sallow Isles. Males are bright cobalt blue, while females are greenish. The wrasse cleans parasites from larger fish at fixed cleaning stations. It grows to about 12 centimetres in length.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "how long the wrasse lives"
+  },
+  {
+   "question": "what is a thornback lemming",
+   "passage": "The thornback lemming is a small rodent of the tundra of northern Kessia, named for the stiff bristles along its spine. It lives in burrows under the snow in winter. Its numbers rise and fall in a cycle of about four years. Snowy owls and arctic foxes depend on it in peak years.",
+   "sentence": 1,
+   "quote": "small rodent of the tundra of northern Kessia",
+   "looking_for": "what kind of animal it is"
+  },
+  {
+   "question": "what does the harrow vole eat",
+   "passage": "The harrow vole is a small rodent of the wet meadows of the Harrow valley. It was first described in 1921 by the zoologist Agnes Ferrier. The vole eats mainly grass shoots, roots and the seeds of sedges. Barn owls are its main predator.",
+   "sentence": 3,
+   "quote": "eats mainly grass shoots, roots and the seeds of sedges",
+   "looking_for": "the diet of the vole"
+  },
+  {
+   "question": "how big do pennant crabs get",
+   "passage": "The pennant crab is a land crab of the coastal forests of the Ellar islands. Its carapace reaches 9 centimetres across, and the larger claw of the male can be as long as its body. It migrates to the sea each spring to release its eggs. Millions cross the island roads on a few nights in April.",
+   "sentence": 2,
+   "quote": "carapace reaches 9 centimetres across",
+   "looking_for": "the size of the crab"
+  },
+  {
+   "question": "who first described the silver dace",
+   "passage": "The silver dace is a freshwater fish of the slow rivers of the Vossen plain. It was first described in 1868 by the ichthyologist Lotte Hamsun from fish caught at Ardley weir. It grows to about 25 centimetres and lives in shoals. Anglers prize it as bait for pike.",
+   "sentence": 2,
+   "quote": "first described in 1868 by the ichthyologist Lotte Hamsun",
+   "looking_for": "the scientist who first described the fish"
+  },
+  {
+   "question": "how long does the karst bat hibernate",
+   "passage": "The karst bat is a small bat of the limestone caves of Ostrow. It weighs about 7 grams and has a wingspan of 24 centimetres. The bats gather in colonies of several thousand in the deepest chambers. They hibernate from late October until the middle of April. The largest colony, in the Grey Hole, was counted at 14,000 animals in 2020.",
+   "sentence": 4,
+   "quote": "hibernate from late October until the middle of April",
+   "looking_for": "the length of the hibernation period"
+  },
+  {
+   "question": "who named the gilded tree frog",
+   "passage": "The gilded tree frog is a small frog of the rainforests of Ombria. Its back is a shining gold colour that darkens at night. The frog was first photographed in 1987 by the wildlife film maker Karin Esk, and her pictures led to an expedition the following year. It is threatened by the clearing of forest for palm plantations.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the person who gave the frog its name"
+  },
+  {
+   "question": "what is a pillow cactus",
+   "passage": "The pillow cactus is a low, cushion-forming cactus of the high deserts of Tarrona. Its stems are covered in soft white hairs that protect it from frost and sun. It flowers in early summer with pale pink blooms. Collecting the plant from the wild has been banned since 1979.",
+   "sentence": 1,
+   "quote": "low, cushion-forming cactus",
+   "looking_for": "what kind of plant a pillow cactus is"
+  },
+  {
+   "question": "where does the marram bee nest",
+   "passage": "The marram bee is a solitary bee of the sand dunes of the Ennick coast. Females dig nest burrows in bare sand among the marram grass, each burrow up to 30 centimetres deep. The bee collects pollen mainly from sea holly. It was first recorded in 1934 by the naturalist Daniel Ferris.",
+   "sentence": 2,
+   "quote": "dig nest burrows in bare sand among the marram grass",
+   "looking_for": "the place where the bee nests"
+  },
+  {
+   "question": "how long is the grey serpent eel",
+   "passage": "The grey serpent eel is an eel of the deep waters off the Hessel shelf. It lives at depths of between 400 and 1,200 metres. Adults grow to a length of 2.1 metres and can weigh 18 kilograms. Fishing boats sometimes land it as bycatch.",
+   "sentence": 3,
+   "quote": "grow to a length of 2.1 metres",
+   "looking_for": "the length of the eel"
+  },
+  {
+   "question": "who invented the harlow lamp",
+   "passage": "The Harlow lamp is a type of oil lamp with a glass chimney and a circular wick. It was invented in 1821 by Matthias Harlow, an instrument maker in the town of Seddon. The lamp gave a far brighter flame than earlier designs. It was widely used in lighthouses until the arrival of electric light in the 1890s.",
+   "sentence": 2,
+   "quote": "invented in 1821 by Matthias Harlow",
+   "looking_for": "the name of the lamp's inventor"
+  },
+  {
+   "question": "when was the pellister invented",
+   "passage": "The pellister is a device for measuring the salt content of brine. It works by timing how quickly a weighted float sinks through a column of the liquid. The first pellister was made in 1857 by the chemist Hanna Pell for the salt works at Brine Cross. It was replaced by electrical meters in the 1930s.",
+   "sentence": 3,
+   "quote": "first pellister was made in 1857",
+   "looking_for": "the year it was invented"
+  },
+  {
+   "question": "who invented the clasp knot",
+   "passage": "The clasp knot is a binding knot used by sailors to secure bundles of sail. It holds firmly under load but can be released with a single pull. The knot was first described in print in 1794 in a seamanship manual by Captain Robert Ashe. It remains in use on traditional sailing ships.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the person who invented the knot"
+  },
+  {
+   "question": "what is a vapour clock",
+   "passage": "A vapour clock is a timekeeping device driven by the expansion of heated alcohol vapour. It was invented in 1788 by the clockmaker Joseph Marlow of Ardley. The heat of a small lamp keeps the clock running without winding. Only five examples are known to survive.",
+   "sentence": 1,
+   "quote": "timekeeping device driven by the expansion",
+   "looking_for": "what a vapour clock is"
+  },
+  {
+   "question": "what is the corley process",
+   "passage": "The Corley process is an industrial method for making white pigment from zinc ore. It was patented in 1866 by the chemist Daniel Corley. The ore is roasted, dissolved in acid and then precipitated as a fine white powder. The process was used at the Halse Works until 1931.",
+   "sentence": 1,
+   "quote": "industrial method for making white pigment",
+   "looking_for": "what the Corley process is"
+  },
+  {
+   "question": "who patented the rolling bale press",
+   "passage": "The rolling bale press is a farm machine that compresses hay into cylindrical bales. Earlier presses had made only square bales, which were heavier to handle. The first working model was built in 1911 by Oskar Lindt, a blacksmith from the village of Hemm. It was patented in 1913 by his business partner, the merchant Felix Arno. Production began at Hemm the following year.",
+   "sentence": 4,
+   "quote": "patented in 1913 by his business partner",
+   "looking_for": "the person who patented the press"
+  },
+  {
+   "question": "when was the brandt telegraph patented",
+   "passage": "The Brandt telegraph was an early electric telegraph that used a single needle and a printed dial. It was designed by the physicist Ottilie Brandt and first demonstrated in 1839 between two buildings of the University of Kessel. A line linking Kessel and Ormund opened in 1844. The system was abandoned in favour of printing telegraphs after 1860.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the year the telegraph was patented"
+  },
+  {
+   "question": "original price of the kessling typewriter",
+   "passage": "The Kessling typewriter was a portable typewriter made by the Kessling company between 1921 and 1955. It weighed only 3.8 kilograms and came with a fitted wooden case. More than 600,000 were sold, many of them to journalists and travellers. A restored example sold at auction in 2019 for 4,200 crowns.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the price of the typewriter when new"
+  },
+  {
+   "question": "what is the morrell pump",
+   "passage": "The Morrell pump is a hand-operated diaphragm pump used to drain flooded boats and cellars. It was designed in 1897 by the shipwright Isaac Morrell of Pendle Bay. A single person can move about 60 litres a minute with it. The pump is still made by a firm in Pendle Bay.",
+   "sentence": 1,
+   "quote": "hand-operated diaphragm pump used to drain",
+   "looking_for": "what kind of device the pump is"
+  },
+  {
+   "question": "who invented the tilly pram",
+   "passage": "The Tilly pram is a folding baby carriage first sold in 1926. It could be collapsed flat in a few seconds and carried onto trams and trains. The pram was invented by Margit Tilander, a nurse from the city of Halsted, who sold the rights to the Oakworth Carriage Company. Oakworth made the pram until 1967.",
+   "sentence": 3,
+   "quote": "invented by Margit Tilander",
+   "looking_for": "the name of the person who invented it"
+  },
+  {
+   "question": "who invented the dexley stove",
+   "passage": "The Dexley stove is a cast iron cooking range with an enclosed firebox and two ovens. It is named after the Dexley Foundry, which made it from 1849 until 1923. The foundry was owned by the brothers Arthur and Samuel Crane. The stove was sold throughout the provinces and many are still in use.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the person who invented the stove"
+  },
+  {
+   "question": "how much power did the ardent dynamo produce",
+   "passage": "The Ardent dynamo was an early direct current generator built for lighting ships. It was designed in 1879 by the electrical engineer Moritz Ardent. The machine produced about 12 kilowatts at 600 revolutions a minute. It was first installed on the liner Sovereign in 1881.",
+   "sentence": 3,
+   "quote": "produced about 12 kilowatts",
+   "looking_for": "the power output of the dynamo"
+  },
+  {
+   "question": "what does a feld lens do",
+   "passage": "The Feld lens is a compound lens used in lighthouse lanterns. It was invented by the physicist Anton Feld, who presented it to the Academy of Ostmark in 1823. Its rings of glass prisms bend the light of a single lamp into a narrow beam. A light fitted with a large Feld lens can be seen more than 30 kilometres away.",
+   "sentence": 3,
+   "quote": "bend the light of a single lamp into a narrow beam",
+   "looking_for": "the function of the lens"
+  },
+  {
+   "question": "how far could the linden signal lamp be seen",
+   "passage": "The Linden signal lamp is a shuttered lamp used to send messages between ships at night. It was introduced by the navy of Ostmark in 1901. Messages are sent by opening and closing the shutters in a code of long and short flashes. A trained signaller could send about 12 words a minute.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the distance at which the lamp was visible"
+  },
+  {
+   "question": "who makes the drover milking machine",
+   "passage": "The Drover is a milking machine for small dairy herds. It was first developed in 1952 by the agricultural engineer Bert Holloway at the Fenning Research Station. The Drover is now made by Aldermoor Agricultural, which bought the design in 1978. More than 40,000 have been sold.",
+   "sentence": 3,
+   "quote": "now made by Aldermoor Agricultural",
+   "looking_for": "the company that makes the machine"
+  },
+  {
+   "question": "who makes the hallam seed drill today",
+   "passage": "The Hallam seed drill is a horse-drawn machine for sowing seed in straight rows. It was invented in 1771 by the farmer Thomas Hallam of Brookby. His sons built and sold the drill from a workshop in Brookby until 1840. The design was copied widely across the country.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the current maker of the seed drill"
+  },
+  {
+   "question": "who broke the ostin cipher",
+   "passage": "The Ostin cipher is a method of encrypting text by hand using a keyword and a grid of 36 letters and digits. It was devised in 1917 by the cryptographer Helena Ostin for the army of Halvern. It was used for field messages until 1945. The cipher was broken in 1940 by analysts working for the Tessan navy.",
+   "sentence": 4,
+   "quote": "broken in 1940 by analysts",
+   "looking_for": "who broke the cipher"
+  },
+  {
+   "question": "who invented the arrow sewing machine",
+   "passage": "The Arrow sewing machine was a domestic sewing machine sold from 1872. It was the first machine to use a curved needle that could sew leather as well as cloth. The machine was invented by Clara Haversham, who received a patent for it in 1870. The Arrow company made it under licence and paid her a royalty on every machine sold.",
+   "sentence": 3,
+   "quote": "invented by Clara Haversham",
+   "looking_for": "the person who invented the machine"
+  },
+  {
+   "question": "what is a quill furnace",
+   "passage": "A quill furnace is a small charcoal furnace for melting brass in workshops. It takes its name from the long narrow chimney, which draws air through the fire without bellows. The design was published in 1812 by the brass founder Edwin Rooke. Quill furnaces were used by bell makers and jewellers until the 1900s.",
+   "sentence": 1,
+   "quote": "small charcoal furnace for melting brass",
+   "looking_for": "what kind of furnace it is"
+  },
+  {
+   "question": "when was the ember safety match invented",
+   "passage": "The Ember safety match is a match that lights only when struck on the side of its box. Its head contains no phosphorus, which made it far safer to make and use. It was invented in 1849 by the chemist Gustav Lind of Sallen. The Ember Match Company was formed to make it in 1852.",
+   "sentence": 3,
+   "quote": "invented in 1849 by the chemist Gustav Lind",
+   "looking_for": "the year the match was invented"
+  },
+  {
+   "question": "who designed the parrish life jacket",
+   "passage": "The Parrish life jacket is a buoyancy jacket filled with blocks of cork sewn into canvas pockets. It was designed in 1874 by Eliza Parrish, the wife of a lifeboat coxswain at Gallow Head. The jacket was adopted by the Coastal Rescue Service in 1881. It was replaced by inflatable jackets in the 1960s.",
+   "sentence": 2,
+   "quote": "designed in 1874 by Eliza Parrish",
+   "looking_for": "the person who designed the jacket"
+  },
+  {
+   "question": "how much did the hollin pocket radio cost",
+   "passage": "The Hollin Pocket was one of the first transistor radios small enough to fit in a pocket. It was made by Hollin Electrical of Saxton from 1956 to 1962. When it went on sale it cost 38 marks, about two weeks of a factory wage. More than a million were sold.",
+   "sentence": 3,
+   "quote": "When it went on sale it cost 38 marks",
+   "looking_for": "the price of the radio when it launched"
+  },
+  {
+   "question": "who invented the gimbal compass",
+   "passage": "The gimbal compass is a ship's compass mounted in a pair of pivoting rings so that it stays level as the ship rolls. The first known example was fitted to the merchant ship Galatea in 1702. It was made by the instrument maker Pieter Hals of Ennick, who supplied compasses to the navy. The design was improved in 1780 by the naval officer Thomas Varley, who added a liquid damper.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the name of the person who invented it"
+  },
+  {
+   "question": "what is the swivel plough",
+   "passage": "The swivel plough is a plough whose blade can be turned over at the end of each furrow. This lets a farmer plough back and forth across a field and lay all the soil in one direction. It was developed in the 1820s on the hill farms of Strathcarrow. The swivel plough is still used with horses on some small farms.",
+   "sentence": 1,
+   "quote": "a plough whose blade can be turned over",
+   "looking_for": "what a swivel plough is"
+  },
+  {
+   "question": "when was the varnell stethoscope first used",
+   "passage": "The Varnell stethoscope is a stethoscope with two chest pieces, one for low sounds and one for high. It was designed by the physician Irene Varnell at the Sallen General Infirmary. She first used it on patients in 1891 and published her results two years later. The design was made by the Pemberton instrument company from 1895.",
+   "sentence": 3,
+   "quote": "She first used it on patients in 1891",
+   "looking_for": "the year the stethoscope was first used"
+  },
+  {
+   "question": "how many lindgren winches have been made",
+   "passage": "The Lindgren winch is a hand winch for hauling small boats up a slipway. It uses a pair of gears to give a ratio of 18 to 1, so that a single person can haul a boat of two tonnes. The winch was patented in 1906 by the boatbuilder Erik Lindgren. It is still made by his family firm in Holm.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the number of winches produced"
+  },
+  {
+   "question": "how does the pellow tide gauge work",
+   "passage": "The Pellow tide gauge is an instrument that records the height of the tide on a paper drum. A float in a well connected to the sea rises and falls with the tide. It turns a pulley that moves a pen across a drum turned by a clock. The gauge was designed in 1855 by the harbour engineer Martin Pellow.",
+   "sentence": 2,
+   "quote": "A float in a well connected to the sea rises and falls",
+   "looking_for": "how the gauge measures the tide"
+  },
+  {
+   "question": "who built the marigold star",
+   "passage": "The Marigold Star was a cargo steamship launched in 1907 for the Thane Shipping Company. She was built by Coltham and Sons at their yard on the River Vass. The ship carried timber and grain between Halstrom and the eastern ports. She was sunk in a collision off Skerry Point in 1923.",
+   "sentence": 2,
+   "quote": "built by Coltham and Sons",
+   "looking_for": "the shipyard that built the ship"
+  },
+  {
+   "question": "who was captain of the hesper when she sank",
+   "passage": "The Hesper was a passenger steamer that sank in the Orrin Strait in 1891 with the loss of 74 lives. She had been built in 1878 for the Northern Isles Steam Packet Company. Her first master was Captain Elias Brand, who commanded her for ten years. An inquiry blamed the loss on an overloaded deck cargo.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the captain at the time of the sinking"
+  },
+  {
+   "question": "how long is the northern wren",
+   "passage": "The Northern Wren is a research vessel operated by the Ostmark Marine Institute. The ship is 68 metres long and can carry 32 scientists. She was built in 2004 at the Lessing yard in Karsholm. Her home port is Tarrow Quay.",
+   "sentence": 2,
+   "quote": "68 metres long",
+   "looking_for": "the length of the ship"
+  },
+  {
+   "question": "when was the seraphine launched",
+   "passage": "The Seraphine is a three-masted barque preserved as a museum ship in the harbour of Calder Bay. She was launched in 1883 at the Pell yard in Sallen and spent forty years in the grain trade. In 1951 she was bought by the town and restored. She opened to visitors in 1956.",
+   "sentence": 2,
+   "quote": "launched in 1883 at the Pell yard",
+   "looking_for": "the year the ship was launched"
+  },
+  {
+   "question": "when was the orvald commissioned",
+   "passage": "The Orvald is a coastal defence ship of the navy of Karsland. She was laid down in 1931 at the Stennet naval yard and launched in 1933. Her main armament was four guns of 21 centimetres. She was sold for scrap in 1958.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the date the ship entered service"
+  },
+  {
+   "question": "how many passengers does the aurora belle carry",
+   "passage": "The Aurora Belle is a cruise ship operated by Belle Line. She was built in 2011 by the Ferriby yard and is registered in Port Sallis. The ship has 1,240 cabins and carries up to 2,900 passengers with a crew of 1,100. She sails mainly in the northern fjords in summer.",
+   "sentence": 3,
+   "quote": "carries up to 2,900 passengers",
+   "looking_for": "the passenger capacity of the ship"
+  },
+  {
+   "question": "what happened to the gull of ardmore",
+   "passage": "The Gull of Ardmore was a fishing smack built in 1898 in the village of Ardmore. She fished for herring off the west coast for more than fifty years. In 1953 she was wrecked on the Tessan Banks during a storm, and her crew of five were rescued by the Ardmore lifeboat. Her bell hangs in the village church.",
+   "sentence": 3,
+   "quote": "wrecked on the Tessan Banks",
+   "looking_for": "the fate of the boat"
+  },
+  {
+   "question": "who designed the tern class lifeboat",
+   "passage": "The Tern class is a type of all-weather lifeboat used by the Coastal Rescue Service of Halvern. It was designed by the naval architect Miriam Esk and entered service in 1988. Each boat is 14 metres long and self-righting. Forty were built, of which 26 remain in service.",
+   "sentence": 2,
+   "quote": "designed by the naval architect Miriam Esk",
+   "looking_for": "the person who designed the lifeboat"
+  },
+  {
+   "question": "how many kestrel class frigates were built",
+   "passage": "The Kestrel class is a class of frigates built for the navy of Ostmark in the 1960s. The ships were designed for anti-submarine work in the northern seas. The lead ship, Kestrel, was launched in 1962 at the Halstrom naval yard. Two of the class are now museum ships.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the number of frigates built"
+  },
+  {
+   "question": "what was the pelican carrying when she sank",
+   "passage": "The Pelican was a coastal steamer that sank off Gallow Head in 1912. She had left the port of Ennick the previous evening bound for Sallen. At the time of her loss she was carrying 400 tons of coal and a deck load of timber. All eleven of her crew were lost.",
+   "sentence": 3,
+   "quote": "carrying 400 tons of coal",
+   "looking_for": "what cargo the ship was carrying"
+  },
+  {
+   "question": "where is the valiant rose now",
+   "passage": "The Valiant Rose is a former pilot cutter built in 1905 for the pilots of the port of Hestbury. She served until 1938, when she was sold as a private yacht. After passing through several owners she was bought by the Hestbury Maritime Trust in 1994. She is now moored at the Old Harbour in Hestbury and can be visited in summer.",
+   "sentence": 4,
+   "quote": "now moored at the Old Harbour in Hestbury",
+   "looking_for": "the present location of the boat"
+  },
+  {
+   "question": "who owns the morning calm now",
+   "passage": "The Morning Calm is a steam yacht built in 1899 for the banker Lionel Ashby. She was used as a patrol boat by the navy from 1915 to 1919. Ashby's family sold her in 1931 to the shipowner Karl Vetter. She was restored in the 1990s and is now used for charter cruises.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the current owner of the yacht"
+  },
+  {
+   "question": "top speed of the carnelian liner",
+   "passage": "The Carnelian was an ocean liner built for the Westward Line in 1928. She carried up to 1,800 passengers between Port Sallis and Merrow. Her service speed was 23 knots, and on trials she reached 25.6 knots. She was scrapped in 1961.",
+   "sentence": 3,
+   "quote": "on trials she reached 25.6 knots",
+   "looking_for": "the fastest speed the ship reached"
+  },
+  {
+   "question": "what was the top speed of the pollux",
+   "passage": "The Pollux was a cargo liner of the Ardent Steamship Company, built in 1936. She had a service speed of 16 knots and carried 12 passengers as well as cargo. She was sold in 1964 and renamed Delos. She was broken up in 1972.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the fastest speed the ship could reach"
+  },
+  {
+   "question": "who was the first captain of the halcyon",
+   "passage": "The Halcyon is a sail training ship owned by the Halcyon Trust. She was built in 1977 and takes young people on voyages of one to three weeks. Her first captain was Ruth Okafor, who commanded her until 1990. The current master is Tomas Brede.",
+   "sentence": 3,
+   "quote": "first captain was Ruth Okafor",
+   "looking_for": "the name of the first captain"
+  },
+  {
+   "question": "who is the master of the solway star",
+   "passage": "The Solway Star is a sail training brig operated by the Solway Youth Trust. She was built in 1984 at the Ardley yard. Her first master was Peter Haig, who commanded her for twelve years. The ship sails from March to October with crews of young trainees.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the person who commands the ship now"
+  },
+  {
+   "question": "what type of ship was the vigilant",
+   "passage": "The Vigilant was an armoured gunboat of the navy of Karsland, launched in 1874. She was built to defend the estuary of the Skel against raiding ships. Her single 25 centimetre gun was mounted in a revolving turret. She was hulked in 1902.",
+   "sentence": 1,
+   "quote": "armoured gunboat of the navy of Karsland",
+   "looking_for": "the kind of ship the Vigilant was"
+  },
+  {
+   "question": "when was the isolde grey sunk",
+   "passage": "The Isolde Grey was a four-masted schooner built in 1903 for the timber trade. She was named after the daughter of her first owner, the merchant George Grey. On 14 March 1917 she was sunk by gunfire from a raider off the Kessel Light. Her wreck was found by divers in 2008.",
+   "sentence": 3,
+   "quote": "On 14 March 1917 she was sunk",
+   "looking_for": "the date the schooner sank"
+  },
+  {
+   "question": "halstrom spirit tonnage",
+   "passage": "The Halstrom Spirit is an oil tanker owned by Halstrom Tankers. She was built in 2009 and is registered in Port Sallis. The ship has a deadweight tonnage of 158,000 tons and is 274 metres long. Her crew numbers 26.",
+   "sentence": 3,
+   "quote": "deadweight tonnage of 158,000 tons",
+   "looking_for": "the tonnage of the tanker"
+  },
+  {
+   "question": "where was the corinne built",
+   "passage": "The Corinne is a schooner yacht that has won the Teshan Cup four times. She was designed by Henri Lavalle and built in 1931 at the Sorrell yard in Port Ennick. She is 38 metres long. Her current owner is the shipping heir Marcus Tenney.",
+   "sentence": 2,
+   "quote": "built in 1931 at the Sorrell yard in Port Ennick",
+   "looking_for": "the place where the yacht was built"
+  },
+  {
+   "question": "who designed the silver pennant",
+   "passage": "The Silver Pennant is a racing yacht built in 1964 for the businessman Owen Pask. She won the Ennick Regatta in her first season and again in 1967 and 1970. She was built by the Harlan yard at Port Ennick. Her current owner is the Ennick Classic Boat Trust.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the name of the yacht's designer"
+  },
+  {
+   "question": "how many crew did the fairweather have",
+   "passage": "The Fairweather was a whaling ship that sailed from the port of Kell between 1838 and 1871. She made 23 voyages to the southern whaling grounds, some lasting more than three years. Her crew usually numbered about 34 men. In 1871 she was crushed by ice and abandoned.",
+   "sentence": 3,
+   "quote": "crew usually numbered about 34 men",
+   "looking_for": "the number of crew on board"
+  },
+  {
+   "question": "what is the endeavour of sallen",
+   "passage": "The Endeavour of Sallen is a replica of an eighteenth century merchant brig, built by volunteers between 1998 and 2006. She is based in the harbour at Sallen and sails with paying trainee crews. The original Endeavour was lost with all hands in 1771. The replica is 31 metres long.",
+   "sentence": 1,
+   "quote": "replica of an eighteenth century merchant brig",
+   "looking_for": "what the Endeavour of Sallen is"
+  },
+  {
+   "question": "what is the bramble queen",
+   "passage": "The Bramble Queen is a paddle steamer that carries passengers on Lake Morran. She was built in 1902 in sections at the Kessel works and assembled on the lakeshore. Her engines were converted from coal to oil in 1958. She runs daily trips from May to September.",
+   "sentence": 1,
+   "quote": "paddle steamer that carries passengers on Lake Morran",
+   "looking_for": "what kind of vessel the Bramble Queen is"
+  },
+  {
+   "question": "who sank the grey heron",
+   "passage": "The Grey Heron was a cargo ship of the Sallen Line that was lost in 1941. She was sailing in a convoy from Port Ennick to Halstrom when she was torpedoed by the Kessan submarine U-31. The submarine was itself sunk with all hands a month later. Twelve of her crew of 38 survived.",
+   "sentence": 2,
+   "quote": "torpedoed by the Kessan submarine U-31",
+   "looking_for": "the attacker that sank the ship"
+  },
+  {
+   "question": "when was the dauntless decommissioned",
+   "passage": "The Dauntless is a former minesweeper of the navy of Halvern. She was launched in 1955 at the Ennick naval yard and served in the northern fleet. She was decommissioned in 1987 and sold to a preservation society. She is now on display at the Halvern Naval Museum.",
+   "sentence": 3,
+   "quote": "decommissioned in 1987",
+   "looking_for": "the year the ship left service"
+  },
+  {
+   "question": "how much did the ellwood queen cost to build",
+   "passage": "The Ellwood Queen was a sailing yacht built in 1912 for the industrialist Joseph Ellwood. She was designed by the naval architect Henry Pask and built at the Harlan yard. Ellwood raced her for ten seasons and won the Teshan Cup in 1921. She was sold in 1924 for 12,000 crowns.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the cost of building the yacht"
+  },
+  {
+   "question": "what was the gold venture named after",
+   "passage": "The Gold Venture is a bulk carrier owned by the mining company Ostral Mineral. She was built in 2016 and carries iron ore from Port Kessel to the steel works at Halstrom. The ship is named after the Gold Venture mine, the company's first, which opened in 1931. She can carry 180,000 tonnes of ore.",
+   "sentence": 3,
+   "quote": "named after the Gold Venture mine",
+   "looking_for": "the thing the ship was named after"
+  },
+  {
+   "question": "where is the wreck of the saint ellen",
+   "passage": "The Saint Ellen was a passenger steamer that sank in a storm in 1886 while sailing from Sallen to the Ellar islands. More than 200 people died, making it the worst shipwreck in the history of the islands. The wreck lies in 60 metres of water about four kilometres north of Mallen Point. Divers first reached it in 1979.",
+   "sentence": 3,
+   "quote": "lies in 60 metres of water about four kilometres north of Mallen Point",
+   "looking_for": "the location of the wreck"
+  },
+  {
+   "question": "who owns the lady isobel",
+   "passage": "The Lady Isobel is a motor yacht built in 2008 by the Harlan yard. She was ordered by the property developer Marcus Velling, who sold her in 2013. She has been owned since 2019 by the investor Petra Lunde. The yacht is 72 metres long and has a crew of 22.",
+   "sentence": 3,
+   "quote": "owned since 2019 by the investor Petra Lunde",
+   "looking_for": "the current owner of the yacht"
+  },
+  {
+   "question": "how many guns did the resolute have",
+   "passage": "The Resolute was a ship of the line of the navy of Ostmark, launched in 1781. She was built at the Halstrom dockyard of oak from the royal forests. The ship carried 74 guns on two decks. She fought at the battle of Skerry Sound in 1798.",
+   "sentence": 3,
+   "quote": "carried 74 guns on two decks",
+   "looking_for": "the number of guns on board"
+  },
+  {
+   "question": "how long did the restless take to sail round the world",
+   "passage": "The Restless is a racing yacht that won the Global Ocean Race in 2011. She was designed by the naval architect Camille Duret and built in carbon fibre at the Ostrand yard. Her skipper in the race was Tomas Lund. The yacht later served as a training boat for a sailing school in Port Ennick.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the duration of the round the world voyage"
+  },
+  {
+   "question": "what is the starling of kell",
+   "passage": "The Starling of Kell is the oldest working fishing boat in the port of Kell. She was built in 1886 of larch on oak frames. She still fishes for crab and lobster in summer. In 2010 she was added to the register of historic vessels.",
+   "sentence": 1,
+   "quote": "the oldest working fishing boat in the port of Kell",
+   "looking_for": "what the Starling of Kell is"
+  },
+  {
+   "question": "when was the polar tern launched",
+   "passage": "The Polar Tern is an icebreaker operated by the coastguard of Frostvik. She can break ice up to 1.5 metres thick at a steady speed of three knots. The ship was ordered in 1996 and launched in 1999 at the Lessing yard. She entered service the following winter.",
+   "sentence": 3,
+   "quote": "launched in 1999 at the Lessing yard",
+   "looking_for": "the year the icebreaker was launched"
+  },
+  {
+   "question": "what is the holm engine",
+   "passage": "The Holm engine is a type of hot air engine used to pump water on farms. It was developed in 1868 by the engineer Viktor Holm of Sallen. The engine needed no boiler and could be run by an untrained farmhand. Several thousand were made before electric pumps replaced them.",
+   "sentence": 1,
+   "quote": "type of hot air engine",
+   "looking_for": "what the Holm engine is"
+  },
+  {
+   "question": "how heavy is the atlas 9 excavator",
+   "passage": "The Atlas 9 is a crawler excavator made by Brannock Heavy Industries. The machine has an operating weight of 48 tonnes and a bucket capacity of 2.8 cubic metres. It was introduced in 2014 to replace the Atlas 7. It is powered by a six cylinder diesel engine of 270 kilowatts.",
+   "sentence": 2,
+   "quote": "operating weight of 48 tonnes",
+   "looking_for": "the weight of the excavator"
+  },
+  {
+   "question": "how powerful is the harrier 40 tractor",
+   "passage": "The Harrier 40 is a farm tractor made by Ellwood Tractors from 1951 to 1966. It had a four cylinder petrol engine of 40 horsepower. More than 90,000 were built at the Ellwood works in Saxton. Many are still kept by collectors and shown at rallies.",
+   "sentence": 2,
+   "quote": "four cylinder petrol engine of 40 horsepower",
+   "looking_for": "the engine power of the tractor"
+  },
+  {
+   "question": "who designed the grand analyser",
+   "passage": "The Grand Analyser was a mechanical computer built for the Ostmark Statistical Office in 1912. It used punched cards to tabulate census returns. The machine was built by the instrument makers Hallis and Crane to a design by the mathematician Ivo Rensch. It was dismantled in 1934, but its card reader is kept at the Halstrom Science Museum.",
+   "sentence": 3,
+   "quote": "to a design by the mathematician Ivo Rensch",
+   "looking_for": "the person who designed the machine"
+  },
+  {
+   "question": "when did the rook mower come out",
+   "passage": "The Rook is a robotic lawn mower made by Verdance Robotics. It was released in 2018 and can mow up to 3,000 square metres on one charge. The mower finds its way using a buried boundary wire and a camera. A second model, the Rook Pro, followed in 2021.",
+   "sentence": 2,
+   "quote": "It was released in 2018",
+   "looking_for": "the year the mower came out"
+  },
+  {
+   "question": "how long does the breeze vacuum battery last",
+   "passage": "The Breeze is a cordless vacuum cleaner made by Fenmore Appliances. It weighs 2.4 kilograms and has a dust bin of 0.6 litres. The battery takes about four hours to charge fully. The Breeze was launched in 2017 and replaced by the Breeze 2 in 2020.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "how long the battery runs on one charge"
+  },
+  {
+   "question": "how tall is the big ada crane",
+   "passage": "Big Ada is a hammerhead crane at the former Tessan shipyard in Port Ennick. It was built in 1920 to lift guns and boilers into warships. The crane stands 46 metres high and could lift 250 tons. It is now a listed structure on the waterfront.",
+   "sentence": 3,
+   "quote": "stands 46 metres high",
+   "looking_for": "the height of the crane"
+  },
+  {
+   "question": "who designed the kestle kite",
+   "passage": "The Kestle Kite is a single seat glider produced in the 1930s. It was designed by Hanna Kestle, one of the first women to hold a glider pilot's licence in Ostmark. About 140 were built by the Kestle workshop in Arnby. The Kite had a wingspan of 13 metres.",
+   "sentence": 2,
+   "quote": "designed by Hanna Kestle",
+   "looking_for": "the person who designed the glider"
+  },
+  {
+   "question": "who first flew the harker swift",
+   "passage": "The Harker Swift was a single engine racing monoplane built in 1934. It was designed by the engineer Colin Harker for the Coastal Air Race. The aircraft won the race in 1935 with the pilot Ida Marsh at the controls. Only one was built, and it is now displayed at the Sallen Air Museum.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the pilot of the first flight"
+  },
+  {
+   "question": "how many marlow 12 motorcycles were made",
+   "passage": "The Marlow 12 is a motorcycle made by Marlow Motor Works of Kessling from 1948 to 1959. It had a single cylinder engine of 350 cubic centimetres. A total of 31,400 were built. The model was replaced by the Marlow 14 in 1960.",
+   "sentence": 3,
+   "quote": "A total of 31,400 were built",
+   "looking_for": "the number of motorcycles produced"
+  },
+  {
+   "question": "what is the sunder 2",
+   "passage": "The Sunder 2 is a folding film camera made by Sunder Optics between 1936 and 1951. It takes twelve square pictures on a roll of medium format film. The camera was popular with press photographers because it folded flat into a coat pocket. Its lens was made by the Halberg glass works.",
+   "sentence": 1,
+   "quote": "folding film camera made by Sunder Optics",
+   "looking_for": "what kind of product it is"
+  },
+  {
+   "question": "who designed the lumen projector",
+   "passage": "The Lumen is a home cinema projector made by Ardent Optics. It was launched in 2015 and produces an image up to 3 metres wide. Ardent Optics was founded in 1962 by the brothers Pavel and Jan Rezek. The projector won a design award from the Halvern Design Council in 2016.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the person who designed the projector"
+  },
+  {
+   "question": "what was the marsh difference engine",
+   "passage": "The Marsh difference engine was a mechanical calculator built to print tables of logarithms. It was begun in 1841 by the mathematician Edgar Marsh but never finished in his lifetime. A working copy was completed in 1991 from his drawings by the Halstrom Science Museum. It has about 8,000 parts and weighs five tonnes.",
+   "sentence": 1,
+   "quote": "mechanical calculator built to print tables of logarithms",
+   "looking_for": "what the Marsh difference engine was"
+  },
+  {
+   "question": "what is the corvane steam hammer",
+   "passage": "The Corvane steam hammer is a steam-powered forging hammer used to shape large pieces of iron. It was built in 1853 for the ironworks at Kessel Bridge. The hammer head weighs 30 tonnes and could fall from a height of three metres. It is the largest steam hammer to survive and stands in the Kessel Industrial Museum.",
+   "sentence": 1,
+   "quote": "steam-powered forging hammer",
+   "looking_for": "what the steam hammer is"
+  },
+  {
+   "question": "how many people can the zephyr airship carry",
+   "passage": "The Zephyr is a passenger airship built by Ostral Aerotech. The gondola has seats for 48 passengers and a crew of four. It first flew in 2021 and is 92 metres long. It is used for sightseeing flights over the Frostvik fjords.",
+   "sentence": 2,
+   "quote": "seats for 48 passengers",
+   "looking_for": "the passenger capacity of the airship"
+  },
+  {
+   "question": "who built the tolland orrery",
+   "passage": "The Tolland orrery is a clockwork model of the solar system made for the University of Sallen. It was built in 1767 by the clockmaker Henry Tolland. It shows the six planets then known and their moons. The orrery is wound by hand and still works.",
+   "sentence": 2,
+   "quote": "built in 1767 by the clockmaker Henry Tolland",
+   "looking_for": "the person who built the orrery"
+  },
+  {
+   "question": "how fast is the kite 300 motorboat",
+   "passage": "The Kite 300 is a sports motorboat made by Vessen Marine. It is 9 metres long and seats up to eight people. Twin outboard engines give it a top speed of 54 knots. The boat was named Boat of the Year at the Port Ennick Boat Show in 2022.",
+   "sentence": 3,
+   "quote": "top speed of 54 knots",
+   "looking_for": "the top speed of the boat"
+  },
+  {
+   "question": "how many corwen threshing machines survive",
+   "passage": "The Corwen threshing machine was a horse-powered machine for separating grain from straw. It was made by the Corwen brothers of Saxton from 1803. More than 3,000 were sold in its first twenty years. Only two are known to survive, one of them at the Saxton Rural Museum.",
+   "sentence": 4,
+   "quote": "Only two are known to survive",
+   "looking_for": "the number that still exist"
+  },
+  {
+   "question": "who made the sentinel robot",
+   "passage": "Sentinel is a security robot that patrols warehouses and car parks at night. It uses cameras and heat sensors to spot intruders and alerts a human guard. The robot was developed by a team at the University of Halsted led by the engineer Mira Osei. It is now made and sold by Brightwatch Systems.",
+   "sentence": 4,
+   "quote": "now made and sold by Brightwatch Systems",
+   "looking_for": "the company that makes the robot"
+  },
+  {
+   "question": "when was the halberg telescope built",
+   "passage": "The Halberg refractor is a large refracting telescope at the Mount Senna Observatory. Its main lens is 91 centimetres across and was ground by the optician Erik Halberg. The telescope saw first light in 1897. It was the largest refracting telescope in the world until 1911.",
+   "sentence": 3,
+   "quote": "saw first light in 1897",
+   "looking_for": "the year the telescope was completed"
+  },
+  {
+   "question": "what does the merrow 5 harvester cost",
+   "passage": "The Merrow 5 is a combine harvester made by Merrow Agricultural. It has a cutting width of up to 12 metres and a grain tank of 14,000 litres. The harvester was launched in 2020 at the Halsted Farm Show. It is built at the company's factory in Kell.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the price of the harvester"
+  },
+  {
+   "question": "how much power does the brenn water wheel produce",
+   "passage": "The Brenn water wheel is an overshot water wheel that drove the bellows of the Brenn forge. It is 11 metres in diameter, which makes it the largest water wheel in the district. The wheel was made in 1838 by the millwright Daniel Voss. It turned until 1924 and was restored in 1985.",
+   "sentence": 0,
+   "quote": null,
+   "looking_for": "the power output of the wheel"
+  },
+  {
+   "question": "what is a cinder skipper",
+   "passage": "The cinder skipper is a small brown butterfly of the burnt heathland of the Ennick moors. It lays its eggs on the young shoots of heather that grow back after a fire. The species was first recorded in 1926 by the collector Walter Pask. Its numbers have fallen by about half since 1990.",
+   "sentence": 1,
+   "quote": "small brown butterfly of the burnt heathland",
+   "looking_for": "what kind of insect a cinder skipper is"
+  },
+  {
+   "question": "what kind of animal is a banded quoll-mole",
+   "passage": "The banded quoll-mole is a burrowing marsupial of the red sand deserts of Tarrona. It spends almost all its life underground, swimming through loose sand in search of beetle larvae. The first specimen was sent to the Halsted Museum in 1891 by a cattle drover. Fewer than 200 have ever been seen alive.",
+   "sentence": 1,
+   "quote": "burrowing marsupial of the red sand deserts",
+   "looking_for": "the type of animal it is"
+  },
+  {
+   "question": "what is the brass weaver",
+   "passage": "The brass weaver is a songbird of the river valleys of Ruvala, known for the yellow metallic sheen of the male. It builds a hanging nest of woven grass at the tip of a branch over water. A colony may hold more than a hundred nests in a single tree. The species was described in 1870 by the naturalist Paul Ardent.",
+   "sentence": 1,
+   "quote": "songbird of the river valleys of Ruvala",
+   "looking_for": "what the brass weaver is"
+  },
+  {
+   "question": "what is the oxley harp crane",
+   "passage": "The Oxley harp crane is a wading bird famous for the long curved plumes that hang from its back like the strings of a harp. It breeds in the reed marshes of the Oxley delta. Pairs perform a loud dancing display in early spring. The population fell to 40 birds in 1960 but has recovered to about 900.",
+   "sentence": 1,
+   "quote": "wading bird famous for the long curved plumes",
+   "looking_for": "what kind of bird the harp crane is"
+  },
+  {
+   "question": "what is a tallow press",
+   "passage": "A tallow press is a screw press used to squeeze melted animal fat out of trimmings to make candles and soap. The trimmings were first boiled in a copper and then packed into a slatted box under the screw. Presses of this kind were made by the Harrop foundry from 1820. A working example can be seen at the Saxton Rural Museum.",
+   "sentence": 1,
+   "quote": "screw press used to squeeze melted animal fat",
+   "looking_for": "what a tallow press is"
+  },
+  {
+   "question": "what is the fennick log",
+   "passage": "The Fennick log is an instrument towed behind a ship to measure the distance it has travelled through the water. A small propeller on the end of a line turns a counter mounted on the stern rail. It was patented in 1861 by the clockmaker Samuel Fennick of Port Ennick. Fennick logs were standard on merchant ships until the 1950s.",
+   "sentence": 1,
+   "quote": "instrument towed behind a ship to measure the distance",
+   "looking_for": "what the Fennick log is"
+  },
+  {
+   "question": "what kind of ship is the stormvald",
+   "passage": "The Stormvald is a deep-sea salvage tug of the Ostmark Salvage Company, stationed at Port Kessel. She has a bollard pull of 210 tonnes and can tow the largest tankers. The tug was built in 2012 at the Lessing yard. Her crew of 16 work four weeks on and four weeks off.",
+   "sentence": 1,
+   "quote": "deep-sea salvage tug of the Ostmark Salvage Company",
+   "looking_for": "the type of vessel the Stormvald is"
+  },
+  {
+   "question": "what is the carrow lugger",
+   "passage": "The Carrow lugger is a type of two-masted fishing boat built on the beaches of Carrow Bay. It was designed to be launched and hauled up the shingle by hand. Luggers of this type fished for mackerel and pilchard from about 1780 to 1930. The last one built, the Morning Promise, was launched in 1936.",
+   "sentence": 1,
+   "quote": "type of two-masted fishing boat",
+   "looking_for": "what kind of boat a Carrow lugger is"
+  },
+  {
+   "question": "what is the pemberton calculator",
+   "passage": "The Pemberton calculator was an electronic desk calculator with a cathode ray tube display, sold from 1964. It weighed 17 kilograms and cost as much as a small car. The machine was designed by a team led by the engineer Sofia Brandt at Pemberton Instruments. About 5,000 were sold before cheaper models replaced it.",
+   "sentence": 1,
+   "quote": "electronic desk calculator with a cathode ray tube display",
+   "looking_for": "what the Pemberton calculator was"
+  },
+  {
+   "question": "what is the gale horn",
+   "passage": "The gale horn is a compressed air foghorn used on lighthouses and lightships in the northern isles. Its deep note can be heard about 16 kilometres away in still air. It was designed in 1903 by the engineer Rolf Gale for the Northern Lights Board. The last gale horn was switched off at Skerry Point in 2005.",
+   "sentence": 1,
+   "quote": "compressed air foghorn used on lighthouses",
+   "looking_for": "what a gale horn is"
+  },
+  {
+   "question": "where does the cliff pika live",
+   "passage": "The cliff pika is a small, round-eared relative of the rabbit. It lives among the rocks of north-facing cliffs in the Kessin range between 2,000 and 3,400 metres. It gathers piles of grass and flowers in summer to eat through the winter. The species was described in 1912 by the zoologist Anna Lind.",
+   "sentence": 2,
+   "quote": "lives among the rocks of north-facing cliffs",
+   "looking_for": "the place where the pika lives"
+  },
+  {
+   "question": "how long do mayfire flies live",
+   "passage": "The mayfire is a mayfly of the chalk streams of the Vossen plain. Adults live for only a single day, during which they mate and lay their eggs. The nymphs spend two years on the stream bed before hatching. Anglers imitate the adults with an artificial fly of the same name.",
+   "sentence": 2,
+   "quote": "Adults live for only a single day",
+   "looking_for": "the lifespan of an adult fly"
+  },
+  {
+   "question": "what does a sand otter eat",
+   "passage": "The sand otter is a small otter of the estuaries of the Hessel coast. It feeds mainly on crabs, which it cracks open on stones at low tide. It was hunted for its fur until 1931. The population was estimated at about 1,600 animals in 2018.",
+   "sentence": 2,
+   "quote": "feeds mainly on crabs",
+   "looking_for": "the diet of the sand otter"
+  },
+  {
+   "question": "when was the brightman barometer invented",
+   "passage": "The Brightman barometer is an aneroid barometer with a dial that also shows the weather for the coming day. It was invented in 1846 by the instrument maker Lucy Brightman of Halsted. Her design used a small sealed metal box that expands and contracts with the air pressure. Brightman barometers were made by her firm until 1912.",
+   "sentence": 2,
+   "quote": "invented in 1846 by the instrument maker Lucy Brightman",
+   "looking_for": "the year the barometer was invented"
+  },
+  {
+   "question": "who designed the swallow light aircraft",
+   "passage": "The Ellis Swallow is a two seat light aircraft first built in 1949. It was designed by the engineer Frances Ellis, who had designed gliders in the 1930s. The aircraft was built by Ellis Aviation at Sallen airfield until 1963. About 1,100 were made, and around 200 still fly.",
+   "sentence": 2,
+   "quote": "designed by the engineer Frances Ellis",
+   "looking_for": "the name of the aircraft's designer"
+  },
+  {
+   "question": "when was the tessa launched",
+   "passage": "The Tessa is a schooner owned by the Ennick Sea Cadets. She was launched in 1924 at Carrow Bay for a family of coastal traders. The cadets bought her in 1972 and rebuilt her over the following four years. She sails every summer with crews of young cadets.",
+   "sentence": 2,
+   "quote": "launched in 1924 at Carrow Bay",
+   "looking_for": "the year the schooner was launched"
+  },
+  {
+   "question": "how many passengers did the sovereign carry",
+   "passage": "The Sovereign was a passenger liner of the Ostmark Line, built in 1880. She carried up to 1,200 passengers, most of them emigrants travelling in steerage. She was the first liner to be lit by electricity, using two Ardent dynamos fitted in 1881. She was sold for scrap in 1903.",
+   "sentence": 2,
+   "quote": "carried up to 1,200 passengers",
+   "looking_for": "the passenger capacity of the liner"
+  },
+  {
+   "question": "who built the copper kettle steam car",
+   "passage": "The Copper Kettle is a steam car built in 1898 that is still in running order. It was built by the brothers Harold and Edwin Lamb in their bicycle workshop in Saxton. The car has a top speed of about 30 kilometres per hour. It is kept at the Saxton Motor Museum and driven in the annual veteran car run.",
+   "sentence": 2,
+   "quote": "built by the brothers Harold and Edwin Lamb",
+   "looking_for": "the people who built the car"
+  },
+  {
+   "question": "how much can the hercules crane lift",
+   "passage": "The Hercules is a floating crane owned by the Port Kessel harbour authority. It can lift 1,600 tonnes in a single load. The crane was built in 1978 at the Lessing yard and refitted in 2004. It has been used to raise sunken ships and to place the sections of the Kessel Bridge.",
+   "sentence": 2,
+   "quote": "It can lift 1,600 tonnes in a single load",
+   "looking_for": "the lifting capacity of the crane"
+  },
+  {
+   "question": "what fuel does the orvo stove use",
+   "passage": "The Orvo is a lightweight camping stove made by Halvern Outdoor. It burns paraffin, which is pumped under pressure to a brass burner. The stove was introduced in 1931 and weighs about 900 grams. It was carried on several polar expeditions in the 1930s.",
+   "sentence": 2,
+   "quote": "It burns paraffin",
+   "looking_for": "the fuel the stove burns"
+  },
+  {
+   "question": "who invented the hollin hearing trumpet",
+   "passage": "The Hollin hearing trumpet is a folding ear trumpet made of silver plated brass. It was invented in 1834 by the surgeon Thomas Hollin, who was himself partly deaf. It could be folded small enough to carry in a waistcoat pocket. The trumpets were sold by the Hollin family until 1890.",
+   "sentence": 2,
+   "quote": "invented in 1834 by the surgeon Thomas Hollin",
+   "looking_for": "the person who invented the trumpet"
+  },
+  {
+   "question": "how deep can the nereid submersible dive",
+   "passage": "The Nereid is a crewed research submersible operated by the Ostmark Marine Institute. It can dive to a depth of 4,500 metres with a crew of three. The craft was launched in 1992 and was rebuilt with a new titanium hull in 2015. Its mother ship is the Northern Wren.",
+   "sentence": 2,
+   "quote": "dive to a depth of 4,500 metres",
+   "looking_for": "the maximum diving depth"
+  },
+  {
+   "question": "what does the ferrous mantis robot do",
+   "passage": "The Mantis is a six-legged robot made by Ferrous Robotics. It inspects the inside of large pipes and tanks, crawling along the walls on magnetic feet. The robot carries cameras and an ultrasonic sensor that measures the thickness of the metal. It was first sold in 2019 to oil and water companies.",
+   "sentence": 2,
+   "quote": "inspects the inside of large pipes and tanks",
+   "looking_for": "the job the robot does"
+  },
+  {
+   "question": "when was the morrow mail clock introduced",
+   "passage": "The Morrow mail clock is a large wall clock made for post offices in the province of Morrow. It was introduced in 1868 so that every office would keep the same time as the central post office. The clocks were made by the firm of Pell and Lund. About 300 were made, and many survive in town museums.",
+   "sentence": 2,
+   "quote": "introduced in 1868 so that every office would keep the same time",
+   "looking_for": "the year the clock came into use"
+  },
+  {
+   "question": "who is the current owner of the carrow lass",
+   "passage": "The Carrow Lass is a sailing barge built in 1897 for carrying grain along the coast. She was owned by the Pask family of millers for most of her working life. In 1961 she was sold to the artist Hugh Merrion, who lived aboard her for twenty years. She was then bought by a charter company and used for holidays. Since 2015 she has been owned by the Carrow Barge Trust, which restored her.",
+   "sentence": 5,
+   "quote": "Since 2015 she has been owned by the Carrow Barge Trust",
+   "looking_for": "the present owner of the barge"
+  }
+ ]
+}

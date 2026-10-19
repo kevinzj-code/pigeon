@@ -1,0 +1,395 @@
+{
+ "batch": "l06",
+ "skills": [
+  {
+   "skill": "habitCompletionRate",
+   "category": "organising",
+   "does": "Work out how many days you kept a habit, as a percentage of the days in the period.",
+   "examples": [
+    "how often did I keep this habit",
+    "what is my completion rate this week",
+    "habit rate for a month"
+   ]
+  },
+  {
+   "skill": "prioritizeTasks",
+   "category": "organising",
+   "does": "Rank tasks by importance, urgency and how much effort they take.",
+   "examples": [
+    "prioritise these tasks",
+    "what should I do first",
+    "rank my to do list"
+   ]
+  },
+  {
+   "skill": "rotateAssignments",
+   "category": "organising",
+   "does": "Build a rota that shares tasks evenly between people over several rounds.",
+   "examples": [
+    "make a rota for these chores",
+    "rotate two jobs between two people",
+    "share one task between three people"
+   ]
+  },
+  {
+   "skill": "streakCount",
+   "category": "organising",
+   "does": "Count the days done in a row from a list of dates — the current and longest streak.",
+   "examples": [
+    "how long is my streak",
+    "what is my current run of days",
+    "did I break my streak"
+   ]
+  },
+  {
+   "skill": "timeBlockSchedule",
+   "category": "organising",
+   "does": "Lay tasks out as time blocks through the day, with breaks between them.",
+   "examples": [
+    "block out my morning",
+    "schedule these tasks back to back",
+    "time block a single task"
+   ]
+  },
+  {
+   "skill": "airportCodeLookup",
+   "category": "reference",
+   "does": "Look up an airport by its IATA code, or find the airports serving a city.",
+   "examples": [
+    "what airport is LHR",
+    "which airport code is JFK",
+    "airports in Tokyo"
+   ]
+  },
+  {
+   "skill": "countryLookup",
+   "category": "reference",
+   "does": "Look up a country's capital city, ISO codes, currency and international dialling code.",
+   "examples": [
+    "what is the capital of Switzerland",
+    "what currency does japan use",
+    "dialling code for brazil"
+   ]
+  },
+  {
+   "skill": "currencyLookup",
+   "category": "reference",
+   "does": "Look up what a currency code stands for — its name, symbol and how many decimal places it uses.",
+   "examples": [
+    "what is JPY",
+    "what does GBP stand for",
+    "currency symbol for INR"
+   ]
+  },
+  {
+   "skill": "languageCodeLookup",
+   "category": "reference",
+   "does": "Look up what a two-letter language code stands for, or find the code for a language — ISO 639-1.",
+   "examples": [
+    "what language is code ta",
+    "what is the code for Portuguese",
+    "which language is de"
+   ]
+  },
+  {
+   "skill": "periodicTableLookup",
+   "category": "reference",
+   "does": "Look up a chemical element — magnesium, Mg, or atomic number 12 — for its symbol, mass and group.",
+   "examples": [
+    "look up the element Au",
+    "what is the atomic weight of carbon",
+    "which element is number 26"
+   ]
+  },
+  {
+   "skill": "phoneRegionLookup",
+   "category": "reference",
+   "does": "Find which country an international dialling code belongs to, or the code for a country.",
+   "examples": [
+    "what country is +44",
+    "which country uses dialling code 81",
+    "what is the dialling code for India"
+   ]
+  },
+  {
+   "skill": "timezoneLookup",
+   "category": "reference",
+   "does": "Find the current time and UTC offset in a time zone.",
+   "examples": [
+    "what time is it in Asia/Tokyo",
+    "current time in London",
+    "what is the utc offset in New York"
+   ]
+  },
+  {
+   "skill": "usStateLookup",
+   "category": "reference",
+   "does": "Look up a US state by name or postal abbreviation.",
+   "examples": [
+    "what is the capital of California",
+    "look up TX",
+    "state info for new york"
+   ]
+  },
+  {
+   "skill": "webAnswer",
+   "category": "reference",
+   "does": "Look up a short factual answer on the web, with the page it came from.",
+   "examples": [
+    "who is the governor of Maryland",
+    "look up Ada Lovelace",
+    "what is the James Webb Space Telescope"
+   ]
+  },
+  {
+   "skill": "webSearch",
+   "category": "reference",
+   "does": "Search the web and get back the matching pages, with links.",
+   "examples": [
+    "search the web for the Antikythera mechanism",
+    "find pages about Voyager 1",
+    "web search governor of Maryland"
+   ]
+  },
+  {
+   "skill": "correlation",
+   "category": "statistics",
+   "does": "Measure how strongly two sets of numbers move together, as a correlation coefficient.",
+   "examples": [
+    "how correlated are these two series",
+    "correlation between hours studied and score",
+    "are these inversely related"
+   ]
+  },
+  {
+   "skill": "cumulativeSum",
+   "category": "statistics",
+   "does": "Build a running total as you go, showing the sum after each number.",
+   "examples": [
+    "running total of 10 20 30",
+    "cumulative sum of my monthly savings",
+    "running total as percentages"
+   ]
+  },
+  {
+   "skill": "describeNumbers",
+   "category": "statistics",
+   "does": "Summarise a list of numbers — its mean, median, mode, minimum, maximum, range and spread.",
+   "examples": [
+    "summarise 4, 8, 15, 16, 23, 42",
+    "mean and median of 10 20 30 40",
+    "stats for my test scores 88 92 79 92 85"
+   ]
+  },
+  {
+   "skill": "findOutliers",
+   "category": "statistics",
+   "does": "Spot the values sitting way off from the rest of a set.",
+   "examples": [
+    "find the outliers in these numbers",
+    "any outliers in this data",
+    "spot unusual values by z-score"
+   ]
+  },
+  {
+   "skill": "histogramBins",
+   "category": "statistics",
+   "does": "Bucket numbers into a number of equal-width ranges and count how many fall in each.",
+   "examples": [
+    "bin these numbers into 5 groups",
+    "histogram of these scores in 4 bins",
+    "distribution of these ages in 3 bins"
+   ]
+  },
+  {
+   "skill": "linearRegression",
+   "category": "statistics",
+   "does": "Fit a straight line through a set of points and give its slope, intercept and fit.",
+   "examples": [
+    "fit a line through these points",
+    "trend line for these sales figures",
+    "predict the value at x = 10"
+   ]
+  },
+  {
+   "skill": "movingAverage",
+   "category": "statistics",
+   "does": "Smooth a series of numbers by averaging over a sliding window.",
+   "examples": [
+    "3 point moving average of these numbers",
+    "smooth these sales figures over 4 months",
+    "moving average of a noisy series"
+   ]
+  },
+  {
+   "skill": "percentile",
+   "category": "statistics",
+   "does": "Find the value at a given percentile in a set of numbers.",
+   "examples": [
+    "what is the 90th percentile of these response times",
+    "median of 1 2 3 4 5",
+    "25th percentile of these scores"
+   ]
+  },
+  {
+   "skill": "quartiles",
+   "category": "statistics",
+   "does": "Split a set of numbers into quartiles and give the interquartile range.",
+   "examples": [
+    "quartiles of 1 through 8",
+    "interquartile range of these scores",
+    "quartiles for a skewed set"
+   ]
+  },
+  {
+   "skill": "rankValues",
+   "category": "statistics",
+   "does": "Put numbers in order and give each its rank position.",
+   "examples": [
+    "rank these scores",
+    "rank these with a tie",
+    "rank teams by points"
+   ]
+  },
+  {
+   "skill": "weightedAverage",
+   "category": "statistics",
+   "does": "Average a set of values where some count for more than others.",
+   "examples": [
+    "weighted average of 80 and 90 where the second counts double",
+    "my grades 72 85 91 with credits 10 20 30",
+    "weighted average where all weights are equal"
+   ]
+  },
+  {
+   "skill": "zScores",
+   "category": "statistics",
+   "does": "Standardise a set of numbers — how many standard deviations each value sits from the mean.",
+   "examples": [
+    "z-scores for these test results",
+    "how unusual is each of these",
+    "standardise these two values"
+   ]
+  },
+  {
+   "skill": "averageWordLength",
+   "category": "text",
+   "does": "Work out the typical word size in a text — its average word length.",
+   "examples": [
+    "average word length of this sentence",
+    "how long are the words on average",
+    "mean word length here"
+   ]
+  },
+  {
+   "skill": "cleanTranscript",
+   "category": "text",
+   "does": "Strip the timestamps, cue numbers and repeated speaker labels out of an auto-generated transcript, rejoin the sentences its captions cut in half, and drop the stutters and filler words.",
+   "examples": [
+    "strip the timestamps out of this transcript",
+    "clean up this auto generated transcript",
+    "tidy this srt subtitle file into readable text"
+   ]
+  },
+  {
+   "skill": "convertCase",
+   "category": "text",
+   "does": "Change text to another capitalisation — title case, upper, lower, camelCase, snake_case.",
+   "examples": [
+    "make this title case: the lord of the rings",
+    "convert \"user first name\" to camelCase",
+    "snake case for \"My Long Variable\""
+   ]
+  },
+  {
+   "skill": "countCharacters",
+   "category": "text",
+   "does": "Count the characters in a text — with spaces, without spaces, and how many are letters or digits.",
+   "examples": [
+    "how many characters is this",
+    "character count with spaces and without",
+    "will this fit in 280 characters"
+   ]
+  },
+  {
+   "skill": "countLines",
+   "category": "text",
+   "does": "Count the lines in a block of text, separating blank lines from lines with content.",
+   "examples": [
+    "how many lines is this",
+    "count lines including the blank ones",
+    "line count of a single line"
+   ]
+  },
+  {
+   "skill": "countOccurrences",
+   "category": "text",
+   "does": "Count how many times one word or phrase repeats inside a text.",
+   "examples": [
+    "how many times does \"the\" appear in this",
+    "count how often \"error\" shows up in the log",
+    "count Cat case-sensitively"
+   ]
+  },
+  {
+   "skill": "countSentences",
+   "category": "text",
+   "does": "Count the sentences in a text, and the average sentence length.",
+   "examples": [
+    "how many sentences is this",
+    "count sentences in one line",
+    "sentence count with an abbreviation in it"
+   ]
+  },
+  {
+   "skill": "countWords",
+   "category": "text",
+   "does": "Measure how long a piece of text is: its total words, characters, sentences and paragraphs.",
+   "examples": [
+    "how many words is this paragraph",
+    "word count for a two sentence note",
+    "count the words in my two paragraphs"
+   ]
+  },
+  {
+   "skill": "detectLanguage",
+   "category": "text",
+   "does": "Guess which language a piece of text is written in.",
+   "examples": [
+    "what language is this",
+    "identify the language of this sentence",
+    "which language is this written in"
+   ]
+  },
+  {
+   "skill": "detectRepetition",
+   "category": "text",
+   "does": "Find phrases a piece of text repeats.",
+   "examples": [
+    "find repeated phrases",
+    "is this text repetitive",
+    "check for repeated phrases of two words"
+   ]
+  },
+  {
+   "skill": "diffText",
+   "category": "text",
+   "does": "Compare two versions of a text and show what was added and removed, by line or by word.",
+   "examples": [
+    "show me the line by line changes",
+    "diff these two paragraphs by word",
+    "compare the old and new list"
+   ]
+  },
+  {
+   "skill": "escapeHtml",
+   "category": "text",
+   "does": "Make text safe to drop into HTML, turning angle brackets and ampersands into entities — or turn escaped ones back.",
+   "examples": [
+    "escape this html: <b>bold</b>",
+    "escape an ampersand",
+    "unescape &lt;p&gt;hi&lt;/p&gt;"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+[
+ {
+  "recipe": {
+   "eyes": "happy",
+   "mouth": "grin",
+   "brows": null,
+   "extras": [
+    "halo"
+   ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M7.5 10.5Q9 8 10.5 10.5\"/><path d=\"M13.5 10.5Q15 8 16.5 10.5\"/><path d=\"M7.5 13.5h9Q16 18 12 18T7.5 13.5\"/><ellipse cx=\"12\" cy=\"1.5\" rx=\"4.5\" ry=\"1.5\"/></svg>"
+ },
+ {
+  "recipe": {
+   "eyes": "wide",
+   "mouth": "slight",
+   "brows": "angry",
+   "extras": [
+    "tears",
+    "tear1"
+   ]
+  },
+  "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"9\"/><circle cx=\"9\" cy=\"10\" r=\"1.5\"/><circle cx=\"15\" cy=\"10\" r=\"1.5\"/><path d=\"M7 7l3 1.5\"/><path d=\"M17 7l-3 1.5\"/><path d=\"M9.5 14.5Q12 16 14.5 14.5\"/><path d=\"M8 12.5L6.5 16\"/><path d=\"M16 12.5L17.5 16\"/><path d=\"M16 12.5L17.5 16\"/></svg>"
+ }
+]

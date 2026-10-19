@@ -1,0 +1,395 @@
+{
+ "batch": "l01",
+ "pairs": [
+  {
+   "skill": "convertAngle",
+   "no": "he did a complete 180 degrees on the plan after one phone call",
+   "yes": "how many turns is 540 degrees"
+  },
+  {
+   "skill": "convertAngle",
+   "no": "she's always working some angle to get ahead at work",
+   "yes": "convert an angle of 30 arcminutes to degrees"
+  },
+  {
+   "skill": "convertArea",
+   "no": "our flat is barely 40 square metres and it still costs a fortune",
+   "yes": "how big is a 40 square metre flat in square feet"
+  },
+  {
+   "skill": "convertArea",
+   "no": "my grandad farmed a few hundred acres up north before he retired",
+   "yes": "how many hectares is 300 acres"
+  },
+  {
+   "skill": "convertBase",
+   "no": "there are 10 kinds of people, those who get binary and those who don't",
+   "yes": "convert binary 1010 to decimal"
+  },
+  {
+   "skill": "convertBase",
+   "no": "we never really got to first base with the investors",
+   "yes": "write 100 in base 5"
+  },
+  {
+   "skill": "convertDataSize",
+   "no": "my phone keeps nagging that its 64 GB of storage is almost full",
+   "yes": "how many MB is 64 GB"
+  },
+  {
+   "skill": "convertDataSize",
+   "no": "that training day was so dense my brain ran out of megabytes",
+   "yes": "convert 750 megabytes to gigabytes"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "no": "the old estate only managed about 35 mpg on a good day",
+   "yes": "35 mpg in kilometres per litre"
+  },
+  {
+   "skill": "convertFuelEconomy",
+   "no": "the hybrid sips fuel compared with the van we had before",
+   "yes": "convert fuel use of 5.2 l/100km to mpg"
+  },
+  {
+   "skill": "convertLength",
+   "no": "she went the extra mile for us when the movers didn't turn up",
+   "yes": "how many kilometres is a mile and a half"
+  },
+  {
+   "skill": "convertLength",
+   "no": "my brother is six foot four and still bangs his head on doorframes",
+   "yes": "six foot four in centimetres"
+  },
+  {
+   "skill": "convertMass",
+   "no": "lost half a stone since january and my jeans finally fit",
+   "yes": "what is half a stone in kilograms"
+  },
+  {
+   "skill": "convertMass",
+   "no": "the bag of flour weighed a ton by the time i got it home",
+   "yes": "how many grams is a 3 pound bag of flour"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "no": "super bowl LX was the first one i ever watched start to finish",
+   "yes": "convert LX to a normal number"
+  },
+  {
+   "skill": "convertRomanNumeral",
+   "no": "the clock in our hall has roman numerals and half the family just guess the time",
+   "yes": "write 1999 in roman numerals"
+  },
+  {
+   "skill": "convertSpeed",
+   "no": "the motorway was down to 20 mph the whole way home",
+   "yes": "20 mph in metres per second"
+  },
+  {
+   "skill": "convertSpeed",
+   "no": "life moves at a hundred miles an hour these days",
+   "yes": "100 miles an hour in kilometres per hour"
+  },
+  {
+   "skill": "convertTemperature",
+   "no": "it hit 35 degrees in the garden and the tomatoes loved it",
+   "yes": "35 degrees celsius in fahrenheit"
+  },
+  {
+   "skill": "convertTemperature",
+   "no": "the temperature in that meeting dropped the second he walked in",
+   "yes": "what temperature is 300 kelvin in celsius"
+  },
+  {
+   "skill": "convertTime",
+   "no": "the film ran 190 minutes and i felt every one of them",
+   "yes": "190 minutes in hours and minutes"
+  },
+  {
+   "skill": "convertTime",
+   "no": "we've been waiting weeks for the boiler man and he still hasn't come",
+   "yes": "how many days are in 6 weeks"
+  },
+  {
+   "skill": "convertVolume",
+   "no": "we got through four pints at the quiz and still came last",
+   "yes": "4 pints in litres"
+  },
+  {
+   "skill": "convertVolume",
+   "no": "this recipe wants a whole cup of sugar, which feels excessive",
+   "yes": "1 cup in tablespoons"
+  },
+  {
+   "skill": "numberToWords",
+   "no": "she had a few choice words for the referee after the match",
+   "yes": "write 2750 in words"
+  },
+  {
+   "skill": "numberToWords",
+   "no": "the cheque bounced and the bank charged us £25 for the pleasure",
+   "yes": "write 325 out in words for a cheque"
+  },
+  {
+   "skill": "buildQueryString",
+   "no": "my whole week went on arguing about query strings with the backend team",
+   "yes": "build me a query string with city=leeds, beds=3 and max=900"
+  },
+  {
+   "skill": "buildQueryString",
+   "no": "she had one small query about the invoice and it took an hour",
+   "yes": "make a query string with q=red shoes and size=9"
+  },
+  {
+   "skill": "columnMath",
+   "no": "the numbers in the expenses column never quite add up for me",
+   "yes": "total the expenses column in this table"
+  },
+  {
+   "skill": "columnMath",
+   "no": "he's always been pretty average at darts, bless him",
+   "yes": "average the darts column: 45, 60, 26, 100"
+  },
+  {
+   "skill": "diffJson",
+   "no": "the two versions of the app feel no different to me",
+   "yes": "what changed between these two versions: {\"v\":1,\"debug\":true} and {\"v\":2}"
+  },
+  {
+   "skill": "diffJson",
+   "no": "my sister and i always compare notes after a family wedding",
+   "yes": "compare these two json files and tell me what changed"
+  },
+  {
+   "skill": "filterRows",
+   "no": "the coffee filter split and there were grounds everywhere",
+   "yes": "filter the rows to just the ones where price is under 5"
+  },
+  {
+   "skill": "filterRows",
+   "no": "we had a proper row about the dishes last night",
+   "yes": "drop every row where status is cancelled"
+  },
+  {
+   "skill": "flattenJson",
+   "no": "the cake came out completely flat and the kids still ate it",
+   "yes": "make this json flat with dot path keys: {\"a\":{\"b\":1,\"c\":2}}"
+  },
+  {
+   "skill": "flattenJson",
+   "no": "the settings menu is nested so deep i gave up looking",
+   "yes": "flatten this nested settings json into dot paths"
+  },
+  {
+   "skill": "formatJson",
+   "no": "my laptop died and i had to format the whole drive",
+   "yes": "format this json with 2 space indents"
+  },
+  {
+   "skill": "formatJson",
+   "no": "the new quiz format is so much better than the old one",
+   "yes": "format this json nicely: {\"name\":\"Ana\",\"tags\":[\"x\",\"y\"]}"
+  },
+  {
+   "skill": "getPath",
+   "no": "we took the coastal path and got soaked within ten minutes",
+   "yes": "get the value at path settings.theme from this json"
+  },
+  {
+   "skill": "getPath",
+   "no": "you never get the first email from her, only the follow-up",
+   "yes": "get user.email out of this json"
+  },
+  {
+   "skill": "groupBy",
+   "no": "the group chat has been going off all morning about the wedding",
+   "yes": "group these sales by region and total each one"
+  },
+  {
+   "skill": "groupBy",
+   "no": "my team always ends up bottom of the table",
+   "yes": "total the points for each team in this table"
+  },
+  {
+   "skill": "parseCsv",
+   "no": "the bank only lets me download statements as a csv, which is useless to me",
+   "yes": "parse this csv: date,amount\n2026-09-01,40\n2026-09-02,12"
+  },
+  {
+   "skill": "parseCsv",
+   "no": "his handwriting is impossible to parse, even his wife gives up",
+   "yes": "parse this csv text into rows: id,name\n1,Bo\n2,Cy"
+  },
+  {
+   "skill": "parseKeyValue",
+   "no": "the key to a good roast is resting it properly",
+   "yes": "parse these key value pairs: host=local, port=8080"
+  },
+  {
+   "skill": "parseKeyValue",
+   "no": "the settings on this new oven are completely baffling",
+   "yes": "read these settings into data: [db]\nuser=admin\ntimeout=30"
+  },
+  {
+   "skill": "parseMarkdownTable",
+   "no": "the kitchen table is covered in paperwork again",
+   "yes": "parse this markdown table: | name | age |\n|---|---|\n| Ana | 31 |"
+  },
+  {
+   "skill": "parseMarkdownTable",
+   "no": "my notes app keeps turning my asterisks into bold markdown",
+   "yes": "read this markdown table back into rows"
+  },
+  {
+   "skill": "parseQueryString",
+   "no": "that link he sent had a ridiculous string of junk on the end",
+   "yes": "parse the query string on example.com/search?q=boots&page=3"
+  },
+  {
+   "skill": "parseQueryString",
+   "no": "every link my aunt sends has tracking parameters glued to the end",
+   "yes": "list the parameters in shop.com/item?id=42&ref=mail and their values"
+  },
+  {
+   "skill": "pivotRows",
+   "no": "the company had to pivot to selling masks during lockdown",
+   "yes": "pivot these sales by region and month"
+  },
+  {
+   "skill": "pivotRows",
+   "no": "she gets cross every time the rota changes",
+   "yes": "cross-tabulate the rota by person and day"
+  },
+  {
+   "skill": "selectColumns",
+   "no": "she writes a weekly column for the local paper",
+   "yes": "keep just the date column and the total column"
+  },
+  {
+   "skill": "selectColumns",
+   "no": "you can't pick your family, as they say",
+   "yes": "pick the name and phone columns and rename phone to mobile"
+  },
+  {
+   "skill": "setPath",
+   "no": "my heart is set on a cottage by the sea",
+   "yes": "set address.city to Leeds in this json"
+  },
+  {
+   "skill": "setPath",
+   "no": "the timeout at the match lasted longer than the actual play",
+   "yes": "in this config json, change timeout from 10 to 45"
+  },
+  {
+   "skill": "sortObjectKeys",
+   "no": "lost my keys again and found them in the fridge",
+   "yes": "sort the keys of {\"b\":1,\"a\":2,\"c\":3} alphabetically"
+  },
+  {
+   "skill": "sortObjectKeys",
+   "no": "the shed is a mess of nested boxes that nobody has opened in years",
+   "yes": "sort the keys in this json alphabetically, nested ones too"
+  },
+  {
+   "skill": "sortRows",
+   "no": "she's a good sort, always the first to help",
+   "yes": "sort these rows by price, cheapest first"
+  },
+  {
+   "skill": "sortRows",
+   "no": "the queue was in no particular order and people were cross about it",
+   "yes": "order this table by date, oldest first"
+  },
+  {
+   "skill": "toCsv",
+   "no": "accounts still sends everything as a csv attachment nobody opens",
+   "yes": "give me this table as csv text, quoting any commas"
+  },
+  {
+   "skill": "toCsv",
+   "no": "the spreadsheet my mum made has columns running off the screen",
+   "yes": "export this spreadsheet table as comma separated values"
+  },
+  {
+   "skill": "toMarkdownTable",
+   "no": "the pub quiz table had our names spelt wrong again",
+   "yes": "put these quiz scores in a markdown table: Ana 9, Bo 7"
+  },
+  {
+   "skill": "toMarkdownTable",
+   "no": "the readme is written in markdown and looks awful in notepad",
+   "yes": "draw this data as a markdown table: name,score\nAna,9\nBo,7"
+  },
+  {
+   "skill": "transposeTable",
+   "no": "the pianist had to transpose the whole song for her voice",
+   "yes": "transpose this table so the months are rows"
+  },
+  {
+   "skill": "transposeTable",
+   "no": "the toddler flipped the coffee table over in one go",
+   "yes": "flip this table so the rows become columns"
+  },
+  {
+   "skill": "unflattenJson",
+   "no": "the birds nested in the gutter again this spring",
+   "yes": "rebuild nested json from these dotted keys: a.b=1, a.c=2"
+  },
+  {
+   "skill": "unflattenJson",
+   "no": "my sandwich was squashed flat in the bag and i ate it anyway",
+   "yes": "unflatten this flat json back into nested objects"
+  },
+  {
+   "skill": "addBusinessDays",
+   "no": "five working days of meetings and i've done no actual work",
+   "yes": "what date is five working days after friday 2 october 2026"
+  },
+  {
+   "skill": "addBusinessDays",
+   "no": "the refund apparently takes three business days, which means next month",
+   "yes": "add three business days to 2026-12-23"
+  },
+  {
+   "skill": "addDuration",
+   "no": "six months from now i'll hopefully be living somewhere quieter",
+   "yes": "what date is six months from 2026-10-12"
+  },
+  {
+   "skill": "addDuration",
+   "no": "we've been together two years next week and it's flown by",
+   "yes": "what's the date two years and one week after 2024-06-30"
+  },
+  {
+   "skill": "ageFromDate",
+   "no": "my nan was born in 1931 and still beats me at cards",
+   "yes": "how old is my nan if she was born 3 march 1931"
+  },
+  {
+   "skill": "ageFromDate",
+   "no": "he acts his age about once a year, on his birthday",
+   "yes": "work out my age from a birthday of 12 august 1988"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "no": "only twelve working days until my holiday and i'm counting them",
+   "yes": "how many working days between 2026-10-12 and 2026-11-20"
+  },
+  {
+   "skill": "businessDaysBetween",
+   "no": "business is always slow between christmas and new year",
+   "yes": "count the business days between 1 december and 24 december 2026"
+  },
+  {
+   "skill": "convertTimezone",
+   "no": "my sister in sydney keeps calling at 3am my time",
+   "yes": "what is 3am london time in sydney on 2026-11-01"
+  },
+  {
+   "skill": "convertTimezone",
+   "no": "jet lag from the new york trip wrecked me for a week",
+   "yes": "convert 6pm new york time to tokyo time on 2026-12-01"
+  }
+ ]
+}

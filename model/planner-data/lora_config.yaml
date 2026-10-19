@@ -1,0 +1,17 @@
+# The shape of every LoRA this project has trained — planner, category, and the
+# Lane B personas. mlx-lm reads rank and scale ONLY from a file like this; there
+# is no command-line flag for either.
+#
+# rank 16 / scale 20 gives alpha = 320, which is the number
+# scripts/convert-planner-adapter.sh asserts when it reads the finished GGUF
+# back: mlx-lm applies `scale` directly while PEFT applies lora_alpha / r, so
+# the two only agree when lora_alpha = scale x rank. An adapter trained at a
+# different rank loads cleanly and is scaled wrong, which is why the assert is
+# there and why this file is shared rather than copied per run.
+#
+# No `keys:` restriction. Restricting the trained projections is a Qwen3.5
+# measure, for its hybrid GatedDeltaNet layers. Qwen2.5 is pure attention.
+lora_parameters:
+  rank: 16
+  dropout: 0.0
+  scale: 20.0
